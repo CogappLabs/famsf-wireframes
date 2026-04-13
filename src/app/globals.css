@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+	--font-mono: "Menlo", "Consolas", "Monaco", monospace;
+
+	/*
+	 * Typographic scale
+	 * display  — 2.25rem, hero headings
+	 * page     — 1.75rem, page titles (h1)
+	 * section  — 1.25rem, section headings (h2), stat values
+	 * card     — 1.125rem, card titles (h3)
+	 * body     — 1rem, body copy, buttons, inputs
+	 * meta     — 0.875rem, captions, descriptions, secondary text
+	 * label    — 0.75rem, uppercase kickers, badges, tags
+	 */
+	--text-display: 2.25rem;
+	--text-display--line-height: 1.2;
+	--text-display--letter-spacing: -0.01em;
+
+	--text-page: 1.75rem;
+	--text-page--line-height: 1.25;
+	--text-page--letter-spacing: -0.01em;
+
+	--text-section: 1.25rem;
+	--text-section--line-height: 1.35;
+
+	--text-card: 1.125rem;
+	--text-card--line-height: 1.35;
+
+	--text-body: 1rem;
+	--text-body--line-height: 1.7;
+
+	--text-meta: 0.875rem;
+	--text-meta--line-height: 1.4;
+
+	--text-label: 0.75rem;
+	--text-label--line-height: 1.2;
+	--text-label--letter-spacing: 0.08em;
+
+	/*
+	 * Layout containers (max-width constraints)
+	 * Use via Container component: <Container size="md">
+	 * xl — 1360px, full-width content areas
+	 * lg — 1200px, wide content
+	 * md —  880px, text-heavy pages, forms
+	 * sm —  720px, narrow content, index pages
+	 * xs —  328px, single-column cards
+	 */
+	--container-xl: 1360px;
+	--container-lg: 1200px;
+	--container-md: 880px;
+	--container-sm: 720px;
+	--container-xs: 328px;
+
+	/* Gutters (gap between grid columns) */
+	--gutter-xl: 32px;
+	--gutter-lg: 24px;
+	--gutter-sm: 20px;
+	--gutter-xs: 12px;
+
+	/* Margins (horizontal page padding) */
+	--margin-xl: 40px;
+	--margin-sm: 24px;
+	--margin-xs: 16px;
+}

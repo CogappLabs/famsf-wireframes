@@ -1,0 +1,6 @@
+pre-commit:
+  commands:
+    biome:
+      glob: "*.{ts,tsx,js,jsx,json}"
+      run: npx biome check --fix {staged_files}
+      stage_fixed: true
