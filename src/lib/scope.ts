@@ -88,6 +88,16 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Geography, culture, material/technique filters are high priority",
 		issueUrl: issue("CW-41"),
 	},
+	"search-results/Attribution qualifiers": {
+		mvp: true,
+		note: "'possibly by', 'after', 'circle of' shown in result thumbnails — not just object page. Stakeholder Must Have (European Paintings + American Art). Data exists in TMS; display task only.",
+		issueUrl: issue("CW-43"),
+	},
+	"search-results/Gallery location filter": {
+		mvp: true,
+		note: "Filter by which physical gallery objects are currently on view in. #1 visitor motivator per Hotjar (44% — 'check what is on view'). Education interview high-priority ask.",
+		issueUrl: issue("CW-41"),
+	},
 	"search-results/Results grid": { mvp: true, issueUrl: issue("CW-43") },
 	"search-results/Dynamic filtering": {
 		mvp: true,
@@ -120,6 +130,11 @@ export const scope: Record<string, ScopeEntry> = {
 	"object-detail/Label text": {
 		mvp: true,
 		note: "Expanded by default, with content source label",
+		issueUrl: issue("CW-49"),
+	},
+	"object-detail/Content source": {
+		mvp: true,
+		note: "Source pill on label text — 'current gallery label', 'web essay', etc. CIDA + Education flagged as Must Have for educator/researcher trust.",
 		issueUrl: issue("CW-49"),
 	},
 	"object-detail/Provenance": { mvp: true, issueUrl: issue("CW-50") },
@@ -404,6 +419,21 @@ export const scope: Record<string, ScopeEntry> = {
 	"object-detail/Physical description": {
 		mvp: true,
 		note: "Marks, Inscriptions, Signed, Labels, Identifying Description — all already indexed by collection-flow (signed/inscribed/markings/description/label_text). Trivial to surface.",
+		issueUrl: issue("CW-49"),
+	},
+	"object-detail/Museum location": {
+		mvp: true,
+		note: "de Young vs Legion of Honor — recurring pain point across stakeholder synthesis, gap analysis, and Hotjar. Field is indexed; display task only.",
+		issueUrl: issue("CW-49"),
+	},
+	"collection-area/Museum location": {
+		mvp: true,
+		note: "Clarify which museum (de Young / Legion) houses each collection area. Gap-analysis recurring theme — visitors confused about institution-collection mapping.",
+		issueUrl: issue("CW-30"),
+	},
+	"object-detail/Uncertainty qualifiers": {
+		mvp: true,
+		note: "Surface 'possibly by X' attribution prefix on object page. CIDA Must Have — field already exists in TMS attribution data. Researcher trust signal.",
 		issueUrl: issue("CW-49"),
 	},
 	"object-detail/Constituents": {

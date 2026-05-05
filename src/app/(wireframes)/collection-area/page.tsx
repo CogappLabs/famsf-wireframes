@@ -83,9 +83,11 @@ export default function CollectionAreaPage() {
 						<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
 							European Decorative Arts and Sculpture
 						</h1>
-						<p className="mt-2 font-mono text-body text-gray-500">
-							{t("area.museums")}
-						</p>
+						<ScopeMark label="Museum location">
+							<p className="mt-2 font-mono text-body text-gray-500">
+								{t("area.museums")}
+							</p>
+						</ScopeMark>
 						<ImagePlaceholder
 							aspect="21/9"
 							label="[Gallery installation — updated with current display]"

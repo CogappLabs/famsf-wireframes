@@ -18,6 +18,7 @@ const VIEW_VARIATIONS = [
 	{ key: "grid", label: "Grid" },
 	{ key: "list", label: "List" },
 	{ key: "zero-results", label: "Zero results" },
+	{ key: "ai-search", label: "AI search" },
 ] as const;
 
 // ── Facet configuration ─────────────────────────────────────────────
@@ -278,9 +279,11 @@ function ResultsGrid() {
 						</h3>
 						<p className="mt-0.5 font-mono text-label text-gray-500">
 							{work.attribution && (
-								<span className="italic text-gray-400">
-									{work.attribution}{" "}
-								</span>
+								<ScopeMark label="Attribution qualifiers">
+									<span className="italic text-gray-400">
+										{work.attribution}{" "}
+									</span>
+								</ScopeMark>
 							)}
 							{work.artist}
 						</p>
@@ -320,7 +323,9 @@ function ResultsList() {
 						<h3 className="font-mono text-body font-medium">{work.title}</h3>
 						<p className="mt-0.5 font-mono text-meta text-gray-500">
 							{work.attribution && (
-								<span className="italic">{work.attribution} </span>
+								<ScopeMark label="Attribution qualifiers">
+									<span className="italic">{work.attribution} </span>
+								</ScopeMark>
 							)}
 							{work.artist}, {work.date}
 						</p>
@@ -454,6 +459,9 @@ function SectionLabelInline({ children }: { children: React.ReactNode }) {
 function SearchResultsContent() {
 	const variation = usePageVariations(VIEW_VARIATIONS);
 	const [openFacet, setOpenFacet] = useState<string | null>(null);
+	const [searchMode, setSearchMode] = useState<
+		"keyword" | "semantic" | "visual"
+	>("keyword");
 
 	const activeFacet = FACETS.find((f) => f.id === openFacet);
 
@@ -466,59 +474,61 @@ function SearchResultsContent() {
 					className="border-b border-gray-300 py-6"
 				>
 					<Container>
-						<ScopeMark label="Search modes">
-							<div className="mb-3 flex flex-wrap items-center gap-2">
-								<button
-									type="button"
-									className="border-2 border-gray-900 px-3 py-1.5 font-mono text-meta font-medium"
-								>
-									{t("search.modeKeyword")}
-								</button>
-								<button
-									type="button"
-									className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-600 hover:border-gray-500"
-								>
-									{t("search.modeSemantic")}
-								</button>
-								<button
-									type="button"
-									className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-600 hover:border-gray-500"
-								>
-									{t("search.modeVisual")}
-								</button>
-								<span className="ml-2 font-mono text-label text-gray-400">
+						{variation === "ai-search" ? (
+							<ScopeMark label="Search modes">
+								<CollectionAutocomplete
+									leadingSlot={
+										<select
+											aria-label="Search mode"
+											className="border border-gray-300 bg-white px-3 py-3 font-mono text-meta text-gray-600 hover:border-gray-500 focus:outline-none"
+											value={searchMode}
+											onChange={(e) =>
+												setSearchMode(
+													e.target.value as "keyword" | "semantic" | "visual",
+												)
+											}
+										>
+											<option value="keyword">{t("search.modeKeyword")}</option>
+											<option value="semantic">
+												{t("search.modeSemantic")}
+											</option>
+											<option value="visual">{t("search.modeVisual")}</option>
+										</select>
+									}
+								/>
+								<p className="mt-1.5 font-mono text-label text-gray-400">
 									AI-powered &middot; computer-vision
-								</span>
-							</div>
-						</ScopeMark>
-						<CollectionAutocomplete />
+								</p>
+							</ScopeMark>
+						) : (
+							<CollectionAutocomplete />
+						)}
 						<ScopeMark label="Accession-number tip">
 							<p className="mt-2 font-mono text-label text-gray-500">
 								{t("search.accessionTip")}
 							</p>
 						</ScopeMark>
-						<ScopeMark label="Visual search affordances">
-							<div className="mt-2 flex flex-wrap items-center gap-2 border border-dashed border-gray-300 px-3 py-2">
-								<span className="font-mono text-label uppercase tracking-wide text-gray-400">
-									Try
-								</span>
-								<button
-									type="button"
-									className="border border-gray-300 px-2 py-1 font-mono text-label text-gray-600 hover:border-gray-500"
-								>
-									{t("search.visualUpload")}
-								</button>
-								<button
-									type="button"
-									className="border border-gray-300 px-2 py-1 font-mono text-label text-gray-600 hover:border-gray-500"
-								>
-									{t("search.visualCamera")}
-								</button>
-								<span className="ml-2 font-mono text-label text-gray-500">
-									{t("search.visualHint")}
-								</span>
-							</div>
-						</ScopeMark>
+						{variation === "ai-search" && searchMode === "visual" && (
+							<ScopeMark label="Visual search affordances">
+								<div className="mt-3 flex flex-wrap items-center gap-3 border-t border-gray-200 pt-3">
+									<span className="font-mono text-label text-gray-500">
+										{t("search.visualHint")}
+									</span>
+									<button
+										type="button"
+										className="border border-gray-300 px-3 py-1.5 font-mono text-label text-gray-700 hover:border-gray-500"
+									>
+										{t("search.visualUpload")}
+									</button>
+									<button
+										type="button"
+										className="border border-gray-300 px-3 py-1.5 font-mono text-label text-gray-700 hover:border-gray-500"
+									>
+										{t("search.visualCamera")}
+									</button>
+								</div>
+							</ScopeMark>
+						)}
 					</Container>
 				</WireframeSection>
 
@@ -530,22 +540,32 @@ function SearchResultsContent() {
 					<Container>
 						<ScopeMark label="Dynamic filtering">
 							<div className="flex flex-wrap items-center gap-2">
-								{FACETS.map((facet) => (
-									<button
-										key={facet.id}
-										type="button"
-										onClick={() =>
-											setOpenFacet(openFacet === facet.id ? null : facet.id)
-										}
-										className={`border px-3 py-1.5 font-mono text-meta transition-colors ${
-											openFacet === facet.id
-												? "border-gray-500 bg-gray-100 font-medium"
-												: "border-gray-300 hover:border-gray-500 hover:bg-gray-50"
-										}`}
-									>
-										{facet.label} &#x25BE;
-									</button>
-								))}
+								{FACETS.map((facet) => {
+									const button = (
+										<button
+											key={facet.id}
+											type="button"
+											onClick={() =>
+												setOpenFacet(openFacet === facet.id ? null : facet.id)
+											}
+											className={`border px-3 py-1.5 font-mono text-meta transition-colors ${
+												openFacet === facet.id
+													? "border-gray-500 bg-gray-100 font-medium"
+													: "border-gray-300 hover:border-gray-500 hover:bg-gray-50"
+											}`}
+										>
+											{facet.label} &#x25BE;
+										</button>
+									);
+									if (facet.id === "gallery") {
+										return (
+											<ScopeMark key={facet.id} label="Gallery location filter">
+												{button}
+											</ScopeMark>
+										);
+									}
+									return button;
+								})}
 
 								{/* Date range */}
 								<ScopeMark label="Date range filter">

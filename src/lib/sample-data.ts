@@ -4,7 +4,12 @@
  * A small representative set drawn from the real FAMSF collection
  * (144,511 objects). Enough to demonstrate search, browse, and
  * detail page behaviour without loading the full dataset.
+ *
+ * `topViewedObjects` is generated from real ES records for the top
+ * 50 GA-viewed artworks — see scripts/fetch-top-artworks.ts.
  */
+
+import { topViewedObjects } from "./sample-data.generated";
 
 // ── Types ───────────────────────────────────────────────────────────
 
@@ -103,6 +108,27 @@ export interface SampleObject {
 	style?: string;
 	movement?: string;
 
+	// Acquisition
+	accessionDate?: string;
+
+	// Numeric date range — drives date-range search; coverage ~72% in TMS export
+	dateBegin?: number;
+	dateEnd?: number;
+
+	// Print-specific (Achenbach) — edition info, e.g. "3/50"
+	edition?: string;
+
+	// Multiple structured measurements — overall, canvas, frame, with frame, weight.
+	// Currently `dimensions` is a flat single-line string; this exposes the breakdown.
+	dimensionsStructured?: {
+		description: string;
+		displayDimensions: string;
+	}[];
+
+	// Controlled-vocab place-of-creation (term_place_of_creation in TMS) — preferred
+	// over free-text `geography` where present. Hierarchical strings, deepest first.
+	placeOfCreation?: string[];
+
 	// Rights
 	copyrightStatus?: CopyrightStatus;
 	copyrightHolder?: string;
@@ -157,10 +183,25 @@ export const objects: SampleObject[] = [
 			},
 		],
 		date: "1871",
+		dateBegin: 1871,
+		dateEnd: 1871,
 		medium: "Oil on canvas",
 		technique: "Oil painting",
 		dimensions: "39.5 \u00d7 55.3 cm (15 9/16 \u00d7 21 3/4 in.)",
+		dimensionsStructured: [
+			{
+				description: "Canvas",
+				displayDimensions: "39.5 \u00d7 55.3 cm (15 9/16 \u00d7 21 3/4 in.)",
+			},
+			{
+				description: "Framed",
+				displayDimensions:
+					"61 \u00d7 76.8 \u00d7 7.6 cm (24 \u00d7 30 1/4 \u00d7 3 in.)",
+			},
+		],
+		placeOfCreation: ["Pontoise", "\u00cele-de-France", "France"],
 		creditLine: "Gift of Prentis Cobb Hale",
+		accessionDate: "1974",
 		accession: "1974.5",
 		alternateAccessions: ["1974.005"],
 		department: "European Paintings",
@@ -466,6 +507,7 @@ export const objects: SampleObject[] = [
 		onView: false,
 		copyrightStatus: "copyright-unknown",
 	},
+	...topViewedObjects,
 ];
 
 // ── Exhibitions (per object) ────────────────────────────────────────

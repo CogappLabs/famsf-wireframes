@@ -59,7 +59,8 @@ export default function VariationToggle({
 			params.set(param, key);
 		}
 		const qs = params.toString();
-		router.replace(qs ? `${pathname}?${qs}` : pathname);
+		const url = qs ? `${pathname}?${qs}` : pathname;
+		router.push(url, { scroll: false });
 	}
 
 	return (

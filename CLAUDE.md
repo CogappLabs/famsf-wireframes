@@ -122,8 +122,38 @@ The login page is at `/login`. Authenticated sessions last 30 days via an HMAC-s
 
 ## Discovery documents
 
-- `docs/collection-project-2026-stakeholder-interview-synthesis.md` — stakeholder interview findings (8 themes, feature candidates)
-- `docs/collection-project-2026-content-audit-strategy.md` — content audit plan (due May 2026)
+All Discovery-phase outputs from FAMSF, kept under `docs/`. They drive the wireframe scope (`src/lib/scope.ts`) and feature priorities.
+
+### Project framing
+- `famsf-collections-2026-project-brief.md` — original FAMSF brief to Cogapp. Budget ($350k Discovery + Phase 1), timeline, audiences (researcher > educator > general), business goals (drop eMuseum = $8k/yr saving, public API, decouple from monolith)
+- `cogapp-proposal-2026.md` — Cogapp's proposal response
+- `work-statement-2026.md` — signed SOW
+- `exec-doc-collection-2026.md` — technical overview + context (current TMS / Prism / eMuseum stack, pain points)
+- `collection-project-2026-discovery-preparation.md` — map of all Discovery activities, owners, dates, links
+
+### User research
+- `collection-project-2026-stakeholder-interview-synthesis.md` — 10 group interviews Mar-Apr '26, 8 themes, Must Have / Should Have feature lists. **Primary input for `src/lib/scope.ts` MVP flags.**
+- `collection-project-2026-stakeholder-interview-script.md` — interview method + participant roster
+- `collection-project-2026-hotjar-survey-synthesis.md` — N=16 live visitor survey (Apr-May '26). Top features: enhanced images 75%, deep content 56%, advanced search 50%. Validates MVP image-first focus.
+- `collection-project-2026-hotjar-survey-questions.md` — questionnaire form
+- `collection-project-2026-gap-analysis.md` — consolidates Frankly Green + Webb (2024) audience research + Web2.0 Discovery (2025) curatorial survey. Shows pain points persisting 2024→2026. Surfaces gaps not in stakeholder synthesis: retail / Art-on-Demand link from object pages (15% of shop visitors), de Young vs Legion museum-location clarity, image-access pathway gap (old download removed, no replacement)
+- `collection-project-2026-analytics-review.md` — GA / Looker traffic patterns
+
+### UX + content
+- `collection-project-2026-ux-audit-synthesis.md` — peer-comparison audit. 5 themes (collection buried, friction, dead-end object page, content disconnected, no audience focus). Maps cleanly to MVP — no new gaps beyond stakeholder synthesis.
+- `collection-project-2026-content-audit-strategy.md` — content audit plan (due May 2026)
+- `landscape-research-2026.md` — peer institution benchmarking (~8 institutions)
+
+### Cross-doc themes (consensus across all 3 user-research streams)
+1. **Images** — high-res, deep zoom, multi-view, downloadable. Universal #1 ask
+2. **Search** — advanced filters (geography, culture, materials, donor, accession, attribution qualifiers), dynamic filtering, no full-page reload, useful zero-results
+3. **Object detail = discovery hub** — clickable metadata tags, bidirectional editorial links, related works, content-source labels, paragraph break formatting from TMS
+4. **Parent/child** — portfolios, books, ensembles (Achenbach-critical)
+5. **Drop eMuseum** dependency — but only after public site replicates its search + browse + image-download capability
+
+### Open scope decisions surfaced from gap analysis (not yet in `scope.ts`)
+- Retail link to Art-on-Demand from object-detail (Gap Analysis, 15% shop visitor signal)
+- de Young vs Legion museum-location clarity on object + collection-area pages (Gap Analysis recurring theme)
 
 ## Commands
 

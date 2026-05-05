@@ -1,3 +1,5 @@
+# Tab 1
+
 # Collection Project 2026
 
 ## FAMSF Stakeholder Interview Synthesis
@@ -163,74 +165,118 @@ The following themes emerged consistently across the interview groups.
 
 # **Feature Candidates** {#feature-candidates}
 
-## High Priority / Potential “Must Haves” {#high-priority-/-potential-“must-haves”}
+## Search \+ Discovery
 
-* High-res images  
-* Downloadable images  
-* Interactive (deep zoom) images  
-* Multiple images per object record (details, verso, scale, installation views)  
-* More intuitive / visible advance search interface  
-* Advanced search expanded: donor/collector, credit line, accession number, acquisition date, identity filters, geography (nesting hierarchy), culture (distinct from geography), materials, and technique  
-* Dynamic filtering (only display options with matching results)  
+**High priority**
+
+* Intuitive advanced search interface  
+* Expanded advanced search fields (donor/collector, credit line, accession number, acquisition date, identity filters, geography, culture, materials, technique)  
+* Dynamic filtering (only show options with matching results)  
 * Attribution qualifiers visible in search result thumbnails  
-* Paragraph breaks from TMS reflected accurately on the public website  
-* Expanded collection area filters beyond 8 curatorial departments (e.g., photography, drawings, prints as distinct browse options)  
-* Parent-child record structure for portfolios, books, and multi-part works  
-* AI-powered discovery / search suggestions drawing from verified FAMSF content (publications, labels, essays)  
-* More robust Tombstone information pushed from TMS (multiple titles, object name, subclassifications, alt text)  
-* Alternate accession numbers searchable on the public website  
-* Filter reset / unstick bug fix (applied filters should reliably clear when deselected)  
-* Rights statement icons on object records (clickable through to rightstatements.org)  
-* Image request link on object detail page (pre-filled with accession number)  
-* Open access image download button (for qualifying objects)  
-* Content source label on object detail page (e.g., "current gallery label," "web essay")
+* Alternate accession numbers searchable
 
-## Lower Priority / Potential “Should Haves” and “Could Haves” {#lower-priority-/-potential-“should-haves”-and-“could-haves”}
+**Lower priority**
 
-* Downloadable / shareable search results  
 * Date-range filter (user-entered year span)  
-* Data accuracy disclaimer on object records with a contact email for error reporting (modeled on Art Institute of Chicago and Nelson-Atkins Museum)  
-* Gallery-location filter (filter by which specific gallery an object is currently on view in)  
-* Increased results per page  
-* Object label text displayed by default (not collapsed)  
-* Hyperlinked metadata fields on object pages triggering filtered searches  
-* Provenance statement on the collections pages (industry standard)  
-* Gallery/banner images on collection landing pages (updated with current installations)  
-* Reorganized collection landing page: chronological and movement-based navigation in addition to departmental (example, final content still to be decided)  
-* Citation copy-paste generator / tooltip  
-* Related/similar works module on object detail pages (thematic, AI-assisted, or metadata-driven)  
 * Exhibition history as a searchable field  
-* Installation views linked to object records (historic and recent)  
-* Artist pages with dedicated essays and full work listings  
-* Heilbrunn-style scholarly essay series linked to object records and collection areas  
-* Historic press releases and marketing materials on object/artist pages  
-* Personal gallery / favorites / account with research album  
-* Video/trailer integration on object detail pages  
+* Hyperlinked metadata fields triggering filtered searches  
+* GeoXref hierarchy display (country → region → city)  
+* Constituent GeoXrefs as searchable filters (artist nationality, place of birth)  
+* Separate "Explore the collection" and "Search the collection" pathways  
+* AI-powered discovery and search suggestions drawing from verified FAMSF content  
+* Downloadable / shareable search results  
+* Style, period, and subject attributes as searchable fields
+
+## Object Detail Pages
+
+**High priority**
+
+* Robust Tombstone info from TMS (multiple titles, object name, subclassifications, alt text)  
+* Paragraph breaks from TMS reflected accurately  
+* Parent-child record structure (portfolios, books, multi-part works)  
+* Rights statement icons (clickable through to rightstatements.org)  
+* Open access image download button  
+* Content source label (e.g. "current gallery label," "web essay")
+
+**Lower priority**
+
+* Image request link pre-filled with accession number  
+* Provenance statement (industry standard)  
+* Data accuracy disclaimer with contact email (AIC / Nelson-Atkins model)  
+* Uncertainty qualifiers ("possibly by X")  
+* Object label text displayed by default, not collapsed  
+* Citation copy-paste generator  
+* Related / similar works module  
+* Installation views linked to object records  
+* Print-friendly object records  
+* Video / trailer integration  
 * 3D scanned objects  
 * Object scale representation relative to human figure  
-* "What to see in an hour" / curated visit path feature on collection landing pages  
-* Visit planning / concierge experience (AI-assisted, visitor specifies who they are and what they want to see)  
-* Educational resources tag in search results and on object detail pages (linking to curriculum and lesson plans)  
-* AI reading-level adaptation of verified content for student audiences (opt-in/opt-out for educators)  
-* Upcoming programs dynamically populating on collection/department landing pages  
-* Indigenous tagging framework (community-based, for relevant AOA records)  
-* AI-assisted backend tagging, constituent linking, and bibliographic deduplication  
-* AI-assisted image QA batch identification (e.g., flagging uncropped color cards)  
-* GeoXref hierarchy display (nested geography paths: country → region → city)  
-* Style / period / subject attributes as searchable and displayable fields (requires data entry program)  
-* Constituent GeoXrefs (artist nationality, place of birth) as searchable filters  
-* Uncertainty qualifiers ("possibly by X") surfaced on object detail pages  
-* Jump-to navigation bars on collection and sub-collection pages  
-* Scholarly long-form entries on select highlights  
-* Print-friendly object records  
-* Editorial review workflow / data vetting process before records go live  
+* Two-column layout for provenance, exhibition history, and bibliography
+
+## Images \+ Media
+
+**High priority**
+
+* High-resolution images  
+* Downloadable images  
+* Interactive deep zoom images  
+* Multiple images per object record (details, verso, scale, installation views)
+
+## Browsing \+ Navigation
+
+**High priority**
+
+* Expanded collection area filters beyond 8 curatorial departments
+
+**Lower priority**
+
+* Reorganized collection landing page with chronological and movement-based navigation  
+* Gallery and banner images on collection landing pages  
+* Gallery-location filter (by specific gallery, currently on view)  
+* Jump-to navigation bars on collection pages  
+* Increased results per page  
+* "Most viewed" or recently added module  
+* Upcoming programs dynamically populating on department landing pages  
+* "What to see in an hour" curated visit paths  
+* Playful discovery tools (random trait shuffle, visual prompt search)
+
+## Content
+
+**High priority**
+
+* Editorial review workflow and data vetting before records go live  
 * Audit of existing content resources (publications, labels, essays) for web reuse  
-* Dedicated collector and dealer pages (brief biography \+ all associated objects)  
-* Founder / major donor highlight pages tied to San Francisco civic history (e.g., Alma Spreckels, MH de Young)  
-* Separate "Explore the collection" and "Search the collection" pathways (distinct entry points for browsing vs. targeted research)  
-* "Most viewed" or recently added module on collection landing page  
-* Playful discovery tools (random trait shuffle, visual prompt search)  
-* Two-column layout for provenance, exhibition history, and bibliography on object detail pages (reduces scrolling)
+* Artist pages with dedicated essays and full work listings  
+* Heilbrunn-style scholarly essay series linked to object records  
+* Scholarly long-form entries on selected highlights
+
+**Lower priority**
+
+* Historic press releases and marketing materials on object/artist pages  
+* Dedicated collector and dealer pages  
+* Founder and major donor highlight pages (Alma Spreckels, MH de Young)
+
+## AI \+ Backend Tagging
+
+**High priority**
+
+* AI-assisted backend tagging, constituent linking, and bibliographic deduplication  
+* AI-assisted image QA batch identification (e.g. flagging uncropped color cards)  
+* Indigenous tagging framework (community-based, for relevant AOA records)  
+* Educational resources tags in search results and on object pages
+
+**Lower priority**
+
+* AI reading-level adaptation of verified content for student audiences (opt-in/out)  
+* AI-assisted visit planning and concierge experience
+
+## Personalization \+ Engagement
+
+**Lower priority**
+
+* Personal gallery / favorites / account with research album
+
 
 ---
 
@@ -727,3 +773,73 @@ Isabella noted that she rarely uses the collections site for primary research (g
 * Stronger foregrounding of the Rodin collection and French art holdings as identity anchors on the collections landing page  
 * Heilbrunn-style essay series linked to object records and collection areas
 
+# Tab 2
+
+## High Priority / Potential “Must Haves” {#high-priority-/-potential-“must-haves”}
+
+* High-res images  
+* Downloadable images  
+* Interactive (deep zoom) images  
+* Multiple images per object record (details, verso, scale, installation views)  
+* More intuitive / visible advance search interface  
+* Advanced search expanded: donor/collector, credit line, accession number, acquisition date, identity filters, geography (nesting hierarchy), culture (distinct from geography), materials, and technique  
+* Dynamic filtering (only display options with matching results)  
+* Attribution qualifiers visible in search result thumbnails  
+* Paragraph breaks from TMS reflected accurately on the public website  
+* Expanded collection area filters beyond 8 curatorial departments (e.g., photography, drawings, prints as distinct browse options)  
+* Parent-child record structure for portfolios, books, and multi-part works  
+* AI-powered discovery / search suggestions drawing from verified FAMSF content (publications, labels, essays)  
+* More robust Tombstone information pushed from TMS (multiple titles, object name, subclassifications, alt text)  
+* Alternate accession numbers searchable on the public website  
+* Filter reset / unstick bug fix (applied filters should reliably clear when deselected)  
+* Rights statement icons on object records (clickable through to rightstatements.org)  
+* Image request link on object detail page (pre-filled with accession number)  
+* Open access image download button (for qualifying objects)  
+* Content source label on object detail page (e.g., "current gallery label," "web essay")
+
+## Lower Priority / Potential “Should Haves” and “Could Haves” {#lower-priority-/-potential-“should-haves”-and-“could-haves”}
+
+* Downloadable / shareable search results  
+* Date-range filter (user-entered year span)  
+* Data accuracy disclaimer on object records with a contact email for error reporting (modeled on Art Institute of Chicago and Nelson-Atkins Museum)  
+* Gallery-location filter (filter by which specific gallery an object is currently on view in)  
+* Increased results per page  
+* Object label text displayed by default (not collapsed)  
+* Hyperlinked metadata fields on object pages triggering filtered searches  
+* Provenance statement on the collections pages (industry standard)  
+* Gallery/banner images on collection landing pages (updated with current installations)  
+* Reorganized collection landing page: chronological and movement-based navigation in addition to departmental (example, final content still to be decided)  
+* Citation copy-paste generator / tooltip  
+* Related/similar works module on object detail pages (thematic, AI-assisted, or metadata-driven)  
+* Exhibition history as a searchable field  
+* Installation views linked to object records (historic and recent)  
+* Artist pages with dedicated essays and full work listings  
+* Heilbrunn-style scholarly essay series linked to object records and collection areas  
+* Historic press releases and marketing materials on object/artist pages  
+* Personal gallery / favorites / account with research album  
+* Video/trailer integration on object detail pages  
+* 3D scanned objects  
+* Object scale representation relative to human figure  
+* "What to see in an hour" / curated visit path feature on collection landing pages  
+* Visit planning / concierge experience (AI-assisted, visitor specifies who they are and what they want to see)  
+* Educational resources tag in search results and on object detail pages (linking to curriculum and lesson plans)  
+* AI reading-level adaptation of verified content for student audiences (opt-in/opt-out for educators)  
+* Upcoming programs dynamically populating on collection/department landing pages  
+* Indigenous tagging framework (community-based, for relevant AOA records)  
+* AI-assisted backend tagging, constituent linking, and bibliographic deduplication  
+* AI-assisted image QA batch identification (e.g., flagging uncropped color cards)  
+* GeoXref hierarchy display (nested geography paths: country → region → city)  
+* Style / period / subject attributes as searchable and displayable fields (requires data entry program)  
+* Constituent GeoXrefs (artist nationality, place of birth) as searchable filters  
+* Uncertainty qualifiers ("possibly by X") surfaced on object detail pages  
+* Jump-to navigation bars on collection and sub-collection pages  
+* Scholarly long-form entries on select highlights  
+* Print-friendly object records  
+* Editorial review workflow / data vetting process before records go live  
+* Audit of existing content resources (publications, labels, essays) for web reuse  
+* Dedicated collector and dealer pages (brief biography \+ all associated objects)  
+* Founder / major donor highlight pages tied to San Francisco civic history (e.g., Alma Spreckels, MH de Young)  
+* Separate "Explore the collection" and "Search the collection" pathways (distinct entry points for browsing vs. targeted research)  
+* "Most viewed" or recently added module on collection landing page  
+* Playful discovery tools (random trait shuffle, visual prompt search)  
+* Two-column layout for provenance, exhibition history, and bibliography on object detail pages (reduces scrolling)

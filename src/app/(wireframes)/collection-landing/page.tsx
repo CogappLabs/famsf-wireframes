@@ -197,7 +197,7 @@ function CollectionLandingContent() {
 							<LinkCard
 								title={t("collection.exploreLabel")}
 								description={t("collection.exploreDesc")}
-								href="/collection-landing#browse"
+								href="/explore"
 								arrow
 							/>
 							<LinkCard
@@ -240,9 +240,9 @@ function CollectionLandingContent() {
 						</SectionLabel>
 						<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
 							{COLLECTION_AREAS.map((area) => (
-								<button
+								<Link
 									key={area.name}
-									type="button"
+									href="/collection-area"
 									className="flex flex-col border border-gray-300 p-5 text-left transition-colors hover:border-gray-500"
 								>
 									<ImagePlaceholder
@@ -259,7 +259,7 @@ function CollectionLandingContent() {
 									<p className="mt-2 font-mono text-meta text-gray-500">
 										{area.desc}
 									</p>
-								</button>
+								</Link>
 							))}
 						</div>
 					</Container>
@@ -274,13 +274,13 @@ function CollectionLandingContent() {
 						<SectionLabel className="mb-4">Browse by type</SectionLabel>
 						<div className="flex flex-wrap gap-2">
 							{SUB_COLLECTIONS.map((sc) => (
-								<button
+								<Link
 									key={sc.name}
-									type="button"
+									href={`/search-results?q=${encodeURIComponent(sc.name)}`}
 									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600 transition-colors hover:border-gray-500 hover:bg-gray-50"
 								>
 									{sc.name} <span className="text-gray-400">{sc.count}</span>
-								</button>
+								</Link>
 							))}
 						</div>
 					</Container>
@@ -361,9 +361,9 @@ function CollectionLandingContent() {
 						</SectionLabel>
 						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
 							{HIGHLIGHTS.map((work) => (
-								<button
+								<Link
 									key={work.title}
-									type="button"
+									href={`/search-results?q=${encodeURIComponent(work.title)}`}
 									className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
 								>
 									<ImagePlaceholder label={`[${work.title}]`} />
@@ -375,7 +375,7 @@ function CollectionLandingContent() {
 											{work.artist}, {work.date}
 										</p>
 									</div>
-								</button>
+								</Link>
 							))}
 						</div>
 					</Container>
@@ -412,9 +412,9 @@ function CollectionLandingContent() {
 						</SectionLabel>
 						<div className="flex flex-col gap-2 sm:flex-row sm:gap-0">
 							{TIMELINE_PERIODS.map((period, i) => (
-								<button
+								<Link
 									key={period.label}
-									type="button"
+									href={`/search-results?q=${encodeURIComponent(period.label)}`}
 									className={`flex flex-1 flex-col border border-gray-300 p-4 text-left transition-colors hover:border-gray-500 hover:bg-gray-50 ${i > 0 ? "sm:-ml-px" : ""}`}
 								>
 									<span className="font-mono text-card font-medium">
@@ -426,7 +426,7 @@ function CollectionLandingContent() {
 									<span className="mt-2 font-mono text-label text-gray-400">
 										{period.count} {t("collection.worksSuffix")}
 									</span>
-								</button>
+								</Link>
 							))}
 						</div>
 					</Container>

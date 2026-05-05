@@ -143,9 +143,9 @@ export default function ExplorePage() {
 						</SectionLabel>
 						<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
 							{THEMES.map((theme) => (
-								<button
+								<Link
 									key={theme.title}
-									type="button"
+									href={`/search-results?q=${encodeURIComponent(theme.title)}`}
 									className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
 								>
 									<ImagePlaceholder aspect="16/9" label={`[${theme.title}]`} />
@@ -160,7 +160,7 @@ export default function ExplorePage() {
 											{theme.count.toLocaleString()} works
 										</p>
 									</div>
-								</button>
+								</Link>
 							))}
 						</div>
 					</Container>
@@ -177,9 +177,9 @@ export default function ExplorePage() {
 						</SectionLabel>
 						<div className="flex flex-col gap-2 sm:flex-row sm:gap-0">
 							{PERIODS.map((period, i) => (
-								<button
+								<Link
 									key={period.label}
-									type="button"
+									href={`/search-results?q=${encodeURIComponent(period.label)}`}
 									className={`flex flex-1 flex-col border border-gray-300 p-4 text-left transition-colors hover:border-gray-500 hover:bg-gray-50 ${i > 0 ? "sm:-ml-px" : ""}`}
 								>
 									<span className="font-mono text-card font-medium">
@@ -188,7 +188,7 @@ export default function ExplorePage() {
 									<span className="mt-0.5 font-mono text-meta text-gray-500">
 										{period.range}
 									</span>
-								</button>
+								</Link>
 							))}
 						</div>
 					</Container>
@@ -246,13 +246,13 @@ export default function ExplorePage() {
 							</p>
 							<div className="flex flex-wrap gap-2">
 								{DISCOVERY_PROMPTS.map((prompt) => (
-									<button
+									<Link
 										key={prompt}
-										type="button"
+										href={`/search-results?q=${encodeURIComponent(prompt)}`}
 										className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600 transition-colors hover:border-gray-500 hover:bg-gray-50"
 									>
 										{prompt}
-									</button>
+									</Link>
 								))}
 							</div>
 							<ScopeMark label="Shuffle (active)">

@@ -8,6 +8,7 @@
  * Modelled on craft-searchkit's Autocomplete component.
  */
 
+import { useRouter } from "next/navigation";
 import {
 	type KeyboardEvent,
 	type ReactNode,
@@ -362,21 +363,32 @@ function HighlightMatch({ text, query }: { text: string; query: string }) {
 interface CollectionAutocompleteProps {
 	placeholder?: string;
 	className?: string;
+	leadingSlot?: ReactNode;
 }
 
 export default function CollectionAutocomplete({
 	placeholder,
 	className,
+	leadingSlot,
 }: CollectionAutocompleteProps) {
 	const id = useId();
 	const listboxId = `${id}-listbox`;
 	const inputRef = useRef<HTMLInputElement>(null);
 	const listboxRef = useRef<HTMLDivElement>(null);
 	const rootRef = useRef<HTMLDivElement>(null);
+	const router = useRouter();
 
 	const [inputValue, setInputValue] = useState("");
 	const [isOpen, setIsOpen] = useState(false);
 	const [activeIndex, setActiveIndex] = useState(-1);
+
+	const submitSearch = useCallback(() => {
+		const q = inputValue.trim();
+		setIsOpen(false);
+		router.push(
+			q ? `/search-results?q=${encodeURIComponent(q)}` : "/search-results",
+		);
+	}, [inputValue, router]);
 
 	const suggestions = useMemo(() => {
 		if (inputValue.length < MIN_QUERY_LENGTH) return [];
@@ -439,7 +451,7 @@ export default function CollectionAutocomplete({
 				if (activeIndex >= 0 && activeIndex < suggestions.length) {
 					select(suggestions[activeIndex]);
 				} else {
-					setIsOpen(false);
+					submitSearch();
 				}
 				break;
 			case "Escape":
@@ -586,6 +598,7 @@ export default function CollectionAutocomplete({
 	return (
 		<div ref={rootRef} className={`relative ${className ?? ""}`}>
 			<div className="flex">
+				{leadingSlot}
 				<input
 					ref={inputRef}
 					type="search"
@@ -612,7 +625,7 @@ export default function CollectionAutocomplete({
 					}}
 					onKeyDown={handleKeyDown}
 					placeholder={placeholder ?? t("search.placeholder")}
-					className="flex-1 border border-gray-300 bg-white px-4 py-3 font-mono text-body text-gray-900 placeholder:text-gray-400 focus:border-gray-500 focus:outline-none"
+					className={`flex-1 border border-gray-300 bg-white px-4 py-3 font-mono text-body text-gray-900 placeholder:text-gray-400 focus:border-gray-500 focus:outline-none${leadingSlot ? " border-l-0" : ""}`}
 					autoComplete="off"
 					autoCorrect="off"
 					autoCapitalize="off"
@@ -620,7 +633,7 @@ export default function CollectionAutocomplete({
 				/>
 				<button
 					type="button"
-					onClick={() => setIsOpen(false)}
+					onClick={submitSearch}
 					className="border border-l-0 border-gray-900 bg-gray-900 px-6 py-3 font-mono text-body text-white transition-colors hover:bg-gray-700"
 				>
 					Search

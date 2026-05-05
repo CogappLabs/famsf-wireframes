@@ -69,21 +69,24 @@ export default function WireframeSection({
 interface ScopeMarkProps {
 	children: ReactNode;
 	label: string;
+	className?: string;
 }
 
-export function ScopeMark({ children, label }: ScopeMarkProps) {
+export function ScopeMark({ children, label, className = "" }: ScopeMarkProps) {
 	const { showScope } = useScope();
 	const pageId = useScopePageId();
 	const entry = getAnnotation(pageId, label);
 
-	if (!showScope || !entry) return <>{children}</>;
+	if (!showScope || !entry) {
+		return className ? <div className={className}>{children}</div> : children;
+	}
 
 	const { mvp, note, issueUrl } = entry;
 	const barColor = mvp ? "bg-emerald-400" : "bg-orange-300";
 	const textClass = mvp ? "text-emerald-700" : "text-orange-500";
 
 	return (
-		<div className="relative py-1 pl-3">
+		<div className={`relative py-1 pl-3 ${className}`}>
 			<div className={`absolute top-0 bottom-0 left-0 w-0.5 ${barColor}`} />
 			<span
 				className={`mb-1 flex items-center gap-1.5 font-mono text-label ${textClass}`}

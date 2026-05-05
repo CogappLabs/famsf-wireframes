@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Suspense } from "react";
+import FloatingSearch from "@/components/wireframe/FloatingSearch";
 import GlobalNav from "@/components/wireframe/GlobalNav";
 import ScopeToggle from "@/components/wireframe/ScopeToggle";
 import { MvpBadge, StatusBadge } from "@/components/wireframe/StatusBadge";
@@ -58,9 +59,11 @@ export default function WireframeLayout({
 
 			<main className="flex-1">{children}</main>
 
+			<FloatingSearch />
+
 			<footer className="border-t border-gray-300">
 				<div className="px-[var(--margin-xl)] py-8">
-					<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+					<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr]">
 						{/* Identity */}
 						<div>
 							<span className="font-mono text-body font-bold uppercase tracking-wide">

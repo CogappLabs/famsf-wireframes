@@ -249,50 +249,24 @@ export interface FooterGroup {
 	links: { label: string; href: string }[];
 }
 
-const browsePages = [
-	"collection-landing",
-	"explore",
-	"search-results",
-	"collection-area",
-];
-const recordPages = [
-	"object-detail",
-	"portfolio-detail",
-	"parent-record",
-	"artist-page",
-	"collector-page",
-];
-const featurePages = [
-	"my-finds",
-	"visit-planner",
-	"educational-resources",
-	"image-orders",
-];
-const utilityPages = ["exhibition-detail", "accessibility-statement"];
-
+// Footer groups model the live, public collection site — wireframe-internal
+// pages (object-detail, artist-page, etc.) are reachable from the wireframe
+// index, not the footer.
 export const footerGroups: FooterGroup[] = [
 	{
-		heading: "Browse",
-		links: pages
-			.filter((p) => browsePages.includes(p.id))
-			.map((p) => ({ label: p.title, href: `/${p.id}` })),
+		heading: "Collection",
+		links: [
+			{ label: "Search", href: "/search-results" },
+			{ label: "Explore", href: "/explore" },
+			{ label: "Collection areas", href: "/collection-area" },
+		],
 	},
 	{
-		heading: "Records",
-		links: pages
-			.filter((p) => recordPages.includes(p.id))
-			.map((p) => ({ label: p.title, href: `/${p.id}` })),
-	},
-	{
-		heading: "Features",
-		links: pages
-			.filter((p) => featurePages.includes(p.id))
-			.map((p) => ({ label: p.title, href: `/${p.id}` })),
-	},
-	{
-		heading: "Other",
-		links: pages
-			.filter((p) => utilityPages.includes(p.id))
-			.map((p) => ({ label: p.title, href: `/${p.id}` })),
+		heading: "Tools",
+		links: [
+			{ label: "My finds", href: "/my-finds" },
+			{ label: "Visit planner", href: "/visit-planner" },
+			{ label: "Educational resources", href: "/educational-resources" },
+		],
 	},
 ];
