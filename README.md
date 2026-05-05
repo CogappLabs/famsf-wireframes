@@ -1,56 +1,65 @@
-# Wireframe Starter
+# FAMSF Collection Wireframes
 
-Interactive wireframe template for stakeholder review. Built with Next.js 16, React 19, TypeScript, and Tailwind CSS 4.
+Interactive wireframes for the FAMSF 2026 Collections Project — a standalone collection website for the Fine Arts Museums of San Francisco (de Young + Legion of Honor).
+
+Built with Next.js 16, React 19, TypeScript, and Tailwind CSS 4.
 
 ## Quick start
 
 ```bash
-# Clone and install
-git clone https://github.com/CogappLabs/wireframe-starter.git my-wireframes
-cd my-wireframes
 npm install
-
-# Run locally (no auth required)
 npm run dev
 ```
 
-## Adding a wireframe page
+## Pages
 
-1. Register the page in `src/lib/data.ts`
-2. Add scope entries in `src/lib/scope.ts`
-3. Create `src/app/(wireframes)/<id>/page.tsx`
+11 wireframes covering the complete collection website:
 
-The index, top bar, footer, and sitemap all update automatically.
+**Browse & search**
+- **Collection Landing** — stats, dual explore/search pathways, browse by collection area
+- **Explore** — curated themes, timeline browse, discovery prompts
+- **Search Results** — autocomplete suggestions, horizontal facets, grid/list toggle
 
-## Features
+**Object records**
+- **Object Detail** — image gallery, hyperlinked metadata, provenance, exhibitions, related works, 3D/video, educational resources
+- **Portfolio Detail** — parent-child records for portfolios, sketchbooks, and multi-part works
+- **Collection Area** — department landing with about, highlights, browse, articles
+- **Artist Page** — biography, works grid, exhibition history
+- **Collector Page** — donor biography, associated objects, San Francisco civic history
 
-- **Scope overlay** — toggle MVP/post-MVP annotations with notes and issue tracker links
-- **Review status** — WIP, Review, With client, Approved badges per page
-- **Variations** — URL-param layout switching for comparing design alternatives
-- **String externalisation** — all copy in `strings/en.json`
-- **Sitemap** — auto-generated from the navigation tree
-- **Password auth** — optional, with IP bypass for office networks
-- **Vercel deployment** — zero config
+**Features**
+- **My Finds** — personal research package with shareable URL, no login required
+- **Visit Planner** — concierge experience with curated gallery paths
+- **Educational Resources** — lesson plans, gallery-location filter, age-appropriate content
 
-## Components
+## Stakeholder coverage
 
-All exported from `@/components/wireframe`:
+Wireframes address all 8 themes from the stakeholder interview synthesis:
 
-| Component | Purpose |
-|---|---|
-| `Container` | Width-constrained wrapper (xs/sm/md/lg/xl/full) |
-| `WireframeSection` | Section wrapper with scope overlay |
-| `ScopeMark` | Sub-component scope annotation |
-| `ImagePlaceholder` | Grey box placeholder for images |
-| `SectionLabel` | Uppercase mono kicker label |
-| `LinkCard` | Clickable navigation card |
-| `StatCard` | Big number + label |
-| `CategoryBadge` | Inline category tag |
-| `VariationToggle` | URL-param layout switcher |
+1. Search is broken → autocomplete, horizontal facets, advanced filters
+2. Images → deep zoom, download, multi-view, request workflow
+3. Object detail as one-stop shop → tombstone, provenance, exhibitions, bibliography, citation, rights
+4. Departmental organisation → collection areas with distinct identities
+5. eMuseum replacement → search parity with credit line, accession number, advanced filters
+6. AI caution → no AI in MVP; post-MVP sections scoped for backend AI only
+7. Content connectivity → hyperlinked metadata, artist pages, collector pages, related works
+8. Collection undersells institution → stats, highlights, rich about text, founder pages
+
+## Scope system
+
+Toggle the **Scope** button in the top bar to see MVP/post-MVP annotations on every section, with notes and issue tracker links.
+
+## Key features
+
+- **Autocomplete search** — suggestion-as-you-type with facet matches, object matches, and "search all" fallback
+- **Horizontal facets** — wyeth-style facet buttons with dialog modals for filtering
+- **Inter-page navigation** — artwork cards, artist names, and metadata values are clickable links between pages
+- **Grid/list toggle** — compare layout alternatives with URL-param variations
+- **Sample data** — 12 real FAMSF collection objects with artist bios and exhibition history
 
 ## Auth (optional)
 
-Set these environment variables in Vercel:
+Set environment variables for password protection on Vercel:
 
 | Variable | Purpose |
 |---|---|

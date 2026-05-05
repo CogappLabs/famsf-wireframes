@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Suspense } from "react";
+import GlobalNav from "@/components/wireframe/GlobalNav";
 import ScopeToggle from "@/components/wireframe/ScopeToggle";
 import { MvpBadge, StatusBadge } from "@/components/wireframe/StatusBadge";
 import VariationToggle from "@/components/wireframe/VariationToggle";
@@ -53,51 +54,87 @@ export default function WireframeLayout({
 				</div>
 			</header>
 
+			<GlobalNav />
+
 			<main className="flex-1">{children}</main>
 
 			<footer className="border-t border-gray-300">
 				<div className="px-[var(--margin-xl)] py-8">
-					<div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
+					<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
 						{/* Identity */}
 						<div>
 							<span className="font-mono text-body font-bold uppercase tracking-wide">
 								{t("footer.name")}
 							</span>
+							<span className="ml-2 font-mono text-body text-gray-400">
+								Collection
+							</span>
 							<p className="mt-1 font-mono text-meta text-gray-500">
 								{t("footer.tagline")}
 							</p>
+
+							{/* Cross-property links */}
+							<ul className="mt-4 flex flex-col gap-1">
+								<li>
+									<a
+										href="https://www.famsf.org/"
+										className="font-mono text-meta text-gray-600 underline hover:text-gray-900"
+									>
+										{t("footer.crossLinkMain")} ↗
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://www.famsf.org/visit"
+										className="font-mono text-meta text-gray-600 underline hover:text-gray-900"
+									>
+										{t("footer.crossLinkVisit")} ↗
+									</a>
+								</li>
+								<li>
+									<a
+										href="https://tickets.famsf.org/"
+										className="font-mono text-meta text-gray-600 underline hover:text-gray-900"
+									>
+										{t("footer.crossLinkTickets")} ↗
+									</a>
+								</li>
+								<li>
+									<Link
+										href="/accessibility-statement"
+										className="font-mono text-meta text-gray-600 underline hover:text-gray-900"
+									>
+										{t("footer.crossLinkAccessibility")}
+									</Link>
+								</li>
+							</ul>
 						</div>
 
 						{/* Link groups */}
-						<div className="flex gap-10">
-							{footerGroups.map((group) => (
-								<div key={group.heading}>
-									<p className="mb-2 font-mono text-label uppercase text-gray-500">
-										{group.heading}
-									</p>
-									<ul className="flex flex-col gap-1">
-										{group.links.map((link) => (
-											<li key={link.href}>
-												<Link
-													href={link.href}
-													className="font-mono text-body text-gray-600 underline hover:text-gray-900"
-												>
-													{link.label}
-												</Link>
-											</li>
-										))}
-									</ul>
-								</div>
-							))}
-						</div>
-
-						{/* Disclaimer */}
-						<div className="flex flex-col gap-2">
-							<p className="font-mono text-meta text-gray-500">
-								{t("footer.disclaimer")}
-							</p>
-						</div>
+						{footerGroups.map((group) => (
+							<div key={group.heading}>
+								<p className="mb-2 font-mono text-label uppercase text-gray-500">
+									{group.heading}
+								</p>
+								<ul className="flex flex-col gap-1">
+									{group.links.map((link) => (
+										<li key={link.href}>
+											<Link
+												href={link.href}
+												className="font-mono text-meta text-gray-600 underline hover:text-gray-900"
+											>
+												{link.label}
+											</Link>
+										</li>
+									))}
+								</ul>
+							</div>
+						))}
 					</div>
+
+					<p className="mt-8 border-t border-gray-200 pt-4 font-mono text-meta text-gray-500">
+						{t("footer.disclaimer")}
+					</p>
 				</div>
 			</footer>
 		</>

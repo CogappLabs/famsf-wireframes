@@ -40,17 +40,113 @@ export interface WireframePage {
 
 export const pages: WireframePage[] = [
 	{
-		id: "example",
-		title: "Example Page",
+		id: "collection-landing",
+		title: "Collection Landing",
 		description:
-			"Starter wireframe demonstrating every available template component",
+			"Main entry point — explore vs search pathways, browse by area, stats, highlights",
 		status: "wip",
 	},
 	{
-		id: "content-page",
-		title: "Content Page",
+		id: "search-results",
+		title: "Search Results",
 		description:
-			"Long-form informational page with breadcrumb, body sections, and sidebar links",
+			"Collection search with advanced filters, grid/list toggle, attribution qualifiers",
+		status: "wip",
+	},
+	{
+		id: "object-detail",
+		title: "Object Detail",
+		description:
+			"The one-stop shop — image gallery, tombstone, provenance, exhibitions, related works",
+		status: "wip",
+	},
+	{
+		id: "collection-area",
+		title: "Collection Area",
+		description:
+			"Department landing page — about, highlights, browse options, related content",
+		status: "wip",
+	},
+	{
+		id: "artist-page",
+		title: "Artist Page",
+		description:
+			"Artist entity page — biography, works grid, exhibition history",
+		status: "wip",
+	},
+	{
+		id: "explore",
+		title: "Explore",
+		description:
+			"Curated browse — themes, timeline, discovery prompts, most viewed",
+		status: "wip",
+	},
+	{
+		id: "collector-page",
+		title: "Collector / Donor Page",
+		description:
+			"Entity page for major collectors — biography, associated objects, civic history",
+		status: "wip",
+	},
+	{
+		id: "portfolio-detail",
+		title: "Portfolio / Multi-Part Work",
+		description:
+			"Parent-child record — sequential display for portfolios, sketchbooks, illustrated books",
+		status: "wip",
+	},
+	{
+		id: "parent-record",
+		title: "Parent Record (Ensemble / Series)",
+		description:
+			"Parent record for ensembles and series — components grid, contextual essay, related parent records",
+		status: "wip",
+	},
+	{
+		id: "my-finds",
+		title: "My Finds",
+		description:
+			"Personal research package — saved objects, no login, shareable URL",
+		status: "wip",
+	},
+	{
+		id: "visit-planner",
+		title: "Visit Planner",
+		description:
+			"Concierge experience — visitor type, interests, curated gallery paths",
+		status: "wip",
+	},
+	{
+		id: "educational-resources",
+		title: "Educational Resources",
+		description:
+			"Educator landing — lesson plans, gallery filter, age-level content adaptation",
+		status: "wip",
+	},
+	{
+		id: "exhibition-detail",
+		title: "Exhibition Detail",
+		description:
+			"Exhibition record — venue, dates, included works (cross-link target from object exhibition history)",
+		status: "wip",
+	},
+	{
+		id: "image-orders",
+		title: "Image Orders (post-MVP)",
+		description: "Image licensing / order workflow for in-copyright works",
+		status: "wip",
+	},
+	{
+		id: "accessibility-statement",
+		title: "Accessibility Statement",
+		description: "WCAG 2.2 AA conformance statement and contact",
+		status: "wip",
+	},
+	{
+		id: "feature-status",
+		title: "Feature Status",
+		description:
+			"Cross-page MVP / post-MVP feature inventory derived from scope annotations",
 		status: "wip",
 	},
 	{
@@ -73,14 +169,77 @@ export interface NavNode {
 export const navigation: NavNode[] = [
 	{ label: "Home", href: "/" },
 	{
-		label: "Pages",
+		label: "Browse & Search",
 		href: "",
 		children: [
-			{ label: "Example", href: "/example" },
-			{ label: "Content Page", href: "/content-page" },
+			{ label: "Collection Landing", href: "/collection-landing" },
+			{ label: "Explore", href: "/explore" },
+			{ label: "Search Results", href: "/search-results" },
 		],
 	},
+	{
+		label: "Records",
+		href: "",
+		children: [
+			{ label: "Object Detail", href: "/object-detail" },
+			{ label: "Portfolio / Multi-Part", href: "/portfolio-detail" },
+			{
+				label: "Parent Record (Ensemble / Series)",
+				href: "/parent-record?id=ENS-100",
+			},
+			{ label: "Collection Area", href: "/collection-area" },
+			{ label: "Artist Page", href: "/artist-page" },
+			{ label: "Collector / Donor", href: "/collector-page" },
+		],
+	},
+	{
+		label: "Features",
+		href: "",
+		children: [
+			{ label: "My Finds", href: "/my-finds" },
+			{ label: "Visit Planner", href: "/visit-planner" },
+			{ label: "Educational Resources", href: "/educational-resources" },
+		],
+	},
+	{ label: "Feature Status", href: "/feature-status" },
 	{ label: "Site Map", href: "/sitemap" },
+];
+
+// ── Global site navigation ──────────────────────────────────────────
+// Standalone collection site — not part of the main FAMSF website.
+
+export interface SiteNavItem {
+	label: string;
+	href: string;
+	children?: SiteNavItem[];
+}
+
+export const siteNavigation: SiteNavItem[] = [
+	{ label: "Explore", href: "/explore" },
+	{ label: "Search", href: "/search-results" },
+	{ label: "My Finds", href: "/my-finds" },
+	{
+		label: "Collection Areas",
+		href: "/collection-area",
+		children: [
+			{
+				label: "Achenbach Foundation for Graphic Arts",
+				href: "/collection-area",
+			},
+			{ label: "American Art", href: "/collection-area" },
+			{ label: "Arts of Africa", href: "/collection-area" },
+			{ label: "Arts of Oceania", href: "/collection-area" },
+			{ label: "Arts of the Americas", href: "/collection-area" },
+			{ label: "Ancient Art", href: "/collection-area" },
+			{ label: "Contemporary Art", href: "/collection-area" },
+			{ label: "Costume + Textile Arts", href: "/collection-area" },
+			{ label: "European Paintings", href: "/collection-area" },
+			{
+				label: "European Decorative Arts + Sculpture",
+				href: "/collection-area",
+			},
+		],
+	},
 ];
 
 // ── Footer link groups ───────────────────────────────────────────────
@@ -90,9 +249,50 @@ export interface FooterGroup {
 	links: { label: string; href: string }[];
 }
 
+const browsePages = [
+	"collection-landing",
+	"explore",
+	"search-results",
+	"collection-area",
+];
+const recordPages = [
+	"object-detail",
+	"portfolio-detail",
+	"parent-record",
+	"artist-page",
+	"collector-page",
+];
+const featurePages = [
+	"my-finds",
+	"visit-planner",
+	"educational-resources",
+	"image-orders",
+];
+const utilityPages = ["exhibition-detail", "accessibility-statement"];
+
 export const footerGroups: FooterGroup[] = [
 	{
-		heading: "Pages",
-		links: pages.map((p) => ({ label: p.title, href: `/${p.id}` })),
+		heading: "Browse",
+		links: pages
+			.filter((p) => browsePages.includes(p.id))
+			.map((p) => ({ label: p.title, href: `/${p.id}` })),
+	},
+	{
+		heading: "Records",
+		links: pages
+			.filter((p) => recordPages.includes(p.id))
+			.map((p) => ({ label: p.title, href: `/${p.id}` })),
+	},
+	{
+		heading: "Features",
+		links: pages
+			.filter((p) => featurePages.includes(p.id))
+			.map((p) => ({ label: p.title, href: `/${p.id}` })),
+	},
+	{
+		heading: "Other",
+		links: pages
+			.filter((p) => utilityPages.includes(p.id))
+			.map((p) => ({ label: p.title, href: `/${p.id}` })),
 	},
 ];

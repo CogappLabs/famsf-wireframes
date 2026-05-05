@@ -1,6 +1,6 @@
-# Wireframe Starter
+# FAMSF Collection Wireframes
 
-Interactive wireframe template for stakeholder review. Built with Next.js 16, React 19, TypeScript, and Tailwind CSS 4.
+Interactive wireframes for the FAMSF 2026 Collections Project — a standalone collection website for the Fine Arts Museums of San Francisco (de Young + Legion of Honor). Built with Next.js 16, React 19, TypeScript, and Tailwind CSS 4.
 
 ## Architecture
 
@@ -8,20 +8,56 @@ Interactive wireframe template for stakeholder review. Built with Next.js 16, Re
 
 1. Add an entry to `src/lib/data.ts` (id, title, description, status)
 2. Add scope entries to `src/lib/scope.ts` (mvp flag, notes, issue URLs)
-3. Create `src/app/(wireframes)/<id>/page.tsx`
+3. Add strings to `src/lib/strings/en.json` — no hardcoded display text in components
+4. Create `src/app/(wireframes)/<id>/page.tsx`
 
-That's it. The index, top bar badges, footer links, and scope overlay all derive from these files.
+The index, top bar badges, footer links, and scope overlay all derive from these files.
 
 ### Key directories
 
 - `src/app/page.tsx` — wireframe index (auto-generated from page registry)
-- `src/app/(wireframes)/layout.tsx` — wireframe chrome: top bar, scope toggle, footer
-- `src/app/(wireframes)/*/page.tsx` — individual wireframe pages
-- `src/lib/data.ts` — central data layer: page registry, nav tree, footer groups, review statuses
+- `src/app/(wireframes)/layout.tsx` — wireframe chrome: top bar, global nav, scope toggle, footer
+- `src/app/(wireframes)/*/page.tsx` — individual wireframe pages (11 collection pages + sitemap)
+- `src/lib/data.ts` — central data layer: page registry, nav tree, site nav, footer groups, review statuses
 - `src/lib/scope.ts` — scope annotations: MVP status, notes, issue tracker URLs
 - `src/lib/strings/en.json` — all copy, externalised for easy editing
+- `src/lib/sample-data.ts` — sample collection objects, artists, exhibitions for inter-page navigation
 - `src/components/wireframe/` — reusable wireframe primitives
+- `src/components/wireframe/GlobalNav.tsx` — standalone collection site navigation
+- `src/components/wireframe/CollectionAutocomplete.tsx` — suggestion-as-you-type search combobox
+- `src/components/wireframe/JumpToNav.tsx` — horizontal jump-to anchor navigation
 - `src/providers/ScopeProvider.tsx` — scope toggle state + page context
+- `docs/` — stakeholder interview synthesis + content audit strategy
+
+### Wireframe pages
+
+| Page | Route | Key features |
+|------|-------|-------------|
+| Collection Landing | `/collection-landing` | Stats, dual explore/search pathways, browse by area, highlights, "what to see", timeline |
+| Explore | `/explore` | Curated themes, timeline browse, discovery prompts, most viewed |
+| Search Results | `/search-results` | Autocomplete, horizontal facets with dialog, grid/list toggle |
+| Object Detail | `/object-detail?id=X` | Image gallery, hyperlinked tombstone, jump-to nav, provenance, exhibitions, related works, scale diagram, scholarly essay, 3D/video, edu resources |
+| Collection Area | `/collection-area` | Department landing with about, stats, highlights, browse, articles, programmes |
+| Artist Page | `/artist-page?name=X` | Bio, works grid, exhibitions, related artists |
+| Collector Page | `/collector-page` | Biography, associated objects, SF civic history |
+| Portfolio Detail | `/portfolio-detail` | Parent-child records, sequential browser |
+| My Finds | `/my-finds` | Saved objects, shareable URL, PDF export, notes |
+| Visit Planner | `/visit-planner` | Concierge input, curated paths, on-view objects |
+| Educational Resources | `/educational-resources` | Lesson plans, gallery filter, reading level adaptation |
+
+### Navigation flow
+
+Pages are wired together with real links and shared sample data:
+- **Search results** → click artwork card → **Object detail** (`?id=100167`)
+- **Object detail** → click artist name → **Artist page** (`?name=Camille+Pissarro`)
+- **Object detail** → click related work → **Object detail** (different object)
+- **Object detail** → click department → **Collection area**
+- **Object detail** → click medium/classification/culture → **Search results** (simulated filtered search)
+- **Artist page** → click work → **Object detail**
+- **Artist page** → click related artist → **Artist page** (different artist)
+- **Collection landing** → "What to see" → **Visit planner**
+- **Object detail** → "View all educational resources" → **Educational resources**
+- **Autocomplete** on collection landing and search results → facet + object suggestions
 
 ### Wireframe components
 
@@ -43,13 +79,9 @@ All components are exported from `@/components/wireframe`:
 
 Pages can offer alternative layouts via URL search params (e.g. `?variation=list`). This lets stakeholders compare design options with shareable links. The toggle renders automatically in the layout top bar.
 
-Usage:
-1. Define variations: `const VARIATIONS = [{ key: "grid", label: "Grid" }, { key: "list", label: "List" }] as const`
-2. Call `usePageVariations` in your page component — it registers the toggle in the top bar and returns the active key: `const variation = usePageVariations(VARIATIONS)`
-3. Conditionally render: `{variation === "list" ? <ListView /> : <GridView />}`
-4. Wrap the page in `<Suspense>` since `useSearchParams` requires it
-
-The first variation is the default. The `?variation` param is omitted for the default, keeping URLs clean. The toggle disappears when navigating to pages without variations.
+Current variations:
+- **Search Results**: grid / list view
+- **Object Detail**: standard / two-column layout for provenance and exhibitions
 
 ### Scope system
 
@@ -59,17 +91,22 @@ The scope toggle (top bar) overlays MVP/post-MVP annotations on sections:
 - Notes and issue tracker links shown inline
 - ScopeMark uses a left-edge colour bar for sub-component annotations
 
+### Sample data
+
+`src/lib/sample-data.ts` contains 12 objects, 7 artists, and exhibition history drawn from the real FAMSF collection (144,511 objects total). The autocomplete component imports from this file. All inter-page navigation uses query params (`?id=`, `?name=`) to load the correct sample record.
+
 ### Data layer
 
 `src/lib/data.ts` is the single source of truth for:
 - `pages` — the page registry (id, title, description, review status)
-- `navigation` — nav tree with `NavNode` type for mega navs
-- `footerGroups` — structured footer link groups (auto-derived from pages)
+- `navigation` — nav tree with `NavNode` type for sitemap
+- `siteNavigation` — standalone collection site nav (Explore, Search, My Finds, Collection Areas)
+- `footerGroups` — structured footer link groups (auto-derived from pages, grouped into Browse/Records/Features)
 - `ReviewStatus` type and display constants
 
 ### Strings
 
-All display copy lives in `src/lib/strings/en.json`. Use `t("key")` to reference strings. This keeps wireframe content separate from component structure.
+All display copy lives in `src/lib/strings/en.json`. Use `t("key")` to reference strings. No hardcoded display text in components — data arrays for wireframe sample content (themes, lesson plans, etc.) are the only exception.
 
 ### Auth
 
@@ -82,6 +119,11 @@ Password protection with IP bypass, configured via environment variables:
 When no env vars are set (local dev), auth is disabled entirely. On Vercel, set all three in the project's environment variables.
 
 The login page is at `/login`. Authenticated sessions last 30 days via an HMAC-signed cookie.
+
+## Discovery documents
+
+- `docs/collection-project-2026-stakeholder-interview-synthesis.md` — stakeholder interview findings (8 themes, feature candidates)
+- `docs/collection-project-2026-content-audit-strategy.md` — content audit plan (due May 2026)
 
 ## Commands
 
