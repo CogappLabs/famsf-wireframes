@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import {
+	CategoryBadge,
 	Container,
 	ImagePlaceholder,
 	SectionLabel,
@@ -12,6 +13,17 @@ import { t } from "@/lib/strings";
 import { ScopePage } from "@/providers/ScopeProvider";
 
 const SAVED_OBJECTS = objects.slice(0, 5);
+const MORE_LIKE = objects.slice(5, 11).map((obj, i) => ({
+	obj,
+	reason: [
+		"same artist",
+		"same period",
+		"same medium",
+		"same department",
+		"same culture",
+		"frequently saved together",
+	][i % 6],
+}));
 
 export default function MyFindsPage() {
 	return (
@@ -129,6 +141,41 @@ export default function MyFindsPage() {
 										</button>
 									</div>
 								</div>
+							))}
+						</div>
+					</Container>
+				</WireframeSection>
+
+				{/* More like your finds */}
+				<WireframeSection
+					label="More like your finds"
+					className="border-b border-gray-300 py-8"
+				>
+					<Container>
+						<SectionLabel>{t("finds.moreLikeHeading")}</SectionLabel>
+						<p className="mt-2 mb-4 font-mono text-meta text-gray-600">
+							{t("finds.moreLikeIntro")}
+						</p>
+						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+							{MORE_LIKE.map(({ obj, reason }) => (
+								<Link
+									key={obj.id}
+									href={`/object-detail?id=${obj.id}`}
+									className="group flex flex-col gap-2"
+								>
+									<ImagePlaceholder aspect="1/1" label="[img]" />
+									<div className="flex flex-col gap-1">
+										<span className="font-mono text-label text-gray-900 underline decoration-gray-300 group-hover:decoration-gray-600 line-clamp-2">
+											{obj.title}
+										</span>
+										<span className="font-mono text-label text-gray-500 line-clamp-1">
+											{obj.artist}
+										</span>
+										<CategoryBadge>
+											{t("finds.moreLikeReason")} {reason}
+										</CategoryBadge>
+									</div>
+								</Link>
 							))}
 						</div>
 					</Container>

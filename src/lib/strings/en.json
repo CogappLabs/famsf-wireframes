@@ -241,6 +241,9 @@
 	"finds.downloadPDF": "Download as PDF",
 	"finds.copyCitations": "Copy citations",
 	"finds.shareLabel": "Shareable link:",
+	"finds.moreLikeHeading": "More like your finds",
+	"finds.moreLikeIntro": "Suggested objects based on the artists, periods, and media in your saved list.",
+	"finds.moreLikeReason": "Shares",
 	"finds.notesHeading": "Research notes",
 
 	"visit.label": "Plan your visit",

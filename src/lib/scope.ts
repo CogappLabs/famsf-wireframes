@@ -470,6 +470,11 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"my-finds/Shareable URL": { mvp: false, issueUrl: issue("CW-60") },
 	"my-finds/Saved objects": { mvp: false, issueUrl: issue("CW-60") },
+	"my-finds/More like your finds": {
+		mvp: false,
+		note: "Recommendations derived from saved objects (shared traits: artist, period, medium)",
+		issueUrl: issue("CW-60"),
+	},
 	"my-finds/Notes": {
 		mvp: false,
 		note: "Optional research notes — URL or local storage",
