@@ -475,6 +475,16 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Recommendations derived from saved objects (shared traits: artist, period, medium)",
 		issueUrl: issue("CW-60"),
 	},
+	"my-finds/Seed journey": {
+		mvp: false,
+		note: "Pick a saved object as a seed, choose a direction (artist, period, medium, culture, department), keep following. Path stored in URL for sharing.",
+		issueUrl: issue("CW-60"),
+	},
+	"my-finds/Share journey": {
+		mvp: false,
+		note: "Shareable URL captures full path so a colleague lands on the same journey",
+		issueUrl: issue("CW-60"),
+	},
 	"my-finds/Notes": {
 		mvp: false,
 		note: "Optional research notes — URL or local storage",
