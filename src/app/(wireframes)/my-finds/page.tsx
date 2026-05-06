@@ -126,13 +126,7 @@ export default function MyFindsPage() {
 											{work.department} &middot; {work.accession}
 										</p>
 									</div>
-									<div className="flex shrink-0 gap-2">
-										<Link
-											href={`/seed-journey?seed=${work.id}`}
-											className="border border-gray-900 bg-white px-2 py-1 font-mono text-label text-gray-900 transition-colors hover:bg-gray-900 hover:text-white"
-										>
-											Start a journey →
-										</Link>
+									<div className="flex shrink-0 items-center gap-3">
 										<button
 											type="button"
 											className="font-mono text-label text-gray-400 hover:text-gray-600"
@@ -145,6 +139,12 @@ export default function MyFindsPage() {
 										>
 											{t("shared.remove")}
 										</button>
+										<Link
+											href={`/seed-journey?seed=${work.id}`}
+											className="border border-gray-900 bg-white px-2 py-1 font-mono text-label text-gray-900 transition-colors hover:bg-gray-900 hover:text-white"
+										>
+											Start a journey →
+										</Link>
 									</div>
 								</div>
 							))}
