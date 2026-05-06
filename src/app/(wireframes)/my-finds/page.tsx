@@ -129,9 +129,9 @@ export default function MyFindsPage() {
 									<div className="flex shrink-0 gap-2">
 										<Link
 											href={`/seed-journey?seed=${work.id}`}
-											className="font-mono text-label text-gray-400 underline hover:text-gray-700"
+											className="border border-gray-900 bg-white px-2 py-1 font-mono text-label text-gray-900 transition-colors hover:bg-gray-900 hover:text-white"
 										>
-											Start a journey
+											Start a journey →
 										</Link>
 										<button
 											type="button"
@@ -169,7 +169,7 @@ export default function MyFindsPage() {
 						</p>
 						<Link
 							href="/seed-journey"
-							className="mt-4 inline-block border border-gray-900 bg-gray-900 px-4 py-2 font-mono text-meta text-white transition-colors hover:bg-gray-700"
+							className="mt-4 inline-block border border-gray-900 bg-white px-4 py-2 font-mono text-meta text-gray-900 transition-colors hover:bg-gray-900 hover:text-white"
 						>
 							Start a seed journey →
 						</Link>
