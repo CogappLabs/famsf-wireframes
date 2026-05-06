@@ -9,11 +9,17 @@ import {
 	ImagePlaceholder,
 	ScopeMark,
 	SectionLabel,
+	usePageVariations,
 	WireframeSection,
 } from "@/components/wireframe";
 import { objects, type SampleObject } from "@/lib/sample-data";
 import { t } from "@/lib/strings";
 import { ScopePage } from "@/providers/ScopeProvider";
+
+const MODE_VARIATIONS = [
+	{ key: "directions", label: "Pick a direction" },
+	{ key: "dice", label: "Roll the dice" },
+] as const;
 
 const SAVED_OBJECTS = objects.slice(0, 5);
 
@@ -52,11 +58,13 @@ function directionValue(obj: SampleObject, key: DirectionKey): string {
 }
 
 function SeedJourneyContent() {
+	const mode = usePageVariations(MODE_VARIATIONS);
 	const params = useSearchParams();
 	const seedId = params.get("seed");
 	const direction = (params.get("direction") as DirectionKey | null) ?? null;
 	const pathRaw = params.get("path") ?? "";
 	const pathIds = pathRaw ? pathRaw.split(",").filter(Boolean) : [];
+	const isDice = mode === "dice";
 
 	if (!seedId) return <SeedPicker />;
 
@@ -72,12 +80,29 @@ function SeedJourneyContent() {
 
 	const directionSeed =
 		(DIRECTIONS.findIndex((d) => d.key === direction) + 1) * 3;
-	const suggestionPool = objects.filter((o) => o.id !== current.id);
+	const suggestionPool = objects.filter(
+		(o) => o.id !== current.id && !pathIds.includes(o.id),
+	);
 	const suggestions = direction
 		? Array.from(
 				{ length: 6 },
 				(_, i) => suggestionPool[(directionSeed + i) % suggestionPool.length],
 			)
+		: [];
+
+	const diceSeed =
+		current.id
+			.split("")
+			.reduce((acc, c) => acc + c.charCodeAt(0), pathIds.length * 7) %
+		Math.max(suggestionPool.length, 1);
+	const dicePoolStart = direction
+		? directionSeed % Math.max(suggestionPool.length, 1)
+		: diceSeed;
+	const dicePair = isDice
+		? [
+				suggestionPool[dicePoolStart % suggestionPool.length],
+				suggestionPool[(dicePoolStart + 1) % suggestionPool.length],
+			].filter(Boolean)
 		: [];
 
 	const buildHref = (p: {
@@ -89,6 +114,7 @@ function SeedJourneyContent() {
 		sp.set("seed", p.seed ?? seedId);
 		if (p.direction) sp.set("direction", p.direction);
 		if (p.path && p.path.length > 0) sp.set("path", p.path.join(","));
+		if (isDice) sp.set("variation", "dice");
 		return `/seed-journey?${sp.toString()}`;
 	};
 
@@ -174,7 +200,13 @@ function SeedJourneyContent() {
 				className="border-b border-gray-300 py-8"
 			>
 				<Container>
-					<div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_360px]">
+					<div
+						className={
+							isDice
+								? "grid grid-cols-1 gap-8"
+								: "grid grid-cols-1 gap-8 lg:grid-cols-[1fr_360px]"
+						}
+					>
 						<ScopeMark label="Current object">
 							<div>
 								<SectionLabel>{t("finds.seedCurrent")}</SectionLabel>
@@ -217,42 +249,109 @@ function SeedJourneyContent() {
 							</div>
 						</ScopeMark>
 
-						<ScopeMark label="Pick direction">
-							<div className="lg:sticky lg:top-4">
-								<SectionLabel>{t("finds.seedPickDirection")}</SectionLabel>
-								<p className="mt-2 mb-4 font-mono text-meta text-gray-500">
-									Each direction reveals a different cluster.
-								</p>
-								<div className="flex flex-col gap-2">
-									{DIRECTIONS.map((d) => {
-										const isActive = direction === d.key;
-										return (
-											<Link
-												key={d.key}
-												href={buildHref({ direction: d.key, path: pathIds })}
-												className={`flex items-center justify-between gap-3 border px-3 py-2 font-mono text-meta transition-colors ${
-													isActive
-														? "border-gray-900 bg-gray-900 text-white"
-														: "border-gray-300 bg-white text-gray-700 hover:border-gray-500"
-												}`}
-											>
-												<span>{d.label}</span>
-												<span
-													className={`truncate text-label ${isActive ? "text-gray-300" : "text-gray-400"}`}
+						{!isDice && (
+							<ScopeMark label="Pick direction">
+								<div className="lg:sticky lg:top-4">
+									<SectionLabel>{t("finds.seedPickDirection")}</SectionLabel>
+									<p className="mt-2 mb-4 font-mono text-meta text-gray-500">
+										Each direction reveals a different cluster.
+									</p>
+									<div className="flex flex-col gap-2">
+										{DIRECTIONS.map((d) => {
+											const isActive = direction === d.key;
+											return (
+												<Link
+													key={d.key}
+													href={buildHref({ direction: d.key, path: pathIds })}
+													className={`flex items-center justify-between gap-3 border px-3 py-2 font-mono text-meta transition-colors ${
+														isActive
+															? "border-gray-900 bg-gray-900 text-white"
+															: "border-gray-300 bg-white text-gray-700 hover:border-gray-500"
+													}`}
 												>
-													{directionValue(current, d.key)}
-												</span>
-											</Link>
-										);
-									})}
+													<span>{d.label}</span>
+													<span
+														className={`truncate text-label ${isActive ? "text-gray-300" : "text-gray-400"}`}
+													>
+														{directionValue(current, d.key)}
+													</span>
+												</Link>
+											);
+										})}
+									</div>
 								</div>
-							</div>
-						</ScopeMark>
+							</ScopeMark>
+						)}
 					</div>
 				</Container>
 			</WireframeSection>
 
-			{direction && (
+			{isDice && dicePair.length > 0 && (
+				<WireframeSection
+					label="Roll the dice — pair"
+					className="border-b border-gray-300 py-8"
+				>
+					<Container>
+						<ScopeMark label="Curated pair">
+							<div>
+								<SectionLabel>{t("finds.seedDiceHeading")}</SectionLabel>
+								<p className="mt-2 mb-6 font-mono text-meta text-gray-500">
+									{t("finds.seedDiceIntro")}
+								</p>
+								<div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+									{dicePair.map((obj) => (
+										<Link
+											key={`${obj.id}-${pathIds.length}`}
+											href={buildHref({
+												direction: null,
+												path: [...pathIds, obj.id],
+											})}
+											className="group flex flex-col gap-3 border border-gray-300 p-4 transition-colors hover:border-gray-900"
+										>
+											<ImagePlaceholder aspect="4/3" label="[img]" />
+											<div className="flex flex-col gap-1">
+												<span className="font-mono text-section font-semibold text-gray-900 group-hover:underline line-clamp-2">
+													{obj.title}
+												</span>
+												<span className="font-mono text-meta text-gray-600 line-clamp-1">
+													{obj.artist}, {obj.date}
+												</span>
+											</div>
+											<span className="mt-2 inline-block w-fit border border-gray-900 bg-gray-900 px-3 py-1 font-mono text-label text-white group-hover:bg-gray-700">
+												Choose this →
+											</span>
+										</Link>
+									))}
+								</div>
+							</div>
+						</ScopeMark>
+
+						<div className="mt-8">
+							<ScopeMark label="Optional nudge">
+								<div className="border-t border-dashed border-gray-300 pt-6">
+									<SectionLabel>{t("finds.seedDiceRefine")}</SectionLabel>
+									<p className="mt-2 mb-3 font-mono text-meta text-gray-500">
+										{t("finds.seedDiceRefineHint")}
+									</p>
+									<div className="flex flex-wrap gap-2">
+										{DIRECTIONS.map((d) => (
+											<Link
+												key={d.key}
+												href={buildHref({ direction: d.key, path: pathIds })}
+												className="border border-gray-300 bg-white px-3 py-1 font-mono text-label text-gray-700 hover:border-gray-500"
+											>
+												{directionValue(current, d.key)}
+											</Link>
+										))}
+									</div>
+								</div>
+							</ScopeMark>
+						</div>
+					</Container>
+				</WireframeSection>
+			)}
+
+			{!isDice && direction && (
 				<WireframeSection
 					label="Where next"
 					className="border-b border-gray-300 py-8"

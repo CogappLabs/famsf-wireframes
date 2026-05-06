@@ -256,6 +256,10 @@
 	"finds.seedShare": "Share this journey",
 	"finds.seedCopyLink": "Copy journey link",
 	"finds.seedSaveToFinds": "Save to My Finds",
+	"finds.seedDiceHeading": "We think you might like one of these",
+	"finds.seedDiceIntro": "Based on what you've picked so far. Choose one to keep going.",
+	"finds.seedDiceRefine": "Neither feels right? Nudge it",
+	"finds.seedDiceRefineHint": "Find something from the same…",
 	"finds.notesHeading": "Research notes",
 
 	"visit.label": "Plan your visit",
