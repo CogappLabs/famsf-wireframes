@@ -475,14 +475,46 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Recommendations derived from saved objects (shared traits: artist, period, medium)",
 		issueUrl: issue("CW-60"),
 	},
-	"my-finds/Seed journey": {
+	"my-finds/Start a journey CTA": {
 		mvp: false,
-		note: "Pick a saved object as a seed, choose a direction (artist, period, medium, culture, department), keep following. Path stored in URL for sharing.",
+		note: "Entry point into Seed Journey — separate page",
 		issueUrl: issue("CW-60"),
 	},
-	"my-finds/Share journey": {
+
+	// ── Seed Journey ───────────────────────────────────────────────────
+	"seed-journey/Header": {
 		mvp: false,
-		note: "Shareable URL captures full path so a colleague lands on the same journey",
+		note: "Standalone discovery flow rooted in My Finds saved set",
+		issueUrl: issue("CW-60"),
+	},
+	"seed-journey/Pick from your finds": {
+		mvp: false,
+		note: "Seed picker — choose one saved object as starting point",
+		issueUrl: issue("CW-60"),
+	},
+	"seed-journey/Journey": {
+		mvp: false,
+		note: "Breadcrumb of every step in current journey, click to rewind",
+		issueUrl: issue("CW-60"),
+	},
+	"seed-journey/Current object": {
+		mvp: false,
+		note: "Object you are currently exploring from",
+		issueUrl: issue("CW-60"),
+	},
+	"seed-journey/Pick direction": {
+		mvp: false,
+		note: "Direction chips — artist, period, medium, culture, department, classification",
+		issueUrl: issue("CW-60"),
+	},
+	"seed-journey/Where next": {
+		mvp: false,
+		note: "Suggested next-step objects matching chosen direction",
+		issueUrl: issue("CW-60"),
+	},
+	"seed-journey/Share journey": {
+		mvp: false,
+		note: "Shareable URL plus save-to-finds and PDF export",
 		issueUrl: issue("CW-60"),
 	},
 	"my-finds/Notes": {

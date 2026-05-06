@@ -110,6 +110,13 @@ export const pages: WireframePage[] = [
 		status: "wip",
 	},
 	{
+		id: "seed-journey",
+		title: "Seed Journey",
+		description:
+			"Pick a saved object, follow a direction, build a shareable journey through related works",
+		status: "wip",
+	},
+	{
 		id: "visit-planner",
 		title: "Visit Planner",
 		description:
