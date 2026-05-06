@@ -188,7 +188,7 @@ function SeedJourneyContent() {
 							<p className="font-mono text-body text-gray-700">
 								{current.artist}, {current.date}
 							</p>
-							<dl className="grid grid-cols-2 gap-x-4 gap-y-1 font-mono text-meta text-gray-600">
+							<dl className="grid max-w-md grid-cols-[auto_1fr] gap-x-6 gap-y-1 font-mono text-meta text-gray-600">
 								<dt className="text-gray-400">Medium</dt>
 								<dd>{current.medium}</dd>
 								<dt className="text-gray-400">Department</dt>
