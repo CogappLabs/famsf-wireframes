@@ -253,12 +253,78 @@ function DefaultView() {
 	);
 }
 
+function SeedPicker() {
+	return (
+		<div className="min-h-screen bg-white">
+			<WireframeSection
+				label="Header"
+				className="border-b border-gray-300 py-10"
+			>
+				<Container size="md">
+					<SectionLabel>{t("finds.label")}</SectionLabel>
+					<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
+						{t("finds.seedPickHeading")}
+					</h1>
+					<p className="mt-4 font-mono text-body text-gray-600">
+						{t("finds.seedPickIntro")}
+					</p>
+					<p className="mt-3 font-mono text-meta text-gray-500">
+						<Link href="/my-finds" className="underline hover:text-gray-700">
+							← Back to saved list
+						</Link>
+					</p>
+				</Container>
+			</WireframeSection>
+
+			<WireframeSection
+				label="Pick from your finds"
+				className="border-b border-gray-300 py-8"
+			>
+				<Container>
+					<div className="mb-4 flex items-center justify-between">
+						<SectionLabel>
+							{SAVED_OBJECTS.length} saved objects to choose from
+						</SectionLabel>
+					</div>
+					<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+						{SAVED_OBJECTS.map((work) => (
+							<Link
+								key={work.id}
+								href={`/my-finds?variation=seed&seed=${work.id}`}
+								className="group flex flex-col gap-2 border border-gray-300 p-3 transition-colors hover:border-gray-900"
+							>
+								<ImagePlaceholder aspect="1/1" label="[img]" />
+								<div className="flex flex-col gap-1">
+									<span className="font-mono text-meta font-medium text-gray-900 line-clamp-2 group-hover:underline">
+										{work.title}
+									</span>
+									<span className="font-mono text-label text-gray-500 line-clamp-1">
+										{work.artist}
+									</span>
+									<span className="font-mono text-label text-gray-400">
+										{work.department}
+									</span>
+								</div>
+								<span className="mt-2 inline-block border border-gray-900 bg-gray-900 px-2 py-1 text-center font-mono text-label text-white group-hover:bg-gray-700">
+									Start journey from here →
+								</span>
+							</Link>
+						))}
+					</div>
+				</Container>
+			</WireframeSection>
+		</div>
+	);
+}
+
 function SeedJourney() {
 	const params = useSearchParams();
-	const seedId = params.get("seed") ?? SAVED_OBJECTS[0].id;
+	const seedId = params.get("seed");
 	const direction = (params.get("direction") as DirectionKey | null) ?? null;
 	const pathRaw = params.get("path") ?? "";
 	const pathIds = pathRaw ? pathRaw.split(",").filter(Boolean) : [];
+
+	if (!seedId) return <SeedPicker />;
 
 	const seed = objects.find((o) => o.id === seedId) ?? SAVED_OBJECTS[0];
 	const journey: SampleObject[] = [

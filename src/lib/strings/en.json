@@ -246,6 +246,8 @@
 	"finds.moreLikeReason": "Shares",
 	"finds.seedHeading": "Follow a thread",
 	"finds.seedIntro": "Pick a saved object as a starting point, choose a direction, and keep following. Every step adds to a journey you can share.",
+	"finds.seedPickHeading": "Choose a starting point",
+	"finds.seedPickIntro": "Every journey begins with one of your saved finds. Pick the object you want to use as the seed.",
 	"finds.seedCurrent": "Currently exploring",
 	"finds.seedPickDirection": "Pick a direction",
 	"finds.seedNext": "Where to next?",
