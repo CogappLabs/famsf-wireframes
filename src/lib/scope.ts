@@ -497,6 +497,11 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Breadcrumb of every step in current journey, click to rewind",
 		issueUrl: issue("CW-60"),
 	},
+	"seed-journey/Current object + direction": {
+		mvp: false,
+		note: "Two-column layout: object on left, direction picker on right",
+		issueUrl: issue("CW-60"),
+	},
 	"seed-journey/Current object": {
 		mvp: false,
 		note: "Object you are currently exploring from",

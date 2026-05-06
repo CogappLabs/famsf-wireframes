@@ -7,6 +7,7 @@ import {
 	CategoryBadge,
 	Container,
 	ImagePlaceholder,
+	ScopeMark,
 	SectionLabel,
 	WireframeSection,
 } from "@/components/wireframe";
@@ -169,81 +170,82 @@ function SeedJourneyContent() {
 			</WireframeSection>
 
 			<WireframeSection
-				label="Current object"
+				label="Current object + direction"
 				className="border-b border-gray-300 py-8"
 			>
 				<Container>
-					<SectionLabel>{t("finds.seedCurrent")}</SectionLabel>
-					<div className="mt-4 grid grid-cols-1 gap-6 md:grid-cols-[260px_1fr]">
-						<div>
-							<ImagePlaceholder aspect="1/1" label="[img]" />
-						</div>
-						<div className="flex flex-col gap-3">
-							<Link
-								href={`/object-detail?id=${current.id}`}
-								className="font-mono text-section font-semibold underline decoration-gray-300 hover:decoration-gray-600"
-							>
-								{current.title}
-							</Link>
-							<p className="font-mono text-body text-gray-700">
-								{current.artist}, {current.date}
-							</p>
-							<dl className="grid max-w-md grid-cols-[auto_1fr] gap-x-6 gap-y-1 font-mono text-meta text-gray-600">
-								<dt className="text-gray-400">Medium</dt>
-								<dd>{current.medium}</dd>
-								<dt className="text-gray-400">Department</dt>
-								<dd>{current.department}</dd>
-								<dt className="text-gray-400">Classification</dt>
-								<dd>{current.classification}</dd>
-								{current.culture && (
-									<>
-										<dt className="text-gray-400">Culture</dt>
-										<dd>{current.culture}</dd>
-									</>
-								)}
-								{current.period && (
-									<>
-										<dt className="text-gray-400">Period</dt>
-										<dd>{current.period}</dd>
-									</>
-								)}
-							</dl>
-						</div>
-					</div>
-				</Container>
-			</WireframeSection>
-
-			<WireframeSection
-				label="Pick direction"
-				className="border-b border-gray-300 py-8"
-			>
-				<Container>
-					<SectionLabel>{t("finds.seedPickDirection")}</SectionLabel>
-					<p className="mt-2 mb-4 font-mono text-meta text-gray-500">
-						Each direction reveals a different cluster of related objects.
-					</p>
-					<div className="flex flex-wrap gap-2">
-						{DIRECTIONS.map((d) => {
-							const isActive = direction === d.key;
-							return (
-								<Link
-									key={d.key}
-									href={buildHref({ direction: d.key, path: pathIds })}
-									className={`flex items-center gap-2 border px-3 py-2 font-mono text-meta transition-colors ${
-										isActive
-											? "border-gray-900 bg-gray-900 text-white"
-											: "border-gray-300 bg-white text-gray-700 hover:border-gray-500"
-									}`}
-								>
-									<span>{d.label}</span>
-									<span
-										className={`text-label ${isActive ? "text-gray-300" : "text-gray-400"}`}
+					<div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_360px]">
+						<ScopeMark label="Current object">
+							<SectionLabel>{t("finds.seedCurrent")}</SectionLabel>
+							<div className="mt-4 grid grid-cols-1 gap-6 md:grid-cols-[220px_1fr]">
+								<div>
+									<ImagePlaceholder aspect="1/1" label="[img]" />
+								</div>
+								<div className="flex flex-col gap-3">
+									<Link
+										href={`/object-detail?id=${current.id}`}
+										className="font-mono text-section font-semibold underline decoration-gray-300 hover:decoration-gray-600"
 									>
-										{directionValue(current, d.key)}
-									</span>
-								</Link>
-							);
-						})}
+										{current.title}
+									</Link>
+									<p className="font-mono text-body text-gray-700">
+										{current.artist}, {current.date}
+									</p>
+									<dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-1 font-mono text-meta text-gray-600">
+										<dt className="text-gray-400">Medium</dt>
+										<dd>{current.medium}</dd>
+										<dt className="text-gray-400">Department</dt>
+										<dd>{current.department}</dd>
+										<dt className="text-gray-400">Classification</dt>
+										<dd>{current.classification}</dd>
+										{current.culture && (
+											<>
+												<dt className="text-gray-400">Culture</dt>
+												<dd>{current.culture}</dd>
+											</>
+										)}
+										{current.period && (
+											<>
+												<dt className="text-gray-400">Period</dt>
+												<dd>{current.period}</dd>
+											</>
+										)}
+									</dl>
+								</div>
+							</div>
+						</ScopeMark>
+
+						<ScopeMark label="Pick direction">
+							<div className="lg:sticky lg:top-4">
+								<SectionLabel>{t("finds.seedPickDirection")}</SectionLabel>
+								<p className="mt-2 mb-4 font-mono text-meta text-gray-500">
+									Each direction reveals a different cluster.
+								</p>
+								<div className="flex flex-col gap-2">
+									{DIRECTIONS.map((d) => {
+										const isActive = direction === d.key;
+										return (
+											<Link
+												key={d.key}
+												href={buildHref({ direction: d.key, path: pathIds })}
+												className={`flex items-center justify-between gap-3 border px-3 py-2 font-mono text-meta transition-colors ${
+													isActive
+														? "border-gray-900 bg-gray-900 text-white"
+														: "border-gray-300 bg-white text-gray-700 hover:border-gray-500"
+												}`}
+											>
+												<span>{d.label}</span>
+												<span
+													className={`truncate text-label ${isActive ? "text-gray-300" : "text-gray-400"}`}
+												>
+													{directionValue(current, d.key)}
+												</span>
+											</Link>
+										);
+									})}
+								</div>
+							</div>
+						</ScopeMark>
 					</div>
 				</Container>
 			</WireframeSection>
