@@ -381,6 +381,7 @@
 	"accessibility.featuresHeading": "What we provide",
 	"accessibility.knownGaps": "Known gaps",
 	"accessibility.feedback": "Tell us what doesn't work",
-	"accessibility.contact": "accessibility@famsf.org",
+	"accessibility.contact": "Email the accessibility team",
+	"accessibility.contactEmail": "accessibility@famsf.org",
 	"accessibility.lastReviewed": "Last reviewed"
 }

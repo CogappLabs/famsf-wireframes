@@ -9,10 +9,10 @@ interface JumpToNavProps {
 	className?: string;
 }
 
-export default function JumpToNav({ items, className }: JumpToNavProps) {
+export default function JumpToNav({ items, className = "" }: JumpToNavProps) {
 	return (
 		<nav
-			className={`flex flex-wrap items-center gap-1 ${className ?? ""}`}
+			className={`flex flex-wrap items-center gap-1 ${className}`}
 			aria-label="Jump to section"
 		>
 			{items.map((item, i) => (

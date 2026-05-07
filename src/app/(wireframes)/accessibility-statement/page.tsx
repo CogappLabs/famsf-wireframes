@@ -105,7 +105,7 @@ export default function AccessibilityStatementPage() {
 						</p>
 						<p className="mt-3 font-mono text-meta">
 							<a
-								href={`mailto:${t("accessibility.contact")}`}
+								href={`mailto:${t("accessibility.contactEmail")}`}
 								className="border border-gray-300 px-3 py-1.5 inline-block hover:border-gray-500"
 							>
 								{t("accessibility.contact")}
