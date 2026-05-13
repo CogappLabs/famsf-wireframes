@@ -65,7 +65,7 @@ export const scope: Record<string, ScopeEntry> = {
 	"search-results/Search bar": { mvp: true, issueUrl: issue("CW-37") },
 	"search-results/Zero results": {
 		mvp: true,
-		note: "Did-you-mean prompt + tips + popular searches + featured fallback. Avoid dead-end.",
+		note: "Did-you-mean prompt + tips + popular searches + featured fallback. Avoid dead-end. Landscape synthesis: universal failure across 10 audited museums; only V&A solves it.",
 		issueUrl: issue("CW-44"),
 	},
 	"search-results/Open access download icon": {
@@ -113,6 +113,26 @@ export const scope: Record<string, ScopeEntry> = {
 		mvp: false,
 		note: "Export/share search results",
 		issueUrl: issue("CW-58"),
+	},
+	"search-results/Dense list view": {
+		mvp: true,
+		note: "Cleveland pattern — accession, medium, dimensions, credit line, rights status inline in one scannable row. Strongest researcher-oriented results view in landscape audit. Grid/list toggle already in CW-43 scope.",
+		issueUrl: issue("CW-43"),
+	},
+	"search-results/Preview panel": {
+		mvp: false,
+		note: "MIA pattern — quick-view side/over panel surfacing object details without leaving results.",
+		issueUrl: issue("CW-43"),
+	},
+	"search-results/Open access first-class filter": {
+		mvp: true,
+		note: "AIC + Unsplash pattern — public domain / OA as primary browse dimension, not just badge. copyright field indexed; trivial. Existing 'Open access download icon' covers display; this adds it as facet/landing-page entry.",
+		issueUrl: issue("CW-41"),
+	},
+	"search-results/Hover alt-image": {
+		mvp: false,
+		note: "Nordstrom pattern — second image on hover in results grid; surfaces multi-view in results without routing to object page. Useful where additional_images count > 1.",
+		issueUrl: issue("CW-43"),
 	},
 
 	// ── Object detail ──────────────────────────────────────────────────
@@ -460,6 +480,26 @@ export const scope: Record<string, ScopeEntry> = {
 		mvp: true,
 		note: "Audio tour stops + curator commentary alongside 3D and video",
 		issueUrl: issue("CW-66"),
+	},
+	"object-detail/Inline filmstrip expansion": {
+		mvp: false,
+		note: "MIA pattern — '+' next to metadata term expands related works in-page rather than routing away. Strongest in-page discovery interaction in landscape audit. Keeps visitor anchored to current object.",
+		issueUrl: issue("CW-65"),
+	},
+	"object-detail/Persistent scrolling image": {
+		mvp: false,
+		note: "V&A pattern — primary artwork stays visible through full scroll. Variation candidate on object-detail layout.",
+		issueUrl: issue("CW-45"),
+	},
+	"object-detail/Metadata tooltips": {
+		mvp: false,
+		note: "Getty + DIA pattern — plain-language explanations on specialist fields (accession number, attribution qualifiers, provenance). Bridges researcher/general split.",
+		issueUrl: issue("CW-49"),
+	},
+	"object-detail/Engagement metrics (OA)": {
+		mvp: false,
+		note: "Unsplash analog — download/view counts on open-access works. Reinforces value of OA programme beyond rights badge.",
+		issueUrl: issue("CW-54"),
 	},
 
 	// ── My Finds ───────────────────────────────────────────────────────

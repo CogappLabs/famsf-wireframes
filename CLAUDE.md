@@ -143,6 +143,7 @@ All Discovery-phase outputs from FAMSF, kept under `docs/`. They drive the wiref
 - `collection-project-2026-ux-audit-synthesis.md` — peer-comparison audit. 5 themes (collection buried, friction, dead-end object page, content disconnected, no audience focus). Maps cleanly to MVP — no new gaps beyond stakeholder synthesis.
 - `collection-project-2026-content-audit-strategy.md` — content audit plan (due May 2026)
 - `landscape-research-2026.md` — peer institution benchmarking (~8 institutions)
+- `collection-project-2026-landscape-research-synthesis.md` — full landscape synthesis (10 museums + 5 cross-industry, May '26). Five themes: collection as primary digital product; underselling breadth/character; object page as node not endpoint; results/filters serve researchers inconsistently (zero-results = universal failure); interactive tools. Drives several open scope items below.
 
 ### Cross-doc themes (consensus across all 3 user-research streams)
 1. **Images** — high-res, deep zoom, multi-view, downloadable. Universal #1 ask
@@ -154,6 +155,18 @@ All Discovery-phase outputs from FAMSF, kept under `docs/`. They drive the wiref
 ### Open scope decisions surfaced from gap analysis (not yet in `scope.ts`)
 - Retail link to Art-on-Demand from object-detail (Gap Analysis, 15% shop visitor signal)
 - de Young vs Legion museum-location clarity on object + collection-area pages (Gap Analysis recurring theme)
+
+### Open scope decisions surfaced from landscape synthesis (not yet in `scope.ts`)
+- Zero-results recovery on `/search-results` — fallback browse pathways, suggested alternatives, query-improvement guidance (only V&A solves this across 10 audited museums)
+- MIA-style inline filmstrip expansion on object detail — `+` next to metadata term expands related works in-page instead of routing away
+- V&A-style persistent scrolling image module on object detail — image stays visible through full scroll. Candidate variation
+- Cleveland-style dense list view on `/search-results` — accession, medium, dimensions, credit line, rights inline in one row for researchers
+- MIA-style preview panel on `/search-results` — assess object without leaving results
+- Attribution qualifier filters (Signed by / Attributed to / Possibly Made by) as first-class facets (Rijksmuseum)
+- Open access / public domain as first-class filter and browse dimension (AIC, Unsplash) plus engagement metrics on open-access works (Unsplash analog)
+- Tooltips / plain-language explanations on specialist metadata fields (Getty, DIA)
+- Nordstrom-style alt-image on hover in results grid — surface multi-view in results without routing to object page
+- Mood / visual / camera tools scoping line — currently silent in `scope.ts`, position vs Google A&C / NGA Artle / Cleveland AI tools
 
 ## Commands
 
