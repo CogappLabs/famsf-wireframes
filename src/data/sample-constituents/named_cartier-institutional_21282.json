@@ -1,0 +1,106 @@
+{
+	"id": 21282,
+	"name": "Cartier",
+	"alpha_sort": "Cartier",
+	"biography": "Paris",
+	"institution": "Cartier",
+	"display_bios": [
+		{
+			"bio": "Paris",
+			"display_order": 2
+		},
+		{
+			"bio": "London",
+			"display_order": 3
+		},
+		{
+			"bio": "New York",
+			"display_order": 4
+		},
+		{
+			"bio": "Paris for New York",
+			"display_order": 5
+		},
+		{
+			"bio": "Paris for London",
+			"display_order": 6
+		},
+		{
+			"bio": "Paris and New York",
+			"display_order": 7
+		}
+	],
+	"object_count": 2,
+	"sample_objects": [
+		{
+			"id": 248505,
+			"accession_number": "2009.42",
+			"title": "Miniature travelling timepiece",
+			"display_date": "ca. 1908",
+			"primary_artist_display": "Cartier",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/168639/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 262936,
+			"accession_number": "L87.37.2",
+			"title": "Pocket watch and chain",
+			"display_date": "ca. 1920",
+			"primary_artist_display": "Cartier",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/139194/full/300,/0/default.jpg",
+			"has_iiif": true
+		}
+	],
+	"facets": {
+		"total_works": 2,
+		"on_view_count": 0,
+		"has_iiif_count": 2,
+		"exhibited_count": 1,
+		"date_range": {
+			"earliest_year": 1908,
+			"latest_year": 1920
+		},
+		"classifications": [
+			{
+				"value": "Tools & Equipment",
+				"count": 2
+			}
+		],
+		"departments": [
+			{
+				"value": "European Decorative Arts and Sculpture",
+				"count": 2
+			}
+		],
+		"top_subjects": [],
+		"top_materials": [],
+		"top_places_of_creation": [
+			{
+				"value": "France",
+				"count": 1
+			},
+			{
+				"value": "Paris",
+				"count": 1
+			}
+		],
+		"top_styles": [],
+		"top_movements": [],
+		"decade_histogram": [
+			{
+				"decade": 1900,
+				"count": 1
+			},
+			{
+				"decade": 1920,
+				"count": 1
+			}
+		]
+	},
+	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"_sample_meta": {
+		"reason": "Cartier — institutional constituent, 6 display bios, 2 works",
+		"picked_at": "2026-05-18T11:59:44.370463+00:00",
+		"populated_fields": 10
+	}
+}

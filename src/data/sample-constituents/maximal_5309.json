@@ -1,0 +1,72 @@
+{
+	"id": 5309,
+	"name": "Robert Sayer and Company",
+	"alpha_sort": "Robert Sayer and Company",
+	"display_date": "1786–1794",
+	"nationality": "English",
+	"begin_date_iso": "1786",
+	"end_date_iso": "1794",
+	"biography": "1786–1794",
+	"institution": "Robert Sayer and Company",
+	"display_bios": [
+		{
+			"bio": "1786–1794",
+			"display_order": 1
+		},
+		{
+			"bio": "1786–1794",
+			"display_order": 2
+		}
+	],
+	"object_count": 1,
+	"sample_objects": [
+		{
+			"id": 135362,
+			"accession_number": "2000.119.3.71",
+			"title": "Mad in Bedlam from The Rake's Progress,pl. 8,",
+			"display_date": "1786–1794",
+			"primary_artist_display": "William Hogarth (1697–1764)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		}
+	],
+	"facets": {
+		"total_works": 1,
+		"on_view_count": 0,
+		"has_iiif_count": 0,
+		"exhibited_count": 0,
+		"date_range": {
+			"earliest_year": 1786,
+			"latest_year": 1786
+		},
+		"classifications": [
+			{
+				"value": "Print",
+				"count": 1
+			}
+		],
+		"departments": [
+			{
+				"value": "Achenbach Foundation for Graphic Arts",
+				"count": 1
+			}
+		],
+		"top_subjects": [],
+		"top_materials": [],
+		"top_places_of_creation": [],
+		"top_styles": [],
+		"top_movements": [],
+		"decade_histogram": [
+			{
+				"decade": 1780,
+				"count": 1
+			}
+		]
+	},
+	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: most populated fields in constituents (true max).",
+		"picked_at": "2026-05-18T11:59:44.370463+00:00",
+		"populated_fields": 14
+	}
+}

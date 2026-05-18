@@ -1,0 +1,231 @@
+{
+	"id": 9993,
+	"name": "Richard Diebenkorn",
+	"alpha_sort": "Diebenkorn,  Richard",
+	"display_date": "American, 1922–1993",
+	"nationality": "American",
+	"begin_date_iso": "1922-04-22",
+	"end_date_iso": "1993-03-30",
+	"biography": "American, 1922–1993",
+	"display_bios": [
+		{
+			"bio": "American, 1922–1993",
+			"display_order": 1
+		},
+		{
+			"bio": "1922–1993",
+			"display_order": 2
+		}
+	],
+	"object_count": 676,
+	"sample_objects": [
+		{
+			"id": 48153,
+			"accession_number": "1991.28.292",
+			"title": "#8 from Nine Drypoints and Etchings",
+			"display_date": "1977",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/104094/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 48158,
+			"accession_number": "1991.28.638",
+			"title": "Working proof 3 for Oakland Image",
+			"display_date": "1981",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/71155/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 48159,
+			"accession_number": "1991.28.68.5",
+			"title": "Working Proof 64 for Tri-Color Spade",
+			"display_date": "1982",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/60849/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 49945,
+			"accession_number": "1991.28.626",
+			"title": "Passage I",
+			"display_date": "1990",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/71191/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 51228,
+			"accession_number": "1996.74.76.23",
+			"title": "#23 (portrait of Phyllis), from the portfolio 41 Etchings Drypoints",
+			"display_date": "1965",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 51229,
+			"accession_number": "1996.74.76.41",
+			"title": "#41 (still life with plate and scissors), from the portfolio 41 Etchings Drypoints",
+			"display_date": "1963",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 51798,
+			"accession_number": "1996.74.76.29",
+			"title": "#29 (seated woman resting elbows on knees), from the portfolio 41 Etchings Drypoints",
+			"display_date": "1965",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/165141/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 52090,
+			"accession_number": "1996.74.76.18",
+			"title": "#18 (Phyllis in striped chair), from the portfolio 41 Etchings Drypoints",
+			"display_date": "1965",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 52534,
+			"accession_number": "1991.28.605",
+			"title": "Untitled Trial Proof (Walking Figures with Spade)",
+			"display_date": "1980",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/71290/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 52535,
+			"accession_number": "1991.28.662",
+			"title": "Working proof 2 for Red, Yellow, Blue",
+			"display_date": "1986",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/71215/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 53268,
+			"accession_number": "1991.28.68.13",
+			"title": "Working Proof 72 for Tri-Color Spade",
+			"display_date": "1982",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 53270,
+			"accession_number": "1991.28.74",
+			"title": "Softground Cross",
+			"display_date": "1982",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/64892/full/300,/0/default.jpg",
+			"has_iiif": true
+		}
+	],
+	"facets": {
+		"total_works": 677,
+		"on_view_count": 3,
+		"has_iiif_count": 436,
+		"exhibited_count": 48,
+		"date_range": {
+			"earliest_year": 1945,
+			"latest_year": 1993
+		},
+		"classifications": [
+			{
+				"value": "Print",
+				"count": 640
+			},
+			{
+				"value": "Drawing",
+				"count": 28
+			},
+			{
+				"value": "Painting",
+				"count": 6
+			},
+			{
+				"value": "Artist's Book",
+				"count": 3
+			}
+		],
+		"departments": [
+			{
+				"value": "Achenbach Foundation for Graphic Arts",
+				"count": 671
+			},
+			{
+				"value": "American Paintings",
+				"count": 6
+			}
+		],
+		"top_subjects": [],
+		"top_materials": [],
+		"top_places_of_creation": [
+			{
+				"value": "Santa Monica",
+				"count": 29
+			},
+			{
+				"value": "San Francisco",
+				"count": 11
+			},
+			{
+				"value": "Kyoto",
+				"count": 9
+			},
+			{
+				"value": "California",
+				"count": 7
+			},
+			{
+				"value": "Oakland",
+				"count": 6
+			},
+			{
+				"value": "United States",
+				"count": 4
+			}
+		],
+		"top_styles": [],
+		"top_movements": [],
+		"decade_histogram": [
+			{
+				"decade": 1940,
+				"count": 10
+			},
+			{
+				"decade": 1950,
+				"count": 7
+			},
+			{
+				"decade": 1960,
+				"count": 193
+			},
+			{
+				"decade": 1970,
+				"count": 113
+			},
+			{
+				"decade": 1980,
+				"count": 203
+			},
+			{
+				"decade": 1990,
+				"count": 111
+			}
+		]
+	},
+	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"_sample_meta": {
+		"reason": "Richard Diebenkorn (1922–1993) — 676 works, prolific Bay Area artist",
+		"picked_at": "2026-05-18T11:59:44.370463+00:00",
+		"populated_fields": 13
+	}
+}

@@ -6,6 +6,7 @@ import {
 	Container,
 	ImagePlaceholder,
 	ScopeMark,
+	SectionLabelInline,
 	usePageVariations,
 	WireframeSection,
 } from "@/components/wireframe";
@@ -443,14 +444,6 @@ function ZeroResults() {
 				</div>
 			</div>
 		</div>
-	);
-}
-
-function SectionLabelInline({ children }: { children: React.ReactNode }) {
-	return (
-		<span className="font-mono text-label uppercase tracking-wide text-gray-400">
-			{children}
-		</span>
 	);
 }
 

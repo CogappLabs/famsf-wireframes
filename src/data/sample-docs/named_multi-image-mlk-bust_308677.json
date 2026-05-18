@@ -1,0 +1,303 @@
+{
+	"id": 308677,
+	"accession_number": "2025.5a-b",
+	"sort_number": "2025.5a-b",
+	"title": "Bust of Martin Luther King, Jr.",
+	"display_date": "ca. 1984",
+	"begin_iso_date": "1984",
+	"end_iso_date": "1984",
+	"medium": "Bronze",
+	"medium_parts": ["Bronze"],
+	"dimensions": "a. bust: 18 x 13 3/8 x 11 1/4 in. (45.72 x 33.973 x 28.575 cm) b. base: 2 1/4 x 15 1/8 x 12 1/8 in. (5.715 x 38.418 x 30.798 cm) c. pedestal: 48 1/8 x 14 1/2 x 11 1/2 in. (122.238 x 36.83 x 29.21 cm)",
+	"dimensions_display_primary": "18 x 13 3/8 x 11 1/4 in. (45.72 x 33.973 x 28.575 cm)",
+	"credit_line": "Museum purchase, Barbro Osher Sculpture Garden Acquisition Fund",
+	"department": "American Decorative Arts and Sculpture",
+	"copyright": "© Catlett Mora Family Trust / Licensed by VAGA at Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": true,
+	"last_modified": "2025-09-09 09:47:54.177000",
+	"is_virtual": false,
+	"web_text": "The artist and feminist Elizabeth Catlett is renowned for artworks that center Black American and Mexican experiences, as well as for her radical political activism advocating for civil rights and social justice. This bust of Dr. Martin Luther King, Jr. was created for a competition to commemorate the legendary civil rights leader, who was assassinated in 1968. This was the first time a Black American was to be permanently represented in the US Capitol Rotunda in Washington, DC. Following her move to Mexico in 1947, Catlett’s political activism led to her being investigated by the F.B.I. and C.I.A. She renounced her US citizenship in 1962 and became a Mexican citizen. The final report for the Capitol commission notes that Catlett was disqualified from the competition because of her citizenship status. Catlett’s vision of a majestic and commanding Dr. King underscores his living legacy as a catalyst for social and economic change.",
+	"didactic_label": "The artist and feminist Elizabeth Catlett is renowned for artworks that center Black American and Mexican experiences, as well as for her radical political activism advocating for civil rights and social justice. This bust of Dr. Martin Luther King, Jr. was created for a competition to commemorate the legendary civil rights leader, who was assassinated in 1968. This was the first time a Black American was to be permanently represented in the US Capitol Rotunda in Washington, DC.Following her move to Mexico in 1947, Catlett’s political activism led to her being investigated by the F.B.I. and C.I.A. She renounced her US citizenship in 1962 and became a Mexican citizen. The final report for the Capitol commission notes that Catlett was disqualified from the competition because of her citizenship status. Catlett’s vision of a majestic and commanding Dr. King underscores his living legacy as a catalyst for social and economic change.",
+	"accession_iso_date": "2025-01-22",
+	"location_string": "de Young, Display, Gallery 014",
+	"location_building": "de Young",
+	"location_room": "Gallery 014",
+	"signed": "(bust, back, lower PR corner): EC",
+	"titles": [
+		{
+			"Title": "Bust of Martin Luther King, Jr.",
+			"TitleType": "Primary Title",
+			"Language": "English",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 1978,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Elizabeth Catlett",
+			"AlphaSort": "Catlett,  Elizabeth",
+			"Nationality": "American",
+			"BeginDate": 1915,
+			"EndDate": 2012,
+			"BeginDateISO": "1915",
+			"EndDateISO": "2012",
+			"DisplayDate": "American and Mexican, 1915–2012",
+			"Biography": "American and Mexican, 1915–2012",
+			"display_bios": [
+				{
+					"bio": "American and Mexican, 1915–2012",
+					"display_order": 1
+				},
+				{
+					"bio": "1915–2012",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Elizabeth Catlett (American and Mexican, 1915–2012)"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 223413,
+			"media_master_id": 234260,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"photographer": null,
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"use_quality": "Print Quality",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"web_publishing_size": "4790 x 5616px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 5616,
+			"pixel_w": 4790
+		},
+		{
+			"media_xref_id": 223415,
+			"media_master_id": 234262,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 7,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"photographer": null,
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"use_quality": "Print Quality",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"web_publishing_size": "9972 x 14204px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 14204,
+			"pixel_w": 9972
+		},
+		{
+			"media_xref_id": 223412,
+			"media_master_id": 234259,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 5,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"photographer": null,
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"use_quality": "Print Quality",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"web_publishing_size": "10652 x 14204px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 14204,
+			"pixel_w": 10652
+		},
+		{
+			"media_xref_id": 223414,
+			"media_master_id": 234261,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 6,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"photographer": null,
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"use_quality": "Print Quality",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"web_publishing_size": "10652 x 14204px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 14204,
+			"pixel_w": 10652
+		}
+	],
+	"exhibitions": [],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "18 x 13 3/8 x 11 1/4 in. (45.72 x 33.973 x 28.575 cm)",
+			"Description": "a. bust",
+			"ElementName": "Overall",
+			"Displayed": true,
+			"Rank": 1
+		},
+		{
+			"DisplayDimensions": "2 1/4 x 15 1/8 x 12 1/8 in. (5.715 x 38.418 x 30.798 cm)",
+			"Description": "b. base",
+			"ElementName": "Overall",
+			"Displayed": true,
+			"Rank": 2
+		},
+		{
+			"DisplayDimensions": "48 1/8 x 14 1/2 x 11 1/2 in. (122.238 x 36.83 x 29.21 cm)",
+			"Description": "c. pedestal",
+			"ElementName": "Overall",
+			"Displayed": true,
+			"Rank": 3
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "México",
+			"certainty": "Probably",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAFG",
+					"term": "México"
+				}
+			]
+		}
+	],
+	"term_materials": [
+		{
+			"term": "alloy",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
+					"term": "metal by composition or origin"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB",
+					"term": "nonferrous metal"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK",
+					"term": "copper and copper alloy"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB",
+					"term": "copper alloy"
+				}
+			]
+		}
+	],
+	"primary_artist": "Elizabeth Catlett",
+	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/234260/info.json",
+	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/234260/full/300,/0/default.jpg",
+	"has_image": true,
+	"primary_artist_display": "Elizabeth Catlett (1915–2012)",
+	"display_year": "1984",
+	"has_iiif": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "elizabeth catlett",
+	"sort_year": 1984,
+	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"_sample_meta": {
+		"reason": "Bust of Martin Luther King Jr. (2025.5a-b) — 8 captioned images, multi-image gallery test",
+		"picked_at": "2026-05-18T09:01:33.548235+00:00",
+		"populated_fields": 45
+	}
+}

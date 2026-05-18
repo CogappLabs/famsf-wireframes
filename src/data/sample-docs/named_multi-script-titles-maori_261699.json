@@ -1,0 +1,207 @@
+{
+	"id": 261699,
+	"accession_number": "41526",
+	"sort_number": "41526",
+	"title": "Ear pendant (Motoi kahurangi)",
+	"object_name": "jewelry",
+	"display_date": "1550",
+	"begin_iso_date": "1550",
+	"end_iso_date": "1550",
+	"medium": "Greenstone (nephrite, possibly bonite; pounamu)",
+	"medium_parts": ["Greenstone (nephrite, possibly bonite", "pounamu)"],
+	"dimensions": "6 3/8 x 7/8 (16.2 x 2.2 cm)",
+	"dimensions_display_primary": "6 3/8 x 7/8 in. (16.2 x 2.2 cm)",
+	"credit_line": "Gift of M.H. de Young",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Personal Accessory",
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"last_modified": "2026-04-23 13:31:54.183000",
+	"is_virtual": false,
+	"accession_iso_date": "1915-10-28",
+	"location_string": "de Young, 061, Cabinet 028, C",
+	"location_building": "de Young",
+	"location_room": "Cabinet 028",
+	"titles": [
+		{
+			"Title": "Ear pendant (Motoi kahurangi)",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		},
+		{
+			"Title": "Ear pendant",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 2
+		},
+		{
+			"Title": "Motoi kahurangi",
+			"TitleType": "Foreign Language Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 3
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40487,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Māori",
+			"AlphaSort": "Māori",
+			"Nationality": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"BeginDateISO": null,
+			"EndDateISO": null,
+			"DisplayDate": null,
+			"Biography": null,
+			"display_bios": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Māori"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 177307,
+			"media_master_id": 129510,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"photographer": null,
+			"credit_line": null,
+			"use_quality": "Print Quality",
+			"copyright_status": null,
+			"web_publishing_size": "2860 x 688px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 688,
+			"pixel_w": 2860
+		},
+		{
+			"media_xref_id": 83236,
+			"media_master_id": 26826,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"photographer": "Mrs. Thomas A. Taylor",
+			"credit_line": "Photo: Mrs. Thomas A. Taylor. Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "3000 x 2000px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 2000,
+			"pixel_w": 3000
+		}
+	],
+	"exhibitions": [
+		{
+			"ExhibitionID": 1,
+			"ExhTitle": "Māori Portraits: Gottfried Lindauer's New Zealand",
+			"DisplayDate": "September 9, 2017 - April 1, 2018",
+			"BeginISODate": "2017-09-09",
+			"EndISODate": "2018-04-01",
+			"IsInHouse": false,
+			"VenueName": "de Young Museum"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "6 3/8 x 7/8 in. (16.2 x 2.2 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Overall (4D)",
+			"Displayed": true,
+			"Rank": 1
+		},
+		{
+			"DisplayDimensions": "6 3/8 x 7/8 in. (16.192 x 2.222 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Image (Filemaker)",
+			"Displayed": true,
+			"Rank": 2
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "New Zealand",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAABD",
+					"term": "New Zealand"
+				}
+			]
+		}
+	],
+	"primary_artist": "Māori",
+	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/26826/info.json",
+	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/26826/full/300,/0/default.jpg",
+	"has_image": true,
+	"primary_artist_display": "Māori",
+	"display_year": "1550",
+	"has_iiif": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "maori",
+	"sort_year": 1550,
+	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"_sample_meta": {
+		"reason": "Māori, Ear pendant Motoi kahurangi (41526) — 3+ titles, exercises multi-script title rendering",
+		"picked_at": "2026-05-18T09:01:33.548235+00:00",
+		"populated_fields": 43
+	}
+}

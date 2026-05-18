@@ -6,9 +6,11 @@ import { type ReactNode, Suspense, useState } from "react";
 import {
 	Breadcrumb,
 	Container,
+	ExhibitionRow,
 	ImagePlaceholder,
 	ScopeMark,
 	SectionLabel,
+	TombstoneLabel,
 	usePageVariations,
 	WireframeSection,
 } from "@/components/wireframe";
@@ -69,9 +71,7 @@ function TombstoneField({
 }) {
 	return (
 		<div>
-			<span className="font-mono text-label uppercase tracking-wide text-gray-400">
-				{label}
-			</span>
+			<TombstoneLabel>{label}</TombstoneLabel>
 			{href ? (
 				<p className="mt-0.5">
 					<Link
@@ -181,9 +181,9 @@ function ObjectDetailContent() {
 						<Container className="border-b border-gray-200 bg-gray-50 py-3">
 							<div className="flex items-center justify-between gap-3">
 								<div>
-									<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+									<TombstoneLabel>
 										{t("object.partOfHeading")} &middot; {obj.parent.type}
-									</span>
+									</TombstoneLabel>
 									<p className="font-mono text-meta text-gray-700">
 										{obj.parent.title}
 									</p>
@@ -231,9 +231,7 @@ function ObjectDetailContent() {
 						{selectedImage.altText && (
 							<ScopeMark label="Alt text">
 								<div className="mt-2 border border-gray-200 bg-gray-50 px-3 py-2">
-									<span className="font-mono text-label uppercase tracking-wide text-gray-400">
-										{t("object.altTextLabel")}
-									</span>
+									<TombstoneLabel>{t("object.altTextLabel")}</TombstoneLabel>
 									<p className="mt-0.5 font-mono text-meta text-gray-600">
 										{selectedImage.altText}
 									</p>
@@ -403,9 +401,9 @@ function ObjectDetailContent() {
 									{obj.dimensionsStructured &&
 									obj.dimensionsStructured.length > 0 ? (
 										<div>
-											<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+											<TombstoneLabel>
 												{t("object.fieldDimensions")}
-											</span>
+											</TombstoneLabel>
 											<ul className="mt-0.5 flex flex-col gap-0.5">
 												{obj.dimensionsStructured.map((d) => (
 													<li
@@ -441,9 +439,9 @@ function ObjectDetailContent() {
 										)}
 										{obj.placeOfCreation && obj.placeOfCreation.length > 0 && (
 											<div>
-												<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+												<TombstoneLabel>
 													{t("object.fieldPlaceOfCreation")}
-												</span>
+												</TombstoneLabel>
 												<div className="mt-0.5 flex flex-wrap items-baseline gap-x-1 font-mono text-meta text-gray-700">
 													{obj.placeOfCreation.map((p, i, arr) => (
 														<span key={p} className="flex items-baseline gap-1">
@@ -463,9 +461,9 @@ function ObjectDetailContent() {
 										)}
 										{obj.geography && obj.geography.length > 0 && (
 											<div>
-												<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+												<TombstoneLabel>
 													{t("object.fieldGeography")}
-												</span>
+												</TombstoneLabel>
 												<ul className="mt-0.5 flex flex-col gap-0.5">
 													{sortedGeo(obj.geography).map((g) => (
 														<li
@@ -473,9 +471,7 @@ function ObjectDetailContent() {
 															className="flex items-baseline gap-2"
 														>
 															{g.type && (
-																<span className="font-mono text-label uppercase tracking-wide text-gray-400">
-																	{g.type}
-																</span>
+																<TombstoneLabel>{g.type}</TombstoneLabel>
 															)}
 															<Link
 																href="/search-results"
@@ -502,9 +498,9 @@ function ObjectDetailContent() {
 								>
 									{obj.departments && obj.departments.length > 1 ? (
 										<div>
-											<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+											<TombstoneLabel>
 												{t("object.fieldDepartments")}
-											</span>
+											</TombstoneLabel>
 											<div className="mt-0.5 flex flex-col gap-0.5">
 												{obj.departments.map((d) => (
 													<Link
@@ -605,9 +601,9 @@ function ObjectDetailContent() {
 										<TombstoneGroup label={t("object.attributesHeading")}>
 											{obj.period && (
 												<div className="flex items-center gap-2">
-													<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+													<TombstoneLabel>
 														{t("object.fieldPeriod")}
-													</span>
+													</TombstoneLabel>
 													<Link
 														href="/search-results"
 														className="border border-gray-300 px-2 py-0.5 font-mono text-label text-gray-700 hover:border-gray-500"
@@ -618,9 +614,9 @@ function ObjectDetailContent() {
 											)}
 											{obj.school && (
 												<div className="flex items-center gap-2">
-													<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+													<TombstoneLabel>
 														{t("object.fieldSchool")}
-													</span>
+													</TombstoneLabel>
 													<Link
 														href="/search-results"
 														className="border border-gray-300 px-2 py-0.5 font-mono text-label text-gray-700 hover:border-gray-500"
@@ -631,9 +627,9 @@ function ObjectDetailContent() {
 											)}
 											{obj.style && (
 												<div className="flex items-center gap-2">
-													<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+													<TombstoneLabel>
 														{t("object.fieldStyle")}
-													</span>
+													</TombstoneLabel>
 													<Link
 														href="/search-results"
 														className="border border-gray-300 px-2 py-0.5 font-mono text-label text-gray-700 hover:border-gray-500"
@@ -644,9 +640,9 @@ function ObjectDetailContent() {
 											)}
 											{obj.movement && (
 												<div className="flex items-center gap-2">
-													<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+													<TombstoneLabel>
 														{t("object.fieldMovement")}
-													</span>
+													</TombstoneLabel>
 													<Link
 														href="/search-results"
 														className="border border-gray-300 px-2 py-0.5 font-mono text-label text-gray-700 hover:border-gray-500"
@@ -657,9 +653,9 @@ function ObjectDetailContent() {
 											)}
 											{obj.keywords && obj.keywords.length > 0 && (
 												<div>
-													<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+													<TombstoneLabel>
 														{t("object.fieldKeywords")}
-													</span>
+													</TombstoneLabel>
 													<div className="mt-1 flex flex-wrap gap-1">
 														{obj.keywords.map((k) => (
 															<Link
@@ -766,17 +762,12 @@ function ObjectDetailContent() {
 										</SectionLabel>
 										<div className="flex flex-col gap-3">
 											{exhs.map((exh) => (
-												<div
+												<ExhibitionRow
 													key={exh.title}
-													className="border-l-2 border-gray-200 pl-3"
-												>
-													<p className="font-mono text-meta font-medium text-gray-700">
-														{exh.title}
-													</p>
-													<p className="font-mono text-label text-gray-500">
-														{exh.date} &middot; {exh.venue}
-													</p>
-												</div>
+													title={exh.title}
+													date={exh.date}
+													venue={exh.venue}
+												/>
 											))}
 										</div>
 									</WireframeSection>
@@ -811,17 +802,12 @@ function ObjectDetailContent() {
 									</SectionLabel>
 									<div className="flex flex-col gap-3">
 										{exhs.map((exh) => (
-											<div
+											<ExhibitionRow
 												key={exh.title}
-												className="border-l-2 border-gray-200 pl-3"
-											>
-												<p className="font-mono text-meta font-medium text-gray-700">
-													{exh.title}
-												</p>
-												<p className="font-mono text-label text-gray-500">
-													{exh.date} &middot; {exh.venue}
-												</p>
-											</div>
+												title={exh.title}
+												date={exh.date}
+												venue={exh.venue}
+											/>
 										))}
 									</div>
 								</Container>

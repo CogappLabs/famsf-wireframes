@@ -1,0 +1,39 @@
+{
+	"id": 85506,
+	"accession_number": "1981.84.39.1b",
+	"sort_number": "1981.84.39.1b",
+	"title": "Feather Arm Ornament",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"on_view": false,
+	"last_modified": "2011-11-04 00:00:00.000000",
+	"is_virtual": false,
+	"location_string": "de Young, 061, Cabinet 021, F",
+	"location_building": "de Young",
+	"location_room": "Cabinet 021",
+	"titles": [
+		{
+			"Title": "Feather Arm Ornament",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [],
+	"media": [],
+	"exhibitions": [],
+	"dimensions_structured": [],
+	"associations": [],
+	"is_compound": false,
+	"primary_artist": "Unknown artist",
+	"has_image": false,
+	"has_iiif": false,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "unknown artist",
+	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: fewest populated fields in the dataset (true min).",
+		"picked_at": "2026-05-18T09:01:33.548235+00:00",
+		"populated_fields": 20
+	}
+}

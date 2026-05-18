@@ -1,0 +1,190 @@
+{
+	"id": 3019,
+	"name": "Leslie Matthew Ward, (Spy)",
+	"alpha_sort": "Ward, Leslie (Spy)",
+	"display_date": "1851–1922",
+	"nationality": "English",
+	"begin_date_iso": "1851",
+	"end_date_iso": "1922",
+	"biography": "1851–1922",
+	"display_bios": [
+		{
+			"bio": "1851–1922",
+			"display_order": 1
+		},
+		{
+			"bio": "1851–1922",
+			"display_order": 2
+		}
+	],
+	"object_count": 116,
+	"sample_objects": [
+		{
+			"id": 119,
+			"accession_number": "1963.30.38282",
+			"title": "\"Birdseye\" (Men of the Day, No. 575, Sir William Henry Wills, Bart) from Vanity Fair November 23, 1893",
+			"display_date": "1893",
+			"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 231,
+			"accession_number": "1963.30.38317",
+			"title": "\"The Prince's cicerone\" from Vanity Fair Supplement",
+			"display_date": "ca. 1900",
+			"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/122846/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 554,
+			"accession_number": "1963.30.38391",
+			"title": "\"A gentle shepherd who would lead his flock into the protectionist fold\", from Vanity Fair Supplement",
+			"display_date": "ca. 1900",
+			"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 1753,
+			"accession_number": "1963.30.38280",
+			"title": "\"Newcastle-upon-Tyne\" (Mr. Charles Frederick Hamond, M.P.) Statesman No. 616, from Vanity Fair, July 18, 1893",
+			"display_date": "1893",
+			"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/122781/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 2034,
+			"accession_number": "1963.30.38408",
+			"title": "\"A South Western Director\", from Vanity Fair, April 27, 1896",
+			"display_date": "1896",
+			"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 2137,
+			"accession_number": "1963.30.38315",
+			"title": "The Master General from Vanity Fair Supplement",
+			"display_date": "ca. 1900",
+			"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/122848/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 2532,
+			"accession_number": "1963.30.38373",
+			"title": "\"An M.F.H. with a sense of humour\" (Lord Willoughby de Broke), from Vanity Fair Supplement",
+			"display_date": "ca. 1900",
+			"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/122826/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 2533,
+			"accession_number": "1963.30.38382",
+			"title": "\"An Encyclopaedia- a work containing information on every department, or on a particular department, of knowledge, generally in alphabetical order\" (T.G. Boules M.P.), from Vanity Fair Supplement",
+			"display_date": "ca. 1900",
+			"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 2576,
+			"accession_number": "1963.30.38287",
+			"title": "\"Rupert\" (Hon. Rupert Guinness) from Vanity Fair Supplement",
+			"display_date": "ca. 1900",
+			"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/122875/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 16848,
+			"accession_number": "1963.30.38271",
+			"title": "\"Buonaparte B\" (Statesman, No. 621, Mr. Thomas Henry Bolton, M.P. from Vanity Fair October 12, 1893)",
+			"display_date": "1893",
+			"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/122784/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 16849,
+			"accession_number": "1963.30.38312",
+			"title": "\"Roley\" from Vanity Fair Supplement",
+			"display_date": "ca. 1900",
+			"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/122751/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 16851,
+			"accession_number": "1963.30.38402",
+			"title": "\"Navy Control\" (Monsieur and Madame Curie), from Vanity Fair, March 26, 1903",
+			"display_date": "1903",
+			"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		}
+	],
+	"facets": {
+		"total_works": 116,
+		"on_view_count": 0,
+		"has_iiif_count": 58,
+		"exhibited_count": 0,
+		"date_range": {
+			"earliest_year": 1873,
+			"latest_year": 1905
+		},
+		"classifications": [
+			{
+				"value": "Print",
+				"count": 78
+			},
+			{
+				"value": "Artist's Book",
+				"count": 37
+			},
+			{
+				"value": "Drawing",
+				"count": 1
+			}
+		],
+		"departments": [
+			{
+				"value": "Achenbach Foundation for Graphic Arts",
+				"count": 116
+			}
+		],
+		"top_subjects": [],
+		"top_materials": [],
+		"top_places_of_creation": [],
+		"top_styles": [],
+		"top_movements": [],
+		"decade_histogram": [
+			{
+				"decade": 1870,
+				"count": 15
+			},
+			{
+				"decade": 1880,
+				"count": 26
+			},
+			{
+				"decade": 1890,
+				"count": 24
+			},
+			{
+				"decade": 1900,
+				"count": 49
+			}
+		]
+	},
+	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"_sample_meta": {
+		"reason": "Leslie Matthew Ward (Spy) — Vanity Fair caricaturist, 116 works",
+		"picked_at": "2026-05-18T11:59:44.370463+00:00",
+		"populated_fields": 13
+	}
+}

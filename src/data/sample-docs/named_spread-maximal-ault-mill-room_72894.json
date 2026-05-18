@@ -1,0 +1,409 @@
+{
+	"id": 72894,
+	"accession_number": "1931.26",
+	"sort_number": "1931.26",
+	"title": "The Mill Room",
+	"object_name": "painting",
+	"display_date": "1923",
+	"begin_iso_date": "1923",
+	"end_iso_date": "1923",
+	"medium": "Oil on canvas",
+	"medium_parts": ["Oil on canvas"],
+	"dimensions": "21 3/8 x 15 3/4 in. (54.3 x 40 cm)",
+	"dimensions_display_primary": "21 3/8 x 15 3/4 in. (54.3 x 40 cm)",
+	"credit_line": "Museum purchase, Gift of Max L. Rosenberg",
+	"department": "American Paintings",
+	"classification": "Painting",
+	"object_rights_type": "Public Domain",
+	"on_view": true,
+	"last_modified": "2025-11-21 11:25:45.607000",
+	"is_virtual": false,
+	"web_text": "Although George C. Ault embraced the flat, planar style of the Precisionists, he also critiqued modern American society, referring to skyscrapers as the “tombstones of capitalism” and to the American city as “the Inferno without the fire.” Following his move to rural Woodstock, New York, in 1937, he often depicted older buildings and barns whose beauty married function with form and that did not carry associations of exploited workers. Ault’s \"The Mill Room,\" inspired by his father’s New Jersey printing-ink company, simultaneously celebrates and critiques Machine Age industrialization. The abstracted composition depicts a factory interior with a solitary worker monitoring a machine powered by a giant belt attached to the ceiling. The belt’s figure-eight form, the symbol for infinity, suggestively evokes the repetitive and never-ending work of machines and their human tenders. The figure, devoid of specific facial features, underscores the human cost of industrialization — the alienation of the worker, who is nearly redundant and definitely replaceable.",
+	"didactic_label": "Although George C. Ault embraced the flat, planar style of the Precisionists, he also critiqued modern American society, referring to skyscrapers as the “tombstones of capitalism” and to the American city as “the Inferno without the fire.” Following his move to rural Woodstock, New York, in 1937, he often depicted older buildings and barns whose beauty married function with form and that did not carry associations of exploited workers.Ault’s The Mill Room, inspired by his father’s New Jersey printing-ink company, simultaneously celebrates and critiques Machine Age industrialization. The abstracted composition depicts a factory interior with a solitary worker monitoring a machine powered by a giant belt attached to the ceiling. The belt’s figure-eight form, the symbol for infinity, suggestively evokes the repetitive and never-ending work of machines and their human tenders. The figure, devoid of specific facial features, underscores the human cost of industrialization— the alienation of the worker, who is nearly redundant and definitely replaceable.",
+	"provenance": "J.B. Neumann Galleries, NYC, $300",
+	"label_text": "Labels on reverse: [Just below top left corner) Terra Museum of American Art/ 2600 Central Park, Evanston, IL, 60201/ (312) 328-3400/ George Ault/ The Mill Room/ Oil on Canvas 22x16/ The FAMSF/ Solitude—Inner Visions in American Art/ Sept 25–December 30, 1982.[Top left corner] Legion of Honor Label Partially Covered by Foam Core[At center of the top of reverse] Legion of Honor Label Partially Covered by Foam Core[Top right corner] University Art Museum Label, University of New Mexico, Albuquerque[Just below top right corner] Label obscured completely by foamcore[Lower right side] McNay Art Institute/ San Antonio, Texas Label/ Partially covered by Foamcore[Lower left side] FAMSF Label",
+	"accession_iso_date": "1931-04-17",
+	"location_string": "de Young, Display, Gallery 011",
+	"location_building": "de Young",
+	"location_room": "Gallery 011",
+	"signed": "Signed and dated upper right: G. C. Ault '23",
+	"titles": [
+		{
+			"Title": "The Mill Room",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 445,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "George Ault",
+			"AlphaSort": "Ault,  George ",
+			"Nationality": "American",
+			"BeginDate": 1891,
+			"EndDate": 1948,
+			"BeginDateISO": "1891",
+			"EndDateISO": "1948",
+			"DisplayDate": "American, 1891–1948",
+			"Biography": "American, 1891–1948",
+			"display_bios": [
+				{
+					"bio": "American, 1891–1948",
+					"display_order": 1
+				},
+				{
+					"bio": "1891–1948",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "George Ault (American, 1891–1948)"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 156366,
+			"media_master_id": 195246,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"photographer": null,
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "7637 x 10417px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 10417,
+			"pixel_w": 7637
+		},
+		{
+			"media_xref_id": 155834,
+			"media_master_id": 194726,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"photographer": null,
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "7891 x 11368px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 11368,
+			"pixel_w": 7891
+		},
+		{
+			"media_xref_id": 154,
+			"media_master_id": 3923,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"photographer": null,
+			"credit_line": null,
+			"use_quality": null,
+			"copyright_status": null,
+			"web_publishing_size": "372 x 514px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 514,
+			"pixel_w": 372
+		},
+		{
+			"media_xref_id": 83806,
+			"media_master_id": 166505,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"photographer": null,
+			"credit_line": null,
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "4459 x 5640px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 5640,
+			"pixel_w": 4459
+		}
+	],
+	"exhibitions": [
+		{
+			"ExhibitionID": 8,
+			"ExhTitle": "The Cult of the Machine",
+			"DisplayDate": "March 24, 2018 - January 6, 0218",
+			"BeginISODate": "2018-03-24",
+			"EndISODate": "2019-01-06",
+			"IsInHouse": false,
+			"VenueName": "de Young Museum"
+		},
+		{
+			"ExhibitionID": 1201,
+			"ExhTitle": "Made in U.S.A. l'art américain, 1908-1943, entre nationalism et internationalism",
+			"DisplayDate": "Friday, October 5, 2001 - Tuesday, June 25, 2002",
+			"BeginISODate": "2001-10-05",
+			"EndISODate": "2002-06-25",
+			"IsInHouse": false,
+			"VenueName": "Musée des Beaux-Arts de Bordeaux"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "21 3/8 x 15 3/4 in. (54.3 x 40 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Overall (4D)",
+			"Displayed": true,
+			"Rank": 1
+		},
+		{
+			"DisplayDimensions": "21 3/8 x 15 3/4 in. (54.292 x 40.005 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Image (Filemaker)",
+			"Displayed": true,
+			"Rank": 2
+		},
+		{
+			"DisplayDimensions": "23 1/8 x 17 3/8 x 1 3/4 in. (58.737 x 44.132 x 4.445 cm)",
+			"Description": null,
+			"ElementName": "Framed",
+			"Displayed": true,
+			"Rank": 3
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "New York",
+			"certainty": "Probably",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFW",
+					"term": "New York"
+				}
+			]
+		}
+	],
+	"term_related_geography": [
+		{
+			"term": "New Jersey",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFP",
+					"term": "New Jersey"
+				}
+			]
+		}
+	],
+	"term_materials": [
+		{
+			"term": "canvas",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD",
+					"term": "textile materials by process or technique"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD.AAE",
+					"term": "canvas"
+				}
+			]
+		},
+		{
+			"term": "paint",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
+					"term": "oil paint"
+				}
+			]
+		}
+	],
+	"primary_artist": "George Ault",
+	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/195246/info.json",
+	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/195246/full/300,/0/default.jpg",
+	"has_image": true,
+	"primary_artist_display": "George Ault (1891–1948)",
+	"display_year": "1923",
+	"has_iiif": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_artist": "george ault",
+	"sort_year": 1923,
+	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"_sample_meta": {
+		"reason": "George Ault, The Mill Room (1931.26) — 47 fields, on view + IIIF",
+		"picked_at": "2026-05-18T09:01:33.548235+00:00",
+		"populated_fields": 50
+	}
+}

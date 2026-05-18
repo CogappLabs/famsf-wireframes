@@ -1,0 +1,197 @@
+{
+	"id": 19120,
+	"accession_number": "1945.312a-b",
+	"sort_number": "1945.312a-b",
+	"title": "Dessert server (Confiturier)",
+	"object_name": "serving piece",
+	"display_date": "1809–1819",
+	"begin_iso_date": "1809",
+	"end_iso_date": "1819",
+	"medium": "silver gilt",
+	"medium_parts": ["silver gilt"],
+	"dimensions": "26 x 37.1 x 37.1 cm (10 1/4 x 14 5/8 x 14 5/8 in.) a; 4.8 x 17.1 x 17.1 cm (1 7/8 x 6 3/4 x 6 3/4 in.) b",
+	"dimensions_display_primary": "10 1/4 in. (26 cm)",
+	"credit_line": "Gift of Alma de Bretteville Spreckels",
+	"department": "European Decorative Arts and Sculpture",
+	"classification": "Food",
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"last_modified": "2014-11-13 00:00:00.000000",
+	"is_virtual": false,
+	"accession_iso_date": "1945-12-26",
+	"location_string": "Legion, 101, Cabinet 03, A",
+	"location_building": "Legion",
+	"location_room": "Cabinet 03",
+	"titles": [
+		{
+			"Title": "Dessert server (Confiturier)",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 11238,
+			"Role": "Maker",
+			"RoleID": 56,
+			"DisplayName": "Martin-Guillaume Biennais",
+			"AlphaSort": "Martin Guillaume Biennais",
+			"Nationality": "French",
+			"BeginDate": 1764,
+			"EndDate": 1843,
+			"BeginDateISO": "1764",
+			"EndDateISO": "1843",
+			"DisplayDate": "1764–1843",
+			"Biography": "1764–1843",
+			"display_bios": [
+				{
+					"bio": "1764–1843",
+					"display_order": 1
+				},
+				{
+					"bio": "1764–1843",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Martin-Guillaume Biennais (1764–1843)"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 85656,
+			"media_master_id": 37045,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"photographer": null,
+			"credit_line": null,
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "2550 x 1970px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 1970,
+			"pixel_w": 2550
+		}
+	],
+	"exhibitions": [],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "10 1/4 in. (26 cm)",
+			"Description": "a",
+			"ElementName": "x_Do not use_Overall (4D)",
+			"Displayed": true,
+			"Rank": 1
+		},
+		{
+			"DisplayDimensions": "6 3/4 in. (17.1 cm)",
+			"Description": "b",
+			"ElementName": "x_Do not use_Overall (4D)",
+			"Displayed": true,
+			"Rank": 2
+		},
+		{
+			"DisplayDimensions": "1 7/8 x 6 3/4 in. (4.8 x 17.1 cm)",
+			"Description": "b",
+			"ElementName": "x_Do not use_Overall (4D)",
+			"Displayed": true,
+			"Rank": 3
+		},
+		{
+			"DisplayDimensions": "14 5/8 x 14 5/8 in. (37.1 x 37.1 cm)",
+			"Description": "a",
+			"ElementName": "x_Do not use_Overall (4D)",
+			"Displayed": true,
+			"Rank": 4
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Paris",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME",
+					"term": "Île-de-France"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AAAHD",
+					"term": "Département de Ville-de-Paris"
+				}
+			]
+		}
+	],
+	"primary_artist": "Martin-Guillaume Biennais",
+	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/37045/info.json",
+	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/37045/full/300,/0/default.jpg",
+	"has_image": true,
+	"primary_artist_display": "Martin-Guillaume Biennais (1764–1843)",
+	"display_year": "1809–19",
+	"has_iiif": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "martin-guillaume biennais",
+	"sort_year": 1809,
+	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"_sample_meta": {
+		"reason": "Biennais Confiturier (1945.312a-b) — 4+ dimension entries (Overall + components)",
+		"picked_at": "2026-05-18T09:01:33.548235+00:00",
+		"populated_fields": 42
+	}
+}

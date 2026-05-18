@@ -1,0 +1,593 @@
+{
+	"id": 303256,
+	"accession_number": "TestObject.01",
+	"sort_number": "TestObject.01",
+	"title": "R2-D2 Model",
+	"object_name": "Droid 原画）",
+	"portfolio": "12",
+	"display_date": "a long time ago",
+	"begin_iso_date": "2000",
+	"end_iso_date": "2000",
+	"medium": "Plastic, resin, metal, paint",
+	"medium_parts": ["Plastic, resin, metal, paint"],
+	"dimensions": "Overall: 70 x 45 x 45 in. (177.8 x 114.3 x 114.3 cm) Footprint (Center Back Length): 50 x 50 in. (127 x 127 cm)",
+	"dimensions_display_primary": "70 x 45 x 45 in. (177.8 x 114.3 x 114.3 cm)",
+	"credit_line": "Private Collection",
+	"department": "Ancient Art",
+	"classification": "Ceremonial & Religious Objects",
+	"copyright": "© R2D2 / Galactic Republic",
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"last_modified": "2026-05-14 11:44:44.937000",
+	"is_virtual": false,
+	"identifying_description": "R2-series astromech droid manufactured by Industrial Automaton with masculine programming",
+	"web_text": "This is the text on the website. I've entered three line breaks.",
+	"didactic_label": "Didactic Label: Temporary Exhibition TEST",
+	"provenance": "Mandufactured by Industial Automaton on Naboo",
+	"label_text": "This is the text entry for Label on object",
+	"accession_iso_date": "2021-01-04",
+	"location_string": "de Young, Conservation, 217",
+	"location_building": "de Young",
+	"location_room": "217",
+	"edition": "Model 7 of 2.5 Million",
+	"signed": "Luke Skywalker (in pen)",
+	"inscribed": "Property of Queen Amidala of Naboo",
+	"markings": "Industrial Automaton maker mark",
+	"titles": [
+		{
+			"Title": "R2-D2 Model",
+			"TitleType": "Primary Title",
+			"Language": "English",
+			"DisplayOrder": 1
+		},
+		{
+			"Title": "R2D2",
+			"TitleType": "Former Title",
+			"Language": "English",
+			"DisplayOrder": 2
+		}
+	],
+	"constituents": [],
+	"media": [
+		{
+			"media_xref_id": 232347,
+			"media_master_id": 246604,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"photographer": null,
+			"credit_line": null,
+			"use_quality": "Print Quality",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"web_publishing_size": "1365 x 2048px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 2048,
+			"pixel_w": 1365
+		},
+		{
+			"media_xref_id": 242207,
+			"media_master_id": 254396,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"photographer": null,
+			"credit_line": null,
+			"use_quality": "Print Quality",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"web_publishing_size": "3024 x 4032px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 4032,
+			"pixel_w": 3024
+		}
+	],
+	"exhibitions": [
+		{
+			"ExhibitionID": 534,
+			"ExhTitle": "Test Exhibition: Art on Display in a Museum",
+			"DisplayDate": "Thursday, June 1, 2023 - Tuesday, October 31, 2023",
+			"BeginISODate": "2023-06-01",
+			"EndISODate": "2023-10-31",
+			"IsInHouse": true,
+			"VenueName": "Amon Carter Museum of American Art"
+		},
+		{
+			"ExhibitionID": 537,
+			"ExhTitle": "Test Exhibition: A Star Wars Exhibition",
+			"DisplayDate": "Sunday, December 17, 2023 - Wednesday, March 6, 2024",
+			"BeginISODate": "2023-12-18",
+			"EndISODate": "2024-03-06",
+			"IsInHouse": false,
+			"VenueName": "TEST National Museum of Fine Arts"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "70 x 45 x 45 in. (177.8 x 114.3 x 114.3 cm)",
+			"Description": null,
+			"ElementName": "Overall",
+			"Displayed": true,
+			"Rank": 1
+		},
+		{
+			"DisplayDimensions": "50 x 50 in. (127 x 127 cm)",
+			"Description": "Center Back Length",
+			"ElementName": "Footprint",
+			"Displayed": true,
+			"Rank": 2
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Nepean",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP",
+					"term": "Ontario"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP.AABER",
+					"term": "Nepean"
+				}
+			]
+		},
+		{
+			"term": "Egypt",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAPN",
+					"term": "Miṣr"
+				}
+			]
+		},
+		{
+			"term": "Milky Way Galaxy",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAD",
+					"term": "Extraterrestrial Places"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAD.AAAAA",
+					"term": "Milky Way Galaxy"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": [
+		{
+			"term": "at sea",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAC",
+					"term": "Unidentified Places"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAC.AAAAA",
+					"term": "at sea"
+				}
+			]
+		}
+	],
+	"term_related_geography": [
+		{
+			"term": "Nepean",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP",
+					"term": "Ontario"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP.AABER",
+					"term": "Nepean"
+				}
+			]
+		},
+		{
+			"term": "Ottawa",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP",
+					"term": "Ontario"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP.AABIU",
+					"term": "Ottawa"
+				}
+			]
+		}
+	],
+	"term_period": [
+		{
+			"term": "Revolutionnaire",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAI",
+					"term": "European"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAI",
+					"term": "modern European styles and movements"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAI.AAM",
+					"term": "modern European regional styles and movements"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAI.AAM.AAI",
+					"term": "modern French styles and movements"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAI.AAM.AAI.AAD",
+					"term": "modern French styles by reign"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAI.AAM.AAI.AAD.AAG",
+					"term": "Revolutionnaire"
+				}
+			]
+		}
+	],
+	"term_reign": [
+		{
+			"term": "Early Imperial",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAH",
+					"term": "Early Western World"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAH.AAB",
+					"term": "Mediterranean"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAH.AAB.AAB",
+					"term": "Ancient Italian"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAD.AAA.AAB.AAH.AAB.AAB.AAS",
+					"term": "Roman"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAD.AAA.AAB.AAH.AAB.AAB.AAS.AAC",
+					"term": "Imperial"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAD.AAA.AAB.AAH.AAB.AAB.AAS.AAC.AAA",
+					"term": "Early Imperial"
+				}
+			]
+		}
+	],
+	"term_school": [
+		{
+			"term": "Italian",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAI",
+					"term": "European"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAE",
+					"term": "European regions"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAE.ABO",
+					"term": "Italian"
+				}
+			]
+		}
+	],
+	"term_materials": [
+		{
+			"term": "carbon",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAM",
+					"term": "carbon"
+				}
+			]
+		},
+		{
+			"term": "aluminum",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
+					"term": "metal by composition or origin"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB",
+					"term": "nonferrous metal"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAC",
+					"term": "aluminum and aluminum alloys"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAC.AAA",
+					"term": "aluminum"
+				}
+			]
+		}
+	],
+	"term_intended_market": [
+		{
+			"term": "Massachusetts",
+			"certainty": "Probably",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADRY",
+					"term": "Massachusetts"
+				}
+			]
+		}
+	],
+	"primary_artist": "Unknown artist",
+	"has_image": true,
+	"display_year": "2000",
+	"has_iiif": false,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_artist": "unknown artist",
+	"sort_year": 2000,
+	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"_sample_meta": {
+		"reason": "R2-D2 Model (TestObject.01) — FAMSF synthetic test record, exercises every field. 57+ populated.",
+		"picked_at": "2026-05-18T09:01:33.548235+00:00",
+		"populated_fields": 57
+	}
+}

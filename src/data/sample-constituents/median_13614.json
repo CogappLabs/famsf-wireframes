@@ -1,0 +1,105 @@
+{
+	"id": 13614,
+	"name": "Steven Sorman",
+	"alpha_sort": "Steven Sorman",
+	"display_date": "b. 1948",
+	"nationality": "American",
+	"begin_date_iso": "1948",
+	"biography": "b. 1948",
+	"display_bios": [
+		{
+			"bio": "b. 1948",
+			"display_order": 1
+		},
+		{
+			"bio": "b. 1948",
+			"display_order": 2
+		}
+	],
+	"object_count": 4,
+	"sample_objects": [
+		{
+			"id": 53425,
+			"accession_number": "1991.1.264",
+			"title": "Wherein We Are Outside of Which",
+			"display_date": "1986",
+			"primary_artist_display": "Steven Sorman (1948–)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 83530,
+			"accession_number": "1993.126.9",
+			"title": "Lac Qui Parle",
+			"display_date": "1986",
+			"primary_artist_display": "Steven Sorman (1948–)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/124218/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 115602,
+			"accession_number": "1981.1.60",
+			"title": "The Explanation of This",
+			"display_date": "1979",
+			"primary_artist_display": "Steven Sorman (1948–)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 130538,
+			"accession_number": "2000.191",
+			"title": "In Real Life",
+			"display_date": "1990",
+			"primary_artist_display": "Steven Sorman (1948–)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		}
+	],
+	"facets": {
+		"total_works": 4,
+		"on_view_count": 0,
+		"has_iiif_count": 1,
+		"exhibited_count": 0,
+		"date_range": {
+			"earliest_year": 1979,
+			"latest_year": 1990
+		},
+		"classifications": [
+			{
+				"value": "Print",
+				"count": 4
+			}
+		],
+		"departments": [
+			{
+				"value": "Achenbach Foundation for Graphic Arts",
+				"count": 4
+			}
+		],
+		"top_subjects": [],
+		"top_materials": [],
+		"top_places_of_creation": [],
+		"top_styles": [],
+		"top_movements": [],
+		"decade_histogram": [
+			{
+				"decade": 1970,
+				"count": 1
+			},
+			{
+				"decade": 1980,
+				"count": 2
+			},
+			{
+				"decade": 1990,
+				"count": 1
+			}
+		]
+	},
+	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: closest to median populated-field count.",
+		"picked_at": "2026-05-18T11:59:44.370463+00:00",
+		"populated_fields": 12
+	}
+}

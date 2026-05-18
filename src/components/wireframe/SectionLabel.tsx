@@ -15,3 +15,16 @@ export default function SectionLabel({
 		</p>
 	);
 }
+
+export function SectionLabelInline({
+	children,
+	className = "",
+}: SectionLabelProps) {
+	return (
+		<span
+			className={`font-mono text-label uppercase tracking-[0.08em] text-gray-500 ${className}`}
+		>
+			{children}
+		</span>
+	);
+}

@@ -626,6 +626,15 @@ export const scope: Record<string, ScopeEntry> = {
 		mvp: false,
 		issueUrl: issue("CW-62"),
 	},
+
+	// ── Sample objects (real ETL data) ─────────────────────────────────
+	"objects/sample/Image": { mvp: true },
+	"objects/sample/Tombstone": { mvp: true },
+	"objects/sample/Description": { mvp: true },
+	"objects/sample/Constituents": { mvp: true },
+	"objects/sample/Dimensions": { mvp: true },
+	"objects/sample/Exhibitions": { mvp: true },
+	"objects/sample/Provenance": { mvp: true },
 };
 
 export function getAnnotation(

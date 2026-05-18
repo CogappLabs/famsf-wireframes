@@ -1,0 +1,394 @@
+{
+	"id": 2279,
+	"name": "Anonymous",
+	"alpha_sort": "Anonymous",
+	"display_date": "French, active 18th century",
+	"nationality": "French",
+	"biography": "French, active 18th century",
+	"display_bios": [
+		{
+			"bio": "French, active 18th century",
+			"display_order": 1
+		},
+		{
+			"bio": "active 17th century",
+			"display_order": 2
+		},
+		{
+			"bio": "active 20th century",
+			"display_order": 3
+		},
+		{
+			"bio": "active 19th century",
+			"display_order": 4
+		},
+		{
+			"bio": "active 19th century",
+			"display_order": 5
+		},
+		{
+			"bio": "active 19th century",
+			"display_order": 6
+		}
+	],
+	"object_count": 1115,
+	"sample_objects": [
+		{
+			"id": 1608,
+			"accession_number": "1963.24.341r-v",
+			"title": "Cherubs Riding Dolphin/ verso: Cherubs in a Sailboat",
+			"display_date": "mid 18th century",
+			"primary_artist_display": "Anonymous",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/100200/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 1967,
+			"accession_number": "1963.24.388",
+			"title": "Allegorical Composition: The Oracle of the Pythia at Delphi",
+			"display_date": "ca. 1680",
+			"primary_artist_display": "Anonymous",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/88535/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 2835,
+			"accession_number": "1954.161.126",
+			"title": "Sieyes",
+			"display_date": "19th century",
+			"primary_artist_display": "Anonymous",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 2965,
+			"accession_number": "1963.30.32198",
+			"title": "Map of Africa",
+			"display_date": "19th century",
+			"primary_artist_display": "Anonymous",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/91953/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 3690,
+			"accession_number": "1963.30.31674",
+			"title": "The Divorce of Josephine",
+			"display_date": "19th century",
+			"primary_artist_display": "Anonymous",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/88106/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 3765,
+			"accession_number": "1963.30.18465",
+			"title": "Fariboles: Oh! quel dommage...ce chemin n'est pas une voie pour les charettes....",
+			"display_date": "19th century",
+			"primary_artist_display": "Anonymous",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 4224,
+			"accession_number": "1963.30.18192",
+			"title": "Page from \"Le Charivari\", March 2, 1857",
+			"display_date": "1857",
+			"primary_artist_display": "Anonymous",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/107551/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 4226,
+			"accession_number": "1963.30.18365",
+			"title": "Le Gendarme à Robert Macaire: Quelle est votre profession",
+			"display_date": "19th century",
+			"primary_artist_display": "Anonymous",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 4230,
+			"accession_number": "1963.30.18471",
+			"title": "Fariboles: Ah!...je vous croyais trop grand garcon....",
+			"display_date": "19th century",
+			"primary_artist_display": "Anonymous",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 4231,
+			"accession_number": "1963.30.18535",
+			"title": "Fariboles: Je veux devenir une honnete femme....",
+			"display_date": "19th century",
+			"primary_artist_display": "Anonymous",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/103683/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 4236,
+			"accession_number": "1963.30.18686",
+			"title": "The Political Situation in France, from Harper's Weekly, {22 November 1873), p. 1041",
+			"display_date": "1873",
+			"primary_artist_display": "Anonymous",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/103221/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 4330,
+			"accession_number": "1963.30.23883",
+			"title": "Farewell of Napoleon to his Guards, April 20 1814",
+			"display_date": "19th century",
+			"primary_artist_display": "Anonymous",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/75652/full/300,/0/default.jpg",
+			"has_iiif": true
+		}
+	],
+	"facets": {
+		"total_works": 1028,
+		"on_view_count": 2,
+		"has_iiif_count": 732,
+		"exhibited_count": 16,
+		"date_range": {
+			"earliest_year": 1475,
+			"latest_year": 1955
+		},
+		"classifications": [
+			{
+				"value": "Print",
+				"count": 880
+			},
+			{
+				"value": "Photograph",
+				"count": 75
+			},
+			{
+				"value": "Drawing",
+				"count": 48
+			},
+			{
+				"value": "Costume",
+				"count": 7
+			},
+			{
+				"value": "Furnishing",
+				"count": 7
+			},
+			{
+				"value": "Food",
+				"count": 3
+			},
+			{
+				"value": "Sculpture",
+				"count": 3
+			},
+			{
+				"value": "Vessels & Containers",
+				"count": 2
+			},
+			{
+				"value": "Information Artifact",
+				"count": 1
+			},
+			{
+				"value": "Artist's Book",
+				"count": 1
+			}
+		],
+		"departments": [
+			{
+				"value": "Achenbach Foundation for Graphic Arts",
+				"count": 1005
+			},
+			{
+				"value": "European Decorative Arts and Sculpture",
+				"count": 16
+			},
+			{
+				"value": "Costume and Textile Arts",
+				"count": 7
+			}
+		],
+		"top_subjects": [],
+		"top_materials": [
+			{
+				"value": "gilt bronze",
+				"count": 2
+			},
+			{
+				"value": "rock crystal",
+				"count": 1
+			},
+			{
+				"value": "gilding",
+				"count": 1
+			},
+			{
+				"value": "glass",
+				"count": 1
+			}
+		],
+		"top_places_of_creation": [
+			{
+				"value": "France",
+				"count": 16
+			},
+			{
+				"value": "Paris",
+				"count": 2
+			},
+			{
+				"value": "Germany",
+				"count": 2
+			},
+			{
+				"value": "England",
+				"count": 1
+			},
+			{
+				"value": "Naples",
+				"count": 1
+			},
+			{
+				"value": "Strasbourg",
+				"count": 1
+			},
+			{
+				"value": "Southern France",
+				"count": 1
+			}
+		],
+		"top_styles": [],
+		"top_movements": [],
+		"decade_histogram": [
+			{
+				"decade": 1470,
+				"count": 1
+			},
+			{
+				"decade": 1500,
+				"count": 1
+			},
+			{
+				"decade": 1600,
+				"count": 2
+			},
+			{
+				"decade": 1610,
+				"count": 1
+			},
+			{
+				"decade": 1620,
+				"count": 5
+			},
+			{
+				"decade": 1630,
+				"count": 17
+			},
+			{
+				"decade": 1660,
+				"count": 1
+			},
+			{
+				"decade": 1680,
+				"count": 1
+			},
+			{
+				"decade": 1690,
+				"count": 3
+			},
+			{
+				"decade": 1700,
+				"count": 1
+			},
+			{
+				"decade": 1720,
+				"count": 3
+			},
+			{
+				"decade": 1740,
+				"count": 1
+			},
+			{
+				"decade": 1750,
+				"count": 3
+			},
+			{
+				"decade": 1760,
+				"count": 1
+			},
+			{
+				"decade": 1790,
+				"count": 4
+			},
+			{
+				"decade": 1800,
+				"count": 8
+			},
+			{
+				"decade": 1810,
+				"count": 8
+			},
+			{
+				"decade": 1820,
+				"count": 35
+			},
+			{
+				"decade": 1830,
+				"count": 4
+			},
+			{
+				"decade": 1840,
+				"count": 9
+			},
+			{
+				"decade": 1850,
+				"count": 9
+			},
+			{
+				"decade": 1860,
+				"count": 8
+			},
+			{
+				"decade": 1870,
+				"count": 26
+			},
+			{
+				"decade": 1880,
+				"count": 33
+			},
+			{
+				"decade": 1890,
+				"count": 3
+			},
+			{
+				"decade": 1900,
+				"count": 2
+			},
+			{
+				"decade": 1910,
+				"count": 8
+			},
+			{
+				"decade": 1920,
+				"count": 3
+			},
+			{
+				"decade": 1930,
+				"count": 2
+			},
+			{
+				"decade": 1940,
+				"count": 1
+			},
+			{
+				"decade": 1950,
+				"count": 3
+			}
+		]
+	},
+	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"_sample_meta": {
+		"reason": "Anonymous — exercises multi-bio display_bios array (6 bios, 1,115 attributed works)",
+		"picked_at": "2026-05-18T11:59:44.370463+00:00",
+		"populated_fields": 11
+	}
+}

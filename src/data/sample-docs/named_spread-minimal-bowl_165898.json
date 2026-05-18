@@ -1,0 +1,39 @@
+{
+	"id": 165898,
+	"accession_number": "22245D",
+	"sort_number": "22245D",
+	"title": "wooden bowl",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"on_view": false,
+	"last_modified": "2007-04-05 00:00:00.000000",
+	"is_virtual": false,
+	"location_string": "de Young, 061, Cabinet 019, E",
+	"location_building": "de Young",
+	"location_room": "Cabinet 019",
+	"titles": [
+		{
+			"Title": "wooden bowl",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [],
+	"media": [],
+	"exhibitions": [],
+	"dimensions_structured": [],
+	"associations": [],
+	"is_compound": false,
+	"primary_artist": "Unknown artist",
+	"has_image": false,
+	"has_iiif": false,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "unknown artist",
+	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"_sample_meta": {
+		"reason": "wooden bowl (22245D) — 16 fields, sparsest tier",
+		"picked_at": "2026-05-18T09:01:33.548235+00:00",
+		"populated_fields": 20
+	}
+}

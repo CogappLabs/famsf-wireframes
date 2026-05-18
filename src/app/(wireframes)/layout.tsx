@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Suspense } from "react";
+import FieldDebugToggle from "@/components/wireframe/FieldDebugToggle";
 import FloatingSearch from "@/components/wireframe/FloatingSearch";
 import GlobalNav from "@/components/wireframe/GlobalNav";
 import ScopeToggle from "@/components/wireframe/ScopeToggle";
@@ -41,6 +42,7 @@ export default function WireframeLayout({
 					<VariationSlot />
 				</Suspense>
 				<div className="flex items-center gap-2">
+					<FieldDebugToggle />
 					<ScopeToggle />
 					{page ? (
 						<>

@@ -1,0 +1,334 @@
+{
+	"id": 94799,
+	"accession_number": "1991.28.77",
+	"sort_number": "1991.28.77",
+	"title": "Clubs—Blue Ground",
+	"object_name": "intaglio print",
+	"display_date": "1982",
+	"begin_iso_date": "1982",
+	"end_iso_date": "1982",
+	"medium": "Color hard ground etching, spit bite aquatint, aquatint and drypoint on paper",
+	"medium_parts": [
+		"Color hard ground etching, spit bite aquatint, aquatint and drypoint on paper"
+	],
+	"dimensions": "Sheet: 32 15/16 x 26 3/8 in. (83.7 x 67 cm) Image: 19 7/8 x 18 13/16 in. (50.5 x 47.8 cm)",
+	"dimensions_display_primary": "32 15/16 x 26 3/8 in. (83.7 x 67 cm)",
+	"credit_line": "Crown Point Press Archive, gift of Crown Point Press",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": "© 2026 Richard Diebenkorn Foundation / Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"last_modified": "2026-02-04 16:55:20.400000",
+	"is_virtual": false,
+	"identifying_description": "two club shapes on a blue ground",
+	"web_text": "Over the course of two years, between 1981 and 1982, in a break from the rectilinear geometry of his large Ocean Park canvases, Diebenkorn dealt directly with clubs and spades, as theme and variation, in a sizable group of drawings and prints. Diebenkorn was fascinated with the figures of clubs and spades from the time of his childhood, when he painted them as emblems of heraldic devices on homemade shields. Occasionally, he included them in his early abstract paintings and drawings of the 1950s and 1960s. \"I had always used these signs in my work almost from my beginnings, but always peripherally, incidentally, and perhaps whimsically\" [R. Diebenkorn, quoted from John Elderfield, \"Leaving Ocean Park\", The Art of Richard Diebenkorn, New York, 1997, p. 112]. In two printmaking sessions at Crown Point Press, April 13-21, 1981 and May 5-20, 1982, the artist produced fifteen prints with clubs and spades as singular motifs. The forms are iconic in these prints, enlarged to a monumental scale within the printing plate, often crowding the image space. Clubs and spades mutate into trees, towers, or merge to form hybrids. Spades are bloated and bulbous, each containing a flowerlike club form.",
+	"didactic_label": "For many familiar with Richard Diebenkorn’s work, his intense focus on clubs and spades was a surprising departure from his hugely popular Ocean Park series. The motifs’ bulbous, curvilinear forms starkly contrast with the dramatic rectilinear compositions characterizing Ocean Park and many of his other works on paper. While the views of Ocean Park are distant and geometric, Diebenkorn’s exploration of clubs and spades enfolds the viewer in a close examination of an intimate theme, enlarging forms typically experienced in miniature so that they fill most of the printing plate.",
+	"exhibition_history_text": "Richard Diebenkorn: Clubs and SpadesCPLH 1/19/02 - 4/28/02.Univ of California at San Diego, Univ Art Gallery, La Jolla, CA, Thirty Five Years at Crown Point Press, June 27 - Aug 29, 1998.",
+	"accession_iso_date": "1991-06-06",
+	"location_string": "Legion, 210, Drawer, 373",
+	"location_building": "Legion",
+	"location_room": "Drawer",
+	"edition": "Edition 35, AP 6/11",
+	"signed": "(recto, lower right, in graphite) RD 82",
+	"inscribed": "(recto, lower left, in graphite) AP 6; (verso) OK to print",
+	"markings": "(recto, lower right, embossed) publisher's blind stamp; (recto, lower right, embossed) printer's blind stamp",
+	"titles": [
+		{
+			"Title": "Clubs—Blue Ground",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 9993,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Richard Diebenkorn",
+			"AlphaSort": "Diebenkorn,  Richard",
+			"Nationality": "American",
+			"BeginDate": 1922,
+			"EndDate": 1993,
+			"BeginDateISO": "1922-04-22",
+			"EndDateISO": "1993-03-30",
+			"DisplayDate": "American, 1922–1993",
+			"Biography": "American, 1922–1993",
+			"display_bios": [
+				{
+					"bio": "American, 1922–1993",
+					"display_order": 1
+				},
+				{
+					"bio": "1922–1993",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Richard Diebenkorn (American, 1922–1993)"
+		},
+		{
+			"ConstituentID": 7903,
+			"Role": "Printer",
+			"RoleID": 40,
+			"DisplayName": "Lilah Toland",
+			"AlphaSort": "Lilah Toland",
+			"Nationality": "American",
+			"BeginDate": null,
+			"EndDate": null,
+			"BeginDateISO": null,
+			"EndDateISO": null,
+			"DisplayDate": "American, active 20th century",
+			"Biography": "American, active 20th century",
+			"display_bios": [
+				{
+					"bio": "American, active 20th century",
+					"display_order": 1
+				},
+				{
+					"bio": "active 20th century",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Lilah Toland (American, active 20th century)"
+		},
+		{
+			"ConstituentID": 5148,
+			"Role": "Printing Assistant",
+			"RoleID": 133,
+			"DisplayName": "Hidekatsu Takada",
+			"AlphaSort": "Takada,  Hidekatsu",
+			"Nationality": "American",
+			"BeginDate": 1944,
+			"EndDate": 2025,
+			"BeginDateISO": "1944-07-04",
+			"EndDateISO": "2025-11-18",
+			"DisplayDate": "American, 1944–2025",
+			"Biography": "American, 1944–2025",
+			"display_bios": [
+				{
+					"bio": "American, 1944–2025",
+					"display_order": 1
+				},
+				{
+					"bio": "1944–2025",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 3,
+			"DisplayLabel": "Hidekatsu Takada (American, 1944–2025)"
+		},
+		{
+			"ConstituentID": 10972,
+			"Role": "Printing Assistant",
+			"RoleID": 133,
+			"DisplayName": "Paul Singdahlsen",
+			"AlphaSort": "Paul Singdahlsen",
+			"Nationality": "American",
+			"BeginDate": null,
+			"EndDate": null,
+			"BeginDateISO": null,
+			"EndDateISO": null,
+			"DisplayDate": "American, active 20th century",
+			"Biography": "American, active 20th century",
+			"display_bios": [
+				{
+					"bio": "American, active 20th century",
+					"display_order": 1
+				},
+				{
+					"bio": "active 20th century",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 4,
+			"DisplayLabel": "Paul Singdahlsen (American, active 20th century)"
+		},
+		{
+			"ConstituentID": 7900,
+			"Role": "Publisher",
+			"RoleID": 39,
+			"DisplayName": "Crown Point Press",
+			"AlphaSort": "Crown Point Press",
+			"Nationality": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"BeginDateISO": null,
+			"EndDateISO": null,
+			"DisplayDate": "est. 1962",
+			"Biography": "est. 1962",
+			"display_bios": [
+				{
+					"bio": "est. 1962",
+					"display_order": 1
+				},
+				{
+					"bio": "active 20th century",
+					"display_order": 2
+				},
+				{
+					"bio": "American, est. 1962",
+					"display_order": 3
+				}
+			],
+			"Institution": "Crown Point Press",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 5,
+			"DisplayLabel": "Crown Point Press (est. 1962)"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 50191,
+			"media_master_id": 118970,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"photographer": null,
+			"credit_line": null,
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "1283 x 1398px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 1398,
+			"pixel_w": 1283
+		}
+	],
+	"exhibitions": [
+		{
+			"ExhibitionID": 492,
+			"ExhTitle": "Diebenkorn in Color",
+			"DisplayDate": "Saturday, September 10, 2022 - Sunday, February 12, 2023",
+			"BeginISODate": "2022-09-10",
+			"EndISODate": "2023-02-12",
+			"IsInHouse": true,
+			"VenueName": "de Young Museum"
+		},
+		{
+			"ExhibitionID": 535,
+			"ExhTitle": "Celebrating 100 Years at the Legion of Honor",
+			"DisplayDate": "Saturday, November 9, 2024 - Sunday, November 2, 2025",
+			"BeginISODate": "2024-11-09",
+			"EndISODate": "2026-01-04",
+			"IsInHouse": true,
+			"VenueName": "Legion of Honor"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "32 15/16 x 26 3/8 in. (83.7 x 67 cm)",
+			"Description": "Sheet",
+			"ElementName": "Overall",
+			"Displayed": true,
+			"Rank": 1
+		},
+		{
+			"DisplayDimensions": "19 7/8 x 18 13/16 in. (50.5 x 47.8 cm)",
+			"Description": null,
+			"ElementName": "Image",
+			"Displayed": true,
+			"Rank": 2
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Oakland",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT",
+					"term": "California"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AAAAE",
+					"term": "Alameda"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AAAAE.AAAFB",
+					"term": "Oakland"
+				}
+			]
+		}
+	],
+	"primary_artist": "Richard Diebenkorn",
+	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/118970/info.json",
+	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/118970/full/300,/0/default.jpg",
+	"has_image": true,
+	"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+	"display_year": "1982",
+	"has_iiif": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "richard diebenkorn",
+	"sort_year": 1982,
+	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: most populated fields in the dataset (true max).",
+		"picked_at": "2026-05-18T09:01:33.548235+00:00",
+		"populated_fields": 52
+	}
+}

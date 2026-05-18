@@ -1,0 +1,144 @@
+{
+	"id": 6087,
+	"name": "Claude Monet",
+	"alpha_sort": "Monet,  Claude",
+	"display_date": "French, 1840–1926",
+	"nationality": "French",
+	"begin_date_iso": "1840-11-14",
+	"end_date_iso": "1926-12-05",
+	"biography": "French, 1840–1926",
+	"display_bios": [
+		{
+			"bio": "French, 1840–1926",
+			"display_order": 1
+		},
+		{
+			"bio": "French, 1840–1926",
+			"display_order": 2
+		}
+	],
+	"object_count": 5,
+	"sample_objects": [
+		{
+			"id": 28078,
+			"accession_number": "1962.23",
+			"title": "Sailboats on the Seine at Petit-Gennevilliers",
+			"display_date": "1874",
+			"primary_artist_display": "Claude Monet (1840–1926)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 63684,
+			"accession_number": "1960.29",
+			"title": "The Grand Canal, Venice",
+			"display_date": "1908",
+			"primary_artist_display": "Claude Monet (1840–1926)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/249661/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 97614,
+			"accession_number": "1973.3",
+			"title": "Water Lilies",
+			"display_date": "ca. 1914–1917",
+			"primary_artist_display": "Claude Monet (1840–1926)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/251038/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 116645,
+			"accession_number": "1970.10",
+			"title": "Waves Breaking",
+			"display_date": "1881",
+			"primary_artist_display": "Claude Monet (1840–1926)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 219474,
+			"accession_number": "69.30.141",
+			"title": "The coast of Normandy viewed from Sainte-Adresse",
+			"display_date": "ca. 1864",
+			"primary_artist_display": "Claude Monet (1840–1926)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/160053/full/300,/0/default.jpg",
+			"has_iiif": true
+		}
+	],
+	"facets": {
+		"total_works": 5,
+		"on_view_count": 3,
+		"has_iiif_count": 3,
+		"exhibited_count": 5,
+		"date_range": {
+			"earliest_year": 1859,
+			"latest_year": 1914
+		},
+		"classifications": [
+			{
+				"value": "Painting",
+				"count": 4
+			},
+			{
+				"value": "Drawing",
+				"count": 1
+			}
+		],
+		"departments": [
+			{
+				"value": "European Paintings",
+				"count": 4
+			},
+			{
+				"value": "Achenbach Foundation for Graphic Arts",
+				"count": 1
+			}
+		],
+		"top_subjects": [],
+		"top_materials": [],
+		"top_places_of_creation": [
+			{
+				"value": "France",
+				"count": 3
+			},
+			{
+				"value": "Giverny",
+				"count": 1
+			},
+			{
+				"value": "Gennevilliers",
+				"count": 1
+			}
+		],
+		"top_styles": [],
+		"top_movements": [],
+		"decade_histogram": [
+			{
+				"decade": 1850,
+				"count": 1
+			},
+			{
+				"decade": 1870,
+				"count": 1
+			},
+			{
+				"decade": 1880,
+				"count": 1
+			},
+			{
+				"decade": 1900,
+				"count": 1
+			},
+			{
+				"decade": 1910,
+				"count": 1
+			}
+		]
+	},
+	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"_sample_meta": {
+		"reason": "Claude Monet (1840–1926) — 5 works at FAMSF, 2 display bios",
+		"picked_at": "2026-05-18T11:59:44.370463+00:00",
+		"populated_fields": 13
+	}
+}

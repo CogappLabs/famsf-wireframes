@@ -175,6 +175,92 @@ All Discovery-phase outputs from FAMSF, kept under `docs/`. They drive the wiref
 - `npm run lint` — Biome check
 - `npm run lint:fix` — Biome auto-fix
 - `npm run typecheck` — TypeScript type check
+- `npm run sync:samples` — pull fresh sample JSONs from the sibling `collection-flow-famsf/output/sample_docs/` dir
+
+## Sample objects (real ETL data)
+
+Sample collection-document JSONs live at `src/data/sample-docs/`. Pages
+in `/objects/sample/` render them as wireframe object pages backed by
+real pipeline output.
+
+**Auto-discovery registry** — `src/lib/sample-docs-registry.ts`. The
+index page (`/objects/sample/`) and the dynamic `[variant]` route both
+read this registry. Filename conventions:
+
+- `minimal_{id}.json` / `median_{id}.json` / `maximal_{id}.json` — auto-pick
+  spread set
+- `named_{slug}_{id}.json` — pinned by ObjectID for stable demos
+
+When multiple files share a slug (older spread picks left on disk
+across pipeline runs), the registry picks the newest by mtime. Stale
+dupes are silently hidden from the UI but should still be cleaned
+manually post-extract.
+
+**Sample meta** — each JSON has an `_sample_meta` block:
+
+```json
+"_sample_meta": {
+  "reason": "Diebenkorn 41 Etchings Drypoints (1991.28.332.1-9) — IsVirtual=true, 41 children",
+  "picked_at": "2026-05-18T09:30:45+00:00",
+  "populated_fields": 47
+}
+```
+
+The reason is rendered on each sample-index card. Underscore prefix
+keeps it out of ES (the pipeline writes it on the wireframe-export
+path only).
+
+**Auto-sync from pipeline** — when the FAMSF pipeline materialises
+`sample_docs`, it dual-writes to this repo's `src/data/sample-docs/`
+directory if `COLFLOW_WIREFRAMES_SAMPLE_DIR` env var is set in the
+pipeline's `.env`. No `npm run sync:samples` needed for content
+refreshes. Only run sync after schema changes (TypeScript type
+updates).
+
+## Shared wireframe components
+
+`src/components/wireframe/`:
+
+- `SectionLabel` + `SectionLabelInline` — uppercase mono kicker label,
+  `text-gray-500` colour, `tracking-[0.08em]`. Inline variant renders
+  `<span>` for inlining into prose; block variant renders `<p>`.
+- `TombstoneLabel` — field-level kicker for tombstone rows
+  (`text-gray-400`, mono uppercase). Use this whenever a tombstone row
+  needs a label, not the inline `font-mono text-label uppercase`
+  pattern.
+- `ExhibitionRow` — `{ title, date, venue, href }` props. Renders
+  `border-l-2 border-gray-200 pl-3` exhibition card. Wraps in `<Link>`
+  when `href` provided.
+- `FieldSourceBadge` — when the "Show source" debug toggle is on,
+  renders a small mono label showing `[ES: {field} ← {TMS source}]`.
+  Reads toggle state from variation context. Source mappings live in
+  `src/lib/es-tms-field-map.ts`.
+
+## CollectionDocument TypeScript type
+
+`src/lib/collection-document.ts` mirrors the pipeline's
+`prepare/schemas.py` CollectionSchema. After any pipeline schema
+change, refresh the type to match the new JSON shape. Helper
+functions:
+
+- `primaryMedia(doc)` — pick the primary image (first
+  `is_primary: true` or `media[0]`)
+- `allMedia(doc)` — sorted list of all image media items. NOTE:
+  intentionally ignores `approved_for_web` flag (unreliable on current
+  sample exports). Production surfaces should reapply that filter.
+- `iiifImageUrl(media_master_id, size)` — derive IIIF image URL
+- `populatedFieldCount(doc)` — count of non-null / non-empty fields
+
+## Long-text rendering rules
+
+Curator-authored long text fields (`provenance`, `bibliography_text`,
+`exhibition_history_text`, `web_text`, `didactic_label`) ship from the
+pipeline as plain text with `\n` line breaks preserved. Render with
+Tailwind `whitespace-pre-line` on the container — each line is a
+separate provenance / citation / exhibition entry. Do NOT split on
+`\n` and render as a list; the line-break model is curator-controlled.
+HTML-bearing fields (`web_text`, `didactic_label`) should also be
+HTML-sanitised before render in production.
 
 ## Tools
 

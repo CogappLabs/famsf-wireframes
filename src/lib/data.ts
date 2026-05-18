@@ -163,6 +163,20 @@ export const pages: WireframePage[] = [
 			"Information architecture — page hierarchy and navigation structure",
 		status: "wip",
 	},
+	{
+		id: "objects/sample",
+		title: "Sample Objects (ETL data)",
+		description:
+			"Three real pipeline documents wired in — minimal (17 fields), median (34 fields), maximal (49 fields). Refresh via npm run sync:samples.",
+		status: "wip",
+	},
+	{
+		id: "constituents/sample",
+		title: "Sample Constituents (ETL data)",
+		description:
+			"Ten real per-constituent documents from the pipeline. Min / median / max populated-field spread plus seven named pins (Monet, Holman Hunt, Diebenkorn, Spy, anonymous, Cartier, Tetsuya Noda). Each carries a sample_objects thumbnail grid.",
+		status: "wip",
+	},
 ];
 
 // ── Navigation tree ──────────────────────────────────────────────────

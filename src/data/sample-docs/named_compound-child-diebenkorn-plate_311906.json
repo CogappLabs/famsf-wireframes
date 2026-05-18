@@ -1,0 +1,220 @@
+{
+	"id": 311906,
+	"accession_number": "ICR.1991.28.332",
+	"sort_number": "ICR.1991.28.332",
+	"title": "#1",
+	"object_name": "drypoint",
+	"display_date": "1964",
+	"begin_iso_date": "1964",
+	"end_iso_date": "1964",
+	"medium": "Drypoint on Rives BFK paper",
+	"medium_parts": ["Drypoint on Rives BFK paper"],
+	"dimensions": "Object: 460 x 383 x 28 mm (18 1/8 x 15 1/16 x 1 1/8 in.)",
+	"dimensions_display_primary": "18 1/8 x 15 1/16 x 1 1/8 in. (46 x 38.3 x 2.8 cm)",
+	"credit_line": "Crown Point Press Archive, Museum purchase, Earthquake Fund",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": "© 2026 Richard Diebenkorn Foundation / Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"last_modified": "2026-02-05 12:01:00.753000",
+	"is_virtual": false,
+	"physical_parent_id": 94752,
+	"exhibition_history_text": "CPLH, Richard Diebenkorn:41 Etchings and Drypoints, 25 Sept 1999 - 23 Jan 2000.de Young, Celebrating a Centennial. Contemporary Printmakers at the CCA, 29 Sept 2007 - 6 Jan 2008.Univ of California at San Diego, Univ Art Gallery, La Jolla, CA, Thirty Five Years at Crown Point Press, June 27 - Aug 29, 1998.",
+	"signed": "(recto, lower right, in graphite) RD 64",
+	"inscribed": "(recto, lower left, in graphite) a.p.; (recto, lower center left, in graphite) #1",
+	"titles": [
+		{
+			"Title": "#1",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 9993,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Richard Diebenkorn",
+			"AlphaSort": "Diebenkorn,  Richard",
+			"Nationality": "American",
+			"BeginDate": 1922,
+			"EndDate": 1993,
+			"BeginDateISO": "1922-04-22",
+			"EndDateISO": "1993-03-30",
+			"DisplayDate": "American, 1922–1993",
+			"Biography": "American, 1922–1993",
+			"display_bios": [
+				{
+					"bio": "American, 1922–1993",
+					"display_order": 1
+				},
+				{
+					"bio": "1922–1993",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Richard Diebenkorn (American, 1922–1993)"
+		},
+		{
+			"ConstituentID": 4550,
+			"Role": "Printer",
+			"RoleID": 40,
+			"DisplayName": "Kathan Brown",
+			"AlphaSort": "Brown,  Kathan",
+			"Nationality": "American",
+			"BeginDate": 1935,
+			"EndDate": 2025,
+			"BeginDateISO": "1935",
+			"EndDateISO": "2025",
+			"DisplayDate": "American, 1935–2025",
+			"Biography": "American, 1935–2025",
+			"display_bios": [
+				{
+					"bio": "American, 1935–2025",
+					"display_order": 1
+				},
+				{
+					"bio": "b. 1935",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Kathan Brown (American, 1935–2025)"
+		},
+		{
+			"ConstituentID": 7900,
+			"Role": "Publisher",
+			"RoleID": 39,
+			"DisplayName": "Crown Point Press",
+			"AlphaSort": "Crown Point Press",
+			"Nationality": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"BeginDateISO": null,
+			"EndDateISO": null,
+			"DisplayDate": "est. 1962",
+			"Biography": "est. 1962",
+			"display_bios": [
+				{
+					"bio": "est. 1962",
+					"display_order": 1
+				},
+				{
+					"bio": "active 20th century",
+					"display_order": 2
+				},
+				{
+					"bio": "American, est. 1962",
+					"display_order": 3
+				}
+			],
+			"Institution": "Crown Point Press",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 3,
+			"DisplayLabel": "Crown Point Press (est. 1962)"
+		}
+	],
+	"media": [],
+	"exhibitions": [],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "18 1/8 x 15 1/16 x 1 1/8 in. (46 x 38.3 x 2.8 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Object (4D)",
+			"Displayed": true,
+			"Rank": 1
+		}
+	],
+	"associations": [
+		{
+			"related_object_id": 94752,
+			"related_accession_number": "1991.28.332.1-9",
+			"related_sort_number": "  1991    28  332    1   9                                                      ",
+			"related_title": "41 ETCHINGS DRYPOINTS BY RICHARD DIEBENKORN (BERKELEY: CROWN POINT PRESS, 1965)",
+			"relationship_id": 40,
+			"role": "Intellectual",
+			"related_role": "Physical",
+			"is_reciprocal": false,
+			"is_primary_parent": null,
+			"display_date": null,
+			"remarks": null
+		}
+	],
+	"virtual_parent_ids": [94752],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_related_geography": [
+		{
+			"term": "United States",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				}
+			]
+		}
+	],
+	"primary_artist": "Richard Diebenkorn",
+	"has_image": false,
+	"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+	"display_year": "1964",
+	"has_iiif": false,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "richard diebenkorn",
+	"sort_year": 1964,
+	"parent_accession_number": "1991.28.332.1-9",
+	"parent_title": "41 Etchings Drypoints by Richard Diebenkorn (Berkeley: Crown Point Press, 1965)",
+	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"_sample_meta": {
+		"reason": "Diebenkorn 41 Etchings plate 1 (ICR.1991.28.332.1) — child of virtual portfolio 94752, exercises parent_title / parent_accession_number denorm",
+		"picked_at": "2026-05-18T09:01:33.548235+00:00",
+		"populated_fields": 44
+	}
+}

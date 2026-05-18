@@ -6,6 +6,7 @@ import { Suspense } from "react";
 import {
 	Breadcrumb,
 	Container,
+	ExhibitionRow,
 	ImagePlaceholder,
 	LinkCard,
 	ScopeMark,
@@ -175,17 +176,12 @@ function ArtistPageContent() {
 								</SectionLabel>
 								<div className="flex flex-col gap-3">
 									{uniqueExhibitions.map((exh) => (
-										<div
+										<ExhibitionRow
 											key={exh.title}
-											className="border-l-2 border-gray-200 pl-3"
-										>
-											<p className="font-mono text-meta font-medium text-gray-700">
-												{exh.title}
-											</p>
-											<p className="font-mono text-label text-gray-500">
-												{exh.date} &middot; {exh.venue}
-											</p>
-										</div>
+											title={exh.title}
+											date={exh.date}
+											venue={exh.venue}
+										/>
 									))}
 								</div>
 							</ScopeMark>

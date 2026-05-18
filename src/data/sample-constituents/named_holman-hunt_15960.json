@@ -1,0 +1,141 @@
+{
+	"id": 15960,
+	"name": "William Holman Hunt",
+	"alpha_sort": "Hunt,  William Holman",
+	"display_date": "English, 1827–1910",
+	"nationality": "English",
+	"begin_date_iso": "1827",
+	"end_date_iso": "1910",
+	"biography": "English, 1827–1910",
+	"display_bios": [
+		{
+			"bio": "English, 1827–1910",
+			"display_order": 1
+		},
+		{
+			"bio": "1827–1910",
+			"display_order": 2
+		}
+	],
+	"object_count": 6,
+	"sample_objects": [
+		{
+			"id": 24783,
+			"accession_number": "1963.30.3090",
+			"title": "The Abundance of Egypt",
+			"display_date": "ca. 1857",
+			"primary_artist_display": "William Holman Hunt (1827–1910)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/89672/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 41859,
+			"accession_number": "1963.30.3091",
+			"title": "The Desolation of Egypt, plate 21 from 'Etchings for the Art Union'",
+			"display_date": "1857",
+			"primary_artist_display": "William Holman Hunt (1827–1910)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/89670/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 141937,
+			"accession_number": "2021.31",
+			"title": "Isabella and the Pot of Basil",
+			"display_date": "1867–1868",
+			"primary_artist_display": "William Holman Hunt (1827–1910)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/193319/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 157317,
+			"accession_number": "2007.64.9",
+			"title": "Isabella and the Pot of Basil from Translations: The Reproductive Print Re-Interpreted in the Twenty-First Century",
+			"display_date": "2005",
+			"primary_artist_display": "William Holman Hunt (1827–1910)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 174235,
+			"accession_number": "2017.43.2",
+			"title": "The Father's Leave-Taking",
+			"display_date": "1879",
+			"primary_artist_display": "William Holman Hunt (1827–1910)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 238328,
+			"accession_number": "2019.33",
+			"title": "The Birthday",
+			"display_date": "1868",
+			"primary_artist_display": "William Holman Hunt (1827–1910)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		}
+	],
+	"facets": {
+		"total_works": 6,
+		"on_view_count": 1,
+		"has_iiif_count": 3,
+		"exhibited_count": 1,
+		"date_range": {
+			"earliest_year": 1857,
+			"latest_year": 2005
+		},
+		"classifications": [
+			{
+				"value": "Print",
+				"count": 4
+			},
+			{
+				"value": "Painting",
+				"count": 2
+			}
+		],
+		"departments": [
+			{
+				"value": "Achenbach Foundation for Graphic Arts",
+				"count": 4
+			},
+			{
+				"value": "European Paintings",
+				"count": 2
+			}
+		],
+		"top_subjects": [],
+		"top_materials": [],
+		"top_places_of_creation": [
+			{
+				"value": "England",
+				"count": 2
+			}
+		],
+		"top_styles": [],
+		"top_movements": [],
+		"decade_histogram": [
+			{
+				"decade": 1850,
+				"count": 2
+			},
+			{
+				"decade": 1860,
+				"count": 2
+			},
+			{
+				"decade": 1870,
+				"count": 1
+			},
+			{
+				"decade": 2000,
+				"count": 1
+			}
+		]
+	},
+	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"_sample_meta": {
+		"reason": "William Holman Hunt (1827–1910) — 6 works, 2 display bios",
+		"picked_at": "2026-05-18T11:59:44.370463+00:00",
+		"populated_fields": 13
+	}
+}

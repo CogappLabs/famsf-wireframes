@@ -1,12 +1,14 @@
 export { default as Breadcrumb } from "./Breadcrumb";
 export { default as CategoryBadge } from "./CategoryBadge";
 export { default as Container } from "./Container";
+export { default as ExhibitionRow } from "./ExhibitionRow";
 export { default as FloatingSearch } from "./FloatingSearch";
 export { default as ImagePlaceholder } from "./ImagePlaceholder";
 export { IssueIcon } from "./IssueIcon";
 export { default as LinkCard } from "./LinkCard";
-export { default as SectionLabel } from "./SectionLabel";
+export { default as SectionLabel, SectionLabelInline } from "./SectionLabel";
 export { default as StatCard } from "./StatCard";
+export { default as TombstoneLabel } from "./TombstoneLabel";
 export {
 	default as VariationToggle,
 	usePageVariations,

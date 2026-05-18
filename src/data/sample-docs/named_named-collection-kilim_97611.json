@@ -1,0 +1,140 @@
+{
+	"id": 97611,
+	"accession_number": "1999.186.3",
+	"sort_number": "1999.186.3",
+	"title": "Kilim",
+	"object_name": "rug, miscellaneous",
+	"display_date": "18th–19th century",
+	"medium": "wool; slit tapestry weave",
+	"medium_parts": ["wool", "slit tapestry weave"],
+	"dimensions": "198.1 x 152.4 cm (78 x 60 in.)",
+	"dimensions_display_primary": "78 x 60 in. (198.1 x 152.4 cm)",
+	"credit_line": "The Caroline and H. McCoy Jones Collection Gift of Caroline McCoy-Jones",
+	"department": "Costume and Textile Arts",
+	"classification": "Furnishing",
+	"named_collection": "The Caroline and H. McCoy Jones Collection",
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"last_modified": "2014-05-01 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "See catalogue, Plate 5.\nTwo wide stripes at one end with opposing red and yellow color and matching motifs. Damage across center, central red on yellow on brown motif on white. Three narrow stripes at opposite end.",
+	"exhibition_history_text": "Anatolian Kilims(SF)11/90 - 1/91\nSame on tour: Institut du Monde Arabe, Paris 9/91 - 11/91\nCredit Communale, Brussels 12/91 - 3/92\nUnravelling Yarns rotation, (1993-6)",
+	"accession_iso_date": "1999-12-31",
+	"location_string": "de Young, 059, Cabinet 38, G",
+	"location_building": "de Young",
+	"location_room": "Cabinet 38",
+	"titles": [
+		{
+			"Title": "Kilim",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [],
+	"media": [
+		{
+			"media_xref_id": 99683,
+			"media_master_id": 145764,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"photographer": null,
+			"credit_line": null,
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "2886 x 1150px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 1150,
+			"pixel_w": 2886
+		}
+	],
+	"exhibitions": [],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "78 x 60 in. (198.1 x 152.4 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Overall (4D)",
+			"Displayed": true,
+			"Rank": 1
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Central Anatolia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABME",
+					"term": "Central Anatolia"
+				}
+			]
+		}
+	],
+	"primary_artist": "Unknown artist",
+	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/145764/info.json",
+	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/145764/full/300,/0/default.jpg",
+	"has_image": true,
+	"has_iiif": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "unknown artist",
+	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"_sample_meta": {
+		"reason": "Kilim (1999.186.3) — McCoy Jones Collection, exercises named_collection field",
+		"picked_at": "2026-05-18T09:01:33.548235+00:00",
+		"populated_fields": 39
+	}
+}

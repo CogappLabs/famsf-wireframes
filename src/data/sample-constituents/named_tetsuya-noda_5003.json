@@ -1,0 +1,185 @@
+{
+	"id": 5003,
+	"name": "Tetsuya Noda",
+	"alpha_sort": "Tetsuya Noda",
+	"display_date": "b. 1940",
+	"nationality": "Japanese",
+	"begin_date_iso": "1940",
+	"biography": "b. 1940",
+	"display_bios": [
+		{
+			"bio": "b. 1940",
+			"display_order": 1
+		},
+		{
+			"bio": "b. 1940",
+			"display_order": 2
+		}
+	],
+	"object_count": 26,
+	"sample_objects": [
+		{
+			"id": 67156,
+			"accession_number": "1969.32.10",
+			"title": "Diary, June 9 (Self-Portrait)",
+			"display_date": "1969",
+			"primary_artist_display": "Tetsuya Noda (1940–)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/81453/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 67366,
+			"accession_number": "1994.149.5a-c",
+			"title": "Diary, July 1st, 1975",
+			"display_date": "1975",
+			"primary_artist_display": "Tetsuya Noda (1940–)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/81009/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 78085,
+			"accession_number": "1984.1.67",
+			"title": "Diary, March 8th, 1983 in Ueno",
+			"display_date": "1983",
+			"primary_artist_display": "Tetsuya Noda (1940–)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/26744/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 80880,
+			"accession_number": "1981.1.186",
+			"title": "Diary, June 24th, 1978",
+			"display_date": "1978",
+			"primary_artist_display": "Tetsuya Noda (1940–)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/81392/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 88652,
+			"accession_number": "2012.76.39",
+			"title": "Diary: October 25th, '74",
+			"display_date": "1974",
+			"primary_artist_display": "Tetsuya Noda (1940–)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/137932/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 95008,
+			"accession_number": "1996.85",
+			"title": "Diary, February 17th, 1992 (Diary, February 3rd, 1990 on Receipt)",
+			"display_date": "1992",
+			"primary_artist_display": "Tetsuya Noda (1940–)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/125247/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 96328,
+			"accession_number": "1969.32.9",
+			"title": "Diary, June 8",
+			"display_date": "1969",
+			"primary_artist_display": "Tetsuya Noda (1940–)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/81437/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 110609,
+			"accession_number": "1991.1.295",
+			"title": "Diary, October12th, 1974",
+			"display_date": "1974",
+			"primary_artist_display": "Tetsuya Noda (1940–)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/83268/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 116777,
+			"accession_number": "1999.33",
+			"title": "Diary, February 11th, 1995",
+			"display_date": "1995",
+			"primary_artist_display": "Tetsuya Noda (1940–)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/166992/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 132149,
+			"accession_number": "2005.41.1",
+			"title": "Diary; May 8th '70 in New York",
+			"display_date": "1970",
+			"primary_artist_display": "Tetsuya Noda (1940–)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 132323,
+			"accession_number": "1991.1.226",
+			"title": "Diary, January 15th, 1984",
+			"display_date": "1984",
+			"primary_artist_display": "Tetsuya Noda (1940–)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/100258/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 143796,
+			"accession_number": "2012.76.36",
+			"title": "Diary: May 11th '70",
+			"display_date": "1970",
+			"primary_artist_display": "Tetsuya Noda (1940–)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/35449/full/300,/0/default.jpg",
+			"has_iiif": true
+		}
+	],
+	"facets": {
+		"total_works": 26,
+		"on_view_count": 0,
+		"has_iiif_count": 21,
+		"exhibited_count": 1,
+		"date_range": {
+			"earliest_year": 1969,
+			"latest_year": 2001
+		},
+		"classifications": [
+			{
+				"value": "Print",
+				"count": 26
+			}
+		],
+		"departments": [
+			{
+				"value": "Achenbach Foundation for Graphic Arts",
+				"count": 26
+			}
+		],
+		"top_subjects": [],
+		"top_materials": [],
+		"top_places_of_creation": [],
+		"top_styles": [],
+		"top_movements": [],
+		"decade_histogram": [
+			{
+				"decade": 1960,
+				"count": 2
+			},
+			{
+				"decade": 1970,
+				"count": 6
+			},
+			{
+				"decade": 1980,
+				"count": 5
+			},
+			{
+				"decade": 1990,
+				"count": 4
+			},
+			{
+				"decade": 2000,
+				"count": 1
+			}
+		]
+	},
+	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"_sample_meta": {
+		"reason": "Tetsuya Noda — Japanese printmaker, exercises non-Western name ordering, 26 works",
+		"picked_at": "2026-05-18T11:59:44.370463+00:00",
+		"populated_fields": 12
+	}
+}

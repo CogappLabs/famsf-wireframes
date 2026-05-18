@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { FieldDebugProvider } from "@/providers/FieldDebugProvider";
 import { ScopeProvider } from "@/providers/ScopeProvider";
 import { VariationProvider } from "@/providers/VariationProvider";
 import "./globals.css";
@@ -19,9 +20,11 @@ export default function RootLayout({
 	return (
 		<html lang="en" className="h-full antialiased">
 			<body className="flex min-h-full flex-col font-mono">
-				<ScopeProvider>
-					<VariationProvider>{children}</VariationProvider>
-				</ScopeProvider>
+				<FieldDebugProvider>
+					<ScopeProvider>
+						<VariationProvider>{children}</VariationProvider>
+					</ScopeProvider>
+				</FieldDebugProvider>
 			</body>
 		</html>
 	);

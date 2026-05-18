@@ -32,6 +32,9 @@ npm run dev
 - **Visit Planner** — concierge experience with curated gallery paths
 - **Educational Resources** — lesson plans, gallery-location filter, age-appropriate content
 
+**Sample data**
+- **Sample Objects** (`/objects/sample/`) — wireframe object pages backed by real ETL output. 22 sample JSONs at `src/data/sample-docs/` cover sparse-to-rich field population plus 19 pinned edge cases (compound parent, virtual portfolio, multi-script titles, term-rich antiquity, multi-image gallery, etc.). Drop new JSONs into the dir and they appear on next build (auto-discovery). Refresh from sibling pipeline repo via `npm run sync:samples`.
+
 ## Stakeholder coverage
 
 Wireframes address all 8 themes from the stakeholder interview synthesis:

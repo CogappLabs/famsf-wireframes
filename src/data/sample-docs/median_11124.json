@@ -1,0 +1,142 @@
+{
+	"id": 11124,
+	"accession_number": "1953.48.4",
+	"sort_number": "1953.48.4",
+	"title": "Portrait of a Woman",
+	"display_date": "1896",
+	"begin_iso_date": "1896",
+	"end_iso_date": "1896",
+	"dimensions": "Image: 311 x 256 mm (12 1/4 x 10 1/16 in.); Sheet: 403 x 344 mm (15 7/8 x 13 9/16 in.)",
+	"dimensions_display_primary": "12 1/4 x 10 1/16 in. (31.1 x 25.6 cm)",
+	"credit_line": "Gift of Mrs. Christine Flannery",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"on_view": false,
+	"last_modified": "2017-10-30 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Shoulder length portrait of a middle aged woman facing left.",
+	"accession_iso_date": "1953-01-01",
+	"location_string": "Legion, 210, Compact Shelf 18, 104",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 18",
+	"titles": [
+		{
+			"Title": "Portrait of a Woman",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 2924,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Jan Pieter Veth",
+			"AlphaSort": "Jan Veth",
+			"Nationality": "Dutch",
+			"BeginDate": 1864,
+			"EndDate": 1925,
+			"BeginDateISO": "1864",
+			"EndDateISO": "1925",
+			"DisplayDate": "1864–1925",
+			"Biography": "1864–1925",
+			"display_bios": [
+				{
+					"bio": "1864–1925",
+					"display_order": 1
+				},
+				{
+					"bio": "1864–1925",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Jan Pieter Veth (1864–1925)"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 22513,
+			"media_master_id": 66316,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"photographer": null,
+			"credit_line": null,
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "1764 x 2123px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 2123,
+			"pixel_w": 1764
+		}
+	],
+	"exhibitions": [],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "12 1/4 x 10 1/16 in. (31.1 x 25.6 cm)",
+			"Description": null,
+			"ElementName": "Image",
+			"Displayed": true,
+			"Rank": 1
+		},
+		{
+			"DisplayDimensions": "15 7/8 x 13 9/16 in. (40.3 x 34.4 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Sheet (4D)",
+			"Displayed": true,
+			"Rank": 2
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_related_geography": [
+		{
+			"term": "Holland",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAACY",
+					"term": "Nederland"
+				}
+			]
+		}
+	],
+	"primary_artist": "Jan Pieter Veth",
+	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/66316/info.json",
+	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/66316/full/300,/0/default.jpg",
+	"has_image": true,
+	"primary_artist_display": "Jan Pieter Veth (1864–1925)",
+	"display_year": "1896",
+	"has_iiif": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "jan pieter veth",
+	"sort_year": 1896,
+	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: closest to dataset median populated-field count.",
+		"picked_at": "2026-05-18T09:01:33.548235+00:00",
+		"populated_fields": 38
+	}
+}
