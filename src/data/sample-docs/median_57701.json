@@ -1,0 +1,177 @@
+{
+	"id": 57701,
+	"accession_number": "1963.30.39086.26",
+	"sort_number": "1963.30.39086.26",
+	"title": "Temple of Pallas, Rome, twenty-sixth plate in the book Sketches in France, Switzerland and Italy (London: Hodgson & Graves, [ca. 1840])",
+	"display_date": "ca. 1840",
+	"begin_iso_date": "1840",
+	"end_iso_date": "1840",
+	"medium": "color lithograph",
+	"medium_parts": ["color lithograph"],
+	"dimensions": "Sheet: 557 x 370 mm (21 15/16 x 14 9/16 in.); Image: 387 x 265 mm (15 1/4 x 10 7/16 in.)",
+	"dimensions_display_primary": "21 15/16 x 14 9/16 in. (55.7 x 37 cm)",
+	"credit_line": "Achenbach Foundation for Graphic Arts",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"last_modified": "2020-08-02 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "ruined walls and columns",
+	"location_string": "Legion, Conservation, 260, Drawer 23",
+	"location_building": "Legion",
+	"location_room": "260",
+	"titles": [
+		{
+			"Title": "Temple of Pallas, Rome, twenty-sixth plate in the book Sketches in France, Switzerland and Italy (London: Hodgson & Graves, [ca. 1840])",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 10424,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Samuel Prout",
+			"AlphaSort": "Samuel Prout",
+			"Nationality": "British",
+			"BeginDate": 1782,
+			"EndDate": 1852,
+			"BeginDateISO": "1782",
+			"EndDateISO": "1852",
+			"DisplayDate": "1782–1852",
+			"Biography": "1782–1852",
+			"display_bios": [
+				{
+					"bio": "1782–1852",
+					"display_order": 1
+				},
+				{
+					"bio": "1782–1852",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Samuel Prout (1782–1852)"
+		},
+		{
+			"ConstituentID": 15948,
+			"Role": "Lithographer",
+			"RoleID": 48,
+			"DisplayName": "Charles Joseph Hullmandel",
+			"AlphaSort": "Charles Joseph Hullmandel",
+			"Nationality": "British",
+			"BeginDate": 1789,
+			"EndDate": 1850,
+			"BeginDateISO": "1789-06-05",
+			"EndDateISO": "1850",
+			"DisplayDate": "1789–1850",
+			"Biography": "1789–1850",
+			"display_bios": [
+				{
+					"bio": "1789–1850",
+					"display_order": 1
+				},
+				{
+					"bio": "1789–1850",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Charles Joseph Hullmandel (1789–1850)"
+		}
+	],
+	"media": [],
+	"exhibitions": [],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "21 15/16 x 14 9/16 in. (55.7 x 37 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Sheet (4D)",
+			"Displayed": true,
+			"Rank": 1
+		},
+		{
+			"DisplayDimensions": "15 1/4 x 10 7/16 in. (38.7 x 26.5 cm)",
+			"Description": null,
+			"ElementName": "Image",
+			"Displayed": true,
+			"Rank": 2
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_related_geography": [
+		{
+			"term": "Great Britain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAAKF",
+					"term": "United Kingdom"
+				}
+			]
+		}
+	],
+	"primary_artist": "Samuel Prout",
+	"has_image": false,
+	"primary_artist_display": "Samuel Prout (1782–1852)",
+	"display_year": "1840",
+	"has_iiif": false,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "samuel prout",
+	"sort_year": 1840,
+	"slug": "temple-of-pallas-rome-twenty-sixth-plate-in-the-book-sketches-in-france-switzerl-1963-30-39086-26",
+	"indexed_at": "2026-05-18T16:16:48.674943+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: closest to dataset median populated-field count.",
+		"picked_at": "2026-05-18T16:16:48.674943+00:00",
+		"populated_fields": 39
+	}
+}

@@ -788,43 +788,8 @@
 	"has_children": true,
 	"sort_artist": "richard diebenkorn",
 	"sort_year": 1965,
+	"slug": "41-etchings-drypoints-by-richard-diebenkorn-berkeley-crown-point-press-1965-1991-28-332-1-9",
 	"child_cards": [
-		{
-			"id": 311910,
-			"accession_number": "ICR.1991.28.336",
-			"title": "#5",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1965",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311932,
-			"accession_number": "ICR.1991.28.358",
-			"title": "#27",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1963",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311914,
-			"accession_number": "ICR.1991.28.340",
-			"title": "#9",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1964",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311927,
-			"accession_number": "ICR.1991.28.353",
-			"title": "#22",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1965",
-			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/119070/full/300,/0/default.jpg",
-			"has_iiif": true
-		},
 		{
 			"id": 311936,
 			"accession_number": "ICR.1991.28.362",
@@ -833,69 +798,6 @@
 			"display_date": "1965",
 			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/119001/full/300,/0/default.jpg",
 			"has_iiif": true
-		},
-		{
-			"id": 311915,
-			"accession_number": "ICR.1991.28.341",
-			"title": "#10",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1965",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311918,
-			"accession_number": "ICR.1991.28.344",
-			"title": "#13",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1965",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311939,
-			"accession_number": "ICR.1991.28.365",
-			"title": "#34",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1964",
-			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/119079/full/300,/0/default.jpg",
-			"has_iiif": true
-		},
-		{
-			"id": 311907,
-			"accession_number": "ICR.1991.28.333",
-			"title": "#2",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1964",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311935,
-			"accession_number": "ICR.1991.28.361",
-			"title": "#30",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1965",
-			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/119075/full/300,/0/default.jpg",
-			"has_iiif": true
-		},
-		{
-			"id": 311913,
-			"accession_number": "ICR.1991.28.339",
-			"title": "#8",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1965",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311944,
-			"accession_number": "ICR.1991.28.370",
-			"title": "#39",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1963",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
 		},
 		{
 			"id": 311937,
@@ -916,54 +818,27 @@
 			"has_iiif": false
 		},
 		{
-			"id": 311906,
-			"accession_number": "ICR.1991.28.332",
-			"title": "#1",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1964",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311933,
-			"accession_number": "ICR.1991.28.359",
-			"title": "#28",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1964",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311928,
-			"accession_number": "ICR.1991.28.354",
-			"title": "#23",
+			"id": 311929,
+			"accession_number": "ICR.1991.28.355",
+			"title": "#24",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 			"display_date": "1965",
 			"iiif_thumbnail_url": null,
 			"has_iiif": false
 		},
 		{
-			"id": 311931,
-			"accession_number": "ICR.1991.28.357",
-			"title": "#26",
+			"id": 311932,
+			"accession_number": "ICR.1991.28.358",
+			"title": "#27",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1964",
+			"display_date": "1963",
 			"iiif_thumbnail_url": null,
 			"has_iiif": false
 		},
 		{
-			"id": 311923,
-			"accession_number": "ICR.1991.28.349",
-			"title": "#18",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1965",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311938,
-			"accession_number": "ICR.1991.28.364",
-			"title": "#33",
+			"id": 311942,
+			"accession_number": "ICR.1991.28.368",
+			"title": "#37",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 			"display_date": "1965",
 			"iiif_thumbnail_url": null,
@@ -979,47 +854,29 @@
 			"has_iiif": true
 		},
 		{
-			"id": 311930,
-			"accession_number": "ICR.1991.28.356",
-			"title": "#25",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1965",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311921,
-			"accession_number": "ICR.1991.28.347",
-			"title": "#16",
+			"id": 311911,
+			"accession_number": "ICR.1991.28.337",
+			"title": "#6",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 			"display_date": "1964",
 			"iiif_thumbnail_url": null,
 			"has_iiif": false
 		},
 		{
-			"id": 311924,
-			"accession_number": "ICR.1991.28.350",
-			"title": "#19",
+			"id": 311914,
+			"accession_number": "ICR.1991.28.340",
+			"title": "#9",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1964",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311944,
+			"accession_number": "ICR.1991.28.370",
+			"title": "#39",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 			"display_date": "1963",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311909,
-			"accession_number": "ICR.1991.28.335",
-			"title": "#4",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1965",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311916,
-			"accession_number": "ICR.1991.28.342",
-			"title": "#11",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1965",
 			"iiif_thumbnail_url": null,
 			"has_iiif": false
 		},
@@ -1033,31 +890,40 @@
 			"has_iiif": false
 		},
 		{
-			"id": 311911,
-			"accession_number": "ICR.1991.28.337",
-			"title": "#6",
+			"id": 311907,
+			"accession_number": "ICR.1991.28.333",
+			"title": "#2",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 			"display_date": "1964",
 			"iiif_thumbnail_url": null,
 			"has_iiif": false
 		},
 		{
-			"id": 311920,
-			"accession_number": "ICR.1991.28.346",
-			"title": "#15",
+			"id": 311939,
+			"accession_number": "ICR.1991.28.365",
+			"title": "#34",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1964",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/119079/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 311928,
+			"accession_number": "ICR.1991.28.354",
+			"title": "#23",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 			"display_date": "1965",
 			"iiif_thumbnail_url": null,
 			"has_iiif": false
 		},
 		{
-			"id": 311917,
-			"accession_number": "ICR.1991.28.343",
-			"title": "#12",
+			"id": 311927,
+			"accession_number": "ICR.1991.28.353",
+			"title": "#22",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 			"display_date": "1965",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/119070/full/300,/0/default.jpg",
+			"has_iiif": true
 		},
 		{
 			"id": 311912,
@@ -1069,9 +935,54 @@
 			"has_iiif": false
 		},
 		{
-			"id": 311929,
-			"accession_number": "ICR.1991.28.355",
-			"title": "#24",
+			"id": 311940,
+			"accession_number": "ICR.1991.28.366",
+			"title": "#35",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1964",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311931,
+			"accession_number": "ICR.1991.28.357",
+			"title": "#26",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1964",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311906,
+			"accession_number": "ICR.1991.28.332",
+			"title": "#1",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1964",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311915,
+			"accession_number": "ICR.1991.28.341",
+			"title": "#10",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1965",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311926,
+			"accession_number": "ICR.1991.28.352",
+			"title": "#21",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1965",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311938,
+			"accession_number": "ICR.1991.28.364",
+			"title": "#33",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 			"display_date": "1965",
 			"iiif_thumbnail_url": null,
@@ -1096,38 +1007,47 @@
 			"has_iiif": false
 		},
 		{
-			"id": 311941,
-			"accession_number": "ICR.1991.28.367",
-			"title": "#36",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1964",
-			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/165048/full/300,/0/default.jpg",
-			"has_iiif": true
-		},
-		{
-			"id": 311940,
-			"accession_number": "ICR.1991.28.366",
-			"title": "#35",
-			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
-			"display_date": "1964",
-			"iiif_thumbnail_url": null,
-			"has_iiif": false
-		},
-		{
-			"id": 311942,
-			"accession_number": "ICR.1991.28.368",
-			"title": "#37",
+			"id": 311913,
+			"accession_number": "ICR.1991.28.339",
+			"title": "#8",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 			"display_date": "1965",
 			"iiif_thumbnail_url": null,
 			"has_iiif": false
 		},
 		{
-			"id": 311925,
-			"accession_number": "ICR.1991.28.351",
-			"title": "#20",
+			"id": 311910,
+			"accession_number": "ICR.1991.28.336",
+			"title": "#5",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 			"display_date": "1965",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311909,
+			"accession_number": "ICR.1991.28.335",
+			"title": "#4",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1965",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311920,
+			"accession_number": "ICR.1991.28.346",
+			"title": "#15",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1965",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311924,
+			"accession_number": "ICR.1991.28.350",
+			"title": "#19",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1963",
 			"iiif_thumbnail_url": null,
 			"has_iiif": false
 		},
@@ -1135,6 +1055,15 @@
 			"id": 311908,
 			"accession_number": "ICR.1991.28.334",
 			"title": "#3",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1965",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311917,
+			"accession_number": "ICR.1991.28.343",
+			"title": "#12",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 			"display_date": "1965",
 			"iiif_thumbnail_url": null,
@@ -1150,19 +1079,91 @@
 			"has_iiif": false
 		},
 		{
-			"id": 311926,
-			"accession_number": "ICR.1991.28.352",
-			"title": "#21",
+			"id": 311941,
+			"accession_number": "ICR.1991.28.367",
+			"title": "#36",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1964",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/165048/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 311916,
+			"accession_number": "ICR.1991.28.342",
+			"title": "#11",
 			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 			"display_date": "1965",
 			"iiif_thumbnail_url": null,
 			"has_iiif": false
+		},
+		{
+			"id": 311930,
+			"accession_number": "ICR.1991.28.356",
+			"title": "#25",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1965",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311923,
+			"accession_number": "ICR.1991.28.349",
+			"title": "#18",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1965",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311935,
+			"accession_number": "ICR.1991.28.361",
+			"title": "#30",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1965",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/119075/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 311918,
+			"accession_number": "ICR.1991.28.344",
+			"title": "#13",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1965",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311925,
+			"accession_number": "ICR.1991.28.351",
+			"title": "#20",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1965",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311921,
+			"accession_number": "ICR.1991.28.347",
+			"title": "#16",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1964",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 311933,
+			"accession_number": "ICR.1991.28.359",
+			"title": "#28",
+			"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+			"display_date": "1964",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
 		}
 	],
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
 	"_sample_meta": {
 		"reason": "Diebenkorn, 41 Etchings Drypoints (1991.28.332.1-9) — IsVirtual=true, 41 children",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 47
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 48
 	}
 }

@@ -30,10 +30,11 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_artist": "unknown artist",
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"slug": "wooden-bowl-22245d",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
 	"_sample_meta": {
 		"reason": "wooden bowl (22245D) — 16 fields, sparsest tier",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 20
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 21
 	}
 }

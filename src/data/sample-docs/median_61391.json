@@ -1,0 +1,208 @@
+{
+	"id": 61391,
+	"accession_number": "1963.30.38647.34",
+	"sort_number": "1963.30.38647.34",
+	"title": "Plate 34 in the book Collection de cent-vingt estampes, gravées d'après les tableaux & dessins qui composoient le Cabinet de M. Poullain… (Paris: Basan and Poignant, 1781)",
+	"display_date": "1781",
+	"begin_iso_date": "1781",
+	"end_iso_date": "1781",
+	"medium": "engraving",
+	"medium_parts": ["engraving"],
+	"dimensions": "28.5 x 21 cm (sheet)",
+	"dimensions_display_primary": "11 1/4 x 8 1/4 in. (28.5 x 21 cm)",
+	"credit_line": "Achenbach Foundation for Graphic Arts",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"last_modified": "2020-08-14 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "images after the paintings and drawings in the collection of Mr.Poullain who died in 1780",
+	"accession_iso_date": "1963-04-09",
+	"location_string": "Legion",
+	"location_building": "Legion",
+	"titles": [
+		{
+			"Title": "Plate 34 in the book Collection de cent-vingt estampes, gravées d'après les tableaux & dessins qui composoient le Cabinet de M. Poullain… (Paris: Basan and Poignant, 1781)",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 5696,
+			"Role": "After",
+			"RoleID": 37,
+			"DisplayName": "Various Artists",
+			"AlphaSort": "Various Artists",
+			"Nationality": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"BeginDateISO": null,
+			"EndDateISO": null,
+			"DisplayDate": null,
+			"Biography": null,
+			"display_bios": null,
+			"Institution": null,
+			"ConstituentType": "Entity",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Various Artists"
+		},
+		{
+			"ConstituentID": 2442,
+			"Role": "Editor",
+			"RoleID": 105,
+			"DisplayName": "Pierre-François Basan",
+			"AlphaSort": "Pierre-François Basan",
+			"Nationality": "French",
+			"BeginDate": 1723,
+			"EndDate": 1797,
+			"BeginDateISO": "1723",
+			"EndDateISO": "1797",
+			"DisplayDate": "1723–1797",
+			"Biography": "1723–1797",
+			"display_bios": [
+				{
+					"bio": "1723–1797",
+					"display_order": 1
+				},
+				{
+					"bio": "1723–1797",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Pierre-François Basan (1723–1797)"
+		},
+		{
+			"ConstituentID": 5696,
+			"Role": "Engraver",
+			"RoleID": 38,
+			"DisplayName": "Various Artists",
+			"AlphaSort": "Various Artists",
+			"Nationality": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"BeginDateISO": null,
+			"EndDateISO": null,
+			"DisplayDate": null,
+			"Biography": null,
+			"display_bios": null,
+			"Institution": null,
+			"ConstituentType": "Entity",
+			"DisplayOrder": 3,
+			"DisplayLabel": "Various Artists"
+		},
+		{
+			"ConstituentID": 2442,
+			"Role": "Publisher",
+			"RoleID": 39,
+			"DisplayName": "Pierre-François Basan",
+			"AlphaSort": "Pierre-François Basan",
+			"Nationality": "French",
+			"BeginDate": 1723,
+			"EndDate": 1797,
+			"BeginDateISO": "1723",
+			"EndDateISO": "1797",
+			"DisplayDate": "1723–1797",
+			"Biography": "1723–1797",
+			"display_bios": [
+				{
+					"bio": "1723–1797",
+					"display_order": 1
+				},
+				{
+					"bio": "1723–1797",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 4,
+			"DisplayLabel": "Pierre-François Basan (1723–1797)"
+		}
+	],
+	"media": [],
+	"exhibitions": [],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "11 1/4 x 8 1/4 in. (28.5 x 21 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Sheet (4D)",
+			"Displayed": true,
+			"Rank": 1
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_related_geography": [
+		{
+			"term": "France",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		}
+	],
+	"primary_artist": "Various Artists",
+	"has_image": false,
+	"primary_artist_display": "Various Artists",
+	"display_year": "1781",
+	"has_iiif": false,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "various artists",
+	"sort_year": 1781,
+	"slug": "plate-34-in-the-book-collection-de-cent-vingt-estampes-gravees-d-apres-les-table-1963-30-38647-34",
+	"indexed_at": "2026-05-18T15:11:39.861987+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: closest to dataset median populated-field count.",
+		"picked_at": "2026-05-18T15:11:39.861987+00:00",
+		"populated_fields": 39
+	}
+}

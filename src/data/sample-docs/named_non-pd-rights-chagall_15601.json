@@ -153,10 +153,11 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_artist": "marc chagall",
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"slug": "joseph-and-the-wife-of-potiphar-1960-95-3",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
 	"_sample_meta": {
 		"reason": "Chagall, Joseph and the Wife of Potiphar (1960.95.3) — non-public-domain rights statement",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 38
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 39
 	}
 }

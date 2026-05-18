@@ -188,10 +188,11 @@
 	"has_children": false,
 	"sort_artist": "martin-guillaume biennais",
 	"sort_year": 1809,
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"slug": "dessert-server-confiturier-1945-312a-b",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
 	"_sample_meta": {
 		"reason": "Biennais Confiturier (1945.312a-b) — 4+ dimension entries (Overall + components)",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 42
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 43
 	}
 }

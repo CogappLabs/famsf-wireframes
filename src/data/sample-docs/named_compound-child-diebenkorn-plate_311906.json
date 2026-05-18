@@ -209,12 +209,13 @@
 	"has_children": false,
 	"sort_artist": "richard diebenkorn",
 	"sort_year": 1964,
+	"slug": "1-icr-1991-28-332",
 	"parent_accession_number": "1991.28.332.1-9",
 	"parent_title": "41 Etchings Drypoints by Richard Diebenkorn (Berkeley: Crown Point Press, 1965)",
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
 	"_sample_meta": {
 		"reason": "Diebenkorn 41 Etchings plate 1 (ICR.1991.28.332.1) — child of virtual portfolio 94752, exercises parent_title / parent_accession_number denorm",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 44
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 45
 	}
 }

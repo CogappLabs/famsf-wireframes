@@ -1,0 +1,298 @@
+{
+	"id": 109052,
+	"accession_number": "1991.28.664",
+	"sort_number": "1991.28.664",
+	"title": "Red, Yellow, Blue",
+	"object_name": "intaglio print",
+	"display_date": "1986",
+	"begin_iso_date": "1986",
+	"end_iso_date": "1986",
+	"medium": "Soft and hard ground etching with spit bite aquatint and dry point and scrape and burnish",
+	"medium_parts": [
+		"Soft and hard ground etching with spit bite aquatint and dry point and scrape and burnish"
+	],
+	"dimensions": "Sheet: 26 9/16 x 40 1/16 in. (67.5 x 101.8 cm) Image: 15 15/16 x 29 15/16 in. (40.5 x 76 cm)",
+	"dimensions_display_primary": "26 9/16 x 40 1/16 in. (67.5 x 101.8 cm)",
+	"credit_line": "Crown Point Press Archive, Gift of Crown Point Press",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": "© 2026 Richard Diebenkorn Foundation / Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"last_modified": "2026-03-02 15:50:27.307000",
+	"is_virtual": false,
+	"identifying_description": "a white square within a blue square adjacent to a turquoise rectangle",
+	"web_text": "Although Red, Yellow, Blue has a clear relationship to Folsom Street Variations III (see 1991.28.665), Diebenkorn rendered the former with a softer composition than the latter, incorporating a subtle curvilinear arch to frame multiple intersecting triangles. A dusty-pink outline adds further warmth to the composition, while the dense scribbly etched lines, which cover the blue sections, lend texture and depth.",
+	"didactic_label": "Although Red, Yellow, Blue has a clear relationship to Folsom Street Variations III, Diebenkorn rendered the former with a softer composition than the latter, incorporating a subtle curvilinear arch to frame multiple intersecting triangles. A dusty-pink outline adds further warmth to the composition, while the dense scribbly etched lines, which cover the blue sections, lend texture and depth.",
+	"exhibition_history_text": "Crown Point Press: The Art of Etching dY, 2/25/06-8/27/06",
+	"accession_iso_date": "1991-06-06",
+	"location_string": "Legion, 210, Drawer, 373",
+	"location_building": "Legion",
+	"location_room": "Drawer",
+	"edition": "Edition 60, AP 6/10, TP 6 5, WP 3",
+	"signed": "(recto, lower right, in graphite) RD 86",
+	"inscribed": "(recto, lower left, in graphite) AP 6; (verso) OK to Print",
+	"markings": "(recto, lower right, embossed) publisher's blind stamp; (recto, lower right, embossed) printer's blind stamp",
+	"titles": [
+		{
+			"Title": "Red, Yellow, Blue",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 9993,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Richard Diebenkorn",
+			"AlphaSort": "Diebenkorn,  Richard",
+			"Nationality": "American",
+			"BeginDate": 1922,
+			"EndDate": 1993,
+			"BeginDateISO": "1922-04-22",
+			"EndDateISO": "1993-03-30",
+			"DisplayDate": "American, 1922–1993",
+			"Biography": "American, 1922–1993",
+			"display_bios": [
+				{
+					"bio": "American, 1922–1993",
+					"display_order": 1
+				},
+				{
+					"bio": "1922–1993",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Richard Diebenkorn (American, 1922–1993)"
+		},
+		{
+			"ConstituentID": 7920,
+			"Role": "Printer",
+			"RoleID": 40,
+			"DisplayName": "Marcia Bartholme",
+			"AlphaSort": "Marcia Bartholme",
+			"Nationality": "American",
+			"BeginDate": 1951,
+			"EndDate": null,
+			"BeginDateISO": "1951-12-28",
+			"EndDateISO": null,
+			"DisplayDate": "American, born 1951",
+			"Biography": "American, born 1951",
+			"display_bios": [
+				{
+					"bio": "American, born 1951",
+					"display_order": 1
+				},
+				{
+					"bio": "b. 1951",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Marcia Bartholme (American, born 1951)"
+		},
+		{
+			"ConstituentID": 5148,
+			"Role": "Printing Assistant",
+			"RoleID": 133,
+			"DisplayName": "Hidekatsu Takada",
+			"AlphaSort": "Takada,  Hidekatsu",
+			"Nationality": "American",
+			"BeginDate": 1944,
+			"EndDate": 2025,
+			"BeginDateISO": "1944-07-04",
+			"EndDateISO": "2025-11-18",
+			"DisplayDate": "American, 1944–2025",
+			"Biography": "American, 1944–2025",
+			"display_bios": [
+				{
+					"bio": "American, 1944–2025",
+					"display_order": 1
+				},
+				{
+					"bio": "1944–2025",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 3,
+			"DisplayLabel": "Hidekatsu Takada (American, 1944–2025)"
+		},
+		{
+			"ConstituentID": 7900,
+			"Role": "Publisher",
+			"RoleID": 39,
+			"DisplayName": "Crown Point Press",
+			"AlphaSort": "Crown Point Press",
+			"Nationality": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"BeginDateISO": null,
+			"EndDateISO": null,
+			"DisplayDate": "est. 1962",
+			"Biography": "est. 1962",
+			"display_bios": [
+				{
+					"bio": "est. 1962",
+					"display_order": 1
+				},
+				{
+					"bio": "active 20th century",
+					"display_order": 2
+				},
+				{
+					"bio": "American, est. 1962",
+					"display_order": 3
+				}
+			],
+			"Institution": "Crown Point Press",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 4,
+			"DisplayLabel": "Crown Point Press (est. 1962)"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 45616,
+			"media_master_id": 71208,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"photographer": null,
+			"credit_line": null,
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "2116 x 1247px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 1247,
+			"pixel_w": 2116
+		}
+	],
+	"exhibitions": [
+		{
+			"ExhibitionID": 492,
+			"ExhTitle": "Diebenkorn in Color",
+			"DisplayDate": "Saturday, September 10, 2022 - Sunday, February 12, 2023",
+			"BeginISODate": "2022-09-10",
+			"EndISODate": "2023-02-12",
+			"IsInHouse": true,
+			"VenueName": "de Young Museum"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "26 9/16 x 40 1/16 in. (67.5 x 101.8 cm)",
+			"Description": "Sheet",
+			"ElementName": "Overall",
+			"Displayed": true,
+			"Rank": 1
+		},
+		{
+			"DisplayDimensions": "15 15/16 x 29 15/16 in. (40.5 x 76 cm)",
+			"Description": null,
+			"ElementName": "Image",
+			"Displayed": true,
+			"Rank": 2
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "San Francisco",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT",
+					"term": "California"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AABII",
+					"term": "San Francisco"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AABII.AAAET",
+					"term": "San Francisco"
+				}
+			]
+		}
+	],
+	"primary_artist": "Richard Diebenkorn",
+	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/71208/info.json",
+	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/71208/full/300,/0/default.jpg",
+	"has_image": true,
+	"primary_artist_display": "Richard Diebenkorn (1922–1993)",
+	"display_year": "1986",
+	"has_iiif": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "richard diebenkorn",
+	"sort_year": 1986,
+	"slug": "red-yellow-blue-1991-28-664",
+	"indexed_at": "2026-05-18T16:23:44.741790+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: most populated fields in the dataset (true max).",
+		"picked_at": "2026-05-18T16:23:44.741790+00:00",
+		"populated_fields": 53
+	}
+}

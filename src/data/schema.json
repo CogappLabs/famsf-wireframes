@@ -1,0 +1,3413 @@
+{
+	"generated_at": "2026-05-18T16:40:20.330521+00:00",
+	"pipeline_rev": "8e24561",
+	"schema_strict": true,
+	"field_count": 78,
+	"lineage_resolved_count": 78,
+	"passthrough_count": 30,
+	"rename_count": 31,
+	"derived_count": 17,
+	"unknown_count": 0,
+	"multi_source_count": 6,
+	"fields": [
+		{
+			"es_field": "id",
+			"dtype": "Int64",
+			"nullable": false,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectID"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "ObjectID",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "ObjectID",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "ObjectID",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectID",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "long",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "accession_number",
+			"dtype": "String",
+			"nullable": false,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectNumber"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "ObjectNumber",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "ObjectNumber",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "ObjectNumber",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectNumber",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "sort_number",
+			"dtype": "String",
+			"nullable": false,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "SearchObjectNumber"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "SearchObjectNumber",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "SearchObjectNumber",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "SearchObjectNumber",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "SearchObjectNumber",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "department",
+			"dtype": "String",
+			"nullable": false,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Department"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Departments",
+					"column": "Department",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "Department",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "Department",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Department",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "primary_artist",
+			"dtype": "String",
+			"nullable": false,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "constituents"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Constituents",
+					"column": "AlphaSort",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_constituents_raw",
+					"column": "AlphaSort",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_constituents",
+					"column": "AlphaSort",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "constituents",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "slug",
+			"dtype": "String",
+			"nullable": false,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "DisplayedTitle"
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectID"
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectNumber"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.ObjTitles",
+					"column": "DisplayOrder",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_titles_raw",
+					"column": "DisplayOrder",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_titles",
+					"column": "DisplayOrder",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "DisplayedTitle",
+					"kind": "derived",
+					"extra_deps": 2
+				}
+			],
+			"is_multi_source": true,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "has_image",
+			"dtype": "Boolean",
+			"nullable": false,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "media"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.MediaMaster",
+					"column": "ApprovedForWeb",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_media_raw",
+					"column": "ApprovedForWeb",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_media",
+					"column": "ApprovedForWeb",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "media",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "boolean",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "on_view",
+			"dtype": "Boolean",
+			"nullable": false,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "OnView"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "OnView",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "OnView",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "OnView",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "OnView",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "boolean",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "last_modified",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "LastModified"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.AltNums",
+					"column": "LastModified",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "LastModified",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "LastModified",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "LastModified",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "is_virtual",
+			"dtype": "Boolean",
+			"nullable": false,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "IsVirtual"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "IsVirtual",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "IsVirtual",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "IsVirtual",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "IsVirtual",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "boolean",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "physical_parent_id",
+			"dtype": "Int64",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "PhysicalParentID"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "ObjectID",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "ObjectID",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_relationships",
+					"column": "physical_parent_id_synth",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "PhysicalParentID",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "long",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "title",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "DisplayedTitle"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.ObjTitles",
+					"column": "DisplayOrder",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_titles_raw",
+					"column": "DisplayOrder",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_titles",
+					"column": "DisplayOrder",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "DisplayedTitle",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "object_name",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectName"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "ObjectName",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "ObjectName",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "ObjectName",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectName",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "portfolio",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Portfolio"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "Portfolio",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "Portfolio",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "Portfolio",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Portfolio",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "classification",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Classification"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Classifications",
+					"column": "Classification",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "Classification",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "Classification",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Classification",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "credit_line",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "CreditLine"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "CreditLine",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "CreditLine",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "CreditLine",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "CreditLine",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "display_date",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Dated"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "Dated",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "Dated",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "Dated",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Dated",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "medium",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Medium"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "Medium",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "Medium",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "Medium",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Medium",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "medium_parts",
+			"dtype": "List(String)",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "medium_parts"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "Medium",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "Medium",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "medium_parts",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "medium_parts",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "dimensions",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Dimensions"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "Dimensions",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "Dimensions",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "Dimensions",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Dimensions",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "dimensions_display_primary",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "DisplayDimensionsStr"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.DimItemElemXrefs",
+					"column": "DisplayDimensions",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_dimensions_raw",
+					"column": "DisplayDimensions",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_dimensions",
+					"column": "DisplayDimensions",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_primary_dimension",
+					"column": "DisplayDimensionsStr",
+					"kind": "rename",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "DisplayDimensionsStr",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "begin_iso_date",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "BeginISODate"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "BeginISODate",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "BeginISODate",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "BeginISODate",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "BeginISODate",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "end_iso_date",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "BeginISODate"
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "EndISODate"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "BeginISODate",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "BeginISODate",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "BeginISODate",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "BeginISODate",
+					"kind": "passthrough",
+					"extra_deps": 1
+				}
+			],
+			"is_multi_source": true,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "iiif_info_url",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "media"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.MediaMaster",
+					"column": "ApprovedForWeb",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_media_raw",
+					"column": "ApprovedForWeb",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_media",
+					"column": "ApprovedForWeb",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "media",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "iiif_thumbnail_url",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "media"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.MediaMaster",
+					"column": "ApprovedForWeb",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_media_raw",
+					"column": "ApprovedForWeb",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_media",
+					"column": "ApprovedForWeb",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "media",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "named_collection",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "UF_NamedCollection"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.UserFieldXrefs",
+					"column": "FieldKey",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_user_fields_raw",
+					"column": "FieldKey",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_user_fields",
+					"column": "UF_NamedCollection",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "UF_NamedCollection",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "copyright",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Copyright"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.ObjRightsImages",
+					"column": "Copyright",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "Copyright",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "Copyright",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Copyright",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "object_rights_type",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectRightsType"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.ObjectRightsTypes",
+					"column": "ObjRightsType",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "ObjectRightsType",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "ObjectRightsType",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectRightsType",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "identifying_description",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "IdentifyingDescription"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.TextEntries",
+					"column": "TextEntry",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_text_entries_raw",
+					"column": "TextEntry",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_text_entries",
+					"column": "IdentifyingDescription",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "IdentifyingDescription",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "web_text",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "WebText"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.TextEntries",
+					"column": "TextEntry",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_text_entries_raw",
+					"column": "TextEntry",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_text_entries",
+					"column": "WebText",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "WebText",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "didactic_label",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "DidacticLabel"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.TextEntries",
+					"column": "TextEntry",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_text_entries_raw",
+					"column": "TextEntry",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_text_entries",
+					"column": "DidacticLabel",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "DidacticLabel",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "provenance",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Provenance"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "FieldKey",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text_raw",
+					"column": "FieldKey",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text",
+					"column": "Provenance",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Provenance",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "bibliography_text",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "BibliographyText"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "FieldKey",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text_raw",
+					"column": "FieldKey",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text",
+					"column": "BibliographyText",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "BibliographyText",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "exhibition_history_text",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "ExhibitionHistoryText"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "FieldKey",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text_raw",
+					"column": "FieldKey",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text",
+					"column": "ExhibitionHistoryText",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "ExhibitionHistoryText",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "label_text",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "LabelOnObject"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.TextEntries",
+					"column": "TextEntry",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_text_entries_raw",
+					"column": "TextEntry",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_text_entries",
+					"column": "LabelOnObject",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "LabelOnObject",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "accession_iso_date",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "accession_iso_date"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.ObjAccession",
+					"column": "AccessionISODate",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "accession_iso_date",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "accession_iso_date",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "accession_iso_date",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "date",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "location_string",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "location_string"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Locations",
+					"column": "LocationString",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "location_string",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "location_string",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "location_string",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "location_building",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "location_building"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Locations",
+					"column": "LocationString",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "location_string",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "location_building",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "location_building",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "keyword",
+			"es_subfields": ["text"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "location_room",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "location_room"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Locations",
+					"column": "Room",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "location_room",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "location_room",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "location_room",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "keyword",
+			"es_subfields": ["text"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "inscribed",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Inscribed"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "FieldKey",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text_raw",
+					"column": "FieldKey",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text",
+					"column": "Inscribed",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Inscribed",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "signed",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Signed"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "FieldKey",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text_raw",
+					"column": "FieldKey",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text",
+					"column": "Signed",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Signed",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "edition",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Edition"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "FieldKey",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text_raw",
+					"column": "FieldKey",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text",
+					"column": "Edition",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Edition",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "markings",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "rename",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Markings"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "FieldKey",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text_raw",
+					"column": "FieldKey",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text",
+					"column": "Markings",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Markings",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "term_rights_statement",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_rights_statement"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_rights_statement",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_rights_statement",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["path", "term"]
+		},
+		{
+			"es_field": "term_place_of_creation",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_place_of_creation"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_place_of_creation",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_place_of_creation",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["certainty", "path", "term"]
+		},
+		{
+			"es_field": "term_place_of_fabrication",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_place_of_fabrication"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_place_of_fabrication",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_place_of_fabrication",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["path", "term"]
+		},
+		{
+			"es_field": "term_place_name_at_creation",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_place_name_at_creation"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_place_name_at_creation",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_place_name_at_creation",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["certainty", "path", "term"]
+		},
+		{
+			"es_field": "term_related_geography",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_related_geography"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_related_geography",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_related_geography",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["certainty", "path", "term"]
+		},
+		{
+			"es_field": "term_find_spot",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_find_spot"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_find_spot",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_find_spot",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["certainty", "path", "term"]
+		},
+		{
+			"es_field": "term_period",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_period"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_period",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_period",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["path", "term"]
+		},
+		{
+			"es_field": "term_reign",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_reign"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_reign",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_reign",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["path", "term"]
+		},
+		{
+			"es_field": "term_dynasty",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_dynasty"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_dynasty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_dynasty",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["path", "term"]
+		},
+		{
+			"es_field": "term_style",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_style"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_style",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_style",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["certainty", "path", "term"]
+		},
+		{
+			"es_field": "term_movement",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_movement"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_movement",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_movement",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "term_school",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_school"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_school",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_school",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["path", "term"]
+		},
+		{
+			"es_field": "term_materials",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_materials"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_materials",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_materials",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["certainty", "path", "term"]
+		},
+		{
+			"es_field": "term_subject",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_subject"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_subject",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_subject",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["path", "term"]
+		},
+		{
+			"es_field": "term_intended_market",
+			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "term_intended_market"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.CertaintyLevels",
+					"column": "Certainty",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms_raw",
+					"column": "Certainty",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_terms",
+					"column": "term_intended_market",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "term_intended_market",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["certainty", "path", "term"]
+		},
+		{
+			"es_field": "titles",
+			"dtype": "List",
+			"nullable": false,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "titles"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.ObjTitles",
+					"column": "DisplayOrder",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_titles_raw",
+					"column": "DisplayOrder",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_titles",
+					"column": "DisplayOrder",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "titles",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["DisplayOrder", "Language", "Title", "TitleType"]
+		},
+		{
+			"es_field": "constituents",
+			"dtype": "List",
+			"nullable": false,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "constituents"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Constituents",
+					"column": "AlphaSort",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_constituents_raw",
+					"column": "AlphaSort",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_constituents",
+					"column": "AlphaSort",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "constituents",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": [
+				"AlphaSort",
+				"BeginDate",
+				"BeginDateISO",
+				"Biography",
+				"ConstituentID",
+				"ConstituentType",
+				"DisplayDate",
+				"DisplayLabel",
+				"DisplayName",
+				"DisplayOrder",
+				"EndDate",
+				"EndDateISO",
+				"Institution",
+				"Nationality",
+				"Role",
+				"RoleID",
+				"display_bios"
+			]
+		},
+		{
+			"es_field": "media",
+			"dtype": "List",
+			"nullable": false,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "media"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.MediaMaster",
+					"column": "ApprovedForWeb",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_media_raw",
+					"column": "ApprovedForWeb",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_media",
+					"column": "ApprovedForWeb",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "media",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": [
+				"approved_for_web",
+				"copyright",
+				"copyright_status",
+				"credit_line",
+				"display_in_report",
+				"display_order",
+				"is_primary",
+				"media_master_id",
+				"media_type",
+				"media_view",
+				"media_xref_id",
+				"photographer",
+				"pixel_h",
+				"pixel_w",
+				"public_caption",
+				"rank",
+				"use_quality",
+				"web_publishing_size"
+			]
+		},
+		{
+			"es_field": "exhibitions",
+			"dtype": "List",
+			"nullable": false,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "exhibitions"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Exhibitions",
+					"column": "ExhibitionID",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_exhibitions_raw",
+					"column": "ExhibitionID",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_exhibitions",
+					"column": "ExhibitionID",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "exhibitions",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": [
+				"BeginISODate",
+				"DisplayDate",
+				"EndISODate",
+				"ExhTitle",
+				"ExhibitionID",
+				"IsInHouse",
+				"VenueName"
+			]
+		},
+		{
+			"es_field": "dimensions_structured",
+			"dtype": "List",
+			"nullable": false,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "dimensions_structured"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.DimItemElemXrefs",
+					"column": "Description",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_dimensions_raw",
+					"column": "Description",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_dimensions",
+					"column": "Description",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "dimensions_structured",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": [
+				"Description",
+				"DisplayDimensions",
+				"Displayed",
+				"ElementName",
+				"Rank"
+			]
+		},
+		{
+			"es_field": "associations",
+			"dtype": "List",
+			"nullable": false,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "associations"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Associations",
+					"column": "DisplayDate",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_associations_raw",
+					"column": "DisplayDate",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_associations",
+					"column": "associations",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "associations",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": [
+				"is_primary_parent",
+				"is_reciprocal",
+				"related_accession_number",
+				"related_object_id",
+				"related_role",
+				"related_sort_number",
+				"related_title",
+				"relationship_id",
+				"role"
+			]
+		},
+		{
+			"es_field": "physical_child_ids",
+			"dtype": "List(Int64)",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "physical_child_ids"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "ObjectID",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "ObjectID",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_relationships",
+					"column": "physical_child_ids",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "physical_child_ids",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "long",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "virtual_parent_ids",
+			"dtype": "List(Int64)",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "virtual_parent_ids"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "IsVirtual",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "IsVirtual",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_relationships",
+					"column": "virtual_parent_ids",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "virtual_parent_ids",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "long",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "virtual_child_ids",
+			"dtype": "List(Int64)",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "virtual_child_ids"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "IsVirtual",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "IsVirtual",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_relationships",
+					"column": "virtual_child_ids",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "virtual_child_ids",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "long",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "child_cards",
+			"dtype": "List",
+			"nullable": true,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "DisplayedTitle"
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectID"
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectNumber"
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "constituents"
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "media"
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "physical_child_ids"
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "virtual_child_ids"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.ObjTitles",
+					"column": "DisplayOrder",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_titles_raw",
+					"column": "DisplayOrder",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_titles",
+					"column": "DisplayOrder",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "DisplayedTitle",
+					"kind": "derived",
+					"extra_deps": 6
+				}
+			],
+			"is_multi_source": true,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": [
+				"accession_number",
+				"display_date",
+				"has_iiif",
+				"id",
+				"iiif_thumbnail_url",
+				"primary_artist_display",
+				"title"
+			]
+		},
+		{
+			"es_field": "is_compound",
+			"dtype": "Boolean",
+			"nullable": false,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "is_compound"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "ObjectNumber",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "ObjectNumber",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "is_compound",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "is_compound",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "boolean",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "primary_artist_display",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "constituents"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Constituents",
+					"column": "AlphaSort",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_constituents_raw",
+					"column": "AlphaSort",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_constituents",
+					"column": "AlphaSort",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "constituents",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "display_year",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "BeginISODate"
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "EndISODate"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "BeginISODate",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "BeginISODate",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "BeginISODate",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "BeginISODate",
+					"kind": "passthrough",
+					"extra_deps": 1
+				}
+			],
+			"is_multi_source": true,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "has_iiif",
+			"dtype": "Boolean",
+			"nullable": false,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "media"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.MediaMaster",
+					"column": "ApprovedForWeb",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_media_raw",
+					"column": "ApprovedForWeb",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_media",
+					"column": "ApprovedForWeb",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "media",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "boolean",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "has_provenance",
+			"dtype": "Boolean",
+			"nullable": false,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Provenance"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "FieldKey",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text_raw",
+					"column": "FieldKey",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text",
+					"column": "Provenance",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Provenance",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "boolean",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "has_children",
+			"dtype": "Boolean",
+			"nullable": false,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "physical_child_ids"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "ObjectID",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "ObjectID",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_relationships",
+					"column": "physical_child_ids",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "physical_child_ids",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "boolean",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "sort_artist",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "constituents"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Constituents",
+					"column": "AlphaSort",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_constituents_raw",
+					"column": "AlphaSort",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_constituents",
+					"column": "AlphaSort",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "constituents",
+					"kind": "derived",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "sort_year",
+			"dtype": "Int64",
+			"nullable": true,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "BeginISODate"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "BeginISODate",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "BeginISODate",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "BeginISODate",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "BeginISODate",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "long",
+			"es_subfields": [],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "parent_accession_number",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectNumber"
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "PhysicalParentID"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "ObjectNumber",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_raw",
+					"column": "ObjectNumber",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects",
+					"column": "ObjectNumber",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "ObjectNumber",
+					"kind": "passthrough",
+					"extra_deps": 1
+				}
+			],
+			"is_multi_source": true,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		},
+		{
+			"es_field": "parent_title",
+			"dtype": "String",
+			"nullable": true,
+			"kind": "derived",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "DisplayedTitle"
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "PhysicalParentID"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.ObjTitles",
+					"column": "DisplayOrder",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_titles_raw",
+					"column": "DisplayOrder",
+					"kind": "derived",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_titles",
+					"column": "DisplayOrder",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "DisplayedTitle",
+					"kind": "derived",
+					"extra_deps": 1
+				}
+			],
+			"is_multi_source": true,
+			"es_type": "text",
+			"es_subfields": ["keyword"],
+			"es_nested_properties": []
+		}
+	]
+}

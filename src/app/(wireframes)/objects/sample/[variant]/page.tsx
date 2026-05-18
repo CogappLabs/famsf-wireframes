@@ -243,11 +243,13 @@ export default async function SampleObjectPage({ params }: Props) {
 											{visibleMedia[0].media_view && (
 												<p className="font-mono text-label uppercase tracking-wide text-gray-500">
 													{visibleMedia[0].media_view}
+													<FieldSourceBadge field="media[].media_view" />
 												</p>
 											)}
 											{visibleMedia[0].public_caption && (
 												<p className="mt-0.5 font-mono text-meta text-gray-600">
 													{visibleMedia[0].public_caption}
+													<FieldSourceBadge field="media[].public_caption" />
 												</p>
 											)}
 											{(visibleMedia[0].photographer ||
@@ -255,6 +257,13 @@ export default async function SampleObjectPage({ params }: Props) {
 												<p className="mt-0.5 font-mono text-label text-gray-400">
 													{visibleMedia[0].photographer ??
 														visibleMedia[0].credit_line}
+													<FieldSourceBadge
+														field={
+															visibleMedia[0].photographer
+																? "media[].photographer"
+																: "media[].credit_line"
+														}
+													/>
 												</p>
 											)}
 										</div>
@@ -317,11 +326,19 @@ export default async function SampleObjectPage({ params }: Props) {
 															{item.public_caption && (
 																<p className="mt-0.5 font-mono text-meta text-gray-600">
 																	{item.public_caption}
+																	<FieldSourceBadge field="media[].public_caption" />
 																</p>
 															)}
 															{(item.photographer || item.credit_line) && (
 																<p className="mt-0.5 font-mono text-label text-gray-400">
 																	{item.photographer ?? item.credit_line}
+																	<FieldSourceBadge
+																		field={
+																			item.photographer
+																				? "media[].photographer"
+																				: "media[].credit_line"
+																		}
+																	/>
 																</p>
 															)}
 															<p className="mt-1 font-mono text-label text-gray-400">
@@ -471,8 +488,11 @@ export default async function SampleObjectPage({ params }: Props) {
 						{onViewLocation && (
 							<p className="mt-2 inline-flex items-center gap-1.5 font-mono text-meta text-emerald-700">
 								<span className="inline-block h-1.5 w-1.5 rounded-full bg-emerald-500" />
-								On view at {onViewLocation}
-								<FieldSourceBadge field="location_string" />
+								On view
+								<FieldSourceBadge field="on_view" />
+								at {onViewLocation}
+								<FieldSourceBadge field="location_building" />
+								<FieldSourceBadge field="location_room" />
 							</p>
 						)}
 

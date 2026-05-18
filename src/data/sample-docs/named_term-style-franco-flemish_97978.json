@@ -176,10 +176,11 @@
 	"has_children": false,
 	"sort_artist": "unknown artist",
 	"sort_year": 1475,
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"slug": "abraham-and-melchizedek-1969-15",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
 	"_sample_meta": {
 		"reason": "Abraham and Melchizedek (1969.15) — Franco-Flemish style, exercises term_style array",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 43
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 44
 	}
 }

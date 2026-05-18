@@ -199,10 +199,11 @@
 	"has_children": false,
 	"sort_artist": "willem de kooning",
 	"sort_year": 1942,
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"slug": "untitled-two-figures-1999-131",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
 	"_sample_meta": {
 		"reason": "de Kooning, Untitled Two Figures (1999.131) — 1000+ char didactic label, exercises long-prose rendering",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 48
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 49
 	}
 }

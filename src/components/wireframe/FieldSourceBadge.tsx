@@ -1,7 +1,10 @@
 "use client";
 
 import { FIELD_MAP } from "@/lib/es-tms-field-map";
-import { useFieldDebug } from "@/providers/FieldDebugProvider";
+import {
+	useFieldDebug,
+	useRegisterFieldBadge,
+} from "@/providers/FieldDebugProvider";
 
 interface FieldSourceBadgeProps {
 	/** ES field name, e.g. "title" or "constituents[].DisplayName" */
@@ -23,6 +26,7 @@ export default function FieldSourceBadge({
 	block = false,
 }: FieldSourceBadgeProps) {
 	const { showFieldDebug } = useFieldDebug();
+	useRegisterFieldBadge();
 
 	if (!showFieldDebug) return null;
 
@@ -34,13 +38,13 @@ export default function FieldSourceBadge({
 
 	return (
 		<Tag
-			className={`border-l-2 border-violet-300 bg-violet-50 pl-1.5 font-mono text-[10px] leading-tight text-violet-600 ${block ? "mt-0.5 block py-0.5" : "ml-1.5 inline-block align-middle"}`}
+			className={`border-l-2 border-violet-500 bg-violet-50 pl-1.5 font-mono text-[12px] leading-snug text-violet-900 ${block ? "mt-0.5 block py-0.5" : "ml-1.5 inline-block align-middle"}`}
 			title={notes ?? undefined}
 		>
-			<span className="text-violet-400">ES:</span> {field}{" "}
-			<span className="text-violet-400">&#8592;</span>{" "}
-			<span className="text-violet-700">{source}</span>
-			{notes && <span className="ml-1 text-violet-400 italic">({notes})</span>}
+			<span className="text-violet-700">ES:</span> {field}{" "}
+			<span className="text-violet-700">&#8592;</span>{" "}
+			<span className="font-semibold text-violet-900">{source}</span>
+			{notes && <span className="ml-1 text-violet-700 italic">({notes})</span>}
 		</Tag>
 	);
 }

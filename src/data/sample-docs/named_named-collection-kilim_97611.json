@@ -131,10 +131,11 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_artist": "unknown artist",
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"slug": "kilim-1999-186-3",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
 	"_sample_meta": {
 		"reason": "Kilim (1999.186.3) — McCoy Jones Collection, exercises named_collection field",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 39
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 40
 	}
 }

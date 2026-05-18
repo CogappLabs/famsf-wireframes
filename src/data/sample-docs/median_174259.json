@@ -1,0 +1,153 @@
+{
+	"id": 174259,
+	"accession_number": "2007.44.76",
+	"sort_number": "2007.44.76",
+	"title": "Dance mask, Asa Katé",
+	"display_date": "C–14 dating: 17th–19th century (inconclusive % probability)",
+	"medium": "Wood",
+	"medium_parts": ["Wood"],
+	"dimensions": "45.7 x 19.1 x 17.8 cm (18 x 7 1/2 x 7 in.)",
+	"dimensions_display_primary": "18 x 7 1/2 x 7 in. (45.7 x 19.1 x 17.8 cm)",
+	"credit_line": "Gift of Marcia and John Friede in honor of Diane B. Wilsey and Harry S. Parker III",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Sculpture",
+	"on_view": true,
+	"last_modified": "2026-04-27 09:17:16.307000",
+	"is_virtual": false,
+	"web_text": "OBJECT LABEL\n\n4X5 MAGNETIC DECK\n\nDance mask, asa katé\n\nMadang Province, Astrolabe Bay\n\n18th-20th century\n\nWood\n\nGift of Marcia and John Friede in honor of Diane B. Wilsey and Harry S. Parker III\n\n2007.44.76 (cat. no. 364)",
+	"provenance": "\"Walter Randel Collection, New York.\" (Catalog #364, New Guinea Art: Masterpieces from the Jolika Collection of Marcia and John Friede, 2005, Volume 2, p. 143.)",
+	"accession_iso_date": "2007-10-11",
+	"location_string": "de Young, Display, Gallery 030",
+	"location_building": "de Young",
+	"location_room": "Gallery 030",
+	"inscribed": "L05.1.226 A31141\nowner number 364",
+	"titles": [
+		{
+			"Title": "Dance mask, Asa Katé",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41485,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Mindjim language speakers",
+			"AlphaSort": "Mindjim language speakers",
+			"Nationality": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"BeginDateISO": null,
+			"EndDateISO": null,
+			"DisplayDate": null,
+			"Biography": null,
+			"display_bios": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Mindjim language speakers"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 122089,
+			"media_master_id": 31033,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"photographer": null,
+			"credit_line": null,
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "1008 x 1344px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 1344,
+			"pixel_w": 1008
+		},
+		{
+			"media_xref_id": 122090,
+			"media_master_id": 46415,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"photographer": null,
+			"credit_line": null,
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "122 x 295px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 295,
+			"pixel_w": 122
+		}
+	],
+	"exhibitions": [],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "18 x 7 1/2 x 7 in. (45.7 x 19.1 x 17.8 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Overall (4D)",
+			"Displayed": true,
+			"Rank": 1
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_place_of_creation": [
+		{
+			"term": "Astrolabe Bay",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABU",
+					"term": "Malay Archipelago"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABU.AAAAB.AAAAB.AAAAS",
+					"term": "Madang"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABU.AAAAB.AAAAB.AAAAS.AAAAG",
+					"term": "Astrolabe Bay"
+				}
+			]
+		}
+	],
+	"primary_artist": "Mindjim language speakers",
+	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/31033/info.json",
+	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/31033/full/300,/0/default.jpg",
+	"has_image": true,
+	"primary_artist_display": "Mindjim language speakers",
+	"has_iiif": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_artist": "mindjim language speakers",
+	"slug": "dance-mask-asa-kate-2007-44-76",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: closest to dataset median populated-field count.",
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 39
+	}
+}

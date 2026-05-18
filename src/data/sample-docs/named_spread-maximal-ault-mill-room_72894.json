@@ -282,6 +282,57 @@
 	],
 	"term_materials": [
 		{
+			"term": "paint",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
+					"term": "oil paint"
+				}
+			]
+		},
+		{
 			"term": "canvas",
 			"certainty": null,
 			"path": [
@@ -336,57 +387,6 @@
 					"term": "canvas"
 				}
 			]
-		},
-		{
-			"term": "paint",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
-					"term": "paint"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
-					"term": "paint by composition or origin"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
-					"term": "oil paint"
-				}
-			]
 		}
 	],
 	"primary_artist": "George Ault",
@@ -400,10 +400,11 @@
 	"has_children": false,
 	"sort_artist": "george ault",
 	"sort_year": 1923,
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"slug": "the-mill-room-1931-26",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
 	"_sample_meta": {
 		"reason": "George Ault, The Mill Room (1931.26) — 47 fields, on view + IIIF",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 50
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 51
 	}
 }

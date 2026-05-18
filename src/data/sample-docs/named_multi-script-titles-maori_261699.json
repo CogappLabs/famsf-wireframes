@@ -198,10 +198,11 @@
 	"has_children": false,
 	"sort_artist": "maori",
 	"sort_year": 1550,
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"slug": "ear-pendant-motoi-kahurangi-41526",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
 	"_sample_meta": {
 		"reason": "Māori, Ear pendant Motoi kahurangi (41526) — 3+ titles, exercises multi-script title rendering",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 43
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 44
 	}
 }

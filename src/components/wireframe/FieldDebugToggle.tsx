@@ -5,9 +5,13 @@ import { useFieldDebug } from "@/providers/FieldDebugProvider";
 /**
  * Toggle button for the "Show source" field-debug mode.
  * Renders in the wireframe layout header alongside ScopeToggle.
+ * Hidden when no FieldSourceBadge instances are mounted on the page.
  */
 export default function FieldDebugToggle() {
-	const { showFieldDebug, setShowFieldDebug } = useFieldDebug();
+	const { showFieldDebug, setShowFieldDebug, badgeCount } = useFieldDebug();
+
+	if (badgeCount === 0) return null;
+
 	return (
 		<button
 			type="button"

@@ -275,10 +275,11 @@
 	"has_children": false,
 	"sort_artist": "claude monet",
 	"sort_year": 1874,
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"slug": "sailboats-on-the-seine-at-petit-gennevilliers-1962-23",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
 	"_sample_meta": {
 		"reason": "Monet, Sailboats on the Seine at Petit-Gennevilliers (1962.23) — 10+ exhibitions, only record at this depth",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 46
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 47
 	}
 }

@@ -1,0 +1,135 @@
+{
+	"id": 97910,
+	"accession_number": "1999.85.2",
+	"sort_number": "1999.85.2",
+	"title": "Woman with Urn, from a series about wine in religion, poster for the American Cancer Society",
+	"object_name": "poster",
+	"display_date": "1997",
+	"begin_iso_date": "1997",
+	"end_iso_date": "1997",
+	"medium": "color screenprint poster printed in five colors",
+	"medium_parts": ["color screenprint poster printed in five colors"],
+	"credit_line": "Gift of the artist",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"last_modified": "2015-07-14 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Woman's head with vase balanced on top",
+	"provenance": "Donated by Michael Schwab to museum. A historic series of his prints.",
+	"accession_iso_date": "1999-10-14",
+	"location_string": "Legion, 101, Drawer 58",
+	"location_building": "Legion",
+	"location_room": "Drawer 58",
+	"titles": [
+		{
+			"Title": "Woman with Urn, from a series about wine in religion, poster for the American Cancer Society",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 1799,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Michael Schwab",
+			"AlphaSort": "Michael Schwab",
+			"Nationality": "American",
+			"BeginDate": 1952,
+			"EndDate": null,
+			"BeginDateISO": "1952-04-15",
+			"EndDateISO": null,
+			"DisplayDate": "b. 1952",
+			"Biography": "b. 1952",
+			"display_bios": [
+				{
+					"bio": "b. 1952",
+					"display_order": 1
+				},
+				{
+					"bio": "b. 1952",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Michael Schwab (b. 1952)"
+		}
+	],
+	"media": [],
+	"exhibitions": [],
+	"dimensions_structured": [],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_related_geography": [
+		{
+			"term": "United States",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				}
+			]
+		}
+	],
+	"primary_artist": "Michael Schwab",
+	"has_image": false,
+	"primary_artist_display": "Michael Schwab (1952–)",
+	"display_year": "1997",
+	"has_iiif": false,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_artist": "michael schwab",
+	"sort_year": 1997,
+	"slug": "woman-with-urn-from-a-series-about-wine-in-religion-poster-for-the-american-canc-1999-85-2",
+	"indexed_at": "2026-05-18T16:23:44.741790+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: closest to dataset median populated-field count.",
+		"picked_at": "2026-05-18T16:23:44.741790+00:00",
+		"populated_fields": 39
+	}
+}

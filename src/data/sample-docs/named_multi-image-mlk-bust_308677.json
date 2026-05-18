@@ -294,10 +294,11 @@
 	"has_children": false,
 	"sort_artist": "elizabeth catlett",
 	"sort_year": 1984,
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"slug": "bust-of-martin-luther-king-jr-2025-5a-b",
+	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
 	"_sample_meta": {
 		"reason": "Bust of Martin Luther King Jr. (2025.5a-b) — 8 captioned images, multi-image gallery test",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 45
+		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"populated_fields": 46
 	}
 }
