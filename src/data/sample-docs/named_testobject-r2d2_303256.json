@@ -160,27 +160,6 @@
 	],
 	"term_place_of_creation": [
 		{
-			"term": "Egypt",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAB",
-					"term": "Africa"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAB.AAAPN",
-					"term": "Miṣr"
-				}
-			]
-		},
-		{
 			"term": "Nepean",
 			"certainty": "Uncertain",
 			"path": [
@@ -208,6 +187,27 @@
 					"depth": 6,
 					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP.AABER",
 					"term": "Nepean"
+				}
+			]
+		},
+		{
+			"term": "Egypt",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAPN",
+					"term": "Miṣr"
 				}
 			]
 		},
@@ -248,37 +248,6 @@
 	],
 	"term_related_geography": [
 		{
-			"term": "Nepean",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABZ",
-					"term": "North and Central America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
-					"term": "United States"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP",
-					"term": "Ontario"
-				},
-				{
-					"depth": 6,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP.AABER",
-					"term": "Nepean"
-				}
-			]
-		},
-		{
 			"term": "Ottawa",
 			"certainty": null,
 			"path": [
@@ -306,6 +275,37 @@
 					"depth": 6,
 					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP.AABIU",
 					"term": "Ottawa"
+				}
+			]
+		},
+		{
+			"term": "Nepean",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP",
+					"term": "Ontario"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP.AABER",
+					"term": "Nepean"
 				}
 			]
 		}
@@ -585,10 +585,10 @@
 	"sort_artist": "unknown artist",
 	"sort_year": 2000,
 	"slug": "r2-d2-model-testobject-01",
-	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
+	"indexed_at": "2026-05-19T09:48:36.385404+00:00",
 	"_sample_meta": {
 		"reason": "R2-D2 Model (TestObject.01) — FAMSF synthetic test record, exercises every field. 57+ populated.",
-		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"picked_at": "2026-05-19T09:48:36.385404+00:00",
 		"populated_fields": 58
 	}
 }

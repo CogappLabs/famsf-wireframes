@@ -67,27 +67,6 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 156366,
-			"media_master_id": 195246,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Web / Digital Quality",
-			"copyright_status": null,
-			"web_publishing_size": "7637 x 10417px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 10417,
-			"pixel_w": 7637
-		},
-		{
 			"media_xref_id": 155834,
 			"media_master_id": 194726,
 			"rank": 0,
@@ -107,6 +86,27 @@
 			"media_type": "Image",
 			"pixel_h": 11368,
 			"pixel_w": 7891
+		},
+		{
+			"media_xref_id": 156366,
+			"media_master_id": 195246,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"photographer": null,
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "7637 x 10417px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 10417,
+			"pixel_w": 7637
 		},
 		{
 			"media_xref_id": 154,
@@ -137,9 +137,9 @@
 			"display_order": 2,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
 			"photographer": null,
-			"credit_line": null,
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"use_quality": "Web / Digital Quality",
 			"copyright_status": null,
 			"web_publishing_size": "4459 x 5640px @ 72dpi",
@@ -282,57 +282,6 @@
 	],
 	"term_materials": [
 		{
-			"term": "paint",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
-					"term": "paint"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
-					"term": "paint by composition or origin"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
-					"term": "oil paint"
-				}
-			]
-		},
-		{
 			"term": "canvas",
 			"certainty": null,
 			"path": [
@@ -387,6 +336,57 @@
 					"term": "canvas"
 				}
 			]
+		},
+		{
+			"term": "paint",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
+					"term": "oil paint"
+				}
+			]
 		}
 	],
 	"primary_artist": "George Ault",
@@ -401,10 +401,10 @@
 	"sort_artist": "george ault",
 	"sort_year": 1923,
 	"slug": "the-mill-room-1931-26",
-	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
+	"indexed_at": "2026-05-19T09:48:36.385404+00:00",
 	"_sample_meta": {
 		"reason": "George Ault, The Mill Room (1931.26) — 47 fields, on view + IIIF",
-		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"picked_at": "2026-05-19T09:48:36.385404+00:00",
 		"populated_fields": 51
 	}
 }

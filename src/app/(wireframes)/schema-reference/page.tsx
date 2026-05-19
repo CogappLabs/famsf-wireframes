@@ -2,31 +2,7 @@ import Container from "@/components/wireframe/Container";
 import SectionLabel from "@/components/wireframe/SectionLabel";
 import WireframeSection from "@/components/wireframe/WireframeSection";
 import schemaData from "@/data/schema.json";
-
-interface UpstreamDep {
-	asset: string;
-	column: string;
-}
-
-interface ChainHop {
-	asset: string;
-	column: string;
-	kind: string;
-	extra_deps: number;
-}
-
-interface FieldRow {
-	es_field: string;
-	dtype: string;
-	nullable: boolean;
-	kind: string;
-	upstream_deps: UpstreamDep[];
-	lineage_chain: ChainHop[];
-	is_multi_source: boolean;
-	es_type: string | null;
-	es_subfields: string[];
-	es_nested_properties: string[];
-}
+import LineageTable, { type FieldRow } from "./LineageTable";
 
 interface SchemaDoc {
 	generated_at: string;
@@ -35,7 +11,6 @@ interface SchemaDoc {
 	field_count: number;
 	lineage_resolved_count: number;
 	passthrough_count: number;
-	rename_count: number;
 	derived_count: number;
 	unknown_count: number;
 	multi_source_count: number;
@@ -43,59 +18,6 @@ interface SchemaDoc {
 }
 
 const data = schemaData as SchemaDoc;
-
-type DisplayHop = ChainHop & { collapsed_count?: number };
-
-/**
- * Collapse runs of hops where the column name doesn't change.
- * A change only matters where the column is renamed or transformed.
- * Pure passthroughs between assets are noise.
- *
- * Algorithm: walk hops; group consecutive same-column hops; keep
- * the earliest hop (most upstream) and tag with how many were
- * collapsed so the UI can show "... +N passthroughs".
- */
-function collapseChain(chain: ChainHop[]): DisplayHop[] {
-	if (chain.length === 0) return [];
-	const out: DisplayHop[] = [];
-	let i = 0;
-	while (i < chain.length) {
-		const start = chain[i];
-		let j = i;
-		while (j + 1 < chain.length && chain[j + 1].column === start.column) {
-			j++;
-		}
-		const collapsed = j - i;
-		out.push(collapsed > 0 ? { ...start, collapsed_count: collapsed } : start);
-		i = j + 1;
-	}
-	return out;
-}
-
-function classify(row: FieldRow): { label: string; tone: string } {
-	if (row.is_multi_source) {
-		return {
-			label: "multi-source",
-			tone: "border-purple-400 bg-purple-50 text-purple-700",
-		};
-	}
-	switch (row.kind) {
-		case "passthrough":
-			return { label: "passthrough", tone: "border-gray-300 text-gray-500" };
-		case "rename":
-			return {
-				label: "rename",
-				tone: "border-blue-400 bg-blue-50 text-blue-700",
-			};
-		case "derived":
-			return {
-				label: "derived",
-				tone: "border-amber-400 bg-amber-50 text-amber-700",
-			};
-		default:
-			return { label: row.kind, tone: "border-gray-300 text-gray-400" };
-	}
-}
 
 export default function SchemaReferencePage() {
 	const lineagePct = Math.round(
@@ -138,7 +60,7 @@ export default function SchemaReferencePage() {
 						<code className="bg-gray-100 px-1">{data.pipeline_rev}</code>
 					</p>
 
-					<div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-6">
+					<div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-5">
 						<div className="border border-gray-300 p-3">
 							<div className="font-mono text-2xl text-gray-900">
 								{data.field_count}
@@ -158,12 +80,6 @@ export default function SchemaReferencePage() {
 							<SectionLabel>Passthrough</SectionLabel>
 						</div>
 						<div className="border border-gray-300 p-3">
-							<div className="font-mono text-2xl text-blue-700">
-								{data.rename_count}
-							</div>
-							<SectionLabel>Rename</SectionLabel>
-						</div>
-						<div className="border border-gray-300 p-3">
 							<div className="font-mono text-2xl text-amber-700">
 								{data.derived_count}
 							</div>
@@ -181,130 +97,7 @@ export default function SchemaReferencePage() {
 
 			<WireframeSection label="Lineage table" className="py-6">
 				<Container>
-					<div className="overflow-x-auto">
-						<table className="w-full border-collapse font-mono text-meta">
-							<thead>
-								<tr className="border-b-2 border-gray-300 text-left">
-									<th className="px-2 py-2 font-mono text-label uppercase tracking-wide text-gray-500">
-										ES field
-									</th>
-									<th className="px-2 py-2 font-mono text-label uppercase tracking-wide text-gray-500">
-										Kind
-									</th>
-									<th className="px-2 py-2 font-mono text-label uppercase tracking-wide text-gray-500">
-										Upstream deps (asset.column)
-									</th>
-									<th className="px-2 py-2 font-mono text-label uppercase tracking-wide text-gray-500">
-										Lineage chain → TMS
-									</th>
-									<th className="px-2 py-2 font-mono text-label uppercase tracking-wide text-gray-500">
-										ES type
-									</th>
-									<th className="px-2 py-2 font-mono text-label uppercase tracking-wide text-gray-500">
-										Polars dtype
-									</th>
-								</tr>
-							</thead>
-							<tbody>
-								{data.fields.map((row) => {
-									const { label, tone } = classify(row);
-									return (
-										<tr
-											key={row.es_field}
-											id={row.es_field}
-											className="border-b border-gray-200 align-top hover:bg-gray-50"
-										>
-											<td className="px-2 py-2 text-gray-900">
-												{row.es_field}
-											</td>
-											<td className="px-2 py-2">
-												<span
-													className={`border px-1 ${tone} font-mono text-label uppercase tracking-wide`}
-												>
-													{label}
-												</span>
-											</td>
-											<td className="px-2 py-2 text-gray-700">
-												{row.upstream_deps.length === 0 ? (
-													<span className="italic text-gray-400">none</span>
-												) : (
-													<ul className="space-y-0.5">
-														{row.upstream_deps.map((dep) => (
-															<li
-																key={`${dep.asset}.${dep.column}`}
-																className="leading-tight"
-															>
-																<span className="text-gray-500">
-																	{dep.asset}.
-																</span>
-																{dep.column}
-															</li>
-														))}
-													</ul>
-												)}
-											</td>
-											<td className="px-2 py-2 text-gray-700">
-												{row.lineage_chain.length === 0 ? (
-													<span className="italic text-gray-400">—</span>
-												) : (
-													<ol className="space-y-0.5">
-														{collapseChain(row.lineage_chain).map((hop, i) => (
-															<li
-																key={`${hop.asset}.${hop.column}`}
-																className="leading-tight"
-															>
-																<span className="text-gray-400">{i + 1}.</span>{" "}
-																<span className="text-gray-500">
-																	{hop.asset}.
-																</span>
-																{hop.column}
-																{hop.collapsed_count &&
-																	hop.collapsed_count > 0 && (
-																		<span className="ml-1 text-gray-400">
-																			(+{hop.collapsed_count} unchanged hops)
-																		</span>
-																	)}
-																{hop.extra_deps > 0 && (
-																	<span className="ml-1 text-purple-600">
-																		(+{hop.extra_deps} more{" "}
-																		{hop.extra_deps === 1
-																			? "source"
-																			: "sources"}
-																		)
-																	</span>
-																)}
-															</li>
-														))}
-													</ol>
-												)}
-											</td>
-											<td className="px-2 py-2 text-gray-700">
-												{row.es_type ?? (
-													<span className="text-gray-400">—</span>
-												)}
-												{row.es_subfields.length > 0 && (
-													<span className="ml-1 text-gray-400">
-														+ {row.es_subfields.join(", ")}
-													</span>
-												)}
-												{row.es_nested_properties.length > 0 && (
-													<span className="ml-1 text-gray-400">
-														(nested: {row.es_nested_properties.length})
-													</span>
-												)}
-											</td>
-											<td className="px-2 py-2 text-gray-700">
-												{row.dtype}
-												{row.nullable && (
-													<span className="ml-1 text-gray-400">nullable</span>
-												)}
-											</td>
-										</tr>
-									);
-								})}
-							</tbody>
-						</table>
-					</div>
+					<LineageTable fields={data.fields} />
 				</Container>
 			</WireframeSection>
 
@@ -318,28 +111,29 @@ export default function SchemaReferencePage() {
 							<code className="bg-gray-100 px-1">dg.Output[pl.LazyFrame]</code>{" "}
 							with{" "}
 							<code className="bg-gray-100 px-1">dagster/column_lineage</code>{" "}
-							metadata listing each output column's upstream dep
+							metadata listing each output column's upstream dep.
 						</li>
 						<li>
 							<code className="bg-gray-100 px-1">schema_doc</code> asset reads
-							that metadata from the latest materialization event, joins with{" "}
-							<code className="bg-gray-100 px-1">CollectionSchema</code> and{" "}
-							<code className="bg-gray-100 px-1">ES_MAPPING</code>
+							that metadata from the latest materialization event and walks
+							backwards through each upstream asset's own lineage to reach the
+							TMS source table. Merges with{" "}
+							<code className="bg-gray-100 px-1">CollectionSchema</code>{" "}
+							(pandera) and <code className="bg-gray-100 px-1">ES_MAPPING</code>
+							.
 						</li>
 						<li>
 							Dual-writes to wireframe repo via{" "}
 							<code className="bg-gray-100 px-1">
 								COLFLOW_WIREFRAMES_SCHEMA_PATH
 							</code>{" "}
-							env var
+							env var. Auto-refreshes on every pipeline run.
 						</li>
 						<li>
-							Current lineage chain terminates at{" "}
-							<code className="bg-gray-100 px-1">objects_with_relations</code>.
-							Extending back to TMS table.column needs the same{" "}
-							<code className="bg-gray-100 px-1">Output</code> +{" "}
-							<code className="bg-gray-100 px-1">TableColumnLineage</code>{" "}
-							treatment on each upstream asset.
+							Multi-source columns walk via first dep; tagged{" "}
+							<code className="bg-gray-100 px-1">(+N more sources)</code>.
+							Consecutive same-column passthroughs collapse to one hop tagged{" "}
+							<code className="bg-gray-100 px-1">(+N unchanged hops)</code>.
 						</li>
 					</ol>
 				</Container>

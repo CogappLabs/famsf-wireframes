@@ -1,0 +1,142 @@
+{
+	"id": 156726,
+	"accession_number": "2020.36.134.1",
+	"sort_number": "2020.36.134.1",
+	"title": "House and Bugs, WP1",
+	"display_date": "2008",
+	"begin_iso_date": "2008",
+	"end_iso_date": "2008",
+	"dimensions": "Sheet: 565 x 810 mm (22 1/4 x 31 7/8 in.)",
+	"dimensions_display_primary": "22 1/4 x 31 7/8 in. (56.5 x 81 cm)",
+	"credit_line": "Crown Point Press Archive, gift of Crown Point Press",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": "© Jockum Nordström / Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"last_modified": "2021-09-10 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "black spit bite of all figures, bugs, plants and house",
+	"accession_iso_date": "2020-12-08",
+	"location_string": "Legion, 101, Drawer 31",
+	"location_building": "Legion",
+	"location_room": "Drawer 31",
+	"titles": [
+		{
+			"Title": "House and Bugs, WP1",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 17638,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Jockum Nordstrom",
+			"AlphaSort": "Jockum Nordstrom",
+			"Nationality": "Swedish",
+			"BeginDate": 1963,
+			"EndDate": null,
+			"BeginDateISO": "1963",
+			"EndDateISO": null,
+			"DisplayDate": "b. 1963",
+			"Biography": "b. 1963",
+			"display_bios": [
+				{
+					"bio": "b. 1963",
+					"display_order": 1
+				},
+				{
+					"bio": "b. 1963",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Jockum Nordstrom (b. 1963)"
+		}
+	],
+	"media": [],
+	"exhibitions": [],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "22 1/4 x 31 7/8 in. (56.5 x 81 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Sheet (4D)",
+			"Displayed": true,
+			"Rank": 1
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_related_geography": [
+		{
+			"term": "Sweden",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAAIY",
+					"term": "Sverige"
+				}
+			]
+		}
+	],
+	"primary_artist": "Jockum Nordstrom",
+	"has_image": false,
+	"primary_artist_display": "Jockum Nordstrom (1963–)",
+	"display_year": "2008",
+	"has_iiif": false,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "jockum nordstrom",
+	"sort_year": 2008,
+	"slug": "house-and-bugs-wp1-2020-36-134-1",
+	"indexed_at": "2026-05-19T08:25:26.635483+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: closest to dataset median populated-field count.",
+		"picked_at": "2026-05-19T08:25:26.635483+00:00",
+		"populated_fields": 39
+	}
+}

@@ -90,15 +90,6 @@
 	],
 	"exhibitions": [
 		{
-			"ExhibitionID": 351,
-			"ExhTitle": "Impressionists on the Water",
-			"DisplayDate": "June 1, 2013 - February 17, 2014",
-			"BeginISODate": "2013-06-01",
-			"EndISODate": "2014-02-17",
-			"IsInHouse": false,
-			"VenueName": "Legion of Honor"
-		},
-		{
 			"ExhibitionID": 425,
 			"ExhTitle": "Splendid Centuries",
 			"DisplayDate": null,
@@ -117,13 +108,13 @@
 			"VenueName": "Brooklyn Museum"
 		},
 		{
-			"ExhibitionID": 560,
-			"ExhTitle": "Monet on the Seine: Impressions of a River",
-			"DisplayDate": "Sunday, October 26, 2014 - Sunday, February 1, 2015",
-			"BeginISODate": "2014-10-26",
-			"EndISODate": "2015-02-01",
+			"ExhibitionID": 351,
+			"ExhTitle": "Impressionists on the Water",
+			"DisplayDate": "June 1, 2013 - February 17, 2014",
+			"BeginISODate": "2013-06-01",
+			"EndISODate": "2014-02-17",
 			"IsInHouse": false,
-			"VenueName": "The Museum of Fine Arts, Houston"
+			"VenueName": "Legion of Honor"
 		},
 		{
 			"ExhibitionID": 807,
@@ -135,15 +126,6 @@
 			"VenueName": "Art Centre Basel"
 		},
 		{
-			"ExhibitionID": 844,
-			"ExhTitle": "Monet and His Places",
-			"DisplayDate": "Sunday, October 20, 2019 - Monday, June 1, 2020",
-			"BeginISODate": "2019-10-20",
-			"EndISODate": "2020-06-01",
-			"IsInHouse": false,
-			"VenueName": "Denver Art Museum"
-		},
-		{
 			"ExhibitionID": 1125,
 			"ExhTitle": "Networks of Impressionism: The Museum Barberini’s 10-Year Anniversary Exhibition",
 			"DisplayDate": null,
@@ -151,6 +133,15 @@
 			"EndISODate": "2027-02-21",
 			"IsInHouse": false,
 			"VenueName": "Museen der Hasso Plattner Foundation gGmbH / Museum Barberini"
+		},
+		{
+			"ExhibitionID": 560,
+			"ExhTitle": "Monet on the Seine: Impressions of a River",
+			"DisplayDate": "Sunday, October 26, 2014 - Sunday, February 1, 2015",
+			"BeginISODate": "2014-10-26",
+			"EndISODate": "2015-02-01",
+			"IsInHouse": false,
+			"VenueName": "The Museum of Fine Arts, Houston"
 		},
 		{
 			"ExhibitionID": 1203,
@@ -169,6 +160,15 @@
 			"EndISODate": "2010-06-25",
 			"IsInHouse": false,
 			"VenueName": "The Art Gallery of New South Wales"
+		},
+		{
+			"ExhibitionID": 844,
+			"ExhTitle": "Monet and His Places",
+			"DisplayDate": "Sunday, October 20, 2019 - Monday, June 1, 2020",
+			"BeginISODate": "2019-10-20",
+			"EndISODate": "2020-06-01",
+			"IsInHouse": false,
+			"VenueName": "Denver Art Museum"
 		},
 		{
 			"ExhibitionID": 1406,
@@ -276,10 +276,10 @@
 	"sort_artist": "claude monet",
 	"sort_year": 1874,
 	"slug": "sailboats-on-the-seine-at-petit-gennevilliers-1962-23",
-	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
+	"indexed_at": "2026-05-19T09:48:36.385404+00:00",
 	"_sample_meta": {
 		"reason": "Monet, Sailboats on the Seine at Petit-Gennevilliers (1962.23) — 10+ exhibitions, only record at this depth",
-		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"picked_at": "2026-05-19T09:48:36.385404+00:00",
 		"populated_fields": 47
 	}
 }

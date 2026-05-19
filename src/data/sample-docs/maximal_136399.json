@@ -71,27 +71,6 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 156034,
-			"media_master_id": 194914,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Web / Digital Quality",
-			"copyright_status": null,
-			"web_publishing_size": "10040 x 8490px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 8490,
-			"pixel_w": 10040
-		},
-		{
 			"media_xref_id": 249749,
 			"media_master_id": 259787,
 			"rank": 0,
@@ -111,6 +90,27 @@
 			"media_type": "Image",
 			"pixel_h": 5779,
 			"pixel_w": 3853
+		},
+		{
+			"media_xref_id": 156034,
+			"media_master_id": 194914,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"photographer": null,
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"use_quality": "Web / Digital Quality",
+			"copyright_status": null,
+			"web_publishing_size": "10040 x 8490px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 8490,
+			"pixel_w": 10040
 		},
 		{
 			"media_xref_id": 150514,
@@ -345,10 +345,10 @@
 	"sort_artist": "louise nevelson",
 	"sort_year": 1959,
 	"slug": "sky-cathedral-s-presence-i-2017-50",
-	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
+	"indexed_at": "2026-05-19T09:41:58.084870+00:00",
 	"_sample_meta": {
 		"reason": "Auto-picked: most populated fields in the dataset (true max).",
-		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"picked_at": "2026-05-19T09:41:58.084870+00:00",
 		"populated_fields": 53
 	}
 }

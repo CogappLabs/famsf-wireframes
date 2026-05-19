@@ -31,10 +31,10 @@
 	"has_children": false,
 	"sort_artist": "unknown artist",
 	"slug": "feather-arm-ornament-1981-84-39-1b",
-	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
+	"indexed_at": "2026-05-19T09:48:36.385404+00:00",
 	"_sample_meta": {
 		"reason": "Auto-picked: fewest populated fields in the dataset (true min).",
-		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"picked_at": "2026-05-19T09:48:36.385404+00:00",
 		"populated_fields": 21
 	}
 }

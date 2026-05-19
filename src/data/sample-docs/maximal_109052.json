@@ -289,10 +289,10 @@
 	"sort_artist": "richard diebenkorn",
 	"sort_year": 1986,
 	"slug": "red-yellow-blue-1991-28-664",
-	"indexed_at": "2026-05-18T16:23:44.741790+00:00",
+	"indexed_at": "2026-05-19T09:48:36.385404+00:00",
 	"_sample_meta": {
 		"reason": "Auto-picked: most populated fields in the dataset (true max).",
-		"picked_at": "2026-05-18T16:23:44.741790+00:00",
+		"picked_at": "2026-05-19T09:48:36.385404+00:00",
 		"populated_fields": 53
 	}
 }

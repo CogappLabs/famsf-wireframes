@@ -99,15 +99,6 @@
 			"VenueName": "Legion of Honor"
 		},
 		{
-			"ExhibitionID": 928,
-			"ExhTitle": "de Kooning Retrospective",
-			"DisplayDate": "Sunday, September 18, 2011 - Monday, January 9, 2012",
-			"BeginISODate": "2011-09-18",
-			"EndISODate": "2012-01-09",
-			"IsInHouse": false,
-			"VenueName": "The Museum of Modern Art"
-		},
-		{
 			"ExhibitionID": 1236,
 			"ExhTitle": "Willem de Kooning Drawing",
 			"DisplayDate": null,
@@ -115,6 +106,15 @@
 			"EndISODate": "2027-01-17",
 			"IsInHouse": false,
 			"VenueName": "The Art Institute of Chicago"
+		},
+		{
+			"ExhibitionID": 928,
+			"ExhTitle": "de Kooning Retrospective",
+			"DisplayDate": "Sunday, September 18, 2011 - Monday, January 9, 2012",
+			"BeginISODate": "2011-09-18",
+			"EndISODate": "2012-01-09",
+			"IsInHouse": false,
+			"VenueName": "The Museum of Modern Art"
 		},
 		{
 			"ExhibitionID": 1240,
@@ -200,10 +200,10 @@
 	"sort_artist": "willem de kooning",
 	"sort_year": 1942,
 	"slug": "untitled-two-figures-1999-131",
-	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
+	"indexed_at": "2026-05-19T09:48:36.385404+00:00",
 	"_sample_meta": {
 		"reason": "de Kooning, Untitled Two Figures (1999.131) — 1000+ char didactic label, exercises long-prose rendering",
-		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"picked_at": "2026-05-19T09:48:36.385404+00:00",
 		"populated_fields": 49
 	}
 }

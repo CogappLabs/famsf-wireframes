@@ -64,27 +64,6 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 223413,
-			"media_master_id": 234260,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Print Quality",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"web_publishing_size": "4790 x 5616px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 5616,
-			"pixel_w": 4790
-		},
-		{
 			"media_xref_id": 223415,
 			"media_master_id": 234262,
 			"rank": 0,
@@ -106,11 +85,11 @@
 			"pixel_w": 9972
 		},
 		{
-			"media_xref_id": 223412,
-			"media_master_id": 234259,
+			"media_xref_id": 223414,
+			"media_master_id": 234261,
 			"rank": 0,
 			"is_primary": false,
-			"display_order": 5,
+			"display_order": 6,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -127,11 +106,32 @@
 			"pixel_w": 10652
 		},
 		{
-			"media_xref_id": 223414,
-			"media_master_id": 234261,
+			"media_xref_id": 223413,
+			"media_master_id": 234260,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"photographer": null,
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"use_quality": "Print Quality",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"web_publishing_size": "4790 x 5616px @ 72dpi",
+			"remarks": null,
+			"approved_for_web": false,
+			"display_in_report": false,
+			"media_type": "Image",
+			"pixel_h": 5616,
+			"pixel_w": 4790
+		},
+		{
+			"media_xref_id": 223412,
+			"media_master_id": 234259,
 			"rank": 0,
 			"is_primary": false,
-			"display_order": 6,
+			"display_order": 5,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -295,10 +295,10 @@
 	"sort_artist": "elizabeth catlett",
 	"sort_year": 1984,
 	"slug": "bust-of-martin-luther-king-jr-2025-5a-b",
-	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
+	"indexed_at": "2026-05-19T09:48:36.385404+00:00",
 	"_sample_meta": {
 		"reason": "Bust of Martin Luther King Jr. (2025.5a-b) — 8 captioned images, multi-image gallery test",
-		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"picked_at": "2026-05-19T09:48:36.385404+00:00",
 		"populated_fields": 46
 	}
 }

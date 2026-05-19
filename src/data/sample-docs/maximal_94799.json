@@ -325,10 +325,11 @@
 	"has_children": false,
 	"sort_artist": "richard diebenkorn",
 	"sort_year": 1982,
-	"indexed_at": "2026-05-18T09:01:33.548235+00:00",
+	"slug": "clubs-blue-ground-1991-28-77",
+	"indexed_at": "2026-05-19T08:25:26.635483+00:00",
 	"_sample_meta": {
 		"reason": "Auto-picked: most populated fields in the dataset (true max).",
-		"picked_at": "2026-05-18T09:01:33.548235+00:00",
-		"populated_fields": 52
+		"picked_at": "2026-05-19T08:25:26.635483+00:00",
+		"populated_fields": 53
 	}
 }

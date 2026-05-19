@@ -406,37 +406,6 @@
 			]
 		},
 		{
-			"term": "color",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAY",
-					"term": "color"
-				}
-			]
-		},
-		{
 			"term": "wood",
 			"certainty": null,
 			"path": [
@@ -481,6 +450,37 @@
 					"term": "wood"
 				}
 			]
+		},
+		{
+			"term": "color",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAY",
+					"term": "color"
+				}
+			]
 		}
 	],
 	"primary_artist": "Egyptian",
@@ -491,10 +491,10 @@
 	"has_children": false,
 	"sort_artist": "egyptian",
 	"slug": "ibis-47-12",
-	"indexed_at": "2026-05-18T16:40:14.041609+00:00",
+	"indexed_at": "2026-05-19T09:48:36.385404+00:00",
 	"_sample_meta": {
 		"reason": "Egyptian Ibis (47.12) — Ancient Art, 11 thesaurus terms (highest in Prism)",
-		"picked_at": "2026-05-18T16:40:14.041609+00:00",
+		"picked_at": "2026-05-19T09:48:36.385404+00:00",
 		"populated_fields": 45
 	}
 }

@@ -1,20 +1,19 @@
 {
-	"generated_at": "2026-05-18T16:40:20.330521+00:00",
+	"generated_at": "2026-05-19T11:58:07.881920+00:00",
 	"pipeline_rev": "8e24561",
 	"schema_strict": true,
 	"field_count": 78,
 	"lineage_resolved_count": 78,
-	"passthrough_count": 30,
-	"rename_count": 31,
-	"derived_count": 17,
+	"passthrough_count": 31,
+	"derived_count": 47,
 	"unknown_count": 0,
-	"multi_source_count": 6,
+	"multi_source_count": 4,
 	"fields": [
 		{
 			"es_field": "id",
 			"dtype": "Int64",
 			"nullable": false,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -31,7 +30,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "ObjectID",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -56,7 +55,7 @@
 			"es_field": "accession_number",
 			"dtype": "String",
 			"nullable": false,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -73,7 +72,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "ObjectNumber",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -98,7 +97,7 @@
 			"es_field": "sort_number",
 			"dtype": "String",
 			"nullable": false,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -115,7 +114,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "SearchObjectNumber",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -140,7 +139,7 @@
 			"es_field": "department",
 			"dtype": "String",
 			"nullable": false,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -157,7 +156,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "Department",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -199,7 +198,7 @@
 				{
 					"asset": "object_constituents_raw",
 					"column": "AlphaSort",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -232,29 +231,25 @@
 				},
 				{
 					"asset": "objects_with_relations",
-					"column": "ObjectID"
-				},
-				{
-					"asset": "objects_with_relations",
 					"column": "ObjectNumber"
 				}
 			],
 			"lineage_chain": [
 				{
 					"asset": "tms.ObjTitles",
-					"column": "DisplayOrder",
+					"column": "Title",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_titles_raw",
-					"column": "DisplayOrder",
-					"kind": "derived",
+					"column": "Title",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_titles",
-					"column": "DisplayOrder",
+					"column": "Title",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
@@ -262,7 +257,7 @@
 					"asset": "objects_with_relations",
 					"column": "DisplayedTitle",
 					"kind": "derived",
-					"extra_deps": 2
+					"extra_deps": 1
 				}
 			],
 			"is_multi_source": true,
@@ -291,7 +286,7 @@
 				{
 					"asset": "object_media_raw",
 					"column": "ApprovedForWeb",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -316,7 +311,7 @@
 			"es_field": "on_view",
 			"dtype": "Boolean",
 			"nullable": false,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -333,7 +328,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "OnView",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -358,7 +353,7 @@
 			"es_field": "last_modified",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -375,7 +370,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "LastModified",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -400,7 +395,7 @@
 			"es_field": "is_virtual",
 			"dtype": "Boolean",
 			"nullable": false,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -417,7 +412,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "IsVirtual",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -442,7 +437,7 @@
 			"es_field": "physical_parent_id",
 			"dtype": "Int64",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -459,7 +454,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "ObjectID",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -484,7 +479,7 @@
 			"es_field": "title",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -494,19 +489,19 @@
 			"lineage_chain": [
 				{
 					"asset": "tms.ObjTitles",
-					"column": "DisplayOrder",
+					"column": "Title",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_titles_raw",
-					"column": "DisplayOrder",
-					"kind": "derived",
+					"column": "Title",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_titles",
-					"column": "DisplayOrder",
+					"column": "Title",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
@@ -526,7 +521,7 @@
 			"es_field": "object_name",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -543,7 +538,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "ObjectName",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -568,7 +563,7 @@
 			"es_field": "portfolio",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -585,7 +580,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "Portfolio",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -610,7 +605,7 @@
 			"es_field": "classification",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -627,7 +622,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "Classification",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -652,7 +647,7 @@
 			"es_field": "credit_line",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -669,7 +664,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "CreditLine",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -694,7 +689,7 @@
 			"es_field": "display_date",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -711,7 +706,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "Dated",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -736,7 +731,7 @@
 			"es_field": "medium",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -753,7 +748,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "Medium",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -778,7 +773,7 @@
 			"es_field": "medium_parts",
 			"dtype": "List(String)",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -795,7 +790,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "Medium",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -820,7 +815,7 @@
 			"es_field": "dimensions",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -837,7 +832,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "Dimensions",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -862,7 +857,7 @@
 			"es_field": "dimensions_display_primary",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -879,7 +874,7 @@
 				{
 					"asset": "object_dimensions_raw",
 					"column": "DisplayDimensions",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -891,13 +886,13 @@
 				{
 					"asset": "object_primary_dimension",
 					"column": "DisplayDimensionsStr",
-					"kind": "rename",
+					"kind": "derived",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "DisplayDimensionsStr",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -927,7 +922,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "BeginISODate",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -973,7 +968,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "BeginISODate",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1015,7 +1010,7 @@
 				{
 					"asset": "object_media_raw",
 					"column": "ApprovedForWeb",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1057,7 +1052,7 @@
 				{
 					"asset": "object_media_raw",
 					"column": "ApprovedForWeb",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1082,7 +1077,7 @@
 			"es_field": "named_collection",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1092,26 +1087,26 @@
 			"lineage_chain": [
 				{
 					"asset": "tms.UserFieldXrefs",
-					"column": "FieldKey",
+					"column": "FieldValue",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_user_fields_raw",
-					"column": "FieldKey",
+					"column": "FieldValue",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_user_fields",
 					"column": "UF_NamedCollection",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "UF_NamedCollection",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1124,7 +1119,7 @@
 			"es_field": "copyright",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1141,7 +1136,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "Copyright",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1166,7 +1161,7 @@
 			"es_field": "object_rights_type",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1183,7 +1178,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "ObjectRightsType",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1208,7 +1203,7 @@
 			"es_field": "identifying_description",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1231,13 +1226,13 @@
 				{
 					"asset": "objects_text_entries",
 					"column": "IdentifyingDescription",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "IdentifyingDescription",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1250,7 +1245,7 @@
 			"es_field": "web_text",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1273,13 +1268,13 @@
 				{
 					"asset": "objects_text_entries",
 					"column": "WebText",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "WebText",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1292,7 +1287,7 @@
 			"es_field": "didactic_label",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1315,13 +1310,13 @@
 				{
 					"asset": "objects_text_entries",
 					"column": "DidacticLabel",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "DidacticLabel",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1334,7 +1329,7 @@
 			"es_field": "provenance",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1344,26 +1339,26 @@
 			"lineage_chain": [
 				{
 					"asset": "tms.Objects",
-					"column": "FieldKey",
+					"column": "Bibliography",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text_raw",
-					"column": "FieldKey",
+					"column": "FieldValue",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text",
 					"column": "Provenance",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "Provenance",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1376,7 +1371,7 @@
 			"es_field": "bibliography_text",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1386,26 +1381,26 @@
 			"lineage_chain": [
 				{
 					"asset": "tms.Objects",
-					"column": "FieldKey",
+					"column": "Bibliography",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text_raw",
-					"column": "FieldKey",
+					"column": "FieldValue",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text",
 					"column": "BibliographyText",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "BibliographyText",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1418,7 +1413,7 @@
 			"es_field": "exhibition_history_text",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1428,26 +1423,26 @@
 			"lineage_chain": [
 				{
 					"asset": "tms.Objects",
-					"column": "FieldKey",
+					"column": "Bibliography",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text_raw",
-					"column": "FieldKey",
+					"column": "FieldValue",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text",
 					"column": "ExhibitionHistoryText",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "ExhibitionHistoryText",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1460,7 +1455,7 @@
 			"es_field": "label_text",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1483,13 +1478,13 @@
 				{
 					"asset": "objects_text_entries",
 					"column": "LabelOnObject",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "LabelOnObject",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1519,7 +1514,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "accession_iso_date",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1561,7 +1556,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "location_string",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1586,7 +1581,7 @@
 			"es_field": "location_building",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1603,7 +1598,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "location_string",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1645,7 +1640,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "location_room",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1670,7 +1665,7 @@
 			"es_field": "inscribed",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1680,26 +1675,26 @@
 			"lineage_chain": [
 				{
 					"asset": "tms.Objects",
-					"column": "FieldKey",
+					"column": "Bibliography",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text_raw",
-					"column": "FieldKey",
+					"column": "FieldValue",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text",
 					"column": "Inscribed",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "Inscribed",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1712,7 +1707,7 @@
 			"es_field": "signed",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1722,26 +1717,26 @@
 			"lineage_chain": [
 				{
 					"asset": "tms.Objects",
-					"column": "FieldKey",
+					"column": "Bibliography",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text_raw",
-					"column": "FieldKey",
+					"column": "FieldValue",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text",
 					"column": "Signed",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "Signed",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1754,7 +1749,7 @@
 			"es_field": "edition",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1764,26 +1759,26 @@
 			"lineage_chain": [
 				{
 					"asset": "tms.Objects",
-					"column": "FieldKey",
+					"column": "Bibliography",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text_raw",
-					"column": "FieldKey",
+					"column": "FieldValue",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text",
 					"column": "Edition",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "Edition",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1796,7 +1791,7 @@
 			"es_field": "markings",
 			"dtype": "String",
 			"nullable": true,
-			"kind": "rename",
+			"kind": "passthrough",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1806,26 +1801,26 @@
 			"lineage_chain": [
 				{
 					"asset": "tms.Objects",
-					"column": "FieldKey",
+					"column": "Bibliography",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text_raw",
-					"column": "FieldKey",
+					"column": "FieldValue",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text",
 					"column": "Markings",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "Markings",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1838,7 +1833,7 @@
 			"es_field": "term_rights_statement",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1855,7 +1850,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1867,7 +1862,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_rights_statement",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1880,7 +1875,7 @@
 			"es_field": "term_place_of_creation",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1897,7 +1892,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1909,7 +1904,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_place_of_creation",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1922,7 +1917,7 @@
 			"es_field": "term_place_of_fabrication",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1939,7 +1934,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1951,7 +1946,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_place_of_fabrication",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -1964,7 +1959,7 @@
 			"es_field": "term_place_name_at_creation",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -1981,7 +1976,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -1993,7 +1988,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_place_name_at_creation",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2006,7 +2001,7 @@
 			"es_field": "term_related_geography",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2023,7 +2018,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2035,7 +2030,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_related_geography",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2048,7 +2043,7 @@
 			"es_field": "term_find_spot",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2065,7 +2060,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2077,7 +2072,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_find_spot",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2090,7 +2085,7 @@
 			"es_field": "term_period",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2107,7 +2102,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2119,7 +2114,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_period",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2132,7 +2127,7 @@
 			"es_field": "term_reign",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2149,7 +2144,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2161,7 +2156,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_reign",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2174,7 +2169,7 @@
 			"es_field": "term_dynasty",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2191,7 +2186,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2203,7 +2198,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_dynasty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2216,7 +2211,7 @@
 			"es_field": "term_style",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2233,7 +2228,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2245,7 +2240,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_style",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2258,7 +2253,7 @@
 			"es_field": "term_movement",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2275,7 +2270,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2287,7 +2282,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_movement",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2300,7 +2295,7 @@
 			"es_field": "term_school",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2317,7 +2312,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2329,7 +2324,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_school",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2342,7 +2337,7 @@
 			"es_field": "term_materials",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2359,7 +2354,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2371,7 +2366,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_materials",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2384,7 +2379,7 @@
 			"es_field": "term_subject",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2401,7 +2396,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2413,7 +2408,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_subject",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2426,7 +2421,7 @@
 			"es_field": "term_intended_market",
 			"dtype": "List(Struct({'term': String, 'certainty': String, 'path': List(Struct({'depth': Int64, 'cn': String, 'term': String}))}))",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2443,7 +2438,7 @@
 				{
 					"asset": "object_terms_raw",
 					"column": "Certainty",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2455,7 +2450,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "term_intended_market",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2468,7 +2463,7 @@
 			"es_field": "titles",
 			"dtype": "List",
 			"nullable": false,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2485,7 +2480,7 @@
 				{
 					"asset": "object_titles_raw",
 					"column": "DisplayOrder",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2510,7 +2505,7 @@
 			"es_field": "constituents",
 			"dtype": "List",
 			"nullable": false,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2527,7 +2522,7 @@
 				{
 					"asset": "object_constituents_raw",
 					"column": "AlphaSort",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2570,7 +2565,7 @@
 			"es_field": "media",
 			"dtype": "List",
 			"nullable": false,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2587,7 +2582,7 @@
 				{
 					"asset": "object_media_raw",
 					"column": "ApprovedForWeb",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2631,7 +2626,7 @@
 			"es_field": "exhibitions",
 			"dtype": "List",
 			"nullable": false,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2648,7 +2643,7 @@
 				{
 					"asset": "object_exhibitions_raw",
 					"column": "ExhibitionID",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2681,7 +2676,7 @@
 			"es_field": "dimensions_structured",
 			"dtype": "List",
 			"nullable": false,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2698,7 +2693,7 @@
 				{
 					"asset": "object_dimensions_raw",
 					"column": "Description",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2729,7 +2724,7 @@
 			"es_field": "associations",
 			"dtype": "List",
 			"nullable": false,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2746,7 +2741,7 @@
 				{
 					"asset": "object_associations_raw",
 					"column": "DisplayDate",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2781,7 +2776,7 @@
 			"es_field": "physical_child_ids",
 			"dtype": "List(Int64)",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2798,7 +2793,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "ObjectID",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2810,7 +2805,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "physical_child_ids",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2823,7 +2818,7 @@
 			"es_field": "virtual_parent_ids",
 			"dtype": "List(Int64)",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2840,7 +2835,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "IsVirtual",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2852,7 +2847,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "virtual_parent_ids",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2865,7 +2860,7 @@
 			"es_field": "virtual_child_ids",
 			"dtype": "List(Int64)",
 			"nullable": true,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2882,7 +2877,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "IsVirtual",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -2894,7 +2889,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "virtual_child_ids",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -2915,10 +2910,6 @@
 				},
 				{
 					"asset": "objects_with_relations",
-					"column": "ObjectID"
-				},
-				{
-					"asset": "objects_with_relations",
 					"column": "ObjectNumber"
 				},
 				{
@@ -2928,32 +2919,24 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "media"
-				},
-				{
-					"asset": "objects_with_relations",
-					"column": "physical_child_ids"
-				},
-				{
-					"asset": "objects_with_relations",
-					"column": "virtual_child_ids"
 				}
 			],
 			"lineage_chain": [
 				{
 					"asset": "tms.ObjTitles",
-					"column": "DisplayOrder",
+					"column": "Title",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_titles_raw",
-					"column": "DisplayOrder",
-					"kind": "derived",
+					"column": "Title",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_titles",
-					"column": "DisplayOrder",
+					"column": "Title",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
@@ -2961,7 +2944,7 @@
 					"asset": "objects_with_relations",
 					"column": "DisplayedTitle",
 					"kind": "derived",
-					"extra_deps": 6
+					"extra_deps": 3
 				}
 			],
 			"is_multi_source": true,
@@ -2981,7 +2964,7 @@
 			"es_field": "is_compound",
 			"dtype": "Boolean",
 			"nullable": false,
-			"kind": "passthrough",
+			"kind": "derived",
 			"upstream_deps": [
 				{
 					"asset": "objects_with_relations",
@@ -2998,7 +2981,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "ObjectNumber",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -3040,7 +3023,7 @@
 				{
 					"asset": "object_constituents_raw",
 					"column": "AlphaSort",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -3086,7 +3069,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "BeginISODate",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -3128,7 +3111,7 @@
 				{
 					"asset": "object_media_raw",
 					"column": "ApprovedForWeb",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -3163,26 +3146,26 @@
 			"lineage_chain": [
 				{
 					"asset": "tms.Objects",
-					"column": "FieldKey",
+					"column": "Bibliography",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text_raw",
-					"column": "FieldKey",
+					"column": "FieldValue",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_rare_text",
 					"column": "Provenance",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "objects_with_relations",
 					"column": "Provenance",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -3212,7 +3195,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "ObjectID",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -3224,7 +3207,7 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "physical_child_ids",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				}
 			],
@@ -3254,7 +3237,7 @@
 				{
 					"asset": "object_constituents_raw",
 					"column": "AlphaSort",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -3296,7 +3279,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "BeginISODate",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -3326,10 +3309,6 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "ObjectNumber"
-				},
-				{
-					"asset": "objects_with_relations",
-					"column": "PhysicalParentID"
 				}
 			],
 			"lineage_chain": [
@@ -3342,7 +3321,7 @@
 				{
 					"asset": "objects_raw",
 					"column": "ObjectNumber",
-					"kind": "derived",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
@@ -3355,10 +3334,10 @@
 					"asset": "objects_with_relations",
 					"column": "ObjectNumber",
 					"kind": "passthrough",
-					"extra_deps": 1
+					"extra_deps": 0
 				}
 			],
-			"is_multi_source": true,
+			"is_multi_source": false,
 			"es_type": "text",
 			"es_subfields": ["keyword"],
 			"es_nested_properties": []
@@ -3372,28 +3351,24 @@
 				{
 					"asset": "objects_with_relations",
 					"column": "DisplayedTitle"
-				},
-				{
-					"asset": "objects_with_relations",
-					"column": "PhysicalParentID"
 				}
 			],
 			"lineage_chain": [
 				{
 					"asset": "tms.ObjTitles",
-					"column": "DisplayOrder",
+					"column": "Title",
 					"kind": "unknown",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_titles_raw",
-					"column": "DisplayOrder",
-					"kind": "derived",
+					"column": "Title",
+					"kind": "passthrough",
 					"extra_deps": 0
 				},
 				{
 					"asset": "object_titles",
-					"column": "DisplayOrder",
+					"column": "Title",
 					"kind": "passthrough",
 					"extra_deps": 0
 				},
@@ -3401,10 +3376,10 @@
 					"asset": "objects_with_relations",
 					"column": "DisplayedTitle",
 					"kind": "derived",
-					"extra_deps": 1
+					"extra_deps": 0
 				}
 			],
-			"is_multi_source": true,
+			"is_multi_source": false,
 			"es_type": "text",
 			"es_subfields": ["keyword"],
 			"es_nested_properties": []
