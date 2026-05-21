@@ -156,7 +156,7 @@ export default function FeatureStatusPage() {
 													{s.mvp ? <MvpBadge /> : <PostMvpBadge />}
 												</td>
 												<td className="py-2 pr-3 text-gray-600">
-													{s.note ?? <span className="text-gray-300">—</span>}
+													{s.note ?? <span className="text-gray-300">–</span>}
 												</td>
 												<td className="py-2">
 													{s.issueUrl ? (
@@ -169,7 +169,7 @@ export default function FeatureStatusPage() {
 															↗
 														</a>
 													) : (
-														<span className="text-gray-300">—</span>
+														<span className="text-gray-300">–</span>
 													)}
 												</td>
 											</tr>

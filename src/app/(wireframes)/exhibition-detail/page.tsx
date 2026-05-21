@@ -105,15 +105,15 @@ function ExhibitionDetailContent() {
 							<div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
 								<ImagePlaceholder
 									aspect="3/2"
-									label="[Install view 1 — gallery overview]"
+									label="[Install view 1: gallery overview]"
 								/>
 								<ImagePlaceholder
 									aspect="3/2"
-									label="[Install view 2 — detail wall]"
+									label="[Install view 2: detail wall]"
 								/>
 								<ImagePlaceholder
 									aspect="3/2"
-									label="[Install view 3 — entrance]"
+									label="[Install view 3: entrance]"
 								/>
 							</div>
 						</Container>

@@ -1,5 +1,5 @@
 /**
- * Scale diagram — object size relative to a 170cm human silhouette.
+ * Scale diagram: object size relative to a 170cm human silhouette.
  * High value for sculpture and decorative arts.
  */
 

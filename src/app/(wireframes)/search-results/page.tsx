@@ -146,12 +146,12 @@ const FACETS: FacetConfig[] = [
 		id: "gallery",
 		label: "Gallery",
 		options: [
-			{ value: "Gallery 10 \u2014 Impressionism", count: "12" },
-			{ value: "Gallery 11 \u2014 19th-Century French", count: "8" },
-			{ value: "Gallery 22 \u2014 American Modernism", count: "6" },
-			{ value: "Court of Honor \u2014 Rodin", count: "14" },
-			{ value: "Gallery 6 \u2014 European Decorative Arts", count: "22" },
-			{ value: "Gallery 15 \u2014 AOA", count: "18" },
+			{ value: "Gallery 10 : Impressionism", count: "12" },
+			{ value: "Gallery 11 : 19th-Century French", count: "8" },
+			{ value: "Gallery 22 : American Modernism", count: "6" },
+			{ value: "Court of Honor : Rodin", count: "14" },
+			{ value: "Gallery 6 : European Decorative Arts", count: "22" },
+			{ value: "Gallery 15 : AOA", count: "18" },
 		],
 	},
 	{
@@ -267,7 +267,7 @@ function ResultsGrid() {
 						<ImagePlaceholder label={`[${work.title}]`} />
 						{work.copyrightStatus === "public-domain" && (
 							<span
-								title="Open access — public domain. Direct download available."
+								title="Open access: public domain. Direct download available."
 								className="absolute right-2 top-2 flex h-7 w-7 items-center justify-center border border-green-400 bg-white font-mono text-label font-semibold text-green-700"
 							>
 								↓
@@ -347,7 +347,7 @@ function ResultsList() {
 							)}
 							{work.copyrightStatus === "public-domain" && (
 								<span
-									title="Open access — direct download"
+									title="Open access: direct download"
 									className="inline-block border border-green-300 bg-green-50 px-1.5 py-0.5 font-mono text-label text-green-700"
 								>
 									↓ Open access
@@ -394,7 +394,7 @@ function ZeroResults() {
 				<ul className="mt-2 flex flex-col gap-1 font-mono text-meta text-gray-600">
 					<li>· Check spelling, or use fewer words</li>
 					<li>· Remove a filter to broaden results</li>
-					<li>· Try a related term — medium, period, geography</li>
+					<li>· Try a related term: medium, period, geography</li>
 					<li>
 						· Switch to <strong>natural language</strong> search at the top
 					</li>

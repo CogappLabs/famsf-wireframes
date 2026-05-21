@@ -1,5 +1,5 @@
 /**
- * Visually similar (AI) — image-vector kNN match grid. CMA pattern.
+ * Visually similar (AI): image-vector kNN match grid. CMA pattern.
  * Distinct from metadata-driven Related Works.
  */
 

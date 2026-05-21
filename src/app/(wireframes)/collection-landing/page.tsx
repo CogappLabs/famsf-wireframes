@@ -19,7 +19,7 @@ const COLLECTION_AREAS = [
 	{
 		name: "Achenbach Foundation for Graphic Arts",
 		count: "115,627",
-		desc: "One of the largest works-on-paper collections in the US — prints, drawings, photographs, and artists' books",
+		desc: "One of the largest works-on-paper collections in the US: prints, drawings, photographs, and artists' books",
 	},
 	{
 		name: "Costume and Textile Arts",
@@ -151,7 +151,7 @@ function CollectionLandingContent() {
 						</p>
 						<ImagePlaceholder
 							aspect="21/9"
-							label="[Hero — rotating gallery installation image]"
+							label="[Hero: rotating gallery installation image]"
 							className="mt-8 border border-gray-300"
 						/>
 					</Container>
@@ -302,32 +302,32 @@ function CollectionLandingContent() {
 							<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
 								{[
 									{
-										name: "Court of Honor — Rodin",
+										name: "Court of Honor: Rodin",
 										venue: "Legion of Honor",
 										count: 14,
 									},
 									{
-										name: "Gallery 10 — Impressionism",
+										name: "Gallery 10: Impressionism",
 										venue: "Legion of Honor",
 										count: 12,
 									},
 									{
-										name: "Gallery 11 — 19th-century French",
+										name: "Gallery 11: 19th-century French",
 										venue: "Legion of Honor",
 										count: 8,
 									},
 									{
-										name: "Gallery 6 — European Decorative Arts",
+										name: "Gallery 6: European Decorative Arts",
 										venue: "Legion of Honor",
 										count: 22,
 									},
 									{
-										name: "Gallery 22 — American Modernism",
+										name: "Gallery 22: American Modernism",
 										venue: "de Young",
 										count: 6,
 									},
 									{
-										name: "Gallery 15 — Arts of Africa",
+										name: "Gallery 15: Arts of Africa",
 										venue: "de Young",
 										count: 18,
 									},

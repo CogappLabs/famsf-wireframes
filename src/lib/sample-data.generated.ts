@@ -9,7 +9,7 @@
 import type { SampleObject } from "./sample-data";
 
 export const topViewedObjects: SampleObject[] = [
-	// GA views (90d): 11979 — /artworks/isabella-and-the-pot-of-basil
+	// GA views (90d): 11979: /artworks/isabella-and-the-pot-of-basil
 	{
 		id: `141937`,
 		title: `Isabella and the Pot of Basil`,
@@ -47,7 +47,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`England`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 3313 — /artworks/porn-clip-8
+	// GA views (90d): 3313: /artworks/porn-clip-8
 	{
 		id: `169191`,
 		title: `Porn Clip #8`,
@@ -81,7 +81,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 2740 — /artworks/horse-xx
+	// GA views (90d): 2740: /artworks/horse-xx
 	{
 		id: `98377`,
 		title: `Horse XX`,
@@ -116,7 +116,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 2457 — /artworks/water-lilies
+	// GA views (90d): 2457: /artworks/water-lilies
 	{
 		id: `97614`,
 		title: `Water Lilies`,
@@ -147,7 +147,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Giverny`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 2393 — /artworks/porn-clip-7
+	// GA views (90d): 2393: /artworks/porn-clip-7
 	{
 		id: `138292`,
 		title: `Porn Clip #7`,
@@ -181,7 +181,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 1684 — /artworks/aspiration
+	// GA views (90d): 1684: /artworks/aspiration
 	{
 		id: `65763`,
 		title: `Aspiration`,
@@ -212,7 +212,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`United States`],
 		copyrightStatus: `in-copyright`,
 	},
-	// GA views (90d): 1009 — /artworks/three-nude-french-girls-stand-out-in-a-grand-parade-from-le-chat-noir
+	// GA views (90d): 1009: /artworks/three-nude-french-girls-stand-out-in-a-grand-parade-from-le-chat-noir
 	{
 		id: `7078`,
 		title: `Three Nude French girls stand out in a Grand Parade, from Le Chat Noir`,
@@ -245,7 +245,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 854 — /artworks/eiffel-tower
+	// GA views (90d): 854: /artworks/eiffel-tower
 	{
 		id: `92641`,
 		title: `Eiffel Tower`,
@@ -276,7 +276,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Paris`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 780 — /artworks/untitled-11851
+	// GA views (90d): 780: /artworks/untitled-11851
 	{
 		id: `147493`,
 		title: `Untitled 1 and 2, WP1-3`,
@@ -305,7 +305,7 @@ export const topViewedObjects: SampleObject[] = [
 		identifyingDescription: `color proof of large plates before cut to make Untitled 1 and Untitled 2`,
 		copyrightStatus: `in-copyright`,
 	},
-	// GA views (90d): 758 — /artworks/petunias
+	// GA views (90d): 758: /artworks/petunias
 	{
 		id: `63250`,
 		title: `Petunias`,
@@ -337,7 +337,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`United States`],
 		copyrightStatus: `in-copyright`,
 	},
-	// GA views (90d): 725 — /artworks/three-machines
+	// GA views (90d): 725: /artworks/three-machines
 	{
 		id: `84904`,
 		title: `Three Machines`,
@@ -368,7 +368,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`California`],
 		copyrightStatus: `in-copyright`,
 	},
-	// GA views (90d): 660 — /artworks/woman-bathing-la-toilette
+	// GA views (90d): 660: /artworks/woman-bathing-la-toilette
 	{
 		id: `105697`,
 		title: `Woman Bathing (La Toilette)`,
@@ -398,7 +398,7 @@ export const topViewedObjects: SampleObject[] = [
 		labelText: `ln 1890, Cassatt saw an impressive exhibition of more than seven hundred Japanese prints at the École des Beaux-Arts. Though she was already fascinated by Japanes art and culture, the exhibition compelled her to recognize the prints' value in her own art. Almost immediately, Cassatt embarked on an ambitious project of color aquatints based on ukiyo-e models. Working intensely over several months in 1890 and 1891, Cassatt completed a set of ten color aquatints, including Woman Bathing. The print contains a number of Japanese-inspired devices, among them unusual viewpoints, flat areas of color, strong diagonals, flattening of forms, and emphasis on pattern and line. Though it is not clear that the subject of a woman shown going about an everyday activity is borrowed from the Japanese prints of courtesans and beauties, there is no doubt that Cassatt's palette was determined by those prints. The dusty blue, pink, umber, and green tones are identical to the subdued color schemes in the eighteenth-century prints of Kitagawa Utamaro, one of Cassatt's favored influences.`,
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 645 — /artworks/el-aborto-frida-and-the-miscarriage
+	// GA views (90d): 645: /artworks/el-aborto-frida-and-the-miscarriage
 	{
 		id: `69417`,
 		title: `El Aborto (Frida and the Miscarriage)`,
@@ -427,7 +427,7 @@ export const topViewedObjects: SampleObject[] = [
 		labelText: `In the late 1920's, Kahlo joined the Mexican Communist Party and was introduced to a circle of political activists and artists, among them Diego Rivera, whom she married in 1929. She traveled extensively in the United States with Rivera beginning in 1930 as he undertook mural projects in San Francisco and opened his retrospective at the Museum of Modern Art in New York. While he was working on a mural project in Detroit, Kahlo experienced a miscarriage following a difficult pregnancy. In 1925, while she was pursuing medical school, Kahlo had experienced a crippling traffic accident that would cause her lifelong pain and ultimately made it impossible for her to bear children. To combat her depression during her recovery from the miscarriage, Kahlo was convinced to try lithography at a local printmaking workshop, where she struggled with the medium. One of only six known impressions from this experience, El Aborto is the only significant print she ever made. It is graphic in its anatomical references to her miscarriage, but powerful in its symbolism. Biographer Hayden Herrera observed that in the print Kahlo's body is divided into light and dark halves, revealing the two sides of her psyche; it would seem that for her, making art must take the place of making children. Karin Breuer`,
 		copyrightStatus: `in-copyright`,
 	},
-	// GA views (90d): 582 — /artworks/the-russian-brides-attire
+	// GA views (90d): 582: /artworks/the-russian-brides-attire
 	{
 		id: `209712`,
 		title: `The Russian Bride's Attire`,
@@ -456,7 +456,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Russia`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 576 — /artworks/naked-x
+	// GA views (90d): 576: /artworks/naked-x
 	{
 		id: `146302`,
 		title: `Naked X`,
@@ -502,7 +502,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 555 — /artworks/white-sex
+	// GA views (90d): 555: /artworks/white-sex
 	{
 		id: `164167`,
 		title: `White Sex`,
@@ -537,7 +537,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `in-copyright`,
 	},
-	// GA views (90d): 547 — /artworks/the-ironworkers-noontime
+	// GA views (90d): 547: /artworks/the-ironworkers-noontime
 	{
 		id: `107071`,
 		title: `The Ironworkers' Noontime`,
@@ -569,7 +569,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`United States`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 547 — /artworks/russian-nude
+	// GA views (90d): 547: /artworks/russian-nude
 	{
 		id: `166254`,
 		title: `Russian Nude`,
@@ -604,7 +604,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 532 — /artworks/the-thinker
+	// GA views (90d): 532: /artworks/the-thinker
 	{
 		id: `34427`,
 		title: `The Thinker`,
@@ -649,7 +649,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`France`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 494 — /artworks/the-bath
+	// GA views (90d): 494: /artworks/the-bath
 	{
 		id: `104457`,
 		title: `The Bath`,
@@ -680,7 +680,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`France`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 473 — /artworks/rainy-season-in-the-tropics
+	// GA views (90d): 473: /artworks/rainy-season-in-the-tropics
 	{
 		id: `96340`,
 		title: `Rainy Season in the Tropics`,
@@ -711,7 +711,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`United States`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 442 — /artworks/susanna-and-the-elders
+	// GA views (90d): 442: /artworks/susanna-and-the-elders
 	{
 		id: `149961`,
 		title: `Susanna and the Elders`,
@@ -752,7 +752,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 422 — /artworks/roman-fish-market-arch-of-octavius
+	// GA views (90d): 422: /artworks/roman-fish-market-arch-of-octavius
 	{
 		id: `94409`,
 		title: `Roman Fish Market. Arch of Octavius`,
@@ -784,7 +784,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`New York`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 391 — /artworks/little-nude-from-seven-objects-in-a-box
+	// GA views (90d): 391: /artworks/little-nude-from-seven-objects-in-a-box
 	{
 		id: `116990`,
 		title: `Little Nude from Seven Objects in a Box`,
@@ -831,7 +831,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `in-copyright`,
 	},
-	// GA views (90d): 390 — /artworks/portrait-of-orleans
+	// GA views (90d): 390: /artworks/portrait-of-orleans
 	{
 		id: `53349`,
 		title: `Portrait of Orleans`,
@@ -862,7 +862,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Orleans`],
 		copyrightStatus: `in-copyright`,
 	},
-	// GA views (90d): 384 — /artworks/third-class-carriage
+	// GA views (90d): 384: /artworks/third-class-carriage
 	{
 		id: `91905`,
 		title: `Third-Class Carriage`,
@@ -893,7 +893,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`France`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 366 — /artworks/still-life-with-skull-leeks-and-pitcher-march-14-1945
+	// GA views (90d): 366: /artworks/still-life-with-skull-leeks-and-pitcher-march-14-1945
 	{
 		id: `109433`,
 		title: `Still Life with Skull, Leeks, and Pitcher, March 14, 1945`,
@@ -924,7 +924,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Spain`],
 		copyrightStatus: `in-copyright`,
 	},
-	// GA views (90d): 359 — /artworks/the-grand-canal-venice
+	// GA views (90d): 359: /artworks/the-grand-canal-venice
 	{
 		id: `18700`,
 		title: `The Grand Canal, Venice`,
@@ -959,7 +959,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 343 — /artworks/the-broken-pitcher
+	// GA views (90d): 343: /artworks/the-broken-pitcher
 	{
 		id: `258886`,
 		title: `The Broken Pitcher`,
@@ -989,7 +989,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`France`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 324 — /artworks/the-holy-family-with-the-infant-saint-john-the-baptist
+	// GA views (90d): 324: /artworks/the-holy-family-with-the-infant-saint-john-the-baptist
 	{
 		id: `100168`,
 		title: `The Holy Family with the Infant Saint John the Baptist`,
@@ -1022,7 +1022,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`France`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 321 — /artworks/the-tribute-money
+	// GA views (90d): 321: /artworks/the-tribute-money
 	{
 		id: `112645`,
 		title: `The Tribute Money`,
@@ -1071,7 +1071,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 302 — /artworks/zwei-spielende-nackte-madchen-two-nude-girls-playing
+	// GA views (90d): 302: /artworks/zwei-spielende-nackte-madchen-two-nude-girls-playing
 	{
 		id: `10726`,
 		title: `Zwei spielende nackte Mädchen (Two Nude Girls Playing)`,
@@ -1106,7 +1106,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 300 — /artworks/portrait-of-bianca-degli-utili-maselli-and-her-children
+	// GA views (90d): 300: /artworks/portrait-of-bianca-degli-utili-maselli-and-her-children
 	{
 		id: `67192`,
 		title: `Marie Antoinette and her Two Children (?)`,
@@ -1140,7 +1140,7 @@ export const topViewedObjects: SampleObject[] = [
 		],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 298 — /artworks/the-assuaging-of-the-waters
+	// GA views (90d): 298: /artworks/the-assuaging-of-the-waters
 	{
 		id: `157713`,
 		title: `The Assuaging of the Waters`,
@@ -1177,7 +1177,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`England`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 293 — /artworks/sky-cathedrals-presence-i
+	// GA views (90d): 293: /artworks/sky-cathedrals-presence-i
 	{
 		id: `136399`,
 		title: `Sky Cathedral's Presence I`,
@@ -1211,7 +1211,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`United States`],
 		copyrightStatus: `in-copyright`,
 	},
-	// GA views (90d): 277 — /artworks/boatmen-on-the-missouri
+	// GA views (90d): 277: /artworks/boatmen-on-the-missouri
 	{
 		id: `73556`,
 		title: `Boatmen on the Missouri`,
@@ -1242,7 +1242,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Missouri`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 271 — /artworks/lux-aeterna
+	// GA views (90d): 271: /artworks/lux-aeterna
 	{
 		id: `100134`,
 		title: `Lux Aeterna`,
@@ -1273,7 +1273,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`California`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 266 — /artworks/the-empire-of-flora
+	// GA views (90d): 266: /artworks/the-empire-of-flora
 	{
 		id: `269788`,
 		title: `The Empire of Flora`,
@@ -1304,7 +1304,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Venice`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 266 — /artworks/mural-fragments-2
+	// GA views (90d): 266: /artworks/mural-fragments-2
 	{
 		id: `95262`,
 		title: `Untitled`,
@@ -1336,7 +1336,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Teotihuacan`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 264 — /artworks/dinner-for-threshers
+	// GA views (90d): 264: /artworks/dinner-for-threshers
 	{
 		id: `115286`,
 		title: `Dinner for Threshers`,
@@ -1367,7 +1367,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`United States`],
 		copyrightStatus: `in-copyright`,
 	},
-	// GA views (90d): 260 — /artworks/california-spring
+	// GA views (90d): 260: /artworks/california-spring
 	{
 		id: `1402`,
 		title: `California Spring`,
@@ -1399,7 +1399,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`California`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 250 — /artworks/tulip-culture
+	// GA views (90d): 250: /artworks/tulip-culture
 	{
 		id: `212718`,
 		title: `Tulip Culture`,
@@ -1430,7 +1430,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Holland`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 248 — /artworks/sailboats-on-the-seine-at-petit-gennevilliers
+	// GA views (90d): 248: /artworks/sailboats-on-the-seine-at-petit-gennevilliers
 	{
 		id: `28078`,
 		title: `Sailboats on the Seine at Petit-Gennevilliers`,
@@ -1461,7 +1461,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Gennevilliers`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 241 — /artworks/saint-francis-venerating-the-crucifix
+	// GA views (90d): 241: /artworks/saint-francis-venerating-the-crucifix
 	{
 		id: `285113`,
 		title: `Saint Francis Venerating the Crucifix`,
@@ -1492,7 +1492,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Spain`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 238 — /artworks/under-the-wave-off-kanagawa-the-great-wave-from-the-series-thirty-six-views-of-mount-fuji
+	// GA views (90d): 238: /artworks/under-the-wave-off-kanagawa-the-great-wave-from-the-series-thirty-six-views-of-mount-fuji
 	{
 		id: `97583`,
 		title: `Under the Wave off Kanagawa (The Great Wave), from the series Thirty-Six Views of Mount Fuji`,
@@ -1530,7 +1530,7 @@ export const topViewedObjects: SampleObject[] = [
 		identifyingDescription: `Great wave occupies half the surface; 2 long boats shaped to fit the wave; Mt. Fuji in distance.`,
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 231 — /artworks/the-great-statue-of-amida-buddha-at-kamakura
+	// GA views (90d): 231: /artworks/the-great-statue-of-amida-buddha-at-kamakura
 	{
 		id: `111335`,
 		title: `The Great Statue of Amida Buddha at Kamakura`,
@@ -1567,7 +1567,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`United States`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 230 — /artworks/flowers-in-a-silver-vase
+	// GA views (90d): 230: /artworks/flowers-in-a-silver-vase
 	{
 		id: `187097`,
 		title: `Flowers in a Silver Vase`,
@@ -1598,7 +1598,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Netherlands`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 229 — /artworks/the-calling-of-saint-matthew
+	// GA views (90d): 229: /artworks/the-calling-of-saint-matthew
 	{
 		id: `114005`,
 		title: `The Calling of Saint Matthew`,
@@ -1629,7 +1629,7 @@ export const topViewedObjects: SampleObject[] = [
 		placeOfCreation: [`Netherlands`],
 		copyrightStatus: `copyright-unknown`,
 	},
-	// GA views (90d): 229 — /artworks/the-blue-veil
+	// GA views (90d): 229: /artworks/the-blue-veil
 	{
 		id: `41545`,
 		title: `The Blue Veil`,

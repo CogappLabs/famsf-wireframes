@@ -205,7 +205,7 @@ export function primaryMedia(doc: CollectionDocument): MediaItem | undefined {
  * 3. rank ascending
  *
  * Filters out non-Image media types only. The approved_for_web flag is
- * intentionally ignored in the wireframes — it is unreliable on the
+ * intentionally ignored in the wireframes: it is unreliable on the
  * current sample exports and would hide every image otherwise. Production
  * surfaces (Searchkit / Craft) should reapply the filter.
  */

@@ -88,7 +88,7 @@ function ParentRecordContent() {
 					<Container size="md">
 						<ImagePlaceholder
 							aspect="16/9"
-							label={`[${parent.title} — composite or hero image]`}
+							label={`[${parent.title}: composite or hero image]`}
 							className="border border-gray-300"
 						/>
 					</Container>

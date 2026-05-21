@@ -52,13 +52,13 @@ const LESSON_PLANS = [
 ];
 
 const GALLERY_LOCATIONS = [
-	{ label: "Gallery 10 \u2014 Impressionism", count: 12 },
-	{ label: "Gallery 11 \u2014 19th-Century French", count: 8 },
-	{ label: "Gallery 22 \u2014 American Modernism", count: 6 },
-	{ label: "Court of Honor \u2014 Rodin", count: 14 },
-	{ label: "Gallery 6 \u2014 European Decorative Arts", count: 22 },
+	{ label: "Gallery 10 : Impressionism", count: 12 },
+	{ label: "Gallery 11 : 19th-Century French", count: 8 },
+	{ label: "Gallery 22 : American Modernism", count: 6 },
+	{ label: "Court of Honor : Rodin", count: 14 },
+	{ label: "Gallery 6 : European Decorative Arts", count: 22 },
 	{
-		label: "Gallery 15 \u2014 Arts of Africa, Oceania + the Americas",
+		label: "Gallery 15 : Arts of Africa, Oceania + the Americas",
 		count: 18,
 	},
 ];

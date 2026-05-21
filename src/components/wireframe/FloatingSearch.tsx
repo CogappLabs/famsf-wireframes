@@ -4,11 +4,11 @@ import { useEffect, useRef, useState } from "react";
 import CollectionAutocomplete from "./CollectionAutocomplete";
 
 /**
- * Floating collection search — fixed bottom-right pill on object pages.
+ * Floating collection search: fixed bottom-right pill on object pages.
  * Collapsed: icon button. Expanded: autocomplete combobox.
  *
  * Addresses the "embedded search bar on object detail" stakeholder ask
- * (European Paintings + American Art interviews) — most visitors arrive
+ * (European Paintings + American Art interviews): most visitors arrive
  * via Google to a specific object page and need to pivot search without
  * scrolling back to the header.
  */

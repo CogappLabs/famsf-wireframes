@@ -283,7 +283,7 @@ export default function LineageTable({ fields }: { fields: FieldRow[] }) {
 									</td>
 									<td className="px-2 py-2 text-gray-700">
 										{row.lineage_chain.length === 0 ? (
-											<span className="italic text-gray-400">—</span>
+											<span className="italic text-gray-400">–</span>
 										) : (
 											<ol className="space-y-0.5">
 												{collapseChain(row.lineage_chain).map((hop, i) => {
@@ -343,7 +343,7 @@ export default function LineageTable({ fields }: { fields: FieldRow[] }) {
 												)}
 											</>
 										) : (
-											<span className="text-gray-400">—</span>
+											<span className="text-gray-400">–</span>
 										)}
 									</td>
 									<td className="px-2 py-2 text-gray-700">

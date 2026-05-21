@@ -288,7 +288,7 @@ function SeedJourneyContent() {
 
 			{isDice && dicePair.length > 0 && (
 				<WireframeSection
-					label="Roll the dice — pair"
+					label="Roll the dice: pair"
 					className="border-b border-gray-300 py-8"
 				>
 					<Container>

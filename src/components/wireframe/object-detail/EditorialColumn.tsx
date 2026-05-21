@@ -1,5 +1,5 @@
 /**
- * Editorial column — articles, publications, videos cross-linked from
+ * Editorial column: articles, publications, videos cross-linked from
  * the object record. AIC right-column pattern.
  */
 

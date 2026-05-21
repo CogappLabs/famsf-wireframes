@@ -29,7 +29,7 @@ export const scope: Record<string, ScopeEntry> = {
 	"collection-landing/Hero": { mvp: true, issueUrl: issue("CW-27") },
 	"collection-landing/Collection stats": {
 		mvp: false,
-		note: "Editorial vanity metrics — not contracted, not load-bearing for search/discovery",
+		note: "Editorial vanity metrics: not contracted, not load-bearing for search/discovery",
 	},
 	"collection-landing/Dual pathways": {
 		mvp: true,
@@ -52,12 +52,12 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"collection-landing/What to see": {
 		mvp: false,
-		note: "Curated visit path — links to Visit Planner",
+		note: "Curated visit path: links to Visit Planner",
 		issueUrl: issue("CW-61"),
 	},
 	"collection-landing/Timeline": {
 		mvp: false,
-		note: "Chronological browse — requires date data cleanup",
+		note: "Chronological browse: requires date data cleanup",
 		issueUrl: issue("CW-27"),
 	},
 
@@ -75,7 +75,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"search-results/Search modes": {
 		mvp: false,
-		note: "Keyword vs natural-language vs visual/image — AI/CV search beyond MVP",
+		note: "Keyword vs natural-language vs visual/image: AI/CV search beyond MVP",
 		issueUrl: issue("CW-96"),
 	},
 	"search-results/Visual search affordances": {
@@ -90,12 +90,12 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"search-results/Attribution qualifiers": {
 		mvp: true,
-		note: "'possibly by', 'after', 'circle of' shown in result thumbnails — not just object page. Stakeholder Must Have (European Paintings + American Art). Data exists in TMS; display task only.",
+		note: "'possibly by', 'after', 'circle of' shown in result thumbnails: not just object page. Stakeholder Must Have (European Paintings + American Art). Data exists in TMS; display task only.",
 		issueUrl: issue("CW-43"),
 	},
 	"search-results/Gallery location filter": {
 		mvp: true,
-		note: "Filter by which physical gallery objects are currently on view in. #1 visitor motivator per Hotjar (44% — 'check what is on view'). Education interview high-priority ask.",
+		note: "Filter by which physical gallery objects are currently on view in. #1 visitor motivator per Hotjar (44%: 'check what is on view'). Education interview high-priority ask.",
 		issueUrl: issue("CW-41"),
 	},
 	"search-results/Results grid": { mvp: true, issueUrl: issue("CW-43") },
@@ -116,29 +116,29 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"search-results/Dense list view": {
 		mvp: true,
-		note: "Cleveland pattern — accession, medium, dimensions, credit line, rights status inline in one scannable row. Strongest researcher-oriented results view in landscape audit. Grid/list toggle already in CW-43 scope.",
+		note: "Cleveland pattern: accession, medium, dimensions, credit line, rights status inline in one scannable row. Strongest researcher-oriented results view in landscape audit. Grid/list toggle already in CW-43 scope.",
 		issueUrl: issue("CW-43"),
 	},
 	"search-results/Preview panel": {
 		mvp: false,
-		note: "MIA pattern — quick-view side/over panel surfacing object details without leaving results.",
+		note: "MIA pattern: quick-view side/over panel surfacing object details without leaving results.",
 		issueUrl: issue("CW-43"),
 	},
 	"search-results/Open access first-class filter": {
 		mvp: true,
-		note: "AIC + Unsplash pattern — public domain / OA as primary browse dimension, not just badge. copyright field indexed; trivial. Existing 'Open access download icon' covers display; this adds it as facet/landing-page entry.",
+		note: "AIC + Unsplash pattern: public domain / OA as primary browse dimension, not just badge. copyright field indexed; trivial. Existing 'Open access download icon' covers display; this adds it as facet/landing-page entry.",
 		issueUrl: issue("CW-41"),
 	},
 	"search-results/Hover alt-image": {
 		mvp: false,
-		note: "Nordstrom pattern — second image on hover in results grid; surfaces multi-view in results without routing to object page. Useful where additional_images count > 1.",
+		note: "Nordstrom pattern: second image on hover in results grid; surfaces multi-view in results without routing to object page. Useful where additional_images count > 1.",
 		issueUrl: issue("CW-43"),
 	},
 
 	// ── Object detail ──────────────────────────────────────────────────
 	"object-detail/Image gallery": {
 		mvp: true,
-		note: "High-res, zoomable, multi-view — top stakeholder priority",
+		note: "High-res, zoomable, multi-view: top stakeholder priority",
 		issueUrl: issue("CW-45"),
 	},
 	"object-detail/Image actions": {
@@ -154,7 +154,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"object-detail/Content source": {
 		mvp: true,
-		note: "Source pill on label text — 'current gallery label', 'web essay', etc. CIDA + Education flagged as Must Have for educator/researcher trust.",
+		note: "Source pill on label text: 'current gallery label', 'web essay', etc. CIDA + Education flagged as Must Have for educator/researcher trust.",
 		issueUrl: issue("CW-49"),
 	},
 	"object-detail/Provenance": { mvp: true, issueUrl: issue("CW-50") },
@@ -169,7 +169,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"object-detail/Related works": {
 		mvp: true,
-		note: "Contracted recirc module (Proposal §UX and discovery — works by same artist, related works)",
+		note: "Contracted recirc module (Proposal §UX and discovery: works by same artist, related works)",
 		issueUrl: issue("CW-65"),
 	},
 	"object-detail/Rights & citation": {
@@ -183,12 +183,12 @@ export const scope: Record<string, ScopeEntry> = {
 	"collection-area/Hero": { mvp: true, issueUrl: issue("CW-30") },
 	"collection-area/About": {
 		mvp: true,
-		note: "Restore rich about text — currently stripped back",
+		note: "Restore rich about text: currently stripped back",
 		issueUrl: issue("CW-30"),
 	},
 	"collection-area/Stats": {
 		mvp: false,
-		note: "Editorial vanity metrics — not contracted",
+		note: "Editorial vanity metrics: not contracted",
 	},
 	"collection-area/Highlights": {
 		mvp: true,
@@ -211,7 +211,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"collection-area/Related programs": {
 		mvp: false,
-		note: "Dynamic programme feed — integration TBD",
+		note: "Dynamic programme feed: integration TBD",
 		issueUrl: issue("CW-30"),
 	},
 
@@ -219,18 +219,36 @@ export const scope: Record<string, ScopeEntry> = {
 	"artist-page/Artist header": { mvp: true, issueUrl: issue("CW-31") },
 	"artist-page/Biography": {
 		mvp: false,
-		note: "Requires editorial content — not in TMS",
+		note: "Requires editorial content: not in TMS",
 		issueUrl: issue("CW-31"),
 	},
 	"artist-page/Works grid": { mvp: true, issueUrl: issue("CW-31") },
 	"artist-page/Exhibition history": {
 		mvp: true,
-		note: "Exhibitions list already nested per object in the index. Aggregating per artist is a simple reduce — trivial to surface.",
+		note: "Exhibitions list already nested per object in the index. Aggregating per artist is a simple reduce: trivial to surface.",
 		issueUrl: issue("CW-31"),
 	},
 	"artist-page/Related artists": {
 		mvp: false,
 		note: "AI-assisted or metadata-driven",
+		issueUrl: issue("CW-31"),
+	},
+
+	// ── Artist search / index ──────────────────────────────────────────
+	"artist-search/Search bar": {
+		mvp: true,
+		note: "Name search across artists (no images: most constituents lack portraits).",
+		issueUrl: issue("CW-31"),
+	},
+	"artist-search/Letter filter": {
+		mvp: true,
+		note: "A–Z jump filter for browse by surname.",
+		issueUrl: issue("CW-31"),
+	},
+	"artist-search/Artist list": { mvp: true, issueUrl: issue("CW-31") },
+	"artist-search/Facets": {
+		mvp: true,
+		note: "Nationality, dates active, role. Re-uses search-results facet pattern (horizontal pill bar + dialog). Production facet list to be confirmed with curators.",
 		issueUrl: issue("CW-31"),
 	},
 
@@ -269,7 +287,7 @@ export const scope: Record<string, ScopeEntry> = {
 	"explore/Hero": { mvp: false, issueUrl: issue("CW-33") },
 	"explore/Curated themes": {
 		mvp: false,
-		note: "Editorially maintained theme collections — page not contracted",
+		note: "Editorially maintained theme collections: page not contracted",
 		issueUrl: issue("CW-33"),
 	},
 	"explore/Timeline browse": { mvp: false, issueUrl: issue("CW-33") },
@@ -288,7 +306,7 @@ export const scope: Record<string, ScopeEntry> = {
 	// ── Collector / Donor page ─────────────────────────────────────────
 	"collector-page/Collector header": {
 		mvp: false,
-		note: "Requires editorial content — founder stories tied to SF history",
+		note: "Requires editorial content: founder stories tied to SF history",
 		issueUrl: issue("CW-59"),
 	},
 	"collector-page/Biography": {
@@ -302,7 +320,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"collector-page/Civic history": {
 		mvp: false,
-		note: "San Francisco history connection — e.g. Alma Spreckels, MH de Young",
+		note: "San Francisco history connection: e.g. Alma Spreckels, MH de Young",
 		issueUrl: issue("CW-59"),
 	},
 	"collector-page/Related collectors": {
@@ -313,7 +331,7 @@ export const scope: Record<string, ScopeEntry> = {
 	// ── Portfolio / Parent-Child ────────────────────────────────────────
 	"portfolio-detail/Parent record": {
 		mvp: true,
-		note: "Critical for Achenbach — portfolios, books, multi-part works",
+		note: "Critical for Achenbach: portfolios, books, multi-part works",
 		issueUrl: issue("CW-32"),
 	},
 	"portfolio-detail/Child records": {
@@ -333,12 +351,12 @@ export const scope: Record<string, ScopeEntry> = {
 	// ── Parent Record (Ensemble / Series) ───────────────────────────────
 	"parent-record/Header": {
 		mvp: true,
-		note: "Ensemble + Series parents — Rodin Gates of Hell, Goya Caprichos, photographic series",
+		note: "Ensemble + Series parents: Rodin Gates of Hell, Goya Caprichos, photographic series",
 		issueUrl: issue("CW-32"),
 	},
 	"parent-record/Components": {
 		mvp: true,
-		note: "Child records — link to individual object detail pages",
+		note: "Child records: link to individual object detail pages",
 		issueUrl: issue("CW-32"),
 	},
 	"parent-record/Essay": { mvp: false, issueUrl: issue("CW-32") },
@@ -348,7 +366,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 
 	// ── Image orders ────────────────────────────────────────────────────
-	// CW-54 (image download / request flows) is the closest backlog item —
+	// CW-54 (image download / request flows) is the closest backlog item –
 	// it's about the on-object trigger; this standalone cart page extends it.
 	"image-orders/Header": {
 		mvp: false,
@@ -362,7 +380,7 @@ export const scope: Record<string, ScopeEntry> = {
 	"image-orders/Request form": { mvp: false },
 
 	// ── Exhibition detail ───────────────────────────────────────────────
-	// No matching CW ticket — exhibition history is on-object (CW-51) but
+	// No matching CW ticket: exhibition history is on-object (CW-51) but
 	// a standalone exhibition record page is not in the current backlog.
 	"exhibition-detail/Header": {
 		mvp: false,
@@ -386,17 +404,17 @@ export const scope: Record<string, ScopeEntry> = {
 	// ── Cross-page non-MVP additions ────────────────────────────────────
 	"object-detail/Scale diagram": {
 		mvp: false,
-		note: "Object size relative to 170cm human silhouette — high value for decorative arts and sculpture",
+		note: "Object size relative to 170cm human silhouette: high value for decorative arts and sculpture",
 		issueUrl: issue("CW-29"),
 	},
 	"object-detail/SEO landing context": {
 		mvp: false,
-		note: "Direct-from-Google entry pattern (analytics-flagged); not contracted — defer to Discovery",
+		note: "Direct-from-Google entry pattern (analytics-flagged); not contracted: defer to Discovery",
 		issueUrl: issue("CW-22"),
 	},
 	"explore/Shuffle (active)": {
 		mvp: false,
-		note: "Random trait shuffle — period × medium × theme. Städel-museum pattern",
+		note: "Random trait shuffle: period × medium × theme. Städel-museum pattern",
 		issueUrl: issue("CW-33"),
 	},
 	"explore/Movement axis": {
@@ -411,7 +429,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"collection-landing/Gallery browse": {
 		mvp: false,
-		note: "Browse by physical gallery — visit-planning entry point",
+		note: "Browse by physical gallery: visit-planning entry point",
 		issueUrl: issue("CW-27"),
 	},
 	"visit-planner/Gallery filter callout": {
@@ -428,7 +446,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"object-detail/Alt text": {
 		mvp: true,
-		note: "Required for accessibility and SEO — must be in TMS",
+		note: "Required for accessibility and SEO: must be in TMS",
 		issueUrl: issue("CW-24"),
 	},
 	"object-detail/Attributes": {
@@ -438,27 +456,27 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"object-detail/Physical description": {
 		mvp: true,
-		note: "Marks, Inscriptions, Signed, Labels, Identifying Description — all already indexed by collection-flow (signed/inscribed/markings/description/label_text). Trivial to surface.",
+		note: "Marks, Inscriptions, Signed, Labels, Identifying Description: all already indexed by collection-flow (signed/inscribed/markings/description/label_text). Trivial to surface.",
 		issueUrl: issue("CW-49"),
 	},
 	"object-detail/Museum location": {
 		mvp: true,
-		note: "de Young vs Legion of Honor — recurring pain point across stakeholder synthesis, gap analysis, and Hotjar. Field is indexed; display task only.",
+		note: "de Young vs Legion of Honor: recurring pain point across stakeholder synthesis, gap analysis, and Hotjar. Field is indexed; display task only.",
 		issueUrl: issue("CW-49"),
 	},
 	"collection-area/Museum location": {
 		mvp: true,
-		note: "Clarify which museum (de Young / Legion) houses each collection area. Gap-analysis recurring theme — visitors confused about institution-collection mapping.",
+		note: "Clarify which museum (de Young / Legion) houses each collection area. Gap-analysis recurring theme: visitors confused about institution-collection mapping.",
 		issueUrl: issue("CW-30"),
 	},
 	"object-detail/Uncertainty qualifiers": {
 		mvp: true,
-		note: "Surface 'possibly by X' attribution prefix on object page. CIDA Must Have — field already exists in TMS attribution data. Researcher trust signal.",
+		note: "Surface 'possibly by X' attribution prefix on object page. CIDA Must Have: field already exists in TMS attribution data. Researcher trust signal.",
 		issueUrl: issue("CW-49"),
 	},
 	"object-detail/Constituents": {
 		mvp: true,
-		note: "Constituents list already indexed (collection-flow join/objects_with_relations.py — ConstituentID, Role, RoleID, Displayed nested per object). Surface as basic list. Invisible-role + Possibly attribution flags need ETL extension (post-MVP).",
+		note: "Constituents list already indexed (collection-flow join/objects_with_relations.py: ConstituentID, Role, RoleID, Displayed nested per object). Surface as basic list. Invisible-role + Possibly attribution flags need ETL extension (post-MVP).",
 		issueUrl: issue("CW-49"),
 	},
 	"object-detail/In-copyright modal": {
@@ -468,12 +486,12 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"object-detail/Editorial column": {
 		mvp: false,
-		note: "AIC pattern — articles, stories, publications surfaced alongside metadata",
+		note: "AIC pattern: articles, stories, publications surfaced alongside metadata",
 		issueUrl: issue("CW-29"),
 	},
 	"object-detail/Visually similar (AI)": {
 		mvp: false,
-		note: "CMA pattern — image-vector kNN recommendations on detail page",
+		note: "CMA pattern: image-vector kNN recommendations on detail page",
 		issueUrl: issue("CW-65"),
 	},
 	"object-detail/Media (3D, video, audio)": {
@@ -483,22 +501,22 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"object-detail/Inline filmstrip expansion": {
 		mvp: false,
-		note: "MIA pattern — '+' next to metadata term expands related works in-page rather than routing away. Strongest in-page discovery interaction in landscape audit. Keeps visitor anchored to current object.",
+		note: "MIA pattern: '+' next to metadata term expands related works in-page rather than routing away. Strongest in-page discovery interaction in landscape audit. Keeps visitor anchored to current object.",
 		issueUrl: issue("CW-65"),
 	},
 	"object-detail/Persistent scrolling image": {
 		mvp: false,
-		note: "V&A pattern — primary artwork stays visible through full scroll. Variation candidate on object-detail layout.",
+		note: "V&A pattern: primary artwork stays visible through full scroll. Variation candidate on object-detail layout.",
 		issueUrl: issue("CW-45"),
 	},
 	"object-detail/Metadata tooltips": {
 		mvp: false,
-		note: "Getty + DIA pattern — plain-language explanations on specialist fields (accession number, attribution qualifiers, provenance). Bridges researcher/general split.",
+		note: "Getty + DIA pattern: plain-language explanations on specialist fields (accession number, attribution qualifiers, provenance). Bridges researcher/general split.",
 		issueUrl: issue("CW-49"),
 	},
 	"object-detail/Engagement metrics (OA)": {
 		mvp: false,
-		note: "Unsplash analog — download/view counts on open-access works. Reinforces value of OA programme beyond rights badge.",
+		note: "Unsplash analog: download/view counts on open-access works. Reinforces value of OA programme beyond rights badge.",
 		issueUrl: issue("CW-54"),
 	},
 
@@ -517,7 +535,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"my-finds/Start a journey CTA": {
 		mvp: false,
-		note: "Entry point into Seed Journey — separate page",
+		note: "Entry point into Seed Journey: separate page",
 		issueUrl: issue("CW-60"),
 	},
 
@@ -529,7 +547,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"seed-journey/Pick from your finds": {
 		mvp: false,
-		note: "Seed picker — choose one saved object as starting point",
+		note: "Seed picker: choose one saved object as starting point",
 		issueUrl: issue("CW-60"),
 	},
 	"seed-journey/Journey": {
@@ -549,7 +567,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"seed-journey/Pick direction": {
 		mvp: false,
-		note: "Direction chips — artist, period, medium, culture, department, classification",
+		note: "Direction chips: artist, period, medium, culture, department, classification",
 		issueUrl: issue("CW-60"),
 	},
 	"seed-journey/Where next": {
@@ -564,7 +582,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"my-finds/Notes": {
 		mvp: false,
-		note: "Optional research notes — URL or local storage",
+		note: "Optional research notes: URL or local storage",
 		issueUrl: issue("CW-60"),
 	},
 
@@ -576,12 +594,12 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"visit-planner/Concierge input": {
 		mvp: false,
-		note: "AI-assisted — visitor type + interests + time → curated path",
+		note: "AI-assisted: visitor type + interests + time → curated path",
 		issueUrl: issue("CW-61"),
 	},
 	"visit-planner/Concierge": {
 		mvp: false,
-		note: "AI-assisted — visitor type + interests + time → curated path",
+		note: "AI-assisted: visitor type + interests + time → curated path",
 		issueUrl: issue("CW-61"),
 	},
 	"visit-planner/Generated plan": {
@@ -591,7 +609,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"visit-planner/Curated paths": {
 		mvp: false,
-		note: "Pre-made visit plans — editorially maintained",
+		note: "Pre-made visit plans: editorially maintained",
 		issueUrl: issue("CW-61"),
 	},
 	"visit-planner/On view": { mvp: false, issueUrl: issue("CW-61") },
@@ -614,12 +632,12 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"educational-resources/Content labelling": {
 		mvp: false,
-		note: "Educator-trust feature, not contracted — defer to Discovery",
+		note: "Educator-trust feature, not contracted: defer to Discovery",
 		issueUrl: issue("CW-57"),
 	},
 	"educational-resources/AI reading level": {
 		mvp: false,
-		note: "Age-level content scaling — opt-in/opt-out for educators",
+		note: "Age-level content scaling: opt-in/opt-out for educators",
 		issueUrl: issue("CW-73"),
 	},
 	"educational-resources/Featured objects": {

@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Autocomplete combobox for the collection search — suggests artwork titles
+ * Autocomplete combobox for the collection search: suggests artwork titles
  * and facet values as you type, with keyboard navigation and ARIA support.
  *
  * Wireframe version: uses static sample data to simulate suggestions.
@@ -305,7 +305,7 @@ function matchQuery(query: string): Suggestion[] {
 	const q = query.toLowerCase();
 	const result: Suggestion[] = [];
 
-	// Facet matches — grouped by type, max per type
+	// Facet matches: grouped by type, max per type
 	const grouped: Record<string, FacetSuggestion[]> = {};
 	for (const f of SAMPLE_FACETS) {
 		if (f.value.toLowerCase().includes(q)) {
@@ -319,7 +319,7 @@ function matchQuery(query: string): Suggestion[] {
 		result.push(...facets);
 	}
 
-	// Hit matches — by title or artist
+	// Hit matches: by title or artist
 	const hitMatches = SAMPLE_HITS.filter(
 		(h) =>
 			h.title.toLowerCase().includes(q) || h.artist.toLowerCase().includes(q),

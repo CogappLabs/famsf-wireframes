@@ -1,5 +1,5 @@
 /**
- * Related works section — interactive tabs (artist / medium / period / gallery)
+ * Related works section: interactive tabs (artist / medium / period / gallery)
  * filtering the rule-based recommendations grid.
  */
 
@@ -75,7 +75,7 @@ export function RelatedWorksSection({ related }: { related: SampleObject[] }) {
 											? r.medium
 											: mode === "period"
 												? r.date
-												: (r.gallery ?? "—")}
+												: (r.gallery ?? "–")}
 								</p>
 							</div>
 						</Link>

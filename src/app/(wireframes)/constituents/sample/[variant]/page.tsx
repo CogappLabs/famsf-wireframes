@@ -33,7 +33,7 @@ export default async function SampleConstituentPage({ params }: Props) {
 	const displayBios = doc.display_bios ?? [];
 	const facets = doc.facets ?? null;
 
-	// Deduplicate bios — only show distinct bio text entries.
+	// Deduplicate bios: only show distinct bio text entries.
 	const distinctBios = displayBios.filter(
 		(b, i, arr) => arr.findIndex((x) => x.bio === b.bio) === i,
 	);
@@ -169,7 +169,7 @@ export default async function SampleConstituentPage({ params }: Props) {
 					</WireframeSection>
 				)}
 
-				{/* Facets — aggregated across this constituent's works */}
+				{/* Facets: aggregated across this constituent's works */}
 				{facets && (
 					<WireframeSection
 						label="Facets"

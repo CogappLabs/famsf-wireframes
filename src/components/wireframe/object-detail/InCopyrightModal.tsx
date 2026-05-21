@@ -1,5 +1,5 @@
 /**
- * In-copyright modal — three alternatives to direct download.
+ * In-copyright modal: three alternatives to direct download.
  * CMA pattern: metadata download / image order / open access FAQs.
  */
 

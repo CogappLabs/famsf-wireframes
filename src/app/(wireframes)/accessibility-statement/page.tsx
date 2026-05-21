@@ -21,7 +21,7 @@ const FEATURES = [
 
 const KNOWN_GAPS = [
 	"Some legacy AI-generated alt text awaits curatorial review",
-	"3D viewers are visual-only — descriptive transcripts in progress",
+	"3D viewers are visual-only: descriptive transcripts in progress",
 	"Deep-zoom IIIF viewer keyboard support is partial; full parity tracked separately",
 ];
 

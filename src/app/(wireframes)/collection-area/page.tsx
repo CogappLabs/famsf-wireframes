@@ -90,7 +90,7 @@ export default function CollectionAreaPage() {
 						</ScopeMark>
 						<ImagePlaceholder
 							aspect="21/9"
-							label="[Gallery installation — updated with current display]"
+							label="[Gallery installation: updated with current display]"
 							className="mt-8 border border-gray-300"
 						/>
 					</Container>

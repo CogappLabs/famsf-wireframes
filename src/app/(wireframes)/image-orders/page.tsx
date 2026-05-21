@@ -101,7 +101,7 @@ export default function ImageOrdersPage() {
 								</span>
 								<select className="border border-gray-300 px-2 py-1.5 font-mono text-meta">
 									<option>Educational / scholarly use</option>
-									<option>Editorial — print or online</option>
+									<option>Editorial: print or online</option>
 									<option>Commercial / advertising</option>
 									<option>Personal study (no publication)</option>
 								</select>

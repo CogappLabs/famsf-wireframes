@@ -215,7 +215,7 @@ export default async function SampleObjectPage({ params }: Props) {
 					</Container>
 				</ScopeMark>
 
-				{/* Image section — renders if there are visible images OR if images were hidden */}
+				{/* Image section: renders if there are visible images OR if images were hidden */}
 				{(hasAnyImage || hiddenCount > 0) && (
 					<WireframeSection
 						label="Image"
@@ -232,7 +232,7 @@ export default async function SampleObjectPage({ params }: Props) {
 								<div className="border border-gray-300">
 									<ImagePlaceholder
 										aspect="4/3"
-										label={`[IIIF image — media_master_id ${visibleMedia[0].media_master_id}]`}
+										label={`[IIIF image: media_master_id ${visibleMedia[0].media_master_id}]`}
 										className="border-0"
 									/>
 									{(visibleMedia[0].media_view ||
@@ -313,7 +313,7 @@ export default async function SampleObjectPage({ params }: Props) {
 													>
 														<ImagePlaceholder
 															aspect="4/3"
-															label={`[IIIF image ${i + 1} of ${visibleMedia.length} — media_master_id ${item.media_master_id}]`}
+															label={`[IIIF image ${i + 1} of ${visibleMedia.length}: media_master_id ${item.media_master_id}]`}
 															className="border-0"
 														/>
 														<div className="border-t border-gray-200 px-3 py-2">
@@ -359,7 +359,7 @@ export default async function SampleObjectPage({ params }: Props) {
 										</div>
 									</div>
 
-									{/* Thumbnail strip — anchor links to each slide */}
+									{/* Thumbnail strip: anchor links to each slide */}
 									<div className="mt-3 flex gap-2 overflow-x-auto pb-1">
 										{visibleMedia.map((item, i) => {
 											const thumbUrl = iiifImageUrl(
@@ -411,7 +411,7 @@ export default async function SampleObjectPage({ params }: Props) {
 							Object
 						</span>
 
-						{/* Gap 3: Physical parent breadcrumb — only when physical_parent_id is set */}
+						{/* Gap 3: Physical parent breadcrumb: only when physical_parent_id is set */}
 						{doc.physical_parent_id && (
 							<p className="mb-3 font-mono text-meta text-gray-500">
 								Part of:{" "}
@@ -517,7 +517,7 @@ export default async function SampleObjectPage({ params }: Props) {
 												value={doc.medium}
 												field="medium"
 											/>
-											{/* Gap 4: medium_parts chips — only when more than one part */}
+											{/* Gap 4: medium_parts chips: only when more than one part */}
 											{mediumParts.length > 1 && (
 												<div className="mt-1.5 flex flex-wrap gap-1.5">
 													{mediumParts.map((part) => (
@@ -571,7 +571,7 @@ export default async function SampleObjectPage({ params }: Props) {
 								</TombstoneGroup>
 							)}
 
-							{/* Attributes — all populated term_* groups */}
+							{/* Attributes: all populated term_* groups */}
 							{hasTerms && (
 								<TombstoneGroup label="Attributes">
 									{populatedTermGroups.map(({ field, label, entries }) => (
@@ -898,7 +898,7 @@ export default async function SampleObjectPage({ params }: Props) {
 					</WireframeSection>
 				)}
 
-				{/* Gap 2: Child records — thumbnail grid when child_cards populated, ID fallback otherwise */}
+				{/* Gap 2: Child records: thumbnail grid when child_cards populated, ID fallback otherwise */}
 				{hasChildIds && (
 					<WireframeSection
 						label="Child records"

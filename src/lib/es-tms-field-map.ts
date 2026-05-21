@@ -189,7 +189,7 @@ export const FIELD_MAP: Record<string, FieldMapping> = {
 	physical_child_ids: {
 		source: "Objects.PhysicalParentID",
 		notes:
-			"derived: reverse lookup — ObjectIDs whose PhysicalParentID == this id",
+			"derived: reverse lookup: ObjectIDs whose PhysicalParentID == this id",
 	},
 	virtual_child_ids: {
 		source: "ObjAssocXrefs / virtual parent links",

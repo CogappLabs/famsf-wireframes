@@ -1,5 +1,5 @@
 /**
- * Physical description section — marks, inscriptions, signed, labels,
+ * Physical description section: marks, inscriptions, signed, labels,
  * identifying description. From TMS TextEntries with HTML stripped.
  */
 

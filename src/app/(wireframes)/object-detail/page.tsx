@@ -168,7 +168,7 @@ function ObjectDetailContent() {
 					/>
 				</Container>
 
-				{/* SEO landing context — present everywhere, scope-marked so
+				{/* SEO landing context: present everywhere, scope-marked so
 				    stakeholders can verify the page works for direct-from-Google
 				    visitors without prior browse context. */}
 				<ScopeMark label="SEO landing context">
@@ -225,7 +225,7 @@ function ObjectDetailContent() {
 					<Container>
 						<ImagePlaceholder
 							aspect="16/9"
-							label={`[${obj.title} \u2014 ${selectedImage.label} \u2014 high-res, zoomable (IIIF deep zoom)]`}
+							label={`[${obj.title} : ${selectedImage.label} : high-res, zoomable (IIIF deep zoom)]`}
 							className="border border-gray-300"
 						/>
 						{selectedImage.altText && (
@@ -269,7 +269,7 @@ function ObjectDetailContent() {
 							</div>
 						</WireframeSection>
 
-						{/* Thumbnail strip — click to swap the main image. */}
+						{/* Thumbnail strip: click to swap the main image. */}
 						<div className="mt-3 flex gap-2">
 							{galleryImages.map((img, i) => {
 								const active = i === safeIndex;
@@ -588,7 +588,7 @@ function ObjectDetailContent() {
 									)}
 								</TombstoneGroup>
 
-								{/* Attributes (chips) — span full grid row */}
+								{/* Attributes (chips): span full grid row */}
 								{(obj.keywords?.length ||
 									obj.period ||
 									obj.school ||
@@ -674,7 +674,7 @@ function ObjectDetailContent() {
 								)}
 							</div>
 
-							{/* Rights — full-width below grid */}
+							{/* Rights: full-width below grid */}
 							<ScopeMark label="Rights & citation">
 								<div className="mt-6 border-t border-gray-200 pt-6">
 									<SectionLabel className="mb-2">
@@ -866,7 +866,7 @@ function ObjectDetailContent() {
 								</div>
 							</div>
 
-							{/* Audio — list of tour stops / commentary */}
+							{/* Audio: list of tour stops / commentary */}
 							<div className="mt-4">
 								<SectionLabel className="mb-2">
 									{t("object.audioHeading")}

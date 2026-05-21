@@ -1,5 +1,5 @@
 /**
- * Constituent list — makers + contributors grouped by Constituent ID.
+ * Constituent list: makers + contributors grouped by Constituent ID.
  * Shows attribution qualifiers ("Possibly", "Attributed to") and
  * "Invisible Role" markers (record kept but not normally surfaced).
  */

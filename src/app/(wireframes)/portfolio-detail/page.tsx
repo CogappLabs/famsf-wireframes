@@ -126,7 +126,7 @@ export default function PortfolioDetailPage() {
 					</Container>
 				</WireframeSection>
 
-				{/* Child records — sequential pages */}
+				{/* Child records: sequential pages */}
 				<WireframeSection
 					label="Child records"
 					className="border-b border-gray-300 py-12"
@@ -187,7 +187,7 @@ export default function PortfolioDetailPage() {
 							<div className="flex-1">
 								<ImagePlaceholder
 									aspect="3/4"
-									label="[Plate 1: The Creation \u2014 high-res zoomable]"
+									label="[Plate 1: The Creation : high-res zoomable]"
 									className="border border-gray-300"
 								/>
 							</div>

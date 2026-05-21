@@ -159,7 +159,7 @@ export default function CollectorPage() {
 							</SectionLabel>
 							<ImagePlaceholder
 								aspect="21/9"
-								label="[Historical photograph \u2014 Legion of Honor opening, 1924]"
+								label="[Historical photograph : Legion of Honor opening, 1924]"
 								className="mb-4 border border-gray-300"
 							/>
 							<p className="font-mono text-body text-gray-600">

@@ -6,7 +6,7 @@
  * detail page behaviour without loading the full dataset.
  *
  * `topViewedObjects` is generated from real ES records for the top
- * 50 GA-viewed artworks — see scripts/fetch-top-artworks.ts.
+ * 50 GA-viewed artworks: see scripts/fetch-top-artworks.ts.
  */
 
 import { topViewedObjects } from "./sample-data.generated";
@@ -54,7 +54,7 @@ export interface SampleObject {
 	title: string;
 	/** Additional titles (former, foreign language) */
 	alternateTitles?: string[];
-	/** TMS Object Names — controlled vocabulary terms distinct from titles */
+	/** TMS Object Names: controlled vocabulary terms distinct from titles */
 	objectNames?: string[];
 	artist: string;
 	/** Attribution qualifier: "Attributed to", "Circle of", "After", etc. */
@@ -83,7 +83,7 @@ export interface SampleObject {
 	gallery?: string;
 	labelText?: string;
 	culture?: string;
-	/** Geographic hierarchy with type — Paths sorted first */
+	/** Geographic hierarchy with type: Paths sorted first */
 	geography?: GeoXref[];
 	/** Artist identity tags */
 	identityTags?: string[];
@@ -111,21 +111,21 @@ export interface SampleObject {
 	// Acquisition
 	accessionDate?: string;
 
-	// Numeric date range — drives date-range search; coverage ~72% in TMS export
+	// Numeric date range: drives date-range search; coverage ~72% in TMS export
 	dateBegin?: number;
 	dateEnd?: number;
 
-	// Print-specific (Achenbach) — edition info, e.g. "3/50"
+	// Print-specific (Achenbach): edition info, e.g. "3/50"
 	edition?: string;
 
-	// Multiple structured measurements — overall, canvas, frame, with frame, weight.
+	// Multiple structured measurements: overall, canvas, frame, with frame, weight.
 	// Currently `dimensions` is a flat single-line string; this exposes the breakdown.
 	dimensionsStructured?: {
 		description: string;
 		displayDimensions: string;
 	}[];
 
-	// Controlled-vocab place-of-creation (term_place_of_creation in TMS) — preferred
+	// Controlled-vocab place-of-creation (term_place_of_creation in TMS): preferred
 	// over free-text `geography` where present. Hierarchical strings, deepest first.
 	placeOfCreation?: string[];
 
@@ -233,7 +233,7 @@ export const objects: SampleObject[] = [
 					"Painting showing a country road curving through ploughed fields with two figures and a low farmhouse.",
 			},
 			{
-				label: "Detail \u2014 figures",
+				label: "Detail: figures",
 				altText:
 					"Detail of two small figures walking along the road, painted with loose dabs of paint.",
 			},

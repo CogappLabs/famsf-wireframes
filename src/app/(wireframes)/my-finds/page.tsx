@@ -220,7 +220,7 @@ export default function MyFindsPage() {
 						<div className="border border-gray-300 p-4">
 							<div className="h-24 border border-dashed border-gray-200">
 								<span className="block px-3 py-2 font-mono text-meta text-gray-400">
-									[Optional free-text notes field — saved in URL or local
+									[Optional free-text notes field: saved in URL or local
 									storage]
 								</span>
 							</div>

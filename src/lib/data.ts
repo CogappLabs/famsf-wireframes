@@ -43,7 +43,7 @@ export const pages: WireframePage[] = [
 		id: "collection-landing",
 		title: "Collection Landing",
 		description:
-			"Main entry point — explore vs search pathways, browse by area, stats, highlights",
+			"Main entry point: explore vs search pathways, browse by area, stats, highlights",
 		status: "wip",
 	},
 	{
@@ -57,56 +57,63 @@ export const pages: WireframePage[] = [
 		id: "object-detail",
 		title: "Object Detail",
 		description:
-			"The one-stop shop — image gallery, tombstone, provenance, exhibitions, related works",
+			"The one-stop shop: image gallery, tombstone, provenance, exhibitions, related works",
 		status: "wip",
 	},
 	{
 		id: "collection-area",
 		title: "Collection Area",
 		description:
-			"Department landing page — about, highlights, browse options, related content",
+			"Department landing page: about, highlights, browse options, related content",
 		status: "wip",
 	},
 	{
 		id: "artist-page",
 		title: "Artist Page",
 		description:
-			"Artist entity page — biography, works grid, exhibition history",
+			"Artist entity page: biography, works grid, exhibition history",
+		status: "wip",
+	},
+	{
+		id: "artist-search",
+		title: "Artist Search",
+		description:
+			"Browse and search the constituent index. Name search + A–Z filter. Initials avatars stand in for the ~95% of constituents without portraits.",
 		status: "wip",
 	},
 	{
 		id: "explore",
 		title: "Explore",
 		description:
-			"Curated browse — themes, timeline, discovery prompts, most viewed",
+			"Curated browse: themes, timeline, discovery prompts, most viewed",
 		status: "wip",
 	},
 	{
 		id: "collector-page",
 		title: "Collector / Donor Page",
 		description:
-			"Entity page for major collectors — biography, associated objects, civic history",
+			"Entity page for major collectors: biography, associated objects, civic history",
 		status: "wip",
 	},
 	{
 		id: "portfolio-detail",
 		title: "Portfolio / Multi-Part Work",
 		description:
-			"Parent-child record — sequential display for portfolios, sketchbooks, illustrated books",
+			"Parent-child record: sequential display for portfolios, sketchbooks, illustrated books",
 		status: "wip",
 	},
 	{
 		id: "parent-record",
 		title: "Parent Record (Ensemble / Series)",
 		description:
-			"Parent record for ensembles and series — components grid, contextual essay, related parent records",
+			"Parent record for ensembles and series: components grid, contextual essay, related parent records",
 		status: "wip",
 	},
 	{
 		id: "my-finds",
 		title: "My Finds",
 		description:
-			"Personal research package — saved objects, no login, shareable URL",
+			"Personal research package: saved objects, no login, shareable URL",
 		status: "wip",
 	},
 	{
@@ -120,21 +127,21 @@ export const pages: WireframePage[] = [
 		id: "visit-planner",
 		title: "Visit Planner",
 		description:
-			"Concierge experience — visitor type, interests, curated gallery paths",
+			"Concierge experience: visitor type, interests, curated gallery paths",
 		status: "wip",
 	},
 	{
 		id: "educational-resources",
 		title: "Educational Resources",
 		description:
-			"Educator landing — lesson plans, gallery filter, age-level content adaptation",
+			"Educator landing: lesson plans, gallery filter, age-level content adaptation",
 		status: "wip",
 	},
 	{
 		id: "exhibition-detail",
 		title: "Exhibition Detail",
 		description:
-			"Exhibition record — venue, dates, included works (cross-link target from object exhibition history)",
+			"Exhibition record: venue, dates, included works (cross-link target from object exhibition history)",
 		status: "wip",
 	},
 	{
@@ -160,14 +167,14 @@ export const pages: WireframePage[] = [
 		id: "sitemap",
 		title: "Site Map",
 		description:
-			"Information architecture — page hierarchy and navigation structure",
+			"Information architecture: page hierarchy and navigation structure",
 		status: "wip",
 	},
 	{
 		id: "objects/sample",
 		title: "Sample Objects (ETL data)",
 		description:
-			"Three real pipeline documents wired in — minimal (17 fields), median (34 fields), maximal (49 fields). Refresh via npm run sync:samples.",
+			"Three real pipeline documents wired in: minimal (17 fields), median (34 fields), maximal (49 fields). Refresh via npm run sync:samples.",
 		status: "wip",
 	},
 	{
@@ -216,6 +223,7 @@ export const navigation: NavNode[] = [
 				href: "/parent-record?id=ENS-100",
 			},
 			{ label: "Collection Area", href: "/collection-area" },
+			{ label: "Artist Search", href: "/artist-search" },
 			{ label: "Artist Page", href: "/artist-page" },
 			{ label: "Collector / Donor", href: "/collector-page" },
 		],
@@ -234,7 +242,7 @@ export const navigation: NavNode[] = [
 ];
 
 // ── Global site navigation ──────────────────────────────────────────
-// Standalone collection site — not part of the main FAMSF website.
+// Standalone collection site: not part of the main FAMSF website.
 
 export interface SiteNavItem {
 	label: string;
@@ -277,7 +285,7 @@ export interface FooterGroup {
 	links: { label: string; href: string }[];
 }
 
-// Footer groups model the live, public collection site — wireframe-internal
+// Footer groups model the live, public collection site: wireframe-internal
 // pages (object-detail, artist-page, etc.) are reachable from the wireframe
 // index, not the footer.
 export const footerGroups: FooterGroup[] = [
