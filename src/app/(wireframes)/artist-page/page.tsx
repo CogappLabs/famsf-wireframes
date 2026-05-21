@@ -57,7 +57,7 @@ function ArtistPageContent() {
 								label: t("object.breadcrumbCollection"),
 								href: "/collection-landing",
 							},
-							{ label: t("artist.label") },
+							{ label: t("artistSearch.label"), href: "/artist-search" },
 							{ label: artist.name },
 						]}
 					/>
