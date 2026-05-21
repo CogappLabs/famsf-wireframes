@@ -1,0 +1,792 @@
+[     125ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[     144ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   80038ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   80275ms] [LOG] [Fast Refresh] done in 92ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   88931ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   88992ms] [LOG] [Fast Refresh] done in 24ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   96585ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   96642ms] [LOG] [Fast Refresh] done in 24ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  104112ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  104176ms] [LOG] [Fast Refresh] done in 25ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  230203ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  230278ms] [LOG] [Fast Refresh] done in 28ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  253269ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  253284ms] [LOG] [Fast Refresh] done in 42ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  265114ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  265173ms] [LOG] [Fast Refresh] done in 93ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  266669ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  266687ms] [LOG] [Fast Refresh] done in 44ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  277854ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  277913ms] [LOG] [Fast Refresh] done in 94ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  279224ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  279243ms] [LOG] [Fast Refresh] done in 40ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  288402ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  288463ms] [LOG] [Fast Refresh] done in 24ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  297839ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  297898ms] [LOG] [Fast Refresh] done in 22ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  309109ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  309128ms] [LOG] [Fast Refresh] done in 38ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  313110ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  313195ms] [LOG] [Fast Refresh] done in 55ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  316689ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  316706ms] [LOG] [Fast Refresh] done in 37ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  321384ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  321440ms] [LOG] [Fast Refresh] done in 28ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  321830ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  321848ms] [LOG] [Fast Refresh] done in 36ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  326545ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  326564ms] [LOG] [Fast Refresh] done in 40ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  327277ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  327341ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  337852ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  338134ms] [LOG] [Fast Refresh] done in 276ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  342036ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  342052ms] [LOG] [Fast Refresh] done in 40ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  360323ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  360388ms] [LOG] [Fast Refresh] done in 32ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  365027ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  365047ms] [LOG] [Fast Refresh] done in 34ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  370129ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  370148ms] [LOG] [Fast Refresh] done in 34ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  384347ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  384412ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  385139ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  385157ms] [LOG] [Fast Refresh] done in 36ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  394647ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  394663ms] [LOG] [Fast Refresh] done in 39ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  426649ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  426687ms] [LOG] [Fast Refresh] done in 43ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  436939ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  436969ms] [LOG] [Fast Refresh] done in 40ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  455646ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  455665ms] [LOG] [Fast Refresh] done in 39ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  660570ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  660582ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  777335ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  777409ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  781462ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  781526ms] [LOG] [Fast Refresh] done in 24ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  787037ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  787076ms] [LOG] [Fast Refresh] done in 58ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  793881ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  793897ms] [LOG] [Fast Refresh] done in 41ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  805145ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  805210ms] [LOG] [Fast Refresh] done in 27ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  811700ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  811729ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  816406ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  816434ms] [LOG] [Fast Refresh] done in 27ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  823636ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  823691ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  983610ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  983758ms] [LOG] [Fast Refresh] done in 216ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1025918ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1025995ms] [LOG] [Fast Refresh] done in 139ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1048626ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1048712ms] [LOG] [Fast Refresh] done in 160ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1048903ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1048921ms] [LOG] [Fast Refresh] done in 119ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1052689ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1052714ms] [LOG] [Fast Refresh] done in 31ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1059003ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1059031ms] [LOG] [Fast Refresh] done in 27ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1083762ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1083926ms] [LOG] [Fast Refresh] done in 230ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1084029ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1084044ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1087186ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1087232ms] [LOG] [Fast Refresh] done in 30ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1100933ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1100994ms] [LOG] [Fast Refresh] done in 76ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1146949ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1147165ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=e2b9h:0
+[ 1147235ms] [LOG] [Fast Refresh] done in 282ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1147288ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=e2b9h:0
+[ 1147375ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 1147552ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1147604ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1196562ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1196584ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1829250ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1829288ms] [LOG] [Fast Refresh] done in 139ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1829998ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1830141ms] [LOG] [Fast Refresh] done in 188ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1830276ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 1830377ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 1830403ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 1830442ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1830452ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1831177ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1831478ms] [LOG] [Fast Refresh] done in 401ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1831597ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1831929ms] [LOG] [Fast Refresh] done in 434ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1832196ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1832611ms] [LOG] [Fast Refresh] done in 517ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1832836ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1833166ms] [LOG] [Fast Refresh] done in 431ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1833279ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1833578ms] [LOG] [Fast Refresh] done in 400ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1974321ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1974377ms] [LOG] [Fast Refresh] done in 61ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1974455ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 1974769ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 1974789ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1974800ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2001060ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2001084ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2001123ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2001198ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2001222ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2001241ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2004235ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2004637ms] [LOG] [Fast Refresh] done in 503ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2004903ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2004986ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2005193ms] [LOG] [Fast Refresh] done in 308ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2005347ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2005376ms] [LOG] [Fast Refresh] done in 129ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2005400ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2005520ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2005572ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2005581ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2005694ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2005699ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2010163ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2010194ms] [LOG] [Fast Refresh] done in 42ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2010249ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2010515ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2010559ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2010571ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2011957ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2012025ms] [LOG] [Fast Refresh] done in 59ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2016967ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2016986ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2017048ms] [LOG] [Fast Refresh] done in 24ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2017080ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2017108ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2017120ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2025317ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2025368ms] [LOG] [Fast Refresh] done in 72ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2025478ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2025523ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2025560ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2025580ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2025582ms] [LOG] [Fast Refresh] done in 103ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2025630ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2025647ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2025656ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2030740ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2030756ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2030793ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2030833ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2030843ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2030849ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2037343ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2037356ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2037393ms] [LOG] [Fast Refresh] done in 30ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2037438ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2037452ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2037460ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2047887ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2047927ms] [LOG] [Fast Refresh] done in 23ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2048018ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2048079ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2048187ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2048195ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2048232ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2048242ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2048358ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2048362ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2056617ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2056659ms] [LOG] [Fast Refresh] done in 42ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2056746ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2056781ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2056814ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2056849ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2056853ms] [LOG] [Fast Refresh] done in 105ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2056857ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2056876ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2056885ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2063182ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2063244ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2063246ms] [LOG] [Fast Refresh] done in 33ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2063322ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2063334ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2063344ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2066825ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2066870ms] [LOG] [Fast Refresh] done in 52ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2066976ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2067016ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2067057ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2067079ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2067100ms] [LOG] [Fast Refresh] done in 122ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2067104ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2067117ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2067126ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2072689ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2072726ms] [LOG] [Fast Refresh] done in 68ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2072803ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2072842ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2072891ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2072907ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2072938ms] [LOG] [Fast Refresh] done in 133ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2072945ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2073034ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2073044ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2076278ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2076292ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2076330ms] [LOG] [Fast Refresh] done in 27ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2076362ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2076372ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2076381ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2093120ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2093185ms] [LOG] [Fast Refresh] done in 89ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2093347ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2093389ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2093441ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2093498ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2093527ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2093536ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2098748ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2098788ms] [LOG] [Fast Refresh] done in 90ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2098888ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2098890ms] [LOG] [Fast Refresh] done in 63ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2098907ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2098941ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2099000ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2099063ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2099091ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2099101ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2100962ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2100999ms] [LOG] [Fast Refresh] done in 47ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2101067ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2101099ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2101142ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2101171ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2101178ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2101182ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2101195ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2101204ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2113223ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2113297ms] [LOG] [Fast Refresh] done in 104ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2113467ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2113519ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2113547ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2113562ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2113593ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2113679ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2113741ms] [LOG] [Fast Refresh] done in 162ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2113745ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2113757ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2113769ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2122802ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2122823ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2122860ms] [LOG] [Fast Refresh] done in 21ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2122908ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2122922ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2122929ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2143927ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2143979ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2144002ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2144066ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2144091ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2144099ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2157581ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2157633ms] [LOG] [Fast Refresh] done in 33ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2157640ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2157754ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2157781ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2157792ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2467788ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2467818ms] [LOG] [Fast Refresh] done in 86ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2467961ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2467981ms] [LOG] [Fast Refresh] done in 121ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2468013ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2468049ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2468089ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2468139ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2468147ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2468156ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2468182ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2468192ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2475835ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2475850ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 2475886ms] [LOG] [Fast Refresh] done in 25ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2475936ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 2475954ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2475962ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2591270ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2591316ms] [LOG] [Fast Refresh] done in 148ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3707099ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3707246ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:1:1
+Module not found: Can't resolve './ConstituentList'
+> 1 | ...ConstituentList } from "./Constitue...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | ...EditorialColumn } from "./Editorial...
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707246ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:2:1
+Module not found: Can't resolve './EditorialColumn'
+  1 | ...ConstituentList } from "./Constitue...
+> 2 | ...EditorialColumn } from "./Editorial...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+  5 | ...RelatedWorksSection } from "./Relat...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707247ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:3:1
+Module not found: Can't resolve './InCopyrightModal'
+  1 | ...onstituentList } from "./Constituen...
+  2 | ...ditorialColumn } from "./EditorialC...
+> 3 | ...nCopyrightModal } from "./InCopyrig...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...hysicalDescription } from "./Physic...
+  5 | ...elatedWorksSection } from "./Relate...
+  6 | ...caleDiagram } from "./ScaleDiagram";
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707247ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:4:1
+Module not found: Can't resolve './PhysicalDescription'
+  2 | ...orialColumn } from "./EditorialColu...
+  3 | ...pyrightModal } from "./InCopyrightM...
+> 4 | ...icalDescription } from "./PhysicalD...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...tedWorksSection } from "./RelatedWo...
+  6 | ...eDiagram } from "./ScaleDiagram";
+  7 | ...allySimilarGrid } from "./VisuallyS...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707287ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:1:1
+Module not found: Can't resolve './ConstituentList'
+> 1 | ...ConstituentList } from "./Constitue...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | ...EditorialColumn } from "./Editorial...
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707287ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:2:1
+Module not found: Can't resolve './EditorialColumn'
+  1 | ...ConstituentList } from "./Constitue...
+> 2 | ...EditorialColumn } from "./Editorial...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+  5 | ...RelatedWorksSection } from "./Relat...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707287ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:3:1
+Module not found: Can't resolve './InCopyrightModal'
+  1 | ...onstituentList } from "./Constituen...
+  2 | ...ditorialColumn } from "./EditorialC...
+> 3 | ...nCopyrightModal } from "./InCopyrig...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...hysicalDescription } from "./Physic...
+  5 | ...elatedWorksSection } from "./Relate...
+  6 | ...caleDiagram } from "./ScaleDiagram";
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707287ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:4:1
+Module not found: Can't resolve './PhysicalDescription'
+  2 | ...orialColumn } from "./EditorialColu...
+  3 | ...pyrightModal } from "./InCopyrightM...
+> 4 | ...icalDescription } from "./PhysicalD...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...tedWorksSection } from "./RelatedWo...
+  6 | ...eDiagram } from "./ScaleDiagram";
+  7 | ...allySimilarGrid } from "./VisuallyS...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707388ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3707479ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:1:1
+Module not found: Can't resolve './ConstituentList'
+> 1 | ...ConstituentList } from "./Constitue...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | ...EditorialColumn } from "./Editorial...
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707479ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:2:1
+Module not found: Can't resolve './EditorialColumn'
+  1 | ...ConstituentList } from "./Constitue...
+> 2 | ...EditorialColumn } from "./Editorial...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+  5 | ...RelatedWorksSection } from "./Relat...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707479ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:3:1
+Module not found: Can't resolve './InCopyrightModal'
+  1 | ...onstituentList } from "./Constituen...
+  2 | ...ditorialColumn } from "./EditorialC...
+> 3 | ...nCopyrightModal } from "./InCopyrig...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...hysicalDescription } from "./Physic...
+  5 | ...elatedWorksSection } from "./Relate...
+  6 | ...caleDiagram } from "./ScaleDiagram";
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707479ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:4:1
+Module not found: Can't resolve './PhysicalDescription'
+  2 | ...orialColumn } from "./EditorialColu...
+  3 | ...pyrightModal } from "./InCopyrightM...
+> 4 | ...icalDescription } from "./PhysicalD...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...tedWorksSection } from "./RelatedWo...
+  6 | ...eDiagram } from "./ScaleDiagram";
+  7 | ...allySimilarGrid } from "./VisuallyS...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707495ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 3707581ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3707614ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:1:1
+Module not found: Can't resolve './ConstituentList'
+> 1 | ...ConstituentList } from "./Constitue...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | ...EditorialColumn } from "./Editorial...
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707614ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:2:1
+Module not found: Can't resolve './EditorialColumn'
+  1 | ...ConstituentList } from "./Constitue...
+> 2 | ...EditorialColumn } from "./Editorial...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+  5 | ...RelatedWorksSection } from "./Relat...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707614ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:3:1
+Module not found: Can't resolve './InCopyrightModal'
+  1 | ...onstituentList } from "./Constituen...
+  2 | ...ditorialColumn } from "./EditorialC...
+> 3 | ...nCopyrightModal } from "./InCopyrig...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...hysicalDescription } from "./Physic...
+  5 | ...elatedWorksSection } from "./Relate...
+  6 | ...caleDiagram } from "./ScaleDiagram";
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707614ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:4:1
+Module not found: Can't resolve './PhysicalDescription'
+  2 | ...orialColumn } from "./EditorialColu...
+  3 | ...pyrightModal } from "./InCopyrightM...
+> 4 | ...icalDescription } from "./PhysicalD...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...tedWorksSection } from "./RelatedWo...
+  6 | ...eDiagram } from "./ScaleDiagram";
+  7 | ...allySimilarGrid } from "./VisuallyS...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 3707614ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 3707898ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3002/object-detail?id=94799:0
+[ 3707983ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[ 3708035ms] Error: ./src/components/wireframe/object-detail/index.ts:1:1
+Module not found: Can't resolve './ConstituentList'
+> 1 | ...ConstituentList } from "./Constitue...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | ...EditorialColumn } from "./Editorial...
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+
+
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/components/wireframe/object-detail/index.ts:1:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/lukew/git/famsf-collections/famsf-collection-wireframes/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/lukew/git/famsf-collections/famsf-collection-wireframes/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/lukew/git/famsf-collections/famsf-collection-wireframes/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/lukew/git/famsf-collections/famsf-collection-wireframes/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/lukew/git/famsf-collections/famsf-collection-wireframes/node_modules/next/dist/server/base-server.js:1686:30)
+[ 3708026ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3708037ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:1:1
+Module not found: Can't resolve './ConstituentList'
+> 1 | ...ConstituentList } from "./Constitue...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | ...EditorialColumn } from "./Editorial...
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3708037ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:2:1
+Module not found: Can't resolve './EditorialColumn'
+  1 | ...ConstituentList } from "./Constitue...
+> 2 | ...EditorialColumn } from "./Editorial...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+  5 | ...RelatedWorksSection } from "./Relat...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3708037ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:3:1
+Module not found: Can't resolve './InCopyrightModal'
+  1 | ...onstituentList } from "./Constituen...
+  2 | ...ditorialColumn } from "./EditorialC...
+> 3 | ...nCopyrightModal } from "./InCopyrig...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...hysicalDescription } from "./Physic...
+  5 | ...elatedWorksSection } from "./Relate...
+  6 | ...caleDiagram } from "./ScaleDiagram";
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3708037ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:4:1
+Module not found: Can't resolve './PhysicalDescription'
+  2 | ...orialColumn } from "./EditorialColu...
+  3 | ...pyrightModal } from "./InCopyrightM...
+> 4 | ...icalDescription } from "./PhysicalD...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...tedWorksSection } from "./RelatedWo...
+  6 | ...eDiagram } from "./ScaleDiagram";
+  7 | ...allySimilarGrid } from "./VisuallyS...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3708038ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:1:1
+Module not found: Can't resolve './ConstituentList'
+> 1 | ...ConstituentList } from "./Constitue...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | ...EditorialColumn } from "./Editorial...
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3708038ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:2:1
+Module not found: Can't resolve './EditorialColumn'
+  1 | ...ConstituentList } from "./Constitue...
+> 2 | ...EditorialColumn } from "./Editorial...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+  5 | ...RelatedWorksSection } from "./Relat...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3708038ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:3:1
+Module not found: Can't resolve './InCopyrightModal'
+  1 | ...onstituentList } from "./Constituen...
+  2 | ...ditorialColumn } from "./EditorialC...
+> 3 | ...nCopyrightModal } from "./InCopyrig...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...hysicalDescription } from "./Physic...
+  5 | ...elatedWorksSection } from "./Relate...
+  6 | ...caleDiagram } from "./ScaleDiagram";
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3708039ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:4:1
+Module not found: Can't resolve './PhysicalDescription'
+  2 | ...orialColumn } from "./EditorialColu...
+  3 | ...pyrightModal } from "./InCopyrightM...
+> 4 | ...icalDescription } from "./PhysicalD...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...tedWorksSection } from "./RelatedWo...
+  6 | ...eDiagram } from "./ScaleDiagram";
+  7 | ...allySimilarGrid } from "./VisuallyS...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3708140ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3708150ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:1:1
+Module not found: Can't resolve './ConstituentList'
+> 1 | ...ConstituentList } from "./Constitue...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | ...EditorialColumn } from "./Editorial...
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3708150ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:2:1
+Module not found: Can't resolve './EditorialColumn'
+  1 | ...ConstituentList } from "./Constitue...
+> 2 | ...EditorialColumn } from "./Editorial...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | ...InCopyrightModal } from "./InCopyri...
+  4 | ...PhysicalDescription } from "./Physi...
+  5 | ...RelatedWorksSection } from "./Relat...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3708150ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:3:1
+Module not found: Can't resolve './InCopyrightModal'
+  1 | ...onstituentList } from "./Constituen...
+  2 | ...ditorialColumn } from "./EditorialC...
+> 3 | ...nCopyrightModal } from "./InCopyrig...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...hysicalDescription } from "./Physic...
+  5 | ...elatedWorksSection } from "./Relate...
+  6 | ...caleDiagram } from "./ScaleDiagram";
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3708150ms] [ERROR] ./src/components/wireframe/object-detail/index.ts:4:1
+Module not found: Can't resolve './PhysicalDescription'
+  2 | ...orialColumn } from "./EditorialColu...
+  3 | ...pyrightModal } from "./InCopyrightM...
+> 4 | ...icalDescription } from "./PhysicalD...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | ...tedWorksSection } from "./RelatedWo...
+  6 | ...eDiagram } from "./ScaleDiagram";
+  7 | ...allySimilarGrid } from "./VisuallyS...
+
+Import trace:
+  Server Component:
+    ./src/components/wireframe/object-detail/index.ts
+    ./src/app/(wireframes)/objects/sample/[variant]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3716764ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3716809ms] [LOG] [Fast Refresh] done in 38ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3717054ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 3717091ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3717100ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3739678ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3739735ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 3739736ms] [LOG] [Fast Refresh] done in 56ms @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3739772ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799&_rsc=1khgx:0
+[ 3739812ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3002/object-detail?id=94799:0
+[ 3739842ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 3739852ms] [LOG] [HMR] connected @ http://localhost:3002/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431

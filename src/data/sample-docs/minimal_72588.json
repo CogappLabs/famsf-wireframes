@@ -1,0 +1,40 @@
+{
+	"id": 72588,
+	"accession_number": "1981.84.94a-q",
+	"sort_number": "1981.84.94a-q",
+	"title": "Group of bamboo, medium-sized spears.",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"on_view": false,
+	"last_modified": "2018-12-28 00:00:00.000000",
+	"is_virtual": false,
+	"location_string": "de Young, 061, Cabinet 008, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 008",
+	"titles": [
+		{
+			"Title": "Group of bamboo, medium-sized spears.",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [],
+	"media": [],
+	"exhibitions": [],
+	"dimensions_structured": [],
+	"associations": [],
+	"is_compound": false,
+	"primary_artist": "Unknown artist",
+	"has_image": false,
+	"has_iiif": false,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "unknown artist",
+	"slug": "group-of-bamboo-medium-sized-spears-1981-84-94a-q",
+	"indexed_at": "2026-05-21T11:39:20.349618+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: fewest populated fields in the dataset (true min).",
+		"picked_at": "2026-05-21T11:39:20.349618+00:00",
+		"populated_fields": 21
+	}
+}

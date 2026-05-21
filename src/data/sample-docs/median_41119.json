@@ -1,0 +1,149 @@
+{
+	"id": 41119,
+	"accession_number": "1963.30.39068.50",
+	"sort_number": "1963.30.39068.50",
+	"title": "Iaccus in Hortis Ludouisianis, plate 49 in the book Antique Statues of Rome (Rome: François Perrier1638)",
+	"display_date": "1638",
+	"begin_iso_date": "1638",
+	"end_iso_date": "1638",
+	"medium": "etching",
+	"medium_parts": ["etching"],
+	"dimensions": "Sheet: 380 x 240 mm (14 15/16 x 9 7/16 in.); Plate: 226 x 176 mm (8 7/8 x 6 15/16 in.)",
+	"dimensions_display_primary": "8 7/8 x 6 15/16 in. (22.6 x 17.6 cm)",
+	"credit_line": "Achenbach Foundation for Graphic Arts",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"last_modified": "2020-08-10 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Bacchus in the Ludovisi\nBacchus in the Ludovisi Gardens",
+	"location_string": "Legion, 253, Shelf 03, 08C",
+	"location_building": "Legion",
+	"location_room": "Shelf 03",
+	"titles": [
+		{
+			"Title": "Iaccus in Hortis Ludouisianis, plate 49 in the book Antique Statues of Rome (Rome: François Perrier1638)",
+			"TitleType": "Primary Title",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 8590,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "François Perrier (le Bourguignon)",
+			"AlphaSort": "François Perrier called the Bu",
+			"Nationality": "French",
+			"BeginDate": 1594,
+			"EndDate": 1649,
+			"BeginDateISO": "1594",
+			"EndDateISO": "1649",
+			"DisplayDate": "1594–1649",
+			"Biography": "1594–1649",
+			"display_bios": [
+				{
+					"bio": "1594–1649",
+					"display_order": 1
+				},
+				{
+					"bio": "1594–1649",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "François Perrier (le Bourguignon) (1594–1649)"
+		}
+	],
+	"media": [],
+	"exhibitions": [],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "8 7/8 x 6 15/16 in. (22.6 x 17.6 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Plate (4D)",
+			"Displayed": true,
+			"Rank": 1
+		},
+		{
+			"DisplayDimensions": "14 15/16 x 9 7/16 in. (38 x 24 cm)",
+			"Description": null,
+			"ElementName": "x_Do not use_Sheet (4D)",
+			"Displayed": true,
+			"Rank": 2
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_related_geography": [
+		{
+			"term": "Italy",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAAVP",
+					"term": "Italia"
+				}
+			]
+		}
+	],
+	"primary_artist": "François Perrier (le Bourguignon)",
+	"has_image": false,
+	"primary_artist_display": "François Perrier (le Bourguignon) (1594–1649)",
+	"display_year": "1638",
+	"has_iiif": false,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "francois perrier (le bourguignon)",
+	"sort_year": 1638,
+	"slug": "iaccus-in-hortis-ludouisianis-plate-49-in-the-book-antique-statues-of-rome-rome-1963-30-39068-50",
+	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: closest to dataset median populated-field count.",
+		"picked_at": "2026-05-21T11:45:02.518116+00:00",
+		"populated_fields": 39
+	}
+}

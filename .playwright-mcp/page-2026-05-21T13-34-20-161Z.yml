@@ -1,0 +1,445 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "← All wireframes" [ref=e3] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e4]:
+      - button "Standard" [ref=e5]
+      - button "Two-column" [ref=e6]
+    - generic [ref=e7]:
+      - button "Scope" [ref=e8]: Scope
+      - generic [ref=e10]: MVP
+      - generic [ref=e11]: WIP
+  - navigation [ref=e12]:
+    - generic [ref=e13]:
+      - link "FAMSFCollection" [ref=e14] [cursor=pointer]:
+        - /url: /collection-landing
+      - generic [ref=e15]:
+        - link "Explore" [ref=e16] [cursor=pointer]:
+          - /url: /explore
+        - link "Search" [ref=e17] [cursor=pointer]:
+          - /url: /search-results
+        - link "My Finds" [ref=e18] [cursor=pointer]:
+          - /url: /my-finds
+        - button "Collection Areas ▾" [ref=e19]
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - navigation [ref=e23]:
+        - link "Collection" [ref=e25] [cursor=pointer]:
+          - /url: /collection-landing
+        - generic [ref=e26]:
+          - text: /
+          - link "Achenbach Foundation for Graphic Arts" [ref=e27] [cursor=pointer]:
+            - /url: /collection-area
+        - generic [ref=e28]: / Clubs—Blue Ground
+      - navigation "Jump to section" [ref=e31]:
+        - link "Object information" [ref=e33] [cursor=pointer]:
+          - /url: "#tombstone"
+        - generic [ref=e34]:
+          - generic [ref=e35]: /
+          - link "About this work" [ref=e36] [cursor=pointer]:
+            - /url: "#about"
+        - generic [ref=e37]:
+          - generic [ref=e38]: /
+          - link "Physical description" [ref=e39] [cursor=pointer]:
+            - /url: "#physical"
+        - generic [ref=e40]:
+          - generic [ref=e41]: /
+          - link "Makers & contributors" [ref=e42] [cursor=pointer]:
+            - /url: "#constituents"
+        - generic [ref=e43]:
+          - generic [ref=e44]: /
+          - link "Provenance" [ref=e45] [cursor=pointer]:
+            - /url: "#provenance"
+        - generic [ref=e46]:
+          - generic [ref=e47]: /
+          - link "Exhibition history" [ref=e48] [cursor=pointer]:
+            - /url: "#exhibitions"
+        - generic [ref=e49]:
+          - generic [ref=e50]: /
+          - link "Related works" [ref=e51] [cursor=pointer]:
+            - /url: "#related"
+      - generic [ref=e53]:
+        - generic [ref=e55]: "[Clubs—Blue Ground : Primary : high-res, zoomable (IIIF deep zoom)]"
+        - generic [ref=e57]:
+          - button "Zoom" [ref=e58]
+          - button "Download image" [ref=e59]
+          - button "Request image" [ref=e60]
+          - generic [ref=e61]: 1 of 1 images
+        - button "Show Primary view" [pressed] [ref=e63]:
+          - generic [ref=e65]: "[Primary]"
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - paragraph [ref=e69]: Object record
+          - heading "Clubs—Blue Ground" [level=1] [ref=e70]
+          - paragraph [ref=e71]:
+            - link "Richard Diebenkorn" [ref=e72] [cursor=pointer]:
+              - /url: /constituents/sample/diebenkorn
+          - paragraph [ref=e73]: American, American, 1922–1993
+          - paragraph [ref=e74]: 1982 · Color hard ground etching, spit bite aquatint, aquatint and drypoint on paper
+          - generic [ref=e75]:
+            - button "Save to my finds" [ref=e76]
+            - button "Share" [ref=e77]
+            - button "Print this record" [ref=e78]
+          - generic [ref=e79]:
+            - generic [ref=e80]:
+              - paragraph [ref=e81]: About this work
+              - generic [ref=e82]: "Source: Current gallery label"
+            - paragraph [ref=e83]: For many familiar with Richard Diebenkorn’s work, his intense focus on clubs and spades was a surprising departure from his hugely popular Ocean Park series. The motifs’ bulbous, curvilinear forms starkly contrast with the dramatic rectilinear compositions characterizing Ocean Park and many of his other works on paper. While the views of Ocean Park are distant and geometric, Diebenkorn’s exploration of clubs and spades enfolds the viewer in a close examination of an intimate theme, enlarging forms typically experienced in miniature so that they fill most of the printing plate.
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: Identifying description
+            - paragraph [ref=e86]: two club shapes on a blue ground
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - heading "Creation" [level=3] [ref=e90]
+              - generic [ref=e91]:
+                - generic [ref=e92]:
+                  - text: Date
+                  - paragraph [ref=e93]:
+                    - link "1982" [ref=e94] [cursor=pointer]:
+                      - /url: /search-results?dateBegin=1982&dateEnd=1982
+                - generic [ref=e95]:
+                  - text: Medium
+                  - paragraph [ref=e96]:
+                    - link "Color hard ground etching, spit bite aquatint, aquatint and drypoint on paper" [ref=e97] [cursor=pointer]:
+                      - /url: /search-results
+                - generic [ref=e98]:
+                  - text: Dimensions
+                  - list [ref=e99]:
+                    - listitem [ref=e100]:
+                      - generic [ref=e101]: "Overall:"
+                      - text: 32 15/16 x 26 3/8 in. (83.7 x 67 cm)
+                    - listitem [ref=e102]:
+                      - generic [ref=e103]: "Image:"
+                      - text: 19 7/8 x 18 13/16 in. (50.5 x 47.8 cm)
+            - generic [ref=e104]:
+              - heading "Origin" [level=3] [ref=e105]
+              - generic [ref=e107]:
+                - text: Place of creation
+                - link "Oakland" [ref=e110] [cursor=pointer]:
+                  - /url: /search-results
+            - generic [ref=e111]:
+              - heading "Department & type" [level=3] [ref=e112]
+              - generic [ref=e113]:
+                - generic [ref=e114]:
+                  - text: Department
+                  - paragraph [ref=e115]:
+                    - link "Achenbach Foundation for Graphic Arts" [ref=e116] [cursor=pointer]:
+                      - /url: /collection-area
+                - generic [ref=e117]:
+                  - text: Classification
+                  - paragraph [ref=e118]:
+                    - link "Print" [ref=e119] [cursor=pointer]:
+                      - /url: /search-results
+            - generic [ref=e120]:
+              - heading "Acquisition" [level=3] [ref=e121]
+              - generic [ref=e122]:
+                - generic [ref=e123]:
+                  - text: Credit line
+                  - paragraph [ref=e124]:
+                    - link "Crown Point Press Archive, gift of Crown Point Press" [ref=e125] [cursor=pointer]:
+                      - /url: /search-results
+                - generic [ref=e126]:
+                  - text: Acquired
+                  - paragraph [ref=e127]: 1991-06-06
+            - generic [ref=e128]:
+              - heading "Identifiers" [level=3] [ref=e129]
+              - generic [ref=e130]:
+                - generic [ref=e131]:
+                  - text: Accession number
+                  - paragraph [ref=e132]: 1991.28.77
+                - generic [ref=e133]:
+                  - text: Edition
+                  - paragraph [ref=e134]: Edition 35, AP 6/11
+                - generic [ref=e135]:
+                  - text: Alternate titles
+                  - paragraph [ref=e136]: Clubs—Blue Ground
+                - generic [ref=e137]:
+                  - text: Object names
+                  - paragraph [ref=e138]:
+                    - link "intaglio print" [ref=e139] [cursor=pointer]:
+                      - /url: /search-results
+          - generic [ref=e140]:
+            - generic [ref=e141]:
+              - text: Signed
+              - paragraph [ref=e142]: (recto, lower right, in graphite) RD 82
+            - generic [ref=e143]:
+              - text: Inscriptions
+              - paragraph [ref=e144]: (recto, lower left, in graphite) AP 6; (verso) OK to print
+            - generic [ref=e145]:
+              - text: Marks
+              - paragraph [ref=e146]: (recto, lower right, embossed) publisher's blind stamp; (recto, lower right, embossed) printer's blind stamp
+          - generic [ref=e147]:
+            - paragraph [ref=e148]: Rights
+            - generic [ref=e149]:
+              - generic [ref=e150]: ©
+              - generic [ref=e151]:
+                - paragraph [ref=e152]: In Copyright
+                - paragraph [ref=e153]: © 2026 Richard Diebenkorn Foundation / Artists Rights Society (ARS), New York
+                - paragraph [ref=e154]: rightstatements.org
+      - generic [ref=e156]:
+        - paragraph [ref=e157]: Physical description
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - term [ref=e160]: Identifying description
+            - definition [ref=e161]: two club shapes on a blue ground
+          - generic [ref=e162]:
+            - term [ref=e163]: Signed
+            - definition [ref=e164]: (recto, lower right, in graphite) RD 82
+          - generic [ref=e165]:
+            - term [ref=e166]: Marks
+            - definition [ref=e167]: (recto, lower right, embossed) publisher's blind stamp; (recto, lower right, embossed) printer's blind stamp
+          - generic [ref=e168]:
+            - term [ref=e169]: Inscriptions
+            - definition [ref=e170]: (recto, lower left, in graphite) AP 6; (verso) OK to print
+      - generic [ref=e172]:
+        - paragraph [ref=e173]: Scale
+        - img [ref=e175]
+        - generic [ref=e182]:
+          - generic [ref=e183]: 170 cm
+          - generic [ref=e184]: "Sheet: 32 15/16 x 26 3/8 in. (83.7 x 67 cm) Image: 19 7/8 x 18 13/16 in. (50.5 x 47.8 cm)"
+      - generic [ref=e186]:
+        - paragraph [ref=e187]: Makers & contributors
+        - list [ref=e188]:
+          - listitem [ref=e189]:
+            - generic [ref=e190]:
+              - link "Richard Diebenkorn" [ref=e191] [cursor=pointer]:
+                - /url: /constituents/sample/diebenkorn
+              - generic [ref=e192]: ID 9993
+            - paragraph [ref=e193]: Artist · American, 1922–1993
+          - listitem [ref=e194]:
+            - generic [ref=e195]:
+              - link "Lilah Toland" [ref=e196] [cursor=pointer]:
+                - /url: /constituents/sample
+              - generic [ref=e197]: ID 7903
+            - paragraph [ref=e198]: Printer · American, active 20th century
+          - listitem [ref=e199]:
+            - generic [ref=e200]:
+              - link "Hidekatsu Takada" [ref=e201] [cursor=pointer]:
+                - /url: /constituents/sample
+              - generic [ref=e202]: ID 5148
+            - paragraph [ref=e203]: Printing Assistant · American, 1944–2025
+          - listitem [ref=e204]:
+            - generic [ref=e205]:
+              - link "Paul Singdahlsen" [ref=e206] [cursor=pointer]:
+                - /url: /constituents/sample
+              - generic [ref=e207]: ID 10972
+            - paragraph [ref=e208]: Printing Assistant · American, active 20th century
+          - listitem [ref=e209]:
+            - generic [ref=e210]:
+              - link "Crown Point Press" [ref=e211] [cursor=pointer]:
+                - /url: /constituents/sample
+              - generic [ref=e212]: ID 7900
+            - paragraph [ref=e213]: Publisher · est. 1962
+      - generic [ref=e215]:
+        - paragraph [ref=e216]: Related stories & publications
+        - generic [ref=e217]:
+          - generic [ref=e218]:
+            - text: Articles & stories
+            - list [ref=e219]:
+              - listitem [ref=e220]:
+                - paragraph [ref=e221]: "The road from Pontoise: Pissarro's plein-air practice"
+                - paragraph [ref=e222]: Magazine · 6 min read
+              - listitem [ref=e223]:
+                - paragraph [ref=e224]: How to look at an Impressionist landscape
+                - paragraph [ref=e225]: Story · 4 min read
+          - generic [ref=e226]:
+            - text: Publications
+            - list [ref=e227]:
+              - listitem [ref=e228]:
+                - generic [ref=e229]:
+                  - generic [ref=e231]: "[Cover]"
+                  - generic [ref=e232]:
+                    - paragraph [ref=e233]: "Impressionism: Masterworks from FAMSF"
+                    - paragraph [ref=e234]: 2019 · FAMSF Press
+                    - generic [ref=e235]: Free to download
+          - generic [ref=e236]:
+            - text: Videos
+            - list [ref=e237]:
+              - listitem [ref=e238]:
+                - generic [ref=e240]: "[Curator interview thumbnail]"
+                - paragraph [ref=e241]: Esther Bell on Pissarro and the Impressionists
+                - paragraph [ref=e242]: Video · 8:42
+      - generic [ref=e244]:
+        - paragraph [ref=e245]: Visually similar (AI)
+        - paragraph [ref=e246]: Computer-vision matches based on the artwork's image, not its metadata
+        - generic [ref=e247]:
+          - link "[The Triumph of Bacchus] The Triumph of Bacchus Match 95%" [ref=e248] [cursor=pointer]:
+            - /url: /object-detail?id=8285
+            - generic [ref=e250]: "[The Triumph of Bacchus]"
+            - generic [ref=e251]:
+              - paragraph [ref=e252]: The Triumph of Bacchus
+              - paragraph [ref=e253]: Match 95%
+          - 'link "[#1] #1 Match 89%" [ref=e254] [cursor=pointer]':
+            - /url: /object-detail?id=311906
+            - generic [ref=e256]: "[#1]"
+            - generic [ref=e257]:
+              - paragraph [ref=e258]: "#1"
+              - paragraph [ref=e259]: Match 89%
+          - 'link "[Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925)] Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925) Match 83%" [ref=e260] [cursor=pointer]':
+            - /url: /object-detail?id=128513
+            - generic [ref=e262]: "[Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925)]"
+            - generic [ref=e263]:
+              - paragraph [ref=e264]: "Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925)"
+              - paragraph [ref=e265]: Match 83%
+          - link "[Untitled (Two Figures)] Untitled (Two Figures) Match 77%" [ref=e266] [cursor=pointer]:
+            - /url: /object-detail?id=99070
+            - generic [ref=e268]: "[Untitled (Two Figures)]"
+            - generic [ref=e269]:
+              - paragraph [ref=e270]: Untitled (Two Figures)
+              - paragraph [ref=e271]: Match 77%
+          - link "[Joseph and the Wife of Potiphar] Joseph and the Wife of Potiphar Match 71%" [ref=e272] [cursor=pointer]:
+            - /url: /object-detail?id=15601
+            - generic [ref=e274]: "[Joseph and the Wife of Potiphar]"
+            - generic [ref=e275]:
+              - paragraph [ref=e276]: Joseph and the Wife of Potiphar
+              - paragraph [ref=e277]: Match 71%
+          - link "[\"The Prince's cicerone\" from Vanity Fair Supplement] \"The Prince's cicerone\" from Vanity Fair Supplement Match 65%" [ref=e278] [cursor=pointer]:
+            - /url: /object-detail?id=231
+            - generic [ref=e280]: "[\"The Prince's cicerone\" from Vanity Fair Supplement]"
+            - generic [ref=e281]:
+              - paragraph [ref=e282]: "\"The Prince's cicerone\" from Vanity Fair Supplement"
+              - paragraph [ref=e283]: Match 65%
+      - generic [ref=e285]:
+        - paragraph [ref=e286]: Scholarly essay
+        - generic [ref=e288]: "[Long-form curatorial essay: in-depth art historical analysis for select highlights]"
+      - generic [ref=e290]:
+        - paragraph [ref=e291]: Provenance
+        - generic [ref=e292]: "[Provenance data for Clubs—Blue Ground]"
+      - generic [ref=e294]:
+        - paragraph [ref=e295]: Exhibition history
+        - generic [ref=e296]:
+          - article [ref=e297]:
+            - paragraph [ref=e298]: Celebrating 100 Years at the Legion of Honor
+            - paragraph [ref=e299]: Saturday, November 9, 2024 - Sunday, November 2, 2025 · Legion of Honor
+          - article [ref=e300]:
+            - paragraph [ref=e301]: Diebenkorn in Color
+            - paragraph [ref=e302]: Saturday, September 10, 2022 - Sunday, February 12, 2023 · de Young Museum
+      - generic [ref=e304]:
+        - paragraph [ref=e305]: Citation
+        - generic [ref=e306]:
+          - paragraph [ref=e307]:
+            - text: Richard Diebenkorn,
+            - emphasis [ref=e308]: Clubs—Blue Ground
+            - text: ", 1982, Color hard ground etching, spit bite aquatint, aquatint and drypoint on paper, Sheet: 32 15/16 x 26 3/8 in. (83.7 x 67 cm) Image: 19 7/8 x 18 13/16 in. (50.5 x 47.8 cm). Fine Arts Museums of San Francisco, Crown Point Press Archive, gift of Crown Point Press, 1991.28.77."
+          - button "Copy citation" [ref=e309]
+      - generic [ref=e311]:
+        - paragraph [ref=e312]: Related works
+        - generic [ref=e313]:
+          - button "More by this artist" [ref=e314]
+          - button "Similar medium" [ref=e315]
+          - button "Same period" [ref=e316]
+          - button "Same gallery" [ref=e317]
+        - generic [ref=e318]:
+          - link "[The Triumph of Bacchus] The Triumph of Bacchus Annibale Carracci (1560–1609), 17th century Same artist" [ref=e319] [cursor=pointer]:
+            - /url: /object-detail?id=8285
+            - generic [ref=e321]: "[The Triumph of Bacchus]"
+            - generic [ref=e322]:
+              - heading "The Triumph of Bacchus" [level=3] [ref=e323]
+              - paragraph [ref=e324]: Annibale Carracci (1560–1609), 17th century
+              - paragraph [ref=e325]: Same artist
+          - 'link "[#1] #1 Richard Diebenkorn (1922–1993), 1964 Same artist" [ref=e326] [cursor=pointer]':
+            - /url: /object-detail?id=311906
+            - generic [ref=e328]: "[#1]"
+            - generic [ref=e329]:
+              - heading "#1" [level=3] [ref=e330]
+              - paragraph [ref=e331]: Richard Diebenkorn (1922–1993), 1964
+              - paragraph [ref=e332]: Same artist
+          - 'link "[Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925)] Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925) Maurice Denis (1870–1943), 1925 Same artist" [ref=e333] [cursor=pointer]':
+            - /url: /object-detail?id=128513
+            - generic [ref=e335]: "[Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925)]"
+            - generic [ref=e336]:
+              - 'heading "Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925)" [level=3] [ref=e337]'
+              - paragraph [ref=e338]: Maurice Denis (1870–1943), 1925
+              - paragraph [ref=e339]: Same artist
+          - link "[Untitled (Two Figures)] Untitled (Two Figures) Willem de Kooning (1904–1997), ca. 1947 Same artist" [ref=e340] [cursor=pointer]:
+            - /url: /object-detail?id=99070
+            - generic [ref=e342]: "[Untitled (Two Figures)]"
+            - generic [ref=e343]:
+              - heading "Untitled (Two Figures)" [level=3] [ref=e344]
+              - paragraph [ref=e345]: Willem de Kooning (1904–1997), ca. 1947
+              - paragraph [ref=e346]: Same artist
+          - link "[Joseph and the Wife of Potiphar] Joseph and the Wife of Potiphar Marc Chagall (1887–1985), 20th century Same artist" [ref=e347] [cursor=pointer]:
+            - /url: /object-detail?id=15601
+            - generic [ref=e349]: "[Joseph and the Wife of Potiphar]"
+            - generic [ref=e350]:
+              - heading "Joseph and the Wife of Potiphar" [level=3] [ref=e351]
+              - paragraph [ref=e352]: Marc Chagall (1887–1985), 20th century
+              - paragraph [ref=e353]: Same artist
+          - link "[\"The Prince's cicerone\" from Vanity Fair Supplement] \"The Prince's cicerone\" from Vanity Fair Supplement Leslie Matthew Ward, (Spy) (1851–1922), ca. 1900 Same artist" [ref=e354] [cursor=pointer]:
+            - /url: /object-detail?id=231
+            - generic [ref=e356]: "[\"The Prince's cicerone\" from Vanity Fair Supplement]"
+            - generic [ref=e357]:
+              - heading "\"The Prince's cicerone\" from Vanity Fair Supplement" [level=3] [ref=e358]
+              - paragraph [ref=e359]: Leslie Matthew Ward, (Spy) (1851–1922), ca. 1900
+              - paragraph [ref=e360]: Same artist
+          - 'link "[41 Etchings Drypoints by Richard Diebenkorn (Berkeley: Crown Point Press, 1965)] 41 Etchings Drypoints by Richard Diebenkorn (Berkeley: Crown Point Press, 1965) Richard Diebenkorn (1922–1993), 1965 Same artist" [ref=e361] [cursor=pointer]':
+            - /url: /object-detail?id=94752
+            - generic [ref=e363]: "[41 Etchings Drypoints by Richard Diebenkorn (Berkeley: Crown Point Press, 1965)]"
+            - generic [ref=e364]:
+              - 'heading "41 Etchings Drypoints by Richard Diebenkorn (Berkeley: Crown Point Press, 1965)" [level=3] [ref=e365]'
+              - paragraph [ref=e366]: Richard Diebenkorn (1922–1993), 1965
+              - paragraph [ref=e367]: Same artist
+      - generic [ref=e369]:
+        - paragraph [ref=e370]: Educational resources
+        - generic [ref=e371]:
+          - generic [ref=e372]:
+            - generic [ref=e373]: Lesson plan
+            - generic [ref=e374]:
+              - paragraph [ref=e375]: Impressionism and the Modern City
+              - paragraph [ref=e376]: Grades 6–12 · 2–3 class periods
+          - link "View all educational resources→" [ref=e377] [cursor=pointer]:
+            - /url: /educational-resources
+      - generic [ref=e380]:
+        - generic [ref=e381]: i
+        - generic [ref=e382]:
+          - paragraph [ref=e383]: Information on this page is provided for research purposes and may not be current. Please contact the museum for the most up-to-date information.
+          - button "Report an error" [ref=e384]
+  - button "Search the collection" [ref=e386]: ⌕
+  - contentinfo [ref=e387]:
+    - generic [ref=e388]:
+      - generic [ref=e389]:
+        - generic [ref=e390]:
+          - text: FAMSFCollection
+          - paragraph [ref=e391]: Fine Arts Museums of San Francisco
+          - list [ref=e392]:
+            - listitem [ref=e393]:
+              - link "famsf.org ↗" [ref=e394] [cursor=pointer]:
+                - /url: https://www.famsf.org/
+            - listitem [ref=e395]:
+              - link "Plan your visit ↗" [ref=e396] [cursor=pointer]:
+                - /url: https://www.famsf.org/visit
+            - listitem [ref=e397]:
+              - link "Tickets ↗" [ref=e398] [cursor=pointer]:
+                - /url: https://tickets.famsf.org/
+            - listitem [ref=e399]:
+              - link "Accessibility" [ref=e400] [cursor=pointer]:
+                - /url: /accessibility-statement
+        - generic [ref=e401]:
+          - paragraph [ref=e402]: Collection
+          - list [ref=e403]:
+            - listitem [ref=e404]:
+              - link "Search" [ref=e405] [cursor=pointer]:
+                - /url: /search-results
+            - listitem [ref=e406]:
+              - link "Explore" [ref=e407] [cursor=pointer]:
+                - /url: /explore
+            - listitem [ref=e408]:
+              - link "Collection areas" [ref=e409] [cursor=pointer]:
+                - /url: /collection-area
+        - generic [ref=e410]:
+          - paragraph [ref=e411]: Tools
+          - list [ref=e412]:
+            - listitem [ref=e413]:
+              - link "My finds" [ref=e414] [cursor=pointer]:
+                - /url: /my-finds
+            - listitem [ref=e415]:
+              - link "Visit planner" [ref=e416] [cursor=pointer]:
+                - /url: /visit-planner
+            - listitem [ref=e417]:
+              - link "Educational resources" [ref=e418] [cursor=pointer]:
+                - /url: /educational-resources
+      - paragraph [ref=e419]: These wireframes are for internal review only. Content and data are illustrative.
+  - button "Open Next.js Dev Tools" [ref=e425] [cursor=pointer]:
+    - img [ref=e426]
+  - alert [ref=e429]

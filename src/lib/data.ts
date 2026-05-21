@@ -54,24 +54,10 @@ export const pages: WireframePage[] = [
 		status: "wip",
 	},
 	{
-		id: "object-detail",
-		title: "Object Detail",
-		description:
-			"The one-stop shop: image gallery, tombstone, provenance, exhibitions, related works",
-		status: "wip",
-	},
-	{
 		id: "collection-area",
 		title: "Collection Area",
 		description:
 			"Department landing page: about, highlights, browse options, related content",
-		status: "wip",
-	},
-	{
-		id: "artist-page",
-		title: "Artist Page",
-		description:
-			"Artist entity page: biography, works grid, exhibition history",
 		status: "wip",
 	},
 	{
@@ -216,7 +202,6 @@ export const navigation: NavNode[] = [
 		label: "Records",
 		href: "",
 		children: [
-			{ label: "Object Detail", href: "/object-detail" },
 			{ label: "Portfolio / Multi-Part", href: "/portfolio-detail" },
 			{
 				label: "Parent Record (Ensemble / Series)",
@@ -224,7 +209,6 @@ export const navigation: NavNode[] = [
 			},
 			{ label: "Collection Area", href: "/collection-area" },
 			{ label: "Artist Search", href: "/artist-search" },
-			{ label: "Artist Page", href: "/artist-page" },
 			{ label: "Collector / Donor", href: "/collector-page" },
 		],
 	},
@@ -286,8 +270,8 @@ export interface FooterGroup {
 }
 
 // Footer groups model the live, public collection site: wireframe-internal
-// pages (object-detail, artist-page, etc.) are reachable from the wireframe
-// index, not the footer.
+// pages (objects/sample, constituent samples, etc.) are reachable from the
+// wireframe index, not the footer.
 export const footerGroups: FooterGroup[] = [
 	{
 		heading: "Collection",

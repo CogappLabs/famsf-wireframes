@@ -129,3 +129,32 @@ export function findConstituentBySlug(
 ): ConstituentSampleEntry | undefined {
 	return loadConstituentSamples().find((e) => e.slug === slug);
 }
+
+/** Resolve a constituent name (case-insensitive) to its slug, or null. */
+export function findConstituentSlugByName(name: string): string | null {
+	const lc = name.trim().toLowerCase();
+	if (!lc) return null;
+	const hit = loadConstituentSamples().find(
+		(e) => (e.doc.name ?? "").toLowerCase() === lc,
+	);
+	return hit?.slug ?? null;
+}
+
+/** Build a quick {id -> slug} lookup. Useful for server pages that already
+ * iterate registry entries and need to render links inside client children. */
+export function constituentSlugById(): Record<number, string> {
+	const out: Record<number, string> = {};
+	for (const e of loadConstituentSamples()) out[e.doc.id] = e.slug;
+	return out;
+}
+
+/** Build a {lowercase artist name -> slug} lookup. Useful for client pages
+ * that have a free-text artist name and need to resolve to a constituent
+ * route. */
+export function constituentSlugByName(): Record<string, string> {
+	const out: Record<string, string> = {};
+	for (const e of loadConstituentSamples()) {
+		if (e.doc.name) out[e.doc.name.toLowerCase()] = e.slug;
+	}
+	return out;
+}

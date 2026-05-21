@@ -13,6 +13,7 @@ import {
 	findConstituentBySlug,
 	loadConstituentSamples,
 } from "@/lib/constituent-samples-registry";
+import { loadSampleDocs, objectSlugById } from "@/lib/sample-docs-registry";
 import { ScopePage } from "@/providers/ScopeProvider";
 
 export function generateStaticParams() {
@@ -29,7 +30,32 @@ export default async function SampleConstituentPage({ params }: Props) {
 	if (!entry) notFound();
 	const doc = entry.doc;
 
-	const sampleObjects = doc.sample_objects ?? [];
+	// Pool real sample-doc objects that mention this constituent, then unify
+	// with the constituent's own sample_objects list. Only surface entries
+	// that have a real CollectionDocument behind them so deep links work.
+	const allSampleDocs = loadSampleDocs();
+	const realObjectIds = new Set(allSampleDocs.map((e) => e.doc.id));
+	const fromConstituentDoc = (doc.sample_objects ?? []).filter((o) =>
+		realObjectIds.has(o.id),
+	);
+	const fromSampleDocs = allSampleDocs
+		.filter((e) => e.doc.constituents?.some((c) => c.ConstituentID === doc.id))
+		.map((e) => ({
+			id: e.doc.id,
+			accession_number: e.doc.accession_number,
+			title: e.doc.title ?? null,
+			display_date: e.doc.display_date ?? null,
+			primary_artist_display:
+				e.doc.primary_artist_display ?? e.doc.primary_artist ?? null,
+			iiif_thumbnail_url: e.doc.iiif_thumbnail_url ?? null,
+			has_iiif: e.doc.has_iiif,
+		}));
+	const sampleObjectsById = new Map<number, (typeof fromConstituentDoc)[0]>();
+	for (const o of [...fromConstituentDoc, ...fromSampleDocs]) {
+		if (!sampleObjectsById.has(o.id)) sampleObjectsById.set(o.id, o);
+	}
+	const sampleObjects = Array.from(sampleObjectsById.values());
+	const slugById = objectSlugById();
 	const displayBios = doc.display_bios ?? [];
 	const facets = doc.facets ?? null;
 
@@ -237,7 +263,7 @@ export default async function SampleConstituentPage({ params }: Props) {
 									`, ${sampleObjects.length} shown`}
 								){" "}
 								<Link
-									href={`/search-results?constituent=${doc.id}`}
+									href={`/search-results?facet=${encodeURIComponent(`artist:${doc.name}`)}&artist=${encodeURIComponent(doc.name)}`}
 									className="ml-2 font-mono text-label normal-case underline decoration-gray-300 hover:decoration-gray-600"
 								>
 									view all →
@@ -246,8 +272,13 @@ export default async function SampleConstituentPage({ params }: Props) {
 							<FieldSourceBadge field="constituent_sample_objects" block />
 							<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
 								{sampleObjects.map((obj) => (
-									<div
+									<Link
 										key={obj.id}
+										href={
+											slugById[obj.id]
+												? `/objects/sample/${slugById[obj.id]}`
+												: "/objects/sample"
+										}
 										className="border border-gray-200 hover:border-gray-400"
 									>
 										<ImagePlaceholder
@@ -271,7 +302,7 @@ export default async function SampleConstituentPage({ params }: Props) {
 												</p>
 											)}
 										</div>
-									</div>
+									</Link>
 								))}
 							</div>
 						</Container>

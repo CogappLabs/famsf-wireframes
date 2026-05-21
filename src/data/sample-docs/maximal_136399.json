@@ -345,10 +345,10 @@
 	"sort_artist": "louise nevelson",
 	"sort_year": 1959,
 	"slug": "sky-cathedral-s-presence-i-2017-50",
-	"indexed_at": "2026-05-19T09:41:58.084870+00:00",
+	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
 	"_sample_meta": {
 		"reason": "Auto-picked: most populated fields in the dataset (true max).",
-		"picked_at": "2026-05-19T09:41:58.084870+00:00",
+		"picked_at": "2026-05-21T11:45:02.518116+00:00",
 		"populated_fields": 53
 	}
 }

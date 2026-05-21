@@ -134,50 +134,26 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Nordstrom pattern: second image on hover in results grid; surfaces multi-view in results without routing to object page. Useful where additional_images count > 1.",
 		issueUrl: issue("CW-43"),
 	},
-
-	// ── Object detail ──────────────────────────────────────────────────
-	"object-detail/Image gallery": {
-		mvp: true,
-		note: "High-res, zoomable, multi-view: top stakeholder priority",
-		issueUrl: issue("CW-45"),
-	},
-	"object-detail/Image actions": {
-		mvp: true,
-		note: "Download (open access) and request (rights-managed)",
-		issueUrl: issue("CW-54"),
-	},
-	"object-detail/Tombstone": { mvp: true, issueUrl: issue("CW-49") },
-	"object-detail/Label text": {
-		mvp: true,
-		note: "Expanded by default, with content source label",
-		issueUrl: issue("CW-49"),
-	},
-	"object-detail/Content source": {
-		mvp: true,
-		note: "Source pill on label text: 'current gallery label', 'web essay', etc. CIDA + Education flagged as Must Have for educator/researcher trust.",
-		issueUrl: issue("CW-49"),
-	},
-	"object-detail/Provenance": { mvp: true, issueUrl: issue("CW-50") },
-	"object-detail/Exhibition history": {
-		mvp: true,
-		issueUrl: issue("CW-51"),
-	},
-	"object-detail/Bibliography": {
+	"search-results/Mixed entity results": {
 		mvp: false,
-		note: "Low data coverage currently (231 records)",
-		issueUrl: issue("CW-68"),
+		note: 'Surface matching artists alongside artworks on a single results page. Reduces friction when user query matches a person rather than an object (e.g. "Pissarro"). Artists row shown above artworks; each routes to /constituents/sample/{slug}.',
+		issueUrl: issue("CW-43"),
 	},
-	"object-detail/Related works": {
-		mvp: true,
-		note: "Contracted recirc module (Proposal §UX and discovery: works by same artist, related works)",
-		issueUrl: issue("CW-65"),
+	"search-results/Interleaved entity results": {
+		mvp: false,
+		note: "Single ranked stream mixing artist + artwork tiles. Entity type indicated by badge + border treatment. Ranking blends artist match score with artwork match score; useful when query relevance crosses entity types.",
+		issueUrl: issue("CW-43"),
 	},
-	"object-detail/Rights & citation": {
-		mvp: true,
-		note: "Rights statement icons (rightstatements.org) + citation generator",
-		issueUrl: issue("CW-52"),
+	"search-results/Featured artist hero": {
+		mvp: false,
+		note: "When an autocomplete artist suggestion is clicked, that artist surfaces as a wide horizontal hero card above the result grid (mixed/interleaved variations). Removes the artist from the small artist tile row to avoid duplication. Mirrors the pattern used on Google A&C / Europeana when a query maps strongly to a single entity.",
+		issueUrl: issue("CW-43"),
 	},
-	"object-detail/Data disclaimer": { mvp: true, issueUrl: issue("CW-53") },
+	"search-results/Entity-type scope": {
+		mvp: false,
+		note: "Pill row above results scopes mixed/interleaved variations to All / Artworks / Artists. All + Artworks share artwork facet set (interleaved still surfaces matching artist tiles inline). Artists scope swaps facet bar to Nationality, Dates active (century buckets, matching /artist-search), Role (sourced from constituent fields Nationality/Role/BeginDate/EndDate) plus Identity (post-MVP). Geography, Culture, Department are artwork-level (term_place_of_creation etc.) and excluded from artist scope. Avoids ambiguous cross-entity facet counts.",
+		issueUrl: issue("CW-43"),
+	},
 
 	// ── Collection area ────────────────────────────────────────────────
 	"collection-area/Hero": { mvp: true, issueUrl: issue("CW-30") },
@@ -215,25 +191,6 @@ export const scope: Record<string, ScopeEntry> = {
 		issueUrl: issue("CW-30"),
 	},
 
-	// ── Artist page ────────────────────────────────────────────────────
-	"artist-page/Artist header": { mvp: true, issueUrl: issue("CW-31") },
-	"artist-page/Biography": {
-		mvp: false,
-		note: "Requires editorial content: not in TMS",
-		issueUrl: issue("CW-31"),
-	},
-	"artist-page/Works grid": { mvp: true, issueUrl: issue("CW-31") },
-	"artist-page/Exhibition history": {
-		mvp: true,
-		note: "Exhibitions list already nested per object in the index. Aggregating per artist is a simple reduce: trivial to surface.",
-		issueUrl: issue("CW-31"),
-	},
-	"artist-page/Related artists": {
-		mvp: false,
-		note: "AI-assisted or metadata-driven",
-		issueUrl: issue("CW-31"),
-	},
-
 	// ── Artist search / index ──────────────────────────────────────────
 	"artist-search/Search bar": {
 		mvp: true,
@@ -250,33 +207,6 @@ export const scope: Record<string, ScopeEntry> = {
 		mvp: true,
 		note: "Nationality, dates active, role. Re-uses search-results facet pattern (horizontal pill bar + dialog). Production facet list to be confirmed with curators.",
 		issueUrl: issue("CW-31"),
-	},
-
-	// ── Object detail additions ────────────────────────────────────────
-	"object-detail/Scholarly essay": {
-		mvp: false,
-		note: "Long-form curatorial writing for select highlights",
-		issueUrl: issue("CW-67"),
-	},
-	"object-detail/Hyperlinked metadata": {
-		mvp: true,
-		note: "Click metadata values to trigger filtered searches",
-		issueUrl: issue("CW-47"),
-	},
-	"object-detail/Jump-to navigation": {
-		mvp: true,
-		note: "Horizontal anchor links for long object pages",
-		issueUrl: issue("CW-48"),
-	},
-	"object-detail/3D and video": {
-		mvp: true,
-		note: "Audio, video, and other media content explicitly contracted (Proposal §UX and discovery)",
-		issueUrl: issue("CW-66"),
-	},
-	"object-detail/Educational resources": {
-		mvp: false,
-		note: "Linked lesson plans and edu content tags",
-		issueUrl: issue("CW-69"),
 	},
 
 	// ── Explore ────────────────────────────────────────────────────────
@@ -375,7 +305,7 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"image-orders/Cart": {
 		mvp: false,
-		note: "Works added from object-detail's Request Image button accumulate here",
+		note: "Works added from the object page's Request Image button accumulate here",
 	},
 	"image-orders/Request form": { mvp: false },
 
@@ -384,7 +314,7 @@ export const scope: Record<string, ScopeEntry> = {
 	// a standalone exhibition record page is not in the current backlog.
 	"exhibition-detail/Header": {
 		mvp: false,
-		note: "Cross-link target from object-detail exhibition history list",
+		note: "Cross-link target from the object page's exhibition history list",
 	},
 	"exhibition-detail/Works in exhibition": { mvp: false },
 	"exhibition-detail/Curatorial essay": { mvp: false },
@@ -402,16 +332,6 @@ export const scope: Record<string, ScopeEntry> = {
 	"accessibility-statement/Feedback": { mvp: true, issueUrl: issue("CW-99") },
 
 	// ── Cross-page non-MVP additions ────────────────────────────────────
-	"object-detail/Scale diagram": {
-		mvp: false,
-		note: "Object size relative to 170cm human silhouette: high value for decorative arts and sculpture",
-		issueUrl: issue("CW-29"),
-	},
-	"object-detail/SEO landing context": {
-		mvp: false,
-		note: "Direct-from-Google entry pattern (analytics-flagged); not contracted: defer to Discovery",
-		issueUrl: issue("CW-22"),
-	},
 	"explore/Shuffle (active)": {
 		mvp: false,
 		note: "Random trait shuffle: period × medium × theme. Städel-museum pattern",
@@ -438,86 +358,10 @@ export const scope: Record<string, ScopeEntry> = {
 		issueUrl: issue("CW-61"),
 	},
 
-	// ── Object detail extensions ────────────────────────────────────────
-	"object-detail/Parent record": {
-		mvp: true,
-		note: "is_compound flag already detected via accession regex (transform/objects.py). Upward link to compound parent is trivial. Ensemble/Series links require explicit TMS data (post-MVP).",
-		issueUrl: issue("CW-32"),
-	},
-	"object-detail/Alt text": {
-		mvp: true,
-		note: "Required for accessibility and SEO: must be in TMS",
-		issueUrl: issue("CW-24"),
-	},
-	"object-detail/Attributes": {
-		mvp: true,
-		note: "Period, Style, Movement, Dynasty, Reign all indexed (collection_documents.py). Keywords need extraction (post-MVP). Surface what we have.",
-		issueUrl: issue("CW-47"),
-	},
-	"object-detail/Physical description": {
-		mvp: true,
-		note: "Marks, Inscriptions, Signed, Labels, Identifying Description: all already indexed by collection-flow (signed/inscribed/markings/description/label_text). Trivial to surface.",
-		issueUrl: issue("CW-49"),
-	},
-	"object-detail/Museum location": {
-		mvp: true,
-		note: "de Young vs Legion of Honor: recurring pain point across stakeholder synthesis, gap analysis, and Hotjar. Field is indexed; display task only.",
-		issueUrl: issue("CW-49"),
-	},
 	"collection-area/Museum location": {
 		mvp: true,
 		note: "Clarify which museum (de Young / Legion) houses each collection area. Gap-analysis recurring theme: visitors confused about institution-collection mapping.",
 		issueUrl: issue("CW-30"),
-	},
-	"object-detail/Uncertainty qualifiers": {
-		mvp: true,
-		note: "Surface 'possibly by X' attribution prefix on object page. CIDA Must Have: field already exists in TMS attribution data. Researcher trust signal.",
-		issueUrl: issue("CW-49"),
-	},
-	"object-detail/Constituents": {
-		mvp: true,
-		note: "Constituents list already indexed (collection-flow join/objects_with_relations.py: ConstituentID, Role, RoleID, Displayed nested per object). Surface as basic list. Invisible-role + Possibly attribution flags need ETL extension (post-MVP).",
-		issueUrl: issue("CW-49"),
-	},
-	"object-detail/In-copyright modal": {
-		mvp: true,
-		note: "copyright field indexed. Rights workflow is a UX must for any image-rich site. CMA-pattern alternatives keep the page from being a dead-end.",
-		issueUrl: issue("CW-54"),
-	},
-	"object-detail/Editorial column": {
-		mvp: false,
-		note: "AIC pattern: articles, stories, publications surfaced alongside metadata",
-		issueUrl: issue("CW-29"),
-	},
-	"object-detail/Visually similar (AI)": {
-		mvp: false,
-		note: "CMA pattern: image-vector kNN recommendations on detail page",
-		issueUrl: issue("CW-65"),
-	},
-	"object-detail/Media (3D, video, audio)": {
-		mvp: true,
-		note: "Audio tour stops + curator commentary alongside 3D and video",
-		issueUrl: issue("CW-66"),
-	},
-	"object-detail/Inline filmstrip expansion": {
-		mvp: false,
-		note: "MIA pattern: '+' next to metadata term expands related works in-page rather than routing away. Strongest in-page discovery interaction in landscape audit. Keeps visitor anchored to current object.",
-		issueUrl: issue("CW-65"),
-	},
-	"object-detail/Persistent scrolling image": {
-		mvp: false,
-		note: "V&A pattern: primary artwork stays visible through full scroll. Variation candidate on object-detail layout.",
-		issueUrl: issue("CW-45"),
-	},
-	"object-detail/Metadata tooltips": {
-		mvp: false,
-		note: "Getty + DIA pattern: plain-language explanations on specialist fields (accession number, attribution qualifiers, provenance). Bridges researcher/general split.",
-		issueUrl: issue("CW-49"),
-	},
-	"object-detail/Engagement metrics (OA)": {
-		mvp: false,
-		note: "Unsplash analog: download/view counts on open-access works. Reinforces value of OA programme beyond rights badge.",
-		issueUrl: issue("CW-54"),
 	},
 
 	// ── My Finds ───────────────────────────────────────────────────────

@@ -134,3 +134,13 @@ export function loadSampleDocs(): SampleEntry[] {
 export function findSampleBySlug(slug: string): SampleEntry | undefined {
 	return loadSampleDocs().find((e) => e.slug === slug);
 }
+
+/** {ObjectID -> slug} lookup. First sample-doc per id wins (registry is
+ * already sorted newest-mtime first within each group). */
+export function objectSlugById(): Record<number, string> {
+	const out: Record<number, string> = {};
+	for (const e of loadSampleDocs()) {
+		if (out[e.doc.id] === undefined) out[e.doc.id] = e.slug;
+	}
+	return out;
+}

@@ -12,8 +12,17 @@ import {
 } from "@/components/wireframe";
 import FieldSourceBadge from "@/components/wireframe/FieldSourceBadge";
 import JumpToNav from "@/components/wireframe/JumpToNav";
+import {
+	RelatedWorksSection,
+	ScaleDiagram,
+	VisuallySimilarGrid,
+} from "@/components/wireframe/object-detail";
 import { allMedia, iiifImageUrl } from "@/lib/collection-document";
-import { findSampleBySlug, loadSampleDocs } from "@/lib/sample-docs-registry";
+import {
+	findSampleBySlug,
+	loadSampleDocs,
+	objectSlugById,
+} from "@/lib/sample-docs-registry";
 import { ScopePage } from "@/providers/ScopeProvider";
 
 // ── Variant registry ──────────────────────────────────────────────────
@@ -175,6 +184,52 @@ export default async function SampleObjectPage({ params }: Props) {
 			? [doc.location_building, doc.location_room].filter(Boolean).join(", ")
 			: null;
 
+	// Parent record: link to the in-repo sample if known, else fall back to legacy route.
+	const slugById = objectSlugById();
+	const parentSlug = doc.physical_parent_id
+		? (slugById[doc.physical_parent_id] ?? null)
+		: null;
+	const parentHref = doc.physical_parent_id
+		? parentSlug
+			? `/objects/sample/${parentSlug}`
+			: "/objects/sample"
+		: null;
+
+	// Museum location string for the Acquisition group.
+	const museumLocation =
+		doc.location_string ??
+		doc.location_room ??
+		doc.location_building ??
+		"Not on view";
+
+	// Rights status: drives whether the download placeholder is disabled.
+	const isPublicDomain =
+		doc.copyright?.toLowerCase().includes("public domain") ?? false;
+	const rightsStatement = doc.copyright ?? "Rights not specified";
+
+	// Suggested citation built from tombstone fields. [placeholder] formatting.
+	const citationParts = [
+		doc.title,
+		doc.primary_artist,
+		doc.accession_number,
+		doc.credit_line,
+	].filter(Boolean);
+	const suggestedCitation = `${citationParts.join(", ")}. Fine Arts Museums of San Francisco.`;
+
+	// Related works pool: same department or same primary artist, excluding self.
+	const allDocs = loadSampleDocs();
+	const related = allDocs
+		.filter((e) => e.doc.id !== doc.id)
+		.filter(
+			(e) =>
+				(doc.department && e.doc.department === doc.department) ||
+				(doc.primary_artist && e.doc.primary_artist === doc.primary_artist),
+		)
+		.slice(0, 8)
+		.map((e) => e.doc);
+
+	const lastUpdated = doc.last_modified ?? doc.indexed_at;
+
 	return (
 		<ScopePage id="objects/sample">
 			<div className="min-h-screen bg-white">
@@ -187,6 +242,35 @@ export default async function SampleObjectPage({ params }: Props) {
 						]}
 					/>
 				</Container>
+
+				{/* Parent record banner */}
+				{doc.physical_parent_id && parentHref && (
+					<ScopeMark label="Parent record">
+						<Container className="border-b border-gray-200 bg-gray-50 py-3">
+							<div className="flex items-center justify-between gap-3">
+								<div>
+									<TombstoneLabel>
+										Part of &middot; Parent record
+									</TombstoneLabel>
+									<p className="font-mono text-meta text-gray-700">
+										{doc.parent_title ?? "Parent record"}
+										{doc.parent_accession_number && (
+											<span className="ml-2 text-gray-500">
+												({doc.parent_accession_number})
+											</span>
+										)}
+									</p>
+								</div>
+								<Link
+									href={parentHref}
+									className="font-mono text-label uppercase tracking-wide text-gray-600 underline hover:text-gray-900"
+								>
+									View parent record &rarr;
+								</Link>
+							</div>
+						</Container>
+					</ScopeMark>
+				)}
 
 				{/* Jump-to nav */}
 				<ScopeMark label="Jump-to navigation">
@@ -210,6 +294,12 @@ export default async function SampleObjectPage({ params }: Props) {
 								...(doc.has_provenance
 									? [{ label: "Provenance", id: "provenance" }]
 									: []),
+								{ label: "Scholarly essay", id: "scholarly-essay" },
+								...(related.length > 0
+									? [{ label: "Related works", id: "related" }]
+									: []),
+								{ label: "Rights & citation", id: "rights-citation" },
+								{ label: "Educational resources", id: "educational-resources" },
 							]}
 						/>
 					</Container>
@@ -400,6 +490,60 @@ export default async function SampleObjectPage({ params }: Props) {
 									approved for web
 								</p>
 							)}
+
+							{/* Alt text placeholder */}
+							<ScopeMark label="Alt text">
+								<div className="mt-3 border border-gray-200 bg-gray-50 px-3 py-2">
+									<TombstoneLabel>Alt text [placeholder]</TombstoneLabel>
+									<p className="mt-0.5 font-mono text-meta text-gray-500">
+										Alt text not yet provided
+									</p>
+								</div>
+							</ScopeMark>
+
+							{/* Image actions row [placeholder]: non-functional buttons. */}
+							<WireframeSection label="Image actions">
+								<div className="mt-3 flex flex-wrap items-center gap-3">
+									<button
+										type="button"
+										className="border border-gray-300 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+									>
+										Zoom
+									</button>
+									{isPublicDomain ? (
+										<button
+											type="button"
+											className="border border-gray-300 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+										>
+											Download
+										</button>
+									) : (
+										<button
+											type="button"
+											disabled
+											title="In copyright [placeholder]"
+											className="cursor-not-allowed border border-gray-200 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-400"
+										>
+											Download (in copyright)
+										</button>
+									)}
+									<button
+										type="button"
+										className="border border-gray-300 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+									>
+										Share
+									</button>
+									<button
+										type="button"
+										className="border border-gray-300 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+									>
+										Cite
+									</button>
+									<span className="ml-auto font-mono text-label text-gray-400">
+										[placeholder]
+									</span>
+								</div>
+							</WireframeSection>
 						</Container>
 					</WireframeSection>
 				)}
@@ -633,6 +777,13 @@ export default async function SampleObjectPage({ params }: Props) {
 										field="accession_iso_date"
 									/>
 								)}
+								<ScopeMark label="Museum location">
+									<TombstoneField
+										label="Museum location"
+										value={museumLocation}
+										field="location_string"
+									/>
+								</ScopeMark>
 							</TombstoneGroup>
 
 							{/* Rights */}
@@ -706,15 +857,20 @@ export default async function SampleObjectPage({ params }: Props) {
 								</div>
 							)}
 							{doc.web_text && (
-								<div className="mb-4">
-									<TombstoneLabel className="mb-1 block">
-										Web text
-									</TombstoneLabel>
-									<FieldSourceBadge field="web_text" block />
-									<p className="font-mono text-body leading-relaxed text-gray-600">
-										{stripHtml(doc.web_text)}
-									</p>
-								</div>
+								<ScopeMark label="Content source">
+									<div className="mb-4">
+										<TombstoneLabel className="mb-1 block">
+											Web text
+										</TombstoneLabel>
+										<FieldSourceBadge field="web_text" block />
+										<p className="font-mono text-body leading-relaxed text-gray-600">
+											{stripHtml(doc.web_text)}
+										</p>
+										<p className="mt-1 font-mono text-label text-gray-400">
+											Source: TMS web_text
+										</p>
+									</div>
+								</ScopeMark>
 							)}
 							{doc.didactic_label && doc.didactic_label !== doc.web_text && (
 								<div>
@@ -777,6 +933,9 @@ export default async function SampleObjectPage({ params }: Props) {
 						</Container>
 					</WireframeSection>
 				)}
+
+				{/* Scale diagram */}
+				{doc.dimensions && <ScaleDiagram obj={doc} />}
 
 				{/* Constituents */}
 				{hasConstituents && (
@@ -998,6 +1157,148 @@ export default async function SampleObjectPage({ params }: Props) {
 						</Container>
 					</WireframeSection>
 				)}
+
+				{/* Scholarly essay [placeholder] */}
+				<WireframeSection
+					label="Scholarly essay"
+					className="border-b border-gray-300 py-8"
+				>
+					<Container size="md">
+						<span id="scholarly-essay" className="sr-only">
+							Scholarly essay
+						</span>
+						<SectionLabel className="mb-4">
+							Scholarly essay [placeholder]
+						</SectionLabel>
+						<ScopeMark label="Scholarly essay">
+							<div className="flex flex-col gap-4 font-mono text-body leading-relaxed text-gray-500">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco
+									laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+								<p>
+									Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint
+									occaecat cupidatat non proident, sunt in culpa qui officia
+									deserunt mollit anim id est laborum.
+								</p>
+								<p>
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+									accusantium doloremque laudantium, totam rem aperiam, eaque
+									ipsa quae ab illo inventore veritatis et quasi architecto
+									beatae vitae dicta sunt explicabo.
+								</p>
+							</div>
+						</ScopeMark>
+					</Container>
+				</WireframeSection>
+
+				{/* Related works (real sample-doc pool) */}
+				{related.length > 0 && (
+					<RelatedWorksSection
+						related={related}
+						currentDoc={doc}
+						slugById={slugById}
+					/>
+				)}
+
+				{/* Visually similar [placeholder]: reuses the related pool. */}
+				{related.length > 0 && (
+					<ScopeMark label="Visually similar">
+						<VisuallySimilarGrid candidates={related} slugById={slugById} />
+					</ScopeMark>
+				)}
+
+				{/* Rights & citation */}
+				<WireframeSection
+					label="Rights & citation"
+					className="border-b border-gray-300 py-8"
+				>
+					<Container size="md">
+						<span id="rights-citation" className="sr-only">
+							Rights & citation
+						</span>
+						<SectionLabel className="mb-4">Rights & citation</SectionLabel>
+						<ScopeMark label="Rights statement">
+							<div className="mb-6">
+								<TombstoneLabel className="mb-1 block">
+									Rights statement
+								</TombstoneLabel>
+								<FieldSourceBadge field="copyright" block />
+								<p className="font-mono text-meta text-gray-700">
+									{rightsStatement}
+								</p>
+								{!isPublicDomain && (
+									<span
+										title="In copyright [placeholder]"
+										className="mt-1 inline-block cursor-not-allowed font-mono text-label text-gray-400 underline decoration-gray-300"
+									>
+										More about reuse and image rights [placeholder]
+									</span>
+								)}
+							</div>
+						</ScopeMark>
+						<ScopeMark label="Suggested citation">
+							<div>
+								<TombstoneLabel className="mb-1 block">
+									Suggested citation [placeholder]
+								</TombstoneLabel>
+								<p className="whitespace-pre-line font-mono text-meta text-gray-600">
+									{suggestedCitation}
+								</p>
+							</div>
+						</ScopeMark>
+					</Container>
+				</WireframeSection>
+
+				{/* Educational resources [placeholder] */}
+				<WireframeSection
+					label="Educational resources"
+					className="border-b border-gray-300 py-8"
+				>
+					<Container size="md">
+						<span id="educational-resources" className="sr-only">
+							Educational resources
+						</span>
+						<SectionLabel className="mb-4">
+							Educational resources [placeholder]
+						</SectionLabel>
+						<ScopeMark label="Educational resources">
+							<div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+								{[1, 2, 3].map((i) => (
+									<Link
+										key={i}
+										href="/educational-resources"
+										className="border border-gray-300 p-4 hover:border-gray-500"
+									>
+										<span className="inline-block border border-blue-200 bg-blue-50 px-2 py-0.5 font-mono text-label text-blue-700">
+											Lesson plan
+										</span>
+										<p className="mt-2 font-mono text-body text-gray-700">
+											Lesson plan: {doc.classification ?? "Object"} in context{" "}
+											{i}
+										</p>
+										<p className="mt-1 font-mono text-label text-gray-400">
+											[placeholder]
+										</p>
+									</Link>
+								))}
+							</div>
+						</ScopeMark>
+					</Container>
+				</WireframeSection>
+
+				{/* Data disclaimer */}
+				<Container className="py-4">
+					<ScopeMark label="Data disclaimer">
+						<p className="font-mono text-label text-gray-500">
+							Data may be incomplete or under review. Last updated:{" "}
+							{lastUpdated.slice(0, 10)}
+						</p>
+					</ScopeMark>
+				</Container>
 
 				{/* Document metadata footer */}
 				<Container className="py-6">

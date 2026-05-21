@@ -9,7 +9,7 @@ import {
 	SectionLabel,
 	WireframeSection,
 } from "@/components/wireframe";
-import type { SampleObject } from "@/lib/sample-data";
+import type { CollectionDocument } from "@/lib/collection-document";
 import { t } from "@/lib/strings";
 
 const HUMAN_CM = 170;
@@ -25,8 +25,8 @@ function parseDimensionsCm(input: string): { w: number; h: number } | null {
 	return { w: a, h: b };
 }
 
-export function ScaleDiagram({ obj }: { obj: SampleObject }) {
-	const dims = parseDimensionsCm(obj.dimensions);
+export function ScaleDiagram({ obj }: { obj: CollectionDocument }) {
+	const dims = obj.dimensions ? parseDimensionsCm(obj.dimensions) : null;
 	const maxCm = Math.max(HUMAN_CM, dims?.h ?? 0);
 	const pxPerCm = FRAME_HEIGHT_PX / (maxCm * 1.1); // 10% headroom
 	const humanH = HUMAN_CM * pxPerCm;

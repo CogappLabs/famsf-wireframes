@@ -8,7 +8,7 @@
  * Modelled on craft-searchkit's Autocomplete component.
  */
 
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import {
 	type KeyboardEvent,
 	type ReactNode,
@@ -19,7 +19,6 @@ import {
 	useRef,
 	useState,
 } from "react";
-import { objects } from "@/lib/sample-data";
 import { t } from "@/lib/strings";
 
 // ── Suggestion types ────────────────────────────────────────────────
@@ -31,6 +30,8 @@ interface HitSuggestion {
 	artist: string;
 	date: string;
 	department: string;
+	/** Sample-doc slug when this id maps to a /objects/sample/[variant] route. */
+	slug?: string;
 }
 
 interface FacetSuggestion {
@@ -48,15 +49,11 @@ interface SearchAllSuggestion {
 
 type Suggestion = HitSuggestion | FacetSuggestion | SearchAllSuggestion;
 
-// ── Sample data (derived from shared sample-data.ts) ────────────────
+// ── Fallback sample data ─────────────────────────────────────────────
+// Used only when callers don't pass real `hits`. Empty by default so the
+// listbox stays empty rather than showing legacy mock content.
 
-const SAMPLE_HITS: Omit<HitSuggestion, "type">[] = objects.map((o) => ({
-	id: o.id,
-	title: o.title,
-	artist: o.artist,
-	date: o.date,
-	department: o.department,
-}));
+const SAMPLE_HITS: Omit<HitSuggestion, "type">[] = [];
 
 const SAMPLE_FACETS: Omit<FacetSuggestion, "type">[] = [
 	// Classification / What
@@ -301,13 +298,17 @@ const MAX_FACETS_PER_TYPE = 3;
 
 // ── Matching logic ──────────────────────────────────────────────────
 
-function matchQuery(query: string): Suggestion[] {
+function matchQuery(
+	query: string,
+	hits: Omit<HitSuggestion, "type">[],
+	facets: Omit<FacetSuggestion, "type">[],
+): Suggestion[] {
 	const q = query.toLowerCase();
 	const result: Suggestion[] = [];
 
 	// Facet matches: grouped by type, max per type
 	const grouped: Record<string, FacetSuggestion[]> = {};
-	for (const f of SAMPLE_FACETS) {
+	for (const f of facets) {
 		if (f.value.toLowerCase().includes(q)) {
 			if (!grouped[f.facetType]) grouped[f.facetType] = [];
 			if (grouped[f.facetType].length < MAX_FACETS_PER_TYPE) {
@@ -315,15 +316,17 @@ function matchQuery(query: string): Suggestion[] {
 			}
 		}
 	}
-	for (const facets of Object.values(grouped)) {
-		result.push(...facets);
+	for (const facetList of Object.values(grouped)) {
+		result.push(...facetList);
 	}
 
 	// Hit matches: by title or artist
-	const hitMatches = SAMPLE_HITS.filter(
-		(h) =>
-			h.title.toLowerCase().includes(q) || h.artist.toLowerCase().includes(q),
-	).slice(0, MAX_HITS);
+	const hitMatches = hits
+		.filter(
+			(h) =>
+				h.title.toLowerCase().includes(q) || h.artist.toLowerCase().includes(q),
+		)
+		.slice(0, MAX_HITS);
 
 	for (const h of hitMatches) {
 		result.push({ type: "hit", ...h });
@@ -364,12 +367,16 @@ interface CollectionAutocompleteProps {
 	placeholder?: string;
 	className?: string;
 	leadingSlot?: ReactNode;
+	hits?: Omit<HitSuggestion, "type">[];
+	facets?: Omit<FacetSuggestion, "type">[];
 }
 
 export default function CollectionAutocomplete({
 	placeholder,
 	className,
 	leadingSlot,
+	hits = SAMPLE_HITS,
+	facets = SAMPLE_FACETS,
 }: CollectionAutocompleteProps) {
 	const id = useId();
 	const listboxId = `${id}-listbox`;
@@ -377,23 +384,32 @@ export default function CollectionAutocomplete({
 	const listboxRef = useRef<HTMLDivElement>(null);
 	const rootRef = useRef<HTMLDivElement>(null);
 	const router = useRouter();
+	const pathname = usePathname();
+	const searchParams = useSearchParams();
 
-	const [inputValue, setInputValue] = useState("");
+	const [inputValue, setInputValue] = useState(
+		() => searchParams.get("q") ?? "",
+	);
 	const [isOpen, setIsOpen] = useState(false);
 	const [activeIndex, setActiveIndex] = useState(-1);
 
 	const submitSearch = useCallback(() => {
 		const q = inputValue.trim();
 		setIsOpen(false);
-		router.push(
-			q ? `/search-results?q=${encodeURIComponent(q)}` : "/search-results",
-		);
-	}, [inputValue, router]);
+		const params = new URLSearchParams();
+		if (q) params.set("q", q);
+		if (pathname === "/search-results") {
+			const variation = searchParams.get("variation");
+			if (variation) params.set("variation", variation);
+		}
+		const qs = params.toString();
+		router.push(qs ? `/search-results?${qs}` : "/search-results");
+	}, [inputValue, router, pathname, searchParams]);
 
 	const suggestions = useMemo(() => {
 		if (inputValue.length < MIN_QUERY_LENGTH) return [];
-		return matchQuery(inputValue);
-	}, [inputValue]);
+		return matchQuery(inputValue, hits, facets);
+	}, [inputValue, hits, facets]);
 
 	const hasResults = suggestions.length > 0;
 	const showListbox = isOpen && inputValue.length >= MIN_QUERY_LENGTH;
@@ -425,10 +441,36 @@ export default function CollectionAutocomplete({
 		}
 	}, [activeIndex, id]);
 
-	const select = useCallback((_s: Suggestion) => {
-		setIsOpen(false);
-		// In a real implementation: navigate to object, apply facet filter, or submit search
-	}, []);
+	const select = useCallback(
+		(s: Suggestion) => {
+			setIsOpen(false);
+			if (s.type === "hit") {
+				router.push(s.slug ? `/objects/sample/${s.slug}` : "/objects/sample");
+				return;
+			}
+			if (s.type === "facet") {
+				const params = new URLSearchParams();
+				// Facet click: pure filter, no free-text query.
+				params.set("facet", `${s.facetType}:${s.value}`);
+				const currentVariation =
+					pathname === "/search-results" ? searchParams.get("variation") : null;
+				if (s.facetType === "artist") {
+					params.set("artist", s.value);
+					const showsArtists =
+						currentVariation === "mixed" || currentVariation === "interleaved";
+					params.set("variation", showsArtists ? currentVariation : "mixed");
+				} else if (currentVariation) {
+					params.set("variation", currentVariation);
+				}
+				setInputValue("");
+				router.push(`/search-results?${params.toString()}`);
+				return;
+			}
+			// searchAll
+			submitSearch();
+		},
+		[router, pathname, searchParams, submitSearch],
+	);
 
 	const handleKeyDown = (e: KeyboardEvent) => {
 		if (!showListbox && e.key !== "Escape" && e.key !== "Enter") return;

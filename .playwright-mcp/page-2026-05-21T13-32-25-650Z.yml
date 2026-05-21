@@ -1,0 +1,206 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "← All wireframes" [ref=e3] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e4]:
+      - button "Scope" [ref=e5]: Scope
+      - generic [ref=e7]: Wireframe
+  - navigation [ref=e8]:
+    - generic [ref=e9]:
+      - link "FAMSFCollection" [ref=e10] [cursor=pointer]:
+        - /url: /collection-landing
+      - generic [ref=e11]:
+        - link "Explore" [ref=e12] [cursor=pointer]:
+          - /url: /explore
+        - link "Search" [ref=e13] [cursor=pointer]:
+          - /url: /search-results
+        - link "My Finds" [ref=e14] [cursor=pointer]:
+          - /url: /my-finds
+        - button "Collection Areas ▾" [ref=e15]
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - navigation [ref=e19]:
+        - link "Sample Constituents" [ref=e21] [cursor=pointer]:
+          - /url: /constituents/sample
+        - generic [ref=e22]: / Diebenkorn
+      - generic [ref=e24]:
+        - heading "Richard Diebenkorn" [level=1] [ref=e25]
+        - paragraph [ref=e26]: American, 1922–1993
+        - paragraph [ref=e27]: American
+        - paragraph [ref=e28]: "Sort key: Diebenkorn, Richard"
+        - generic [ref=e30]: 676 objects in collection
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - text: Born
+            - paragraph [ref=e33]: 1922-04-22
+          - generic [ref=e34]:
+            - text: Died
+            - paragraph [ref=e35]: 1993-03-30
+      - generic [ref=e37]:
+        - paragraph [ref=e38]: Biography
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: Bio entry 1
+            - paragraph [ref=e43]: American, 1922–1993
+          - generic [ref=e44]:
+            - generic [ref=e45]: Bio entry 2
+            - paragraph [ref=e46]: 1922–1993
+      - generic [ref=e48]:
+        - paragraph [ref=e49]: Collection breakdown (677 works)
+        - generic [ref=e50]:
+          - generic [ref=e51]: 1945–1993
+          - generic [ref=e52]: 3 on view
+          - generic [ref=e53]: 436 with IIIF
+          - generic [ref=e54]: 48 exhibited
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - generic [ref=e57]: Classifications
+            - generic [ref=e58]:
+              - generic [ref=e59]:
+                - generic "Print" [ref=e60]
+                - generic [ref=e63]: "640"
+              - generic [ref=e64]:
+                - generic "Drawing" [ref=e65]
+                - generic [ref=e68]: "28"
+              - generic [ref=e69]:
+                - generic "Painting" [ref=e70]
+                - generic [ref=e73]: "6"
+              - generic [ref=e74]:
+                - generic "Artist's Book" [ref=e75]
+                - generic [ref=e78]: "3"
+          - generic [ref=e79]:
+            - generic [ref=e80]: Departments
+            - generic [ref=e81]:
+              - generic [ref=e82]:
+                - generic "Achenbach Foundation for Graphic Arts" [ref=e83]
+                - generic [ref=e86]: "671"
+              - generic [ref=e87]:
+                - generic "American Paintings" [ref=e88]
+                - generic [ref=e91]: "6"
+          - generic [ref=e92]:
+            - generic [ref=e93]: Top places of creation
+            - generic [ref=e94]:
+              - generic [ref=e95]:
+                - generic "Santa Monica" [ref=e96]
+                - generic [ref=e99]: "29"
+              - generic [ref=e100]:
+                - generic "San Francisco" [ref=e101]
+                - generic [ref=e104]: "11"
+              - generic [ref=e105]:
+                - generic "Kyoto" [ref=e106]
+                - generic [ref=e109]: "9"
+              - generic [ref=e110]:
+                - generic "California" [ref=e111]
+                - generic [ref=e114]: "7"
+              - generic [ref=e115]:
+                - generic "Oakland" [ref=e116]
+                - generic [ref=e119]: "6"
+              - generic [ref=e120]:
+                - generic "United States" [ref=e121]
+                - generic [ref=e124]: "4"
+        - generic [ref=e125]:
+          - generic [ref=e126]: By decade
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - generic [ref=e129]: "10"
+              - 'generic "1940s: 10" [ref=e130]'
+            - generic [ref=e131]:
+              - generic [ref=e132]: "7"
+              - 'generic "1950s: 7" [ref=e133]'
+            - generic [ref=e134]:
+              - generic [ref=e135]: "193"
+              - 'generic "1960s: 193" [ref=e136]'
+            - generic [ref=e137]:
+              - generic [ref=e138]: "113"
+              - 'generic "1970s: 113" [ref=e139]'
+            - generic [ref=e140]:
+              - generic [ref=e141]: "203"
+              - 'generic "1980s: 203" [ref=e142]'
+            - generic [ref=e143]:
+              - generic [ref=e144]: "111"
+              - 'generic "1990s: 111" [ref=e145]'
+          - generic [ref=e146]:
+            - generic [ref=e147]: 1940s
+            - generic [ref=e148]: 1950s
+            - generic [ref=e149]: 1960s
+            - generic [ref=e150]: 1970s
+            - generic [ref=e151]: 1980s
+            - generic [ref=e152]: 1990s
+      - generic [ref=e154]:
+        - paragraph [ref=e155]:
+          - text: Works in collection (676 total, 3 shown)
+          - link "view all →" [ref=e156] [cursor=pointer]:
+            - /url: /search-results?facet=artist%3ARichard%20Diebenkorn&artist=Richard%20Diebenkorn
+        - generic [ref=e157]:
+          - link "[IIIF available] 1991.28.77 Clubs—Blue Ground Richard Diebenkorn (1922–1993) · 1982" [ref=e158] [cursor=pointer]:
+            - /url: /object-detail?id=94799
+            - generic [ref=e160]: "[IIIF available]"
+            - generic [ref=e161]:
+              - paragraph [ref=e162]: 1991.28.77
+              - paragraph [ref=e163]: Clubs—Blue Ground
+              - paragraph [ref=e164]: Richard Diebenkorn (1922–1993) · 1982
+          - 'link "[No image] ICR.1991.28.332 #1 Richard Diebenkorn (1922–1993) · 1964" [ref=e165] [cursor=pointer]':
+            - /url: /object-detail?id=311906
+            - generic [ref=e167]: "[No image]"
+            - generic [ref=e168]:
+              - paragraph [ref=e169]: ICR.1991.28.332
+              - paragraph [ref=e170]: "#1"
+              - paragraph [ref=e171]: Richard Diebenkorn (1922–1993) · 1964
+          - 'link "[No image] 1991.28.332.1-9 41 Etchings Drypoints by Richard Diebenkorn (Berkeley: Crown Point Press, 1965) Richard Diebenkorn (1922–1993) · 1965" [ref=e172] [cursor=pointer]':
+            - /url: /object-detail?id=94752
+            - generic [ref=e174]: "[No image]"
+            - generic [ref=e175]:
+              - paragraph [ref=e176]: 1991.28.332.1-9
+              - paragraph [ref=e177]: "41 Etchings Drypoints by Richard Diebenkorn (Berkeley: Crown Point Press, 1965)"
+              - paragraph [ref=e178]: Richard Diebenkorn (1922–1993) · 1965
+      - paragraph [ref=e181]:
+        - text: Pipeline document · id 9993 · indexed 2026-05-18 · 13fields populated · picked 2026-05-18 ·
+        - link "back to variants" [ref=e182] [cursor=pointer]:
+          - /url: /constituents/sample
+  - button "Search the collection" [ref=e184]: ⌕
+  - contentinfo [ref=e185]:
+    - generic [ref=e186]:
+      - generic [ref=e187]:
+        - generic [ref=e188]:
+          - text: FAMSFCollection
+          - paragraph [ref=e189]: Fine Arts Museums of San Francisco
+          - list [ref=e190]:
+            - listitem [ref=e191]:
+              - link "famsf.org ↗" [ref=e192] [cursor=pointer]:
+                - /url: https://www.famsf.org/
+            - listitem [ref=e193]:
+              - link "Plan your visit ↗" [ref=e194] [cursor=pointer]:
+                - /url: https://www.famsf.org/visit
+            - listitem [ref=e195]:
+              - link "Tickets ↗" [ref=e196] [cursor=pointer]:
+                - /url: https://tickets.famsf.org/
+            - listitem [ref=e197]:
+              - link "Accessibility" [ref=e198] [cursor=pointer]:
+                - /url: /accessibility-statement
+        - generic [ref=e199]:
+          - paragraph [ref=e200]: Collection
+          - list [ref=e201]:
+            - listitem [ref=e202]:
+              - link "Search" [ref=e203] [cursor=pointer]:
+                - /url: /search-results
+            - listitem [ref=e204]:
+              - link "Explore" [ref=e205] [cursor=pointer]:
+                - /url: /explore
+            - listitem [ref=e206]:
+              - link "Collection areas" [ref=e207] [cursor=pointer]:
+                - /url: /collection-area
+        - generic [ref=e208]:
+          - paragraph [ref=e209]: Tools
+          - list [ref=e210]:
+            - listitem [ref=e211]:
+              - link "My finds" [ref=e212] [cursor=pointer]:
+                - /url: /my-finds
+            - listitem [ref=e213]:
+              - link "Visit planner" [ref=e214] [cursor=pointer]:
+                - /url: /visit-planner
+            - listitem [ref=e215]:
+              - link "Educational resources" [ref=e216] [cursor=pointer]:
+                - /url: /educational-resources
+      - paragraph [ref=e217]: These wireframes are for internal review only. Content and data are illustrative.
+  - button "Open Next.js Dev Tools" [ref=e223] [cursor=pointer]:
+    - img [ref=e224]

@@ -478,10 +478,10 @@
 	"sort_artist": "claude monet",
 	"sort_year": 1914,
 	"slug": "water-lilies-1973-3",
-	"indexed_at": "2026-05-19T17:42:31.274389+00:00",
+	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
 	"_sample_meta": {
 		"reason": "Claude Monet, Water Lilies, ca. 1914–1917 (1973.3)",
-		"picked_at": "2026-05-19T17:42:31.274389+00:00",
+		"picked_at": "2026-05-21T11:45:02.518116+00:00",
 		"populated_fields": 48
 	}
 }

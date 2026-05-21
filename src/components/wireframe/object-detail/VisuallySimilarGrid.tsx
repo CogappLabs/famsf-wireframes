@@ -11,13 +11,15 @@ import {
 	SectionLabel,
 	WireframeSection,
 } from "@/components/wireframe";
-import type { SampleObject } from "@/lib/sample-data";
+import type { CollectionDocument } from "@/lib/collection-document";
 import { t } from "@/lib/strings";
 
 export function VisuallySimilarGrid({
 	candidates,
+	slugById,
 }: {
-	candidates: SampleObject[];
+	candidates: CollectionDocument[];
+	slugById?: Record<number, string>;
 }) {
 	if (candidates.length === 0) return null;
 	const items = candidates.slice(0, 6);
@@ -38,7 +40,11 @@ export function VisuallySimilarGrid({
 						{items.map((r, i) => (
 							<Link
 								key={`vs-${r.id}`}
-								href={`/object-detail?id=${r.id}`}
+								href={
+									slugById?.[r.id]
+										? `/objects/sample/${slugById[r.id]}`
+										: "/objects/sample"
+								}
 								className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
 							>
 								<ImagePlaceholder label={`[${r.title}]`} />
