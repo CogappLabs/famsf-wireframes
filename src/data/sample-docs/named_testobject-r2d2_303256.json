@@ -94,15 +94,6 @@
 	],
 	"exhibitions": [
 		{
-			"ExhibitionID": 534,
-			"ExhTitle": "Test Exhibition: Art on Display in a Museum",
-			"DisplayDate": "Thursday, June 1, 2023 - Tuesday, October 31, 2023",
-			"BeginISODate": "2023-06-01",
-			"EndISODate": "2023-10-31",
-			"IsInHouse": true,
-			"VenueName": "Amon Carter Museum of American Art"
-		},
-		{
 			"ExhibitionID": 537,
 			"ExhTitle": "Test Exhibition: A Star Wars Exhibition",
 			"DisplayDate": "Sunday, December 17, 2023 - Wednesday, March 6, 2024",
@@ -110,6 +101,15 @@
 			"EndISODate": "2024-03-06",
 			"IsInHouse": false,
 			"VenueName": "TEST National Museum of Fine Arts"
+		},
+		{
+			"ExhibitionID": 534,
+			"ExhTitle": "Test Exhibition: Art on Display in a Museum",
+			"DisplayDate": "Thursday, June 1, 2023 - Tuesday, October 31, 2023",
+			"BeginISODate": "2023-06-01",
+			"EndISODate": "2023-10-31",
+			"IsInHouse": true,
+			"VenueName": "Amon Carter Museum of American Art"
 		}
 	],
 	"dimensions_structured": [
@@ -160,6 +160,27 @@
 	],
 	"term_place_of_creation": [
 		{
+			"term": "Egypt",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAPN",
+					"term": "Miṣr"
+				}
+			]
+		},
+		{
 			"term": "Nepean",
 			"certainty": "Uncertain",
 			"path": [
@@ -187,27 +208,6 @@
 					"depth": 6,
 					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP.AABER",
 					"term": "Nepean"
-				}
-			]
-		},
-		{
-			"term": "Egypt",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAB",
-					"term": "Africa"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAB.AAAPN",
-					"term": "Miṣr"
 				}
 			]
 		},
@@ -456,6 +456,42 @@
 	],
 	"term_materials": [
 		{
+			"term": "carbon",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAM",
+					"term": "carbon"
+				}
+			]
+		},
+		{
 			"term": "aluminum",
 			"certainty": null,
 			"path": [
@@ -510,42 +546,6 @@
 					"term": "aluminum"
 				}
 			]
-		},
-		{
-			"term": "carbon",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAB",
-					"term": "materials by composition"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
-					"term": "inorganic material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAM",
-					"term": "carbon"
-				}
-			]
 		}
 	],
 	"term_intended_market": [
@@ -585,10 +585,10 @@
 	"sort_artist": "unknown artist",
 	"sort_year": 2000,
 	"slug": "r2-d2-model-testobject-01",
-	"indexed_at": "2026-05-19T09:48:36.385404+00:00",
+	"indexed_at": "2026-05-19T17:42:31.274389+00:00",
 	"_sample_meta": {
 		"reason": "R2-D2 Model (TestObject.01) — FAMSF synthetic test record, exercises every field. 57+ populated.",
-		"picked_at": "2026-05-19T09:48:36.385404+00:00",
+		"picked_at": "2026-05-19T17:42:31.274389+00:00",
 		"populated_fields": 58
 	}
 }

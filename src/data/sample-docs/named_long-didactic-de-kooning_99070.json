@@ -90,24 +90,6 @@
 	],
 	"exhibitions": [
 		{
-			"ExhibitionID": 517,
-			"ExhTitle": "Drawing the Line ",
-			"DisplayDate": "Saturday, August 5, 2023 - Sunday, February 25, 2024",
-			"BeginISODate": "2023-08-05",
-			"EndISODate": "2024-02-25",
-			"IsInHouse": true,
-			"VenueName": "Legion of Honor"
-		},
-		{
-			"ExhibitionID": 1236,
-			"ExhTitle": "Willem de Kooning Drawing",
-			"DisplayDate": null,
-			"BeginISODate": "2026-06-14",
-			"EndISODate": "2027-01-17",
-			"IsInHouse": false,
-			"VenueName": "The Art Institute of Chicago"
-		},
-		{
 			"ExhibitionID": 928,
 			"ExhTitle": "de Kooning Retrospective",
 			"DisplayDate": "Sunday, September 18, 2011 - Monday, January 9, 2012",
@@ -124,6 +106,24 @@
 			"EndISODate": "2003-01-05",
 			"IsInHouse": false,
 			"VenueName": "Museum of Contemporary Art"
+		},
+		{
+			"ExhibitionID": 517,
+			"ExhTitle": "Drawing the Line ",
+			"DisplayDate": "Saturday, August 5, 2023 - Sunday, February 25, 2024",
+			"BeginISODate": "2023-08-05",
+			"EndISODate": "2024-02-25",
+			"IsInHouse": true,
+			"VenueName": "Legion of Honor"
+		},
+		{
+			"ExhibitionID": 1236,
+			"ExhTitle": "Willem de Kooning Drawing",
+			"DisplayDate": null,
+			"BeginISODate": "2026-06-14",
+			"EndISODate": "2027-01-17",
+			"IsInHouse": false,
+			"VenueName": "The Art Institute of Chicago"
 		}
 	],
 	"dimensions_structured": [
@@ -200,10 +200,10 @@
 	"sort_artist": "willem de kooning",
 	"sort_year": 1942,
 	"slug": "untitled-two-figures-1999-131",
-	"indexed_at": "2026-05-19T09:48:36.385404+00:00",
+	"indexed_at": "2026-05-19T17:42:31.274389+00:00",
 	"_sample_meta": {
 		"reason": "de Kooning, Untitled Two Figures (1999.131) — 1000+ char didactic label, exercises long-prose rendering",
-		"picked_at": "2026-05-19T09:48:36.385404+00:00",
+		"picked_at": "2026-05-19T17:42:31.274389+00:00",
 		"populated_fields": 49
 	}
 }

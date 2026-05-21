@@ -212,15 +212,6 @@
 	],
 	"exhibitions": [
 		{
-			"ExhibitionID": 492,
-			"ExhTitle": "Diebenkorn in Color",
-			"DisplayDate": "Saturday, September 10, 2022 - Sunday, February 12, 2023",
-			"BeginISODate": "2022-09-10",
-			"EndISODate": "2023-02-12",
-			"IsInHouse": true,
-			"VenueName": "de Young Museum"
-		},
-		{
 			"ExhibitionID": 535,
 			"ExhTitle": "Celebrating 100 Years at the Legion of Honor",
 			"DisplayDate": "Saturday, November 9, 2024 - Sunday, November 2, 2025",
@@ -228,6 +219,15 @@
 			"EndISODate": "2026-01-04",
 			"IsInHouse": true,
 			"VenueName": "Legion of Honor"
+		},
+		{
+			"ExhibitionID": 492,
+			"ExhTitle": "Diebenkorn in Color",
+			"DisplayDate": "Saturday, September 10, 2022 - Sunday, February 12, 2023",
+			"BeginISODate": "2022-09-10",
+			"EndISODate": "2023-02-12",
+			"IsInHouse": true,
+			"VenueName": "de Young Museum"
 		}
 	],
 	"dimensions_structured": [
@@ -326,10 +326,10 @@
 	"sort_artist": "richard diebenkorn",
 	"sort_year": 1982,
 	"slug": "clubs-blue-ground-1991-28-77",
-	"indexed_at": "2026-05-19T08:25:26.635483+00:00",
+	"indexed_at": "2026-05-19T17:42:31.274389+00:00",
 	"_sample_meta": {
 		"reason": "Auto-picked: most populated fields in the dataset (true max).",
-		"picked_at": "2026-05-19T08:25:26.635483+00:00",
+		"picked_at": "2026-05-19T17:42:31.274389+00:00",
 		"populated_fields": 53
 	}
 }

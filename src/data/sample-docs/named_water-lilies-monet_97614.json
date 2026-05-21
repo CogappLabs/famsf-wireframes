@@ -308,6 +308,33 @@
 			"VenueName": "de Young Museum"
 		},
 		{
+			"ExhibitionID": 654,
+			"ExhTitle": "Monet. A Step Beyond Impressionism",
+			"DisplayDate": "Wednesday, August 24, 2016 - Sunday, December 4, 2016",
+			"BeginISODate": "2016-08-24",
+			"EndISODate": "2016-12-04",
+			"IsInHouse": false,
+			"VenueName": "Ordrupgaard Museum for Fransk Impressionisme"
+		},
+		{
+			"ExhibitionID": 895,
+			"ExhTitle": "Claude Monet - Series Paintings",
+			"DisplayDate": "Friday, October 20, 2023 - Monday, May 6, 2024",
+			"BeginISODate": "2023-10-20",
+			"EndISODate": "2024-05-06",
+			"IsInHouse": false,
+			"VenueName": " The Ueno Royal Museum"
+		},
+		{
+			"ExhibitionID": 914,
+			"ExhTitle": "Monet's Ecology",
+			"DisplayDate": "Friday, May 16, 2025 - Sunday, August 24, 2025",
+			"BeginISODate": "2025-05-16",
+			"EndISODate": "2025-08-24",
+			"IsInHouse": false,
+			"VenueName": "São Paulo Museum of Art"
+		},
+		{
 			"ExhibitionID": 542,
 			"ExhTitle": "Monet and Venice",
 			"DisplayDate": "Saturday, March 21, 2026 - Sunday, July 26, 2026",
@@ -335,15 +362,6 @@
 			"VenueName": "Art Centre Basel"
 		},
 		{
-			"ExhibitionID": 654,
-			"ExhTitle": "Monet. A Step Beyond Impressionism",
-			"DisplayDate": "Wednesday, August 24, 2016 - Sunday, December 4, 2016",
-			"BeginISODate": "2016-08-24",
-			"EndISODate": "2016-12-04",
-			"IsInHouse": false,
-			"VenueName": "Ordrupgaard Museum for Fransk Impressionisme"
-		},
-		{
 			"ExhibitionID": 1309,
 			"ExhTitle": "A Passion for Flowers: Painting in France from Courbet to Monet",
 			"DisplayDate": "Thursday, June 3, 2010 - Sunday, April 17, 2011",
@@ -360,24 +378,6 @@
 			"EndISODate": "2011-06-21",
 			"IsInHouse": false,
 			"VenueName": "Wadsworth Atheneum Museum of Art"
-		},
-		{
-			"ExhibitionID": 895,
-			"ExhTitle": "Claude Monet - Series Paintings",
-			"DisplayDate": "Friday, October 20, 2023 - Monday, May 6, 2024",
-			"BeginISODate": "2023-10-20",
-			"EndISODate": "2024-05-06",
-			"IsInHouse": false,
-			"VenueName": " The Ueno Royal Museum"
-		},
-		{
-			"ExhibitionID": 914,
-			"ExhTitle": "Monet's Ecology",
-			"DisplayDate": "Friday, May 16, 2025 - Sunday, August 24, 2025",
-			"BeginISODate": "2025-05-16",
-			"EndISODate": "2025-08-24",
-			"IsInHouse": false,
-			"VenueName": "São Paulo Museum of Art"
 		}
 	],
 	"dimensions_structured": [
@@ -478,10 +478,10 @@
 	"sort_artist": "claude monet",
 	"sort_year": 1914,
 	"slug": "water-lilies-1973-3",
-	"indexed_at": "2026-05-19T09:48:36.385404+00:00",
+	"indexed_at": "2026-05-19T17:42:31.274389+00:00",
 	"_sample_meta": {
 		"reason": "Claude Monet, Water Lilies, ca. 1914–1917 (1973.3)",
-		"picked_at": "2026-05-19T09:48:36.385404+00:00",
+		"picked_at": "2026-05-19T17:42:31.274389+00:00",
 		"populated_fields": 48
 	}
 }
