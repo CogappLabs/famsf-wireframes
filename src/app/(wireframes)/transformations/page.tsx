@@ -11,7 +11,7 @@ import { ScopePage } from "@/providers/ScopeProvider";
 
 const DOC_PATH = path.join(
 	process.cwd(),
-	"..",
+	"docs",
 	"source-to-wireframe-transformations.md",
 );
 

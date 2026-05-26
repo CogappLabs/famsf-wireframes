@@ -9,7 +9,7 @@ import {
 } from "@/components/wireframe";
 import { ScopePage } from "@/providers/ScopeProvider";
 
-const DOC_PATH = path.join(process.cwd(), "..", "curator-rule-deviations.md");
+const DOC_PATH = path.join(process.cwd(), "docs", "curator-rule-deviations.md");
 
 export default async function CuratorDeviationsPage() {
 	const markdown = await fs.readFile(DOC_PATH, "utf-8");

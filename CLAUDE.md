@@ -238,11 +238,11 @@ Two markdown-driven pages render the cataloguing-rule context for
 stakeholders + cataloguers:
 
 - `/transformations` (`src/app/(wireframes)/transformations/page.tsx`)
-  — reads `../source-to-wireframe-transformations.md`. Documents
+  — reads `docs/source-to-wireframe-transformations.md`. Documents
   what's transformed at each layer (TMS → pipeline → ES → wireframe).
 - `/curator-deviations`
   (`src/app/(wireframes)/curator-deviations/page.tsx`) — reads
-  `../curator-rule-deviations.md`. Where TMS data doesn't follow
+  `docs/curator-rule-deviations.md`. Where TMS data doesn't follow
   guidelines.
 
 Both pages use `react-markdown` + `remark-gfm`. Edit the .md file in
