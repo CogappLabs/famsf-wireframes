@@ -232,21 +232,28 @@ run; no manual sync.
 Page only re-renders on next deploy after JSON change (Next.js static
 import). Re-run `npm run build` locally or push to Vercel.
 
-## Markdown reference pages
+## Reference pages
 
-Two markdown-driven pages render the cataloguing-rule context for
-stakeholders + cataloguers:
+Cataloguing-rule context for stakeholders + cataloguers. Both pages
+are short intro blurbs that link out to working Google Sheets so
+curators and the ETL team can co-edit without code changes.
 
-- `/transformations` (`src/app/(wireframes)/transformations/page.tsx`)
-  — reads `docs/source-to-wireframe-transformations.md`. Documents
-  what's transformed at each layer (TMS → pipeline → ES → wireframe).
+- `/transformations`
+  (`src/app/(wireframes)/transformations/page.tsx`) — links to the
+  source-to-wireframe transformations sheet. Seeded from
+  `docs/source-to-wireframe-transformations.md` via
+  `scripts/push_transformations_to_sheet.py` at the workspace root.
 - `/curator-deviations`
-  (`src/app/(wireframes)/curator-deviations/page.tsx`) — reads
-  `docs/curator-rule-deviations.md`. Where TMS data doesn't follow
-  guidelines.
+  (`src/app/(wireframes)/curator-deviations/page.tsx`) — links to the
+  curator-rule-deviations sheet. Seeded from
+  `docs/curator-rule-deviations.md` via
+  `scripts/push_curator_deviations_to_sheet.py` at the workspace root.
 
-Both pages use `react-markdown` + `remark-gfm`. Edit the .md file in
-the workspace root; hot-reload picks up the change.
+Re-run the push scripts to overwrite the sheets from the .md source.
+Once curators start editing the sheets directly, use
+`cogapp_sheets.pull_to_tsv` to round-trip back to TSV. The
+`react-markdown` + `remark-gfm` deps were dropped when the pages
+became linkout-only.
 
 ## Text formatting helpers
 

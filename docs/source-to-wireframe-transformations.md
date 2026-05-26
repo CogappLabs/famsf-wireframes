@@ -26,7 +26,7 @@ What each top-level surface reads from TMS, joined live in extract SQL.
 | Term attributes | `ObjectsThesXrefs` + `Terms` + `ThesXrefTypes` | Pivoted to `term_*` columns per attribute family |
 | Long text (Provenance / Bibliography / Exhibitions / Web Text / Didactic Label / Identifying Description) | `Objects.Provenance` etc + `TextEntries(TextTypeID=192/185/230/158)` | Objects columns preferred over TextEntries for line-break fidelity (2026-05 switch); TextEntries used for fields that aren't on Objects |
 | Dimensions | `ObjDimensions` + `DimensionElements` | `ElementName` (Overall / Framed / Frame / Sheet) joined via DimensionElements |
-| Media | `MediaXrefs` + `MediaMaster` + `vCI_PrismMediaFilter` | One approved image per object via PrismMediaFilter |
+| Media | `MediaXrefs` + `MediaMaster` (+ Renditions/Files/Paths) + `UserFieldXrefs` (UF 80 "On the Web") | Multi-image. Web visibility per-`MediaXrefID` via UF 80 `Yes%` (FAMSF DBA Forrest, May 2026); rendition picked via `MediaMaster.PrimaryRendID`. `vCI_PrismMediaFilter` was retired 2026-05-13 because it collapsed to one approved image per object. A consolidated "ready for web" view from FAMSF is planned Jul/Aug 2026. |
 | Exhibition history | `ObjExhibitions` + `Exhibitions` | Structured array; Objects.Exhibitions free-text fallback |
 | Parent / child | `Objects.PhysicalParentID` + accession-prefix synth | FK takes precedence; synth derives child links from accession-number prefix matching when FK is missing |
 | Rights | `Objects.Copyright` + `Objects.ObjectRightsType` + `term_rights_statement` (controlled-vocab Attribute) | Three distinct fields; see Rights section below |
@@ -156,6 +156,121 @@ Two unresolved client questions visibly flagged on the page:
 2. Non-geography `term_*` — guidelines say "Phase 2", wireframe wraps each group in a `ScopeMark` so stakeholders see what would disappear without policy flip.
 
 Resolve both before launch; remove ScopeMarks if confirmed public.
+
+---
+
+## Object record (additions)
+
+### Accession + identity
+
+| Source state | Transformation | Where |
+|---|---|---|
+| `ObjectNumber` may have a range suffix (`2011.38.8.1-209`) marking a compound parent | `is_compound = bool(re.match(r"\d+-\d+$", ObjectNumber))` flagged on each row; drives dedup-preference + ES field | `transform/objects.py` |
+| Portfolio plates share verbatim Title / Dated / Medium / Dimensions / Classification / Department | `_DEDUP_FIELDS` groupby keeps one record; `is_compound=True` preferred when a parent exists in the group | same |
+| `PhysicalParentID` FK is sparse on portfolio plates | When FK is null, synth: strip `-N` suffix from compound accession (`2011.38.8.1-209` → `2011.38.8.1`), match plate stems, emit `physical_parent_id_synth` + `physical_child_ids` + `virtual_parent_ids` + `virtual_child_ids`. FK takes precedence via `pl.coalesce` | `transform/object_relationships.py` |
+| `DisplayedTitle` + `ObjectNumber` | URL slug synthesised as `{title-slug-80chars}-{accession-slug}` with NFKD diacritic strip + non-alnum→hyphen. Accession suffix stabilises across title edits + collisions ("Untitled", "Self-Portrait") | `prepare/collection_documents._add_slug` |
+
+### Date
+
+| Source state | Transformation | Where |
+|---|---|---|
+| `BeginISODate` / `EndISODate` use TMS 11-char encoding (`1`+10-digit year for AD, `0`+ for BCE) | `_clean_iso_dates` strips the `1` prefix + zero-pads; `0`-prefix BCE values nulled (display_date string retained instead). `end_iso_date` mirrors `begin_iso_date` when null so point-in-time range queries work | `prepare/collection_documents._clean_iso_dates` |
+| Range needed for display | `display_year` synthesised: `"1965"` when begin==end, `"1965–67"` when same century (two-digit suffix), `"1965–1970"` otherwise. Null when no begin date | `prepare/collection_documents._add_display_year` |
+
+### Medium
+
+| Source state | Transformation | Where |
+|---|---|---|
+| `Medium` may be a multi-medium compound (`oil; gouache`) | Split on `;` into `medium_parts: List[String]` | `transform/objects.py` |
+
+### Location
+
+| Source state | Transformation | Where |
+|---|---|---|
+| `Locations.LocationString` ships as `de Young, Display, Gallery 100` | `location_building` derived as first comma token (`de Young` / `Legion`) for faceting | `transform/objects.py` |
+
+### Constituents (per-object render)
+
+| Source state | Transformation | Where |
+|---|---|---|
+| First-constituent name + dates | `primary_artist_display` built as `DisplayName (BeginDate–EndDate)` with en-dash + graceful null handling. Distinct from `primary_artist` (name only) | `prepare/collection_documents._add_primary_artist_display` |
+| Sort by artist needs to ignore accents + leading articles | `sort_artist` = ASCII-folded, lowercased `primary_artist`, leading articles stripped in 17 languages (the/a/an/le/la/les/el/los/las/il/der/die/das/den/de/du/des). "El Greco" sorts under G | `prepare/collection_documents._add_sort_fields` |
+
+### Terms (Attributes / Geography)
+
+| Source state | Transformation | Where |
+|---|---|---|
+| `ThesXrefs.CertaintyLevelID = 0` / `"(not assigned)"` | Nulled out; only non-default certainty ("Uncertain", "Probably", "Possibly") survives | `transform/object_terms.py` |
+| Each term has a `TermMaster.CN` hierarchical code | Ancestor path attached as `path: List[{depth, cn, term}]` via `vDataViewTermPath` join; enables faceting on any ancestor level | `transform/object_terms.py` |
+| Top-level CN segments include thesaurus-version labels (`TGNMAY2021`, `AAT2022-10`) | Stripped via heuristic (`term[:1].isalpha() and any(c.isdigit() for c in term)`) so version strings don't appear as apparent ancestors | `transform/term_paths.py` |
+| Pivoted `term_*` set expanded | Five new types: `term_place_of_fabrication` (ID 7), `term_reign` (13), `term_movement` (30), `term_find_spot` (52), `term_intended_market` (53) | `transform/object_terms.py` |
+
+### Dimensions
+
+| Source state | Transformation | Where |
+|---|---|---|
+| Multi-row dimensions (Overall / Framed / Sheet / etc.) | Primary string picked as lowest-`Rank` `Displayed=true` row's `DisplayDimensions` → `dimensions_display_primary` scalar field. Companion to the structured array | `prepare/object_primary_dimension.py` |
+
+### Rare text
+
+| Source state | Transformation | Where |
+|---|---|---|
+| `Objects.Provenance` / `Bibliography` / `Exhibitions` (`\r\n`-broken) | Read from Objects columns (not TextEntries 167/168/169 flat copies); ~3K coverage loss but line breaks survive | `extract/object_rare_text.sql` + `transform/object_rare_text.py` |
+| `Objects.Edition` | Extracted via same rare-text pivot. Not previously documented | same |
+
+### Labels on object
+
+| Source state | Transformation | Where |
+|---|---|---|
+| `TextEntries(TextTypeID=158)` "Label(s) on Object" | Pivoted + cleaned → `label_text` (raw) + `label_text_structured` (parsed `(side, location, medium) transcription` per §Label(s) L1104) | `transform/objects_text_entries.py` + `utils/transcriptions.parse_transcriptions` |
+
+---
+
+## Constituent / artist record (additions)
+
+### Identity
+
+| Source state | Transformation | Where |
+|---|---|---|
+| `ConAltNames` ships duplicate alt-name rows per constituent across curator flows | Deduped on `(ConstituentID, DisplayName, NameType)`, lowest `AltNameId` kept for stability; aggregated into `alt_names: List[Struct]` on `constituent_documents` | `transform/con_alt_names.py` + `prepare/constituent_documents.py` |
+
+---
+
+## Cross-cutting (additions)
+
+### Text sentinels
+
+The `SENTINELS` list in `utils/text_cleaning.py` nulls placeholder strings across all text fields. Current set: `(not entered)`, `(not assigned)`, `0`, `(null)`, `(NULL)`, `(not specified)`, `(Not Specified)`. Curator placeholders should land as nulls downstream.
+
+### Cache-purge diff
+
+After ES indexing, every row of `collection_documents` is hashed (excluding `id` + `indexed_at`) and diffed against the prior snapshot via `CachePurgeSnapshotResource.diff_against`. Three sets emitted (changed / added / removed) → Cloudflare cache-purge JSON. See `load/cache_purge_payload.py`. Removed-row slugs come from the snapshot since the current frame no longer has the id.
+
+### Transcription detection
+
+`utils/transcriptions.parse_transcriptions` (§Inscriptions L972 / §Mark(s) L1228, L1287 / §Label(s) L1104 / §Signed L1717) parses Signed / Inscribed / Markings / Edition / Label-on-Object strings into `[{raw, location, transcription, is_watermark}]`. `is_watermark` triggered by the `watermark:` prefix (§Mark(s) L1287). Output columns: `signed_structured`, `inscribed_structured`, `markings_structured`, `label_text_structured`.
+
+---
+
+## Wireframe render-time fallbacks (additions)
+
+### Scale diagram dimension picker
+
+`pickPrimaryDimension` (`components/wireframe/object-detail/ScaleDiagram.tsx`) prefers `Displayed=true` rows over hidden, then `ElementName === "Overall"`, then first row with a numeric `height_cm`, then `[0]`. Compensates for the lack of a TMS "primary dimension" flag. When `width_cm` is null, the object box falls back to `max(20px, height * 0.6)` for 1-D records.
+
+### Tombstone fallback chains
+
+`objects/sample/[variant]/page.tsx` uses several `??` fallback chains:
+
+- Image caption: `media[].photographer ?? media[].credit_line`
+- Museum location: `location_string ?? location_room ?? location_building ?? "Not on view"`
+- Alternate title label: `TitleEntry.TitleTypeDisplay ?? TitleEntry.TitleType`
+- Updated timestamp: `last_modified ?? indexed_at` (pipeline index time when TMS last-modified is absent)
+- Child-record count: `child_cards.length ?? (physical_child_ids.length + virtual_child_ids.length)`
+
+### Suggested citation
+
+`objects/sample/[variant]/page.tsx` builds the citation string at render time from `primary_artist + title + display_date + medium + credit_line + accession_number`, filtered for nulls. Industry-standard order applied (Artist, Title (Date), Medium, Credit Line, Accession No.). No pipeline pre-composition.
 
 ---
 

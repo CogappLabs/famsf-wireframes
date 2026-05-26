@@ -205,6 +205,68 @@ Each row: what the guideline says, what curators actually ship, scale of the gap
 
 ---
 
+## Object Name and Alternate Object Names lowercase
+
+- **Guideline (§Object Name L1508 / §Alternate Object Names L253)**: all terms lowercase; do not capitalize the first word.
+- **TMS reality**: not yet sampled. Mechanical to scan: regex for any leading uppercase letter in these fields.
+- **Pipeline / wireframe response**: nothing yet. Field is internal-only per current Tier policy so display impact is zero; would matter once `object_name` flips public.
+
+## Approved location-term whitelist on transcriptions
+
+- **Guideline (§Inscriptions L988-1000 / §Mark(s) L1242-1254 / §Label(s) L1124-1136)**: location term must come from an approved list (`center`, `left`, `proper left`, `right`, `proper right`, `top`, `bottom`, `base`, `underside`, `upper`, `lower`, `center back`, `side seam`, `inner`, `outer`, `inside`, `outside`, `interior`, `exterior`).
+- **TMS reality**: not yet sampled. `parse_transcriptions` already pulls `location` into a struct field; building a whitelist check on top is one regex away.
+- **Pipeline / wireframe response**: nothing yet. Out-of-whitelist values still render verbatim. Flag-only candidate.
+
+## Unreadable letters not in `[?]` bracket form
+
+- **Guideline (§Mark(s) L1276 / §Inscriptions L1022 / §Label(s) L1149 / §Signed L1771)**: unreadable characters in transcriptions written as `[?]`, not bare `(?)` or `?`.
+- **TMS reality**: not yet sampled but easy to spot — bare `?` inside transcription bodies vs the canonical `[?]`.
+- **Pipeline / wireframe response**: nothing yet. Mechanical normalise candidate.
+
+## Watermark prefix
+
+- **Guideline (§Mark(s) L1285-1287)**: watermark transcriptions begin with literal `watermark: ` (lowercase, with colon).
+- **TMS reality**: `parse_transcriptions` already detects the prefix into `is_watermark` boolean, so non-conforming rows would currently fail the detection and render as plain marks. Sample count not yet pulled.
+- **Pipeline / wireframe response**: detection exists; nothing flags non-conforming rows back to curators. Candidate for an asset-check on `marks_structured`.
+
+## Artist monogram phrase
+
+- **Guideline (§Signed L1761, L1775)**: when signature is a symbol or monogram, use the exact phrase `Artist's monogram` (not variant spellings).
+- **TMS reality**: not yet sampled.
+- **Pipeline / wireframe response**: nothing yet. Flag-only candidate.
+
+## Textile medium separator
+
+- **Guideline (§Medium L1439)**: textile medium and structure separated by `;`, not `,`.
+- **TMS reality**: not yet sampled (limited to Classification = Textiles).
+- **Pipeline / wireframe response**: nothing yet.
+
+## Dimension description casing
+
+- **Guideline (§Dimensions L670)**: Dimension Description field all lowercase; do not capitalise the first word.
+- **TMS reality**: not yet sampled.
+- **Pipeline / wireframe response**: nothing yet.
+
+## Constituent nationality already embedded in DisplayDate
+
+- **Guideline**: nationality is a separate field from `DisplayDate`.
+- **TMS reality**: curator-typed `DisplayDate` strings often include nationality (`French, 1840–1926`), making the standalone `nationality` line a duplicate.
+- **Wireframe response**: constituent page suppresses the standalone nationality row when `display_date` (case-insensitively) contains the nationality token.
+
+## Orphan footnote refs in Provenance
+
+- **Guideline (§Provenance)**: every inline `[N]` ref pairs with a `[N] …` footnote block at the end of the field.
+- **TMS reality**: some Provenance rows reference a footnote `[3]` with no matching `[3] …` block.
+- **Wireframe response**: `ProvenanceText.renderWithRefs` only links `[N]` markers when the footnote block exists; orphan refs render as plain text. `orphan_refs()` helper available for asset-check use.
+
+## Rights statement en-dash / hyphen drift
+
+- **Guideline (§Object Rights Statement L2606)**: controlled-vocab Attribute with canonical values.
+- **TMS reality**: `term_rights_statement[].term` ships both `"No Copyright - United States"` (hyphen) and `"No Copyright – United States"` (en dash) variants for the same rightsstatements.org URI.
+- **Wireframe response**: `rightsStatementMap` contains both string keys mapping to the same URI. Pipeline-side normalisation candidate.
+
+---
+
 ## How we compensate
 
 We don't try to fix every cataloguer deviation. Each one gets one of five responses, picked on a sliding scale from "fix it in the data" to "leave it alone and tell the client". The choice depends on how mechanical the rule is, how regular the curator data is, and how many rows are affected.
