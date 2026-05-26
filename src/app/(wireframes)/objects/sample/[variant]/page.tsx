@@ -1160,19 +1160,22 @@ export default async function SampleObjectPage({ params }: Props) {
 							</div>
 							{doc.exhibition_history_text && (
 								<ScopeMark label="Exhibition history text">
-									<div className="mt-4 border-t border-gray-200 pt-4">
-										<TombstoneLabel className="mb-1 block">
-											Full exhibition history (text)
-										</TombstoneLabel>
-										<FieldSourceBadge field="exhibition_history_text" block />
+									<details className="mt-4 border-t border-gray-200 pt-4 group">
+										<summary className="cursor-pointer list-none font-mono text-label uppercase tracking-[0.08em] text-gray-500 hover:text-gray-700">
+											<span className="mr-1 inline-block transition-transform group-open:rotate-90">
+												▸
+											</span>
+											Full exhibition history (raw curator text)
+											<FieldSourceBadge field="exhibition_history_text" />
+										</summary>
 										<p
-											className="whitespace-pre-line font-mono text-meta text-gray-600 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
+											className="mt-3 whitespace-pre-line font-mono text-meta text-gray-600 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
 											// biome-ignore lint/security/noDangerouslySetInnerHtml: sanitised via allow-list
 											dangerouslySetInnerHTML={{
 												__html: sanitiseHtml(doc.exhibition_history_text),
 											}}
 										/>
-									</div>
+									</details>
 								</ScopeMark>
 							)}
 						</Container>
