@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import {
 	BibliographyText,
 	Breadcrumb,
+	CitationBlock,
 	Container,
 	ExhibitionRow,
 	ImagePlaceholder,
@@ -1480,9 +1481,12 @@ export default async function SampleObjectPage({ params }: Props) {
 								<TombstoneLabel className="mb-1 block">
 									Suggested citation [placeholder]
 								</TombstoneLabel>
-								<p className="whitespace-pre-line font-mono text-meta text-gray-600">
-									{suggestedCitation}
+								<p className="mb-3 font-mono text-meta text-gray-500">
+									If you want to cite this object in research or publication,
+									please use the credit below. The accession number stays stable
+									even if the title or dating is revised.
 								</p>
+								<CitationBlock citation={suggestedCitation} />
 							</div>
 						</ScopeMark>
 					</Container>

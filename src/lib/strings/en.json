@@ -19,7 +19,7 @@
 	"footer.disclaimer": "These wireframes are for internal review only. Content and data are illustrative.",
 
 	"collection.label": "Explore",
-	"collection.heading": "The Collection",
+	"collection.heading": "The collection",
 	"collection.intro": "Ancient Greek sculptures, French Impressionist paintings, contemporary African textiles, with collections spanning more than 5,000 years, there is always something new to discover.",
 	"collection.statsHeading": "Collection at a glance",
 	"collection.stat1Value": "144,511",
@@ -246,7 +246,7 @@
 	"portfolio.plateCount": "Portfolio \u00b7 24 plates",
 
 	"finds.label": "Personal collection",
-	"finds.heading": "My Finds",
+	"finds.heading": "My finds",
 	"finds.intro": "Save objects as you browse the collection. Your finds are stored in the URL: no account required. Bookmark or share this page to keep your selection.",
 	"finds.shareList": "Share this list",
 	"finds.downloadPDF": "Download as PDF",
@@ -296,7 +296,7 @@
 	"visit.museumBoth": "Both",
 
 	"edu.label": "For educators",
-	"edu.heading": "Educational Resources",
+	"edu.heading": "Educational resources",
 	"edu.intro": "Resources for teachers, educators, and school groups. Browse lesson plans, find objects currently on view by gallery, and access age-appropriate content for your students.",
 	"edu.lessonPlansHeading": "Lesson plans",
 	"edu.galleryHeading": "Browse by gallery location",
@@ -319,7 +319,7 @@
 	"edu.statAudioTours": "Audio tours",
 
 	"sitemap.label": "Information architecture",
-	"sitemap.heading": "Site Map",
+	"sitemap.heading": "Site map",
 	"sitemap.description": "Page hierarchy and navigation structure",
 
 	"feature-status.label": "Feature inventory",

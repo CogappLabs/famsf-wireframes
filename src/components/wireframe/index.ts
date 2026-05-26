@@ -1,6 +1,7 @@
 export { default as BibliographyText } from "./BibliographyText";
 export { default as Breadcrumb } from "./Breadcrumb";
 export { default as CategoryBadge } from "./CategoryBadge";
+export { default as CitationBlock } from "./CitationBlock";
 export { default as Container } from "./Container";
 export { default as ExhibitionRow } from "./ExhibitionRow";
 export { default as FloatingSearch } from "./FloatingSearch";

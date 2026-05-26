@@ -69,7 +69,7 @@ export const CATEGORY_ORDER: PageCategory[] = [
 export const pages: WireframePage[] = [
 	{
 		id: "collection-landing",
-		title: "Collection Landing",
+		title: "Collection landing",
 		description:
 			"Main entry point: explore vs search pathways, browse by area, stats, highlights",
 		status: "wip",
@@ -77,7 +77,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "search-results",
-		title: "Search Results",
+		title: "Search results",
 		description:
 			"Collection search with advanced filters, grid/list toggle, attribution qualifiers",
 		status: "wip",
@@ -85,7 +85,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "collection-area",
-		title: "Collection Area",
+		title: "Collection area",
 		description:
 			"Department landing page: about, highlights, browse options, related content",
 		status: "wip",
@@ -93,7 +93,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "artist-search",
-		title: "Artist Search",
+		title: "Artist search",
 		description:
 			"Browse and search the constituent index. Name search + A–Z filter. Initials avatars stand in for the ~95% of constituents without portraits.",
 		status: "wip",
@@ -109,7 +109,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "collector-page",
-		title: "Collector / Donor Page",
+		title: "Collector / donor page",
 		description:
 			"Entity page for major collectors: biography, associated objects, civic history",
 		status: "wip",
@@ -117,7 +117,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "portfolio-detail",
-		title: "Portfolio / Multi-Part Work",
+		title: "Portfolio / multi-part work",
 		description:
 			"Parent-child record: sequential display for portfolios, sketchbooks, illustrated books",
 		status: "wip",
@@ -125,7 +125,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "parent-record",
-		title: "Parent Record (Ensemble / Series)",
+		title: "Parent record (ensemble / series)",
 		description:
 			"Parent record for ensembles and series: components grid, contextual essay, related parent records",
 		status: "wip",
@@ -133,7 +133,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "my-finds",
-		title: "My Finds",
+		title: "My finds",
 		description:
 			"Personal research package: saved objects, no login, shareable URL",
 		status: "wip",
@@ -141,7 +141,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "seed-journey",
-		title: "Seed Journey",
+		title: "Seed journey",
 		description:
 			"Pick a saved object, follow a direction, build a shareable journey through related works",
 		status: "wip",
@@ -149,7 +149,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "visit-planner",
-		title: "Visit Planner",
+		title: "Visit planner",
 		description:
 			"Concierge experience: visitor type, interests, curated gallery paths",
 		status: "wip",
@@ -157,7 +157,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "educational-resources",
-		title: "Educational Resources",
+		title: "Educational resources",
 		description:
 			"Educator landing: lesson plans, gallery filter, age-level content adaptation",
 		status: "wip",
@@ -173,7 +173,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "exhibition-detail",
-		title: "Exhibition Detail",
+		title: "Exhibition detail",
 		description:
 			"Exhibition record: venue, dates, included works (cross-link target from object exhibition history)",
 		status: "wip",
@@ -181,21 +181,21 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "image-orders",
-		title: "Image Orders (post-MVP)",
+		title: "Image orders (post-MVP)",
 		description: "Image licensing / order workflow for in-copyright works",
 		status: "wip",
 		category: "features",
 	},
 	{
 		id: "accessibility-statement",
-		title: "Accessibility Statement",
+		title: "Accessibility statement",
 		description: "WCAG 2.2 AA conformance statement and contact",
 		status: "wip",
 		category: "meta",
 	},
 	{
 		id: "feature-status",
-		title: "Feature Status",
+		title: "Feature status",
 		description:
 			"Cross-page MVP / post-MVP feature inventory derived from scope annotations",
 		status: "wip",
@@ -203,7 +203,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "sitemap",
-		title: "Site Map",
+		title: "Site map",
 		description:
 			"Information architecture: page hierarchy and navigation structure",
 		status: "wip",
@@ -211,7 +211,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "objects/sample",
-		title: "Sample Objects (ETL data)",
+		title: "Sample objects (ETL data)",
 		description:
 			"Three real pipeline documents wired in: minimal (17 fields), median (34 fields), maximal (49 fields). Refresh via npm run sync:samples.",
 		status: "wip",
@@ -219,7 +219,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "constituents/sample",
-		title: "Sample Constituents (ETL data)",
+		title: "Sample constituents (ETL data)",
 		description:
 			"Ten real per-constituent documents from the pipeline. Min / median / max populated-field spread plus seven named pins (Monet, Holman Hunt, Diebenkorn, Spy, anonymous, Cartier, Tetsuya Noda). Each carries a sample_objects thumbnail grid.",
 		status: "wip",
@@ -227,7 +227,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "schema-reference",
-		title: "Schema Reference",
+		title: "Schema reference",
 		description:
 			"Every ES field with upstream column lineage from the Dagster pipeline. Generated by the schema_doc asset using dagster/column_lineage metadata + CollectionSchema + ES_MAPPING. Auto-refreshes via COLFLOW_WIREFRAMES_SCHEMA_PATH on each pipeline run.",
 		status: "wip",
@@ -235,7 +235,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "transformations",
-		title: "Source → Wireframe Transformations",
+		title: "Source → wireframe transformations",
 		description:
 			"What we change from TMS source through the Dagster pipeline to the wireframe render. Cross-references each rule to the FAMSF Object Cataloguing Guidelines section it implements.",
 		status: "wip",
@@ -243,7 +243,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "curator-deviations",
-		title: "Curator Rule Deviations",
+		title: "Curator rule deviations",
 		description:
 			"Where the FAMSF Object Cataloguing Guidelines mandate one thing and the TMS data shows another. Curator-side cleanup candidates + compensation strategy notes.",
 		status: "wip",
