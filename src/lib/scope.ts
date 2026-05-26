@@ -529,6 +529,14 @@ export const scope: Record<string, ScopeEntry> = {
 	"objects/sample/Dimensions": { mvp: true },
 	"objects/sample/Exhibitions": { mvp: true },
 	"objects/sample/Provenance": { mvp: true },
+
+	// ── Constituent (artist / institution) page ─────────────────────────
+	"constituents/sample/Tombstone": { mvp: true },
+	"constituents/sample/Biography": { mvp: true },
+	"constituents/sample/Roles & alternative names": { mvp: true },
+	"constituents/sample/Sample objects": { mvp: true },
+	"constituents/sample/Facets": { mvp: true },
+
 	"objects/sample/Audio guide": {
 		mvp: false,
 		note: "Audio recordings + transcripts not in TMS yet; data source TBD (separate Craft entries, Bloomberg Connects, or TMS UserField pointing at S3)",

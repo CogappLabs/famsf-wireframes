@@ -28,7 +28,7 @@ const HIGHLIGHTS = [
 	},
 	{
 		title: "Kovsh",
-		artist: "Peter Carl Faberg\u00e9",
+		artist: "Peter Carl Fabergé",
 		date: "ca. 1900",
 		medium: "Jade, gold, rubies, sapphires",
 	},
@@ -47,7 +47,7 @@ const HIGHLIGHTS = [
 	{
 		title: "Virgin and Child",
 		artist: "Unknown artist",
-		date: "ca. 1320\u20131340",
+		date: "ca. 1320–1340",
 		medium: "Ivory with traces of paint",
 	},
 ];
@@ -230,19 +230,19 @@ export default function CollectionAreaPage() {
 										significant collections of Rodin sculpture outside Paris.
 									</p>
 									<p className="mt-2 font-mono text-label text-gray-400">
-										Article \u00b7 8 min read
+										Article · 8 min read
 									</p>
 								</div>
 								<div className="border border-gray-300 p-5">
 									<h3 className="font-mono text-card font-medium">
-										Faberg\u00e9 and the Art of the Goldsmith
+										Fabergé and the Art of the Goldsmith
 									</h3>
 									<p className="mt-1 font-mono text-meta text-gray-500">
 										Exploring the masterful craftsmanship behind the
-										museum&apos;s Faberg\u00e9 holdings.
+										museum&apos;s Fabergé holdings.
 									</p>
 									<p className="mt-2 font-mono text-label text-gray-400">
-										Article \u00b7 5 min read
+										Article · 5 min read
 									</p>
 								</div>
 								<div className="border border-dashed border-gray-300 p-5">

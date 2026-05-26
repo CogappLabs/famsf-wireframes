@@ -107,7 +107,7 @@ export default function GlobalNav() {
 									}`}
 								>
 									{item.label}
-									{openMenu === item.label ? " \u25B4" : " \u25BE"}
+									{openMenu === item.label ? " ▴" : " ▾"}
 								</button>
 							) : (
 								<Link
@@ -196,7 +196,7 @@ function MobileNavItem({
 			>
 				{item.label}
 				<span className="font-mono text-body text-gray-500">
-					{expanded ? "\u25B4" : "\u25BE"}
+					{expanded ? "▴" : "▾"}
 				</span>
 			</button>
 			{expanded && (

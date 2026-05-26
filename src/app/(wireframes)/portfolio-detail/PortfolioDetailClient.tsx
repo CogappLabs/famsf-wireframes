@@ -17,7 +17,7 @@ const PORTFOLIO_CHILDREN = [
 	{ id: "plate-3", title: "Plate 3: The Expulsion", page: "3 of 24" },
 	{ id: "plate-4", title: "Plate 4: Cain and Abel", page: "4 of 24" },
 	{ id: "plate-5", title: "Plate 5: The Flood", page: "5 of 24" },
-	{ id: "plate-6", title: "Plate 6: Noah\u2019s Ark", page: "6 of 24" },
+	{ id: "plate-6", title: "Plate 6: Noah’s Ark", page: "6 of 24" },
 	{
 		id: "plate-7",
 		title: "Plate 7: The Tower of Babel",
@@ -81,10 +81,10 @@ export default function PortfolioDetailClient({
 									href={artistHref}
 									className="mt-1 block font-mono text-body text-gray-600 underline decoration-gray-300 hover:decoration-gray-600"
 								>
-									Gustave Dor\u00e9
+									Gustave Doré
 								</Link>
 								<p className="font-mono text-meta text-gray-500">
-									French, 1832\u20131883
+									French, 1832–1883
 								</p>
 
 								<div className="mt-6 flex flex-col gap-3 border-t border-gray-200 pt-6">
@@ -143,7 +143,7 @@ export default function PortfolioDetailClient({
 						<div className="mb-6 flex items-center justify-between">
 							<SectionLabel>{t("portfolio.childrenHeading")}</SectionLabel>
 							<span className="font-mono text-meta text-gray-400">
-								24 plates &middot; showing 1\u20138
+								24 plates &middot; showing 1–8
 							</span>
 						</div>
 						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
@@ -231,7 +231,7 @@ export default function PortfolioDetailClient({
 										L&apos;Enfer de Dante
 									</h3>
 									<p className="mt-0.5 font-mono text-meta text-gray-500">
-										Gustave Dor\u00e9, 1861
+										Gustave Doré, 1861
 									</p>
 									<p className="font-mono text-label text-gray-400">
 										Portfolio &middot; 75 plates
@@ -250,7 +250,7 @@ export default function PortfolioDetailClient({
 										London: A Pilgrimage
 									</h3>
 									<p className="mt-0.5 font-mono text-meta text-gray-500">
-										Gustave Dor\u00e9, 1872
+										Gustave Doré, 1872
 									</p>
 									<p className="font-mono text-label text-gray-400">
 										Portfolio &middot; 180 plates

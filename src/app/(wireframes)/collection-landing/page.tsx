@@ -136,13 +136,13 @@ const MORE_ENTRY_POINTS = [
 ];
 
 const TIMELINE_PERIODS = [
-	{ label: "Ancient", range: "3000 BCE\u20131 CE", count: "1,204" },
-	{ label: "Medieval", range: "1\u20131400", count: "892" },
-	{ label: "Renaissance", range: "1400\u20131600", count: "3,471" },
-	{ label: "Baroque", range: "1600\u20131750", count: "8,236" },
-	{ label: "Modern", range: "1750\u20131900", count: "52,108" },
-	{ label: "20th Century", range: "1900\u20132000", count: "31,445" },
-	{ label: "Contemporary", range: "2000\u2013present", count: "1,891" },
+	{ label: "Ancient", range: "3000 BCE–1 CE", count: "1,204" },
+	{ label: "Medieval", range: "1–1400", count: "892" },
+	{ label: "Renaissance", range: "1400–1600", count: "3,471" },
+	{ label: "Baroque", range: "1600–1750", count: "8,236" },
+	{ label: "Modern", range: "1750–1900", count: "52,108" },
+	{ label: "20th Century", range: "1900–2000", count: "31,445" },
+	{ label: "Contemporary", range: "2000–present", count: "1,891" },
 ];
 
 const HIGHLIGHTS = [
@@ -161,17 +161,17 @@ const HIGHLIGHTS = [
 	{
 		title: "Water Lilies",
 		artist: "Claude Monet",
-		date: "ca. 1914\u20131917",
+		date: "ca. 1914–1917",
 		dept: "European Paintings",
 	},
 	{
 		title: "Woman in a Striped Dress",
-		artist: "\u00c9douard Vuillard",
+		artist: "Édouard Vuillard",
 		date: "1895",
 		dept: "European Paintings",
 	},
 	{
-		title: "Teotitl\u00e1n del Valle Rug",
+		title: "Teotitlán del Valle Rug",
 		artist: "Anonymous",
 		date: "20th century",
 		dept: "Costume and Textile Arts",

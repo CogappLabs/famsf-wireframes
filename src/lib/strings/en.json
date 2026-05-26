@@ -59,7 +59,7 @@
 	"search.sortRelevance": "Relevance",
 	"search.sortDateAsc": "Date (oldest)",
 	"search.sortDateDesc": "Date (newest)",
-	"search.sortAZ": "Title A\u2013Z",
+	"search.sortAZ": "Title A–Z",
 	"search.exportResults": "Export results:",
 	"search.exportCSV": "CSV",
 	"search.exportPDF": "PDF",
@@ -243,7 +243,7 @@
 	"portfolio.nextPlate": "Next plate",
 	"portfolio.relatedHeading": "Other portfolios by this artist",
 	"portfolio.viewAllPlates": "View all plates",
-	"portfolio.plateCount": "Portfolio \u00b7 24 plates",
+	"portfolio.plateCount": "Portfolio · 24 plates",
 
 	"finds.label": "Personal collection",
 	"finds.heading": "My finds",

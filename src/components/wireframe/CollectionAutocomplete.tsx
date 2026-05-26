@@ -146,7 +146,7 @@ const SAMPLE_FACETS: Omit<FacetSuggestion, "type">[] = [
 	{
 		facetType: "primary_artist",
 		facetLabel: "Artist",
-		value: "Gustave Dor\u00e9",
+		value: "Gustave Doré",
 		count: 2694,
 	},
 	{
@@ -596,8 +596,7 @@ export default function CollectionAutocomplete({
 								<HighlightMatch text={s.title} query={inputValue} />
 							</p>
 							<p className="truncate font-mono text-label text-gray-500">
-								<HighlightMatch text={s.artist} query={inputValue} /> \u00b7{" "}
-								{s.date}
+								<HighlightMatch text={s.artist} query={inputValue} /> · {s.date}
 							</p>
 						</div>
 					</button>,
