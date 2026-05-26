@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Suspense } from "react";
+import BananaEasterEgg from "@/components/wireframe/BananaEasterEgg";
 import FieldDebugToggle from "@/components/wireframe/FieldDebugToggle";
 import FloatingSearch from "@/components/wireframe/FloatingSearch";
 import GlobalNav from "@/components/wireframe/GlobalNav";
@@ -31,6 +32,7 @@ export default function WireframeLayout({
 
 	return (
 		<>
+			<BananaEasterEgg />
 			<header className="relative z-50 flex items-center justify-between border-b border-gray-300 bg-white px-[var(--margin-xl)] py-2">
 				<Link
 					href="/"

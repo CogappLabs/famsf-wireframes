@@ -86,6 +86,7 @@ export function ScaleDiagram({ obj }: { obj: CollectionDocument }) {
 							preserveAspectRatio="xMidYMax meet"
 							style={{ width: bananaW, height: bananaH }}
 							aria-hidden
+							data-banana
 						>
 							<title>Banana for scale</title>
 							{/* Banana body: thicker crescent arcing up */}
