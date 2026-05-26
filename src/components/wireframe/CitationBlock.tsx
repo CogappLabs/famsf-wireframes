@@ -23,7 +23,7 @@ export default function CitationBlock({ citation }: { citation: string }) {
 				type="button"
 				onClick={onCopy}
 				aria-label="Copy citation to clipboard"
-				className="shrink-0 border border-gray-400 bg-white px-2 py-1 font-mono text-label uppercase tracking-wide text-gray-700 hover:border-gray-700 hover:bg-gray-100"
+				className="shrink-0 border border-gray-400 bg-white px-2 py-1 font-mono text-label tracking-wide text-gray-700 hover:border-gray-700 hover:bg-gray-100"
 			>
 				{copied ? "Copied" : "Copy"}
 			</button>

@@ -368,9 +368,7 @@ function FacetDialog({
 			className="m-auto w-full max-w-md border border-gray-300 bg-white p-0 backdrop:bg-black/30"
 		>
 			<div className="flex items-center justify-between border-b border-gray-200 px-4 py-3">
-				<h3 className="font-mono text-label font-bold uppercase">
-					{facet.label}
-				</h3>
+				<h3 className="font-mono text-label font-bold ">{facet.label}</h3>
 				<button
 					type="button"
 					onClick={onClose}
@@ -1491,8 +1489,8 @@ function SearchResultsContent({
 						)}
 
 						{/* Featured artist hero: surfaces when a single artist is the
-						    focus of the result set, whether via autocomplete pick or
-						    explicit Artist facet selection. */}
+						 focus of the result set, whether via autocomplete pick or
+						 explicit Artist facet selection. */}
 						{(() => {
 							const heroArtist = pinnedArtistName
 								? (artistMatches.find(

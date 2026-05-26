@@ -66,8 +66,8 @@ export function RelatedWorksSection({
 							onClick={() => setMode(key)}
 							className={
 								mode === key
-									? "border-2 border-gray-900 bg-gray-100 px-3 py-1 font-mono text-label font-medium uppercase tracking-wide text-gray-900"
-									: "border border-gray-300 px-3 py-1 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+									? "border-2 border-gray-900 bg-gray-100 px-3 py-1 font-mono text-label font-medium tracking-wide text-gray-900"
+									: "border border-gray-300 px-3 py-1 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
 							}
 						>
 							{t(labelKey)}
@@ -101,7 +101,7 @@ export function RelatedWorksSection({
 									<p className="mt-0.5 font-mono text-label text-gray-500">
 										{artistDisplay}, {dateDisplay}
 									</p>
-									<p className="mt-0.5 font-mono text-label uppercase tracking-wide text-gray-400">
+									<p className="mt-0.5 font-mono text-label tracking-wide text-gray-400">
 										{mode === "artist"
 											? t("object.relatedSameArtist")
 											: mode === "medium"

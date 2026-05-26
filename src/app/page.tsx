@@ -35,7 +35,7 @@ export default function WireframeIndex() {
 
 	return (
 		<div className="mx-auto max-w-[var(--container-sm)] px-[var(--margin-xl)] py-20">
-			<h1 className="mb-2 font-mono text-page font-semibold leading-[1.15] tracking-tight uppercase">
+			<h1 className="mb-2 font-mono text-page font-semibold leading-[1.15] tracking-tight ">
 				{t("index.heading")}
 			</h1>
 			<p className="mb-1 font-mono text-meta text-gray-500">
@@ -49,7 +49,7 @@ export default function WireframeIndex() {
 				<button
 					type="button"
 					onClick={() => setMvpOnly(!mvpOnly)}
-					className={`flex items-center gap-2 border px-3 py-1.5 font-mono text-label uppercase tracking-[0.08em] transition-colors ${
+					className={`flex items-center gap-2 border px-3 py-1.5 font-mono text-label tracking-[0.08em] transition-colors ${
 						mvpOnly
 							? "border-emerald-400 bg-emerald-50 text-emerald-700"
 							: "border-gray-300 text-gray-400 hover:border-gray-400"
@@ -77,7 +77,7 @@ export default function WireframeIndex() {
 						key === "other" ? "Other" : CATEGORY_LABELS[key as PageCategory];
 					return (
 						<section key={key} className="flex flex-col gap-3">
-							<h2 className="mb-1 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
+							<h2 className="mb-1 font-mono text-label tracking-[0.08em] text-gray-500">
 								{heading}
 							</h2>
 							{items.map((page) => (

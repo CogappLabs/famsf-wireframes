@@ -18,7 +18,7 @@ function SampleCard({ entry }: { entry: SampleEntry }) {
 			>
 				<div className="flex-1">
 					{isSpread && (
-						<span className="mr-2 inline-block border border-amber-300 bg-amber-50 px-1.5 py-0.5 font-mono text-label uppercase tracking-[0.08em] text-amber-800">
+						<span className="mr-2 inline-block border border-amber-300 bg-amber-50 px-1.5 py-0.5 font-mono text-label tracking-[0.08em] text-amber-800">
 							{label}
 						</span>
 					)}
@@ -45,7 +45,7 @@ function SampleCard({ entry }: { entry: SampleEntry }) {
 						<p className="mt-2 font-mono text-label text-gray-500">{reason}</p>
 					)}
 					{tags.length > 0 && (
-						<p className="mt-1 font-mono text-label uppercase tracking-[0.08em] text-gray-400">
+						<p className="mt-1 font-mono text-label tracking-[0.08em] text-gray-400">
 							{tags.join(" / ")}
 						</p>
 					)}
@@ -85,7 +85,7 @@ export default function SampleObjectsIndex() {
 
 				{spread.length > 0 && (
 					<section className="mb-10">
-						<h2 className="mb-4 border-b border-gray-200 pb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
+						<h2 className="mb-4 border-b border-gray-200 pb-1.5 font-mono text-label tracking-[0.08em] text-gray-500">
 							Field-population spread (auto-pick)
 						</h2>
 						<div className="flex flex-col gap-4">
@@ -98,7 +98,7 @@ export default function SampleObjectsIndex() {
 
 				{named.length > 0 && (
 					<section className="mb-10">
-						<h2 className="mb-4 border-b border-gray-200 pb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
+						<h2 className="mb-4 border-b border-gray-200 pb-1.5 font-mono text-label tracking-[0.08em] text-gray-500">
 							Named records
 						</h2>
 						<div className="flex flex-col gap-4">

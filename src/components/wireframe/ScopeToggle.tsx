@@ -8,7 +8,7 @@ export default function ScopeToggle() {
 		<button
 			type="button"
 			onClick={() => setShowScope(!showScope)}
-			className={`flex items-center gap-1.5 border px-2 py-1 font-mono text-label uppercase tracking-[0.08em] transition-colors ${
+			className={`flex items-center gap-1.5 border px-2 py-1 font-mono text-label tracking-[0.08em] transition-colors ${
 				showScope
 					? "border-emerald-400 bg-emerald-50 text-emerald-700"
 					: "border-gray-300 text-gray-400 hover:border-gray-400"

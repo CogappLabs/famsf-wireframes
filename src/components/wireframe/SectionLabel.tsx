@@ -9,7 +9,7 @@ export default function SectionLabel({
 }: SectionLabelProps) {
 	return (
 		<p
-			className={`font-mono text-label uppercase tracking-[0.08em] text-gray-500 ${className}`}
+			className={`font-mono text-label tracking-[0.04em] text-gray-500 ${className}`}
 		>
 			{children}
 		</p>
@@ -22,7 +22,7 @@ export function SectionLabelInline({
 }: SectionLabelProps) {
 	return (
 		<span
-			className={`font-mono text-label uppercase tracking-[0.08em] text-gray-500 ${className}`}
+			className={`font-mono text-label tracking-[0.04em] text-gray-500 ${className}`}
 		>
 			{children}
 		</span>

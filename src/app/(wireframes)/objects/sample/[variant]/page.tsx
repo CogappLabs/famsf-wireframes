@@ -71,7 +71,7 @@ const TERM_FIELDS = [
 type TermField = (typeof TERM_FIELDS)[number];
 
 /** Geography-related term fields are Tier 1 public per guidelines.
- *  All other Attributes are "Phase 2" per Attributes section. */
+ * All other Attributes are "Phase 2" per Attributes section. */
 const GEOGRAPHY_TERM_FIELDS = new Set<TermField>([
 	"term_place_of_creation",
 	"term_place_of_fabrication",
@@ -91,7 +91,7 @@ function TombstoneGroup({
 }) {
 	return (
 		<section>
-			<h3 className="mb-3 border-b border-gray-200 pb-1.5 font-mono text-label uppercase tracking-wide text-gray-500">
+			<h3 className="mb-3 border-b border-gray-200 pb-1.5 font-mono text-label tracking-wide text-gray-500">
 				{label}
 			</h3>
 			<div className="flex flex-col gap-2.5">{children}</div>
@@ -341,7 +341,7 @@ export default async function SampleObjectPage({ params }: Props) {
 								</div>
 								<Link
 									href={parentHref}
-									className="font-mono text-label uppercase tracking-wide text-gray-600 underline hover:text-gray-900"
+									className="font-mono text-label tracking-wide text-gray-600 underline hover:text-gray-900"
 								>
 									View parent record &rarr;
 								</Link>
@@ -376,7 +376,7 @@ export default async function SampleObjectPage({ params }: Props) {
 										visibleMedia[0].credit_line) && (
 										<div className="border-t border-gray-200 px-3 py-2">
 											{visibleMedia[0].media_view && (
-												<p className="font-mono text-label uppercase tracking-wide text-gray-500">
+												<p className="font-mono text-label tracking-wide text-gray-500">
 													{visibleMedia[0].media_view}
 													<FieldSourceBadge field="media[].media_view" />
 												</p>
@@ -452,7 +452,7 @@ export default async function SampleObjectPage({ params }: Props) {
 															className="border-0"
 														/>
 														<div className="border-t border-gray-200 px-3 py-2">
-															<p className="font-mono text-label uppercase tracking-wide text-gray-500">
+															<p className="font-mono text-label tracking-wide text-gray-500">
 																Image {i + 1} of {visibleMedia.length}
 																{item.media_view && (
 																	<> &middot; {item.media_view}</>
@@ -551,14 +551,14 @@ export default async function SampleObjectPage({ params }: Props) {
 								<div className="mt-3 flex flex-wrap items-center gap-3">
 									<button
 										type="button"
-										className="border border-gray-300 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+										className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
 									>
 										Zoom
 									</button>
 									{isPublicDomain ? (
 										<button
 											type="button"
-											className="border border-gray-300 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+											className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
 										>
 											Download
 										</button>
@@ -567,20 +567,20 @@ export default async function SampleObjectPage({ params }: Props) {
 											type="button"
 											disabled
 											title="In copyright [placeholder]"
-											className="cursor-not-allowed border border-gray-200 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-400"
+											className="cursor-not-allowed border border-gray-200 px-3 py-1.5 font-mono text-label tracking-wide text-gray-400"
 										>
 											Download (in copyright)
 										</button>
 									)}
 									<button
 										type="button"
-										className="border border-gray-300 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+										className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
 									>
 										Share
 									</button>
 									<button
 										type="button"
-										className="border border-gray-300 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+										className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
 									>
 										Cite
 									</button>
@@ -620,12 +620,12 @@ export default async function SampleObjectPage({ params }: Props) {
 						{(doc.is_compound || doc.is_virtual) && (
 							<div className="mb-3 flex flex-wrap gap-2">
 								{doc.is_compound && (
-									<span className="inline-block rounded bg-gray-100 px-2 py-0.5 font-mono text-label uppercase tracking-wider text-gray-500">
+									<span className="inline-block rounded bg-gray-100 px-2 py-0.5 font-mono text-label tracking-wider text-gray-500">
 										Compound Parent
 									</span>
 								)}
 								{doc.is_virtual && (
-									<span className="inline-block rounded bg-amber-50 px-2 py-0.5 font-mono text-label uppercase tracking-wider text-amber-700">
+									<span className="inline-block rounded bg-amber-50 px-2 py-0.5 font-mono text-label tracking-wider text-amber-700">
 										Virtual
 									</span>
 								)}
@@ -759,10 +759,10 @@ export default async function SampleObjectPage({ params }: Props) {
 							)}
 
 							{/* Attributes: all populated term_* groups.
-							    Geography fields are Tier 1 public per guidelines.
-							    Non-geography (Period/Reign/Dynasty/Style/Movement/School/
-							    Materials/Subject/Intended Market) are marked Phase 2 — gated
-							    via ScopeMark pending FAMSF confirmation of 2026 policy flip. */}
+							 Geography fields are Tier 1 public per guidelines.
+							 Non-geography (Period/Reign/Dynasty/Style/Movement/School/
+							 Materials/Subject/Intended Market) are marked Phase 2 — gated
+							 via ScopeMark pending FAMSF confirmation of 2026 policy flip. */}
 							{hasTerms && (
 								<TombstoneGroup label="Attributes">
 									{populatedTermGroups.map(({ field, label, entries }) => {
@@ -876,10 +876,10 @@ export default async function SampleObjectPage({ params }: Props) {
 							)}
 
 							{/* Marks: Signed / Inscribed / Markings.
-							    Guidelines (Mark(s), Inscription(s), Signed) currently mark these
-							    fields internal-only. Wireframe surfaces them pending FAMSF
-							    confirmation of 2026 Tier-policy flip. Wrap in ScopeMark so
-							    stakeholders can see the gate. */}
+							 Guidelines (Mark(s), Inscription(s), Signed) currently mark these
+							 fields internal-only. Wireframe surfaces them pending FAMSF
+							 confirmation of 2026 Tier-policy flip. Wrap in ScopeMark so
+							 stakeholders can see the gate. */}
 							{(doc.signed || doc.inscribed || doc.markings) && (
 								<TombstoneGroup label="Marks (pending Tier policy confirm)">
 									{doc.signed && (
@@ -922,8 +922,8 @@ export default async function SampleObjectPage({ params }: Props) {
 				</Container>
 
 				{/* Jump-to nav: moved below tombstone so the primary tombstone
-				    fields land in view first; navigation lives at the start of
-				    the deep-content scroll. */}
+				 fields land in view first; navigation lives at the start of
+				 the deep-content scroll. */}
 				<ScopeMark label="Jump-to navigation">
 					<Container className="border-b border-gray-200 py-2">
 						<JumpToNav
@@ -1076,7 +1076,7 @@ export default async function SampleObjectPage({ params }: Props) {
 							<div className="flex flex-col gap-5">
 								{sortedRoles.map(([role, members]) => (
 									<div key={role}>
-										<h3 className="mb-2 font-mono text-label uppercase tracking-wide text-gray-400">
+										<h3 className="mb-2 font-mono text-label tracking-wide text-gray-400">
 											{role}
 										</h3>
 										<div className="flex flex-col gap-2">
@@ -1164,7 +1164,7 @@ export default async function SampleObjectPage({ params }: Props) {
 							{doc.exhibition_history_text && (
 								<ScopeMark label="Exhibition history text">
 									<details className="mt-4 border-t border-gray-200 pt-4 group">
-										<summary className="cursor-pointer list-none font-mono text-label uppercase tracking-[0.08em] text-gray-500 hover:text-gray-700">
+										<summary className="cursor-pointer list-none font-mono text-label tracking-[0.08em] text-gray-500 hover:text-gray-700">
 											<span className="mr-1 inline-block transition-transform group-open:rotate-90">
 												▸
 											</span>
@@ -1257,7 +1257,7 @@ export default async function SampleObjectPage({ params }: Props) {
 													}
 												/>
 												<div className="px-2.5 py-2">
-													<p className="font-mono text-label uppercase tracking-wide text-gray-400">
+													<p className="font-mono text-label tracking-wide text-gray-400">
 														{card.accession_number}
 													</p>
 													{card.title && (

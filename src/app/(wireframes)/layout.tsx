@@ -52,7 +52,7 @@ export default function WireframeLayout({
 							<StatusBadge status={page.status} />
 						</>
 					) : (
-						<span className="font-mono text-label uppercase text-gray-500">
+						<span className="font-mono text-label text-gray-500">
 							{t("nav.wireframe")}
 						</span>
 					)}
@@ -70,7 +70,7 @@ export default function WireframeLayout({
 					<div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr]">
 						{/* Identity */}
 						<div>
-							<span className="font-mono text-body font-bold uppercase tracking-wide">
+							<span className="font-mono text-body font-bold tracking-wide">
 								{t("footer.name")}
 							</span>
 							<span className="ml-2 font-mono text-body text-gray-400">
@@ -120,7 +120,7 @@ export default function WireframeLayout({
 						{/* Link groups */}
 						{footerGroups.map((group) => (
 							<div key={group.heading}>
-								<p className="mb-2 font-mono text-label uppercase text-gray-500">
+								<p className="mb-2 font-mono text-label text-gray-500">
 									{group.heading}
 								</p>
 								<ul className="flex flex-col gap-1">

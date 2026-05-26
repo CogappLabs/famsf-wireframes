@@ -99,7 +99,7 @@ export default function ImageOrdersClient({
 										</div>
 										<button
 											type="button"
-											className="font-mono text-label uppercase tracking-wide text-gray-500 hover:text-gray-900"
+											className="font-mono text-label tracking-wide text-gray-500 hover:text-gray-900"
 										>
 											Remove
 										</button>
@@ -121,7 +121,7 @@ export default function ImageOrdersClient({
 						</SectionLabel>
 						<form className="flex flex-col gap-4">
 							<label className="flex flex-col gap-1">
-								<span className="font-mono text-label uppercase tracking-wide text-gray-500">
+								<span className="font-mono text-label tracking-wide text-gray-500">
 									{t("image-orders.fieldUseCase")}
 								</span>
 								<select className="border border-gray-300 px-2 py-1.5 font-mono text-meta">
@@ -132,7 +132,7 @@ export default function ImageOrdersClient({
 								</select>
 							</label>
 							<label className="flex flex-col gap-1">
-								<span className="font-mono text-label uppercase tracking-wide text-gray-500">
+								<span className="font-mono text-label tracking-wide text-gray-500">
 									{t("image-orders.fieldFormat")}
 								</span>
 								<select className="border border-gray-300 px-2 py-1.5 font-mono text-meta">
@@ -142,7 +142,7 @@ export default function ImageOrdersClient({
 								</select>
 							</label>
 							<label className="flex flex-col gap-1">
-								<span className="font-mono text-label uppercase tracking-wide text-gray-500">
+								<span className="font-mono text-label tracking-wide text-gray-500">
 									{t("image-orders.fieldDeadline")}
 								</span>
 								<input
@@ -151,7 +151,7 @@ export default function ImageOrdersClient({
 								/>
 							</label>
 							<label className="flex flex-col gap-1">
-								<span className="font-mono text-label uppercase tracking-wide text-gray-500">
+								<span className="font-mono text-label tracking-wide text-gray-500">
 									{t("image-orders.fieldContact")}
 								</span>
 								<input

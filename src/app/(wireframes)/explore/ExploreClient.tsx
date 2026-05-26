@@ -279,7 +279,7 @@ export default function ExploreClient({
 												key={label}
 												className="flex flex-col items-center border border-gray-200 bg-gray-50 px-3 py-4"
 											>
-												<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+												<span className="font-mono text-label tracking-wide text-gray-400">
 													{label}
 												</span>
 												<span className="mt-1 font-mono text-body font-medium text-gray-800">
@@ -332,7 +332,7 @@ export default function ExploreClient({
 										<p className="font-mono text-meta font-medium text-gray-800">
 											{m.name}
 										</p>
-										<p className="mt-1 font-mono text-label uppercase tracking-wide text-gray-400">
+										<p className="mt-1 font-mono text-label tracking-wide text-gray-400">
 											{m.dates} &middot; {m.count} works
 										</p>
 									</Link>

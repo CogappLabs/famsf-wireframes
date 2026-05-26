@@ -143,7 +143,7 @@ function ParentRecordContent({
 					<Container>
 						<div className="mb-4 flex items-baseline justify-between">
 							<SectionLabel>{t("parent.componentsHeading")}</SectionLabel>
-							<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+							<span className="font-mono text-label tracking-wide text-gray-400">
 								{childCards.length} records
 							</span>
 						</div>
@@ -168,7 +168,7 @@ function ParentRecordContent({
 										<p className="mt-0.5 font-mono text-label text-gray-500">
 											{normaliseDateRange(c.display_date) || ""}
 										</p>
-										<p className="mt-1 font-mono text-label uppercase tracking-wide text-gray-400">
+										<p className="mt-1 font-mono text-label tracking-wide text-gray-400">
 											ID {c.id}
 										</p>
 									</div>

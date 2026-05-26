@@ -439,7 +439,7 @@ function CollectionLandingContent() {
 										<p className="font-mono text-meta font-medium text-gray-800">
 											{g.name}
 										</p>
-										<p className="mt-1 font-mono text-label uppercase tracking-wide text-gray-400">
+										<p className="mt-1 font-mono text-label tracking-wide text-gray-400">
 											{g.venue} &middot; {g.count} on view
 										</p>
 									</Link>

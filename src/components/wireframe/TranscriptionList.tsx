@@ -4,7 +4,7 @@ import type { TranscriptionSegment } from "@/lib/collection-document";
  * Render a list of parsed transcription segments per
  * §Inscriptions / §Mark(s) / §Labels / §Signed:
  *
- *     (side, location, medium) transcription
+ * (side, location, medium) transcription
  *
  * Pipeline `parse_transcriptions` splits the curator string into
  * `{raw, location, transcription, is_watermark}` segments. We render
@@ -43,7 +43,7 @@ export default function TranscriptionList({
 					return (
 						<li key={key} className="flex flex-col">
 							{s.is_watermark && (
-								<span className="mb-0.5 inline-block self-start border border-amber-300 bg-amber-50 px-1.5 py-0.5 font-mono text-label uppercase tracking-[0.08em] text-amber-800">
+								<span className="mb-0.5 inline-block self-start border border-amber-300 bg-amber-50 px-1.5 py-0.5 font-mono text-label tracking-[0.08em] text-amber-800">
 									Watermark
 								</span>
 							)}

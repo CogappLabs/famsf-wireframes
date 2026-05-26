@@ -39,7 +39,7 @@ export default function WireframeSection({
 				}`}
 			/>
 			<span
-				className={`absolute top-2 right-2 z-50 flex items-center gap-1.5 border px-1.5 py-0.5 font-mono text-label uppercase tracking-[0.08em] ${bgClass}`}
+				className={`absolute top-2 right-2 z-50 flex items-center gap-1.5 border px-1.5 py-0.5 font-mono text-label tracking-[0.08em] ${bgClass}`}
 			>
 				<span>
 					{mvp ? "MVP" : "Post-MVP"}: {label}
@@ -91,7 +91,7 @@ export function ScopeMark({ children, label, className = "" }: ScopeMarkProps) {
 			<span
 				className={`mb-1 flex items-center gap-1.5 font-mono text-label ${textClass}`}
 			>
-				<span className="uppercase tracking-[0.08em]">
+				<span className=" tracking-[0.08em]">
 					{mvp ? "MVP" : "Post-MVP"}: {label}
 				</span>
 				{note && <span className="opacity-70">· {note}</span>}

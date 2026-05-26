@@ -95,7 +95,7 @@ export const pages: WireframePage[] = [
 		id: "artist-search",
 		title: "Artist search",
 		description:
-			"Browse and search the constituent index. Name search + A–Z filter. Initials avatars stand in for the ~95% of constituents without portraits.",
+			"Browse and search the people index (artists, makers, institutions, donors). Name search + A–Z filter. Initials avatars stand in for the ~95% of people without portraits.",
 		status: "wip",
 		category: "records",
 	},
@@ -227,7 +227,7 @@ export const pages: WireframePage[] = [
 	},
 	{
 		id: "constituents/sample",
-		title: "Sample constituents (ETL data)",
+		title: "Sample people (ETL data)",
 		description:
 			"Ten real per-constituent documents from the pipeline. Min / median / max populated-field spread plus seven named pins (Monet, Holman Hunt, Diebenkorn, Spy, anonymous, Cartier, Tetsuya Noda). Each carries a sample_objects thumbnail grid.",
 		status: "wip",

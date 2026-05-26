@@ -126,7 +126,7 @@ export default function VisitPlannerClient({
 									</p>
 									<a
 										href="/search-results"
-										className="mt-1 inline-block font-mono text-label uppercase tracking-wide text-blue-700 underline"
+										className="mt-1 inline-block font-mono text-label tracking-wide text-blue-700 underline"
 									>
 										Browse galleries &rarr;
 									</a>

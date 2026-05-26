@@ -49,10 +49,10 @@ export default function SiteMapPage() {
 
 	return (
 		<div className="mx-auto max-w-[var(--container-sm)] px-[var(--margin-xl)] py-20">
-			<p className="mb-1 font-mono text-label uppercase text-gray-500">
+			<p className="mb-1 font-mono text-label text-gray-500">
 				{t("sitemap.label")}
 			</p>
-			<h1 className="mb-2 font-mono text-page font-semibold leading-[1.15] tracking-tight uppercase">
+			<h1 className="mb-2 font-mono text-page font-semibold leading-[1.15] tracking-tight ">
 				{t("sitemap.heading")}
 			</h1>
 			<p className="mb-1 font-mono text-meta text-gray-500">

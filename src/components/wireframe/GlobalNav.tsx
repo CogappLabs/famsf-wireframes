@@ -71,7 +71,7 @@ export default function GlobalNav() {
 					{/* Logo / site name */}
 					<Link
 						href="/collection-landing"
-						className="shrink-0 font-mono text-card font-bold uppercase tracking-[0.06em]"
+						className="shrink-0 font-mono text-card font-bold tracking-[0.06em]"
 					>
 						{t("nav.siteName")}
 						<span className="ml-3 font-normal normal-case tracking-normal text-gray-400">

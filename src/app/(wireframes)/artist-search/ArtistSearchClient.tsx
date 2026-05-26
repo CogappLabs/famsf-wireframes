@@ -146,9 +146,7 @@ function FacetDialog({
 			className="m-auto w-full max-w-md border border-gray-300 bg-white p-0 backdrop:bg-black/30"
 		>
 			<div className="flex items-center justify-between border-b border-gray-200 px-4 py-3">
-				<h3 className="font-mono text-label font-bold uppercase">
-					{facet.label}
-				</h3>
+				<h3 className="font-mono text-label font-bold ">{facet.label}</h3>
 				<button
 					type="button"
 					onClick={onClose}
@@ -316,7 +314,7 @@ export default function ArtistSearchClient({
 
 						<div className="mt-6 max-w-2xl">
 							<label
-								className="font-mono text-label uppercase tracking-[0.08em] text-gray-500"
+								className="font-mono text-label tracking-[0.08em] text-gray-500"
 								htmlFor="artist-search-input"
 							>
 								{t("artistSearch.searchLabel")}
@@ -398,7 +396,7 @@ export default function ArtistSearchClient({
 							<button
 								type="button"
 								onClick={() => setLetter(null)}
-								className={`border px-3 py-1 font-mono text-label uppercase tracking-wide ${
+								className={`border px-3 py-1 font-mono text-label tracking-wide ${
 									letter === null
 										? "border-gray-900 bg-gray-900 text-white"
 										: "border-gray-300 text-gray-700 hover:border-gray-500"
@@ -415,7 +413,7 @@ export default function ArtistSearchClient({
 										type="button"
 										disabled={!available}
 										onClick={() => setLetter(active ? null : l)}
-										className={`min-w-[2.25rem] border px-2 py-1 font-mono text-label uppercase tracking-wide ${
+										className={`min-w-[2.25rem] border px-2 py-1 font-mono text-label tracking-wide ${
 											active
 												? "border-gray-900 bg-gray-900 text-white"
 												: available
@@ -458,7 +456,7 @@ export default function ArtistSearchClient({
 												<div
 													aria-hidden="true"
 													title={t("artistSearch.noImageNote")}
-													className="flex h-14 w-14 flex-none items-center justify-center border border-gray-300 bg-gray-100 font-mono text-label uppercase tracking-wider text-gray-500"
+													className="flex h-14 w-14 flex-none items-center justify-center border border-gray-300 bg-gray-100 font-mono text-label tracking-wider text-gray-500"
 												>
 													{initials(artist.name)}
 												</div>

@@ -523,7 +523,7 @@ export default function CollectionAutocomplete({
 					elements.push(
 						<div
 							key={`group-${currentFacetType}`}
-							className="px-3 pb-1 pt-2 font-mono text-label uppercase tracking-wide text-gray-500"
+							className="px-3 pb-1 pt-2 font-mono text-label tracking-wide text-gray-500"
 						>
 							{s.facetLabel}
 						</div>,
@@ -565,7 +565,7 @@ export default function CollectionAutocomplete({
 					elements.push(
 						<div
 							key="hits-label"
-							className="px-3 pb-1 pt-2 font-mono text-label uppercase tracking-wide text-gray-500"
+							className="px-3 pb-1 pt-2 font-mono text-label tracking-wide text-gray-500"
 						>
 							Objects
 						</div>,

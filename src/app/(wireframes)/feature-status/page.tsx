@@ -18,7 +18,7 @@ const FILTERS: ReadonlyArray<readonly [Filter, string]> = [
 
 function PostMvpBadge() {
 	return (
-		<span className="inline-block border border-gray-300 bg-gray-50 px-1.5 py-0.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
+		<span className="inline-block border border-gray-300 bg-gray-50 px-1.5 py-0.5 font-mono text-label tracking-[0.08em] text-gray-500">
 			Post-MVP
 		</span>
 	);
@@ -55,7 +55,7 @@ export default function FeatureStatusPage() {
 		<div className="min-h-screen bg-white">
 			<Container className="py-12">
 				<SectionLabel>{t("feature-status.label")}</SectionLabel>
-				<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight uppercase">
+				<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight ">
 					{t("feature-status.heading")}
 				</h1>
 				<p className="mt-3 max-w-[var(--container-md)] font-mono text-body text-gray-600">
@@ -93,14 +93,14 @@ export default function FeatureStatusPage() {
 							onClick={() => setFilter(key)}
 							className={
 								filter === key
-									? "border-2 border-gray-900 bg-gray-100 px-3 py-1.5 font-mono text-meta font-medium uppercase tracking-wide text-gray-900"
-									: "border border-gray-300 px-3 py-1.5 font-mono text-meta uppercase tracking-wide text-gray-600 hover:border-gray-500"
+									? "border-2 border-gray-900 bg-gray-100 px-3 py-1.5 font-mono text-meta font-medium tracking-wide text-gray-900"
+									: "border border-gray-300 px-3 py-1.5 font-mono text-meta tracking-wide text-gray-600 hover:border-gray-500"
 							}
 						>
 							{t(labelKey)}
 						</button>
 					))}
-					<span className="ml-auto self-center font-mono text-label uppercase tracking-wide text-gray-400">
+					<span className="ml-auto self-center font-mono text-label tracking-wide text-gray-400">
 						{visible.length} of {rows.length} sections
 					</span>
 				</div>
@@ -115,7 +115,7 @@ export default function FeatureStatusPage() {
 						{grouped.map(([pageId, sections]) => (
 							<section key={pageId}>
 								<div className="mb-2 flex items-baseline justify-between border-b border-gray-300 pb-1">
-									<h2 className="font-mono text-card font-semibold uppercase tracking-wide">
+									<h2 className="font-mono text-card font-semibold tracking-wide">
 										<Link
 											href={`/${pageId}`}
 											className="underline decoration-gray-300 hover:decoration-gray-700"
@@ -123,7 +123,7 @@ export default function FeatureStatusPage() {
 											{pageTitle(pageId)}
 										</Link>
 									</h2>
-									<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+									<span className="font-mono text-label tracking-wide text-gray-400">
 										{sections.filter((s) => s.mvp).length} MVP /{" "}
 										{sections.length} total
 									</span>
@@ -131,16 +131,16 @@ export default function FeatureStatusPage() {
 								<table className="w-full table-fixed border-collapse font-mono text-meta">
 									<thead>
 										<tr className="border-b border-gray-200 text-left">
-											<th className="w-1/3 py-2 font-mono text-label uppercase tracking-wide text-gray-400">
+											<th className="w-1/3 py-2 font-mono text-label tracking-wide text-gray-400">
 												{t("feature-status.colSection")}
 											</th>
-											<th className="w-24 py-2 font-mono text-label uppercase tracking-wide text-gray-400">
+											<th className="w-24 py-2 font-mono text-label tracking-wide text-gray-400">
 												{t("feature-status.colStatus")}
 											</th>
-											<th className="py-2 font-mono text-label uppercase tracking-wide text-gray-400">
+											<th className="py-2 font-mono text-label tracking-wide text-gray-400">
 												{t("feature-status.colNotes")}
 											</th>
-											<th className="w-20 py-2 font-mono text-label uppercase tracking-wide text-gray-400">
+											<th className="w-20 py-2 font-mono text-label tracking-wide text-gray-400">
 												{t("feature-status.colTracker")}
 											</th>
 										</tr>
@@ -203,7 +203,7 @@ function Stat({
 			>
 				{value}
 			</span>
-			<span className="font-mono text-label uppercase tracking-wide text-gray-500">
+			<span className="font-mono text-label tracking-wide text-gray-500">
 				{label}
 			</span>
 		</div>

@@ -204,7 +204,7 @@ export default function EducationalResourcesClient({
 								{t("edu.readingLevelIntro")}
 							</p>
 							<div className="border border-gray-300 p-4">
-								<p className="mb-2 font-mono text-label font-medium uppercase text-gray-500">
+								<p className="mb-2 font-mono text-label font-medium text-gray-500">
 									{t("edu.readingLevelLabel")}
 								</p>
 								<div className="flex gap-2">

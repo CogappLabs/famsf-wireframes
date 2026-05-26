@@ -70,7 +70,7 @@ export default function VariationToggle({
 					key={v.key}
 					type="button"
 					onClick={() => setVariation(v.key)}
-					className={`px-2.5 py-1 font-mono text-label uppercase transition-colors ${
+					className={`px-2.5 py-1 font-mono text-label transition-colors ${
 						current === v.key
 							? "bg-gray-800 text-white"
 							: "bg-gray-100 text-gray-500 hover:bg-gray-200"

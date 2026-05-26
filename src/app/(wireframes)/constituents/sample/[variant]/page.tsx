@@ -86,7 +86,7 @@ export default async function SampleConstituentPage({ params }: Props) {
 				<Container className="border-b border-gray-200 py-2">
 					<Breadcrumb
 						items={[
-							{ label: "Sample Constituents", href: "/constituents/sample" },
+							{ label: "Sample people", href: "/constituents/sample" },
 							{ label: doc.name || variant },
 						]}
 					/>
@@ -135,13 +135,13 @@ export default async function SampleConstituentPage({ params }: Props) {
 						<div className="mt-4 flex flex-wrap items-center gap-2">
 							<button
 								type="button"
-								className="border border-gray-300 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+								className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
 							>
 								Share
 							</button>
 							<button
 								type="button"
-								className="border border-gray-300 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+								className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
 							>
 								Cite
 							</button>
@@ -400,7 +400,7 @@ export default async function SampleConstituentPage({ params }: Props) {
 											label={obj.has_iiif ? "[IIIF available]" : "[No image]"}
 										/>
 										<div className="px-2.5 py-2">
-											<p className="font-mono text-label uppercase tracking-wide text-gray-400">
+											<p className="font-mono text-label tracking-wide text-gray-400">
 												{obj.accession_number}
 											</p>
 											{obj.title && (

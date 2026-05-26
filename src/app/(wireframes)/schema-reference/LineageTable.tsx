@@ -169,7 +169,7 @@ export default function LineageTable({ fields }: { fields: FieldRow[] }) {
 				<div className="flex-1 min-w-[240px]">
 					<label
 						htmlFor="schema-search"
-						className="font-mono text-label uppercase tracking-wide text-gray-500"
+						className="font-mono text-label tracking-wide text-gray-500"
 					>
 						Search
 					</label>
@@ -183,7 +183,7 @@ export default function LineageTable({ fields }: { fields: FieldRow[] }) {
 					/>
 				</div>
 				<div>
-					<div className="font-mono text-label uppercase tracking-wide text-gray-500">
+					<div className="font-mono text-label tracking-wide text-gray-500">
 						TMS table
 					</div>
 					<select
@@ -200,7 +200,7 @@ export default function LineageTable({ fields }: { fields: FieldRow[] }) {
 					</select>
 				</div>
 				<div>
-					<div className="font-mono text-label uppercase tracking-wide text-gray-500">
+					<div className="font-mono text-label tracking-wide text-gray-500">
 						Kind
 					</div>
 					<div className="mt-1 flex flex-wrap gap-1">
@@ -211,7 +211,7 @@ export default function LineageTable({ fields }: { fields: FieldRow[] }) {
 									key={k.value}
 									type="button"
 									onClick={() => setKindFilter(k.value)}
-									className={`border px-2 py-1 font-mono text-label uppercase tracking-wide transition ${
+									className={`border px-2 py-1 font-mono text-label tracking-wide transition ${
 										active
 											? `${k.tone} font-semibold`
 											: "border-gray-200 text-gray-500 hover:border-gray-400"
@@ -232,19 +232,19 @@ export default function LineageTable({ fields }: { fields: FieldRow[] }) {
 				<table className="w-full border-collapse font-mono text-meta">
 					<thead>
 						<tr className="border-b-2 border-gray-300 text-left">
-							<th className="px-2 py-2 font-mono text-label uppercase tracking-wide text-gray-500">
+							<th className="px-2 py-2 font-mono text-label tracking-wide text-gray-500">
 								ES field
 							</th>
-							<th className="px-2 py-2 font-mono text-label uppercase tracking-wide text-gray-500">
+							<th className="px-2 py-2 font-mono text-label tracking-wide text-gray-500">
 								Kind
 							</th>
-							<th className="px-2 py-2 font-mono text-label uppercase tracking-wide text-gray-500">
+							<th className="px-2 py-2 font-mono text-label tracking-wide text-gray-500">
 								Lineage chain → TMS
 							</th>
-							<th className="px-2 py-2 font-mono text-label uppercase tracking-wide text-gray-500">
+							<th className="px-2 py-2 font-mono text-label tracking-wide text-gray-500">
 								ES type
 							</th>
-							<th className="px-2 py-2 font-mono text-label uppercase tracking-wide text-gray-500">
+							<th className="px-2 py-2 font-mono text-label tracking-wide text-gray-500">
 								Polars dtype
 							</th>
 						</tr>
@@ -274,7 +274,7 @@ export default function LineageTable({ fields }: { fields: FieldRow[] }) {
 											{badges.map((b) => (
 												<span
 													key={b.label}
-													className={`border px-1 ${b.tone} font-mono text-label uppercase tracking-wide`}
+													className={`border px-1 ${b.tone} font-mono text-label tracking-wide`}
 												>
 													{b.label}
 												</span>
@@ -295,7 +295,7 @@ export default function LineageTable({ fields }: { fields: FieldRow[] }) {
 														>
 															<span className="text-gray-400">{i + 1}.</span>{" "}
 															{isTms && (
-																<span className="mr-1 border border-violet-400 bg-violet-50 px-1 font-mono text-label uppercase tracking-wide text-violet-700">
+																<span className="mr-1 border border-violet-400 bg-violet-50 px-1 font-mono text-label tracking-wide text-violet-700">
 																	TMS
 																</span>
 															)}

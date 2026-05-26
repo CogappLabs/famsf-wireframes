@@ -89,7 +89,7 @@ export default function PortfolioDetailClient({
 
 								<div className="mt-6 flex flex-col gap-3 border-t border-gray-200 pt-6">
 									<div>
-										<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+										<span className="font-mono text-label tracking-wide text-gray-400">
 											{t("object.fieldDate")}
 										</span>
 										<p className="mt-0.5 font-mono text-meta text-gray-700">
@@ -97,7 +97,7 @@ export default function PortfolioDetailClient({
 										</p>
 									</div>
 									<div>
-										<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+										<span className="font-mono text-label tracking-wide text-gray-400">
 											{t("object.fieldMedium")}
 										</span>
 										<p className="mt-0.5 font-mono text-meta text-gray-700">
@@ -105,7 +105,7 @@ export default function PortfolioDetailClient({
 										</p>
 									</div>
 									<div>
-										<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+										<span className="font-mono text-label tracking-wide text-gray-400">
 											{t("object.fieldAccession")}
 										</span>
 										<p className="mt-0.5 font-mono text-meta text-gray-700">
@@ -113,7 +113,7 @@ export default function PortfolioDetailClient({
 										</p>
 									</div>
 									<div>
-										<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+										<span className="font-mono text-label tracking-wide text-gray-400">
 											{t("object.fieldDepartment")}
 										</span>
 										<p className="mt-0.5 font-mono text-meta text-gray-700">
@@ -121,7 +121,7 @@ export default function PortfolioDetailClient({
 										</p>
 									</div>
 									<div>
-										<span className="font-mono text-label uppercase tracking-wide text-gray-400">
+										<span className="font-mono text-label tracking-wide text-gray-400">
 											{t("object.fieldCreditLine")}
 										</span>
 										<p className="mt-0.5 font-mono text-meta text-gray-700">

@@ -209,7 +209,7 @@ function ExhibitionsContent({
 										>
 											<ImagePlaceholder aspect="3/2" label={`[${e.title}]`} />
 											<div className="flex flex-1 flex-col p-4">
-												<p className="font-mono text-label uppercase tracking-wide text-gray-400">
+												<p className="font-mono text-label tracking-wide text-gray-400">
 													{s === "current"
 														? t("exhibitions.statusCurrent")
 														: s === "upcoming"

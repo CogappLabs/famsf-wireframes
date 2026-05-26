@@ -9,7 +9,7 @@ export default function CategoryBadge({
 }: CategoryBadgeProps) {
 	return (
 		<span
-			className={`inline-block border border-gray-400 bg-gray-100 px-1.5 py-0.5 font-mono text-label uppercase ${className}`}
+			className={`inline-block border border-gray-400 bg-gray-100 px-1.5 py-0.5 font-mono text-label ${className}`}
 		>
 			{children}
 		</span>
