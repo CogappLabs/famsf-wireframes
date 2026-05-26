@@ -6,7 +6,6 @@ import {
 	SectionLabel,
 	WireframeSection,
 } from "@/components/wireframe";
-import { iiifImageUrl, primaryMedia } from "@/lib/collection-document";
 import { loadSampleDocs } from "@/lib/sample-docs-registry";
 import { t } from "@/lib/strings";
 import { ScopePage } from "@/providers/ScopeProvider";
@@ -14,8 +13,6 @@ import { ScopePage } from "@/providers/ScopeProvider";
 interface DepartmentEntry {
 	name: string;
 	objectCount: number;
-	sampleThumbUrl?: string;
-	sampleTitle?: string;
 }
 
 export default function DepartmentsIndexPage() {
@@ -26,15 +23,7 @@ export default function DepartmentsIndexPage() {
 		const dept = e.doc.department;
 		if (!dept) continue;
 		if (!map.has(dept)) {
-			const m = primaryMedia(e.doc);
-			map.set(dept, {
-				name: dept,
-				objectCount: 0,
-				sampleThumbUrl: m
-					? iiifImageUrl(m.media_master_id, "thumb")
-					: undefined,
-				sampleTitle: e.doc.title ?? undefined,
-			});
+			map.set(dept, { name: dept, objectCount: 0 });
 		}
 		const entry = map.get(dept);
 		if (entry) entry.objectCount += 1;
@@ -93,16 +82,7 @@ export default function DepartmentsIndexPage() {
 										href={`/collection-area?name=${encodeURIComponent(d.name)}`}
 										className="flex flex-col border border-gray-300 transition-colors hover:border-gray-500"
 									>
-										{d.sampleThumbUrl ? (
-											// biome-ignore lint/performance/noImgElement: wireframe-only IIIF preview
-											<img
-												src={d.sampleThumbUrl}
-												alt={d.sampleTitle ?? d.name}
-												className="aspect-[1/1] w-full object-cover"
-											/>
-										) : (
-											<ImagePlaceholder aspect="1/1" label={`[${d.name}]`} />
-										)}
+										<ImagePlaceholder aspect="1/1" label={`[${d.name}]`} />
 										<div className="flex flex-1 flex-col p-4">
 											<h3 className="font-mono text-card font-medium leading-snug">
 												{d.name}
