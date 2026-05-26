@@ -23,6 +23,11 @@ export const FIELD_MAP: Record<string, FieldMapping> = {
 		source: "Objects.SearchObjectNumber",
 		notes: "pre-padded sort key from TMS",
 	},
+	slug: {
+		source: "Objects.DisplayedTitle + Objects.ObjectNumber",
+		notes:
+			"derived: {title-slug}-{accession-slug} for permanent URLs; ObjectID is fallback",
+	},
 
 	// ── Tombstone / Tier 1 Descriptive ──────────────────────────────────
 	title: {
@@ -89,6 +94,27 @@ export const FIELD_MAP: Record<string, FieldMapping> = {
 	provenance: {
 		source: "Objects.Provenance",
 		notes: "the Objects column, not the TextEntries copy",
+	},
+	provenance_structured: {
+		source: "Objects.Provenance",
+		notes:
+			"derived: parse_provenance() splits body lines + [N] footnotes in prepare",
+	},
+	"provenance_structured.lines[].text": {
+		source: "Objects.Provenance",
+		notes: "single body line, verbatim curator text (refs preserved inline)",
+	},
+	"provenance_structured.lines[].refs": {
+		source: "Objects.Provenance",
+		notes: "derived: regex [N] inline markers on the line, as integers",
+	},
+	"provenance_structured.footnotes[].num": {
+		source: "Objects.Provenance",
+		notes: "derived: [N] leader on a footnote block",
+	},
+	"provenance_structured.footnotes[].text": {
+		source: "Objects.Provenance",
+		notes: "derived: footnote body following the [N] marker",
 	},
 	label_text: {
 		source: "TextEntries.TextEntry",
@@ -378,6 +404,11 @@ export const FIELD_MAP: Record<string, FieldMapping> = {
 		source: "DimItemElemXrefs.Displayed",
 	},
 	"dimensions_structured[].Rank": { source: "DimItemElemXrefs.Rank" },
+	"dimensions_structured[].measures": {
+		source: "DimItemElemXrefs.DisplayDimensions",
+		notes:
+			"derived: parse_dimensions() pulls H/W/D in cm + inches from the display string",
+	},
 
 	// ── Constituent document top-level fields ────────────────────────────
 	constituent_id: { source: "Constituents.ConstituentID" },
@@ -395,6 +426,18 @@ export const FIELD_MAP: Record<string, FieldMapping> = {
 	constituent_display_bios: {
 		source: "ConDisplayBios pivot",
 		notes: "all bio entries per constituent, sorted by display_order",
+	},
+	constituent_roles: {
+		source: "ObjConstituents.Role aggregated",
+		notes: "distinct Role values across all linked objects",
+	},
+	constituent_type: {
+		source: "Constituents.ConstituentTypeID → ConTypes.ConstituentType",
+		notes: "Individual / Institution",
+	},
+	constituent_alt_names: {
+		source: "ConAltNames per ConstituentID",
+		notes: "pseudonyms, variant spellings, maiden names, culture-group labels",
 	},
 	constituent_object_count: {
 		source: "derived",

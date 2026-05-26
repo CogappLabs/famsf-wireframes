@@ -30,6 +30,7 @@
 		{
 			"Title": "Water Lilies",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -308,33 +309,6 @@
 			"VenueName": "de Young Museum"
 		},
 		{
-			"ExhibitionID": 654,
-			"ExhTitle": "Monet. A Step Beyond Impressionism",
-			"DisplayDate": "Wednesday, August 24, 2016 - Sunday, December 4, 2016",
-			"BeginISODate": "2016-08-24",
-			"EndISODate": "2016-12-04",
-			"IsInHouse": false,
-			"VenueName": "Ordrupgaard Museum for Fransk Impressionisme"
-		},
-		{
-			"ExhibitionID": 895,
-			"ExhTitle": "Claude Monet - Series Paintings",
-			"DisplayDate": "Friday, October 20, 2023 - Monday, May 6, 2024",
-			"BeginISODate": "2023-10-20",
-			"EndISODate": "2024-05-06",
-			"IsInHouse": false,
-			"VenueName": " The Ueno Royal Museum"
-		},
-		{
-			"ExhibitionID": 914,
-			"ExhTitle": "Monet's Ecology",
-			"DisplayDate": "Friday, May 16, 2025 - Sunday, August 24, 2025",
-			"BeginISODate": "2025-05-16",
-			"EndISODate": "2025-08-24",
-			"IsInHouse": false,
-			"VenueName": "São Paulo Museum of Art"
-		},
-		{
 			"ExhibitionID": 542,
 			"ExhTitle": "Monet and Venice",
 			"DisplayDate": "Saturday, March 21, 2026 - Sunday, July 26, 2026",
@@ -342,6 +316,15 @@
 			"EndISODate": "2026-07-26",
 			"IsInHouse": false,
 			"VenueName": "Brooklyn Museum"
+		},
+		{
+			"ExhibitionID": 654,
+			"ExhTitle": "Monet. A Step Beyond Impressionism",
+			"DisplayDate": "Wednesday, August 24, 2016 - Sunday, December 4, 2016",
+			"BeginISODate": "2016-08-24",
+			"EndISODate": "2016-12-04",
+			"IsInHouse": false,
+			"VenueName": "Ordrupgaard Museum for Fransk Impressionisme"
 		},
 		{
 			"ExhibitionID": 691,
@@ -360,6 +343,24 @@
 			"EndISODate": "2016-01-10",
 			"IsInHouse": false,
 			"VenueName": "Art Centre Basel"
+		},
+		{
+			"ExhibitionID": 895,
+			"ExhTitle": "Claude Monet - Series Paintings",
+			"DisplayDate": "Friday, October 20, 2023 - Monday, May 6, 2024",
+			"BeginISODate": "2023-10-20",
+			"EndISODate": "2024-05-06",
+			"IsInHouse": false,
+			"VenueName": " The Ueno Royal Museum"
+		},
+		{
+			"ExhibitionID": 914,
+			"ExhTitle": "Monet's Ecology",
+			"DisplayDate": "Friday, May 16, 2025 - Sunday, August 24, 2025",
+			"BeginISODate": "2025-05-16",
+			"EndISODate": "2025-08-24",
+			"IsInHouse": false,
+			"VenueName": "São Paulo Museum of Art"
 		},
 		{
 			"ExhibitionID": 1309,
@@ -386,21 +387,45 @@
 			"Description": null,
 			"ElementName": "Overall",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 166.1,
+				"width_cm": 142.2,
+				"depth_cm": null,
+				"height_in": 65.375,
+				"width_in": 56.0,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "78 1/2 x 64 7/8 in. (199.39 x 164.783 cm)",
 			"Description": null,
 			"ElementName": "Framed",
 			"Displayed": true,
-			"Rank": 2
+			"Rank": 2,
+			"measures": {
+				"height_cm": 199.39,
+				"width_cm": 164.783,
+				"depth_cm": null,
+				"height_in": 78.5,
+				"width_in": 64.875,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "78 1/2 x 64 7/8 x 3 1/8 in. (199.39 x 164.783 x 7.938 cm)",
 			"Description": null,
 			"ElementName": "Frame",
 			"Displayed": false,
-			"Rank": 3
+			"Rank": 3,
+			"measures": {
+				"height_cm": 199.39,
+				"width_cm": 164.783,
+				"depth_cm": 7.938,
+				"height_in": 78.5,
+				"width_in": 64.875,
+				"depth_in": 3.125
+			}
 		}
 	],
 	"associations": [],
@@ -472,16 +497,92 @@
 	"has_image": true,
 	"primary_artist_display": "Claude Monet (1840–1926)",
 	"display_year": "1914–17",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "The artist’s studio, Giverny, France [1]",
+				"refs": [1],
+				"is_uncertain": false
+			},
+			{
+				"order": 1,
+				"text": "By descent, to his son, Michel Monet (1878-1966), Giverny, France",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 2,
+				"text": "[Sold to Katia Granoff, Paris, ca. 1955] [2]",
+				"refs": [2],
+				"is_uncertain": true
+			},
+			{
+				"order": 3,
+				"text": "Sold to John Huston, Los Angeles and Ireland, 1956",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 4,
+				"text": "[Possibly sold to O’Hana Gallery, London, 1970] [3]",
+				"refs": [3],
+				"is_uncertain": true
+			},
+			{
+				"order": 5,
+				"text": "[Spencer A. Samuels & Co., New York, by 1971] [4]",
+				"refs": [4],
+				"is_uncertain": true
+			},
+			{
+				"order": 6,
+				"text": "Sold to Mrs. Enid Annenberg Haupt, New York, 1971",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 7,
+				"text": "[Consigned to Spencer A. Samuels & Co., New York, 1972]",
+				"refs": [],
+				"is_uncertain": true
+			},
+			{
+				"order": 8,
+				"text": "Sold to the Fine Arts Museums of San Francisco, 1973",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [
+			{
+				"num": 1,
+				"text": "See Wildenstein 1996 IV, p. 843, no. 1788."
+			},
+			{
+				"num": 2,
+				"text": "Per letter from Marc Larock, director general of Galerie Katia Granoff, 24 September 1991, object file, Fine Arts Museums of San Francisco."
+			},
+			{
+				"num": 3,
+				"text": "Per Wildenstein 1996 IV, p. 843, no. 1788."
+			},
+			{
+				"num": 4,
+				"text": "As listed in 10 November 1972 invoice received from Spencer A. Samuels &Co., object file, Fine Arts Museums of San Francisco."
+			}
+		]
+	},
 	"has_iiif": true,
 	"has_provenance": true,
 	"has_children": false,
 	"sort_artist": "claude monet",
 	"sort_year": 1914,
 	"slug": "water-lilies-1973-3",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Claude Monet, Water Lilies, ca. 1914–1917 (1973.3)",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
-		"populated_fields": 48
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 49
 	}
 }

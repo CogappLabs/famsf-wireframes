@@ -26,6 +26,7 @@
 		{
 			"Title": "Ibis",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -81,7 +82,15 @@
 			"Description": null,
 			"ElementName": "Overall",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 33.338,
+				"width_cm": 13.97,
+				"depth_cm": 42.228,
+				"height_in": 13.125,
+				"width_in": 5.5,
+				"depth_in": 16.625
+			}
 		}
 	],
 	"associations": [],
@@ -406,6 +415,37 @@
 			]
 		},
 		{
+			"term": "color",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAY",
+					"term": "color"
+				}
+			]
+		},
+		{
 			"term": "wood",
 			"certainty": null,
 			"path": [
@@ -450,51 +490,31 @@
 					"term": "wood"
 				}
 			]
-		},
-		{
-			"term": "color",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAY",
-					"term": "color"
-				}
-			]
 		}
 	],
 	"primary_artist": "Egyptian",
 	"has_image": true,
 	"primary_artist_display": "Egyptian",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Found at Tounah elKabal, near Malawi, Upper Egypt",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": []
+	},
 	"has_iiif": false,
 	"has_provenance": true,
 	"has_children": false,
 	"sort_artist": "egyptian",
 	"slug": "ibis-47-12",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Egyptian Ibis (47.12) — Ancient Art, 11 thesaurus terms (highest in Prism)",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
-		"populated_fields": 45
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 46
 	}
 }

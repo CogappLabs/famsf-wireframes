@@ -20,9 +20,34 @@ export interface TermEntry {
 	path: TermNode[];
 }
 
+export interface TranscriptionSegment {
+	raw: string;
+	location: string | null;
+	transcription: string | null;
+	is_watermark: boolean;
+}
+
+export interface ProvenanceLine {
+	order: number;
+	text: string;
+	refs: number[];
+	is_uncertain?: boolean;
+}
+
+export interface ProvenanceFootnote {
+	num: number;
+	text: string;
+}
+
+export interface ProvenanceStructured {
+	lines: ProvenanceLine[];
+	footnotes: ProvenanceFootnote[];
+}
+
 export interface TitleEntry {
 	Title: string;
 	TitleType: string;
+	TitleTypeDisplay?: string;
 	Language: string;
 	DisplayOrder: number;
 }
@@ -84,8 +109,18 @@ export interface ExhibitionEntry {
 	VenueName: string;
 }
 
+export interface DimensionMeasures {
+	height_cm: number | null;
+	width_cm: number | null;
+	depth_cm: number | null;
+	height_in: number | null;
+	width_in: number | null;
+	depth_in: number | null;
+}
+
 export interface DimensionEntry {
 	DisplayDimensions: string;
+	measures?: DimensionMeasures | null;
 	Description: string | null;
 	/** e.g. "Overall", "Framed", "Frame", "Sheet" (TMS Element). */
 	ElementName: string | null;
@@ -114,6 +149,8 @@ export interface CollectionDocument {
 	id: number;
 	accession_number: string;
 	sort_number: string;
+	/** Permanent URL slug — pipeline `{title-slug}-{accession-slug}`. */
+	slug?: string;
 	title: string;
 	object_name?: string;
 	display_date?: string;
@@ -136,10 +173,15 @@ export interface CollectionDocument {
 	exhibition_history_text?: string;
 	bibliography_text?: string;
 	provenance?: string;
+	provenance_structured?: ProvenanceStructured | null;
 	edition?: string;
 	signed?: string;
 	inscribed?: string;
 	markings?: string;
+	signed_structured?: TranscriptionSegment[] | null;
+	inscribed_structured?: TranscriptionSegment[] | null;
+	markings_structured?: TranscriptionSegment[] | null;
+	label_text_structured?: TranscriptionSegment[] | null;
 	titles: TitleEntry[];
 	constituents: Constituent[];
 	media: MediaItem[];

@@ -148,6 +148,67 @@ const OBJECT_FACETS: ObjectFacetDef[] = [
 		getValues: (o) => termValues(o.term_subject),
 	},
 	{
+		id: "culture",
+		label: "Culture",
+		getValues: (o) =>
+			(o.constituents ?? [])
+				.filter((c) => c.Role === "Culture")
+				.map((c) => c.DisplayName)
+				.filter(Boolean),
+	},
+	{
+		id: "reign",
+		label: "Reign",
+		getValues: (o) => termValues(o.term_reign),
+	},
+	{
+		id: "dynasty",
+		label: "Dynasty",
+		getValues: (o) => termValues(o.term_dynasty),
+	},
+	{
+		id: "school",
+		label: "School",
+		getValues: (o) => termValues(o.term_school),
+	},
+	{
+		id: "attributionQualifier",
+		label: "Attribution",
+		getValues: (o) => {
+			const roles = new Set(
+				(o.constituents ?? []).map((c) => c.Role).filter(Boolean),
+			);
+			return [...roles].filter((r) =>
+				/^(attributed to|signed by|possibly made by|after|workshop of|circle of|follower of|manner of|school of)$/i.test(
+					r,
+				),
+			);
+		},
+	},
+	{
+		id: "openAccess",
+		label: "Open access",
+		getValues: (o) => {
+			const term = o.term_rights_statement?.[0]?.term ?? "";
+			return /no copyright|public domain/i.test(term) ? ["Public domain"] : [];
+		},
+	},
+	{
+		id: "hasImage",
+		label: "Has image",
+		getValues: (o) => (o.has_iiif ? ["Yes"] : []),
+	},
+	{
+		id: "onView",
+		label: "On view",
+		getValues: (o) => (o.on_view ? ["On view"] : []),
+	},
+	{
+		id: "donor",
+		label: "Donor / Credit",
+		getValues: (o) => (o.credit_line ? [o.credit_line] : []),
+	},
+	{
 		id: "dateRange",
 		label: "Date",
 		getValues: (o) => {

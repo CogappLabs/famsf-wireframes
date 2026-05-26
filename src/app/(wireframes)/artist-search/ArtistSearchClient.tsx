@@ -18,48 +18,6 @@ interface ArtistRow extends ConstituentDocument {
 	role: string;
 }
 
-const ROLE_FALLBACKS: Record<string, string> = {
-	"Auguste Rodin": "Sculptor",
-	"Peter Carl Fabergé": "Goldsmith",
-	"Edgar Degas": "Painter",
-};
-
-const EXTRA_ARTISTS: ArtistRow[] = (
-	[
-		["Ansel Adams", "1902–1984", "American", "Photographer"],
-		["Mary Cassatt", "1844–1926", "American", "Painter"],
-		["Paul Cézanne", "1839–1906", "French", "Painter"],
-		["Marc Chagall", "1887–1985", "French", "Painter"],
-		["Willem de Kooning", "1904–1997", "American", "Painter"],
-		["William Holman Hunt", "1827–1910", "British", "Painter"],
-		["Frida Kahlo", "1907–1954", "Mexican", "Painter"],
-		["Wassily Kandinsky", "1866–1944", "Russian", "Painter"],
-		["Jacob Lawrence", "1917–2000", "American", "Painter"],
-		["Roy Lichtenstein", "1923–1997", "American", "Painter"],
-		["Henri Matisse", "1869–1954", "French", "Painter"],
-		["Joan Miró", "1893–1983", "Spanish", "Painter"],
-		["Berthe Morisot", "1841–1895", "French", "Painter"],
-		["Louise Nevelson", "1899–1988", "American", "Sculptor"],
-		["Georgia O'Keeffe", "1887–1986", "American", "Painter"],
-		["Pablo Picasso", "1881–1973", "Spanish", "Painter"],
-		["Diego Rivera", "1886–1957", "Mexican", "Painter"],
-		["Mark Rothko", "1903–1970", "American", "Painter"],
-		["Pierre-Auguste Renoir", "1841–1919", "French", "Painter"],
-		["Alfred Sisley", "1839–1899", "French", "Painter"],
-		["Vincent van Gogh", "1853–1890", "Dutch", "Painter"],
-		["James McNeill Whistler", "1834–1903", "American", "Printmaker"],
-		["Andrew Wyeth", "1917–2009", "American", "Painter"],
-	] as const
-).map(([name, display_date, nationality, role]) => ({
-	id: 0,
-	name,
-	display_date,
-	nationality,
-	role,
-	object_count: 0,
-	indexed_at: "",
-}));
-
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 function sortKey(name: string): string {
@@ -263,13 +221,20 @@ export default function ArtistSearchClient({
 		role: new Set(),
 	});
 
-	const allArtists = useMemo<ArtistRow[]>(() => {
-		const fromDocs: ArtistRow[] = constituents.map((c) => ({
-			...c,
-			role: ROLE_FALLBACKS[c.name] ?? "Artist",
-		}));
-		return [...fromDocs, ...EXTRA_ARTISTS];
-	}, [constituents]);
+	const allArtists = useMemo<ArtistRow[]>(
+		() =>
+			constituents.map((c) => ({
+				...c,
+				// Pipeline ships distinct roles[] per constituent. Prefer
+				// non-Artist labels (Sculptor / Photographer / etc) for facet
+				// distinction; fall back to `Artist` when only that's present.
+				role:
+					(c.roles ?? []).find((r) => r && r !== "Artist") ??
+					c.roles?.[0] ??
+					"Artist",
+			})),
+		[constituents],
+	);
 
 	const sorted = useMemo(
 		() =>

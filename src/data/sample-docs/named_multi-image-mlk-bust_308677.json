@@ -28,6 +28,7 @@
 		{
 			"Title": "Bust of Martin Luther King, Jr.",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "English",
 			"DisplayOrder": 1
 		}
@@ -155,21 +156,45 @@
 			"Description": "a. bust",
 			"ElementName": "Overall",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 45.72,
+				"width_cm": 33.973,
+				"depth_cm": 28.575,
+				"height_in": 18.0,
+				"width_in": 13.375,
+				"depth_in": 11.25
+			}
 		},
 		{
 			"DisplayDimensions": "2 1/4 x 15 1/8 x 12 1/8 in. (5.715 x 38.418 x 30.798 cm)",
 			"Description": "b. base",
 			"ElementName": "Overall",
 			"Displayed": true,
-			"Rank": 2
+			"Rank": 2,
+			"measures": {
+				"height_cm": 5.715,
+				"width_cm": 38.418,
+				"depth_cm": 30.798,
+				"height_in": 2.25,
+				"width_in": 15.125,
+				"depth_in": 12.125
+			}
 		},
 		{
 			"DisplayDimensions": "48 1/8 x 14 1/2 x 11 1/2 in. (122.238 x 36.83 x 29.21 cm)",
 			"Description": "c. pedestal",
 			"ElementName": "Overall",
 			"Displayed": true,
-			"Rank": 3
+			"Rank": 3,
+			"measures": {
+				"height_cm": 122.238,
+				"width_cm": 36.83,
+				"depth_cm": 29.21,
+				"height_in": 48.125,
+				"width_in": 14.5,
+				"depth_in": 11.5
+			}
 		}
 	],
 	"associations": [],
@@ -289,16 +314,24 @@
 	"has_image": true,
 	"primary_artist_display": "Elizabeth Catlett (1915–2012)",
 	"display_year": "1984",
+	"signed_structured": [
+		{
+			"raw": "(bust, back, lower PR corner): EC",
+			"location": "bust, back, lower PR corner",
+			"transcription": ": EC",
+			"is_watermark": false
+		}
+	],
 	"has_iiif": true,
 	"has_provenance": false,
 	"has_children": false,
 	"sort_artist": "elizabeth catlett",
 	"sort_year": 1984,
 	"slug": "bust-of-martin-luther-king-jr-2025-5a-b",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Bust of Martin Luther King Jr. (2025.5a-b) — 8 captioned images, multi-image gallery test",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
-		"populated_fields": 46
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 47
 	}
 }

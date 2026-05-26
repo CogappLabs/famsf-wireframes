@@ -14,6 +14,7 @@ import {
 } from "@/components/wireframe";
 import type { CollectionDocument } from "@/lib/collection-document";
 import { t } from "@/lib/strings";
+import { formatTitle, normaliseDateRange } from "@/lib/text-format";
 import { ScopePage } from "@/providers/ScopeProvider";
 
 function ParentRecordContent({
@@ -62,7 +63,7 @@ function ParentRecordContent({
 								href: "/collection-landing",
 							},
 							{ label: t("parent.label") },
-							{ label: doc.title ?? doc.accession_number },
+							{ label: formatTitle(doc.title) || doc.accession_number },
 						]}
 					/>
 				</Container>
@@ -76,7 +77,7 @@ function ParentRecordContent({
 							{t("parent.label")} &middot; {recordType}
 						</SectionLabel>
 						<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
-							{doc.title ?? doc.accession_number}
+							{formatTitle(doc.title) || doc.accession_number}
 						</h1>
 						<p className="mt-1 font-mono text-body text-gray-600">
 							{artistSlug ? (
@@ -90,7 +91,7 @@ function ParentRecordContent({
 								<span>{artistName}</span>
 							)}
 							{" · "}
-							{doc.display_date ?? doc.display_year ?? ""}
+							{normaliseDateRange(doc.display_date ?? doc.display_year) || ""}
 						</p>
 
 						<div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3">
@@ -111,7 +112,7 @@ function ParentRecordContent({
 					<Container size="md">
 						<ImagePlaceholder
 							aspect="16/9"
-							label={`[${doc.title ?? doc.accession_number}: composite or hero image]`}
+							label={`[${formatTitle(doc.title) || doc.accession_number}: composite or hero image]`}
 							className="border border-gray-300"
 						/>
 					</Container>
@@ -165,7 +166,7 @@ function ParentRecordContent({
 											{c.title ?? c.accession_number}
 										</h3>
 										<p className="mt-0.5 font-mono text-label text-gray-500">
-											{c.display_date ?? ""}
+											{normaliseDateRange(c.display_date) || ""}
 										</p>
 										<p className="mt-1 font-mono text-label uppercase tracking-wide text-gray-400">
 											ID {c.id}

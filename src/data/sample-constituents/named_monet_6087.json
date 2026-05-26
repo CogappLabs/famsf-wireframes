@@ -18,6 +18,19 @@
 		}
 	],
 	"object_count": 5,
+	"roles": ["Artist"],
+	"constituent_type": "Individual",
+	"slug": "claude-monet-6087",
+	"alt_names": [
+		{
+			"DisplayName": "Claude Monet",
+			"AlphaSort": "Monet, Claude",
+			"NameType": "Primary Name",
+			"CultureGroup": null,
+			"Institution": null,
+			"Remarks": null
+		}
+	],
 	"sample_objects": [
 		{
 			"id": 28078,
@@ -102,11 +115,11 @@
 				"count": 3
 			},
 			{
-				"value": "Giverny",
+				"value": "Gennevilliers",
 				"count": 1
 			},
 			{
-				"value": "Gennevilliers",
+				"value": "Giverny",
 				"count": 1
 			}
 		],
@@ -135,10 +148,10 @@
 			}
 		]
 	},
-	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"indexed_at": "2026-05-26T13:00:40.408024+00:00",
 	"_sample_meta": {
 		"reason": "Claude Monet (1840–1926) — 5 works at FAMSF, 2 display bios",
-		"picked_at": "2026-05-18T11:59:44.370463+00:00",
-		"populated_fields": 13
+		"picked_at": "2026-05-26T13:00:40.408024+00:00",
+		"populated_fields": 17
 	}
 }

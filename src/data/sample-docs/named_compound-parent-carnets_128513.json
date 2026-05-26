@@ -27,6 +27,7 @@
 		{
 			"Title": "Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925)",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -138,7 +139,15 @@
 			"Description": null,
 			"ElementName": "x_Do not use_Object (4D)",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 32.0,
+				"width_cm": 24.0,
+				"depth_cm": 8.9,
+				"height_in": 12.625,
+				"width_in": 9.4375,
+				"depth_in": 3.5
+			}
 		}
 	],
 	"associations": [],
@@ -216,10 +225,10 @@
 	"sort_artist": "maurice denis",
 	"sort_year": 1925,
 	"slug": "carnets-de-voyage-en-italie-by-maurice-denis-paris-jacques-beltran-1925-2011-38-8-1-209",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Maurice Denis, Carnets de Voyage en Italie (2011.38.8.1-209) — compound parent, portfolio of 209 plates",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
 		"populated_fields": 44
 	}
 }

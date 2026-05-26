@@ -23,6 +23,7 @@
 		{
 			"Title": "\"The Prince's cicerone\" from Vanity Fair Supplement",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -115,14 +116,30 @@
 			"Description": null,
 			"ElementName": "Image",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 32.7,
+				"width_cm": 19.8,
+				"depth_cm": null,
+				"height_in": 12.875,
+				"width_in": 7.8125,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "15 3/8 x 10 7/16 in. (39 x 26.5 cm)",
 			"Description": null,
 			"ElementName": "x_Do not use_Sheet (4D)",
 			"Displayed": true,
-			"Rank": 2
+			"Rank": 2,
+			"measures": {
+				"height_cm": 39.0,
+				"width_cm": 26.5,
+				"depth_cm": null,
+				"height_in": 15.375,
+				"width_in": 10.4375,
+				"depth_in": null
+			}
 		}
 	],
 	"associations": [],
@@ -167,10 +184,10 @@
 	"sort_artist": "leslie matthew ward, (spy)",
 	"sort_year": 1900,
 	"slug": "the-prince-s-cicerone-from-vanity-fair-supplement-1963-30-38317",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Leslie Matthew Ward (Spy), The Prince's cicerone, Vanity Fair (1963.30.38317) — 33 fields, true median, IIIF",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
 		"populated_fields": 39
 	}
 }

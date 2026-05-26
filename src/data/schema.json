@@ -1,10 +1,10 @@
 {
-	"generated_at": "2026-05-21T11:45:10.271613+00:00",
-	"pipeline_rev": "435837c",
+	"generated_at": "2026-05-26T12:36:50.784856+00:00",
+	"pipeline_rev": "2e95d98",
 	"schema_strict": true,
-	"field_count": 78,
-	"lineage_resolved_count": 78,
-	"passthrough_count": 31,
+	"field_count": 83,
+	"lineage_resolved_count": 83,
+	"passthrough_count": 36,
 	"derived_count": 47,
 	"unknown_count": 0,
 	"multi_source_count": 4,
@@ -1368,6 +1368,236 @@
 			"es_nested_properties": []
 		},
 		{
+			"es_field": "provenance_structured",
+			"dtype": "Struct",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Provenance"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "Bibliography",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text_raw",
+					"column": "FieldValue",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text",
+					"column": "Provenance",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Provenance",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": null,
+			"es_subfields": [],
+			"es_nested_properties": ["lines", "footnotes"]
+		},
+		{
+			"es_field": "signed_structured",
+			"dtype": "List",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Signed"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "Bibliography",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text_raw",
+					"column": "FieldValue",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text",
+					"column": "Signed",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Signed",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "nested",
+			"es_subfields": [],
+			"es_nested_properties": [
+				"raw",
+				"location",
+				"transcription",
+				"is_watermark"
+			]
+		},
+		{
+			"es_field": "inscribed_structured",
+			"dtype": "List",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Inscribed"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "Bibliography",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text_raw",
+					"column": "FieldValue",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text",
+					"column": "Inscribed",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Inscribed",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "nested",
+			"es_subfields": [],
+			"es_nested_properties": [
+				"raw",
+				"location",
+				"transcription",
+				"is_watermark"
+			]
+		},
+		{
+			"es_field": "markings_structured",
+			"dtype": "List",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "Markings"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.Objects",
+					"column": "Bibliography",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text_raw",
+					"column": "FieldValue",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "object_rare_text",
+					"column": "Markings",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "Markings",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "nested",
+			"es_subfields": [],
+			"es_nested_properties": [
+				"raw",
+				"location",
+				"transcription",
+				"is_watermark"
+			]
+		},
+		{
+			"es_field": "label_text_structured",
+			"dtype": "List",
+			"nullable": true,
+			"kind": "passthrough",
+			"upstream_deps": [
+				{
+					"asset": "objects_with_relations",
+					"column": "LabelOnObject"
+				}
+			],
+			"lineage_chain": [
+				{
+					"asset": "tms.TextEntries",
+					"column": "TextEntry",
+					"kind": "unknown",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_text_entries_raw",
+					"column": "TextEntry",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_text_entries",
+					"column": "LabelOnObject",
+					"kind": "passthrough",
+					"extra_deps": 0
+				},
+				{
+					"asset": "objects_with_relations",
+					"column": "LabelOnObject",
+					"kind": "passthrough",
+					"extra_deps": 0
+				}
+			],
+			"is_multi_source": false,
+			"es_type": "nested",
+			"es_subfields": [],
+			"es_nested_properties": [
+				"raw",
+				"location",
+				"transcription",
+				"is_watermark"
+			]
+		},
+		{
 			"es_field": "bibliography_text",
 			"dtype": "String",
 			"nullable": true,
@@ -2499,7 +2729,13 @@
 			"is_multi_source": false,
 			"es_type": null,
 			"es_subfields": [],
-			"es_nested_properties": ["DisplayOrder", "Language", "Title", "TitleType"]
+			"es_nested_properties": [
+				"DisplayOrder",
+				"Language",
+				"Title",
+				"TitleType",
+				"TitleTypeDisplay"
+			]
 		},
 		{
 			"es_field": "constituents",
@@ -2717,7 +2953,8 @@
 				"DisplayDimensions",
 				"Displayed",
 				"ElementName",
-				"Rank"
+				"Rank",
+				"measures"
 			]
 		},
 		{

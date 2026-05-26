@@ -31,6 +31,7 @@
 		{
 			"Title": "The Mill Room",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -177,21 +178,45 @@
 			"Description": null,
 			"ElementName": "x_Do not use_Overall (4D)",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 54.3,
+				"width_cm": 40.0,
+				"depth_cm": null,
+				"height_in": 21.375,
+				"width_in": 15.75,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "21 3/8 x 15 3/4 in. (54.292 x 40.005 cm)",
 			"Description": null,
 			"ElementName": "x_Do not use_Image (Filemaker)",
 			"Displayed": true,
-			"Rank": 2
+			"Rank": 2,
+			"measures": {
+				"height_cm": 54.292,
+				"width_cm": 40.005,
+				"depth_cm": null,
+				"height_in": 21.375,
+				"width_in": 15.75,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "23 1/8 x 17 3/8 x 1 3/4 in. (58.737 x 44.132 x 4.445 cm)",
 			"Description": null,
 			"ElementName": "Framed",
 			"Displayed": true,
-			"Rank": 3
+			"Rank": 3,
+			"measures": {
+				"height_cm": 58.737,
+				"width_cm": 44.132,
+				"depth_cm": 4.445,
+				"height_in": 23.125,
+				"width_in": 17.375,
+				"depth_in": 1.75
+			}
 		}
 	],
 	"associations": [],
@@ -282,6 +307,57 @@
 	],
 	"term_materials": [
 		{
+			"term": "paint",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
+					"term": "oil paint"
+				}
+			]
+		},
+		{
 			"term": "canvas",
 			"certainty": null,
 			"path": [
@@ -336,57 +412,6 @@
 					"term": "canvas"
 				}
 			]
-		},
-		{
-			"term": "paint",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
-					"term": "paint"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
-					"term": "paint by composition or origin"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
-					"term": "oil paint"
-				}
-			]
 		}
 	],
 	"primary_artist": "George Ault",
@@ -395,16 +420,43 @@
 	"has_image": true,
 	"primary_artist_display": "George Ault (1891–1948)",
 	"display_year": "1923",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "J.B. Neumann Galleries, NYC, $300",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": []
+	},
+	"signed_structured": [
+		{
+			"raw": "Signed and dated upper right: G. C. Ault '23",
+			"location": null,
+			"transcription": null,
+			"is_watermark": false
+		}
+	],
+	"label_text_structured": [
+		{
+			"raw": "Labels on reverse: [Just below top left corner) Terra Museum of American Art/ 2600 Central Park, Evanston, IL, 60201/ (312) 328-3400/ George Ault/ The Mill Room/ Oil on Canvas 22x16/ The FAMSF/ Solitude—Inner Visions in American Art/ Sept 25–December 30, 1982.[Top left corner] Legion of Honor Label Partially Covered by Foam Core[At center of the top of reverse] Legion of Honor Label Partially Covered by Foam Core[Top right corner] University Art Museum Label, University of New Mexico, Albuquerque[Just below top right corner] Label obscured completely by foamcore[Lower right side] McNay Art Institute/ San Antonio, Texas Label/ Partially covered by Foamcore[Lower left side] FAMSF Label",
+			"location": null,
+			"transcription": null,
+			"is_watermark": false
+		}
+	],
 	"has_iiif": true,
 	"has_provenance": true,
 	"has_children": false,
 	"sort_artist": "george ault",
 	"sort_year": 1923,
 	"slug": "the-mill-room-1931-26",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "George Ault, The Mill Room (1931.26) — 47 fields, on view + IIIF",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
-		"populated_fields": 51
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 54
 	}
 }

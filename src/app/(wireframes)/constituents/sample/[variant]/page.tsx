@@ -58,11 +58,26 @@ export default async function SampleConstituentPage({ params }: Props) {
 	const slugById = objectSlugById();
 	const displayBios = doc.display_bios ?? [];
 	const facets = doc.facets ?? null;
+	const altNames = doc.alt_names ?? [];
+	const roles = doc.roles ?? [];
 
 	// Deduplicate bios: only show distinct bio text entries.
-	const distinctBios = displayBios.filter(
-		(b, i, arr) => arr.findIndex((x) => x.bio === b.bio) === i,
-	);
+	// Filter out short-text bios that look more like branch labels or
+	// place names than biography (e.g. Cartier `display_bios` contains
+	// `Paris`, `London`, `New York`, etc — cataloguer used the bio table
+	// as a workshop-of-origin lookup). Keep entries that look like real
+	// prose (have a verb or are >24 chars).
+	const looksLikeBio = (s: string): boolean =>
+		s.length > 24 ||
+		/\b(was|is|were|are|born|died|active|worked|painted|trained)\b/i.test(s);
+	const distinctBios = displayBios
+		.filter((b, i, arr) => arr.findIndex((x) => x.bio === b.bio) === i)
+		.filter((b) => looksLikeBio(b.bio));
+	// Bios suppressed by the looks-like-bio filter often encode workshop /
+	// branch information; surface them as a separate label list.
+	const branchLikeBios = displayBios
+		.filter((b, i, arr) => arr.findIndex((x) => x.bio === b.bio) === i)
+		.filter((b) => !looksLikeBio(b.bio));
 
 	return (
 		<ScopePage id="constituents/sample">
@@ -72,7 +87,7 @@ export default async function SampleConstituentPage({ params }: Props) {
 					<Breadcrumb
 						items={[
 							{ label: "Sample Constituents", href: "/constituents/sample" },
-							{ label: variant.charAt(0).toUpperCase() + variant.slice(1) },
+							{ label: doc.name || variant },
 						]}
 					/>
 				</Container>
@@ -92,12 +107,15 @@ export default async function SampleConstituentPage({ params }: Props) {
 							</p>
 						)}
 
-						{doc.nationality && (
-							<p className="mt-0.5 font-mono text-meta text-gray-500">
-								{doc.nationality}
-								<FieldSourceBadge field="constituent_nationality" />
-							</p>
-						)}
+						{doc.nationality &&
+							!doc.display_date
+								?.toLowerCase()
+								.includes(doc.nationality.toLowerCase()) && (
+								<p className="mt-0.5 font-mono text-meta text-gray-500">
+									{doc.nationality}
+									<FieldSourceBadge field="constituent_nationality" />
+								</p>
+							)}
 
 						{doc.alpha_sort && (
 							<p className="mt-2 font-mono text-label text-gray-400">
@@ -191,6 +209,84 @@ export default async function SampleConstituentPage({ params }: Props) {
 									</div>
 								</div>
 							)}
+						</Container>
+					</WireframeSection>
+				)}
+
+				{/* Roles, alt names, branches — institutional/relational context */}
+				{(roles.length > 0 ||
+					altNames.length > 0 ||
+					branchLikeBios.length > 0) && (
+					<WireframeSection
+						label="Roles & alternative names"
+						className="border-b border-gray-300 py-8"
+					>
+						<Container size="md">
+							<div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+								{roles.length > 0 && (
+									<div>
+										<TombstoneLabel className="mb-2 block">
+											Roles
+										</TombstoneLabel>
+										<FieldSourceBadge field="constituent_roles" block />
+										<ul className="flex flex-wrap gap-1.5">
+											{roles.map((r) => (
+												<li
+													key={r}
+													className="inline-block border border-gray-300 bg-gray-50 px-1.5 py-0.5 font-mono text-label text-gray-700"
+												>
+													{r}
+												</li>
+											))}
+										</ul>
+									</div>
+								)}
+								{branchLikeBios.length > 0 && (
+									<div>
+										<TombstoneLabel className="mb-2 block">
+											Branches / workshops
+										</TombstoneLabel>
+										<FieldSourceBadge field="constituent_display_bios" block />
+										<p className="mt-1 font-mono text-label text-gray-400">
+											Short-text bio entries — likely workshop / branch labels
+											rather than prose biography.
+										</p>
+										<ul className="mt-2 flex flex-wrap gap-1.5">
+											{branchLikeBios.map((b) => (
+												<li
+													key={b.display_order}
+													className="inline-block border border-amber-300 bg-amber-50 px-1.5 py-0.5 font-mono text-label text-amber-800"
+												>
+													{b.bio}
+												</li>
+											))}
+										</ul>
+									</div>
+								)}
+								{altNames.length > 0 && (
+									<div>
+										<TombstoneLabel className="mb-2 block">
+											Alternative names
+										</TombstoneLabel>
+										<FieldSourceBadge field="constituent_alt_names" block />
+										<ul className="flex flex-col gap-1.5">
+											{altNames.map((a) => (
+												<li
+													key={`${a.DisplayName}|${a.NameType ?? ""}`}
+													className="font-mono text-meta text-gray-700"
+												>
+													{a.DisplayName}
+													{a.NameType && (
+														<span className="ml-1.5 font-mono text-label text-gray-400">
+															({a.NameType})
+														</span>
+													)}
+												</li>
+											))}
+										</ul>
+									</div>
+								)}
+							</div>
 						</Container>
 					</WireframeSection>
 				)}

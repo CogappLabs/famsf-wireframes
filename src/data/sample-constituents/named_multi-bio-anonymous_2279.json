@@ -32,6 +32,28 @@
 		}
 	],
 	"object_count": 1115,
+	"roles": [
+		"After",
+		"Artist",
+		"Attributed to",
+		"Designer",
+		"Engraver",
+		"Formerly Attributed to",
+		"Maker",
+		"Photographer"
+	],
+	"constituent_type": "Individual",
+	"slug": "anonymous-2279",
+	"alt_names": [
+		{
+			"DisplayName": "Anonymous",
+			"AlphaSort": "Anonymous",
+			"NameType": "Primary Name",
+			"CultureGroup": null,
+			"Institution": null,
+			"Remarks": null
+		}
+	],
 	"sample_objects": [
 		{
 			"id": 1608,
@@ -165,11 +187,11 @@
 				"count": 48
 			},
 			{
-				"value": "Costume",
+				"value": "Furnishing",
 				"count": 7
 			},
 			{
-				"value": "Furnishing",
+				"value": "Costume",
 				"count": 7
 			},
 			{
@@ -185,11 +207,11 @@
 				"count": 2
 			},
 			{
-				"value": "Information Artifact",
+				"value": "Architectural Element",
 				"count": 1
 			},
 			{
-				"value": "Artist's Book",
+				"value": "Information Artifact",
 				"count": 1
 			}
 		],
@@ -214,11 +236,11 @@
 				"count": 2
 			},
 			{
-				"value": "rock crystal",
+				"value": "gilding",
 				"count": 1
 			},
 			{
-				"value": "gilding",
+				"value": "rock crystal",
 				"count": 1
 			},
 			{
@@ -232,15 +254,19 @@
 				"count": 16
 			},
 			{
-				"value": "Paris",
-				"count": 2
-			},
-			{
 				"value": "Germany",
 				"count": 2
 			},
 			{
+				"value": "Paris",
+				"count": 2
+			},
+			{
 				"value": "England",
+				"count": 1
+			},
+			{
+				"value": "Southern France",
 				"count": 1
 			},
 			{
@@ -249,10 +275,6 @@
 			},
 			{
 				"value": "Strasbourg",
-				"count": 1
-			},
-			{
-				"value": "Southern France",
 				"count": 1
 			}
 		],
@@ -385,10 +407,10 @@
 			}
 		]
 	},
-	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"indexed_at": "2026-05-26T13:00:40.408024+00:00",
 	"_sample_meta": {
 		"reason": "Anonymous — exercises multi-bio display_bios array (6 bios, 1,115 attributed works)",
-		"picked_at": "2026-05-18T11:59:44.370463+00:00",
-		"populated_fields": 11
+		"picked_at": "2026-05-26T13:00:40.408024+00:00",
+		"populated_fields": 15
 	}
 }

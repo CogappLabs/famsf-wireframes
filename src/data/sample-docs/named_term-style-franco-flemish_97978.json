@@ -31,6 +31,7 @@
 		{
 			"Title": "Abraham and Melchizedek",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -44,7 +45,15 @@
 			"Description": null,
 			"ElementName": "x_Do not use_Overall (4D)",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 427.0,
+				"width_cm": 376.0,
+				"depth_cm": null,
+				"height_in": 168.125,
+				"width_in": 148.0,
+				"depth_in": null
+			}
 		}
 	],
 	"associations": [],
@@ -171,16 +180,27 @@
 	"primary_artist": "Unknown artist",
 	"has_image": false,
 	"display_year": "1475",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Felix Doisteau CollectionSale, Hotel Drouot, 22-25 November,1909, no. 438Mr. and Mrs. William H. Crocker Collection",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": []
+	},
 	"has_iiif": false,
 	"has_provenance": true,
 	"has_children": false,
 	"sort_artist": "unknown artist",
 	"sort_year": 1475,
 	"slug": "abraham-and-melchizedek-1969-15",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Abraham and Melchizedek (1969.15) — Franco-Flemish style, exercises term_style array",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
-		"populated_fields": 44
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 45
 	}
 }

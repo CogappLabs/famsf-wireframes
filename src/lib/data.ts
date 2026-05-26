@@ -31,12 +31,40 @@ export const STATUS_STYLES: Record<ReviewStatus, string> = {
 
 // ── Page registry ────────────────────────────────────────────────────
 
+export type PageCategory =
+	| "browse"
+	| "records"
+	| "features"
+	| "meta"
+	| "data"
+	| "reference";
+
 export interface WireframePage {
 	id: string;
 	title: string;
 	description: string;
 	status: ReviewStatus;
+	/** Display grouping on the index page. */
+	category?: PageCategory;
 }
+
+export const CATEGORY_LABELS: Record<PageCategory, string> = {
+	browse: "Browse & search",
+	records: "Records",
+	features: "Features",
+	meta: "Meta / IA",
+	data: "Sample ETL data",
+	reference: "Pipeline reference docs",
+};
+
+export const CATEGORY_ORDER: PageCategory[] = [
+	"browse",
+	"records",
+	"features",
+	"meta",
+	"data",
+	"reference",
+];
 
 export const pages: WireframePage[] = [
 	{
@@ -45,6 +73,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Main entry point: explore vs search pathways, browse by area, stats, highlights",
 		status: "wip",
+		category: "browse",
 	},
 	{
 		id: "search-results",
@@ -52,6 +81,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Collection search with advanced filters, grid/list toggle, attribution qualifiers",
 		status: "wip",
+		category: "browse",
 	},
 	{
 		id: "collection-area",
@@ -59,6 +89,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Department landing page: about, highlights, browse options, related content",
 		status: "wip",
+		category: "records",
 	},
 	{
 		id: "artist-search",
@@ -66,6 +97,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Browse and search the constituent index. Name search + A–Z filter. Initials avatars stand in for the ~95% of constituents without portraits.",
 		status: "wip",
+		category: "records",
 	},
 	{
 		id: "explore",
@@ -73,6 +105,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Curated browse: themes, timeline, discovery prompts, most viewed",
 		status: "wip",
+		category: "browse",
 	},
 	{
 		id: "collector-page",
@@ -80,6 +113,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Entity page for major collectors: biography, associated objects, civic history",
 		status: "wip",
+		category: "records",
 	},
 	{
 		id: "portfolio-detail",
@@ -87,6 +121,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Parent-child record: sequential display for portfolios, sketchbooks, illustrated books",
 		status: "wip",
+		category: "records",
 	},
 	{
 		id: "parent-record",
@@ -94,6 +129,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Parent record for ensembles and series: components grid, contextual essay, related parent records",
 		status: "wip",
+		category: "records",
 	},
 	{
 		id: "my-finds",
@@ -101,6 +137,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Personal research package: saved objects, no login, shareable URL",
 		status: "wip",
+		category: "features",
 	},
 	{
 		id: "seed-journey",
@@ -108,6 +145,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Pick a saved object, follow a direction, build a shareable journey through related works",
 		status: "wip",
+		category: "features",
 	},
 	{
 		id: "visit-planner",
@@ -115,6 +153,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Concierge experience: visitor type, interests, curated gallery paths",
 		status: "wip",
+		category: "features",
 	},
 	{
 		id: "educational-resources",
@@ -122,6 +161,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Educator landing: lesson plans, gallery filter, age-level content adaptation",
 		status: "wip",
+		category: "features",
 	},
 	{
 		id: "exhibition-detail",
@@ -129,18 +169,21 @@ export const pages: WireframePage[] = [
 		description:
 			"Exhibition record: venue, dates, included works (cross-link target from object exhibition history)",
 		status: "wip",
+		category: "records",
 	},
 	{
 		id: "image-orders",
 		title: "Image Orders (post-MVP)",
 		description: "Image licensing / order workflow for in-copyright works",
 		status: "wip",
+		category: "features",
 	},
 	{
 		id: "accessibility-statement",
 		title: "Accessibility Statement",
 		description: "WCAG 2.2 AA conformance statement and contact",
 		status: "wip",
+		category: "meta",
 	},
 	{
 		id: "feature-status",
@@ -148,6 +191,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Cross-page MVP / post-MVP feature inventory derived from scope annotations",
 		status: "wip",
+		category: "meta",
 	},
 	{
 		id: "sitemap",
@@ -155,6 +199,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Information architecture: page hierarchy and navigation structure",
 		status: "wip",
+		category: "meta",
 	},
 	{
 		id: "objects/sample",
@@ -162,13 +207,7 @@ export const pages: WireframePage[] = [
 		description:
 			"Three real pipeline documents wired in: minimal (17 fields), median (34 fields), maximal (49 fields). Refresh via npm run sync:samples.",
 		status: "wip",
-	},
-	{
-		id: "schema-reference",
-		title: "Schema Reference",
-		description:
-			"Every ES field with upstream column lineage from the Dagster pipeline. Generated by the schema_doc asset using dagster/column_lineage metadata + CollectionSchema + ES_MAPPING. Auto-refreshes via COLFLOW_WIREFRAMES_SCHEMA_PATH on each pipeline run.",
-		status: "wip",
+		category: "data",
 	},
 	{
 		id: "constituents/sample",
@@ -176,6 +215,31 @@ export const pages: WireframePage[] = [
 		description:
 			"Ten real per-constituent documents from the pipeline. Min / median / max populated-field spread plus seven named pins (Monet, Holman Hunt, Diebenkorn, Spy, anonymous, Cartier, Tetsuya Noda). Each carries a sample_objects thumbnail grid.",
 		status: "wip",
+		category: "data",
+	},
+	{
+		id: "schema-reference",
+		title: "Schema Reference",
+		description:
+			"Every ES field with upstream column lineage from the Dagster pipeline. Generated by the schema_doc asset using dagster/column_lineage metadata + CollectionSchema + ES_MAPPING. Auto-refreshes via COLFLOW_WIREFRAMES_SCHEMA_PATH on each pipeline run.",
+		status: "wip",
+		category: "reference",
+	},
+	{
+		id: "transformations",
+		title: "Source → Wireframe Transformations",
+		description:
+			"What we change from TMS source through the Dagster pipeline to the wireframe render. Cross-references each rule to the FAMSF Object Cataloguing Guidelines section it implements.",
+		status: "wip",
+		category: "reference",
+	},
+	{
+		id: "curator-deviations",
+		title: "Curator Rule Deviations",
+		description:
+			"Where the FAMSF Object Cataloguing Guidelines mandate one thing and the TMS data shows another. Curator-side cleanup candidates + compensation strategy notes.",
+		status: "wip",
+		category: "reference",
 	},
 ];
 

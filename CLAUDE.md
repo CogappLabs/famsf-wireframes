@@ -232,6 +232,48 @@ run; no manual sync.
 Page only re-renders on next deploy after JSON change (Next.js static
 import). Re-run `npm run build` locally or push to Vercel.
 
+## Markdown reference pages
+
+Two markdown-driven pages render the cataloguing-rule context for
+stakeholders + cataloguers:
+
+- `/transformations` (`src/app/(wireframes)/transformations/page.tsx`)
+  — reads `../source-to-wireframe-transformations.md`. Documents
+  what's transformed at each layer (TMS → pipeline → ES → wireframe).
+- `/curator-deviations`
+  (`src/app/(wireframes)/curator-deviations/page.tsx`) — reads
+  `../curator-rule-deviations.md`. Where TMS data doesn't follow
+  guidelines.
+
+Both pages use `react-markdown` + `remark-gfm`. Edit the .md file in
+the workspace root; hot-reload picks up the change.
+
+## Text formatting helpers
+
+`src/lib/text-format.ts`:
+- `normaliseTitle(raw)` — strip leading `<` + optional trailing `>`
+  from descriptive titles (per §Titles); capitalise "Untitled"
+  consistently; flag `isDescriptive` for italic styling.
+- `normaliseDateRange(value)` — defensive en-dash replacement on
+  display dates (idempotent with pipeline normaliser).
+- `formatTitle(raw)` — convenience plain-string version.
+
+## Curator-data heuristic components
+
+- `BibliographyText` — splits on blank lines into numbered list with
+  hanging indent; applies CMOS italics heuristic anchored on
+  structural markers (Title-followed-by-City:Publisher,Year; exh.
+  cat.; journal-after-quoted-article).
+- `ProvenanceText` — renders structured provenance from
+  `provenance_structured` (lines + footnotes). Inline `[N]` → blue
+  superscript anchors → `#prov-footnote-N`. Italic + grey when
+  `lines[].is_uncertain` (square-bracketed entries).
+- `ExhibitionRow` — formats per §Exhibition History:
+  `City, Venue, Date – Date. "Title," no. X`.
+- `ScaleDiagram` — primary dimension picked from
+  `dimensions_structured[].measures.height_cm`. Human 170 cm +
+  banana 18 cm + object box on shared baseline.
+
 ## Shared wireframe components
 
 `src/components/wireframe/`:

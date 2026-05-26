@@ -35,6 +35,7 @@
 		{
 			"Title": "Sky Cathedral's Presence I",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -277,7 +278,15 @@
 			"Description": null,
 			"ElementName": "x_Do not use_Overall (4D)",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 271.8,
+				"width_cm": 305.1,
+				"depth_cm": 54.6,
+				"height_in": 107.0,
+				"width_in": 120.125,
+				"depth_in": 21.5
+			}
 		}
 	],
 	"associations": [],
@@ -339,16 +348,69 @@
 	"has_image": true,
 	"primary_artist_display": "Louise Nevelson (1899–1988)",
 	"display_year": "1959–62",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "The artist, until 1969",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 1,
+				"text": "Pace Gallery, New York, NY, 1969 until 1993",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 2,
+				"text": "Sold to private collector, 1993 until 2017",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 3,
+				"text": "Sold at Christie's, Post-War and Contemporary Art Sale, New York, September, 28, 2017, lot #60.",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": []
+	},
+	"signed_structured": [
+		{
+			"raw": "The artist’s signature – “Nevelson 1964” – appears on component #2.",
+			"location": null,
+			"transcription": null,
+			"is_watermark": false
+		}
+	],
+	"inscribed_structured": [
+		{
+			"raw": "Pencil writing reading “P.G. #01963” appears on the back of at least three components (#3, 4, and 7).",
+			"location": null,
+			"transcription": null,
+			"is_watermark": false
+		}
+	],
+	"label_text_structured": [
+		{
+			"raw": "Each component is identified by a white label with a number (from 1 to 11) glued on its back. A hand drawn diagram, glued under component #11, shows the location of each component.",
+			"location": null,
+			"transcription": null,
+			"is_watermark": false
+		}
+	],
 	"has_iiif": true,
 	"has_provenance": true,
 	"has_children": false,
 	"sort_artist": "louise nevelson",
 	"sort_year": 1959,
 	"slug": "sky-cathedral-s-presence-i-2017-50",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Auto-picked: most populated fields in the dataset (true max).",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
-		"populated_fields": 53
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 57
 	}
 }

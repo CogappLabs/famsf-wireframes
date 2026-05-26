@@ -1,13 +1,16 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+	BibliographyText,
 	Breadcrumb,
 	Container,
 	ExhibitionRow,
 	ImagePlaceholder,
+	ProvenanceText,
 	ScopeMark,
 	SectionLabel,
 	TombstoneLabel,
+	TranscriptionList,
 	WireframeSection,
 } from "@/components/wireframe";
 import FieldSourceBadge from "@/components/wireframe/FieldSourceBadge";
@@ -18,11 +21,13 @@ import {
 	VisuallySimilarGrid,
 } from "@/components/wireframe/object-detail";
 import { allMedia, iiifImageUrl } from "@/lib/collection-document";
+import { constituentSlugById } from "@/lib/constituent-samples-registry";
 import {
 	findSampleBySlug,
 	loadSampleDocs,
 	objectSlugById,
 } from "@/lib/sample-docs-registry";
+import { normaliseDateRange, normaliseTitle } from "@/lib/text-format";
 import { ScopePage } from "@/providers/ScopeProvider";
 
 // ── Variant registry ──────────────────────────────────────────────────
@@ -63,6 +68,16 @@ const TERM_FIELDS = [
 ] as const;
 
 type TermField = (typeof TERM_FIELDS)[number];
+
+/** Geography-related term fields are Tier 1 public per guidelines.
+ *  All other Attributes are "Phase 2" per Attributes section. */
+const GEOGRAPHY_TERM_FIELDS = new Set<TermField>([
+	"term_place_of_creation",
+	"term_place_of_fabrication",
+	"term_place_name_at_creation",
+	"term_related_geography",
+	"term_find_spot",
+]);
 
 // ── Sub-components ────────────────────────────────────────────────────
 
@@ -114,9 +129,31 @@ function TombstoneField({
 	);
 }
 
-// Strip simple HTML tags for display (web_text / didactic_label can contain <em>, <a>, etc.)
-function stripHtml(html: string): string {
-	return html.replace(/<[^>]+>/g, "");
+// Sanitise inline HTML to an allow-list. Preserves italic/bold/line-break tags
+// per cataloguing guidelines (Bibliography, Web Text, Didactic Label, etc.
+// allow rich-text italics for book/journal titles, bold for emphasis, <br/>
+// for FAMSF-specified line breaks). Strips everything else, including
+// attributes and dangerous tags. Production should swap for DOMPurify.
+const ALLOWED_TAGS = new Set([
+	"em",
+	"strong",
+	"i",
+	"b",
+	"u",
+	"br",
+	"p",
+	"ul",
+	"ol",
+	"li",
+]);
+function sanitiseHtml(html: string): string {
+	return html.replace(/<\/?\s*([a-zA-Z][a-zA-Z0-9]*)\b[^>]*>/g, (_m, tag) => {
+		const t = String(tag).toLowerCase();
+		if (!ALLOWED_TAGS.has(t)) return "";
+		const closing = _m.startsWith("</") ? "/" : "";
+		const selfClose = t === "br" ? " /" : "";
+		return `<${closing}${t}${selfClose}>`;
+	});
 }
 
 // ── Page ──────────────────────────────────────────────────────────────
@@ -139,6 +176,11 @@ export default async function SampleObjectPage({ params }: Props) {
 		return [{ field, label: humaniseFieldName(field), entries }];
 	});
 	const hasTerms = populatedTermGroups.length > 0;
+
+	// Normalised primary title (handles Untitled + descriptive-bracket convention)
+	const titleDisplay = normaliseTitle(doc.title);
+	// Normalised display date (en dash between year tokens per guideline)
+	const displayDate = normaliseDateRange(doc.display_date);
 
 	// Alternate titles (exclude Primary Title, which is already in doc.title)
 	const alternateTitles = doc.titles.filter(
@@ -186,6 +228,7 @@ export default async function SampleObjectPage({ params }: Props) {
 
 	// Parent record: link to the in-repo sample if known, else fall back to legacy route.
 	const slugById = objectSlugById();
+	const constituentSlugs = constituentSlugById();
 	const parentSlug = doc.physical_parent_id
 		? (slugById[doc.physical_parent_id] ?? null)
 		: null;
@@ -205,14 +248,48 @@ export default async function SampleObjectPage({ params }: Props) {
 	// Rights status: drives whether the download placeholder is disabled.
 	const isPublicDomain =
 		doc.copyright?.toLowerCase().includes("public domain") ?? false;
-	const rightsStatement = doc.copyright ?? "Rights not specified";
+	const copyrightStatement = doc.copyright ?? "Rights not specified";
 
-	// Suggested citation built from tombstone fields. [placeholder] formatting.
+	// Object Rights Statement: controlled-vocab term mapped to rightsstatements.org URI.
+	// Guidelines section "Object Rights Statement" lists three canonical values.
+	const rightsTerm = doc.term_rights_statement?.[0]?.term ?? null;
+	const rightsStatementMap: Record<
+		string,
+		{ label: string; uri: string | null }
+	> = {
+		"In Copyright": {
+			label: "In copyright",
+			uri: "https://rightsstatements.org/page/InC/1.0/",
+		},
+		"No Copyright - United States": {
+			label: "No copyright (United States)",
+			uri: "https://rightsstatements.org/page/NoC-US/1.0/",
+		},
+		"No Copyright – United States": {
+			label: "No copyright (United States)",
+			uri: "https://rightsstatements.org/page/NoC-US/1.0/",
+		},
+		"Copyright Undetermined": {
+			label: "Copyright undetermined",
+			uri: "https://rightsstatements.org/page/UND/1.0/",
+		},
+	};
+	const rightsStatementDisplay = rightsTerm
+		? (rightsStatementMap[rightsTerm] ?? { label: rightsTerm, uri: null })
+		: null;
+
+	// Suggested citation built from tombstone fields. Industry-standard art
+	// citation order: Artist, Title (Date), Medium, Credit Line, Accession No.
+	const citationTitle = normaliseTitle(doc.title).display;
+	const citationDate = normaliseDateRange(doc.display_date);
 	const citationParts = [
-		doc.title,
 		doc.primary_artist,
-		doc.accession_number,
+		citationTitle && citationDate
+			? `${citationTitle} (${citationDate})`
+			: citationTitle,
+		doc.medium,
 		doc.credit_line,
+		doc.accession_number,
 	].filter(Boolean);
 	const suggestedCitation = `${citationParts.join(", ")}. Fine Arts Museums of San Francisco.`;
 
@@ -238,7 +315,7 @@ export default async function SampleObjectPage({ params }: Props) {
 					<Breadcrumb
 						items={[
 							{ label: "Sample Objects", href: "/objects/sample" },
-							{ label: variant.charAt(0).toUpperCase() + variant.slice(1) },
+							{ label: titleDisplay.display || doc.accession_number },
 						]}
 					/>
 				</Container>
@@ -271,39 +348,6 @@ export default async function SampleObjectPage({ params }: Props) {
 						</Container>
 					</ScopeMark>
 				)}
-
-				{/* Jump-to nav */}
-				<ScopeMark label="Jump-to navigation">
-					<Container className="border-b border-gray-200 py-2">
-						<JumpToNav
-							items={[
-								...(hasAnyImage || hiddenCount > 0
-									? [{ label: "Image", id: "image" }]
-									: []),
-								{ label: "Object", id: "tombstone" },
-								...(hasDescription ? [{ label: "About", id: "about" }] : []),
-								...(hasDimensions
-									? [{ label: "Dimensions", id: "dimensions" }]
-									: []),
-								...(hasConstituents
-									? [{ label: "Constituents", id: "constituents" }]
-									: []),
-								...(hasExhibitions
-									? [{ label: "Exhibitions", id: "exhibitions" }]
-									: []),
-								...(doc.has_provenance
-									? [{ label: "Provenance", id: "provenance" }]
-									: []),
-								{ label: "Scholarly essay", id: "scholarly-essay" },
-								...(related.length > 0
-									? [{ label: "Related works", id: "related" }]
-									: []),
-								{ label: "Rights & citation", id: "rights-citation" },
-								{ label: "Educational resources", id: "educational-resources" },
-							]}
-						/>
-					</Container>
-				</ScopeMark>
 
 				{/* Image section: renders if there are visible images OR if images were hidden */}
 				{(hasAnyImage || hiddenCount > 0) && (
@@ -587,8 +631,10 @@ export default async function SampleObjectPage({ params }: Props) {
 							</div>
 						)}
 
-						<h1 className="font-mono text-page font-semibold leading-[1.15] tracking-tight">
-							{doc.title ?? (
+						<h1
+							className={`font-mono text-page font-semibold leading-[1.15] tracking-tight ${titleDisplay.isDescriptive ? "italic" : ""}`}
+						>
+							{titleDisplay.display || (
 								<span className="text-gray-400">
 									{doc.accession_number}{" "}
 									<span className="text-meta">(untitled)</span>
@@ -604,7 +650,9 @@ export default async function SampleObjectPage({ params }: Props) {
 										key={`${t.TitleType}-${t.DisplayOrder}`}
 										className="font-mono text-meta text-gray-500"
 									>
-										<span className="text-gray-400">{t.TitleType}:</span>{" "}
+										<span className="text-gray-400">
+											{t.TitleTypeDisplay ?? t.TitleType}:
+										</span>{" "}
 										{t.Title}
 									</li>
 								))}
@@ -617,9 +665,9 @@ export default async function SampleObjectPage({ params }: Props) {
 								<FieldSourceBadge field="primary_artist_display" />
 							</p>
 						)}
-						{doc.display_date && (
+						{displayDate && (
 							<p className="mt-0.5 font-mono text-meta text-gray-400">
-								{doc.display_date}
+								{displayDate}
 								<FieldSourceBadge field="display_date" />
 								{doc.medium && (
 									<>
@@ -676,13 +724,7 @@ export default async function SampleObjectPage({ params }: Props) {
 											)}
 										</div>
 									)}
-									{doc.object_name && (
-										<TombstoneField
-											label="Object name"
-											value={doc.object_name}
-											field="object_name"
-										/>
-									)}
+									{/* object_name intentionally not rendered: guidelines mark it CMS-only (Art Finder) */}
 									{doc.edition && (
 										<TombstoneField
 											label="Edition"
@@ -700,7 +742,7 @@ export default async function SampleObjectPage({ params }: Props) {
 										<TombstoneField
 											label="Department"
 											value={doc.department}
-											href="/collection-area"
+											href={`/search-results?facet=department&value=${encodeURIComponent(doc.department)}`}
 											field="department"
 										/>
 									)}
@@ -708,51 +750,85 @@ export default async function SampleObjectPage({ params }: Props) {
 										<TombstoneField
 											label="Classification"
 											value={doc.classification}
-											href="/search-results"
+											href={`/search-results?facet=classification&value=${encodeURIComponent(doc.classification)}`}
 											field="classification"
 										/>
 									)}
 								</TombstoneGroup>
 							)}
 
-							{/* Attributes: all populated term_* groups */}
+							{/* Attributes: all populated term_* groups.
+							    Geography fields are Tier 1 public per guidelines.
+							    Non-geography (Period/Reign/Dynasty/Style/Movement/School/
+							    Materials/Subject/Intended Market) are marked Phase 2 — gated
+							    via ScopeMark pending FAMSF confirmation of 2026 policy flip. */}
 							{hasTerms && (
 								<TombstoneGroup label="Attributes">
-									{populatedTermGroups.map(({ field, label, entries }) => (
-										<div key={field}>
-											<TombstoneLabel>{label}</TombstoneLabel>
-											<FieldSourceBadge field={field} />
-											<ul className="mt-0.5 flex flex-col gap-1">
-												{entries.map((entry) => {
-													const breadcrumb = entry.path
-														.map((n) => n.term)
-														.join(" > ");
-													const showCertainty =
-														entry.certainty &&
-														entry.certainty !== "(not assigned)" &&
-														entry.certainty !== "";
-													return (
-														<li
-															key={`${field}-${entry.term}`}
-															className="font-mono text-meta text-gray-700"
-														>
-															{entry.term}
-															{showCertainty && (
-																<TombstoneLabel className="ml-1.5">
-																	({entry.certainty})
-																</TombstoneLabel>
-															)}
-															{breadcrumb && (
-																<span className="block text-label text-gray-400">
-																	{breadcrumb}
-																</span>
-															)}
-														</li>
-													);
-												})}
-											</ul>
-										</div>
-									))}
+									{populatedTermGroups.map(({ field, label, entries }) => {
+										const isGeo = GEOGRAPHY_TERM_FIELDS.has(field as TermField);
+										const inner = (
+											<>
+												<TombstoneLabel>{label}</TombstoneLabel>
+												<FieldSourceBadge field={field} />
+												<ul className="mt-0.5 flex flex-col gap-1">
+													{entries.map((entry) => {
+														const showCertainty =
+															entry.certainty &&
+															entry.certainty !== "(not assigned)" &&
+															entry.certainty !== "";
+														return (
+															<li
+																key={`${field}-${entry.term}`}
+																className="font-mono text-meta text-gray-700"
+															>
+																<Link
+																	href={`/search-results?facet=${field}&value=${encodeURIComponent(entry.term)}`}
+																	className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
+																>
+																	{entry.term}
+																</Link>
+																{showCertainty && (
+																	<TombstoneLabel className="ml-1.5">
+																		({entry.certainty})
+																	</TombstoneLabel>
+																)}
+																{entry.path.length > 0 && (
+																	<span className="block text-label text-gray-400">
+																		{entry.path.map((n, i) => (
+																			<span key={n.cn || n.term}>
+																				{i > 0 && (
+																					<span className="text-gray-300">
+																						{" "}
+																						&gt;{" "}
+																					</span>
+																				)}
+																				<Link
+																					href={`/search-results?facet=${field}&value=${encodeURIComponent(n.term)}`}
+																					className="hover:underline hover:decoration-gray-500"
+																				>
+																					{n.term}
+																				</Link>
+																			</span>
+																		))}
+																	</span>
+																)}
+															</li>
+														);
+													})}
+												</ul>
+											</>
+										);
+										return isGeo ? (
+											<div key={field}>{inner}</div>
+										) : (
+											<ScopeMark
+												key={field}
+												label="Phase 2 (pending Tier policy confirm)"
+											>
+												<div>{inner}</div>
+											</ScopeMark>
+										);
+									})}
 								</TombstoneGroup>
 							)}
 
@@ -770,13 +846,7 @@ export default async function SampleObjectPage({ params }: Props) {
 									value={doc.accession_number}
 									field="accession_number"
 								/>
-								{doc.accession_iso_date && (
-									<TombstoneField
-										label="Accessioned"
-										value={doc.accession_iso_date}
-										field="accession_iso_date"
-									/>
-								)}
+								{/* accession_iso_date intentionally not rendered: guidelines mark Accession Date internal-only */}
 								<ScopeMark label="Museum location">
 									<TombstoneField
 										label="Museum location"
@@ -804,35 +874,89 @@ export default async function SampleObjectPage({ params }: Props) {
 								</TombstoneGroup>
 							)}
 
-							{/* Marks (maximal only) */}
+							{/* Marks: Signed / Inscribed / Markings.
+							    Guidelines (Mark(s), Inscription(s), Signed) currently mark these
+							    fields internal-only. Wireframe surfaces them pending FAMSF
+							    confirmation of 2026 Tier-policy flip. Wrap in ScopeMark so
+							    stakeholders can see the gate. */}
 							{(doc.signed || doc.inscribed || doc.markings) && (
-								<TombstoneGroup label="Marks">
+								<TombstoneGroup label="Marks (pending Tier policy confirm)">
 									{doc.signed && (
-										<TombstoneField
-											label="Signed"
-											value={doc.signed}
-											field="signed"
-										/>
+										<div>
+											<TombstoneLabel>Signed</TombstoneLabel>
+											<FieldSourceBadge field="signed" />
+											<TranscriptionList
+												segments={doc.signed_structured}
+												rawFallback={doc.signed}
+												className="mt-0.5"
+											/>
+										</div>
 									)}
 									{doc.inscribed && (
-										<TombstoneField
-											label="Inscribed"
-											value={doc.inscribed}
-											field="inscribed"
-										/>
+										<div>
+											<TombstoneLabel>Inscribed</TombstoneLabel>
+											<FieldSourceBadge field="inscribed" />
+											<TranscriptionList
+												segments={doc.inscribed_structured}
+												rawFallback={doc.inscribed}
+												className="mt-0.5"
+											/>
+										</div>
 									)}
 									{doc.markings && (
-										<TombstoneField
-											label="Markings"
-											value={doc.markings.trim()}
-											field="markings"
-										/>
+										<div>
+											<TombstoneLabel>Markings</TombstoneLabel>
+											<FieldSourceBadge field="markings" />
+											<TranscriptionList
+												segments={doc.markings_structured}
+												rawFallback={doc.markings.trim()}
+												className="mt-0.5"
+											/>
+										</div>
 									)}
 								</TombstoneGroup>
 							)}
 						</div>
 					</WireframeSection>
 				</Container>
+
+				{/* Jump-to nav: moved below tombstone so the primary tombstone
+				    fields land in view first; navigation lives at the start of
+				    the deep-content scroll. */}
+				<ScopeMark label="Jump-to navigation">
+					<Container className="border-b border-gray-200 py-2">
+						<JumpToNav
+							items={[
+								...(hasAnyImage || hiddenCount > 0
+									? [{ label: "Image", id: "image" }]
+									: []),
+								{ label: "Object", id: "tombstone" },
+								...(hasDescription ? [{ label: "About", id: "about" }] : []),
+								...(hasDimensions
+									? [{ label: "Dimensions", id: "dimensions" }]
+									: []),
+								...(hasConstituents
+									? [{ label: "Constituents", id: "constituents" }]
+									: []),
+								...(hasExhibitions
+									? [{ label: "Exhibitions", id: "exhibitions" }]
+									: []),
+								...(doc.has_provenance
+									? [{ label: "Provenance", id: "provenance" }]
+									: []),
+								...(doc.bibliography_text
+									? [{ label: "Bibliography", id: "bibliography" }]
+									: []),
+								{ label: "Scholarly essay", id: "scholarly-essay" },
+								...(related.length > 0
+									? [{ label: "Related works", id: "related" }]
+									: []),
+								{ label: "Rights & citation", id: "rights-citation" },
+								{ label: "Educational resources", id: "educational-resources" },
+							]}
+						/>
+					</Container>
+				</ScopeMark>
 
 				{/* Description */}
 				{hasDescription && (
@@ -845,17 +969,7 @@ export default async function SampleObjectPage({ params }: Props) {
 								About
 							</span>
 							<SectionLabel className="mb-4">About this work</SectionLabel>
-							{doc.identifying_description && (
-								<div className="mb-4">
-									<TombstoneLabel className="mb-1 block">
-										Identifying description
-									</TombstoneLabel>
-									<FieldSourceBadge field="identifying_description" block />
-									<p className="font-mono text-body leading-relaxed text-gray-600">
-										{doc.identifying_description}
-									</p>
-								</div>
-							)}
+							{/* identifying_description intentionally not rendered: cataloguing guidelines mark it internal-only */}
 							{doc.web_text && (
 								<ScopeMark label="Content source">
 									<div className="mb-4">
@@ -863,9 +977,13 @@ export default async function SampleObjectPage({ params }: Props) {
 											Web text
 										</TombstoneLabel>
 										<FieldSourceBadge field="web_text" block />
-										<p className="font-mono text-body leading-relaxed text-gray-600">
-											{stripHtml(doc.web_text)}
-										</p>
+										<p
+											className="font-mono text-body leading-relaxed text-gray-600 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
+											// biome-ignore lint/security/noDangerouslySetInnerHtml: sanitised via allow-list
+											dangerouslySetInnerHTML={{
+												__html: sanitiseHtml(doc.web_text),
+											}}
+										/>
 										<p className="mt-1 font-mono text-label text-gray-400">
 											Source: TMS web_text
 										</p>
@@ -879,9 +997,13 @@ export default async function SampleObjectPage({ params }: Props) {
 											Didactic label
 										</TombstoneLabel>
 										<FieldSourceBadge field="didactic_label" block />
-										<p className="font-mono text-body leading-relaxed text-gray-600">
-											{stripHtml(doc.didactic_label)}
-										</p>
+										<p
+											className="font-mono text-body leading-relaxed text-gray-600 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
+											// biome-ignore lint/security/noDangerouslySetInnerHtml: sanitised via allow-list
+											dangerouslySetInnerHTML={{
+												__html: sanitiseHtml(doc.didactic_label),
+											}}
+										/>
 									</ScopeMark>
 								</div>
 							)}
@@ -901,27 +1023,25 @@ export default async function SampleObjectPage({ params }: Props) {
 							</span>
 							<SectionLabel className="mb-4">Dimensions</SectionLabel>
 							<FieldSourceBadge field="dimensions_structured" block />
-							{doc.dimensions_structured.length > 0 ? (
+							{doc.dimensions_structured.filter((d) => d.Displayed).length >
+							0 ? (
 								<ul className="flex flex-col gap-1.5">
-									{doc.dimensions_structured.map((d) => {
-										const label = d.ElementName ?? d.Description;
-										return (
-											<li
-												key={`${d.Rank}-${d.DisplayDimensions}`}
-												className="font-mono text-meta text-gray-700"
-											>
-												{label && (
-													<span className="text-gray-500">{label}: </span>
-												)}
-												{d.DisplayDimensions}
-												{!d.Displayed && (
-													<span className="ml-2 font-mono text-label uppercase tracking-[0.08em] text-gray-400">
-														(hidden)
-													</span>
-												)}
-											</li>
-										);
-									})}
+									{doc.dimensions_structured
+										.filter((d) => d.Displayed)
+										.map((d) => {
+											const label = d.ElementName ?? d.Description;
+											return (
+												<li
+													key={`${d.Rank}-${d.DisplayDimensions}`}
+													className="font-mono text-meta text-gray-700"
+												>
+													{label && (
+														<span className="text-gray-500">{label}: </span>
+													)}
+													{d.DisplayDimensions}
+												</li>
+											);
+										})}
 								</ul>
 							) : (
 								doc.dimensions && (
@@ -967,7 +1087,16 @@ export default async function SampleObjectPage({ params }: Props) {
 														className="border-l-2 border-gray-200 pl-3"
 													>
 														<p className="font-mono text-meta font-medium text-gray-700">
-															{c.DisplayName}
+															{constituentSlugs[c.ConstituentID] ? (
+																<Link
+																	href={`/constituents/sample/${constituentSlugs[c.ConstituentID]}`}
+																	className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
+																>
+																	{c.DisplayName}
+																</Link>
+															) : (
+																c.DisplayName
+															)}
 														</p>
 														<p className="font-mono text-label text-gray-500">
 															{c.Nationality && <>{c.Nationality}</>}
@@ -978,6 +1107,25 @@ export default async function SampleObjectPage({ params }: Props) {
 																</>
 															)}
 														</p>
+														{(() => {
+															const bio =
+																c.display_bios?.[0]?.bio ?? c.Biography;
+															if (!bio) return null;
+															// Suppress when bio just repeats nationality+date row
+															const above = [c.Nationality, c.DisplayDate]
+																.filter(Boolean)
+																.join(" · ");
+															if (
+																bio.trim() === above.trim() ||
+																bio.trim() === c.DisplayDate?.trim()
+															)
+																return null;
+															return (
+																<p className="mt-1 font-mono text-label leading-relaxed text-gray-500">
+																	{bio}
+																</p>
+															);
+														})()}
 													</div>
 												))}
 										</div>
@@ -1017,9 +1165,13 @@ export default async function SampleObjectPage({ params }: Props) {
 											Full exhibition history (text)
 										</TombstoneLabel>
 										<FieldSourceBadge field="exhibition_history_text" block />
-										<p className="whitespace-pre-line font-mono text-meta text-gray-600">
-											{stripHtml(doc.exhibition_history_text)}
-										</p>
+										<p
+											className="whitespace-pre-line font-mono text-meta text-gray-600 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
+											// biome-ignore lint/security/noDangerouslySetInnerHtml: sanitised via allow-list
+											dangerouslySetInnerHTML={{
+												__html: sanitiseHtml(doc.exhibition_history_text),
+											}}
+										/>
 									</div>
 								</ScopeMark>
 							)}
@@ -1039,20 +1191,27 @@ export default async function SampleObjectPage({ params }: Props) {
 							</span>
 							<SectionLabel className="mb-4">Provenance</SectionLabel>
 							<FieldSourceBadge field="provenance" block />
-							<p className="whitespace-pre-line font-mono text-body leading-relaxed text-gray-600">
-								{doc.provenance}
-							</p>
-							{doc.bibliography_text && (
-								<ScopeMark label="Bibliography">
-									<div className="mt-4 border-t border-gray-200 pt-4">
-										<SectionLabel className="mb-2">Bibliography</SectionLabel>
-										<FieldSourceBadge field="bibliography_text" block />
-										<p className="whitespace-pre-line font-mono text-meta text-gray-600">
-											{stripHtml(doc.bibliography_text)}
-										</p>
-									</div>
-								</ScopeMark>
-							)}
+							<ProvenanceText
+								structured={doc.provenance_structured}
+								rawFallback={doc.provenance}
+							/>
+						</Container>
+					</WireframeSection>
+				)}
+
+				{/* Bibliography */}
+				{doc.bibliography_text && (
+					<WireframeSection
+						label="Bibliography"
+						className="border-b border-gray-300 py-8"
+					>
+						<Container size="md">
+							<span id="bibliography" className="sr-only">
+								Bibliography
+							</span>
+							<SectionLabel className="mb-4">Bibliography</SectionLabel>
+							<FieldSourceBadge field="bibliography_text" block />
+							<BibliographyText value={doc.bibliography_text} />
 						</Container>
 					</WireframeSection>
 				)}
@@ -1221,23 +1380,47 @@ export default async function SampleObjectPage({ params }: Props) {
 							Rights & citation
 						</span>
 						<SectionLabel className="mb-4">Rights & citation</SectionLabel>
-						<ScopeMark label="Rights statement">
+						{rightsStatementDisplay && (
+							<ScopeMark label="Rights statement">
+								<div className="mb-6">
+									<TombstoneLabel className="mb-1 block">
+										Rights statement
+									</TombstoneLabel>
+									<FieldSourceBadge field="term_rights_statement" block />
+									{rightsStatementDisplay.uri ? (
+										<a
+											href={rightsStatementDisplay.uri}
+											target="_blank"
+											rel="noopener noreferrer"
+											className="inline-block border border-blue-200 bg-blue-50 px-2 py-0.5 font-mono text-meta text-blue-700 underline decoration-blue-300 hover:decoration-blue-600"
+										>
+											{rightsStatementDisplay.label}
+										</a>
+									) : (
+										<p className="font-mono text-meta text-gray-700">
+											{rightsStatementDisplay.label}
+										</p>
+									)}
+									{!isPublicDomain && (
+										<span
+											title="In copyright [placeholder]"
+											className="mt-1 ml-2 inline-block cursor-not-allowed font-mono text-label text-gray-400 underline decoration-gray-300"
+										>
+											More about reuse and image rights [placeholder]
+										</span>
+									)}
+								</div>
+							</ScopeMark>
+						)}
+						<ScopeMark label="Copyright">
 							<div className="mb-6">
 								<TombstoneLabel className="mb-1 block">
-									Rights statement
+									Copyright
 								</TombstoneLabel>
 								<FieldSourceBadge field="copyright" block />
 								<p className="font-mono text-meta text-gray-700">
-									{rightsStatement}
+									{copyrightStatement}
 								</p>
-								{!isPublicDomain && (
-									<span
-										title="In copyright [placeholder]"
-										className="mt-1 inline-block cursor-not-allowed font-mono text-label text-gray-400 underline decoration-gray-300"
-									>
-										More about reuse and image rights [placeholder]
-									</span>
-								)}
 							</div>
 						</ScopeMark>
 						<ScopeMark label="Suggested citation">

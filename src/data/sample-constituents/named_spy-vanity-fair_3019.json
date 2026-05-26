@@ -18,6 +18,19 @@
 		}
 	],
 	"object_count": 116,
+	"roles": ["After", "Artist"],
+	"constituent_type": "Individual",
+	"slug": "leslie-matthew-ward-spy-3019",
+	"alt_names": [
+		{
+			"DisplayName": "Leslie Matthew Ward, (Spy)",
+			"AlphaSort": "Ward, Leslie (Spy)",
+			"NameType": "Primary Name",
+			"CultureGroup": null,
+			"Institution": null,
+			"Remarks": null
+		}
+	],
 	"sample_objects": [
 		{
 			"id": 119,
@@ -181,10 +194,10 @@
 			}
 		]
 	},
-	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"indexed_at": "2026-05-26T13:00:40.408024+00:00",
 	"_sample_meta": {
 		"reason": "Leslie Matthew Ward (Spy) — Vanity Fair caricaturist, 116 works",
-		"picked_at": "2026-05-18T11:59:44.370463+00:00",
-		"populated_fields": 13
+		"picked_at": "2026-05-26T13:00:40.408024+00:00",
+		"populated_fields": 17
 	}
 }

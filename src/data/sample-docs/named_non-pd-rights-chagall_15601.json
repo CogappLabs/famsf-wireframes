@@ -24,6 +24,7 @@
 		{
 			"Title": "Joseph and the Wife of Potiphar",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -88,7 +89,15 @@
 			"Description": null,
 			"ElementName": "Image",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 29.7,
+				"width_cm": 24.7,
+				"depth_cm": null,
+				"height_in": 11.6875,
+				"width_in": 9.75,
+				"depth_in": null
+			}
 		}
 	],
 	"associations": [],
@@ -154,10 +163,10 @@
 	"has_children": false,
 	"sort_artist": "marc chagall",
 	"slug": "joseph-and-the-wife-of-potiphar-1960-95-3",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Chagall, Joseph and the Wife of Potiphar (1960.95.3) — non-public-domain rights statement",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
 		"populated_fields": 39
 	}
 }

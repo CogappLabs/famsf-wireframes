@@ -10,6 +10,15 @@ export interface BiographyEntry {
 	display_order: number;
 }
 
+export interface AltNameEntry {
+	DisplayName: string;
+	AlphaSort: string | null;
+	NameType: string | null;
+	CultureGroup: string | null;
+	Institution: string | null;
+	Remarks: string | null;
+}
+
 export interface SampleObject {
 	id: number;
 	accession_number: string;
@@ -61,6 +70,8 @@ export interface SampleMeta {
 export interface ConstituentDocument {
 	id: number;
 	name: string;
+	/** Permanent URL slug — pipeline `{name-slug}-{constituent-id}`. */
+	slug?: string;
 	alpha_sort?: string | null;
 	display_date?: string | null;
 	nationality?: string | null;
@@ -69,6 +80,12 @@ export interface ConstituentDocument {
 	biography?: string | null;
 	institution?: string | null;
 	display_bios?: BiographyEntry[] | null;
+	/** Distinct TMS Role values across all linked objects (Artist, Workshop of, Donor, etc). */
+	roles?: string[] | null;
+	/** TMS ConstituentType: Individual / Institution. Culture groups land as Institution. */
+	constituent_type?: "Individual" | "Institution" | string | null;
+	/** Pseudonyms, variant spellings, maiden names, culture-group labels. */
+	alt_names?: AltNameEntry[] | null;
 	object_count: number;
 	sample_objects?: SampleObject[] | null;
 	facets?: ConstituentFacets | null;

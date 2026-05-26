@@ -31,6 +31,35 @@
 		}
 	],
 	"object_count": 2,
+	"roles": ["Artist"],
+	"constituent_type": "Entity",
+	"slug": "cartier-21282",
+	"alt_names": [
+		{
+			"DisplayName": "Cartier",
+			"AlphaSort": "Cartier",
+			"NameType": "Primary Name",
+			"CultureGroup": null,
+			"Institution": "Cartier",
+			"Remarks": null
+		},
+		{
+			"DisplayName": "Cartier International SNC",
+			"AlphaSort": "Cartier International SNC",
+			"NameType": "Alternate Name",
+			"CultureGroup": null,
+			"Institution": "Cartier International SNC",
+			"Remarks": null
+		},
+		{
+			"DisplayName": "Maison Cartier",
+			"AlphaSort": "Maison Cartier",
+			"NameType": "Alternate Name",
+			"CultureGroup": null,
+			"Institution": "Maison Cartier",
+			"Remarks": null
+		}
+	],
 	"sample_objects": [
 		{
 			"id": 248505,
@@ -76,11 +105,11 @@
 		"top_materials": [],
 		"top_places_of_creation": [
 			{
-				"value": "France",
+				"value": "Paris",
 				"count": 1
 			},
 			{
-				"value": "Paris",
+				"value": "France",
 				"count": 1
 			}
 		],
@@ -97,10 +126,10 @@
 			}
 		]
 	},
-	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"indexed_at": "2026-05-26T13:00:40.408024+00:00",
 	"_sample_meta": {
 		"reason": "Cartier — institutional constituent, 6 display bios, 2 works",
-		"picked_at": "2026-05-18T11:59:44.370463+00:00",
-		"populated_fields": 10
+		"picked_at": "2026-05-26T13:00:40.408024+00:00",
+		"populated_fields": 14
 	}
 }

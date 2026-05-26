@@ -3,7 +3,13 @@
 import Link from "next/link";
 import { useState } from "react";
 import { MvpBadge, StatusBadge } from "@/components/wireframe/StatusBadge";
-import { pages } from "@/lib/data";
+import {
+	CATEGORY_LABELS,
+	CATEGORY_ORDER,
+	type PageCategory,
+	pages,
+	type WireframePage,
+} from "@/lib/data";
 import { isPageMvp } from "@/lib/scope";
 import { t } from "@/lib/strings";
 
@@ -11,6 +17,21 @@ export default function WireframeIndex() {
 	const [mvpOnly, setMvpOnly] = useState(false);
 	const filtered = mvpOnly ? pages.filter((p) => isPageMvp(p.id)) : pages;
 	const mvpCount = pages.filter((p) => isPageMvp(p.id)).length;
+
+	// Group by category in declared order. Pages with no category fall
+	// into the "other" bucket rendered last so nothing gets dropped.
+	const grouped = new Map<PageCategory | "other", WireframePage[]>();
+	for (const page of filtered) {
+		const key = page.category ?? "other";
+		const list = grouped.get(key) ?? [];
+		list.push(page);
+		grouped.set(key, list);
+	}
+
+	const orderedKeys: (PageCategory | "other")[] = [
+		...CATEGORY_ORDER.filter((c) => grouped.has(c)),
+		...(grouped.has("other") ? (["other"] as const) : []),
+	];
 
 	return (
 		<div className="mx-auto max-w-[var(--container-sm)] px-[var(--margin-xl)] py-20">
@@ -48,28 +69,43 @@ export default function WireframeIndex() {
 				</span>
 			</div>
 
-			<div className="flex flex-col gap-3">
-				{filtered.map((page) => (
-					<Link
-						key={page.id}
-						href={`/${page.id}`}
-						className="flex items-center justify-between border border-gray-300 px-5 py-4 text-left transition-colors hover:border-gray-500 hover:bg-gray-50"
-					>
-						<div>
-							<span className="font-mono text-card font-medium">
-								{page.title}
-							</span>
-							<span className="mt-1 block font-mono text-meta text-gray-500">
-								{page.description}
-							</span>
-						</div>
-						<div className="flex shrink-0 items-center gap-2">
-							{isPageMvp(page.id) && <MvpBadge />}
-							<StatusBadge status={page.status} />
-							<span className="font-mono text-meta text-gray-500">&rarr;</span>
-						</div>
-					</Link>
-				))}
+			<div className="flex flex-col gap-10">
+				{orderedKeys.map((key) => {
+					const items = grouped.get(key) ?? [];
+					if (items.length === 0) return null;
+					const heading =
+						key === "other" ? "Other" : CATEGORY_LABELS[key as PageCategory];
+					return (
+						<section key={key} className="flex flex-col gap-3">
+							<h2 className="mb-1 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
+								{heading}
+							</h2>
+							{items.map((page) => (
+								<Link
+									key={page.id}
+									href={`/${page.id}`}
+									className="flex items-center justify-between border border-gray-300 px-5 py-4 text-left transition-colors hover:border-gray-500 hover:bg-gray-50"
+								>
+									<div>
+										<span className="font-mono text-card font-medium">
+											{page.title}
+										</span>
+										<span className="mt-1 block font-mono text-meta text-gray-500">
+											{page.description}
+										</span>
+									</div>
+									<div className="flex shrink-0 items-center gap-2">
+										{isPageMvp(page.id) && <MvpBadge />}
+										<StatusBadge status={page.status} />
+										<span className="font-mono text-meta text-gray-500">
+											&rarr;
+										</span>
+									</div>
+								</Link>
+							))}
+						</section>
+					);
+				})}
 			</div>
 		</div>
 	);

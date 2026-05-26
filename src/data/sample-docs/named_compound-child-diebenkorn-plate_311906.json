@@ -27,6 +27,7 @@
 		{
 			"Title": "#1",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -129,7 +130,15 @@
 			"Description": null,
 			"ElementName": "x_Do not use_Object (4D)",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 46.0,
+				"width_cm": 38.3,
+				"depth_cm": 2.8,
+				"height_in": 18.125,
+				"width_in": 15.0625,
+				"depth_in": 1.125
+			}
 		}
 	],
 	"associations": [
@@ -204,6 +213,28 @@
 	"has_image": false,
 	"primary_artist_display": "Richard Diebenkorn (1922–1993)",
 	"display_year": "1964",
+	"signed_structured": [
+		{
+			"raw": "(recto, lower right, in graphite) RD 64",
+			"location": "recto, lower right, in graphite",
+			"transcription": "RD 64",
+			"is_watermark": false
+		}
+	],
+	"inscribed_structured": [
+		{
+			"raw": "(recto, lower left, in graphite) a.p.",
+			"location": "recto, lower left, in graphite",
+			"transcription": "a.p.",
+			"is_watermark": false
+		},
+		{
+			"raw": "(recto, lower center left, in graphite) #1",
+			"location": "recto, lower center left, in graphite",
+			"transcription": "#1",
+			"is_watermark": false
+		}
+	],
 	"has_iiif": false,
 	"has_provenance": false,
 	"has_children": false,
@@ -212,10 +243,10 @@
 	"slug": "1-icr-1991-28-332",
 	"parent_accession_number": "1991.28.332.1-9",
 	"parent_title": "41 Etchings Drypoints by Richard Diebenkorn (Berkeley: Crown Point Press, 1965)",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Diebenkorn 41 Etchings plate 1 (ICR.1991.28.332.1) — child of virtual portfolio 94752, exercises parent_title / parent_accession_number denorm",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
-		"populated_fields": 45
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 47
 	}
 }

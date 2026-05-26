@@ -26,18 +26,21 @@
 		{
 			"Title": "Ear pendant (Motoi kahurangi)",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		},
 		{
 			"Title": "Ear pendant",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 2
 		},
 		{
 			"Title": "Motoi kahurangi",
 			"TitleType": "Foreign Language Title",
+			"TitleTypeDisplay": "Foreign language",
 			"Language": "(not assigned)",
 			"DisplayOrder": 3
 		}
@@ -124,14 +127,30 @@
 			"Description": null,
 			"ElementName": "x_Do not use_Overall (4D)",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 16.2,
+				"width_cm": 2.2,
+				"depth_cm": null,
+				"height_in": 6.375,
+				"width_in": 0.875,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "6 3/8 x 7/8 in. (16.192 x 2.222 cm)",
 			"Description": null,
 			"ElementName": "x_Do not use_Image (Filemaker)",
 			"Displayed": true,
-			"Rank": 2
+			"Rank": 2,
+			"measures": {
+				"height_cm": 16.192,
+				"width_cm": 2.222,
+				"depth_cm": null,
+				"height_in": 6.375,
+				"width_in": 0.875,
+				"depth_in": null
+			}
 		}
 	],
 	"associations": [],
@@ -199,10 +218,10 @@
 	"sort_artist": "maori",
 	"sort_year": 1550,
 	"slug": "ear-pendant-motoi-kahurangi-41526",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Māori, Ear pendant Motoi kahurangi (41526) — 3+ titles, exercises multi-script title rendering",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
 		"populated_fields": 44
 	}
 }

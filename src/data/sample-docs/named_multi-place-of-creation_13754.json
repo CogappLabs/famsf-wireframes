@@ -27,6 +27,7 @@
 		{
 			"Title": "Jacob and Rebekah, from The Story of Jacob series",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -40,7 +41,15 @@
 			"Description": null,
 			"ElementName": "Overall",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 421.6,
+				"width_cm": 307.3,
+				"depth_cm": null,
+				"height_in": 166.0,
+				"width_in": 121.0,
+				"depth_in": null
+			}
 		}
 	],
 	"associations": [],
@@ -129,15 +138,26 @@
 	],
 	"primary_artist": "Unknown artist",
 	"has_image": false,
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Barbarini Family, Rome, c. 17th centuryCharles Mather Ffoulke, 1889-1909",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": []
+	},
 	"has_iiif": false,
 	"has_provenance": true,
 	"has_children": false,
 	"sort_artist": "unknown artist",
 	"slug": "jacob-and-rebekah-from-the-story-of-jacob-series-1928-8",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Jacob and Rebekah (1928.8) — 2+ place_of_creation entries, exercises multi-region tagging",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
-		"populated_fields": 37
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 38
 	}
 }

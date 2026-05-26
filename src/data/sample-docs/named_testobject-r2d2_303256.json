@@ -37,12 +37,14 @@
 		{
 			"Title": "R2-D2 Model",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "English",
 			"DisplayOrder": 1
 		},
 		{
 			"Title": "R2D2",
 			"TitleType": "Former Title",
+			"TitleTypeDisplay": "Former",
 			"Language": "English",
 			"DisplayOrder": 2
 		}
@@ -118,14 +120,30 @@
 			"Description": null,
 			"ElementName": "Overall",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 177.8,
+				"width_cm": 114.3,
+				"depth_cm": 114.3,
+				"height_in": 70.0,
+				"width_in": 45.0,
+				"depth_in": 45.0
+			}
 		},
 		{
 			"DisplayDimensions": "50 x 50 in. (127 x 127 cm)",
 			"Description": "Center Back Length",
 			"ElementName": "Footprint",
 			"Displayed": true,
-			"Rank": 2
+			"Rank": 2,
+			"measures": {
+				"height_cm": 127.0,
+				"width_cm": 127.0,
+				"depth_cm": null,
+				"height_in": 50.0,
+				"width_in": 50.0,
+				"depth_in": null
+			}
 		}
 	],
 	"associations": [],
@@ -160,6 +178,27 @@
 	],
 	"term_place_of_creation": [
 		{
+			"term": "Egypt",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAPN",
+					"term": "Miṣr"
+				}
+			]
+		},
+		{
 			"term": "Nepean",
 			"certainty": "Uncertain",
 			"path": [
@@ -187,27 +226,6 @@
 					"depth": 6,
 					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP.AABER",
 					"term": "Nepean"
-				}
-			]
-		},
-		{
-			"term": "Egypt",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAB",
-					"term": "Africa"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAB.AAAPN",
-					"term": "Miṣr"
 				}
 			]
 		},
@@ -248,37 +266,6 @@
 	],
 	"term_related_geography": [
 		{
-			"term": "Nepean",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABZ",
-					"term": "North and Central America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
-					"term": "United States"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP",
-					"term": "Ontario"
-				},
-				{
-					"depth": 6,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP.AABER",
-					"term": "Nepean"
-				}
-			]
-		},
-		{
 			"term": "Ottawa",
 			"certainty": null,
 			"path": [
@@ -306,6 +293,37 @@
 					"depth": 6,
 					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP.AABIU",
 					"term": "Ottawa"
+				}
+			]
+		},
+		{
+			"term": "Nepean",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP",
+					"term": "Ontario"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACP.AABER",
+					"term": "Nepean"
 				}
 			]
 		}
@@ -579,16 +597,59 @@
 	"primary_artist": "Unknown artist",
 	"has_image": true,
 	"display_year": "2000",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Mandufactured by Industial Automaton on Naboo",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": []
+	},
+	"signed_structured": [
+		{
+			"raw": "Luke Skywalker (in pen)",
+			"location": null,
+			"transcription": null,
+			"is_watermark": false
+		}
+	],
+	"inscribed_structured": [
+		{
+			"raw": "Property of Queen Amidala of Naboo",
+			"location": null,
+			"transcription": null,
+			"is_watermark": false
+		}
+	],
+	"markings_structured": [
+		{
+			"raw": "Industrial Automaton maker mark",
+			"location": null,
+			"transcription": null,
+			"is_watermark": false
+		}
+	],
+	"label_text_structured": [
+		{
+			"raw": "This is the text entry for Label on object",
+			"location": null,
+			"transcription": null,
+			"is_watermark": false
+		}
+	],
 	"has_iiif": false,
 	"has_provenance": true,
 	"has_children": false,
 	"sort_artist": "unknown artist",
 	"sort_year": 2000,
 	"slug": "r2-d2-model-testobject-01",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "R2-D2 Model (TestObject.01) — FAMSF synthetic test record, exercises every field. 57+ populated.",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
-		"populated_fields": 58
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 63
 	}
 }

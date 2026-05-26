@@ -31,6 +31,7 @@
 		{
 			"Title": "Sailboats on the Seine at Petit-Gennevilliers",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -99,24 +100,6 @@
 			"VenueName": "Legion of Honor"
 		},
 		{
-			"ExhibitionID": 560,
-			"ExhTitle": "Monet on the Seine: Impressions of a River",
-			"DisplayDate": "Sunday, October 26, 2014 - Sunday, February 1, 2015",
-			"BeginISODate": "2014-10-26",
-			"EndISODate": "2015-02-01",
-			"IsInHouse": false,
-			"VenueName": "The Museum of Fine Arts, Houston"
-		},
-		{
-			"ExhibitionID": 844,
-			"ExhTitle": "Monet and His Places",
-			"DisplayDate": "Sunday, October 20, 2019 - Monday, June 1, 2020",
-			"BeginISODate": "2019-10-20",
-			"EndISODate": "2020-06-01",
-			"IsInHouse": false,
-			"VenueName": "Denver Art Museum"
-		},
-		{
 			"ExhibitionID": 425,
 			"ExhTitle": "Splendid Centuries",
 			"DisplayDate": null,
@@ -124,6 +107,15 @@
 			"EndISODate": null,
 			"IsInHouse": false,
 			"VenueName": null
+		},
+		{
+			"ExhibitionID": 560,
+			"ExhTitle": "Monet on the Seine: Impressions of a River",
+			"DisplayDate": "Sunday, October 26, 2014 - Sunday, February 1, 2015",
+			"BeginISODate": "2014-10-26",
+			"EndISODate": "2015-02-01",
+			"IsInHouse": false,
+			"VenueName": "The Museum of Fine Arts, Houston"
 		},
 		{
 			"ExhibitionID": 542,
@@ -135,13 +127,13 @@
 			"VenueName": "Brooklyn Museum"
 		},
 		{
-			"ExhibitionID": 1406,
-			"ExhTitle": "Regards et vision:  Claude Monet, Edgar Degas, Mary Cassatt, Camille Pissarro",
-			"DisplayDate": "Tuesday, October 7, 2008 - Sunday, February 1, 2009",
-			"BeginISODate": "2008-10-07",
-			"EndISODate": "2009-02-01",
+			"ExhibitionID": 844,
+			"ExhTitle": "Monet and His Places",
+			"DisplayDate": "Sunday, October 20, 2019 - Monday, June 1, 2020",
+			"BeginISODate": "2019-10-20",
+			"EndISODate": "2020-06-01",
 			"IsInHouse": false,
-			"VenueName": "Musée Marmottan Monet"
+			"VenueName": "Denver Art Museum"
 		},
 		{
 			"ExhibitionID": 807,
@@ -178,6 +170,15 @@
 			"EndISODate": "2010-06-25",
 			"IsInHouse": false,
 			"VenueName": "The Art Gallery of New South Wales"
+		},
+		{
+			"ExhibitionID": 1406,
+			"ExhTitle": "Regards et vision:  Claude Monet, Edgar Degas, Mary Cassatt, Camille Pissarro",
+			"DisplayDate": "Tuesday, October 7, 2008 - Sunday, February 1, 2009",
+			"BeginISODate": "2008-10-07",
+			"EndISODate": "2009-02-01",
+			"IsInHouse": false,
+			"VenueName": "Musée Marmottan Monet"
 		}
 	],
 	"dimensions_structured": [
@@ -186,21 +187,45 @@
 			"Description": null,
 			"ElementName": "Overall",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 54.293,
+				"width_cm": 65.4,
+				"depth_cm": null,
+				"height_in": 21.375,
+				"width_in": 25.75,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "30 3/16 x 34 5/8 in. (76.676 x 87.948 cm)",
 			"Description": null,
 			"ElementName": "Framed",
 			"Displayed": true,
-			"Rank": 2
+			"Rank": 2,
+			"measures": {
+				"height_cm": 76.676,
+				"width_cm": 87.948,
+				"depth_cm": null,
+				"height_in": 30.1875,
+				"width_in": 34.625,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "30 3/16 x 34 5/8 x 4 in. (76.676 x 87.948 x 10.16 cm)",
 			"Description": null,
 			"ElementName": "Frame",
 			"Displayed": false,
-			"Rank": 3
+			"Rank": 3,
+			"measures": {
+				"height_cm": 76.676,
+				"width_cm": 87.948,
+				"depth_cm": 10.16,
+				"height_in": 30.1875,
+				"width_in": 34.625,
+				"depth_in": 4.0
+			}
 		}
 	],
 	"associations": [],
@@ -270,16 +295,88 @@
 	"has_image": true,
 	"primary_artist_display": "Claude Monet (1840–1926)",
 	"display_year": "1874",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Georges Feydeau (1862-1921), Paris [1]",
+				"refs": [1],
+				"is_uncertain": false
+			},
+			{
+				"order": 1,
+				"text": "His sale, Paris, Hôtel Drouot, 4 April 1903, lot 35",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 2,
+				"text": "[Gaston Bernheim]",
+				"refs": [],
+				"is_uncertain": true
+			},
+			{
+				"order": 3,
+				"text": "Prince of Wagram, Paris",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 4,
+				"text": "[Georg Caspari, Berlin, ca. 1920] [2]",
+				"refs": [2],
+				"is_uncertain": true
+			},
+			{
+				"order": 5,
+				"text": "[Hugo and Käthe Perls, Berlin, by 1920] [3]",
+				"refs": [3],
+				"is_uncertain": true
+			},
+			{
+				"order": 6,
+				"text": "Sadie (Adler) Adriani, Berlin, ca. 1920",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 7,
+				"text": "Gift of Bruno and Sadie (Adler) Adriani, Monterey, California, to the California Palace of the Legion of Honor, 1962",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 8,
+				"text": "Administrative Transfer to the Fine Arts Museums of San Francisco, 1972",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [
+			{
+				"num": 1,
+				"text": "See Wildenstein 1996 II, p. 101, no. 227."
+			},
+			{
+				"num": 2,
+				"text": "Per Le Bulletin de la Vie Artistique, 15 December 1920, p. 750."
+			},
+			{
+				"num": 3,
+				"text": "Per curatorial note, object file, Fine Arts Museums of San Francisco: “Purchased before 1920 by Mrs. Adriani in Berlin from the dealers Hugo and Käthe Perls.”"
+			}
+		]
+	},
 	"has_iiif": false,
 	"has_provenance": true,
 	"has_children": false,
 	"sort_artist": "claude monet",
 	"sort_year": 1874,
 	"slug": "sailboats-on-the-seine-at-petit-gennevilliers-1962-23",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Monet, Sailboats on the Seine at Petit-Gennevilliers (1962.23) — 10+ exhibitions, only record at this depth",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
-		"populated_fields": 47
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 48
 	}
 }

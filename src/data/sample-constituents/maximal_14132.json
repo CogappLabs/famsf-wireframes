@@ -1,0 +1,107 @@
+{
+	"id": 14132,
+	"name": "Linden Glass Company",
+	"alpha_sort": "Linden Glass Company",
+	"display_date": "1884–1934",
+	"nationality": "American",
+	"begin_date_iso": "1884",
+	"end_date_iso": "1934",
+	"biography": "1884–1934",
+	"institution": "Linden Glass Company",
+	"display_bios": [
+		{
+			"bio": "1884–1934",
+			"display_order": 1
+		},
+		{
+			"bio": "1884–1934",
+			"display_order": 2
+		}
+	],
+	"object_count": 1,
+	"roles": ["Maker"],
+	"constituent_type": "Entity",
+	"slug": "linden-glass-company-14132",
+	"alt_names": [
+		{
+			"DisplayName": "Linden Glass Company",
+			"AlphaSort": "Linden Glass Company",
+			"NameType": "Primary Name",
+			"CultureGroup": null,
+			"Institution": "Linden Glass Company",
+			"Remarks": null
+		}
+	],
+	"sample_objects": [
+		{
+			"id": 79397,
+			"accession_number": "1982.70",
+			"title": "Tree of Life Window from the Darwin D. Martin House, Buffalo, New York",
+			"display_date": "1904",
+			"primary_artist_display": "Frank Lloyd Wright (1867–1959)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		}
+	],
+	"facets": {
+		"total_works": 1,
+		"on_view_count": 1,
+		"has_iiif_count": 0,
+		"exhibited_count": 0,
+		"date_range": {
+			"earliest_year": 1904,
+			"latest_year": 1904
+		},
+		"classifications": [
+			{
+				"value": "Architectural Element",
+				"count": 1
+			}
+		],
+		"departments": [
+			{
+				"value": "American Decorative Arts and Sculpture",
+				"count": 1
+			}
+		],
+		"top_subjects": [],
+		"top_materials": [
+			{
+				"value": "gold",
+				"count": 1
+			},
+			{
+				"value": "brass",
+				"count": 1
+			},
+			{
+				"value": "copper",
+				"count": 1
+			},
+			{
+				"value": "glass",
+				"count": 1
+			}
+		],
+		"top_places_of_creation": [
+			{
+				"value": "Chicago",
+				"count": 1
+			}
+		],
+		"top_styles": [],
+		"top_movements": [],
+		"decade_histogram": [
+			{
+				"decade": 1900,
+				"count": 1
+			}
+		]
+	},
+	"indexed_at": "2026-05-26T13:00:40.408024+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: most populated fields in constituents (true max).",
+		"picked_at": "2026-05-26T13:00:40.408024+00:00",
+		"populated_fields": 18
+	}
+}

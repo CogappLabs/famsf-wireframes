@@ -18,6 +18,19 @@
 		}
 	],
 	"object_count": 6,
+	"roles": ["After", "Artist"],
+	"constituent_type": "Individual",
+	"slug": "william-holman-hunt-15960",
+	"alt_names": [
+		{
+			"DisplayName": "William Holman Hunt",
+			"AlphaSort": "Hunt, William Holman",
+			"NameType": "Primary Name",
+			"CultureGroup": null,
+			"Institution": null,
+			"Remarks": null
+		}
+	],
 	"sample_objects": [
 		{
 			"id": 24783,
@@ -132,10 +145,10 @@
 			}
 		]
 	},
-	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"indexed_at": "2026-05-26T13:00:40.408024+00:00",
 	"_sample_meta": {
 		"reason": "William Holman Hunt (1827–1910) — 6 works, 2 display bios",
-		"picked_at": "2026-05-18T11:59:44.370463+00:00",
-		"populated_fields": 13
+		"picked_at": "2026-05-26T13:00:40.408024+00:00",
+		"populated_fields": 17
 	}
 }

@@ -1,0 +1,146 @@
+{
+	"id": 171803,
+	"accession_number": "2017.29.11.112",
+	"sort_number": "2017.29.11.112",
+	"title": "Architectural design on p.111 from the Perspectiva pictorum et architectorum vol. 2 (Rome: Rubens, 1723)",
+	"display_date": "1723",
+	"begin_iso_date": "1723",
+	"end_iso_date": "1723",
+	"medium": "engraving",
+	"medium_parts": ["engraving"],
+	"dimensions": "Object: 418 x 279 x 35 mm (16 7/16 x 11 x 1 3/8 in.) (book)",
+	"dimensions_display_primary": "16 7/16 x 11 x 1 3/8 in. (41.8 x 27.9 x 3.5 cm)",
+	"credit_line": "Mr. and Mrs. Marcus Sopher Collection",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"last_modified": "2017-12-28 00:00:00.000000",
+	"is_virtual": false,
+	"accession_iso_date": "2017-10-26",
+	"location_string": "Legion, 253, Shelf 03, 04D",
+	"location_building": "Legion",
+	"location_room": "Shelf 03",
+	"titles": [
+		{
+			"Title": "Architectural design on p.111 from the Perspectiva pictorum et architectorum vol. 2 (Rome: Rubens, 1723)",
+			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
+			"Language": "(not assigned)",
+			"DisplayOrder": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 19812,
+			"Role": "Author",
+			"RoleID": 47,
+			"DisplayName": "Andrea Pozzo",
+			"AlphaSort": "Andrea Pozzo",
+			"Nationality": "Italian",
+			"BeginDate": 1642,
+			"EndDate": 1709,
+			"BeginDateISO": "1642",
+			"EndDateISO": "1709",
+			"DisplayDate": "1642–1709",
+			"Biography": "1642–1709",
+			"display_bios": [
+				{
+					"bio": "1642–1709",
+					"display_order": 1
+				},
+				{
+					"bio": "1642–1709",
+					"display_order": 2
+				}
+			],
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Andrea Pozzo (1642–1709)"
+		}
+	],
+	"media": [],
+	"exhibitions": [],
+	"dimensions_structured": [
+		{
+			"DisplayDimensions": "16 7/16 x 11 x 1 3/8 in. (41.8 x 27.9 x 3.5 cm)",
+			"Description": "(book)",
+			"ElementName": "x_Do not use_Object (4D)",
+			"Displayed": true,
+			"Rank": 1,
+			"measures": {
+				"height_cm": 41.8,
+				"width_cm": 27.9,
+				"depth_cm": 3.5,
+				"height_in": 16.4375,
+				"width_in": 11.0,
+				"depth_in": 1.375
+			}
+		}
+	],
+	"associations": [],
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_related_geography": [
+		{
+			"term": "Europe",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				}
+			]
+		}
+	],
+	"primary_artist": "Andrea Pozzo",
+	"has_image": false,
+	"primary_artist_display": "Andrea Pozzo (1642–1709)",
+	"display_year": "1723",
+	"has_iiif": false,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_artist": "andrea pozzo",
+	"sort_year": 1723,
+	"slug": "architectural-design-on-p-111-from-the-perspectiva-pictorum-et-architectorum-vol-2017-29-11-112",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: closest to dataset median populated-field count.",
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 39
+	}
+}

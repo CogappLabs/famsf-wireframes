@@ -26,6 +26,7 @@
 		{
 			"Title": "Dessert server (Confiturier)",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -90,28 +91,60 @@
 			"Description": "a",
 			"ElementName": "x_Do not use_Overall (4D)",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 26.0,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.25,
+				"width_in": null,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "6 3/4 in. (17.1 cm)",
 			"Description": "b",
 			"ElementName": "x_Do not use_Overall (4D)",
 			"Displayed": true,
-			"Rank": 2
+			"Rank": 2,
+			"measures": {
+				"height_cm": 17.1,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 6.75,
+				"width_in": null,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "1 7/8 x 6 3/4 in. (4.8 x 17.1 cm)",
 			"Description": "b",
 			"ElementName": "x_Do not use_Overall (4D)",
 			"Displayed": true,
-			"Rank": 3
+			"Rank": 3,
+			"measures": {
+				"height_cm": 4.8,
+				"width_cm": 17.1,
+				"depth_cm": null,
+				"height_in": 1.875,
+				"width_in": 6.75,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "14 5/8 x 14 5/8 in. (37.1 x 37.1 cm)",
 			"Description": "a",
 			"ElementName": "x_Do not use_Overall (4D)",
 			"Displayed": true,
-			"Rank": 4
+			"Rank": 4,
+			"measures": {
+				"height_cm": 37.1,
+				"width_cm": 37.1,
+				"depth_cm": null,
+				"height_in": 14.625,
+				"width_in": 14.625,
+				"depth_in": null
+			}
 		}
 	],
 	"associations": [],
@@ -189,10 +222,10 @@
 	"sort_artist": "martin-guillaume biennais",
 	"sort_year": 1809,
 	"slug": "dessert-server-confiturier-1945-312a-b",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "Biennais Confiturier (1945.312a-b) — 4+ dimension entries (Overall + components)",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
 		"populated_fields": 43
 	}
 }

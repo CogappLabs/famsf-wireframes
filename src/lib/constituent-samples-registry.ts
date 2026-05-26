@@ -19,7 +19,10 @@ const DIR = path.join(process.cwd(), "src/data/sample-constituents");
 export type SampleGroup = "spread" | "named";
 
 export interface ConstituentSampleEntry {
+	/** URL slug — pipeline-generated `{name-slug}-{constituent-id}` from `make_doc_slug`. */
 	slug: string;
+	/** Filename-derived slug — short curator name (e.g. `monet`). Used for label fallback only. */
+	filenameSlug: string;
 	filename: string;
 	group: SampleGroup;
 	label: string;
@@ -81,31 +84,36 @@ export function loadConstituentSamples(): ConstituentSampleEntry[] {
 	for (const filename of files) {
 		const namedMatch = filename.match(/^named_(.+)_\d+\.json$/);
 		const spreadMatch = filename.match(/^(minimal|median|maximal)_\d+\.json$/);
-		let slug: string;
+		let filenameSlug: string;
 		let group: SampleGroup;
 
 		if (namedMatch) {
-			slug = namedMatch[1];
+			filenameSlug = namedMatch[1];
 			group = "named";
 		} else if (spreadMatch) {
-			slug = spreadMatch[1];
+			filenameSlug = spreadMatch[1];
 			group = "spread";
 		} else {
 			continue;
 		}
 
-		if (seenSlugs.has(slug)) continue;
-		seenSlugs.add(slug);
-
 		const doc = JSON.parse(
 			fs.readFileSync(path.join(DIR, filename), "utf-8"),
 		) as ConstituentDocument;
 
+		// URL slug = pipeline-generated `make_doc_slug` (name-slug + ConstituentID).
+		// Fallback to filename slug only if the doc somehow lacks one.
+		const slug = doc.slug ?? filenameSlug;
+
+		if (seenSlugs.has(slug)) continue;
+		seenSlugs.add(slug);
+
 		entries.push({
 			slug,
+			filenameSlug,
 			filename,
 			group,
-			label: deriveLabel(slug, group, doc),
+			label: deriveLabel(filenameSlug, group, doc),
 			tags: deriveTags(doc),
 			doc,
 			populatedFields: populatedFieldCount(doc),
@@ -113,14 +121,18 @@ export function loadConstituentSamples(): ConstituentSampleEntry[] {
 		});
 	}
 
-	// Spread first (minimal, median, maximal), then named alphabetically.
+	// Named (curated demos) first alphabetically by label, then spread
+	// (data-quality showcase) in min → median → maximal order.
 	const spreadOrder = ["minimal", "median", "maximal"];
 	return entries.sort((a, b) => {
-		if (a.group !== b.group) return a.group === "spread" ? -1 : 1;
+		if (a.group !== b.group) return a.group === "named" ? -1 : 1;
 		if (a.group === "spread") {
-			return spreadOrder.indexOf(a.slug) - spreadOrder.indexOf(b.slug);
+			return (
+				spreadOrder.indexOf(a.filenameSlug) -
+				spreadOrder.indexOf(b.filenameSlug)
+			);
 		}
-		return a.slug.localeCompare(b.slug);
+		return a.label.localeCompare(b.label);
 	});
 }
 

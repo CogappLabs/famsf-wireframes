@@ -3,12 +3,33 @@
 	"name": "Azera",
 	"alpha_sort": "Azera",
 	"object_count": 1,
+	"roles": ["Artist"],
+	"constituent_type": "Culture Group",
+	"slug": "azera-41386",
+	"alt_names": [
+		{
+			"DisplayName": "Azera",
+			"AlphaSort": "Azera",
+			"NameType": "Primary Name",
+			"CultureGroup": null,
+			"Institution": null,
+			"Remarks": null
+		},
+		{
+			"DisplayName": "Azera artist",
+			"AlphaSort": "Azera artist",
+			"NameType": "Alternate Name",
+			"CultureGroup": null,
+			"Institution": null,
+			"Remarks": null
+		}
+	],
 	"sample_objects": [],
 	"facets": null,
-	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"indexed_at": "2026-05-26T13:00:40.408024+00:00",
 	"_sample_meta": {
 		"reason": "Auto-picked: fewest populated fields in constituents (true min).",
-		"picked_at": "2026-05-18T11:59:44.370463+00:00",
-		"populated_fields": 5
+		"picked_at": "2026-05-26T13:00:40.408024+00:00",
+		"populated_fields": 9
 	}
 }

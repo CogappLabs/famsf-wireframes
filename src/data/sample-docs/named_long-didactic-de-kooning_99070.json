@@ -31,6 +31,7 @@
 		{
 			"Title": "Untitled (Two Figures)",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -90,6 +91,15 @@
 	],
 	"exhibitions": [
 		{
+			"ExhibitionID": 517,
+			"ExhTitle": "Drawing the Line ",
+			"DisplayDate": "Saturday, August 5, 2023 - Sunday, February 25, 2024",
+			"BeginISODate": "2023-08-05",
+			"EndISODate": "2024-02-25",
+			"IsInHouse": true,
+			"VenueName": "Legion of Honor"
+		},
+		{
 			"ExhibitionID": 928,
 			"ExhTitle": "de Kooning Retrospective",
 			"DisplayDate": "Sunday, September 18, 2011 - Monday, January 9, 2012",
@@ -108,15 +118,6 @@
 			"VenueName": "Museum of Contemporary Art"
 		},
 		{
-			"ExhibitionID": 517,
-			"ExhTitle": "Drawing the Line ",
-			"DisplayDate": "Saturday, August 5, 2023 - Sunday, February 25, 2024",
-			"BeginISODate": "2023-08-05",
-			"EndISODate": "2024-02-25",
-			"IsInHouse": true,
-			"VenueName": "Legion of Honor"
-		},
-		{
 			"ExhibitionID": 1236,
 			"ExhTitle": "Willem de Kooning Drawing",
 			"DisplayDate": null,
@@ -132,7 +133,15 @@
 			"Description": null,
 			"ElementName": "Overall",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 57.2,
+				"width_cm": 55.9,
+				"depth_cm": null,
+				"height_in": 22.5,
+				"width_in": 22.0,
+				"depth_in": null
+			}
 		}
 	],
 	"associations": [],
@@ -194,16 +203,27 @@
 	"has_image": true,
 	"primary_artist_display": "Willem de Kooning (1904–1997)",
 	"display_year": "1942–52",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "The artist Traded to Bart Perry By descent",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": []
+	},
 	"has_iiif": true,
 	"has_provenance": true,
 	"has_children": false,
 	"sort_artist": "willem de kooning",
 	"sort_year": 1942,
 	"slug": "untitled-two-figures-1999-131",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "de Kooning, Untitled Two Figures (1999.131) — 1000+ char didactic label, exercises long-prose rendering",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
-		"populated_fields": 49
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 50
 	}
 }

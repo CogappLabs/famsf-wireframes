@@ -31,6 +31,7 @@
 		{
 			"Title": "Isabella and the Pot of Basil",
 			"TitleType": "Primary Title",
+			"TitleTypeDisplay": "Primary",
 			"Language": "(not assigned)",
 			"DisplayOrder": 1
 		}
@@ -95,21 +96,45 @@
 			"Description": null,
 			"ElementName": "Overall",
 			"Displayed": true,
-			"Rank": 1
+			"Rank": 1,
+			"measures": {
+				"height_cm": 60.2,
+				"width_cm": 38.6,
+				"depth_cm": null,
+				"height_in": 23.6875,
+				"width_in": 15.1875,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "32 11/16 x 24 1/16 in. (83.026 x 61.119 cm)",
 			"Description": null,
 			"ElementName": "Framed",
 			"Displayed": true,
-			"Rank": 2
+			"Rank": 2,
+			"measures": {
+				"height_cm": 83.026,
+				"width_cm": 61.119,
+				"depth_cm": null,
+				"height_in": 32.6875,
+				"width_in": 24.0625,
+				"depth_in": null
+			}
 		},
 		{
 			"DisplayDimensions": "32 11/16 x 24 1/16 x 3 3/4 in. (83.026 x 61.119 x 9.525 cm)",
 			"Description": null,
 			"ElementName": "Frame",
 			"Displayed": false,
-			"Rank": 3
+			"Rank": 3,
+			"measures": {
+				"height_cm": 83.026,
+				"width_cm": 61.119,
+				"depth_cm": 9.525,
+				"height_in": 32.6875,
+				"width_in": 24.0625,
+				"depth_in": 3.75
+			}
 		}
 	],
 	"associations": [],
@@ -176,16 +201,117 @@
 	"has_image": true,
 	"primary_artist_display": "William Holman Hunt (1827–1910)",
 	"display_year": "1867–68",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "The artist",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 1,
+				"text": "[Sold to Ernest Gambart, London, 19 November 1867]",
+				"refs": [],
+				"is_uncertain": true
+			},
+			{
+				"order": 2,
+				"text": "Lewis Pocock, London",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 3,
+				"text": "Sale, London, Christie’s, 13 May 1871, lot 104 (bought in)",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 4,
+				"text": "[Pilgeram & Lefèvre, London]",
+				"refs": [],
+				"is_uncertain": true
+			},
+			{
+				"order": 5,
+				"text": "[Samuel P. Avery, New York, by 24 October 1871]",
+				"refs": [],
+				"is_uncertain": true
+			},
+			{
+				"order": 6,
+				"text": "John Taylor Johnston, New York, by 1876",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 7,
+				"text": "His sale, New York, Chickering Hall, 19 December 1876, lot 85",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 8,
+				"text": "Purchased by John Work Garrett (1820-1884), Baltimore",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 9,
+				"text": "By descent to his daughter, Mary Elizabeth Garrett (1854-1915), Baltimore, 1884",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 10,
+				"text": "Bequest to Martha Carey Thomas (1857-1935), President of Bryn Mawr College, 1915",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 11,
+				"text": "Bequest to Bryn Mawr College, 1935",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 12,
+				"text": "Sold to the Delaware Art Museum, Wilmington, 12 July 1947",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 13,
+				"text": "Deaccessioned and sold, London, Christie’s, 17 June 2014, lot 6",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 14,
+				"text": "Purchased by a private collection, Australia",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 15,
+				"text": "Sold [via Martin Beisly Fine Art, London] to the Fine Arts Museums of San Francisco, 2021",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": []
+	},
 	"has_iiif": true,
 	"has_provenance": true,
 	"has_children": false,
 	"sort_artist": "william holman hunt",
 	"sort_year": 1867,
 	"slug": "isabella-and-the-pot-of-basil-2021-31",
-	"indexed_at": "2026-05-21T11:45:02.518116+00:00",
+	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
 	"_sample_meta": {
 		"reason": "William Holman Hunt, Isabella and the Pot of Basil, 1867–1868 (2021.31)",
-		"picked_at": "2026-05-21T11:45:02.518116+00:00",
-		"populated_fields": 48
+		"picked_at": "2026-05-26T12:50:36.842330+00:00",
+		"populated_fields": 49
 	}
 }

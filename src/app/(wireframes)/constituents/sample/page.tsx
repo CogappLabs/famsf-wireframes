@@ -7,7 +7,9 @@ import {
 import { ScopePage } from "@/providers/ScopeProvider";
 
 function SampleCard({ entry }: { entry: ConstituentSampleEntry }) {
-	const { slug, label, doc, tags, populatedFields, reason } = entry;
+	const { slug, label, group, doc, tags, populatedFields, reason } = entry;
+	const isSpread = group === "spread";
+	const heading = isSpread ? (doc.name ?? "Unknown") : label;
 	return (
 		<div className="border border-gray-300 hover:border-gray-500 hover:bg-gray-50">
 			<Link
@@ -15,13 +17,18 @@ function SampleCard({ entry }: { entry: ConstituentSampleEntry }) {
 				className="flex items-start justify-between px-5 py-4"
 			>
 				<div className="flex-1">
-					<span className="font-mono text-card font-medium">{label}</span>
+					{isSpread && (
+						<span className="mr-2 inline-block border border-amber-300 bg-amber-50 px-1.5 py-0.5 font-mono text-label uppercase tracking-[0.08em] text-amber-800">
+							{label}
+						</span>
+					)}
+					<span className="font-mono text-card font-medium">{heading}</span>
 					{doc.display_date && (
 						<span className="ml-3 font-mono text-label text-gray-400">
 							{doc.display_date}
 						</span>
 					)}
-					{doc.nationality && (
+					{!isSpread && doc.nationality && (
 						<p className="mt-1 font-mono text-meta text-gray-500">
 							{doc.nationality}
 						</p>

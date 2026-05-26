@@ -1,0 +1,154 @@
+{
+	"id": 4409,
+	"name": "Leon-Joseph-Florentin Bonnat",
+	"alpha_sort": "Bonnat,  Leon-Joseph-Florentin",
+	"display_date": "French, 1833–1922",
+	"begin_date_iso": "1833",
+	"end_date_iso": "1922",
+	"biography": "French, 1833 - 1922",
+	"display_bios": [
+		{
+			"bio": "French, 1833 - 1922",
+			"display_order": 1
+		},
+		{
+			"bio": "1833–1922",
+			"display_order": 2
+		}
+	],
+	"object_count": 8,
+	"roles": ["After", "Artist"],
+	"constituent_type": "Individual",
+	"slug": "leon-joseph-florentin-bonnat-4409",
+	"alt_names": [
+		{
+			"DisplayName": "Leon-Joseph-Florentin Bonnat",
+			"AlphaSort": "Bonnat, Leon-Joseph-Florentin",
+			"NameType": "Primary Name",
+			"CultureGroup": null,
+			"Institution": null,
+			"Remarks": null
+		}
+	],
+	"sample_objects": [
+		{
+			"id": 5621,
+			"accession_number": "1963.30.23005",
+			"title": "Alexandre Falguiere",
+			"display_date": "1890",
+			"primary_artist_display": "Leon-Joseph-Florentin Bonnat (1833–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/63312/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 8750,
+			"accession_number": "1963.30.22997",
+			"title": "Victor Hugo, published in L'Art",
+			"display_date": "1879",
+			"primary_artist_display": "Leon-Joseph-Florentin Bonnat (1833–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/162631/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 22035,
+			"accession_number": "1963.30.30002",
+			"title": "Portrait de M. Renan",
+			"display_date": "1892",
+			"primary_artist_display": "Leon-Joseph-Florentin Bonnat (1833–1922)",
+			"iiif_thumbnail_url": null,
+			"has_iiif": false
+		},
+		{
+			"id": 25628,
+			"accession_number": "1963.30.3109",
+			"title": "M. Puxis de Chavannes",
+			"display_date": "19th–20th century",
+			"primary_artist_display": "Leon-Joseph-Florentin Bonnat (1833–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/111126/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 46516,
+			"accession_number": "1963.30.30001",
+			"title": "La Lutte de Jacob",
+			"display_date": "19th century",
+			"primary_artist_display": "Leon-Joseph-Florentin Bonnat (1833–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/63880/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 48717,
+			"accession_number": "1963.30.30000",
+			"title": "Portrait of M. Thiers",
+			"display_date": "19th century",
+			"primary_artist_display": "Leon-Joseph-Florentin Bonnat (1833–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/63850/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 50147,
+			"accession_number": "1963.30.30003",
+			"title": "Portrait of Sancede",
+			"display_date": "1892",
+			"primary_artist_display": "Leon-Joseph-Florentin Bonnat (1833–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/63852/full/300,/0/default.jpg",
+			"has_iiif": true
+		},
+		{
+			"id": 275637,
+			"accession_number": "A060045",
+			"title": "Alexandre Falguiere",
+			"display_date": "1887",
+			"primary_artist_display": "Leon-Joseph-Florentin Bonnat (1833–1922)",
+			"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/114807/full/300,/0/default.jpg",
+			"has_iiif": true
+		}
+	],
+	"facets": {
+		"total_works": 8,
+		"on_view_count": 0,
+		"has_iiif_count": 7,
+		"exhibited_count": 0,
+		"date_range": {
+			"earliest_year": 1879,
+			"latest_year": 1892
+		},
+		"classifications": [
+			{
+				"value": "Print",
+				"count": 8
+			}
+		],
+		"departments": [
+			{
+				"value": "Achenbach Foundation for Graphic Arts",
+				"count": 8
+			}
+		],
+		"top_subjects": [],
+		"top_materials": [],
+		"top_places_of_creation": [],
+		"top_styles": [],
+		"top_movements": [],
+		"decade_histogram": [
+			{
+				"decade": 1870,
+				"count": 1
+			},
+			{
+				"decade": 1880,
+				"count": 1
+			},
+			{
+				"decade": 1890,
+				"count": 3
+			}
+		]
+	},
+	"indexed_at": "2026-05-26T13:00:40.408024+00:00",
+	"_sample_meta": {
+		"reason": "Auto-picked: closest to median populated-field count.",
+		"picked_at": "2026-05-26T13:00:40.408024+00:00",
+		"populated_fields": 16
+	}
+}

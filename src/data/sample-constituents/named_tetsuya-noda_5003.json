@@ -17,6 +17,19 @@
 		}
 	],
 	"object_count": 26,
+	"roles": ["Artist"],
+	"constituent_type": "Individual",
+	"slug": "tetsuya-noda-5003",
+	"alt_names": [
+		{
+			"DisplayName": "Tetsuya Noda",
+			"AlphaSort": "Tetsuya Noda",
+			"NameType": "Primary Name",
+			"CultureGroup": null,
+			"Institution": null,
+			"Remarks": null
+		}
+	],
 	"sample_objects": [
 		{
 			"id": 67156,
@@ -176,10 +189,10 @@
 			}
 		]
 	},
-	"indexed_at": "2026-05-18T11:59:44.370463+00:00",
+	"indexed_at": "2026-05-26T13:00:40.408024+00:00",
 	"_sample_meta": {
 		"reason": "Tetsuya Noda — Japanese printmaker, exercises non-Western name ordering, 26 works",
-		"picked_at": "2026-05-18T11:59:44.370463+00:00",
-		"populated_fields": 12
+		"picked_at": "2026-05-26T13:00:40.408024+00:00",
+		"populated_fields": 16
 	}
 }
