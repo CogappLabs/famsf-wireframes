@@ -15,7 +15,7 @@ The index, top bar badges, footer links, and scope overlay all derive from these
 
 ### Key directories
 
-- `src/app/page.tsx` — wireframe index (auto-generated from page registry)
+- `src/app/page.tsx` — wireframe index (auto-grouped by page `category`: browse / records / features / meta / data / reference)
 - `src/app/(wireframes)/layout.tsx` — wireframe chrome: top bar, global nav, scope toggle, footer
 - `src/app/(wireframes)/*/page.tsx` — individual wireframe pages (11 collection pages + sitemap)
 - `src/lib/data.ts` — central data layer: page registry, nav tree, site nav, footer groups, review statuses
@@ -273,6 +273,10 @@ the workspace root; hot-reload picks up the change.
 - `ScaleDiagram` — primary dimension picked from
   `dimensions_structured[].measures.height_cm`. Human 170 cm +
   banana 18 cm + object box on shared baseline.
+- `TranscriptionList` — renders parsed Marks / Inscriptions / Signed /
+  Labels per `(side, location, medium) transcription` template. Falls
+  back to raw string when no segments parse. Watermark badge per
+  §Mark(s) L1287.
 
 ## Shared wireframe components
 
