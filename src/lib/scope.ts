@@ -41,6 +41,16 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Autocomplete search with suggestions",
 		issueUrl: issue("CW-36"),
 	},
+	"collection-landing/Basic filters": {
+		mvp: true,
+		note: "Inline filter chips (Highlights / Open access / On view / Has image / Popular) per FAMSF feedback May 2026; promote selected facets from Advanced",
+		issueUrl: issue("CW-36"),
+	},
+	"collection-landing/More ways in": {
+		mvp: true,
+		note: "Additional entry points (recently added, open access, by medium, by place, by era) beyond highlights / area / topic per FAMSF feedback May 2026",
+		issueUrl: issue("CW-27"),
+	},
 	"collection-landing/Browse by area": {
 		mvp: true,
 		issueUrl: issue("CW-27"),

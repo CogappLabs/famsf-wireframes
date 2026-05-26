@@ -83,6 +83,48 @@ const SUB_COLLECTIONS = [
 	{ name: "Costume", count: "7,418" },
 ];
 
+// Basic-search filter chips. Submit appends to /search-results query string.
+const BASIC_FILTERS = [
+	{ key: "highlights", label: "Highlights" },
+	{ key: "open_access", label: "Open access" },
+	{ key: "on_view", label: "On view" },
+	{ key: "has_image", label: "Has image" },
+	{ key: "popular", label: "Popular" },
+];
+
+const MORE_ENTRY_POINTS = [
+	{
+		title: "Recently added",
+		desc: "Newest acquisitions and reattributions",
+		href: "/search-results?sort=accession_date_desc",
+	},
+	{
+		title: "Open access",
+		desc: "Works released for free reuse and download",
+		href: "/search-results?open_access=true",
+	},
+	{
+		title: "On view today",
+		desc: "Browse what's hanging at de Young + Legion right now",
+		href: "/search-results?on_view=true",
+	},
+	{
+		title: "By medium",
+		desc: "Paintings, prints, photography, textiles, sculpture",
+		href: "/search-results?facet=medium",
+	},
+	{
+		title: "By place of creation",
+		desc: "Map and list of geographies represented",
+		href: "/search-results?facet=place",
+	},
+	{
+		title: "By era",
+		desc: "Ancient, medieval, modern, contemporary",
+		href: "/search-results?facet=era",
+	},
+];
+
 const TIMELINE_PERIODS = [
 	{ label: "Ancient", range: "3000 BCE\u20131 CE", count: "1,204" },
 	{ label: "Medieval", range: "1\u20131400", count: "892" },
@@ -220,9 +262,30 @@ function CollectionLandingContent() {
 							{t("collection.searchHeading")}
 						</SectionLabel>
 						<CollectionAutocomplete />
-						<p className="mt-2 font-mono text-meta text-gray-400">
+						<ScopeMark label="Basic filters">
+							<div className="mt-4 flex flex-wrap items-center gap-2">
+								<span className="font-mono text-meta text-gray-500">
+									Filter to:
+								</span>
+								{BASIC_FILTERS.map((f) => (
+									<Link
+										key={f.key}
+										href={`/search-results?${f.key}=true`}
+										className="border border-gray-300 px-3 py-1 font-mono text-meta text-gray-700 transition-colors hover:border-gray-500 hover:bg-gray-50"
+									>
+										{f.label}
+									</Link>
+								))}
+							</div>
+						</ScopeMark>
+						<p className="mt-3 font-mono text-meta text-gray-400">
 							Or use{" "}
-							<span className="underline">{t("search.advancedToggle")}</span>{" "}
+							<Link
+								href="/search-results"
+								className="underline hover:text-gray-600"
+							>
+								{t("search.advancedToggle")}
+							</Link>{" "}
 							with filters for geography, culture, material, date range, and
 							more
 						</p>
@@ -246,7 +309,7 @@ function CollectionLandingContent() {
 									className="flex flex-col border border-gray-300 p-5 text-left transition-colors hover:border-gray-500"
 								>
 									<ImagePlaceholder
-										aspect="16/9"
+										aspect="1/1"
 										label={`[${area.name}]`}
 										className="mb-4"
 									/>
@@ -280,6 +343,32 @@ function CollectionLandingContent() {
 									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600 transition-colors hover:border-gray-500 hover:bg-gray-50"
 								>
 									{sc.name} <span className="text-gray-400">{sc.count}</span>
+								</Link>
+							))}
+						</div>
+					</Container>
+				</WireframeSection>
+
+				{/* More entry points beyond highlights / area / topic */}
+				<WireframeSection
+					label="More ways in"
+					className="border-b border-gray-300 py-12"
+				>
+					<Container>
+						<SectionLabel className="mb-6">More ways in</SectionLabel>
+						<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+							{MORE_ENTRY_POINTS.map((e) => (
+								<Link
+									key={e.title}
+									href={e.href}
+									className="flex flex-col border border-gray-300 p-4 transition-colors hover:border-gray-500 hover:bg-gray-50"
+								>
+									<h3 className="font-mono text-card font-medium leading-snug">
+										{e.title}
+									</h3>
+									<p className="mt-2 font-mono text-meta text-gray-500">
+										{e.desc}
+									</p>
 								</Link>
 							))}
 						</div>
@@ -366,7 +455,7 @@ function CollectionLandingContent() {
 									href={`/search-results?q=${encodeURIComponent(work.title)}`}
 									className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
 								>
-									<ImagePlaceholder label={`[${work.title}]`} />
+									<ImagePlaceholder aspect="4/5" label={`[${work.title}]`} />
 									<div className="p-3">
 										<h3 className="font-mono text-meta font-medium leading-snug">
 											{work.title}

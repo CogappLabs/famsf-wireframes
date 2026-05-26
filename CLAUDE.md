@@ -156,6 +156,13 @@ All Discovery-phase outputs from FAMSF, kept under `docs/`. They drive the wiref
 - Retail link to Art-on-Demand from object-detail (Gap Analysis, 15% shop visitor signal)
 - de Young vs Legion museum-location clarity on object + collection-area pages (Gap Analysis recurring theme)
 
+### Open scope decisions surfaced from FAMSF feedback on `/collection-landing` (May 2026)
+- "Topic" entry currently only Environment + Making and non-editable — needs curator-editable list
+- Exhibition history timeline with archival images (blue-sky; possibly outside `/collection-landing` scope)
+- Intro copy reviewed + replaced ("Ancient Greek sculptures, French Impressionist paintings…") in `en.json`
+- Card aspect ratios normalised: collection-area cards → 1/1, highlights → 4/5
+- Basic-filter chip row + "More ways in" entry-point grid landed; scope.ts entries added
+
 ### Open scope decisions surfaced from landscape synthesis (not yet in `scope.ts`)
 - Zero-results recovery on `/search-results` — fallback browse pathways, suggested alternatives, query-improvement guidance (only V&A solves this across 10 audited museums)
 - MIA-style inline filmstrip expansion on object detail — `+` next to metadata term expands related works in-page instead of routing away
