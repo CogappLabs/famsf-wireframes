@@ -12,7 +12,13 @@ import { ScopePage } from "@/providers/ScopeProvider";
 const DOC_PATH = path.join(process.cwd(), "docs", "curator-rule-deviations.md");
 
 export default async function CuratorDeviationsPage() {
-	const markdown = await fs.readFile(DOC_PATH, "utf-8");
+	let markdown: string;
+	try {
+		markdown = await fs.readFile(DOC_PATH, "utf-8");
+	} catch {
+		markdown =
+			"_Doc file not found at build time. Check that `docs/curator-rule-deviations.md` is committed and the Vercel project root is the wireframes repo._";
+	}
 	return (
 		<ScopePage id="curator-deviations">
 			<WireframeSection label="Curator rule deviations" className="py-8">

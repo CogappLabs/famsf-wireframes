@@ -16,7 +16,13 @@ const DOC_PATH = path.join(
 );
 
 export default async function TransformationsPage() {
-	const markdown = await fs.readFile(DOC_PATH, "utf-8");
+	let markdown: string;
+	try {
+		markdown = await fs.readFile(DOC_PATH, "utf-8");
+	} catch {
+		markdown =
+			"_Doc file not found at build time. Check that `docs/source-to-wireframe-transformations.md` is committed and the Vercel project root is the wireframes repo._";
+	}
 
 	return (
 		<ScopePage id="transformations">
