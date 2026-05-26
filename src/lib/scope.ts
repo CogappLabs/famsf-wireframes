@@ -319,6 +319,13 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"image-orders/Request form": { mvp: false },
 
+	// ── Departments index ───────────────────────────────────────────────
+	"departments/Header": {
+		mvp: true,
+		note: "Curatorial-department listing per FAMSF feedback May 2026",
+	},
+	"departments/Listing": { mvp: true },
+
 	// ── Exhibitions index ───────────────────────────────────────────────
 	"exhibitions/Header": {
 		mvp: false,

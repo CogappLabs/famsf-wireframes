@@ -109,6 +109,11 @@ const MORE_ENTRY_POINTS = [
 		href: "/search-results?on_view=true",
 	},
 	{
+		title: "By department",
+		desc: "Curatorial departments: African Art, European Paintings, Achenbach, more",
+		href: "/departments",
+	},
+	{
 		title: "By exhibition",
 		desc: "Works grouped by past, current, and upcoming shows",
 		href: "/exhibitions",

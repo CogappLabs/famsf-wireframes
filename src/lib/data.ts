@@ -164,6 +164,14 @@ export const pages: WireframePage[] = [
 		category: "features",
 	},
 	{
+		id: "departments",
+		title: "Departments",
+		description:
+			"Index of curatorial departments (African Art, European Paintings, Achenbach Foundation, etc.) with object counts. Cards link to /collection-area.",
+		status: "wip",
+		category: "browse",
+	},
+	{
 		id: "exhibitions",
 		title: "Exhibitions",
 		description:
@@ -309,8 +317,9 @@ export interface SiteNavItem {
 export const siteNavigation: SiteNavItem[] = [
 	{ label: "Explore", href: "/explore" },
 	{ label: "Search", href: "/search-results" },
+	{ label: "Departments", href: "/departments" },
 	{ label: "Exhibitions", href: "/exhibitions" },
-	{ label: "My Finds", href: "/my-finds" },
+	{ label: "My finds", href: "/my-finds" },
 	{
 		label: "Collection Areas",
 		href: "/collection-area",
