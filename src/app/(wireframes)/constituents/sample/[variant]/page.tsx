@@ -132,6 +132,24 @@ export default async function SampleConstituentPage({ params }: Props) {
 							</span>
 						</div>
 
+						<div className="mt-4 flex flex-wrap items-center gap-2">
+							<button
+								type="button"
+								className="border border-gray-300 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+							>
+								Share
+							</button>
+							<button
+								type="button"
+								className="border border-gray-300 px-3 py-1.5 font-mono text-label uppercase tracking-wide text-gray-600 hover:border-gray-500"
+							>
+								Cite
+							</button>
+							<span className="ml-auto font-mono text-label text-gray-400">
+								[placeholder]
+							</span>
+						</div>
+
 						{/* Dates */}
 						{(doc.begin_date_iso || doc.end_date_iso) && (
 							<div className="mt-6 flex gap-8 border-t border-gray-100 pt-4">

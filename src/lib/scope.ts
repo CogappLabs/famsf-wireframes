@@ -319,6 +319,21 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"image-orders/Request form": { mvp: false },
 
+	// ── Exhibitions index ───────────────────────────────────────────────
+	"exhibitions/Header": {
+		mvp: false,
+		note: "Browse-by-exhibition entry point per FAMSF feedback May 2026; needs dedicated exhibition_documents ES index in production",
+	},
+	"exhibitions/Filters": {
+		mvp: false,
+		note: "Status (current / upcoming / past) + venue chips. Dates are free-text in TMS so status derivation is heuristic; production needs ISO start/end + parsed venue",
+	},
+	"exhibitions/Results": { mvp: false },
+	"exhibitions/Pipeline gap": {
+		mvp: false,
+		note: "Surfaces the production data-shape gaps inline (ObjExhibitions missing City + ChecklistNo, no curatorial copy column, free-text dates)",
+	},
+
 	// ── Exhibition detail ───────────────────────────────────────────────
 	// No matching CW ticket: exhibition history is on-object (CW-51) but
 	// a standalone exhibition record page is not in the current backlog.
@@ -507,6 +522,10 @@ export const scope: Record<string, ScopeEntry> = {
 	"objects/sample/Dimensions": { mvp: true },
 	"objects/sample/Exhibitions": { mvp: true },
 	"objects/sample/Provenance": { mvp: true },
+	"objects/sample/Audio guide": {
+		mvp: false,
+		note: "Audio recordings + transcripts not in TMS yet; data source TBD (separate Craft entries, Bloomberg Connects, or TMS UserField pointing at S3)",
+	},
 };
 
 export function getAnnotation(

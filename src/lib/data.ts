@@ -164,6 +164,14 @@ export const pages: WireframePage[] = [
 		category: "features",
 	},
 	{
+		id: "exhibitions",
+		title: "Exhibitions",
+		description:
+			"Browse all exhibitions: filter by status (current / upcoming / past) and venue (de Young / Legion). Cards link to exhibition detail.",
+		status: "wip",
+		category: "browse",
+	},
+	{
 		id: "exhibition-detail",
 		title: "Exhibition Detail",
 		description:
@@ -301,6 +309,7 @@ export interface SiteNavItem {
 export const siteNavigation: SiteNavItem[] = [
 	{ label: "Explore", href: "/explore" },
 	{ label: "Search", href: "/search-results" },
+	{ label: "Exhibitions", href: "/exhibitions" },
 	{ label: "My Finds", href: "/my-finds" },
 	{
 		label: "Collection Areas",

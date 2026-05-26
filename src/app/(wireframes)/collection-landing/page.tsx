@@ -109,6 +109,11 @@ const MORE_ENTRY_POINTS = [
 		href: "/search-results?on_view=true",
 	},
 	{
+		title: "By exhibition",
+		desc: "Works grouped by past, current, and upcoming shows",
+		href: "/exhibitions",
+	},
+	{
 		title: "By medium",
 		desc: "Paintings, prints, photography, textiles, sculpture",
 		href: "/search-results?facet=medium",

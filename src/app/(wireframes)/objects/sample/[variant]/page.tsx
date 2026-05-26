@@ -947,6 +947,7 @@ export default async function SampleObjectPage({ params }: Props) {
 								...(doc.bibliography_text
 									? [{ label: "Bibliography", id: "bibliography" }]
 									: []),
+								{ label: "Audio guide", id: "audio-guide" },
 								{ label: "Scholarly essay", id: "scholarly-essay" },
 								...(related.length > 0
 									? [{ label: "Related works", id: "related" }]
@@ -1155,6 +1156,7 @@ export default async function SampleObjectPage({ params }: Props) {
 										title={e.ExhTitle}
 										date={e.DisplayDate ?? undefined}
 										venue={e.VenueName ?? undefined}
+										href={`/exhibition-detail?id=${e.ExhibitionID}`}
 									/>
 								))}
 							</div>
@@ -1319,6 +1321,53 @@ export default async function SampleObjectPage({ params }: Props) {
 						</Container>
 					</WireframeSection>
 				)}
+
+				{/* Audio guide [placeholder] */}
+				<WireframeSection
+					label="Audio guide"
+					className="border-b border-gray-300 py-8"
+				>
+					<Container size="md">
+						<span id="audio-guide" className="sr-only">
+							Audio guide
+						</span>
+						<SectionLabel className="mb-4">
+							Audio guide [placeholder]
+						</SectionLabel>
+						<ScopeMark label="Audio guide">
+							<div className="flex items-center gap-4 border border-gray-300 p-4">
+								<button
+									type="button"
+									aria-label="Play audio guide"
+									className="flex h-12 w-12 items-center justify-center rounded-full border border-gray-400 font-mono text-card text-gray-600 hover:border-gray-700 hover:bg-gray-50"
+								>
+									▶
+								</button>
+								<div className="flex flex-1 flex-col gap-2">
+									<div className="flex items-baseline justify-between gap-3">
+										<p className="font-mono text-meta font-medium text-gray-800">
+											Curator's commentary
+										</p>
+										<p className="font-mono text-label text-gray-400">
+											0:00 / 2:14
+										</p>
+									</div>
+									<div className="h-1 w-full bg-gray-200">
+										<div className="h-full w-0 bg-gray-500" />
+									</div>
+									<p className="font-mono text-label text-gray-500">
+										Recorded by [curator name]. Transcript available.
+									</p>
+								</div>
+							</div>
+							<p className="mt-3 font-mono text-label text-gray-400">
+								Data source TBD: audio guide recordings + transcripts not yet in
+								TMS. Candidate sources: separate Craft entries, Bloomberg
+								Connects feed, or a new TMS UserField pointing at an S3 URL.
+							</p>
+						</ScopeMark>
+					</Container>
+				</WireframeSection>
 
 				{/* Scholarly essay [placeholder] */}
 				<WireframeSection
