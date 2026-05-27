@@ -1,6 +1,11 @@
 import { LoginForm } from "./form";
 
-export default function LoginPage() {
+export default async function LoginPage({
+	searchParams,
+}: {
+	searchParams: Promise<{ from?: string }>;
+}) {
+	const { from } = await searchParams;
 	return (
 		<div className="flex min-h-screen items-center justify-center">
 			<div className="w-full max-w-xs">
@@ -10,7 +15,7 @@ export default function LoginPage() {
 				<p className="mb-6 font-mono text-meta text-gray-500">
 					Enter the preview password to continue.
 				</p>
-				<LoginForm />
+				<LoginForm from={from} />
 			</div>
 		</div>
 	);

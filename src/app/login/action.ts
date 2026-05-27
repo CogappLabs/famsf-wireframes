@@ -29,5 +29,13 @@ export async function login(
 		maxAge: 60 * 60 * 24 * 30, // 30 days
 	});
 
-	redirect("/");
+	const from = formData.get("from");
+	const target =
+		typeof from === "string" &&
+		from.startsWith("/") &&
+		!from.startsWith("//") &&
+		!from.startsWith("/login")
+			? from
+			: "/";
+	redirect(target);
 }

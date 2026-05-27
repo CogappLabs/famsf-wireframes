@@ -3,11 +3,12 @@
 import { useActionState } from "react";
 import { login } from "./action";
 
-export function LoginForm() {
+export function LoginForm({ from }: { from?: string }) {
 	const [error, formAction, pending] = useActionState(login, null);
 
 	return (
 		<form action={formAction}>
+			{from ? <input type="hidden" name="from" value={from} /> : null}
 			<input
 				type="password"
 				name="password"
