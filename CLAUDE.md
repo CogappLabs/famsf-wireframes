@@ -125,6 +125,8 @@ The login page is at `/login`. Authenticated sessions last 30 days via an HMAC-s
 All Discovery-phase outputs from FAMSF, kept under `docs/`. They drive the wireframe scope (`src/lib/scope.ts`) and feature priorities.
 
 ### Project framing
+- `famsf-discovery-summary-master.md` — **canonical Discovery synthesis** (FAMSF, May '26). Consolidates all six discovery activities: 6 audiences (visit-planners ~67%, art-curious ~37%, researchers ~30%, educators, curatorial, donors), 9 strategic learnings, 9 opportunities, Phase 1 MVP feature list (CW- tickets), Phase 2 North Star four pillars. Supersedes the individual synthesis docs for top-level framing.
+- `phase-2-blue-sky-roadmap.md` — internal working doc for the Phase 2 / blue-sky fundraising deliverable. Features A–K + workshops A–H, all laddered to the master doc's pillars/audiences/opportunities. Fills the master doc's empty Phase 2 feature-list stub. Honours master-doc AI guardrails (front-facing AI = verified+labelled+opt-out only). Includes a **Funder fit** section mapping features to funder archetypes (Anthropic = guarded AI, AWS = IIIF/open infra, foundations = scholarship/access, Bay Area/civic = donor + regional anchor-institution, major donors = named gifts) with a funder-fit matrix.
 - `famsf-collections-2026-project-brief.md` — original FAMSF brief to Cogapp. Budget ($350k Discovery + Phase 1), timeline, audiences (researcher > educator > general), business goals (drop eMuseum = $8k/yr saving, public API, decouple from monolith)
 - `cogapp-proposal-2026.md` — Cogapp's proposal response
 - `work-statement-2026.md` — signed SOW
@@ -142,6 +144,7 @@ All Discovery-phase outputs from FAMSF, kept under `docs/`. They drive the wiref
 ### UX + content
 - `collection-project-2026-ux-audit-synthesis.md` — peer-comparison audit. 5 themes (collection buried, friction, dead-end object page, content disconnected, no audience focus). Maps cleanly to MVP — no new gaps beyond stakeholder synthesis.
 - `collection-project-2026-content-audit-strategy.md` — content audit plan (due May 2026)
+- `famsf-content-audit-recommendations.md` — **completed content audit** (FAMSF, May '26). 5 areas (landing/dept, object detail, search/filters, editorial cross-linking, content debt) + per-page recommendations. Source of the hook/swim/dive content model, theme-by-tagging proposal, label-copy-as-default standardisation, and the explicit "Blue sky" archival-exhibition-images note. Feeds `phase-2-blue-sky-roadmap.md` feature K + G.
 - `landscape-research-2026.md` — peer institution benchmarking (~8 institutions)
 - `collection-project-2026-landscape-research-synthesis.md` — full landscape synthesis (10 museums + 5 cross-industry, May '26). Five themes: collection as primary digital product; underselling breadth/character; object page as node not endpoint; results/filters serve researchers inconsistently (zero-results = universal failure); interactive tools. Drives several open scope items below.
 
@@ -286,7 +289,15 @@ became linkout-only.
   `City, Venue, Date – Date. "Title," no. X`.
 - `ScaleDiagram` — primary dimension picked from
   `dimensions_structured[].measures.height_cm`. Human 170 cm +
-  banana 18 cm + object box on shared baseline.
+  banana 18 cm + object box on shared baseline. NOTE: the production
+  `collection-flow-famsf-real` pipeline does **not** yet emit a
+  `measures` struct (parsed cm/in) — only the spike does. Against
+  real `-real` output, parse the dimension from
+  `dimensions_structured[].display_dimensions` until `measures` is
+  ported. `dimensions_structured[].element_name` ("Overall" / "Sheet"
+  / etc.) ships from `-real` but is raw — ~70% are retired
+  `x_Do not use_*` TMS labels (see the pipeline's curator-deviations
+  doc); don't render it as a clean facet without normalising.
 - `TranscriptionList` — renders parsed Marks / Inscriptions / Signed /
   Labels per `(side, location, medium) transcription` template. Falls
   back to raw string when no segments parse. Watermark badge per

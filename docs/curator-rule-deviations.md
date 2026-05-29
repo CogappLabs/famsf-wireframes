@@ -265,6 +265,12 @@ Each row: what the guideline says, what curators actually ship, scale of the gap
 - **TMS reality**: `term_rights_statement[].term` ships both `"No Copyright - United States"` (hyphen) and `"No Copyright – United States"` (en dash) variants for the same rightsstatements.org URI.
 - **Wireframe response**: `rightsStatementMap` contains both string keys mapping to the same URI. Pipeline-side normalisation candidate.
 
+## Deprecated dimension element labels ("x_Do not use_")
+
+- **Guideline (§Dimensions)**: each dimension row carries a clean element label (`Overall`, `Framed`, `Frame`, `Image`, `Sheet`, …) from `DimensionElements`.
+- **TMS reality**: ~70% of object dimension xrefs still point at retired element rows whose name is literally marked `x_Do not use_Sheet (4D)`, `x_Do not use_Overall (4D)`, `x_Do not use_Image (Filemaker)`, etc. (98K of ~140K rows are `Displayed=true`, so the `Displayed` flag does not screen them out). The measurement is valid; only the element label is the retired string. 19,580 objects carry both a clean and a deprecated row, and naive prefix-stripping would collapse them into 1,718 same-label collisions per object (two `Overall` entries with different measurements).
+- **Pipeline / wireframe response**: `element_name` ships **raw** — no in-pipeline stripping (stripping would manufacture duplicate labels on the 19,580 dual-row objects, and `Frame` vs `Framed` cannot be disambiguated from the deprecated string). Flagged for FAMSF to repoint the dimension xrefs at the live `DimensionElements` rows at source. Revisit a render-time relabel once the source data is cleaned.
+
 ---
 
 ## How we compensate
