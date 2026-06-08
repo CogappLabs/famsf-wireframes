@@ -419,11 +419,6 @@ function SearchResultsContent({
 								facets={autocompleteFacets}
 							/>
 						)}
-						<ScopeMark label="Accession-number tip">
-							<p className="mt-2 font-mono text-label text-gray-500">
-								{t("search.accessionTip")}
-							</p>
-						</ScopeMark>
 						{variation === "ai-search" && searchMode === "visual" && (
 							<ScopeMark label="Visual search affordances">
 								<div className="mt-3 flex flex-wrap items-center gap-3 border-t border-gray-200 pt-3">

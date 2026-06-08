@@ -843,15 +843,20 @@ export function GridFacetsView({
 				<aside className="shrink-0 lg:w-64">
 					<div className="flex items-baseline justify-between border-b border-gray-300 pb-2">
 						<SectionLabelInline>Refine</SectionLabelInline>
-						{anyActive && (
-							<button
-								type="button"
-								onClick={() => setSel(EMPTY_GRID_SELECTIONS)}
-								className="font-mono text-meta text-gray-600 underline hover:text-gray-800"
-							>
-								Clear all
-							</button>
-						)}
+						{/* Always rendered so the header doesn't reflow when filters
+						    become active; just hidden + inert when there's nothing
+						    to clear. */}
+						<button
+							type="button"
+							onClick={() => setSel(EMPTY_GRID_SELECTIONS)}
+							aria-hidden={!anyActive}
+							tabIndex={anyActive ? 0 : -1}
+							className={`font-mono text-meta text-gray-600 underline hover:text-gray-800 ${
+								anyActive ? "" : "invisible"
+							}`}
+						>
+							Clear all
+						</button>
 					</div>
 
 					{/* Modal layout: toggles at the top of the left column. */}
@@ -900,90 +905,84 @@ export function GridFacetsView({
 
 				{/* Results */}
 				<div className="min-w-0 flex-1">
-					<div className="mb-4 flex flex-wrap items-center justify-between gap-2">
+					{/* min-height matches a filter chip so the grid doesn't shift
+					    down when the first chip appears. */}
+					<div className="mb-4 flex min-h-9 flex-wrap items-center gap-2">
 						<span className="font-mono text-body font-medium">
 							{matches.length.toLocaleString()} result
 							{matches.length === 1 ? "" : "s"}
 						</span>
-						<span className="font-mono text-label text-gray-400">
-							Real pipeline data · {docs.length.toLocaleString()}-object slice
-						</span>
+						{sel.artist && (
+							<button
+								type="button"
+								onClick={() => setArtist(null)}
+								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+							>
+								<span>Artist: {sel.artist}</span>
+								<span>×</span>
+							</button>
+						)}
+						{placeChipLabel && (
+							<button
+								type="button"
+								onClick={() => setSel((p) => ({ ...p, place: null }))}
+								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+							>
+								<span>{placeChipLabel}</span>
+								<span>×</span>
+							</button>
+						)}
+						{materialChipLabel && (
+							<button
+								type="button"
+								onClick={() => setSel((p) => ({ ...p, material: null }))}
+								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+							>
+								<span>{materialChipLabel}</span>
+								<span>×</span>
+							</button>
+						)}
+						{sel.technique && (
+							<button
+								type="button"
+								onClick={() => setTechnique(null)}
+								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+							>
+								<span>Technique: {sel.technique}</span>
+								<span>×</span>
+							</button>
+						)}
+						{sel.date && (
+							<button
+								type="button"
+								onClick={() => setDate(null)}
+								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+							>
+								<span>Date: {sel.date}</span>
+								<span>×</span>
+							</button>
+						)}
+						{sel.onView && (
+							<button
+								type="button"
+								onClick={() => toggleFlag("onView")}
+								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+							>
+								<span>On view</span>
+								<span>×</span>
+							</button>
+						)}
+						{sel.hasImage && (
+							<button
+								type="button"
+								onClick={() => toggleFlag("hasImage")}
+								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+							>
+								<span>Has image</span>
+								<span>×</span>
+							</button>
+						)}
 					</div>
-
-					{anyActive && (
-						<div className="mb-4 flex flex-wrap items-center gap-2">
-							{sel.artist && (
-								<button
-									type="button"
-									onClick={() => setArtist(null)}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Artist: {sel.artist}</span>
-									<span>×</span>
-								</button>
-							)}
-							{placeChipLabel && (
-								<button
-									type="button"
-									onClick={() => setSel((p) => ({ ...p, place: null }))}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>{placeChipLabel}</span>
-									<span>×</span>
-								</button>
-							)}
-							{materialChipLabel && (
-								<button
-									type="button"
-									onClick={() => setSel((p) => ({ ...p, material: null }))}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>{materialChipLabel}</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.technique && (
-								<button
-									type="button"
-									onClick={() => setTechnique(null)}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Technique: {sel.technique}</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.date && (
-								<button
-									type="button"
-									onClick={() => setDate(null)}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Date: {sel.date}</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.onView && (
-								<button
-									type="button"
-									onClick={() => toggleFlag("onView")}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>On view</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.hasImage && (
-								<button
-									type="button"
-									onClick={() => toggleFlag("hasImage")}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Has image</span>
-									<span>×</span>
-								</button>
-							)}
-						</div>
-					)}
 
 					{matches.length > 0 ? (
 						<ResultsGrid
