@@ -118,11 +118,10 @@ function ordinalSuffix(n: number): string {
 	}
 }
 
-/** Bucket an object into its century of creation, e.g. "19th century" or
- *  "7th century BCE". Reads sort_year (negative = BCE), falling back to the
- *  ISO date bounds. Year 0 is treated as 1st century (ISO 8601 has no
- *  year 0; the data's sort_year uses 0 as "unknown" too, so we drop it). */
-export function objectCentury(o: CollectionDocument): string | undefined {
+/** Object's creation year (negative = BCE). Reads sort_year, falling back
+ *  to the ISO date bounds. Year 0 is dropped (ISO 8601 has none; the data
+ *  also uses 0 as an "unknown" sentinel). */
+export function objectYear(o: CollectionDocument): number | undefined {
 	const isoYear = (iso?: string | null): number | undefined => {
 		if (!iso) return undefined;
 		const m = iso.match(/^(-?\d+)/);
@@ -131,6 +130,14 @@ export function objectCentury(o: CollectionDocument): string | undefined {
 	const year =
 		o.sort_year ?? isoYear(o.begin_iso_date) ?? isoYear(o.end_iso_date);
 	if (year == null || Number.isNaN(year) || year === 0) return undefined;
+	return year;
+}
+
+/** Bucket an object into its century of creation, e.g. "19th century" or
+ *  "7th century BCE". */
+export function objectCentury(o: CollectionDocument): string | undefined {
+	const year = objectYear(o);
+	if (year == null) return undefined;
 	if (year < 0) {
 		// e.g. -650 → 7th century BCE (ceil of 650/100).
 		const c = Math.ceil(Math.abs(year) / 100);

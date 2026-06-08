@@ -3,7 +3,7 @@
 import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { ScopeMark, SectionLabelInline } from "@/components/wireframe";
 import type { CollectionDocument } from "@/lib/collection-document";
-import { type FacetOption, objectCentury } from "./facets";
+import { type FacetOption, objectYear } from "./facets";
 import { ResultsGrid } from "./results";
 
 // ── Grid + left-column facets variation ─────────────────────────────
@@ -37,12 +37,18 @@ interface MaterialSelection {
 	value: string;
 }
 
+/** Inclusive year range for the date histogram filter. */
+interface YearRange {
+	min: number;
+	max: number;
+}
+
 interface GridFacetSelections {
 	artist: string | null;
 	place: PlaceSelection | null;
 	material: MaterialSelection | null;
 	technique: string | null;
-	date: string | null;
+	date: YearRange | null;
 	onView: boolean;
 	hasImage: boolean;
 }
@@ -85,7 +91,10 @@ function filterGridDocs(
 		if (!docMatchesMaterial(d, sel.material)) return false;
 		if (sel.technique && !(d.facet_technique ?? []).includes(sel.technique))
 			return false;
-		if (sel.date && objectCentury(d) !== sel.date) return false;
+		if (sel.date) {
+			const y = objectYear(d);
+			if (y == null || y < sel.date.min || y > sel.date.max) return false;
+		}
 		if (sel.onView && !d.on_view) return false;
 		if (sel.hasImage && !d.has_image) return false;
 		return true;
@@ -108,25 +117,48 @@ function countFlat(
 		.sort((a, b) => b.count - a.count || a.value.localeCompare(b.value));
 }
 
-/** Sort key for a century bucket so the Date facet reads oldest → newest.
- *  "7th century BCE" → -700, "19th century" → 1800. */
-function centurySortKey(label: string): number {
-	const m = label.match(/(\d+)/);
-	if (!m) return 0;
-	const n = Number(m[1]);
-	return /bce/i.test(label) ? -n * 100 : (n - 1) * 100;
+const DATE_BIN = 10; // decade bins for the year histogram
+
+interface YearBin {
+	/** Inclusive start year of the bin. */
+	start: number;
+	count: number;
 }
 
-/** Count the century buckets over docs, sorted chronologically. */
-function countCenturies(docs: CollectionDocument[]): FacetOption[] {
-	const counts = new Map<string, number>();
+interface YearHistogram {
+	/** Only the decade bins that contain objects, chronological. Empty
+	 *  decades are dropped so the (equal-width) bars track data density
+	 *  rather than calendar time — the sparse ancient tail collapses and the
+	 *  dense modern cluster gets most of the width. */
+	bins: YearBin[];
+	min: number;
+	max: number;
+}
+
+/** Decade-binned year histogram over the docs that carry a year, keeping
+ *  only non-empty bins. */
+function buildYearHistogram(docs: CollectionDocument[]): YearHistogram | null {
+	const counts = new Map<number, number>();
 	for (const d of docs) {
-		const c = objectCentury(d);
-		if (c) counts.set(c, (counts.get(c) ?? 0) + 1);
+		const y = objectYear(d);
+		if (y == null) continue;
+		const start = Math.floor(y / DATE_BIN) * DATE_BIN;
+		counts.set(start, (counts.get(start) ?? 0) + 1);
 	}
-	return Array.from(counts.entries())
-		.map(([value, count]) => ({ value, count }))
-		.sort((a, b) => centurySortKey(a.value) - centurySortKey(b.value));
+	if (counts.size === 0) return null;
+	const bins: YearBin[] = Array.from(counts.entries())
+		.map(([start, count]) => ({ start, count }))
+		.sort((a, b) => a.start - b.start);
+	return {
+		bins,
+		min: bins[0].start,
+		max: bins[bins.length - 1].start + DATE_BIN - 1,
+	};
+}
+
+/** "1850" or "650 BCE" — a year label for the date range chip / axis. */
+function yearLabel(y: number): string {
+	return y < 0 ? `${Math.abs(y)} BCE` : `${y}`;
 }
 
 // ── Expandable facet trees (place + material) ───────────────────────
@@ -299,6 +331,162 @@ function FacetBlock({
 	);
 
 	return scopeLabel ? <ScopeMark label={scopeLabel}>{block}</ScopeMark> : block;
+}
+
+/** Date facet as a horizontal year histogram with drag-select (modal
+ *  layout). Empty decades are dropped (see buildYearHistogram) so equal-width
+ *  bars track density. Drag across the bars — or type into the From / To
+ *  year inputs (keyboard / screen-reader path) — to set the {min,max} filter. */
+function DateHistogram({
+	histogram,
+	value,
+	onChange,
+}: {
+	histogram: YearHistogram | null;
+	value: YearRange | null;
+	onChange: (range: YearRange | null) => void;
+}) {
+	const [drag, setDrag] = useState<{ a: number; b: number } | null>(null);
+
+	if (!histogram || histogram.bins.length === 0) {
+		return <p className="py-1 font-mono text-meta text-gray-500">No dates</p>;
+	}
+	const { bins, min, max } = histogram;
+	const maxCount = bins.reduce((m, b) => Math.max(m, b.count), 0) || 1;
+
+	// Which (dropped-empty) bins fall inside the active / in-progress range?
+	const sel =
+		drag != null
+			? { lo: Math.min(drag.a, drag.b), hi: Math.max(drag.a, drag.b) }
+			: value
+				? {
+						lo: bins.findIndex((b) => b.start + DATE_BIN - 1 >= value.min),
+						hi: (() => {
+							let h = -1;
+							bins.forEach((b, i) => {
+								if (b.start <= value.max) h = i;
+							});
+							return h;
+						})(),
+					}
+				: null;
+
+	const commit = (a: number, b: number) => {
+		const lo = Math.min(a, b);
+		const hi = Math.max(a, b);
+		onChange({ min: bins[lo].start, max: bins[hi].start + DATE_BIN - 1 });
+	};
+
+	// Year inputs (a11y): clamp + order, then snap to the filter range.
+	const setBound = (which: "min" | "max", raw: string) => {
+		const n = Number.parseInt(raw, 10);
+		if (Number.isNaN(n)) return;
+		const cur = value ?? { min, max };
+		const next =
+			which === "min"
+				? { min: n, max: Math.max(n, cur.max) }
+				: { min: Math.min(n, cur.min), max: n };
+		onChange({
+			min: Math.max(min, Math.min(next.min, max)),
+			max: Math.min(max, Math.max(next.max, min)),
+		});
+	};
+
+	return (
+		<ScopeMark label="Year histogram (drag bars or type a range)">
+			<div className="flex flex-col gap-2">
+				<p className="font-mono text-meta text-gray-500">
+					Drag across the bars, or type a year range below.
+				</p>
+				{/* biome-ignore lint/a11y/noStaticElementInteractions: pointer drag is an enhancement; bars are real <button>s and the inputs give the keyboard/SR path */}
+				<div
+					className="flex h-32 items-end gap-px"
+					onPointerLeave={() => {
+						if (drag) {
+							commit(drag.a, drag.b);
+							setDrag(null);
+						}
+					}}
+					onPointerUp={() => {
+						if (drag) {
+							commit(drag.a, drag.b);
+							setDrag(null);
+						}
+					}}
+				>
+					{bins.map((b, i) => {
+						const inSel = sel != null && i >= sel.lo && i <= sel.hi;
+						return (
+							<button
+								key={b.start}
+								type="button"
+								title={`${yearLabel(b.start)}–${yearLabel(b.start + DATE_BIN - 1)}: ${b.count}`}
+								aria-label={`${yearLabel(b.start)} to ${yearLabel(b.start + DATE_BIN - 1)}, ${b.count} objects`}
+								onPointerDown={() => setDrag({ a: i, b: i })}
+								onPointerEnter={() =>
+									setDrag((prev) => (prev ? { ...prev, b: i } : prev))
+								}
+								onClick={() => {
+									if (!drag) commit(i, i);
+								}}
+								className="flex h-full flex-1 items-end"
+							>
+								<span
+									className={`w-full ${inSel ? "bg-gray-900" : "bg-gray-300 hover:bg-gray-400"}`}
+									style={{
+										height: `${Math.max(2, (b.count / maxCount) * 100)}%`,
+									}}
+								/>
+							</button>
+						);
+					})}
+				</div>
+				<div className="flex items-center justify-between font-mono text-label text-gray-500">
+					<span>{yearLabel(min)}</span>
+					<span>{yearLabel(max)}</span>
+				</div>
+
+				{/* Year inputs — the accessible, keyboard-driven path. */}
+				<div className="flex items-end gap-2">
+					<label className="flex flex-1 flex-col gap-0.5 font-mono text-label text-gray-500">
+						From
+						<input
+							type="number"
+							inputMode="numeric"
+							value={value ? value.min : ""}
+							min={min}
+							max={max}
+							placeholder={String(min)}
+							onChange={(e) => setBound("min", e.target.value)}
+							className="w-full border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
+						/>
+					</label>
+					<label className="flex flex-1 flex-col gap-0.5 font-mono text-label text-gray-500">
+						To
+						<input
+							type="number"
+							inputMode="numeric"
+							value={value ? value.max : ""}
+							min={min}
+							max={max}
+							placeholder={String(max)}
+							onChange={(e) => setBound("max", e.target.value)}
+							className="w-full border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
+						/>
+					</label>
+					{value && (
+						<button
+							type="button"
+							onClick={() => onChange(null)}
+							className="shrink-0 py-1 font-mono text-meta text-gray-600 underline hover:text-gray-800"
+						>
+							Clear
+						</button>
+					)}
+				</div>
+			</div>
+		</ScopeMark>
+	);
 }
 
 const PLACE_LEVEL_BY_DEPTH: PlaceLevel[] = ["region", "country", "notable"];
@@ -626,8 +814,8 @@ export function GridFacetsView({
 			technique: prev.technique === value ? null : value,
 		}));
 	};
-	const setDate = (value: string | null) => {
-		setSel((prev) => ({ ...prev, date: prev.date === value ? null : value }));
+	const setDate = (range: YearRange | null) => {
+		setSel((prev) => ({ ...prev, date: range }));
 	};
 	const toggleFlag = (key: "onView" | "hasImage") => {
 		setSel((prev) => ({ ...prev, [key]: !prev[key] }));
@@ -686,8 +874,8 @@ export function GridFacetsView({
 			),
 		[docs, sel],
 	);
-	const dateOpts = useMemo(
-		() => countCenturies(filterGridDocs(docs, { ...sel, date: null })),
+	const dateHistogram = useMemo(
+		() => buildYearHistogram(filterGridDocs(docs, { ...sel, date: null })),
 		[docs, sel],
 	);
 
@@ -781,13 +969,16 @@ export function GridFacetsView({
 			label: "Date",
 			activeCount: sel.date ? 1 : 0,
 			control: (
-				<FacetBlock
-					label="Date"
-					options={dateOpts}
-					selected={sel.date}
-					onSelect={setDate}
-					scopeLabel="Date facet (century buckets)"
-				/>
+				<div className="border-b border-gray-200 pb-3">
+					<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-400">
+						Date
+					</p>
+					<DateHistogram
+						histogram={dateHistogram}
+						value={sel.date}
+						onChange={setDate}
+					/>
+				</div>
 			),
 		},
 	];
@@ -958,7 +1149,9 @@ export function GridFacetsView({
 								onClick={() => setDate(null)}
 								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
 							>
-								<span>Date: {sel.date}</span>
+								<span>
+									Date: {yearLabel(sel.date.min)} – {yearLabel(sel.date.max)}
+								</span>
 								<span>×</span>
 							</button>
 						)}
