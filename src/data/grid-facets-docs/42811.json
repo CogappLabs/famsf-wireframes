@@ -1,0 +1,229 @@
+{
+	"id": 42811,
+	"accession_number": "1963.24.176",
+	"sort_number": "1963.24.176",
+	"title": "ACHILLES AMONG THE DAUGHTERS OF LYCOMEDES",
+	"object_name": "Myth/Legend Genre",
+	"display_date": "17th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Black chalk, red chalk, pen and brown ink, brown wash, and white opaque watercolor on laid paper mounted to a heavier sheet, attached to a second heavy sheet",
+	"medium_parts": [
+		"Black chalk, red chalk, pen and brown ink, brown wash, and white opaque watercolor on laid paper mounted to a heavier sheet, attached to a second heavy sheet"
+	],
+	"dimensions": "Sheet: 335 x 442 mm (13 3/16 x 17 3/8 in.)",
+	"credit_line": "Achenbach Foundation for Graphic Arts",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2025-04-22 13:34:57.837000",
+	"is_virtual": false,
+	"identifying_description": "man in center, wearing a helmet and  soft drapery over his clothing, group of women at right and men and women at left,  background of buildings",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "Santa Barbara Museum of Art: The Noble Past, 1976-1977, faculty-student project under the direction of  UCSB Professor Alfred Moir, in which student Bruce Davis suggested attribution to Elisabetta Sirani[Notes unavailable for confirmation 1993].",
+	"bibliography_text": null,
+	"provenance": "Provenance: Joseph Green Cogswell; Mortimer Leo Schiff; Moore S. Achenbach;\r\nCogswell no.not visible , Hellman no.84 as “Mythological  Drawing” by Carlo Maratta (George S. Hellman, Original Drawings by the Old Masters: The Collection formed by Joseph Green Cogswell, 1786-1871, New York: privately published, 1915);\r\nSuggested attributions from mat and old file:\r\nUnidentified attribution  in file and on mat: Ciro Ferri? (School of Pietro da Cortona)[Attribution given without supporting reasons or documentation toe xplain why Ferri, 's principal pupil, was selected];\r\nPhilip Pouncey (Nov. 1983): Neo-classic academic;",
+	"label_text": null,
+	"accession_iso_date": "1963-04-09",
+	"location_string": "Legion, 210, Compact Shelf 23, 113",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 23",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Achilles among the Daughters of Lycomedes",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 38773,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Unidentified ",
+			"AlphaSort": "Unidentified ",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "Italian, active 17th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		},
+		{
+			"ConstituentID": 9768,
+			"Role": "Follower of",
+			"RoleID": 55,
+			"DisplayName": "Pietro Berrettini (Pietro da Cortona)",
+			"AlphaSort": "Pietro Berrettini called Pietr",
+			"Nationality": "Italian",
+			"BeginDate": 1596,
+			"EndDate": 1669,
+			"DisplayDate": "1596–1669",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Pietro Berrettini (Pietro da Cortona) (1596–1669)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "13 3/16 x 17 3/8 in. (33.5 x 44.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Italy",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAAVP",
+					"term": "Italia"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unidentified ",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Unidentified ",
+	"display_year": null,
+	"doc_id": "1963.24.176",
+	"slug": "1963.24.176/achilles-among-the-daughters-of-lycomedes",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 69328,
+			"media_master_id": 104953,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1918,
+			"pixel_w": 2514,
+			"file_name": "5050161218070002.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ink",
+			"specific": "brown ink"
+		},
+		{
+			"parent": "Ink",
+			"specific": "pen"
+		},
+		{
+			"parent": "Paint",
+			"specific": "brown wash"
+		},
+		{
+			"parent": "Paint",
+			"specific": "white opaque watercolor"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "black chalk"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "red chalk"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "Italy",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — brown ink, pen, brown wash, white opaque watercolor … · Italy",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 42
+	}
+}

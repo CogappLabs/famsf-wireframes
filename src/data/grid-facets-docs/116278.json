@@ -1,0 +1,222 @@
+{
+	"id": 116278,
+	"accession_number": "1996.25.1.7",
+	"sort_number": "1996.25.1.7",
+	"title": "UNTITLED (OPPOSITE P. 43 IN THE BOOK, LE SURRÉALISME EN 1947)",
+	"object_name": null,
+	"display_date": "ca. 1947",
+	"begin_iso_date": "1947",
+	"end_iso_date": "1947",
+	"medium": "color lithograph on smooth, wove paper",
+	"medium_parts": ["color lithograph on smooth, wove paper"],
+	"dimensions": "23.5 x 20.5 cm (sheet)",
+	"credit_line": "Gift of Paula Zurcher in memory of Elizabeth H. Paepcke",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": "© Estate of Wifredo Lam / Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2014-04-15 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1996-04-11",
+	"location_string": "Legion, 253, Shelf 12, 10C",
+	"location_building": "Legion",
+	"location_room": "Shelf 12",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Untitled (opposite p. 43 in the book, Le Surréalisme en 1947)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 990,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Wifredo Lam",
+			"AlphaSort": "Lam,  Wifredo",
+			"Nationality": "Cuban",
+			"BeginDate": 1902,
+			"EndDate": 1982,
+			"DisplayDate": "Cuban, 1902–1982",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Wifredo Lam (1902–1982)"
+		},
+		{
+			"ConstituentID": 1499,
+			"Role": "Printer",
+			"RoleID": 40,
+			"DisplayName": "Mourlot Frères",
+			"AlphaSort": "Mourlot Frères",
+			"Nationality": "French",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "French",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 0"
+		},
+		{
+			"ConstituentID": 1489,
+			"Role": "Publisher",
+			"RoleID": 39,
+			"DisplayName": "Pierre à Feu",
+			"AlphaSort": "Pierre à Feu",
+			"Nationality": "French",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "active 20th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 3,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "9 1/4 x 8 1/16 in. (23.5 x 20.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Cuba",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAACF",
+					"term": "Cuba"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Wifredo Lam",
+	"primary_artist_display": "Wifredo Lam (1902–1982)",
+	"sort_artist": "Lam,  Wifredo",
+	"display_year": "1947",
+	"doc_id": "1996.25.1.7",
+	"slug": "1996.25.1.7/untitled-opposite-p-43-in-the-book-le-surrealisme-en-1947",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1947,
+	"media": [
+		{
+			"media_xref_id": 101403,
+			"media_master_id": 144790,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1876,
+			"pixel_w": 1568,
+			"file_name": "6318303131330006.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Paper",
+			"specific": "wove paper"
+		}
+	],
+	"facet_technique": ["lithograph"],
+	"facet_place": [
+		{
+			"region": "West Indies",
+			"country": "Cuba",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — wove paper, lithograph · Cuba",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

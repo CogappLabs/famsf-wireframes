@@ -1,0 +1,223 @@
+{
+	"id": 44334,
+	"accession_number": "1951.39",
+	"sort_number": "1951.39",
+	"title": "GREEN GLASS JUG WITH HANDLE",
+	"object_name": "jug",
+	"display_date": "9–10th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "glass",
+	"medium_parts": ["glass"],
+	"dimensions": "7 x 5  (17.8 x 12.7 cm)",
+	"credit_line": "Gift of Joseph M. Upton",
+	"department": "Ancient Art",
+	"classification": "Vessels & Containers",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2024-03-04 11:13:19.430000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1951-12-27",
+	"location_string": "Legion, 101, Cabinet 01, G",
+	"location_building": "Legion",
+	"location_room": "Cabinet 01",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Green glass jug with handle",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "7 x 5 in. (17.8 x 12.7 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Iran",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQH",
+					"term": "Īrān"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Gorgān",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAN.AAABA",
+					"term": "Golestān"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAN.AAABA.AAAAF",
+					"term": "Gorgān"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "glass",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW",
+					"term": "glass"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1951.39",
+	"slug": "1951.39/green-glass-jug-with-handle",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 81774,
+			"media_master_id": 30573,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 199,
+			"pixel_w": 239,
+			"file_name": "0609200312460001.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Glass",
+			"specific": "glas"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Middle East",
+			"country": "Iran",
+			"notable": ""
+		},
+		{
+			"region": "East Asia",
+			"country": "",
+			"notable": "Gorgān"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — glas · Iran, Gorgān",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 37
+	}
+}

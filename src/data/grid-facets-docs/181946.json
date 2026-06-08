@@ -1,0 +1,243 @@
+{
+	"id": 181946,
+	"accession_number": "2019.83.3",
+	"sort_number": "2019.83.3",
+	"title": "WOMAN'S GOWN, \"SHAKESPEARE REFASHIONED\"",
+	"object_name": "woman's costume",
+	"display_date": "2016",
+	"begin_iso_date": "2016",
+	"end_iso_date": "2016",
+	"medium": "polyamide, rayon, polyester, cotton, and viscose blend net, lace, fringe, and velvet, embroidered synthetic plain weave flowers, Swarovski crystals, sequins, plastic beads and jewels; nylon lining",
+	"medium_parts": [
+		"polyamide, rayon, polyester, cotton, and viscose blend net, lace, fringe, and velvet, embroidered synthetic plain weave flowers, Swarovski crystals, sequins, plastic beads and jewels",
+		"nylon lining"
+	],
+	"dimensions": "162.6 cm (64 in.) center back length",
+	"credit_line": "Gift of Lizzie Tisch",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2020-12-03 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Woman's white and cream lace and net gown: sleeveless with bateau neckline and fabric drape on right side; embellished with embroidered synthetic plain weave flowers across right arm, chest, and left side; accented throughout by hand beaded Swarovski crystals and iridescent sequins; full trumpet skirt with fringed tiers. Snap closure at left shoulder and zipper at left side. Labels: \"Rodarte\" \"4\".",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2019-10-08",
+	"location_string": "de Young, 059, Cabinet 54, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 54",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Woman's gown, \"Shakespeare Refashioned\"",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 17189,
+			"Role": "Designer",
+			"RoleID": 67,
+			"DisplayName": "Rodarte",
+			"AlphaSort": "Rodarte",
+			"Nationality": "American",
+			"BeginDate": 2005,
+			"EndDate": 0,
+			"DisplayDate": "est. 2005",
+			"Institution": null,
+			"ConstituentType": "Entity",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 2005"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "64 in. (162.6 cm)",
+			"description": "center back length",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Los Angeles",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT",
+					"term": "California"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AAATP",
+					"term": "Los Angeles"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AAATP.AAATF",
+					"term": "Los Angeles"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Rodarte",
+	"primary_artist_display": "b. 2005",
+	"sort_artist": "Rodarte",
+	"display_year": "2016",
+	"doc_id": "2019.83.3",
+	"slug": "2019.83.3/woman-s-gown-shakespeare-refashioned",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 2016,
+	"media": [
+		{
+			"media_xref_id": 152417,
+			"media_master_id": 186057,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 10762,
+			"pixel_w": 5439,
+			"file_name": "A413143_V1.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 152420,
+			"media_master_id": 186039,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 10522,
+			"pixel_w": 5296,
+			"file_name": "A413143_V4.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 152419,
+			"media_master_id": 186078,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 10762,
+			"pixel_w": 5439,
+			"file_name": "A413143_V3.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Lace",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "polyester"
+		},
+		{
+			"parent": "Textile",
+			"specific": "rayon"
+		},
+		{
+			"parent": "Textile",
+			"specific": "velvet"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "fringe"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "sequin"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": "Los Angeles"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , polyester, rayon … · Los Angeles",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

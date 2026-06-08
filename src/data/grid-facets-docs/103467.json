@@ -1,0 +1,237 @@
+{
+	"id": 103467,
+	"accession_number": "1988.11.448",
+	"sort_number": "1988.11.448",
+	"title": "COVER?",
+	"object_name": "miscellaneous",
+	"display_date": "19th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Cotton, metallic thread; velvet, embroidery",
+	"medium_parts": ["Cotton, metallic thread", "velvet, embroidery"],
+	"dimensions": "149.9 x 109.2 cm (59  x 43  in.)",
+	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nBequest of H. McCoy Jones",
+	"department": "Costume and Textile Arts",
+	"classification": "Textile",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-09 13:22:34.067000",
+	"is_virtual": false,
+	"identifying_description": "Design in format of  Ottoman book cover. DMott 3/03",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1988-06-09",
+	"location_string": "de Young, 059, Cabinet 52, B",
+	"location_building": "de Young",
+	"location_room": "Cabinet 52",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Cover?",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40706,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Ottoman",
+			"AlphaSort": "Ottoman",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "59 x 43 in. (149.9 x 109.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Object Rights Statement",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Turkey",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAID",
+					"term": "Türkiye"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": [
+		{
+			"term": "Ottoman",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAM",
+					"term": "Islamic World, The"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD",
+					"term": "Islamic World dynastic styles and periods"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD.AAB",
+					"term": "Anatolian Islamic styles and periods after Manzikert"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD.AAB.AAC",
+					"term": "Ottoman"
+				}
+			]
+		}
+	],
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1988.11.448",
+	"slug": "1988.11.448/cover",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 165168,
+			"media_master_id": 116723,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2360,
+			"pixel_w": 1628,
+			"file_name": "5256165106130008.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "velvet"
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "metallic thread"
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "Middle East",
+			"country": "Turkey",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , velvet, metallic thread, embroidery · Turkey",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 40
+	}
+}

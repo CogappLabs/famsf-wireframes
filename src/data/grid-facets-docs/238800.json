@@ -1,0 +1,1111 @@
+{
+	"id": 238800,
+	"accession_number": "2010.35",
+	"sort_number": "2010.35",
+	"title": "THE COVENTRY SECRÉTAIRE",
+	"object_name": null,
+	"display_date": "1763",
+	"begin_iso_date": "1763",
+	"end_iso_date": "1763",
+	"medium": "Tulipwood, kingwood and bois satiné (bloodwood) marquetry on an oak carcase, red griotte marble, gilt and silvered bronze, silk, and steel",
+	"medium_parts": [
+		"Tulipwood, kingwood and bois satiné (bloodwood) marquetry on an oak carcase, red griotte marble, gilt and silvered bronze, silk, and steel"
+	],
+	"dimensions": "51 9/16 x 40 15/16 x 17 5/16 in. (131 x 104 x 44 cm)",
+	"credit_line": "Museum purchase, European Art Trust Fund and gift of Mrs. Margaret G. Hindes Molarsky in memory of Barrett G. Hindes, by exchange",
+	"department": "European Decorative Arts and Sculpture",
+	"classification": "Furnishing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": true,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2022-08-17 03:32:45.290000",
+	"is_virtual": false,
+	"identifying_description": "A fall front desk (secrétaire à abattant) in the late Louis XV style, decorated with floral and geometric marquetry, a marble top and with gilt bronze mounts. The drop front opens to reveal five silk-lined drawers, paper shelves and an embossed leather writing surface. The lower half has two doors that open to a compartment subdivided by a shelf. The piece is stamped B.V.R.B. and JME in the middle of the back. There are also ink inscriptions referring to the marchand mercier Poirier.The secretaire has a slightly curved form and splayed sides with canted corners and raised on four short cabriole legs, it has a shaped upper doucine above the abattant. Inside the front is a serpentine shelf, two pigeon-holes and four small drawers, one of them fitted with silvered metal utensils for ink, drying sand shaker, and sponge boxes.  Between the small drawers is a marquetry sliding strong box with a hinged lid and lock.  The sides display marquetry panels in the same manner as the front.",
+	"web_text": "The Coventry SecretaireFrance (Paris), 1763Bernard II Vanrisamburgh (B.V.R.B.), (after 1696--ca. 1766), ébéniste (cabinetmaker)Stamped: B.V.R.B and JMEMarquetry of tulipwood, kingwood and bois satiné (bloodwood) on an oak carcase, gilt bronze, silvered bronze, steel, red griotte marble, silk.Museum purchase, European Art Trust Fund and gift of Mrs. Margaret G. Hindes Molarsky in memory of Barrett G. Hindes, by exchange2010.35From inscriptions under the drawers we know much more about this object than is usual for pieces of French furniture, whose origins are often unknown. The ink inscription: Poirier, md (marchand) rue St Honore, makes it clear that it was made to the order of the Simon-Philippe Poirier, the most prominent of the Parisian marchand-merciers (dealers in luxury goods) whose shop was in the fashionable rue Saint Honoré. This documentation, along with the surviving original bill of sale, confirms that this secretaire was sold in 1763 to the 6th Earl of Coventry for his country house, Croome Court, Worcestershire, England. It was supplied as part of a scheme of luxury furnishing for this house, that included a suite of Gobelins tapestries now in the Metropolitan Museum, New York.",
+	"didactic_label": "From inscriptions under the drawers we know much more about this object than is usual for pieces of French furniture, whose origins are often unknown. The ink inscription: Poirier, md (marchand) rue St Honore, makes it clear that it was made to the order of the Simon-Philippe Poirier, the most prominent of the Parisian marchand-merciers (dealers in luxury goods) whose shop was in the fashionable rue Saint Honoré. This documentation, along with the surviving original bill of sale, confirms that this secretaire was sold in 1763 to the 6th Earl of Coventry for his country house, Croome Court, Worcestershire, England. It was supplied as part of a scheme of luxury furnishing for this house, that included a suite of Gobelins tapestries now in the Metropolitan Museum, New York.",
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Simon-Philippe Poirier, marchand-mercier, Paris, The 6th Earl of Coventry, Croome Court, Worcestershire, England, The Chester Beatty Collection, England, The Maharani of Baroda, Paris.",
+	"label_text": null,
+	"accession_iso_date": "2010-08-13",
+	"location_string": "Legion, Display, Gallery 009a",
+	"location_building": "Legion",
+	"location_room": "Gallery 009a",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "The Coventry secrétaire",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 752,
+			"Role": "Maker",
+			"RoleID": 56,
+			"DisplayName": "Bernard II Van Risenburgh (B.V.R.B.)",
+			"AlphaSort": "Van Risenburgh,  Bernard II  (B.V.R.B.)",
+			"Nationality": "French",
+			"BeginDate": 1696,
+			"EndDate": 1766,
+			"DisplayDate": "French, active 1696–1766",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Bernard II Van Risenburgh (B.V.R.B.) (1696–1766)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "51 9/16 x 40 15/16 x 17 5/16 in. (131 x 104 x 44 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Paris",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME",
+					"term": "Île-de-France"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AABMN",
+					"term": "Paris"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "steel",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
+					"term": "metal by composition or origin"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAA",
+					"term": "iron and iron alloy"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAA.AAB",
+					"term": "iron alloy"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAA.AAB.AAC",
+					"term": "steel"
+				}
+			]
+		},
+		{
+			"term": "tulipwood",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ADT",
+					"term": "tulipwood"
+				}
+			]
+		},
+		{
+			"term": "bronze",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
+					"term": "metal by composition or origin"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB",
+					"term": "nonferrous metal"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK",
+					"term": "copper and copper alloy"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB",
+					"term": "copper alloy"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB.AAB",
+					"term": "bronze"
+				}
+			]
+		},
+		{
+			"term": "bloodwood",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.AAN",
+					"term": "bloodwood"
+				}
+			]
+		},
+		{
+			"term": "silver",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
+					"term": "metal by composition or origin"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB",
+					"term": "nonferrous metal"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.ABE",
+					"term": "silver, silver compounds, alloys"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.ABE.AAA",
+					"term": "silver"
+				}
+			]
+		},
+		{
+			"term": "kingwood",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ABX",
+					"term": "kingwood"
+				}
+			]
+		},
+		{
+			"term": "Griotte marble",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABK",
+					"term": "rock"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABK.AAB",
+					"term": "metamorphic rock"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABK.AAB.AAF",
+					"term": "marble"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABK.AAB.AAF.AAC",
+					"term": "marble by color or pattern"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABK.AAB.AAF.AAC.AAF",
+					"term": "red marble"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABK.AAB.AAF.AAC.AAF.AAB",
+					"term": "Griotte marble"
+				}
+			]
+		},
+		{
+			"term": "oak",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ACU",
+					"term": "oak"
+				}
+			]
+		},
+		{
+			"term": "gilt bronze",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAB",
+					"term": "metal by form"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAB.AAI",
+					"term": "plate"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAB.AAI.AAB",
+					"term": "plate by technique"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAB.AAI.AAB.AAA",
+					"term": "ormolu"
+				}
+			]
+		},
+		{
+			"term": "silk",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
+					"term": "animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAD",
+					"term": "fibroinous material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAD.AAA",
+					"term": "silk"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Bernard II Van Risenburgh (B.V.R.B.)",
+	"primary_artist_display": "Bernard II Van Risenburgh (B.V.R.B.) (1696–1766)",
+	"sort_artist": "Van Risenburgh,  Bernard II  (B.V.R.B.)",
+	"display_year": "1763",
+	"doc_id": "2010.35",
+	"slug": "2010.35/the-coventry-secretaire",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1763,
+	"media": [
+		{
+			"media_xref_id": 138060,
+			"media_master_id": 164210,
+			"rank": 12,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5412,
+			"pixel_w": 7216,
+			"file_name": "A390218_V4.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138063,
+			"media_master_id": 160136,
+			"rank": 15,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7216,
+			"pixel_w": 5412,
+			"file_name": "A390218_V7.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138058,
+			"media_master_id": 161316,
+			"rank": 10,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6658,
+			"pixel_w": 5278,
+			"file_name": "A390218_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138059,
+			"media_master_id": 161615,
+			"rank": 11,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6683,
+			"pixel_w": 5111,
+			"file_name": "A390218_V3.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138051,
+			"media_master_id": 164169,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5412,
+			"pixel_w": 7216,
+			"file_name": "A390218_V11.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138052,
+			"media_master_id": 168721,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7216,
+			"pixel_w": 5412,
+			"file_name": "A390218_V12.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138065,
+			"media_master_id": 168463,
+			"rank": 17,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5412,
+			"pixel_w": 7216,
+			"file_name": "A390218_V9.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138050,
+			"media_master_id": 161614,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7216,
+			"pixel_w": 5412,
+			"file_name": "A390218_V10.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138056,
+			"media_master_id": 167254,
+			"rank": 8,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7216,
+			"pixel_w": 5412,
+			"file_name": "A390218_V16.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138062,
+			"media_master_id": 164171,
+			"rank": 14,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7216,
+			"pixel_w": 5412,
+			"file_name": "A390218_V6.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138055,
+			"media_master_id": 160135,
+			"rank": 7,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5356,
+			"pixel_w": 6459,
+			"file_name": "A390218_V15.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138057,
+			"media_master_id": 168270,
+			"rank": 9,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7093,
+			"pixel_w": 4333,
+			"file_name": "A390218_V17.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138064,
+			"media_master_id": 168655,
+			"rank": 16,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5412,
+			"pixel_w": 7216,
+			"file_name": "A390218_V8.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138061,
+			"media_master_id": 161616,
+			"rank": 13,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7216,
+			"pixel_w": 5412,
+			"file_name": "A390218_V5.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138066,
+			"media_master_id": 153496,
+			"rank": 18,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3504,
+			"pixel_w": 2548,
+			"file_name": "0916201011410003.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138049,
+			"media_master_id": 164208,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6742,
+			"pixel_w": 5203,
+			"file_name": "A390218_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138053,
+			"media_master_id": 160134,
+			"rank": 5,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7216,
+			"pixel_w": 5412,
+			"file_name": "A390218_V13.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138054,
+			"media_master_id": 167226,
+			"rank": 6,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7216,
+			"pixel_w": 5412,
+			"file_name": "A390218_V14.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Gold & silver",
+			"specific": "silver"
+		},
+		{
+			"parent": "Metal",
+			"specific": "bronze"
+		},
+		{
+			"parent": "Metal",
+			"specific": "gilt bronze"
+		},
+		{
+			"parent": "Metal",
+			"specific": "steel"
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Wood",
+			"specific": "oak"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"notable": "Paris"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — silver, bronze, gilt bronze, steel … · Paris",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 47
+	}
+}

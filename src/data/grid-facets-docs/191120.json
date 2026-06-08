@@ -1,0 +1,163 @@
+{
+	"id": 191120,
+	"accession_number": "45868",
+	"sort_number": "45868",
+	"title": "TUSK ORNAMENT",
+	"object_name": "jewelry",
+	"display_date": null,
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "ivory and string",
+	"medium_parts": ["ivory and string"],
+	"dimensions": null,
+	"credit_line": "Gift of Mrs. James R. Watson",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Personal Accessory",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2019-03-07 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1919-08-05",
+	"location_string": "de Young, 061, Cabinet 033, TC",
+	"location_building": "de Young",
+	"location_room": "Cabinet 033",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Tusk ornament",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": null,
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Samoa",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAABQ",
+					"term": "Samoa"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "45868",
+	"slug": "45868/tusk-ornament",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 127773,
+			"media_master_id": 26344,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3600,
+			"pixel_w": 3437,
+			"file_name": "0415200917230030.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 127772,
+			"media_master_id": 14775,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 597,
+			"pixel_w": 600,
+			"file_name": "0121200915500024.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ivory",
+			"specific": ""
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "string"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "Samoa",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , string · Samoa",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 31
+	}
+}

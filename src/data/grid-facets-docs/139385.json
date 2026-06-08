@@ -1,0 +1,232 @@
+{
+	"id": 139385,
+	"accession_number": "2015.53.1",
+	"sort_number": "2015.53.1",
+	"title": "EVENING DRESS",
+	"object_name": "woman's costume",
+	"display_date": "Fall 2003",
+	"begin_iso_date": "2003",
+	"end_iso_date": "2003",
+	"medium": "silk; satin and tulle with beads, sequins and feathers",
+	"medium_parts": ["silk", "satin and tulle with beads, sequins and feathers"],
+	"dimensions": "125.7 cm (49 1/2 in.)",
+	"credit_line": "Gift of the family of Diana Dollar Knowles",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2020-01-03 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Black strapless gown with black tulle bodice accented with black sequins; full A-line tulle skirt with feathers, sequins and beads in floral pattern; silk satin tie ribbon at waist; zipper closure at back.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "Oscar de la Renta: The Retrospective, de Young Museum , March 12 2016-May 30, 2016",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2015-10-07",
+	"location_string": "de Young, 227, Cabinet 10",
+	"location_building": "de Young",
+	"location_room": "Cabinet 10",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Evening dress",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 213,
+			"Role": "Designer",
+			"RoleID": 67,
+			"DisplayName": "Oscar de la Renta",
+			"AlphaSort": "Oscar de la Renta",
+			"Nationality": "American",
+			"BeginDate": 1932,
+			"EndDate": 2014,
+			"DisplayDate": "1932–2014",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Oscar de la Renta (1932–2014)"
+		},
+		{
+			"ConstituentID": 6834,
+			"Role": "Retailer",
+			"RoleID": 319,
+			"DisplayName": "Saks Fifth Avenue",
+			"AlphaSort": "Saks Fifth Avenue",
+			"Nationality": "American",
+			"BeginDate": 1898,
+			"EndDate": 0,
+			"DisplayDate": "est. 1898",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 1898"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "49 1/2 in. (125.7 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "United States",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Oscar de la Renta",
+	"primary_artist_display": "Oscar de la Renta (1932–2014)",
+	"sort_artist": "Oscar de la Renta",
+	"display_year": "2003",
+	"doc_id": "2015.53.1",
+	"slug": "2015.53.1/evening-dress",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 2003,
+	"media": [
+		{
+			"media_xref_id": 147716,
+			"media_master_id": 149204,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3264,
+			"pixel_w": 2448,
+			"file_name": "0820201516570006.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 147715,
+			"media_master_id": 148971,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2558,
+			"pixel_w": 2379,
+			"file_name": "0729201511290006.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 147714,
+			"media_master_id": 152460,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3000,
+			"pixel_w": 1939,
+			"file_name": "0621201616410003.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "satin"
+		},
+		{
+			"parent": "Textile",
+			"specific": "tulle"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "bead"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "sequin"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , satin, tulle, bead … · United States",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

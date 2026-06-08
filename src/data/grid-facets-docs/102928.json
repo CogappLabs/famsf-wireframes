@@ -1,0 +1,195 @@
+{
+	"id": 102928,
+	"accession_number": "1996.114",
+	"sort_number": "1996.114",
+	"title": "TALISMANIC HEADCLOTH (KAPALA TULIS ARAB)",
+	"object_name": "woman's costume",
+	"display_date": "1915",
+	"begin_iso_date": "1915",
+	"end_iso_date": "1915",
+	"medium": "cotton; wax-resist dyeing (batik)",
+	"medium_parts": ["cotton", "wax-resist dyeing (batik)"],
+	"dimensions": "87.3 x 90.8 cm (34 3/8 x 35 3/4 in.)",
+	"credit_line": "Museum purchase, in memory of Louise K. Monteagle",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2014-04-15 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "repeating invocations and/or Qu'ranic verses in the central medallion and corners; illegible simplification of an Ottoman tugra, the stylized signature of a sultan",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1996-10-10",
+	"location_string": "de Young, 059, Textile Rack 02, M",
+	"location_building": "de Young",
+	"location_room": "Textile Rack 02",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Talismanic headcloth (kapala tulis Arab)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "34 3/8 x 35 3/4 in. (87.3 x 90.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Cirebon",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAAAY",
+					"term": "Java"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAAAY.AAAAJ.AAABN",
+					"term": "Cirebon"
+				}
+			]
+		},
+		{
+			"term": "Jambi",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADN",
+					"term": "Sumatera"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADN.AAAAF.AAAAE",
+					"term": "Jambi"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1915",
+	"doc_id": "1996.114",
+	"slug": "1996.114/talismanic-headcloth-kapala-tulis-arab",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1915,
+	"media": [
+		{
+			"media_xref_id": 101651,
+			"media_master_id": 41569,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2878,
+			"pixel_w": 3080,
+			"file_name": "1103200814010011.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Southeast Asia",
+			"country": "",
+			"notable": "Cirebon"
+		},
+		{
+			"region": "Southeast Asia",
+			"country": "",
+			"notable": "Jambi"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice —  · Cirebon, Jambi",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 39
+	}
+}

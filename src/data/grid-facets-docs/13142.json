@@ -1,0 +1,210 @@
+{
+	"id": 13142,
+	"accession_number": "1963.24.131",
+	"sort_number": "1963.24.131",
+	"title": "CHRIST IN PIETÀ WITH TWO ANGELS",
+	"object_name": null,
+	"display_date": "ca. 1590–1600",
+	"begin_iso_date": "1590",
+	"end_iso_date": "1600",
+	"medium": "Pen and brown ink and brush and brown wash over red chalk on laid paper",
+	"medium_parts": [
+		"Pen and brown ink and brush and brown wash over red chalk on laid paper"
+	],
+	"dimensions": "7 15/16 x 6 13/16 in. (20.2 x 17.3 cm)",
+	"credit_line": "Achenbach Foundation for Graphic Arts",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2024-04-08 09:57:51.123000",
+	"is_virtual": false,
+	"identifying_description": "Christ being taken from the tomb by the angel behind him, with Mary at right holding his left arm, hill behind them with a skull sitting on top",
+	"web_text": "In this poignant depiction of human suffering, Christ’s lifeless body sinks into one angel’s shoulder as another angel surrounds him with open arms. Trometta delimited these figures in lively curvilinear pen-and-ink lines over a preliminary drawing made in red chalk. The artist sculpted Christ’s body by applying wash to mimic shadow and convey a sense of volume. Drawn in Rome in the midst of the sixteenth-century Counter-Reformation, this rendering of Christ’s suffering would have been used to inspire contemplation and piety in Christian viewers—a sentiment echoed by the position of the angel at right, whose head (as the reworked passage reveals) was reoriented by the artist from looking down to instead gazing upon the face of Jesus.",
+	"didactic_label": "In this poignant depiction of human suffering, Christ’s lifeless body sinks into one angel’s shoulder as another angel surrounds him with open arms. Trometta delimited these figures in lively curvilinear pen-and-ink lines over a preliminary drawing made in red chalk. The artist sculpted Christ’s body by applying wash to mimic shadow and convey a sense of volume. Drawn in Rome in the midst of the sixteenth-century Counter-Reformation, this rendering of Christ’s suffering would have been used to inspire contemplation and piety in Christian viewers—a sentiment echoed by the position of the angel at right, whose head (as the reworked passage reveals) was reoriented by the artist from looking down to instead gazing upon the face of Jesus.",
+	"exhibition_history_text": "Santa Barbara Museum of Art, ‘The Christian Inspiration', 1978, no. 20 (cat. by A. Moir);San Francisco, FAMSF, ‘Italian Old Master Drawings from the Achenbach Foundation for Graphic Arts', 1994 (without catalogue).",
+	"bibliography_text": "Hellman, G. S. Hellman, Original Drawings by the Old Masters. The Collection formed by Joseph Green Cogswell 1786-1871. New York 1915, no. 283, fig. 180 (as unknown, possibly by Paggi).",
+	"provenance": "Joseph Green Cogswell (1786-1871); Mortimer L. Schiff (1877-1931); Moore S. Achenbach (1878-1963) (L. 3a, verso); from whom gifted, 1963.",
+	"label_text": null,
+	"accession_iso_date": "1963-04-09",
+	"location_string": "Legion, 210, Compact Shelf 24, 211",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 24",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Christ in Pietà with Two Angels",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 10942,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Nicolò Martinelli calledTrometta",
+			"AlphaSort": "Niccolo Trometta, called Nicco",
+			"Nationality": "Italian",
+			"BeginDate": 1565,
+			"EndDate": 1611,
+			"DisplayDate": "circa 1565–1611",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Nicolò Martinelli calledTrometta (1565–1611)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "7 15/16 x 6 13/16 in. (20.2 x 17.3 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Italy",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAAVP",
+					"term": "Italia"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Nicolò Martinelli calledTrometta",
+	"primary_artist_display": "Nicolò Martinelli calledTrometta (1565–1611)",
+	"sort_artist": "Niccolo Trometta, called Nicco",
+	"display_year": "1590–1600",
+	"doc_id": "1963.24.131",
+	"slug": "1963.24.131/christ-in-pieta-with-two-angels",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1590,
+	"media": [
+		{
+			"media_xref_id": 69231,
+			"media_master_id": 99585,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2276,
+			"pixel_w": 1924,
+			"file_name": "5049161418950017.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ink",
+			"specific": "brown ink"
+		},
+		{
+			"parent": "Ink",
+			"specific": "pen"
+		},
+		{
+			"parent": "Paint",
+			"specific": "brown wash"
+		},
+		{
+			"parent": "Paper",
+			"specific": "laid paper"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "red chalk"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "Italy",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — brown ink, pen, brown wash, laid paper … · Italy",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 48
+	}
+}

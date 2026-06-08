@@ -1,0 +1,218 @@
+{
+	"id": 128641,
+	"accession_number": "1993.61.15",
+	"sort_number": "1993.61.15",
+	"title": "COVER AND FIRST VOLUME OF THE BOOK, KO-KOI, NOANAMÁ (SAN DIEGO: TUHANA PRESS, 1991)",
+	"object_name": null,
+	"display_date": "1991",
+	"begin_iso_date": "1991",
+	"end_iso_date": "1991",
+	"medium": "Etching and aquatint cover , letterset  type  on Rives paper",
+	"medium_parts": [
+		"Etching and aquatint cover , letterset  type  on Rives paper"
+	],
+	"dimensions": "33.5 x 65.5 cm (image); 33.5 x 65.5 cm (sheet); 24 x 16.5 x 1 cm (object)",
+	"credit_line": "Gift of the artist through the Artist Book Council",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2014-04-14 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "frog images, faces, symbols, text in Spanish with English translation",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Edition: Numbered in graphite on page following colophon: XI/XX\r\nTypes of Papers/Materials Used:  Rives paper\r\nBinding: Printed cover\r\nVolumes in Set:  2 , plus print portfolio in box, of which this the first volume\r\nPagination: 28 pp.\r\nCollation (if unusual):Spanish verses and English translation by Smilja Schmitt ;\r\nLanguages Used in Text: Spanish, English ;\r\nProvenance:Gift of the artist\r\nExhibition History:\r\nRemarks: Foreword includes description of the Ko-Koi frog, the Noanamá Indians, statements by Oscar Arias Sánchez and Francisco Antonio Pacheco.\r\nNote that bar codes for the parts and the order of accession numbers (sub-numbers) were assigned by inventory in 1993, and do not agree with current format.",
+	"label_text": null,
+	"accession_iso_date": "1993-12-31",
+	"location_string": "Legion, 253, Shelf 08, 08A",
+	"location_building": "Legion",
+	"location_room": "Shelf 08",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Cover and first volume of the book, Ko-Koi, Noanamá (San Diego: Tuhana Press, 1991)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 13338,
+			"Role": "Author",
+			"RoleID": 47,
+			"DisplayName": "Magda Santonastasio",
+			"AlphaSort": "Magda Santonastasio",
+			"Nationality": "Costa Rican",
+			"BeginDate": 1937,
+			"EndDate": 0,
+			"DisplayDate": "b. 1937",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1937"
+		},
+		{
+			"ConstituentID": 7637,
+			"Role": "Publisher",
+			"RoleID": 39,
+			"DisplayName": "Tuhana Press",
+			"AlphaSort": "Tuhana Press",
+			"Nationality": "American",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "active 20th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "13 3/16 x 25 13/16 in. (33.5 x 65.5 cm)",
+			"description": "folded cover",
+			"element_name": "Image",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "13 3/16 x 25 13/16 in. (33.5 x 65.5 cm)",
+			"description": "folded, cover",
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 2
+		},
+		{
+			"display_dimensions": "9 7/16 x 6 1/2 x 3/8 in. (24 x 16.5 x 1 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Object (4D)",
+			"displayed": true,
+			"rank": 3
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Costa Rica",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAACC",
+					"term": "Costa Rica"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Magda Santonastasio",
+	"primary_artist_display": "b. 1937",
+	"sort_artist": "Magda Santonastasio",
+	"display_year": "1991",
+	"doc_id": "1993.61.15",
+	"slug": "1993.61.15/cover-and-first-volume-of-the-book-ko-koi-noanama-san-diego-tuhana-press-1991",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1991,
+	"media": [
+		{
+			"media_xref_id": 73346,
+			"media_master_id": 93412,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2356,
+			"pixel_w": 1612,
+			"file_name": "4159201102070008.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [],
+	"facet_technique": ["aquatint", "etching"],
+	"facet_place": [
+		{
+			"region": "Central America",
+			"country": "Costa Rica",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — aquatint, etching · Costa Rica",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

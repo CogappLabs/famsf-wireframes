@@ -1,0 +1,165 @@
+{
+	"id": 214262,
+	"accession_number": "50.32.215",
+	"sort_number": "50.32.215",
+	"title": "SPEAR",
+	"object_name": "spear",
+	"display_date": null,
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "bamboo, hardwood, clay, and stone - obsidian",
+	"medium_parts": ["bamboo, hardwood, clay, and stone - obsidian"],
+	"dimensions": "218.4 cm (86  in.); 218.4 cm (86.5 in.)",
+	"credit_line": "Gift of Wilfrid H. Hemingway",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Tools & Equipment",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2022-03-17 13:30:54.483000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "collected by Wilfrid Hubert Hemingway in Australia between 1910 and 1924loaned to the deYoung Museum in 1932donated to the deYoung Museum by Hemingway's wife in 1950",
+	"label_text": null,
+	"accession_iso_date": "1950-10-26",
+	"location_string": "de Young, 061, Cabinet 004, TC",
+	"location_building": "de Young",
+	"location_room": "Cabinet 004",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Spear",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "86 in. (218.4 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "86 in. (218.4 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 2
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Western Australia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAAAC",
+					"term": "Australia"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACB.AAAAC.AAADG",
+					"term": "Western Australia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "50.32.215",
+	"slug": "50.32.215/spear",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 83303,
+			"media_master_id": 12966,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5434,
+			"pixel_w": 1842,
+			"file_name": "0105200912450025.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ceramic",
+			"specific": "clay"
+		},
+		{
+			"parent": "Wood",
+			"specific": "hardwood"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "Australia",
+			"notable": "Western Australia"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — clay, hardwood · Western Australia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 34
+	}
+}

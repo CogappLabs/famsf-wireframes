@@ -1,0 +1,197 @@
+{
+	"id": 96288,
+	"accession_number": "2014.38.1.11",
+	"sort_number": "2014.38.1.11",
+	"title": "UNTITLED, FROM THE PORTFOLIO \"THE NEW SCHOOL\"",
+	"object_name": null,
+	"display_date": "1947 (printed 1980)",
+	"begin_iso_date": "1947",
+	"end_iso_date": "1947",
+	"medium": "etching and aquatint with embossing",
+	"medium_parts": ["etching and aquatint with embossing"],
+	"dimensions": "Sheet: 381 x 284 mm (15 x 11 3/16 in.); Plate: 149 x 194 mm (5 7/8 x 7 5/8 in.)",
+	"credit_line": "Gift of Richard Miller",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2016-05-10 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "This is number 33/70.  Two abstract bodies is love action.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2014-06-05",
+	"location_string": "Legion, 253, Shelf 08, 11C",
+	"location_building": "Legion",
+	"location_room": "Shelf 08",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Untitled, from the Portfolio \"The New School\"",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 3812,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Roberto Sebastián Antonio Echaurren Matta ",
+			"AlphaSort": "Matta,  Roberto Sebastián Antonio Echaurren",
+			"Nationality": "Chilean",
+			"BeginDate": 1911,
+			"EndDate": 2002,
+			"DisplayDate": "1911–2002",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Roberto Sebastián Antonio Echaurren Matta  (1911–2002)"
+		},
+		{
+			"ConstituentID": 10723,
+			"Role": "Publisher",
+			"RoleID": 39,
+			"DisplayName": "Leon Jean Baptiste Sabatier",
+			"AlphaSort": "Leon Jean Baptiste Sabatier",
+			"Nationality": "French",
+			"BeginDate": 0,
+			"EndDate": 1887,
+			"DisplayDate": "d. 1887",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Leon Jean Baptiste Sabatier (0–1887)"
+		},
+		{
+			"ConstituentID": 8062,
+			"Role": "Publisher",
+			"RoleID": 39,
+			"DisplayName": "Erik Satie",
+			"AlphaSort": "Erik Satie",
+			"Nationality": "French",
+			"BeginDate": 1866,
+			"EndDate": 1925,
+			"DisplayDate": "1866–1925",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 3,
+			"DisplayLabel": "Erik Satie (1866–1925)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "5 7/8 x 7 5/8 in. (14.9 x 19.4 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Plate (4D)",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "15 x 11 3/16 in. (38.1 x 28.4 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 2
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Chile",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAABI",
+					"term": "Chile"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Roberto Sebastián Antonio Echaurren Matta ",
+	"primary_artist_display": "Roberto Sebastián Antonio Echaurren Matta  (1911–2002)",
+	"sort_artist": "Matta,  Roberto Sebastián Antonio Echaurren",
+	"display_year": "1947",
+	"doc_id": "2014.38.1.11",
+	"slug": "2014.38.1.11/untitled-from-the-portfolio-the-new-school",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1947,
+	"media": [
+		{
+			"media_xref_id": 145096,
+			"media_master_id": 51901,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 920,
+			"pixel_w": 692,
+			"file_name": "2015070811260167.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [],
+	"facet_technique": ["aquatint", "etching"],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Chile",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — aquatint, etching · Chile",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

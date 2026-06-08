@@ -1,0 +1,270 @@
+{
+	"id": 209242,
+	"accession_number": "2012.33",
+	"sort_number": "2012.33",
+	"title": "STREETOPIA: THE FILLMORE (BROOKLYN: BOOKLYN ARTISTS ALLIANCE, 2011)",
+	"object_name": null,
+	"display_date": "2011",
+	"begin_iso_date": "2011",
+	"end_iso_date": "2011",
+	"medium": "Book with fabric, metallic foil, flocked paper, stencil, spraypaint, screenprint, opaque watercolor, machine stitching, collaged paper (doilies, ledger sheets), offset lithography, gelatin silver prints, embossing, crayon, ink jet prints, ballpoint pen, colored pencil, porous point pen, and xerography on a variety of papers",
+	"medium_parts": [
+		"Book with fabric, metallic foil, flocked paper, stencil, spraypaint, screenprint, opaque watercolor, machine stitching, collaged paper (doilies, ledger sheets), offset lithography, gelatin silver prints, embossing, crayon, ink jet prints, ballpoint pen, colored pencil, porous point pen, and xerography on a variety of papers"
+	],
+	"dimensions": "Object: 251 x 211 x 22 mm (9 7/8 x 8 5/16 x 7/8 in.)",
+	"credit_line": "Museum purchase, Jane R. Lurie Foundation Fund, William S. Clark Fund, Clara M. Morrissey Fund, Gift of the Achenbach Graphic Arts Council and the Judith Clancy Fund",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Artist's Book",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2023-11-13 09:48:05.887000",
+	"is_virtual": false,
+	"identifying_description": "edition of 30",
+	"web_text": "Conceived by Erick Lyle and Marshall Weber, STREETOPIA is an assemblage of works by twenty-four current and former San Francisco artists associated with the art movements known as the Mission School and the New Mission School. Lyle traces the project's origins to a cement graffiti tag reading \"Glitter Doll\" that he encountered on Twenty-First Street near Capp Street in the Mission. He was soon imagining the stories behind other scratches and drawings that appear all over this ever-changing city. Each book in the variable edition of 30 is subtitled with the name of a different San Francisco neighborhood and features unique works of art.",
+	"didactic_label": "Conceived by Erick Lyle and Marshall Weber, STREETOPIA is an assemblage of works by twenty-four current and former San Francisco artists associated with the art movements known as the Mission School and the New Mission School. Lyle traces the project's origins to a cement graffiti tag reading “Glitter Doll” that he encountered on Twenty-First Street near Capp Street in the Mission. He was soon imagining the stories behind other scratches and drawings that appear all over this ever-changing city. Each book in the variable edition of 30 is subtitled with the name of a different San Francisco neighborhood and features unique works of art.",
+	"exhibition_history_text": "California BookWorks\r\nCPLH, Logan Gallery, May 7 to October 16, 2016",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2012-06-12",
+	"location_string": "Legion, 253, Shelf 07, 03C",
+	"location_building": "Legion",
+	"location_room": "Shelf 07",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "STREETOPIA: The Fillmore (Brooklyn: Booklyn Artists Alliance, 2011)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 17101,
+			"Role": "Publisher",
+			"RoleID": 39,
+			"DisplayName": "Booklyn Artists Alliance",
+			"AlphaSort": "Booklyn Artists Alliance",
+			"Nationality": "American",
+			"BeginDate": 1999,
+			"EndDate": 0,
+			"DisplayDate": "est. 1999",
+			"Institution": null,
+			"ConstituentType": "Entity",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1999"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "9 7/8 x 8 5/16 x 7/8 in. (25.1 x 21.1 x 2.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Object (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "San Francisco",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT",
+					"term": "California"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AACHW",
+					"term": "San Francisco"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "2011",
+	"doc_id": "2012.33",
+	"slug": "2012.33/streetopia-the-fillmore-brooklyn-booklyn-artists-alliance-2011",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 2011,
+	"media": [
+		{
+			"media_xref_id": 140379,
+			"media_master_id": 168745,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6159,
+			"pixel_w": 4463,
+			"file_name": "A392453_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 140382,
+			"media_master_id": 168832,
+			"rank": 5,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6159,
+			"pixel_w": 4463,
+			"file_name": "A392453_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 140383,
+			"media_master_id": 167299,
+			"rank": 6,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6629,
+			"pixel_w": 4500,
+			"file_name": "A392453_V3.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 140387,
+			"media_master_id": 164242,
+			"rank": 10,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4449,
+			"pixel_w": 6083,
+			"file_name": "A392453_V6.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Paint",
+			"specific": "opaque watercolor"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "crayon"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "pencil"
+		},
+		{
+			"parent": "Textile",
+			"specific": "fabric"
+		}
+	],
+	"facet_technique": ["screenprint"],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": "San Francisco"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — opaque watercolor, crayon, pencil, fabric … · San Francisco",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

@@ -1,0 +1,190 @@
+{
+	"id": 139389,
+	"accession_number": "2015.67.49",
+	"sort_number": "2015.67.49",
+	"title": "PONCHO (QUECHQUEMITL)",
+	"object_name": "woman's costume",
+	"display_date": "Fourth quarter of 20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "cotton, wool, synthetic; openwork, embroidery, supplementary weft patterning, applied ribbon trim",
+	"medium_parts": [
+		"cotton, wool, synthetic",
+		"openwork, embroidery, supplementary weft patterning, applied ribbon trim"
+	],
+	"dimensions": "45.7 x 45.7 cm (18 x 18 in.)",
+	"credit_line": "Gift of Cathy and Wayne Siewert",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-26 13:35:00.537000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2015-10-07",
+	"location_string": "de Young, 059, Cabinet 44, TA",
+	"location_building": "de Young",
+	"location_room": "Cabinet 44",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Poncho (quechquemitl)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41326,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Tepehua",
+			"AlphaSort": "Tepehua",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "18 x 18 in. (45.7 x 45.7 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Ixhuatlán de Madero",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAFF",
+					"term": "Mexican Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAEA",
+					"term": "Veracruz"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAEA.AACIX",
+					"term": "Ixhuatlán de Madero"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2015.67.49",
+	"slug": "2015.67.49/poncho-quechquemitl",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 147878,
+			"media_master_id": 169641,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9040,
+			"pixel_w": 8033,
+			"file_name": "A402517_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Plastic",
+			"specific": "synthetic"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "ribbon"
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "North and Central America",
+			"notable": "Ixhuatlán de Madero"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , synthetic, ribbon,  … · Ixhuatlán de Madero",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 37
+	}
+}

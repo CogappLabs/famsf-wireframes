@@ -1,0 +1,290 @@
+{
+	"id": 214772,
+	"accession_number": "2021.92",
+	"sort_number": "2021.92",
+	"title": "THE FLIGHT OF THE NORTHROP",
+	"object_name": null,
+	"display_date": "1988",
+	"begin_iso_date": "1988",
+	"end_iso_date": "1988",
+	"medium": "Oil on canvas",
+	"medium_parts": ["Oil on canvas"],
+	"dimensions": "Overall: 72 x 72 in. (182.88 x 182.88 cm)",
+	"credit_line": "Gift of Naomi Sloane",
+	"department": "Contemporary Art",
+	"classification": "Painting",
+	"copyright": "© Julio Larraz / Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2025-11-07 09:59:22.133000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2021-12-07",
+	"location_string": "de Young, 061, Painting Rack 20, A",
+	"location_building": "de Young",
+	"location_room": "Painting Rack 20",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "The Flight of the Northrop",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 20533,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Julio Larraz",
+			"AlphaSort": "Larraz,  Julio",
+			"Nationality": "Cuban",
+			"BeginDate": 1944,
+			"EndDate": 0,
+			"DisplayDate": "Cuban, born 1944",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1944"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "72 x 72 in. (182.88 x 182.88 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Cuba",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAACF",
+					"term": "Cuba"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAACF.AAAAK",
+					"term": "Cuba"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "oil paint",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
+					"term": "oil paint"
+				}
+			]
+		},
+		{
+			"term": "canvas",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD",
+					"term": "textile materials by process or technique"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD.AAE",
+					"term": "canvas"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Julio Larraz",
+	"primary_artist_display": "b. 1944",
+	"sort_artist": "Larraz,  Julio",
+	"display_year": "1988",
+	"doc_id": "2021.92",
+	"slug": "2021.92/the-flight-of-the-northrop",
+	"has_image": false,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1988,
+	"media": null,
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Paint",
+			"specific": "oil"
+		},
+		{
+			"parent": "Paint",
+			"specific": "oil paint"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "West Indies",
+			"country": "Cuba",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — oil, oil paint · Cuba",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

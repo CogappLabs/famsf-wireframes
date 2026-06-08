@@ -1,0 +1,173 @@
+{
+	"id": 138818,
+	"accession_number": "1985.2.46",
+	"sort_number": "1985.2.46",
+	"title": "NEMAIN EMPITIMRIAL",
+	"object_name": "Insect Design Abstraction",
+	"display_date": "1963",
+	"begin_iso_date": "1963",
+	"end_iso_date": "1963",
+	"medium": "Graphite and colored crayon on wove paper",
+	"medium_parts": ["Graphite and colored crayon on wove paper"],
+	"dimensions": "Sheet: 220 x 306 mm (8 11/16 x 12 1/16 in.)",
+	"credit_line": "Gift of Nikkie Dillon",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2015-10-05 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "five more or less insect looking forms and a circular shape, with numerous graphite notations in a virtually illegible  script\r\nMicro sections of some biological specimen; arrows to certain parts; penciled labels.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "CPLH, Recent Acquisitions, Part 2: 1950-1986, 13 June - 30 Sept 1987.",
+	"bibliography_text": null,
+	"provenance": "Provenance: Feigen-Palmer Gallery, Los Angeles 1965; Mrs. Nikkie Dillon, San Francisco;",
+	"label_text": null,
+	"accession_iso_date": "1985-01-01",
+	"location_string": "Legion, 210, Compact Shelf 26, 110",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 26",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Nemain Empitimrial",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 7183,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Henrique Castro-Cid",
+			"AlphaSort": "Henrique Castro-Cid",
+			"Nationality": "Chilean",
+			"BeginDate": 1938,
+			"EndDate": 0,
+			"DisplayDate": "b. 1938",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1938"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "8 11/16 x 12 1/16 in. (22 x 30.6 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Chile",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAABI",
+					"term": "Chile"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Henrique Castro-Cid",
+	"primary_artist_display": "b. 1938",
+	"sort_artist": "Henrique Castro-Cid",
+	"display_year": "1963",
+	"doc_id": "1985.2.46",
+	"slug": "1985.2.46/nemain-empitimrial",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1963,
+	"media": [
+		{
+			"media_xref_id": 19227,
+			"media_master_id": 62695,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1673,
+			"pixel_w": 2341,
+			"file_name": "3154201309050027.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Paper",
+			"specific": "wove paper"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "crayon"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "graphite"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Chile",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — wove paper, crayon, graphite · Chile",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

@@ -1,0 +1,172 @@
+{
+	"id": 172307,
+	"accession_number": "2008.53.6",
+	"sort_number": "2008.53.6",
+	"title": "BODY CLOTH",
+	"object_name": "man's costume",
+	"display_date": "20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "cotton, glass seed beads; warp-faced plain weave, embroidery",
+	"medium_parts": [
+		"cotton, glass seed beads",
+		"warp-faced plain weave, embroidery"
+	],
+	"dimensions": "Object: 185.4 x 102.9 x 2.5 cm (73 x 40 1/2 x 1 in.)",
+	"credit_line": "Museum purchase, Dorothy F. Boyesen Bequest Fund, Textile Arts Trust Fund and gift of David and Susan Hodges",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-09 12:37:00.887000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2008-12-11",
+	"location_string": "de Young, 059, Cabinet 40, E",
+	"location_building": "de Young",
+	"location_room": "Cabinet 40",
+	"edition": null,
+	"signed": null,
+	"inscribed": "L08.100.6 A388037",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Body cloth",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41233,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Naga",
+			"AlphaSort": "Naga",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "73 x 40 1/2 x 1 in. (185.4 x 102.9 x 2.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Object (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "India",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAALD",
+					"term": "Bhārat"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2008.53.6",
+	"slug": "2008.53.6/body-cloth",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 136871,
+			"media_master_id": 29707,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6740,
+			"pixel_w": 3996,
+			"file_name": "0705201015200010.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "glass seed bead"
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "South Asia",
+			"country": "India",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , glass seed bead, embroidery · India",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 37
+	}
+}

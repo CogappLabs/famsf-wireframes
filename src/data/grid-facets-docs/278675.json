@@ -1,0 +1,177 @@
+{
+	"id": 278675,
+	"accession_number": "T&D1962.41.dup2",
+	"sort_number": "T&D1962.41.dup2",
+	"title": "COSTUME DESIGN FOR THE QUEEN IN THE PROLOGUE OF THE DRAMA LA PISANELLA OU LA MORTE PARFUMÉE (PISANELLA OR THE PERFUMED DEATH)",
+	"object_name": "Art/Music/Dance Fashion Figure Study Literary Theater/Entertainment",
+	"display_date": "1913",
+	"begin_iso_date": "1913",
+	"end_iso_date": "1913",
+	"medium": "Graphite, watercolor, and gold paint on laid paper",
+	"medium_parts": ["Graphite, watercolor, and gold paint on laid paper"],
+	"dimensions": "Sheet: 357 x 248 mm (14 1/16 x 9 3/4 in.)",
+	"credit_line": "Theater and Dance Collection, gift of Mrs. Adolph B. Spreckels",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2018-12-13 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "standing female figure with crossed arms, wearing a long gown, cape, and crown, with detailed instructions to the dressmaker written down the right side of the sheet\r\nRegal standing queen; crowned with veil over hair; rose colored gown; gold and white robe; directions penciled in margin.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "The Society of The Four Arts, Palm Beach, Florida,The Golden Age of Ballet Design, exh. cat. by Earl Anderson, 1976, no. 4;\r\nThe Fine Arts Museums of San Francisco, California Palace of the Legion of Honor,Russian Theater and Costume Designs from  The Fine Arts  Museums of San Francisco, 1980 (circulated 1980-1982),  exh.cat.intro. by John E. Bowlt, cat.by  Nikita D. Lobanov, Nina Lobanov, and Aimée Troyen, no.9, p.21, repr. p.21.",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1962-01-01",
+	"location_string": "Legion, 210, Compact Shelf 23, 213",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 23",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Costume design for the Queen in the prologue of the drama La Pisanella ou la morte parfumée (Pisanella or The Perfumed Death)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 2391,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Léon Bakst (Lev Samoilovich Rosenberg)",
+			"AlphaSort": "Lev Samoilovich Rosenberg, cal",
+			"Nationality": "Russian",
+			"BeginDate": 1866,
+			"EndDate": 1924,
+			"DisplayDate": "Russian, 1866 - 1924",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Léon Bakst (Lev Samoilovich Rosenberg) (1866–1924)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "14 1/16 x 9 3/4 in. (35.7 x 24.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Russia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAEY",
+					"term": "Rossija"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Léon Bakst (Lev Samoilovich Rosenberg)",
+	"primary_artist_display": "Léon Bakst (Lev Samoilovich Rosenberg) (1866–1924)",
+	"sort_artist": "Lev Samoilovich Rosenberg, cal",
+	"display_year": "1913",
+	"doc_id": "T%26D1962.41.dup2",
+	"slug": "T%26D1962.41.dup2/costume-design-for-the-queen-in-the-prologue-of-the-drama-la-pisanella-ou-la-morte-parfumee-pisanella-or-the-perfumed-death",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1913,
+	"media": [
+		{
+			"media_xref_id": 19950,
+			"media_master_id": 86620,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2586,
+			"pixel_w": 1847,
+			"file_name": "3328201308190022.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Paint",
+			"specific": "gold paint"
+		},
+		{
+			"parent": "Paint",
+			"specific": "watercolor"
+		},
+		{
+			"parent": "Paper",
+			"specific": "laid paper"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "graphite"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "Russia",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — gold paint, watercolor, laid paper, graphite · Russia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

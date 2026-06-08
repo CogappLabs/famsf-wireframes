@@ -1,0 +1,320 @@
+{
+	"id": 157952,
+	"accession_number": "2000.186.13",
+	"sort_number": "2000.186.13",
+	"title": "LARGE STORAGE BAG (CHUVAL), FACE",
+	"object_name": "storage/transport bag",
+	"display_date": "19th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Wool, cotton, silk; knotted pile (asymmetrical knot, open to the left,  slight warp depression), weave direction opposite that of design",
+	"medium_parts": [
+		"Wool, cotton, silk",
+		"knotted pile (asymmetrical knot, open to the left,  slight warp depression), weave direction opposite that of design"
+	],
+	"dimensions": "85.1 x 144.8 cm (33 1/2 x 57 in.)",
+	"credit_line": "Gift of George and Marie Hecksher",
+	"department": "Costume and Textile Arts",
+	"classification": "Furnishing",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-27 12:38:23.760000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "The Turkmen Storage Bag, de Young Museum, 8/31/19 - 11/15/20\r\nFor Tent & Trade: Masterpieces of Turkmen Weaving, de Young Museum, 2007-2008",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2000-12-31",
+	"location_string": "de Young, 059, Cabinet 32, O",
+	"location_building": "de Young",
+	"location_room": "Cabinet 32",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Large storage bag (chuval), face",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41339,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Turkmen, Arabachi tribe",
+			"AlphaSort": "Turkmen, Arabachi tribe",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "33 1/2 x 57 in. (85.1 x 144.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Central Asia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAMD",
+					"term": "Central Asia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2000.186.13",
+	"slug": "2000.186.13/large-storage-bag-chuval-face",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 113015,
+			"media_master_id": 174467,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7116,
+			"pixel_w": 11263,
+			"file_name": "A335608_V2.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 113016,
+			"media_master_id": 174464,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8703,
+			"pixel_w": 11602,
+			"file_name": "A335608_V3.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 113017,
+			"media_master_id": 174465,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8703,
+			"pixel_w": 11602,
+			"file_name": "A335608_V4.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 113019,
+			"media_master_id": 174466,
+			"rank": 6,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8379,
+			"pixel_w": 11171,
+			"file_name": "A335608_V6.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 113021,
+			"media_master_id": 28830,
+			"rank": 8,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1787,
+			"pixel_w": 2992,
+			"file_name": "0620201412010026.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 113022,
+			"media_master_id": 149702,
+			"rank": 9,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3392,
+			"pixel_w": 5518,
+			"file_name": "0929200412450062.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 113020,
+			"media_master_id": 27329,
+			"rank": 7,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3392,
+			"pixel_w": 5518,
+			"file_name": "0523200301270042.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 113014,
+			"media_master_id": 174462,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7182,
+			"pixel_w": 11520,
+			"file_name": "A335608_V1.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 113018,
+			"media_master_id": 174468,
+			"rank": 5,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8703,
+			"pixel_w": 11602,
+			"file_name": "A335608_V5.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Central Asia",
+			"country": "",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , ,  · Central Asia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 36
+	}
+}

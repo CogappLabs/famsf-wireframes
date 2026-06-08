@@ -1,0 +1,155 @@
+{
+	"id": 115809,
+	"accession_number": "1999.53.3",
+	"sort_number": "1999.53.3",
+	"title": "WOMAN'S VEIL",
+	"object_name": "headwear",
+	"display_date": "20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "cotton, silk, metallic yarn, embroidery, machine-made compound weave, machine-made lace",
+	"medium_parts": [
+		"cotton, silk, metallic yarn, embroidery, machine-made compound weave, machine-made lace"
+	],
+	"dimensions": "98.5 x 52.5 cm (38 3/4 x 20 11/16 in.)",
+	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nGift of Caroline McCoy-Jones",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2014-04-15 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Costume, headwear",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1999-06-10",
+	"location_string": "de Young, 227, Cabinet 27, I",
+	"location_building": "de Young",
+	"location_room": "Cabinet 27",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Woman's veil",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "38 3/4 x 20 11/16 in. (98.5 x 52.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Afghanistan",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAI",
+					"term": "Afghānestān"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1999.53.3",
+	"slug": "1999.53.3/woman-s-veil",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 107619,
+			"media_master_id": 21612,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 846,
+			"pixel_w": 2892,
+			"file_name": "0408200412000407.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "Central Asia",
+			"country": "Afghanistan",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , embroidery · Afghanistan",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 36
+	}
+}

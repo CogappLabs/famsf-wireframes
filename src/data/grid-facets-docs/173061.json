@@ -1,0 +1,252 @@
+{
+	"id": 173061,
+	"accession_number": "2014.102.56",
+	"sort_number": "2014.102.56",
+	"title": "SHAWL FRAGMENT",
+	"object_name": "textile fragment",
+	"display_date": "1835",
+	"begin_iso_date": "1835",
+	"end_iso_date": "1835",
+	"medium": "wool; embroidery",
+	"medium_parts": ["wool", "embroidery"],
+	"dimensions": "43.2 x 27.9 cm (17 x 11 in.)",
+	"credit_line": "Gift of Thomas Murray",
+	"department": "Costume and Textile Arts",
+	"classification": "Textile",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2020-01-14 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Boteh element, pashmina, ultra fine embroidery",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "ex Collection Nasil M. Heeranmaneck",
+	"label_text": null,
+	"accession_iso_date": "2014-10-16",
+	"location_string": "de Young, 059, Cabinet 40, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 40",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Shawl fragment",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "17 x 11 in. (43.2 x 27.9 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "India",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAALD",
+					"term": "Bhārat"
+				}
+			]
+		},
+		{
+			"term": "Punjab",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAIE",
+					"term": "Punjab"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": [
+		{
+			"term": "Sikh",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAD",
+					"term": "styles, periods, and cultures by association"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAD.AAB.ABV",
+					"term": "Sikhism"
+				}
+			]
+		}
+	],
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1835",
+	"doc_id": "2014.102.56",
+	"slug": "2014.102.56/shawl-fragment",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1835,
+	"media": [
+		{
+			"media_xref_id": 146898,
+			"media_master_id": 22426,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5400,
+			"pixel_w": 4375,
+			"file_name": "0413201516400055.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 146897,
+			"media_master_id": 164540,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5400,
+			"pixel_w": 4375,
+			"file_name": "A401111_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "South Asia",
+			"country": "India",
+			"notable": ""
+		},
+		{
+			"region": "East Asia",
+			"country": "",
+			"notable": "Punjab"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , embroidery · India, Punjab",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

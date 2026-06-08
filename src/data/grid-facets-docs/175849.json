@@ -1,0 +1,225 @@
+{
+	"id": 175849,
+	"accession_number": "2015.68.17",
+	"sort_number": "2015.68.17",
+	"title": "GIOU CORNER KYOTO, FROM THE PORTFOLIO \"FACING EAST\"",
+	"object_name": null,
+	"display_date": "1970",
+	"begin_iso_date": "1970",
+	"end_iso_date": "1970",
+	"medium": "pencil, ink, Japanese brush with sumi ink, crayon, gouache on Ingres Cover paper",
+	"medium_parts": [
+		"pencil, ink, Japanese brush with sumi ink, crayon, gouache on Ingres Cover paper"
+	],
+	"dimensions": "Sheet: 313 x 481 mm (12 5/16 x 18 15/16 in.)",
+	"credit_line": "Gift of Jane R. Lurie",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": "© Susanna Levine Fisher / Licensed by VAGA at Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2016-05-10 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "two women samisen players accompany an unseen dancer.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2015-10-07",
+	"location_string": "Legion, 253, Shelf 08, 05C",
+	"location_building": "Legion",
+	"location_room": "Shelf 08",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Giou Corner Kyoto, from the portfolio \"Facing East\"",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 3564,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Jack Levine",
+			"AlphaSort": "Levine,  Jack",
+			"Nationality": "American",
+			"BeginDate": 1915,
+			"EndDate": 2010,
+			"DisplayDate": "1915–2010",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Jack Levine (1915–2010)"
+		},
+		{
+			"ConstituentID": 5586,
+			"Role": "Printer",
+			"RoleID": 40,
+			"DisplayName": "Daniel Jacomet et Cie",
+			"AlphaSort": "Daniel Jacomet et Cie",
+			"Nationality": "French",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "French",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "12 5/16 x 18 15/16 in. (31.3 x 48.1 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "United States",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Jack Levine",
+	"primary_artist_display": "Jack Levine (1915–2010)",
+	"sort_artist": "Levine,  Jack",
+	"display_year": "1970",
+	"doc_id": "2015.68.17",
+	"slug": "2015.68.17/giou-corner-kyoto-from-the-portfolio-facing-east",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1970,
+	"media": [
+		{
+			"media_xref_id": 147926,
+			"media_master_id": 49620,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3202,
+			"pixel_w": 4835,
+			"file_name": "1907201611160056.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ink",
+			"specific": ""
+		},
+		{
+			"parent": "Ink",
+			"specific": "sumi ink"
+		},
+		{
+			"parent": "Paint",
+			"specific": "gouache"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "crayon"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "pencil"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , sumi ink, gouache, crayon … · United States",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

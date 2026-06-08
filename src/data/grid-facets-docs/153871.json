@@ -1,0 +1,221 @@
+{
+	"id": 153871,
+	"accession_number": "1996.25.1.1-26",
+	"sort_number": "1996.25.1.1-26",
+	"title": "LE SURRÉALISME EN 1947, EXPOSITION DU SURÉALISME (PARIS: PIERRE À FEU/MAEGHT ÉDITEUR, 1947)",
+	"object_name": null,
+	"display_date": "1947",
+	"begin_iso_date": "1947",
+	"end_iso_date": "1947",
+	"medium": "book with 18 lithographs (6 in color); 4 etchings (2 with aquatint); 1 photogravure, in color; 2 woodcuts; 1 foam and velvet object (folder front); reproductions; on wove paper (except folder front).",
+	"medium_parts": [
+		"book with 18 lithographs (6 in color)",
+		"4 etchings (2 with aquatint)",
+		"1 photogravure, in color",
+		"2 woodcuts",
+		"1 foam and velvet object (folder front)",
+		"reproductions",
+		"on wove paper (except folder front)."
+	],
+	"dimensions": "Sheet: 240 x 203 mm (9 7/16 x 8 in.) 60 (h)",
+	"credit_line": "Gift of Paula Zurcher in memory of Elizabeth H. Paepcke",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Artist's Book",
+	"copyright": "© Estate of André Breton / Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2025-10-02 10:17:30.797000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": "Duchamp and Donati prepared exactly 999 hand-colored foam-rubber breasts for the deluxe edition of the catalogue for the 1947 Surrealism exhibition that Duchamp and André Breton co-curated. Donati later recalled: \"By the end we were fed up, but we got the job done. I remarked that I never thought I would get tired of handling so many breasts, and Marcel said, 'Maybe that's the whole idea.'\"",
+	"didactic_label": "Duchamp and Donati prepared exactly 999 hand-colored foam-rubber breasts for the deluxe edition of the catalogue for the 1947 Surrealism exhibition that Duchamp and André Breton co-curated. Donati later recalled: “By the end we were fed up, but we got the job done. I remarked that I never thought I would get tired of handling so many breasts, and Marcel said, ‘Maybe that's the whole idea.'”",
+	"exhibition_history_text": "CPLH, Max Ernst: Surrealism in Artists' Books, 26 Oct 2002 - 23 Feb 2003.\r\n\r\nCPLH, Logan Gallery, Surrealism: Selections from the Logan Collection, 15 Sept 2007 - 6 Jan 2008.\r\n\r\nCPLH, Logan Gallery, Marcel Duchamp, The Book and the Box, 14 July - 11 Nov 2012.",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1996-04-11",
+	"location_string": "Legion, 253, Shelf 12, 10C",
+	"location_building": "Legion",
+	"location_room": "Shelf 12",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Le Surréalisme en 1947, exposition du suréalisme (Paris: Pierre à Feu/Maeght Éditeur, 1947)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 1498,
+			"Role": "Editor",
+			"RoleID": 105,
+			"DisplayName": "André Breton",
+			"AlphaSort": "Breton,  André",
+			"Nationality": "French",
+			"BeginDate": 1896,
+			"EndDate": 1966,
+			"DisplayDate": "1896–1966",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "André Breton (1896–1966)"
+		},
+		{
+			"ConstituentID": 1489,
+			"Role": "Publisher",
+			"RoleID": 39,
+			"DisplayName": "Pierre à Feu",
+			"AlphaSort": "Pierre à Feu",
+			"Nationality": "French",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "active 20th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "9 7/16 x 8 in. (24 x 20.3 cm)",
+			"description": "60 (h)",
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": true,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "France",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1947",
+	"doc_id": "1996.25.1.1-26",
+	"slug": "1996.25.1.1-26/le-surrealisme-en-1947-exposition-du-surealisme-paris-pierre-a-feu-maeght-editeur-1947",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1947,
+	"media": [
+		{
+			"media_xref_id": 99749,
+			"media_master_id": 126265,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2072,
+			"pixel_w": 1780,
+			"file_name": "6318303131330013.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Paper",
+			"specific": "wove paper"
+		}
+	],
+	"facet_technique": [
+		"aquatint",
+		"etching",
+		"lithograph",
+		"photogravure",
+		"woodcut"
+	],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — wove paper, aquatint, etching, lithograph … · France",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

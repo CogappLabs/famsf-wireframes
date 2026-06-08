@@ -1,0 +1,254 @@
+{
+	"id": 110353,
+	"accession_number": "1999.124.30",
+	"sort_number": "1999.124.30",
+	"title": "DRINKING HORN",
+	"object_name": "cup",
+	"display_date": "ca. 1874",
+	"begin_iso_date": "1874",
+	"end_iso_date": "1874",
+	"medium": "silver and horn",
+	"medium_parts": ["silver and horn"],
+	"dimensions": "17 x 5 3/4 x 4 1/2 in. (43.2 x 14.6 x 11.4 cm)",
+	"credit_line": "Bequest of Elaine Henderson",
+	"department": "American Decorative Arts and Sculpture",
+	"classification": "Food",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2025-12-11 12:21:36.320000",
+	"is_virtual": false,
+	"identifying_description": "horn wrapped with incised silver sheets in floral pattern. Large end of horn enclosed by silver with incised image of an eagle and date 1874. Small end of horn has figure of a llama. Silver chain of oak leaves (?) attached to both ends.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1999-10-14",
+	"location_string": "de Young, 061, Shelf 12, B",
+	"location_building": "de Young",
+	"location_room": "Shelf 12",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Drinking Horn",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "17 x 5 3/4 x 4 1/2 in. (43.2 x 14.6 x 11.4 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Peru",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL",
+					"term": "Perú"
+				}
+			]
+		},
+		{
+			"term": "Bolivia",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAAZ",
+					"term": "Bolivia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": [
+		{
+			"term": "Spanish Colonial",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAI",
+					"term": "European"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAJ",
+					"term": "Renaissance-Baroque styles and periods"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAJ.AAF",
+					"term": "Renaissance-Baroque styles"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAJ.AAF.AAF",
+					"term": "Renaissance-Baroque regional styles"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAJ.AAF.AAF.AAI",
+					"term": "Spanish Renaissance-Baroque styles"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAJ.AAF.AAF.AAI.AAD",
+					"term": "Spanish Colonial"
+				}
+			]
+		}
+	],
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1874",
+	"doc_id": "1999.124.30",
+	"slug": "1999.124.30/drinking-horn",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1874,
+	"media": [
+		{
+			"media_xref_id": 106138,
+			"media_master_id": 14733,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1730,
+			"pixel_w": 3012,
+			"file_name": "0119200115300038.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Gold & silver",
+			"specific": "silver"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Peru",
+			"notable": ""
+		},
+		{
+			"region": "South America",
+			"country": "Bolivia",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — silver · Peru, Bolivia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 42
+	}
+}

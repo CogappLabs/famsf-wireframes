@@ -1,0 +1,225 @@
+{
+	"id": 51588,
+	"accession_number": "1997.31",
+	"sort_number": "1997.31",
+	"title": "SIDE CHAIR",
+	"object_name": "chair",
+	"display_date": "ca. 1885–1890",
+	"begin_iso_date": "1885",
+	"end_iso_date": "1890",
+	"medium": "Mahogany, brass, copper, pewter, mother-of-pearl, and abalone",
+	"medium_parts": [
+		"Mahogany, brass, copper, pewter, mother-of-pearl, and abalone"
+	],
+	"dimensions": "38 3/4 x 17 1/4 x 19 1/2 in. (98.4 x 43.8 x 49.5 cm)",
+	"credit_line": "Museum purchase, gift of the Golden Gate Collectors",
+	"department": "American Decorative Arts and Sculpture",
+	"classification": "Furnishing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2021-02-25 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "twisted fish finials on the crest",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1997-06-27",
+	"location_string": "de Young, 061, Shelf 05, B",
+	"location_building": "de Young",
+	"location_room": "Shelf 05",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Side chair",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 3979,
+			"Role": "Attributed to",
+			"RoleID": 72,
+			"DisplayName": "Herts Brothers",
+			"AlphaSort": "Herts Brothers",
+			"Nationality": "American",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "active late 19th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		},
+		{
+			"ConstituentID": 661,
+			"Role": "Maker",
+			"RoleID": 56,
+			"DisplayName": "Herter Brothers, New York",
+			"AlphaSort": "Herter Brothers, New York",
+			"Nationality": "American",
+			"BeginDate": 1859,
+			"EndDate": 0,
+			"DisplayDate": "established 1859",
+			"Institution": "Herter Brothers, New York",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 1859"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "38 3/4 x 17 1/4 x 19 1/2 in. (98.4 x 43.8 x 49.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "United States",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Herter Brothers, New York",
+	"primary_artist_display": "b. 1859",
+	"sort_artist": "Herter Brothers, New York",
+	"display_year": "1885–90",
+	"doc_id": "1997.31",
+	"slug": "1997.31/side-chair",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1885,
+	"media": [
+		{
+			"media_xref_id": 102689,
+			"media_master_id": 12652,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1913,
+			"pixel_w": 1113,
+			"file_name": "0104200108410003.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Metal",
+			"specific": "bras"
+		},
+		{
+			"parent": "Metal",
+			"specific": "copper"
+		},
+		{
+			"parent": "Metal",
+			"specific": "pewter"
+		},
+		{
+			"parent": "Shell",
+			"specific": "mother-of-pearl"
+		},
+		{
+			"parent": "Wood",
+			"specific": "mahogany"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — bras, copper, pewter, mother-of-pearl … · United States",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

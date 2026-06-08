@@ -1,0 +1,258 @@
+{
+	"id": 194156,
+	"accession_number": "42895a-c",
+	"sort_number": "42895a-c",
+	"title": "MUMMY OF IRETHORROU IN COFFIN",
+	"object_name": "mummy",
+	"display_date": "ca. 500 BC",
+	"begin_iso_date": "500",
+	"end_iso_date": "500",
+	"medium": "Bone, Wood, linen, pigment, resin, faiance",
+	"medium_parts": ["Bone, Wood, linen, pigment, resin, faiance"],
+	"dimensions": "177.8 x 61 x 43.2 cm (70 x 24 x 17 in.)",
+	"credit_line": "Gift of the First Federal Trust Company (from the Estate of Jeremiah Lynch)",
+	"department": "Ancient Art",
+	"classification": "Funerary Object",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2025-12-18 11:34:15.437000",
+	"is_virtual": false,
+	"identifying_description": "coffin in two parts (base + lid) and mummy of a male human skeleton mummified with amulets between linen wrapping.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "Haggin Museum, Stockton California, c. 1984 - 2009",
+	"bibliography_text": null,
+	"provenance": "Probably purchased by Jeremiah Lynch in Egypt, c. 1889-1890, town of Girgeh",
+	"label_text": null,
+	"accession_iso_date": "1917-07-06",
+	"location_string": "Legion, 101, Area D, Cart",
+	"location_building": "Legion",
+	"location_room": "Area D",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Mummy of Irethorrou in coffin",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 39909,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Egyptian",
+			"AlphaSort": "Egyptian",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "70 x 24 x 17 in. (177.8 x 61 x 43.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Egypt",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAPN",
+					"term": "Miṣr"
+				}
+			]
+		},
+		{
+			"term": "Akhmīm",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABY",
+					"term": "Middle East"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABY.AAAAW.AAADJ",
+					"term": "Sūhāj"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABY.AAAAW.AAADJ.AAAAF",
+					"term": "Akhmīm"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "500",
+	"doc_id": "42895a-c",
+	"slug": "42895a-c/mummy-of-irethorrou-in-coffin",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 500,
+	"media": [
+		{
+			"media_xref_id": 82091,
+			"media_master_id": 162181,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7226,
+			"pixel_w": 4230,
+			"file_name": "A389156_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 82094,
+			"media_master_id": 168642,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5428,
+			"pixel_w": 7230,
+			"file_name": "A389156_V4.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 82093,
+			"media_master_id": 164135,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3766,
+			"pixel_w": 7226,
+			"file_name": "A389156_V3.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 82095,
+			"media_master_id": 150067,
+			"rank": 5,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 480,
+			"pixel_w": 640,
+			"file_name": "1015200914590006.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Pigment",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "linen"
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Egypt",
+			"notable": ""
+		},
+		{
+			"region": "Middle East",
+			"country": "",
+			"notable": "Akhmīm"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , linen,  · Egypt, Akhmīm",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

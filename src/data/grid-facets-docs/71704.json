@@ -1,0 +1,246 @@
+{
+	"id": 71704,
+	"accession_number": "1979.56a-b",
+	"sort_number": "1979.56a-b",
+	"title": null,
+	"object_name": "wakahuia, Treasure box",
+	"display_date": "ca. late 19th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Wood and shell",
+	"medium_parts": ["Wood and shell"],
+	"dimensions": "14 x 11.4 in.",
+	"credit_line": "Museum purchase, William H. Noble Bequest Fund",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Vessels & Containers",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2022-08-15 13:29:00.367000",
+	"is_virtual": false,
+	"identifying_description": "Feather treasure box carved from two pieces of wood with elaborate surface designs carved both in raised and incised carving and shell inlay. Red pinewood, abalone shell (paua)",
+	"web_text": "Patoromu Tamatea was a Maori carver active in the second half of the 19th century. This box was probably made for a visitor to the Rotorua area of New Zealand's North Island, where Tamatea worked. He carved for tourists, European patrons, and local Maori clients. Fewer than twenty works worldwide have been documented as carved by Tamatea. The connected figures on the lid of this box represent Papatuanuku, the earth mother, and Ranginui, the sky father, the primordial parents of the Maori. According to the Maori origin story, their many children were gods who lived in the dark space between their parents' embrace. They eventually succeeded in separating their parents and creating the world. The entire surface of this box has been carved with rauponga designs composed of notches and parallel grooves. Abalone shell (paua) insets have been used in the eyes. The base sits on four round knobs added at a later date, and the interior of the box and its lid are uncarved.",
+	"didactic_label": "Patoromu Tamatea was a Maori carver active in the second half of the 19th century. This box was probably made for a visitor to the Rotorua area of New Zealand's North Island, where Tamatea worked. He carved for tourists, European patrons, and local Maori clients. Fewer than twenty works worldwide have been documented as carved by Tamatea. The connected figures on the lid of this box represent Papatuanuku, the earth mother, and Ranginui, the sky father, the primordial parents of the Maori. According to the Maori origin story, their many children were gods who lived in the dark space between their parents' embrace. They eventually succeeded in separating their parents and creating the world. The entire surface of this box has been carved with rauponga designs composed of notches and parallel grooves. Abalone shell (paua) insets have been used in the eyes. The base sits on four round knobs added at a later date, and the interior of the box and its lid are uncarved.",
+	"exhibition_history_text": "Fred Wilson Greeting Room-M.H. deYoung 1-16/99-5/2/99",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1979-11-06",
+	"location_string": "de Young, 061, Cabinet 024, B",
+	"location_building": "de Young",
+	"location_room": "Cabinet 024",
+	"edition": null,
+	"signed": null,
+	"inscribed": "On Exhibit 4/08",
+	"markings": null,
+	"titles": null,
+	"constituents": [
+		{
+			"ConstituentID": 16178,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Patoromu Tamatea",
+			"AlphaSort": "Tamatea,  Patoromu",
+			"Nationality": "Maori",
+			"BeginDate": 0,
+			"EndDate": 1890,
+			"DisplayDate": "d. 1890",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Patoromu Tamatea (0–1890)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "14 x 11 in. (35.6 x 27.9 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "14 x 11 3/8 in. (35.56 x 28.956 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Image (Filemaker)",
+			"displayed": true,
+			"rank": 2
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "North Island",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAABD",
+					"term": "New Zealand"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACB.AAABD.AAACV",
+					"term": "North Island"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Patoromu Tamatea",
+	"primary_artist_display": "Patoromu Tamatea (0–1890)",
+	"sort_artist": "Tamatea,  Patoromu",
+	"display_year": null,
+	"doc_id": "1979.56a-b",
+	"slug": "1979.56a-b",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 155945,
+			"media_master_id": 194827,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6270,
+			"pixel_w": 9936,
+			"file_name": "A308398_V3_crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 82542,
+			"media_master_id": 49350,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1699,
+			"pixel_w": 3000,
+			"file_name": "1806201314400001.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 82540,
+			"media_master_id": 163189,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4249,
+			"pixel_w": 7501,
+			"file_name": "A308398_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 150,
+			"media_master_id": 6982,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 106,
+			"pixel_w": 188,
+			"file_name": "eGGN_0068_Pic1_wakahuia.png",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 82541,
+			"media_master_id": 14556,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1922,
+			"pixel_w": 2838,
+			"file_name": "0117200112250004.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Shell",
+			"specific": ""
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "New Zealand",
+			"notable": "North Island"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — ,  · North Island",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

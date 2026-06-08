@@ -1,0 +1,196 @@
+{
+	"id": 56970,
+	"accession_number": "1963.30.29363",
+	"sort_number": "1963.30.29363",
+	"title": "THE C-SHARP MINOR QUARTET",
+	"object_name": null,
+	"display_date": "1927",
+	"begin_iso_date": "1927",
+	"end_iso_date": "1927",
+	"medium": "Etching, engraving, and stipple engraving",
+	"medium_parts": ["Etching, engraving, and stipple engraving"],
+	"dimensions": "37.9 x 30.2 cm (plate)",
+	"credit_line": "Achenbach Foundation for Graphic Arts",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2014-07-17 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "A man the likeness of a young Beethoven stands in the center of this composition surrounded by nearly naked young women both below as well as above, the latter presumably weighing on his apparently troubled mind. Funereal foliage glows a bit in the overall darkness. (Jim Hahn  11/10/94)",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1963-04-09",
+	"location_string": "Legion, 210, Compact Shelf 07, 209",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 07",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "The C-Sharp Minor Quartet",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 3598,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Norman Lindsay",
+			"AlphaSort": "Norman Lindsay",
+			"Nationality": "Australian",
+			"BeginDate": 1879,
+			"EndDate": 1969,
+			"DisplayDate": "1879–1969",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Norman Lindsay (1879–1969)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "14 15/16 x 11 7/8 in. (37.9 x 30.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Plate (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Australia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAAAC",
+					"term": "Australia"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Norman Lindsay",
+	"primary_artist_display": "Norman Lindsay (1879–1969)",
+	"sort_artist": "Norman Lindsay",
+	"display_year": "1927",
+	"doc_id": "1963.30.29363",
+	"slug": "1963.30.29363/the-c-sharp-minor-quartet",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1927,
+	"media": [
+		{
+			"media_xref_id": 54351,
+			"media_master_id": 162707,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7062,
+			"pixel_w": 4731,
+			"file_name": "A043319_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 54353,
+			"media_master_id": 77268,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2367,
+			"pixel_w": 1820,
+			"file_name": "4043202410800019.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 54352,
+			"media_master_id": 31408,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3000,
+			"pixel_w": 2371,
+			"file_name": "0714201713010012.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [],
+	"facet_technique": ["engraving", "etching", "stipple engraving"],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "Australia",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — engraving, etching, stipple engraving · Australia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

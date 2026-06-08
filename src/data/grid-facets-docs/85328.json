@@ -1,0 +1,404 @@
+{
+	"id": 85328,
+	"accession_number": "1986.16.1",
+	"sort_number": "1986.16.1",
+	"title": "NKISI NKONDI (NAIL AND BLADE OATH-TAKING FIGURE)",
+	"object_name": null,
+	"display_date": "19th century",
+	"begin_iso_date": "1801",
+	"end_iso_date": "1900",
+	"medium": "Wood, metal, glass, textile, pigment, rawhide, vegetable fiber, feathers, porcupine quills, tusk",
+	"medium_parts": [
+		"Wood, metal, glass, textile, pigment, rawhide, vegetable fiber, feathers, porcupine quills, tusk"
+	],
+	"dimensions": "33 7/8 x 12 5/8 x 9 3/4 in., (86 x 32 x 24.75 cm,)",
+	"credit_line": "Museum purchase, gift of Mrs. Paul L. Wattis and the Fine Arts Museums Acquisition Fund",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Sculpture",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2024-07-01 11:42:33.827000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": "The Kongo people believe that their great god, Ne Kongo, delivered the first sacred nkisi (medicine) from heaven in an earthenware container. Created by a skilled Kongo artist, nkisi nkondi can serve as an oath-taking figure to resolve disputes or lawsuits and also acts as a guardian of Kongo spiritual beliefs and practices. Known as power figures, they are identifyable through the nails and blades embedded in the wood and often have medicines placed in a mirror box at the stomach and on top of the head. This nkisi nkondi also has materials behind the eyes and inside the mouth, with numerous nails and blades piercing it. At the request of a client or opposing parties, a nganga or spiritual healer commissions a nkisi figure and then ritually drive the metals, representing the disputes or issues, into the figure. They make an oath or agreement, and if it is broken, the nganga activates the nkisi to carry out its mission of divine punishment or protection. The partnership between the artist and spiritual leader are essential in crafting and empowering nkisi nkondi, which are used to tackle social, political, and health issues within the community.",
+	"didactic_label": "This powerful figure's acutely alert pose indicates its central role as a spirit being who settled lawsuits or serious disputes in its Kongo community. The figure was viewed as a living spirit presence and was addressed by clients. Each nail and blade in its body either represents a condensed argument that helped resolve a legal matter or was pounded in when the spirit was being asked to do its work. The figure was collected in 1903 by R. Visser, a missionary-ethnographer of what was then called the Belgian Congo. \r\n\r\nAudio Tour 216 (Green)",
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Collected in 1903 by Robert Visser, head of a Dutch trading company in the Lower Kongo region; was the main purveyor of Kongo art for the Berlin and Stuttgart Museums from 1902-1909.Ex-coll. Museum für Völkerkunde, LeipzigEx-coll. Walter RandelEx-coll. Herbert Baker",
+	"label_text": "label saved in object's conservation folder: \"10 1903 Majumba Visser ??? 883\"",
+	"accession_iso_date": "1986-06-12",
+	"location_string": "de Young, Display, Gallery 040, Floor Case 3",
+	"location_building": "de Young",
+	"location_room": "Gallery 040",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Nkisi nkondi (Nail and blade oath-taking figure)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 38243,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Kongo",
+			"AlphaSort": "Kongo",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": false,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "33 7/8 x 12 5/8 x 9 3/4 in., (86 x 32 x 24.75 cm,)",
+			"description": "9/16/2022",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 2
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Democratic Republic of the Congo",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAIT",
+					"term": "Congo, République Démocratique du"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "wood",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1801–1900",
+	"doc_id": "1986.16.1",
+	"slug": "1986.16.1/nkisi-nkondi-nail-and-blade-oath-taking-figure",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1801,
+	"media": [
+		{
+			"media_xref_id": 194885,
+			"media_master_id": 202453,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 10,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9778,
+			"pixel_w": 7491,
+			"file_name": "MS_85328_6.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 194882,
+			"media_master_id": 202450,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 7,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9718,
+			"pixel_w": 7782,
+			"file_name": "MS_85328_3.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 194880,
+			"media_master_id": 202448,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 5,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9718,
+			"pixel_w": 7782,
+			"file_name": "MS_85328_1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 194883,
+			"media_master_id": 202451,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 8,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9718,
+			"pixel_w": 7782,
+			"file_name": "MS_85328_4.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 194881,
+			"media_master_id": 202449,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 6,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9718,
+			"pixel_w": 7782,
+			"file_name": "MS_85328_2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 194884,
+			"media_master_id": 202452,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 9,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9718,
+			"pixel_w": 7782,
+			"file_name": "MS_85328_5.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 194886,
+			"media_master_id": 202454,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 11,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6349,
+			"pixel_w": 7066,
+			"file_name": "MS_85328_7.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 163224,
+			"media_master_id": 130057,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4808,
+			"pixel_w": 2216,
+			"file_name": "8528320115670007.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 183773,
+			"media_master_id": 200544,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9718,
+			"pixel_w": 7782,
+			"file_name": "MS_85328_1_Crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Glass",
+			"specific": "glas"
+		},
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Pigment",
+			"specific": ""
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Democratic Republic of the Congo",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — glas, , ,  · Democratic Republic of the Congo",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

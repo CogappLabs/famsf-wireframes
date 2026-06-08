@@ -1,0 +1,153 @@
+{
+	"id": 255801,
+	"accession_number": "52911",
+	"sort_number": "52911",
+	"title": "SASH (UÇKUR)",
+	"object_name": "belt/sash",
+	"display_date": "19th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "cotton, metallic thread; embroidery",
+	"medium_parts": ["cotton, metallic thread", "embroidery"],
+	"dimensions": "30.5 x 247.7 cm (12  x 97 1/2 in.)",
+	"credit_line": "Gift of Mrs. Hilda R. Nuttall in memory of Magdalena Nuttall",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2019-11-14 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Embroidered at each end in metallic gold. Per Jean Neder's thesis(NK 9165 N4 O7, p.85), \"Lacking the careful detail and workmanship of earlier towels, it was probably designed as an item for trade.\" Design depicts a circular center motif topped with a carnation and flanked with hyacinths. Worked in siri(herringbone), satin and pesent stitches, center of medallion in Locum stitch.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1914-01-26",
+	"location_string": "de Young, 059, Cabinet 57, TC",
+	"location_building": "de Young",
+	"location_room": "Cabinet 57",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Sash (uçkur)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "12 x 97 1/2 in. (30.5 x 247.7 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Turkey",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAID",
+					"term": "Türkiye"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "52911",
+	"slug": "52911/sash-uckur",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 96369,
+			"media_master_id": 58931,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2034,
+			"pixel_w": 736,
+			"file_name": "3101200310040387.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "metallic thread"
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "Middle East",
+			"country": "Turkey",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , metallic thread, embroidery · Turkey",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 36
+	}
+}

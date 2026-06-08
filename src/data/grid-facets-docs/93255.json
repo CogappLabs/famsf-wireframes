@@ -1,0 +1,217 @@
+{
+	"id": 93255,
+	"accession_number": "2002.111",
+	"sort_number": "2002.111",
+	"title": "WOMAN'S FESTIVAL HEADDRESS (PERAK)",
+	"object_name": "headwear",
+	"display_date": "early 20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "wool ,yak hair, lambskin, synthetic fiber, turquoise, coral, amber, carnelian, silver, silver gild, metallic thread, glass, silk; appliedaccessory objects, warp wrapping; silk cloth (lining)",
+	"medium_parts": [
+		"wool ,yak hair, lambskin, synthetic fiber, turquoise, coral, amber, carnelian, silver, silver gild, metallic thread, glass, silk",
+		"appliedaccessory objects, warp wrapping",
+		"silk cloth (lining)"
+	],
+	"dimensions": "124.5 x 40.6 cm (49.5 x 16 in.)",
+	"credit_line": "Museum purchase, Textile Arts Council Endowment Fund and Gift of  Ngawang and Pema Bista",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-06 10:49:27.167000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2002-10-10",
+	"location_string": "de Young, 061, Cabinet 071, B",
+	"location_building": "de Young",
+	"location_room": "Cabinet 071",
+	"edition": null,
+	"signed": null,
+	"inscribed": "L02.109",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Woman's festival headdress (perak)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41201,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Kirati",
+			"AlphaSort": "Kirati",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "49 x 16 in. (124.5 x 40.6 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Ladakh",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAAL",
+					"term": "area disputed by India and Pakistan"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAAL.AAAAA.AAEEA",
+					"term": "Ladākh"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2002.111",
+	"slug": "2002.111/woman-s-festival-headdress-perak",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 121046,
+			"media_master_id": 43094,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2839,
+			"pixel_w": 1288,
+			"file_name": "1126200210550135.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 121045,
+			"media_master_id": 42084,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2839,
+			"pixel_w": 1288,
+			"file_name": "1107200215060249.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Glass",
+			"specific": "glas"
+		},
+		{
+			"parent": "Gold & silver",
+			"specific": "silver"
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Stone",
+			"specific": "turquoise"
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "metallic thread"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "",
+			"notable": "Ladakh"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — glas, silver, , turquoise … · Ladakh",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 36
+	}
+}

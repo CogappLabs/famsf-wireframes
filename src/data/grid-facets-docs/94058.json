@@ -1,0 +1,209 @@
+{
+	"id": 94058,
+	"accession_number": "1985.62",
+	"sort_number": "1985.62",
+	"title": "OGO ELEGBA (ESU DANCE STAFF)",
+	"object_name": "figure",
+	"display_date": "early 20th century",
+	"begin_iso_date": "1900",
+	"end_iso_date": "1925",
+	"medium": "Wood, leather, vegetable fiber, and cloth",
+	"medium_parts": ["Wood, leather, vegetable fiber, and cloth"],
+	"dimensions": "Overall: 15 3/4 x 3 3/8 x 8 11/16 in., (40 x 8.5 x 22 cm,)",
+	"credit_line": "Gift of Professor Erle Loran",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Sculpture",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-05-26 15:10:14.730000",
+	"is_virtual": false,
+	"identifying_description": "Esu figure with curved horn.",
+	"web_text": "The Yoruba culture in Nigeria has a complex system of vibrant Orishas (deities) that are described as mediators between the human and spirit worlds. Èṣù (also called Esegba or Elegua) is one of the most prominent and important deities in Yoruba religion. He maintains the delicate balance between good and bad, just and unjust, happiness and sorrow. Èṣù is a messenger to the Orishas, supervises sacrifices, and acts as an intermediary between humans, and evil spirits. His power is often depicted in objects, such as this dance staff of a warrior with an elongated cap that can be hooked over the shoulder during ceremonies that honor him.",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1985-11-05",
+	"location_string": "de Young, Display, Gallery 040",
+	"location_building": "de Young",
+	"location_room": "Gallery 040",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Ogo Elegba (Esu dance staff)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 37833,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Yoruba",
+			"AlphaSort": "Yoruba",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "15 3/4 x 3 3/8 x 8 11/16 in., (40 x 8.5 x 22 cm,)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Nigeria",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAABD",
+					"term": "Nigeria"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1900–25",
+	"doc_id": "1985.62",
+	"slug": "1985.62/ogo-elegba-esu-dance-staff",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1900,
+	"media": [
+		{
+			"media_xref_id": 181406,
+			"media_master_id": 198040,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7310,
+			"pixel_w": 7207,
+			"file_name": "MS_20220915_94058_2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 181405,
+			"media_master_id": 198039,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7246,
+			"pixel_w": 6700,
+			"file_name": "MS_20220915_94058_1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 181836,
+			"media_master_id": 198477,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7310,
+			"pixel_w": 6476,
+			"file_name": "MS_20220915_94058_2_Crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Leather",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "cloth"
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Nigeria",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , cloth,  · Nigeria",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 42
+	}
+}

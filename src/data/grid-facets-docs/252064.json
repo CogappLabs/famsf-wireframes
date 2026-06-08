@@ -1,0 +1,158 @@
+{
+	"id": 252064,
+	"accession_number": "76.13.1",
+	"sort_number": "76.13.1",
+	"title": "CHASTITY BELT",
+	"object_name": "waist",
+	"display_date": null,
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "beads, sinnet braids, and shell",
+	"medium_parts": ["beads, sinnet braids, and shell"],
+	"dimensions": "45 (114.3 cm)",
+	"credit_line": "Gift of Mr. H.D. Huxley",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Personal Accessory",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2011-11-04 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "brown and white, in alternating bands",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Collected by the donor in 1944",
+	"label_text": null,
+	"accession_iso_date": "1976-05-05",
+	"location_string": "de Young, 061, Cabinet 021, C",
+	"location_building": "de Young",
+	"location_room": "Cabinet 021",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Chastity belt",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "45 in. (114.3 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Chuuk State",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAABB",
+					"term": "Micronesia"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA",
+					"term": "Chuuk"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "76.13.1",
+	"slug": "76.13.1/chastity-belt",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 176545,
+			"media_master_id": 129745,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1408,
+			"pixel_w": 2788,
+			"file_name": "8312329111140066.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Shell",
+			"specific": ""
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "bead"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "",
+			"notable": "Chuuk State"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , bead · Chuuk State",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 35
+	}
+}

@@ -1,0 +1,649 @@
+{
+	"id": 58999,
+	"accession_number": "1982.130.1-13",
+	"sort_number": "1982.130.1-13",
+	"title": "YURT (AK ÖÝ)",
+	"object_name": "miscellaneous furnishing",
+	"display_date": "late 19th–20th century",
+	"begin_iso_date": "1875",
+	"end_iso_date": "1960",
+	"medium": "wood, cane,  iron, leather, wool, goat hair, cotton; felt",
+	"medium_parts": [
+		"wood, cane,  iron, leather, wool, goat hair, cotton",
+		"felt"
+	],
+	"dimensions": "156 x 180 x 180 in.",
+	"credit_line": "The Caroline and H. McCoy Jones Collection Gift of Caroline and H. McCoy Jones",
+	"department": "Costume and Textile Arts",
+	"classification": "Furnishing",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-27 11:25:59.960000",
+	"is_virtual": false,
+	"identifying_description": ".1 - Roof wheel, double rim enclosing a central cross, 2 groups of 10 curved poles bound together with leather.2.1-59 - Roof struts --fifty-nine.3.1-4 -  Wall lattices, accordian-jointed - four.4 - Door frame, wood and wrought iron, wood jambs - WARE001F00, 64 x 35 1/2 x 120\".5.1-2 - Upper and lower door crossbars, wood with five holes (upper) and four sockets (lower).6.1-2 - Right and left entrance doors.7 -  Ram's kkull.8.1-2 - Cane screens for exterior - two.9.1-2 - Roof felts, semi-circular, lined with white canvas and red cotton - two.10.1-4 - Wall felts, lined with white canvas and red cotton - four.11 - Tent band, wool with red and black center stripe, black, red, brown outer stripe; large.12.1-12 - Tent bands, various colors and designs, small - twelve.13 - Cord ties, many dark brown goat hair tie cords.",
+	"web_text": "The Turkmen people of Central Asia have traditionally lived in round, felt-covered dwellings that can be disassembled and reassembled elsewhere. This allows for regular migration between summer and winter pastures, which is necessary for the grazing of sheep, goats, and camels. An ak öý (white dwelling) differs from the typical Turkmen gara öý (black dwelling). For an ak öý, the felt is made from white wool, which is less common than black wool. The ak öý is typically the home of newlyweds.",
+	"didactic_label": null,
+	"exhibition_history_text": "Tent and Town, deYoung, 11/20/1982 - 02/06/1983",
+	"bibliography_text": null,
+	"provenance": "Jay Jones, 2630 Castro Valley Boulevard, Hayward, California",
+	"label_text": null,
+	"accession_iso_date": "1983-01-06",
+	"location_string": "Egbert, Area 1, Shelf 24, D",
+	"location_building": "Egbert",
+	"location_room": "Shelf 24",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Yurt (ak öý)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		},
+		{
+			"title": "Tent (ak ôy)",
+			"title_type": "Former Title",
+			"language": "(not assigned)",
+			"display_order": 2
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 37647,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Turkmen, Ersari tribe",
+			"AlphaSort": "Turkmen, Ersari tribe",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		},
+		{
+			"ConstituentID": 37648,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Turkmen",
+			"AlphaSort": "Turkmen",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "156 x 180 x 180 in. (396.2 x 457.2 x 457.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": true,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Central Asia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAMD",
+					"term": "Central Asia"
+				}
+			]
+		},
+		{
+			"term": "Afghanistan",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAI",
+					"term": "Afghānestān"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "cotton",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAD",
+					"term": "cotton"
+				}
+			]
+		},
+		{
+			"term": "wood",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				}
+			]
+		},
+		{
+			"term": "leather",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
+					"term": "animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF",
+					"term": "processed animal material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF.AAC",
+					"term": "leather"
+				}
+			]
+		},
+		{
+			"term": "goat hair",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
+					"term": "animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE",
+					"term": "keratinous material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB",
+					"term": "hair and hair components as materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA",
+					"term": "hair"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAA",
+					"term": "hair by composition or origin"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAA.AAH",
+					"term": "goat hair"
+				}
+			]
+		},
+		{
+			"term": "wool",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAR",
+					"term": "wool"
+				}
+			]
+		},
+		{
+			"term": "cane",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAC",
+					"term": "cane"
+				}
+			]
+		},
+		{
+			"term": "felt",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD",
+					"term": "textile materials by process or technique"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD.AAL",
+					"term": "felt"
+				}
+			]
+		},
+		{
+			"term": "iron",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
+					"term": "metal by composition or origin"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAA",
+					"term": "iron and iron alloy"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAA.AAA",
+					"term": "iron"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1875–1960",
+	"doc_id": "1982.130.1-13",
+	"slug": "1982.130.1-13/yurt-ak-oy",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1875,
+	"media": [
+		{
+			"media_xref_id": 92954,
+			"media_master_id": 30653,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3600,
+			"pixel_w": 4537,
+			"file_name": "0610200917300013.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Leather",
+			"specific": ""
+		},
+		{
+			"parent": "Metal",
+			"specific": "iron"
+		},
+		{
+			"parent": "Textile",
+			"specific": "felt"
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Central Asia",
+			"country": "",
+			"notable": ""
+		},
+		{
+			"region": "Central Asia",
+			"country": "Afghanistan",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , iron, felt … · Central Asia, Afghanistan",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

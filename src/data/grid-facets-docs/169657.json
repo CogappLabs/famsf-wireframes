@@ -1,0 +1,191 @@
+{
+	"id": 169657,
+	"accession_number": "2006.133",
+	"sort_number": "2006.133",
+	"title": "EVENING GOWN",
+	"object_name": "woman's costume",
+	"display_date": "ca. 2005",
+	"begin_iso_date": "2005",
+	"end_iso_date": "2005",
+	"medium": "silk chiffon, beads, sequins, rhinestones, metal thread",
+	"medium_parts": ["silk chiffon, beads, sequins, rhinestones, metal thread"],
+	"dimensions": "147.3 x 50.8 x 2.5 cm (58 x 20 x 1 in.)",
+	"credit_line": "Gift of Diana Dollar Knowles",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2020-12-09 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Blue and white ombre stripe chiffon with tonal beading. Long princess-seamed slim dress with long sleeves, off-shoulder neckline. Labeled size 6. Silver thread embroidery, beading and bead loops. Boned inner bodice. Top two layers are horizontally striped, third inner layer is white. Sleeves fasten at wrists with a single covered and beaded button.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2006-12-31",
+	"location_string": "de Young, 059, Cabinet 19, G",
+	"location_building": "de Young",
+	"location_room": "Cabinet 19",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Evening gown",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 213,
+			"Role": "Designer",
+			"RoleID": 67,
+			"DisplayName": "Oscar de la Renta",
+			"AlphaSort": "Oscar de la Renta",
+			"Nationality": "American",
+			"BeginDate": 1932,
+			"EndDate": 2014,
+			"DisplayDate": "1932–2014",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Oscar de la Renta (1932–2014)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "58 x 20 x 1 in. (147.3 x 50.8 x 2.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "New York City",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFW",
+					"term": "New York"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFW.AAAJG",
+					"term": "New York"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Oscar de la Renta",
+	"primary_artist_display": "Oscar de la Renta (1932–2014)",
+	"sort_artist": "Oscar de la Renta",
+	"display_year": "2005",
+	"doc_id": "2006.133",
+	"slug": "2006.133/evening-gown",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 2005,
+	"media": [
+		{
+			"media_xref_id": 132403,
+			"media_master_id": 22345,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3000,
+			"pixel_w": 1705,
+			"file_name": "0412201212100001.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Glass",
+			"specific": "rhinestone"
+		},
+		{
+			"parent": "Textile",
+			"specific": "silk chiffon"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "bead"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "sequin"
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "metal thread"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": "New York City"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — rhinestone, silk chiffon, bead, sequin … · New York City",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

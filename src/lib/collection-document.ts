@@ -20,6 +20,27 @@ export interface TermEntry {
 	path: TermNode[];
 }
 
+/**
+ * Hierarchical place facet (region → country → notable place) derived from
+ * the REGION_REMAP curator workbook. `country` / `notable` may be empty when
+ * the mapped node is itself that tier.
+ */
+export interface PlaceFacet {
+	region: string;
+	country: string;
+	notable: string;
+}
+
+/**
+ * Two-tier material facet (parent → specific) derived from the Material
+ * workbook's FACET_DESIGN_v2 design (e.g. Metal → bronze, Ceramic →
+ * earthenware). Technique stays flat (`facet_technique: string[]`).
+ */
+export interface MaterialFacet {
+	parent: string;
+	specific: string;
+}
+
 export interface TranscriptionSegment {
 	raw: string;
 	location: string | null;
@@ -204,6 +225,15 @@ export interface CollectionDocument {
 	term_materials?: TermEntry[];
 	term_subject?: TermEntry[];
 	term_intended_market?: TermEntry[];
+	/**
+	 * Curator-taxonomy facets, pre-derived for the search-results
+	 * `grid-facets` variation by scripts/export_grid_facets_docs.py from the
+	 * REGION_REMAP + Material workbooks. NOT emitted by the production
+	 * pipeline yet — present only on src/data/grid-facets-docs/ exports.
+	 */
+	facet_place?: PlaceFacet[];
+	facet_material?: MaterialFacet[];
+	facet_technique?: string[];
 	primary_artist: string;
 	iiif_info_url?: string;
 	iiif_thumbnail_url?: string;

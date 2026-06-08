@@ -1,0 +1,214 @@
+{
+	"id": 238593,
+	"accession_number": "52854",
+	"sort_number": "52854",
+	"title": "CHALICE COVER IN THE FORM OF A CROSS",
+	"object_name": "ecclesiastical/ritual furnishing",
+	"display_date": "17th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "silk, cotton, chenille, metal thread; embroidery",
+	"medium_parts": ["silk, cotton, chenille, metal thread", "embroidery"],
+	"dimensions": "50.8 x 50.8 cm (20  x 20  in.) cross-shaped",
+	"credit_line": "Gift of Mrs. Hilda R. Nuttall in memory of Magdalena Nuttall",
+	"department": "Costume and Textile Arts",
+	"classification": "Textile",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2021-01-11 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "A square cross of five rectangular sections (a central square with four arms) sewn together and embroidered.  Each arm of the cross is embroidered with an angel, the center with the infant Christ in the manger (?)  and a seraphim with double wings.  The wings and garments of the figures are outlined in light blue chenille. Inscription in Russian or Armenian.\r\nCouched black cotton and gold metal threads, blue and gold chenille.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1914-01-26",
+	"location_string": "de Young, 059, Cabinet 03, M",
+	"location_building": "de Young",
+	"location_room": "Cabinet 03",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Chalice cover in the form of a cross",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "20 x 20 in. (50.8 x 50.8 cm)",
+			"description": "cross-shaped",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Finland",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAAIV",
+					"term": "Suomi"
+				}
+			]
+		},
+		{
+			"term": "Russia",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAEY",
+					"term": "Rossija"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "52854",
+	"slug": "52854/chalice-cover-in-the-form-of-a-cross",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 96334,
+			"media_master_id": 48302,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1666,
+			"pixel_w": 1794,
+			"file_name": "1508200312160179.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "chenille"
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "metal thread"
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "Finland",
+			"notable": ""
+		},
+		{
+			"region": "East Asia",
+			"country": "Russia",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , chenille, metal thread … · Finland, Russia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 38
+	}
+}

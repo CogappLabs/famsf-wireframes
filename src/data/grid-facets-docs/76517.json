@@ -1,0 +1,223 @@
+{
+	"id": 76517,
+	"accession_number": "2000.118.24",
+	"sort_number": "2000.118.24",
+	"title": "WRAPPING CLOTH (BOKCHE)",
+	"object_name": "miscellaneous furnishing",
+	"display_date": "19th–20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "cotton, silk; plain weave, embroidery",
+	"medium_parts": ["cotton, silk", "plain weave, embroidery"],
+	"dimensions": "24.8 x 24.8 x 2.5 cm (9 3/4 x 9 3/4 x 1 in.)",
+	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nGift of Caroline McCoy-Jones",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-27 13:03:23.893000",
+	"is_virtual": false,
+	"identifying_description": "shaped like an envelope, embroidered in geometric patterns in brown, blue, cream, tan\r\nTextile, embroidery",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2000-10-12",
+	"location_string": "de Young, 059, Cabinet 24, D",
+	"location_building": "de Young",
+	"location_room": "Cabinet 24",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Wrapping cloth (bokche)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40665,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Turkmen, Yomut tribe",
+			"AlphaSort": "Turkmen, Yomut tribe",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "9 3/4 x 9 3/4 x 1 in. (24.8 x 24.8 x 2.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Central Asia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAMD",
+					"term": "Central Asia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2000.118.24",
+	"slug": "2000.118.24/wrapping-cloth-bokche",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 214017,
+			"media_master_id": 221258,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9754,
+			"pixel_w": 7932,
+			"file_name": "MS_76517_20230724_1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 110183,
+			"media_master_id": 50613,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1881,
+			"pixel_w": 1734,
+			"file_name": "2002101715130037.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 210672,
+			"media_master_id": 217919,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8053,
+			"pixel_w": 7932,
+			"file_name": "MS_76517_20230724_1_Crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 214018,
+			"media_master_id": 221259,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 13399,
+			"pixel_w": 8281,
+			"file_name": "MS_76517_20230724_2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "Central Asia",
+			"country": "",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , embroidery · Central Asia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 38
+	}
+}

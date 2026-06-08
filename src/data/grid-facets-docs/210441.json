@@ -1,0 +1,254 @@
+{
+	"id": 210441,
+	"accession_number": "2012.42.152a-b",
+	"sort_number": "2012.42.152a-b",
+	"title": "JACKET AND SKIRT",
+	"object_name": "woman's costume",
+	"display_date": "1981–1999",
+	"begin_iso_date": "1981",
+	"end_iso_date": "1999",
+	"medium": "black silk, linen, wool, cashmere, polyester and coyote fur",
+	"medium_parts": [
+		"black silk, linen, wool, cashmere, polyester and coyote fur"
+	],
+	"dimensions": "96.5 x 68.6 x 12.7 cm (38 x 27 x 5 in.) coat; 83.8 x 78.7 x 15.2 cm (33 x 31 x 6 in.) skirt",
+	"credit_line": "Gift of Mrs. John N. Rosekrans, Jr.",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2014-09-08 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Black silk satin padded jacket and skirt. Drop shoulder jacket with cuffed sleeves and stand collar, snap closures. Long flared skirt, no waistband, fur hem. Both pieces lined with beige linen,wool, cashmere flannel. Large black safety pin (such pins are evident in Yamamoto runway shows) at left waist.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2012-10-18",
+	"location_string": "de Young",
+	"location_building": "de Young",
+	"location_room": null,
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Jacket and skirt",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 2859,
+			"Role": "Designer",
+			"RoleID": 67,
+			"DisplayName": "Yohji Yamamoto",
+			"AlphaSort": "Yohji Yamamato",
+			"Nationality": "Japanese",
+			"BeginDate": 1943,
+			"EndDate": 0,
+			"DisplayDate": "b. 1943",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1943"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "38 in. (96.5 cm)",
+			"description": "coat",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "6 in. (15.2 cm)",
+			"description": "skirt",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 2
+		},
+		{
+			"display_dimensions": "33 x 27 in. (83.8 x 68.6 cm)",
+			"description": "skirt",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 3
+		},
+		{
+			"display_dimensions": "31 x 5 in. (78.7 x 12.7 cm)",
+			"description": "skirt",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 4
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Japan",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAACQ",
+					"term": "Nihon"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Yohji Yamamoto",
+	"primary_artist_display": "b. 1943",
+	"sort_artist": "Yohji Yamamato",
+	"display_year": "1981–99",
+	"doc_id": "2012.42.152a-b",
+	"slug": "2012.42.152a-b/jacket-and-skirt",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1981,
+	"media": [
+		{
+			"media_xref_id": 140614,
+			"media_master_id": 16528,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3008,
+			"pixel_w": 2000,
+			"file_name": "0211201414260133.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 140616,
+			"media_master_id": 141668,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3008,
+			"pixel_w": 2000,
+			"file_name": "0213201417240013.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 140613,
+			"media_master_id": 14397,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3008,
+			"pixel_w": 2000,
+			"file_name": "0115201414520161.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 140615,
+			"media_master_id": 140832,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3008,
+			"pixel_w": 2000,
+			"file_name": "0212201417590014.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Textile",
+			"specific": "linen"
+		},
+		{
+			"parent": "Textile",
+			"specific": "polyester"
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		},
+		{
+			"parent": "Wool",
+			"specific": "cashmere"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "Japan",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — linen, polyester, , cashmere · Japan",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 42
+	}
+}

@@ -1,0 +1,224 @@
+{
+	"id": 197636,
+	"accession_number": "45549",
+	"sort_number": "45549",
+	"title": "PRESTIGE STAFF",
+	"object_name": "walking stick",
+	"display_date": "ca. 1920–1940",
+	"begin_iso_date": "1915",
+	"end_iso_date": "1945",
+	"medium": "Wood, copper, iron, and lead",
+	"medium_parts": ["Wood, copper, iron, and lead"],
+	"dimensions": "38 x 2 1/4 x 2 1/4 in. (96.5 x 5.7 x 5.7 cm)",
+	"credit_line": "Gift of E.H. Lestock Gregory",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Personal Accessory",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2023-05-30 14:06:08.880000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1919-07-10",
+	"location_string": "de Young, 061, Cabinet 098, B",
+	"location_building": "de Young",
+	"location_room": "Cabinet 098",
+	"edition": null,
+	"signed": null,
+	"inscribed": "Had L number as well as current number in black ink",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Prestige staff",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 38461,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Tsonga",
+			"AlphaSort": "Tsonga",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "38 x 2 1/4 x 2 1/4 in. (96.5 x 5.7 x 5.7 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "South Africa",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAEE",
+					"term": "South Africa"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "wood",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1915–45",
+	"doc_id": "45549",
+	"slug": "45549/prestige-staff",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1915,
+	"media": [
+		{
+			"media_xref_id": 83263,
+			"media_master_id": 31305,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 633,
+			"pixel_w": 107,
+			"file_name": "0711200102300023.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Metal",
+			"specific": "copper"
+		},
+		{
+			"parent": "Metal",
+			"specific": "iron"
+		},
+		{
+			"parent": "Metal",
+			"specific": "lead"
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "South Africa",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — copper, iron, lead,  · South Africa",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 42
+	}
+}

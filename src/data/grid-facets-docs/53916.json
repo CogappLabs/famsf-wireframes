@@ -1,0 +1,253 @@
+{
+	"id": 53916,
+	"accession_number": "1997.191.5",
+	"sort_number": "1997.191.5",
+	"title": "KILIM",
+	"object_name": "rug, miscellaneous",
+	"display_date": null,
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Wool; slit-tapestry weave, eccentric-curved wefts, eccentric-weft contour bands, extra-weft contour wrapping",
+	"medium_parts": [
+		"Wool",
+		"slit-tapestry weave, eccentric-curved wefts, eccentric-weft contour bands, extra-weft contour wrapping"
+	],
+	"dimensions": "439.4 x 129.5 cm (173 x 51 in.)",
+	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nGift of Caroline McCoy-Jones",
+	"department": "Costume and Textile Arts",
+	"classification": "Furnishing",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-27 09:05:51.067000",
+	"is_virtual": false,
+	"identifying_description": "Colors: white, red, blue, yellow, pink, brown, light peach, pink, blue-green\r\nWarp count: 7/in.; Warp Z2S; Weft: Z",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "Anatolian Kilims(SF)  11/90 - 1/91\r\n Same on tour: Institut du Monde Arabe, Paris  9/91 - 11/91\r\n                                     Credit Communale, Brussels  12/91 - 3/92\r\nThe Art of the Anatolian Kilim: Highlights from the McCoy Jones Collection, DY 2011-2",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1997-12-31",
+	"location_string": "de Young, 059, Cabinet 49, G",
+	"location_building": "de Young",
+	"location_room": "Cabinet 49",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Kilim",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40704,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Turkish",
+			"AlphaSort": "Turkish",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "173 x 51 in. (439.4 x 129.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Nevşehir",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAAUE",
+					"term": "Nevşehir"
+				}
+			]
+		},
+		{
+			"term": "Niğde",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAAUF",
+					"term": "Niğde"
+				}
+			]
+		},
+		{
+			"term": "Cappadocia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABLC",
+					"term": "Cappadocia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1997.191.5",
+	"slug": "1997.191.5/kilim",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 99682,
+			"media_master_id": 152331,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4192,
+			"pixel_w": 1792,
+			"file_name": "0609201113000011.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 99681,
+			"media_master_id": 169404,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8168,
+			"pixel_w": 10293,
+			"file_name": "A307225_V1.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "",
+			"notable": "Nevşehir"
+		},
+		{
+			"region": "East Asia",
+			"country": "",
+			"notable": "Niğde"
+		},
+		{
+			"region": "East Asia",
+			"country": "Achaemenid",
+			"notable": "Cappadocia"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice —  · Nevşehir, Niğde, Cappadocia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 36
+	}
+}

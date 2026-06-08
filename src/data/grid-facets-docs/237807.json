@@ -1,0 +1,208 @@
+{
+	"id": 237807,
+	"accession_number": "2008.49.55",
+	"sort_number": "2008.49.55",
+	"title": "DIVINER'S NECKLACE (ODIGBA IFA)",
+	"object_name": "jewelry",
+	"display_date": "late 19th–20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Glass beads, cotton, leather, brass, cardboard; bead embroidery (couching); wool; twill-weave (backing)",
+	"medium_parts": [
+		"Glass beads, cotton, leather, brass, cardboard",
+		"bead embroidery (couching)",
+		"wool",
+		"twill-weave (backing)"
+	],
+	"dimensions": "124.5 x 20.3 x 2.5 cm (49 x 8.5 x 1.25 in.)",
+	"credit_line": "Diane and Sandy Besser Collection, Santa Fe, New Mexico",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2018-06-01 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2008-10-23",
+	"location_string": "de Young, 061, Cabinet 084, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 084",
+	"edition": null,
+	"signed": null,
+	"inscribed": "L07.29.4.48",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Diviner's necklace (odigba ifa)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 37833,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Yoruba",
+			"AlphaSort": "Yoruba",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "49 x 8 x 1 in. (124.5 x 20.3 x 2.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Nigeria",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAABD",
+					"term": "Nigeria"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2008.49.55",
+	"slug": "2008.49.55/diviner-s-necklace-odigba-ifa",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 133618,
+			"media_master_id": 31555,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7214,
+			"pixel_w": 3240,
+			"file_name": "0718200710340029.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 133616,
+			"media_master_id": 168005,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7214,
+			"pixel_w": 3240,
+			"file_name": "A384115_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Leather",
+			"specific": ""
+		},
+		{
+			"parent": "Metal",
+			"specific": "bras"
+		},
+		{
+			"parent": "Paper",
+			"specific": "cardboard"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "glass bead"
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Nigeria",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , bras, cardboard … · Nigeria",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 36
+	}
+}

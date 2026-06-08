@@ -1,0 +1,160 @@
+{
+	"id": 84388,
+	"accession_number": "1971.17.719",
+	"sort_number": "1971.17.719",
+	"title": "ALLEGRO VIVACE-8TH SYMPHONY",
+	"object_name": null,
+	"display_date": "1925",
+	"begin_iso_date": "1925",
+	"end_iso_date": "1925",
+	"medium": "Etching and stipple engraving",
+	"medium_parts": ["Etching and stipple engraving"],
+	"dimensions": "31.5 x 36.8 cm (plate)",
+	"credit_line": "Gift of Dr. Ludwig A. Emge",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2010-02-16 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "A mob of young naked men and women, dancing, kissing, hugging, feeling, falling... They disappear to the horizon at right beneath an image of  dancing naked ugly giants. At lower left a half dozen bounding face making goat boys. (Jim Hahn  11/10/94)",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1971-04-01",
+	"location_string": "Legion, 210, Compact Shelf 07, 110",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 07",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Allegro Vivace-8th Symphony",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 3598,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Norman Lindsay",
+			"AlphaSort": "Norman Lindsay",
+			"Nationality": "Australian",
+			"BeginDate": 1879,
+			"EndDate": 1969,
+			"DisplayDate": "1879–1969",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Norman Lindsay (1879–1969)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "12 3/8 x 14 1/2 in. (31.5 x 36.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Plate (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Australia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAAAC",
+					"term": "Australia"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Norman Lindsay",
+	"primary_artist_display": "Norman Lindsay (1879–1969)",
+	"sort_artist": "Norman Lindsay",
+	"display_year": "1925",
+	"doc_id": "1971.17.719",
+	"slug": "1971.17.719/allegro-vivace-8th-symphony",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1925,
+	"media": [
+		{
+			"media_xref_id": 54363,
+			"media_master_id": 77270,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1797,
+			"pixel_w": 2070,
+			"file_name": "4043202410800016.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [],
+	"facet_technique": ["etching", "stipple engraving"],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "Australia",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — etching, stipple engraving · Australia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

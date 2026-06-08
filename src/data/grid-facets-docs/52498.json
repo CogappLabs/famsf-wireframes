@@ -1,0 +1,272 @@
+{
+	"id": 52498,
+	"accession_number": "1998.145a-c",
+	"sort_number": "1998.145a-c",
+	"title": "MAN'S COURT COSTUME; COAT, BREECHES, AND WAISTCOAT",
+	"object_name": "man's costume",
+	"display_date": "ca. 1800",
+	"begin_iso_date": "1800",
+	"end_iso_date": "1800",
+	"medium": "silk, satin, velvet, silver, lace",
+	"medium_parts": ["silk, satin, velvet, silver, lace"],
+	"dimensions": "120 x 72 cm (47 1/4 x 28 3/8 in.)",
+	"credit_line": "Gift of  Mrs. Ella Atkinson-Putnam",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2021-01-07 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Breeches (a): knee length, pink cut stripe silk velvet. Plain flat silver buttons(image in object file). Waistcoat (b): white satin,  polychrome embroidery of rose buds, flowers, leaves, dots, and french knots, edged with strip of embroidered lace, embroidered buttons. Coat (c):Dark  plum colored cut stripe velvet on turquoise satin ground. Polychrome embroidery in floral design around high collar, down front, on very large pockets, and back vents. Large embroidered buttons down front, back and on pockets. Black silk wig bag suspended from back of collar to protect coat from queue. A straight pin of that period in silk. Image of coat and breeches in file. Dating refers to the coat and possibly the waistcoat. The breeches are from an earlier date.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "(Coat & waistcoat) A Gentleman's Finery, de Young Museum, 1985\r\n(Waistcoat only) Legion of Honor, Gallery 9C,  2004",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1998-12-10",
+	"location_string": "de Young, 059, Cabinet 48, TC",
+	"location_building": "de Young",
+	"location_room": "Cabinet 48",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Man's court costume; coat, breeches, and waistcoat",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 259,
+			"Role": "Attributed to",
+			"RoleID": 72,
+			"DisplayName": "Anonymous ",
+			"AlphaSort": "Anonymous",
+			"Nationality": "Italian",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "Italian, active 18th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		},
+		{
+			"ConstituentID": 2279,
+			"Role": "Attributed to",
+			"RoleID": 72,
+			"DisplayName": "Anonymous",
+			"AlphaSort": "Anonymous",
+			"Nationality": "French",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "French, active 18th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "47 1/4 x 28 3/8 in. (120 x 72 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "England",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAADQ",
+					"term": "Northern Europe"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAABT",
+					"term": "England"
+				}
+			]
+		},
+		{
+			"term": "France",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1800",
+	"doc_id": "1998.145a-c",
+	"slug": "1998.145a-c/man-s-court-costume-coat-breeches-and-waistcoat",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1800,
+	"media": [
+		{
+			"media_xref_id": 102642,
+			"media_master_id": 135453,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1918,
+			"pixel_w": 2196,
+			"file_name": "1508200312160478.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 102641,
+			"media_master_id": 39688,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1114,
+			"pixel_w": 755,
+			"file_name": "1007200511020006.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Gold & silver",
+			"specific": "silver"
+		},
+		{
+			"parent": "Lace",
+			"specific": ""
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "satin"
+		},
+		{
+			"parent": "Textile",
+			"specific": "velvet"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "United Kingdom",
+			"notable": "England"
+		},
+		{
+			"region": "Europe",
+			"country": "France",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — silver, , , satin … · England, France",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

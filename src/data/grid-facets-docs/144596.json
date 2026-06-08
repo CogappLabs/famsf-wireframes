@@ -1,0 +1,216 @@
+{
+	"id": 144596,
+	"accession_number": "2008.49.39",
+	"sort_number": "2008.49.39",
+	"title": "CORONET (ORIKOGBOFO)",
+	"object_name": "headwear",
+	"display_date": "20th century",
+	"begin_iso_date": "1901",
+	"end_iso_date": "2000",
+	"medium": "Glass beads, cotton, jute, nylon, metal; bead embroidery (couching)",
+	"medium_parts": [
+		"Glass beads, cotton, jute, nylon, metal",
+		"bead embroidery (couching)"
+	],
+	"dimensions": "8 x 8 x 8 in. (20.3 x 20.3 x 20.3 cm)",
+	"credit_line": "Diane and Sandy Besser Collection, Santa Fe, New Mexico",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2022-07-13 14:17:40.257000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": "During British colonial rule (1900-1960), new crown styles emerged that reflected the changing role of the oba and the influences of foreign cultures—seen in crowns modeled after the British coronet, the Bishop's mitre, or the Islamic fez. Referred to as orikogbofo (head cannot suffer loss), these crowns are worn at official events outside the realm of Yoruba ritual ceremonies.",
+	"didactic_label": "During British colonial rule (1900-1960), new crown styles emerged that reflected the changing role of the oba and the influences of foreign cultures—seen in crowns modeled after the British coronet, the Bishop's mitre, or the Islamic fez. Referred to as orikogbofo (head cannot suffer loss), these crowns are worn at official events outside the realm of Yoruba ritual ceremonies.",
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2008-10-23",
+	"location_string": "de Young, 061, Cabinet 076, TA",
+	"location_building": "de Young",
+	"location_room": "Cabinet 076",
+	"edition": null,
+	"signed": null,
+	"inscribed": "L07.29.4.29",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Coronet (orikogbofo)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 37833,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Yoruba",
+			"AlphaSort": "Yoruba",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "8 x 8 x 8 in. (20.3 x 20.3 x 20.3 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Nigeria",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAABD",
+					"term": "Nigeria"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1901–2000",
+	"doc_id": "2008.49.39",
+	"slug": "2008.49.39/coronet-orikogbofo",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1901,
+	"media": [
+		{
+			"media_xref_id": 133583,
+			"media_master_id": 164005,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5428,
+			"pixel_w": 7230,
+			"file_name": "A384096_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 133585,
+			"media_master_id": 31550,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5428,
+			"pixel_w": 7230,
+			"file_name": "0718200710340019.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 133584,
+			"media_master_id": 163946,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5428,
+			"pixel_w": 7230,
+			"file_name": "A384096_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "nylon"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "glass bead"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Nigeria",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , nylon, glass bead · Nigeria",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

@@ -1,0 +1,175 @@
+{
+	"id": 99206,
+	"accession_number": "1983.83.22",
+	"sort_number": "1983.83.22",
+	"title": "FAN",
+	"object_name": "fan",
+	"display_date": "ca. 1900",
+	"begin_iso_date": "1895",
+	"end_iso_date": "1905",
+	"medium": "Opaque watercolor, gold paint, and sequins on silk, painted and gilded ivory sticks and guards, brass ring, silk tassel and passementerie",
+	"medium_parts": [
+		"Opaque watercolor, gold paint, and sequins on silk, painted and gilded ivory sticks and guards, brass ring, silk tassel and passementerie"
+	],
+	"dimensions": "10 in., (25.4 cm,)",
+	"credit_line": "Bequest of Consuelo Y. Ziroli",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2022-06-15 15:25:12.583000",
+	"is_virtual": false,
+	"identifying_description": "Painted designs of purple and white iris, calla lillies, and cattails on silk. Ivory(?) guards and sticks are carved and painted with a swan, cattails. Wooden frame with carved and beaded border. Japanese tassel. Art Nouveau style.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "Ziroli Fans, 1987-8\r\nThe Art Nouveau Style in Dress, 1993",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1984-01-05",
+	"location_string": "de Young, 059, Cabinet 17, P",
+	"location_building": "de Young",
+	"location_room": "Cabinet 17",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Fan",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "10 in., (25.4 cm,)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "France",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1895–1905",
+	"doc_id": "1983.83.22",
+	"slug": "1983.83.22/fan",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1895,
+	"media": [
+		{
+			"media_xref_id": 93476,
+			"media_master_id": 21855,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1767,
+			"pixel_w": 2898,
+			"file_name": "0409200109160118.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Metal",
+			"specific": "brass ring"
+		},
+		{
+			"parent": "Paint",
+			"specific": "gold paint"
+		},
+		{
+			"parent": "Paint",
+			"specific": "opaque watercolor"
+		},
+		{
+			"parent": "Paint",
+			"specific": "painted"
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "sequin"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "silk tassel"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — brass ring, gold paint, opaque watercolor, painted … · France",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

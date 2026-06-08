@@ -1,0 +1,211 @@
+{
+	"id": 143913,
+	"accession_number": "2018.28.1.34a-b",
+	"sort_number": "2018.28.1.34a-b",
+	"title": "WOMAN'S ENSEMBLE: JACKET (A) AND DRESS (B)",
+	"object_name": "woman's costume",
+	"display_date": "2010 Resort Collection",
+	"begin_iso_date": "2010",
+	"end_iso_date": "2010",
+	"medium": "silk, nylon, rayon, polyester, cotton, linen, metal",
+	"medium_parts": ["silk, nylon, rayon, polyester, cotton, linen, metal"],
+	"dimensions": "44.5 cm (17 1/2 in.) coat, center back; 111.8 cm (44 in.) dress, center back",
+	"credit_line": "Gift of Christine Suppes in memory of Mary Jane Johnson",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2022-11-28 13:55:31.097000",
+	"is_virtual": false,
+	"identifying_description": "Ensemble] (a) pink and ivory jacket (b) dress",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2018-06-05",
+	"location_string": "UOVO, Livermore, Cabinet 002",
+	"location_building": "UOVO",
+	"location_room": "Cabinet 002",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Woman's ensemble: jacket (a) and dress (b)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 2100,
+			"Role": "Designer",
+			"RoleID": 67,
+			"DisplayName": "Karl Lagerfeld",
+			"AlphaSort": "Karl Lagerfeld",
+			"Nationality": "German",
+			"BeginDate": 1933,
+			"EndDate": 2019,
+			"DisplayDate": "1933 - 2019",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Karl Lagerfeld (1933–2019)"
+		},
+		{
+			"ConstituentID": 18890,
+			"Role": "House of",
+			"RoleID": 356,
+			"DisplayName": "Chanel",
+			"AlphaSort": "Chanel",
+			"Nationality": "French",
+			"BeginDate": 1910,
+			"EndDate": 0,
+			"DisplayDate": "est. 1910",
+			"Institution": "House of Chanel",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 1910"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "44 in. (111.8 cm)",
+			"description": "dress, center back",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "17 1/2 in. (44.5 cm)",
+			"description": "coat, center back",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 2
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "France",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Karl Lagerfeld",
+	"primary_artist_display": "Karl Lagerfeld (1933–2019)",
+	"sort_artist": "Karl Lagerfeld",
+	"display_year": "2010",
+	"doc_id": "2018.28.1.34a-b",
+	"slug": "2018.28.1.34a-b/woman-s-ensemble-jacket-a-and-dress-b",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 2010,
+	"media": [
+		{
+			"media_xref_id": 179979,
+			"media_master_id": 196634,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4032,
+			"pixel_w": 3024,
+			"file_name": "A411015.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "linen"
+		},
+		{
+			"parent": "Textile",
+			"specific": "nylon"
+		},
+		{
+			"parent": "Textile",
+			"specific": "polyester"
+		},
+		{
+			"parent": "Textile",
+			"specific": "rayon"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , , linen … · France",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

@@ -1,0 +1,458 @@
+{
+	"id": 72874,
+	"accession_number": "1995.28a-e",
+	"sort_number": "1995.28a-e",
+	"title": "LA CARRETA DE LA MUERTE (CHARIOT OF DEATH CARRYING THE ANGEL OF DEATH)",
+	"object_name": "ritual object",
+	"display_date": "ca. 1900",
+	"begin_iso_date": "1895",
+	"end_iso_date": "1905",
+	"medium": "Cottonwood, horsehair, glass marbles, paint, leather, string, nails, paper, and fabric",
+	"medium_parts": [
+		"Cottonwood, horsehair, glass marbles, paint, leather, string, nails, paper, and fabric"
+	],
+	"dimensions": "40 x 48.5 x 20 in. (101.6 x 121.9 x 50.8 cm)",
+	"credit_line": "Gift of the Haley Family Trust",
+	"department": "American Decorative Arts and Sculpture",
+	"classification": "Sculpture",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2025-08-14 15:25:40.687000",
+	"is_virtual": false,
+	"identifying_description": "Skeletal figure (a) of \"Death\" holding bow (b) and arrow (c) and seated in cart (d). The cart has a long pole (e) coming out the front",
+	"web_text": "The Penitentes are an order of Spanish-American Catholics whose secret rituals marking the death and resurrection of Christ represent some of the oldest continuously practiced religious rites the United States. Pentitente ritual, which emphasized public and bodily penance, was officially condemned by the Church in the nineteenth century, but these observances continued in secret. \r\n\r\n<BR>For the Penitentes, Easter Holy Week observance inspired the most profound public expressions of penance. Reenacting the scenes of the passion of Christ, they processed from the morada, or Penitente chapter house, toward a preselected Calvary site. In these processions, death was personified as a life-size, skeletal figure, made ever more realistic by the addition of hair, glass marble eyes, teeth, and movable limbs.\r\n<BR>",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Found in the vicinity of Taos, New Mexico by donor, 1955",
+	"label_text": null,
+	"accession_iso_date": "1995-06-15",
+	"location_string": "de Young, Display, Gallery 020",
+	"location_building": "de Young",
+	"location_room": "Gallery 020",
+	"edition": null,
+	"signed": null,
+	"inscribed": "White label on the back of the cart : \"John Haley\"; White label on the thicker end of the pole : \"John Haley\", and yellow label with handwriting : \"Death Cart\"",
+	"markings": null,
+	"titles": [
+		{
+			"title": "La Carreta de la Muerte (Chariot of Death Carrying the Angel of Death)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40270,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Unidentified",
+			"AlphaSort": "Unidentified",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "active late 19th century, early 20th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "40 x 48 x 20 in. (101.6 x 121.9 x 50.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Española",
+			"certainty": "Probably",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS",
+					"term": "New Mexico"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS.AAAMX",
+					"term": "Rio Arriba"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS.AAAMX.AAAMR",
+					"term": "Espanola"
+				}
+			]
+		},
+		{
+			"term": "Mora",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS",
+					"term": "New Mexico"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS.AAAIK",
+					"term": "Mora"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "cottonwood",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ADE",
+					"term": "poplar"
+				},
+				{
+					"depth": 12,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ADE.AAF",
+					"term": "cottonwood"
+				}
+			]
+		},
+		{
+			"term": "leather",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
+					"term": "animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF",
+					"term": "processed animal material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF.AAC",
+					"term": "leather"
+				}
+			]
+		},
+		{
+			"term": "horsehair",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
+					"term": "animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE",
+					"term": "keratinous material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB",
+					"term": "hair and hair components as materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA",
+					"term": "hair"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAA",
+					"term": "hair by composition or origin"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAA.AAI",
+					"term": "horsehair"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unidentified",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Unidentified",
+	"display_year": "1895–1905",
+	"doc_id": "1995.28a-e",
+	"slug": "1995.28a-e/la-carreta-de-la-muerte-chariot-of-death-carrying-the-angel-of-death",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1895,
+	"media": [
+		{
+			"media_xref_id": 80778,
+			"media_master_id": 29748,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 685,
+			"pixel_w": 515,
+			"file_name": "0708200915280015.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 80777,
+			"media_master_id": 139543,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1936,
+			"pixel_w": 2127,
+			"file_name": "0508200413500011.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 80776,
+			"media_master_id": 141835,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1336,
+			"pixel_w": 1384,
+			"file_name": "0302200114530028.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 80775,
+			"media_master_id": 169752,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9183,
+			"pixel_w": 7227,
+			"file_name": "A323242_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Leather",
+			"specific": ""
+		},
+		{
+			"parent": "Paint",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "fabric"
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "string"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": "Española"
+		},
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": "Mora"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , fabric, string · Española, Mora",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 47
+	}
+}

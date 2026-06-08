@@ -1,0 +1,340 @@
+{
+	"id": 253736,
+	"accession_number": "61.14.15",
+	"sort_number": "61.14.15",
+	"title": "SPRINKLER FLASK",
+	"object_name": "vessel",
+	"display_date": "7th century AD",
+	"begin_iso_date": "601",
+	"end_iso_date": "700",
+	"medium": "Free-blown glass with pinched decoration",
+	"medium_parts": ["Free-blown glass with pinched decoration"],
+	"dimensions": "3 3/4 x 9 3/4 (9.5 x 24.8 cm)",
+	"credit_line": "Gift of Helen Norton",
+	"department": "Ancient Art",
+	"classification": "Food",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": true,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2024-03-04 09:13:00.637000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Harry Norton Glass Collection",
+	"label_text": null,
+	"accession_iso_date": "1961-04-17",
+	"location_string": "Legion, Display, Gallery 240 west, Wall Case 2",
+	"location_building": "Legion",
+	"location_room": "Gallery 240 west",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Sprinkler flask",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "3 3/4 x 9 3/4 in. (9.5 x 24.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Eastern Mediterranean",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABC",
+					"term": "Eastern Mediterranean"
+				}
+			]
+		},
+		{
+			"term": "Syria",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGT",
+					"term": "Sūrīyah"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": [
+		{
+			"term": "Late Byzantine",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAI",
+					"term": "European"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAC",
+					"term": "Early Christian-Byzantine styles, cultures, periods"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAC.AAB",
+					"term": "Byzantine"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAD.AAA.AAB.AAI.AAC.AAB.AAD",
+					"term": "Late Byzantine"
+				}
+			]
+		},
+		{
+			"term": "Early Islamic",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAM",
+					"term": "Islamic World, The"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD",
+					"term": "Islamic World dynastic styles and periods"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD.AAD",
+					"term": "Early Islamic"
+				}
+			]
+		}
+	],
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "glass",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW",
+					"term": "glass"
+				}
+			]
+		},
+		{
+			"term": "free-blown glass",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW",
+					"term": "glass"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW.AAC",
+					"term": "glass by technique"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW.AAC.AAF",
+					"term": "blown glass"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW.AAC.AAF.AAA",
+					"term": "free-blown glass"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "601–700",
+	"doc_id": "61.14.15",
+	"slug": "61.14.15/sprinkler-flask",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 601,
+	"media": [
+		{
+			"media_xref_id": 82228,
+			"media_master_id": 123810,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1696,
+			"pixel_w": 1385,
+			"file_name": "6121161107580058.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Glass",
+			"specific": "free-blown glas"
+		},
+		{
+			"parent": "Glass",
+			"specific": "glas"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Middle East",
+			"country": "Eastern Mediterranean",
+			"notable": ""
+		},
+		{
+			"region": "Middle East",
+			"country": "Syria",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — free-blown glas, glas · Eastern Mediterranean, Syria",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 42
+	}
+}

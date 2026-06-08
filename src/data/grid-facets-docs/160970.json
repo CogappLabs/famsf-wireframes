@@ -1,0 +1,175 @@
+{
+	"id": 160970,
+	"accession_number": "2012.42.1",
+	"sort_number": "2012.42.1",
+	"title": "JACKET",
+	"object_name": "woman's costume",
+	"display_date": "1990–2009",
+	"begin_iso_date": "1990",
+	"end_iso_date": "2009",
+	"medium": "silk, thread, applied mirrors, brass rings, balls and disks",
+	"medium_parts": [
+		"silk, thread, applied mirrors, brass rings, balls and disks"
+	],
+	"dimensions": "64.8 x 45.7 x 7.6 cm (25 1/2 x 18 x 3 in.)",
+	"credit_line": "Gift of Mrs. John N. Rosekrans, Jr.",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2019-02-25 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Jacket of black silk: boxy jacket; no collar; heavily embroidered with red thread and embellished with rings, balls, and disks.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2012-10-18",
+	"location_string": "de Young, 059, Cabinet 11, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 11",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Jacket",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 18730,
+			"Role": "Designer",
+			"RoleID": 67,
+			"DisplayName": "Rohit Bal",
+			"AlphaSort": "Rohit Bal",
+			"Nationality": "Kashmiri Pandit",
+			"BeginDate": 1957,
+			"EndDate": 0,
+			"DisplayDate": "b. 1957",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1957"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "25 1/2 x 18 x 3 in. (64.8 x 45.7 x 7.6 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "India",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAALD",
+					"term": "Bhārat"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Rohit Bal",
+	"primary_artist_display": "b. 1957",
+	"sort_artist": "Rohit Bal",
+	"display_year": "1990–2009",
+	"doc_id": "2012.42.1",
+	"slug": "2012.42.1/jacket",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1990,
+	"media": [
+		{
+			"media_xref_id": 140950,
+			"media_master_id": 16423,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3008,
+			"pixel_w": 2000,
+			"file_name": "0211201414260015.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Metal",
+			"specific": "brass ring"
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "thread"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South Asia",
+			"country": "India",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — brass ring, , thread · India",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

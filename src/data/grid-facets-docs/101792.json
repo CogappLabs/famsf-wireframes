@@ -1,0 +1,176 @@
+{
+	"id": 101792,
+	"accession_number": "1998.138",
+	"sort_number": "1998.138",
+	"title": "BRIDAL HEADDRESS",
+	"object_name": "headwear",
+	"display_date": "19th-early 20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Cotton, silk, embroidery; applied glass beads, silver, and carnelian",
+	"medium_parts": [
+		"Cotton, silk, embroidery",
+		"applied glass beads, silver, and carnelian"
+	],
+	"dimensions": "90.2 x 57.8 cm (35 1/2 x 22 3/4 in.)",
+	"credit_line": "Museum purchase, gift of the Embroiderers'  Guild, the Textile Arts Council, Mr. ands Mrs. John G. Lewis, and in memory of Pamela Ransom",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-27 13:03:23.620000",
+	"is_virtual": false,
+	"identifying_description": "Cotton cap embroidered with silk and ornamented with silver, carnelian, silk tassels and beads",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "From Three Continents: Textile Acquisitions 1996-2000\r\nBeauty, Power, and Prestige: Textiles and Costume from the Permanent Collection- New DeYoung opening, 10/05",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1998-12-10",
+	"location_string": "de Young, 061, Cabinet 106, B",
+	"location_building": "de Young",
+	"location_room": "Cabinet 106",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Bridal headdress",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40665,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Turkmen, Yomut tribe",
+			"AlphaSort": "Turkmen, Yomut tribe",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "35 1/2 x 22 3/4 in. (90.2 x 57.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Turkmenistan",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAIE",
+					"term": "Türkmenistan"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1998.138",
+	"slug": "1998.138/bridal-headdress",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 106726,
+			"media_master_id": 14948,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2121,
+			"pixel_w": 769,
+			"file_name": "0124200111450006.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Gold & silver",
+			"specific": "silver"
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "Central Asia",
+			"country": "Turkmenistan",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , silver, , embroidery · Turkmenistan",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 39
+	}
+}

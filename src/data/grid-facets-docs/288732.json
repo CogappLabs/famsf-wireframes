@@ -1,0 +1,199 @@
+{
+	"id": 288732,
+	"accession_number": "X1989.139",
+	"sort_number": "X1989.139",
+	"title": "WEDDING HEADRESS",
+	"object_name": "headwear",
+	"display_date": "19th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Kingfisher feathers, paper, wire, beads, silk, adhesive, and gold leaf",
+	"medium_parts": [
+		"Kingfisher feathers, paper, wire, beads, silk, adhesive, and gold leaf"
+	],
+	"dimensions": "17 x 27 x 17.5 cm (6 11/16 x 10 5/8 x 6 7/8 in.)",
+	"credit_line": "Museum collection",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2017-02-22 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Crown shaped hat of braided black silk cord. Various shapes (flower baskets, double happiness symbol, foliage) cover the surface and have applied kingfisher feathers. Beaded fringe hangs from front edge.",
+	"web_text": "From \"Featherwork: A Conservator's Approach,\" 8/29/15 - 3/27/16: White, green, blue, violet, and multicolor iridescence are structural colors that are uniquely perceived through the refraction and reflection of light from a feather's surface. Structural colors depend on light, so they change when either the viewer or the source of illumination shifts. This phenomenon yields the brilliant blue of the hat's kingfisher feathers, as well as the iridescent green of the cape's peafowl feathers. Non-iridescent green feathers, such as those on the headdress, result from their combination of structural blue and pigmentary yellow colors.",
+	"didactic_label": "White, green, blue, violet, and multicolor iridescence are structural colors that are uniquely perceived through the refraction and reflection of light from a feather's surface. Structural colors depend on light, so they change when either the viewer or the source of illumination shifts. This phenomenon yields the brilliant blue of the hat's kingfisher feathers, as well as the iridescent green of the cape's peafowl feathers. Non-iridescent green feathers, such as those on the headdress, result from their combination of structural blue and pigmentary yellow colors.",
+	"exhibition_history_text": "Featherwork: A Conservator's Approach, de Young, 8/29/15 - 3/27/16",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1901-01-01",
+	"location_string": "de Young, 227, Cabinet 27, TA",
+	"location_building": "de Young",
+	"location_room": "Cabinet 27",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Wedding headress",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "6 11/16 x 10 5/8 x 6 7/8 in. (17 x 27 x 17.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "China",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAJE",
+					"term": "Zhongguo"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "X1989.139",
+	"slug": "X1989.139/wedding-headress",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 98557,
+			"media_master_id": 51580,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2370,
+			"pixel_w": 1654,
+			"file_name": "2004200514200147.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 98555,
+			"media_master_id": 161191,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6262,
+			"pixel_w": 4672,
+			"file_name": "A333698_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 98556,
+			"media_master_id": 28683,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3000,
+			"pixel_w": 2874,
+			"file_name": "0611201515210015.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Gold & silver",
+			"specific": "gold leaf"
+		},
+		{
+			"parent": "Metal",
+			"specific": "wire"
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "bead"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "China",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — gold leaf, wire, , bead · China",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 38
+	}
+}

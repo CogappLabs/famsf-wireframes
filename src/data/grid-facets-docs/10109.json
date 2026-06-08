@@ -1,0 +1,336 @@
+{
+	"id": 10109,
+	"accession_number": "1934.3.216",
+	"sort_number": "1934.3.216",
+	"title": "FRAGMENT",
+	"object_name": "textile fragment",
+	"display_date": "late 15th–early 16th century",
+	"begin_iso_date": "1475",
+	"end_iso_date": "1525",
+	"medium": "Silk, metallic thread; cut voided velvet with discontinuous supplementary-weft patterning",
+	"medium_parts": [
+		"Silk, metallic thread",
+		"cut voided velvet with discontinuous supplementary-weft patterning"
+	],
+	"dimensions": "86.4 x 34.3 cm (34  x 13 1/2 in.)",
+	"credit_line": "Gift of Archer M. Huntington",
+	"department": "Costume and Textile Arts",
+	"classification": "Textile",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-01-05 14:01:02.043000",
+	"is_virtual": false,
+	"identifying_description": "Alternating pomegranate and Persian lily design on satin ground.",
+	"web_text": "This textile is in the style of Italian ferronnerie velvet, named for the ironwork that the designs' delicate outlines resemble. Although it appears typically Italian, its weave structure suggests that it was made at a workshop in Istanbul or Bursa. By the late fifteenth century, Italian silks typically had S-twisted main warp threads; this textile's main warp threads are Z-twisted, indicating an Ottoman origin. From the late 15th century into the 16th century, luxury textiles were frequently given as diplomatic gifts between the Ottoman and Venetian courts, resulting in shared artistic styles and motifs.",
+	"didactic_label": "This textile is in the style of Italian ferronnerie velvet, named for the ironwork that the designs' delicate outlines resemble. Although it appears typically Italian, its weave structure suggests that it may have been made in Turkey. By the late fifteenth century, Italian silks typically had S-twisted main warp threads; this textile's main warp threads are Z-twisted, indicating a Turkish origin.",
+	"exhibition_history_text": "Study Drawer Rotation, Textile Education Gallery, de Young, 12/16-present",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1934-06-07",
+	"location_string": "de Young, 059, Cabinet 45, TC",
+	"location_building": "de Young",
+	"location_room": "Cabinet 45",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Fragment",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40706,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Ottoman",
+			"AlphaSort": "Ottoman",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "34 x 13 1/2 in. (86.4 x 34.3 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Italy",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAAVP",
+					"term": "Italia"
+				}
+			]
+		},
+		{
+			"term": "Turkey",
+			"certainty": "Probably",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAID",
+					"term": "Türkiye"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "metal thread",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
+					"term": "fiber"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAD",
+					"term": "metal thread"
+				}
+			]
+		},
+		{
+			"term": "silk",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAP",
+					"term": "silk"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1475–1525",
+	"doc_id": "1934.3.216",
+	"slug": "1934.3.216/fragment",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1475,
+	"media": [
+		{
+			"media_xref_id": 92035,
+			"media_master_id": 46745,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5768,
+			"pixel_w": 2508,
+			"file_name": "1307200712240029.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "discontinuous supplementary-weft patterning"
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "metal thread"
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "metallic thread"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "Italy",
+			"notable": ""
+		},
+		{
+			"region": "Middle East",
+			"country": "Turkey",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , discontinuous supplementary-weft patterning, metal thread, metallic thread · Italy, Turkey",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 46
+	}
+}

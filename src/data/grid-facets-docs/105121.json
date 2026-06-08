@@ -1,0 +1,232 @@
+{
+	"id": 105121,
+	"accession_number": "1994.40.4",
+	"sort_number": "1994.40.4",
+	"title": "INSTRUMENTOS DE CUERDA (STRINGED INSTRUMENTS), ACCOMPANYING THE SECOND POEM IN THE BOOK ARTIFICIO PARA SOBREVIVIR - DEVICE FOR SURVIVAL BY EMILIO ADOLFO WESTPHALEN (SAN DIEGO: BRIGHTON PRESS, 1992)",
+	"object_name": "etching aquatint",
+	"display_date": "1992",
+	"begin_iso_date": "1992",
+	"end_iso_date": "1992",
+	"medium": "color etching and aquatint",
+	"medium_parts": ["color etching and aquatint"],
+	"dimensions": "9.8 x 12.4 cm (image)",
+	"credit_line": "Gift of Brighton Press through the Artist Book Council",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2014-04-14 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "abstraction containing symbols resembling letters (black and light orange)",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1994-06-16",
+	"location_string": "Legion, 253, Shelf 04, 05D",
+	"location_building": "Legion",
+	"location_room": "Shelf 04",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Instrumentos de cuerda (STRINGED INSTRUMENTS), accompanying the second poem in the book Artificio para sobrevivir - Device for Survival by Emilio Adolfo Westphalen (San Diego: Brighton Press, 1992)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 7590,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Fernando de Szyszlo",
+			"AlphaSort": "Fernando de Szyszlo",
+			"Nationality": "Peruvian",
+			"BeginDate": 1925,
+			"EndDate": 0,
+			"DisplayDate": "b. 1925",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1925"
+		},
+		{
+			"ConstituentID": 7589,
+			"Role": "Author",
+			"RoleID": 47,
+			"DisplayName": "Emilio Adolfo Westphalen",
+			"AlphaSort": "Emilio Adolfo Westphalen",
+			"Nationality": "Peruvian",
+			"BeginDate": 1911,
+			"EndDate": 2001,
+			"DisplayDate": "1911–2001",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Emilio Adolfo Westphalen (1911–2001)"
+		},
+		{
+			"ConstituentID": 7591,
+			"Role": "Printer",
+			"RoleID": 40,
+			"DisplayName": "Hal Truschke",
+			"AlphaSort": "Hal Truschke",
+			"Nationality": "American",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "active 20th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 3,
+			"DisplayLabel": "b. 0"
+		},
+		{
+			"ConstituentID": 11062,
+			"Role": "Publisher",
+			"RoleID": 39,
+			"DisplayName": "Brighton Press",
+			"AlphaSort": "Brighton Press",
+			"Nationality": null,
+			"BeginDate": 1977,
+			"EndDate": 0,
+			"DisplayDate": "American b. 1977",
+			"Institution": "Brighton Press",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 4,
+			"DisplayLabel": "b. 1977"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "3 7/8 x 4 7/8 in. (9.8 x 12.4 cm)",
+			"description": null,
+			"element_name": "Image",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Peru",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL",
+					"term": "Perú"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Fernando de Szyszlo",
+	"primary_artist_display": "b. 1925",
+	"sort_artist": "Fernando de Szyszlo",
+	"display_year": "1992",
+	"doc_id": "1994.40.4",
+	"slug": "1994.40.4/instrumentos-de-cuerda-stringed-instruments-accompanying-the-second-poem-in-the-book-artificio-para-sobrevivir-device-for-survival-by-emilio-adolfo-westphalen-san-diego-brighton-press-1992",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1992,
+	"media": [
+		{
+			"media_xref_id": 73265,
+			"media_master_id": 111426,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1760,
+			"pixel_w": 2057,
+			"file_name": "5074163106470036.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [],
+	"facet_technique": ["aquatint", "etching"],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Peru",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — aquatint, etching · Peru",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

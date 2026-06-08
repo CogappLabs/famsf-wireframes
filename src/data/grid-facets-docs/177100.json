@@ -1,0 +1,180 @@
+{
+	"id": 177100,
+	"accession_number": "2002.165.13",
+	"sort_number": "2002.165.13",
+	"title": "WOMAN'S HEADBAND",
+	"object_name": "jewelry",
+	"display_date": "20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "leather, glass beads, metal, shell; sewn beadwork, applied accessory objects",
+	"medium_parts": [
+		"leather, glass beads, metal, shell",
+		"sewn beadwork, applied accessory objects"
+	],
+	"dimensions": "35 x 29 cm (13 3/4 x 11 7/16 in.)",
+	"credit_line": "Gift of Georgia Sales",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-09 10:47:26.157000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2002-12-12",
+	"location_string": "de Young, 061, Cabinet 071, C",
+	"location_building": "de Young",
+	"location_room": "Cabinet 071",
+	"edition": null,
+	"signed": null,
+	"inscribed": "Measurements taken with head pieces",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Woman's headband",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41214,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Maasai",
+			"AlphaSort": "Maasai",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "13 3/4 x 11 7/16 in. (35 x 29 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Kenya",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAMH",
+					"term": "Kenya"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2002.165.13",
+	"slug": "2002.165.13/woman-s-headband",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 121228,
+			"media_master_id": 44618,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3872,
+			"pixel_w": 2282,
+			"file_name": "1206200916240008.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Leather",
+			"specific": ""
+		},
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Shell",
+			"specific": ""
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "glass bead"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Kenya",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , , glass bead · Kenya",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 36
+	}
+}

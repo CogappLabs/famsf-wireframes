@@ -1,0 +1,182 @@
+{
+	"id": 167387,
+	"accession_number": "2002.122.2",
+	"sort_number": "2002.122.2",
+	"title": "HEADHUNTER'S HEADDRESS",
+	"object_name": "headwear",
+	"display_date": "early 20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Wood, rattan, monkey's skull, boar's tusks, boar's hair, mother of pearl, metal wire (iron, brass)",
+	"medium_parts": [
+		"Wood, rattan, monkey's skull, boar's tusks, boar's hair, mother of pearl, metal wire (iron, brass)"
+	],
+	"dimensions": "26 x 22.9 x 35.6 cm (10 1/4 x 9 x 14 in.)",
+	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nGift of Caroline McCoy-Jones",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2018-02-07 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "Beauty, Power, and Prestige: Textiles and Costume from the Permanent Collection- New DeYoung opening, 10/05",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2002-10-10",
+	"location_string": "de Young, 061, Cabinet 028, C",
+	"location_building": "de Young",
+	"location_room": "Cabinet 028",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Headhunter's headdress",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "10 1/4 x 9 x 14 in. (26 x 22.9 x 35.6 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Luzon",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAC.AAAEG",
+					"term": "Luzon"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2002.122.2",
+	"slug": "2002.122.2/headhunter-s-headdress",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 120009,
+			"media_master_id": 51271,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3192,
+			"pixel_w": 2496,
+			"file_name": "0813200310100065.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 120010,
+			"media_master_id": 45932,
+			"rank": 5,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1800,
+			"pixel_w": 1134,
+			"file_name": "1212200209370144.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Metal",
+			"specific": "bras"
+		},
+		{
+			"parent": "Metal",
+			"specific": "iron"
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Southeast Asia",
+			"country": "",
+			"notable": "Luzon"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — bras, iron,  · Luzon",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 35
+	}
+}

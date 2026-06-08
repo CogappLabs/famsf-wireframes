@@ -1,0 +1,271 @@
+{
+	"id": 284027,
+	"accession_number": "61.12a-b",
+	"sort_number": "61.12a-b",
+	"title": "ENSEMBLE: BODICE AND SKIRT",
+	"object_name": "woman's costume",
+	"display_date": "ca. 1905",
+	"begin_iso_date": "1900",
+	"end_iso_date": "1910",
+	"medium": "Bodice: silk satin weave with overlay of silk net with gelatin sequins and overlay of handmade silk lace with metal (silver alloy) sequins and glass beads; silk chiffon with painted stripes; glass beads, gelatin sequins, glass rhinestones, and metal-wrapped silk thread; silk net with silk rosettes; glass beads, metal sequins, and purl; silk satin weave; machine-made lace and net; silk satin weave tie with silk tassels; and silk velvet ribbon trim Skirt: silk satin weave with overlay of silk net with gelatin sequins and overlay of handmade silk lace with metal (silver alloy) sequins and glass beads; and silk velvet ribbon trim",
+	"medium_parts": [
+		"Bodice: silk satin weave with overlay of silk net with gelatin sequins and overlay of handmade silk lace with metal (silver alloy) sequins and glass beads",
+		"silk chiffon with painted stripes",
+		"glass beads, gelatin sequins, glass rhinestones, and metal-wrapped silk thread",
+		"silk net with silk rosettes",
+		"glass beads, metal sequins, and purl",
+		"silk satin weave",
+		"machine-made lace and net",
+		"silk satin weave tie with silk tassels",
+		"and silk velvet ribbon trim Skirt: silk satin weave with overlay of silk net with gelatin sequins and overlay of handmade silk lace with metal (silver alloy) sequins and glass beads",
+		"and silk velvet ribbon trim"
+	],
+	"dimensions": "Bodice (a): 19 5/16 x 27 9/16 in. (49 x 70 cm)\r\nSkirt (b): 58 11/16 x 48 7/16 in. (149.067 x 123.031 cm)",
+	"credit_line": "Gift of Mrs. H.J. Brunnier",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2024-12-30 18:28:42.123000",
+	"is_virtual": false,
+	"identifying_description": "(a) high necked pigeon-breast bodice of black silk net embroidered with black sequins and rhinestones over white silk satin: gathered into a shirred grosgrain cummerbund at waist; puffed 3/4 sleeve of silk net gathered at elbow; finished with ruffle cuff; square yoke at neck of white silk satin trimmed with black sequins embroidery; standing collar of the same; yoke and center front bodice trimmed with pink silk satin ribbon, pale velvet trim, and pink tassels; (b) full trained skirt of black silk net and silk lace embroidered with black sequins: black velvet bottom hem; knife-pleated cream chiffon around bottom; train and lower park of skirt lined with cream silk satin.\r\n\r\nLabel: \"Blancquaert, Court Dressmaker & Ladies Tailor, London",
+	"web_text": "Blancquaert (England, active 1903–1941) Evening ensemble: bodice and skirt, ca. 1905Bodice: silk satin weave with overlay of silk net with gelatin sequins and overlay of handmade silk lace with metal (silver alloy) sequins and glass beads; silk chiffon with painted stripes; glass beads, gelatin sequins, glass rhinestones, and metal-wrapped silk thread; silk net with silk rosettes; glass beads, metal sequins, and purl; silk satin weave; machine made lace and net; silk satin tie with silk tassels; and silk velvet ribbon trim; Skirt: silk satin weave with overlay of silk net with gelatin sequins and overlay of handmade silk lace with metal (silver alloy) sequins and glass beads; and silk velvet ribbon trim Gift of Mrs. H. J. Brunnier, 61.12a–b Worn by Ann Weideman Brunnier (American, 1885–1970)",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Worn by Mrs. Ann W. Brunnier",
+	"label_text": "Bodice: (white label withorange text in waist tape)“Blancquaert / Court Dressmaker / & LADIES TAILOR /38&39 SOUTH MOLTON ST. W.”Skirt: no label",
+	"accession_iso_date": "1961-04-06",
+	"location_string": "de Young, 059, Cabinet 06, L",
+	"location_building": "de Young",
+	"location_room": "Cabinet 06",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Ensemble: bodice and skirt",
+			"title_type": "Primary Title",
+			"language": "English",
+			"display_order": 1
+		},
+		{
+			"title": "Ensemble: bodice",
+			"title_type": "Former Title",
+			"language": "(not assigned)",
+			"display_order": 2
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 6856,
+			"Role": "Maker",
+			"RoleID": 56,
+			"DisplayName": "Blancquaert",
+			"AlphaSort": "Blancquaert",
+			"Nationality": "English",
+			"BeginDate": 1903,
+			"EndDate": 1941,
+			"DisplayDate": "English, 1903 - 1941",
+			"Institution": "Blancquaert",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Blancquaert (1903–1941)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "19 5/16 x 27 9/16 in. (49 x 70 cm)",
+			"description": "Bodice (a)",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "58 11/16 x 48 7/16 in. (149.067 x 123.031 cm)",
+			"description": "Skirt (b)",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 2
+		},
+		{
+			"display_dimensions": "",
+			"description": "Display Footprint, mounted costume (FSF)",
+			"element_name": "Footprint",
+			"displayed": false,
+			"rank": 3
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "London",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAADQ",
+					"term": "Northern Europe"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA",
+					"term": "Great Britain"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA.AAAAY.AAACN",
+					"term": "Greater London"
+				},
+				{
+					"depth": 8,
+					"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA.AAAAY.AAACN.AAAAQ",
+					"term": "London"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Blancquaert",
+	"primary_artist_display": "Blancquaert (1903–1941)",
+	"sort_artist": "Blancquaert",
+	"display_year": "1900–10",
+	"doc_id": "61.12a-b",
+	"slug": "61.12a-b/ensemble-bodice-and-skirt",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1900,
+	"media": [
+		{
+			"media_xref_id": 220850,
+			"media_master_id": 231450,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 22,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 12373,
+			"pixel_w": 8953,
+			"file_name": "MS_284027_FSF-DeInstall-Photography_20240819_2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 220848,
+			"media_master_id": 231448,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 20,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 12698,
+			"pixel_w": 8953,
+			"file_name": "MS_284027_FSF-DeInstall-Photography_20240819_1_Crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 97688,
+			"media_master_id": 34383,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1492,
+			"pixel_w": 2556,
+			"file_name": "0919200315040365.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "net"
+		},
+		{
+			"parent": "Textile",
+			"specific": "silk chiffon"
+		},
+		{
+			"parent": "Textile",
+			"specific": "silk net"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "glass bead"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "sequin"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "silk tassel"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "",
+			"notable": "London"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , net, silk chiffon, silk net … · London",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 46
+	}
+}

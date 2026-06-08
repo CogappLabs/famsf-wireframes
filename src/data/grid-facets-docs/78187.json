@@ -1,0 +1,187 @@
+{
+	"id": 78187,
+	"accession_number": "1997.112.33",
+	"sort_number": "1997.112.33",
+	"title": "GIRL WITH BRAIDS",
+	"object_name": "lithograph",
+	"display_date": "20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "color lithograph",
+	"medium_parts": ["color lithograph"],
+	"dimensions": "65 x 51 cm",
+	"credit_line": "Gift of David Whitehouse",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": "© Estate of Wifredo Lam / Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2018-07-18 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1997-12-11",
+	"location_string": "Legion, 101, Bin 62, B",
+	"location_building": "Legion",
+	"location_room": "Bin 62",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Girl with Braids",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 990,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Wifredo Lam",
+			"AlphaSort": "Lam,  Wifredo",
+			"Nationality": "Cuban",
+			"BeginDate": 1902,
+			"EndDate": 1982,
+			"DisplayDate": "Cuban, 1902–1982",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Wifredo Lam (1902–1982)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "25 9/16 x 20 1/16 in. (65 x 51 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Cuba",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAACF",
+					"term": "Cuba"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Wifredo Lam",
+	"primary_artist_display": "Wifredo Lam (1902–1982)",
+	"sort_artist": "Lam,  Wifredo",
+	"display_year": null,
+	"doc_id": "1997.112.33",
+	"slug": "1997.112.33/girl-with-braids",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 103743,
+			"media_master_id": 158800,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2136,
+			"pixel_w": 1688,
+			"file_name": "8030319206180095.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [],
+	"facet_technique": ["lithograph"],
+	"facet_place": [
+		{
+			"region": "West Indies",
+			"country": "Cuba",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — lithograph · Cuba",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 40
+	}
+}

@@ -1,0 +1,161 @@
+{
+	"id": 89526,
+	"accession_number": "1999.142.147",
+	"sort_number": "1999.142.147",
+	"title": "FERTILITY DOLL",
+	"object_name": null,
+	"display_date": "20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "wood, leather, string, beads, coins, copper anklet",
+	"medium_parts": ["wood, leather, string, beads, coins, copper anklet"],
+	"dimensions": "12 5/16 x 7 x 3 1/2 (31.3 x 17.8 x 8.9 cm)",
+	"credit_line": "Bequest of John Gutmann",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": null,
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2020-09-03 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1999-12-09",
+	"location_string": "de Young, 061, Cabinet 079, D",
+	"location_building": "de Young",
+	"location_room": "Cabinet 079",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Fertility Doll",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "12 5/16 x 7 x 3 1/2 in. (31.3 x 17.8 x 8.9 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Nigeria",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAABD",
+					"term": "Nigeria"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1999.142.147",
+	"slug": "1999.142.147/fertility-doll",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 108343,
+			"media_master_id": 14629,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3072,
+			"pixel_w": 2048,
+			"file_name": "0117200112250077.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Leather",
+			"specific": ""
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "bead"
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "string"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Nigeria",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , bead, , string · Nigeria",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 32
+	}
+}

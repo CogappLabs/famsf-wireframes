@@ -1,0 +1,214 @@
+{
+	"id": 71563,
+	"accession_number": "1988.11.439",
+	"sort_number": "1988.11.439",
+	"title": "EMBROIDERED HANGING OR COVER (SUZANI)",
+	"object_name": "wall hanging (non-tapestry)",
+	"display_date": "mid 19th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "linen, silk; embroidery",
+	"medium_parts": ["linen, silk", "embroidery"],
+	"dimensions": "236 x 149 cm (92 15/16 x 58 11/16 in.)",
+	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nBequest of H. McCoy Jones",
+	"department": "Costume and Textile Arts",
+	"classification": "Furnishing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-30 11:06:53.263000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "Tent and Town,  1982-1983",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1988-06-09",
+	"location_string": "de Young, 059, Cabinet 53, C",
+	"location_building": "de Young",
+	"location_room": "Cabinet 53",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Embroidered hanging or cover (suzani)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40705,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Uzbek",
+			"AlphaSort": "Uzbek",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "92 15/16 x 58 11/16 in. (236 x 149 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Uzbekistan",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAADD",
+					"term": "O'zbekiston"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1988.11.439",
+	"slug": "1988.11.439/embroidered-hanging-or-cover-suzani",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 226122,
+			"media_master_id": 238003,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 12681,
+			"pixel_w": 8380,
+			"file_name": "MS_71563_20241202-01_Crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 226121,
+			"media_master_id": 238002,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 12681,
+			"pixel_w": 8540,
+			"file_name": "MS_71563_20241202-01.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "linen"
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "Central Asia",
+			"country": "Uzbekistan",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , linen, embroidery · Uzbekistan",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 39
+	}
+}

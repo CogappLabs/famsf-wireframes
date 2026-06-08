@@ -1,0 +1,257 @@
+{
+	"id": 147549,
+	"accession_number": "1988.11.293",
+	"sort_number": "1988.11.293",
+	"title": "SADDLEBAG (HEYBE)",
+	"object_name": "storage/transport bag",
+	"display_date": "19th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "wool, goat hair, leather, cowrie shells; slit-tapestry weave, extra-weft wrapping, tassels",
+	"medium_parts": [
+		"wool, goat hair, leather, cowrie shells",
+		"slit-tapestry weave, extra-weft wrapping, tassels"
+	],
+	"dimensions": "137.2 x 43.2 cm (54 x 17 in.)",
+	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nBequest of H. McCoy Jones",
+	"department": "Costume and Textile Arts",
+	"classification": "Tools & Equipment",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-30 11:48:30.853000",
+	"is_virtual": false,
+	"identifying_description": "Culture: Yüncü--Harald Bohmer 4/2003\r\nCulture: Yuruk? Yacebedir Confederation--C.Cootner",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1988-06-09",
+	"location_string": "de Young, 059, Cabinet 27, R",
+	"location_building": "de Young",
+	"location_room": "Cabinet 27",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Saddlebag (heybe)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41354,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Yüncü",
+			"AlphaSort": "Yüncü",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "54 x 17 in. (137.2 x 43.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Western Anatolia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABBW",
+					"term": "Western Anatolia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1988.11.293",
+	"slug": "1988.11.293/saddlebag-heybe",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 204510,
+			"media_master_id": 212018,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 5,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4542,
+			"pixel_w": 10872,
+			"file_name": "A311895_V3.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 204508,
+			"media_master_id": 212016,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4600,
+			"pixel_w": 10872,
+			"file_name": "A311895_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 168846,
+			"media_master_id": 116604,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1088,
+			"pixel_w": 2984,
+			"file_name": "5256165105680090.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 204509,
+			"media_master_id": 212017,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4542,
+			"pixel_w": 10872,
+			"file_name": "A311895_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 204275,
+			"media_master_id": 211783,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4089,
+			"pixel_w": 10872,
+			"file_name": "A311895_V1_Crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Leather",
+			"specific": ""
+		},
+		{
+			"parent": "Shell",
+			"specific": "cowrie shell"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "tassel"
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "Achaemenid",
+			"notable": "Western Anatolia"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , cowrie shell, tassel,  · Western Anatolia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 37
+	}
+}

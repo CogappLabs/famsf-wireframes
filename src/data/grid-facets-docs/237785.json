@@ -1,0 +1,165 @@
+{
+	"id": 237785,
+	"accession_number": "53.42.39",
+	"sort_number": "53.42.39",
+	"title": "WRAPPER (KAIN PRADA)",
+	"object_name": "woman's costume",
+	"display_date": "19–20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "cotton, gold;  wax-resist dyeing (batik), applied gold leaf",
+	"medium_parts": [
+		"cotton, gold",
+		"wax-resist dyeing (batik), applied gold leaf"
+	],
+	"dimensions": "50.2 x 227.3 cm (19 3/4 x 89 1/2 in.)",
+	"credit_line": "Gift of Templeton Crocker",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2014-04-14 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "The canting batik was executed in North Coast Java, the gilding in Bali.  The pattern is a lotus design against an interesting cocohan (small dot) background.--Itie van Hout",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "Permanent collection rotation: Kain Prada, 1990",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1952-12-31",
+	"location_string": "de Young, 059, Textile Rack 02, MM",
+	"location_building": "de Young",
+	"location_room": "Textile Rack 02",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Wrapper (kain prada)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "19 3/4 x 89 1/2 in. (50.2 x 227.3 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Bali",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAAAC",
+					"term": "Bali"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "53.42.39",
+	"slug": "53.42.39/wrapper-kain-prada",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 96470,
+			"media_master_id": 41639,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4974,
+			"pixel_w": 2760,
+			"file_name": "1103200814010008.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Gold & silver",
+			"specific": "gold"
+		},
+		{
+			"parent": "Metal",
+			"specific": "applied gold leaf"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Southeast Asia",
+			"country": "",
+			"notable": "Bali"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , gold, applied gold leaf · Bali",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 37
+	}
+}

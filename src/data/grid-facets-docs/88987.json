@@ -1,0 +1,385 @@
+{
+	"id": 88987,
+	"accession_number": "1982.2.70.1",
+	"sort_number": "1982.2.70.1",
+	"title": "PORTRAIT OF NAWAB SHUJA AL-DAULA (1732-1775, AFTER A PORTRAIT BY TILLY KETTLE) AND TWO PICTURES OF BEAUTY, A PAGE FROM THE LADY COOTE ALBUM",
+	"object_name": "Portrait Landscape Animal Historical Waterscape",
+	"display_date": "ca. 1780",
+	"begin_iso_date": "1780",
+	"end_iso_date": "1780",
+	"medium": "Opaque and transparent watercolor, and ink, gold, and silver with selective burnishing on paper",
+	"medium_parts": [
+		"Opaque and transparent watercolor, and ink, gold, and silver with selective burnishing on paper"
+	],
+	"dimensions": "Overall (each): 15 3/16 x 16 3/16 in. (38.5 x 41.1 cm)\r\nOverall (album page): 17 11/16 x 24 1/8 in. (45 x 61.3 cm)",
+	"credit_line": "Museum Purchase, Partial Gift of Mr. and Mrs. John D. MacDonald and Achenbach Foundation for Graphic Arts Endowment Fund",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2025-08-13 12:53:42.873000",
+	"is_virtual": false,
+	"identifying_description": "standing figure of a mustachioed man dressed in gold cloth with floral decorations and furs, wearing  red and gold boots, and holding a red bow, in a landscape with retainers and his elephant; flanked by two smaller half-length profile portraits of young women by windows: 1)looking out to a lake, 2) looking out at  green fields and buildings",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "CPLH, 20 yearsof collecting: Director's Choice, 7 March - 14 June 1987.\r\nCPLH, Treasures, 11 Nov 1995 - 3 March 1996, cat. # 227.\r\nUniversity Art Museum, Berkeley, Indian Paintings from Bay Area Collections, 23 May - 19 Aug 1984.\r\nLACMA, Los Angeles, CA, Captured Hearts: The Lure of Courtly Lucknow, Dec 5, 2010 - March 6, 2011; Musee National des Arts Asiatiques-Guimet, April 3 - July 18, 2011.",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1982-01-01",
+	"location_string": "Out for Loan",
+	"location_building": "Out for Loan",
+	"location_room": null,
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Portrait of Nawab Shuja al-Daula (1732-1775, after a portrait by Tilly Kettle) and Two Pictures of Beauty, a page from the Lady Coote Album",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 12535,
+			"Role": "After",
+			"RoleID": 37,
+			"DisplayName": "Tilly Kettle",
+			"AlphaSort": "Tilly Kettle",
+			"Nationality": "English",
+			"BeginDate": 1735,
+			"EndDate": 1786,
+			"DisplayDate": "1735–1786",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Tilly Kettle (1735–1786)"
+		},
+		{
+			"ConstituentID": 2281,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Anonymous",
+			"AlphaSort": "Anonymous",
+			"Nationality": "Indian",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "Indian or Persian",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 0"
+		},
+		{
+			"ConstituentID": 12534,
+			"Role": "Attributed to",
+			"RoleID": 72,
+			"DisplayName": "Mihr Chand",
+			"AlphaSort": "Mihr Chand",
+			"Nationality": "Indian",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "active 18th–19th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 3,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "15 3/16 x 16 3/16 in. (38.5 x 41.1 cm)",
+			"description": "sheet",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "17 11/16 x 24 1/8 in. (45 x 61.3 cm)",
+			"description": "album page",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 2
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Mughal Empire",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
+					"term": "Mughal Empire"
+				}
+			]
+		},
+		{
+			"term": "Lucknow",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAJV",
+					"term": "Uttar Pradesh"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAJV.AAGGC",
+					"term": "Lucknow"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": [
+		{
+			"term": "Lucknow",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAF",
+					"term": "Asian"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE",
+					"term": "South Asian"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF",
+					"term": "Indian"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF.AAP",
+					"term": "Indian painting styles"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF.AAP.AAC",
+					"term": "Oudh"
+				}
+			]
+		}
+	],
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Anonymous",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Anonymous",
+	"display_year": "1780",
+	"doc_id": "1982.2.70.1",
+	"slug": "1982.2.70.1/portrait-of-nawab-shuja-al-daula-1732-1775-after-a-portrait-by-tilly-kettle-and-two-pictures-of-beauty-a-page-from-the-lady-coote-album",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1780,
+	"media": [
+		{
+			"media_xref_id": 71864,
+			"media_master_id": 162628,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4707,
+			"pixel_w": 6791,
+			"file_name": "A027377_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 71865,
+			"media_master_id": 22323,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2232,
+			"pixel_w": 3000,
+			"file_name": "0411201416270004.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 71863,
+			"media_master_id": 160584,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6805,
+			"pixel_w": 9354,
+			"file_name": "A027377_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 205040,
+			"media_master_id": 212531,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5319,
+			"pixel_w": 6678,
+			"file_name": "MS_88987_20230510_1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Gold & silver",
+			"specific": "gold"
+		},
+		{
+			"parent": "Gold & silver",
+			"specific": "silver"
+		},
+		{
+			"parent": "Ink",
+			"specific": ""
+		},
+		{
+			"parent": "Paint",
+			"specific": "transparent watercolor"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South Asia",
+			"country": "",
+			"notable": "Mughal Empire"
+		},
+		{
+			"region": "East Asia",
+			"country": "",
+			"notable": "Lucknow"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — gold, silver, , transparent watercolor · Mughal Empire, Lucknow",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

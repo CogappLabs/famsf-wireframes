@@ -1,0 +1,206 @@
+{
+	"id": 55321,
+	"accession_number": "1942.14",
+	"sort_number": "1942.14",
+	"title": "GENEIGTER KOPF MIT GESCHLOSSENEN AUGEN (INCLINED HEAD WITH CLOSED EYES)",
+	"object_name": null,
+	"display_date": "ca. 1922",
+	"begin_iso_date": "1922",
+	"end_iso_date": "1922",
+	"medium": "watercolor (yellow, orange, red) over pen and black ink on cream machine-made laid paper",
+	"medium_parts": [
+		"watercolor (yellow, orange, red) over pen and black ink on cream machine-made laid paper"
+	],
+	"dimensions": "Sheet: 213 x 136 mm (8 3/8 x 5 3/8 in.)",
+	"credit_line": "Giift of Mrs. J. Wolf in memory of Miss Rachel Abel",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": "© Estate of Alexej von Jawlensky / Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2014-05-12 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Very spare semi-abstract rendition young woman's face; very sparing color with one red spot at ear.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Provenance: Artist's studio; Rachel Abel; Mrs. J. Wolf; gift to CPLH 1942",
+	"label_text": null,
+	"accession_iso_date": "1942-06-09",
+	"location_string": "Legion, 210, Compact Shelf 24, 106",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 24",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Geneigter Kopf mit geschlossenen Augen (Inclined Head with Closed Eyes)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 2979,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Alexej von Jawlensky",
+			"AlphaSort": "Alexei von Jawlensky",
+			"Nationality": "Russian",
+			"BeginDate": 1864,
+			"EndDate": 1941,
+			"DisplayDate": "1864–1941",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Alexej von Jawlensky (1864–1941)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "8 3/8 x 5 3/8 in. (21.3 x 13.6 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Russia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAEY",
+					"term": "Rossija"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Alexej von Jawlensky",
+	"primary_artist_display": "Alexej von Jawlensky (1864–1941)",
+	"sort_artist": "Alexei von Jawlensky",
+	"display_year": "1922",
+	"doc_id": "1942.14",
+	"slug": "1942.14/geneigter-kopf-mit-geschlossenen-augen-inclined-head-with-closed-eyes",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1922,
+	"media": [
+		{
+			"media_xref_id": 20004,
+			"media_master_id": 61029,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1960,
+			"pixel_w": 1552,
+			"file_name": "3154201306480089.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ink",
+			"specific": "black ink"
+		},
+		{
+			"parent": "Ink",
+			"specific": "pen"
+		},
+		{
+			"parent": "Paint",
+			"specific": "watercolor"
+		},
+		{
+			"parent": "Pigment",
+			"specific": "yellow"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "Russia",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — black ink, pen, watercolor, yellow · Russia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

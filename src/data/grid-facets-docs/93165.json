@@ -1,0 +1,241 @@
+{
+	"id": 93165,
+	"accession_number": "1979.64.20",
+	"sort_number": "1979.64.20",
+	"title": "WOMAN'S SHIRT (AFTEK)",
+	"object_name": "woman's costume",
+	"display_date": "20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Synthetic, cotton; lace, embroidery (chain and back stitches);\r\npartial plain-weave lining",
+	"medium_parts": [
+		"Synthetic, cotton",
+		"lace, embroidery (chain and back stitches)",
+		"partial plain-weave lining"
+	],
+	"dimensions": "54 x 128 cm (21 1/4 x 50 3/8 in.)",
+	"credit_line": "Museum purchase, AOA Acquisitions Fund",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-26 14:09:46.563000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": "Among the Tuareg, the traditionally nomadic inhabitants of the Sahara Desert, voluminous clothing is considered the most beautiful. The women of Agadez wear a short and ample blouse known as an afetek, which is stitched at the corners to hold the front and back together, with a slit in the center for the neck opening. It is accented with simple bands of red, green, and yellow cotton embroidery that draw attention to the wearer's facial features.",
+	"didactic_label": "Among the Tuareg, the traditionally nomadic inhabitants of the Sahara Desert, voluminous clothing is considered the most beautiful. The women of Agadez wear a short and ample blouse known as an afetek, which is stitched at the corners to hold the front and back together, with a slit in the center for the neck opening. It is accented with simple bands of red, green, and yellow cotton embroidery that draw attention to the wearer's facial features.",
+	"exhibition_history_text": "Beyond the Surface: Worldwide Embroidery Techniques, Textile Education Gallery, de Young Museum, 12/16-12/17",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1980-02-05",
+	"location_string": "de Young, 059, Cabinet 62, E",
+	"location_building": "de Young",
+	"location_room": "Cabinet 62",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Woman's shirt (aftek)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41332,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Tuareg",
+			"AlphaSort": "Tuareg",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "21 1/4 x 50 3/8 in. (54 x 128 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Agadez",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAABC",
+					"term": "Niger"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAAAB.AAABC.AAAAA",
+					"term": "Agadez"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAB.AAABC.AAAAA.AAAAC",
+					"term": "Agadez"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1979.64.20",
+	"slug": "1979.64.20/woman-s-shirt-aftek",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 130210,
+			"media_master_id": 169731,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5457,
+			"pixel_w": 10206,
+			"file_name": "A339599_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 130211,
+			"media_master_id": 46726,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3156,
+			"pixel_w": 6978,
+			"file_name": "1307200712240048.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 130212,
+			"media_master_id": 48816,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3078,
+			"pixel_w": 6858,
+			"file_name": "1605200716000048.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 130209,
+			"media_master_id": 169730,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5459,
+			"pixel_w": 10240,
+			"file_name": "A339599_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Lace",
+			"specific": ""
+		},
+		{
+			"parent": "Plastic",
+			"specific": "synthetic"
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Niger",
+			"notable": "Agadez"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , synthetic, embroidery · Agadez",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 39
+	}
+}

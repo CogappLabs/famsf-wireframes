@@ -1,0 +1,178 @@
+{
+	"id": 48019,
+	"accession_number": "1931.165",
+	"sort_number": "1931.165",
+	"title": "HAWAIIAN COWBOY, MANUEL KUDAVA",
+	"object_name": "watercolor",
+	"display_date": "1903",
+	"begin_iso_date": "1903",
+	"end_iso_date": "1903",
+	"medium": "watercolor over graphite on paper, mounted on cardboard",
+	"medium_parts": ["watercolor over graphite on paper, mounted on cardboard"],
+	"dimensions": "Sheet: 333 x 285 mm (13 1/8 x 11 1/4 in.)",
+	"credit_line": "The Palace of Fine Arts, San Francisco",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2022-06-23 17:33:00.820000",
+	"is_virtual": false,
+	"identifying_description": "Portrait of a bearded man wearing a hat",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Received from Palace of Fine Arts, 7-16-1931.",
+	"label_text": null,
+	"accession_iso_date": "1931-07-16",
+	"location_string": "Legion, 210, Compact Shelf 26, 213",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 26",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Hawaiian Cowboy, Manuel Kudava",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 14700,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "George Overbury \"Pop\" Hart",
+			"AlphaSort": "George Overbury \"Pop\" Hart",
+			"Nationality": "American",
+			"BeginDate": 1868,
+			"EndDate": 1933,
+			"DisplayDate": "1868–1933",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "George Overbury \"Pop\" Hart (1868–1933)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "13 1/8 x 11 1/4 in. (33.3 x 28.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Hawaii",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAAAR",
+					"term": "Hawaiian Islands"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAACB.AAAAR.AAAAB.AAAAB",
+					"term": "Hawaii"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "George Overbury \"Pop\" Hart",
+	"primary_artist_display": "George Overbury \"Pop\" Hart (1868–1933)",
+	"sort_artist": "George Overbury \"Pop\" Hart",
+	"display_year": "1903",
+	"doc_id": "1931.165",
+	"slug": "1931.165/hawaiian-cowboy-manuel-kudava",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1903,
+	"media": [
+		{
+			"media_xref_id": 45133,
+			"media_master_id": 67243,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2181,
+			"pixel_w": 1847,
+			"file_name": "3185201206960022.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Paint",
+			"specific": "watercolor"
+		},
+		{
+			"parent": "Paper",
+			"specific": "cardboard"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "graphite"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "Hawaiian Islands",
+			"notable": "Hawaii"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — watercolor, cardboard, graphite · Hawaii",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

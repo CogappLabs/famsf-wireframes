@@ -1,0 +1,283 @@
+{
+	"id": 305275,
+	"accession_number": "2023.94.3",
+	"sort_number": "2023.94.3",
+	"title": "PUTORINO (FLUTE)",
+	"object_name": "Flute",
+	"display_date": "1780–1820",
+	"begin_iso_date": "1780",
+	"end_iso_date": "1820",
+	"medium": "Wood, shell",
+	"medium_parts": ["Wood, shell"],
+	"dimensions": "17 1/4 x 2 1/4 x 1 1/2 in. (43.815 x 5.715 x 3.81 cm)",
+	"credit_line": "Gift of the Thomas W. Weisel Family Collection",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Ceremonial & Religious Objects",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2023-10-11 13:20:14.607000",
+	"last_modified": "2026-04-23 13:20:59.560000",
+	"is_virtual": false,
+	"identifying_description": "Wood instrument with long tapered tubular shape. The mouthpiece is the smallest point, with a curved tip and small opening for the airhole. Above this are five rows of wrapped glossy cordage. At the center of the tubular body is a large opening with surrounding carvings and inlaid open circular other of pearl. The configuration creates a face with the opening as the mouth and the mother of pearl as eyes, and the surrounding decorative carving in curved swirls creating a Maori motif and face. The so called foot end of the flute is a large rounded opening with rounded top and the same glossy cordage below. There are two seams on the sides running the length of the flute.",
+	"web_text": "Pūtōrino are Māori musical instruments (taonga pūoro) with important cultural associations linking them to the natural and spiritual world in Aotearoa, the Māori name for New Zealand. The flute tapers at each end and mirrors the shape of the cocoon of the case moth (Oeceticus omnivorous) that is endemic to Aotearoa. The caterpillars of the moth spin strong silken thread into cocoons that they then move with them while feeding, concealing the cocoons safely by securely hanging them from branches. Females never leave the cocoon; only the males grow wings and fly away, and the children hatch from eggs and emerge as caterpillars through the narrow opening at the end. In Māori mythology, the goddess of flute music, Hine Raukatauri, changed herself into a case moth and transformed her cocoon into a flute so she could live in it and sing from the opening in the top. Pūtōrino can be played from both ends, and the center opening, or mouth (māngai), that is carved on the flute with a surrounding face including pāua or abalone shell (Haliotis) inlay eyes. The sounds, or voices, can be male or female if played as a trumpet or flute, respectively. Māori attribute a third sound, or voice, to Raukatauri’s daughter Wheke—or to her children—if the flute is played from the māngai. Human breath creates songs and voices of the ancestors through the pūtōrino—sounds of loss and loneliness but also joy and fulfillment—music of a life’s journey. Gifts of Art to the Fine Arts Museums of San Francisco (San Francisco: Fine Arts Museums of San Francisco, 2025), p. 98, entry by Christina Hellmich.",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2023-10-10",
+	"location_string": "de Young, 061, Cabinet 024, C",
+	"location_building": "de Young",
+	"location_room": "Cabinet 024",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Putorino (flute)",
+			"title_type": "Primary Title",
+			"language": "English",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40487,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Māori",
+			"AlphaSort": "Māori",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "17 1/4 x 2 1/4 x 1 1/2 in. (43.815 x 5.715 x 3.81 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Aotearoa",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAABD",
+					"term": "New Zealand"
+				}
+			]
+		},
+		{
+			"term": "New Zealand",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAABD",
+					"term": "New Zealand"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "hardwood",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Māori",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Māori",
+	"display_year": "1780–1820",
+	"doc_id": "2023.94.3",
+	"slug": "2023.94.3/putorino-flute",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1780,
+	"media": [
+		{
+			"media_xref_id": 211451,
+			"media_master_id": 218644,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3024,
+			"pixel_w": 4032,
+			"file_name": "Ref_305275_240301.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Shell",
+			"specific": ""
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		},
+		{
+			"parent": "Wood",
+			"specific": "hardwood"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "New Zealand",
+			"notable": "Aotearoa"
+		},
+		{
+			"region": "Oceania",
+			"country": "New Zealand",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , hardwood · Aotearoa, New Zealand",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 46
+	}
+}

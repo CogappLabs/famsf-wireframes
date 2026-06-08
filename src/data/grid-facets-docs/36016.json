@@ -1,0 +1,216 @@
+{
+	"id": 36016,
+	"accession_number": "1951.19",
+	"sort_number": "1951.19",
+	"title": "ASCENT OF MOHAMMED",
+	"object_name": "Religious Animal Fantasy/Surrealism",
+	"display_date": "ca. 1570",
+	"begin_iso_date": "1570",
+	"end_iso_date": "1570",
+	"medium": "Opaque watercolor and gold on paper with text recto and verso with an additional border decorated with gold",
+	"medium_parts": [
+		"Opaque watercolor and gold on paper with text recto and verso with an additional border decorated with gold"
+	],
+	"dimensions": "9 3/8 x 5 3/8 in. (23.8 x 13.7 cm)",
+	"credit_line": "Gift of Arthur Sachs",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2024-07-05 09:45:05.797000",
+	"is_virtual": false,
+	"identifying_description": "Mohammed, riding a human headed horse (identified as Buraq) with clouds and angels, also panels of text above and below",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1951-07-25",
+	"location_string": "Legion, 210, Compact Shelf 23, 208",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 23",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Ascent of Mohammed",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 5637,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Anonymous",
+			"AlphaSort": "Anonymous",
+			"Nationality": "Persian",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "Persian",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "9 3/8 x 5 3/8 in. (23.8 x 13.7 cm)",
+			"description": "not incl. border",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Persia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAADV",
+					"term": "Persia"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Anonymous",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Anonymous",
+	"display_year": "1570",
+	"doc_id": "1951.19",
+	"slug": "1951.19/ascent-of-mohammed",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1570,
+	"media": [
+		{
+			"media_xref_id": 20091,
+			"media_master_id": 171705,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9218,
+			"pixel_w": 6781,
+			"file_name": "A045557_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 20092,
+			"media_master_id": 106200,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2768,
+			"pixel_w": 1681,
+			"file_name": "4359202410730058.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Gold & silver",
+			"specific": "gold"
+		},
+		{
+			"parent": "Paint",
+			"specific": "opaque watercolor"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Middle East",
+			"country": "Persia",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — gold, opaque watercolor · Persia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

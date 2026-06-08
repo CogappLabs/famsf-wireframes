@@ -1,0 +1,245 @@
+{
+	"id": 88575,
+	"accession_number": "1984.2.31",
+	"sort_number": "1984.2.31",
+	"title": "ENCOUNTER BESIDE A RIVERBANK",
+	"object_name": "Bird Landscape Religious Myth/Legend Genre",
+	"display_date": "early 18th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Opaque watercolor and gold on paper onlaid to decorative borders",
+	"medium_parts": [
+		"Opaque watercolor and gold on paper onlaid to decorative borders"
+	],
+	"dimensions": "Sheet: 222 x 153 mm (8 3/4 x 6 in.)",
+	"credit_line": "Gift of Dr. and Mrs. William K. Ehrenfeld",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2015-08-10 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Krishna (blue skin) lying in the rocks beside a river with birds, man and woman meeting above him, green valley, city and other isolated buildings in distance",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "AFGA, CPLH: Recent Acquisitions of the Achenbach Foundation for Graphic Arts,: Part I,  1500-1940, 12 Jan - 17 March, 1985.",
+	"bibliography_text": null,
+	"provenance": "Provenance: Doris Wiener Gallery, New York: Indian Miniature Paintings, 10th Annual...1974, cat. no. 34, repr.;\r\nDr. and Mrs. William K. Ehrenfeld;",
+	"label_text": null,
+	"accession_iso_date": "1984-01-01",
+	"location_string": "Legion, 210, Compact Shelf 23, 210",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 23",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Encounter Beside a Riverbank",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 2281,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Anonymous",
+			"AlphaSort": "Anonymous",
+			"Nationality": "Indian",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "Indian or Persian",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "8 3/4 x 6 in. (22.2 x 15.3 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Mughal Empire",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
+					"term": "Mughal Empire"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": [
+		{
+			"term": "Mughal",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAF",
+					"term": "Asian"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE",
+					"term": "South Asian"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF",
+					"term": "Indian"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF.AAD.AAC",
+					"term": "Mughal"
+				}
+			]
+		}
+	],
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Anonymous",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Anonymous",
+	"display_year": null,
+	"doc_id": "1984.2.31",
+	"slug": "1984.2.31/encounter-beside-a-riverbank",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 20127,
+			"media_master_id": 97971,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2312,
+			"pixel_w": 1660,
+			"file_name": "4359202410710056.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Gold & silver",
+			"specific": "gold"
+		},
+		{
+			"parent": "Paint",
+			"specific": "opaque watercolor"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South Asia",
+			"country": "",
+			"notable": "Mughal Empire"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — gold, opaque watercolor · Mughal Empire",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

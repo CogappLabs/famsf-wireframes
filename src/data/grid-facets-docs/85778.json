@@ -1,0 +1,200 @@
+{
+	"id": 85778,
+	"accession_number": "1986.2.52",
+	"sort_number": "1986.2.52",
+	"title": "SEATED WOMAN",
+	"object_name": "Figure Study Portrait",
+	"display_date": "1943",
+	"begin_iso_date": "1943",
+	"end_iso_date": "1943",
+	"medium": "Pen and brush and brown ink on wove paper",
+	"medium_parts": ["Pen and brush and brown ink on wove paper"],
+	"dimensions": "34.7 x 27.8 cm (sheet)",
+	"credit_line": "Gift of George Hopper Fitch",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": "© Estate of Mario Carreño / Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2017-02-10 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "woman seated by a small table with long hair,  large arms crossed across her lap, no shoes\r\nSeated female; near frontal; leans on table.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1986-01-01",
+	"location_string": "Legion, 210, Compact Shelf 26, 110",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 26",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Seated Woman",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 7158,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Mario Carreño",
+			"AlphaSort": "Mario Carreño",
+			"Nationality": "Cuban",
+			"BeginDate": 1913,
+			"EndDate": 1999,
+			"DisplayDate": "1913–1999",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Mario Carreño (1913–1999)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "13 11/16 x 10 15/16 in. (34.7 x 27.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Cuba",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAACF",
+					"term": "Cuba"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Mario Carreño",
+	"primary_artist_display": "Mario Carreño (1913–1999)",
+	"sort_artist": "Mario Carreño",
+	"display_year": "1943",
+	"doc_id": "1986.2.52",
+	"slug": "1986.2.52/seated-woman",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1943,
+	"media": [
+		{
+			"media_xref_id": 45254,
+			"media_master_id": 62659,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2086,
+			"pixel_w": 1677,
+			"file_name": "3154201309050030.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ink",
+			"specific": "brown ink"
+		},
+		{
+			"parent": "Ink",
+			"specific": "pen"
+		},
+		{
+			"parent": "Paper",
+			"specific": "wove paper"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "West Indies",
+			"country": "Cuba",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — brown ink, pen, wove paper · Cuba",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

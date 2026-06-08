@@ -1,0 +1,248 @@
+{
+	"id": 302566,
+	"accession_number": "2022.33.1",
+	"sort_number": "2022.33.1",
+	"title": "WOMAN'S DRESS",
+	"object_name": "woman's costume",
+	"display_date": "ca. 1880",
+	"begin_iso_date": "1875",
+	"end_iso_date": "1885",
+	"medium": "Silk gauze weave with supplementary weft-patterning, silk satin, silk chiffon, silk taffeta, silk and chenille fringe, silk ribbon, silk twill lining",
+	"medium_parts": [
+		"Silk gauze weave with supplementary weft-patterning, silk satin, silk chiffon, silk taffeta, silk and chenille fringe, silk ribbon, silk twill lining"
+	],
+	"dimensions": "center front: 60 in., (152.4 cm,)\r\ncenter back: 83 in., (210.82 cm,)\r\nshoulder-to-shoulder: 14 1/2 in., (36.83 cm,)\r\nwaist: 21 1/2 in., (54.61 cm,)\r\nhip: 37 in., (93.98 cm,)",
+	"credit_line": "Gift of Natalie C. Lewis on behalf of Natalie Greene Lewis",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2022-06-06 14:36:19.943000",
+	"last_modified": "2022-11-09 13:12:14.257000",
+	"is_virtual": false,
+	"identifying_description": "Woman's reception or dinner dress of pale apricot-colored silk gauze weave with supplementary weft-patterning in princess-line silhouette. Bodice with V-neck and 12-button front closure; pale apricot-colored silk taffeta elbow-length sleeves. Full skirt trimmed with silk and chenille fringe with bustle and slight train at back; two hook and eye closures at back of skirt. Cream-colored silk twill lining throughout.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": "Diana de Marly, \"The History of Haute Couture, 1850 - 1950\" (New York: Holmes & Meier Publishers, Inc., 1980): plate 1.",
+	"provenance": "Owned by Natalie Coffin Greene, of San Francisco, grandmother of the donor",
+	"label_text": null,
+	"accession_iso_date": "2022-11-09",
+	"location_string": "de Young, 059, Cabinet 48, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 48",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": "Waist tape in bodice, no label or markings.",
+	"titles": [
+		{
+			"title": "Woman's dress",
+			"title_type": "Primary Title",
+			"language": "English",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "60 in., (152.4 cm,)",
+			"description": "center front",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "83 in., (210.82 cm,)",
+			"description": "center back",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 2
+		},
+		{
+			"display_dimensions": "14 1/2 in., (36.83 cm,)",
+			"description": "shoulder-to-shoulder",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 3
+		},
+		{
+			"display_dimensions": "21 1/2 in., (54.61 cm,)",
+			"description": "waist",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 4
+		},
+		{
+			"display_dimensions": "37 in., (93.98 cm,)",
+			"description": "hip",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 5
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "France",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		},
+		{
+			"term": "United States of America",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1875–85",
+	"doc_id": "2022.33.1",
+	"slug": "2022.33.1/woman-s-dress",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1875,
+	"media": [
+		{
+			"media_xref_id": 180110,
+			"media_master_id": 196765,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9892,
+			"pixel_w": 7147,
+			"file_name": "PSI_20220816_302566_1_Crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "silk chiffon"
+		},
+		{
+			"parent": "Textile",
+			"specific": "silk satin"
+		},
+		{
+			"parent": "Textile",
+			"specific": "silk taffeta"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "silk ribbon"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"notable": ""
+		},
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": "United States of America"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , silk chiffon, silk satin, silk taffeta … · France, United States of America",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

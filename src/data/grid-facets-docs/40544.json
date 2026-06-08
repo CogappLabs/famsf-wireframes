@@ -1,0 +1,255 @@
+{
+	"id": 40544,
+	"accession_number": "1951.14.dup3",
+	"sort_number": "1951.14.dup3",
+	"title": "TODI RAGINI, FROM A RAGAMALA SET",
+	"object_name": "Art/Music/Dance Bird Animal Botanical",
+	"display_date": "18th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Opaque watercolor and gold on paper mounted to a sheet with decorative borders",
+	"medium_parts": [
+		"Opaque watercolor and gold on paper mounted to a sheet with decorative borders"
+	],
+	"dimensions": "Sheet: 175 x 108 mm (6 7/8 x 4 1/4 in.)",
+	"credit_line": "Gift of Arthur Sachs",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2017-02-06 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "woman playing a stringed instrument by a watercourse, with  three animals of the deer group and two white birds",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "Asian Art Museum, San Francisco,,, Indian Ragamala Paintings, 25 Sept 1995 - 14 Jan 1996.",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1951-07-25",
+	"location_string": "Legion, 210, Compact Shelf 23, 208",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 23",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Todi Ragini, from a Ragamala set",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 12924,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Unidentified ",
+			"AlphaSort": "Unidentified ",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "Indian",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "6 7/8 x 4 1/4 in. (17.5 x 10.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Mughal Empire",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
+					"term": "Mughal Empire"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": [
+		{
+			"term": "Provincial Mughal",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAF",
+					"term": "Asian"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE",
+					"term": "South Asian"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF",
+					"term": "Indian"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF.AAD.AAC",
+					"term": "Mughal"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF.AAD.AAC.AAB",
+					"term": "Mughal styles"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF.AAD.AAC.AAB.AAC",
+					"term": "Provincial Mughal"
+				}
+			]
+		}
+	],
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unidentified ",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Unidentified ",
+	"display_year": null,
+	"doc_id": "1951.14.dup3",
+	"slug": "1951.14.dup3/todi-ragini-from-a-ragamala-set",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 20125,
+			"media_master_id": 106193,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2848,
+			"pixel_w": 1876,
+			"file_name": "4359202410730071.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Gold & silver",
+			"specific": "gold"
+		},
+		{
+			"parent": "Paint",
+			"specific": "opaque watercolor"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South Asia",
+			"country": "",
+			"notable": "Mughal Empire"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — gold, opaque watercolor · Mughal Empire",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 42
+	}
+}

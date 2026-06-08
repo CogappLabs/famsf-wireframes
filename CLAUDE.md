@@ -80,7 +80,29 @@ All components are exported from `@/components/wireframe`:
 Pages can offer alternative layouts via URL search params (e.g. `?variation=list`). This lets stakeholders compare design options with shareable links. The toggle renders automatically in the layout top bar.
 
 Current variations:
-- **Search Results**: grid / list view
+- **Search Results**: grid / grid + facets / grid + facet modals / list / zero-results / AI search / artworks + artists / interleaved
+  - **grid + facets** (`?variation=grid-facets`) and **grid + facet modals**
+    (`?variation=grid-facets-modal`) are the only variations backed by **real
+    pipeline data** (a ~600-object slice in `src/data/grid-facets-docs/`, see
+    below). Both render a left facet column instead of the horizontal bar,
+    sharing the same `GridFacetsView` (a `layout` prop switches inline vs
+    modal). Facets:
+    - **Place** — expandable tree (region → country → notable place, per the
+      REGION_REMAP workbook). Each row: ▸/▾ caret expands children in place;
+      a checkbox filters by that node (any tier). "Filter place…" prunes +
+      auto-expands matching branches (e.g. "paris" → Europe ▾ France ▾ Paris).
+    - **Material** — same expandable tree, 2-tier (parent → specific, per the
+      Material workbook FACET_DESIGN_v2; e.g. Metal → bronze).
+    - **Technique** — flat list. **Date** — flat century buckets (oldest →
+      newest), via `objectCentury` ("7th century BCE" / "19th century").
+    - **On view** + **Has image** — toggle buttons inline under the search input.
+    `grid-facets` shows every facet expanded inline; `grid-facets-modal` shows
+    one button per facet (name + active-count badge) that opens the same
+    control in a `<dialog>`. The export collapses self-named tiers
+    (country == region, specific == parent) so no node ever shows a child
+    identical to itself. The horizontal facet bar (and its
+    medium/materials/style/movement/reign/dynasty/school/attribution/donor
+    facets, all removed) still serves every other variation.
 - **Object Detail**: standard / two-column layout for provenance and exhibitions
 
 ### Scope system
@@ -226,6 +248,43 @@ directory if `COLFLOW_WIREFRAMES_SAMPLE_DIR` env var is set in the
 pipeline's `.env`. No `npm run sync:samples` needed for content
 refreshes. Only run sync after schema changes (TypeScript type
 updates).
+
+## Grid + facets variation data (real-data slice)
+
+The `/search-results?variation=grid-facets` variation is backed by a
+separate bulk export, NOT the curated sample-docs set above:
+
+- `src/data/grid-facets-docs/` — ~600 `{ObjectID}.json` docs, a balanced
+  slice (per-region cap) of the `-real` pipeline's
+  `collection_documents.parquet`, restricted to objects with geography +
+  a mapped material/technique. Loaded by `loadGridFacetsDocs()` in
+  `src/lib/sample-docs-registry.ts`. These are NOT in the auto-discovery
+  registry and don't appear on `/objects/sample`.
+- Each doc carries three **pre-derived curator-taxonomy facet** fields
+  (added by the export, not emitted by the production pipeline yet):
+  `facet_place[]` (`{region, country, notable}`, hierarchical, from the
+  REGION_REMAP workbook keyed on each place term's Getty TGN `cn`),
+  `facet_material[]` and `facet_technique[]` (flat public labels from the
+  Material workbook crosswalk: raw token → `FACET_LIST.facet_value` →
+  `FACET_PUBLIC.public_label`, split by `facet_final` material/technique).
+  Typed on `CollectionDocument` + `PlaceFacet` in
+  `src/lib/collection-document.ts`.
+
+Regenerate (one-off, not Dagster assets):
+
+1. `uv run … python scripts/pull_taxonomy_sheets.py` — pulls the live
+   curator workbooks (REGION_REMAP + Material `FACET_PUBLIC_v2` /
+   `FACET_LIST_v2`) to `src/data/taxonomy-tsv/` via **cogapp-sheets**
+   (ADC-authed; run `gcloud auth application-default login` first). Sheet
+   IDs are in the script; tab names confirmed at runtime.
+2. `uv run --no-project python scripts/export_grid_facets_docs.py` —
+   reads the parquet + the TSV crosswalks, derives the three facets, and
+   writes the balanced slice. `TARGET` / `PER_REGION_CAP` cap the output.
+
+Taxonomy design lives in `docs/place-geography-taxonomy.md` (Place) and
+the Material sibling workbook. The pipeline does NOT yet emit these facet
+fields (see that doc's "Not yet built"); the export is the wireframe-only
+stand-in until it does.
 
 ## Schema reference page
 

@@ -1,0 +1,201 @@
+{
+	"id": 89575,
+	"accession_number": "1982.83.5",
+	"sort_number": "1982.83.5",
+	"title": "SLIP",
+	"object_name": "woman's undergarments",
+	"display_date": "1930–1940",
+	"begin_iso_date": "1930",
+	"end_iso_date": "1940",
+	"medium": "Pink satin with embroidery and lace",
+	"medium_parts": ["Pink satin with embroidery and lace"],
+	"dimensions": "104 x 114 cm (40 15/16 x 44 7/8 in.)",
+	"credit_line": "Gift of Mrs. Freda F. Eisenson in memory of Rose F. Segal",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2021-01-25 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Bias cut slip trimmed with ecru lace. Narrow shoulder straps, satin. Upper front bodice of silk with embroidered flowers, trimmed with lace on edges. Lower bodice front of strips of stain and lace. Skirt cut on bias with center front and back seams.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1982-10-07",
+	"location_string": "de Young, 059, Cabinet 42, TA",
+	"location_building": "de Young",
+	"location_room": "Cabinet 42",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Slip",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 6889,
+			"Role": "Maker",
+			"RoleID": 56,
+			"DisplayName": "Alice Kahl",
+			"AlphaSort": "Kahl,  Alice",
+			"Nationality": "Brazilian ?",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "Brazilian ?",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "40 15/16 x 44 7/8 in. (104 x 114 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Rio de Janeiro",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAABA",
+					"term": "Brasil"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAABA.AAADL",
+					"term": "Rio de Janeiro"
+				}
+			]
+		},
+		{
+			"term": "Bahia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAABA",
+					"term": "Brasil"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAABA.AAAAQ",
+					"term": "Bahia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Alice Kahl",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Kahl,  Alice",
+	"display_year": "1930–40",
+	"doc_id": "1982.83.5",
+	"slug": "1982.83.5/slip",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1930,
+	"media": [
+		{
+			"media_xref_id": 93127,
+			"media_master_id": 21671,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1900,
+			"pixel_w": 1878,
+			"file_name": "0408200412000497.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Lace",
+			"specific": ""
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Brazil",
+			"notable": "Rio de Janeiro"
+		},
+		{
+			"region": "South America",
+			"country": "Brazil",
+			"notable": "Bahia"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , embroidery · Rio de Janeiro, Bahia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

@@ -1,0 +1,213 @@
+{
+	"id": 77893,
+	"accession_number": "1994.160.5",
+	"sort_number": "1994.160.5",
+	"title": "WOMAN'S MOLA BLOUSE",
+	"object_name": "woman's costume",
+	"display_date": "mid 20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Synthetic, cotton; printed, pieced, reverse-appliquéd plain weave, embroidery (chain, buttonhole, and fly stitches)",
+	"medium_parts": [
+		"Synthetic, cotton",
+		"printed, pieced, reverse-appliquéd plain weave, embroidery (chain, buttonhole, and fly stitches)"
+	],
+	"dimensions": "57.5 x 45.7 cm (22 5/8 x 18  in.)",
+	"credit_line": "Gift of William Siegal",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-04 10:04:15.087000",
+	"is_virtual": false,
+	"identifying_description": "Weathervane pattern with cockerel",
+	"web_text": "Since the mid-nineteenth century, mola (“cloth”) have been the cultural markers of the Kuna, an indigenous people of Panama and Colombia. Hand sewn in pairs, the panels are affixed to the fronts and backs of blouses, forming their main decorative interest. The reverse appliqué technique, in which outlines are cut from the top fabric to expose lower layers, is further enhanced by embroidery. The patterns found in mola of the early to mid-twentieth century, such as the weathervane motif seen here, reveal increased contact with modern society during this period.",
+	"didactic_label": "Since the mid-nineteenth century, mola (“cloth”) have been the cultural markers of the Kuna, an indigenous people of Panama and Colombia. Hand sewn in pairs, the panels are affixed to the fronts and backs of blouses, forming their main decorative interest. The reverse appliqué technique, in which outlines are cut from the top fabric to expose lower layers, is further enhanced by embroidery. The patterns found in mola of the early to mid-twentieth century, such as the weathervane motif seen here, reveal increased contact with modern society during this period.",
+	"exhibition_history_text": "Unravelling Yarns(rotation)  1993-1996\r\nBeyond the Surface: Worldwide Embroidery Techniques, Textile Education Gallery, de Young Museum, 12/16-12/17",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1994-12-31",
+	"location_string": "de Young, 059, Cabinet 34, J",
+	"location_building": "de Young",
+	"location_room": "Cabinet 34",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Woman's mola blouse",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41173,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Guna",
+			"AlphaSort": "Guna",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "22 5/8 x 18 in. (57.5 x 45.7 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "San Blas",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAABI",
+					"term": "Central America"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAABI.AAAAG.AAAAM",
+					"term": "Guna Yala"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1994.160.5",
+	"slug": "1994.160.5/woman-s-mola-blouse",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 95171,
+			"media_master_id": 45957,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4080,
+			"pixel_w": 5440,
+			"file_name": "1212200615260002.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 95170,
+			"media_master_id": 169881,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7986,
+			"pixel_w": 7931,
+			"file_name": "A300123_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 95169,
+			"media_master_id": 169879,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8215,
+			"pixel_w": 7836,
+			"file_name": "A300123_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Plastic",
+			"specific": "synthetic"
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "Central America",
+			"country": "Mesoamerica",
+			"notable": "San Blas"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , synthetic, embroidery · San Blas",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 40
+	}
+}

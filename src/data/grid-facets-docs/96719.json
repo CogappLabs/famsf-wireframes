@@ -1,0 +1,201 @@
+{
+	"id": 96719,
+	"accession_number": "1996.173.58a-b",
+	"sort_number": "1996.173.58a-b",
+	"title": "TWO PAINTED FRAGMENTS",
+	"object_name": "textile fragment",
+	"display_date": null,
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "pigment over cotton",
+	"medium_parts": ["pigment over cotton"],
+	"dimensions": "33 x 11.4 cm (13  x 4 1/2 in.)",
+	"credit_line": "Gift of Erik Jacobsen",
+	"department": "Costume and Textile Arts",
+	"classification": "Textile",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-02 15:16:20.557000",
+	"is_virtual": false,
+	"identifying_description": "two fringed fragments are probably from a tunic or mantle border, teh stamped curvilinear motif or scene, executed in black and white on a tan ground, depicts an anthropomorphic figure witha long tasselled headdress joined to and surrounded by flying and profile birds",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1996-12-31",
+	"location_string": "de Young, 059, Cabinet 58, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 58",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Two painted fragments",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 39038,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Chancay",
+			"AlphaSort": "Chancay",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "13 x 4 1/2 in. (33 x 11.4 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Andes Mountains",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAAO",
+					"term": "Andes Mountains"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": [
+		{
+			"term": "Pre-Columbian",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAC",
+					"term": "Americas, The"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAC.AAC",
+					"term": "Pre-Columbian"
+				}
+			]
+		}
+	],
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1996.173.58a-b",
+	"slug": "1996.173.58a-b/two-painted-fragments",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 102349,
+			"media_master_id": 45645,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1229,
+			"pixel_w": 1770,
+			"file_name": "1211200309020524.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Pigment",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Andes Mountains",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — ,  · Andes Mountains",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 36
+	}
+}

@@ -1,0 +1,291 @@
+{
+	"id": 160715,
+	"accession_number": "2010.36.1",
+	"sort_number": "2010.36.1",
+	"title": "HALF-FIGURE OF A MAN ON A PRESTIGE STOOL",
+	"object_name": "figure",
+	"display_date": "19th–20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "wood, pigment, cowry shells, fiber and metal",
+	"medium_parts": ["wood, pigment, cowry shells, fiber and metal"],
+	"dimensions": "28 1/2 x 7 1/2 x 7 in.",
+	"credit_line": "Blossom and Dwight Strong Collection",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Sculpture",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2022-03-22 14:23:32.740000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": "Half-figure of a man on a prestige stool\r\nDemocratic Republic of Congo or southeastern Gabon, Mbete people\r\n<BR>Late 19th-early 20th century\r\n<BR>Wood, pigment, cowry shells, metal, and fiber \r\n<BR>Blossom and Dwight Strong Collection\r\n<BR>L10.51.1\r\n<BR>",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Purchased from Guy Piazzini, 1984",
+	"label_text": null,
+	"accession_iso_date": "2010-10-21",
+	"location_string": "de Young, 061, Cabinet 073, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 073",
+	"edition": null,
+	"signed": null,
+	"inscribed": "A390091 L10.51.1",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Half-figure of a man on a prestige stool",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "28 1/2 x 7 1/2 x 7 in. (72.4 x 19.1 x 17.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Democratic Republic of the Congo",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAIT",
+					"term": "Congo, République Démocratique du"
+				}
+			]
+		},
+		{
+			"term": "Gabon",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAKI",
+					"term": "Gabon"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2010.36.1",
+	"slug": "2010.36.1/half-figure-of-a-man-on-a-prestige-stool",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 138166,
+			"media_master_id": 164163,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6920,
+			"pixel_w": 3822,
+			"file_name": "A390091_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138167,
+			"media_master_id": 161609,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6920,
+			"pixel_w": 3822,
+			"file_name": "A390091_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138173,
+			"media_master_id": 154323,
+			"rank": 8,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3872,
+			"pixel_w": 2592,
+			"file_name": "1102201014290009.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138172,
+			"media_master_id": 29836,
+			"rank": 7,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3000,
+			"pixel_w": 1421,
+			"file_name": "0708201514210070.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138171,
+			"media_master_id": 28805,
+			"rank": 6,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3000,
+			"pixel_w": 1421,
+			"file_name": "0615201516010005.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138170,
+			"media_master_id": 148092,
+			"rank": 5,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 797,
+			"pixel_w": 309,
+			"file_name": "0526201011280010.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 138168,
+			"media_master_id": 161610,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6920,
+			"pixel_w": 3822,
+			"file_name": "A390091_V3.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Pigment",
+			"specific": ""
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Democratic Republic of the Congo",
+			"notable": ""
+		},
+		{
+			"region": "Africa",
+			"country": "Gabon",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , ,  · Democratic Republic of the Congo, Gabon",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 37
+	}
+}

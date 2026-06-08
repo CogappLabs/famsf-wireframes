@@ -1,0 +1,327 @@
+{
+	"id": 189037,
+	"accession_number": "2020.18.26",
+	"sort_number": "2020.18.26",
+	"title": "SKIRT",
+	"object_name": "woman's costume",
+	"display_date": "Fall 2014 Ready-to-Wear",
+	"begin_iso_date": "2014",
+	"end_iso_date": "2014",
+	"medium": "Pieced felted wool with nylon stitching; polyester mesh; nylon mesh with rayon and polyester machine embroidery; nylon, wool, and acrylic crochet; cotton and rayon faux fur; cotton, polyester, nylon, and polyurethane serge weave with\r\nsilk satin weave backing, polyester mesh with plastic sequins; and white alloy metal zipper and snap",
+	"medium_parts": [
+		"Pieced felted wool with nylon stitching",
+		"polyester mesh",
+		"nylon mesh with rayon and polyester machine embroidery",
+		"nylon, wool, and acrylic crochet",
+		"cotton and rayon faux fur",
+		"cotton, polyester, nylon, and polyurethane serge weave with\r\nsilk satin weave backing, polyester mesh with plastic sequins",
+		"and white alloy metal zipper and snap"
+	],
+	"dimensions": "waist: 29 in., (73.7 cm,)",
+	"credit_line": "Gift of Norah and Norman Stone",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2024-08-20 13:55:27.850000",
+	"is_virtual": false,
+	"identifying_description": "A-line skirt of black wool felt with black vinyl, black lace, and black plush piecework: sections printed in white with lace-like designs; asymmetrical hem; zipper and button closure at front.\r\n\r\nLabel: \"JUNYA WATANABE/ Comme des Garcons/ M\", black label with white text, center back",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": "(black label with white text atcenter back of waist) “JUNYA WATANABE /COMME des GARÇONS”",
+	"accession_iso_date": "2020-06-08",
+	"location_string": "de Young, 067, Area B",
+	"location_building": "de Young",
+	"location_room": "Area B",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Skirt",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 18723,
+			"Role": "Designer",
+			"RoleID": 67,
+			"DisplayName": "Junya Watanabe",
+			"AlphaSort": "Junya Watanabe",
+			"Nationality": "Japanese",
+			"BeginDate": 1961,
+			"EndDate": 0,
+			"DisplayDate": "b. 1961",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1961"
+		},
+		{
+			"ConstituentID": 18724,
+			"Role": "House of",
+			"RoleID": 356,
+			"DisplayName": "Comme des Garcons",
+			"AlphaSort": "Comme des Garcons",
+			"Nationality": "Japanese",
+			"BeginDate": 1973,
+			"EndDate": 0,
+			"DisplayDate": "est. 1973",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 1973"
+		},
+		{
+			"ConstituentID": 38886,
+			"Role": "Retailer",
+			"RoleID": 319,
+			"DisplayName": "Susan",
+			"AlphaSort": "Susan",
+			"Nationality": null,
+			"BeginDate": 1983,
+			"EndDate": 0,
+			"DisplayDate": "est. 1983",
+			"Institution": "Susan",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 3,
+			"DisplayLabel": "b. 1983"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "29 in., (73.7 cm,)",
+			"description": "waist",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Japan",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAACQ",
+					"term": "Nihon"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Junya Watanabe",
+	"primary_artist_display": "b. 1961",
+	"sort_artist": "Junya Watanabe",
+	"display_year": "2014",
+	"doc_id": "2020.18.26",
+	"slug": "2020.18.26/skirt",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 2014,
+	"media": [
+		{
+			"media_xref_id": 220382,
+			"media_master_id": 230894,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 7,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 13678,
+			"pixel_w": 9607,
+			"file_name": "MS_151015-189037_FSF-DeInstall-Photography_20240812_1_Crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 209238,
+			"media_master_id": 214736,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11608,
+			"pixel_w": 8708,
+			"file_name": "MS_A392648_1_Crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 209239,
+			"media_master_id": 214873,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11608,
+			"pixel_w": 8708,
+			"file_name": "MS_A392648_1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 180296,
+			"media_master_id": 196950,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2626,
+			"pixel_w": 2300,
+			"file_name": "A414094.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 209240,
+			"media_master_id": 214874,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11608,
+			"pixel_w": 8708,
+			"file_name": "MS_A392648_4.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 209241,
+			"media_master_id": 214875,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 5,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11608,
+			"pixel_w": 8708,
+			"file_name": "MS_A392648_5.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 220383,
+			"media_master_id": 230895,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 8,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 13769,
+			"pixel_w": 9607,
+			"file_name": "MS_151015-189037_FSF-DeInstall-Photography_20240812_2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "nylon"
+		},
+		{
+			"parent": "Textile",
+			"specific": "polyester"
+		},
+		{
+			"parent": "Textile",
+			"specific": "rayon"
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "Japan",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , nylon, polyester, rayon … · Japan",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

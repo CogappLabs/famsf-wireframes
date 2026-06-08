@@ -1,0 +1,216 @@
+{
+	"id": 238455,
+	"accession_number": "2005.180.39",
+	"sort_number": "2005.180.39",
+	"title": "CLAN EMBLEM FROM DEMA DANCE COSTUME",
+	"object_name": null,
+	"display_date": "19th-early 20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Sago palm petioles, Abrus and Coix seeds, shell, glass, fiber, gum, pigment",
+	"medium_parts": [
+		"Sago palm petioles, Abrus and Coix seeds, shell, glass, fiber, gum, pigment"
+	],
+	"dimensions": "101.6 x 66 x 7.6 cm (40 x 26 x 3 in.)",
+	"credit_line": "Gift of Marcia and John Friede",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Personal Accessory",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": true,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2026-04-23 13:55:20.973000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Jolika Collection of New Guinea Art",
+	"label_text": null,
+	"accession_iso_date": "2005-02-23",
+	"location_string": "de Young, Display, Gallery 030, Wall Case 3",
+	"location_building": "de Young",
+	"location_room": "Gallery 030",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Clan emblem from dema dance costume",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41465,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Marind-Anim",
+			"AlphaSort": "Marind-Anim",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "40 x 26 x 3 in. (101.6 x 66 x 7.6 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Merauke",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI",
+					"term": "Papua"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAACO",
+					"term": "Merauke"
+				}
+			]
+		},
+		{
+			"term": "South Papua Province",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQC",
+					"term": "Indonesia"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQC.AAAEM",
+					"term": "South Papua Province"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Marind-Anim",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Marind-Anim",
+	"display_year": null,
+	"doc_id": "2005.180.39",
+	"slug": "2005.180.39/clan-emblem-from-dema-dance-costume",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 121987,
+			"media_master_id": 46479,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 355,
+			"pixel_w": 229,
+			"file_name": "1220200209590022.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Glass",
+			"specific": "glas"
+		},
+		{
+			"parent": "Pigment",
+			"specific": ""
+		},
+		{
+			"parent": "Shell",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Southeast Asia",
+			"country": "",
+			"notable": "Merauke"
+		},
+		{
+			"region": "Southeast Asia",
+			"country": "Indonesia",
+			"notable": "South Papua Province"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — glas, ,  · Merauke, South Papua Province",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 38
+	}
+}

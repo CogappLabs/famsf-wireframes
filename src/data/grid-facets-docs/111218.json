@@ -1,0 +1,211 @@
+{
+	"id": 111218,
+	"accession_number": "1992.107.29",
+	"sort_number": "1992.107.29",
+	"title": "MAN'S HAT (CHULLU)",
+	"object_name": "headwear",
+	"display_date": "ca. 1960",
+	"begin_iso_date": "1960",
+	"end_iso_date": "1960",
+	"medium": "wool or camelid fiber; knitting",
+	"medium_parts": ["wool or camelid fiber", "knitting"],
+	"dimensions": "22.8 x 43.2 cm (9  x 17  in.)",
+	"credit_line": "The Jeffrey Appleby Andean Textile Collection",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-25 09:38:30.923000",
+	"is_virtual": false,
+	"identifying_description": "Medium size knitted hat, one piece, color patterning in predominantly gold and red, elongated top, ear flaps, both with tassels, deeply scalloped edging.\r\n\r\nCatalogue #207, pp.127-130, Traditional extile of the Andes",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "To Honor the Ancestors, 1997",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1992-06-30",
+	"location_string": "de Young, 059, Cabinet 33, B",
+	"location_building": "de Young",
+	"location_room": "Cabinet 33",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Man's hat (chullu)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41147,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Quechua",
+			"AlphaSort": "Quechua",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "9 x 17 in. (22.8 x 43.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Urubamba",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL",
+					"term": "Perú"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAACF",
+					"term": "Ucayali"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAACF.AAAAP",
+					"term": "Urubamba"
+				}
+			]
+		},
+		{
+			"term": "Chincheros",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL",
+					"term": "Perú"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAAAE",
+					"term": "Apurimac"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAAAE.AAAAG",
+					"term": "Chincheros"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1960",
+	"doc_id": "1992.107.29",
+	"slug": "1992.107.29/man-s-hat-chullu",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1960,
+	"media": [
+		{
+			"media_xref_id": 94959,
+			"media_master_id": 125891,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1824,
+			"pixel_w": 1476,
+			"file_name": "6250307134220037.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Textile",
+			"specific": "knitting"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Peru",
+			"notable": "Urubamba"
+		},
+		{
+			"region": "South America",
+			"country": "Peru",
+			"notable": "Chincheros"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — knitting · Urubamba, Chincheros",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

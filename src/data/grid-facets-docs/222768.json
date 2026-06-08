@@ -1,0 +1,428 @@
+{
+	"id": 222768,
+	"accession_number": "2021.76",
+	"sort_number": "2021.76",
+	"title": "90S DEJEUNER",
+	"object_name": null,
+	"display_date": "2021",
+	"begin_iso_date": "2021",
+	"end_iso_date": "2021",
+	"medium": "Acrylic, oil, ink, and wood carving on panel",
+	"medium_parts": ["Acrylic, oil, ink, and wood carving on panel"],
+	"dimensions": "Overall: 68 x 104 in. (172.72 x 264.161 cm)",
+	"credit_line": "Museum purchase, Gift of Tara and Bryan Meehan",
+	"department": "Contemporary Art",
+	"classification": "Painting",
+	"copyright": "© Didier William",
+	"object_rights_type": "Copyright",
+	"on_view": true,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2026-03-30 15:11:13.743000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": "Didier William blends the history and mythology of his Haitian birthplace Port-au-Prince with memories of his coming of age in Miami and the realities of being a Black man in the United States. Combining painting and printmaking techniques, his paintings push the limits of figuration, abstraction, and legibility. Involving carved wood, shadowy washes, handprinted patterns, and drips of color, they are characterized by a complex combination of mark making that creates both a whole image and a system of adjacent and overlapping patterns. William embraced an abstract idiom for much of his early career, but the 2012 killing of Trayvon Martin, an unarmed Black teenager who was shot to death in Sanford, Florida, by George Zimmerman, an eventually acquitted neighborhood-watch volunteer, prompted a renewed focus on the figure. As the artist puts it, those events began with one man’s act of looking—and assuming. As a gay Black immigrant, William knows what it is like to be stared at. He spent much of his youth hiding his sexuality in a city where he felt that Haitians were relegated to a type of secondclass citizenry. As a result, eyes are a crucial compositional element of his works. Carved into the wooden panels that make up his surfaces, they literally bring his figures into being and demarcate them from their surroundings. They define bodies that look back as we look at them, thus challenging the directional power dynamics of the gaze. “The viewer,” William said, “is never really let off the hook in terms of becoming specifically aware of how their gaze is gendering or racializing the figures.” However, the bodies in William’s work are deliberately unidentifiable, neither male nor female nor even specifically human. His painting 90s Dejeuner is a case in point: it intentionally quotes Edouard Manet’s canonical Le Déjeuner sur l’herbe, in which gender, sex, and class play an important role in establishing the perceived and implied relationship between the sitters. “I wanted to borrow this seminal work from the turn of the century but inscribe it with my own figures in my own context,” said William. In his version, the bodies have been stripped of explicit gender stereotypes or signifiers, the lush landscape has been reduced to a flattened backdrop, and the figures are clad in 1990s-era Cross Colours clothing. Calling it “the fashion emblem of Americanness,” Cross Colours and its motto of “Clothing without Prejudice” also stand as a signifier of William’s striving for acceptance and belonging.",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2021-12-07",
+	"location_string": "de Young, Display, Gallery 015",
+	"location_building": "de Young",
+	"location_room": "Gallery 015",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "90s Dejeuner",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 20515,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Didier William",
+			"AlphaSort": "William,  Didier",
+			"Nationality": "Haitian",
+			"BeginDate": 1983,
+			"EndDate": 0,
+			"DisplayDate": "Haitian-American, born 1983",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1983"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "68 x 104 in. (172.72 x 264.161 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Philadelphia",
+			"certainty": "Probably",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAERY",
+					"term": "Pennsylvania"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAERY.AAARK",
+					"term": "Philadelphia"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAERY.AAARK.AAADW",
+					"term": "Philadelphia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "ink",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAA",
+					"term": "ink"
+				}
+			]
+		},
+		{
+			"term": "oil",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
+					"term": "oil paint"
+				}
+			]
+		},
+		{
+			"term": "wood panel",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAB",
+					"term": "wood by form or function"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAB.AAI",
+					"term": "panel"
+				}
+			]
+		},
+		{
+			"term": "acrylic paint",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
+					"term": "synthetic resin paint"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAA",
+					"term": "acrylic paint"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Didier William",
+	"primary_artist_display": "b. 1983",
+	"sort_artist": "William,  Didier",
+	"display_year": "2021",
+	"doc_id": "2021.76",
+	"slug": "2021.76/90s-dejeuner",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 2021,
+	"media": [
+		{
+			"media_xref_id": 156286,
+			"media_master_id": 195166,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6751,
+			"pixel_w": 10756,
+			"file_name": "A416155_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ink",
+			"specific": ""
+		},
+		{
+			"parent": "Paint",
+			"specific": "acrylic"
+		},
+		{
+			"parent": "Paint",
+			"specific": "acrylic paint"
+		},
+		{
+			"parent": "Paint",
+			"specific": "oil"
+		},
+		{
+			"parent": "Wood",
+			"specific": "wood panel"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": "Philadelphia"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , acrylic, acrylic paint, oil … · Philadelphia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

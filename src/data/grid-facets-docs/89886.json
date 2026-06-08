@@ -1,0 +1,262 @@
+{
+	"id": 89886,
+	"accession_number": "1986.29",
+	"sort_number": "1986.29",
+	"title": "STUMPWORK PICTURE",
+	"object_name": "miscellaneous furnishing",
+	"display_date": "ca. 1660",
+	"begin_iso_date": "1660",
+	"end_iso_date": "1660",
+	"medium": "silk, chenille, metal, beads, pearls, and mother-of-pearl; satin, raised embroidery (detached buttonhole, bullion, looped bullion, couching, and turkey work stitches)",
+	"medium_parts": [
+		"silk, chenille, metal, beads, pearls, and mother-of-pearl",
+		"satin, raised embroidery (detached buttonhole, bullion, looped bullion, couching, and turkey work stitches)"
+	],
+	"dimensions": "30.5 x 40.6 cm (12  x 16  in.)",
+	"credit_line": "Gift of Mrs. Frieda H. Ferguson",
+	"department": "Costume and Textile Arts",
+	"classification": "Fiber Art",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2022-09-19 17:20:46.187000",
+	"is_virtual": false,
+	"identifying_description": "Stumpwork picture with detached frame and backing. Previously designated as a box lid, the image is of two men and two women in 17th c. costume. The date of 1660 at the top would indicate that the dark gentleman is King Charles II in the year of the Restoration of the monarchy. With Queen Catharine of Braganza. Beasts and flowers in the corners, castle in background, mermaid center foreground.",
+	"web_text": "- From the Exotic to the Mystical: May 4, 2013 - August 4, 2013: Battles between the monarchy and other forms of sovereign government defined seventeenth-century England, and needleworkers responded with objects that reflected the social, ceremonial, and ritual aspects of court life. This highly decorative stumpwork picture celebrates the restoration of the monarchy, elevating the coronation of Charles II and his wife, Catherine of Braganza, to mythic proportions.",
+	"didactic_label": "Battles between the monarchy and other forms of sovereign government defined seventeenth-century England, and needleworkers responded with objects that reflected the social, ceremonial, and ritual aspects of court life. This highly decorative stumpwork picture celebrates the restoration of the monarchy, elevating the coronation of Charles II and his wife, Catherine of Braganza, to mythic proportions.",
+	"exhibition_history_text": "From the Exotic to the Mystical: Textile Treasures from the Permanent Collection, deY, 5/4 - 8/4/2013",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1986-10-02",
+	"location_string": "de Young, 059, Cabinet 13, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 13",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Stumpwork picture",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "12 x 16 in. (30.5 x 40.6 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "England",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAADQ",
+					"term": "Northern Europe"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAABT",
+					"term": "England"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1660",
+	"doc_id": "1986.29",
+	"slug": "1986.29/stumpwork-picture",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1660,
+	"media": [
+		{
+			"media_xref_id": 94206,
+			"media_master_id": 162040,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5828,
+			"pixel_w": 7809,
+			"file_name": "A333589_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 94207,
+			"media_master_id": 163558,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8168,
+			"pixel_w": 6128,
+			"file_name": "A333589_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 94210,
+			"media_master_id": 137358,
+			"rank": 5,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2982,
+			"pixel_w": 4056,
+			"file_name": "3107200712370031.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 94209,
+			"media_master_id": 20182,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2239,
+			"pixel_w": 3000,
+			"file_name": "0325201312590002.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Shell",
+			"specific": "mother-of-pearl"
+		},
+		{
+			"parent": "Shell",
+			"specific": "pearl"
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "satin"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "bead"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "chenille"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "United Kingdom",
+			"notable": "England"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , mother-of-pearl, pearl,  … · England",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

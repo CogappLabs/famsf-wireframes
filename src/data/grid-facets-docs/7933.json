@@ -1,0 +1,430 @@
+{
+	"id": 7933,
+	"accession_number": "1924.15",
+	"sort_number": "1924.15",
+	"title": "LION-SHAPED VESSEL",
+	"object_name": "figure",
+	"display_date": "1900–1800 BC",
+	"begin_iso_date": "-1900",
+	"end_iso_date": "-1800",
+	"medium": "Terracotta with polychromy",
+	"medium_parts": ["Terracotta with polychromy"],
+	"dimensions": "7 1/2 x 7 7/8 x 2 3/4 in.",
+	"credit_line": "Gift of the Queen of Greece through Alma de Bretteville Spreckels",
+	"department": "Ancient Art",
+	"classification": "Sculpture",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2025-12-17 15:10:38.487000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": "In northern Mesopotamia, between about 1920 and 1850 BC, Assyrian merchants from the city of Assur on the Tigris River (today in northern Iraq) traded with a network of multicultural colonies known as karum, or markets, set up in central Anatolia (modern Turkey). The Assyrians collected tin from the mountains of Afghanistan to the east and fine textiles from Babylonia in the south. These goods were loaded onto caravans traveling to the karum, where they were exchanged for silver and gold, a portion of which was sent back to Assyria. This highly stylized, lion-shaped terracotta vessel, with a tall spout on its back and pierced nostrils for pouring, comes from Kanish (now known as Kültepe in Cappadocia), foremost among the Assyrian settlements. The Anatolians produced remarkable  animal-shaped vessels during this extraordinary period, unique in the history of ancient Turkey, when these trading partners exchanged goods as well as artistic conventions.",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1925-01-01",
+	"location_string": "Legion, Display, Gallery 240 west, Wall Case 1",
+	"location_building": "Legion",
+	"location_room": "Gallery 240 west",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Lion-shaped vessel",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40802,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Assyrian",
+			"AlphaSort": "Assyrian",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "7 1/2 x 7 7/8 x 2 3/4 in. (19.1 x 20 x 7 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Anatolia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABGE",
+					"term": "Asia Minor"
+				}
+			]
+		},
+		{
+			"term": "Kültepe",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABME",
+					"term": "Central Anatolia"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABME.AAAAE.AAAJH",
+					"term": "Kültepe"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": [
+		{
+			"term": "Kanesh",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABME",
+					"term": "Central Anatolia"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABME.AAAAE.AAAJH",
+					"term": "Kültepe"
+				}
+			]
+		}
+	],
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": [
+		{
+			"term": "Old Assyrian Colony period",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAH",
+					"term": "Early Western World"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAH.AAC",
+					"term": "Near Eastern"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAH.AAC.AAB",
+					"term": "Anatolian"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAD.AAA.AAB.AAH.AAC.AAB.AAE",
+					"term": "Assyrian Colony period"
+				}
+			]
+		}
+	],
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "color",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAY",
+					"term": "color"
+				}
+			]
+		},
+		{
+			"term": "terracotta",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAR",
+					"term": "clay"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAR.AAC",
+					"term": "clay by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAR.AAC.AAE",
+					"term": "terracotta"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1900 BC – 1800 BC",
+	"doc_id": "1924.15",
+	"slug": "1924.15/lion-shaped-vessel",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": -1900,
+	"media": [
+		{
+			"media_xref_id": 157445,
+			"media_master_id": 129965,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3368,
+			"pixel_w": 3480,
+			"file_name": "8528320112350022.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 81196,
+			"media_master_id": 192455,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9000,
+			"pixel_w": 8582,
+			"file_name": "A306314_V3.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 81195,
+			"media_master_id": 192454,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9300,
+			"pixel_w": 8311,
+			"file_name": "A306314_V2.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 81194,
+			"media_master_id": 192456,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8440,
+			"pixel_w": 8093,
+			"file_name": "A306314_V1.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 81197,
+			"media_master_id": 192457,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8708,
+			"pixel_w": 8888,
+			"file_name": "A306314_V4.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ceramic",
+			"specific": "terracotta"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Middle East",
+			"country": "Achaemenid",
+			"notable": "Anatolia"
+		},
+		{
+			"region": "East Asia",
+			"country": "Achaemenid",
+			"notable": "Kültepe"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — terracotta · Anatolia, Kültepe",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

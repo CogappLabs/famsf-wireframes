@@ -1,0 +1,197 @@
+{
+	"id": 94804,
+	"accession_number": "1992.107.189",
+	"sort_number": "1992.107.189",
+	"title": "HAT (LLUCHU)",
+	"object_name": "headwear",
+	"display_date": "ca. 1930–1950",
+	"begin_iso_date": "1930",
+	"end_iso_date": "1950",
+	"medium": "wool, camelid fiber; knitting",
+	"medium_parts": ["wool, camelid fiber", "knitting"],
+	"dimensions": "23 x 26.7 cm (9 1/16 x 10 1/2 in.)",
+	"credit_line": "The Jeffrey Appleby Andean Textile Collection",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-02 14:13:44.677000",
+	"is_virtual": false,
+	"identifying_description": "Medium sized hat, color patterning in predominantly red and purple, ear flaps added, top knot with one strand of yarn. catalogue #45, pp.73-74, Tradtional Textiles of the Andes.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1992-06-30",
+	"location_string": "de Young, 059, Cabinet 33, J",
+	"location_building": "de Young",
+	"location_room": "Cabinet 33",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Hat (lluchu)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40907,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Aymara",
+			"AlphaSort": "Aymara",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "9 1/16 x 10 1/2 in. (23 x 26.7 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Calamarca",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAAZ",
+					"term": "Bolivia"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAAAZ.AAAAL",
+					"term": "La Paz"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAACT.AAAAZ.AAAAL.AAAAG",
+					"term": "Calamarca"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1930–50",
+	"doc_id": "1992.107.189",
+	"slug": "1992.107.189/hat-lluchu",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1930,
+	"media": [
+		{
+			"media_xref_id": 94892,
+			"media_master_id": 125991,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2640,
+			"pixel_w": 1116,
+			"file_name": "6250307134220024.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 94891,
+			"media_master_id": 125878,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2588,
+			"pixel_w": 1260,
+			"file_name": "6250307134220023.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Textile",
+			"specific": "knitting"
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Bolivia",
+			"notable": "Calamarca"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — knitting,  · Calamarca",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

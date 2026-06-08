@@ -1,0 +1,222 @@
+{
+	"id": 95754,
+	"accession_number": "2002.84.1.30",
+	"sort_number": "2002.84.1.30",
+	"title": "VESSEL",
+	"object_name": "vessel",
+	"display_date": "700–900",
+	"begin_iso_date": "700",
+	"end_iso_date": "900",
+	"medium": "Earthenware and pigment",
+	"medium_parts": ["Earthenware and pigment"],
+	"dimensions": "8 1/2 x 6 1/4 x 6 1/4 in.",
+	"credit_line": "Bequest of Leroy C. Cleal",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Vessels & Containers",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-02-12 13:29:21.297000",
+	"is_virtual": false,
+	"identifying_description": "Copador style. Processional scene with psudo-glyphs.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2002-06-13",
+	"location_string": "de Young, 061, Cabinet 042, A",
+	"location_building": "de Young",
+	"location_room": "Cabinet 042",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Vessel",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 12835,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Maya",
+			"AlphaSort": "Maya",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "",
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "8 1/2 x 6 1/4 x 6 1/4 in. (21.6 x 15.9 x 15.9 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "El Salvador",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAACO",
+					"term": "El Salvador"
+				}
+			]
+		},
+		{
+			"term": "Honduras",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAEE",
+					"term": "Honduras"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Maya",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Maya",
+	"display_year": "700–900",
+	"doc_id": "2002.84.1.30",
+	"slug": "2002.84.1.30/vessel",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 700,
+	"media": [
+		{
+			"media_xref_id": 120166,
+			"media_master_id": 34886,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3766,
+			"pixel_w": 2898,
+			"file_name": "0727200511380017.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ceramic",
+			"specific": "earthenware"
+		},
+		{
+			"parent": "Pigment",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Central America",
+			"country": "El Salvador",
+			"notable": ""
+		},
+		{
+			"region": "Central America",
+			"country": "Honduras",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — earthenware,  · El Salvador, Honduras",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

@@ -1,0 +1,546 @@
+{
+	"id": 185776,
+	"accession_number": "47.12",
+	"sort_number": "47.12",
+	"title": "IBIS",
+	"object_name": "figure",
+	"display_date": "525–332 BC",
+	"begin_iso_date": "-525",
+	"end_iso_date": "-332",
+	"medium": "Bronze and wood with polychromy",
+	"medium_parts": ["Bronze and wood with polychromy"],
+	"dimensions": "13 1/8 x 5 1/2 x 16 5/8 in. (33.338 x 13.97 x 42.228 cm)",
+	"credit_line": "Museum purchase, M.H. deYoung Endowment Fund",
+	"department": "Ancient Art",
+	"classification": "Sculpture",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2025-10-03 12:56:40.053000",
+	"is_virtual": false,
+	"identifying_description": "X-radiographs show that the object is a coffin. A single block of wood was carved in the shape of an ibis torso, cut in two horizontally, and a cavity was carved inside. Bird remains wrapped in textile were placed in the cavity and the wood was reassembled. Two vertical wooden pegs near the front join the coffin halves and there is a coarse putty along the horizontal seam. The relief carving of the wings may have been completed after reassembly of the coffin. Plaster residue in the exterior wood grain is evidence of the torso's now lost surface finish with paint or gilding. The cast metal components were then inserted into the wood. The major elements detected by XRF were Cu and Pb and minor amounts of Sn and Fe. Two metal pins secure the bronze tail end in the wood from the back. The bronze elements have fine cast or incised details (need to think about this). Scale texture on the legs, feathers on the tail and a necklace with lines and teardrop beads and, at the back, a counterweight on the neck. A dense putty, perhaps lead-based, may have also been used to secure the metal components, as evidenced by amorphous, more radiodense areas in the X-rays. The recesses in the eyes may have held inlay.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Found at Tounah elKabal, near Malawi, Upper Egypt",
+	"label_text": null,
+	"accession_iso_date": "1947-06-30",
+	"location_string": "Legion, Display, Gallery 240 west, Wall Case 3",
+	"location_building": "Legion",
+	"location_room": "Gallery 240 west",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Ibis",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 39909,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Egyptian",
+			"AlphaSort": "Egyptian",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "13 1/8 x 5 1/2 x 16 5/8 in. (33.338 x 13.97 x 42.228 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Egypt",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAPN",
+					"term": "Miṣr"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": [
+		{
+			"term": "Hermopolis",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABY",
+					"term": "Middle East"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABY.AAAAW.AAAJP",
+					"term": "Al Minyā"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABY.AAAAW.AAAJP.AAAOT",
+					"term": "Al Ashmūnayn"
+				}
+			]
+		}
+	],
+	"term_related_geography": [
+		{
+			"term": "Upper Egypt",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABY",
+					"term": "Middle East"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABY.AAAAW.AAAKL",
+					"term": "Aş Şa'īd"
+				}
+			]
+		},
+		{
+			"term": "Mallawī",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABY",
+					"term": "Middle East"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABY.AAAAW.AAAJP",
+					"term": "Al Minyā"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABY.AAAAW.AAAJP.AAACA",
+					"term": "Mallawī"
+				}
+			]
+		}
+	],
+	"term_find_spot": [
+		{
+			"term": "Ţihnā al Jabal",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABY",
+					"term": "Middle East"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABY.AAAAW.AAAJP",
+					"term": "Al Minyā"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABY.AAAAW.AAAJP.AAAMZ",
+					"term": "Ţihnā al Jabal"
+				}
+			]
+		}
+	],
+	"term_period": [
+		{
+			"term": "Late Period",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAA",
+					"term": "African"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAA.AAC",
+					"term": "Ancient African"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAA.AAC.AAE",
+					"term": "Ancient North African"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAD.AAA.AAB.AAA.AAC.AAE.AAE.AAB",
+					"term": "Egyptian periods"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAD.AAA.AAB.AAA.AAC.AAE.AAE.AAB.AAJ",
+					"term": "Late Period"
+				}
+			]
+		}
+	],
+	"term_reign": null,
+	"term_dynasty": [
+		{
+			"term": "Dynasty",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAA",
+					"term": "African"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAA.AAC",
+					"term": "Ancient African"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAA.AAC.AAE",
+					"term": "Ancient North African"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAD.AAA.AAB.AAA.AAC.AAE.AAE.AAB",
+					"term": "Egyptian periods"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAD.AAA.AAB.AAA.AAC.AAE.AAE.AAB.AAJ",
+					"term": "Late Period"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAD.AAA.AAB.AAA.AAC.AAE.AAE.AAB.AAJ.AAA",
+					"term": "Twenty-sixth Dynasty"
+				}
+			]
+		}
+	],
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "wood",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				}
+			]
+		},
+		{
+			"term": "bronze",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
+					"term": "metal by composition or origin"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB",
+					"term": "nonferrous metal"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK",
+					"term": "copper and copper alloy"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB",
+					"term": "copper alloy"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB.AAB",
+					"term": "bronze"
+				}
+			]
+		},
+		{
+			"term": "color",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAY",
+					"term": "color"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "525 BC – 332 BC",
+	"doc_id": "47.12",
+	"slug": "47.12/ibis",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": -525,
+	"media": [
+		{
+			"media_xref_id": 82107,
+			"media_master_id": 124749,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1880,
+			"pixel_w": 1793,
+			"file_name": "6250304128220019.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Metal",
+			"specific": "bronze"
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Egypt",
+			"notable": ""
+		},
+		{
+			"region": "Middle East",
+			"country": "",
+			"notable": "Upper Egypt"
+		},
+		{
+			"region": "Middle East",
+			"country": "",
+			"notable": "Mallawī"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — bronze,  · Egypt, Upper Egypt, Mallawī",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 49
+	}
+}

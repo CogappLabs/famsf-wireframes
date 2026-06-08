@@ -1,0 +1,203 @@
+{
+	"id": 159679,
+	"accession_number": "2002.4",
+	"sort_number": "2002.4",
+	"title": "AMERICAN KABUKI (OISHIIWA)",
+	"object_name": "Screen",
+	"display_date": "1986",
+	"begin_iso_date": "1986",
+	"end_iso_date": "1986",
+	"medium": "Watercolor and ink on paper mounted on a four-panel screen",
+	"medium_parts": [
+		"Watercolor and ink on paper mounted on a four-panel screen"
+	],
+	"dimensions": "77 1/2 x 155 x 1 3/16 in. (196.9 x 393.7 x 3 cm)",
+	"credit_line": "Museum purchase, American Art Trust Fund, Brian Pawlowski and Aki Ueno Fund",
+	"department": "American Decorative Arts and Sculpture",
+	"classification": "Drawing",
+	"copyright": "© Masami Teraoka",
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2024-04-30 14:31:38.723000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": "Made in 1986, \"American Kabuki (Oishiiwa)\" captures the fear and fury associated with the global HIV/AIDS epidemic in the era prior to effective treatments. The title is a reference to Japanese Kabuki theatre, which often featured political commentary, and to Oiwa, the female ghost in the famous Kabuki play Tokaido Yotsuya Kaidan (The Ghost Story of Yotsuya). The painting also draws inspiration from Katsushika Hokusai’s woodblock print Cresting Wave off the Coast of Kanagawa (ca. 1830–1832), likening the health crisis’s impact and reach to the devastation of a tsunami. Masami Teraoka depicts the ghostly mother with the characteristic lesions of Kaposi’s sarcoma, a type of cancer to which people with HIV are particularly susceptible. Protectively cradling a tiny infant, she surges forward on the crest of a wave. Her precarious position, with no sign of salvation in sight, evokes the societal ostracism that often unfairly stigmatizes people living with HIV/AIDS. Teraoka’s screen serves as a searing indictment of collective inaction, and perhaps as a reminder that the disease affects everyone.",
+	"didactic_label": "Made in 1986, American Kabuki (Oishiiwa) captures the fear and fury associated with the global HIV/AIDS epidemic in the era prior to effective treatments. The title is a reference to Japanese Kabuki theatre, which often featured political commentary, and to Oiwa, the female ghost in the famous Kabuki play Tokaido Yotsuya Kaidan (The Ghost Story of Yotsuya). The painting also draws inspiration from Katsushika Hokusai’s woodblock print Cresting Wave off the Coast of Kanagawa (ca. 1830–1832), likening the health crisis’s impact and reach to the devastation of a tsunami.Masami Teraoka depicts the ghostly mother with the characteristic lesions of Kaposi’s sarcoma, a type of cancer to which people with HIV are particularly susceptible. Protectively cradling a tiny infant, she surges forward on the crest of a wave. Her precarious position, with no sign of salvation in sight, evokes the societal ostracism that often unfairly stigmatizes people living with HIV/AIDS. Teraoka’s screen serves as a searing indictment of collective inaction, and perhaps as a reminder that the disease affects everyone.",
+	"exhibition_history_text": "Asia-Pacific Triennial of Contemporary Art 2006Opening date:12/1/06Closing date:5/27/07____________________Queensland Art Gallery: 12/1/06 to 5/27/07Asia-Pacific Triennial of Contemporary Art 2006Opening date:12/1/06Closing date:5/27/07____________________Queensland Art Gallery: 12/1/06 to 5/27/07",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2002-04-11",
+	"location_string": "de Young, 061, Wall, 37",
+	"location_building": "de Young",
+	"location_room": "Wall",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "American Kabuki (Oishiiwa)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 14892,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Masami Teraoka",
+			"AlphaSort": "Teraoka,  Masami",
+			"Nationality": "American b. Japan",
+			"BeginDate": 1936,
+			"EndDate": 0,
+			"DisplayDate": "American, born Japan 1936",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1936"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "77 1/2 x 155 x 1 3/16 in. (196.9 x 393.7 x 3 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Hawaii",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAAAR",
+					"term": "Hawaiian Islands"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAACB.AAAAR.AAAAB.AAAAB",
+					"term": "Hawaii"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Masami Teraoka",
+	"primary_artist_display": "b. 1936",
+	"sort_artist": "Teraoka,  Masami",
+	"display_year": "1986",
+	"doc_id": "2002.4",
+	"slug": "2002.4/american-kabuki-oishiiwa",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1986,
+	"media": [
+		{
+			"media_xref_id": 155994,
+			"media_master_id": 194874,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 7192,
+			"pixel_w": 10081,
+			"file_name": "A355247_V3_crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ink",
+			"specific": ""
+		},
+		{
+			"parent": "Paint",
+			"specific": "watercolor"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "Hawaiian Islands",
+			"notable": "Hawaii"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , watercolor · Hawaii",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 47
+	}
+}

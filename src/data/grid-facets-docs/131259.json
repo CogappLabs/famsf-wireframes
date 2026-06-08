@@ -1,0 +1,214 @@
+{
+	"id": 131259,
+	"accession_number": "2018.28.1.42a-d",
+	"sort_number": "2018.28.1.42a-d",
+	"title": "WOMAN'S SUIT: JACKET (A) BLOUSE (B), SKIRT (C), AND CAMISOLE (D)",
+	"object_name": "woman's costume",
+	"display_date": "ca. 1999–2004",
+	"begin_iso_date": "1999",
+	"end_iso_date": "2004",
+	"medium": "wool, acetate, acrylic, silk, nylon, rayon",
+	"medium_parts": ["wool, acetate, acrylic, silk, nylon, rayon"],
+	"dimensions": "50.8 cm (20 in.) jacket, center back; 53.3 cm (21 in.) skirt, center back; 62.2 cm (24 1/2 in.) skirt, center back",
+	"credit_line": "Gift of Christine Suppes in memory of Mary Jane Johnson",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2022-11-28 13:55:31.290000",
+	"is_virtual": false,
+	"identifying_description": "Yellow/Orange cork weave suit, jacket (a), skirt (b), and orange lace shirt (c)",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2018-06-05",
+	"location_string": "UOVO, Livermore, Cabinet 003",
+	"location_building": "UOVO",
+	"location_room": "Cabinet 003",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Woman's suit: jacket (a) blouse (b), skirt (c), and camisole (d)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 2100,
+			"Role": "Designer",
+			"RoleID": 67,
+			"DisplayName": "Karl Lagerfeld",
+			"AlphaSort": "Karl Lagerfeld",
+			"Nationality": "German",
+			"BeginDate": 1933,
+			"EndDate": 2019,
+			"DisplayDate": "1933 - 2019",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Karl Lagerfeld (1933–2019)"
+		},
+		{
+			"ConstituentID": 18890,
+			"Role": "House of",
+			"RoleID": 356,
+			"DisplayName": "Chanel",
+			"AlphaSort": "Chanel",
+			"Nationality": "French",
+			"BeginDate": 1910,
+			"EndDate": 0,
+			"DisplayDate": "est. 1910",
+			"Institution": "House of Chanel",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 1910"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "24 1/2 in. (62.2 cm)",
+			"description": "skirt, center back",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "20 in. (50.8 cm)",
+			"description": "jacket, center back",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 2
+		},
+		{
+			"display_dimensions": "21 in. (53.3 cm)",
+			"description": "skirt, center back",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 3
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "France",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Karl Lagerfeld",
+	"primary_artist_display": "Karl Lagerfeld (1933–2019)",
+	"sort_artist": "Karl Lagerfeld",
+	"display_year": "1999–2004",
+	"doc_id": "2018.28.1.42a-d",
+	"slug": "2018.28.1.42a-d/woman-s-suit-jacket-a-blouse-b-skirt-c-and-camisole-d",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1999,
+	"media": [
+		{
+			"media_xref_id": 180026,
+			"media_master_id": 196681,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3024,
+			"pixel_w": 4032,
+			"file_name": "A411061.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Paint",
+			"specific": "acrylic"
+		},
+		{
+			"parent": "Plastic",
+			"specific": "acetate"
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "nylon"
+		},
+		{
+			"parent": "Textile",
+			"specific": "rayon"
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — acrylic, acetate, , nylon … · France",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

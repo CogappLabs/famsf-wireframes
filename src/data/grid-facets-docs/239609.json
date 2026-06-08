@@ -1,0 +1,190 @@
+{
+	"id": 239609,
+	"accession_number": "T&D1977.4",
+	"sort_number": "T&D1977.4",
+	"title": "COSTUME DESIGN FOR A YOUNG GIRL IN LE BOURGEOIS GENTILHOMME (CITY CENTER OF MUSIC AND DRAMA, NEW YORK, 1944)",
+	"object_name": null,
+	"display_date": "1944",
+	"begin_iso_date": "1944",
+	"end_iso_date": "1944",
+	"medium": "Watercolor, opaque watercolor, and pen and black ink on blue paper",
+	"medium_parts": [
+		"Watercolor, opaque watercolor, and pen and black ink on blue paper"
+	],
+	"dimensions": "Overall: 12 3/8 x 9 5/16 in. (31.4 x 23.6 cm)\r\nFramed: 19 3/4 x 14 7/8 in. (50.165 x 37.783 cm)",
+	"credit_line": "Theater and Dance Collection, gift of Mr. and Mrs. Nikita  D. Lobanov",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2025-05-12 13:38:01.253000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "The Fine Arts Museums of San Francisco, California Palace of the Legion of Honor,Russian Theater and Costume Designs from  The Fine Arts  Museums of San Francisco, 1980 (circulated 1980-1982),  exh.cat.intro. by John E. Bowlt, cat.by  Nikita D. Lobanov, Nina Lobanov, and AiméeTroyen, no. , p. , repr. p. ;\r\nThe Fine Arts Museums of San Francisco, M. H. de Young Memorial Museum:The Art of  Enchantment, Diaghilev's Ballets Russes, 1909-1929, 1988-1989 (ciculated 1989), cat. by Nancy Van Norman Baer, et al.,\r\nThe Fine Arts Museums of San Francisco, California Palace of the Legion of Honor, Theatre in Revolution, Russian Avant-Garde Stage Design 1913-1935,  1991-1992 (circulated IBM Gallery of Science and Art, New York, 1992, Armand Hammer Museum of Art and Cultural Center, Los Angeles, CA. 1992), cat. by Nancy Van Norman Baer et al; Recent Acquisitions, CPLH, 8 Sept - 18 Oct 1978.\r\nCPLH, Recent Acquisitions 1977-1978. 8 Sept - 18 Oct 1978.",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1977-01-01",
+	"location_string": "Legion, 210, Compact Shelf 23, 214",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 23",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Costume design for a young girl in Le bourgeois gentilhomme (City Center of Music and Drama, New York, 1944)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 4299,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Eugene Berman",
+			"AlphaSort": "Berman, Eugene",
+			"Nationality": "American",
+			"BeginDate": 1899,
+			"EndDate": 1972,
+			"DisplayDate": "America, born Russia, 1899–1972",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Eugene Berman (1899–1972)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "12 3/8 x 9 5/16 in. (31.4 x 23.6 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "19 3/4 x 14 7/8 in. (50.165 x 37.783 cm)",
+			"description": null,
+			"element_name": "Framed",
+			"displayed": true,
+			"rank": 2
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "United States",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Eugene Berman",
+	"primary_artist_display": "Eugene Berman (1899–1972)",
+	"sort_artist": "Berman, Eugene",
+	"display_year": "1944",
+	"doc_id": "T%26D1977.4",
+	"slug": "T%26D1977.4/costume-design-for-a-young-girl-in-le-bourgeois-gentilhomme-city-center-of-music-and-drama-new-york-1944",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1944,
+	"media": [
+		{
+			"media_xref_id": 45044,
+			"media_master_id": 86632,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2520,
+			"pixel_w": 1874,
+			"file_name": "3328201308190037.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ink",
+			"specific": "black ink"
+		},
+		{
+			"parent": "Ink",
+			"specific": "pen"
+		},
+		{
+			"parent": "Paint",
+			"specific": "opaque watercolor"
+		},
+		{
+			"parent": "Paint",
+			"specific": "watercolor"
+		},
+		{
+			"parent": "Paper",
+			"specific": "blue paper"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — black ink, pen, opaque watercolor, watercolor … · United States",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

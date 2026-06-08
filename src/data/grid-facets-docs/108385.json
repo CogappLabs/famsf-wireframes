@@ -1,0 +1,229 @@
+{
+	"id": 108385,
+	"accession_number": "1988.2.39",
+	"sort_number": "1988.2.39",
+	"title": "MARUDEVI TELLS HER FOURTEEN AUSPICIOUS DREAMS TO HER HUSBAND, THE PATRIARCH NABHI, A PAGE FROM A KALPASUTRA",
+	"object_name": "Religious Myth/Legend Genre",
+	"display_date": "ca. 1625",
+	"begin_iso_date": "1625",
+	"end_iso_date": "1625",
+	"medium": "Opaque watercolor, gold, and black ink on paper with text recto and verso",
+	"medium_parts": [
+		"Opaque watercolor, gold, and black ink on paper with text recto and verso"
+	],
+	"dimensions": "Sheet: 114 x 302 mm (4 1/2 x 11 7/8 in.)",
+	"credit_line": "Gift of Michael Terzian",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2017-02-06 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "male figure (Nabhi) seated in a chair under a canopy with seated female rigure to right, on sheet with text and decorative symbols",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "CPLH, Tradition and Innovation, 1500 - 1989, 10 Sept - 31 Dec 1989.",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1988-01-01",
+	"location_string": "Legion, 210, Compact Shelf 23, 210",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 23",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Marudevi tells her fourteen auspicious dreams to her husband, the patriarch Nabhi, a page from a Kalpasutra",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 2281,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Anonymous",
+			"AlphaSort": "Anonymous",
+			"Nationality": "Indian",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "Indian or Persian",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "4 1/2 x 11 7/8 in. (11.4 x 30.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "India",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAALD",
+					"term": "Bhārat"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": [
+		{
+			"term": "Jain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAD",
+					"term": "styles, periods, and cultures by association"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAD.AAB.ABD",
+					"term": "Jainism"
+				}
+			]
+		}
+	],
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Anonymous",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Anonymous",
+	"display_year": "1625",
+	"doc_id": "1988.2.39",
+	"slug": "1988.2.39/marudevi-tells-her-fourteen-auspicious-dreams-to-her-husband-the-patriarch-nabhi-a-page-from-a-kalpasutra",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1625,
+	"media": [
+		{
+			"media_xref_id": 20107,
+			"media_master_id": 106214,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1264,
+			"pixel_w": 2788,
+			"file_name": "4359202410730072.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Gold & silver",
+			"specific": "gold"
+		},
+		{
+			"parent": "Ink",
+			"specific": "black ink"
+		},
+		{
+			"parent": "Paint",
+			"specific": "opaque watercolor"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South Asia",
+			"country": "India",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — gold, black ink, opaque watercolor · India",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 46
+	}
+}

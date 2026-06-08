@@ -1,0 +1,172 @@
+{
+	"id": 83099,
+	"accession_number": "1981.55.1a-b",
+	"sort_number": "1981.55.1a-b",
+	"title": "WEDDING DRESS",
+	"object_name": "woman's costume",
+	"display_date": "1915",
+	"begin_iso_date": "1915",
+	"end_iso_date": "1915",
+	"medium": "silk satin, tulle, lace, artificial pearls, metal and rhinestones",
+	"medium_parts": [
+		"silk satin, tulle, lace, artificial pearls, metal and rhinestones"
+	],
+	"dimensions": "150 x 83 cm (59 1/16 x 32 11/16 in.)",
+	"credit_line": "Gift of Mrs. Andrew Downey Orrick",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2020-12-03 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Asymmetrical satin dress with short sleeves, net-draped bodice/ overskirt is heavily embroidered and beaded, trimmed with hanging metal butterfly pendants and beaded tassels, front and back . Accessioned photo of bride (1981.55.3) is kept in this file. Worn with 1981.55.1b, underslip.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1981-09-02",
+	"location_string": "de Young, 059, Cabinet 06, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 06",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Wedding dress",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "59 1/16 x 32 11/16 in. (150 x 83 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "California",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT",
+					"term": "California"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1915",
+	"doc_id": "1981.55.1a-b",
+	"slug": "1981.55.1a-b/wedding-dress",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1915,
+	"media": [
+		{
+			"media_xref_id": 92841,
+			"media_master_id": 36467,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2394,
+			"pixel_w": 1374,
+			"file_name": "0919200315040295.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Glass",
+			"specific": "rhinestone"
+		},
+		{
+			"parent": "Lace",
+			"specific": ""
+		},
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "silk satin"
+		},
+		{
+			"parent": "Textile",
+			"specific": "tulle"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": "California"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — rhinestone, , , silk satin … · California",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 39
+	}
+}

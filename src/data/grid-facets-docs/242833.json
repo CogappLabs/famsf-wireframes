@@ -1,0 +1,216 @@
+{
+	"id": 242833,
+	"accession_number": "X1989.313",
+	"sort_number": "X1989.313",
+	"title": "COVER ?",
+	"object_name": "miscellaneous",
+	"display_date": "late 19th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "silk, metallic thread; embroidery",
+	"medium_parts": ["silk, metallic thread", "embroidery"],
+	"dimensions": "101 x 99 cm (39 3/4 x 39 in.)",
+	"credit_line": "Museum collection",
+	"department": "Costume and Textile Arts",
+	"classification": "Textile",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2026-03-09 13:22:33.837000",
+	"is_virtual": false,
+	"identifying_description": "A square of cream colored silk satin, embroidered with silk and  gold colored metallic thread; edged on all sides with gold colored metallic fringe with a gold silk tassel at each corner.  In each of the four corners is a large \"tugra,\" the stylized signature of a sultan, probably the sultan reigning at the time the object was made.  Above each tugra is the star and crescent, another Turkish symbol, and between each of these and the center is an additional small, repeating name or title. Striped lining.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1901-01-01",
+	"location_string": "de Young, 059, Cabinet 48, A",
+	"location_building": "de Young",
+	"location_room": "Cabinet 48",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Cover ?",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40706,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Ottoman",
+			"AlphaSort": "Ottoman",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "39 3/4 x 39 in. (101 x 99 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Turkey",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAID",
+					"term": "Türkiye"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": [
+		{
+			"term": "Late Ottoman",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAM",
+					"term": "Islamic World, The"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD",
+					"term": "Islamic World dynastic styles and periods"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD.AAB",
+					"term": "Anatolian Islamic styles and periods after Manzikert"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD.AAB.AAC",
+					"term": "Ottoman"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD.AAB.AAC.ABM",
+					"term": "Late Ottoman"
+				}
+			]
+		}
+	],
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "X1989.313",
+	"slug": "X1989.313/cover",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 98643,
+			"media_master_id": 20055,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1889,
+			"pixel_w": 2064,
+			"file_name": "0320200310410633.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "metallic thread"
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "Middle East",
+			"country": "Turkey",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , metallic thread, embroidery · Turkey",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 38
+	}
+}

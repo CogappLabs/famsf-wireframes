@@ -1,0 +1,179 @@
+{
+	"id": 232585,
+	"accession_number": "50.32.314",
+	"sort_number": "50.32.314",
+	"title": "CHISEL",
+	"object_name": null,
+	"display_date": null,
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "stone, wood, resin and kangaroo sinew",
+	"medium_parts": ["stone, wood, resin and kangaroo sinew"],
+	"dimensions": "10 1/2 (26.7 cm)",
+	"credit_line": "Gift of Wilfrid H. Hemingway",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Tools & Equipment",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2026-04-27 11:46:32.777000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "collected by Wilfrid Hubert Hemingway in Australia between 1910 and 1924\r\nloaned to the deYoung Museum in 1932\r\ndonated to the deYoung Museum by Hemingway's wife in 1950",
+	"label_text": null,
+	"accession_iso_date": "1950-10-26",
+	"location_string": "de Young, 061, Cabinet 005, A",
+	"location_building": "de Young",
+	"location_room": "Cabinet 005",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Chisel",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41496,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Nyulnyul",
+			"AlphaSort": "Nyulnyul",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "10 1/2 in. (26.7 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Kimberley",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAAAC",
+					"term": "Australia"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACB.AAAAC.AAADG",
+					"term": "Western Australia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAACB.AAAAC.AAADG.AAOKX",
+					"term": "Kimberley"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Nyulnyul",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Nyulnyul",
+	"display_year": null,
+	"doc_id": "50.32.314",
+	"slug": "50.32.314/chisel",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 175001,
+			"media_master_id": 129432,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1128,
+			"pixel_w": 2628,
+			"file_name": "8268326243680068.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Stone",
+			"specific": ""
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "Australia",
+			"notable": "Kimberley"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — ,  · Kimberley",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 36
+	}
+}

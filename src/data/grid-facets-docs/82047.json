@@ -1,0 +1,160 @@
+{
+	"id": 82047,
+	"accession_number": "1997.112.29",
+	"sort_number": "1997.112.29",
+	"title": "UNTITLED",
+	"object_name": "print",
+	"display_date": "1972",
+	"begin_iso_date": "1972",
+	"end_iso_date": "1972",
+	"medium": "color etching and aquatint",
+	"medium_parts": ["color etching and aquatint"],
+	"dimensions": "55 x 44 cm",
+	"credit_line": "Gift of David Whitehouse",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2018-07-18 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1997-12-11",
+	"location_string": "Legion, 101, Bin 62, B",
+	"location_building": "Legion",
+	"location_room": "Bin 62",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Untitled",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 4087,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Gevara Moreno",
+			"AlphaSort": "Gevara Moreno",
+			"Nationality": "Venezuelan",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "Venezuelan",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "21 5/8 x 17 5/16 in. (55 x 44 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Venezuela",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAGE",
+					"term": "Venezuela"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Gevara Moreno",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Gevara Moreno",
+	"display_year": "1972",
+	"doc_id": "1997.112.29",
+	"slug": "1997.112.29/untitled",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1972,
+	"media": [
+		{
+			"media_xref_id": 103739,
+			"media_master_id": 127209,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2226,
+			"pixel_w": 1653,
+			"file_name": "8030319206180099.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [],
+	"facet_technique": ["aquatint", "etching"],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Venezuela",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — aquatint, etching · Venezuela",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

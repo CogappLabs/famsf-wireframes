@@ -1,0 +1,252 @@
+{
+	"id": 56035,
+	"accession_number": "1991.84",
+	"sort_number": "1991.84",
+	"title": "CEREMONIAL FAN FOR OSHUN",
+	"object_name": "fan",
+	"display_date": "early 20th Century",
+	"begin_iso_date": "1900",
+	"end_iso_date": "1925",
+	"medium": "Cloth, beads, and cowrie shells",
+	"medium_parts": ["Cloth, beads, and cowrie shells"],
+	"dimensions": "Overall: 22 1/4 x 14 1/2 in., (56.5 x 36.8 cm,)",
+	"credit_line": "Gift of Anne Mero Adelmann",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Personal Accessory",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-05-26 15:09:03.313000",
+	"is_virtual": false,
+	"identifying_description": "Ceremonial fan for Oshun\r\nFan for Oshun (Not IFA)- Henry Drewal 10-04",
+	"web_text": "In Yoruba culture, people who worship a specific god or deity might wear beads or special clothes to show their devotion. For example, this fan is for Oshun, a goddess in Yoruba religion who oversees fertility, love, and water. She is the patroness of the Oṣun River and is celebrated every year at the Oṣun-Oṣogbo Festival. Colorful glass beads on the fan symbolize preciousness, good luck, and a bright financial and spiritual future. Due to the transatlantic slave trade and spread of Yoruba culture, Oshun is also important outside Africa, known as Oxum in Brazil and Ochún in Cuba.",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1991-12-05",
+	"location_string": "de Young, Display, Gallery 040",
+	"location_building": "de Young",
+	"location_room": "Gallery 040",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Ceremonial fan for Oshun",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 37833,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Yoruba",
+			"AlphaSort": "Yoruba",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "22 1/4 x 14 1/2 in., (56.5 x 36.8 cm,)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Nigeria",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAABD",
+					"term": "Nigeria"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "shell",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC",
+					"term": "combination inorganic/organic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB",
+					"term": "combination inorganic/organic animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAD",
+					"term": "shell and shell material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAD.AAA",
+					"term": "shell"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAD.AAA.AAB",
+					"term": "seashell"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAD.AAA.AAB.AAE",
+					"term": "cowrie shell"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1900–25",
+	"doc_id": "1991.84",
+	"slug": "1991.84/ceremonial-fan-for-oshun",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1900,
+	"media": [
+		{
+			"media_xref_id": 156528,
+			"media_master_id": 132492,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2544,
+			"pixel_w": 1692,
+			"file_name": "9187330237150079.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 181400,
+			"media_master_id": 198034,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 10382,
+			"pixel_w": 7018,
+			"file_name": "MS_20220915_56035_1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Shell",
+			"specific": ""
+		},
+		{
+			"parent": "Shell",
+			"specific": "cowrie shell"
+		},
+		{
+			"parent": "Textile",
+			"specific": "cloth"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "bead"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Nigeria",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , cowrie shell, cloth, bead · Nigeria",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

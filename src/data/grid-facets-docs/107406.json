@@ -1,0 +1,321 @@
+{
+	"id": 107406,
+	"accession_number": "1975.2.12",
+	"sort_number": "1975.2.12",
+	"title": "TWO ROYAL ANTELOPES",
+	"object_name": null,
+	"display_date": "ca. 1625–1650",
+	"begin_iso_date": "1625",
+	"end_iso_date": "1650",
+	"medium": "Black ink, opaque watercolor, and gold on paper mounted on an album page",
+	"medium_parts": [
+		"Black ink, opaque watercolor, and gold on paper mounted on an album page"
+	],
+	"dimensions": "Sheet: 163 x 212 mm (6 7/16 x 8 3/8 in.)",
+	"credit_line": "Bequest of Ruth Haas Lilienthal",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2016-02-29 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "two antelopes: male with raised head, chained to ground, female with head down and feeding",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "CPLH, Masterworks from the Achenbach Foundation for Graphic Arts, Feb 21 - May 3, 1981.\r\nArtful Animals (part 1);\r\nCPLHG, Animals Real and Imagined, Nov 21, 1981 - Feb 7, 1982.\r\nLegion of Honor, November 17, 2012-April 28, 2013;  \r\nCPLH, TREASURES, 11 Nov 1995 - 3 March 1996, cat. # 223.",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1975-01-24",
+	"location_string": "Legion, 210, Bin, 126",
+	"location_building": "Legion",
+	"location_room": "Bin",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Two Royal Antelopes",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 18848,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Anonymous",
+			"AlphaSort": "Anonymous",
+			"Nationality": "Indian",
+			"BeginDate": 1625,
+			"EndDate": 1650,
+			"DisplayDate": "Mughal School, circa 1625–1650",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Anonymous (1625–1650)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "6 7/16 x 8 3/8 in. (16.3 x 21.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Mughal Empire",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
+					"term": "Mughal Empire"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": [
+		{
+			"term": "Mughal",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAF",
+					"term": "Asian"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE",
+					"term": "South Asian"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF",
+					"term": "Indian"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF.AAD.AAC",
+					"term": "Mughal"
+				}
+			]
+		}
+	],
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Anonymous",
+	"primary_artist_display": "Anonymous (1625–1650)",
+	"sort_artist": "Anonymous",
+	"display_year": "1625–50",
+	"doc_id": "1975.2.12",
+	"slug": "1975.2.12/two-royal-antelopes",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1625,
+	"media": [
+		{
+			"media_xref_id": 71807,
+			"media_master_id": 160051,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4704,
+			"pixel_w": 7482,
+			"file_name": "A000005_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 71810,
+			"media_master_id": 11701,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1820,
+			"pixel_w": 2298,
+			"file_name": "5131202114020052.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 71811,
+			"media_master_id": 114866,
+			"rank": 5,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1820,
+			"pixel_w": 2298,
+			"file_name": "5131202114020052.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 71809,
+			"media_master_id": 42627,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2275,
+			"pixel_w": 3600,
+			"file_name": "1115201215430001.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 71808,
+			"media_master_id": 160052,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 6132,
+			"pixel_w": 8176,
+			"file_name": "A000005_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Gold & silver",
+			"specific": "gold"
+		},
+		{
+			"parent": "Ink",
+			"specific": "black ink"
+		},
+		{
+			"parent": "Paint",
+			"specific": "opaque watercolor"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South Asia",
+			"country": "",
+			"notable": "Mughal Empire"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — gold, black ink, opaque watercolor · Mughal Empire",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

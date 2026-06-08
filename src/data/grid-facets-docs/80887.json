@@ -1,0 +1,201 @@
+{
+	"id": 80887,
+	"accession_number": "1998.231",
+	"sort_number": "1998.231",
+	"title": "MAN'S TURBAN OR HEADCLOTH",
+	"object_name": "headwear",
+	"display_date": "ca. 2th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "cotton, camelid fiber;",
+	"medium_parts": ["cotton, camelid fiber", ""],
+	"dimensions": "83 x 48.5 cm (32 11/16 x 19 1/8 in.)",
+	"credit_line": "Gift of  David and Marita Paly",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-09 12:48:31.623000",
+	"is_virtual": false,
+	"identifying_description": "Early Intermediate, Nazca I\r\nplain weave, looping",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1998-12-31",
+	"location_string": "de Young, 227, Cabinet 01, E",
+	"location_building": "de Young",
+	"location_room": "Cabinet 01",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Man's turban or headcloth",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40986,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Nasca",
+			"AlphaSort": "Nasca",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "32 11/16 x 19 1/8 in. (83 x 48.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Peru",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL",
+					"term": "Perú"
+				}
+			]
+		},
+		{
+			"term": "Ica",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL",
+					"term": "Perú"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAABF",
+					"term": "Ica"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAABF.AAAAJ",
+					"term": "Ica"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1998.231",
+	"slug": "1998.231/man-s-turban-or-headcloth",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 106776,
+			"media_master_id": 21363,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1600,
+			"pixel_w": 2976,
+			"file_name": "0408200412000019.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Peru",
+			"notable": ""
+		},
+		{
+			"region": "South America",
+			"country": "Peru",
+			"notable": "Ica"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice —  · Peru, Ica",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 36
+	}
+}

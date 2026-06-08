@@ -1,0 +1,163 @@
+{
+	"id": 108650,
+	"accession_number": "1988.13.1a-b",
+	"sort_number": "1988.13.1a-b",
+	"title": "FAN AND CASE",
+	"object_name": "fan",
+	"display_date": "early 20th century",
+	"begin_iso_date": "1900",
+	"end_iso_date": "1925",
+	"medium": "Incised sandalwood or cedar sticks and guards, cardboard, silk ribbon, metal ring, silk tassel",
+	"medium_parts": [
+		"Incised sandalwood or cedar sticks and guards, cardboard, silk ribbon, metal ring, silk tassel"
+	],
+	"dimensions": "10 in., (25.4 cm,)",
+	"credit_line": "Bequest of Blanche C. Matthias",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2022-06-15 15:30:34.483000",
+	"is_virtual": false,
+	"identifying_description": "Brise fan, pierced with stylized flowers and sprigs. Sticks linked with a white ribbon. Pink tassel. Cardboard box with glass lid. Highly scented.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "de Young, From Canton to Nantucket: Chinese Export Art, 9 Sept 2006 - 7 Jan 2007.",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1988-07-13",
+	"location_string": "de Young, 059, Cabinet 17, A",
+	"location_building": "de Young",
+	"location_room": "Cabinet 17",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Fan and case",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "10 in., (25.4 cm,)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "China",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAJE",
+					"term": "Zhongguo"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1900–25",
+	"doc_id": "1988.13.1a-b",
+	"slug": "1988.13.1a-b/fan-and-case",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1900,
+	"media": [
+		{
+			"media_xref_id": 94589,
+			"media_master_id": 21849,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2048,
+			"pixel_w": 3072,
+			"file_name": "0409200109160145.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Metal",
+			"specific": "metal ring"
+		},
+		{
+			"parent": "Paper",
+			"specific": "cardboard"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "silk ribbon"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "silk tassel"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "China",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — metal ring, cardboard, silk ribbon, silk tassel · China",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

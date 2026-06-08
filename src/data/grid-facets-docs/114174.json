@@ -1,0 +1,157 @@
+{
+	"id": 114174,
+	"accession_number": "1984.86",
+	"sort_number": "1984.86",
+	"title": "STANDING MALE FIGURE",
+	"object_name": "power object",
+	"display_date": "20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Wood, shell, horn, beads",
+	"medium_parts": ["Wood, shell, horn, beads"],
+	"dimensions": "18 x 5 3/4 x 5  (45.7 x 14.6 x 12.7 cm)",
+	"credit_line": "Gift of Professor Erle Loran",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Sculpture",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2010-01-27 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": "Standing male figure\r\nDemocratic Republic of Congo, Songye people\r\n<BR>20th century\r\n<BR>Wood, shell, horn, beads\r\n<BR>Gift of Professor Erle Loran \r\n<BR>1984.86\r\n<BR>",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1984-12-31",
+	"location_string": "de Young, 061, Cabinet 077, D",
+	"location_building": "de Young",
+	"location_room": "Cabinet 077",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Standing male figure",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "18 x 5 3/4 x 5 in. (45.7 x 14.6 x 12.7 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Democratic Republic of the Congo",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAIT",
+					"term": "Congo, République Démocratique du"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "1984.86",
+	"slug": "1984.86/standing-male-figure",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 166318,
+			"media_master_id": 132067,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2789,
+			"pixel_w": 1145,
+			"file_name": "9121326108090098.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Shell",
+			"specific": ""
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "bead"
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Democratic Republic of the Congo",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , bead,  · Democratic Republic of the Congo",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 35
+	}
+}

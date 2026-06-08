@@ -1,0 +1,267 @@
+{
+	"id": 14419,
+	"accession_number": "1934.3.35",
+	"sort_number": "1934.3.35",
+	"title": "LENGTH OF VELVET",
+	"object_name": "fabric length",
+	"display_date": "17th century",
+	"begin_iso_date": "1600",
+	"end_iso_date": "1699",
+	"medium": "Silk, metallic thread; cut voided velvet, supplementary-weft patterning",
+	"medium_parts": [
+		"Silk, metallic thread",
+		"cut voided velvet, supplementary-weft patterning"
+	],
+	"dimensions": "49 x 22 in. (124.5 x 55.9 cm)",
+	"credit_line": "Gift of Archer M. Huntington",
+	"department": "Costume and Textile Arts",
+	"classification": "Textile",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-17 12:57:20.107000",
+	"is_virtual": false,
+	"identifying_description": "Green and red cut voided velvet patterned with palmettes containing pomegranates growing from undulating stems on which pairs of adorsed birds are perched.  Affronted peacocks also appear.  The voided ground is brocaded with metallic yarn (white silk wrapped with a silver lamella). -DMott-10/03",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "Noted in binder as being shown \"Exhibition of Islamic Art, S.F., 1937, catalog #216\"\"2000 Years\", New York, 1940.Pulp Fashion: The Art of Isabelle de Borchgrave, CPLH, 2011",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1934-06-07",
+	"location_string": "de Young, 059, Cabinet 05, A",
+	"location_building": "de Young",
+	"location_room": "Cabinet 05",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Length of velvet",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 37637,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Persian",
+			"AlphaSort": "Persian",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "49 x 22 in. (124.5 x 55.9 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Iran",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQH",
+					"term": "Īrān"
+				}
+			]
+		},
+		{
+			"term": "Persia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAADV",
+					"term": "Persia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": [
+		{
+			"term": "Safavid",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAM",
+					"term": "Islamic World, The"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD",
+					"term": "Islamic World dynastic styles and periods"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD.AAF",
+					"term": "Iranian Islamic styles and periods after the Mongols"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD.AAF.AAH",
+					"term": "Safavid"
+				}
+			]
+		}
+	],
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1600–99",
+	"doc_id": "1934.3.35",
+	"slug": "1934.3.35/length-of-velvet",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1600,
+	"media": [
+		{
+			"media_xref_id": 124309,
+			"media_master_id": 178082,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11568,
+			"pixel_w": 6107,
+			"file_name": "A358878_V1.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "metallic thread"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Middle East",
+			"country": "Iran",
+			"notable": ""
+		},
+		{
+			"region": "Middle East",
+			"country": "Persia",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , metallic thread · Iran, Persia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

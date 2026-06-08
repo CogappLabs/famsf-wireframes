@@ -1,0 +1,205 @@
+{
+	"id": 119916,
+	"accession_number": "2017.51.4",
+	"sort_number": "2017.51.4",
+	"title": "FLASK WITH GOD L AND GOD K",
+	"object_name": null,
+	"display_date": null,
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Earthenware and pigment",
+	"medium_parts": ["Earthenware and pigment"],
+	"dimensions": "2 15/16 x 5 5/8 x 1 1/4 in.",
+	"credit_line": "Gift of Gail and J. Alec Merriam",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Vessels & Containers",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-02-12 13:29:21.663000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2017-10-26",
+	"location_string": "de Young, Display, Gallery 002, Wall Case 1",
+	"location_building": "de Young",
+	"location_room": "Gallery 002",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Flask with God L and God K",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 12835,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Maya",
+			"AlphaSort": "Maya",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "",
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "2 15/16 x 5 5/8 x 1 1/4 in. (7.5 x 14.3 x 3.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Guatemala",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAADU",
+					"term": "Guatemala"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Maya",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Maya",
+	"display_year": null,
+	"doc_id": "2017.51.4",
+	"slug": "2017.51.4/flask-with-god-l-and-god-k",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 179802,
+			"media_master_id": 196457,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5544,
+			"pixel_w": 5757,
+			"file_name": "A389628_V1_crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 137846,
+			"media_master_id": 170704,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5453,
+			"pixel_w": 7815,
+			"file_name": "A389628_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 137845,
+			"media_master_id": 170701,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5544,
+			"pixel_w": 7949,
+			"file_name": "A389628_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ceramic",
+			"specific": "earthenware"
+		},
+		{
+			"parent": "Pigment",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Central America",
+			"country": "Guatemala",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — earthenware,  · Guatemala",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 35
+	}
+}

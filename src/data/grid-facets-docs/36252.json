@@ -1,0 +1,251 @@
+{
+	"id": 36252,
+	"accession_number": "1963.24.11r-v",
+	"sort_number": "1963.24.11r-v",
+	"title": "SAINT MATTHEW THE EVANGELIST AND THE ANGEL (RECTO); STUDY FOR A PIETÀ (VERSO)",
+	"object_name": null,
+	"display_date": "ca. 1560",
+	"begin_iso_date": "1555",
+	"end_iso_date": "1565",
+	"medium": "(Recto) Pen and brown ink and brown wash over red chalk with black chalk on laid paper; (Verso) Black chalk with traces of red chalk",
+	"medium_parts": [
+		"(Recto) Pen and brown ink and brown wash over red chalk with black chalk on laid paper",
+		"(Verso) Black chalk with traces of red chalk"
+	],
+	"dimensions": "Sheet: 170 x 226 mm (6 11/16 x 8 7/8 in.)",
+	"credit_line": "Achenbach Foundation for Graphic Arts",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-05-28 09:49:12.373000",
+	"is_virtual": false,
+	"identifying_description": "r: male figure with raised arm, angel to the left \r\nv: sketch of seated woman with figure in front of her lap",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Joseph Green Cogswell (1786-1871); Mortimer Leo Schiff (1877-1931); Moore S. Achenbach (1878-1963).",
+	"label_text": null,
+	"accession_iso_date": "1952-10-20",
+	"location_string": "Legion, Conservation, 260, Table",
+	"location_building": "Legion",
+	"location_room": "260",
+	"edition": null,
+	"signed": null,
+	"inscribed": "(recto, lower right, in brown ink) Schizzo del / Zuccari; (verso, lower center, in brown ink) F. Zuccaro",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Saint Matthew the Evangelist and the Angel (recto); Study for a Pietà (verso)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 6206,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Giovanni Battista Naldini",
+			"AlphaSort": "Giovanni Battista Naldini",
+			"Nationality": "Italian",
+			"BeginDate": 1537,
+			"EndDate": 1591,
+			"DisplayDate": "Italian, 1537–1591",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Giovanni Battista Naldini (1537–1591)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "6 11/16 x 8 7/8 in. (17 x 22.6 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Italy",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAAVP",
+					"term": "Italia"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Giovanni Battista Naldini",
+	"primary_artist_display": "Giovanni Battista Naldini (1537–1591)",
+	"sort_artist": "Giovanni Battista Naldini",
+	"display_year": "1555–65",
+	"doc_id": "1963.24.11r-v",
+	"slug": "1963.24.11r-v/saint-matthew-the-evangelist-and-the-angel-recto-study-for-a-pieta-verso",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1555,
+	"media": [
+		{
+			"media_xref_id": 69386,
+			"media_master_id": 99387,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1948,
+			"pixel_w": 2620,
+			"file_name": "5049161418930024.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 69384,
+			"media_master_id": 192427,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8242,
+			"pixel_w": 9183,
+			"file_name": "A002624_V1.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 69385,
+			"media_master_id": 192428,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8390,
+			"pixel_w": 9047,
+			"file_name": "A002624_V2.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ink",
+			"specific": "brown ink"
+		},
+		{
+			"parent": "Ink",
+			"specific": "pen"
+		},
+		{
+			"parent": "Paint",
+			"specific": "brown wash"
+		},
+		{
+			"parent": "Paper",
+			"specific": "laid paper"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "black chalk"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "red chalk"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "Italy",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — brown ink, pen, brown wash, laid paper … · Italy",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

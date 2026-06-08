@@ -146,6 +146,31 @@ export function findSampleBySlug(slug: string): SampleEntry | undefined {
 	return loadSampleDocs().find((e) => e.slug === slug);
 }
 
+/**
+ * Real-data slice for the search-results `grid-facets` variation.
+ *
+ * Unlike the curated/spread sample set above, this is a bulk export
+ * (~1.3K docs) of every collection_document that carries BOTH a
+ * structured material term and a geography term, so the left-column
+ * Material + hierarchical Geography facets populate from real curator
+ * data. Files are named `{ObjectID}.json` under src/data/grid-facets-docs/.
+ * Regenerate with scripts/export_grid_facets_docs.py.
+ */
+const GRID_FACETS_DIR = path.join(process.cwd(), "src/data/grid-facets-docs");
+
+export function loadGridFacetsDocs(): CollectionDocument[] {
+	if (!fs.existsSync(GRID_FACETS_DIR)) return [];
+	return fs
+		.readdirSync(GRID_FACETS_DIR)
+		.filter((f) => f.endsWith(".json"))
+		.map(
+			(f) =>
+				JSON.parse(
+					fs.readFileSync(path.join(GRID_FACETS_DIR, f), "utf-8"),
+				) as CollectionDocument,
+		);
+}
+
 /** {ObjectID -> slug} lookup. First sample-doc per id wins (registry is
  * already sorted newest-mtime first within each group). */
 export function objectSlugById(): Record<number, string> {

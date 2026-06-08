@@ -1,5 +1,9 @@
 import { loadConstituentSamples } from "@/lib/constituent-samples-registry";
-import { loadSampleDocs, objectSlugById } from "@/lib/sample-docs-registry";
+import {
+	loadGridFacetsDocs,
+	loadSampleDocs,
+	objectSlugById,
+} from "@/lib/sample-docs-registry";
 import SearchResultsClient from "./SearchResultsClient";
 
 export default function SearchResultsPage() {
@@ -12,6 +16,9 @@ export default function SearchResultsPage() {
 			seen.add(d.id);
 			return true;
 		});
+	// Real-data slice (~600 docs, curator-taxonomy facets baked on) used only
+	// by the `grid-facets` variation's hierarchical left-column facets.
+	const gridFacetsDocs = loadGridFacetsDocs();
 	const constituentEntries = loadConstituentSamples();
 	const constituents = constituentEntries.map((e) => e.doc);
 	const constituentSlugById: Record<number, string> = {};
@@ -21,6 +28,7 @@ export default function SearchResultsPage() {
 	return (
 		<SearchResultsClient
 			docs={docs}
+			gridFacetsDocs={gridFacetsDocs}
 			constituents={constituents}
 			constituentSlugById={constituentSlugById}
 			objectSlugById={objectSlugById()}

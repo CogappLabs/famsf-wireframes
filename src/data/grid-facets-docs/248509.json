@@ -1,0 +1,165 @@
+{
+	"id": 248509,
+	"accession_number": "2009.66.2",
+	"sort_number": "2009.66.2",
+	"title": "CEREMONIAL SKIRT (TAPIS)",
+	"object_name": "woman's costume",
+	"display_date": "19th–20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "cotton, silk; warp-resist dyeing (ikat), embroidery (satin and running stitch), applied mica pieces",
+	"medium_parts": [
+		"cotton, silk",
+		"warp-resist dyeing (ikat), embroidery (satin and running stitch), applied mica pieces"
+	],
+	"dimensions": "111.8 x 127 cm (44 x 50 in.)",
+	"credit_line": "Gift of Gerry Masteller",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2014-04-15 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2009-12-31",
+	"location_string": "de Young, 059, Textile Rack 03, M",
+	"location_building": "de Young",
+	"location_room": "Textile Rack 03",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Ceremonial skirt (tapis)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "44 x 50 in. (111.8 x 127 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Lampung",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAABO",
+					"term": "Lampung"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2009.66.2",
+	"slug": "2009.66.2/ceremonial-skirt-tapis",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 138004,
+			"media_master_id": 19319,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5038,
+			"pixel_w": 5754,
+			"file_name": "0312201015480001.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "satin"
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "Southeast Asia",
+			"country": "",
+			"notable": "Lampung"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , satin, embroidery · Lampung",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 35
+	}
+}

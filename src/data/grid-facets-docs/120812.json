@@ -1,0 +1,214 @@
+{
+	"id": 120812,
+	"accession_number": "2000.181.3a-b",
+	"sort_number": "2000.181.3a-b",
+	"title": "WOODED LANDSCAPE (RECTO); LANDSCAPE SKETCH (VERSO)",
+	"object_name": null,
+	"display_date": "ca. 1635–1640",
+	"begin_iso_date": "1635",
+	"end_iso_date": "1640",
+	"medium": "pen and brown ink, brown wash, black chalk, and graphite on laid paper (verso), pen and brown ink (verso)",
+	"medium_parts": [
+		"pen and brown ink, brown wash, black chalk, and graphite on laid paper (verso), pen and brown ink (verso)"
+	],
+	"dimensions": "100 x 158 mm (3 15/16 x 6 1/4 in.)",
+	"credit_line": "Gift of Stuart and Beverly Denenberg",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2021-03-23 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Earl Spencer, possibly John Spencer (1708-1746), or John, first Earl Spencer (1734-1783) (L. 1503); Sir William Esdaile (1758-1837), London (L. 2617); Baronet Calmann; his sale, Sotheby's London, 1 December 1964, lot 153; Parke Bernet, New York 3 November 1967, lot 41; John Minor Wisdom, New Orleans; bequest to  Martin E. L. Reymert, Paris and New York; his estate; with Beverly and Stuart Denenberg.",
+	"label_text": null,
+	"accession_iso_date": "2000-12-31",
+	"location_string": "Legion, 253, Table",
+	"location_building": "Legion",
+	"location_room": "Table",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Wooded Landscape (recto); Landscape Sketch (verso)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 14424,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Claude Lorrain",
+			"AlphaSort": "Lorrain,  Claude",
+			"Nationality": "French",
+			"BeginDate": 1604,
+			"EndDate": 1682,
+			"DisplayDate": "French, circa 1604–1682",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Claude Lorrain (1604–1682)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "3 15/16 x 6 1/4 in. (10 x 15.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "France",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Claude Lorrain",
+	"primary_artist_display": "Claude Lorrain (1604–1682)",
+	"sort_artist": "Lorrain,  Claude",
+	"display_year": "1635–40",
+	"doc_id": "2000.181.3a-b",
+	"slug": "2000.181.3a-b/wooded-landscape-recto-landscape-sketch-verso",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1635,
+	"media": [
+		{
+			"media_xref_id": 112883,
+			"media_master_id": 135149,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 578,
+			"pixel_w": 754,
+			"file_name": "1406200612420001.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ink",
+			"specific": "brown ink"
+		},
+		{
+			"parent": "Ink",
+			"specific": "pen"
+		},
+		{
+			"parent": "Paint",
+			"specific": "brown wash"
+		},
+		{
+			"parent": "Paper",
+			"specific": "laid paper"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "black chalk"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "graphite"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — brown ink, pen, brown wash, laid paper … · France",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

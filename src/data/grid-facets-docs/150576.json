@@ -1,0 +1,227 @@
+{
+	"id": 150576,
+	"accession_number": "2014.62.12",
+	"sort_number": "2014.62.12",
+	"title": "CEREMONIAL SPOON",
+	"object_name": "Wunkirmian or Wakemia",
+	"display_date": "20th century",
+	"begin_iso_date": "1901",
+	"end_iso_date": "2000",
+	"medium": "Wood, fiber, pigment, and beads",
+	"medium_parts": ["Wood, fiber, pigment, and beads"],
+	"dimensions": "23 1/4 x 5 7/8 x 4 1/4 in. (59.1 x 14.9 x 10.8 cm)",
+	"credit_line": "Gift of Richard Scheller",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Sculpture",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2025-07-15 16:23:44.117000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2014-10-16",
+	"location_string": "de Young, Display, Gallery 040",
+	"location_building": "de Young",
+	"location_room": "Gallery 040",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Ceremonial spoon",
+			"title_type": "Primary Title",
+			"language": "English",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40217,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Zlan of Belewale",
+			"AlphaSort": "Zlan",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "Zlan of Belewale",
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "23 1/4 x 5 7/8 x 4 1/4 in. (59.1 x 14.9 x 10.8 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Liberia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAANC",
+					"term": "Liberia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Côte d'Ivoire",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAIV",
+					"term": "Côte d'Ivoire"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Zlan of Belewale",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Zlan",
+	"display_year": "1901–2000",
+	"doc_id": "2014.62.12",
+	"slug": "2014.62.12/ceremonial-spoon",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1901,
+	"media": [
+		{
+			"media_xref_id": 145320,
+			"media_master_id": 148478,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1440,
+			"pixel_w": 958,
+			"file_name": "0626201410210006.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Pigment",
+			"specific": ""
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "bead"
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Liberia",
+			"notable": ""
+		},
+		{
+			"region": "Africa",
+			"country": "Ivory Coast",
+			"notable": "Côte d'Ivoire"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , bead,  · Liberia, Côte d'Ivoire",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

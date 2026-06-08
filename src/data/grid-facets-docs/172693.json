@@ -1,0 +1,169 @@
+{
+	"id": 172693,
+	"accession_number": "2018.28.15.5a-c",
+	"sort_number": "2018.28.15.5a-c",
+	"title": "WOMAN'S ENSEMBLE: TOP (A), SKIRT (B), AND BELT (C)",
+	"object_name": "woman's costume",
+	"display_date": "2007 Spring/Summer Ready to Wear",
+	"begin_iso_date": "2007",
+	"end_iso_date": "2007",
+	"medium": "silk, lace, leather, metal",
+	"medium_parts": ["silk, lace, leather, metal"],
+	"dimensions": null,
+	"credit_line": "Gift of Christine Suppes in memory of Mary Jane Johnson",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2022-11-28 13:55:38.230000",
+	"is_virtual": false,
+	"identifying_description": "(a) metallic top; (b) cream skirt; (c) taupe belt",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2018-06-05",
+	"location_string": "UOVO, Livermore, Cabinet 006",
+	"location_building": "UOVO",
+	"location_room": "Cabinet 006",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Woman's ensemble: top (a), skirt (b), and belt (c)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 19994,
+			"Role": "House of",
+			"RoleID": 356,
+			"DisplayName": "J. Mendel",
+			"AlphaSort": "J. Mendel",
+			"Nationality": "Russian",
+			"BeginDate": 1870,
+			"EndDate": 0,
+			"DisplayDate": "circa 1870",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1870"
+		}
+	],
+	"dimensions_structured": null,
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Russia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAEY",
+					"term": "Rossija"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "2007",
+	"doc_id": "2018.28.15.5a-c",
+	"slug": "2018.28.15.5a-c/woman-s-ensemble-top-a-skirt-b-and-belt-c",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 2007,
+	"media": [
+		{
+			"media_xref_id": 157174,
+			"media_master_id": 196018,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4032,
+			"pixel_w": 3024,
+			"file_name": "A410837.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Lace",
+			"specific": ""
+		},
+		{
+			"parent": "Leather",
+			"specific": ""
+		},
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "Russia",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , ,  · Russia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 39
+	}
+}

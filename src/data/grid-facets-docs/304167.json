@@ -1,0 +1,671 @@
+{
+	"id": 304167,
+	"accession_number": "2023.65",
+	"sort_number": "2023.65",
+	"title": "ALL POWER TO THE PEOPLE (AFTER MAN WITH AFRO, SAN FRANCISCO, CALIFORNIA, BY LEON A. BORENSZTEIN, 1984)",
+	"object_name": "wall hanging",
+	"display_date": "2023",
+	"begin_iso_date": "2023",
+	"end_iso_date": "2023",
+	"medium": "Synthetic and metallic foil complex weave, painted and resist-dyed cotton plain weave and satin weave, various synthetic complex weaves (machine embroidery), cotton velvet, nylon netting, polyester plain weave, applied glass stones and beads, clear vinyl with embedded glitter binding; machine quilting, appliqué",
+	"medium_parts": [
+		"Synthetic and metallic foil complex weave, painted and resist-dyed cotton plain weave and satin weave, various synthetic complex weaves (machine embroidery), cotton velvet, nylon netting, polyester plain weave, applied glass stones and beads, clear vinyl with embedded glitter binding",
+		"machine quilting, appliqué"
+	],
+	"dimensions": "114 x 67 in. (289.561 x 170.18 cm)",
+	"credit_line": "Museum purchase, Textile Art Trust Fund and donations from Bettina S. Bryant, Joyce Dostale, and other textile arts supporters",
+	"department": "Costume and Textile Arts",
+	"classification": "Textile",
+	"copyright": "© Bisa Butler",
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2023-05-25 15:44:21.997000",
+	"last_modified": "2025-10-14 14:33:17.113000",
+	"is_virtual": false,
+	"identifying_description": "Wall hanging",
+	"web_text": "Bisa Butler has distinguished herself in the contemporary art world for her large-scale, celebratory quilted portraits of Black Americans. Born in Orange, New Jersey, in 1973, she received a fine arts degree from Howard University before earning a master of arts degree from Montclair State University in 2005. Butler encountered textile arts during her graduate studies, which encouraged her “artistic epiphany,” when she realized she had found the medium through which she could best express her art. Butler’s quilt-making process often begins in historical archives. The artist is drawn to black-and-white photographs of historically obscured Black Americans dressed for staged portraits. Working from a photograph, Butler digitally sketches the light and dark areas of the photograph, then she considers the color scheme, narrative, and mood. To achieve variations in tone, Butler cuts, pieces, and layers multiple colors of fabric to create what she calls a “topographical map.” The resultant portrait is rendered larger than life-size and reasserts agency to identities that have been deliberately ignored from historical and artistic canons. This quilt references a photograph of a local man taken by Leon Borensztein, an instructor from the San Francisco Art Institute known for taking pictures of people in the community. The artist herself recommended this artwork for acquisition by the Fine Arts Museums because of its connections to the Bay Area. It enhances the Museums’ global contemporary art collection, as well as expands the collection of United States-made quilts, especially the Museums’ holdings of important examples by Black makers spanning from the post-Civil War era to the present.",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2023-10-10",
+	"location_string": "de Young, 059, Wall 07",
+	"location_building": "de Young",
+	"location_room": "Wall 07",
+	"edition": null,
+	"signed": "Bisa Butler, in lower proper left corner - machine embroidered",
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "All Power To The People (after Man with Afro, San Francisco, California, by Leon A. Borensztein, 1984)",
+			"title_type": "Primary Title",
+			"language": "English",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 38492,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Bisa Butler",
+			"AlphaSort": "Butler,  Bisa",
+			"Nationality": "American",
+			"BeginDate": 1973,
+			"EndDate": 0,
+			"DisplayDate": "American, born 1973",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1973"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "114 x 67 in. (289.561 x 170.18 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "New Jersey",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFP",
+					"term": "New Jersey"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "cotton",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAD",
+					"term": "cotton"
+				}
+			]
+		},
+		{
+			"term": "metal",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				}
+			]
+		},
+		{
+			"term": "vinyl",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAB",
+					"term": "Associated Concepts Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAB.AAA",
+					"term": "Associated Concepts"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAB.AAA.AAI",
+					"term": "multidisciplinary concepts"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAB.AAA.AAI.AAL",
+					"term": "groupings"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA",
+					"term": "object groupings by general context"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB",
+					"term": "components by specific context"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ",
+					"term": "biological components"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE",
+					"term": "plastic"
+				},
+				{
+					"depth": 12,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE",
+					"term": "plastic by property"
+				},
+				{
+					"depth": 13,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA",
+					"term": "thermoplastic"
+				},
+				{
+					"depth": 14,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA.AAV",
+					"term": "vinyl"
+				}
+			]
+		},
+		{
+			"term": "glass",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW",
+					"term": "glass"
+				}
+			]
+		},
+		{
+			"term": "synthetic fiber",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
+					"term": "fiber"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF",
+					"term": "synthetic fiber"
+				}
+			]
+		},
+		{
+			"term": "nylon",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAB",
+					"term": "Associated Concepts Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAB.AAA",
+					"term": "Associated Concepts"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAB.AAA.AAI",
+					"term": "multidisciplinary concepts"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAB.AAA.AAI.AAL",
+					"term": "groupings"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA",
+					"term": "object groupings by general context"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB",
+					"term": "components by specific context"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ",
+					"term": "biological components"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE",
+					"term": "plastic"
+				},
+				{
+					"depth": 12,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE",
+					"term": "plastic by property"
+				},
+				{
+					"depth": 13,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA",
+					"term": "thermoplastic"
+				},
+				{
+					"depth": 14,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA.AAM",
+					"term": "polyamide"
+				},
+				{
+					"depth": 15,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA.AAM.AAA",
+					"term": "nylon"
+				}
+			]
+		},
+		{
+			"term": "polyester",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
+					"term": "fiber"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF",
+					"term": "synthetic fiber"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF.AAH",
+					"term": "polyester"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Bisa Butler",
+	"primary_artist_display": "b. 1973",
+	"sort_artist": "Butler,  Bisa",
+	"display_year": "2023",
+	"doc_id": "2023.65",
+	"slug": "2023.65/all-power-to-the-people-after-man-with-afro-san-francisco-california-by-leon-a-borensztein-1984",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 2023,
+	"media": [
+		{
+			"media_xref_id": 215948,
+			"media_master_id": 223459,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 14204,
+			"pixel_w": 10652,
+			"file_name": "MS_304167_20230908_2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 215946,
+			"media_master_id": 223457,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 12523,
+			"pixel_w": 8205,
+			"file_name": "MS_304167_20230908_1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 215955,
+			"media_master_id": 223466,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 11,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 10067,
+			"pixel_w": 13424,
+			"file_name": "MS_304167_20230908_9.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 215952,
+			"media_master_id": 223463,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 8,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9938,
+			"pixel_w": 13043,
+			"file_name": "MS_304167_20230908_6.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 215954,
+			"media_master_id": 223465,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 10,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8489,
+			"pixel_w": 11319,
+			"file_name": "MS_304167_20230908_8.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 215953,
+			"media_master_id": 223464,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 9,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9609,
+			"pixel_w": 13146,
+			"file_name": "MS_304167_20230908_7.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Glass",
+			"specific": "glas"
+		},
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Paint",
+			"specific": "painted"
+		},
+		{
+			"parent": "Plastic",
+			"specific": "synthetic"
+		},
+		{
+			"parent": "Textile",
+			"specific": "nylon"
+		},
+		{
+			"parent": "Textile",
+			"specific": "polyester"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "bead"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": "New Jersey"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , glas, , painted … · New Jersey",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 48
+	}
+}

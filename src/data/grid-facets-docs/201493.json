@@ -1,0 +1,214 @@
+{
+	"id": 201493,
+	"accession_number": "2018.28.1.66a-c",
+	"sort_number": "2018.28.1.66a-c",
+	"title": "WOMAN'S ENSEMBLE: JACKET (A), SKIRT (B), AND SWEATER (C)",
+	"object_name": "woman's costume",
+	"display_date": "Spring/Summer 2015",
+	"begin_iso_date": "2015",
+	"end_iso_date": "2015",
+	"medium": "polyester, cotton, nylon, acrylic, silk, wool",
+	"medium_parts": ["polyester, cotton, nylon, acrylic, silk, wool"],
+	"dimensions": "56.5 cm (22 1/4 in.) jacket, center back; 57.2 cm (22 1/2 in.) skirt, center back; 55.2 cm (21 3/4 in.) shirt, center back",
+	"credit_line": "Gift of Christine Suppes in memory of Mary Jane Johnson",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2022-11-28 13:55:33.200000",
+	"is_virtual": false,
+	"identifying_description": "Three-piece ensemble consisting of: (a, b) Chanel sequin suit; (c) Nina Ricci ecru sweater",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2018-06-05",
+	"location_string": "de Young, 059, Cabinet 36, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 36",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Woman's ensemble: jacket (a), skirt (b), and sweater (c)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 2100,
+			"Role": "Designer",
+			"RoleID": 67,
+			"DisplayName": "Karl Lagerfeld",
+			"AlphaSort": "Karl Lagerfeld",
+			"Nationality": "German",
+			"BeginDate": 1933,
+			"EndDate": 2019,
+			"DisplayDate": "1933 - 2019",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Karl Lagerfeld (1933–2019)"
+		},
+		{
+			"ConstituentID": 18890,
+			"Role": "House of",
+			"RoleID": 356,
+			"DisplayName": "Chanel",
+			"AlphaSort": "Chanel",
+			"Nationality": "French",
+			"BeginDate": 1910,
+			"EndDate": 0,
+			"DisplayDate": "est. 1910",
+			"Institution": "House of Chanel",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 1910"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "21 3/4 in. (55.2 cm)",
+			"description": "shirt, center back",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "22 1/4 in. (56.5 cm)",
+			"description": "jacket, center back",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 2
+		},
+		{
+			"display_dimensions": "22 1/2 in. (57.2 cm)",
+			"description": "skirt, center back",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 3
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "France",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Karl Lagerfeld",
+	"primary_artist_display": "Karl Lagerfeld (1933–2019)",
+	"sort_artist": "Karl Lagerfeld",
+	"display_year": "2015",
+	"doc_id": "2018.28.1.66a-c",
+	"slug": "2018.28.1.66a-c/woman-s-ensemble-jacket-a-skirt-b-and-sweater-c",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 2015,
+	"media": [
+		{
+			"media_xref_id": 180030,
+			"media_master_id": 196685,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3024,
+			"pixel_w": 4032,
+			"file_name": "A411065.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Paint",
+			"specific": "acrylic"
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "nylon"
+		},
+		{
+			"parent": "Textile",
+			"specific": "polyester"
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , acrylic, , nylon … · France",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

@@ -1,0 +1,187 @@
+{
+	"id": 153779,
+	"accession_number": "2006.57.3.80",
+	"sort_number": "2006.57.3.80",
+	"title": "ALIFAGNO",
+	"object_name": "watercolor",
+	"display_date": "1962",
+	"begin_iso_date": "1962",
+	"end_iso_date": "1962",
+	"medium": "Opaque watercolor on paper laid on canvas",
+	"medium_parts": ["Opaque watercolor on paper laid on canvas"],
+	"dimensions": "762 x 552 mm (30 x 21 3/4 in.); 760 x 550 mm (29 15/16 x 21 5/8 in.)",
+	"credit_line": "Gift of the Estate of Moses and Ruth Helen Lasky, San Francisco Harlan B. and Marshall P. Levine, trustees",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": "© Estate of Wifredo Lam / Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-01-15 14:14:36.053000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2006-06-08",
+	"location_string": "Legion, 101, Painting Rack 23, B",
+	"location_building": "Legion",
+	"location_room": "Painting Rack 23",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Alifagno",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 990,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Wifredo Lam",
+			"AlphaSort": "Lam,  Wifredo",
+			"Nationality": "Cuban",
+			"BeginDate": 1902,
+			"EndDate": 1982,
+			"DisplayDate": "Cuban, 1902–1982",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Wifredo Lam (1902–1982)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "29 15/16 in. (76 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "21 5/8 in. (55 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 2
+		},
+		{
+			"display_dimensions": "30 x 21 3/4 in. (76.2 x 55.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 3
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Cuba",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAACF",
+					"term": "Cuba"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Wifredo Lam",
+	"primary_artist_display": "Wifredo Lam (1902–1982)",
+	"sort_artist": "Lam,  Wifredo",
+	"display_year": "1962",
+	"doc_id": "2006.57.3.80",
+	"slug": "2006.57.3.80/alifagno",
+	"has_image": false,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1962,
+	"media": null,
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Paint",
+			"specific": "opaque watercolor"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "West Indies",
+			"country": "Cuba",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — opaque watercolor · Cuba",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

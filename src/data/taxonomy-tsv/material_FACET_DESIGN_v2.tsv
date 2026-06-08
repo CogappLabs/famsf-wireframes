@@ -1,0 +1,313 @@
+facet_group	level	parent	label	is_public	occurrences	member_terms
+Material	parent		Ink	true	7009	119
+Material	parent		Paint	true	6675	78
+Material	parent		Pencil, chalk & crayon	true	4358	10
+Material	parent		Metal	true	3187	175
+Material	parent		Textile	true	3142	34
+Material	parent		Wood	true	2564	151
+Material	parent		Paper	true	2509	185
+Material	parent		Silk	true	2451	138
+Material	parent		Ceramic	true	2267	32
+Material	parent		Wool	true	2035	117
+Material	parent		Cotton	true	1895	105
+Material	parent		Gold & silver	true	1592	51
+Material	parent		Glass	true	1461	21
+Material	parent		Porcelain	true	1297	32
+Material	parent		Trimmings	true	1181	11
+Material	parent		Pigment	true	991	5
+Material	parent		Leather	true	793	129
+Material	parent		Lace	true	675	5
+Material	parent		Stone	true	658	98
+Material	parent		Yarn & thread	true	532	7
+Material	parent		Ivory	true	501	11
+Material	parent		Charcoal	true	440	1
+Material	parent		Plastic	true	437	5
+Material	parent		Shell	true	358	5
+Material	parent		Camelid fiber	true	263	1
+Material	parent		Fiber	true	193	1
+Material	parent		Marble	true	170	13
+Material	parent		Enamel	true	146	1
+Material	parent		Feather	true	141	1
+Material	parent		Lacquer	true	129	2
+Material	parent		Bamboo	true	111	1
+Material	parent		Bone	true	97	1
+Material	parent		Dyeing	true	88	1
+Material	parent		Raffia	true	85	1
+Material	parent		Tortoise shell	true	72	1
+Material	parent		Straw	true	71	1
+Material	parent		Hardboard	true	67	1
+Material	parent		Sheep's wool or camelid hair	true	65	1
+Material	parent		Vellum	true	61	1
+Material	parent		Parchment	true	60	1
+Material	parent		Ostrich feather	true	59	1
+Material	parent		Rattan	true	53	1
+Material	parent		Fur	true	53	1
+Material	parent		Hair	true	42	1
+Material	parent		Hide	true	42	1
+Material	parent		Horn	true	37	1
+Material	parent		Bast fiber	true	37	1
+Material	parent		Plywood	true	36	1
+Material	parent		Baleen	true	36	1
+Material	parent		Camelid hair	true	35	1
+Material	parent		Goat hair	true	30	1
+Material	parent		Horsehair	true	29	1
+Material	parent		Artificial flower	true	28	1
+Material	parent		Sinew	true	28	1
+Material	parent		Woven rattan	true	26	1
+Material	parent		Coconut shell	true	24	1
+Material	parent		Gut	true	23	1
+Material	parent		Human hair	true	22	1
+Material	parent		Bark	true	21	1
+Material	parent		Cork	true	21	1
+Material	parent		Other material	false	914	14
+Material	parent		Mica	false	71	1
+Material	parent		Wax	false	47	1
+Material	specific	Ceramic	earthenware	true	834	1
+Material	specific	Ceramic	ceramic	true	496	1
+Material	specific	Ceramic	terracotta	true	423	1
+Material	specific	Ceramic	faience	true	166	1
+Material	specific	Ceramic	clay	true	79	1
+Material	specific	Ceramic	asian ceramic	true	72	1
+Material	specific	Ceramic	glazed earthenware	true	71	1
+Material	specific	Ceramic	tin-glazed earthenware	true	54	1
+Material	specific	Ceramic	glazed ceramic	true	23	1
+Material	specific	Cotton	cotton	true	1658	1
+Material	specific	Cotton	white cotton	true	34	1
+Material	specific	Glass	glas	true	1181	1
+Material	specific	Glass	rhinestone	true	77	1
+Material	specific	Glass	pressed lead glas	true	63	1
+Material	specific	Glass	free-blown glas	true	48	1
+Material	specific	Glass	blown glas	true	42	1
+Material	specific	Gold & silver	silver	true	998	1
+Material	specific	Gold & silver	gold	true	336	1
+Material	specific	Gold & silver	gold leaf	true	89	1
+Material	specific	Gold & silver	silver gilt	true	85	1
+Material	specific	Ink	ink	true	2359	1
+Material	specific	Ink	black ink	true	2190	1
+Material	specific	Ink	pen	true	1329	1
+Material	specific	Ink	brown ink	true	497	1
+Material	specific	Ink	blue ink	true	76	1
+Material	specific	Ink	sumi ink	true	62	1
+Material	specific	Ink	india ink	true	61	1
+Material	specific	Ink	double-sided ink	true	58	1
+Material	specific	Ink	sepia ink	true	54	1
+Material	specific	Ink	red ink	true	46	1
+Material	specific	Ink	ink wash	true	45	1
+Material	specific	Ink	tones brown ink	true	23	1
+Material	specific	Ivory	ivory	true	391	1
+Material	specific	Ivory	walrus ivory	true	75	1
+Material	specific	Lace	lace	true	486	1
+Material	specific	Lace	point de gaze	true	58	1
+Material	specific	Lace	bobbin lace	true	51	1
+Material	specific	Lace	chantilly lace	true	43	1
+Material	specific	Lace	valenciennes lace	true	37	1
+Material	specific	Lacquer	japanese lacquer with mother-of-pearl	true	96	1
+Material	specific	Lacquer	lacquer	true	33	1
+Material	specific	Leather	leather	true	422	1
+Material	specific	Leather	suede	true	90	1
+Material	specific	Leather	kid leather	true	85	1
+Material	specific	Marble	marble	true	115	1
+Material	specific	Marble	marble base	true	35	1
+Material	specific	Metal	metal	true	559	1
+Material	specific	Metal	bronze	true	523	1
+Material	specific	Metal	bras	true	282	1
+Material	specific	Metal	zinc	true	235	1
+Material	specific	Metal	copper	true	163	1
+Material	specific	Metal	type metal	true	160	1
+Material	specific	Metal	sterling silver	true	142	1
+Material	specific	Metal	steel	true	84	1
+Material	specific	Metal	iron	true	83	1
+Material	specific	Metal	bronze medal	true	82	1
+Material	specific	Metal	wire	true	62	1
+Material	specific	Metal	metal ring	true	60	1
+Material	specific	Metal	pewter	true	59	1
+Material	specific	Metal	gilt bronze	true	49	1
+Material	specific	Metal	brass ring	true	40	1
+Material	specific	Metal	copper alloy	true	39	1
+Material	specific	Metal	gilt metal	true	38	1
+Material	specific	Metal	plate	true	38	1
+Material	specific	Metal	wrought iron	true	36	1
+Material	specific	Metal	resin-coated aluminum	true	33	1
+Material	specific	Metal	steel wool burnishing	true	30	1
+Material	specific	Metal	copper plate	true	22	1
+Material	specific	Metal	lead	true	20	1
+Material	specific	Metal	applied gold leaf	true	20	1
+Material	specific	Paint	watercolor	true	1694	1
+Material	specific	Paint	oil	true	1545	1
+Material	specific	Paint	opaque watercolor	true	1144	1
+Material	specific	Paint	paint	true	431	1
+Material	specific	Paint	wash	true	346	1
+Material	specific	Paint	acrylic	true	307	1
+Material	specific	Paint	tempera	true	164	1
+Material	specific	Paint	brown wash	true	125	1
+Material	specific	Paint	watercolor wash	true	109	1
+Material	specific	Paint	painted	true	103	1
+Material	specific	Paint	gouache	true	102	1
+Material	specific	Paint	gold paint	true	84	1
+Material	specific	Paint	gray wash	true	65	1
+Material	specific	Paint	gesso	true	49	1
+Material	specific	Paint	metallic paint	true	46	1
+Material	specific	Paint	overglaze painting	true	45	1
+Material	specific	Paint	gray gouache ground	true	34	1
+Material	specific	Paint	hand painted	true	33	1
+Material	specific	Paint	acrylic paint	true	32	1
+Material	specific	Paint	transparent watercolor	true	32	1
+Material	specific	Paint	white opaque watercolor	true	31	1
+Material	specific	Paint	oil paint	true	25	1
+Material	specific	Paint	white gouache	true	20	1
+Material	specific	Paper	wove paper	true	378	1
+Material	specific	Paper	tracing paper	true	359	1
+Material	specific	Paper	laid paper	true	276	1
+Material	specific	Paper	japan paper	true	202	1
+Material	specific	Paper	newsprint	true	145	1
+Material	specific	Paper	handmade paper	true	134	1
+Material	specific	Paper	machine-made vellum-type paper	true	101	1
+Material	specific	Paper	cardboard	true	64	1
+Material	specific	Paper	china paper	true	56	1
+Material	specific	Paper	ivory handmade paper	true	56	1
+Material	specific	Paper	blue paper	true	54	1
+Material	specific	Paper	rives bfk	true	53	1
+Material	specific	Paper	copperplate deluxe paper	true	39	1
+Material	specific	Paper	mulberry paper	true	32	1
+Material	specific	Paper	illustration board	true	31	1
+Material	specific	Paper	pith paper	true	29	1
+Material	specific	Paper	paperboard	true	27	1
+Material	specific	Paper	arches satine heavyweight paper	true	21	1
+Material	specific	Paper	ivory wove lafuma paper	true	21	1
+Material	specific	Pencil, chalk & crayon	graphite	true	2209	1
+Material	specific	Pencil, chalk & crayon	pencil	true	617	1
+Material	specific	Pencil, chalk & crayon	pastel	true	437	1
+Material	specific	Pencil, chalk & crayon	black chalk	true	302	1
+Material	specific	Pencil, chalk & crayon	crayon	true	249	1
+Material	specific	Pencil, chalk & crayon	white chalk	true	180	1
+Material	specific	Pencil, chalk & crayon	red chalk	true	136	1
+Material	specific	Pencil, chalk & crayon	black crayon	true	90	1
+Material	specific	Pencil, chalk & crayon	chalk	true	84	1
+Material	specific	Pencil, chalk & crayon	blue pencil	true	54	1
+Material	specific	Pigment	pigment	true	686	1
+Material	specific	Pigment	underglazed decorative motifs in blue	true	138	1
+Material	specific	Pigment	metallic pigment	true	83	1
+Material	specific	Pigment	green	true	48	1
+Material	specific	Pigment	yellow	true	36	1
+Material	specific	Plastic	cellulose nitrate	true	156	1
+Material	specific	Plastic	plastic	true	155	1
+Material	specific	Plastic	synthetic	true	50	1
+Material	specific	Plastic	acetate	true	46	1
+Material	specific	Plastic	celluloid	true	30	1
+Material	specific	Porcelain	porcelain	true	618	1
+Material	specific	Porcelain	soft-paste porcelain	true	295	1
+Material	specific	Porcelain	hard-paste porcelain	true	264	1
+Material	specific	Porcelain	hard paste porcelain	true	35	1
+Material	specific	Porcelain	soft paste porcelain	true	24	1
+Material	specific	Shell	shell	true	124	1
+Material	specific	Shell	mother-of-pearl	true	84	1
+Material	specific	Shell	pearl	true	59	1
+Material	specific	Shell	cowrie shell	true	54	1
+Material	specific	Shell	mother-of-pearl stick	true	37	1
+Material	specific	Silk	silk	true	2203	1
+Material	specific	Silk	embroidered silk	true	27	1
+Material	specific	Stone	stone	true	302	1
+Material	specific	Stone	jet	true	42	1
+Material	specific	Stone	agate	true	24	1
+Material	specific	Stone	diamond	true	22	1
+Material	specific	Stone	turquoise	true	22	1
+Material	specific	Stone	flint	true	21	1
+Material	specific	Textile	linen	true	726	1
+Material	specific	Textile	velvet	true	290	1
+Material	specific	Textile	satin	true	281	1
+Material	specific	Textile	rayon	true	128	1
+Material	specific	Textile	silk satin	true	120	1
+Material	specific	Textile	nylon	true	105	1
+Material	specific	Textile	net	true	104	1
+Material	specific	Textile	polyester	true	100	1
+Material	specific	Textile	silk velvet	true	97	1
+Material	specific	Textile	chiffon	true	84	1
+Material	specific	Textile	cloth	true	76	1
+Material	specific	Textile	silk brocade	true	69	1
+Material	specific	Textile	felt	true	68	1
+Material	specific	Textile	taffeta	true	68	1
+Material	specific	Textile	silk taffeta	true	59	1
+Material	specific	Textile	fabric	true	58	1
+Material	specific	Textile	silk chiffon	true	57	1
+Material	specific	Textile	gauze	true	57	1
+Material	specific	Textile	complex weave	true	50	1
+Material	specific	Textile	silk gros de tour	true	48	1
+Material	specific	Textile	tulle	true	42	1
+Material	specific	Textile	barkcloth	true	41	1
+Material	specific	Textile	silk lining	true	40	1
+Material	specific	Textile	silk net	true	39	1
+Material	specific	Textile	discontinuous supplementary-weft patterning	true	37	1
+Material	specific	Textile	silk crepe	true	37	1
+Material	specific	Textile	white linen	true	36	1
+Material	specific	Textile	compound weave	true	35	1
+Material	specific	Textile	wool felt	true	34	1
+Material	specific	Textile	embroidered linen	true	33	1
+Material	specific	Textile	knitting	true	32	1
+Material	specific	Textile	tapa cloth	true	31	1
+Material	specific	Textile	silk tulle	true	30	1
+Material	specific	Textile	batiste	true	30	1
+Material	specific	Trimmings	bead	true	421	1
+Material	specific	Trimmings	glass bead	true	176	1
+Material	specific	Trimmings	sequin	true	152	1
+Material	specific	Trimmings	ribbon	true	117	1
+Material	specific	Trimmings	silk ribbon	true	57	1
+Material	specific	Trimmings	fringe	true	51	1
+Material	specific	Trimmings	glass seed bead	true	50	1
+Material	specific	Trimmings	silk tassel	true	48	1
+Material	specific	Trimmings	tassel	true	37	1
+Material	specific	Trimmings	chenille	true	37	1
+Material	specific	Trimmings	grosgrain	true	35	1
+Material	specific	Wood	wood	true	1663	1
+Material	specific	Wood	wood panel	true	264	1
+Material	specific	Wood	hardwood	true	72	1
+Material	specific	Wood	mahogany	true	63	1
+Material	specific	Wood	walnut	true	42	1
+Material	specific	Wood	oak	true	34	1
+Material	specific	Wood	ebony	true	30	1
+Material	specific	Wood	gilded wood	true	26	1
+Material	specific	Wood	painted wood	true	23	1
+Material	specific	Wool	wool	true	1787	1
+Material	specific	Wool	alpaca	true	34	1
+Material	specific	Wool	cashmere	true	23	1
+Material	specific	Wool	sheep's wool	true	22	1
+Material	specific	Yarn & thread	metallic thread	true	208	1
+Material	specific	Yarn & thread	metal thread	true	76	1
+Material	specific	Yarn & thread	twine	true	70	1
+Material	specific	Yarn & thread	string	true	66	1
+Material	specific	Yarn & thread	thread	true	44	1
+Material	specific	Yarn & thread	yarn	true	38	1
+Material	specific	Yarn & thread	cord	true	30	1
+Technique	flat		Etching	true	26098	131
+Technique	flat		Engraving	true	14831	43
+Technique	flat		Lithograph	true	14561	12
+Technique	flat		Woodcut	true	8041	62
+Technique	flat		Wood engraving	true	7923	23
+Technique	flat		Aquatint	true	6745	74
+Technique	flat		Photographic process	true	5122	44
+Technique	flat		Drypoint	true	4106	25
+Technique	flat		Offset lithograph	true	3420	12
+Technique	flat		Hand colouring	true	2639	8
+Technique	flat		Mezzotint	true	1662	9
+Technique	flat		Screenprint	true	1415	3
+Technique	flat		Prints	true	1370	21
+Technique	flat		Weaving	true	1295	18
+Technique	flat		Embroidery	true	1251	8
+Technique	flat		Drawing	true	863	7
+Technique	flat		Letterpress	true	766	2
+Technique	flat		Stipple engraving	true	724	4
+Technique	flat		Knitting/knotting	true	553	1
+Technique	flat		Line block	true	506	1
+Technique	flat		Pochoir	true	462	3
+Technique	flat		Linocut	true	436	2
+Technique	flat		Monotype	true	410	11
+Technique	flat		Photogravure	true	355	17
+Technique	flat		Dyeing	true	225	20
+Technique	flat		Woodburytype	true	114	1
+Technique	flat		Intaglio print	true	98	1
+Technique	flat		Collotype	true	86	1
+Technique	flat		Collagraph	true	75	2
+Technique	flat		Relief print	true	38	1
+Technique	flat		Surface technique	false	2075	18
+Technique	flat		Photomechanical	false	1055	9
+Technique	flat		Other technique	false	797	10
+Technique	flat		Binding/mounting	false	188	4

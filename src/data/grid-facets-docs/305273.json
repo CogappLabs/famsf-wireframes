@@ -1,0 +1,337 @@
+{
+	"id": 305273,
+	"accession_number": "2023.94.1",
+	"sort_number": "2023.94.1",
+	"title": "MOAI KAVAKAVA (FIGURE)",
+	"object_name": "Figure",
+	"display_date": "18th/19th C",
+	"begin_iso_date": "1780",
+	"end_iso_date": "1820",
+	"medium": "Wood, obsidian and bone",
+	"medium_parts": ["Wood, obsidian and bone"],
+	"dimensions": "Height: 16 x 3 3/4 x 3 in. (40.64 x 9.525 x 7.62 cm)",
+	"credit_line": "Gift of the Thomas W. Weisel Family Collection",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Ceremonial & Religious Objects",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2023-10-11 12:52:30.840000",
+	"last_modified": "2025-09-23 10:41:27.587000",
+	"is_virtual": false,
+	"identifying_description": "Carved wood male figure. Shortened legs, elongated arms at sides, enlarged neck and head. Bulbous belly, exaggerated ribs and spine. The upper spine feature leads to a hollow mound at the back of the neck. The ears show elongated hollow rounds at top and bottom, connected by a craved, 3 cm wood stem. The face has large pronounced teeth, nose, eyes, eyebrows, etc. The eyes are decorated with bone rings surrounding a round obsidian disk. Eye brows and chin beard are  carved lines. The bare head shows a shallow carved figure with bent and outstretched arms and legs, two circles for the head and large triangular ears.",
+	"web_text": "The island of Rapa Nui, named Easter Island by Dutch explorers in the early eighteenth century, is the most remote inhabited island on earth. Despite its isolation in the Pacific Ocean, Rapa Nui’s enigmatic moai heads and figurative statues—numbering more than nine hundred, standing on cliffs and hills—have become iconic images in popular culture, making the island universally known. Moai kavakava like this one are small-scale wood figures unique to Rapa Nui and remarkable in appearance. The heads share features with the monolithic stone moai, such as a protruding single brow, a goatee, and elongated earlobes. However, the Rapa Nui word kavakava means “ribs,” and these moai bodies are meticulously carved with curved and articulated spines, emaciated torsos, prominent ribs, and distended abdomens. The eyes are pieces of obsidian surrounded by rings of bird bone. A carved figurative design, possibly echoing a petroglyph motif, with an abstract head and outstretched limbs, is splayed across the top of the bald cranium of this figure. The oral tradition about the origin of moai kavakava suggests that they were first carved by ruler Tu’u-ko-ihu, one of Rapa Nui’s original settlers, and that they represent the spirits of deceased chiefs and venerated ancestors. In the twentieth century, European artists and writers, including the Surrealists, took inspiration from the island’s visual culture. Fascination with Rapa Nui and its historic stone and wood carvings endures in the present, and its artists, including carvers, continue their work and cultural survivance. Gifts of Art to the Fine Arts Museums of San Francisco (San Francisco: Fine Arts Museums of San Francisco, 2025), p. 96, entry by Christina Hellmich.",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2023-10-10",
+	"location_string": "de Young, 061, Cabinet 032, D",
+	"location_building": "de Young",
+	"location_room": "Cabinet 032",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Moai kavakava (figure)",
+			"title_type": "Primary Title",
+			"language": "English",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "16 x 3 3/4 x 3 in. (40.64 x 9.525 x 7.62 cm)",
+			"description": "Height",
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Easter Island",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAABI",
+					"term": "Chile"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAABI.AAAAY",
+					"term": "Valparaíso"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAACT.AAABI.AAAAY.AACMC",
+					"term": "Pascua, Isla de"
+				}
+			]
+		},
+		{
+			"term": "Rapa Nui",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAABI",
+					"term": "Chile"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAABI.AAAAY",
+					"term": "Valparaíso"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAACT.AAABI.AAAAY.AACMC",
+					"term": "Pascua, Isla de"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "hardwood",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1780–1820",
+	"doc_id": "2023.94.1",
+	"slug": "2023.94.1/moai-kavakava-figure",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1780,
+	"media": [
+		{
+			"media_xref_id": 215358,
+			"media_master_id": 222896,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11758,
+			"pixel_w": 5770,
+			"file_name": "MS_305273_20240509_2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 215357,
+			"media_master_id": 222895,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 10215,
+			"pixel_w": 7068,
+			"file_name": "MS_305273_20240509_1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 215360,
+			"media_master_id": 222898,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 5,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4754,
+			"pixel_w": 4690,
+			"file_name": "MS_305273_20240509_4.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 215361,
+			"media_master_id": 222899,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 6,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8259,
+			"pixel_w": 5089,
+			"file_name": "MS_305273_20240509_5.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Wood",
+			"specific": ""
+		},
+		{
+			"parent": "Wood",
+			"specific": "hardwood"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Chile",
+			"notable": "Easter Island"
+		},
+		{
+			"region": "South America",
+			"country": "Chile",
+			"notable": "Rapa Nui"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , hardwood · Easter Island, Rapa Nui",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

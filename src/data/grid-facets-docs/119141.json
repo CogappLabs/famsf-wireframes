@@ -1,0 +1,204 @@
+{
+	"id": 119141,
+	"accession_number": "2007.87.12",
+	"sort_number": "2007.87.12",
+	"title": "CEREMONIAL SITTING MAT (TABIN)",
+	"object_name": "miscellaneous",
+	"display_date": "20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "palm fiber, glass beads, cotton, wool,  bast fiber, shells, metal, hair; plaiting, beadwork, commercial cloth, applied objects, beaded fringe",
+	"medium_parts": [
+		"palm fiber, glass beads, cotton, wool,  bast fiber, shells, metal, hair",
+		"plaiting, beadwork, commercial cloth, applied objects, beaded fringe"
+	],
+	"dimensions": "54.6 x 27.9 x 2.5 cm (21 1/2 x 11 x 1 in.)",
+	"credit_line": "Gift of the Diane and Sandy Besser Collection, Santa Fe, New Mexico",
+	"department": "Costume and Textile Arts",
+	"classification": "Textile",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-06 09:16:46.273000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2007-12-31",
+	"location_string": "de Young, 061, Cabinet 075, TC",
+	"location_building": "de Young",
+	"location_room": "Cabinet 075",
+	"edition": null,
+	"signed": null,
+	"inscribed": "L07.29.3.13, A13",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Ceremonial sitting mat (tabin)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41194,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Kayan",
+			"AlphaSort": "Kayan",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		},
+		{
+			"ConstituentID": 41195,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Kenyah",
+			"AlphaSort": "Kenyah",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "21 1/2 x 11 x 1 in. (54.6 x 27.9 x 2.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Mahakam",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 8,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACW.AAAAC.AAAAE.AAAAX",
+					"term": "Mahakam, Sungai"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2007.87.12",
+	"slug": "2007.87.12/ceremonial-sitting-mat-tabin",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 133268,
+			"media_master_id": 153093,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5224,
+			"pixel_w": 3920,
+			"file_name": "0808200915540003.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Shell",
+			"specific": ""
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "glass bead"
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "",
+			"notable": "Mahakam"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , , glass bead … · Mahakam",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 36
+	}
+}

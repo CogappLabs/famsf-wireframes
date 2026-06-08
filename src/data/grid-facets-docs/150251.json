@@ -1,0 +1,410 @@
+{
+	"id": 150251,
+	"accession_number": "1993.120",
+	"sort_number": "1993.120",
+	"title": "SIDE CHAIR FOR THE ROBERT R. BLACKER HOUSE, PASADENA, CALIFORNIA",
+	"object_name": "furniture",
+	"display_date": "1907",
+	"begin_iso_date": "1907",
+	"end_iso_date": "1907",
+	"medium": "Mahogany, faux ebony pegs, oak, abalone inlay, copper, pewter, and mother-of -pearl",
+	"medium_parts": [
+		"Mahogany, faux ebony pegs, oak, abalone inlay, copper, pewter, and mother-of -pearl"
+	],
+	"dimensions": "42 x 17 3/4 x 17 3/4 in. (106.7 x 45.1 x 45.1 cm)",
+	"credit_line": "Museum purchase, Roscoe and Margaret Oakes Income Fund",
+	"department": "American Decorative Arts and Sculpture",
+	"classification": "Furnishing",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2022-10-20 14:26:17.220000",
+	"is_virtual": false,
+	"identifying_description": "Side chair with inlaid mother-of-pearl, pewter and copper inlay on seat back",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1993-12-02",
+	"location_string": "de Young, Display, Gallery 029",
+	"location_building": "de Young",
+	"location_room": "Gallery 029",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Side chair for the Robert R. Blacker House, Pasadena, California",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 14093,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Henry Mather Greene",
+			"AlphaSort": "Greene,  Henry Mather",
+			"Nationality": "American",
+			"BeginDate": 1870,
+			"EndDate": 1954,
+			"DisplayDate": "1870–1954",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Henry Mather Greene (1870–1954)"
+		},
+		{
+			"ConstituentID": 14092,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Charles Sumner Greene",
+			"AlphaSort": "Greene,  Charles Sumner",
+			"Nationality": "American",
+			"BeginDate": 1868,
+			"EndDate": 1957,
+			"DisplayDate": "1868–1957",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Charles Sumner Greene (1868–1957)"
+		},
+		{
+			"ConstituentID": 3911,
+			"Role": "Maker",
+			"RoleID": 56,
+			"DisplayName": "Peter Hall Manufacturing Company, Pasadena",
+			"AlphaSort": "Peter Hall Manufacturing Company, Pasadena",
+			"Nationality": null,
+			"BeginDate": 1906,
+			"EndDate": 1922,
+			"DisplayDate": "1906–1922",
+			"Institution": "Peter Hall Manufacturing Company, Pasadena",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 3,
+			"DisplayLabel": "Peter Hall Manufacturing Company, Pasadena (1906–1922)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "42 x 17 3/4 x 17 3/4 in. (106.7 x 45.1 x 45.1 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Pasadena",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT",
+					"term": "California"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AAATP",
+					"term": "Los Angeles"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AAATP.AABBC",
+					"term": "Pasadena"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "mahogany",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ACL",
+					"term": "mahogany"
+				}
+			]
+		},
+		{
+			"term": "copper",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
+					"term": "metal by composition or origin"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB",
+					"term": "nonferrous metal"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK",
+					"term": "copper and copper alloy"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAA",
+					"term": "copper"
+				}
+			]
+		},
+		{
+			"term": "mother-of-pearl",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC",
+					"term": "combination inorganic/organic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB",
+					"term": "combination inorganic/organic animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAD",
+					"term": "shell and shell material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAD.AAB",
+					"term": "mother of pearl"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Henry Mather Greene",
+	"primary_artist_display": "Henry Mather Greene (1870–1954)",
+	"sort_artist": "Greene,  Henry Mather",
+	"display_year": "1907",
+	"doc_id": "1993.120",
+	"slug": "1993.120/side-chair-for-the-robert-r-blacker-house-pasadena-california",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1907,
+	"media": [
+		{
+			"media_xref_id": 80602,
+			"media_master_id": 163197,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 12097,
+			"pixel_w": 9469,
+			"file_name": "A307395_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 169057,
+			"media_master_id": 130016,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 4568,
+			"pixel_w": 2616,
+			"file_name": "8528320112360015.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Metal",
+			"specific": "copper"
+		},
+		{
+			"parent": "Metal",
+			"specific": "pewter"
+		},
+		{
+			"parent": "Shell",
+			"specific": "mother-of-pearl"
+		},
+		{
+			"parent": "Wood",
+			"specific": "mahogany"
+		},
+		{
+			"parent": "Wood",
+			"specific": "oak"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": "Pasadena"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — copper, pewter, mother-of-pearl, mahogany … · Pasadena",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

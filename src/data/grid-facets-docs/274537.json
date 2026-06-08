@@ -1,0 +1,184 @@
+{
+	"id": 274537,
+	"accession_number": "T&D1977.20",
+	"sort_number": "T&D1977.20",
+	"title": "THE SNOW MAIDEN: COSTUME DESIGN FOR THE SNOW MAIDEN",
+	"object_name": null,
+	"display_date": "1931",
+	"begin_iso_date": "1931",
+	"end_iso_date": "1931",
+	"medium": "pencil, pen and ink, and watercolor",
+	"medium_parts": ["pencil, pen and ink, and watercolor"],
+	"dimensions": "Image: 152 x 68 mm (6 x 2 11/16 in.); Sheet: 181 x 88 mm (7 1/8 x 3 7/16 in.)",
+	"credit_line": "Theater and Dance Collection, gift of Mr. and Mrs. Nikita  D. Lobanov",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2014-06-16 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "The Fine Arts Museums of San Francisco, California Palace of the Legion of Honor,Russian Theater and Costume Designs from  The Fine Arts  Museums of San Francisco, 1980 (circulated 1980-1982),  exh.cat.intro. by John E. Bowlt, cat.by  Nikita D. Lobanov, Nina Lobanov, and AiméeTroyen, no. , p. , repr. p. ;\r\nThe Fine Arts Museums of San Francisco, M. H. de Young Memorial Museum:The Art of  Enchantment, Diaghilev's Ballets Russes, 1909-1929, 1988-1989 (ciculated 1989), cat. by Nancy Van Norman Baer, et al.,\r\nThe Fine Arts Museums of San Francisco, California Palace of the Legion of Honor, Theatre in Revolution, Russian Avant-Garde Stage Design 1913-1935,  1991-1992 (circulated IBM Gallery of Science and Art, New York, 1992, Armand Hammer Museum of Art and Cultural Center, Los Angeles, CA. 1992), cat. by Nancy Van Norman Baer et al.",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1977-01-01",
+	"location_string": "Legion, 210, Compact Shelf 23, 215",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 23",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "The Snow Maiden: costume design for the Snow Maiden",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 14883,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Sergei Tchehonin",
+			"AlphaSort": "Sergei Tchehonin",
+			"Nationality": "Russian",
+			"BeginDate": 1878,
+			"EndDate": 1936,
+			"DisplayDate": "1878–1936",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Sergei Tchehonin (1878–1936)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "6 x 2 11/16 in. (15.2 x 6.8 cm)",
+			"description": null,
+			"element_name": "Image",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "7 1/8 x 3 7/16 in. (18.1 x 8.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 2
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Russia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAEY",
+					"term": "Rossija"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Sergei Tchehonin",
+	"primary_artist_display": "Sergei Tchehonin (1878–1936)",
+	"sort_artist": "Sergei Tchehonin",
+	"display_year": "1931",
+	"doc_id": "T%26D1977.20",
+	"slug": "T%26D1977.20/the-snow-maiden-costume-design-for-the-snow-maiden",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1931,
+	"media": [
+		{
+			"media_xref_id": 20019,
+			"media_master_id": 86590,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2767,
+			"pixel_w": 1485,
+			"file_name": "3328201308180094.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ink",
+			"specific": ""
+		},
+		{
+			"parent": "Ink",
+			"specific": "pen"
+		},
+		{
+			"parent": "Paint",
+			"specific": "watercolor"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "pencil"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "Russia",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , pen, watercolor, pencil · Russia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

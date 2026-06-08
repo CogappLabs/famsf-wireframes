@@ -1,0 +1,177 @@
+{
+	"id": 108173,
+	"accession_number": "1981.84.83",
+	"sort_number": "1981.84.83",
+	"title": "CEREMONIAL CLOTH (ULOS PADANG RUSAK?)",
+	"object_name": "ecclesiastical/ritual costume",
+	"display_date": "1950–1975",
+	"begin_iso_date": "1950",
+	"end_iso_date": "1975",
+	"medium": "cotton, metallic threads; warp-resist dyeing (ikat), supplementary weft weave",
+	"medium_parts": [
+		"cotton, metallic threads",
+		"warp-resist dyeing (ikat), supplementary weft weave"
+	],
+	"dimensions": "181.6 x 102.2 cm (71 1/2 x 40 1/4 in.)",
+	"credit_line": "The Laurens Hillhouse Collection",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-02 14:56:06.393000",
+	"is_virtual": false,
+	"identifying_description": "This is a highly ritual cloth worn by both men and women in ceremonies such as weddings, where the textile is symbolic for the bond between two families, and buffalo sacrifies. The use of metallic threads in supplementary weft patterning is a new development not seen in older pieces.  This piece dates to the third quarter of the 20th century.--Itie van hout 7/2004",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1980-12-02",
+	"location_string": "de Young, 059, Cabinet 33, TA",
+	"location_building": "de Young",
+	"location_room": "Cabinet 33",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Ceremonial cloth (ulos padang rusak?)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41391,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Batak",
+			"AlphaSort": "Batak",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "71 1/2 x 40 1/4 in. (181.6 x 102.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Sumatra",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADN",
+					"term": "Sumatera"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1950–75",
+	"doc_id": "1981.84.83",
+	"slug": "1981.84.83/ceremonial-cloth-ulos-padang-rusak",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1950,
+	"media": [
+		{
+			"media_xref_id": 92894,
+			"media_master_id": 54692,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2760,
+			"pixel_w": 1288,
+			"file_name": "2305200314550227.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "metallic thread"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Southeast Asia",
+			"country": "",
+			"notable": "Sumatra"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , metallic thread · Sumatra",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

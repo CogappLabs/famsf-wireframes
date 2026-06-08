@@ -1,0 +1,211 @@
+{
+	"id": 81522,
+	"accession_number": "1992.107.46",
+	"sort_number": "1992.107.46",
+	"title": "KNIT BAG (CH'USPA)*",
+	"object_name": "bag/purse",
+	"display_date": "ca. 1950",
+	"begin_iso_date": "1950",
+	"end_iso_date": "1950",
+	"medium": "wool or camelid fiber; knitting",
+	"medium_parts": ["wool or camelid fiber", "knitting"],
+	"dimensions": "10.8 x 22.8 cm (4 1/4 x 9  in.)",
+	"credit_line": "The Jeffrey Appleby Andean Textile Collection",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-25 09:38:30.847000",
+	"is_virtual": false,
+	"identifying_description": "Medium size knitted bag, one piece with two elongated sleeve-like appendages extending from bottom of bag, multicolored patterning, strap, multicolored fringe.\r\n\r\nCatalogue #206, pp. 127-128, Traditional Textiles of the Andes",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "To Honor the Ancestors, 1997",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1992-06-30",
+	"location_string": "de Young",
+	"location_building": "de Young",
+	"location_room": null,
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Knit bag (ch'uspa)*",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41147,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Quechua",
+			"AlphaSort": "Quechua",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "4 1/4 x 9 in. (10.8 x 22.8 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Urubamba",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL",
+					"term": "Perú"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAACF",
+					"term": "Ucayali"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAACF.AAAAP",
+					"term": "Urubamba"
+				}
+			]
+		},
+		{
+			"term": "Chincheros",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL",
+					"term": "Perú"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAAAE",
+					"term": "Apurimac"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAAAE.AAAAG",
+					"term": "Chincheros"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1950",
+	"doc_id": "1992.107.46",
+	"slug": "1992.107.46/knit-bag-ch-uspa",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1950,
+	"media": [
+		{
+			"media_xref_id": 94980,
+			"media_master_id": 120219,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2552,
+			"pixel_w": 1539,
+			"file_name": "7565306134070006.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Textile",
+			"specific": "knitting"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Peru",
+			"notable": "Urubamba"
+		},
+		{
+			"region": "South America",
+			"country": "Peru",
+			"notable": "Chincheros"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — knitting · Urubamba, Chincheros",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 40
+	}
+}

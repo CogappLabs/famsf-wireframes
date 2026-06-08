@@ -1,0 +1,188 @@
+{
+	"id": 129407,
+	"accession_number": "2000.204.1",
+	"sort_number": "2000.204.1",
+	"title": "MAN'S (?) CAP",
+	"object_name": "headwear",
+	"display_date": "19th–20th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "wool, goat hair (cashmere), cotton, silk; felt, appliqué, reverse appliqué, applied cordage and tassels",
+	"medium_parts": [
+		"wool, goat hair (cashmere), cotton, silk",
+		"felt, appliqué, reverse appliqué, applied cordage and tassels"
+	],
+	"dimensions": "70.5 x 26.7 cm (27 3/4 x 10 1/2 in.)",
+	"credit_line": "Gift of Thomas Murray in honor of the New deYoung",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-06 11:49:22.383000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "Textile Study Gallery drawers 9/08 -",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2000-12-31",
+	"location_string": "de Young",
+	"location_building": "de Young",
+	"location_room": null,
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Man's (?) cap",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40972,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Kyrgyz",
+			"AlphaSort": "Kyrgyz",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "27 3/4 x 10 1/2 in. (70.5 x 26.7 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Kyrgyzstan",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAASY",
+					"term": "Kyrgyzstan"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2000.204.1",
+	"slug": "2000.204.1/man-s-cap",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 110180,
+			"media_master_id": 50598,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2712,
+			"pixel_w": 1360,
+			"file_name": "2002101715130009.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "felt"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "tassel"
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		},
+		{
+			"parent": "Wool",
+			"specific": "cashmere"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Central Asia",
+			"country": "Kyrgyzstan",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , felt, tassel … · Kyrgyzstan",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 35
+	}
+}

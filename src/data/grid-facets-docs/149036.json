@@ -1,0 +1,191 @@
+{
+	"id": 149036,
+	"accession_number": "1988.2.66",
+	"sort_number": "1988.2.66",
+	"title": "RAILROAD BUILDERS, MURAL STUDY FOR RINCON ANNEX POST OFFICE",
+	"object_name": null,
+	"display_date": "1941",
+	"begin_iso_date": "1941",
+	"end_iso_date": "1941",
+	"medium": "pen and ink, graphite and tempera on gesso",
+	"medium_parts": ["pen and ink, graphite and tempera on gesso"],
+	"dimensions": "Sheet: 276 x 569 mm (10 7/8 x 22 3/8 in.)",
+	"credit_line": "Gift of Mrs. Wendell Jones",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2014-08-25 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "WPA project\r\nFederal Art Project",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1988-01-01",
+	"location_string": "Legion, 210, Compact Shelf 25, 109",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 25",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Railroad Builders, Mural Study for Rincon Annex Post Office",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 16841,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Wendell Jones",
+			"AlphaSort": "Wendell Jones",
+			"Nationality": "American",
+			"BeginDate": 1899,
+			"EndDate": 1956,
+			"DisplayDate": "1899–1956",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Wendell Jones (1899–1956)"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "10 7/8 x 22 3/8 in. (27.6 x 56.9 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "San Francisco",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT",
+					"term": "California"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AACHW",
+					"term": "San Francisco"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Wendell Jones",
+	"primary_artist_display": "Wendell Jones (1899–1956)",
+	"sort_artist": "Wendell Jones",
+	"display_year": "1941",
+	"doc_id": "1988.2.66",
+	"slug": "1988.2.66/railroad-builders-mural-study-for-rincon-annex-post-office",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1941,
+	"media": [
+		{
+			"media_xref_id": 45291,
+			"media_master_id": 88691,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1244,
+			"pixel_w": 2655,
+			"file_name": "4032202110760051.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ink",
+			"specific": ""
+		},
+		{
+			"parent": "Ink",
+			"specific": "pen"
+		},
+		{
+			"parent": "Paint",
+			"specific": "gesso"
+		},
+		{
+			"parent": "Paint",
+			"specific": "tempera"
+		},
+		{
+			"parent": "Pencil, chalk & crayon",
+			"specific": "graphite"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": "San Francisco"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , pen, gesso, tempera … · San Francisco",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

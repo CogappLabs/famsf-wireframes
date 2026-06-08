@@ -1,0 +1,652 @@
+{
+	"id": 306061,
+	"accession_number": "2024.13a-b",
+	"sort_number": "2024.13a-b",
+	"title": "THE SILENCE BETWEEN MOTHER TONGUES",
+	"object_name": null,
+	"display_date": "2022",
+	"begin_iso_date": "2022",
+	"end_iso_date": "2022",
+	"medium": "Silk, wool, cotton, mohair, rope, wood, plastic and metal",
+	"medium_parts": ["Silk, wool, cotton, mohair, rope, wood, plastic and metal"],
+	"dimensions": "92 x 55 x 12 in. (233.68 x 139.7 x 30.48 cm)",
+	"credit_line": "Museum purchase, Textile Arts Council Endowment Income Fund",
+	"department": "Costume and Textile Arts",
+	"classification": "Sculpture",
+	"copyright": "© Kira Dominguez Hultgren",
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2023-12-12 08:28:32.390000",
+	"last_modified": "2024-07-09 14:23:30.683000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": "Kira Dominguez Hultgren is a United States–based artist and educator. With a dual degree (MFA/MA) in fine arts and visual and critical studies from California College of the Arts, she creates artwork that critiques traditional understandings of material culture and interrogates her own cultural heritage, self-described as “Chicanx, Punjabi, Hawaiian.” She pushes the boundaries of weaving with dimensional sculptures that employ materials sourced from the cultures with which she identifies. In this artwork, made on a vertical loom, she utilizes silk from her grandmother’s salwar clothing, rope from her favorite climbing gym in Utah, and found wood, plastic, and other materials to question the Chicana writer and activist Cherríe Moraga’s theory of “garbled utterances” (fragmented, or even unspoken, communication). As Dominguez Hultgren describes, “So often when I speak about identity, family history, race, I feel like I’m choking up the words, caught in a tension of too many nuances, held by the fear that I know I’m doing it all wrong . . . But when telling a story through my body at the loom, through fingers, found materials, weaving . . . I can touch it, handle it, in a way that words and their definitions don’t allow.” The loom also serves as a figurative scaffold for the artist’s familial stories: “the stories that one generation had to forget and another generation had to remember; both generations weaving into one another.”",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2024-04-02",
+	"location_string": "UOVO, Livermore",
+	"location_building": "UOVO",
+	"location_room": null,
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "The Silence between Mother Tongues",
+			"title_type": "Primary Title",
+			"language": "English",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 38963,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Kira Dominguez Hultgren",
+			"AlphaSort": "Hultgren,  Kira Dominguez",
+			"Nationality": "American",
+			"BeginDate": 1980,
+			"EndDate": 0,
+			"DisplayDate": "American, born 1980",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1980"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "92 x 55 x 12 in. (233.68 x 139.7 x 30.48 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Utah",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAGQX",
+					"term": "Utah"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"term": "cotton",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAD",
+					"term": "cotton"
+				}
+			]
+		},
+		{
+			"term": "metal",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				}
+			]
+		},
+		{
+			"term": "wood",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				}
+			]
+		},
+		{
+			"term": "mohair",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
+					"term": "animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE",
+					"term": "keratinous material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB",
+					"term": "hair and hair components as materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA",
+					"term": "hair"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAB",
+					"term": "hair by form as material"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAB.AAF",
+					"term": "wool"
+				},
+				{
+					"depth": 12,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAB.AAF.AAG",
+					"term": "mohair"
+				}
+			]
+		},
+		{
+			"term": "wool",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAR",
+					"term": "wool"
+				}
+			]
+		},
+		{
+			"term": "plastic",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAB",
+					"term": "Associated Concepts Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAB.AAA",
+					"term": "Associated Concepts"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAB.AAA.AAI",
+					"term": "multidisciplinary concepts"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAB.AAA.AAI.AAL",
+					"term": "groupings"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA",
+					"term": "object groupings by general context"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB",
+					"term": "components by specific context"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ",
+					"term": "biological components"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE",
+					"term": "plastic"
+				}
+			]
+		},
+		{
+			"term": "silk",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAP",
+					"term": "silk"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Kira Dominguez Hultgren",
+	"primary_artist_display": "b. 1980",
+	"sort_artist": "Hultgren,  Kira Dominguez",
+	"display_year": "2022",
+	"doc_id": "2024.13a-b",
+	"slug": "2024.13a-b/the-silence-between-mother-tongues",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 2022,
+	"media": [
+		{
+			"media_xref_id": 218488,
+			"media_master_id": 229358,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 10,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3024,
+			"pixel_w": 4032,
+			"file_name": "Ref_306061_20240610-7.JPG",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 218487,
+			"media_master_id": 229357,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 9,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3024,
+			"pixel_w": 4032,
+			"file_name": "Ref_306061_20240610-6.JPG",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 218483,
+			"media_master_id": 229353,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 5,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3024,
+			"pixel_w": 4032,
+			"file_name": "Ref_306061_20240610-2.JPG",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 218485,
+			"media_master_id": 229355,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 7,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3024,
+			"pixel_w": 4032,
+			"file_name": "Ref_306061_20240610-4.JPG",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 218486,
+			"media_master_id": 229356,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 8,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3024,
+			"pixel_w": 4032,
+			"file_name": "Ref_306061_20240610-5.JPG",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Cotton",
+			"specific": ""
+		},
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Plastic",
+			"specific": ""
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"notable": "Utah"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , ,  … · Utah",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

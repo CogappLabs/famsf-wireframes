@@ -1,0 +1,196 @@
+{
+	"id": 305280,
+	"accession_number": "2023.94.8",
+	"sort_number": "2023.94.8",
+	"title": "MASK (ROM)",
+	"object_name": "Mask",
+	"display_date": "early 20th C",
+	"begin_iso_date": "1900",
+	"end_iso_date": "1920",
+	"medium": "Wood, tapa cloth, vegetable material, pigment",
+	"medium_parts": ["Wood, tapa cloth, vegetable material, pigment"],
+	"dimensions": "22 x 6 1/2 x 6 1/4 in. (55.88 x 16.51 x 15.875 cm)",
+	"credit_line": "Gift of the Thomas W. Weisel Family Collection",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Ceremonial & Religious Objects",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2023-10-11 13:49:36.647000",
+	"last_modified": "2025-10-30 13:33:49.580000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": "(back, bamboo post, typed on rectangular white self-adhesive label) 1726",
+	"accession_iso_date": "2023-10-10",
+	"location_string": "de Young, 061, Cabinet 023, C",
+	"location_building": "de Young",
+	"location_room": "Cabinet 023",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Mask (rom)",
+			"title_type": "Primary Title",
+			"language": "English",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40672,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Vanuatu",
+			"AlphaSort": "Vanuatu",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "22 x 6 1/2 x 6 1/4 in. (55.88 x 16.51 x 15.875 cm)",
+			"description": null,
+			"element_name": "Overall",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Ambrym",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAABY",
+					"term": "Vanuatu"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACB.AAABY.AAAAA",
+					"term": "Ambrym"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1900–20",
+	"doc_id": "2023.94.8",
+	"slug": "2023.94.8/mask-rom",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1900,
+	"media": [
+		{
+			"media_xref_id": 219337,
+			"media_master_id": 230088,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 13361,
+			"pixel_w": 10020,
+			"file_name": "MS_305280_20240719_2_Crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 219339,
+			"media_master_id": 230090,
+			"rank": 0,
+			"is_primary": false,
+			"display_order": 5,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 13741,
+			"pixel_w": 10305,
+			"file_name": "MS_305280_20240719_4.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Pigment",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "tapa cloth"
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "Vanuatu",
+			"notable": "Ambrym"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , tapa cloth,  · Ambrym",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

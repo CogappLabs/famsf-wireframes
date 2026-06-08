@@ -1,0 +1,486 @@
+{
+	"id": 186715,
+	"accession_number": "2017.75.1a-b",
+	"sort_number": "2017.75.1a-b",
+	"title": "WOMAN'S ENSEMBLE: COAT (A) AND DRESS (B)",
+	"object_name": "woman's costume",
+	"display_date": "Haute Couture Autumn/Winter 2007",
+	"begin_iso_date": "2007",
+	"end_iso_date": "2007",
+	"medium": "(a) wool, goat hair, animal fur, silk, metallic thread; felt, crochet, lace appliqué, charmeuse, couched threads; (b) wool, metal, crystal; bouclé, coins, balls and beads",
+	"medium_parts": [
+		"(a) wool, goat hair, animal fur, silk, metallic thread",
+		"felt, crochet, lace appliqué, charmeuse, couched threads",
+		"(b) wool, metal, crystal",
+		"bouclé, coins, balls and beads"
+	],
+	"dimensions": "109.2 cm (43 in.) center back length (a); 104.1 cm (41 in.) center back length (b)",
+	"credit_line": "Gift of Christine Suppes in memory of Mary Jane Johnson",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2025-04-04 12:51:12.057000",
+	"is_virtual": false,
+	"identifying_description": "Woman's cocktail ensemble: (a) white wool felt coat with low scoop neckline and gathered skirt, peplum at waist; neckline is crocheted with red, blue, and green wool tassels; lace appliqué on skirt. Multi-colored goat hair cuffs; front closure with six hidden hooks and eyes; fully lined in off white silk charmeuse; label: \"Christian Lacroix/Paris\"; (b) sleeveless scoop neck dress of heavy purple wool bouclé over boned petticoat; attached multi-layer necklace of metal coins and crystal-studded balls and beads; label: \"Christian Lacroix/Paris\"",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2017-10-26",
+	"location_string": "de Young, 059, Cabinet 37, TA",
+	"location_building": "de Young",
+	"location_room": "Cabinet 37",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Woman's ensemble: coat (a) and dress (b)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 2731,
+			"Role": "Designer",
+			"RoleID": 67,
+			"DisplayName": "Christian Lacroix",
+			"AlphaSort": "Christian Lacroix",
+			"Nationality": "French",
+			"BeginDate": 1951,
+			"EndDate": 0,
+			"DisplayDate": "b. 1951",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1951"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "41 in. (104.1 cm)",
+			"description": "center back length (b)",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "43 in. (109.2 cm)",
+			"description": "center back length (a)",
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 2
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Paris",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME",
+					"term": "Île-de-France"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AABMN",
+					"term": "Paris"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Christian Lacroix",
+	"primary_artist_display": "b. 1951",
+	"sort_artist": "Christian Lacroix",
+	"display_year": "2007",
+	"doc_id": "2017.75.1a-b",
+	"slug": "2017.75.1a-b/woman-s-ensemble-coat-a-and-dress-b",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 2007,
+	"media": [
+		{
+			"media_xref_id": 151046,
+			"media_master_id": 169452,
+			"rank": 7,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11608,
+			"pixel_w": 8708,
+			"file_name": "A409868_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151051,
+			"media_master_id": 169457,
+			"rank": 12,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11187,
+			"pixel_w": 8392,
+			"file_name": "A409868_V7.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151041,
+			"media_master_id": 169448,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11187,
+			"pixel_w": 8392,
+			"file_name": "A409868_V10.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151043,
+			"media_master_id": 169450,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11608,
+			"pixel_w": 8708,
+			"file_name": "A409868_V12.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151044,
+			"media_master_id": 169451,
+			"rank": 5,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11100,
+			"pixel_w": 8327,
+			"file_name": "A409868_V13.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151048,
+			"media_master_id": 169454,
+			"rank": 9,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11187,
+			"pixel_w": 8392,
+			"file_name": "A409868_V4.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151052,
+			"media_master_id": 169458,
+			"rank": 13,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11187,
+			"pixel_w": 8392,
+			"file_name": "A409868_V8.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 242754,
+			"media_master_id": 254806,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11100,
+			"pixel_w": 6761,
+			"file_name": "186715_20251208.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151042,
+			"media_master_id": 169449,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11608,
+			"pixel_w": 8708,
+			"file_name": "A409868_V11.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151050,
+			"media_master_id": 169456,
+			"rank": 11,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11187,
+			"pixel_w": 8392,
+			"file_name": "A409868_V6.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151053,
+			"media_master_id": 169459,
+			"rank": 14,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11187,
+			"pixel_w": 8392,
+			"file_name": "A409868_V9.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151049,
+			"media_master_id": 169455,
+			"rank": 10,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11187,
+			"pixel_w": 8392,
+			"file_name": "A409868_V5.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151040,
+			"media_master_id": 169447,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11100,
+			"pixel_w": 8327,
+			"file_name": "A409868_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151045,
+			"media_master_id": 187127,
+			"rank": 6,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11100,
+			"pixel_w": 7011,
+			"file_name": "A409868_V14.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 151047,
+			"media_master_id": 169453,
+			"rank": 8,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11187,
+			"pixel_w": 8392,
+			"file_name": "A409868_V3.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Metal",
+			"specific": ""
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "felt"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "bead"
+		},
+		{
+			"parent": "Wool",
+			"specific": ""
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "metallic thread"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"notable": "Paris"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , felt, bead … · Paris",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 44
+	}
+}

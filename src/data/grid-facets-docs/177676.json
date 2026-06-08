@@ -1,0 +1,191 @@
+{
+	"id": 177676,
+	"accession_number": "2004.106.2",
+	"sort_number": "2004.106.2",
+	"title": "BOY'S CAP (ZARDOZI TOPI)",
+	"object_name": "headwear",
+	"display_date": "ca. 1875",
+	"begin_iso_date": "1875",
+	"end_iso_date": "1875",
+	"medium": "silk, metallic thread, sequins; velvet, embroidery, trapunto; applied tassel",
+	"medium_parts": [
+		"silk, metallic thread, sequins",
+		"velvet, embroidery, trapunto",
+		"applied tassel"
+	],
+	"dimensions": "17 x 17.5 cm (6 11/16 x 6 7/8 in.)",
+	"credit_line": "Museum purchase, Textile Arts Council Endowment Fund",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-17 12:37:27.417000",
+	"is_virtual": false,
+	"identifying_description": "A navy blue velvet cap, ornately embroidered in  raised work with metallic threads and sequins, depicting horse drawn carriages, armed soilders riding elephants and shooting canons, archers, sailing ships, coats of arms, birds, deer and lions amongst a foliate scroll.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2004-10-14",
+	"location_string": "de Young, 227, Cabinet 26, TA",
+	"location_building": "de Young",
+	"location_room": "Cabinet 26",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Boy's cap (Zardozi topi)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 41281,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Parsi",
+			"AlphaSort": "Parsi",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "6 11/16 x 6 7/8 in. (17 x 17.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Mumbai",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAGT",
+					"term": "Mahārāshtra"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAGT.AACMK",
+					"term": "Mumbai"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1875",
+	"doc_id": "2004.106.2",
+	"slug": "2004.106.2/boy-s-cap-zardozi-topi",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1875,
+	"media": [
+		{
+			"media_xref_id": 124932,
+			"media_master_id": 137265,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5170,
+			"pixel_w": 4700,
+			"file_name": "3004201012230004.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "velvet"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "sequin"
+		},
+		{
+			"parent": "Yarn & thread",
+			"specific": "metallic thread"
+		}
+	],
+	"facet_technique": ["embroidery"],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "",
+			"notable": "Mumbai"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , velvet, sequin, metallic thread … · Mumbai",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 41
+	}
+}

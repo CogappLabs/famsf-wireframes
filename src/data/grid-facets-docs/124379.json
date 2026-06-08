@@ -1,0 +1,187 @@
+{
+	"id": 124379,
+	"accession_number": "2017.51.2",
+	"sort_number": "2017.51.2",
+	"title": "PLATE WITH SEATED RULER ON THRONE WITH OFFERINGS OF FOOD AND CHOCOLATE",
+	"object_name": "plate",
+	"display_date": null,
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Earthenware and pigment",
+	"medium_parts": ["Earthenware and pigment"],
+	"dimensions": "8.6 x 37.5 x 37.5 cm (3 3/8 x 14 3/4 x 14 3/4 in.)",
+	"credit_line": "Gift of Gail and J. Alec Merriam",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Vessels & Containers",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-02-12 13:29:22.230000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2017-10-26",
+	"location_string": "de Young, 061, Cabinet 038, E",
+	"location_building": "de Young",
+	"location_room": "Cabinet 038",
+	"edition": null,
+	"signed": null,
+	"inscribed": "Paper label on underside reads 95.7",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Plate with Seated Ruler on Throne with Offerings of Food and Chocolate",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 12835,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Maya",
+			"AlphaSort": "Maya",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "",
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "3 3/8 x 14 3/4 x 14 3/4 in. (8.6 x 37.5 x 37.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Guatemala",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAADU",
+					"term": "Guatemala"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Maya",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Maya",
+	"display_year": null,
+	"doc_id": "2017.51.2",
+	"slug": "2017.51.2/plate-with-seated-ruler-on-throne-with-offerings-of-food-and-chocolate",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 137785,
+			"media_master_id": 42869,
+			"rank": 4,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 675,
+			"pixel_w": 900,
+			"file_name": "1123200916090041.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 137784,
+			"media_master_id": 170690,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5945,
+			"pixel_w": 10785,
+			"file_name": "A389518_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ceramic",
+			"specific": "earthenware"
+		},
+		{
+			"parent": "Pigment",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Central America",
+			"country": "Guatemala",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — earthenware,  · Guatemala",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 37
+	}
+}

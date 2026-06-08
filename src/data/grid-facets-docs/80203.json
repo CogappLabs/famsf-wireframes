@@ -1,0 +1,312 @@
+{
+	"id": 80203,
+	"accession_number": "1983.2.12",
+	"sort_number": "1983.2.12",
+	"title": "ACROBATS PERFORMING ON A TIGHTROPE FOR A WOMEN'S DANCING PARTY, A PAGE FROM THE LADY COOTE ALBUM",
+	"object_name": "Art/Music/Dance Theater/Entertainment Genre Architecture Landscape",
+	"display_date": "ca. 1780",
+	"begin_iso_date": "1780",
+	"end_iso_date": "1780",
+	"medium": "ink, watercolor, and gold on paper mounted on an album page",
+	"medium_parts": [
+		"ink, watercolor, and gold on paper mounted on an album page"
+	],
+	"dimensions": "Album page: 444 x 607 mm (17 1/2 x 23 7/8 in.); Sheet: 255 x 376 mm (10 1/16 x 14 13/16 in.)",
+	"credit_line": "Gift of Dr. and Mrs. William K. Ehrenfeld",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2018-09-07 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "two tightrope walkers performing on a rope strung between two buildings of a palace, women observing from the balconies and the ground, musicians in the  central garden,  distant garden views\r\nInk, transparent and opaque watercolor, and gold on paper mounted on an album page with elaborately ornamented borders in ink, transparent and opaque watercolor, and gold",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "CPLH, Recent Acquisitions of tjhe AFGA, 1982-1983, Part I, 1500-1940, 12 Jan - 17 March 1985.\r\nCPLH, 20 years of collecting: Director's Choice, 7 March - 14 June 1987.\r\nCPLH, Treasures, 11 Nov 1995 - 3 March 1996, cat. # 226.\r\nMills College, Oakland, Ca., The Image of Women in Indian Art, 16 Sept - 15 Nov 1985.\r\nLACMA, Los Angeles, CA, Captured Hearts: The Lure of Courtly Lucknow, Dec 5, 2010 - March 6, 2011; Musee National des Arts Asiatiques-Guimet, April 3 - July 18, 2011.",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1983-01-01",
+	"location_string": "Legion, 210, Compact Shelf 36, 102",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 36",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Acrobats Performing on a Tightrope for a Women's Dancing Party, a page from the Lady Coote Album",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 2281,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Anonymous",
+			"AlphaSort": "Anonymous",
+			"Nationality": "Indian",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "Indian or Persian",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		},
+		{
+			"ConstituentID": 12534,
+			"Role": "Attributed to",
+			"RoleID": 72,
+			"DisplayName": "Mihr Chand",
+			"AlphaSort": "Mihr Chand",
+			"Nationality": "Indian",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "active 18th–19th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "17 1/2 x 23 7/8 in. (44.4 x 60.7 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Album Page (4D)",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "10 1/16 x 14 13/16 in. (25.5 x 37.6 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 2
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Mughal Empire",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
+					"term": "Mughal Empire"
+				}
+			]
+		},
+		{
+			"term": "Lucknow",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAJV",
+					"term": "Uttar Pradesh"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAJV.AAGGC",
+					"term": "Lucknow"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": [
+		{
+			"term": "Lucknow",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAF",
+					"term": "Asian"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE",
+					"term": "South Asian"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF",
+					"term": "Indian"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF.AAP",
+					"term": "Indian painting styles"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF.AAP.AAC",
+					"term": "Oudh"
+				}
+			]
+		}
+	],
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Anonymous",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Anonymous",
+	"display_year": "1780",
+	"doc_id": "1983.2.12",
+	"slug": "1983.2.12/acrobats-performing-on-a-tightrope-for-a-women-s-dancing-party-a-page-from-the-lady-coote-album",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1780,
+	"media": [
+		{
+			"media_xref_id": 71815,
+			"media_master_id": 169928,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 8397,
+			"pixel_w": 10081,
+			"file_name": "A027378_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Gold & silver",
+			"specific": "gold"
+		},
+		{
+			"parent": "Ink",
+			"specific": ""
+		},
+		{
+			"parent": "Paint",
+			"specific": "watercolor"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "South Asia",
+			"country": "",
+			"notable": "Mughal Empire"
+		},
+		{
+			"region": "East Asia",
+			"country": "",
+			"notable": "Lucknow"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — gold, , watercolor · Mughal Empire, Lucknow",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 46
+	}
+}

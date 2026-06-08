@@ -1,0 +1,329 @@
+{
+	"id": 110626,
+	"accession_number": "1975.4.3",
+	"sort_number": "1975.4.3",
+	"title": "CARPET",
+	"object_name": "rug",
+	"display_date": "17th century",
+	"begin_iso_date": "1600",
+	"end_iso_date": "1699",
+	"medium": "Wool; knotted pile (asymmetric knot, open left, warp depression)",
+	"medium_parts": [
+		"Wool",
+		"knotted pile (asymmetric knot, open left, warp depression)"
+	],
+	"dimensions": "381 x 226.1 cm (150 x 89 in.)",
+	"credit_line": "Gift of Mr. and Mrs. Robert F. Gill through the Patrons of Art and Music",
+	"department": "Costume and Textile Arts",
+	"classification": "Furnishing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-06 11:30:51.373000",
+	"is_virtual": false,
+	"identifying_description": "Large carpet with large central medallion and quarter medallions on a red field.  Each medallion and quarter medallion is edged with an ornamental border that appears to derive from Chinese cloud motifs.  Split-leaf motifs (rumi) in the field. Colors (10): red. orange, mustard yellow, dark purple, bright dark blue, medium blue, dark green, medium green, dyed brown, white. Wefts are dark red wool.  Selvedges are original.  One end (about 12-18\") is completely rewoven.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Daniel Cowan Jackling, Woodside, CA",
+	"label_text": null,
+	"accession_iso_date": "1975-01-15",
+	"location_string": "de Young, 059, Cabinet 37, D",
+	"location_building": "de Young",
+	"location_room": "Cabinet 37",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Carpet",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40819,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"DisplayName": "Kurdish",
+			"AlphaSort": "Kurdish",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "150 x 89 in. (381 x 226.1 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Īrān",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQH",
+					"term": "Īrān"
+				}
+			]
+		},
+		{
+			"term": "Persia",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAADV",
+					"term": "Persia"
+				}
+			]
+		},
+		{
+			"term": "Bijar",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAN.AAABQ",
+					"term": "Kordestān"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAN.AAABQ.AAAAB",
+					"term": "Bījār"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "1600–99",
+	"doc_id": "1975.4.3",
+	"slug": "1975.4.3/carpet",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1600,
+	"media": [
+		{
+			"media_xref_id": 206043,
+			"media_master_id": 213463,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 5,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 12845,
+			"pixel_w": 8143,
+			"file_name": "MS_110626_20230706_2_DetailLocationGuide.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 92348,
+			"media_master_id": 14755,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3600,
+			"pixel_w": 2305,
+			"file_name": "0120201014130001.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 92347,
+			"media_master_id": 163458,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5577,
+			"pixel_w": 4518,
+			"file_name": "A324102_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 206036,
+			"media_master_id": 213456,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 12835,
+			"pixel_w": 8299,
+			"file_name": "MS_110626_20230706_1_Crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 206046,
+			"media_master_id": 213466,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 8,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 14154,
+			"pixel_w": 10339,
+			"file_name": "MS_110626_20230706_5.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Middle East",
+			"country": "Iran",
+			"notable": "Īrān"
+		},
+		{
+			"region": "Middle East",
+			"country": "Persia",
+			"notable": ""
+		},
+		{
+			"region": "East Asia",
+			"country": "",
+			"notable": "Bijar"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice —  · Īrān, Persia, Bijar",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

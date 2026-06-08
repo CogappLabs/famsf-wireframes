@@ -1,0 +1,253 @@
+{
+	"id": 155902,
+	"accession_number": "1997.135a-b",
+	"sort_number": "1997.135a-b",
+	"title": null,
+	"object_name": "Offering vessel",
+	"display_date": "400–550",
+	"begin_iso_date": "400",
+	"end_iso_date": "550",
+	"medium": "Earthenware",
+	"medium_parts": ["Earthenware"],
+	"dimensions": "28.3 x 36.8 x 23.5 cm (11 1/8 x 14 1/2 x 9 1/4 in.)",
+	"credit_line": "Museum purchase, AOA Art Trust Fund and Unrestricted AOA Trust Fund",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Ceremonial & Religious Objects",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-02-12 13:23:32.107000",
+	"is_virtual": false,
+	"identifying_description": "Offering vessel in the shape of a ballplayer",
+	"web_text": "The Mesoamerican ballgame was a sport and religious ritual in which players tried to keep a hard rubber ball aloft without using their hands. The game reenacts the story of the Maize God, who is decapitated after losing a match to the Lords of the Underworld. His sons, the Hero Twins, travel to the Underworld, defeat the Lords at the ballgame, and return their father’s head so he can live anew—an allegory for the yearly rebirth of maize. Ball players were great athletes. They wore protective padding and, in artworks, are often depicted in contorted poses, lunging for the ball. This offering vessel is the form of a ball player. He lays on his side, one arm resting on his chest, the other raised in salute or supplication. He wears the signature protective gear of a ball player: a forearm cover, a leather yoke around the waist, and a hard knee pad, here in the form of the storm god Chaac. However the player is missing his other regalia -- ear ornaments and a headdress -- raising the question of whether this figure depicts a defeated player or if it has lost its original accoutrements.",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "ex collection of William Palmer III",
+	"label_text": null,
+	"accession_iso_date": "1997-12-11",
+	"location_string": "de Young, Display, Gallery 002, Wall Case 2",
+	"location_building": "de Young",
+	"location_room": "Gallery 002",
+	"edition": null,
+	"signed": null,
+	"inscribed": "accession number on interior of vessel rim and lid",
+	"markings": null,
+	"titles": null,
+	"constituents": [
+		{
+			"ConstituentID": 12835,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Maya",
+			"AlphaSort": "Maya",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "",
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "11 1/8 x 14 1/2 x 9 1/4 in. (28.3 x 36.8 x 23.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": false,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Guatemala",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAADU",
+					"term": "Guatemala"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Escuintla",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAFF",
+					"term": "Mexican Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAJ",
+					"term": "Escuintla"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Maya",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Maya",
+	"display_year": "400–550",
+	"doc_id": "1997.135a-b",
+	"slug": "1997.135a-b",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 400,
+	"media": [
+		{
+			"media_xref_id": 102687,
+			"media_master_id": 16657,
+			"rank": 3,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 811,
+			"pixel_w": 1080,
+			"file_name": "0212200811210002.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 102685,
+			"media_master_id": 166272,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5428,
+			"pixel_w": 7230,
+			"file_name": "A314846_V1.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 102686,
+			"media_master_id": 166343,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 5428,
+			"pixel_w": 7230,
+			"file_name": "A314846_V2.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ceramic",
+			"specific": "earthenware"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Central America",
+			"country": "Guatemala",
+			"notable": ""
+		},
+		{
+			"region": "North America",
+			"country": "North and Central America",
+			"notable": "Escuintla"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — earthenware · Guatemala, Escuintla",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 46
+	}
+}

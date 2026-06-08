@@ -1,0 +1,197 @@
+{
+	"id": 301866,
+	"accession_number": "2021.93a-h",
+	"sort_number": "2021.93a-h",
+	"title": "WEDDING ENSEMBLE: DRESS (A), TRAIN (B), VEIL (C), SLIP (D), GARTERS (E,F), FAN (G), AND HANGER (H)",
+	"object_name": "woman's costume",
+	"display_date": "1926",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "silk charmeuse, beads, tulle (a); silk charmeuse, beads, tulle, artificial orange blossoms (b); silk tulle, artificial orange blossoms, wire (c); silk, silk chiffon, silk tulle (d); silk satin, lace, artificial orange blossoms (e,f); ivory, feathers (g); silk, tulle, artificial orange blossoms (h)",
+	"medium_parts": [
+		"silk charmeuse, beads, tulle (a)",
+		"silk charmeuse, beads, tulle, artificial orange blossoms (b)",
+		"silk tulle, artificial orange blossoms, wire (c)",
+		"silk, silk chiffon, silk tulle (d)",
+		"silk satin, lace, artificial orange blossoms (e,f)",
+		"ivory, feathers (g)",
+		"silk, tulle, artificial orange blossoms (h)"
+	],
+	"dimensions": "101.6 cm (40 in.) center back length (a); 83.8 cm (33 in.) center back length (d); 44.5 cm (17 1/2 in.) length (g)",
+	"credit_line": "Gift of Frances Dinkelspiel in memory of Florence Hellman Dinkelspiel",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2022-02-03 23:28:58.550000",
+	"last_modified": "2023-01-26 12:02:37.240000",
+	"is_virtual": false,
+	"identifying_description": "Woman’s wedding ensemble comprised of: (a) ivory silk charmeuse dress with bateau neckline and long sleeves tapered to wrists, secured by five silk charmeuses-covered buttons each, and full knee-length skirt, accented along collar and at cuffs with white and ivory beading, with beaded silk tulle insertions at waist, forming tassels over skirt; (b) ivory silk charmeuse cathedral-length train with tulle and beaded edging, culminating in elaborately beaded hem decorated with artificial orange blossoms; (c) cathedral-length silk tulle veil with crown of artificial orange blossoms secured by wire; (d) ivory silk plain weave slip with chiffon skirt and sheer tulle shoulders, secured by hook-and-eye closured at back; (e, f) silk satin and lace garters, in ivory and blue, with artificial orange blossoms; (g) carved ivory and feather fan; (h) hanger in ivory silk and tulle with artificial orange blossoms and heart-shaped sachet.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "2021-12-07",
+	"location_string": "de Young, 059, Cabinet 53, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 53",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Wedding ensemble: dress (a), train (b), veil (c), slip (d), garters (e,f), fan (g), and hanger (h)",
+			"title_type": "Primary Title",
+			"language": null,
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 8795,
+			"Role": "Attributed to",
+			"RoleID": 72,
+			"DisplayName": "Jeanne Lanvin",
+			"AlphaSort": "Lanvin,  Jeanne",
+			"Nationality": "French",
+			"BeginDate": 1867,
+			"EndDate": 1946,
+			"DisplayDate": "1867–1946",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Jeanne Lanvin (1867–1946)"
+		}
+	],
+	"dimensions_structured": null,
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "France",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": null,
+	"doc_id": "2021.93a-h",
+	"slug": "2021.93a-h/wedding-ensemble-dress-a-train-b-veil-c-slip-d-garters-e-f-fan-g-and-hanger-h",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 156404,
+			"media_master_id": 195284,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2880,
+			"pixel_w": 3951,
+			"file_name": "A416226.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Ivory",
+			"specific": ""
+		},
+		{
+			"parent": "Lace",
+			"specific": ""
+		},
+		{
+			"parent": "Metal",
+			"specific": "wire"
+		},
+		{
+			"parent": "Silk",
+			"specific": ""
+		},
+		{
+			"parent": "Textile",
+			"specific": "silk chiffon"
+		},
+		{
+			"parent": "Textile",
+			"specific": "silk satin"
+		},
+		{
+			"parent": "Textile",
+			"specific": "silk tulle"
+		},
+		{
+			"parent": "Textile",
+			"specific": "tulle"
+		},
+		{
+			"parent": "Trimmings",
+			"specific": "bead"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — , , wire,  … · France",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 35
+	}
+}

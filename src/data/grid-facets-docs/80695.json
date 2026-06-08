@@ -1,0 +1,317 @@
+{
+	"id": 80695,
+	"accession_number": "1982.2.85",
+	"sort_number": "1982.2.85",
+	"title": "RADHA AND KRISHNA WALK TO A TRYST",
+	"object_name": "Religious Myth/Legend Genre Botanical Bird Landscape",
+	"display_date": "ca. 1790–1800",
+	"begin_iso_date": "1790",
+	"end_iso_date": "1800",
+	"medium": "Opaque watercolor and gold on paper mounted to a decorated album page with text on verso",
+	"medium_parts": [
+		"Opaque watercolor and gold on paper mounted to a decorated album page with text on verso"
+	],
+	"dimensions": "243 x 185 mm (9 9/16 x 7 5/16 in.)",
+	"credit_line": "Gift of Dr. and  Mrs. William K. Ehrenfeld",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Drawing",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2015-07-20 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "Krishna (blue face) and  Radha walking at night  in garden  with trees, meadow, water,herons, and lotus blossoms,. dark shawl over couple's shoulders also protects Radha's dark skinned maid . woman in black robe watching from trees in foreground.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "Newport Harbor Art Museum (also Arizona State University, Tempe, Colorado Springs Fine Arts Center, Los Angeles County Museum of Art, Art Galleries, University of California, Santa Barbara, de Saisset Art Gallery and Museum, University of Santa Clara, AFGA): The Flute and the Brush: Indian  Paintings from the William  Theo Brown and Paul Wonner Collection.. 1976-1977, exh. cat. by Pratapaditaya Pal, cat.  no. 35, repr., as Deccan style, Hyderabad School..\r\nCPLH, Recent Acquisitions of the AFGA, 1981 - 1982, Part One: 1500 - 1940, 26 Feb - 8 May 1983.",
+	"bibliography_text": null,
+	"provenance": "Provenance: William Theo Brown and Paul Wonner; Collection; Dr. and Mrs. William K. Ehrenfeld (after 1976);\r\nNotes from file and mat: \r\nFormer attribution in AFGA records and from prior owners: Deccan, Hyderabad School.(see  excerpts from Flute and the Brush  catalogue on mat and in file);\r\nRobert Skelton, Keeper of Indian Art, Victoria and Albert Museum, London (note on mat, dated 10/1/85):“ Not Hyderabad style. Pure Mughal c. 1790-1800. From either Lucknow (Oudh) or Delhi.”;\r\nExhibitions: \r\nNewport Harbor Art Museum (also Arizona State University, Tempe, Colorado Springs Fine Arts Center, Los Angeles County Museum of Art, Art Galleries, University of California, Santa Barbara, de Saisset Art Gallery and Museum, University of Santa Clara, AFGA): The Flute and the Brush: Indian  Paintings from the William  Theo Brown and Paul Wonner Collection.. 1976-1977, exh. cat. by Pratapaditaya Pal, cat.  no. 35, repr., as Deccan style, Hyderabad School.;",
+	"label_text": null,
+	"accession_iso_date": "1982-01-01",
+	"location_string": "Legion, 210, Compact Shelf 23, 210",
+	"location_building": "Legion",
+	"location_room": "Compact Shelf 23",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Radha and Krishna Walk to a Tryst",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 2281,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Anonymous",
+			"AlphaSort": "Anonymous",
+			"Nationality": "Indian",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "Indian or Persian",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "9 9/16 x 7 5/16 in. (24.3 x 18.5 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Delhi",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAADJ",
+					"term": "Delhi"
+				}
+			]
+		},
+		{
+			"term": "Mughal Empire",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
+					"term": "Mughal Empire"
+				}
+			]
+		},
+		{
+			"term": "Lucknow",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAJV",
+					"term": "Uttar Pradesh"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAJV.AAGGC",
+					"term": "Lucknow"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": [
+		{
+			"term": "Lucknow",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAF",
+					"term": "Asian"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE",
+					"term": "South Asian"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF",
+					"term": "Indian"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF.AAP",
+					"term": "Indian painting styles"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAD.AAA.AAB.AAF.AAE.AAF.AAP.AAC",
+					"term": "Oudh"
+				}
+			]
+		}
+	],
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Anonymous",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Anonymous",
+	"display_year": "1790–1800",
+	"doc_id": "1982.2.85",
+	"slug": "1982.2.85/radha-and-krishna-walk-to-a-tryst",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1790,
+	"media": [
+		{
+			"media_xref_id": 20105,
+			"media_master_id": 97975,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 2354,
+			"pixel_w": 1765,
+			"file_name": "4359202410710060.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Gold & silver",
+			"specific": "gold"
+		},
+		{
+			"parent": "Paint",
+			"specific": "opaque watercolor"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "",
+			"notable": "Delhi"
+		},
+		{
+			"region": "South Asia",
+			"country": "",
+			"notable": "Mughal Empire"
+		},
+		{
+			"region": "East Asia",
+			"country": "",
+			"notable": "Lucknow"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — gold, opaque watercolor · Delhi, Mughal Empire, Lucknow",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 47
+	}
+}

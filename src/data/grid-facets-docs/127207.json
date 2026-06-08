@@ -1,0 +1,209 @@
+{
+	"id": 127207,
+	"accession_number": "1993.61.1",
+	"sort_number": "1993.61.1",
+	"title": "UNTITLED (FROG), FIRST PLATE IN THE PORTFOLIO OF THE BOOK, KO-KOI, NOANAMÁ (SAN DIEGO: TUHANA PRESS, 1991)",
+	"object_name": null,
+	"display_date": "1990",
+	"begin_iso_date": "1990",
+	"end_iso_date": "1990",
+	"medium": "Color etching and aquatint on black paper",
+	"medium_parts": ["Color etching and aquatint on black paper"],
+	"dimensions": "9.5 x 9.8 cm (image); 24 x 16.2 cm (sheet)",
+	"credit_line": "Gift of the artist through the Artist Book Council",
+	"department": "Achenbach Foundation for Graphic Arts",
+	"classification": "Print",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2014-04-14 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": "frog",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"accession_iso_date": "1993-12-31",
+	"location_string": "Legion, 253, Shelf 08, 08A",
+	"location_building": "Legion",
+	"location_room": "Shelf 08",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Untitled (frog), first plate in the portfolio of the book, Ko-Koi, Noanamá (San Diego: Tuhana Press, 1991)",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 13338,
+			"Role": "Author",
+			"RoleID": 47,
+			"DisplayName": "Magda Santonastasio",
+			"AlphaSort": "Magda Santonastasio",
+			"Nationality": "Costa Rican",
+			"BeginDate": 1937,
+			"EndDate": 0,
+			"DisplayDate": "b. 1937",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1937"
+		},
+		{
+			"ConstituentID": 7637,
+			"Role": "Publisher",
+			"RoleID": 39,
+			"DisplayName": "Tuhana Press",
+			"AlphaSort": "Tuhana Press",
+			"Nationality": "American",
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": "active 20th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "3 3/4 x 3 7/8 in. (9.5 x 9.8 cm)",
+			"description": null,
+			"element_name": "Image",
+			"displayed": true,
+			"rank": 1
+		},
+		{
+			"display_dimensions": "9 7/16 x 6 3/8 in. (24 x 16.2 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Sheet (4D)",
+			"displayed": true,
+			"rank": 2
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is copyrighted",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": null,
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": [
+		{
+			"term": "Costa Rica",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAACC",
+					"term": "Costa Rica"
+				}
+			]
+		}
+	],
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Magda Santonastasio",
+	"primary_artist_display": "b. 1937",
+	"sort_artist": "Magda Santonastasio",
+	"display_year": "1990",
+	"doc_id": "1993.61.1",
+	"slug": "1993.61.1/untitled-frog-first-plate-in-the-portfolio-of-the-book-ko-koi-noanama-san-diego-tuhana-press-1991",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 1990,
+	"media": [
+		{
+			"media_xref_id": 73348,
+			"media_master_id": 93676,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1910,
+			"pixel_w": 1795,
+			"file_name": "4159201102110078.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [],
+	"facet_technique": ["aquatint", "etching"],
+	"facet_place": [
+		{
+			"region": "Central America",
+			"country": "Costa Rica",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — aquatint, etching · Costa Rica",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

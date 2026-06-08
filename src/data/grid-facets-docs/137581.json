@@ -1,0 +1,280 @@
+{
+	"id": 137581,
+	"accession_number": "2005.180.14",
+	"sort_number": "2005.180.14",
+	"title": "SEATED FEMALE FIGURE",
+	"object_name": null,
+	"display_date": "C–14 dating: 1660–1890 (95.4% probability)",
+	"begin_iso_date": "1660",
+	"end_iso_date": "1890",
+	"medium": "Wood, pigment, sago fiber tassels",
+	"medium_parts": ["Wood, pigment, sago fiber tassels"],
+	"dimensions": "73 x 13 x 17 cm (28 3/4 x 5 1/8 x 6 11/16 in.)",
+	"credit_line": "Gift of Marcia and John Friede",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Sculpture",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-04-06 12:09:09.010000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "\"Collected in 1907 or 1913 by A.J. Gooszen during the first military exploration of southwest New Guinea. Rijksmuseum voor Volkenkunde, Leiden (1971-987); Serge Brignoni Collection, Bern, Switzerland.\" (Catalog #517, New Guinea Art: Masterpieces from the Jolika Collection of Marcia and John Friede, 2005, Volume 2, p. 175.)",
+	"label_text": null,
+	"accession_iso_date": "2005-02-23",
+	"location_string": "de Young, Display, Gallery 030, Wall Case 1",
+	"location_building": "de Young",
+	"location_room": "Gallery 030",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Seated female figure",
+			"title_type": "Primary Title",
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40843,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Asmat",
+			"AlphaSort": "Asmat",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "28 3/4 x 5 1/8 x 6 11/16 in. (73 x 13 x 17 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"term": "Copyright status is public domain",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"term": "Pomatsj",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI",
+					"term": "Papua"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAAFB",
+					"term": "Asmat Regency"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAAFB.AAAAB",
+					"term": "Northwest Asmat"
+				},
+				{
+					"depth": 8,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAAFB.AAAAB.AAAAA",
+					"term": "Pomatsj"
+				}
+			]
+		},
+		{
+			"term": "Unir",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI",
+					"term": "Papua"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAAFB",
+					"term": "Asmat Regency"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAAFB.AAAAB",
+					"term": "Northwest Asmat"
+				},
+				{
+					"depth": 8,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAAFB.AAAAB.AAAAB",
+					"term": "Unir"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Asmat",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Asmat",
+	"display_year": "1660–1890",
+	"doc_id": "2005.180.14",
+	"slug": "2005.180.14/seated-female-figure",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": 1660,
+	"media": [
+		{
+			"media_xref_id": 121725,
+			"media_master_id": 31034,
+			"rank": 1,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 1361,
+			"pixel_w": 1008,
+			"file_name": "0709200406050315.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 121726,
+			"media_master_id": 46352,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 3398,
+			"pixel_w": 1120,
+			"file_name": "1220200202300023.jpg",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Pigment",
+			"specific": ""
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Southeast Asia",
+			"country": "",
+			"notable": "Pomatsj"
+		},
+		{
+			"region": "Southeast Asia",
+			"country": "",
+			"notable": "Unir"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — ,  · Pomatsj, Unir",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

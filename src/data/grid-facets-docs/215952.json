@@ -1,0 +1,259 @@
+{
+	"id": 215952,
+	"accession_number": "26168",
+	"sort_number": "26168",
+	"title": "OSONIFEI (NAVIGATION SPIRIT)",
+	"object_name": "Figure",
+	"display_date": "19th century",
+	"begin_iso_date": null,
+	"end_iso_date": null,
+	"medium": "Wood, stingray spines, coconut palm leaves, barnacle, red clay, coconut fiber sennit, pigment, and lime plaster",
+	"medium_parts": [
+		"Wood, stingray spines, coconut palm leaves, barnacle, red clay, coconut fiber sennit, pigment, and lime plaster"
+	],
+	"dimensions": "16 x 2 1/2 (40.6 x 6.4 cm)",
+	"credit_line": "Museum purchase, M.H. de Young Memorial Museum",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Sculpture",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2026-01-20 15:09:39.667000",
+	"is_virtual": false,
+	"identifying_description": "Navigation figures, effigies of seafaring deities, imbued with incantations and prayers offered protection for the navigator from the inherent dangers of the ocean, such as destructive typhoons and storms with high winds and waves that could imperil their vessel.  Portable and small in scale, but with strong manaman,  cosmic force and power, the figures accompanied the navigator while at sea and were secured to the rigging or placed for safekeeping in a navigator hut located on the outrigger platform when not in use.  This rare figure originated from Namonuito Atoll in the Caroline Islands archipelago.",
+	"web_text": "For centuries, Micronesians have used canoes to ply the seas surrounding the more than six hundred islands distributed across 1,700 miles in the Western Pacific Ocean that make up the Federated States of Micronesia, an independent republic associated with the United States. Their distinctive wa, or sailing canoes, are said to be a gift from a heavenly spirit. Expert navigators relied on their knowledge of the winds and weather, ocean currents, astronomy, and the protection of osonifei, special navigation spirit effigies, as they made their voyages, some hundreds of miles in distance. Canoe voyaging in the region continues today. These figures, imbued with incantations and prayers, offered protection for the navigator from the dangers of the ocean. Portable and small but with strong manaman, or cosmic force and power to aid the mariner, osonifei were secured to the canoe’s rigging or placed for safekeeping in a navigator hut located on the outrigger platform when not in use. Fine Arts Museums of San Francisco, de Young 125 (California: Cameron + Company, 2021), p. 146, entry by Christina Hellmich.",
+	"didactic_label": "In the hands of a master navigator of the late eighteenth-early twentieth century- who had the knowledge to possess it and activate it- this effigy became a powerful spiritual ally to safeguard the navigator and his vessel while at sea.",
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Collected by Captain John Gordon Hitchfield and, his wife, Louisa, and purchased by the Park commission in 1905.",
+	"label_text": null,
+	"accession_iso_date": "1905-06-30",
+	"location_string": "de Young, 061, Cabinet 025, B",
+	"location_building": "de Young",
+	"location_room": "Cabinet 025",
+	"edition": null,
+	"signed": null,
+	"inscribed": "V II  21 on inside shell like container and on PR side of wood",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Osonifei (navigation spirit)",
+			"title_type": "Primary Title",
+			"language": "English",
+			"display_order": 1
+		},
+		{
+			"title": "Navigation spirit effigy (osonifei)",
+			"title_type": "Former Title",
+			"language": "(not assigned)",
+			"display_order": 2
+		}
+	],
+	"constituents": [
+		{
+			"ConstituentID": 40559,
+			"Role": "Artist",
+			"RoleID": 1,
+			"DisplayName": "Onoun",
+			"AlphaSort": "Onoun",
+			"Nationality": null,
+			"BeginDate": 0,
+			"EndDate": 0,
+			"DisplayDate": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 0"
+		}
+	],
+	"dimensions_structured": [
+		{
+			"display_dimensions": "16 x 2 1/2 in. (40.6 x 6.4 cm)",
+			"description": null,
+			"element_name": "x_Do not use_Overall (4D)",
+			"displayed": true,
+			"rank": 1
+		}
+	],
+	"associations": [],
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"term": "Ulul",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAABB",
+					"term": "Micronesia"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA",
+					"term": "Chuuk"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA.AAABG",
+					"term": "Ulul"
+				}
+			]
+		},
+		{
+			"term": "Namonuito",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAABB",
+					"term": "Micronesia"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA",
+					"term": "Chuuk"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA.AAAAM",
+					"term": "Namonuito"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Onoun",
+	"primary_artist_display": "b. 0",
+	"sort_artist": "Onoun",
+	"display_year": null,
+	"doc_id": "26168",
+	"slug": "26168/osonifei-navigation-spirit",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"sort_year": null,
+	"media": [
+		{
+			"media_xref_id": 156053,
+			"media_master_id": 194933,
+			"rank": 0,
+			"is_primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11608,
+			"pixel_w": 7893,
+			"file_name": "A307362_V2_crop.tif",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 83059,
+			"media_master_id": 172397,
+			"rank": 1,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 9046,
+			"pixel_w": 7007,
+			"file_name": "A307362_V1.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		},
+		{
+			"media_xref_id": 83060,
+			"media_master_id": 177536,
+			"rank": 2,
+			"is_primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"pixel_h": 11608,
+			"pixel_w": 8708,
+			"file_name": "A307362_V2.TIF",
+			"iiif_url": null,
+			"thumbnail_url": null,
+			"iiif_info_url": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_iiif_info_url": null,
+	"has_iiif": false,
+	"facet_material": [
+		{
+			"parent": "Pigment",
+			"specific": ""
+		},
+		{
+			"parent": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "",
+			"notable": "Ulul"
+		},
+		{
+			"region": "Oceania",
+			"country": "",
+			"notable": "Namonuito"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — ,  · Ulul, Namonuito",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 42
+	}
+}
