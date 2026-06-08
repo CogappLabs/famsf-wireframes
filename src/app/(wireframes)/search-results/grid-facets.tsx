@@ -398,7 +398,8 @@ function DateHistogram({
 				<p className="font-mono text-meta text-gray-500">
 					Drag across the bars, or type a year range below.
 				</p>
-				{/* biome-ignore lint/a11y/noStaticElementInteractions: pointer drag is an enhancement; bars are real <button>s and the inputs give the keyboard/SR path */}
+				{/* Pointer drag is an enhancement; bars are real <button>s and
+				    the From/To inputs give the keyboard / screen-reader path. */}
 				<div
 					className="flex h-32 items-end gap-px"
 					onPointerLeave={() => {
