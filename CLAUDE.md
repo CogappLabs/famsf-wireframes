@@ -86,23 +86,37 @@ Current variations:
     pipeline data** (a ~600-object slice in `src/data/grid-facets-docs/`, see
     below). Both render a left facet column instead of the horizontal bar,
     sharing the same `GridFacetsView` (a `layout` prop switches inline vs
-    modal). Facets:
+    modal). Facets, top to bottom:
+    - **Artist** — flat list off `primary_artist` (8-cap + search-within).
     - **Place** — expandable tree (region → country → notable place, per the
       REGION_REMAP workbook). Each row: ▸/▾ caret expands children in place;
       a checkbox filters by that node (any tier). "Filter place…" prunes +
       auto-expands matching branches (e.g. "paris" → Europe ▾ France ▾ Paris).
+      Geography shows **all** top-level rows (no 8-cap — the one exception).
     - **Material** — same expandable tree, 2-tier (parent → specific, per the
-      Material workbook FACET_DESIGN_v2; e.g. Metal → bronze).
-    - **Technique** — flat list. **Date** — flat century buckets (oldest →
-      newest), via `objectCentury` ("7th century BCE" / "19th century").
-    - **On view** + **Has image** — toggle buttons inline under the search input.
-    `grid-facets` shows every facet expanded inline; `grid-facets-modal` shows
-    one button per facet (name + active-count badge) that opens the same
-    control in a `<dialog>`. The export collapses self-named tiers
-    (country == region, specific == parent) so no node ever shows a child
-    identical to itself. The horizontal facet bar (and its
-    medium/materials/style/movement/reign/dynasty/school/attribution/donor
-    facets, all removed) still serves every other variation.
+      Material workbook FACET_DESIGN_v2; e.g. Metal → bronze). 8-cap with
+      "Show N more" on the parents.
+    - **Technique** — flat list (8-cap).
+    - **Date** — a **year histogram** (`DateHistogram`): decade bins with the
+      empty decades dropped so equal-width bars track data density (sparse
+      ancient tail collapses, dense modern cluster gets the width). Drag across
+      the bars to pick a year range, or type into the From / To year inputs
+      (the keyboard / screen-reader path); both drive the same `{min,max}`
+      `YearRange` filter. Years come from `objectYear` (sort_year, neg = BCE).
+    - **On view** + **Has image** — toggle buttons. Inline layout: a full-width
+      row under the search. Modal layout: top of the left column.
+    Flat facets (Artist/Technique) + Material cap at 8 with "Show more"; only
+    Place (geography) shows all. `grid-facets` shows every facet expanded
+    inline; `grid-facets-modal` shows one button per facet (name + active-count
+    badge) opening the same control in a `<dialog>`. Results render in a 3-col
+    grid (`ResultsGrid columns={3}`) since the main column is narrower. The
+    active-filter chips sit inline with the "N results" count (the count row
+    reserves a min-height so it doesn't jump when the first chip appears, and
+    "Clear all" is always rendered but hidden when nothing is active). The
+    export collapses self-named tiers (country == region, specific == parent)
+    so no node ever shows a child identical to itself. The horizontal facet bar
+    (and its medium/materials/style/movement/reign/dynasty/school/attribution/
+    donor facets, all removed) still serves every other variation.
 - **Object Detail**: standard / two-column layout for provenance and exhibitions
 
 ### Scope system
@@ -264,19 +278,22 @@ separate bulk export, NOT the curated sample-docs set above:
   (added by the export, not emitted by the production pipeline yet):
   `facet_place[]` (`{region, country, notable}`, hierarchical, from the
   REGION_REMAP workbook keyed on each place term's Getty TGN `cn`),
-  `facet_material[]` and `facet_technique[]` (flat public labels from the
-  Material workbook crosswalk: raw token → `FACET_LIST.facet_value` →
-  `FACET_PUBLIC.public_label`, split by `facet_final` material/technique).
-  Typed on `CollectionDocument` + `PlaceFacet` in
-  `src/lib/collection-document.ts`.
+  `facet_material[]` (`{parent, specific}`, 2-tier, e.g. Metal → bronze)
+  and `facet_technique[]` (flat string labels). Material + technique come
+  from the Material workbook bridge: raw token → `master_v2.canonical_final`
+  + `facet_final` → joined to `FACET_DESIGN_v2` (the parent/specific design;
+  Technique rows are `level=flat`). Typed on `CollectionDocument` +
+  `PlaceFacet` / `MaterialFacet` in `src/lib/collection-document.ts`.
 
 Regenerate (one-off, not Dagster assets):
 
 1. `uv run … python scripts/pull_taxonomy_sheets.py` — pulls the live
-   curator workbooks (REGION_REMAP + Material `FACET_PUBLIC_v2` /
-   `FACET_LIST_v2`) to `src/data/taxonomy-tsv/` via **cogapp-sheets**
-   (ADC-authed; run `gcloud auth application-default login` first). Sheet
-   IDs are in the script; tab names confirmed at runtime.
+   curator workbooks (REGION_REMAP + Material `master_v2` /
+   `FACET_DESIGN_v2` / `FACET_PUBLIC_v2`) to `src/data/taxonomy-tsv/` via
+   **cogapp-sheets** (ADC-authed; run `gcloud auth application-default login`
+   first). Sheet IDs are in the script; tab names confirmed at runtime.
+   NB: `pull_to_tsv` caps at ~9999 rows, so the long tail of rare `master_v2`
+   tokens is dropped (high-frequency tokens, sorted first, are kept).
 2. `uv run --no-project python scripts/export_grid_facets_docs.py` —
    reads the parquet + the TSV crosswalks, derives the three facets, and
    writes the balanced slice. `TARGET` / `PER_REGION_CAP` cap the output.
