@@ -29,6 +29,9 @@ export default function WireframeLayout({
 	const pathname = usePathname();
 	const pageId = pathname.replace(/^\//, "").split("/")[0];
 	const page = pages.find((p) => p.id === pageId);
+	// Prototype pages live at /prototypes/<id> but are listed on the
+	// main index, so the back-link always returns to "/".
+	const inPrototypes = pageId === "prototypes";
 
 	return (
 		<>
@@ -51,6 +54,10 @@ export default function WireframeLayout({
 							{isPageMvp(page.id) && <MvpBadge />}
 							<StatusBadge status={page.status} />
 						</>
+					) : inPrototypes ? (
+						<span className="border border-purple-400 px-2 py-0.5 font-mono text-label tracking-[0.08em] text-purple-600">
+							{t("nav.prototype")}
+						</span>
 					) : (
 						<span className="font-mono text-label text-gray-500">
 							{t("nav.wireframe")}

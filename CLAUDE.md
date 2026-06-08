@@ -185,7 +185,7 @@ All Discovery-phase outputs from FAMSF, kept under `docs/`. They drive the wiref
 - `npm run lint` — Biome check
 - `npm run lint:fix` — Biome auto-fix
 - `npm run typecheck` — TypeScript type check
-- `npm run sync:samples` — pull fresh sample JSONs from the sibling `collection-flow-famsf/output/sample_docs/` dir
+- `npm run sync:samples` — pull fresh sample JSONs from the sibling `collection-flow-famsf-spike/output/sample_docs/` dir
 
 ## Sample objects (real ETL data)
 

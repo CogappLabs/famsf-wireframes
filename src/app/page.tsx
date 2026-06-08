@@ -6,8 +6,11 @@ import { MvpBadge, StatusBadge } from "@/components/wireframe/StatusBadge";
 import {
 	CATEGORY_LABELS,
 	CATEGORY_ORDER,
+	MATURITY_LABELS,
+	MATURITY_STYLES,
 	type PageCategory,
 	pages,
+	prototypes,
 	type WireframePage,
 } from "@/lib/data";
 import { isPageMvp } from "@/lib/scope";
@@ -107,6 +110,45 @@ export default function WireframeIndex() {
 					);
 				})}
 			</div>
+
+			{prototypes.length > 0 && (
+				<div className="mt-16 border-t border-gray-200 pt-10">
+					<h2 className="mb-1 font-mono text-label tracking-[0.08em] text-purple-500">
+						{t("index.prototypesHeading")}
+					</h2>
+					<p className="mb-3 font-mono text-meta text-gray-400">
+						{t("index.prototypesSubtitle")}
+					</p>
+					<div className="flex flex-col gap-3">
+						{prototypes.map((proto) => (
+							<Link
+								key={proto.id}
+								href={`/prototypes/${proto.id}`}
+								className="flex items-center justify-between border border-gray-300 px-5 py-4 text-left transition-colors hover:border-purple-400 hover:bg-purple-50/40"
+							>
+								<div>
+									<span className="font-mono text-card font-medium">
+										{proto.title}
+									</span>
+									<span className="mt-1 block font-mono text-meta text-gray-500">
+										{proto.description}
+									</span>
+								</div>
+								<div className="flex shrink-0 items-center gap-2">
+									<span
+										className={`border px-2 py-0.5 font-mono text-label tracking-[0.08em] ${MATURITY_STYLES[proto.maturity]}`}
+									>
+										{MATURITY_LABELS[proto.maturity]}
+									</span>
+									<span className="font-mono text-meta text-gray-500">
+										&rarr;
+									</span>
+								</div>
+							</Link>
+						))}
+					</div>
+				</div>
+			)}
 		</div>
 	);
 }

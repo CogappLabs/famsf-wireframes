@@ -21,6 +21,7 @@ import {
 	ScaleDiagram,
 	VisuallySimilarGrid,
 } from "@/components/wireframe/object-detail";
+import TomatoEasterEgg from "@/components/wireframe/TomatoEasterEgg";
 import { allMedia, iiifImageUrl } from "@/lib/collection-document";
 import { constituentSlugById } from "@/lib/constituent-samples-registry";
 import {
@@ -310,6 +311,7 @@ export default async function SampleObjectPage({ params }: Props) {
 
 	return (
 		<ScopePage id="objects/sample">
+			<TomatoEasterEgg />
 			<div className="min-h-screen bg-white">
 				{/* Breadcrumb */}
 				<Container className="border-b border-gray-200 py-2">
@@ -365,11 +367,13 @@ export default async function SampleObjectPage({ params }: Props) {
 							{hasAnyImage && visibleMedia.length === 1 && (
 								/* Single image: preserve existing single-image layout */
 								<div className="border border-gray-300">
-									<ImagePlaceholder
-										aspect="4/3"
-										label={`[IIIF image: media_master_id ${visibleMedia[0].media_master_id}]`}
-										className="border-0"
-									/>
+									<div data-splattable data-splat-id="img-0">
+										<ImagePlaceholder
+											aspect="4/3"
+											label={`[IIIF image: media_master_id ${visibleMedia[0].media_master_id}]`}
+											className="border-0"
+										/>
+									</div>
 									{(visibleMedia[0].media_view ||
 										visibleMedia[0].public_caption ||
 										visibleMedia[0].photographer ||
@@ -446,11 +450,13 @@ export default async function SampleObjectPage({ params }: Props) {
 														className="min-w-full border border-gray-300"
 														style={{ scrollSnapAlign: "start" }}
 													>
-														<ImagePlaceholder
-															aspect="4/3"
-															label={`[IIIF image ${i + 1} of ${visibleMedia.length}: media_master_id ${item.media_master_id}]`}
-															className="border-0"
-														/>
+														<div data-splattable data-splat-id={`img-${i}`}>
+															<ImagePlaceholder
+																aspect="4/3"
+																label={`[IIIF image ${i + 1} of ${visibleMedia.length}: media_master_id ${item.media_master_id}]`}
+																className="border-0"
+															/>
+														</div>
 														<div className="border-t border-gray-200 px-3 py-2">
 															<p className="font-mono text-label tracking-wide text-gray-500">
 																Image {i + 1} of {visibleMedia.length}

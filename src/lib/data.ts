@@ -259,6 +259,56 @@ export const pages: WireframePage[] = [
 	},
 ];
 
+// ── Prototypes registry ──────────────────────────────────────────────
+//
+// Net-new, experimental feature ideas + rough prototypes from
+// rapid-prototyping sessions. Deliberately kept OUT of the `pages`
+// registry above so the main index stays the set of "real" wireframes
+// under review. Surfaced at `/prototypes`.
+//
+// To add a prototype:
+// 1. Add an entry to `prototypes` below
+// 2. Create `app/(wireframes)/prototypes/<id>/page.tsx`
+// (no scope.ts entry needed — these are pre-scope explorations)
+
+export type PrototypeMaturity = "idea" | "sketch" | "prototype";
+
+export const MATURITY_LABELS: Record<PrototypeMaturity, string> = {
+	idea: "Idea",
+	sketch: "Sketch",
+	prototype: "Prototype",
+};
+
+export const MATURITY_STYLES: Record<PrototypeMaturity, string> = {
+	idea: "border-gray-300 text-gray-400",
+	sketch: "border-purple-300 text-purple-500",
+	prototype: "border-purple-400 text-purple-600",
+};
+
+export interface Prototype {
+	id: string;
+	title: string;
+	description: string;
+	maturity: PrototypeMaturity;
+}
+
+export const prototypes: Prototype[] = [
+	{
+		id: "drift",
+		title: "Drift",
+		description:
+			"Serendipity feed. One object at a time, follow a thread (same hand / era / palette / place / technique) to drift sideways. No search box. Trail records the path.",
+		maturity: "prototype",
+	},
+	{
+		id: "visual-browse",
+		title: "Visual browse",
+		description:
+			"Image-first wall of objects. No metadata until hover. Lens pills filter by department. Counterpoint to the metadata-heavy search results.",
+		maturity: "prototype",
+	},
+];
+
 // ── Navigation tree ──────────────────────────────────────────────────
 
 export interface NavNode {

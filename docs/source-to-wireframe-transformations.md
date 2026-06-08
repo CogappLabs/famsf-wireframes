@@ -5,7 +5,7 @@ What we're doing to TMS data between extraction and rendering, so cataloguers + 
 Four layers:
 
 1. **TMS (MSSQL source database)** — what curators type, the raw shape from `Objects`, `ObjTitles`, `ObjConstituents`, `ConDisplayBios`, `ObjGeography`, `TextEntries`, `ObjDimensions`, `ObjBibliography`, `ObjExhibitions`, etc. Filtered by the `vCI_PrismObjectsFilter_Cogapp` / `vCI_PrismPeopleFilter` / `vCI_PrismMediaFilter` views for web-visibility scoping. Sensitive data (financial, donor PII, internal notes, conservation) excluded at this layer.
-2. **Pipeline transform** (`collection-flow-famsf`) — Dagster + Polars + Pandera. Extract SQL pulls live TMS rows, transforms cast types + null sentinels + strip HTML, joins nest related streams, prepare projects into the canonical `collection_documents` / `constituent_documents` shape with parsed structures.
+2. **Pipeline transform** (`collection-flow-famsf-spike`) — Dagster + Polars + Pandera. Extract SQL pulls live TMS rows, transforms cast types + null sentinels + strip HTML, joins nest related streams, prepare projects into the canonical `collection_documents` / `constituent_documents` shape with parsed structures.
 3. **ES index shape** — what lands in Elasticsearch (Elastic Cloud Serverless `cf-famsf-collection` alias). Includes raw curator strings AND parsed structured siblings (e.g. `provenance` + `provenance_structured`).
 4. **Wireframe render** (`famsf-collection-wireframes`) — display-time conventions that don't require schema changes (CMOS italics heuristic, descriptive-title bracket stripping, deep-linking metadata to filtered search).
 
@@ -290,7 +290,7 @@ These remain on the backlog and are flagged separately:
 
 ## File index
 
-### Pipeline (`collection-flow-famsf/`)
+### Pipeline (`collection-flow-famsf-spike/`)
 
 - `src/collection_flow_famsf/utils/text_cleaning.py` — HTML allow-list normaliser
 - `src/collection_flow_famsf/utils/provenance.py` — provenance line + footnote parser
