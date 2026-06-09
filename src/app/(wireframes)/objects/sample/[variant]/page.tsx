@@ -504,7 +504,7 @@ export default async function SampleObjectPage({ params }: Props) {
 								<TombstoneGroup label="Classification">
 									{doc.department && (
 										<TombstoneField
-											label="Department"
+											label="Collection area"
 											value={doc.department}
 											href={`/search-results?facet=department&value=${encodeURIComponent(doc.department)}`}
 											field="department"

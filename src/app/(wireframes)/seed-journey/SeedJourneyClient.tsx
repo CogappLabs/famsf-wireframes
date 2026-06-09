@@ -34,7 +34,7 @@ const DIRECTIONS: { key: DirectionKey; label: string }[] = [
 	{ key: "period", label: "Same period" },
 	{ key: "medium", label: "Same medium" },
 	{ key: "culture", label: "Same culture" },
-	{ key: "department", label: "Same department" },
+	{ key: "department", label: "Same collection area" },
 	{ key: "classification", label: "Same classification" },
 ];
 
@@ -261,7 +261,7 @@ function SeedJourneyContent({
 											)}
 											{current.department && (
 												<>
-													<dt className="text-gray-400">Department</dt>
+													<dt className="text-gray-400">Collection area</dt>
 													<dd>{current.department}</dd>
 												</>
 											)}

@@ -1307,15 +1307,15 @@ export function GridFacetsView({
 		},
 		{
 			id: "department",
-			label: "Department",
+			label: "Collection area",
 			activeCount: sel.department ? 1 : 0,
 			control: (
 				<FacetBlock
-					label="Department"
+					label="Collection area"
 					options={departmentOpts}
 					selected={sel.department}
 					onSelect={setDepartment}
-					scopeLabel="Flat department facet (collection area)"
+					scopeLabel="Flat collection-area facet"
 				/>
 			),
 		},
@@ -1548,7 +1548,7 @@ export function GridFacetsView({
 								onClick={() => setDepartment(null)}
 								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
 							>
-								<span>Department: {sel.department}</span>
+								<span>Collection area: {sel.department}</span>
 								<span>×</span>
 							</button>
 						)}

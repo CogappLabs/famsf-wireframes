@@ -105,7 +105,7 @@
 	"object.rightsHeading": "Rights",
 	"object.tombstoneGroupCreation": "Creation",
 	"object.tombstoneGroupOrigin": "Origin",
-	"object.tombstoneGroupClassification": "Department & type",
+	"object.tombstoneGroupClassification": "Collection area & type",
 	"object.tombstoneGroupAcquisition": "Acquisition",
 	"object.tombstoneGroupIdentifiers": "Identifiers",
 	"object.disclaimer": "Information on this page is provided for research purposes and may not be current. Please contact the museum for the most up-to-date information.",
@@ -127,7 +127,7 @@
 	"object.fieldAccessionDate": "Acquired",
 	"object.fieldEdition": "Edition",
 	"object.fieldPlaceOfCreation": "Place of creation",
-	"object.fieldDepartment": "Department",
+	"object.fieldDepartment": "Collection area",
 	"object.fieldClassification": "Classification",
 	"object.fieldOnView": "On view",
 	"object.fieldCulture": "Culture",
@@ -161,7 +161,7 @@
 	"object.fieldSigned": "Signed",
 	"object.fieldLabelsOnObject": "Labels on object",
 	"object.fieldIdentifyingDescription": "Identifying description",
-	"object.fieldDepartments": "Departments",
+	"object.fieldDepartments": "Collection areas",
 	"object.fieldKeywords": "Keywords",
 	"object.fieldPeriod": "Period",
 	"object.fieldSchool": "School",
@@ -211,7 +211,7 @@
 	"artist.statWorks": "Works in collection",
 	"artist.statOnView": "On view",
 	"artist.statExhibitions": "Exhibitions",
-	"artist.statDepartments": "Departments",
+	"artist.statDepartments": "Collection areas",
 	"artist.worksCount": "works",
 
 	"artistSearch.label": "Artists",
@@ -248,7 +248,7 @@
 	"collector.statGifted": "Objects gifted",
 	"collector.statRodin": "Rodin sculptures",
 	"collector.statFounded": "Legion of Honor founded",
-	"collector.statDepartments": "Departments represented",
+	"collector.statDepartments": "Collection areas represented",
 
 	"parent.label": "Parent record",
 	"parent.componentsHeading": "Components",
@@ -377,7 +377,7 @@
 	"explore.shuffleAction": "Shuffle",
 	"explore.shuffleApply": "See works matching",
 	"explore.movementHeading": "Browse by movement",
-	"explore.movementHint": "Art-historical movements as a primary axis: supplements the departmental view",
+	"explore.movementHint": "Art-historical movements as a primary axis: supplements the collection-area view",
 
 	"search.accessionTip": "You can also search by accession number (e.g. 1974.5).",
 

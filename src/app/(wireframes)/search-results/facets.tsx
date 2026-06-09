@@ -39,7 +39,7 @@ export const OBJECT_FACETS: ObjectFacetDef[] = [
 	},
 	{
 		id: "department",
-		label: "Collection",
+		label: "Collection area",
 		getValues: (o) => (o.department ? [o.department] : []),
 	},
 	{

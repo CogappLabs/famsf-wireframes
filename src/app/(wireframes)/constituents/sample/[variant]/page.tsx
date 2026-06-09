@@ -346,7 +346,7 @@ export default async function SampleConstituentPage({ params }: Props) {
 									title="Classifications"
 									rows={facets.classifications}
 								/>
-								<FacetList title="Departments" rows={facets.departments} />
+								<FacetList title="Collection areas" rows={facets.departments} />
 								<FacetList
 									title="Top places of creation"
 									rows={facets.top_places_of_creation}

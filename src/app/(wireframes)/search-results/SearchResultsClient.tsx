@@ -294,7 +294,7 @@ function SearchResultsContent({
 			},
 			{
 				facetType: "department",
-				facetLabel: "Department",
+				facetLabel: "Collection area",
 				get: (d) => (d.department ? [d.department] : []),
 			},
 			{

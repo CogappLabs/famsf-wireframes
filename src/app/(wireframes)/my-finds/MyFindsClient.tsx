@@ -16,7 +16,7 @@ const MORE_LIKE_REASONS = [
 	"same artist",
 	"same period",
 	"same medium",
-	"same department",
+	"same collection area",
 	"same culture",
 	"frequently saved together",
 ] as const;
