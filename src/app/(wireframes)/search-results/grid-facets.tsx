@@ -331,13 +331,11 @@ function FacetBlock({
 	options,
 	selected,
 	onSelect,
-	scopeLabel,
 }: {
 	label: string;
 	options: FacetOption[];
 	selected: string | null;
 	onSelect: (value: string | null) => void;
-	scopeLabel?: string;
 }) {
 	const [expanded, setExpanded] = useState(false);
 	const [search, setSearch] = useState("");
@@ -351,7 +349,7 @@ function FacetBlock({
 	const shown = expanded || search ? filtered : filtered.slice(0, FACET_TOP_N);
 	const hiddenCount = filtered.length - shown.length;
 
-	const block = (
+	return (
 		<div className="border-b border-gray-200 pb-3">
 			<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-400">
 				{label}
@@ -425,8 +423,6 @@ function FacetBlock({
 			)}
 		</div>
 	);
-
-	return scopeLabel ? <ScopeMark label={scopeLabel}>{block}</ScopeMark> : block;
 }
 
 /** Date facet as a horizontal year histogram with drag-select (modal
@@ -489,100 +485,98 @@ function DateHistogram({
 	};
 
 	return (
-		<ScopeMark label="Year histogram (drag bars or type a range)">
-			<div className="flex flex-col gap-2">
-				<p className="font-mono text-meta text-gray-500">
-					Drag across the bars, or type a year range below.
-				</p>
-				{/* Pointer drag is an enhancement; bars are real <button>s and
+		<div className="flex flex-col gap-2">
+			<p className="font-mono text-meta text-gray-500">
+				Drag across the bars, or type a year range below.
+			</p>
+			{/* Pointer drag is an enhancement; bars are real <button>s and
 				    the From/To inputs give the keyboard / screen-reader path. */}
-				<div
-					className="flex h-32 items-end gap-px"
-					onPointerLeave={() => {
-						if (drag) {
-							commit(drag.a, drag.b);
-							setDrag(null);
-						}
-					}}
-					onPointerUp={() => {
-						if (drag) {
-							commit(drag.a, drag.b);
-							setDrag(null);
-						}
-					}}
-				>
-					{bins.map((b, i) => {
-						const inSel = sel != null && i >= sel.lo && i <= sel.hi;
-						return (
-							<button
-								key={b.start}
-								type="button"
-								title={`${yearLabel(b.start)}–${yearLabel(b.start + DATE_BIN - 1)}: ${b.count}`}
-								aria-label={`${yearLabel(b.start)} to ${yearLabel(b.start + DATE_BIN - 1)}, ${b.count} objects`}
-								onPointerDown={() => setDrag({ a: i, b: i })}
-								onPointerEnter={() =>
-									setDrag((prev) => (prev ? { ...prev, b: i } : prev))
-								}
-								onClick={() => {
-									if (!drag) commit(i, i);
-								}}
-								className="flex h-full flex-1 items-end"
-							>
-								<span
-									className={`w-full ${inSel ? "bg-gray-900" : "bg-gray-300 hover:bg-gray-400"}`}
-									style={{
-										height: `${Math.max(2, (b.count / maxCount) * 100)}%`,
-									}}
-								/>
-							</button>
-						);
-					})}
-				</div>
-				<div className="flex items-center justify-between font-mono text-label text-gray-500">
-					<span>{yearLabel(min)}</span>
-					<span>{yearLabel(max)}</span>
-				</div>
-
-				{/* Year inputs — the accessible, keyboard-driven path. */}
-				<div className="flex items-end gap-2">
-					<label className="flex flex-1 flex-col gap-0.5 font-mono text-label text-gray-500">
-						From
-						<input
-							type="number"
-							inputMode="numeric"
-							value={value ? value.min : ""}
-							min={min}
-							max={max}
-							placeholder={String(min)}
-							onChange={(e) => setBound("min", e.target.value)}
-							className="w-full border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
-						/>
-					</label>
-					<label className="flex flex-1 flex-col gap-0.5 font-mono text-label text-gray-500">
-						To
-						<input
-							type="number"
-							inputMode="numeric"
-							value={value ? value.max : ""}
-							min={min}
-							max={max}
-							placeholder={String(max)}
-							onChange={(e) => setBound("max", e.target.value)}
-							className="w-full border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
-						/>
-					</label>
-					{value && (
+			<div
+				className="flex h-32 items-end gap-px"
+				onPointerLeave={() => {
+					if (drag) {
+						commit(drag.a, drag.b);
+						setDrag(null);
+					}
+				}}
+				onPointerUp={() => {
+					if (drag) {
+						commit(drag.a, drag.b);
+						setDrag(null);
+					}
+				}}
+			>
+				{bins.map((b, i) => {
+					const inSel = sel != null && i >= sel.lo && i <= sel.hi;
+					return (
 						<button
+							key={b.start}
 							type="button"
-							onClick={() => onChange(null)}
-							className="shrink-0 py-1 font-mono text-meta text-gray-600 underline hover:text-gray-800"
+							title={`${yearLabel(b.start)}–${yearLabel(b.start + DATE_BIN - 1)}: ${b.count}`}
+							aria-label={`${yearLabel(b.start)} to ${yearLabel(b.start + DATE_BIN - 1)}, ${b.count} objects`}
+							onPointerDown={() => setDrag({ a: i, b: i })}
+							onPointerEnter={() =>
+								setDrag((prev) => (prev ? { ...prev, b: i } : prev))
+							}
+							onClick={() => {
+								if (!drag) commit(i, i);
+							}}
+							className="flex h-full flex-1 items-end"
 						>
-							Clear
+							<span
+								className={`w-full ${inSel ? "bg-gray-900" : "bg-gray-300 hover:bg-gray-400"}`}
+								style={{
+									height: `${Math.max(2, (b.count / maxCount) * 100)}%`,
+								}}
+							/>
 						</button>
-					)}
-				</div>
+					);
+				})}
 			</div>
-		</ScopeMark>
+			<div className="flex items-center justify-between font-mono text-label text-gray-500">
+				<span>{yearLabel(min)}</span>
+				<span>{yearLabel(max)}</span>
+			</div>
+
+			{/* Year inputs — the accessible, keyboard-driven path. */}
+			<div className="flex items-end gap-2">
+				<label className="flex flex-1 flex-col gap-0.5 font-mono text-label text-gray-500">
+					From
+					<input
+						type="number"
+						inputMode="numeric"
+						value={value ? value.min : ""}
+						min={min}
+						max={max}
+						placeholder={String(min)}
+						onChange={(e) => setBound("min", e.target.value)}
+						className="w-full border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
+					/>
+				</label>
+				<label className="flex flex-1 flex-col gap-0.5 font-mono text-label text-gray-500">
+					To
+					<input
+						type="number"
+						inputMode="numeric"
+						value={value ? value.max : ""}
+						min={min}
+						max={max}
+						placeholder={String(max)}
+						onChange={(e) => setBound("max", e.target.value)}
+						className="w-full border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
+					/>
+				</label>
+				{value && (
+					<button
+						type="button"
+						onClick={() => onChange(null)}
+						className="shrink-0 py-1 font-mono text-meta text-gray-600 underline hover:text-gray-800"
+					>
+						Clear
+					</button>
+				)}
+			</div>
+		</div>
 	);
 }
 
@@ -712,7 +706,6 @@ function TreeFacet({
 	onToggle,
 	search,
 	onSearch,
-	scopeLabel,
 	topN = null,
 }: {
 	label: string;
@@ -724,7 +717,6 @@ function TreeFacet({
 	onToggle: (key: string) => void;
 	search: string;
 	onSearch: (v: string) => void;
-	scopeLabel: string;
 	topN?: number | null;
 }) {
 	const [showAll, setShowAll] = useState(false);
@@ -755,62 +747,60 @@ function TreeFacet({
 	const hiddenCount = visible.length - rows.length;
 
 	return (
-		<ScopeMark label={scopeLabel}>
-			<div className="border-b border-gray-200 pb-3">
-				<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-400">
-					{label}
-				</p>
-				<input
-					type="text"
-					value={search}
-					onChange={(e) => onSearch(e.target.value)}
-					placeholder={`Filter ${label.toLowerCase()}…`}
-					className="mb-1.5 w-full border border-gray-200 bg-white px-2 py-1.5 font-mono text-meta text-gray-900 placeholder:text-gray-400 focus:border-gray-500 focus:outline-none"
-				/>
-				{visible.length > 0 ? (
-					<>
-						<ul
-							className={`flex flex-col ${topN == null ? "max-h-96 overflow-y-auto" : ""}`}
+		<div className="border-b border-gray-200 pb-3">
+			<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-400">
+				{label}
+			</p>
+			<input
+				type="text"
+				value={search}
+				onChange={(e) => onSearch(e.target.value)}
+				placeholder={`Filter ${label.toLowerCase()}…`}
+				className="mb-1.5 w-full border border-gray-200 bg-white px-2 py-1.5 font-mono text-meta text-gray-900 placeholder:text-gray-400 focus:border-gray-500 focus:outline-none"
+			/>
+			{visible.length > 0 ? (
+				<>
+					<ul
+						className={`flex flex-col ${topN == null ? "max-h-96 overflow-y-auto" : ""}`}
+					>
+						{rows.map((node) => (
+							<FacetTreeRow
+								key={node.value}
+								node={node}
+								depth={0}
+								levelByDepth={levelByDepth}
+								expanded={forceOpen ?? expanded}
+								onToggle={onToggle}
+								selected={selected}
+								onSelect={onSelect}
+							/>
+						))}
+					</ul>
+					{hiddenCount > 0 && (
+						<button
+							type="button"
+							onClick={() => setShowAll(true)}
+							className="mt-1 font-mono text-meta text-gray-600 underline hover:text-gray-800"
 						>
-							{rows.map((node) => (
-								<FacetTreeRow
-									key={node.value}
-									node={node}
-									depth={0}
-									levelByDepth={levelByDepth}
-									expanded={forceOpen ?? expanded}
-									onToggle={onToggle}
-									selected={selected}
-									onSelect={onSelect}
-								/>
-							))}
-						</ul>
-						{hiddenCount > 0 && (
-							<button
-								type="button"
-								onClick={() => setShowAll(true)}
-								className="mt-1 font-mono text-meta text-gray-600 underline hover:text-gray-800"
-							>
-								Show {hiddenCount} more
-							</button>
-						)}
-						{topN != null && showAll && !search && visible.length > topN && (
-							<button
-								type="button"
-								onClick={() => setShowAll(false)}
-								className="mt-1 font-mono text-meta text-gray-600 underline hover:text-gray-800"
-							>
-								Show fewer
-							</button>
-						)}
-					</>
-				) : (
-					<p className="py-1 font-mono text-meta text-gray-500">
-						No matching {label.toLowerCase()}
-					</p>
-				)}
-			</div>
-		</ScopeMark>
+							Show {hiddenCount} more
+						</button>
+					)}
+					{topN != null && showAll && !search && visible.length > topN && (
+						<button
+							type="button"
+							onClick={() => setShowAll(false)}
+							className="mt-1 font-mono text-meta text-gray-600 underline hover:text-gray-800"
+						>
+							Show fewer
+						</button>
+					)}
+				</>
+			) : (
+				<p className="py-1 font-mono text-meta text-gray-500">
+					No matching {label.toLowerCase()}
+				</p>
+			)}
+		</div>
 	);
 }
 
@@ -1234,7 +1224,6 @@ export function GridFacetsView({
 					options={artistOpts}
 					selected={sel.artist}
 					onSelect={setArtist}
-					scopeLabel="Flat artist facet (primary_artist)"
 				/>
 			),
 		},
@@ -1253,7 +1242,6 @@ export function GridFacetsView({
 					onToggle={togglePlace}
 					search={placeSearch}
 					onSearch={setPlaceSearch}
-					scopeLabel="Expandable place hierarchy (REGION_REMAP)"
 				/>
 			),
 		},
@@ -1273,7 +1261,6 @@ export function GridFacetsView({
 					search={materialSearch}
 					onSearch={setMaterialSearch}
 					topN={8}
-					scopeLabel="Expandable material hierarchy (FACET_DESIGN)"
 				/>
 			),
 		},
@@ -1287,7 +1274,6 @@ export function GridFacetsView({
 					options={techniqueOpts}
 					selected={sel.technique}
 					onSelect={setTechnique}
-					scopeLabel="Flat technique facet (curator workbook)"
 				/>
 			),
 		},
@@ -1301,7 +1287,6 @@ export function GridFacetsView({
 					options={classificationOpts}
 					selected={sel.classification}
 					onSelect={setClassification}
-					scopeLabel="Flat classification facet (TMS Classification)"
 				/>
 			),
 		},
@@ -1315,7 +1300,6 @@ export function GridFacetsView({
 					options={departmentOpts}
 					selected={sel.department}
 					onSelect={setDepartment}
-					scopeLabel="Flat collection-area facet"
 				/>
 			),
 		},
@@ -1329,7 +1313,6 @@ export function GridFacetsView({
 					options={galleryOpts}
 					selected={sel.gallery}
 					onSelect={setGallery}
-					scopeLabel="Flat gallery / building facet (location_building)"
 				/>
 			),
 		},
@@ -1384,50 +1367,44 @@ export function GridFacetsView({
 	);
 
 	return (
-		<ScopeMark label="Real-data faceted browse (grid + left column)">
+		<>
 			{/* Inline layout: toggles in a full-width row under the search. */}
 			{layout === "inline" && (
-				<ScopeMark label="On view + has image toggles">
-					<div className="mb-6 flex flex-wrap items-center gap-4 border-b border-gray-200 pb-4">
-						<span className="font-mono text-meta text-gray-500">
-							Refine by:
-						</span>
-						{toggleButtons}
-					</div>
-				</ScopeMark>
+				<div className="mb-6 flex flex-wrap items-center gap-4 border-b border-gray-200 pb-4">
+					<span className="font-mono text-meta text-gray-500">Refine by:</span>
+					{toggleButtons}
+				</div>
 			)}
 			<div className="flex flex-col gap-6 lg:flex-row">
 				{/* Left facet column */}
-				<aside className="shrink-0 lg:w-64">
-					<div className="flex items-baseline justify-between border-b border-gray-300 pb-2">
-						<SectionLabelInline>Refine</SectionLabelInline>
-						{/* Always rendered so the header doesn't reflow when filters
+				<ScopeMark label="Facets" className="shrink-0 lg:w-64">
+					<aside>
+						<div className="flex items-baseline justify-between border-b border-gray-300 pb-2">
+							<SectionLabelInline>Refine</SectionLabelInline>
+							{/* Always rendered so the header doesn't reflow when filters
 						    become active; just hidden + inert when there's nothing
 						    to clear. */}
-						<button
-							type="button"
-							onClick={() => setSel(EMPTY_GRID_SELECTIONS)}
-							aria-hidden={!anyActive}
-							tabIndex={anyActive ? 0 : -1}
-							className={`font-mono text-meta text-gray-600 underline hover:text-gray-800 ${
-								anyActive ? "" : "invisible"
-							}`}
-						>
-							Clear all
-						</button>
-					</div>
+							<button
+								type="button"
+								onClick={() => setSel(EMPTY_GRID_SELECTIONS)}
+								aria-hidden={!anyActive}
+								tabIndex={anyActive ? 0 : -1}
+								className={`font-mono text-meta text-gray-600 underline hover:text-gray-800 ${
+									anyActive ? "" : "invisible"
+								}`}
+							>
+								Clear all
+							</button>
+						</div>
 
-					{/* Modal layout: toggles at the top of the left column. */}
-					{layout === "modal" && (
-						<ScopeMark label="On view + has image toggles">
+						{/* Modal layout: toggles at the top of the left column. */}
+						{layout === "modal" && (
 							<div className="mt-3 flex flex-wrap gap-2 border-b border-gray-200 pb-3">
 								{toggleButtons}
 							</div>
-						</ScopeMark>
-					)}
+						)}
 
-					{layout === "modal" ? (
-						<ScopeMark label="Facet buttons open a modal each">
+						{layout === "modal" ? (
 							<div className="mt-3 flex flex-col gap-2">
 								{panels.map((p) => (
 									<FacetButton
@@ -1438,18 +1415,18 @@ export function GridFacetsView({
 									/>
 								))}
 							</div>
-						</ScopeMark>
-					) : (
-						<div className="mt-3 flex flex-col gap-3">
-							<p className="font-mono text-meta text-gray-500">
-								Tip: ▸ expands a branch · checkbox filters by it.
-							</p>
-							{panels.map((p) => (
-								<div key={p.id}>{p.control}</div>
-							))}
-						</div>
-					)}
-				</aside>
+						) : (
+							<div className="mt-3 flex flex-col gap-3">
+								<p className="font-mono text-meta text-gray-500">
+									Tip: ▸ expands a branch · checkbox filters by it.
+								</p>
+								{panels.map((p) => (
+									<div key={p.id}>{p.control}</div>
+								))}
+							</div>
+						)}
+					</aside>
+				</ScopeMark>
 
 				{/* Modal layout: one dialog for the open facet */}
 				{layout === "modal" && activePanel && (
@@ -1465,7 +1442,7 @@ export function GridFacetsView({
 				<div className="min-w-0 flex-1">
 					{/* Count + sort row. min-height reserved so the grid doesn't
 					    shift when the count text changes width. */}
-					<ScopeMark label="Result count + sort">
+					<ScopeMark label="Count + sort">
 						<div className="mb-4 flex min-h-9 flex-wrap items-center justify-between gap-3 border-b border-gray-200 pb-3">
 							<span className="font-mono text-body font-medium">
 								{matches.length.toLocaleString()} result
@@ -1611,16 +1588,20 @@ export function GridFacetsView({
 					</ScopeMark>
 
 					{matches.length > 0 ? (
-						<ScopeMark label="Results grid + pager">
-							<ResultsGrid items={pageItems} getHref={getHref} columns={3} />
-							<Pager
-								page={safePage}
-								pageCount={pageCount}
-								onPage={setPage}
-								total={sortedMatches.length}
-								pageSize={PAGE_SIZE}
-							/>
-						</ScopeMark>
+						<>
+							<ScopeMark label="Results grid">
+								<ResultsGrid items={pageItems} getHref={getHref} columns={3} />
+							</ScopeMark>
+							<ScopeMark label="Pagination">
+								<Pager
+									page={safePage}
+									pageCount={pageCount}
+									onPage={setPage}
+									total={sortedMatches.length}
+									pageSize={PAGE_SIZE}
+								/>
+							</ScopeMark>
+						</>
 					) : (
 						<ScopeMark label="Zero results">
 							<div className="border border-dashed border-gray-300 px-4 py-10 text-center font-mono text-meta text-gray-500">
@@ -1632,6 +1613,6 @@ export function GridFacetsView({
 					)}
 				</div>
 			</div>
-		</ScopeMark>
+		</>
 	);
 }

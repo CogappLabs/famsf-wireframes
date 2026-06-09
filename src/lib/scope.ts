@@ -119,7 +119,6 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Filter by which physical gallery objects are currently on view in. #1 visitor motivator per Hotjar (44%: 'check what is on view'). Education interview high-priority ask.",
 		issueUrl: issue("CW-41"),
 	},
-	"search-results/Results grid": { mvp: true, issueUrl: issue("CW-43") },
 	"search-results/Dynamic filtering": {
 		mvp: true,
 		note: "Only show filter values with matching results",
@@ -181,74 +180,32 @@ export const scope: Record<string, ScopeEntry> = {
 	// scope toggle draws an MVP / post-MVP boundary on every part of the
 	// primary search view. Labels here must match the ScopeMark `label`
 	// strings exactly (key = `search-results/<label>`).
-	"search-results/Real-data faceted browse (grid + left column)": {
+	// Coarse, region-level marks only — one per major area of the view, with
+	// short labels so the overlay doesn't wrap / collide. Per-facet detail
+	// (artist, place, material, …) lives in the facet code, not the overlay.
+	"search-results/Facets": {
 		mvp: true,
-		note: "Phase 1 primary search view. Grid + left facet column over a real pipeline slice.",
+		note: "Left facet column: artist, place, material, technique, classification, collection area, gallery, date + on-view/has-image/open-access toggles.",
 		issueUrl: issue("CW-41"),
 	},
-	"search-results/On view + has image toggles": {
+	"search-results/Count + sort": {
 		mvp: true,
-		note: "On-view / has-image / open-access segmented toggles. on_view + has_image + object_rights_type indexed.",
-		issueUrl: issue("CW-41"),
-	},
-	"search-results/Facet buttons open a modal each": {
-		mvp: true,
-		note: "Modal layout: one button per facet opening a <dialog>. Same controls as the inline column.",
-		issueUrl: issue("CW-41"),
-	},
-	"search-results/Flat artist facet (primary_artist)": {
-		mvp: true,
-		note: "Off primary_artist. 8-cap + search-within. Extra beyond CW-41 core set.",
-		issueUrl: issue("CW-41"),
-	},
-	"search-results/Expandable place hierarchy (REGION_REMAP)": {
-		mvp: true,
-		note: "region → country → state (US-only) → notable place, keyed on Getty TGN via REGION_REMAP workbook. Pipeline does not yet emit facet_place; export-derived stand-in.",
-		issueUrl: issue("CW-41"),
-	},
-	"search-results/Expandable material hierarchy (FACET_DESIGN)": {
-		mvp: true,
-		note: "2-tier parent → specific (Metal → bronze) from the Material workbook FACET_DESIGN_v2. Pipeline does not yet emit facet_material; export-derived.",
-		issueUrl: issue("CW-41"),
-	},
-	"search-results/Flat technique facet (curator workbook)": {
-		mvp: true,
-		note: "Flat labels from the Material workbook (level=flat rows). Extra beyond CW-41 core set.",
-		issueUrl: issue("CW-41"),
-	},
-	"search-results/Flat classification facet (TMS Classification)": {
-		mvp: true,
-		note: "Off classification. CW-41 core facet.",
-		issueUrl: issue("CW-41"),
-	},
-	"search-results/Flat collection-area facet": {
-		mvp: true,
-		note: "Off department (public-facing 'collection area', CW-30). CW-41 core facet.",
-		issueUrl: issue("CW-41"),
-	},
-	"search-results/Flat gallery / building facet (location_building)": {
-		mvp: true,
-		note: "Off location_building. CW-41 core facet; visit-planning entry point.",
-		issueUrl: issue("CW-41"),
-	},
-	"search-results/Year histogram (drag bars or type a range)": {
-		mvp: true,
-		note: "Decade-bin histogram with empty decades dropped. Drag or type a year range; drives a {min,max} filter off objectYear (sort_year).",
-		issueUrl: issue("CW-64"),
-	},
-	"search-results/Result count + sort": {
-		mvp: true,
-		note: "Result count + sort selector (relevance / title / date / artist / accession). Client-side over the slice.",
+		note: "Result count + sort (relevance / title / date / artist / accession).",
 		issueUrl: issue("CW-39"),
 	},
 	"search-results/Active filter chips": {
 		mvp: true,
-		note: "Removable chip per active facet + Clear all. Dynamic facet state surfaced above the grid.",
+		note: "Removable chip per active facet + Clear all.",
 		issueUrl: issue("CW-42"),
 	},
-	"search-results/Results grid + pager": {
+	"search-results/Results grid": {
 		mvp: true,
-		note: "3-column results grid + client-side pager (24/page, resets on filter/sort/query change).",
+		note: "3-column results grid.",
+		issueUrl: issue("CW-43"),
+	},
+	"search-results/Pagination": {
+		mvp: true,
+		note: "24/page, resets to page 1 on filter / sort / query change. Load-more / infinite scroll is post-MVP.",
 		issueUrl: issue("CW-43"),
 	},
 
