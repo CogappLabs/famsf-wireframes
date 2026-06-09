@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import {
 	BibliographyText,
 	Container,
@@ -42,8 +43,12 @@ interface Props {
  *
  * Client component so it can register the layout toggle in the top bar via
  * `usePageVariations` and be linked with a shareable `?variation=` URL.
+ *
+ * `usePageVariations` reads `useSearchParams`, which forces a client-side
+ * bailout under static export, so the inner body is wrapped in `<Suspense>`
+ * (mirrors `SearchResultsClient`).
  */
-export function ScholarlyRecordSections({
+function ScholarlyRecordSectionsInner({
 	exhibitions,
 	hasExhibitions,
 	exhibitionHistoryHtml,
@@ -201,5 +206,13 @@ export function ScholarlyRecordSections({
 				</WireframeSection>
 			)}
 		</>
+	);
+}
+
+export function ScholarlyRecordSections(props: Props) {
+	return (
+		<Suspense>
+			<ScholarlyRecordSectionsInner {...props} />
+		</Suspense>
 	);
 }
