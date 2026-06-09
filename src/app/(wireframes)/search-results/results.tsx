@@ -416,22 +416,24 @@ export function ZeroResults({
 	const displayQuery = query || "glass vases form 1972";
 	return (
 		<div className="flex flex-col gap-8">
-			{/* Did you mean */}
-			<div className="border border-amber-300 bg-amber-50 px-4 py-3">
-				<p className="font-mono text-meta text-amber-900">
-					No results for <strong>"{displayQuery}"</strong>.
-				</p>
-				<p className="mt-1 font-mono text-meta text-gray-700">
-					Did you mean{" "}
-					<button
-						type="button"
-						className="underline decoration-amber-500 hover:decoration-amber-700"
-					>
-						glass vases <em>from</em> 1972
-					</button>
-					?
-				</p>
-			</div>
+			{/* Did you mean — deferred from Phase 1 (CW-44: ES suggester tuning) */}
+			<ScopeMark label="Did you mean">
+				<div className="border border-amber-300 bg-amber-50 px-4 py-3">
+					<p className="font-mono text-meta text-amber-900">
+						No results for <strong>"{displayQuery}"</strong>.
+					</p>
+					<p className="mt-1 font-mono text-meta text-gray-700">
+						Did you mean{" "}
+						<button
+							type="button"
+							className="underline decoration-amber-500 hover:decoration-amber-700"
+						>
+							glass vases <em>from</em> 1972
+						</button>
+						?
+					</p>
+				</div>
+			</ScopeMark>
 
 			{/* Search tips */}
 			<div>
@@ -446,21 +448,23 @@ export function ZeroResults({
 				</ul>
 			</div>
 
-			{/* Suggested searches */}
-			<div>
-				<SectionLabelInline>Popular searches</SectionLabelInline>
-				<div className="mt-2 flex flex-wrap gap-2">
-					{suggestions.map((s) => (
-						<Link
-							key={s}
-							href="/search-results"
-							className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-700 hover:border-gray-500"
-						>
-							{s}
-						</Link>
-					))}
+			{/* Suggested searches — deferred from Phase 1 (CW-44: needs analytics) */}
+			<ScopeMark label="Popular searches">
+				<div>
+					<SectionLabelInline>Popular searches</SectionLabelInline>
+					<div className="mt-2 flex flex-wrap gap-2">
+						{suggestions.map((s) => (
+							<Link
+								key={s}
+								href="/search-results"
+								className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-700 hover:border-gray-500"
+							>
+								{s}
+							</Link>
+						))}
+					</div>
 				</div>
-			</div>
+			</ScopeMark>
 
 			{/* Featured fallback */}
 			<div>

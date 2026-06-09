@@ -454,7 +454,17 @@ export default function CollectionAutocomplete({
 				params.set("facet", `${s.facetType}:${s.value}`);
 				const currentVariation =
 					pathname === "/search-results" ? searchParams.get("variation") : null;
-				if (s.facetType === "artist") {
+				// The grid-facets variations seed any facet type from ?facet=
+				// directly (including artist), so don't bounce them to "mixed".
+				const onGridFacets =
+					currentVariation === "grid-facets" ||
+					currentVariation === "grid-facets-modal" ||
+					// bare /search-results defaults to grid-facets-modal
+					(pathname === "/search-results" && currentVariation === null);
+				if (
+					(s.facetType === "artist" || s.facetType === "primary_artist") &&
+					!onGridFacets
+				) {
 					params.set("artist", s.value);
 					const showsArtists =
 						currentVariation === "mixed" || currentVariation === "interleaved";

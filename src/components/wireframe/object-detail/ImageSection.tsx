@@ -1,0 +1,264 @@
+import {
+	Container,
+	ImagePlaceholder,
+	ScopeMark,
+	TombstoneLabel,
+	WireframeSection,
+} from "@/components/wireframe";
+import FieldSourceBadge from "@/components/wireframe/FieldSourceBadge";
+import {
+	type CollectionDocument,
+	iiifImageUrl,
+} from "@/lib/collection-document";
+import { t } from "@/lib/strings";
+
+type MediaItem = CollectionDocument["media"][number];
+
+/**
+ * Object-detail image section: single-image layout or a CSS scroll-snap
+ * carousel with a thumbnail strip, plus the hidden-image note, alt-text
+ * placeholder, and the (non-functional) image-actions row. Renders nothing
+ * when there are no visible images and none were hidden.
+ */
+export function ImageSection({
+	visibleMedia,
+	hiddenCount,
+	hasAnyImage,
+	isPublicDomain,
+}: {
+	visibleMedia: MediaItem[];
+	hiddenCount: number;
+	hasAnyImage: boolean;
+	isPublicDomain: boolean;
+}) {
+	if (!(hasAnyImage || hiddenCount > 0)) return null;
+
+	return (
+		<WireframeSection label="Image" className="border-b border-gray-300 py-8">
+			<Container>
+				<span id="image" className="sr-only">
+					Image
+				</span>
+				<FieldSourceBadge field="media" block />
+
+				{hasAnyImage && visibleMedia.length === 1 && (
+					/* Single image: preserve existing single-image layout */
+					<div className="border border-gray-300">
+						<div data-splattable data-splat-id="img-0">
+							<ImagePlaceholder
+								aspect="4/3"
+								label={`[IIIF image: media_master_id ${visibleMedia[0].media_master_id}]`}
+								className="border-0"
+							/>
+						</div>
+						{(visibleMedia[0].media_view ||
+							visibleMedia[0].public_caption ||
+							visibleMedia[0].photographer ||
+							visibleMedia[0].credit_line) && (
+							<div className="border-t border-gray-200 px-3 py-2">
+								{visibleMedia[0].media_view && (
+									<p className="font-mono text-label tracking-wide text-gray-500">
+										{visibleMedia[0].media_view}
+										<FieldSourceBadge field="media[].media_view" />
+									</p>
+								)}
+								{visibleMedia[0].public_caption && (
+									<p className="mt-0.5 font-mono text-meta text-gray-600">
+										{visibleMedia[0].public_caption}
+										<FieldSourceBadge field="media[].public_caption" />
+									</p>
+								)}
+								{(visibleMedia[0].photographer ||
+									visibleMedia[0].credit_line) && (
+									<p className="mt-0.5 font-mono text-label text-gray-400">
+										{visibleMedia[0].photographer ??
+											visibleMedia[0].credit_line}
+										<FieldSourceBadge
+											field={
+												visibleMedia[0].photographer
+													? "media[].photographer"
+													: "media[].credit_line"
+											}
+										/>
+									</p>
+								)}
+							</div>
+						)}
+						<div className="border-t border-gray-200 px-3 py-2">
+							<p className="font-mono text-label text-gray-400">
+								Live IIIF URL:{" "}
+								<a
+									href={iiifImageUrl(
+										visibleMedia[0].media_master_id,
+										"!600,600",
+									)}
+									target="_blank"
+									rel="noopener noreferrer"
+									className="underline decoration-gray-300 hover:decoration-gray-600"
+								>
+									{iiifImageUrl(visibleMedia[0].media_master_id, "!600,600")}
+								</a>
+							</p>
+						</div>
+					</div>
+				)}
+
+				{hasAnyImage && visibleMedia.length > 1 && (
+					/* Multi-image carousel: CSS scroll-snap, no JS required */
+					<div>
+						{/* Main scroll container */}
+						<div
+							className="relative overflow-x-auto"
+							style={{ scrollSnapType: "x mandatory" }}
+						>
+							<div className="flex">
+								{visibleMedia.map((item, i) => {
+									const imgUrl = iiifImageUrl(item.media_master_id, "!600,600");
+									return (
+										<div
+											key={item.media_master_id}
+											id={`image-${i}`}
+											className="min-w-full border border-gray-300"
+											style={{ scrollSnapAlign: "start" }}
+										>
+											<div data-splattable data-splat-id={`img-${i}`}>
+												<ImagePlaceholder
+													aspect="4/3"
+													label={`[IIIF image ${i + 1} of ${visibleMedia.length}: media_master_id ${item.media_master_id}]`}
+													className="border-0"
+												/>
+											</div>
+											<div className="border-t border-gray-200 px-3 py-2">
+												<p className="font-mono text-label tracking-wide text-gray-500">
+													Image {i + 1} of {visibleMedia.length}
+													{item.media_view && <> &middot; {item.media_view}</>}
+												</p>
+												{item.public_caption && (
+													<p className="mt-0.5 font-mono text-meta text-gray-600">
+														{item.public_caption}
+														<FieldSourceBadge field="media[].public_caption" />
+													</p>
+												)}
+												{(item.photographer || item.credit_line) && (
+													<p className="mt-0.5 font-mono text-label text-gray-400">
+														{item.photographer ?? item.credit_line}
+														<FieldSourceBadge
+															field={
+																item.photographer
+																	? "media[].photographer"
+																	: "media[].credit_line"
+															}
+														/>
+													</p>
+												)}
+												<p className="mt-1 font-mono text-label text-gray-400">
+													Live IIIF URL:{" "}
+													<a
+														href={imgUrl}
+														target="_blank"
+														rel="noopener noreferrer"
+														className="underline decoration-gray-300 hover:decoration-gray-600"
+													>
+														{imgUrl}
+													</a>
+												</p>
+											</div>
+										</div>
+									);
+								})}
+							</div>
+						</div>
+
+						{/* Thumbnail strip: anchor links to each slide */}
+						<div className="mt-3 flex gap-2 overflow-x-auto pb-1">
+							{visibleMedia.map((item, i) => {
+								const thumbUrl = iiifImageUrl(item.media_master_id, "!200,200");
+								return (
+									<a
+										key={item.media_master_id}
+										href={`#image-${i}`}
+										className="flex-shrink-0 border-2 border-gray-300 hover:border-gray-600"
+										title={item.media_view ?? `Image ${i + 1}`}
+									>
+										<div style={{ width: "72px" }}>
+											<ImagePlaceholder
+												aspect="1/1"
+												label={`${i + 1}`}
+												className="border-0 text-[10px]"
+											/>
+										</div>
+										<p className="px-1 pb-1 font-mono text-[10px] text-gray-500">
+											{thumbUrl.replace(
+												"https://famsf.emuseum.com/apis/iiif/image/v2/",
+												"…/",
+											)}
+										</p>
+									</a>
+								);
+							})}
+						</div>
+					</div>
+				)}
+
+				{/* Hidden-image note */}
+				{hiddenCount > 0 && (
+					<p className="mt-3 font-mono text-label text-gray-400">
+						{hiddenCount} image{hiddenCount === 1 ? "" : "s"} hidden: not
+						approved for web
+					</p>
+				)}
+
+				{/* Alt text placeholder */}
+				<ScopeMark label="Alt text">
+					<div className="mt-3 border border-gray-200 bg-gray-50 px-3 py-2">
+						<TombstoneLabel>Alt text [placeholder]</TombstoneLabel>
+						<p className="mt-0.5 font-mono text-meta text-gray-500">
+							Alt text not yet provided
+						</p>
+					</div>
+				</ScopeMark>
+
+				{/* Image actions row [placeholder]: non-functional buttons. */}
+				<WireframeSection label="Image actions">
+					<div className="mt-3 flex flex-wrap items-center gap-3">
+						<button
+							type="button"
+							className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
+						>
+							Zoom
+						</button>
+						{isPublicDomain ? (
+							<button
+								type="button"
+								className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
+							>
+								Download
+							</button>
+						) : (
+							<button
+								type="button"
+								disabled
+								title="In copyright [placeholder]"
+								className="cursor-not-allowed border border-gray-200 px-3 py-1.5 font-mono text-label tracking-wide text-gray-400"
+							>
+								Download (in copyright)
+							</button>
+						)}
+						<button
+							type="button"
+							className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
+						>
+							Share
+						</button>
+						<button
+							type="button"
+							className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
+						>
+							{t("object.citeButton")}
+						</button>
+					</div>
+				</WireframeSection>
+			</Container>
+		</WireframeSection>
+	);
+}

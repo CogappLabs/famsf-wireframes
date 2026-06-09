@@ -84,12 +84,11 @@ const SUB_COLLECTIONS = [
 ];
 
 // Basic-search filter chips. Submit appends to /search-results query string.
+// Lean-MVP homepage pass (2026-06-09): dropped Highlights (no editorial owner),
+// Has image (not a useful entry filter here) and Popular (needs analytics).
 const BASIC_FILTERS = [
-	{ key: "highlights", label: "Highlights" },
 	{ key: "open_access", label: "Open access" },
 	{ key: "on_view", label: "On view" },
-	{ key: "has_image", label: "Has image" },
-	{ key: "popular", label: "Popular" },
 ];
 
 const MORE_ENTRY_POINTS = [
@@ -109,9 +108,9 @@ const MORE_ENTRY_POINTS = [
 		href: "/search-results?on_view=true",
 	},
 	{
-		title: "By department",
-		desc: "Curatorial departments: African Art, European Paintings, Achenbach, more",
-		href: "/departments",
+		title: "By collection area",
+		desc: "Curatorial areas: African Art, European Paintings, Achenbach, more",
+		href: "/collection-areas",
 	},
 	{
 		title: "By exhibition",

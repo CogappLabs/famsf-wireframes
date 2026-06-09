@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { type SiteNavItem, siteNavigation } from "@/lib/data";
+import { mvpSiteNavigation, type SiteNavItem } from "@/lib/data";
 import { t } from "@/lib/strings";
 
 type OpenMenu = string | null;
@@ -94,7 +94,7 @@ export default function GlobalNav() {
 
 					{/* Desktop nav */}
 					<div className="hidden items-center gap-6 xl:flex">
-						{siteNavigation.map((item) =>
+						{mvpSiteNavigation.map((item) =>
 							item.children ? (
 								<button
 									key={item.label}
@@ -130,7 +130,7 @@ export default function GlobalNav() {
 				{mobileOpen && (
 					<div className="border-t border-gray-200 bg-white px-[var(--margin-xl)] py-4 xl:hidden">
 						<div className="flex flex-col gap-1">
-							{siteNavigation.map((item) => (
+							{mvpSiteNavigation.map((item) => (
 								<MobileNavItem
 									key={item.label}
 									item={item}
@@ -143,7 +143,7 @@ export default function GlobalNav() {
 				)}
 
 				{/* Desktop mega panels */}
-				{siteNavigation.map(
+				{mvpSiteNavigation.map(
 					(item) =>
 						item.children &&
 						openMenu === item.label && (

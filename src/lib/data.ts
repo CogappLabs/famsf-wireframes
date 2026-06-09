@@ -11,6 +11,8 @@
  * 3. Create `app/(wireframes)/<id>/page.tsx`
  */
 
+import { isPageMvp } from "./scope";
+
 // ── Review status ────────────────────────────────────────────────────
 
 export type ReviewStatus = "wip" | "review" | "with-client" | "approved";
@@ -84,28 +86,12 @@ export const pages: WireframePage[] = [
 		category: "browse",
 	},
 	{
-		id: "collection-area",
-		title: "Collection area",
-		description:
-			"Department landing page: about, highlights, browse options, related content",
-		status: "wip",
-		category: "records",
-	},
-	{
 		id: "artist-search",
 		title: "Artist search",
 		description:
 			"Browse and search the people index (artists, makers, institutions, donors). Name search + A–Z filter. Initials avatars stand in for the ~95% of people without portraits.",
 		status: "wip",
 		category: "records",
-	},
-	{
-		id: "explore",
-		title: "Explore",
-		description:
-			"Curated browse: themes, timeline, discovery prompts, most viewed",
-		status: "wip",
-		category: "browse",
 	},
 	{
 		id: "collector-page",
@@ -164,10 +150,26 @@ export const pages: WireframePage[] = [
 		category: "features",
 	},
 	{
-		id: "departments",
-		title: "Departments",
+		id: "collection-areas",
+		title: "Collection areas",
 		description:
-			"Index of curatorial departments (African Art, European Paintings, Achenbach Foundation, etc.) with object counts. Cards link to /collection-area.",
+			"Landing page: intro text + grid of collection areas (Achenbach Foundation, Ancient Art, European Decorative Arts and Sculpture, etc.) with object counts. Cards link through to the collection-area detail page. ('Department' == 'collection area', CW-30.)",
+		status: "wip",
+		category: "browse",
+	},
+	{
+		id: "collection-area",
+		title: "Collection area (detail)",
+		description:
+			"Detail page for a single collection area, reached from the /collection-areas landing grid: about, highlights, browse options, related content, de Young vs Legion indicator.",
+		status: "wip",
+		category: "browse",
+	},
+	{
+		id: "explore",
+		title: "Explore",
+		description:
+			"Curated browse: themes, timeline, discovery prompts, most viewed",
 		status: "wip",
 		category: "browse",
 	},
@@ -364,34 +366,16 @@ export interface SiteNavItem {
 	children?: SiteNavItem[];
 }
 
+// "Collection areas" is a plain link to the areas landing (intro + grid),
+// not a dropdown: the grid is the index, each card routes to a detail page.
+// "Department" == "collection area" (CW-30), so there's no separate
+// Departments nav item.
 export const siteNavigation: SiteNavItem[] = [
 	{ label: "Explore", href: "/explore" },
 	{ label: "Search", href: "/search-results" },
-	{ label: "Departments", href: "/departments" },
+	{ label: "Collection areas", href: "/collection-areas" },
 	{ label: "Exhibitions", href: "/exhibitions" },
 	{ label: "My finds", href: "/my-finds" },
-	{
-		label: "Collection Areas",
-		href: "/collection-area",
-		children: [
-			{
-				label: "Achenbach Foundation for Graphic Arts",
-				href: "/collection-area",
-			},
-			{ label: "American Art", href: "/collection-area" },
-			{ label: "Arts of Africa", href: "/collection-area" },
-			{ label: "Arts of Oceania", href: "/collection-area" },
-			{ label: "Arts of the Americas", href: "/collection-area" },
-			{ label: "Ancient Art", href: "/collection-area" },
-			{ label: "Contemporary Art", href: "/collection-area" },
-			{ label: "Costume + Textile Arts", href: "/collection-area" },
-			{ label: "European Paintings", href: "/collection-area" },
-			{
-				label: "European Decorative Arts + Sculpture",
-				href: "/collection-area",
-			},
-		],
-	},
 ];
 
 // ── Footer link groups ───────────────────────────────────────────────
@@ -422,3 +406,44 @@ export const footerGroups: FooterGroup[] = [
 		],
 	},
 ];
+
+// ── MVP-only navigation (derived) ────────────────────────────────────
+//
+// The arrays above describe the full intended site. The standalone-site
+// header and footer only surface pages that are in Phase 1 / MVP scope:
+// post-MVP pages (Explore, Exhibitions, My finds, Visit planner,
+// Educational resources) still exist and stay reachable from the wireframe
+// index, but are filtered out of the site chrome so the nav reflects what
+// actually ships. A nav href maps to a page id by stripping the leading "/".
+
+/** Page id for a nav href ("/explore" → "explore"); "" for external/other. */
+function pageIdForHref(href: string): string {
+	if (!href.startsWith("/")) return "";
+	return href.slice(1).split(/[?#]/)[0];
+}
+
+/** Keep a nav href only if it has no backing page (structural link) or its
+ *  backing page is MVP. Unknown ids are treated as MVP (don't hide them). */
+function navHrefIsMvp(href: string): boolean {
+	const id = pageIdForHref(href);
+	if (!id) return true;
+	if (!pages.some((p) => p.id === id)) return true;
+	return isPageMvp(id);
+}
+
+/** siteNavigation filtered to MVP pages (children filtered too). */
+export const mvpSiteNavigation: SiteNavItem[] = siteNavigation
+	.filter((item) => navHrefIsMvp(item.href))
+	.map((item) =>
+		item.children
+			? { ...item, children: item.children.filter((c) => navHrefIsMvp(c.href)) }
+			: item,
+	);
+
+/** footerGroups filtered to MVP links; empty groups dropped. */
+export const mvpFooterGroups: FooterGroup[] = footerGroups
+	.map((group) => ({
+		...group,
+		links: group.links.filter((l) => navHrefIsMvp(l.href)),
+	}))
+	.filter((group) => group.links.length > 0);

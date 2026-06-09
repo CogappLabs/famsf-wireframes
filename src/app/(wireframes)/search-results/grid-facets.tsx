@@ -49,9 +49,13 @@ interface GridFacetSelections {
 	place: PlaceSelection | null;
 	material: MaterialSelection | null;
 	technique: string | null;
+	classification: string | null;
+	department: string | null;
+	gallery: string | null;
 	date: YearRange | null;
 	onView: boolean;
 	hasImage: boolean;
+	openAccess: boolean;
 }
 
 const EMPTY_GRID_SELECTIONS: GridFacetSelections = {
@@ -59,10 +63,21 @@ const EMPTY_GRID_SELECTIONS: GridFacetSelections = {
 	place: null,
 	material: null,
 	technique: null,
+	classification: null,
+	department: null,
+	gallery: null,
 	date: null,
 	onView: false,
 	hasImage: false,
+	openAccess: false,
 };
+
+/** Open access = a public-domain rights type. The grid-facets export carries
+ *  the raw TMS `object_rights_type`; "Public Domain" is the only PD value in
+ *  the slice (others are Copyright / ARS / Requires Further Research). */
+function isOpenAccess(doc: CollectionDocument): boolean {
+	return doc.object_rights_type === "Public Domain";
+}
 
 function docMatchesPlace(
 	doc: CollectionDocument,
@@ -82,22 +97,47 @@ function docMatchesMaterial(
 	);
 }
 
+/** Free-text omnibox match over the fields a visitor is likely to type:
+ *  title, artist, medium, department, classification, accession number. */
+function docMatchesQuery(doc: CollectionDocument, q: string): boolean {
+	if (!q) return true;
+	return [
+		doc.title,
+		doc.primary_artist,
+		doc.primary_artist_display,
+		doc.medium,
+		doc.department,
+		doc.classification,
+		doc.accession_number,
+	]
+		.filter(Boolean)
+		.some((f) => f?.toLowerCase().includes(q));
+}
+
 function filterGridDocs(
 	docs: CollectionDocument[],
 	sel: GridFacetSelections,
+	query = "",
 ): CollectionDocument[] {
+	const q = query.trim().toLowerCase();
 	return docs.filter((d) => {
+		if (!docMatchesQuery(d, q)) return false;
 		if (sel.artist && d.primary_artist !== sel.artist) return false;
 		if (!docMatchesPlace(d, sel.place)) return false;
 		if (!docMatchesMaterial(d, sel.material)) return false;
 		if (sel.technique && !(d.facet_technique ?? []).includes(sel.technique))
 			return false;
+		if (sel.classification && d.classification !== sel.classification)
+			return false;
+		if (sel.department && d.department !== sel.department) return false;
+		if (sel.gallery && d.location_building !== sel.gallery) return false;
 		if (sel.date) {
 			const y = objectYear(d);
 			if (y == null || y < sel.date.min || y > sel.date.max) return false;
 		}
 		if (sel.onView && !d.on_view) return false;
 		if (sel.hasImage && !d.has_image) return false;
+		if (sel.openAccess && !isOpenAccess(d)) return false;
 		return true;
 	});
 }
@@ -161,6 +201,61 @@ function buildYearHistogram(docs: CollectionDocument[]): YearHistogram | null {
 function yearLabel(y: number): string {
 	return y < 0 ? `${Math.abs(y)} BCE` : `${y}`;
 }
+
+// ── Sort (CW-39) ────────────────────────────────────────────────────
+
+const SORT_OPTIONS = [
+	{ key: "relevance", label: "Relevance" },
+	{ key: "title", label: "Title (A–Z)" },
+	{ key: "date", label: "Date (oldest)" },
+	{ key: "artist", label: "Artist (A–Z)" },
+	{ key: "accession", label: "Accession number" },
+] as const;
+
+type SortKey = (typeof SORT_OPTIONS)[number]["key"];
+
+/** Sort a copy of the filtered docs. "relevance" keeps the incoming order
+ *  (the slice's natural order, a stand-in for ES match score). */
+function sortGridDocs(
+	docs: CollectionDocument[],
+	sort: SortKey,
+): CollectionDocument[] {
+	if (sort === "relevance") return docs;
+	const out = [...docs];
+	const cmpStr = (a: string, b: string) =>
+		a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" });
+	switch (sort) {
+		case "title":
+			out.sort((a, b) => cmpStr(a.title || "", b.title || ""));
+			break;
+		case "date":
+			out.sort((a, b) => {
+				const ya = objectYear(a);
+				const yb = objectYear(b);
+				if (ya == null && yb == null) return 0;
+				if (ya == null) return 1;
+				if (yb == null) return -1;
+				return ya - yb;
+			});
+			break;
+		case "artist":
+			out.sort((a, b) =>
+				cmpStr(
+					a.sort_artist || a.primary_artist || "",
+					b.sort_artist || b.primary_artist || "",
+				),
+			);
+			break;
+		case "accession":
+			out.sort((a, b) =>
+				cmpStr(a.accession_number || "", b.accession_number || ""),
+			);
+			break;
+	}
+	return out;
+}
+
+const PAGE_SIZE = 24;
 
 // ── Expandable facet trees (place + material) ───────────────────────
 
@@ -789,25 +884,181 @@ function FacetButton({
 	);
 }
 
+/** Window of page numbers around the current page, with ellipses + first/last
+ *  always shown. Returns entries that are either a page index or an ellipsis. */
+function pageWindow(page: number, pageCount: number): (number | "…")[] {
+	if (pageCount <= 7) return Array.from({ length: pageCount }, (_, i) => i);
+	const out: (number | "…")[] = [0];
+	const lo = Math.max(1, page - 1);
+	const hi = Math.min(pageCount - 2, page + 1);
+	if (lo > 1) out.push("…");
+	for (let i = lo; i <= hi; i++) out.push(i);
+	if (hi < pageCount - 2) out.push("…");
+	out.push(pageCount - 1);
+	return out;
+}
+
+/** Numbered client-side pager. Pages are 0-indexed internally, shown 1-indexed. */
+function Pager({
+	page,
+	pageCount,
+	onPage,
+	total,
+	pageSize,
+}: {
+	page: number;
+	pageCount: number;
+	onPage: (p: number) => void;
+	total: number;
+	pageSize: number;
+}) {
+	if (pageCount <= 1) return null;
+	const from = page * pageSize + 1;
+	const to = Math.min(total, page * pageSize + pageSize);
+	const cell =
+		"min-w-9 border px-3 py-1.5 font-mono text-meta transition-colors";
+	return (
+		<nav
+			aria-label="Pagination"
+			className="mt-8 flex flex-col items-center gap-2"
+		>
+			<div className="flex flex-wrap items-center justify-center gap-1">
+				<button
+					type="button"
+					onClick={() => onPage(page - 1)}
+					disabled={page === 0}
+					className={`${cell} ${page === 0 ? "border-gray-200 text-gray-300" : "border-gray-300 text-gray-700 hover:border-gray-500 hover:bg-gray-50"}`}
+				>
+					← Prev
+				</button>
+				{pageWindow(page, pageCount).map((p, i) =>
+					p === "…" ? (
+						<span
+							// biome-ignore lint/suspicious/noArrayIndexKey: static ellipsis position
+							key={`ellipsis-${i}`}
+							className="px-2 font-mono text-meta text-gray-400"
+						>
+							…
+						</span>
+					) : (
+						<button
+							key={p}
+							type="button"
+							aria-current={p === page ? "page" : undefined}
+							onClick={() => onPage(p)}
+							className={`${cell} ${
+								p === page
+									? "border-gray-900 bg-gray-900 text-white"
+									: "border-gray-300 text-gray-700 hover:border-gray-500 hover:bg-gray-50"
+							}`}
+						>
+							{p + 1}
+						</button>
+					),
+				)}
+				<button
+					type="button"
+					onClick={() => onPage(page + 1)}
+					disabled={page >= pageCount - 1}
+					className={`${cell} ${page >= pageCount - 1 ? "border-gray-200 text-gray-300" : "border-gray-300 text-gray-700 hover:border-gray-500 hover:bg-gray-50"}`}
+				>
+					Next →
+				</button>
+			</div>
+			<p className="font-mono text-label text-gray-500">
+				{from.toLocaleString()}–{to.toLocaleString()} of{" "}
+				{total.toLocaleString()}
+			</p>
+		</nav>
+	);
+}
+
+/** Seed a single facet selection from an autocomplete pick (`?facet=type:value`).
+ *  Flat facets map straight across; place/material are tiered, so we locate the
+ *  tier the value sits at by scanning the docs. Returns a partial selection. */
+function seedSelectionFromFacet(
+	docs: CollectionDocument[],
+	facetType: string,
+	value: string,
+): Partial<GridFacetSelections> | null {
+	switch (facetType) {
+		case "primary_artist":
+		case "artist":
+			return { artist: value };
+		case "technique":
+			return { technique: value };
+		case "classification":
+			return { classification: value };
+		case "department":
+			return { department: value };
+		case "gallery":
+			return { gallery: value };
+		case "place": {
+			for (const d of docs) {
+				for (const p of d.facet_place ?? []) {
+					for (const level of PLACE_LEVELS) {
+						if (p[level] === value) return { place: { level, value } };
+					}
+				}
+			}
+			return null;
+		}
+		case "material": {
+			for (const d of docs) {
+				for (const m of d.facet_material ?? []) {
+					for (const level of MATERIAL_LEVELS) {
+						if (m[level] === value) return { material: { level, value } };
+					}
+				}
+			}
+			return null;
+		}
+		default:
+			return null;
+	}
+}
+
 export function GridFacetsView({
 	docs,
 	getHref,
 	layout = "inline",
+	query = "",
+	seedFacet = "",
 }: {
 	docs: CollectionDocument[];
 	getHref: (id: number) => string;
 	/** "inline" renders each facet expanded in the left column; "modal"
 	 *  renders a button per facet that opens the same control in a dialog. */
 	layout?: "inline" | "modal";
+	/** Free-text omnibox query (from ?q=); filters docs alongside the facets. */
+	query?: string;
+	/** Autocomplete facet pick (raw `?facet=type:value`); seeds a selection. */
+	seedFacet?: string;
 }) {
 	const [sel, setSel] = useState<GridFacetSelections>(EMPTY_GRID_SELECTIONS);
 	const [openFacet, setOpenFacet] = useState<string | null>(null);
+	const [sort, setSort] = useState<SortKey>("relevance");
+	const [page, setPage] = useState(0);
 	const [placeExpanded, setPlaceExpanded] = useState<Set<string>>(new Set());
 	const [placeSearch, setPlaceSearch] = useState("");
 	const [materialExpanded, setMaterialExpanded] = useState<Set<string>>(
 		new Set(),
 	);
 	const [materialSearch, setMaterialSearch] = useState("");
+
+	// Seed a selection from an autocomplete facet pick (?facet=type:value).
+	// Runs when the seed string changes (a new pick), not on every render.
+	// biome-ignore lint/correctness/useExhaustiveDependencies: seed only on ?facet= change
+	useEffect(() => {
+		if (!seedFacet) return;
+		const idx = seedFacet.indexOf(":");
+		if (idx < 0) return;
+		const facetType = seedFacet.slice(0, idx);
+		const value = seedFacet.slice(idx + 1);
+		if (!facetType || !value) return;
+		const seed = seedSelectionFromFacet(docs, facetType, value);
+		if (seed) setSel((prev) => ({ ...prev, ...seed }));
+	}, [seedFacet]);
 
 	const setArtist = (value: string | null) => {
 		setSel((prev) => ({
@@ -821,10 +1072,28 @@ export function GridFacetsView({
 			technique: prev.technique === value ? null : value,
 		}));
 	};
+	const setClassification = (value: string | null) => {
+		setSel((prev) => ({
+			...prev,
+			classification: prev.classification === value ? null : value,
+		}));
+	};
+	const setDepartment = (value: string | null) => {
+		setSel((prev) => ({
+			...prev,
+			department: prev.department === value ? null : value,
+		}));
+	};
+	const setGallery = (value: string | null) => {
+		setSel((prev) => ({
+			...prev,
+			gallery: prev.gallery === value ? null : value,
+		}));
+	};
 	const setDate = (range: YearRange | null) => {
 		setSel((prev) => ({ ...prev, date: range }));
 	};
-	const toggleFlag = (key: "onView" | "hasImage") => {
+	const toggleFlag = (key: "onView" | "hasImage" | "openAccess") => {
 		setSel((prev) => ({ ...prev, [key]: !prev[key] }));
 	};
 	const selectPlace = (next: TierSelection) => {
@@ -854,36 +1123,83 @@ export function GridFacetsView({
 	const togglePlace = makeToggle(setPlaceExpanded);
 	const toggleMaterial = makeToggle(setMaterialExpanded);
 
-	const matches = useMemo(() => filterGridDocs(docs, sel), [docs, sel]);
+	const matches = useMemo(
+		() => filterGridDocs(docs, sel, query),
+		[docs, sel, query],
+	);
+	const sortedMatches = useMemo(
+		() => sortGridDocs(matches, sort),
+		[matches, sort],
+	);
+
+	const pageCount = Math.max(1, Math.ceil(sortedMatches.length / PAGE_SIZE));
+	// Reset to the first page whenever the result set or sort changes.
+	// biome-ignore lint/correctness/useExhaustiveDependencies: page resets on result/sort change
+	useEffect(() => {
+		setPage(0);
+	}, [sel, query, sort]);
+	const safePage = Math.min(page, pageCount - 1);
+	const pageItems = sortedMatches.slice(
+		safePage * PAGE_SIZE,
+		safePage * PAGE_SIZE + PAGE_SIZE,
+	);
 
 	// Each tree reflects every value consistent with the OTHER facets'
-	// selections, so the hierarchy stays browsable while one is selected.
+	// selections (and the active query), so the hierarchy stays browsable
+	// while one is selected.
 	const placeTree = useMemo(
-		() => buildPlaceTree(filterGridDocs(docs, { ...sel, place: null })),
-		[docs, sel],
+		() => buildPlaceTree(filterGridDocs(docs, { ...sel, place: null }, query)),
+		[docs, sel, query],
 	);
 	const materialTree = useMemo(
-		() => buildMaterialTree(filterGridDocs(docs, { ...sel, material: null })),
-		[docs, sel],
+		() =>
+			buildMaterialTree(
+				filterGridDocs(docs, { ...sel, material: null }, query),
+			),
+		[docs, sel, query],
 	);
 	const artistOpts = useMemo(
 		() =>
-			countFlat(filterGridDocs(docs, { ...sel, artist: null }), (d) =>
+			countFlat(filterGridDocs(docs, { ...sel, artist: null }, query), (d) =>
 				d.primary_artist ? [d.primary_artist] : [],
 			),
-		[docs, sel],
+		[docs, sel, query],
 	);
 	const techniqueOpts = useMemo(
 		() =>
 			countFlat(
-				filterGridDocs(docs, { ...sel, technique: null }),
+				filterGridDocs(docs, { ...sel, technique: null }, query),
 				(d) => d.facet_technique,
 			),
-		[docs, sel],
+		[docs, sel, query],
+	);
+	const classificationOpts = useMemo(
+		() =>
+			countFlat(
+				filterGridDocs(docs, { ...sel, classification: null }, query),
+				(d) => (d.classification ? [d.classification] : []),
+			),
+		[docs, sel, query],
+	);
+	const departmentOpts = useMemo(
+		() =>
+			countFlat(
+				filterGridDocs(docs, { ...sel, department: null }, query),
+				(d) => (d.department ? [d.department] : []),
+			),
+		[docs, sel, query],
+	);
+	const galleryOpts = useMemo(
+		() =>
+			countFlat(filterGridDocs(docs, { ...sel, gallery: null }, query), (d) =>
+				d.location_building ? [d.location_building] : [],
+			),
+		[docs, sel, query],
 	);
 	const dateHistogram = useMemo(
-		() => buildYearHistogram(filterGridDocs(docs, { ...sel, date: null })),
-		[docs, sel],
+		() =>
+			buildYearHistogram(filterGridDocs(docs, { ...sel, date: null }, query)),
+		[docs, sel, query],
 	);
 
 	const placeChipLabel = sel.place
@@ -897,9 +1213,13 @@ export function GridFacetsView({
 		Boolean(sel.place) ||
 		Boolean(sel.material) ||
 		Boolean(sel.technique) ||
+		Boolean(sel.classification) ||
+		Boolean(sel.department) ||
+		Boolean(sel.gallery) ||
 		Boolean(sel.date) ||
 		sel.onView ||
-		sel.hasImage;
+		sel.hasImage ||
+		sel.openAccess;
 
 	// One descriptor per facet: its control (shared by both layouts) and how
 	// many selections are active (for the modal-layout button badge).
@@ -972,6 +1292,48 @@ export function GridFacetsView({
 			),
 		},
 		{
+			id: "classification",
+			label: "Classification",
+			activeCount: sel.classification ? 1 : 0,
+			control: (
+				<FacetBlock
+					label="Classification"
+					options={classificationOpts}
+					selected={sel.classification}
+					onSelect={setClassification}
+					scopeLabel="Flat classification facet (TMS Classification)"
+				/>
+			),
+		},
+		{
+			id: "department",
+			label: "Department",
+			activeCount: sel.department ? 1 : 0,
+			control: (
+				<FacetBlock
+					label="Department"
+					options={departmentOpts}
+					selected={sel.department}
+					onSelect={setDepartment}
+					scopeLabel="Flat department facet (collection area)"
+				/>
+			),
+		},
+		{
+			id: "gallery",
+			label: "Gallery",
+			activeCount: sel.gallery ? 1 : 0,
+			control: (
+				<FacetBlock
+					label="Gallery"
+					options={galleryOpts}
+					selected={sel.gallery}
+					onSelect={setGallery}
+					scopeLabel="Flat gallery / building facet (location_building)"
+				/>
+			),
+		},
+		{
 			id: "date",
 			label: "Date",
 			activeCount: sel.date ? 1 : 0,
@@ -991,37 +1353,35 @@ export function GridFacetsView({
 	];
 	const activePanel = panels.find((p) => p.id === openFacet);
 
-	// On view + Has image toggle buttons. In the inline layout they sit in a
-	// full-width row under the search; in the modal layout they go at the top
-	// of the left column, above the facet buttons.
+	// On view / Has image / Open access toggles. Rendered as one segmented
+	// pill group (shared border, no gaps) so the three read as a single
+	// "quick filters" control rather than three loose buttons.
+	const TOGGLES = [
+		["onView", "On view", sel.onView],
+		["hasImage", "Has image", sel.hasImage],
+		["openAccess", "Open access", sel.openAccess],
+	] as const;
 	const toggleButtons = (
-		[
-			["onView", "On view", sel.onView],
-			["hasImage", "Has image", sel.hasImage],
-		] as const
-	).map(([key, label, on]) => (
-		<button
-			key={key}
-			type="button"
-			aria-pressed={on}
-			onClick={() => toggleFlag(key)}
-			className={`flex items-center gap-2 border px-3 py-1.5 font-mono text-meta transition-colors ${
-				on
-					? "border-gray-900 bg-gray-900 text-white"
-					: "border-gray-300 text-gray-700 hover:border-gray-500"
-			}`}
-		>
-			<span
-				aria-hidden
-				className={`flex h-4 w-4 shrink-0 items-center justify-center border text-[11px] leading-none ${
-					on ? "border-white" : "border-gray-500 bg-white"
-				}`}
-			>
-				{on ? "✓" : ""}
-			</span>
-			{label}
-		</button>
-	));
+		<fieldset className="inline-flex divide-x divide-gray-300 overflow-hidden border border-gray-300 p-0">
+			<legend className="sr-only">Quick filters</legend>
+			{TOGGLES.map(([key, label, on]) => (
+				<button
+					key={key}
+					type="button"
+					aria-pressed={on}
+					onClick={() => toggleFlag(key)}
+					className={`flex items-center gap-1.5 px-3 py-1.5 font-mono text-meta transition-colors ${
+						on
+							? "bg-gray-900 text-white"
+							: "bg-white text-gray-700 hover:bg-gray-50"
+					}`}
+				>
+					<span aria-hidden>{on ? "✓" : "+"}</span>
+					{label}
+				</button>
+			))}
+		</fieldset>
+	);
 
 	return (
 		<ScopeMark label="Real-data faceted browse (grid + left column)">
@@ -1103,12 +1463,34 @@ export function GridFacetsView({
 
 				{/* Results */}
 				<div className="min-w-0 flex-1">
-					{/* min-height matches a filter chip so the grid doesn't shift
-					    down when the first chip appears. */}
-					<div className="mb-4 flex min-h-9 flex-wrap items-center gap-2">
+					{/* Count + sort row. min-height reserved so the grid doesn't
+					    shift when the count text changes width. */}
+					<div className="mb-4 flex min-h-9 flex-wrap items-center justify-between gap-3 border-b border-gray-200 pb-3">
 						<span className="font-mono text-body font-medium">
 							{matches.length.toLocaleString()} result
 							{matches.length === 1 ? "" : "s"}
+							{query ? ` for “${query}”` : ""}
+						</span>
+						<label className="flex items-center gap-2 font-mono text-label text-gray-500">
+							Sort
+							<select
+								value={sort}
+								onChange={(e) => setSort(e.target.value as SortKey)}
+								className="border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
+							>
+								{SORT_OPTIONS.map((o) => (
+									<option key={o.key} value={o.key}>
+										{o.label}
+									</option>
+								))}
+							</select>
+						</label>
+					</div>
+
+					{/* Active-filter chips */}
+					<div className="mb-4 flex min-h-9 flex-wrap items-center gap-2">
+						<span className="font-mono text-label text-gray-500">
+							{anyActive ? "Active filters:" : " "}
 						</span>
 						{sel.artist && (
 							<button
@@ -1150,6 +1532,36 @@ export function GridFacetsView({
 								<span>×</span>
 							</button>
 						)}
+						{sel.classification && (
+							<button
+								type="button"
+								onClick={() => setClassification(null)}
+								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+							>
+								<span>Classification: {sel.classification}</span>
+								<span>×</span>
+							</button>
+						)}
+						{sel.department && (
+							<button
+								type="button"
+								onClick={() => setDepartment(null)}
+								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+							>
+								<span>Department: {sel.department}</span>
+								<span>×</span>
+							</button>
+						)}
+						{sel.gallery && (
+							<button
+								type="button"
+								onClick={() => setGallery(null)}
+								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+							>
+								<span>Gallery: {sel.gallery}</span>
+								<span>×</span>
+							</button>
+						)}
 						{sel.date && (
 							<button
 								type="button"
@@ -1182,17 +1594,34 @@ export function GridFacetsView({
 								<span>×</span>
 							</button>
 						)}
+						{sel.openAccess && (
+							<button
+								type="button"
+								onClick={() => toggleFlag("openAccess")}
+								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+							>
+								<span>Open access</span>
+								<span>×</span>
+							</button>
+						)}
 					</div>
 
 					{matches.length > 0 ? (
-						<ResultsGrid
-							items={matches.slice(0, 48)}
-							getHref={getHref}
-							columns={3}
-						/>
+						<>
+							<ResultsGrid items={pageItems} getHref={getHref} columns={3} />
+							<Pager
+								page={safePage}
+								pageCount={pageCount}
+								onPage={setPage}
+								total={sortedMatches.length}
+								pageSize={PAGE_SIZE}
+							/>
+						</>
 					) : (
 						<div className="border border-dashed border-gray-300 px-4 py-10 text-center font-mono text-meta text-gray-500">
-							No objects match these filters. Clear one to broaden.
+							{query
+								? `No objects match “${query}” with these filters. Clear a filter or the search to broaden.`
+								: "No objects match these filters. Clear one to broaden."}
 						</div>
 					)}
 				</div>

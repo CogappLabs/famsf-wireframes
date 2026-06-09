@@ -74,10 +74,13 @@ export function deriveArtists(docs: CollectionDocument[]): ArtistRecord[] {
 		.sort((a, b) => b.workCount - a.workCount);
 }
 
+// grid-facets-modal is the primary search view (Phase 1 target): it's first,
+// so bare /search-results loads it. The other entries stay as design
+// alternatives behind ?variation=.
 export const VIEW_VARIATIONS = [
-	{ key: "grid", label: "Grid" },
-	{ key: "grid-facets", label: "Grid + facets" },
 	{ key: "grid-facets-modal", label: "Grid + facet modals" },
+	{ key: "grid-facets", label: "Grid + facets" },
+	{ key: "grid", label: "Grid" },
 	{ key: "list", label: "List" },
 	{ key: "zero-results", label: "Zero results" },
 	{ key: "ai-search", label: "AI search" },
@@ -231,6 +234,102 @@ function SearchResultsContent({
 		}
 		return out;
 	}, [docs]);
+
+	// Autocomplete data for the grid-facets variations. The omnibox only
+	// suggests the facets that actually appear on that page (Artist, Place,
+	// Material, Technique, Classification, Department, Gallery), counted over
+	// the same ~600-doc slice the page filters — so a suggestion never offers a
+	// facet the page can't honour. Hits come from the slice too.
+	const gridFacetsHits = useMemo(
+		() =>
+			gridFacetsDocs.map((d) => ({
+				id: String(d.id),
+				title: d.title || d.accession_number,
+				artist: d.primary_artist_display || d.primary_artist || "",
+				date: d.display_date || d.display_year || "",
+				department: d.department || "",
+				slug: objectSlugById[d.id],
+			})),
+		[gridFacetsDocs, objectSlugById],
+	);
+
+	const gridFacetsAutocompleteFacets = useMemo(() => {
+		const buckets: {
+			facetType: string;
+			facetLabel: string;
+			get: (d: CollectionDocument) => string[];
+		}[] = [
+			{
+				facetType: "primary_artist",
+				facetLabel: "Artist",
+				get: (d) => (d.primary_artist ? [d.primary_artist] : []),
+			},
+			{
+				facetType: "place",
+				facetLabel: "Place",
+				get: (d) =>
+					(d.facet_place ?? []).flatMap((p) =>
+						[p.region, p.country, p.state, p.notable].filter((v): v is string =>
+							Boolean(v),
+						),
+					),
+			},
+			{
+				facetType: "material",
+				facetLabel: "Material",
+				get: (d) =>
+					(d.facet_material ?? []).flatMap((m) =>
+						[m.parent, m.specific].filter((v): v is string => Boolean(v)),
+					),
+			},
+			{
+				facetType: "technique",
+				facetLabel: "Technique",
+				get: (d) => d.facet_technique ?? [],
+			},
+			{
+				facetType: "classification",
+				facetLabel: "Classification",
+				get: (d) => (d.classification ? [d.classification] : []),
+			},
+			{
+				facetType: "department",
+				facetLabel: "Department",
+				get: (d) => (d.department ? [d.department] : []),
+			},
+			{
+				facetType: "gallery",
+				facetLabel: "Gallery",
+				get: (d) => (d.location_building ? [d.location_building] : []),
+			},
+		];
+		const out: {
+			facetType: string;
+			facetLabel: string;
+			value: string;
+			count: number;
+		}[] = [];
+		for (const b of buckets) {
+			const counts = new Map<string, number>();
+			for (const d of gridFacetsDocs) {
+				for (const v of new Set(b.get(d))) {
+					counts.set(v, (counts.get(v) ?? 0) + 1);
+				}
+			}
+			for (const [value, count] of counts) {
+				out.push({
+					facetType: b.facetType,
+					facetLabel: b.facetLabel,
+					value,
+					count,
+				});
+			}
+		}
+		return out;
+	}, [gridFacetsDocs]);
+
+	const isGridFacets =
+		variation === "grid-facets" || variation === "grid-facets-modal";
 
 	const { queryObjects, queryArtists } = useMemo(() => {
 		if (!query) return { queryObjects: docs, queryArtists: allArtists };
@@ -415,8 +514,12 @@ function SearchResultsContent({
 							</ScopeMark>
 						) : (
 							<CollectionAutocomplete
-								hits={autocompleteHits}
-								facets={autocompleteFacets}
+								hits={isGridFacets ? gridFacetsHits : autocompleteHits}
+								facets={
+									isGridFacets
+										? gridFacetsAutocompleteFacets
+										: autocompleteFacets
+								}
 							/>
 						)}
 						{variation === "ai-search" && searchMode === "visual" && (
@@ -454,6 +557,8 @@ function SearchResultsContent({
 								docs={gridFacetsDocs}
 								getHref={objectHref}
 								layout={variation === "grid-facets-modal" ? "modal" : "inline"}
+								query={query}
+								seedFacet={urlFacet}
 							/>
 						</WireframeSection>
 					</Container>

@@ -10,7 +10,7 @@ import GlobalNav from "@/components/wireframe/GlobalNav";
 import ScopeToggle from "@/components/wireframe/ScopeToggle";
 import { MvpBadge, StatusBadge } from "@/components/wireframe/StatusBadge";
 import VariationToggle from "@/components/wireframe/VariationToggle";
-import { footerGroups, pages } from "@/lib/data";
+import { mvpFooterGroups, pages } from "@/lib/data";
 import { isPageMvp } from "@/lib/scope";
 import { t } from "@/lib/strings";
 import { useVariationContext } from "@/providers/VariationProvider";
@@ -125,7 +125,7 @@ export default function WireframeLayout({
 						</div>
 
 						{/* Link groups */}
-						{footerGroups.map((group) => (
+						{mvpFooterGroups.map((group) => (
 							<div key={group.heading}>
 								<p className="mb-2 font-mono text-label text-gray-500">
 									{group.heading}

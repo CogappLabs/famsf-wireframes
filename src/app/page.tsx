@@ -111,7 +111,7 @@ export default function WireframeIndex() {
 				})}
 			</div>
 
-			{prototypes.length > 0 && (
+			{!mvpOnly && prototypes.length > 0 && (
 				<div className="mt-16 border-t border-gray-200 pt-10">
 					<h2 className="mb-1 font-mono text-label tracking-[0.08em] text-purple-500">
 						{t("index.prototypesHeading")}

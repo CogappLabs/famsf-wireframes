@@ -32,8 +32,8 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Editorial vanity metrics: not contracted, not load-bearing for search/discovery",
 	},
 	"collection-landing/Dual pathways": {
-		mvp: true,
-		note: "Explore vs Search entry points",
+		mvp: false,
+		note: "Explore vs Search entry points. Deferred in the lean-MVP homepage pass (2026-06-09): Explore itself is post-MVP, so the dual split adds a non-MVP route. MVP homepage leads with the search bar.",
 		issueUrl: issue("CW-27"),
 	},
 	"collection-landing/Search bar": {
@@ -43,21 +43,22 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"collection-landing/Basic filters": {
 		mvp: true,
-		note: "Inline filter chips (Highlights / Open access / On view / Has image / Popular) per FAMSF feedback May 2026; promote selected facets from Advanced",
+		note: "Inline filter chips promoting selected facets from Advanced. Lean-MVP homepage pass (2026-06-09) trimmed to Open access + On view; dropped Highlights (no editorial owner), Has image (not a useful entry filter), Popular (needs analytics).",
 		issueUrl: issue("CW-36"),
 	},
 	"collection-landing/More ways in": {
-		mvp: true,
-		note: "Additional entry points (recently added, open access, by medium, by place, by era) beyond highlights / area / topic per FAMSF feedback May 2026",
+		mvp: false,
+		note: "Additional entry points (recently added, open access, by medium, by place, by era). Deferred in the lean-MVP homepage pass (2026-06-09): overlaps the search filter chips; defer to keep the launch homepage short.",
 		issueUrl: issue("CW-27"),
 	},
 	"collection-landing/Browse by area": {
-		mvp: true,
+		mvp: false,
+		note: "Department grid + browse-by-type. Deferred in the lean-MVP homepage pass (2026-06-09): the same browse path lives in search facets (Department) and the Collection Areas nav. MVP homepage leads with search.",
 		issueUrl: issue("CW-27"),
 	},
 	"collection-landing/Highlights": {
-		mvp: true,
-		note: "Curated selection, needs editorial ownership",
+		mvp: false,
+		note: "Curated selection, needs editorial ownership. Deferred in the lean-MVP homepage pass (2026-06-09): no editorial owner at launch; defer to keep the homepage short.",
 		issueUrl: issue("CW-27"),
 	},
 	"collection-landing/What to see": {
@@ -75,7 +76,17 @@ export const scope: Record<string, ScopeEntry> = {
 	"search-results/Search bar": { mvp: true, issueUrl: issue("CW-37") },
 	"search-results/Zero results": {
 		mvp: true,
-		note: "Did-you-mean prompt + tips + popular searches + featured fallback. Avoid dead-end. Landscape synthesis: universal failure across 10 audited museums; only V&A solves it.",
+		note: "Phase 1 (CW-44, reduced complexity): empty state with clear-filters prompt + search tips + curated featured fallback. Avoid dead-end. Landscape synthesis: universal failure across 10 audited museums; only V&A solves it.",
+		issueUrl: issue("CW-44"),
+	},
+	"search-results/Did you mean": {
+		mvp: false,
+		note: "Deferred from Phase 1 per CW-44: spell-suggestion / did-you-mean needs ES suggester tuning. Phase 1 ships tips + clear-filters + curated fallback instead.",
+		issueUrl: issue("CW-44"),
+	},
+	"search-results/Popular searches": {
+		mvp: false,
+		note: "Deferred from Phase 1 per CW-44: a popular-searches list needs analytics data not available at launch. Curated featured fallback covers the recovery path in Phase 1.",
 		issueUrl: issue("CW-44"),
 	},
 	"search-results/Open access download icon": {
@@ -202,10 +213,12 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 
 	// ── Artist search / index ──────────────────────────────────────────
-	// Deferred from Phase 1 per Cogapp deferral candidates (2026-06-09):
-	// depends on the constituents index (CW-124) + constituents pipeline
+	// Not MVP. The Master Discovery Summary listed Artist pages (CW-31) under
+	// Phase 1 with an explicit "potential to downlevel to Phase 2 if needed"
+	// escape hatch; that downlevel is now confirmed taken (2026-06-09). They
+	// depend on the constituents index (CW-124) + constituents pipeline
 	// (CW-105), both unfinished. Hyperlinked artist names (CW-47) link to a
-	// filtered search in Phase 1 instead. Doc itself pre-flags as downlevel.
+	// filtered search in Phase 1 instead.
 	"artist-search/Search bar": {
 		mvp: false,
 		note: "Name search across artists (no images: most constituents lack portraits). Deferred: depends on unfinished constituents index (CW-124) + pipeline (CW-105).",
@@ -273,13 +286,17 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 
 	// ── Portfolio / Parent-Child ────────────────────────────────────────
+	// Not MVP (2026-06-09). The Phase 1 parent-child requirement (CW-32:
+	// parent metadata + flat child list) is carried by the `parent-record`
+	// page below. This richer portfolio page (sequential browser, related
+	// works) is the post-MVP version of the same surface.
 	"portfolio-detail/Parent record": {
-		mvp: true,
-		note: "Critical for Achenbach: portfolios, books, multi-part works",
+		mvp: false,
+		note: "Portfolio parent view. Post-MVP: the Phase 1 parent-child display (CW-32, parent + flat child list) is covered by the parent-record page. Achenbach-critical but this elaborated version is deferred.",
 		issueUrl: issue("CW-32"),
 	},
 	"portfolio-detail/Child records": {
-		mvp: true,
+		mvp: false,
 		issueUrl: issue("CW-32"),
 	},
 	"portfolio-detail/Sequential browser": {
@@ -294,14 +311,18 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 
 	// ── Parent Record (Ensemble / Series) ───────────────────────────────
+	// Not MVP as a standalone page (2026-06-09). Phase 1 parent-child display
+	// (CW-32) happens ON the artwork page (objects/sample: Parent record +
+	// Child records sections), not a dedicated parent-record route. These
+	// entries describe the post-MVP standalone-page treatment.
 	"parent-record/Header": {
-		mvp: true,
-		note: "Ensemble + Series parents: Rodin Gates of Hell, Goya Caprichos, photographic series",
+		mvp: false,
+		note: "Standalone ensemble/series parent page (Rodin Gates of Hell, Goya Caprichos). Post-MVP: Phase 1 shows parent-child inline on the artwork page (CW-32), not a special page.",
 		issueUrl: issue("CW-32"),
 	},
 	"parent-record/Components": {
-		mvp: true,
-		note: "Child records: link to individual object detail pages",
+		mvp: false,
+		note: "Child-record list on the standalone parent page. Post-MVP: the Phase 1 flat child list lives on the artwork page itself.",
 		issueUrl: issue("CW-32"),
 	},
 	"parent-record/Essay": { mvp: false, issueUrl: issue("CW-32") },
@@ -324,12 +345,15 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 	"image-orders/Request form": { mvp: false },
 
-	// ── Departments index ───────────────────────────────────────────────
-	"departments/Header": {
+	// ── Collection areas index ──────────────────────────────────────────
+	// Landing page (intro + grid) for the curatorial collection areas; cards
+	// link to the collection-area detail page. ("Department" == "collection
+	// area", CW-30; the public-facing term is "collection area".)
+	"collection-areas/Header": {
 		mvp: true,
-		note: "Curatorial-department listing per FAMSF feedback May 2026",
+		note: "Collection-areas landing: intro + grid of areas per FAMSF feedback May 2026",
 	},
-	"departments/Listing": { mvp: true },
+	"collection-areas/Listing": { mvp: true },
 
 	// ── Exhibitions index ───────────────────────────────────────────────
 	"exhibitions/Header": {
@@ -527,18 +551,83 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 
 	// ── Sample objects (real ETL data) ─────────────────────────────────
-	"objects/sample/Image": { mvp: true },
-	"objects/sample/Tombstone": { mvp: true },
-	"objects/sample/Description": { mvp: true },
-	"objects/sample/Constituents": { mvp: true },
-	"objects/sample/Dimensions": { mvp: true },
-	"objects/sample/Exhibitions": { mvp: true },
-	"objects/sample/Provenance": { mvp: true },
+	// Object-detail tickets per the Master Discovery Summary: tombstone fields
+	// CW-49, multi-view gallery CW-46 + IIIF zoom CW-45, web/label text CW-49,
+	// provenance CW-50, exhibitions CW-51, bibliography CW-68.
+	"objects/sample/Jump-to navigation": {
+		mvp: true,
+		note: "In-page anchor navigation across the object record's sections.",
+		issueUrl: issue("CW-48"),
+	},
+	"objects/sample/Image": {
+		mvp: true,
+		note: "Multi-view image gallery + IIIF deep-zoom viewer.",
+		issueUrl: issue("CW-46"),
+	},
+	"objects/sample/Tombstone": {
+		mvp: true,
+		note: "Level-1 tombstone fields (title, medium, maker, date, dimensions, geography, credit, accession, etc.).",
+		issueUrl: issue("CW-49"),
+	},
+	"objects/sample/Description": {
+		mvp: true,
+		note: "Web text / intro description (label copy as default).",
+		issueUrl: issue("CW-49"),
+	},
+	"objects/sample/People": {
+		mvp: true,
+		note: "People + organisations (makers, cultures): name + role + uncertainty qualifier, display bio.",
+		issueUrl: issue("CW-49"),
+	},
+	"objects/sample/Dimensions": {
+		mvp: true,
+		note: "Dimensions (Level-1 tombstone field).",
+		issueUrl: issue("CW-49"),
+	},
+	"objects/sample/Exhibitions": {
+		mvp: true,
+		note: "Exhibition history display (raw text block in Phase 1; structured array deferred CW-139).",
+		issueUrl: issue("CW-51"),
+	},
+	"objects/sample/Exhibition history text": {
+		mvp: true,
+		note: "Collapsible raw curator exhibition-history text under the structured rows (the Phase 1 raw-block render).",
+		issueUrl: issue("CW-51"),
+	},
+	"objects/sample/Provenance": {
+		mvp: true,
+		note: "Provenance display (raw text block in Phase 1; structured parsing deferred CW-140).",
+		issueUrl: issue("CW-50"),
+	},
+	"objects/sample/Provenance text": {
+		mvp: true,
+		note: "Collapsible raw curator provenance text, shown under the structured lines when a structured payload exists.",
+		issueUrl: issue("CW-50"),
+	},
+	"objects/sample/Bibliography text": {
+		mvp: true,
+		note: "Collapsible raw curator bibliography text under the reformatted list (the Phase 1 raw-block render).",
+		issueUrl: issue("CW-68"),
+	},
+	// Parent-child (CW-32) is a Phase 1 requirement shown inline on the artwork
+	// page: parent shows its metadata + a flat list of children (each linking
+	// to its own page); a child links back to its parent. The standalone
+	// portfolio-detail / parent-record pages are the post-MVP elaboration.
+	"objects/sample/Parent record": {
+		mvp: true,
+		note: "Phase 1 parent-child (CW-32): a child object links back to its parent inline on the artwork page. Achenbach-critical.",
+		issueUrl: issue("CW-32"),
+	},
+	"objects/sample/Child records": {
+		mvp: true,
+		note: "Phase 1 parent-child (CW-32): a parent object shows a flat list of its children inline, each linking to its own page. Deferred: sequential page-by-page browser, nested hierarchies.",
+		issueUrl: issue("CW-32"),
+	},
 
 	// ── Constituent (artist / institution) page ─────────────────────────
-	// Deferred from Phase 1 (CW-31) per Cogapp deferral candidates
-	// (2026-06-09): depends on constituents index (CW-124) + pipeline
-	// (CW-105), both unfinished.
+	// Not MVP. Confirmed downlevel of Artist pages (CW-31) from Phase 1 to
+	// Phase 2 (2026-06-09; the Master Discovery Summary allowed this). Depends
+	// on constituents index (CW-124) + pipeline (CW-105), both unfinished.
 	"constituents/sample/Tombstone": { mvp: false, issueUrl: issue("CW-31") },
 	"constituents/sample/Biography": { mvp: false, issueUrl: issue("CW-31") },
 	"constituents/sample/Roles & alternative names": {
@@ -553,8 +642,17 @@ export const scope: Record<string, ScopeEntry> = {
 
 	"objects/sample/Audio guide": {
 		mvp: true,
-		note: "Phase 1 per FAMSF Discovery Summary (2026-06-08, Object Detail). Lighter-lift player; audio recordings + transcripts not in TMS yet, data source TBD (separate Craft entries, Bloomberg Connects, or TMS UserField pointing at S3).",
+		note: "Phase 1 (CW-66, lighter-lift player). Audio + transcripts not in TMS yet; data source TBD.",
 		issueUrl: issue("CW-66"),
+	},
+	"objects/sample/Scale": {
+		mvp: false,
+		note: "Scale diagram (human + banana + object on a shared baseline). Post-MVP: nice-to-have visualisation, not a Phase 1 tombstone field. Dimensions themselves are MVP.",
+	},
+	"objects/sample/Rights & citation": {
+		mvp: true,
+		note: "Phase 1 (CW-52): rights statement + clickable icon, copyright, credit line + citation generator with copy-to-clipboard.",
+		issueUrl: issue("CW-52"),
 	},
 };
 

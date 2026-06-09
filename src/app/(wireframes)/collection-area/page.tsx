@@ -73,7 +73,7 @@ export default function CollectionAreaPage() {
 					<Container>
 						<div className="mb-2">
 							<Link
-								href="/collection-landing"
+								href="/collection-areas"
 								className="font-mono text-meta text-gray-500 underline hover:text-gray-600"
 							>
 								&larr; {t("area.backToCollection")}

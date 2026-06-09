@@ -3,10 +3,8 @@ import { notFound } from "next/navigation";
 import {
 	BibliographyText,
 	Breadcrumb,
-	CitationBlock,
 	Container,
 	ExhibitionRow,
-	ImagePlaceholder,
 	ProvenanceText,
 	ScopeMark,
 	SectionLabel,
@@ -17,18 +15,22 @@ import {
 import FieldSourceBadge from "@/components/wireframe/FieldSourceBadge";
 import JumpToNav from "@/components/wireframe/JumpToNav";
 import {
+	ChildRecordsSection,
+	ImageSection,
 	RelatedWorksSection,
+	RightsCitationSection,
 	ScaleDiagram,
 	VisuallySimilarGrid,
 } from "@/components/wireframe/object-detail";
 import TomatoEasterEgg from "@/components/wireframe/TomatoEasterEgg";
-import { allMedia, iiifImageUrl } from "@/lib/collection-document";
+import { allMedia } from "@/lib/collection-document";
 import { constituentSlugById } from "@/lib/constituent-samples-registry";
 import {
 	findSampleBySlug,
 	loadSampleDocs,
 	objectSlugById,
 } from "@/lib/sample-docs-registry";
+import { t } from "@/lib/strings";
 import { normaliseDateRange, normaliseTitle } from "@/lib/text-format";
 import { ScopePage } from "@/providers/ScopeProvider";
 
@@ -209,12 +211,7 @@ export default async function SampleObjectPage({ params }: Props) {
 	const hasExhibitions = doc.exhibitions.length > 0;
 	const physicalChildIds = doc.physical_child_ids ?? [];
 	const virtualChildIds = doc.virtual_child_ids ?? [];
-	const hasChildIds = physicalChildIds.length > 0 || virtualChildIds.length > 0;
 	const childCards = doc.child_cards ?? [];
-	const hasChildCards = childCards.length > 0;
-	const CHILD_CARD_LIMIT = 12;
-	const visibleChildCards = childCards.slice(0, CHILD_CARD_LIMIT);
-	const hiddenChildCardCount = childCards.length - visibleChildCards.length;
 	const mediumParts = doc.medium_parts ?? [];
 	const hasDimensions =
 		doc.dimensions_structured.length > 0 || !!doc.dimensions;
@@ -353,252 +350,12 @@ export default async function SampleObjectPage({ params }: Props) {
 				)}
 
 				{/* Image section: renders if there are visible images OR if images were hidden */}
-				{(hasAnyImage || hiddenCount > 0) && (
-					<WireframeSection
-						label="Image"
-						className="border-b border-gray-300 py-8"
-					>
-						<Container>
-							<span id="image" className="sr-only">
-								Image
-							</span>
-							<FieldSourceBadge field="media" block />
-
-							{hasAnyImage && visibleMedia.length === 1 && (
-								/* Single image: preserve existing single-image layout */
-								<div className="border border-gray-300">
-									<div data-splattable data-splat-id="img-0">
-										<ImagePlaceholder
-											aspect="4/3"
-											label={`[IIIF image: media_master_id ${visibleMedia[0].media_master_id}]`}
-											className="border-0"
-										/>
-									</div>
-									{(visibleMedia[0].media_view ||
-										visibleMedia[0].public_caption ||
-										visibleMedia[0].photographer ||
-										visibleMedia[0].credit_line) && (
-										<div className="border-t border-gray-200 px-3 py-2">
-											{visibleMedia[0].media_view && (
-												<p className="font-mono text-label tracking-wide text-gray-500">
-													{visibleMedia[0].media_view}
-													<FieldSourceBadge field="media[].media_view" />
-												</p>
-											)}
-											{visibleMedia[0].public_caption && (
-												<p className="mt-0.5 font-mono text-meta text-gray-600">
-													{visibleMedia[0].public_caption}
-													<FieldSourceBadge field="media[].public_caption" />
-												</p>
-											)}
-											{(visibleMedia[0].photographer ||
-												visibleMedia[0].credit_line) && (
-												<p className="mt-0.5 font-mono text-label text-gray-400">
-													{visibleMedia[0].photographer ??
-														visibleMedia[0].credit_line}
-													<FieldSourceBadge
-														field={
-															visibleMedia[0].photographer
-																? "media[].photographer"
-																: "media[].credit_line"
-														}
-													/>
-												</p>
-											)}
-										</div>
-									)}
-									<div className="border-t border-gray-200 px-3 py-2">
-										<p className="font-mono text-label text-gray-400">
-											Live IIIF URL:{" "}
-											<a
-												href={iiifImageUrl(
-													visibleMedia[0].media_master_id,
-													"!600,600",
-												)}
-												target="_blank"
-												rel="noopener noreferrer"
-												className="underline decoration-gray-300 hover:decoration-gray-600"
-											>
-												{iiifImageUrl(
-													visibleMedia[0].media_master_id,
-													"!600,600",
-												)}
-											</a>
-										</p>
-									</div>
-								</div>
-							)}
-
-							{hasAnyImage && visibleMedia.length > 1 && (
-								/* Multi-image carousel: CSS scroll-snap, no JS required */
-								<div>
-									{/* Main scroll container */}
-									<div
-										className="relative overflow-x-auto"
-										style={{ scrollSnapType: "x mandatory" }}
-									>
-										<div className="flex">
-											{visibleMedia.map((item, i) => {
-												const imgUrl = iiifImageUrl(
-													item.media_master_id,
-													"!600,600",
-												);
-												return (
-													<div
-														key={item.media_master_id}
-														id={`image-${i}`}
-														className="min-w-full border border-gray-300"
-														style={{ scrollSnapAlign: "start" }}
-													>
-														<div data-splattable data-splat-id={`img-${i}`}>
-															<ImagePlaceholder
-																aspect="4/3"
-																label={`[IIIF image ${i + 1} of ${visibleMedia.length}: media_master_id ${item.media_master_id}]`}
-																className="border-0"
-															/>
-														</div>
-														<div className="border-t border-gray-200 px-3 py-2">
-															<p className="font-mono text-label tracking-wide text-gray-500">
-																Image {i + 1} of {visibleMedia.length}
-																{item.media_view && (
-																	<> &middot; {item.media_view}</>
-																)}
-															</p>
-															{item.public_caption && (
-																<p className="mt-0.5 font-mono text-meta text-gray-600">
-																	{item.public_caption}
-																	<FieldSourceBadge field="media[].public_caption" />
-																</p>
-															)}
-															{(item.photographer || item.credit_line) && (
-																<p className="mt-0.5 font-mono text-label text-gray-400">
-																	{item.photographer ?? item.credit_line}
-																	<FieldSourceBadge
-																		field={
-																			item.photographer
-																				? "media[].photographer"
-																				: "media[].credit_line"
-																		}
-																	/>
-																</p>
-															)}
-															<p className="mt-1 font-mono text-label text-gray-400">
-																Live IIIF URL:{" "}
-																<a
-																	href={imgUrl}
-																	target="_blank"
-																	rel="noopener noreferrer"
-																	className="underline decoration-gray-300 hover:decoration-gray-600"
-																>
-																	{imgUrl}
-																</a>
-															</p>
-														</div>
-													</div>
-												);
-											})}
-										</div>
-									</div>
-
-									{/* Thumbnail strip: anchor links to each slide */}
-									<div className="mt-3 flex gap-2 overflow-x-auto pb-1">
-										{visibleMedia.map((item, i) => {
-											const thumbUrl = iiifImageUrl(
-												item.media_master_id,
-												"!200,200",
-											);
-											return (
-												<a
-													key={item.media_master_id}
-													href={`#image-${i}`}
-													className="flex-shrink-0 border-2 border-gray-300 hover:border-gray-600"
-													title={item.media_view ?? `Image ${i + 1}`}
-												>
-													<div style={{ width: "72px" }}>
-														<ImagePlaceholder
-															aspect="1/1"
-															label={`${i + 1}`}
-															className="border-0 text-[10px]"
-														/>
-													</div>
-													<p className="px-1 pb-1 font-mono text-[10px] text-gray-500">
-														{thumbUrl.replace(
-															"https://famsf.emuseum.com/apis/iiif/image/v2/",
-															"…/",
-														)}
-													</p>
-												</a>
-											);
-										})}
-									</div>
-								</div>
-							)}
-
-							{/* Hidden-image note */}
-							{hiddenCount > 0 && (
-								<p className="mt-3 font-mono text-label text-gray-400">
-									{hiddenCount} image{hiddenCount === 1 ? "" : "s"} hidden: not
-									approved for web
-								</p>
-							)}
-
-							{/* Alt text placeholder */}
-							<ScopeMark label="Alt text">
-								<div className="mt-3 border border-gray-200 bg-gray-50 px-3 py-2">
-									<TombstoneLabel>Alt text [placeholder]</TombstoneLabel>
-									<p className="mt-0.5 font-mono text-meta text-gray-500">
-										Alt text not yet provided
-									</p>
-								</div>
-							</ScopeMark>
-
-							{/* Image actions row [placeholder]: non-functional buttons. */}
-							<WireframeSection label="Image actions">
-								<div className="mt-3 flex flex-wrap items-center gap-3">
-									<button
-										type="button"
-										className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
-									>
-										Zoom
-									</button>
-									{isPublicDomain ? (
-										<button
-											type="button"
-											className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
-										>
-											Download
-										</button>
-									) : (
-										<button
-											type="button"
-											disabled
-											title="In copyright [placeholder]"
-											className="cursor-not-allowed border border-gray-200 px-3 py-1.5 font-mono text-label tracking-wide text-gray-400"
-										>
-											Download (in copyright)
-										</button>
-									)}
-									<button
-										type="button"
-										className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
-									>
-										Share
-									</button>
-									<button
-										type="button"
-										className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
-									>
-										Cite
-									</button>
-									<span className="ml-auto font-mono text-label text-gray-400">
-										[placeholder]
-									</span>
-								</div>
-							</WireframeSection>
-						</Container>
-					</WireframeSection>
-				)}
-
+				<ImageSection
+					visibleMedia={visibleMedia}
+					hiddenCount={hiddenCount}
+					hasAnyImage={hasAnyImage}
+					isPublicDomain={isPublicDomain}
+				/>
 				{/* Tombstone */}
 				<Container className="border-b border-gray-300 py-8">
 					<WireframeSection label="Tombstone">
@@ -932,35 +689,36 @@ export default async function SampleObjectPage({ params }: Props) {
 				 the deep-content scroll. */}
 				<ScopeMark label="Jump-to navigation">
 					<Container className="border-b border-gray-200 py-2">
+						{/* Pared to the substantive deep-scroll destinations. Short or
+						    tail sections (Image, Dimensions, Audio, Related, Educational)
+						    are reachable by scrolling and left out to keep the bar short. */}
 						<JumpToNav
 							items={[
-								...(hasAnyImage || hiddenCount > 0
-									? [{ label: "Image", id: "image" }]
-									: []),
-								{ label: "Object", id: "tombstone" },
-								...(hasDescription ? [{ label: "About", id: "about" }] : []),
-								...(hasDimensions
-									? [{ label: "Dimensions", id: "dimensions" }]
+								{ label: t("object.jumpObject"), id: "tombstone" },
+								...(hasDescription
+									? [{ label: t("object.jumpAbout"), id: "about" }]
 									: []),
 								...(hasConstituents
-									? [{ label: "Constituents", id: "constituents" }]
+									? [{ label: t("object.jumpPeople"), id: "constituents" }]
 									: []),
 								...(hasExhibitions
-									? [{ label: "Exhibitions", id: "exhibitions" }]
+									? [{ label: t("object.jumpExhibitions"), id: "exhibitions" }]
 									: []),
 								...(doc.has_provenance
-									? [{ label: "Provenance", id: "provenance" }]
+									? [{ label: t("object.jumpProvenance"), id: "provenance" }]
 									: []),
 								...(doc.bibliography_text
-									? [{ label: "Bibliography", id: "bibliography" }]
+									? [
+											{
+												label: t("object.jumpBibliography"),
+												id: "bibliography",
+											},
+										]
 									: []),
-								{ label: "Audio guide", id: "audio-guide" },
-								{ label: "Scholarly essay", id: "scholarly-essay" },
-								...(related.length > 0
-									? [{ label: "Related works", id: "related" }]
-									: []),
-								{ label: "Rights & citation", id: "rights-citation" },
-								{ label: "Educational resources", id: "educational-resources" },
+								{
+									label: t("object.jumpRightsCitation"),
+									id: "rights-citation",
+								},
 							]}
 						/>
 					</Container>
@@ -1063,20 +821,24 @@ export default async function SampleObjectPage({ params }: Props) {
 				)}
 
 				{/* Scale diagram */}
-				{doc.dimensions && <ScaleDiagram obj={doc} />}
+				{doc.dimensions && (
+					<ScopeMark label="Scale">
+						<ScaleDiagram obj={doc} />
+					</ScopeMark>
+				)}
 
-				{/* Constituents */}
+				{/* People (constituents) */}
 				{hasConstituents && (
 					<WireframeSection
-						label="Constituents"
+						label="People"
 						className="border-b border-gray-300 py-8"
 					>
 						<Container size="md">
 							<span id="constituents" className="sr-only">
-								Constituents
+								People
 							</span>
 							<SectionLabel className="mb-4">
-								People and organisations
+								{t("object.sectionPeople")}
 							</SectionLabel>
 							<FieldSourceBadge field="constituents" block />
 							<div className="flex flex-col gap-5">
@@ -1207,6 +969,25 @@ export default async function SampleObjectPage({ params }: Props) {
 								structured={doc.provenance_structured}
 								rawFallback={doc.provenance}
 							/>
+							{/* Raw curator text, collapsed: only when a structured payload
+							    is already shown above (else ProvenanceText's raw fallback
+							    is the raw text and this would duplicate it). */}
+							{doc.provenance_structured && (
+								<ScopeMark label="Provenance text">
+									<details className="group mt-4 border-t border-gray-200 pt-4">
+										<summary className="cursor-pointer list-none font-mono text-label tracking-[0.08em] text-gray-500 hover:text-gray-700">
+											<span className="mr-1 inline-block transition-transform group-open:rotate-90">
+												▸
+											</span>
+											Full provenance (raw curator text)
+											<FieldSourceBadge field="provenance" />
+										</summary>
+										<p className="mt-3 whitespace-pre-line font-mono text-meta text-gray-600">
+											{doc.provenance}
+										</p>
+									</details>
+								</ScopeMark>
+							)}
 						</Container>
 					</WireframeSection>
 				)}
@@ -1224,110 +1005,41 @@ export default async function SampleObjectPage({ params }: Props) {
 							<SectionLabel className="mb-4">Bibliography</SectionLabel>
 							<FieldSourceBadge field="bibliography_text" block />
 							<BibliographyText value={doc.bibliography_text} />
+							{/* Raw curator text, collapsed: BibliographyText reformats the
+							    raw string into a numbered list, so expose the unprocessed
+							    source for verification (mirrors exhibition history). */}
+							<ScopeMark label="Bibliography text">
+								<details className="group mt-4 border-t border-gray-200 pt-4">
+									<summary className="cursor-pointer list-none font-mono text-label tracking-[0.08em] text-gray-500 hover:text-gray-700">
+										<span className="mr-1 inline-block transition-transform group-open:rotate-90">
+											▸
+										</span>
+										Full bibliography (raw curator text)
+										<FieldSourceBadge field="bibliography_text" />
+									</summary>
+									<p className="mt-3 whitespace-pre-line font-mono text-meta text-gray-600">
+										{doc.bibliography_text}
+									</p>
+								</details>
+							</ScopeMark>
 						</Container>
 					</WireframeSection>
 				)}
 
-				{/* Gap 2: Child records: thumbnail grid when child_cards populated, ID fallback otherwise */}
-				{hasChildIds && (
-					<WireframeSection
-						label="Child records"
-						className="border-b border-gray-300 py-8"
-					>
-						<Container>
-							<SectionLabel className="mb-4">
-								Child records (
-								{childCards.length > 0
-									? childCards.length
-									: physicalChildIds.length + virtualChildIds.length}
-								)
-							</SectionLabel>
-							<FieldSourceBadge field="child_cards" block />
+				{/* Rights & citation */}
+				<RightsCitationSection
+					rightsStatementDisplay={rightsStatementDisplay}
+					isPublicDomain={isPublicDomain}
+					copyrightStatement={copyrightStatement}
+					suggestedCitation={suggestedCitation}
+				/>
 
-							{hasChildCards ? (
-								<>
-									<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-										{visibleChildCards.map((card) => (
-											<div
-												key={card.id}
-												className="border border-gray-200 hover:border-gray-400"
-											>
-												<ImagePlaceholder
-													aspect="1/1"
-													label={
-														card.iiif_thumbnail_url
-															? "[IIIF thumb]"
-															: card.has_iiif
-																? "[IIIF available]"
-																: "[No image]"
-													}
-												/>
-												<div className="px-2.5 py-2">
-													<p className="font-mono text-label tracking-wide text-gray-400">
-														{card.accession_number}
-													</p>
-													{card.title && (
-														<p className="mt-0.5 font-mono text-meta text-gray-700 leading-snug">
-															{card.title}
-														</p>
-													)}
-													{(card.primary_artist_display ||
-														card.display_date) && (
-														<p className="mt-0.5 font-mono text-label text-gray-400">
-															{[card.primary_artist_display, card.display_date]
-																.filter(Boolean)
-																.join(" · ")}
-														</p>
-													)}
-												</div>
-											</div>
-										))}
-									</div>
-									{hiddenChildCardCount > 0 && (
-										<p className="mt-4 font-mono text-meta text-gray-500">
-											+ {hiddenChildCardCount} more
-										</p>
-									)}
-								</>
-							) : (
-								<>
-									{physicalChildIds.length > 0 && (
-										<div className="mb-4">
-											<TombstoneLabel className="mb-2 block">
-												Physical children ({physicalChildIds.length})
-											</TombstoneLabel>
-											<p className="font-mono text-meta text-gray-700">
-												{physicalChildIds.slice(0, 10).join(", ")}
-												{physicalChildIds.length > 10 && (
-													<span className="text-gray-400">
-														{" "}
-														and {physicalChildIds.length - 10} more
-													</span>
-												)}
-											</p>
-										</div>
-									)}
-									{virtualChildIds.length > 0 && (
-										<div>
-											<TombstoneLabel className="mb-2 block">
-												Virtual children ({virtualChildIds.length})
-											</TombstoneLabel>
-											<p className="font-mono text-meta text-gray-700">
-												{virtualChildIds.slice(0, 10).join(", ")}
-												{virtualChildIds.length > 10 && (
-													<span className="text-gray-400">
-														{" "}
-														and {virtualChildIds.length - 10} more
-													</span>
-												)}
-											</p>
-										</div>
-									)}
-								</>
-							)}
-						</Container>
-					</WireframeSection>
-				)}
+				{/* Child records (CW-32 parent-child inline) */}
+				<ChildRecordsSection
+					childCards={childCards}
+					physicalChildIds={physicalChildIds}
+					virtualChildIds={virtualChildIds}
+				/>
 
 				{/* Audio guide [placeholder] */}
 				<WireframeSection
@@ -1376,43 +1088,6 @@ export default async function SampleObjectPage({ params }: Props) {
 					</Container>
 				</WireframeSection>
 
-				{/* Scholarly essay [placeholder] */}
-				<WireframeSection
-					label="Scholarly essay"
-					className="border-b border-gray-300 py-8"
-				>
-					<Container size="md">
-						<span id="scholarly-essay" className="sr-only">
-							Scholarly essay
-						</span>
-						<SectionLabel className="mb-4">
-							Scholarly essay [placeholder]
-						</SectionLabel>
-						<ScopeMark label="Scholarly essay">
-							<div className="flex flex-col gap-4 font-mono text-body leading-relaxed text-gray-500">
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-									Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									laboris nisi ut aliquip ex ea commodo consequat.
-								</p>
-								<p>
-									Duis aute irure dolor in reprehenderit in voluptate velit esse
-									cillum dolore eu fugiat nulla pariatur. Excepteur sint
-									occaecat cupidatat non proident, sunt in culpa qui officia
-									deserunt mollit anim id est laborum.
-								</p>
-								<p>
-									Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-									accusantium doloremque laudantium, totam rem aperiam, eaque
-									ipsa quae ab illo inventore veritatis et quasi architecto
-									beatae vitae dicta sunt explicabo.
-								</p>
-							</div>
-						</ScopeMark>
-					</Container>
-				</WireframeSection>
-
 				{/* Related works (real sample-doc pool) */}
 				{related.length > 0 && (
 					<RelatedWorksSection
@@ -1428,75 +1103,6 @@ export default async function SampleObjectPage({ params }: Props) {
 						<VisuallySimilarGrid candidates={related} slugById={slugById} />
 					</ScopeMark>
 				)}
-
-				{/* Rights & citation */}
-				<WireframeSection
-					label="Rights & citation"
-					className="border-b border-gray-300 py-8"
-				>
-					<Container size="md">
-						<span id="rights-citation" className="sr-only">
-							Rights & citation
-						</span>
-						<SectionLabel className="mb-4">Rights & citation</SectionLabel>
-						{rightsStatementDisplay && (
-							<ScopeMark label="Rights statement">
-								<div className="mb-6">
-									<TombstoneLabel className="mb-1 block">
-										Rights statement
-									</TombstoneLabel>
-									<FieldSourceBadge field="term_rights_statement" block />
-									{rightsStatementDisplay.uri ? (
-										<a
-											href={rightsStatementDisplay.uri}
-											target="_blank"
-											rel="noopener noreferrer"
-											className="inline-block border border-blue-200 bg-blue-50 px-2 py-0.5 font-mono text-meta text-blue-700 underline decoration-blue-300 hover:decoration-blue-600"
-										>
-											{rightsStatementDisplay.label}
-										</a>
-									) : (
-										<p className="font-mono text-meta text-gray-700">
-											{rightsStatementDisplay.label}
-										</p>
-									)}
-									{!isPublicDomain && (
-										<span
-											title="In copyright [placeholder]"
-											className="mt-1 ml-2 inline-block cursor-not-allowed font-mono text-label text-gray-400 underline decoration-gray-300"
-										>
-											More about reuse and image rights [placeholder]
-										</span>
-									)}
-								</div>
-							</ScopeMark>
-						)}
-						<ScopeMark label="Copyright">
-							<div className="mb-6">
-								<TombstoneLabel className="mb-1 block">
-									Copyright
-								</TombstoneLabel>
-								<FieldSourceBadge field="copyright" block />
-								<p className="font-mono text-meta text-gray-700">
-									{copyrightStatement}
-								</p>
-							</div>
-						</ScopeMark>
-						<ScopeMark label="Suggested citation">
-							<div>
-								<TombstoneLabel className="mb-1 block">
-									Suggested citation [placeholder]
-								</TombstoneLabel>
-								<p className="mb-3 font-mono text-meta text-gray-500">
-									If you want to cite this object in research or publication,
-									please use the credit below. The accession number stays stable
-									even if the title or dating is revised.
-								</p>
-								<CitationBlock citation={suggestedCitation} />
-							</div>
-						</ScopeMark>
-					</Container>
-				</WireframeSection>
 
 				{/* Educational resources [placeholder] */}
 				<WireframeSection
