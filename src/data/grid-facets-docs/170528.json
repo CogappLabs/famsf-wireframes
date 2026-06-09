@@ -376,11 +376,12 @@
 		{
 			"region": "North America",
 			"country": "United States",
-			"notable": "New York"
+			"state": "New York",
+			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — acetate, , glass seed bead, sequin … · New York",
+		"reason": "grid-facets real slice — acetate, , glass seed bead, sequin … · United States",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

@@ -211,11 +211,13 @@
 		{
 			"region": "Central America",
 			"country": "Mesoamerica",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "North America",
 			"country": "United States",
+			"state": "",
 			"notable": ""
 		}
 	],

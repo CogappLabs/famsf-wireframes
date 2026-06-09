@@ -6,9 +6,9 @@ baked on.
 Three real, curator-reviewed facets are pre-derived per object so the
 wireframe just reads ready-made arrays:
 
-  facet_place[]      hierarchical: {region, country, notable} from the
-                     REGION_REMAP workbook, keyed on each place term's
-                     Getty TGN `cn` code.
+  facet_place[]      hierarchical: {region, country, state, notable} from
+                     the REGION_REMAP workbook, keyed on each place term's
+                     Getty TGN `cn` code. `state` is US-only (empty elsewhere).
   facet_material[]   2-tier {parent, specific} pairs (Metal → bronze,
                      Ceramic → earthenware …) from the FACET_DESIGN_v2
                      parent/specific design.
@@ -115,7 +115,11 @@ def build_material_crosswalk() -> dict[str, dict]:
 
 
 def build_place_crosswalk() -> dict[str, dict]:
-    """TGN `cn` -> {"region", "country", "notable"} from REGION_REMAP."""
+    """TGN `cn` -> {"region", "country", "state", "notable"} from REGION_REMAP.
+
+    `state` is the US-only tier (ADR 0002 amend): the SQL bakes it onto every
+    US row (a US city row carries its parent state), so this is a flat lookup.
+    """
     by_cn: dict[str, dict] = {}
     for r in _rows(TSV / "place_region_remap.tsv"):
         cn = (r.get("cn") or "").strip()
@@ -125,6 +129,7 @@ def build_place_crosswalk() -> dict[str, dict]:
             r.get("region_auto") or ""
         ).strip()
         country = (r.get("country") or "").strip()
+        state = (r.get("state") or "").strip()
         tier = (r.get("tier") or "").strip()
         display = (r.get("override_label") or "").strip() or (
             r.get("display_label") or ""
@@ -132,6 +137,7 @@ def build_place_crosswalk() -> dict[str, dict]:
         by_cn[cn] = {
             "region": region,
             "country": country,
+            "state": state,
             "notable": display if tier == "notable place" else "",
         }
     return by_cn
@@ -187,19 +193,28 @@ def derive_facets(doc: dict, mat_xwalk: dict, place_xwalk: dict) -> tuple[dict, 
             # leaves country == region when no distinct country is assigned),
             # so the tree never shows a child identical to its parent.
             country = mapped["country"] if mapped["country"] != region else ""
+            # US-only state tier. Drop it if it just repeats region/country.
+            state = mapped.get("state", "")
+            if state in (country, region):
+                state = ""
             notable = mapped["notable"] or (
                 term["term"] if term.get("term") != mapped["country"] else ""
             )
-            # Same guard one tier down: drop a notable that repeats its
-            # country or region.
-            if notable in (country, region):
+            # Same guard one tier down: drop a notable that repeats any ancestor
+            # (state included — a US state node has no distinct notable child).
+            if notable in (state, country, region):
                 notable = ""
-            keyt = (region, country, notable)
+            keyt = (region, country, state, notable)
             if keyt in seen_place:
                 continue
             seen_place.add(keyt)
             places.append(
-                {"region": region, "country": country, "notable": notable}
+                {
+                    "region": region,
+                    "country": country,
+                    "state": state,
+                    "notable": notable,
+                }
             )
 
     doc["facet_material"] = [

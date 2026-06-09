@@ -11,14 +11,15 @@ import { ResultsGrid } from "./results";
 // Real-data variation backed by src/data/grid-facets-docs/ (~600 docs with
 // curator-taxonomy facets baked on by scripts/export_grid_facets_docs.py).
 // Left column has two expandable hierarchies + one flat facet:
-//   • Place    — region → country → notable place (REGION_REMAP workbook)
+//   • Place    — region → country → [US state] → notable place (REGION_REMAP
+//                workbook). The state tier is US-only; non-US places are 3-tier.
 //   • Material — parent → specific (FACET_DESIGN_v2 workbook)
 //   • Technique — flat (FacetBlock)
 // Each tree row carries a caret (expand/collapse children in place) and a
 // checkbox (filter by that node, at any tier); a "Filter …" box prunes +
 // auto-expands matching branches.
 
-const PLACE_LEVELS = ["region", "country", "notable"] as const;
+const PLACE_LEVELS = ["region", "country", "state", "notable"] as const;
 type PlaceLevel = (typeof PLACE_LEVELS)[number];
 
 /** A chosen place node: which tier, and its value. */
@@ -219,7 +220,7 @@ function buildFacetTree(
 
 const buildPlaceTree = (docs: CollectionDocument[]): FacetTreeNode[] =>
 	buildFacetTree(docs, (d) =>
-		(d.facet_place ?? []).map((p) => [p.region, p.country, p.notable]),
+		(d.facet_place ?? []).map((p) => [p.region, p.country, p.state, p.notable]),
 	);
 
 const buildMaterialTree = (docs: CollectionDocument[]): FacetTreeNode[] =>
@@ -490,7 +491,12 @@ function DateHistogram({
 	);
 }
 
-const PLACE_LEVEL_BY_DEPTH: PlaceLevel[] = ["region", "country", "notable"];
+const PLACE_LEVEL_BY_DEPTH: PlaceLevel[] = [
+	"region",
+	"country",
+	"state",
+	"notable",
+];
 const MATERIAL_LEVEL_BY_DEPTH: MaterialLevel[] = ["parent", "specific"];
 
 /** A generic tier selection — level name + chosen value. */
@@ -881,7 +887,7 @@ export function GridFacetsView({
 	);
 
 	const placeChipLabel = sel.place
-		? `${sel.place.level === "region" ? "Region" : sel.place.level === "country" ? "Country" : "Place"}: ${sel.place.value}`
+		? `${sel.place.level === "region" ? "Region" : sel.place.level === "country" ? "Country" : sel.place.level === "state" ? "State" : "Place"}: ${sel.place.value}`
 		: null;
 	const materialChipLabel = sel.material
 		? `${sel.material.level === "parent" ? "Material" : "Material detail"}: ${sel.material.value}`

@@ -274,11 +274,13 @@
 		{
 			"region": "Central America",
 			"country": "Guatemala",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "North America",
 			"country": "Mexico",
+			"state": "",
 			"notable": "México"
 		}
 	],

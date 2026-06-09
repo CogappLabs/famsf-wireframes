@@ -223,16 +223,19 @@
 		{
 			"region": "Central America",
 			"country": "El Salvador",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Central America",
 			"country": "Guatemala",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Central America",
 			"country": "Honduras",
+			"state": "",
 			"notable": ""
 		}
 	],

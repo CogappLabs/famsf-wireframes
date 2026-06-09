@@ -246,11 +246,13 @@
 		{
 			"region": "Middle East",
 			"country": "Eastern Mediterranean",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Europe",
 			"country": "Italy",
+			"state": "",
 			"notable": ""
 		}
 	],

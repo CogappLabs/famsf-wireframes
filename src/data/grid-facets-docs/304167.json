@@ -660,11 +660,12 @@
 		{
 			"region": "North America",
 			"country": "United States",
-			"notable": "New Jersey"
+			"state": "New Jersey",
+			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , glas, , painted … · New Jersey",
+		"reason": "grid-facets real slice — , glas, , painted … · United States",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 48
 	}

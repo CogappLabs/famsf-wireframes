@@ -185,11 +185,13 @@
 		{
 			"region": "South America",
 			"country": "Brazil",
+			"state": "",
 			"notable": "Rio de Janeiro"
 		},
 		{
 			"region": "South America",
 			"country": "Brazil",
+			"state": "",
 			"notable": "Bahia"
 		}
 	],

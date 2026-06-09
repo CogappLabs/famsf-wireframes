@@ -229,11 +229,13 @@
 		{
 			"region": "East Asia",
 			"country": "",
+			"state": "",
 			"notable": "Bursa"
 		},
 		{
 			"region": "East Asia",
 			"country": "Achaemenid",
+			"state": "",
 			"notable": "İstanbul"
 		}
 	],

@@ -242,11 +242,13 @@
 		{
 			"region": "Africa",
 			"country": "Egypt",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Middle East",
 			"country": "",
+			"state": "",
 			"notable": "Akhmīm"
 		}
 	],

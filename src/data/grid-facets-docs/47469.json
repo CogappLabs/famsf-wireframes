@@ -325,21 +325,25 @@
 		{
 			"region": "Central Asia",
 			"country": "Afghanistan",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Central Asia",
 			"country": "Turkmenistan",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Central Asia",
 			"country": "Uzbekistan",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "East Asia",
 			"country": "",
+			"state": "",
 			"notable": "Tajikistan"
 		}
 	],

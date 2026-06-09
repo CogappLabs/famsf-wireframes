@@ -241,11 +241,13 @@
 		{
 			"region": "Europe",
 			"country": "Germany",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Europe",
 			"country": "France",
+			"state": "",
 			"notable": ""
 		}
 	],

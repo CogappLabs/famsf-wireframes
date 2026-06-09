@@ -161,11 +161,12 @@
 		{
 			"region": "North America",
 			"country": "United States",
-			"notable": "California"
+			"state": "California",
+			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — rhinestone, , , silk satin … · California",
+		"reason": "grid-facets real slice — rhinestone, , , silk satin … · United States",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 39
 	}

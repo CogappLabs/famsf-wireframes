@@ -322,21 +322,25 @@
 		{
 			"region": "Middle East",
 			"country": "Achaemenid",
+			"state": "",
 			"notable": "Anatolia"
 		},
 		{
 			"region": "East Asia",
 			"country": "",
+			"state": "",
 			"notable": "Obruk"
 		},
 		{
 			"region": "East Asia",
 			"country": "Achaemenid",
+			"state": "",
 			"notable": "Konya"
 		},
 		{
 			"region": "East Asia",
 			"country": "",
+			"state": "",
 			"notable": "Karapınar"
 		}
 	],

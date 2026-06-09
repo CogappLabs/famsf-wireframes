@@ -320,11 +320,13 @@
 		{
 			"region": "Europe",
 			"country": "Italy",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Middle East",
 			"country": "Turkey",
+			"state": "",
 			"notable": ""
 		}
 	],

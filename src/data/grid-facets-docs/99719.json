@@ -227,11 +227,13 @@
 		{
 			"region": "Europe",
 			"country": "France",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Europe",
 			"country": "Italy",
+			"state": "",
 			"notable": ""
 		}
 	],

@@ -223,11 +223,13 @@
 		{
 			"region": "Central Asia",
 			"country": "Afghanistan",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Central Asia",
 			"country": "Uzbekistan",
+			"state": "",
 			"notable": ""
 		}
 	],

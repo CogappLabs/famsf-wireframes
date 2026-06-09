@@ -212,11 +212,13 @@
 		{
 			"region": "South America",
 			"country": "Peru",
+			"state": "",
 			"notable": "Lima"
 		},
 		{
 			"region": "South America",
 			"country": "Peru",
+			"state": "",
 			"notable": "Cuzco"
 		}
 	],

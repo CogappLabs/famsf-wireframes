@@ -21,13 +21,15 @@ export interface TermEntry {
 }
 
 /**
- * Hierarchical place facet (region → country → notable place) derived from
- * the REGION_REMAP curator workbook. `country` / `notable` may be empty when
- * the mapped node is itself that tier.
+ * Hierarchical place facet derived from the REGION_REMAP curator workbook:
+ * region → country → state → notable place. The `state` tier is **US-only**
+ * (per ADR 0002 amend) — empty for every non-US place. Any of `country` /
+ * `state` / `notable` may be empty when the mapped node is itself that tier.
  */
 export interface PlaceFacet {
 	region: string;
 	country: string;
+	state: string;
 	notable: string;
 }
 

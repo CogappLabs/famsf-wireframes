@@ -633,11 +633,13 @@
 		{
 			"region": "Central Asia",
 			"country": "",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Central Asia",
 			"country": "Afghanistan",
+			"state": "",
 			"notable": ""
 		}
 	],

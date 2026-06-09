@@ -308,16 +308,19 @@
 		{
 			"region": "Middle East",
 			"country": "Iran",
+			"state": "",
 			"notable": "Īrān"
 		},
 		{
 			"region": "Middle East",
 			"country": "Persia",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "East Asia",
 			"country": "",
+			"state": "",
 			"notable": "Bijar"
 		}
 	],

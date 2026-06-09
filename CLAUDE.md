@@ -88,11 +88,14 @@ Current variations:
     sharing the same `GridFacetsView` (a `layout` prop switches inline vs
     modal). Facets, top to bottom:
     - **Artist** — flat list off `primary_artist` (8-cap + search-within).
-    - **Place** — expandable tree (region → country → notable place, per the
-      REGION_REMAP workbook). Each row: ▸/▾ caret expands children in place;
-      a checkbox filters by that node (any tier). "Filter place…" prunes +
-      auto-expands matching branches (e.g. "paris" → Europe ▾ France ▾ Paris).
-      Geography shows **all** top-level rows (no 8-cap — the one exception).
+    - **Place** — expandable tree (region → country → state → notable place,
+      per the REGION_REMAP workbook). The **state tier is US-only** (ADR 0002
+      amend): San Francisco sits under California under United States, but
+      non-US places stay 3-tier (a German city sits directly under Germany).
+      Each row: ▸/▾ caret expands children in place; a checkbox filters by that
+      node (any tier). "Filter place…" prunes + auto-expands matching branches
+      (e.g. "paris" → Europe ▾ France ▾ Paris). Geography shows **all**
+      top-level rows (no 8-cap — the one exception).
     - **Material** — same expandable tree, 2-tier (parent → specific, per the
       Material workbook FACET_DESIGN_v2; e.g. Metal → bronze). 8-cap with
       "Show N more" on the parents.
@@ -276,8 +279,9 @@ separate bulk export, NOT the curated sample-docs set above:
   registry and don't appear on `/objects/sample`.
 - Each doc carries three **pre-derived curator-taxonomy facet** fields
   (added by the export, not emitted by the production pipeline yet):
-  `facet_place[]` (`{region, country, notable}`, hierarchical, from the
-  REGION_REMAP workbook keyed on each place term's Getty TGN `cn`),
+  `facet_place[]` (`{region, country, state, notable}`, hierarchical, from the
+  REGION_REMAP workbook keyed on each place term's Getty TGN `cn`; `state` is
+  US-only per ADR 0002 amend, empty elsewhere),
   `facet_material[]` (`{parent, specific}`, 2-tier, e.g. Metal → bronze)
   and `facet_technique[]` (flat string labels). Material + technique come
   from the Material workbook bridge: raw token → `master_v2.canonical_final`

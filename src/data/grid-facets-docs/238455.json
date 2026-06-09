@@ -200,11 +200,13 @@
 		{
 			"region": "Southeast Asia",
 			"country": "",
+			"state": "",
 			"notable": "Merauke"
 		},
 		{
 			"region": "Southeast Asia",
 			"country": "Indonesia",
+			"state": "",
 			"notable": "South Papua Province"
 		}
 	],

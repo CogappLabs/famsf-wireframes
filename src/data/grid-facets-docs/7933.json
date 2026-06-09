@@ -414,11 +414,13 @@
 		{
 			"region": "Middle East",
 			"country": "Achaemenid",
+			"state": "",
 			"notable": "Anatolia"
 		},
 		{
 			"region": "East Asia",
 			"country": "Achaemenid",
+			"state": "",
 			"notable": "Kültepe"
 		}
 	],

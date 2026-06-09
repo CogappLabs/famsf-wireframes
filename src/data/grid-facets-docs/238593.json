@@ -198,11 +198,13 @@
 		{
 			"region": "Europe",
 			"country": "Finland",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "East Asia",
 			"country": "Russia",
+			"state": "",
 			"notable": ""
 		}
 	],

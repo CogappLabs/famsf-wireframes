@@ -256,11 +256,13 @@
 		{
 			"region": "Europe",
 			"country": "United Kingdom",
+			"state": "",
 			"notable": "England"
 		},
 		{
 			"region": "Europe",
 			"country": "France",
+			"state": "",
 			"notable": ""
 		}
 	],

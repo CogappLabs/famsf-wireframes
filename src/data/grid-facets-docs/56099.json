@@ -256,11 +256,13 @@
 		{
 			"region": "Middle East",
 			"country": "Achaemenid",
+			"state": "",
 			"notable": "Anatolia"
 		},
 		{
 			"region": "East Asia",
 			"country": "",
+			"state": "",
 			"notable": "Tavşanlı"
 		}
 	],

@@ -201,11 +201,13 @@
 		{
 			"region": "Central America",
 			"country": "Guatemala",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "North America",
 			"country": "North and Central America",
+			"state": "",
 			"notable": "Escuintla"
 		}
 	],

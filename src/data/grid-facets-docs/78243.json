@@ -252,11 +252,13 @@
 		{
 			"region": "East Asia",
 			"country": "Achaemenid",
+			"state": "",
 			"notable": "Western Anatolia"
 		},
 		{
 			"region": "Europe",
 			"country": "Greece",
+			"state": "",
 			"notable": "Aegean Islands"
 		}
 	],

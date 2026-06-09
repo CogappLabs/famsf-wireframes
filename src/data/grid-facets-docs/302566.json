@@ -232,11 +232,13 @@
 		{
 			"region": "Europe",
 			"country": "France",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "North America",
 			"country": "United States",
+			"state": "",
 			"notable": "United States of America"
 		}
 	],

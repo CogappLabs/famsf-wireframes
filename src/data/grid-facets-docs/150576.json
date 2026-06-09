@@ -211,11 +211,13 @@
 		{
 			"region": "Africa",
 			"country": "Liberia",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Africa",
 			"country": "Ivory Coast",
+			"state": "",
 			"notable": "Côte d'Ivoire"
 		}
 	],

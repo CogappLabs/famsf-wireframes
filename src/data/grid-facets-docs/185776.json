@@ -525,16 +525,19 @@
 		{
 			"region": "Africa",
 			"country": "Egypt",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Middle East",
 			"country": "",
+			"state": "",
 			"notable": "Upper Egypt"
 		},
 		{
 			"region": "Middle East",
 			"country": "",
+			"state": "",
 			"notable": "Mallawī"
 		}
 	],

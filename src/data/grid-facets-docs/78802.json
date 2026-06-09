@@ -154,11 +154,13 @@
 		{
 			"region": "South America",
 			"country": "",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Southeast Asia",
 			"country": "Cambodia",
+			"state": "",
 			"notable": ""
 		}
 	],

@@ -259,11 +259,13 @@
 		{
 			"region": "Europe",
 			"country": "Germany",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Europe",
 			"country": "Holland",
+			"state": "",
 			"notable": "Netherlands"
 		}
 	],

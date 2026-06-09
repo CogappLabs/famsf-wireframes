@@ -378,16 +378,19 @@
 		{
 			"region": "Middle East",
 			"country": "Assyria",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "East Asia",
 			"country": "Achaemenid",
+			"state": "",
 			"notable": "Fort Shalmaneser"
 		},
 		{
 			"region": "East Asia",
 			"country": "Achaemenid",
+			"state": "",
 			"notable": "Nimrud"
 		}
 	],

@@ -167,11 +167,13 @@
 		{
 			"region": "Oceania",
 			"country": "Mariana Islands",
+			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Oceania",
 			"country": "Guam",
+			"state": "",
 			"notable": ""
 		}
 	],
