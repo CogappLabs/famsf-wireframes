@@ -105,9 +105,11 @@ Current variations:
       Material workbook FACET_DESIGN_v2; e.g. Metal → bronze). 8-cap with
       "Show N more" on the parents.
     - **Technique** — flat list (8-cap).
-    - **Classification** / **Department** / **Gallery** — flat facets (8-cap +
-      search-within) off `classification`, `department`, `location_building`.
-      Added for the Phase 1 CW-41 core facet set.
+    - **Classification** / **Collection area** / **Gallery** — flat facets
+      (8-cap + search-within) off `classification`, `department`,
+      `location_building`. Added for the Phase 1 CW-41 core facet set. The
+      `department` facet is labelled **"Collection area"** in the UI (the
+      public-facing name per CW-30); `department` stays the code/field id.
     - **Date** — a **year histogram** (`DateHistogram`): decade bins with the
       empty decades dropped so equal-width bars track data density (sparse
       ancient tail collapses, dense modern cluster gets the width). Drag across
@@ -115,7 +117,11 @@ Current variations:
       (the keyboard / screen-reader path); both drive the same `{min,max}`
       `YearRange` filter. Years come from `objectYear` (sort_year, neg = BCE).
     - **On view** / **Has image** / **Open access** — a segmented toggle pill
-      group (`fieldset`). Open access = `object_rights_type == "Public Domain"`.
+      group (`fieldset`). Open access = `isPublicDomain(doc)` (shared helper in
+      `results.tsx`): matches free-text `copyright` containing "public domain"
+      OR `object_rights_type == "Public Domain"`. The grid-facets slice has
+      `copyright: null` and carries the rights enum, so the dual check is what
+      makes the OA facet + the card badge fire on this view (214 PD docs).
       Inline layout: a full-width row under the search. Modal layout: top of
       the left column.
     The CW-41 core facet set (geo, material, classification, dept, gallery, OA,
@@ -132,13 +138,29 @@ Current variations:
     `seedSelectionFromFacet` (flat + tiered place/material). **Sort** (CW-39:
     relevance/title/date/artist/accession) + a real **client-side pager**
     (24/page, resets on filter/sort/query change) live in `grid-facets.tsx`.
-  - Results render in a 3-col grid (`ResultsGrid columns={3}`). A count+sort
+  - Results render in a 3-col grid (`ResultsGrid columns={3}`). Each card shows
+    **On view** (emerald) + **Open access** (green) badges + a `↓` download-icon
+    overlay, all gated on the doc's flags / `isPublicDomain`. A count+sort
     row sits above a separate active-filter-chips row (min-height reserved so
     the grid doesn't jump); "Clear all" lives in the left column header, always
     rendered but hidden when nothing is active. Zero-results recovery splits
     did-you-mean + popular searches out as **post-MVP** (CW-44) — each wrapped
     in its own `ScopeMark`. The horizontal facet bar (and its removed
     medium/materials/style/etc facets) still serves every other variation.
+  - **Card routing.** Every grid-facets result card routes to the one
+    fully-built sample object (`/objects/sample/water-lilies-1973-3`), via a
+    `getHref` override at the `GridFacetsView` call site in
+    `SearchResultsClient`. The ~600-doc slice has no per-object sample pages,
+    so this keeps the search → object-detail flow demoable. Other variations
+    keep the real `objectHref` (slug-by-id).
+  - **Scope overlay.** When the scope toggle is on, this view draws six
+    coarse, region-level `ScopeMark`s (all MVP) with short labels: **Facets**
+    (whole left column), **Count + sort** (CW-39), **Active filter chips**
+    (CW-42), **Results grid** (CW-43), **Pagination** (CW-43), **Zero results**
+    (CW-44). Pagination is its own mark, split out from the grid. There are
+    deliberately no per-facet / per-toggle marks — they wrapped and collided in
+    the narrow facet column; per-facet detail lives in the facet code, not the
+    overlay. Keys live under `search-results/*` in `src/lib/scope.ts`.
 - **Object Detail**: standard / two-column layout for provenance and exhibitions
 
 ### Scope system
