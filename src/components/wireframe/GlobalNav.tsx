@@ -86,7 +86,7 @@ export default function GlobalNav() {
 							setMobileOpen(!mobileOpen);
 							setOpenMenu(null);
 						}}
-						className="font-mono text-meta text-gray-600 xl:hidden"
+						className="font-mono text-meta text-gray-500 xl:hidden"
 						aria-label="Toggle menu"
 					>
 						{mobileOpen ? t("nav.close") : t("nav.menu")}
@@ -103,7 +103,7 @@ export default function GlobalNav() {
 									className={`font-mono text-meta tracking-[0.02em] ${
 										isItemActive(item) || openMenu === item.label
 											? "font-medium text-gray-900"
-											: "text-gray-600 hover:text-gray-900"
+											: "text-gray-500 hover:text-gray-900"
 									}`}
 								>
 									{item.label}
@@ -116,7 +116,7 @@ export default function GlobalNav() {
 									className={`font-mono text-meta tracking-[0.02em] ${
 										isItemActive(item)
 											? "font-medium text-gray-900"
-											: "text-gray-600 hover:text-gray-900"
+											: "text-gray-500 hover:text-gray-900"
 									}`}
 								>
 									{item.label}
@@ -179,7 +179,7 @@ function MobileNavItem({
 				className={`py-2 font-mono text-body ${
 					item.href !== "#" && pathname.startsWith(item.href)
 						? "font-bold"
-						: "text-gray-600 hover:text-gray-900"
+						: "text-gray-500 hover:text-gray-900"
 				}`}
 			>
 				{item.label}
@@ -209,7 +209,7 @@ function MobileNavItem({
 							className={`py-1.5 font-mono text-body ${
 								child.href !== "#" && pathname.startsWith(child.href)
 									? "font-bold"
-									: "text-gray-600 hover:text-gray-900"
+									: "text-gray-500 hover:text-gray-900"
 							}`}
 						>
 							{child.label}

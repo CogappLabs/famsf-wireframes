@@ -197,7 +197,7 @@ function CollectionLandingContent() {
 						<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
 							{t("collection.heading")}
 						</h1>
-						<p className="mt-4 max-w-[var(--container-md)] font-mono text-body text-gray-600">
+						<p className="mt-4 max-w-[var(--container-md)] font-mono text-body text-gray-700">
 							{t("collection.intro")}
 						</p>
 						<ImagePlaceholder
@@ -280,7 +280,7 @@ function CollectionLandingContent() {
 									<Link
 										key={f.key}
 										href={`/search-results?${f.key}=true`}
-										className="border border-gray-300 px-3 py-1 font-mono text-meta text-gray-700 transition-colors hover:border-gray-500 hover:bg-gray-50"
+										className="border border-gray-300 px-3 py-1 font-mono text-meta text-gray-500 transition-colors hover:border-gray-500 hover:bg-gray-50"
 									>
 										{f.label}
 									</Link>
@@ -349,7 +349,7 @@ function CollectionLandingContent() {
 								<Link
 									key={sc.name}
 									href={`/search-results?q=${encodeURIComponent(sc.name)}`}
-									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600 transition-colors hover:border-gray-500 hover:bg-gray-50"
+									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-500 transition-colors hover:border-gray-500 hover:bg-gray-50"
 								>
 									{sc.name} <span className="text-gray-400">{sc.count}</span>
 								</Link>
@@ -435,7 +435,7 @@ function CollectionLandingContent() {
 										href="/search-results"
 										className="border border-gray-300 p-3 transition-colors hover:border-gray-500"
 									>
-										<p className="font-mono text-meta font-medium text-gray-800">
+										<p className="font-mono text-meta font-medium text-gray-700">
 											{g.name}
 										</p>
 										<p className="mt-1 font-mono text-label tracking-wide text-gray-400">
@@ -466,7 +466,7 @@ function CollectionLandingContent() {
 								>
 									<ImagePlaceholder aspect="4/5" label={`[${work.title}]`} />
 									<div className="p-3">
-										<h3 className="font-mono text-meta font-medium leading-snug">
+										<h3 className="font-mono text-card font-medium leading-snug">
 											{work.title}
 										</h3>
 										<p className="mt-0.5 font-mono text-label text-gray-500">
@@ -489,7 +489,7 @@ function CollectionLandingContent() {
 							<SectionLabel className="mb-2">
 								{t("collection.whatToSeeHeading")}
 							</SectionLabel>
-							<p className="mb-4 font-mono text-body text-gray-600">
+							<p className="mb-4 font-mono text-body text-gray-700">
 								{t("collection.whatToSeeDesc")}
 							</p>
 							<LinkCard

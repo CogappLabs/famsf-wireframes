@@ -38,7 +38,7 @@ export default function FieldSourceBadge({
 
 	return (
 		<Tag
-			className={`border-l-2 border-violet-500 bg-violet-50 pl-1.5 font-mono text-[12px] leading-snug text-violet-900 ${block ? "mt-0.5 block py-0.5" : "ml-1.5 inline-block align-middle"}`}
+			className={`border-l-2 border-violet-500 bg-violet-50 pl-1.5 font-mono text-label leading-snug text-violet-900 ${block ? "mt-0.5 block py-0.5" : "ml-1.5 inline-block align-middle"}`}
 			title={notes ?? undefined}
 		>
 			<span className="text-violet-700">ES:</span> {field}{" "}

@@ -143,7 +143,7 @@ export default function DriftClient() {
 					<h2 className="font-mono text-card font-medium leading-tight">
 						{current.title}
 					</h2>
-					<p className="mt-0.5 font-mono text-meta text-gray-600">
+					<p className="mt-0.5 font-mono text-meta text-gray-700">
 						{current.artist}
 					</p>
 					<p className="font-mono text-meta text-gray-500">

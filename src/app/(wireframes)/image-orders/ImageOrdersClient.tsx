@@ -46,7 +46,7 @@ export default function ImageOrdersClient({
 						<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
 							{t("image-orders.heading")}
 						</h1>
-						<p className="mt-3 font-mono text-body text-gray-600">
+						<p className="mt-3 font-mono text-body text-gray-700">
 							{t("image-orders.intro")}
 						</p>
 					</Container>
@@ -82,7 +82,7 @@ export default function ImageOrdersClient({
 										<div className="flex-1">
 											<Link
 												href={objectHref(doc, slugById)}
-												className="font-mono text-meta font-medium text-gray-800 underline decoration-gray-300 hover:decoration-gray-600"
+												className="font-mono text-meta font-medium text-gray-900 underline decoration-gray-300 hover:decoration-gray-600"
 											>
 												{doc.title || doc.accession_number}
 											</Link>

@@ -103,7 +103,7 @@ export default function VisitPlannerClient({
 						<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
 							{t("visit.heading")}
 						</h1>
-						<p className="mt-4 font-mono text-body text-gray-600">
+						<p className="mt-4 font-mono text-body text-gray-700">
 							{t("visit.intro")}
 						</p>
 					</Container>
@@ -117,7 +117,7 @@ export default function VisitPlannerClient({
 					>
 						<Container size="md">
 							<div className="flex items-start gap-3 border border-blue-200 bg-blue-50 px-4 py-3">
-								<span className="font-mono text-meta font-bold text-blue-900">
+								<span className="font-mono text-meta font-medium text-blue-900">
 									&rarr;
 								</span>
 								<div className="flex-1">
@@ -148,7 +148,7 @@ export default function VisitPlannerClient({
 							</SectionLabel>
 
 							{/* Visitor type */}
-							<p className="mb-3 font-mono text-meta font-medium text-gray-700">
+							<p className="mb-3 font-mono text-meta font-medium text-gray-500">
 								{t("visit.iAmA")}
 							</p>
 							<div className="mb-6 flex flex-wrap gap-2">
@@ -156,7 +156,7 @@ export default function VisitPlannerClient({
 									<button
 										key={type.label}
 										type="button"
-										className="border border-gray-300 px-3 py-2 font-mono text-meta text-gray-600 transition-colors hover:border-gray-500 hover:bg-gray-50"
+										className="border border-gray-300 px-3 py-2 font-mono text-meta text-gray-500 transition-colors hover:border-gray-500 hover:bg-gray-50"
 									>
 										{type.label}
 									</button>
@@ -164,7 +164,7 @@ export default function VisitPlannerClient({
 							</div>
 
 							{/* Interests */}
-							<p className="mb-3 font-mono text-meta font-medium text-gray-700">
+							<p className="mb-3 font-mono text-meta font-medium text-gray-500">
 								{t("visit.interestedIn")}
 							</p>
 							<div className="mb-6 border border-gray-300 px-4 py-3">
@@ -174,13 +174,13 @@ export default function VisitPlannerClient({
 							</div>
 
 							{/* Time available */}
-							<p className="mb-3 font-mono text-meta font-medium text-gray-700">
+							<p className="mb-3 font-mono text-meta font-medium text-gray-500">
 								{t("visit.iHave")}
 							</p>
 							<div className="mb-6 flex gap-2">
 								<button
 									type="button"
-									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600"
+									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-500"
 								>
 									{t("visit.time30m")}
 								</button>
@@ -192,38 +192,38 @@ export default function VisitPlannerClient({
 								</button>
 								<button
 									type="button"
-									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600"
+									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-500"
 								>
 									{t("visit.time2h")}
 								</button>
 								<button
 									type="button"
-									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600"
+									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-500"
 								>
 									{t("visit.timeHalfDay")}
 								</button>
 							</div>
 
 							{/* Museum */}
-							<p className="mb-3 font-mono text-meta font-medium text-gray-700">
+							<p className="mb-3 font-mono text-meta font-medium text-gray-500">
 								{t("visit.visiting")}
 							</p>
 							<div className="mb-6 flex gap-2">
 								<button
 									type="button"
-									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600"
+									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-500"
 								>
 									{t("visit.museumDeYoung")}
 								</button>
 								<button
 									type="button"
-									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600"
+									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-500"
 								>
 									{t("visit.museumLegion")}
 								</button>
 								<button
 									type="button"
-									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600"
+									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-500"
 								>
 									{t("visit.museumBoth")}
 								</button>
@@ -314,7 +314,7 @@ export default function VisitPlannerClient({
 										label={`[${doc.title || doc.accession_number}]`}
 									/>
 									<div className="p-3">
-										<h3 className="font-mono text-meta font-medium leading-snug">
+										<h3 className="font-mono text-card font-medium leading-snug">
 											{doc.title || doc.accession_number}
 										</h3>
 										<p className="mt-0.5 font-mono text-label text-gray-500">

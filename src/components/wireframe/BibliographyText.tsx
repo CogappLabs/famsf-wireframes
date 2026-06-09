@@ -132,9 +132,9 @@ export default function BibliographyText({
 			{entries.map(({ text, order }) => (
 				<li
 					key={`${order}-${text.length}-${text.slice(0, 32)}`}
-					className="grid grid-cols-[2rem_1fr] gap-2 text-body leading-snug text-gray-700 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
+					className="grid grid-cols-[2rem_1fr] gap-2 text-meta leading-snug text-gray-700 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
 				>
-					<span className="font-mono text-label text-gray-400 tabular-nums">
+					<span className="font-mono text-label text-gray-500 tabular-nums">
 						{order + 1}.
 					</span>
 					<span

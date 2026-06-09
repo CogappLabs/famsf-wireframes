@@ -344,7 +344,7 @@ function FacetBlock({
 
 	return (
 		<div className="border-b border-gray-200 pb-3">
-			<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-400">
+			<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
 				{label}
 			</p>
 			{selected && (
@@ -356,7 +356,7 @@ function FacetBlock({
 				>
 					<span
 						aria-hidden
-						className="flex h-4 w-4 shrink-0 items-center justify-center border border-white text-[11px] leading-none"
+						className="flex h-4 w-4 shrink-0 items-center justify-center border border-white text-label leading-none"
 					>
 						✓
 					</span>
@@ -400,7 +400,7 @@ function FacetBlock({
 				<button
 					type="button"
 					onClick={() => setExpanded(true)}
-					className="mt-1 font-mono text-meta text-gray-600 underline hover:text-gray-800"
+					className="mt-1 font-mono text-meta text-gray-500 underline hover:text-gray-700"
 				>
 					Show {hiddenCount} more
 				</button>
@@ -409,7 +409,7 @@ function FacetBlock({
 				<button
 					type="button"
 					onClick={() => setExpanded(false)}
-					className="ml-3 mt-1 font-mono text-meta text-gray-600 underline hover:text-gray-800"
+					className="ml-3 mt-1 font-mono text-meta text-gray-500 underline hover:text-gray-700"
 				>
 					Show fewer
 				</button>
@@ -563,7 +563,7 @@ function DateHistogram({
 					<button
 						type="button"
 						onClick={() => onChange(null)}
-						className="shrink-0 py-1 font-mono text-meta text-gray-600 underline hover:text-gray-800"
+						className="shrink-0 py-1 font-mono text-meta text-gray-500 underline hover:text-gray-700"
 					>
 						Clear
 					</button>
@@ -648,7 +648,7 @@ function FacetTreeRow({
 				>
 					<span
 						aria-hidden
-						className={`flex h-4 w-4 shrink-0 items-center justify-center border text-[11px] leading-none ${
+						className={`flex h-4 w-4 shrink-0 items-center justify-center border text-label leading-none ${
 							isSelected
 								? "border-gray-900 bg-gray-900 text-white"
 								: "border-gray-500 bg-white"
@@ -741,7 +741,7 @@ function TreeFacet({
 
 	return (
 		<div className="border-b border-gray-200 pb-3">
-			<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-400">
+			<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
 				{label}
 			</p>
 			<input
@@ -773,7 +773,7 @@ function TreeFacet({
 						<button
 							type="button"
 							onClick={() => setShowAll(true)}
-							className="mt-1 font-mono text-meta text-gray-600 underline hover:text-gray-800"
+							className="mt-1 font-mono text-meta text-gray-500 underline hover:text-gray-700"
 						>
 							Show {hiddenCount} more
 						</button>
@@ -782,7 +782,7 @@ function TreeFacet({
 						<button
 							type="button"
 							onClick={() => setShowAll(false)}
-							className="mt-1 font-mono text-meta text-gray-600 underline hover:text-gray-800"
+							className="mt-1 font-mono text-meta text-gray-500 underline hover:text-gray-700"
 						>
 							Show fewer
 						</button>
@@ -823,7 +823,7 @@ function FacetModal({
 			className="m-auto w-full max-w-md border border-gray-300 bg-white p-0 backdrop:bg-black/30"
 		>
 			<div className="flex items-center justify-between border-b border-gray-200 px-4 py-3">
-				<h3 className="font-mono text-meta font-bold">{title}</h3>
+				<h3 className="font-mono text-meta font-medium">{title}</h3>
 				<button
 					type="button"
 					onClick={onClose}
@@ -1315,7 +1315,7 @@ export function GridFacetsView({
 			activeCount: sel.date ? 1 : 0,
 			control: (
 				<div className="border-b border-gray-200 pb-3">
-					<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-400">
+					<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
 						Date
 					</p>
 					<DateHistogram
@@ -1382,7 +1382,7 @@ export function GridFacetsView({
 								onClick={() => setSel(EMPTY_GRID_SELECTIONS)}
 								aria-hidden={!anyActive}
 								tabIndex={anyActive ? 0 : -1}
-								className={`font-mono text-meta text-gray-600 underline hover:text-gray-800 ${
+								className={`font-mono text-meta text-gray-500 underline hover:text-gray-700 ${
 									anyActive ? "" : "invisible"
 								}`}
 							>

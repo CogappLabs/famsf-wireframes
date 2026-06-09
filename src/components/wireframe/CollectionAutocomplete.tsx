@@ -559,7 +559,7 @@ export default function CollectionAutocomplete({
 						<span>
 							<HighlightMatch text={s.value} query={inputValue} />
 						</span>
-						<span className="ml-2 font-mono text-label tabular-nums text-gray-400">
+						<span className="ml-2 font-mono text-label tabular-nums text-gray-500">
 							{s.count.toLocaleString()}
 						</span>
 					</button>,

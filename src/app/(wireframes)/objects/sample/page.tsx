@@ -76,7 +76,7 @@ export default function SampleObjectsIndex() {
 				<h1 className="mb-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
 					Real ETL pipeline documents
 				</h1>
-				<p className="mb-10 font-mono text-meta text-gray-500">
+				<p className="mb-10 font-mono text-meta text-gray-700">
 					Collection objects from the FAMSF pipeline. Refresh via{" "}
 					<code className="text-gray-700">npm run sync:samples</code>. New JSON
 					files in <code className="text-gray-700">src/data/sample-docs/</code>{" "}

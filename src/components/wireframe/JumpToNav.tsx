@@ -55,7 +55,7 @@ export default function JumpToNav({ items, className = "" }: JumpToNavProps) {
 
 	return (
 		<nav
-			className={`sticky top-0 z-30 flex gap-1.5 overflow-x-auto bg-white/95 py-1 backdrop-blur [scrollbar-width:none] [&::-webkit-scrollbar]:hidden ${className}`}
+			className={`flex gap-1.5 overflow-x-auto py-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden ${className}`}
 			aria-label="Jump to section"
 		>
 			{items.map((item) => {

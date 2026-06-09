@@ -81,7 +81,7 @@ function ExhibitionDetailContent({
 						<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
 							{exh.title}
 						</h1>
-						<p className="mt-2 font-mono text-body text-gray-600">
+						<p className="mt-2 font-mono text-body text-gray-700">
 							{exh.venue} &middot; {exh.date}
 						</p>
 
@@ -165,7 +165,7 @@ function ExhibitionDetailContent({
 										label={`[${w.title ?? w.accession_number}]`}
 									/>
 									<div className="p-3">
-										<h3 className="font-mono text-meta font-medium leading-snug">
+										<h3 className="font-mono text-card font-medium leading-snug">
 											{w.title ?? w.accession_number}
 										</h3>
 										<p className="mt-0.5 font-mono text-label text-gray-500">
@@ -195,7 +195,7 @@ function ExhibitionDetailContent({
 											href={`/exhibition-detail?id=${e.id}`}
 											className="block border border-gray-300 px-3 py-3 hover:border-gray-500"
 										>
-											<p className="font-mono text-meta font-medium text-gray-800">
+											<p className="font-mono text-meta font-medium text-gray-900">
 												{e.title}
 											</p>
 											<p className="mt-0.5 font-mono text-label text-gray-500">

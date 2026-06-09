@@ -58,7 +58,7 @@ export default function FeatureStatusPage() {
 				<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight ">
 					{t("feature-status.heading")}
 				</h1>
-				<p className="mt-3 max-w-[var(--container-md)] font-mono text-body text-gray-600">
+				<p className="mt-3 max-w-[var(--container-md)] font-mono text-body text-gray-700">
 					{t("feature-status.description")}
 				</p>
 
@@ -94,7 +94,7 @@ export default function FeatureStatusPage() {
 							className={
 								filter === key
 									? "border-2 border-gray-900 bg-gray-100 px-3 py-1.5 font-mono text-meta font-medium tracking-wide text-gray-900"
-									: "border border-gray-300 px-3 py-1.5 font-mono text-meta tracking-wide text-gray-600 hover:border-gray-500"
+									: "border border-gray-300 px-3 py-1.5 font-mono text-meta tracking-wide text-gray-500 hover:border-gray-500"
 							}
 						>
 							{t(labelKey)}
@@ -151,11 +151,11 @@ export default function FeatureStatusPage() {
 												key={s.key}
 												className="border-b border-gray-100 align-top"
 											>
-												<td className="py-2 pr-3 text-gray-800">{s.label}</td>
+												<td className="py-2 pr-3 text-gray-700">{s.label}</td>
 												<td className="py-2 pr-3">
 													{s.mvp ? <MvpBadge /> : <PostMvpBadge />}
 												</td>
-												<td className="py-2 pr-3 text-gray-600">
+												<td className="py-2 pr-3 text-gray-700">
 													{s.note ?? <span className="text-gray-300">–</span>}
 												</td>
 												<td className="py-2">
@@ -198,7 +198,7 @@ function Stat({
 		<div className="flex items-baseline gap-2">
 			<span
 				className={`font-mono text-card font-semibold tabular-nums ${
-					tone === "emerald" ? "text-emerald-700" : "text-gray-800"
+					tone === "emerald" ? "text-emerald-700" : "text-gray-900"
 				}`}
 			>
 				{value}

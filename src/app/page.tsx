@@ -116,7 +116,7 @@ export default function WireframeIndex() {
 					<h2 className="mb-1 font-mono text-label tracking-[0.08em] text-purple-500">
 						{t("index.prototypesHeading")}
 					</h2>
-					<p className="mb-3 font-mono text-meta text-gray-400">
+					<p className="mb-3 font-mono text-meta text-gray-500">
 						{t("index.prototypesSubtitle")}
 					</p>
 					<div className="flex flex-col gap-3">

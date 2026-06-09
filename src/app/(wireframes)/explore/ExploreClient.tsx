@@ -135,7 +135,7 @@ export default function ExploreClient({
 						<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
 							{t("explore.heading")}
 						</h1>
-						<p className="mt-4 max-w-[var(--container-md)] font-mono text-body text-gray-600">
+						<p className="mt-4 max-w-[var(--container-md)] font-mono text-body text-gray-700">
 							{t("explore.intro")}
 						</p>
 					</Container>
@@ -228,7 +228,7 @@ export default function ExploreClient({
 								>
 									<ImagePlaceholder label={`[${work.title}]`} />
 									<div className="p-3">
-										<h3 className="font-mono text-meta font-medium leading-snug">
+										<h3 className="font-mono text-card font-medium leading-snug">
 											{work.title}
 										</h3>
 										<p className="mt-0.5 font-mono text-label text-gray-500">
@@ -251,7 +251,7 @@ export default function ExploreClient({
 							<SectionLabel className="mb-6">
 								{t("explore.discoveryHeading")}
 							</SectionLabel>
-							<p className="mb-4 font-mono text-body text-gray-600">
+							<p className="mb-4 font-mono text-body text-gray-700">
 								{t("explore.discoveryIntro")}
 							</p>
 							<div className="flex flex-wrap gap-2">
@@ -259,7 +259,7 @@ export default function ExploreClient({
 									<Link
 										key={prompt}
 										href={`/search-results?q=${encodeURIComponent(prompt)}`}
-										className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600 transition-colors hover:border-gray-500 hover:bg-gray-50"
+										className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-500 transition-colors hover:border-gray-500 hover:bg-gray-50"
 									>
 										{prompt}
 									</Link>
@@ -282,7 +282,7 @@ export default function ExploreClient({
 												<span className="font-mono text-label tracking-wide text-gray-400">
 													{label}
 												</span>
-												<span className="mt-1 font-mono text-body font-medium text-gray-800">
+												<span className="mt-1 font-mono text-body font-medium text-gray-700">
 													{value}
 												</span>
 											</div>
@@ -298,7 +298,7 @@ export default function ExploreClient({
 										</button>
 										<Link
 											href="/search-results"
-											className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-700 hover:border-gray-500"
+											className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-500 hover:border-gray-500"
 										>
 											{t("explore.shuffleApply")} &rarr;
 										</Link>
@@ -329,7 +329,7 @@ export default function ExploreClient({
 										href="/search-results"
 										className="border border-gray-300 p-4 transition-colors hover:border-gray-500"
 									>
-										<p className="font-mono text-meta font-medium text-gray-800">
+										<p className="font-mono text-meta font-medium text-gray-700">
 											{m.name}
 										</p>
 										<p className="mt-1 font-mono text-label tracking-wide text-gray-400">

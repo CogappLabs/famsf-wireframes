@@ -56,7 +56,7 @@ export default function MyFindsClient({
 						<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
 							{t("finds.heading")}
 						</h1>
-						<p className="mt-4 font-mono text-body text-gray-600">
+						<p className="mt-4 font-mono text-body text-gray-700">
 							{t("finds.intro")}
 						</p>
 						<div className="mt-4 flex gap-3">
@@ -68,13 +68,13 @@ export default function MyFindsClient({
 							</button>
 							<button
 								type="button"
-								className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600 transition-colors hover:border-gray-500"
+								className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-500 transition-colors hover:border-gray-500"
 							>
 								{t("finds.downloadPDF")}
 							</button>
 							<button
 								type="button"
-								className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-600 transition-colors hover:border-gray-500"
+								className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-500 transition-colors hover:border-gray-500"
 							>
 								{t("finds.copyCitations")}
 							</button>
@@ -182,7 +182,7 @@ export default function MyFindsClient({
 						<h2 className="mt-2 font-mono text-section font-semibold">
 							Turn a saved object into a journey
 						</h2>
-						<p className="mt-2 font-mono text-meta text-gray-600">
+						<p className="mt-2 font-mono text-meta text-gray-500">
 							Pick one of your finds as a starting point. Choose a direction
 							(same artist, period, medium...) and follow it through related
 							works. Share the path with a colleague.
@@ -203,7 +203,7 @@ export default function MyFindsClient({
 				>
 					<Container>
 						<SectionLabel>{t("finds.moreLikeHeading")}</SectionLabel>
-						<p className="mt-2 mb-4 font-mono text-meta text-gray-600">
+						<p className="mt-2 mb-4 font-mono text-meta text-gray-500">
 							{t("finds.moreLikeIntro")}
 						</p>
 						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">

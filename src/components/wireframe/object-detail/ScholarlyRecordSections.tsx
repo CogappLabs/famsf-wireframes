@@ -1,6 +1,3 @@
-"use client";
-
-import { Suspense } from "react";
 import {
 	BibliographyText,
 	Container,
@@ -8,7 +5,6 @@ import {
 	ProvenanceText,
 	ScopeMark,
 	SectionLabel,
-	usePageVariations,
 	WireframeSection,
 } from "@/components/wireframe";
 import FieldSourceBadge from "@/components/wireframe/FieldSourceBadge";
@@ -16,11 +12,6 @@ import type {
 	ExhibitionEntry,
 	ProvenanceStructured,
 } from "@/lib/collection-document";
-
-const LAYOUT_VARIATIONS = [
-	{ key: "standard", label: "Standard" },
-	{ key: "two-column", label: "Two-column" },
-] as const;
 
 interface Props {
 	exhibitions: ExhibitionEntry[];
@@ -36,19 +27,12 @@ interface Props {
 /**
  * Exhibition history + provenance + bibliography — the three dense,
  * researcher-facing record blocks. Curatorial Fellows asked for a two-column
- * layout to reduce scrolling (stakeholder synthesis). The `two-column`
- * variation keeps the three full-width sections stacked but flows each block's
- * entries across two CSS columns (so a long provenance / bibliography list
- * halves its vertical run). `standard` keeps each block single-column.
- *
- * Client component so it can register the layout toggle in the top bar via
- * `usePageVariations` and be linked with a shareable `?variation=` URL.
- *
- * `usePageVariations` reads `useSearchParams`, which forces a client-side
- * bailout under static export, so the inner body is wrapped in `<Suspense>`
- * (mirrors `SearchResultsClient`).
+ * layout to reduce scrolling (stakeholder synthesis), now the standard layout:
+ * the three full-width sections stay stacked but each block's entries flow
+ * across two CSS columns (so a long provenance / bibliography list halves its
+ * vertical run).
  */
-function ScholarlyRecordSectionsInner({
+export function ScholarlyRecordSections({
 	exhibitions,
 	hasExhibitions,
 	exhibitionHistoryHtml,
@@ -57,9 +41,6 @@ function ScholarlyRecordSectionsInner({
 	provenanceRaw,
 	bibliographyText,
 }: Props) {
-	const layout = usePageVariations(LAYOUT_VARIATIONS);
-	const twoCol = layout === "two-column";
-
 	if (!hasExhibitions && !(hasProvenance && provenanceRaw) && !bibliographyText)
 		return null;
 
@@ -70,15 +51,9 @@ function ScholarlyRecordSectionsInner({
 			</span>
 			<SectionLabel className="mb-4">Exhibition history</SectionLabel>
 			<FieldSourceBadge field="exhibitions" block />
-			{/* two-col: CSS multi-column flows the rows by height; each row
+			{/* CSS multi-column flows the rows by height; each row
 			    breaks-inside-avoid so it never splits across the boundary. */}
-			<div
-				className={
-					twoCol
-						? "columns-2 gap-x-10 [&>*]:mb-3 [&>*]:break-inside-avoid"
-						: "flex flex-col gap-3"
-				}
-			>
+			<div className="columns-2 gap-x-10 [&>*]:mb-3 [&>*]:break-inside-avoid">
 				{exhibitions.map((e) => (
 					<ExhibitionRow
 						key={e.ExhibitionID}
@@ -121,7 +96,7 @@ function ScholarlyRecordSectionsInner({
 				<ProvenanceText
 					structured={provenanceStructured}
 					rawFallback={provenanceRaw}
-					columns={twoCol}
+					columns
 				/>
 				{/* Raw curator text, collapsed: only when a structured payload is
 				    already shown above (else ProvenanceText's raw fallback is the
@@ -152,7 +127,7 @@ function ScholarlyRecordSectionsInner({
 			</span>
 			<SectionLabel className="mb-4">Bibliography</SectionLabel>
 			<FieldSourceBadge field="bibliography_text" block />
-			<BibliographyText value={bibliographyText} columns={twoCol} />
+			<BibliographyText value={bibliographyText} columns />
 			{/* Raw curator text, collapsed: BibliographyText reformats the raw
 			    string into a numbered list, so expose the unprocessed source for
 			    verification (mirrors exhibition history). */}
@@ -173,12 +148,8 @@ function ScholarlyRecordSectionsInner({
 		</div>
 	) : null;
 
-	// Both layouts stack the three full-width sections. `two-column` flows each
-	// block's entries across two columns inside the section (handled in the
-	// blocks above); `standard` keeps them single-column. A wider container in
-	// two-col mode gives the columns room to breathe.
-	const containerSize = twoCol ? "lg" : "md";
-
+	// Each block's entries flow across two columns inside the section (handled
+	// in the blocks above). A wide container gives the columns room to breathe.
 	return (
 		<>
 			{exhibitionsBlock && (
@@ -186,7 +157,7 @@ function ScholarlyRecordSectionsInner({
 					label="Exhibitions"
 					className="border-b border-gray-300 py-8"
 				>
-					<Container size={containerSize}>{exhibitionsBlock}</Container>
+					<Container size="lg">{exhibitionsBlock}</Container>
 				</WireframeSection>
 			)}
 			{provenanceBlock && (
@@ -194,7 +165,7 @@ function ScholarlyRecordSectionsInner({
 					label="Provenance"
 					className="border-b border-gray-300 py-8"
 				>
-					<Container size={containerSize}>{provenanceBlock}</Container>
+					<Container size="lg">{provenanceBlock}</Container>
 				</WireframeSection>
 			)}
 			{bibliographyBlock && (
@@ -202,17 +173,9 @@ function ScholarlyRecordSectionsInner({
 					label="Bibliography"
 					className="border-b border-gray-300 py-8"
 				>
-					<Container size={containerSize}>{bibliographyBlock}</Container>
+					<Container size="lg">{bibliographyBlock}</Container>
 				</WireframeSection>
 			)}
 		</>
-	);
-}
-
-export function ScholarlyRecordSections(props: Props) {
-	return (
-		<Suspense>
-			<ScholarlyRecordSectionsInner {...props} />
-		</Suspense>
 	);
 }

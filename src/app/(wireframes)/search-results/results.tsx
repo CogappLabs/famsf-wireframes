@@ -56,7 +56,7 @@ export function ResultsGrid({
 						)}
 					</div>
 					<div className="p-3">
-						<h3 className="font-mono text-meta font-medium leading-snug">
+						<h3 className="font-mono text-card font-medium leading-snug">
 							{work.title || work.accession_number}
 						</h3>
 						<p className="mt-0.5 font-mono text-label text-gray-500">
@@ -136,12 +136,12 @@ export function InterleavedResults({
 								<ImagePlaceholder
 									label={`[${item.data.title || item.data.accession_number}]`}
 								/>
-								<span className="absolute left-2 top-2 border border-gray-300 bg-white px-1.5 py-0.5 font-mono text-label text-gray-600">
+								<span className="absolute left-2 top-2 border border-gray-300 bg-white px-1.5 py-0.5 font-mono text-label text-gray-500">
 									Artwork
 								</span>
 							</div>
 							<div className="p-3">
-								<h3 className="font-mono text-meta font-medium leading-snug">
+								<h3 className="font-mono text-card font-medium leading-snug">
 									{item.data.title || item.data.accession_number}
 								</h3>
 								<p className="mt-0.5 font-mono text-label text-gray-500">
@@ -165,7 +165,7 @@ export function InterleavedResults({
 								</span>
 							</div>
 							<div className="p-3">
-								<h3 className="font-mono text-meta font-medium leading-snug">
+								<h3 className="font-mono text-card font-medium leading-snug">
 									{item.data.name}
 								</h3>
 								<p className="mt-0.5 font-mono text-label text-gray-500">
@@ -204,7 +204,7 @@ export function ResultsList({
 						<ImagePlaceholder aspect="1/1" label="[img]" />
 					</div>
 					<div className="flex-1">
-						<h3 className="font-mono text-body font-medium">
+						<h3 className="font-mono text-card font-medium">
 							{work.title || work.accession_number}
 						</h3>
 						<p className="mt-0.5 font-mono text-meta text-gray-500">
@@ -266,7 +266,7 @@ export function ArtistHero({
 				<div className="flex flex-col gap-1">
 					<SectionLabelInline>Artist</SectionLabelInline>
 					<h2 className="font-mono text-card font-medium">{artist.name}</h2>
-					<p className="font-mono text-meta text-gray-600">
+					<p className="font-mono text-meta text-gray-700">
 						{artist.displayDate ||
 							[artist.nationality].filter(Boolean).join(", ")}
 					</p>
@@ -312,7 +312,7 @@ export function ArtistHero({
 								</div>
 							)}
 						</div>
-						<div className="mt-2 flex flex-col gap-1 font-mono text-label text-gray-600">
+						<div className="mt-2 flex flex-col gap-1 font-mono text-label text-gray-500">
 							{dateRange && (
 								<p>
 									<span className="text-gray-400">Date range: </span>
@@ -385,7 +385,7 @@ export function ArtistsRow({
 						>
 							<ImagePlaceholder aspect="1/1" label={`[${artist.name}]`} />
 							<div className="p-3">
-								<h3 className="font-mono text-meta font-medium leading-snug">
+								<h3 className="font-mono text-card font-medium leading-snug">
 									{artist.name}
 								</h3>
 								<p className="mt-0.5 font-mono text-label text-gray-500">
@@ -445,7 +445,7 @@ export function ZeroResults({
 			{/* Search tips */}
 			<div>
 				<SectionLabelInline>Try</SectionLabelInline>
-				<ul className="mt-2 flex flex-col gap-1 font-mono text-meta text-gray-600">
+				<ul className="mt-2 flex flex-col gap-1 font-mono text-meta text-gray-700">
 					<li>· Check spelling, or use fewer words</li>
 					<li>· Remove a filter to broaden results</li>
 					<li>· Try a related term: medium, period, geography</li>
@@ -464,7 +464,7 @@ export function ZeroResults({
 							<Link
 								key={s}
 								href="/search-results"
-								className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-700 hover:border-gray-500"
+								className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-500 hover:border-gray-500"
 							>
 								{s}
 							</Link>
@@ -490,7 +490,7 @@ export function ZeroResults({
 								label={`[${work.title || work.accession_number}]`}
 							/>
 							<div className="p-3">
-								<h3 className="font-mono text-meta font-medium leading-snug">
+								<h3 className="font-mono text-card font-medium leading-snug">
 									{work.title || work.accession_number}
 								</h3>
 								<p className="mt-0.5 font-mono text-label text-gray-500">

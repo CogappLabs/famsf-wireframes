@@ -283,7 +283,7 @@ export function FacetDialog({
 			className="m-auto w-full max-w-md border border-gray-300 bg-white p-0 backdrop:bg-black/30"
 		>
 			<div className="flex items-center justify-between border-b border-gray-200 px-4 py-3">
-				<h3 className="font-mono text-label font-bold ">{facet.label}</h3>
+				<h3 className="font-mono text-label font-medium">{facet.label}</h3>
 				<button
 					type="button"
 					onClick={onClose}

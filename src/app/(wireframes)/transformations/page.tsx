@@ -33,7 +33,7 @@ export default function TransformationsPage() {
 						href={SHEET_URL}
 						target="_blank"
 						rel="noopener noreferrer"
-						className="inline-flex items-center gap-2 rounded border border-gray-300 bg-white px-4 py-2 font-mono text-meta text-gray-800 shadow-sm hover:border-gray-400 hover:bg-gray-50"
+						className="inline-flex items-center gap-2 rounded border border-gray-300 bg-white px-4 py-2 font-mono text-meta text-gray-500 shadow-sm hover:border-gray-400 hover:bg-gray-50"
 					>
 						Open the spreadsheet ↗
 					</a>

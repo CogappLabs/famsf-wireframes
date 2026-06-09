@@ -105,7 +105,7 @@ export default function CollectionAreaPage() {
 						<SectionLabel className="mb-4">
 							{t("area.aboutHeading")}
 						</SectionLabel>
-						<div className="space-y-4 font-mono text-body text-gray-600">
+						<div className="space-y-4 font-mono text-body text-gray-700">
 							<p>
 								The European Decorative Arts and Sculpture collection
 								encompasses over 6,000 works spanning from the medieval period
@@ -162,7 +162,7 @@ export default function CollectionAreaPage() {
 								>
 									<ImagePlaceholder label={`[${work.title}]`} />
 									<div className="p-3">
-										<h3 className="font-mono text-meta font-medium leading-snug">
+										<h3 className="font-mono text-card font-medium leading-snug">
 											{work.title}
 										</h3>
 										<p className="mt-0.5 font-mono text-label text-gray-500">

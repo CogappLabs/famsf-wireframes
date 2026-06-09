@@ -492,7 +492,7 @@ function SearchResultsContent({
 									leadingSlot={
 										<select
 											aria-label="Search mode"
-											className="border border-gray-300 bg-white px-3 py-3 font-mono text-meta text-gray-600 hover:border-gray-500 focus:outline-none"
+											className="border border-gray-300 bg-white px-3 py-3 font-mono text-meta text-gray-500 hover:border-gray-500 focus:outline-none"
 											value={searchMode}
 											onChange={(e) =>
 												setSearchMode(

@@ -43,7 +43,7 @@ function SampleCard({ entry }: { entry: ConstituentSampleEntry }) {
 					)}
 				</div>
 				<div className="ml-6 shrink-0 text-right">
-					<span className="block font-mono text-page font-semibold leading-none text-gray-700">
+					<span className="block font-mono text-page font-semibold leading-none text-gray-900">
 						{populatedFields}
 					</span>
 					<span className="font-mono text-label text-gray-400">fields</span>

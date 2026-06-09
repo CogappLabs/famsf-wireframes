@@ -79,7 +79,7 @@ function ParentRecordContent({
 						<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
 							{formatTitle(doc.title) || doc.accession_number}
 						</h1>
-						<p className="mt-1 font-mono text-body text-gray-600">
+						<p className="mt-1 font-mono text-body text-gray-700">
 							{artistSlug ? (
 								<Link
 									href={`/constituents/sample/${artistSlug}`}
@@ -162,7 +162,7 @@ function ParentRecordContent({
 										label={`[${c.title ?? c.accession_number}]`}
 									/>
 									<div className="p-3">
-										<h3 className="font-mono text-meta font-medium leading-snug">
+										<h3 className="font-mono text-card font-medium leading-snug">
 											{c.title ?? c.accession_number}
 										</h3>
 										<p className="mt-0.5 font-mono text-label text-gray-500">

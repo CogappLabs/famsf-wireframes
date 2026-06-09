@@ -84,7 +84,7 @@ function classify(row: FieldRow): Badge[] {
 type KindFilter = "all" | "passthrough" | "derived" | "multi-source";
 
 const KIND_FILTERS: { value: KindFilter; label: string; tone: string }[] = [
-	{ value: "all", label: "All", tone: "border-gray-400 text-gray-700" },
+	{ value: "all", label: "All", tone: "border-gray-400 text-gray-500" },
 	{
 		value: "passthrough",
 		label: "Passthrough",
@@ -179,7 +179,7 @@ export default function LineageTable({ fields }: { fields: FieldRow[] }) {
 						placeholder="ES field, asset, or column…"
 						value={search}
 						onChange={(e) => setSearch(e.target.value)}
-						className="mt-1 block w-full border border-gray-300 px-2 py-1 font-mono text-meta text-gray-800 placeholder:text-gray-400 focus:border-gray-500 focus:outline-none"
+						className="mt-1 block w-full border border-gray-300 px-2 py-1 font-mono text-meta text-gray-700 placeholder:text-gray-400 focus:border-gray-500 focus:outline-none"
 					/>
 				</div>
 				<div>
@@ -189,7 +189,7 @@ export default function LineageTable({ fields }: { fields: FieldRow[] }) {
 					<select
 						value={tmsFilter}
 						onChange={(e) => setTmsFilter(e.target.value)}
-						className="mt-1 block border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-800 focus:border-gray-500 focus:outline-none"
+						className="mt-1 block border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-700 focus:border-gray-500 focus:outline-none"
 					>
 						<option value="all">All</option>
 						{tmsTables.map((t) => (

@@ -9,7 +9,7 @@ export default function TombstoneLabel({
 }: TombstoneLabelProps) {
 	return (
 		<span
-			className={`font-mono text-label tracking-[0.04em] text-gray-400 ${className}`}
+			className={`font-mono text-label tracking-[0.04em] text-gray-500 ${className}`}
 		>
 			{children}
 		</span>

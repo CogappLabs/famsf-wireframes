@@ -63,7 +63,7 @@ export function ImageSection({
 									</p>
 								)}
 								{visibleMedia[0].public_caption && (
-									<p className="mt-0.5 font-mono text-meta text-gray-600">
+									<p className="mt-0.5 font-mono text-meta text-gray-700">
 										{visibleMedia[0].public_caption}
 										<FieldSourceBadge field="media[].public_caption" />
 									</p>
@@ -134,7 +134,7 @@ export function ImageSection({
 													{item.media_view && <> &middot; {item.media_view}</>}
 												</p>
 												{item.public_caption && (
-													<p className="mt-0.5 font-mono text-meta text-gray-600">
+													<p className="mt-0.5 font-mono text-meta text-gray-700">
 														{item.public_caption}
 														<FieldSourceBadge field="media[].public_caption" />
 													</p>
@@ -223,14 +223,14 @@ export function ImageSection({
 					<div className="mt-3 flex flex-wrap items-center gap-3">
 						<button
 							type="button"
-							className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
+							className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-500 hover:border-gray-500"
 						>
 							Zoom
 						</button>
 						{isPublicDomain ? (
 							<button
 								type="button"
-								className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
+								className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-500 hover:border-gray-500"
 							>
 								Download
 							</button>
@@ -246,13 +246,13 @@ export function ImageSection({
 						)}
 						<button
 							type="button"
-							className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
+							className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-500 hover:border-gray-500"
 						>
 							Share
 						</button>
 						<button
 							type="button"
-							className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
+							className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-500 hover:border-gray-500"
 						>
 							{t("object.citeButton")}
 						</button>

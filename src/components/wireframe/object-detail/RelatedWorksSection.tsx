@@ -67,7 +67,7 @@ export function RelatedWorksSection({
 							className={
 								mode === key
 									? "border-2 border-gray-900 bg-gray-100 px-3 py-1 font-mono text-label font-medium tracking-wide text-gray-900"
-									: "border border-gray-300 px-3 py-1 font-mono text-label tracking-wide text-gray-600 hover:border-gray-500"
+									: "border border-gray-300 px-3 py-1 font-mono text-label tracking-wide text-gray-500 hover:border-gray-500"
 							}
 						>
 							{t(labelKey)}
@@ -95,7 +95,7 @@ export function RelatedWorksSection({
 							>
 								<ImagePlaceholder label={`[${r.title}]`} />
 								<div className="p-3">
-									<h3 className="font-mono text-meta font-medium leading-snug">
+									<h3 className="font-mono text-card font-medium leading-snug">
 										{r.title}
 									</h3>
 									<p className="mt-0.5 font-mono text-label text-gray-500">

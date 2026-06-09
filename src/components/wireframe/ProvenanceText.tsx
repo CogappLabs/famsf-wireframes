@@ -61,7 +61,7 @@ export default function ProvenanceText({
 	rawFallback,
 	idPrefix = "prov-footnote",
 	className,
-	bodyClassName = "whitespace-pre-line font-mono text-body leading-relaxed text-gray-600",
+	bodyClassName = "whitespace-pre-line font-mono text-meta leading-relaxed text-gray-700",
 	footnoteClassName = "font-mono text-label leading-relaxed text-gray-500",
 	columns = false,
 }: ProvenanceTextProps) {

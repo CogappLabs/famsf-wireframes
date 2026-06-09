@@ -146,7 +146,7 @@ function FacetDialog({
 			className="m-auto w-full max-w-md border border-gray-300 bg-white p-0 backdrop:bg-black/30"
 		>
 			<div className="flex items-center justify-between border-b border-gray-200 px-4 py-3">
-				<h3 className="font-mono text-label font-bold ">{facet.label}</h3>
+				<h3 className="font-mono text-label font-medium">{facet.label}</h3>
 				<button
 					type="button"
 					onClick={onClose}
@@ -308,7 +308,7 @@ export default function ArtistSearchClient({
 						<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
 							{t("artistSearch.heading")}
 						</h1>
-						<p className="mt-3 max-w-3xl font-mono text-body text-gray-600">
+						<p className="mt-3 max-w-3xl font-mono text-body text-gray-700">
 							{t("artistSearch.intro")}
 						</p>
 

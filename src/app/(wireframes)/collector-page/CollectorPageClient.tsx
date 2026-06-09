@@ -83,7 +83,7 @@ export default function CollectorPageClient({
 						<SectionLabel className="mb-4">
 							{t("collector.bioHeading")}
 						</SectionLabel>
-						<div className="space-y-4 font-mono text-body text-gray-600">
+						<div className="space-y-4 font-mono text-body text-gray-700">
 							<p>
 								Alma de Bretteville Spreckels was the driving force behind the
 								creation of the California Palace of the Legion of Honor, which
@@ -138,7 +138,7 @@ export default function CollectorPageClient({
 									>
 										<ImagePlaceholder label={`[${title}]`} />
 										<div className="p-3">
-											<h3 className="font-mono text-meta font-medium leading-snug">
+											<h3 className="font-mono text-card font-medium leading-snug">
 												{title}
 											</h3>
 											<p className="mt-0.5 font-mono text-label text-gray-500">
@@ -167,7 +167,7 @@ export default function CollectorPageClient({
 								label="[Historical photograph : Legion of Honor opening, 1924]"
 								className="mb-4 border border-gray-300"
 							/>
-							<p className="font-mono text-body text-gray-600">
+							<p className="font-mono text-body text-gray-700">
 								The California Palace of the Legion of Honor was dedicated on
 								Armistice Day, 11 November 1924, as a memorial to the
 								Californian soldiers who died in the First World War. Alma

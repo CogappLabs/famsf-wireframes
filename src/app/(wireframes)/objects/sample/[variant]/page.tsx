@@ -338,7 +338,7 @@ export default async function SampleObjectPage({ params }: Props) {
 								</div>
 								<Link
 									href={parentHref}
-									className="font-mono text-label tracking-wide text-gray-600 underline hover:text-gray-900"
+									className="font-mono text-label tracking-wide text-gray-500 underline hover:text-gray-900"
 								>
 									View parent record &rarr;
 								</Link>
@@ -354,6 +354,47 @@ export default async function SampleObjectPage({ params }: Props) {
 					hasAnyImage={hasAnyImage}
 					isPublicDomain={isPublicDomain}
 				/>
+				{/* Jump-to nav: sits between the image gallery and the title so it's
+				 the first thing to pin; the tombstone + deep content scroll under it. */}
+				<ScopeMark
+					label="Jump-to navigation"
+					className="sticky top-0 z-30 border-b border-gray-200 bg-white/95 backdrop-blur"
+				>
+					<Container className="py-2">
+						{/* Pared to the substantive deep-scroll destinations. Short or
+						    tail sections (Image, Dimensions, Audio, Related, Educational)
+						    are reachable by scrolling and left out to keep the bar short. */}
+						<JumpToNav
+							items={[
+								{ label: t("object.jumpObject"), id: "tombstone" },
+								...(hasDescription
+									? [{ label: t("object.jumpAbout"), id: "about" }]
+									: []),
+								...(hasConstituents
+									? [{ label: t("object.jumpPeople"), id: "constituents" }]
+									: []),
+								...(hasExhibitions
+									? [{ label: t("object.jumpExhibitions"), id: "exhibitions" }]
+									: []),
+								...(doc.has_provenance
+									? [{ label: t("object.jumpProvenance"), id: "provenance" }]
+									: []),
+								...(doc.bibliography_text
+									? [
+											{
+												label: t("object.jumpBibliography"),
+												id: "bibliography",
+											},
+										]
+									: []),
+								{
+									label: t("object.jumpRightsCitation"),
+									id: "rights-citation",
+								},
+							]}
+						/>
+					</Container>
+				</ScopeMark>
 				{/* Tombstone */}
 				<Container className="border-b border-gray-300 py-8">
 					<WireframeSection label="Tombstone">
@@ -422,13 +463,13 @@ export default async function SampleObjectPage({ params }: Props) {
 						)}
 
 						{doc.primary_artist_display && (
-							<p className="mt-1 font-mono text-body text-gray-600">
+							<p className="mt-1 font-mono text-body text-gray-700">
 								{doc.primary_artist_display}
 								<FieldSourceBadge field="primary_artist_display" />
 							</p>
 						)}
 						{displayDate && (
-							<p className="mt-0.5 font-mono text-meta text-gray-400">
+							<p className="mt-0.5 font-mono text-meta text-gray-500">
 								{displayDate}
 								<FieldSourceBadge field="display_date" />
 								{doc.medium && (
@@ -477,7 +518,7 @@ export default async function SampleObjectPage({ params }: Props) {
 													{mediumParts.map((part) => (
 														<span
 															key={part}
-															className="inline-block rounded bg-gray-100 px-2 py-0.5 font-mono text-label text-gray-600"
+															className="inline-block rounded bg-gray-100 px-2 py-0.5 font-mono text-label text-gray-500"
 														>
 															{part}
 														</span>
@@ -682,46 +723,6 @@ export default async function SampleObjectPage({ params }: Props) {
 					</WireframeSection>
 				</Container>
 
-				{/* Jump-to nav: moved below tombstone so the primary tombstone
-				 fields land in view first; navigation lives at the start of
-				 the deep-content scroll. */}
-				<ScopeMark label="Jump-to navigation">
-					<Container className="border-b border-gray-200 py-2">
-						{/* Pared to the substantive deep-scroll destinations. Short or
-						    tail sections (Image, Dimensions, Audio, Related, Educational)
-						    are reachable by scrolling and left out to keep the bar short. */}
-						<JumpToNav
-							items={[
-								{ label: t("object.jumpObject"), id: "tombstone" },
-								...(hasDescription
-									? [{ label: t("object.jumpAbout"), id: "about" }]
-									: []),
-								...(hasConstituents
-									? [{ label: t("object.jumpPeople"), id: "constituents" }]
-									: []),
-								...(hasExhibitions
-									? [{ label: t("object.jumpExhibitions"), id: "exhibitions" }]
-									: []),
-								...(doc.has_provenance
-									? [{ label: t("object.jumpProvenance"), id: "provenance" }]
-									: []),
-								...(doc.bibliography_text
-									? [
-											{
-												label: t("object.jumpBibliography"),
-												id: "bibliography",
-											},
-										]
-									: []),
-								{
-									label: t("object.jumpRightsCitation"),
-									id: "rights-citation",
-								},
-							]}
-						/>
-					</Container>
-				</ScopeMark>
-
 				{/* Description */}
 				{hasDescription && (
 					<WireframeSection
@@ -742,7 +743,7 @@ export default async function SampleObjectPage({ params }: Props) {
 										</TombstoneLabel>
 										<FieldSourceBadge field="web_text" block />
 										<p
-											className="font-mono text-body leading-relaxed text-gray-600 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
+											className="font-mono text-body leading-relaxed text-gray-700 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
 											// biome-ignore lint/security/noDangerouslySetInnerHtml: sanitised via allow-list
 											dangerouslySetInnerHTML={{
 												__html: sanitiseHtml(doc.web_text),
@@ -762,7 +763,7 @@ export default async function SampleObjectPage({ params }: Props) {
 										</TombstoneLabel>
 										<FieldSourceBadge field="didactic_label" block />
 										<p
-											className="font-mono text-body leading-relaxed text-gray-600 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
+											className="font-mono text-body leading-relaxed text-gray-700 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
 											// biome-ignore lint/security/noDangerouslySetInnerHtml: sanitised via allow-list
 											dangerouslySetInnerHTML={{
 												__html: sanitiseHtml(doc.didactic_label),
@@ -842,7 +843,7 @@ export default async function SampleObjectPage({ params }: Props) {
 							<div className="flex flex-col gap-5">
 								{sortedRoles.map(([role, members]) => (
 									<div key={role}>
-										<h3 className="mb-2 font-mono text-label tracking-wide text-gray-400">
+										<h3 className="mb-2 font-mono text-label tracking-wide text-gray-500">
 											{role}
 										</h3>
 										<div className="flex flex-col gap-2">
@@ -959,7 +960,7 @@ export default async function SampleObjectPage({ params }: Props) {
 								</button>
 								<div className="flex flex-1 flex-col gap-2">
 									<div className="flex items-baseline justify-between gap-3">
-										<p className="font-mono text-meta font-medium text-gray-800">
+										<p className="font-mono text-meta font-medium text-gray-700">
 											Curator's commentary
 										</p>
 										<p className="font-mono text-label text-gray-400">

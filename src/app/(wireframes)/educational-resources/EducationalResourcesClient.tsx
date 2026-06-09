@@ -85,7 +85,7 @@ export default function EducationalResourcesClient({
 						<h1 className="mt-2 font-mono text-page font-semibold leading-[1.15] tracking-tight">
 							{t("edu.heading")}
 						</h1>
-						<p className="mt-4 max-w-[var(--container-md)] font-mono text-body text-gray-600">
+						<p className="mt-4 max-w-[var(--container-md)] font-mono text-body text-gray-700">
 							{t("edu.intro")}
 						</p>
 						<div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
@@ -114,7 +114,7 @@ export default function EducationalResourcesClient({
 									className={`flex items-center gap-6 px-5 py-4 text-left transition-colors hover:bg-gray-50 ${i > 0 ? "border-t border-gray-200" : ""}`}
 								>
 									<div className="flex-1">
-										<h3 className="font-mono text-body font-medium">
+										<h3 className="font-mono text-card font-medium">
 											{plan.title}
 										</h3>
 										<p className="mt-0.5 font-mono text-meta text-gray-500">
@@ -173,7 +173,7 @@ export default function EducationalResourcesClient({
 						<SectionLabel className="mb-4">
 							{t("edu.contentLabelHeading")}
 						</SectionLabel>
-						<p className="mb-4 font-mono text-body text-gray-600">
+						<p className="mb-4 font-mono text-body text-gray-700">
 							{t("edu.contentLabelIntro")}
 						</p>
 						<div className="flex flex-wrap gap-3">
@@ -200,7 +200,7 @@ export default function EducationalResourcesClient({
 							<SectionLabel className="mb-4">
 								{t("edu.readingLevelHeading")}
 							</SectionLabel>
-							<p className="mb-4 font-mono text-body text-gray-600">
+							<p className="mb-4 font-mono text-body text-gray-700">
 								{t("edu.readingLevelIntro")}
 							</p>
 							<div className="border border-gray-300 p-4">
@@ -210,7 +210,7 @@ export default function EducationalResourcesClient({
 								<div className="flex gap-2">
 									<button
 										type="button"
-										className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-600"
+										className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-500"
 									>
 										Grades 3–5
 									</button>
@@ -222,13 +222,13 @@ export default function EducationalResourcesClient({
 									</button>
 									<button
 										type="button"
-										className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-600"
+										className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-500"
 									>
 										Grades 9–12
 									</button>
 									<button
 										type="button"
-										className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-600"
+										className="border border-gray-300 px-3 py-1.5 font-mono text-meta text-gray-500"
 									>
 										Original
 									</button>
@@ -262,7 +262,7 @@ export default function EducationalResourcesClient({
 									>
 										<ImagePlaceholder label={`[${title}]`} />
 										<div className="p-3">
-											<h3 className="font-mono text-meta font-medium leading-snug">
+											<h3 className="font-mono text-card font-medium leading-snug">
 												{title}
 											</h3>
 											<p className="mt-0.5 font-mono text-label text-gray-500">

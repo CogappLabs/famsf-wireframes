@@ -79,7 +79,7 @@ export default function PortfolioDetailClient({
 								</h1>
 								<Link
 									href={artistHref}
-									className="mt-1 block font-mono text-body text-gray-600 underline decoration-gray-300 hover:decoration-gray-600"
+									className="mt-1 block font-mono text-body text-gray-700 underline decoration-gray-300 hover:decoration-gray-600"
 								>
 									Gustave Doré
 								</Link>
@@ -142,7 +142,7 @@ export default function PortfolioDetailClient({
 					<Container>
 						<div className="mb-6 flex items-center justify-between">
 							<SectionLabel>{t("portfolio.childrenHeading")}</SectionLabel>
-							<span className="font-mono text-meta text-gray-400">
+							<span className="font-mono text-meta text-gray-500">
 								24 plates &middot; showing 1–8
 							</span>
 						</div>
@@ -155,7 +155,7 @@ export default function PortfolioDetailClient({
 								>
 									<ImagePlaceholder label={`[${child.title}]`} />
 									<div className="p-3">
-										<h3 className="font-mono text-meta font-medium leading-snug">
+										<h3 className="font-mono text-card font-medium leading-snug">
 											{child.title}
 										</h3>
 										<p className="mt-0.5 font-mono text-label text-gray-400">
@@ -168,7 +168,7 @@ export default function PortfolioDetailClient({
 						<div className="mt-6 text-center">
 							<button
 								type="button"
-								className="border border-gray-300 px-6 py-2 font-mono text-body text-gray-600 transition-colors hover:border-gray-500"
+								className="border border-gray-300 px-6 py-2 font-mono text-body text-gray-700 transition-colors hover:border-gray-500"
 							>
 								{t("portfolio.viewAllPlates")}
 							</button>
@@ -227,7 +227,7 @@ export default function PortfolioDetailClient({
 									<ImagePlaceholder aspect="1/1" label="[img]" />
 								</div>
 								<div>
-									<h3 className="font-mono text-body font-medium">
+									<h3 className="font-mono text-card font-medium">
 										L&apos;Enfer de Dante
 									</h3>
 									<p className="mt-0.5 font-mono text-meta text-gray-500">
@@ -246,7 +246,7 @@ export default function PortfolioDetailClient({
 									<ImagePlaceholder aspect="1/1" label="[img]" />
 								</div>
 								<div>
-									<h3 className="font-mono text-body font-medium">
+									<h3 className="font-mono text-card font-medium">
 										London: A Pilgrimage
 									</h3>
 									<p className="mt-0.5 font-mono text-meta text-gray-500">
