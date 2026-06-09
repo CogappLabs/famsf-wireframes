@@ -115,8 +115,8 @@ export const scope: Record<string, ScopeEntry> = {
 		issueUrl: issue("CW-42"),
 	},
 	"search-results/Date range filter": {
-		mvp: false,
-		note: "User-entered year span",
+		mvp: true,
+		note: "User-entered year span. Phase 1 per FAMSF Discovery Summary (2026-06-08, Search + Filters).",
 		issueUrl: issue("CW-64"),
 	},
 	"search-results/Downloadable results": {
@@ -202,19 +202,23 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 
 	// ── Artist search / index ──────────────────────────────────────────
+	// Deferred from Phase 1 per Cogapp deferral candidates (2026-06-09):
+	// depends on the constituents index (CW-124) + constituents pipeline
+	// (CW-105), both unfinished. Hyperlinked artist names (CW-47) link to a
+	// filtered search in Phase 1 instead. Doc itself pre-flags as downlevel.
 	"artist-search/Search bar": {
-		mvp: true,
-		note: "Name search across artists (no images: most constituents lack portraits).",
+		mvp: false,
+		note: "Name search across artists (no images: most constituents lack portraits). Deferred: depends on unfinished constituents index (CW-124) + pipeline (CW-105).",
 		issueUrl: issue("CW-31"),
 	},
 	"artist-search/Letter filter": {
-		mvp: true,
+		mvp: false,
 		note: "A–Z jump filter for browse by surname.",
 		issueUrl: issue("CW-31"),
 	},
-	"artist-search/Artist list": { mvp: true, issueUrl: issue("CW-31") },
+	"artist-search/Artist list": { mvp: false, issueUrl: issue("CW-31") },
 	"artist-search/Facets": {
-		mvp: true,
+		mvp: false,
 		note: "Nationality, dates active, role. Re-uses search-results facet pattern (horizontal pill bar + dialog). Production facet list to be confirmed with curators.",
 		issueUrl: issue("CW-31"),
 	},
@@ -279,13 +283,14 @@ export const scope: Record<string, ScopeEntry> = {
 		issueUrl: issue("CW-32"),
 	},
 	"portfolio-detail/Sequential browser": {
-		mvp: true,
-		note: "Page-by-page browsing within a portfolio",
+		mvp: false,
+		note: "Page-by-page browsing within a portfolio. Deferred per Cogapp deferral candidates (2026-06-09): interaction-heavy (state, keyboard, deep-zoom per page) for only ~43 of 140,888 docs with children. Simple parent + flat child list covers the launch discovery need.",
 		issueUrl: issue("CW-32"),
 	},
 	"portfolio-detail/Related works": {
 		mvp: false,
-		issueUrl: issue("CW-32"),
+		note: "Algorithmically/curated related works. Deferred per Cogapp deferral candidates (2026-06-09): curated associations on <1% of docs (CW-65). Hyperlinked metadata (CW-47) gives the 'more like this' path in Phase 1.",
+		issueUrl: issue("CW-65"),
 	},
 
 	// ── Parent Record (Ensemble / Series) ───────────────────────────────
@@ -531,15 +536,25 @@ export const scope: Record<string, ScopeEntry> = {
 	"objects/sample/Provenance": { mvp: true },
 
 	// ── Constituent (artist / institution) page ─────────────────────────
-	"constituents/sample/Tombstone": { mvp: true },
-	"constituents/sample/Biography": { mvp: true },
-	"constituents/sample/Roles & alternative names": { mvp: true },
-	"constituents/sample/Sample objects": { mvp: true },
-	"constituents/sample/Facets": { mvp: true },
+	// Deferred from Phase 1 (CW-31) per Cogapp deferral candidates
+	// (2026-06-09): depends on constituents index (CW-124) + pipeline
+	// (CW-105), both unfinished.
+	"constituents/sample/Tombstone": { mvp: false, issueUrl: issue("CW-31") },
+	"constituents/sample/Biography": { mvp: false, issueUrl: issue("CW-31") },
+	"constituents/sample/Roles & alternative names": {
+		mvp: false,
+		issueUrl: issue("CW-31"),
+	},
+	"constituents/sample/Sample objects": {
+		mvp: false,
+		issueUrl: issue("CW-31"),
+	},
+	"constituents/sample/Facets": { mvp: false, issueUrl: issue("CW-31") },
 
 	"objects/sample/Audio guide": {
-		mvp: false,
-		note: "Audio recordings + transcripts not in TMS yet; data source TBD (separate Craft entries, Bloomberg Connects, or TMS UserField pointing at S3)",
+		mvp: true,
+		note: "Phase 1 per FAMSF Discovery Summary (2026-06-08, Object Detail). Lighter-lift player; audio recordings + transcripts not in TMS yet, data source TBD (separate Craft entries, Bloomberg Connects, or TMS UserField pointing at S3).",
+		issueUrl: issue("CW-66"),
 	},
 };
 
