@@ -39,7 +39,7 @@ export default function ExhibitionRow({
 
 	if (href) {
 		return (
-			<Link href={href} className="border-l-2 border-gray-200 pl-3">
+			<Link href={href} className="block border-l-2 border-gray-200 pl-3">
 				{content}
 			</Link>
 		);

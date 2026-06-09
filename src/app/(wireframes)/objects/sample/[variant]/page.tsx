@@ -1,11 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
-	BibliographyText,
 	Breadcrumb,
 	Container,
-	ExhibitionRow,
-	ProvenanceText,
 	ScopeMark,
 	SectionLabel,
 	TombstoneLabel,
@@ -20,6 +17,7 @@ import {
 	RelatedWorksSection,
 	RightsCitationSection,
 	ScaleDiagram,
+	ScholarlyRecordSections,
 	VisuallySimilarGrid,
 } from "@/components/wireframe/object-detail";
 import TomatoEasterEgg from "@/components/wireframe/TomatoEasterEgg";
@@ -906,125 +904,22 @@ export default async function SampleObjectPage({ params }: Props) {
 					</WireframeSection>
 				)}
 
-				{/* Exhibitions */}
-				{hasExhibitions && (
-					<WireframeSection
-						label="Exhibitions"
-						className="border-b border-gray-300 py-8"
-					>
-						<Container size="md">
-							<span id="exhibitions" className="sr-only">
-								Exhibitions
-							</span>
-							<SectionLabel className="mb-4">Exhibition history</SectionLabel>
-							<FieldSourceBadge field="exhibitions" block />
-							<div className="flex flex-col gap-3">
-								{doc.exhibitions.map((e) => (
-									<ExhibitionRow
-										key={e.ExhibitionID}
-										title={e.ExhTitle}
-										date={e.DisplayDate ?? undefined}
-										venue={e.VenueName ?? undefined}
-										href={`/exhibition-detail?id=${e.ExhibitionID}`}
-									/>
-								))}
-							</div>
-							{doc.exhibition_history_text && (
-								<ScopeMark label="Exhibition history text">
-									<details className="mt-4 border-t border-gray-200 pt-4 group">
-										<summary className="cursor-pointer list-none font-mono text-label tracking-[0.08em] text-gray-500 hover:text-gray-700">
-											<span className="mr-1 inline-block transition-transform group-open:rotate-90">
-												▸
-											</span>
-											Full exhibition history (raw curator text)
-											<FieldSourceBadge field="exhibition_history_text" />
-										</summary>
-										<p
-											className="mt-3 whitespace-pre-line font-mono text-meta text-gray-600 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
-											// biome-ignore lint/security/noDangerouslySetInnerHtml: sanitised via allow-list
-											dangerouslySetInnerHTML={{
-												__html: sanitiseHtml(doc.exhibition_history_text),
-											}}
-										/>
-									</details>
-								</ScopeMark>
-							)}
-						</Container>
-					</WireframeSection>
-				)}
-
-				{/* Provenance */}
-				{doc.has_provenance && doc.provenance && (
-					<WireframeSection
-						label="Provenance"
-						className="border-b border-gray-300 py-8"
-					>
-						<Container size="md">
-							<span id="provenance" className="sr-only">
-								Provenance
-							</span>
-							<SectionLabel className="mb-4">Provenance</SectionLabel>
-							<FieldSourceBadge field="provenance" block />
-							<ProvenanceText
-								structured={doc.provenance_structured}
-								rawFallback={doc.provenance}
-							/>
-							{/* Raw curator text, collapsed: only when a structured payload
-							    is already shown above (else ProvenanceText's raw fallback
-							    is the raw text and this would duplicate it). */}
-							{doc.provenance_structured && (
-								<ScopeMark label="Provenance text">
-									<details className="group mt-4 border-t border-gray-200 pt-4">
-										<summary className="cursor-pointer list-none font-mono text-label tracking-[0.08em] text-gray-500 hover:text-gray-700">
-											<span className="mr-1 inline-block transition-transform group-open:rotate-90">
-												▸
-											</span>
-											Full provenance (raw curator text)
-											<FieldSourceBadge field="provenance" />
-										</summary>
-										<p className="mt-3 whitespace-pre-line font-mono text-meta text-gray-600">
-											{doc.provenance}
-										</p>
-									</details>
-								</ScopeMark>
-							)}
-						</Container>
-					</WireframeSection>
-				)}
-
-				{/* Bibliography */}
-				{doc.bibliography_text && (
-					<WireframeSection
-						label="Bibliography"
-						className="border-b border-gray-300 py-8"
-					>
-						<Container size="md">
-							<span id="bibliography" className="sr-only">
-								Bibliography
-							</span>
-							<SectionLabel className="mb-4">Bibliography</SectionLabel>
-							<FieldSourceBadge field="bibliography_text" block />
-							<BibliographyText value={doc.bibliography_text} />
-							{/* Raw curator text, collapsed: BibliographyText reformats the
-							    raw string into a numbered list, so expose the unprocessed
-							    source for verification (mirrors exhibition history). */}
-							<ScopeMark label="Bibliography text">
-								<details className="group mt-4 border-t border-gray-200 pt-4">
-									<summary className="cursor-pointer list-none font-mono text-label tracking-[0.08em] text-gray-500 hover:text-gray-700">
-										<span className="mr-1 inline-block transition-transform group-open:rotate-90">
-											▸
-										</span>
-										Full bibliography (raw curator text)
-										<FieldSourceBadge field="bibliography_text" />
-									</summary>
-									<p className="mt-3 whitespace-pre-line font-mono text-meta text-gray-600">
-										{doc.bibliography_text}
-									</p>
-								</details>
-							</ScopeMark>
-						</Container>
-					</WireframeSection>
-				)}
+				{/* Exhibition history + provenance + bibliography. Standard =
+				    stacked full-width; `?variation=two-column` pairs them in two
+				    columns (Curatorial Fellows scroll-reduction ask). */}
+				<ScholarlyRecordSections
+					exhibitions={doc.exhibitions}
+					hasExhibitions={hasExhibitions}
+					exhibitionHistoryHtml={
+						doc.exhibition_history_text
+							? sanitiseHtml(doc.exhibition_history_text)
+							: null
+					}
+					hasProvenance={doc.has_provenance}
+					provenanceStructured={doc.provenance_structured ?? null}
+					provenanceRaw={doc.provenance ?? null}
+					bibliographyText={doc.bibliography_text ?? null}
+				/>
 
 				{/* Rights & citation */}
 				<RightsCitationSection

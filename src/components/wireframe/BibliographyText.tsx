@@ -105,11 +105,14 @@ function italiciseBibliographyEntry(text: string): string {
 export interface BibliographyTextProps {
 	value: string;
 	className?: string;
+	/** Flow entries across 2 CSS columns (two-column object-detail layout). */
+	columns?: boolean;
 }
 
 export default function BibliographyText({
 	value,
 	className,
+	columns = false,
 }: BibliographyTextProps) {
 	const entries = value
 		.split(/\n\s*\n/)
@@ -119,8 +122,13 @@ export default function BibliographyText({
 
 	if (entries.length === 0) return null;
 
+	// columns: CSS multi-column flows entries by height; `break-inside-avoid`
+	// on each li stops a citation splitting across the column boundary. Drop
+	// the flex column layout (incompatible with multi-column) for `block`.
 	return (
-		<ol className={`flex flex-col gap-3 ${className ?? ""}`}>
+		<ol
+			className={`${columns ? "block columns-2 gap-x-10 [&>li]:mb-3 [&>li]:break-inside-avoid" : "flex flex-col gap-3"} ${className ?? ""}`}
+		>
 			{entries.map(({ text, order }) => (
 				<li
 					key={`${order}-${text.length}-${text.slice(0, 32)}`}

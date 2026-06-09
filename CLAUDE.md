@@ -161,7 +161,16 @@ Current variations:
     deliberately no per-facet / per-toggle marks — they wrapped and collided in
     the narrow facet column; per-facet detail lives in the facet code, not the
     overlay. Keys live under `search-results/*` in `src/lib/scope.ts`.
-- **Object Detail**: standard / two-column layout for provenance and exhibitions
+- **Object Detail**: standard / two-column layout for the three dense record
+  blocks (exhibition history, provenance, bibliography), via
+  `usePageVariations` in `object-detail/ScholarlyRecordSections.tsx` (the three
+  blocks split out of `[variant]/page.tsx`). Curatorial Fellows scroll-reduction
+  ask. `two-column` keeps each block a full-width stacked section but flows its
+  entries across two CSS columns: exhibition rows + bibliography entries reflow
+  by height (`columns-2` + `break-inside-avoid`); **provenance splits lines on
+  the left, footnotes on the right** (`lg:grid-cols-2`), falling back to
+  line-flow when a doc has no footnotes. `standard` keeps each block
+  single-column. `columns` prop added to `ProvenanceText` + `BibliographyText`.
 
 ### Scope system
 

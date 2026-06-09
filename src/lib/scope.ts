@@ -642,6 +642,10 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Collapsible raw curator bibliography text under the reformatted list (the Phase 1 raw-block render).",
 		issueUrl: issue("CW-68"),
 	},
+	"objects/sample/Two-column record layout": {
+		mvp: false,
+		note: "`?variation=two-column` toggle: flows the three dense record blocks (exhibition history, provenance, bibliography) across two columns to cut scrolling. Provenance splits lines left / footnotes right; exhibitions + bibliography reflow by height. Curatorial Fellows ask (stakeholder synthesis); a display option, not a separate MVP feature.",
+	},
 	// Parent-child (CW-32) is a Phase 1 requirement shown inline on the artwork
 	// page: parent shows its metadata + a flat list of children (each linking
 	// to its own page); a child links back to its parent. The standalone

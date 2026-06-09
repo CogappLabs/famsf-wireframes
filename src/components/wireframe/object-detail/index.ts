@@ -6,4 +6,5 @@ export {
 	type RightsStatementDisplay,
 } from "./RightsCitationSection";
 export { ScaleDiagram } from "./ScaleDiagram";
+export { ScholarlyRecordSections } from "./ScholarlyRecordSections";
 export { VisuallySimilarGrid } from "./VisuallySimilarGrid";
