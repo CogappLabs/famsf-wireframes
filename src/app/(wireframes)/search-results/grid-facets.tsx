@@ -1465,149 +1465,153 @@ export function GridFacetsView({
 				<div className="min-w-0 flex-1">
 					{/* Count + sort row. min-height reserved so the grid doesn't
 					    shift when the count text changes width. */}
-					<div className="mb-4 flex min-h-9 flex-wrap items-center justify-between gap-3 border-b border-gray-200 pb-3">
-						<span className="font-mono text-body font-medium">
-							{matches.length.toLocaleString()} result
-							{matches.length === 1 ? "" : "s"}
-							{query ? ` for “${query}”` : ""}
-						</span>
-						<label className="flex items-center gap-2 font-mono text-label text-gray-500">
-							Sort
-							<select
-								value={sort}
-								onChange={(e) => setSort(e.target.value as SortKey)}
-								className="border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
-							>
-								{SORT_OPTIONS.map((o) => (
-									<option key={o.key} value={o.key}>
-										{o.label}
-									</option>
-								))}
-							</select>
-						</label>
-					</div>
+					<ScopeMark label="Result count + sort">
+						<div className="mb-4 flex min-h-9 flex-wrap items-center justify-between gap-3 border-b border-gray-200 pb-3">
+							<span className="font-mono text-body font-medium">
+								{matches.length.toLocaleString()} result
+								{matches.length === 1 ? "" : "s"}
+								{query ? ` for “${query}”` : ""}
+							</span>
+							<label className="flex items-center gap-2 font-mono text-label text-gray-500">
+								Sort
+								<select
+									value={sort}
+									onChange={(e) => setSort(e.target.value as SortKey)}
+									className="border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
+								>
+									{SORT_OPTIONS.map((o) => (
+										<option key={o.key} value={o.key}>
+											{o.label}
+										</option>
+									))}
+								</select>
+							</label>
+						</div>
+					</ScopeMark>
 
 					{/* Active-filter chips */}
-					<div className="mb-4 flex min-h-9 flex-wrap items-center gap-2">
-						<span className="font-mono text-label text-gray-500">
-							{anyActive ? "Active filters:" : " "}
-						</span>
-						{sel.artist && (
-							<button
-								type="button"
-								onClick={() => setArtist(null)}
-								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-							>
-								<span>Artist: {sel.artist}</span>
-								<span>×</span>
-							</button>
-						)}
-						{placeChipLabel && (
-							<button
-								type="button"
-								onClick={() => setSel((p) => ({ ...p, place: null }))}
-								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-							>
-								<span>{placeChipLabel}</span>
-								<span>×</span>
-							</button>
-						)}
-						{materialChipLabel && (
-							<button
-								type="button"
-								onClick={() => setSel((p) => ({ ...p, material: null }))}
-								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-							>
-								<span>{materialChipLabel}</span>
-								<span>×</span>
-							</button>
-						)}
-						{sel.technique && (
-							<button
-								type="button"
-								onClick={() => setTechnique(null)}
-								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-							>
-								<span>Technique: {sel.technique}</span>
-								<span>×</span>
-							</button>
-						)}
-						{sel.classification && (
-							<button
-								type="button"
-								onClick={() => setClassification(null)}
-								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-							>
-								<span>Classification: {sel.classification}</span>
-								<span>×</span>
-							</button>
-						)}
-						{sel.department && (
-							<button
-								type="button"
-								onClick={() => setDepartment(null)}
-								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-							>
-								<span>Collection area: {sel.department}</span>
-								<span>×</span>
-							</button>
-						)}
-						{sel.gallery && (
-							<button
-								type="button"
-								onClick={() => setGallery(null)}
-								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-							>
-								<span>Gallery: {sel.gallery}</span>
-								<span>×</span>
-							</button>
-						)}
-						{sel.date && (
-							<button
-								type="button"
-								onClick={() => setDate(null)}
-								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-							>
-								<span>
-									Date: {yearLabel(sel.date.min)} – {yearLabel(sel.date.max)}
-								</span>
-								<span>×</span>
-							</button>
-						)}
-						{sel.onView && (
-							<button
-								type="button"
-								onClick={() => toggleFlag("onView")}
-								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-							>
-								<span>On view</span>
-								<span>×</span>
-							</button>
-						)}
-						{sel.hasImage && (
-							<button
-								type="button"
-								onClick={() => toggleFlag("hasImage")}
-								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-							>
-								<span>Has image</span>
-								<span>×</span>
-							</button>
-						)}
-						{sel.openAccess && (
-							<button
-								type="button"
-								onClick={() => toggleFlag("openAccess")}
-								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-							>
-								<span>Open access</span>
-								<span>×</span>
-							</button>
-						)}
-					</div>
+					<ScopeMark label="Active filter chips">
+						<div className="mb-4 flex min-h-9 flex-wrap items-center gap-2">
+							<span className="font-mono text-label text-gray-500">
+								{anyActive ? "Active filters:" : " "}
+							</span>
+							{sel.artist && (
+								<button
+									type="button"
+									onClick={() => setArtist(null)}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>Artist: {sel.artist}</span>
+									<span>×</span>
+								</button>
+							)}
+							{placeChipLabel && (
+								<button
+									type="button"
+									onClick={() => setSel((p) => ({ ...p, place: null }))}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>{placeChipLabel}</span>
+									<span>×</span>
+								</button>
+							)}
+							{materialChipLabel && (
+								<button
+									type="button"
+									onClick={() => setSel((p) => ({ ...p, material: null }))}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>{materialChipLabel}</span>
+									<span>×</span>
+								</button>
+							)}
+							{sel.technique && (
+								<button
+									type="button"
+									onClick={() => setTechnique(null)}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>Technique: {sel.technique}</span>
+									<span>×</span>
+								</button>
+							)}
+							{sel.classification && (
+								<button
+									type="button"
+									onClick={() => setClassification(null)}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>Classification: {sel.classification}</span>
+									<span>×</span>
+								</button>
+							)}
+							{sel.department && (
+								<button
+									type="button"
+									onClick={() => setDepartment(null)}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>Collection area: {sel.department}</span>
+									<span>×</span>
+								</button>
+							)}
+							{sel.gallery && (
+								<button
+									type="button"
+									onClick={() => setGallery(null)}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>Gallery: {sel.gallery}</span>
+									<span>×</span>
+								</button>
+							)}
+							{sel.date && (
+								<button
+									type="button"
+									onClick={() => setDate(null)}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>
+										Date: {yearLabel(sel.date.min)} – {yearLabel(sel.date.max)}
+									</span>
+									<span>×</span>
+								</button>
+							)}
+							{sel.onView && (
+								<button
+									type="button"
+									onClick={() => toggleFlag("onView")}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>On view</span>
+									<span>×</span>
+								</button>
+							)}
+							{sel.hasImage && (
+								<button
+									type="button"
+									onClick={() => toggleFlag("hasImage")}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>Has image</span>
+									<span>×</span>
+								</button>
+							)}
+							{sel.openAccess && (
+								<button
+									type="button"
+									onClick={() => toggleFlag("openAccess")}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>Open access</span>
+									<span>×</span>
+								</button>
+							)}
+						</div>
+					</ScopeMark>
 
 					{matches.length > 0 ? (
-						<>
+						<ScopeMark label="Results grid + pager">
 							<ResultsGrid items={pageItems} getHref={getHref} columns={3} />
 							<Pager
 								page={safePage}
@@ -1616,13 +1620,15 @@ export function GridFacetsView({
 								total={sortedMatches.length}
 								pageSize={PAGE_SIZE}
 							/>
-						</>
+						</ScopeMark>
 					) : (
-						<div className="border border-dashed border-gray-300 px-4 py-10 text-center font-mono text-meta text-gray-500">
-							{query
-								? `No objects match “${query}” with these filters. Clear a filter or the search to broaden.`
-								: "No objects match these filters. Clear one to broaden."}
-						</div>
+						<ScopeMark label="Zero results">
+							<div className="border border-dashed border-gray-300 px-4 py-10 text-center font-mono text-meta text-gray-500">
+								{query
+									? `No objects match “${query}” with these filters. Clear a filter or the search to broaden.`
+									: "No objects match these filters. Clear one to broaden."}
+							</div>
+						</ScopeMark>
 					)}
 				</div>
 			</div>
