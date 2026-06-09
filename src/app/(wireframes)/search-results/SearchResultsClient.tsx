@@ -555,7 +555,11 @@ function SearchResultsContent({
 						<WireframeSection label="Faceted browse (real data)">
 							<GridFacetsView
 								docs={gridFacetsDocs}
-								getHref={objectHref}
+								// Wireframe stand-in: the grid-facets slice (~600 docs) has no
+								// per-object sample pages, so every card routes to the one
+								// fully-built sample object (Water Lilies) to demo the
+								// search → object-detail flow.
+								getHref={() => "/objects/sample/water-lilies-1973-3"}
 								layout={variation === "grid-facets-modal" ? "modal" : "inline"}
 								query={query}
 								seedFacet={urlFacet}
