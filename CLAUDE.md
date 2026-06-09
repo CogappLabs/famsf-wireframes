@@ -25,7 +25,8 @@ The index, top bar badges, footer links, and scope overlay all derive from these
 - `src/components/wireframe/` — reusable wireframe primitives
 - `src/components/wireframe/GlobalNav.tsx` — standalone collection site navigation
 - `src/components/wireframe/CollectionAutocomplete.tsx` — suggestion-as-you-type search combobox
-- `src/components/wireframe/JumpToNav.tsx` — horizontal jump-to anchor navigation
+- `src/components/wireframe/JumpToNav.tsx` — sticky jump-to bar: pill chips with IntersectionObserver scroll-spy (active section highlighted) + horizontal overflow
+- `src/components/wireframe/object-detail/` — object-page sections split out: `ImageSection`, `RightsCitationSection`, `ChildRecordsSection` (this session), plus `ScaleDiagram`, `RelatedWorksSection`, `VisuallySimilarGrid`
 - `src/providers/ScopeProvider.tsx` — scope toggle state + page context
 - `docs/` — stakeholder interview synthesis + content audit strategy
 
@@ -33,11 +34,12 @@ The index, top bar badges, footer links, and scope overlay all derive from these
 
 | Page | Route | Key features |
 |------|-------|-------------|
-| Collection Landing | `/collection-landing` | Stats, dual explore/search pathways, browse by area, highlights, "what to see", timeline |
-| Explore | `/explore` | Curated themes, timeline browse, discovery prompts, most viewed |
-| Search Results | `/search-results` | Autocomplete, horizontal facets with dialog, grid/list toggle |
-| Object Detail | `/object-detail?id=X` | Image gallery, hyperlinked tombstone, jump-to nav, provenance, exhibitions, related works, scale diagram, scholarly essay, 3D/video, edu resources |
-| Collection Area | `/collection-area` | Department landing with about, stats, highlights, browse, articles, programmes |
+| Collection Landing | `/collection-landing` | **Lean MVP**: hero + autocomplete search bar with basic filter chips. Everything else (stats, dual pathways, browse-by-area, highlights, "what to see", timeline) is scope-deferred post-MVP but still on the page. |
+| Explore | `/explore` | Curated themes, timeline browse, discovery prompts, most viewed (post-MVP) |
+| Search Results | `/search-results` | **Primary view = grid + facet modals** (real data, omnibox + sort + pager). Other variations behind `?variation=`. |
+| Object Detail | `/objects/sample/[variant]` | Image gallery, hyperlinked tombstone, jump-to nav, People, dimensions, Scale (post-MVP), provenance + bibliography (structured + raw `<details>`), exhibitions, rights & citation, child records, audio, related works, edu resources. Sections split into `object-detail/*` components. |
+| Collection areas | `/collection-areas` | **Landing**: intro + grid of collection areas (== departments, CW-30); cards → detail. `/departments` redirects here. |
+| Collection Area (detail) | `/collection-area` | Single-area detail: about, stats, highlights, browse, provenance statement, de Young vs Legion |
 | Artist Page | `/artist-page?name=X` | Bio, works grid, exhibitions, related artists |
 | Collector Page | `/collector-page` | Biography, associated objects, SF civic history |
 | Portfolio Detail | `/portfolio-detail` | Parent-child records, sequential browser |
@@ -72,7 +74,7 @@ All components are exported from `@/components/wireframe`:
 - `<StatCard value="24" label="Pages">` — big number + label
 - `<CategoryBadge>Tag</CategoryBadge>` — inline category/tag pill
 - `<Breadcrumb items={[{label, href?}]}>` — slash-separated breadcrumb trail
-- `<IssueIcon>` — issue tracker logomark (default: Linear)
+- `<IssueIcon>` — issue tracker logomark (Jira; the FAMSF work is tracked in the Jira CW project)
 - `usePageVariations(variations)` — registers variations in the top bar and returns the active key
 
 ### Variations
@@ -80,11 +82,14 @@ All components are exported from `@/components/wireframe`:
 Pages can offer alternative layouts via URL search params (e.g. `?variation=list`). This lets stakeholders compare design options with shareable links. The toggle renders automatically in the layout top bar.
 
 Current variations:
-- **Search Results**: grid / grid + facets / grid + facet modals / list / zero-results / AI search / artworks + artists / interleaved
-  - **grid + facets** (`?variation=grid-facets`) and **grid + facet modals**
-    (`?variation=grid-facets-modal`) are the only variations backed by **real
-    pipeline data** (a ~600-object slice in `src/data/grid-facets-docs/`, see
-    below). Both render a left facet column instead of the horizontal bar,
+- **Search Results**: grid + facet modals (**primary / default**) / grid + facets / grid / list / zero-results / AI search / artworks + artists / interleaved
+  - **grid + facet modals** is **first in `VIEW_VARIATIONS`**, so bare
+    `/search-results` loads it — it's the Phase 1 primary search view. The
+    other entries stay as design alternatives behind `?variation=`.
+  - **grid + facet modals** (`?variation=grid-facets-modal`) and **grid +
+    facets** (`?variation=grid-facets`) are the only variations backed by
+    **real pipeline data** (a ~600-object slice in `src/data/grid-facets-docs/`,
+    see below). Both render a left facet column instead of the horizontal bar,
     sharing the same `GridFacetsView` (a `layout` prop switches inline vs
     modal). Facets, top to bottom:
     - **Artist** — flat list off `primary_artist` (8-cap + search-within).
@@ -100,26 +105,40 @@ Current variations:
       Material workbook FACET_DESIGN_v2; e.g. Metal → bronze). 8-cap with
       "Show N more" on the parents.
     - **Technique** — flat list (8-cap).
+    - **Classification** / **Department** / **Gallery** — flat facets (8-cap +
+      search-within) off `classification`, `department`, `location_building`.
+      Added for the Phase 1 CW-41 core facet set.
     - **Date** — a **year histogram** (`DateHistogram`): decade bins with the
       empty decades dropped so equal-width bars track data density (sparse
       ancient tail collapses, dense modern cluster gets the width). Drag across
       the bars to pick a year range, or type into the From / To year inputs
       (the keyboard / screen-reader path); both drive the same `{min,max}`
       `YearRange` filter. Years come from `objectYear` (sort_year, neg = BCE).
-    - **On view** + **Has image** — toggle buttons. Inline layout: a full-width
-      row under the search. Modal layout: top of the left column.
-    Flat facets (Artist/Technique) + Material cap at 8 with "Show more"; only
+    - **On view** / **Has image** / **Open access** — a segmented toggle pill
+      group (`fieldset`). Open access = `object_rights_type == "Public Domain"`.
+      Inline layout: a full-width row under the search. Modal layout: top of
+      the left column.
+    The CW-41 core facet set (geo, material, classification, dept, gallery, OA,
+    on-view, has-image) + date (CW-64) is complete; Artist + Technique are kept
+    on top as extras. Flat facets + Material cap at 8 with "Show more"; only
     Place (geography) shows all. `grid-facets` shows every facet expanded
     inline; `grid-facets-modal` shows one button per facet (name + active-count
-    badge) opening the same control in a `<dialog>`. Results render in a 3-col
-    grid (`ResultsGrid columns={3}`) since the main column is narrower. The
-    active-filter chips sit inline with the "N results" count (the count row
-    reserves a min-height so it doesn't jump when the first chip appears, and
-    "Clear all" is always rendered but hidden when nothing is active). The
-    export collapses self-named tiers (country == region, specific == parent)
-    so no node ever shows a child identical to itself. The horizontal facet bar
-    (and its medium/materials/style/movement/reign/dynasty/school/attribution/
-    donor facets, all removed) still serves every other variation.
+    badge) opening the same control in a `<dialog>`.
+  - **Omnibox, sort, pagination** (grid-facets only): the search bar's `?q=`
+    filters the slice (title/artist/medium/dept/classification/accession) via
+    a `query` prop on `GridFacetsView`; the autocomplete suggests **only the
+    on-page facets** (built from the slice in `SearchResultsClient`), and a
+    facet pick routes `?facet=type:value` which `GridFacetsView` seeds via
+    `seedSelectionFromFacet` (flat + tiered place/material). **Sort** (CW-39:
+    relevance/title/date/artist/accession) + a real **client-side pager**
+    (24/page, resets on filter/sort/query change) live in `grid-facets.tsx`.
+  - Results render in a 3-col grid (`ResultsGrid columns={3}`). A count+sort
+    row sits above a separate active-filter-chips row (min-height reserved so
+    the grid doesn't jump); "Clear all" lives in the left column header, always
+    rendered but hidden when nothing is active. Zero-results recovery splits
+    did-you-mean + popular searches out as **post-MVP** (CW-44) — each wrapped
+    in its own `ScopeMark`. The horizontal facet bar (and its removed
+    medium/materials/style/etc facets) still serves every other variation.
 - **Object Detail**: standard / two-column layout for provenance and exhibitions
 
 ### Scope system
@@ -139,7 +158,7 @@ The scope toggle (top bar) overlays MVP/post-MVP annotations on sections:
 `src/lib/data.ts` is the single source of truth for:
 - `pages` — the page registry (id, title, description, review status)
 - `navigation` — nav tree with `NavNode` type for sitemap
-- `siteNavigation` — standalone collection site nav (Explore, Search, My Finds, Collection Areas)
+- `siteNavigation` — standalone collection site nav. `mvpSiteNavigation` / `mvpFooterGroups` are the **MVP-filtered** derivations the site header (`GlobalNav`) + footer actually render (post-MVP pages dropped via `isPageMvp`; the wireframe index at `/` still lists everything). "Collection areas" is a **plain link** to the `/collection-areas` landing (no dropdown).
 - `footerGroups` — structured footer link groups (auto-derived from pages, grouped into Browse/Records/Features)
 - `ReviewStatus` type and display constants
 
