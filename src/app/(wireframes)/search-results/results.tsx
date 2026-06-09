@@ -11,7 +11,14 @@ import type { ConstituentDocument } from "@/lib/constituent-document";
 import type { ArtistRecord } from "./SearchResultsClient";
 
 export function isPublicDomain(o: CollectionDocument): boolean {
-	return (o.copyright ?? "").toLowerCase().includes("public domain");
+	// Two rights fields in play: free-text `copyright` (curated sample-docs)
+	// and the structured `object_rights_type` enum carried by the grid-facets
+	// slice (where `copyright` is null). Match either. Mirrors
+	// grid-facets.tsx `isOpenAccess`.
+	return (
+		(o.copyright ?? "").toLowerCase().includes("public domain") ||
+		o.object_rights_type === "Public Domain"
+	);
 }
 
 export function ResultsGrid({

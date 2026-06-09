@@ -4,7 +4,7 @@ import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { ScopeMark, SectionLabelInline } from "@/components/wireframe";
 import type { CollectionDocument } from "@/lib/collection-document";
 import { type FacetOption, objectYear } from "./facets";
-import { ResultsGrid } from "./results";
+import { isPublicDomain, ResultsGrid } from "./results";
 
 // ── Grid + left-column facets variation ─────────────────────────────
 //
@@ -72,13 +72,6 @@ const EMPTY_GRID_SELECTIONS: GridFacetSelections = {
 	openAccess: false,
 };
 
-/** Open access = a public-domain rights type. The grid-facets export carries
- *  the raw TMS `object_rights_type`; "Public Domain" is the only PD value in
- *  the slice (others are Copyright / ARS / Requires Further Research). */
-function isOpenAccess(doc: CollectionDocument): boolean {
-	return doc.object_rights_type === "Public Domain";
-}
-
 function docMatchesPlace(
 	doc: CollectionDocument,
 	place: PlaceSelection | null,
@@ -137,7 +130,7 @@ function filterGridDocs(
 		}
 		if (sel.onView && !d.on_view) return false;
 		if (sel.hasImage && !d.has_image) return false;
-		if (sel.openAccess && !isOpenAccess(d)) return false;
+		if (sel.openAccess && !isPublicDomain(d)) return false;
 		return true;
 	});
 }
