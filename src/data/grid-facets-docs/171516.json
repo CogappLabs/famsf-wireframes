@@ -2,20 +2,21 @@
 	"id": 171516,
 	"accession_number": "2000.218.3",
 	"sort_number": "2000.218.3",
-	"title": "CEREMONIAL HEADDRESS (KOPIAH)",
+	"title": "Ceremonial Headdress (kopiah)",
 	"object_name": "headwear",
-	"display_date": "19th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "19th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "silk, cotton, palm leaf; looping (inner cap), embroidery",
 	"medium_parts": [
 		"silk, cotton, palm leaf",
 		"looping (inner cap), embroidery"
 	],
-	"dimensions": "10.2 x 21.6 x 21.6 cm (4 x 8 1/2 x 8 1/2 in.)",
 	"credit_line": "Gift of Susan York",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": "Aceh",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2000-12-31",
 	"location_string": "de Young, 227, Cabinet 27, TA",
 	"location_building": "de Young",
@@ -40,38 +43,131 @@
 	"titles": [
 		{
 			"title": "Ceremonial Headdress (kopiah)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 41130,
+			"id": 41130,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Aceh",
-			"AlphaSort": "Aceh",
+			"name": "Aceh",
+			"name_sort": "Aceh",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Aceh"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "4 x 8 1/2 x 8 1/2 in. (10.2 x 21.6 x 21.6 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 112532,
+			"image_id": 45519,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1247,
+			"width": 852,
+			"file_name": "1211200309020390.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "4 x 8 1/2 x 8 1/2 in. (10.2 x 21.6 x 21.6 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 10.2,
+				"width_cm": 21.6,
+				"depth_cm": 21.6,
+				"height_in": 4.0,
+				"width_in": 8.5,
+				"depth_in": 8.5,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "4 x 8 1/2 x 8 1/2 in. (10.2 x 21.6 x 21.6 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 10.2,
+				"width_cm": 21.6,
+				"depth_cm": 21.6,
+				"height_in": 4.0,
+				"width_in": 8.5,
+				"depth_in": 8.5,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "4 x 8 1/2 x 8 1/2 in. (10.2 x 21.6 x 21.6 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 10.2,
+				"width_cm": 21.6,
+				"depth_cm": 21.6,
+				"height_in": 4.0,
+				"width_in": 8.5,
+				"depth_in": 8.5,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -79,7 +175,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20319377,
 			"term": "Sumatra",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -128,29 +226,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 112532,
-			"media_master_id": 45519,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1247,
-			"pixel_w": 852,
-			"file_name": "1211200309020390.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",
@@ -173,6 +248,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , , embroidery · Sumatra",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 38
 	}
 }

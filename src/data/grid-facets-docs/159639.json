@@ -2,20 +2,21 @@
 	"id": 159639,
 	"accession_number": "2014.40.40",
 	"sort_number": "2014.40.40",
-	"title": "DOOR CURTAIN (PAA KANG)",
+	"title": "Door curtain (paa kang)",
 	"object_name": "curtain/drapery",
-	"display_date": "mid 20th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "mid 20th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "cotton, silk; discontinuous supplementary-weft patterning",
 	"medium_parts": [
 		"cotton, silk",
 		"discontinuous supplementary-weft patterning"
 	],
-	"dimensions": "Object: 134.6 x 40.6 cm (53.5 x 16.5 in.)",
 	"credit_line": "Gift of Ellison Banks Findly",
 	"department": "Costume and Textile Arts",
 	"classification": "Furnishing",
+	"subclassification": null,
+	"culture": "Tai Daeng",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2014-06-05",
 	"location_string": "de Young, 059, Cabinet 48, TA",
 	"location_building": "de Young",
@@ -40,38 +43,112 @@
 	"titles": [
 		{
 			"title": "Door curtain (paa kang)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 41315,
+			"id": 41315,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Tai Daeng",
-			"AlphaSort": "Tai Daeng",
+			"name": "Tai Daeng",
+			"name_sort": "Tai Daeng",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Tai Daeng"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "53 x 16 in. (134.6 x 40.6 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Object (4D)",
+			"media_xref_id": 144923,
+			"image_id": 16860,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 480,
+			"width": 202,
+			"file_name": "0213201417240030.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "53 x 16 in. (134.6 x 40.6 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Object (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 134.6,
+				"width_cm": 40.6,
+				"depth_cm": null,
+				"height_in": 53.0,
+				"width_in": 16.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "53 x 16 in. (134.6 x 40.6 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Object (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 134.6,
+				"width_cm": 40.6,
+				"depth_cm": null,
+				"height_in": 53.0,
+				"width_in": 16.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -79,7 +156,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 16989126,
 			"term": "Laos",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -123,29 +202,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 144923,
-			"media_master_id": 16860,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 480,
-			"pixel_w": 202,
-			"file_name": "0213201417240030.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",
@@ -172,6 +228,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , , discontinuous supplementary-weft patterning · Laos",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 37
 	}
 }

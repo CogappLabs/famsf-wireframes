@@ -2,17 +2,18 @@
 	"id": 79675,
 	"accession_number": "1973.16.6",
 	"sort_number": "1973.16.6",
-	"title": "RECUERDO (REMEMBRANCE), SIXTH PLATE IN THE PORTFOLIO, 21 ESTAMPADORES DE COLOMBIA, MEXICO Y VENEZUELA (21 PRINTMAKERS OF COLOMBIA, MEXICO AND VENEZUELA)",
+	"title": "Recuerdo (Remembrance), sixth plate in the portfolio, 21 Estampadores de Colombia, Mexico y Venezuela (21 Printmakers of Colombia, Mexico and Venezuela)",
 	"object_name": null,
-	"display_date": "1972",
-	"begin_iso_date": "1972",
-	"end_iso_date": "1972",
+	"date_display": "1972",
+	"date_start": "1972",
+	"date_end": "1972",
 	"medium": "Etching and drypoint",
 	"medium_parts": ["Etching and drypoint"],
-	"dimensions": "33.8 x 49.5 cm (image); 56 x 76 cm (sheet)",
 	"credit_line": "Gift of Carton y Papel de México, S.A.",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Print",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1973-01-01",
 	"location_string": "Legion, 101, Bin 61, B",
 	"location_building": "Legion",
@@ -37,45 +40,150 @@
 	"titles": [
 		{
 			"title": "Recuerdo (Remembrance), sixth plate in the portfolio, 21 Estampadores de Colombia, Mexico y Venezuela (21 Printmakers of Colombia, Mexico and Venezuela)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 10608,
+			"id": 10608,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Juan Antonio Roda",
-			"AlphaSort": "Juan Antonio Roda",
+			"name": "Juan Antonio Roda",
+			"name_sort": "Juan Antonio Roda",
 			"Nationality": "Colombian (b. Spain)",
+			"place_born": "Valencia",
+			"place_died": "Bogotá",
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1921,
 			"EndDate": 2003,
-			"DisplayDate": "1921–2003",
+			"dates": "1921–2003",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Juan Antonio Roda (1921–2003)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "13 5/16 x 19 1/2 in. (33.8 x 49.5 cm)",
-			"description": null,
-			"element_name": "Image",
+			"media_xref_id": 101987,
+			"image_id": 118823,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1877,
+			"width": 2725,
+			"file_name": "6339304212470082.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "13 5/16 x 19 1/2 in. (33.8 x 49.5 cm)",
+			"type": "Width",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 33.8,
+				"width_cm": 49.5,
+				"depth_cm": null,
+				"height_in": 13.3125,
+				"width_in": 19.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "22 1/16 x 29 15/16 in. (56 x 76 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Sheet (4D)",
+			"value": "13 5/16 x 19 1/2 in. (33.8 x 49.5 cm)",
+			"type": "Height",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 33.8,
+				"width_cm": 49.5,
+				"depth_cm": null,
+				"height_in": 13.3125,
+				"width_in": 19.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "22 1/16 x 29 15/16 in. (56 x 76 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 56.0,
+				"width_cm": 76.0,
+				"depth_cm": null,
+				"height_in": 22.0625,
+				"width_in": 29.9375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "22 1/16 x 29 15/16 in. (56 x 76 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 56.0,
+				"width_cm": 76.0,
+				"depth_cm": null,
+				"height_in": 22.0625,
+				"width_in": 29.9375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -86,7 +194,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 16696100,
 			"term": "Colombia",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -137,29 +247,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1972,
-	"media": [
-		{
-			"media_xref_id": 101987,
-			"media_master_id": 118823,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1877,
-			"pixel_w": 2725,
-			"file_name": "6339304212470082.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [],
 	"facet_technique": ["drypoint", "etching"],
 	"facet_place": [

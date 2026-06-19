@@ -2,19 +2,20 @@
 	"id": 238455,
 	"accession_number": "2005.180.39",
 	"sort_number": "2005.180.39",
-	"title": "CLAN EMBLEM FROM DEMA DANCE COSTUME",
+	"title": "Clan emblem from dema dance costume",
 	"object_name": null,
-	"display_date": "19th-early 20th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "19th-early 20th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "Sago palm petioles, Abrus and Coix seeds, shell, glass, fiber, gum, pigment",
 	"medium_parts": [
 		"Sago palm petioles, Abrus and Coix seeds, shell, glass, fiber, gum, pigment"
 	],
-	"dimensions": "101.6 x 66 x 7.6 cm (40 x 26 x 3 in.)",
 	"credit_line": "Gift of Marcia and John Friede",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Personal Accessory",
+	"subclassification": null,
+	"culture": "Marind-anim people",
 	"copyright": null,
 	"object_rights_type": "Requires Further Research",
 	"on_view": true,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": "Jolika Collection of New Guinea Art",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2005-02-23",
 	"location_string": "de Young, Display, Gallery 030, Wall Case 3",
 	"location_building": "de Young",
@@ -39,38 +42,131 @@
 	"titles": [
 		{
 			"title": "Clan emblem from dema dance costume",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 41465,
+			"id": 41465,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Marind-Anim",
-			"AlphaSort": "Marind-Anim",
+			"name": "Marind-Anim",
+			"name_sort": "Marind-Anim",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Marind-Anim"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "40 x 26 x 3 in. (101.6 x 66 x 7.6 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 121987,
+			"image_id": 46479,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 355,
+			"width": 229,
+			"file_name": "1220200209590022.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "40 x 26 x 3 in. (101.6 x 66 x 7.6 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 101.6,
+				"width_cm": 66.0,
+				"depth_cm": 7.6,
+				"height_in": 40.0,
+				"width_in": 26.0,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "40 x 26 x 3 in. (101.6 x 66 x 7.6 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 101.6,
+				"width_cm": 66.0,
+				"depth_cm": 7.6,
+				"height_in": 40.0,
+				"width_in": 26.0,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "40 x 26 x 3 in. (101.6 x 66 x 7.6 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 101.6,
+				"width_cm": 66.0,
+				"depth_cm": 7.6,
+				"height_in": 40.0,
+				"width_in": 26.0,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -78,7 +174,37 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20889468,
+			"term": "South Papua Province",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQC",
+					"term": "Indonesia"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQC.AAAEM",
+					"term": "South Papua Province"
+				}
+			]
+		},
+		{
+			"id": 20261389,
 			"term": "Merauke",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -107,32 +233,6 @@
 					"term": "Merauke"
 				}
 			]
-		},
-		{
-			"term": "South Papua Province",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAQC",
-					"term": "Indonesia"
-				},
-				{
-					"depth": 4,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAQC.AAAEM",
-					"term": "South Papua Province"
-				}
-			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -149,7 +249,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Marind-Anim",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Marind-Anim",
 	"sort_artist": "Marind-Anim",
 	"display_year": null,
 	"doc_id": "2005.180.39",
@@ -158,29 +258,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 121987,
-			"media_master_id": 46479,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 355,
-			"pixel_w": 229,
-			"file_name": "1220200209590022.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Glass",
@@ -199,20 +276,20 @@
 	"facet_place": [
 		{
 			"region": "Southeast Asia",
-			"country": "",
-			"state": "",
-			"notable": "Merauke"
-		},
-		{
-			"region": "Southeast Asia",
 			"country": "Indonesia",
 			"state": "",
 			"notable": "South Papua Province"
+		},
+		{
+			"region": "Southeast Asia",
+			"country": "",
+			"state": "",
+			"notable": "Merauke"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — glas, ,  · Merauke, South Papua Province",
+		"reason": "grid-facets real slice — glas, ,  · South Papua Province, Merauke",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 38
+		"populated_fields": 39
 	}
 }

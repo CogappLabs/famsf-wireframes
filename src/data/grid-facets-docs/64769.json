@@ -2,17 +2,18 @@
 	"id": 64769,
 	"accession_number": "1999.182.3",
 	"sort_number": "1999.182.3",
-	"title": "FRAGMENTS",
+	"title": "Fragments",
 	"object_name": "textile fragment",
-	"display_date": "7th–9th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "7th–9th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "silk; weft-faced compound twill (2:1) Z direction",
 	"medium_parts": ["silk", "weft-faced compound twill (2:1) Z direction"],
-	"dimensions": "mount: 15 1/2 x 23 5/16 in., (39.4 x 59.2 cm,)\r\nTextile Structure: 11Warps per Half Centimeter, 16Wefts per Half Centimeter, , (7Warps per Half Inch, 10.2Wefts per Half Inch, ,)",
 	"credit_line": "Gift of George and Marie Hecksher",
 	"department": "Costume and Textile Arts",
 	"classification": "Textile",
+	"subclassification": "Textile Fragment",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1999-12-31",
 	"location_string": "de Young, 059, Cabinet 32, F",
 	"location_building": "de Young",
@@ -37,36 +40,286 @@
 	"titles": [
 		{
 			"title": "Fragments",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "15 1/2 x 23 5/16 in., (39.4 x 59.2 cm,)",
-			"description": "mount",
-			"element_name": "Overall",
-			"displayed": true,
-			"rank": 1
+			"media_xref_id": 108743,
+			"image_id": 152440,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1945,
+			"width": 3000,
+			"file_name": "0620201412010049.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		},
 		{
-			"display_dimensions": "11Warps per Half Centimeter, 16Wefts per Half Centimeter, , (7Warps per Half Inch, 10.2Wefts per Half Inch, ,)",
-			"description": null,
-			"element_name": "Textile Structure",
+			"media_xref_id": 108745,
+			"image_id": 149709,
+			"rank": 3,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1976,
+			"width": 2957,
+			"file_name": "0929200412450093.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 108744,
+			"image_id": 139857,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1976,
+			"width": 2957,
+			"file_name": "0523200301270075.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "15 1/2 x 23 5/16 in., (39.4 x 59.2 cm,)",
+			"type": "Weight",
+			"element": "Overall",
+			"unit": "Pounds",
+			"rank": 1,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 39.4,
+				"width_cm": 59.2,
+				"depth_cm": null,
+				"height_in": 15.5,
+				"width_in": 23.3125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "15 1/2 x 23 5/16 in., (39.4 x 59.2 cm,)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 39.4,
+				"width_cm": 59.2,
+				"depth_cm": null,
+				"height_in": 15.5,
+				"width_in": 23.3125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "15 1/2 x 23 5/16 in., (39.4 x 59.2 cm,)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 39.4,
+				"width_cm": 59.2,
+				"depth_cm": null,
+				"height_in": 15.5,
+				"width_in": 23.3125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "15 1/2 x 23 5/16 in., (39.4 x 59.2 cm,)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 39.4,
+				"width_cm": 59.2,
+				"depth_cm": null,
+				"height_in": 15.5,
+				"width_in": 23.3125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "11Warps per Half Centimeter, 16Wefts per Half Centimeter, , (7Warps per Half Inch, 10.2Wefts per Half Inch, ,)",
+			"type": "Pile",
+			"element": "Textile Structure",
+			"unit": "Centimeters",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": null,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": null,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "11Warps per Half Centimeter, 16Wefts per Half Centimeter, , (7Warps per Half Inch, 10.2Wefts per Half Inch, ,)",
+			"type": "Warp Count",
+			"element": "Textile Structure",
+			"unit": "Warps per Half Centimeter",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": null,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": null,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "11Warps per Half Centimeter, 16Wefts per Half Centimeter, , (7Warps per Half Inch, 10.2Wefts per Half Inch, ,)",
+			"type": "Knot Count",
+			"element": "Textile Structure",
+			"unit": "Knots per Centimeter",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": null,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": null,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "11Warps per Half Centimeter, 16Wefts per Half Centimeter, , (7Warps per Half Inch, 10.2Wefts per Half Inch, ,)",
+			"type": "Depth (Textiles)",
+			"element": "Textile Structure",
+			"unit": "Centimeters",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": null,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": null,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "11Warps per Half Centimeter, 16Wefts per Half Centimeter, , (7Warps per Half Inch, 10.2Wefts per Half Inch, ,)",
+			"type": "Weft Count",
+			"element": "Textile Structure",
+			"unit": "Wefts per Half Centimeter",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": null,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": null,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -94,7 +347,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20319418,
 			"term": "Central Asia",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -115,7 +370,9 @@
 			]
 		},
 		{
+			"id": 16642434,
 			"term": "Ancient China",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -164,65 +421,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 108744,
-			"media_master_id": 139857,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1976,
-			"pixel_w": 2957,
-			"file_name": "0523200301270075.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 108743,
-			"media_master_id": 152440,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1945,
-			"pixel_w": 3000,
-			"file_name": "0620201412010049.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 108745,
-			"media_master_id": 149709,
-			"rank": 3,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1976,
-			"pixel_w": 2957,
-			"file_name": "0929200412450093.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Silk",
@@ -247,6 +445,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice —  · Central Asia, Ancient China",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 37
+		"populated_fields": 38
 	}
 }

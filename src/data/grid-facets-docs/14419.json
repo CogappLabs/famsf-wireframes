@@ -2,20 +2,21 @@
 	"id": 14419,
 	"accession_number": "1934.3.35",
 	"sort_number": "1934.3.35",
-	"title": "LENGTH OF VELVET",
+	"title": "Length of velvet",
 	"object_name": "fabric length",
-	"display_date": "17th century",
-	"begin_iso_date": "1600",
-	"end_iso_date": "1699",
+	"date_display": "17th century",
+	"date_start": "1600",
+	"date_end": "1699",
 	"medium": "Silk, metallic thread; cut voided velvet, supplementary-weft patterning",
 	"medium_parts": [
 		"Silk, metallic thread",
 		"cut voided velvet, supplementary-weft patterning"
 	],
-	"dimensions": "49 x 22 in. (124.5 x 55.9 cm)",
 	"credit_line": "Gift of Archer M. Huntington",
 	"department": "Costume and Textile Arts",
 	"classification": "Textile",
+	"subclassification": "Panel",
+	"culture": "Persian, Safavid dynasty",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1934-06-07",
 	"location_string": "de Young, 059, Cabinet 05, A",
 	"location_building": "de Young",
@@ -40,45 +43,140 @@
 	"titles": [
 		{
 			"title": "Length of velvet",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 37637,
+			"id": 37637,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Persian",
-			"AlphaSort": "Persian",
+			"name": "Persian",
+			"name_sort": "Persian",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": null,
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Persian"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "49 x 22 in. (124.5 x 55.9 cm)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 124309,
+			"image_id": 178082,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 11568,
+			"width": 6107,
+			"file_name": "A358878_V1.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "49 x 22 in. (124.5 x 55.9 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 124.5,
+				"width_cm": 55.9,
+				"depth_cm": null,
+				"height_in": 49.0,
+				"width_in": 22.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "49 x 22 in. (124.5 x 55.9 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 124.5,
+				"width_cm": 55.9,
+				"depth_cm": null,
+				"height_in": 49.0,
+				"width_in": 22.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "49 x 22 in. (124.5 x 55.9 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 124.5,
+				"width_cm": 55.9,
+				"depth_cm": null,
+				"height_in": 49.0,
+				"width_in": 22.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -106,7 +204,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20666686,
 			"term": "Iran",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -127,7 +227,9 @@
 			]
 		},
 		{
+			"id": 16917730,
 			"term": "Persia",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -154,7 +256,9 @@
 	"term_find_spot": null,
 	"term_period": [
 		{
+			"id": 20889439,
 			"term": "Safavid",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -213,29 +317,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1600,
-	"media": [
-		{
-			"media_xref_id": 124309,
-			"media_master_id": 178082,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 11568,
-			"pixel_w": 6107,
-			"file_name": "A358878_V1.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Silk",
@@ -264,6 +345,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , metallic thread · Iran, Persia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 46
 	}
 }

@@ -2,19 +2,20 @@
 	"id": 80181,
 	"accession_number": "1982.2.70.5",
 	"sort_number": "1982.2.70.5",
-	"title": "DANCERS ENTERTAINING NAWAB ZOLFAGHAROL-DOLEH AND HIS GUESTS, A PAGE FROM THE LADY COOTE ALBUM",
+	"title": "Dancers Entertaining Nawab Zolfagharol-doleh and His Guests, a page from the Lady Coote Album",
 	"object_name": "Genre Architecture Landscape Botanical Art/Music/Dance",
-	"display_date": "ca. 1780",
-	"begin_iso_date": "1780",
-	"end_iso_date": "1780",
+	"date_display": "ca. 1780",
+	"date_start": "1780",
+	"date_end": "1780",
 	"medium": "Opaque and transparent watercolor, and ink, gold, and silver with selective burnishing on paper",
 	"medium_parts": [
 		"Opaque and transparent watercolor, and ink, gold, and silver with selective burnishing on paper"
 	],
-	"dimensions": "Sheet: 295 x 425 mm (11 5/8 x 16 3/4 in.); Album page: 450 x 612 mm (17 11/16 x 24 1/8 in.)",
 	"credit_line": "Museum purchase, partial gift of Mr. and Mrs. John D. MacDonald and Achenbach Foundation for Graphic Arts Endowment Fund",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1982-01-01",
 	"location_string": "Out for Loan",
 	"location_building": "Out for Loan",
@@ -39,52 +42,185 @@
 	"titles": [
 		{
 			"title": "Dancers Entertaining Nawab Zolfagharol-doleh and His Guests, a page from the Lady Coote Album",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 2281,
+			"id": 2281,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Anonymous",
-			"AlphaSort": "Anonymous",
+			"name": "Anonymous",
+			"name_sort": "Anonymous",
 			"Nationality": "Indian",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "Indian or Persian",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "Indian or Persian",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Anonymous"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "17 11/16 x 24 1/8 in. (45 x 61.2 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Album Page (4D)",
-			"displayed": true,
-			"rank": 1
+			"media_xref_id": 20531,
+			"image_id": 169931,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8236,
+			"width": 10198,
+			"file_name": "A027386_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		},
 		{
-			"display_dimensions": "11 5/8 x 16 3/4 in. (29.5 x 42.5 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Sheet (4D)",
+			"media_xref_id": 20532,
+			"image_id": 68854,
+			"rank": 2,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1809,
+			"width": 2445,
+			"file_name": "3306201401910100.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "17 11/16 x 24 1/8 in. (45 x 61.2 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Album Page (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 45.0,
+				"width_cm": 61.2,
+				"depth_cm": null,
+				"height_in": 17.6875,
+				"width_in": 24.125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "17 11/16 x 24 1/8 in. (45 x 61.2 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Album Page (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 45.0,
+				"width_cm": 61.2,
+				"depth_cm": null,
+				"height_in": 17.6875,
+				"width_in": 24.125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "11 5/8 x 16 3/4 in. (29.5 x 42.5 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 29.5,
+				"width_cm": 42.5,
+				"depth_cm": null,
+				"height_in": 11.625,
+				"width_in": 16.75,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "11 5/8 x 16 3/4 in. (29.5 x 42.5 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 29.5,
+				"width_cm": 42.5,
+				"depth_cm": null,
+				"height_in": 11.625,
+				"width_in": 16.75,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -115,33 +251,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
-			"term": "Mughal Empire",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
-					"term": "South Asia"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
-					"term": "Mughal Empire"
-				}
-			]
-		},
-		{
+			"id": 18519652,
 			"term": "Lucknow",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -170,6 +282,34 @@
 					"term": "Lucknow"
 				}
 			]
+		},
+		{
+			"id": 20567676,
+			"term": "Mughal Empire",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
+					"term": "Mughal Empire"
+				}
+			]
 		}
 	],
 	"term_find_spot": null,
@@ -180,7 +320,9 @@
 	"term_movement": null,
 	"term_school": [
 		{
+			"id": 16343175,
 			"term": "Lucknow",
+			"type": "Used For Term",
 			"certainty": null,
 			"path": [
 				{
@@ -230,7 +372,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Anonymous",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Anonymous",
 	"sort_artist": "Anonymous",
 	"display_year": "1780",
 	"doc_id": "1982.2.70.5",
@@ -239,47 +381,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1780,
-	"media": [
-		{
-			"media_xref_id": 20531,
-			"media_master_id": 169931,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8236,
-			"pixel_w": 10198,
-			"file_name": "A027386_V1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 20532,
-			"media_master_id": 68854,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1809,
-			"pixel_w": 2445,
-			"file_name": "3306201401910100.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Gold & silver",
@@ -301,20 +402,20 @@
 	"facet_technique": [],
 	"facet_place": [
 		{
-			"region": "South Asia",
-			"country": "",
-			"state": "",
-			"notable": "Mughal Empire"
-		},
-		{
 			"region": "East Asia",
 			"country": "",
 			"state": "",
 			"notable": "Lucknow"
+		},
+		{
+			"region": "South Asia",
+			"country": "",
+			"state": "",
+			"notable": "Mughal Empire"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — gold, silver, , transparent watercolor · Mughal Empire, Lucknow",
+		"reason": "grid-facets real slice — gold, silver, , transparent watercolor · Lucknow, Mughal Empire",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

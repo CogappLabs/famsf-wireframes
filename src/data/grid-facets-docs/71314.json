@@ -2,19 +2,20 @@
 	"id": 71314,
 	"accession_number": "1982.2.70.2",
 	"sort_number": "1982.2.70.2",
-	"title": "PORTRAIT OF ASSADKHAN ALAMGIR, A PAGE FROM THE LADY COOTE ALBUM",
+	"title": "Portrait of Assadkhan Alamgir, a page from the Lady Coote Album",
 	"object_name": "Botanical Animal Portrait Historical Genre Landscape",
-	"display_date": "ca. 1780",
-	"begin_iso_date": "1780",
-	"end_iso_date": "1780",
+	"date_display": "ca. 1780",
+	"date_start": "1780",
+	"date_end": "1780",
 	"medium": "Opaque and transparent watercolor, and ink, gold, and silver with selective burnishing on paper",
 	"medium_parts": [
 		"Opaque and transparent watercolor, and ink, gold, and silver with selective burnishing on paper"
 	],
-	"dimensions": "Overall (album page): 17 13/16 x 24 11/16 in. (45.2 x 62.7 cm)\r\nOverall (sheet): 13 1/2 x 12 11/16 in. (34.3 x 32.3 cm)",
 	"credit_line": "Museum Purchase, Partial Gift of Mr. and Mrs. John D. MacDonald and Achenbach Foundation for Graphic Arts Endowment Fund",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1982-01-01",
 	"location_string": "Legion, 210, Compact Shelf 36, 102",
 	"location_building": "Legion",
@@ -39,52 +42,301 @@
 	"titles": [
 		{
 			"title": "Portrait of Assadkhan Alamgir, a page from the Lady Coote Album",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 12534,
+			"id": 12534,
 			"Role": "Attributed to",
 			"RoleID": 72,
-			"DisplayName": "Mihr Chand",
-			"AlphaSort": "Mihr Chand",
+			"name": "Mihr Chand",
+			"name_sort": "Mihr Chand",
 			"Nationality": "Indian",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "active 18th–19th century",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "active 18th–19th century",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Mihr Chand"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "17 13/16 x 24 11/16 in. (45.2 x 62.7 cm)",
-			"description": "album page",
-			"element_name": "Overall",
-			"displayed": true,
-			"rank": 1
+			"media_xref_id": 20524,
+			"image_id": 164907,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5086,
+			"width": 6886,
+			"file_name": "A027379_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		},
 		{
-			"display_dimensions": "13 1/2 x 12 11/16 in. (34.3 x 32.3 cm)",
-			"description": "sheet",
-			"element_name": "Overall",
+			"media_xref_id": 20527,
+			"image_id": 137658,
+			"rank": 4,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1787,
+			"width": 2457,
+			"file_name": "3306201401910095.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 20526,
+			"image_id": 15418,
+			"rank": 3,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2659,
+			"width": 3600,
+			"file_name": "0128201016130002.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 20525,
+			"image_id": 170294,
+			"rank": 2,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8386,
+			"width": 10152,
+			"file_name": "A027379_V2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 204969,
+			"image_id": 212460,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4903,
+			"width": 6647,
+			"file_name": "MS_71314_20230510_1_crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "17 13/16 x 24 11/16 in. (45.2 x 62.7 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 45.2,
+				"width_cm": 62.7,
+				"depth_cm": null,
+				"height_in": 17.8125,
+				"width_in": 24.6875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "17 13/16 x 24 11/16 in. (45.2 x 62.7 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 45.2,
+				"width_cm": 62.7,
+				"depth_cm": null,
+				"height_in": 17.8125,
+				"width_in": 24.6875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "17 13/16 x 24 11/16 in. (45.2 x 62.7 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 45.2,
+				"width_cm": 62.7,
+				"depth_cm": null,
+				"height_in": 17.8125,
+				"width_in": 24.6875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "13 1/2 x 12 11/16 in. (34.3 x 32.3 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 34.3,
+				"width_cm": 32.3,
+				"depth_cm": null,
+				"height_in": 13.5,
+				"width_in": 12.6875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "13 1/2 x 12 11/16 in. (34.3 x 32.3 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 34.3,
+				"width_cm": 32.3,
+				"depth_cm": null,
+				"height_in": 13.5,
+				"width_in": 12.6875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "13 1/2 x 12 11/16 in. (34.3 x 32.3 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 34.3,
+				"width_cm": 32.3,
+				"depth_cm": null,
+				"height_in": 13.5,
+				"width_in": 12.6875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -115,33 +367,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
-			"term": "Mughal Empire",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
-					"term": "South Asia"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
-					"term": "Mughal Empire"
-				}
-			]
-		},
-		{
+			"id": 18519652,
 			"term": "Lucknow",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -170,6 +398,34 @@
 					"term": "Lucknow"
 				}
 			]
+		},
+		{
+			"id": 20567676,
+			"term": "Mughal Empire",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
+					"term": "Mughal Empire"
+				}
+			]
 		}
 	],
 	"term_find_spot": null,
@@ -180,7 +436,9 @@
 	"term_movement": null,
 	"term_school": [
 		{
+			"id": 16343175,
 			"term": "Lucknow",
+			"type": "Used For Term",
 			"certainty": null,
 			"path": [
 				{
@@ -239,101 +497,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1780,
-	"media": [
-		{
-			"media_xref_id": 20527,
-			"media_master_id": 137658,
-			"rank": 4,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1787,
-			"pixel_w": 2457,
-			"file_name": "3306201401910095.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 20524,
-			"media_master_id": 164907,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 5086,
-			"pixel_w": 6886,
-			"file_name": "A027379_V1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 20526,
-			"media_master_id": 15418,
-			"rank": 3,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2659,
-			"pixel_w": 3600,
-			"file_name": "0128201016130002.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 204969,
-			"media_master_id": 212460,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 4903,
-			"pixel_w": 6647,
-			"file_name": "MS_71314_20230510_1_crop.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 20525,
-			"media_master_id": 170294,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8386,
-			"pixel_w": 10152,
-			"file_name": "A027379_V2.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Gold & silver",
@@ -355,20 +518,20 @@
 	"facet_technique": [],
 	"facet_place": [
 		{
-			"region": "South Asia",
-			"country": "",
-			"state": "",
-			"notable": "Mughal Empire"
-		},
-		{
 			"region": "East Asia",
 			"country": "",
 			"state": "",
 			"notable": "Lucknow"
+		},
+		{
+			"region": "South Asia",
+			"country": "",
+			"state": "",
+			"notable": "Mughal Empire"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — gold, silver, , transparent watercolor · Mughal Empire, Lucknow",
+		"reason": "grid-facets real slice — gold, silver, , transparent watercolor · Lucknow, Mughal Empire",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 44
 	}

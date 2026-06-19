@@ -2,20 +2,21 @@
 	"id": 237172,
 	"accession_number": "2002.122.10",
 	"sort_number": "2002.122.10",
-	"title": "CAMEL TRAPPING FOR A BRIDAL PROCESSION (KEJEBELIK)",
+	"title": "Camel trapping for a bridal procession (kejebelik)",
 	"object_name": "animal trapping",
-	"display_date": "19th century",
-	"begin_iso_date": "1801",
-	"end_iso_date": "1900",
+	"date_display": "19th century",
+	"date_start": "1801",
+	"date_end": "1900",
 	"medium": "Wool, goat hair, silk; knotted pile (asymmetrical knot, open to the right)",
 	"medium_parts": [
 		"Wool, goat hair, silk",
 		"knotted pile (asymmetrical knot, open to the right)"
 	],
-	"dimensions": "186 x 51 cm (73 1/4 x 20 1/16 in.)",
 	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nGift of Caroline McCoy-Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Tools & Equipment",
+	"subclassification": "Transportation",
+	"culture": "Turkmen",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2002-10-10",
 	"location_string": "de Young, 059, Cabinet 53, F",
 	"location_building": "de Young",
@@ -40,53 +43,157 @@
 	"titles": [
 		{
 			"title": "Camel trapping for a bridal procession (kejebelik)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 37648,
+			"id": 37648,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Turkmen",
-			"AlphaSort": "Turkmen",
+			"name": "Turkmen",
+			"name_sort": "Turkmen",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": null,
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Turkmen"
 		},
 		{
-			"ConstituentID": 37647,
+			"id": 37647,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Turkmen, Ersari tribe",
-			"AlphaSort": "Turkmen, Ersari tribe",
+			"name": "Turkmen, Ersari tribe",
+			"name_sort": "Turkmen, Ersari tribe",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": null,
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 2,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Turkmen, Ersari tribe"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "73 1/4 x 20 1/16 in. (186 x 51 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 121034,
+			"image_id": 163713,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1586,
+			"width": 4892,
+			"file_name": "A358697_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 121035,
+			"image_id": 31560,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1586,
+			"width": 4892,
+			"file_name": "0717200713450006.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "73 1/4 x 20 1/16 in. (186 x 51 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 186.0,
+				"width_cm": 51.0,
+				"depth_cm": null,
+				"height_in": 73.25,
+				"width_in": 20.0625,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "73 1/4 x 20 1/16 in. (186 x 51 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 186.0,
+				"width_cm": 51.0,
+				"depth_cm": null,
+				"height_in": 73.25,
+				"width_in": 20.0625,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -94,7 +201,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
-			"term": "Afghanistan",
+			"id": 16887148,
+			"term": "Uzbekistan",
+			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -109,13 +218,15 @@
 				},
 				{
 					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAI",
-					"term": "Afghānestān"
+					"cn": "AUZ.AAAAB.AAAAJ.AAADD",
+					"term": "O'zbekiston"
 				}
 			]
 		},
 		{
+			"id": 17087474,
 			"term": "Turkmenistan",
+			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -136,7 +247,9 @@
 			]
 		},
 		{
-			"term": "Uzbekistan",
+			"id": 16680795,
+			"term": "Afghanistan",
+			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -151,8 +264,8 @@
 				},
 				{
 					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAADD",
-					"term": "O'zbekiston"
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAI",
+					"term": "Afghānestān"
 				}
 			]
 		}
@@ -166,7 +279,9 @@
 	"term_dynasty": null,
 	"term_style": [
 		{
+			"id": 16340870,
 			"term": "Beshir",
+			"type": "Used For Term",
 			"certainty": null,
 			"path": [
 				{
@@ -231,7 +346,125 @@
 	"term_school": null,
 	"term_materials": [
 		{
+			"id": 16551699,
+			"term": "silk",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAP",
+					"term": "silk"
+				}
+			]
+		},
+		{
+			"id": 16561036,
+			"term": "wool",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAR",
+					"term": "wool"
+				}
+			]
+		},
+		{
+			"id": 16470856,
 			"term": "goat hair",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -290,118 +523,6 @@
 					"term": "goat hair"
 				}
 			]
-		},
-		{
-			"term": "wool",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
-					"term": "fiber by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
-					"term": "textile materials"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
-					"term": "textile materials by composition or origin"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAR",
-					"term": "wool"
-				}
-			]
-		},
-		{
-			"term": "silk",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
-					"term": "fiber by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
-					"term": "textile materials"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
-					"term": "textile materials by composition or origin"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAP",
-					"term": "silk"
-				}
-			]
 		}
 	],
 	"term_subject": null,
@@ -416,47 +537,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1801,
-	"media": [
-		{
-			"media_xref_id": 121034,
-			"media_master_id": 163713,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1586,
-			"pixel_w": 4892,
-			"file_name": "A358697_V1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 121035,
-			"media_master_id": 31560,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1586,
-			"pixel_w": 4892,
-			"file_name": "0717200713450006.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Silk",
@@ -471,7 +551,7 @@
 	"facet_place": [
 		{
 			"region": "Central Asia",
-			"country": "Afghanistan",
+			"country": "Uzbekistan",
 			"state": "",
 			"notable": ""
 		},
@@ -483,14 +563,14 @@
 		},
 		{
 			"region": "Central Asia",
-			"country": "Uzbekistan",
+			"country": "Afghanistan",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — ,  · Afghanistan, Turkmenistan, Uzbekistan",
+		"reason": "grid-facets real slice — ,  · Uzbekistan, Turkmenistan, Afghanistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 45
 	}
 }

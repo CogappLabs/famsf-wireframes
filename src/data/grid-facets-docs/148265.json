@@ -2,17 +2,18 @@
 	"id": 148265,
 	"accession_number": "50.32.270",
 	"sort_number": "50.32.270",
-	"title": "HUNTING SPEAR",
+	"title": "Hunting spear",
 	"object_name": "spear",
-	"display_date": null,
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": null,
+	"date_start": null,
+	"date_end": null,
 	"medium": "wood and paint",
 	"medium_parts": ["wood and paint"],
-	"dimensions": "257.2 cm (101 1/4 in.); 254 cm (100.5 in.)",
 	"credit_line": "Gift of Wilfrid H. Hemingway",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Tools & Equipment",
+	"subclassification": "Transportation",
+	"culture": "Liveringa",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": "collected by Wilfrid Hubert Hemingway in Australia between 1910 and 1924\r\nloaned to the deYoung Museum in 1932\r\ndonated to the deYoung Museum by Hemingway's wife in 1950",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1950-10-26",
 	"location_string": "de Young, 061, Cabinet 003, TC",
 	"location_building": "de Young",
@@ -37,45 +40,112 @@
 	"titles": [
 		{
 			"title": "Hunting spear",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 41371,
+			"id": 41371,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Australian Aboriginal",
-			"AlphaSort": "Australia, Australian Aboriginal",
+			"name": "Australian Aboriginal",
+			"name_sort": "Australia, Australian Aboriginal",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Australian Aboriginal"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "100 in. (254 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 83320,
+			"image_id": 12955,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5434,
+			"width": 1842,
+			"file_name": "0105200912450009.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "100 in. (254 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 254.0,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 100.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "101 1/4 in. (257.2 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"value": "101 1/4 in. (257.2 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 2,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 257.2,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 101.25,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -83,7 +153,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20889779,
 			"term": "Liveringa Station",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -133,7 +205,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Australian Aboriginal",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Australian Aboriginal",
 	"sort_artist": "Australia, Australian Aboriginal",
 	"display_year": null,
 	"doc_id": "50.32.270",
@@ -142,29 +214,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 83320,
-			"media_master_id": 12955,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 5434,
-			"pixel_w": 1842,
-			"file_name": "0105200912450009.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Paint",
@@ -187,6 +236,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — ,  · Liveringa Station",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 37
+		"populated_fields": 39
 	}
 }

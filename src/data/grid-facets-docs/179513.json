@@ -2,19 +2,20 @@
 	"id": 179513,
 	"accession_number": "2007.73.3",
 	"sort_number": "2007.73.3",
-	"title": "BLACK WIDOW HAUNTING FROM THE UNIVERSITY OF PAPUA NEW GUINEA STUDENT PROTEST ART SERIES",
+	"title": "Black Widow Haunting from The University of Papua New Guinea Student Protest Art series",
 	"object_name": "collage",
-	"display_date": "2001",
-	"begin_iso_date": "2001",
-	"end_iso_date": "2001",
+	"date_display": "2001",
+	"date_start": "2001",
+	"date_end": "2001",
 	"medium": "drawing with collage, paint, graphite, newsprint and crayon on paper",
 	"medium_parts": [
 		"drawing with collage, paint, graphite, newsprint and crayon on paper"
 	],
-	"dimensions": "7 1/4 x 5 in.",
 	"credit_line": "Museum Purchase, Sandy and Nick Javaras Fund for the Purchase of Contemporary Art from New Guinea",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2007-10-11",
 	"location_string": "Legion, 210, Shelf 03, D",
 	"location_building": "Legion",
@@ -39,45 +42,121 @@
 	"titles": [
 		{
 			"title": "Black Widow Haunting from The University of Papua New Guinea Student Protest Art series",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 15325,
+			"id": 15325,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Julie Kumin Mota",
-			"AlphaSort": "Julie Kumin Mota",
+			"name": "Julie Kumin Mota",
+			"name_sort": "Julie Kumin Mota",
 			"Nationality": "Papua New Guinea",
+			"place_born": "Tufi",
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1978,
-			"EndDate": 0,
-			"DisplayDate": "b. 1978",
+			"EndDate": null,
+			"dates": "b. 1978",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "b. 1978"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "7 1/4 x 5 in. (18.4 x 12.7 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 133052,
+			"image_id": 43760,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 6510,
+			"width": 4374,
+			"file_name": "1129200712140166.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "7 1/4 x 5 in. (18.4 x 12.7 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 18.4,
+				"width_cm": 12.7,
+				"depth_cm": null,
+				"height_in": 7.25,
+				"width_in": 5.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "7 1/4 x 5 in. (18.4 x 12.7 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 18.4,
+				"width_cm": 12.7,
+				"depth_cm": null,
+				"height_in": 7.25,
+				"width_in": 5.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -105,7 +184,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 16862078,
 			"term": "New Guinea",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -149,29 +230,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 2001,
-	"media": [
-		{
-			"media_xref_id": 133052,
-			"media_master_id": 43760,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 6510,
-			"pixel_w": 4374,
-			"file_name": "1129200712140166.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Paint",

@@ -2,17 +2,18 @@
 	"id": 276508,
 	"accession_number": "53800.89-111",
 	"sort_number": "53800.89-111",
-	"title": "TWENTY THREE OF TWENTY FOUR FRAGMENTS",
+	"title": "Twenty three of twenty four fragments",
 	"object_name": "textile fragment",
-	"display_date": "16–18th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "16–18th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "silk, wool, and cotton",
 	"medium_parts": ["silk, wool, and cotton"],
-	"dimensions": null,
 	"credit_line": "Gift of the Julia Brenner Collection",
 	"department": "Costume and Textile Arts",
 	"classification": "Textile",
+	"subclassification": "Textile Fragment",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1931-09-03",
 	"location_string": "de Young, 059, Cabinet 55, TA",
 	"location_building": "de Young",
@@ -37,21 +40,62 @@
 	"titles": [
 		{
 			"title": "Twenty three of twenty four fragments",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": null,
+	"media": [
+		{
+			"media_xref_id": 96658,
+			"image_id": 21939,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1060,
+			"width": 2682,
+			"file_name": "0409200109160259.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": true,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -79,7 +123,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20666686,
 			"term": "Iran",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -123,29 +169,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 96658,
-			"media_master_id": 21939,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1060,
-			"pixel_w": 2682,
-			"file_name": "0409200109160259.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",
@@ -172,6 +195,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , ,  · Iran",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 34
+		"populated_fields": 36
 	}
 }

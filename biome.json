@@ -1,7 +1,14 @@
 {
 	"$schema": "https://biomejs.dev/schemas/2.4.10/schema.json",
 	"files": {
-		"includes": ["src/**", "*.json", "*.ts", "*.mjs"]
+		"includes": [
+			"src/**",
+			"*.json",
+			"*.ts",
+			"*.mjs",
+			"!src/data/grid-facets-docs",
+			"!src/data/sample-docs"
+		]
 	},
 	"assist": {
 		"actions": {

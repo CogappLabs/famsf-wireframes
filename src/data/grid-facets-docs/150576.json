@@ -2,17 +2,18 @@
 	"id": 150576,
 	"accession_number": "2014.62.12",
 	"sort_number": "2014.62.12",
-	"title": "CEREMONIAL SPOON",
+	"title": "Ceremonial spoon",
 	"object_name": "Wunkirmian or Wakemia",
-	"display_date": "20th century",
-	"begin_iso_date": "1901",
-	"end_iso_date": "2000",
+	"date_display": "20th century",
+	"date_start": "1901",
+	"date_end": "2000",
 	"medium": "Wood, fiber, pigment, and beads",
 	"medium_parts": ["Wood, fiber, pigment, and beads"],
-	"dimensions": "23 1/4 x 5 7/8 x 4 1/4 in. (59.1 x 14.9 x 10.8 cm)",
 	"credit_line": "Gift of Richard Scheller",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Sculpture",
+	"subclassification": null,
+	"culture": "Dan",
 	"copyright": null,
 	"object_rights_type": "Copyright",
 	"on_view": true,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2014-10-16",
 	"location_string": "de Young, Display, Gallery 040",
 	"location_building": "de Young",
@@ -37,45 +40,178 @@
 	"titles": [
 		{
 			"title": "Ceremonial spoon",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "English",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 40217,
+			"id": 40217,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Zlan of Belewale",
-			"AlphaSort": "Zlan",
+			"name": "Zlan of Belewale",
+			"name_sort": "Zlan",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "Zlan of Belewale",
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Zlan of Belewale"
+		},
+		{
+			"id": 40217,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Zlan of Belewale",
+			"name_sort": "Zlan",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "Zlan of Belewale",
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Zlan of Belewale"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "23 1/4 x 5 7/8 x 4 1/4 in. (59.1 x 14.9 x 10.8 cm)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 145320,
+			"image_id": 148478,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1440,
+			"width": 958,
+			"file_name": "0626201410210006.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "23 1/4 x 5 7/8 x 4 1/4 in. (59.1 x 14.9 x 10.8 cm)",
+			"type": "Weight",
+			"element": "Overall",
+			"unit": "Pounds",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 59.1,
+				"width_cm": 14.9,
+				"depth_cm": 10.8,
+				"height_in": 23.25,
+				"width_in": 5.875,
+				"depth_in": 4.25,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "23 1/4 x 5 7/8 x 4 1/4 in. (59.1 x 14.9 x 10.8 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 59.1,
+				"width_cm": 14.9,
+				"depth_cm": 10.8,
+				"height_in": 23.25,
+				"width_in": 5.875,
+				"depth_in": 4.25,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "23 1/4 x 5 7/8 x 4 1/4 in. (59.1 x 14.9 x 10.8 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 59.1,
+				"width_cm": 14.9,
+				"depth_cm": 10.8,
+				"height_in": 23.25,
+				"width_in": 5.875,
+				"depth_in": 4.25,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "23 1/4 x 5 7/8 x 4 1/4 in. (59.1 x 14.9 x 10.8 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 59.1,
+				"width_cm": 14.9,
+				"depth_cm": 10.8,
+				"height_in": 23.25,
+				"width_in": 5.875,
+				"depth_in": 4.25,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -103,7 +239,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20724323,
 			"term": "Liberia",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -128,7 +266,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 20365723,
 			"term": "Côte d'Ivoire",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -160,7 +300,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Zlan of Belewale",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Zlan of Belewale",
 	"sort_artist": "Zlan",
 	"display_year": "1901–2000",
 	"doc_id": "2014.62.12",
@@ -169,29 +309,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1901,
-	"media": [
-		{
-			"media_xref_id": 145320,
-			"media_master_id": 148478,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1440,
-			"pixel_w": 958,
-			"file_name": "0626201410210006.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Pigment",
@@ -224,6 +341,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , bead,  · Liberia, Côte d'Ivoire",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 45
 	}
 }

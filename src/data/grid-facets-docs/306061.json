@@ -2,17 +2,18 @@
 	"id": 306061,
 	"accession_number": "2024.13a-b",
 	"sort_number": "2024.13a-b",
-	"title": "THE SILENCE BETWEEN MOTHER TONGUES",
+	"title": "The Silence between Mother Tongues",
 	"object_name": null,
-	"display_date": "2022",
-	"begin_iso_date": "2022",
-	"end_iso_date": "2022",
+	"date_display": "2022",
+	"date_start": "2022",
+	"date_end": "2022",
 	"medium": "Silk, wool, cotton, mohair, rope, wood, plastic and metal",
 	"medium_parts": ["Silk, wool, cotton, mohair, rope, wood, plastic and metal"],
-	"dimensions": "92 x 55 x 12 in. (233.68 x 139.7 x 30.48 cm)",
 	"credit_line": "Museum purchase, Textile Arts Council Endowment Income Fund",
 	"department": "Costume and Textile Arts",
 	"classification": "Sculpture",
+	"subclassification": null,
+	"culture": null,
 	"copyright": "© Kira Dominguez Hultgren",
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2024-04-02",
 	"location_string": "UOVO, Livermore",
 	"location_building": "UOVO",
@@ -37,45 +40,263 @@
 	"titles": [
 		{
 			"title": "The Silence between Mother Tongues",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "English",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 38963,
+			"id": 38963,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Kira Dominguez Hultgren",
-			"AlphaSort": "Hultgren,  Kira Dominguez",
+			"name": "Kira Dominguez Hultgren",
+			"name_sort": "Hultgren,  Kira Dominguez",
 			"Nationality": "American",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
 			"BeginDate": 1980,
-			"EndDate": 0,
-			"DisplayDate": "American, born 1980",
+			"EndDate": null,
+			"dates": "American, born 1980",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1980"
+		},
+		{
+			"id": 38963,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Kira Dominguez Hultgren",
+			"name_sort": "Hultgren,  Kira Dominguez",
+			"Nationality": "American",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": 1980,
+			"EndDate": null,
+			"dates": "American, born 1980",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "b. 1980"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "92 x 55 x 12 in. (233.68 x 139.7 x 30.48 cm)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 218487,
+			"image_id": 229357,
+			"rank": 0,
+			"primary": false,
+			"display_order": 9,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3024,
+			"width": 4032,
+			"file_name": "Ref_306061_20240610-6.JPG",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 218486,
+			"image_id": 229356,
+			"rank": 0,
+			"primary": false,
+			"display_order": 8,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3024,
+			"width": 4032,
+			"file_name": "Ref_306061_20240610-5.JPG",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 218485,
+			"image_id": 229355,
+			"rank": 0,
+			"primary": false,
+			"display_order": 7,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3024,
+			"width": 4032,
+			"file_name": "Ref_306061_20240610-4.JPG",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 218488,
+			"image_id": 229358,
+			"rank": 0,
+			"primary": false,
+			"display_order": 10,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3024,
+			"width": 4032,
+			"file_name": "Ref_306061_20240610-7.JPG",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 218483,
+			"image_id": 229353,
+			"rank": 0,
+			"primary": false,
+			"display_order": 5,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3024,
+			"width": 4032,
+			"file_name": "Ref_306061_20240610-2.JPG",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "92 x 55 x 12 in. (233.68 x 139.7 x 30.48 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 233.68,
+				"width_cm": 139.7,
+				"depth_cm": 30.48,
+				"height_in": 92.0,
+				"width_in": 55.0,
+				"depth_in": 12.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "92 x 55 x 12 in. (233.68 x 139.7 x 30.48 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 233.68,
+				"width_cm": 139.7,
+				"depth_cm": 30.48,
+				"height_in": 92.0,
+				"width_in": 55.0,
+				"depth_in": 12.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "92 x 55 x 12 in. (233.68 x 139.7 x 30.48 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 233.68,
+				"width_cm": 139.7,
+				"depth_cm": 30.48,
+				"height_in": 92.0,
+				"width_in": 55.0,
+				"depth_in": 12.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -103,7 +324,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 18551844,
 			"term": "Utah",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -141,7 +364,9 @@
 	"term_school": null,
 	"term_materials": [
 		{
-			"term": "cotton",
+			"id": 16551699,
+			"term": "silk",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -191,13 +416,15 @@
 				},
 				{
 					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAD",
-					"term": "cotton"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAP",
+					"term": "silk"
 				}
 			]
 		},
 		{
-			"term": "metal",
+			"id": 16561036,
+			"term": "wool",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -217,69 +444,45 @@
 				},
 				{
 					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAB",
-					"term": "materials by composition"
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
 				},
 				{
 					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
-					"term": "inorganic material"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
 				},
 				{
 					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
-					"term": "metal"
-				}
-			]
-		},
-		{
-			"term": "wood",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAF",
-					"term": "materials by origin"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
-					"term": "biological material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
-					"term": "plant material"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
 				},
 				{
 					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
-					"term": "wood and wood by product"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
 				},
 				{
 					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
-					"term": "wood"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAR",
+					"term": "wool"
 				}
 			]
 		},
 		{
+			"id": 16426413,
 			"term": "mohair",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -345,63 +548,9 @@
 			]
 		},
 		{
-			"term": "wool",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
-					"term": "fiber by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
-					"term": "textile materials"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
-					"term": "textile materials by composition or origin"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAR",
-					"term": "wool"
-				}
-			]
-		},
-		{
+			"id": 16590388,
 			"term": "plastic",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -447,7 +596,57 @@
 			]
 		},
 		{
-			"term": "silk",
+			"id": 16211005,
+			"term": "wood",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				}
+			]
+		},
+		{
+			"id": 16359757,
+			"term": "cotton",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -497,8 +696,46 @@
 				},
 				{
 					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAP",
-					"term": "silk"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAD",
+					"term": "cotton"
+				}
+			]
+		},
+		{
+			"id": 16581230,
+			"term": "metal",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
 				}
 			]
 		}
@@ -515,101 +752,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 2022,
-	"media": [
-		{
-			"media_xref_id": 218488,
-			"media_master_id": 229358,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 10,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 3024,
-			"pixel_w": 4032,
-			"file_name": "Ref_306061_20240610-7.JPG",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 218487,
-			"media_master_id": 229357,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 9,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 3024,
-			"pixel_w": 4032,
-			"file_name": "Ref_306061_20240610-6.JPG",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 218483,
-			"media_master_id": 229353,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 5,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 3024,
-			"pixel_w": 4032,
-			"file_name": "Ref_306061_20240610-2.JPG",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 218485,
-			"media_master_id": 229355,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 7,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 3024,
-			"pixel_w": 4032,
-			"file_name": "Ref_306061_20240610-4.JPG",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 218486,
-			"media_master_id": 229356,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 8,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 3024,
-			"pixel_w": 4032,
-			"file_name": "Ref_306061_20240610-5.JPG",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",

@@ -2,17 +2,18 @@
 	"id": 107222,
 	"accession_number": "1988.11.447",
 	"sort_number": "1988.11.447",
-	"title": "COVER/HANGING WITH MIHRAB",
+	"title": "Cover/hanging with mihrab",
 	"object_name": "miscellaneous furnishing",
-	"display_date": "19th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "19th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "cotton, silk; embroidery",
 	"medium_parts": ["cotton, silk", "embroidery"],
-	"dimensions": "132.1 x 76.2 cm (52  x 30  in.)",
 	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nBequest of H. McCoy Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Furnishing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Requires Further Research",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1988-06-09",
 	"location_string": "de Young, 059, Cabinet 23, B",
 	"location_building": "de Young",
@@ -37,22 +40,92 @@
 	"titles": [
 		{
 			"title": "Cover/hanging with mihrab",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "52 x 30 in. (132.1 x 76.2 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 210608,
+			"image_id": 217855,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 13706,
+			"width": 8022,
+			"file_name": "MS_107222_20230718_1_Crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "52 x 30 in. (132.1 x 76.2 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 132.1,
+				"width_cm": 76.2,
+				"depth_cm": null,
+				"height_in": 52.0,
+				"width_in": 30.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "52 x 30 in. (132.1 x 76.2 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 132.1,
+				"width_cm": 76.2,
+				"depth_cm": null,
+				"height_in": 52.0,
+				"width_in": 30.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -60,7 +133,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20214201,
 			"term": "India",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -104,29 +179,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 210608,
-			"media_master_id": 217855,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 13706,
-			"pixel_w": 8022,
-			"file_name": "MS_107222_20230718_1_Crop.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",

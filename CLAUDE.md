@@ -38,7 +38,7 @@ The index, top bar badges, footer links, and scope overlay all derive from these
 | Explore | `/explore` | Curated themes, timeline browse, discovery prompts, most viewed (post-MVP) |
 | Search Results | `/search-results` | **Primary view = grid + facet modals** (real data, omnibox + sort + pager). Other variations behind `?variation=`. |
 | Object Detail | `/objects/sample/[variant]` | **Two-column layout** (full-width image → left rail: title/subtitle, on-view+location, audio, parent-child → wide main: web text, tombstone, dimensions, scale, people, additional info, provenance → exhibitions → bibliography, scholarly publications, rights & citation → full-width Related works + data disclaimer). Per the June 18 2026 page-layouts spec. Sections split into `object-detail/*` components. |
-| Collection areas | `/collection-areas` | **Landing**: intro + grid of collection areas (== departments, CW-30); cards → detail (`/collection-area/<slug>`). `/departments` redirects here. |
+| Collection areas | (no index page) | The standalone `/collection-areas` index was removed 2026-06-19; collection-area detail pages are reached only from the homepage Browse-by-area grid. |
 | Collection Area (detail) | `/collection-area/[slug]` | Per-area detail route, statically generated for all 11 areas from an `AREAS` data map keyed by slug. Order per the June 18 2026 spec: intro → deep dive (collection history) → highlights → featured collections → read/watch/listen → other resources. |
 | Artist Page | `/artist-page?name=X` | Bio, works grid, exhibitions, related artists |
 | Collector Page | `/collector-page` | Biography, associated objects, SF civic history |
@@ -92,7 +92,16 @@ Current variations:
     see below). Both render a left facet column instead of the horizontal bar,
     sharing the same `GridFacetsView` (a `layout` prop switches inline vs
     modal). Facets, top to bottom:
-    - **Artist** — flat list off `primary_artist` (8-cap + search-within).
+    Facet display order (2026-06-19): Artist/maker, Date, Place, Culture group,
+    Medium, Object type, Department, Technique, Gallery, Collection. Labels use
+    the client's final filter naming (Artist/maker, Medium, Object type,
+    Department) rather than the old code-field names. The `id`/field keys
+    (`artist`, `material`, `classification`, `department`) are unchanged; only
+    display labels differ. Reordered via `PANEL_ORDER` in grid-facets.tsx.
+    - **Artist/maker** — flat list off `primary_artist` (8-cap + search-within).
+    - **Culture group** — flat list off the top-level `culture` field (8-cap +
+      search-within; tribes + ancient civilisations, e.g. Asante, Maya, Quechua).
+      ~5.6% of objects populated; the export slice carries `culture` per doc.
     - **Place** — expandable tree (region → country → state → notable place,
       per the REGION_REMAP workbook). The **state tier is US-only** (ADR 0002
       amend): San Francisco sits under California under United States, but
@@ -101,15 +110,18 @@ Current variations:
       node (any tier). "Filter place…" prunes + auto-expands matching branches
       (e.g. "paris" → Europe ▾ France ▾ Paris). Geography shows **all**
       top-level rows (no 8-cap — the one exception).
-    - **Material** — same expandable tree, 2-tier (parent → specific, per the
+    - **Medium** — same expandable tree, 2-tier (parent → specific, per the
       Material workbook FACET_DESIGN_v2; e.g. Metal → bronze). 8-cap with
-      "Show N more" on the parents.
+      "Show N more" on the parents. (Field id stays `material`.)
     - **Technique** — flat list (8-cap).
-    - **Classification** / **Collection area** / **Gallery** — flat facets
+    - **Object type** / **Department** / **Gallery** — flat facets
       (8-cap + search-within) off `classification`, `department`,
-      `location_building`. Added for the Phase 1 CW-41 core facet set. The
-      `department` facet is labelled **"Collection area"** in the UI (the
-      public-facing name per CW-30); `department` stays the code/field id.
+      `location_building`. The `department` facet is labelled **"Department"**
+      per the client final filter list (was "Collection area"); `department`
+      stays the code/field id. "Object type" is the `classification` facet.
+    - **Collection** — a disabled placeholder facet (`PendingFacet`): the FAMSF
+      Collecting Area TMS field does not exist yet, so it renders greyed with a
+      "not yet in TMS" note and no options.
     - **Date** — a **year histogram** (`DateHistogram`): decade bins with the
       empty decades dropped so equal-width bars track data density (sparse
       ancient tail collapses, dense modern cluster gets the width). Drag across
@@ -190,7 +202,7 @@ The scope toggle (top bar) overlays MVP/post-MVP annotations on sections:
 `src/lib/data.ts` is the single source of truth for:
 - `pages` — the page registry (id, title, description, review status)
 - `navigation` — nav tree with `NavNode` type for sitemap
-- `siteNavigation` — standalone collection site nav. `mvpSiteNavigation` / `mvpFooterGroups` are the **MVP-filtered** derivations the site header (`GlobalNav`) + footer actually render (post-MVP pages dropped via `isPageMvp`; the wireframe index at `/` still lists everything). "Collection areas" is a **plain link** to the `/collection-areas` landing (no dropdown).
+- `siteNavigation` — standalone collection site nav. `mvpSiteNavigation` / `mvpFooterGroups` are the **MVP-filtered** derivations the site header (`GlobalNav`) + footer actually render (post-MVP pages dropped via `isPageMvp`; the wireframe index at `/` still lists everything). There is no "Collection areas" nav item: the index page was removed (2026-06-19) and collection-area pages are reached from the homepage Browse-by-area grid.
 - `footerGroups` — structured footer link groups (auto-derived from pages, grouped into Browse/Records/Features)
 - `ReviewStatus` type and display constants
 

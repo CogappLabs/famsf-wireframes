@@ -2,17 +2,18 @@
 	"id": 185776,
 	"accession_number": "47.12",
 	"sort_number": "47.12",
-	"title": "IBIS",
+	"title": "Ibis",
 	"object_name": "figure",
-	"display_date": "525–332 BC",
-	"begin_iso_date": "-525",
-	"end_iso_date": "-332",
+	"date_display": "525–332 BC",
+	"date_start": "-525",
+	"date_end": "-332",
 	"medium": "Bronze and wood with polychromy",
 	"medium_parts": ["Bronze and wood with polychromy"],
-	"dimensions": "13 1/8 x 5 1/2 x 16 5/8 in. (33.338 x 13.97 x 42.228 cm)",
 	"credit_line": "Museum purchase, M.H. deYoung Endowment Fund",
 	"department": "Ancient Art",
 	"classification": "Sculpture",
+	"subclassification": null,
+	"culture": "Egyptian",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": true,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": "Found at Tounah elKabal, near Malawi, Upper Egypt",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1947-06-30",
 	"location_string": "Legion, Display, Gallery 240 west, Wall Case 3",
 	"location_building": "Legion",
@@ -37,45 +40,176 @@
 	"titles": [
 		{
 			"title": "Ibis",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 39909,
+			"id": 39909,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Egyptian",
-			"AlphaSort": "Egyptian",
+			"name": "Egyptian",
+			"name_sort": "Egyptian",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Egyptian"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "13 1/8 x 5 1/2 x 16 5/8 in. (33.338 x 13.97 x 42.228 cm)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 82107,
+			"image_id": 124749,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1880,
+			"width": 1793,
+			"file_name": "6250304128220019.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "13 1/8 x 5 1/2 x 16 5/8 in. (33.338 x 13.97 x 42.228 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 33.338,
+				"width_cm": 13.97,
+				"depth_cm": 42.228,
+				"height_in": 13.125,
+				"width_in": 5.5,
+				"depth_in": 16.625,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "13 1/8 x 5 1/2 x 16 5/8 in. (33.338 x 13.97 x 42.228 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 33.338,
+				"width_cm": 13.97,
+				"depth_cm": 42.228,
+				"height_in": 13.125,
+				"width_in": 5.5,
+				"depth_in": 16.625,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "13 1/8 x 5 1/2 x 16 5/8 in. (33.338 x 13.97 x 42.228 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 33.338,
+				"width_cm": 13.97,
+				"depth_cm": 42.228,
+				"height_in": 13.125,
+				"width_in": 5.5,
+				"depth_in": 16.625,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": [
+			{
+				"id": 913,
+				"title": "Strangers’ Poems: Ibis Coffin",
+				"href": "https://www.develop-sr3snxi-i63nmygx3oviw.us-3.platformsh.site/learn-engage/read-watch-listen/strangers-poems-ibis-coffin",
+				"description": "<p>Read (and hear) a poem inspired by our <em>Ibis coffin</em>.</p>",
+				"author": "Ben Bernthal, poet",
+				"heading_level": 3,
+				"media": {
+					"image": {
+						"src": "https://www.develop-sr3snxi-i63nmygx3oviw.us-3.platformsh.site/storage/images/d55d50d5-76c3-40a9-bed6-47d272f3a69b/ben-bernthal-ibis-coffin-2.jpg?crop=2268,1275,x0,y1875&format=jpg&quality=80&width=800",
+						"width": 800,
+						"height": 450
+					},
+					"alt": "Ben Bernthal sitting with a typewriter in front of the Ibis Coffin",
+					"caption": "<p>Ben Bernthal types a poem inspired by our&nbsp;<em>Ibis coffin</em>, 525–332 BC. Bronze and wood with polychromy, 13 1/8 x 5 1/2 x 16 5/8 in. (33.338 x 13.97 x 42.228 cm). Fine Arts Museums of San Francisco, Museum purchase, M. H. de Young Endowment Fund, 47.12<br class=\"softbreak\"></p>",
+					"credit": ""
+				},
+				"tags": [
+					{
+						"text": "Article",
+						"href": "https://www.develop-sr3snxi-i63nmygx3oviw.us-3.platformsh.site/learn-engage/read-watch-listen/all?type=article",
+						"location": null
+					},
+					{
+						"text": "Ancient art",
+						"href": "https://www.develop-sr3snxi-i63nmygx3oviw.us-3.platformsh.site/learn-engage/read-watch-listen/all?topic=8",
+						"location": null
+					},
+					{
+						"text": "Poetry",
+						"href": "https://www.develop-sr3snxi-i63nmygx3oviw.us-3.platformsh.site/learn-engage/read-watch-listen/all?topic=61",
+						"location": null
+					}
+				]
+			}
+		],
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -103,7 +237,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20869914,
 			"term": "Egypt",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -127,7 +263,9 @@
 	"term_place_of_fabrication": null,
 	"term_place_name_at_creation": [
 		{
+			"id": 18254138,
 			"term": "Hermopolis",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -155,7 +293,9 @@
 	],
 	"term_related_geography": [
 		{
+			"id": 20281061,
 			"term": "Upper Egypt",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -176,7 +316,9 @@
 			]
 		},
 		{
+			"id": 16841214,
 			"term": "Mallawī",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -204,7 +346,9 @@
 	],
 	"term_find_spot": [
 		{
+			"id": 17243933,
 			"term": "Ţihnā al Jabal",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -232,7 +376,9 @@
 	],
 	"term_period": [
 		{
+			"id": 16501508,
 			"term": "Late Period",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -281,7 +427,9 @@
 	"term_reign": null,
 	"term_dynasty": [
 		{
+			"id": 16170119,
 			"term": "Dynasty",
+			"type": "Index Term",
 			"certainty": null,
 			"path": [
 				{
@@ -337,53 +485,9 @@
 	"term_school": null,
 	"term_materials": [
 		{
-			"term": "wood",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAF",
-					"term": "materials by origin"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
-					"term": "biological material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
-					"term": "plant material"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
-					"term": "wood and wood by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
-					"term": "wood"
-				}
-			]
-		},
-		{
+			"id": 16293210,
 			"term": "bronze",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -444,7 +548,9 @@
 			]
 		},
 		{
+			"id": 16571801,
 			"term": "color",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -473,6 +579,54 @@
 					"term": "color"
 				}
 			]
+		},
+		{
+			"id": 16211005,
+			"term": "wood",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				}
+			]
 		}
 	],
 	"term_subject": null,
@@ -487,29 +641,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": -525,
-	"media": [
-		{
-			"media_xref_id": 82107,
-			"media_master_id": 124749,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1880,
-			"pixel_w": 1793,
-			"file_name": "6250304128220019.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Metal",
@@ -544,6 +675,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — bronze,  · Egypt, Upper Egypt, Mallawī",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 49
+		"populated_fields": 50
 	}
 }

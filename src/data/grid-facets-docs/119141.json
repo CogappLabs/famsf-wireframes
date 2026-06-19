@@ -2,20 +2,21 @@
 	"id": 119141,
 	"accession_number": "2007.87.12",
 	"sort_number": "2007.87.12",
-	"title": "CEREMONIAL SITTING MAT (TABIN)",
+	"title": "Ceremonial sitting mat (tabin)",
 	"object_name": "miscellaneous",
-	"display_date": "20th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "20th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "palm fiber, glass beads, cotton, wool,  bast fiber, shells, metal, hair; plaiting, beadwork, commercial cloth, applied objects, beaded fringe",
 	"medium_parts": [
 		"palm fiber, glass beads, cotton, wool,  bast fiber, shells, metal, hair",
 		"plaiting, beadwork, commercial cloth, applied objects, beaded fringe"
 	],
-	"dimensions": "54.6 x 27.9 x 2.5 cm (21 1/2 x 11 x 1 in.)",
 	"credit_line": "Gift of the Diane and Sandy Besser Collection, Santa Fe, New Mexico",
 	"department": "Costume and Textile Arts",
 	"classification": "Textile",
+	"subclassification": "Ritual & Religious",
+	"culture": "Kayan/Kenyan people",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2007-12-31",
 	"location_string": "de Young, 061, Cabinet 075, TC",
 	"location_building": "de Young",
@@ -40,53 +43,188 @@
 	"titles": [
 		{
 			"title": "Ceremonial sitting mat (tabin)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 41194,
+			"id": 41194,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Kayan",
-			"AlphaSort": "Kayan",
+			"name": "Kayan",
+			"name_sort": "Kayan",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "possibly",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Kayan"
 		},
 		{
-			"ConstituentID": 41195,
+			"id": 41194,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Kenyah",
-			"AlphaSort": "Kenyah",
+			"name": "Kayan",
+			"name_sort": "Kayan",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Kayan"
+		},
+		{
+			"id": 41195,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Kenyah",
+			"name_sort": "Kenyah",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "possibly",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 2,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Kenyah"
+		},
+		{
+			"id": 41195,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Kenyah",
+			"name_sort": "Kenyah",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Kenyah"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "21 1/2 x 11 x 1 in. (54.6 x 27.9 x 2.5 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 133268,
+			"image_id": 153093,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5224,
+			"width": 3920,
+			"file_name": "0808200915540003.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "21 1/2 x 11 x 1 in. (54.6 x 27.9 x 2.5 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 54.6,
+				"width_cm": 27.9,
+				"depth_cm": 2.5,
+				"height_in": 21.5,
+				"width_in": 11.0,
+				"depth_in": 1.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "21 1/2 x 11 x 1 in. (54.6 x 27.9 x 2.5 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 54.6,
+				"width_cm": 27.9,
+				"depth_cm": 2.5,
+				"height_in": 21.5,
+				"width_in": 11.0,
+				"depth_in": 1.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "21 1/2 x 11 x 1 in. (54.6 x 27.9 x 2.5 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 54.6,
+				"width_cm": 27.9,
+				"depth_cm": 2.5,
+				"height_in": 21.5,
+				"width_in": 11.0,
+				"depth_in": 1.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -94,7 +232,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 18240739,
 			"term": "Mahakam",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -143,29 +283,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 133268,
-			"media_master_id": 153093,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 5224,
-			"pixel_w": 3920,
-			"file_name": "0808200915540003.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",
@@ -200,6 +317,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , , , glass bead … · Mahakam",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 38
 	}
 }

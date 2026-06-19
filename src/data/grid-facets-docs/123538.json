@@ -2,32 +2,35 @@
 	"id": 123538,
 	"accession_number": "2000.25a-b",
 	"sort_number": "2000.25a-b",
-	"title": "CABINET ON STAND",
+	"title": "Cabinet on Stand",
 	"object_name": "cabinet",
-	"display_date": "ca. 1665",
-	"begin_iso_date": "1660",
-	"end_iso_date": "1670",
+	"date_display": "ca. 1665",
+	"date_start": "1660",
+	"date_end": "1670",
 	"medium": "Walnut, oak, marquetry of tortoise, ivory, boxwood, ebony, mahogany, kingwood, and gilt bronze",
 	"medium_parts": [
 		"Walnut, oak, marquetry of tortoise, ivory, boxwood, ebony, mahogany, kingwood, and gilt bronze"
 	],
-	"dimensions": "Overall: 78 9/16 x 55 5/8 x 20 in. (199.549 x 141.288 x 50.8 cm)",
 	"credit_line": "Museum purchase,  San Francisco Foundation Grant from the M ichael Taylor Trust, and Gift of Mr. and Mrs. Alfred S. Wilsey",
 	"department": "European Decorative Arts and Sculpture",
 	"classification": "Furnishing",
+	"subclassification": "Furniture",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": true,
 	"entered_date": "2021-11-23 00:00:00.000000",
-	"last_modified": "2025-07-23 08:39:47.470000",
+	"last_modified": "2026-06-11 08:53:44.187000",
 	"is_virtual": false,
 	"identifying_description": null,
-	"web_text": "Cabinet on standFrance, Paris, ca. 1665Pierre Gole (French, b. Netherlands, ca. 1620-1684), ébeniste (cabinetmaker) Ebony, kingwood, and various other woods with tortoiseshell, ivory, and gilt bronze San Francisco Foundation Grant from the Michael Taylor Trust, and Gift of Mr. and Mrs. Alfred S. Wilsey 2000.25a-b",
+	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2000-04-13",
 	"location_string": "Legion, Display, Gallery 009c",
 	"location_building": "Legion",
@@ -38,46 +41,322 @@
 	"markings": null,
 	"titles": [
 		{
-			"title": "Cabinet on stand",
-			"title_type": "Primary Title",
-			"language": "(not assigned)",
+			"title": "Cabinet on Stand",
+			"type": "Primary Title",
+			"active": true,
+			"language": "English",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 11478,
+			"id": 11478,
 			"Role": "Maker",
 			"RoleID": 56,
-			"DisplayName": "Pierre Gole",
-			"AlphaSort": "Pierre Gole",
+			"name": "Pierre Gole",
+			"name_sort": "Gole,  Pierre",
 			"Nationality": "French",
+			"place_born": "Holland",
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1620,
 			"EndDate": 1684,
-			"DisplayDate": "French, 1620 - 1684",
+			"dates": "French, 1620 - 1684",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Pierre Gole (1620–1684)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "78 9/16 x 55 5/8 x 20 in. (199.549 x 141.288 x 50.8 cm)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 235987,
+			"image_id": 250202,
+			"rank": 0,
+			"primary": false,
+			"display_order": 15,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5391,
+			"width": 8086,
+			"file_name": "MS_123538_20250804_14.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 235979,
+			"image_id": 250194,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8256,
+			"width": 5504,
+			"file_name": "MS_123538_20250804_06.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 235980,
+			"image_id": 250195,
+			"rank": 0,
+			"primary": false,
+			"display_order": 8,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8256,
+			"width": 5504,
+			"file_name": "MS_123538_20250804_07.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 235988,
+			"image_id": 250203,
+			"rank": 0,
+			"primary": false,
+			"display_order": 16,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8256,
+			"width": 5504,
+			"file_name": "MS_123538_20250804_15.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 235982,
+			"image_id": 250197,
+			"rank": 0,
+			"primary": false,
+			"display_order": 10,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8256,
+			"width": 5504,
+			"file_name": "MS_123538_20250804_09.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 109598,
+			"image_id": 172534,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "No Copyright - Lack of Originality",
+			"credit_line": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5412,
+			"width": 7216,
+			"file_name": "A363980_V1.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 235974,
+			"image_id": 250189,
+			"rank": 0,
+			"primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5466,
+			"width": 8198,
+			"file_name": "MS_123538_20250804_01.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "78 9/16 x 55 5/8 x 20 in. (199.549 x 141.288 x 50.8 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 199.549,
+				"width_cm": 141.288,
+				"depth_cm": 50.8,
+				"height_in": 78.5625,
+				"width_in": 55.625,
+				"depth_in": 20.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "78 9/16 x 55 5/8 x 20 in. (199.549 x 141.288 x 50.8 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 199.549,
+				"width_cm": 141.288,
+				"depth_cm": 50.8,
+				"height_in": 78.5625,
+				"width_in": 55.625,
+				"depth_in": 20.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "78 9/16 x 55 5/8 x 20 in. (199.549 x 141.288 x 50.8 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 199.549,
+				"width_cm": 141.288,
+				"depth_cm": 50.8,
+				"height_in": 78.5625,
+				"width_in": 55.625,
+				"depth_in": 20.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": [
+			{
+				"id": 39,
+				"title": "Pierre Gole, Cabinet on stand, LePautre Porte-Torchères, porcelain garniture",
+				"alternative_title": "Radio journalist Hana Baba on “Cabinet on stand”",
+				"subtitle": "Gallery 9c",
+				"alternative_subtitle": null,
+				"audio_stop": "114",
+				"transcript": "<p>Narrator: An extraordinary inlaid cabinet. Fine Japanese porcelain. And lavishly gilded figures. A royal or aristocratic residence in late 17th century France would often display luxury pieces like these – often including objects or materials from other cultures.</p><p>Let’s zoom in to investigate – starting with the porcelain. Japan was closed to most western trade at this time, so this would have been very rare – and expensive. What’s more, western artisans didn’t know how to produce porcelain yet – making Japanese pieces even more valuable.</p><p>The cabinet and gilded figures were made in France. But they have connections to the wider world through French colonization of overseas territories. For instance, the imported ivory, tortoiseshell, ebony and mahogany used in the cabinet’s design were quite possibly taken&nbsp;from newly established French colonies in India and Senegal, West Africa.</p><p>In North America, France exploited rivalries between Native Americans to capitalize on the fur trade. Back in France, artists characterized Native Americans as warlike people, wearing feathers. These gilded figures resemble little European children. But their feathered headdresses and skirts play with those stereotypes of Native Americans. They point to the French desire to control resources, territories and people across the world, as they appropriated elements of other cultures as a decorative fantasy.<br class=\"softbreak\"></p>",
+				"sources": [
+					{
+						"src": "https://www.develop-sr3snxi-i63nmygx3oviw.us-3.platformsh.site/storage/files/16a7ccee-dbf6-4e8c-9cec-b8c8cb044e3a/114-Pierre-Gole,-Cabinet-on-stand.mp3"
+					}
+				],
+				"media": {
+					"image": {
+						"src": "https://www.develop-sr3snxi-i63nmygx3oviw.us-3.platformsh.site/storage/images/622bbbb3-4ce8-4710-b739-125eccdcd6f5/gole-cabinet-stand-1665.jpg?crop=2251,2250,x356,y0&format=jpg&quality=80&width=800",
+						"width": 800,
+						"height": 800
+					},
+					"alt": "",
+					"caption": "",
+					"credit": ""
+				}
+			}
+		]
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -105,7 +384,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20618664,
 			"term": "France",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -136,12 +417,623 @@
 	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
-	"term_materials": null,
+	"term_materials": [
+		{
+			"id": 16155867,
+			"term": "ivory",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC",
+					"term": "combination inorganic/organic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB",
+					"term": "combination inorganic/organic animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAA",
+					"term": "bone and bone components materials"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAA.AAA",
+					"term": "bone"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAA.AAA.AAA",
+					"term": "bone by form as material"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAA.AAA.AAA.AAB",
+					"term": "tooth and tooth components as materials"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAA.AAA.AAA.AAB.AAB",
+					"term": "tooth components as material"
+				},
+				{
+					"depth": 12,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAA.AAA.AAA.AAB.AAB.AAB",
+					"term": "dentin"
+				},
+				{
+					"depth": 13,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAA.AAA.AAA.AAB.AAB.AAB.AAA",
+					"term": "ivory"
+				}
+			]
+		},
+		{
+			"id": 16293210,
+			"term": "bronze",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
+					"term": "metal by composition or origin"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB",
+					"term": "nonferrous metal"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK",
+					"term": "copper and copper alloy"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB",
+					"term": "copper alloy"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB.AAB",
+					"term": "bronze"
+				}
+			]
+		},
+		{
+			"id": 16609259,
+			"term": "mahogany",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ACL",
+					"term": "mahogany"
+				}
+			]
+		},
+		{
+			"id": 16554067,
+			"term": "boxwood",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.AAQ",
+					"term": "boxwood"
+				}
+			]
+		},
+		{
+			"id": 16589037,
+			"term": "ebony",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ABD",
+					"term": "ebony"
+				}
+			]
+		},
+		{
+			"id": 16604431,
+			"term": "kingwood",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ABX",
+					"term": "kingwood"
+				}
+			]
+		},
+		{
+			"id": 16388447,
+			"term": "gilding",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAB",
+					"term": "metal by form"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAB.AAE",
+					"term": "gilding"
+				}
+			]
+		},
+		{
+			"id": 16494748,
+			"term": "tortoiseshell",
+			"type": "Used For Term",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
+					"term": "animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE",
+					"term": "keratinous material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAI",
+					"term": "tortoise shell"
+				}
+			]
+		},
+		{
+			"id": 16610910,
+			"term": "oak",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ACU",
+					"term": "oak"
+				}
+			]
+		},
+		{
+			"id": 16614323,
+			"term": "walnut",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ADU",
+					"term": "walnut"
+				}
+			]
+		}
+	],
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Pierre Gole",
 	"primary_artist_display": "Pierre Gole (1620–1684)",
-	"sort_artist": "Pierre Gole",
+	"sort_artist": "Gole,  Pierre",
 	"display_year": "1660–70",
 	"doc_id": "2000.25a-b",
 	"slug": "2000.25a-b/cabinet-on-stand",
@@ -149,141 +1041,14 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1660,
-	"media": [
-		{
-			"media_xref_id": 235988,
-			"media_master_id": 250203,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 16,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8256,
-			"pixel_w": 5504,
-			"file_name": "MS_123538_20250804_15.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 109598,
-			"media_master_id": 172534,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 5412,
-			"pixel_w": 7216,
-			"file_name": "A363980_V1.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 235980,
-			"media_master_id": 250195,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 8,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8256,
-			"pixel_w": 5504,
-			"file_name": "MS_123538_20250804_07.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 235987,
-			"media_master_id": 250202,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 15,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 5391,
-			"pixel_w": 8086,
-			"file_name": "MS_123538_20250804_14.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 235982,
-			"media_master_id": 250197,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 10,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8256,
-			"pixel_w": 5504,
-			"file_name": "MS_123538_20250804_09.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 235979,
-			"media_master_id": 250194,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8256,
-			"pixel_w": 5504,
-			"file_name": "MS_123538_20250804_06.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 235974,
-			"media_master_id": 250189,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 3,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 5466,
-			"pixel_w": 8198,
-			"file_name": "MS_123538_20250804_01.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ivory",
 			"specific": ""
+		},
+		{
+			"parent": "Metal",
+			"specific": "bronze"
 		},
 		{
 			"parent": "Metal",
@@ -316,8 +1081,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , gilt bronze, ebony, mahogany … · France",
+		"reason": "grid-facets real slice — , bronze, gilt bronze, ebony … · France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 45
 	}
 }

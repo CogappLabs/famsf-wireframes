@@ -2,17 +2,18 @@
 	"id": 271955,
 	"accession_number": "X1989.343",
 	"sort_number": "X1989.343",
-	"title": "COVER OR HANGING",
+	"title": "Cover or hanging",
 	"object_name": "miscellaneous furnishing",
-	"display_date": null,
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": null,
+	"date_start": null,
+	"date_end": null,
 	"medium": "wool; felt, embroidery",
 	"medium_parts": ["wool", "felt, embroidery"],
-	"dimensions": "250 x 125 cm (98 7/16 x 49 3/16 in.)",
 	"credit_line": "Museum collection",
 	"department": "Costume and Textile Arts",
 	"classification": "Furnishing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1901-01-01",
 	"location_string": "de Young, 059, Cabinet 54, TA",
 	"location_building": "de Young",
@@ -37,22 +40,92 @@
 	"titles": [
 		{
 			"title": "Cover or hanging",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "98 7/16 x 49 3/16 in. (250 x 125 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 98660,
+			"image_id": 58703,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2682,
+			"width": 1160,
+			"file_name": "3101200310040112.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "98 7/16 x 49 3/16 in. (250 x 125 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 250.0,
+				"width_cm": 125.0,
+				"depth_cm": null,
+				"height_in": 98.4375,
+				"width_in": 49.1875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "98 7/16 x 49 3/16 in. (250 x 125 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 250.0,
+				"width_cm": 125.0,
+				"depth_cm": null,
+				"height_in": 98.4375,
+				"width_in": 49.1875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -60,7 +133,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20214193,
 			"term": "India",
+			"type": "N/A",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -104,29 +179,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 98660,
-			"media_master_id": 58703,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2682,
-			"pixel_w": 1160,
-			"file_name": "3101200310040112.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Textile",

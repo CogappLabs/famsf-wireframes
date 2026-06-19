@@ -2,17 +2,18 @@
 	"id": 89575,
 	"accession_number": "1982.83.5",
 	"sort_number": "1982.83.5",
-	"title": "SLIP",
+	"title": "Slip",
 	"object_name": "woman's undergarments",
-	"display_date": "1930–1940",
-	"begin_iso_date": "1930",
-	"end_iso_date": "1940",
+	"date_display": "1930–1940",
+	"date_start": "1930",
+	"date_end": "1940",
 	"medium": "Pink satin with embroidery and lace",
 	"medium_parts": ["Pink satin with embroidery and lace"],
-	"dimensions": "104 x 114 cm (40 15/16 x 44 7/8 in.)",
 	"credit_line": "Gift of Mrs. Freda F. Eisenson in memory of Rose F. Segal",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Requires Further Research",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1982-10-07",
 	"location_string": "de Young, 059, Cabinet 42, TA",
 	"location_building": "de Young",
@@ -37,38 +40,112 @@
 	"titles": [
 		{
 			"title": "Slip",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 6889,
+			"id": 6889,
 			"Role": "Maker",
 			"RoleID": 56,
-			"DisplayName": "Alice Kahl",
-			"AlphaSort": "Kahl,  Alice",
+			"name": "Alice Kahl",
+			"name_sort": "Kahl,  Alice",
 			"Nationality": "Brazilian ?",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "Brazilian ?",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "Brazilian ?",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Alice Kahl"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "40 15/16 x 44 7/8 in. (104 x 114 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 93127,
+			"image_id": 21671,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1900,
+			"width": 1878,
+			"file_name": "0408200412000497.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "40 15/16 x 44 7/8 in. (104 x 114 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 104.0,
+				"width_cm": 114.0,
+				"depth_cm": null,
+				"height_in": 40.9375,
+				"width_in": 44.875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "40 15/16 x 44 7/8 in. (104 x 114 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 104.0,
+				"width_cm": 114.0,
+				"depth_cm": null,
+				"height_in": 40.9375,
+				"width_in": 44.875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -76,7 +153,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20276750,
 			"term": "Rio de Janeiro",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -102,7 +181,9 @@
 			]
 		},
 		{
+			"id": 16753539,
 			"term": "Bahia",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -142,7 +223,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Alice Kahl",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Alice Kahl",
 	"sort_artist": "Kahl,  Alice",
 	"display_year": "1930–40",
 	"doc_id": "1982.83.5",
@@ -151,29 +232,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1930,
-	"media": [
-		{
-			"media_xref_id": 93127,
-			"media_master_id": 21671,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1900,
-			"pixel_w": 1878,
-			"file_name": "0408200412000497.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Lace",

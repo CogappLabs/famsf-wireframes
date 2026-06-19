@@ -2,17 +2,18 @@
 	"id": 112457,
 	"accession_number": "1999.142.152",
 	"sort_number": "1999.142.152",
-	"title": "MALE ANCESTOR FIGURE",
+	"title": "Male Ancestor Figure",
 	"object_name": null,
-	"display_date": "20th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "20th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "wood, string, cowrie shells",
 	"medium_parts": ["wood, string, cowrie shells"],
-	"dimensions": "14 7/16 x 3 1/4 x 3 (36.7 x 8.3 x 7.6 cm)",
 	"credit_line": "Bequest of John Gutmann",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": null,
+	"subclassification": null,
+	"culture": "Jimini",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1999-12-09",
 	"location_string": "de Young, 061, Cabinet 080, E",
 	"location_building": "de Young",
@@ -37,22 +40,111 @@
 	"titles": [
 		{
 			"title": "Male Ancestor Figure",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "14 7/16 x 3 1/4 x 3 in. (36.7 x 8.3 x 7.6 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 108319,
+			"image_id": 41833,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2994,
+			"width": 930,
+			"file_name": "1107200011400017.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "14 7/16 x 3 1/4 x 3 in. (36.7 x 8.3 x 7.6 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 36.7,
+				"width_cm": 8.3,
+				"depth_cm": 7.6,
+				"height_in": 14.4375,
+				"width_in": 3.25,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "14 7/16 x 3 1/4 x 3 in. (36.7 x 8.3 x 7.6 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 36.7,
+				"width_cm": 8.3,
+				"depth_cm": 7.6,
+				"height_in": 14.4375,
+				"width_in": 3.25,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "14 7/16 x 3 1/4 x 3 in. (36.7 x 8.3 x 7.6 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 36.7,
+				"width_cm": 8.3,
+				"depth_cm": 7.6,
+				"height_in": 14.4375,
+				"width_in": 3.25,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -60,7 +152,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20365735,
 			"term": "Ivory Coast",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -104,29 +198,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 108319,
-			"media_master_id": 41833,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2994,
-			"pixel_w": 930,
-			"file_name": "1107200011400017.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Shell",
@@ -153,6 +224,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — cowrie shell, , string · Ivory Coast",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 32
+		"populated_fields": 33
 	}
 }

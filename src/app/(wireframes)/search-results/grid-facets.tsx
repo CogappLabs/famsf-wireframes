@@ -46,6 +46,7 @@ interface YearRange {
 
 interface GridFacetSelections {
 	artist: string | null;
+	culture: string | null;
 	place: PlaceSelection | null;
 	material: MaterialSelection | null;
 	technique: string | null;
@@ -60,6 +61,7 @@ interface GridFacetSelections {
 
 const EMPTY_GRID_SELECTIONS: GridFacetSelections = {
 	artist: null,
+	culture: null,
 	place: null,
 	material: null,
 	technique: null,
@@ -116,6 +118,7 @@ function filterGridDocs(
 	return docs.filter((d) => {
 		if (!docMatchesQuery(d, q)) return false;
 		if (sel.artist && d.primary_artist !== sel.artist) return false;
+		if (sel.culture && d.culture !== sel.culture) return false;
 		if (!docMatchesPlace(d, sel.place)) return false;
 		if (!docMatchesMaterial(d, sel.material)) return false;
 		if (sel.technique && !(d.facet_technique ?? []).includes(sel.technique))
@@ -414,6 +417,33 @@ function FacetBlock({
 					Show fewer
 				</button>
 			)}
+		</div>
+	);
+}
+
+/** A disabled / pending facet placeholder. Used for "Collection" (FAMSF
+ *  Collecting Area), whose TMS field does not exist yet — rendered greyed and
+ *  non-interactive so reviewers see the planned facet without fabricated
+ *  values. */
+function PendingFacet({ label, note }: { label: string; note: string }) {
+	return (
+		<div className="border-b border-gray-200 pb-3 opacity-60">
+			<p className="mb-1.5 flex items-center gap-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
+				{label}
+				<span className="rounded-sm border border-gray-300 bg-gray-100 px-1 py-0.5 text-label normal-case tracking-normal text-gray-500">
+					Pending
+				</span>
+			</p>
+			<div
+				aria-disabled
+				className="flex w-full cursor-not-allowed items-center gap-2 border border-dashed border-gray-300 bg-gray-50 px-2 py-1.5 font-mono text-meta text-gray-400"
+			>
+				<span
+					aria-hidden
+					className="h-4 w-4 shrink-0 border border-gray-300 bg-white"
+				/>
+				<span className="min-w-0 flex-1">{note}</span>
+			</div>
 		</div>
 	);
 }
@@ -968,6 +998,8 @@ function seedSelectionFromFacet(
 		case "primary_artist":
 		case "artist":
 			return { artist: value };
+		case "culture":
+			return { culture: value };
 		case "technique":
 			return { technique: value };
 		case "classification":
@@ -1047,6 +1079,12 @@ export function GridFacetsView({
 		setSel((prev) => ({
 			...prev,
 			artist: prev.artist === value ? null : value,
+		}));
+	};
+	const setCulture = (value: string | null) => {
+		setSel((prev) => ({
+			...prev,
+			culture: prev.culture === value ? null : value,
 		}));
 	};
 	const setTechnique = (value: string | null) => {
@@ -1148,6 +1186,13 @@ export function GridFacetsView({
 			),
 		[docs, sel, query],
 	);
+	const cultureOpts = useMemo(
+		() =>
+			countFlat(filterGridDocs(docs, { ...sel, culture: null }, query), (d) =>
+				d.culture ? [d.culture] : [],
+			),
+		[docs, sel, query],
+	);
 	const techniqueOpts = useMemo(
 		() =>
 			countFlat(
@@ -1189,10 +1234,11 @@ export function GridFacetsView({
 		? `${sel.place.level === "region" ? "Region" : sel.place.level === "country" ? "Country" : sel.place.level === "state" ? "State" : "Place"}: ${sel.place.value}`
 		: null;
 	const materialChipLabel = sel.material
-		? `${sel.material.level === "parent" ? "Material" : "Material detail"}: ${sel.material.value}`
+		? `${sel.material.level === "parent" ? "Medium" : "Medium detail"}: ${sel.material.value}`
 		: null;
 	const anyActive =
 		Boolean(sel.artist) ||
+		Boolean(sel.culture) ||
 		Boolean(sel.place) ||
 		Boolean(sel.material) ||
 		Boolean(sel.technique) ||
@@ -1206,17 +1252,41 @@ export function GridFacetsView({
 
 	// One descriptor per facet: its control (shared by both layouts) and how
 	// many selections are active (for the modal-layout button badge).
-	const panels = [
+	const panelsByDef = [
+		{
+			id: "collection",
+			label: "Collection",
+			activeCount: 0,
+			control: (
+				<PendingFacet
+					label="Collection"
+					note="FAMSF Collecting Area: not yet in TMS"
+				/>
+			),
+		},
 		{
 			id: "artist",
-			label: "Artist",
+			label: "Artist/maker",
 			activeCount: sel.artist ? 1 : 0,
 			control: (
 				<FacetBlock
-					label="Artist"
+					label="Artist/maker"
 					options={artistOpts}
 					selected={sel.artist}
 					onSelect={setArtist}
+				/>
+			),
+		},
+		{
+			id: "culture",
+			label: "Culture group",
+			activeCount: sel.culture ? 1 : 0,
+			control: (
+				<FacetBlock
+					label="Culture group"
+					options={cultureOpts}
+					selected={sel.culture}
+					onSelect={setCulture}
 				/>
 			),
 		},
@@ -1240,11 +1310,11 @@ export function GridFacetsView({
 		},
 		{
 			id: "material",
-			label: "Material",
+			label: "Medium",
 			activeCount: sel.material ? 1 : 0,
 			control: (
 				<TreeFacet
-					label="Material"
+					label="Medium"
 					tree={materialTree}
 					levelByDepth={MATERIAL_LEVEL_BY_DEPTH}
 					selected={sel.material}
@@ -1272,11 +1342,11 @@ export function GridFacetsView({
 		},
 		{
 			id: "classification",
-			label: "Classification",
+			label: "Object type",
 			activeCount: sel.classification ? 1 : 0,
 			control: (
 				<FacetBlock
-					label="Classification"
+					label="Object type"
 					options={classificationOpts}
 					selected={sel.classification}
 					onSelect={setClassification}
@@ -1285,11 +1355,11 @@ export function GridFacetsView({
 		},
 		{
 			id: "department",
-			label: "Collection area",
+			label: "Department",
 			activeCount: sel.department ? 1 : 0,
 			control: (
 				<FacetBlock
-					label="Collection area"
+					label="Department"
 					options={departmentOpts}
 					selected={sel.department}
 					onSelect={setDepartment}
@@ -1327,6 +1397,24 @@ export function GridFacetsView({
 			),
 		},
 	];
+	// Display order (researcher-led): artist + date lead, then geography +
+	// culture, then material / type, then refinements. Collection placeholder
+	// last (non-functional until the FAMSF Collecting Area TMS field exists).
+	const PANEL_ORDER = [
+		"artist",
+		"date",
+		"place",
+		"culture",
+		"material",
+		"classification",
+		"department",
+		"technique",
+		"gallery",
+		"collection",
+	];
+	const panels = PANEL_ORDER.map((id) =>
+		panelsByDef.find((p) => p.id === id),
+	).filter((p): p is (typeof panelsByDef)[number] => p != null);
 	const activePanel = panels.find((p) => p.id === openFacet);
 
 	// On view / Has image / Open access toggles. Rendered as one segmented
@@ -1471,7 +1559,17 @@ export function GridFacetsView({
 									onClick={() => setArtist(null)}
 									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
 								>
-									<span>Artist: {sel.artist}</span>
+									<span>Artist/maker: {sel.artist}</span>
+									<span>×</span>
+								</button>
+							)}
+							{sel.culture && (
+								<button
+									type="button"
+									onClick={() => setCulture(null)}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>Culture group: {sel.culture}</span>
 									<span>×</span>
 								</button>
 							)}
@@ -1511,7 +1609,7 @@ export function GridFacetsView({
 									onClick={() => setClassification(null)}
 									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
 								>
-									<span>Classification: {sel.classification}</span>
+									<span>Object type: {sel.classification}</span>
 									<span>×</span>
 								</button>
 							)}
@@ -1521,7 +1619,7 @@ export function GridFacetsView({
 									onClick={() => setDepartment(null)}
 									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
 								>
-									<span>Collection area: {sel.department}</span>
+									<span>Department: {sel.department}</span>
 									<span>×</span>
 								</button>
 							)}

@@ -2,20 +2,21 @@
 	"id": 160943,
 	"accession_number": "25500.1",
 	"sort_number": "25500.1",
-	"title": "\"THE DISPUTE\" FAN",
+	"title": "\"The Dispute\" fan",
 	"object_name": "fan",
-	"display_date": "1740–1750",
-	"begin_iso_date": "1740",
-	"end_iso_date": "1750",
+	"date_display": "1740–1750",
+	"date_start": "1740",
+	"date_end": "1750",
 	"medium": "Vellum, ivory, mother-of-pearl, glass jewel, copper alloy; opaque watercolor and gold paint, carved and incised sticks and guards with applied gold leaf and paint, backing, rivet",
 	"medium_parts": [
 		"Vellum, ivory, mother-of-pearl, glass jewel, copper alloy",
 		"opaque watercolor and gold paint, carved and incised sticks and guards with applied gold leaf and paint, backing, rivet"
 	],
-	"dimensions": "10 1/4 in., (26 cm,)",
 	"credit_line": "Gift of Sarah M. Spooner",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1937-04-27",
 	"location_string": "de Young, 059, Cabinet 40, TA",
 	"location_building": "de Young",
@@ -40,29 +43,191 @@
 	"titles": [
 		{
 			"title": "\"The Dispute\" fan",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "10 1/4 in., (26 cm,)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 95336,
+			"image_id": 174331,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8238,
+			"width": 9798,
+			"file_name": "A338660_V1.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 95338,
+			"image_id": 21880,
+			"rank": 3,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1593,
+			"width": 2622,
+			"file_name": "0409200109160148.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 95337,
+			"image_id": 174332,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 7929,
+			"width": 10139,
+			"file_name": "A338660_V2.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "10 1/4 in., (26 cm,)",
+			"type": "Weight",
+			"element": "Overall",
+			"unit": "Pounds",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 26.0,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.25,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 1/4 in., (26 cm,)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 26.0,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.25,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 1/4 in., (26 cm,)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 26.0,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.25,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 1/4 in., (26 cm,)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 26.0,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.25,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -90,7 +255,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 16872845,
 			"term": "Netherlands",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -134,65 +301,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1740,
-	"media": [
-		{
-			"media_xref_id": 95337,
-			"media_master_id": 174332,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 7929,
-			"pixel_w": 10139,
-			"file_name": "A338660_V2.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 95338,
-			"media_master_id": 21880,
-			"rank": 3,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1593,
-			"pixel_w": 2622,
-			"file_name": "0409200109160148.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 95336,
-			"media_master_id": 174331,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8238,
-			"pixel_w": 9798,
-			"file_name": "A338660_V1.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ivory",
@@ -235,6 +343,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , applied gold leaf, copper alloy,  … · Netherlands",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 45
 	}
 }

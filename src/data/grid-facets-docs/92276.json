@@ -1,0 +1,312 @@
+{
+	"id": 92276,
+	"accession_number": "1991.73",
+	"sort_number": "1991.73",
+	"title": "\"Pilgrim\" flask",
+	"object_name": "flask",
+	"date_display": "3rd-5th century AD",
+	"date_start": "201",
+	"date_end": "500",
+	"medium": "Free-blown glass",
+	"medium_parts": ["Free-blown glass"],
+	"credit_line": "Gift of Alton and Dorothy Higgins",
+	"department": "Ancient Art",
+	"classification": "Food",
+	"subclassification": "Serving & Consuming",
+	"culture": "Eastern Mediterranean",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2024-03-04 09:17:03.740000",
+	"is_virtual": false,
+	"identifying_description": "flat, circular, with striations",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "1991-12-05",
+	"location_string": "Legion, Display, Gallery 240 west, Wall Case 2",
+	"location_building": "Legion",
+	"location_room": "Gallery 240 west",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "\"Pilgrim\" flask",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"media": [
+		{
+			"media_xref_id": 81890,
+			"image_id": 123781,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2160,
+			"width": 1704,
+			"file_name": "6121161107580020.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "8 x 6 1/2 x 5/8 in. (20.3 x 16.5 x 1.6 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 20.3,
+				"width_cm": 16.5,
+				"depth_cm": 1.6,
+				"height_in": 8.0,
+				"width_in": 6.5,
+				"depth_in": 0.625,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "8 x 6 1/2 x 5/8 in. (20.3 x 16.5 x 1.6 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 20.3,
+				"width_cm": 16.5,
+				"depth_cm": 1.6,
+				"height_in": 8.0,
+				"width_in": 6.5,
+				"depth_in": 0.625,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "8 x 6 1/2 x 5/8 in. (20.3 x 16.5 x 1.6 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 20.3,
+				"width_cm": 16.5,
+				"depth_cm": 1.6,
+				"height_in": 8.0,
+				"width_in": 6.5,
+				"depth_in": 0.625,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 18277746,
+			"term": "Eastern Mediterranean",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABC",
+					"term": "Eastern Mediterranean"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"id": 16212495,
+			"term": "free-blown glass",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW",
+					"term": "glass"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW.AAC",
+					"term": "glass by technique"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW.AAC.AAF",
+					"term": "blown glass"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW.AAC.AAF.AAA",
+					"term": "free-blown glass"
+				}
+			]
+		},
+		{
+			"id": 16571187,
+			"term": "glass",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW",
+					"term": "glass"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"display_year": "201–500",
+	"doc_id": "1991.73",
+	"slug": "1991.73/pilgrim-flask",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"sort_year": 201,
+	"facet_material": [
+		{
+			"parent": "Glass",
+			"specific": "free-blown glas"
+		},
+		{
+			"parent": "Glass",
+			"specific": "glas"
+		}
+	],
+	"facet_technique": [],
+	"facet_place": [
+		{
+			"region": "Middle East",
+			"country": "Eastern Mediterranean",
+			"state": "",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — free-blown glas, glas · Eastern Mediterranean",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

@@ -2,19 +2,20 @@
 	"id": 77703,
 	"accession_number": "1982.2.70.13",
 	"sort_number": "1982.2.70.13",
-	"title": "A PAGE OF CALLIGRAPHY FROM THE LADY COOTE ALBUM",
+	"title": "A page of calligraphy from the Lady Coote Album",
 	"object_name": "Design",
-	"display_date": "ca. 1780",
-	"begin_iso_date": "1780",
-	"end_iso_date": "1780",
+	"date_display": "ca. 1780",
+	"date_start": "1780",
+	"date_end": "1780",
 	"medium": "Opaque and transparent watercolor, and ink, gold, and silver with selective burnishing on paper",
 	"medium_parts": [
 		"Opaque and transparent watercolor, and ink, gold, and silver with selective burnishing on paper"
 	],
-	"dimensions": "44.6 x 61.5 cm (album page); 23.5 x 42.8 cm (sheets (three))",
 	"credit_line": "Museum purchase, partial gift of Mr. and Mrs. John D. MacDonald and Achenbach Foundation for Graphic Arts Endowment Fund",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1982-01-01",
 	"location_string": "Legion, 210, Compact Shelf 36, 102",
 	"location_building": "Legion",
@@ -39,67 +42,204 @@
 	"titles": [
 		{
 			"title": "A page of calligraphy from the Lady Coote Album",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 13941,
+			"id": 13941,
 			"Role": "Calligrapher",
 			"RoleID": 73,
-			"DisplayName": "Morid Khan Taba Taba",
-			"AlphaSort": "Morid Khan Taba Taba",
+			"name": "Morid Khan Taba Taba",
+			"name_sort": "Morid Khan Taba Taba",
 			"Nationality": "Indian",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "active 18th century",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "active 18th century",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Morid Khan Taba Taba"
 		},
 		{
-			"ConstituentID": 13940,
+			"id": 13940,
 			"Role": "Calligrapher",
 			"RoleID": 73,
-			"DisplayName": "Mohammed Ali",
-			"AlphaSort": "Mohammed Ali",
+			"name": "Mohammed Ali",
+			"name_sort": "Mohammed Ali",
 			"Nationality": "Indian",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "active 18th century",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "active 18th century",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 2,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Mohammed Ali"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "17 9/16 x 24 3/16 in. (44.6 x 61.5 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Album Page (4D)",
-			"displayed": true,
-			"rank": 1
+			"media_xref_id": 204972,
+			"image_id": 212463,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4910,
+			"width": 6694,
+			"file_name": "MS_77703_20230510_1_crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		},
 		{
-			"display_dimensions": "9 1/4 x 16 7/8 in. (23.5 x 42.8 cm)",
-			"description": "see remarks",
-			"element_name": "x_Do not use_Sheets (Three) (4D)",
+			"media_xref_id": 20544,
+			"image_id": 114430,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1910,
+			"width": 2568,
+			"file_name": "5131162228160009.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "17 9/16 x 24 3/16 in. (44.6 x 61.5 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Album Page (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 44.6,
+				"width_cm": 61.5,
+				"depth_cm": null,
+				"height_in": 17.5625,
+				"width_in": 24.1875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "17 9/16 x 24 3/16 in. (44.6 x 61.5 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Album Page (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 44.6,
+				"width_cm": 61.5,
+				"depth_cm": null,
+				"height_in": 17.5625,
+				"width_in": 24.1875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "9 1/4 x 16 7/8 in. (23.5 x 42.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Sheets (Three) (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 23.5,
+				"width_cm": 42.8,
+				"depth_cm": null,
+				"height_in": 9.25,
+				"width_in": 16.875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "9 1/4 x 16 7/8 in. (23.5 x 42.8 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Sheets (Three) (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 23.5,
+				"width_cm": 42.8,
+				"depth_cm": null,
+				"height_in": 9.25,
+				"width_in": 16.875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -130,33 +270,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
-			"term": "Mughal Empire",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
-					"term": "South Asia"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
-					"term": "Mughal Empire"
-				}
-			]
-		},
-		{
+			"id": 18519652,
 			"term": "Lucknow",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -185,6 +301,34 @@
 					"term": "Lucknow"
 				}
 			]
+		},
+		{
+			"id": 20567676,
+			"term": "Mughal Empire",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
+					"term": "Mughal Empire"
+				}
+			]
 		}
 	],
 	"term_find_spot": null,
@@ -195,7 +339,9 @@
 	"term_movement": null,
 	"term_school": [
 		{
+			"id": 16343175,
 			"term": "Lucknow",
+			"type": "Used For Term",
 			"certainty": null,
 			"path": [
 				{
@@ -254,47 +400,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1780,
-	"media": [
-		{
-			"media_xref_id": 204972,
-			"media_master_id": 212463,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 4910,
-			"pixel_w": 6694,
-			"file_name": "MS_77703_20230510_1_crop.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 20544,
-			"media_master_id": 114430,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1910,
-			"pixel_w": 2568,
-			"file_name": "5131162228160009.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Gold & silver",
@@ -316,20 +421,20 @@
 	"facet_technique": [],
 	"facet_place": [
 		{
-			"region": "South Asia",
-			"country": "",
-			"state": "",
-			"notable": "Mughal Empire"
-		},
-		{
 			"region": "East Asia",
 			"country": "",
 			"state": "",
 			"notable": "Lucknow"
+		},
+		{
+			"region": "South Asia",
+			"country": "",
+			"state": "",
+			"notable": "Mughal Empire"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — gold, silver, , transparent watercolor · Mughal Empire, Lucknow",
+		"reason": "grid-facets real slice — gold, silver, , transparent watercolor · Lucknow, Mughal Empire",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 43
 	}

@@ -186,6 +186,9 @@ export interface CollectionDocument {
 	credit_line?: string;
 	department?: string;
 	classification?: string;
+	/** Culture group (tribes + ancient civilisations), e.g. "Maya", "Asante",
+	 *  "Egyptian". Passthrough from the pipeline; sparse (~6% of objects). */
+	culture?: string;
 	copyright?: string;
 	object_rights_type?: string;
 	on_view: boolean;

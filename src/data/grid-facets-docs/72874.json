@@ -2,19 +2,20 @@
 	"id": 72874,
 	"accession_number": "1995.28a-e",
 	"sort_number": "1995.28a-e",
-	"title": "LA CARRETA DE LA MUERTE (CHARIOT OF DEATH CARRYING THE ANGEL OF DEATH)",
+	"title": "La Carreta de la Muerte (Chariot of Death Carrying the Angel of Death)",
 	"object_name": "ritual object",
-	"display_date": "ca. 1900",
-	"begin_iso_date": "1895",
-	"end_iso_date": "1905",
+	"date_display": "ca. 1900",
+	"date_start": "1895",
+	"date_end": "1905",
 	"medium": "Cottonwood, horsehair, glass marbles, paint, leather, string, nails, paper, and fabric",
 	"medium_parts": [
 		"Cottonwood, horsehair, glass marbles, paint, leather, string, nails, paper, and fabric"
 	],
-	"dimensions": "40 x 48.5 x 20 in. (101.6 x 121.9 x 50.8 cm)",
 	"credit_line": "Gift of the Haley Family Trust",
 	"department": "American Decorative Arts and Sculpture",
 	"classification": "Sculpture",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Requires Further Research",
 	"on_view": true,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": "Found in the vicinity of Taos, New Mexico by donor, 1955",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1995-06-15",
 	"location_string": "de Young, Display, Gallery 020",
 	"location_building": "de Young",
@@ -39,38 +42,209 @@
 	"titles": [
 		{
 			"title": "La Carreta de la Muerte (Chariot of Death Carrying the Angel of Death)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 40270,
+			"id": 40270,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Unidentified",
-			"AlphaSort": "Unidentified",
+			"name": "Unidentified",
+			"name_sort": "Unidentified",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "active late 19th century, early 20th century",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "active late 19th century, early 20th century",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Unidentified"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "40 x 48 x 20 in. (101.6 x 121.9 x 50.8 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 80776,
+			"image_id": 141835,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1336,
+			"width": 1384,
+			"file_name": "0302200114530028.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 80778,
+			"image_id": 29748,
+			"rank": 4,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 685,
+			"width": 515,
+			"file_name": "0708200915280015.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 80777,
+			"image_id": 139543,
+			"rank": 3,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1936,
+			"width": 2127,
+			"file_name": "0508200413500011.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 80775,
+			"image_id": 169752,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9183,
+			"width": 7227,
+			"file_name": "A323242_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "40 x 48 x 20 in. (101.6 x 121.9 x 50.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 101.6,
+				"width_cm": 121.9,
+				"depth_cm": 50.8,
+				"height_in": 40.0,
+				"width_in": 48.0,
+				"depth_in": 20.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "40 x 48 x 20 in. (101.6 x 121.9 x 50.8 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 101.6,
+				"width_cm": 121.9,
+				"depth_cm": 50.8,
+				"height_in": 40.0,
+				"width_in": 48.0,
+				"depth_in": 20.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "40 x 48 x 20 in. (101.6 x 121.9 x 50.8 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 101.6,
+				"width_cm": 121.9,
+				"depth_cm": 50.8,
+				"height_in": 40.0,
+				"width_in": 48.0,
+				"depth_in": 20.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -78,7 +252,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20889057,
 			"term": "Española",
+			"type": "Descriptor",
 			"certainty": "Probably",
 			"path": [
 				{
@@ -114,7 +290,9 @@
 			]
 		},
 		{
+			"id": 17101931,
 			"term": "Mora",
+			"type": "Descriptor",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -157,7 +335,57 @@
 	"term_school": null,
 	"term_materials": [
 		{
+			"id": 16318628,
+			"term": "leather",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
+					"term": "animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF",
+					"term": "processed animal material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF.AAC",
+					"term": "leather"
+				}
+			]
+		},
+		{
+			"id": 16426862,
 			"term": "cottonwood",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -223,53 +451,9 @@
 			]
 		},
 		{
-			"term": "leather",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAF",
-					"term": "materials by origin"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
-					"term": "biological material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
-					"term": "animal material"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF",
-					"term": "processed animal material"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF.AAC",
-					"term": "leather"
-				}
-			]
-		},
-		{
+			"id": 16487471,
 			"term": "horsehair",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -333,7 +517,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Unidentified",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Unidentified",
 	"sort_artist": "Unidentified",
 	"display_year": "1895–1905",
 	"doc_id": "1995.28a-e",
@@ -342,83 +526,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": 1895,
-	"media": [
-		{
-			"media_xref_id": 80778,
-			"media_master_id": 29748,
-			"rank": 4,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 685,
-			"pixel_w": 515,
-			"file_name": "0708200915280015.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 80777,
-			"media_master_id": 139543,
-			"rank": 3,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1936,
-			"pixel_w": 2127,
-			"file_name": "0508200413500011.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 80776,
-			"media_master_id": 141835,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1336,
-			"pixel_w": 1384,
-			"file_name": "0302200114530028.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 80775,
-			"media_master_id": 169752,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 9183,
-			"pixel_w": 7227,
-			"file_name": "A323242_V1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Leather",

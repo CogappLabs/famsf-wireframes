@@ -2,19 +2,20 @@
 	"id": 80695,
 	"accession_number": "1982.2.85",
 	"sort_number": "1982.2.85",
-	"title": "RADHA AND KRISHNA WALK TO A TRYST",
+	"title": "Radha and Krishna Walk to a Tryst",
 	"object_name": "Religious Myth/Legend Genre Botanical Bird Landscape",
-	"display_date": "ca. 1790–1800",
-	"begin_iso_date": "1790",
-	"end_iso_date": "1800",
+	"date_display": "ca. 1790–1800",
+	"date_start": "1790",
+	"date_end": "1800",
 	"medium": "Opaque watercolor and gold on paper mounted to a decorated album page with text on verso",
 	"medium_parts": [
 		"Opaque watercolor and gold on paper mounted to a decorated album page with text on verso"
 	],
-	"dimensions": "243 x 185 mm (9 9/16 x 7 5/16 in.)",
 	"credit_line": "Gift of Dr. and  Mrs. William K. Ehrenfeld",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": "Provenance: William Theo Brown and Paul Wonner; Collection; Dr. and Mrs. William K. Ehrenfeld (after 1976);\r\nNotes from file and mat: \r\nFormer attribution in AFGA records and from prior owners: Deccan, Hyderabad School.(see  excerpts from Flute and the Brush  catalogue on mat and in file);\r\nRobert Skelton, Keeper of Indian Art, Victoria and Albert Museum, London (note on mat, dated 10/1/85):“ Not Hyderabad style. Pure Mughal c. 1790-1800. From either Lucknow (Oudh) or Delhi.”;\r\nExhibitions: \r\nNewport Harbor Art Museum (also Arizona State University, Tempe, Colorado Springs Fine Arts Center, Los Angeles County Museum of Art, Art Galleries, University of California, Santa Barbara, de Saisset Art Gallery and Museum, University of Santa Clara, AFGA): The Flute and the Brush: Indian  Paintings from the William  Theo Brown and Paul Wonner Collection.. 1976-1977, exh. cat. by Pratapaditaya Pal, cat.  no. 35, repr., as Deccan style, Hyderabad School.;",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1982-01-01",
 	"location_string": "Legion, 210, Compact Shelf 23, 210",
 	"location_building": "Legion",
@@ -39,45 +42,121 @@
 	"titles": [
 		{
 			"title": "Radha and Krishna Walk to a Tryst",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 2281,
+			"id": 2281,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Anonymous",
-			"AlphaSort": "Anonymous",
+			"name": "Anonymous",
+			"name_sort": "Anonymous",
 			"Nationality": "Indian",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "Indian or Persian",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "Indian or Persian",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Anonymous"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "9 9/16 x 7 5/16 in. (24.3 x 18.5 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 20105,
+			"image_id": 97975,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2354,
+			"width": 1765,
+			"file_name": "4359202410710060.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "9 9/16 x 7 5/16 in. (24.3 x 18.5 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 24.3,
+				"width_cm": 18.5,
+				"depth_cm": null,
+				"height_in": 9.5625,
+				"width_in": 7.3125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "9 9/16 x 7 5/16 in. (24.3 x 18.5 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 24.3,
+				"width_cm": 18.5,
+				"depth_cm": null,
+				"height_in": 9.5625,
+				"width_in": 7.3125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -108,59 +187,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
-			"term": "Delhi",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
-					"term": "South Asia"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAADJ",
-					"term": "Delhi"
-				}
-			]
-		},
-		{
-			"term": "Mughal Empire",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
-					"term": "South Asia"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
-					"term": "Mughal Empire"
-				}
-			]
-		},
-		{
+			"id": 18519652,
 			"term": "Lucknow",
+			"type": "Descriptor",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -189,6 +218,62 @@
 					"term": "Lucknow"
 				}
 			]
+		},
+		{
+			"id": 20567676,
+			"term": "Mughal Empire",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
+					"term": "Mughal Empire"
+				}
+			]
+		},
+		{
+			"id": 20197259,
+			"term": "Delhi",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAADJ",
+					"term": "Delhi"
+				}
+			]
 		}
 	],
 	"term_find_spot": null,
@@ -199,7 +284,9 @@
 	"term_movement": null,
 	"term_school": [
 		{
+			"id": 16343175,
 			"term": "Lucknow",
+			"type": "Used For Term",
 			"certainty": null,
 			"path": [
 				{
@@ -249,7 +336,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Anonymous",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Anonymous",
 	"sort_artist": "Anonymous",
 	"display_year": "1790–1800",
 	"doc_id": "1982.2.85",
@@ -258,29 +345,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": 1790,
-	"media": [
-		{
-			"media_xref_id": 20105,
-			"media_master_id": 97975,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2354,
-			"pixel_w": 1765,
-			"file_name": "4359202410710060.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Gold & silver",
@@ -297,7 +361,7 @@
 			"region": "East Asia",
 			"country": "",
 			"state": "",
-			"notable": "Delhi"
+			"notable": "Lucknow"
 		},
 		{
 			"region": "South Asia",
@@ -309,11 +373,11 @@
 			"region": "East Asia",
 			"country": "",
 			"state": "",
-			"notable": "Lucknow"
+			"notable": "Delhi"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — gold, opaque watercolor · Delhi, Mughal Empire, Lucknow",
+		"reason": "grid-facets real slice — gold, opaque watercolor · Lucknow, Mughal Empire, Delhi",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 47
 	}

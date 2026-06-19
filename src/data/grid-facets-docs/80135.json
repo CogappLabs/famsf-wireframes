@@ -2,17 +2,18 @@
 	"id": 80135,
 	"accession_number": "1979.63.12a-b",
 	"sort_number": "1979.63.12a-b",
-	"title": "EARRINGS WITH RED CORD",
+	"title": "Earrings with red cord",
 	"object_name": "Costume, jewelry",
-	"display_date": "20th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "20th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "wax, thread, cord and wire",
 	"medium_parts": ["wax, thread, cord and wire"],
-	"dimensions": "1 5/16 x 1 1/2 (3.4 x 3.8 cm)",
 	"credit_line": "Museum purchase, Phyllis Wattis Fund",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Personal Accessory",
+	"subclassification": null,
+	"culture": "Fulani",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1980-02-05",
 	"location_string": "de Young, 061, Cabinet 099, E",
 	"location_building": "de Young",
@@ -37,22 +40,92 @@
 	"titles": [
 		{
 			"title": "Earrings with red cord",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "1 5/16 x 1 1/2 in. (3.4 x 3.8 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 162644,
+			"image_id": 131081,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1257,
+			"width": 1237,
+			"file_name": "9012309203910092.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "1 5/16 x 1 1/2 in. (3.4 x 3.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 3.4,
+				"width_cm": 3.8,
+				"depth_cm": null,
+				"height_in": 1.3125,
+				"width_in": 1.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "1 5/16 x 1 1/2 in. (3.4 x 3.8 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 3.4,
+				"width_cm": 3.8,
+				"depth_cm": null,
+				"height_in": 1.3125,
+				"width_in": 1.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -60,7 +133,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20803069,
 			"term": "Mali",
+			"type": "Descriptor",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -81,7 +156,9 @@
 			]
 		},
 		{
+			"id": 16790512,
 			"term": "Niger",
+			"type": "Descriptor",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -125,29 +202,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 162644,
-			"media_master_id": 131081,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1257,
-			"pixel_w": 1237,
-			"file_name": "9012309203910092.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Metal",
@@ -180,6 +234,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — wire, cord, thread · Mali, Niger",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 34
+		"populated_fields": 35
 	}
 }

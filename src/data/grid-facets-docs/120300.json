@@ -2,19 +2,20 @@
 	"id": 120300,
 	"accession_number": "2015.68.18",
 	"sort_number": "2015.68.18",
-	"title": "WAIKIKI, FROM THE PORTFOLIO \"FACING EAST\"",
+	"title": "Waikiki, from the portfolio \"Facing East\"",
 	"object_name": null,
-	"display_date": "1970",
-	"begin_iso_date": "1970",
-	"end_iso_date": "1970",
+	"date_display": "1970",
+	"date_start": "1970",
+	"date_end": "1970",
 	"medium": "pencil, ink, Japanese brush with sumi ink, crayon, gouache on Ingres Cover paper",
 	"medium_parts": [
 		"pencil, ink, Japanese brush with sumi ink, crayon, gouache on Ingres Cover paper"
 	],
-	"dimensions": "Sheet: 481 x 313 mm (18 15/16 x 12 5/16 in.)",
 	"credit_line": "Gift of Jane R. Lurie",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Print",
+	"subclassification": null,
+	"culture": null,
 	"copyright": "© Susanna Levine Fisher / Licensed by VAGA at Artists Rights Society (ARS), New York",
 	"object_rights_type": "Copyright - ARS",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2015-10-07",
 	"location_string": "Legion, 253, Shelf 08, 05C",
 	"location_building": "Legion",
@@ -39,60 +42,140 @@
 	"titles": [
 		{
 			"title": "Waikiki, from the portfolio \"Facing East\"",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 3564,
+			"id": 3564,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Jack Levine",
-			"AlphaSort": "Levine,  Jack",
+			"name": "Jack Levine",
+			"name_sort": "Levine,  Jack",
 			"Nationality": "American",
+			"place_born": "Boston",
+			"place_died": "New York City",
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1915,
 			"EndDate": 2010,
-			"DisplayDate": "1915–2010",
+			"dates": "1915–2010",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Jack Levine (1915–2010)"
 		},
 		{
-			"ConstituentID": 5586,
+			"id": 5586,
 			"Role": "Printer",
 			"RoleID": 40,
-			"DisplayName": "Daniel Jacomet et Cie",
-			"AlphaSort": "Daniel Jacomet et Cie",
+			"name": "Daniel Jacomet et Cie",
+			"name_sort": "Daniel Jacomet et Cie",
 			"Nationality": "French",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "French",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "French",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 2,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Daniel Jacomet et Cie"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "18 15/16 x 12 5/16 in. (48.1 x 31.3 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Sheet (4D)",
+			"media_xref_id": 147927,
+			"image_id": 49609,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4835,
+			"width": 3202,
+			"file_name": "1907201611160057.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "18 15/16 x 12 5/16 in. (48.1 x 31.3 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 48.1,
+				"width_cm": 31.3,
+				"depth_cm": null,
+				"height_in": 18.9375,
+				"width_in": 12.3125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "18 15/16 x 12 5/16 in. (48.1 x 31.3 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 48.1,
+				"width_cm": 31.3,
+				"depth_cm": null,
+				"height_in": 18.9375,
+				"width_in": 12.3125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -123,7 +206,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 20843545,
 			"term": "United States",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -164,29 +249,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1970,
-	"media": [
-		{
-			"media_xref_id": 147927,
-			"media_master_id": 49609,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 4835,
-			"pixel_w": 3202,
-			"file_name": "1907201611160057.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ink",

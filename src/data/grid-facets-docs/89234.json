@@ -2,17 +2,18 @@
 	"id": 89234,
 	"accession_number": "1999.124.29",
 	"sort_number": "1999.124.29",
-	"title": "SCEPTER",
+	"title": "Scepter",
 	"object_name": "ecclesiastical",
-	"display_date": "mid 19th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "mid 19th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "silver, copper, and wood",
 	"medium_parts": ["silver, copper, and wood"],
-	"dimensions": "20 x 1 7/8 in. (50.8 x 4.8 cm) inches diameter",
 	"credit_line": "Bequest of Elaine Henderson",
 	"department": "American Decorative Arts and Sculpture",
 	"classification": "Ceremonial & Religious Objects",
+	"subclassification": null,
+	"culture": "Spanish Colonial",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1999-10-14",
 	"location_string": "de Young, 061, Shelf 13, B",
 	"location_building": "de Young",
@@ -37,45 +40,121 @@
 	"titles": [
 		{
 			"title": "Scepter",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 19355,
+			"id": 19355,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Unidentified ",
-			"AlphaSort": "Unidentified ",
+			"name": "Unidentified ",
+			"name_sort": "Unidentified ",
 			"Nationality": "Bolivia or Peru",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "Bolivian or Peruvian",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "Bolivian or Peruvian",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Unidentified "
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "20 x 1 7/8 in. (50.8 x 4.8 cm)",
-			"description": "inches diameter",
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 106137,
+			"image_id": 14741,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2006,
+			"width": 2880,
+			"file_name": "0119200115300039.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "20 x 1 7/8 in. (50.8 x 4.8 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 50.8,
+				"width_cm": 4.8,
+				"depth_cm": null,
+				"height_in": 20.0,
+				"width_in": 1.875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "20 x 1 7/8 in. (50.8 x 4.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 50.8,
+				"width_cm": 4.8,
+				"depth_cm": null,
+				"height_in": 20.0,
+				"width_in": 1.875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -103,28 +182,9 @@
 	],
 	"term_place_of_creation": [
 		{
-			"term": "Peru",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAACT",
-					"term": "South America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAACT.AAAEL",
-					"term": "Perú"
-				}
-			]
-		},
-		{
+			"id": 18253686,
 			"term": "Bolivia",
+			"type": "Descriptor",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -143,6 +203,29 @@
 					"term": "Bolivia"
 				}
 			]
+		},
+		{
+			"id": 20467694,
+			"term": "Peru",
+			"type": "N/A",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL",
+					"term": "Perú"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -154,7 +237,9 @@
 	"term_dynasty": null,
 	"term_style": [
 		{
+			"id": 16383899,
 			"term": "Spanish Colonial",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -211,7 +296,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Unidentified ",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Unidentified ",
 	"sort_artist": "Unidentified ",
 	"display_year": null,
 	"doc_id": "1999.124.29",
@@ -220,29 +305,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 106137,
-			"media_master_id": 14741,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2006,
-			"pixel_w": 2880,
-			"file_name": "0119200115300039.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Gold & silver",
@@ -261,20 +323,20 @@
 	"facet_place": [
 		{
 			"region": "South America",
-			"country": "Peru",
+			"country": "Bolivia",
 			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "South America",
-			"country": "Bolivia",
+			"country": "Peru",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — silver, copper,  · Peru, Bolivia",
+		"reason": "grid-facets real slice — silver, copper,  · Bolivia, Peru",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 41
+		"populated_fields": 42
 	}
 }

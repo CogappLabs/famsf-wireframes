@@ -2,17 +2,18 @@
 	"id": 117018,
 	"accession_number": "2000.118.37",
 	"sort_number": "2000.118.37",
-	"title": "MAT FOR DINING TABLE (SOFREH)",
+	"title": "Mat for dining table (sofreh)",
 	"object_name": "table furnishing",
-	"display_date": "mid 19th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "mid 19th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "leather, wool, silk; pieced, appliqued",
 	"medium_parts": ["leather, wool, silk", "pieced, appliqued"],
-	"dimensions": "132.1 x 134.6 cm (52 x 53 in.)",
 	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nGift of Caroline McCoy-Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Furnishing",
+	"subclassification": null,
+	"culture": "Turkmen (?)",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2000-10-12",
 	"location_string": "de Young, 059, Cabinet 25, H",
 	"location_building": "de Young",
@@ -37,45 +40,140 @@
 	"titles": [
 		{
 			"title": "Mat for dining table (sofreh)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 37648,
+			"id": 37648,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Turkmen",
-			"AlphaSort": "Turkmen",
+			"name": "Turkmen",
+			"name_sort": "Turkmen",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "possibly",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": null,
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Turkmen"
+		},
+		{
+			"id": 37648,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Turkmen",
+			"name_sort": "Turkmen",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Turkmen"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "52 x 53 in. (132.1 x 134.6 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 110395,
+			"image_id": 41958,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1858,
+			"width": 1938,
+			"file_name": "1107200215060240.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "52 x 53 in. (132.1 x 134.6 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 132.1,
+				"width_cm": 134.6,
+				"depth_cm": null,
+				"height_in": 52.0,
+				"width_in": 53.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "52 x 53 in. (132.1 x 134.6 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 132.1,
+				"width_cm": 134.6,
+				"depth_cm": null,
+				"height_in": 52.0,
+				"width_in": 53.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -103,7 +201,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20319418,
 			"term": "Central Asia",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -147,29 +247,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 110395,
-			"media_master_id": 41958,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1858,
-			"pixel_w": 1938,
-			"file_name": "1107200215060240.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Leather",
@@ -196,6 +273,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , ,  · Central Asia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 38
+		"populated_fields": 39
 	}
 }

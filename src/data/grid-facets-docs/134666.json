@@ -2,17 +2,18 @@
 	"id": 134666,
 	"accession_number": "1988.11.419",
 	"sort_number": "1988.11.419",
-	"title": "EMBROIDERED HANGING OR COVER (SUZANI)",
+	"title": "Embroidered hanging or cover (suzani)",
 	"object_name": "wall hanging (non-tapestry)",
-	"display_date": "mid 19th century",
-	"begin_iso_date": "1825",
-	"end_iso_date": "1875",
+	"date_display": "mid 19th century",
+	"date_start": "1825",
+	"date_end": "1875",
 	"medium": "silk, cotton; embroidery",
 	"medium_parts": ["silk, cotton", "embroidery"],
-	"dimensions": "261 x 109 cm (102 3/4 x 42 15/16 in.)",
 	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nBequest of H. McCoy Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Furnishing",
+	"subclassification": null,
+	"culture": "Uzbek",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1988-06-09",
 	"location_string": "de Young, 059, Cabinet 39, F",
 	"location_building": "de Young",
@@ -37,45 +40,147 @@
 	"titles": [
 		{
 			"title": "Embroidered hanging or cover (suzani)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 40705,
+			"id": 40705,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Uzbek",
-			"AlphaSort": "Uzbek",
+			"name": "Uzbek",
+			"name_sort": "Uzbek",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Uzbek"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "102 3/4 x 42 15/16 in. (261 x 109 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 94514,
+			"image_id": 116649,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2752,
+			"width": 1228,
+			"file_name": "5256165105690091.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 227190,
+			"image_id": 239139,
+			"rank": 0,
+			"primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 13105,
+			"width": 6352,
+			"file_name": "MS_134666_20250108-02.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "102 3/4 x 42 15/16 in. (261 x 109 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 261.0,
+				"width_cm": 109.0,
+				"depth_cm": null,
+				"height_in": 102.75,
+				"width_in": 42.9375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "102 3/4 x 42 15/16 in. (261 x 109 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 261.0,
+				"width_cm": 109.0,
+				"depth_cm": null,
+				"height_in": 102.75,
+				"width_in": 42.9375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -103,7 +208,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 16887148,
 			"term": "Uzbekistan",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -147,47 +254,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1825,
-	"media": [
-		{
-			"media_xref_id": 94514,
-			"media_master_id": 116649,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2752,
-			"pixel_w": 1228,
-			"file_name": "5256165105690091.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 227190,
-			"media_master_id": 239139,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 4,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 13105,
-			"pixel_w": 6352,
-			"file_name": "MS_134666_20250108-02.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",
@@ -210,6 +276,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , , embroidery · Uzbekistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 44
 	}
 }

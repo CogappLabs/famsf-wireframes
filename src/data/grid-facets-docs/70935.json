@@ -2,17 +2,18 @@
 	"id": 70935,
 	"accession_number": "1951.17",
 	"sort_number": "1951.17",
-	"title": "ANIMAL SCENE",
+	"title": "Animal Scene",
 	"object_name": null,
-	"display_date": "ca. 1600",
-	"begin_iso_date": "1600",
-	"end_iso_date": "1600",
+	"date_display": "ca. 1600",
+	"date_start": "1600",
+	"date_end": "1600",
 	"medium": "Transparent and opaque watercolor, black ink, and gold",
 	"medium_parts": ["Transparent and opaque watercolor, black ink, and gold"],
-	"dimensions": "Sheet: 230 x 113 mm (9 1/16 x 4 7/16 in.)",
 	"credit_line": "Gift of Arthur Sachs",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1951-07-25",
 	"location_string": "Legion, 210, Bin, 132",
 	"location_building": "Legion",
@@ -37,45 +40,147 @@
 	"titles": [
 		{
 			"title": "Animal Scene",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 6064,
+			"id": 6064,
 			"Role": "Attributed to",
 			"RoleID": 72,
-			"DisplayName": "Miskin",
-			"AlphaSort": "Miskin",
+			"name": "Miskin",
+			"name_sort": "Miskin",
 			"Nationality": "Indian",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1580,
 			"EndDate": 1604,
-			"DisplayDate": "active 1580–1604",
+			"dates": "active 1580–1604",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Miskin (1580–1604)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "9 1/16 x 4 7/16 in. (23 x 11.3 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Sheet (4D)",
+			"media_xref_id": 71964,
+			"image_id": 156357,
+			"rank": 3,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2700,
+			"width": 1692,
+			"file_name": "5131162228180009.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 71962,
+			"image_id": 161410,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 7036,
+			"width": 4537,
+			"file_name": "A000211_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "9 1/16 x 4 7/16 in. (23 x 11.3 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 23.0,
+				"width_cm": 11.3,
+				"depth_cm": null,
+				"height_in": 9.0625,
+				"width_in": 4.4375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "9 1/16 x 4 7/16 in. (23 x 11.3 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 23.0,
+				"width_cm": 11.3,
+				"depth_cm": null,
+				"height_in": 9.0625,
+				"width_in": 4.4375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -106,7 +211,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 20567676,
 			"term": "Mughal Empire",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -140,7 +247,9 @@
 	"term_movement": null,
 	"term_school": [
 		{
+			"id": 16343126,
 			"term": "Mughal",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -194,47 +303,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1600,
-	"media": [
-		{
-			"media_xref_id": 71962,
-			"media_master_id": 161410,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 7036,
-			"pixel_w": 4537,
-			"file_name": "A000211_V1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 71964,
-			"media_master_id": 156357,
-			"rank": 3,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2700,
-			"pixel_w": 1692,
-			"file_name": "5131162228180009.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Gold & silver",

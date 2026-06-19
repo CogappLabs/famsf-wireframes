@@ -2,17 +2,18 @@
 	"id": 212428,
 	"accession_number": "26147.2",
 	"sort_number": "26147.2",
-	"title": "HAIR COMB WITH BLACK AND WHITE BANDS",
+	"title": "Hair comb with black and white bands",
 	"object_name": "grooming equipment",
-	"display_date": "19th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "19th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "wood and stone",
 	"medium_parts": ["wood and stone"],
-	"dimensions": "8 x 1 1/4 (20.3 x 3.2 cm)",
 	"credit_line": "Museum purchase",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Personal Accessory",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1905-06-30",
 	"location_string": "de Young, 061, Cabinet 019, E",
 	"location_building": "de Young",
@@ -37,22 +40,92 @@
 	"titles": [
 		{
 			"title": "Hair comb with black and white bands",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "8 x 1 1/4 in. (20.3 x 3.2 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 173407,
+			"image_id": 129774,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 840,
+			"width": 2744,
+			"file_name": "8312329111140096.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "8 x 1 1/4 in. (20.3 x 3.2 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 20.3,
+				"width_cm": 3.2,
+				"depth_cm": null,
+				"height_in": 8.0,
+				"width_in": 1.25,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "8 x 1 1/4 in. (20.3 x 3.2 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 20.3,
+				"width_cm": 3.2,
+				"depth_cm": null,
+				"height_in": 8.0,
+				"width_in": 1.25,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -60,7 +133,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 16680775,
 			"term": "Caroline Islands",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -104,29 +179,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 173407,
-			"media_master_id": 129774,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 840,
-			"pixel_w": 2744,
-			"file_name": "8312329111140096.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Stone",

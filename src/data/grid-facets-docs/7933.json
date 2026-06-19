@@ -2,17 +2,18 @@
 	"id": 7933,
 	"accession_number": "1924.15",
 	"sort_number": "1924.15",
-	"title": "LION-SHAPED VESSEL",
+	"title": "Lion-shaped vessel",
 	"object_name": "figure",
-	"display_date": "1900–1800 BC",
-	"begin_iso_date": "-1900",
-	"end_iso_date": "-1800",
+	"date_display": "1900–1800 BC",
+	"date_start": "-1900",
+	"date_end": "-1800",
 	"medium": "Terracotta with polychromy",
 	"medium_parts": ["Terracotta with polychromy"],
-	"dimensions": "7 1/2 x 7 7/8 x 2 3/4 in.",
 	"credit_line": "Gift of the Queen of Greece through Alma de Bretteville Spreckels",
 	"department": "Ancient Art",
 	"classification": "Sculpture",
+	"subclassification": null,
+	"culture": "Old Assyrian Trading Colony",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": true,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1925-01-01",
 	"location_string": "Legion, Display, Gallery 240 west, Wall Case 1",
 	"location_building": "Legion",
@@ -37,38 +40,235 @@
 	"titles": [
 		{
 			"title": "Lion-shaped vessel",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 40802,
+			"id": 40802,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Assyrian",
-			"AlphaSort": "Assyrian",
+			"name": "Assyrian",
+			"name_sort": "Assyrian",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Assyrian"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "7 1/2 x 7 7/8 x 2 3/4 in. (19.1 x 20 x 7 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 81194,
+			"image_id": 192456,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8440,
+			"width": 8093,
+			"file_name": "A306314_V1.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 157445,
+			"image_id": 129965,
+			"rank": 0,
+			"primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3368,
+			"width": 3480,
+			"file_name": "8528320112350022.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 81195,
+			"image_id": 192454,
+			"rank": 2,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9300,
+			"width": 8311,
+			"file_name": "A306314_V2.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 81196,
+			"image_id": 192455,
+			"rank": 3,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9000,
+			"width": 8582,
+			"file_name": "A306314_V3.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 81197,
+			"image_id": 192457,
+			"rank": 4,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8708,
+			"width": 8888,
+			"file_name": "A306314_V4.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "7 1/2 x 7 7/8 x 2 3/4 in. (19.1 x 20 x 7 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 19.1,
+				"width_cm": 20.0,
+				"depth_cm": 7.0,
+				"height_in": 7.5,
+				"width_in": 7.875,
+				"depth_in": 2.75,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "7 1/2 x 7 7/8 x 2 3/4 in. (19.1 x 20 x 7 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 19.1,
+				"width_cm": 20.0,
+				"depth_cm": 7.0,
+				"height_in": 7.5,
+				"width_in": 7.875,
+				"depth_in": 2.75,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "7 1/2 x 7 7/8 x 2 3/4 in. (19.1 x 20 x 7 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 19.1,
+				"width_cm": 20.0,
+				"depth_cm": 7.0,
+				"height_in": 7.5,
+				"width_in": 7.875,
+				"depth_in": 2.75,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -76,7 +276,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20295365,
 			"term": "Anatolia",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -102,7 +304,9 @@
 			]
 		},
 		{
+			"id": 17130799,
 			"term": "Kültepe",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -136,7 +340,9 @@
 	"term_place_of_fabrication": null,
 	"term_place_name_at_creation": [
 		{
+			"id": 17130803,
 			"term": "Kanesh",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -171,7 +377,9 @@
 	"term_find_spot": null,
 	"term_period": [
 		{
+			"id": 16399429,
 			"term": "Old Assyrian Colony period",
+			"type": "Used For Term",
 			"certainty": null,
 			"path": [
 				{
@@ -219,38 +427,9 @@
 	"term_school": null,
 	"term_materials": [
 		{
-			"term": "color",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAY",
-					"term": "color"
-				}
-			]
-		},
-		{
+			"id": 16395863,
 			"term": "terracotta",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -294,6 +473,39 @@
 					"term": "terracotta"
 				}
 			]
+		},
+		{
+			"id": 16571801,
+			"term": "color",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAY",
+					"term": "color"
+				}
+			]
 		}
 	],
 	"term_subject": null,
@@ -308,101 +520,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": -1900,
-	"media": [
-		{
-			"media_xref_id": 157445,
-			"media_master_id": 129965,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 3,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 3368,
-			"pixel_w": 3480,
-			"file_name": "8528320112350022.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 81196,
-			"media_master_id": 192455,
-			"rank": 3,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 9000,
-			"pixel_w": 8582,
-			"file_name": "A306314_V3.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 81195,
-			"media_master_id": 192454,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 9300,
-			"pixel_w": 8311,
-			"file_name": "A306314_V2.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 81194,
-			"media_master_id": 192456,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8440,
-			"pixel_w": 8093,
-			"file_name": "A306314_V1.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 81197,
-			"media_master_id": 192457,
-			"rank": 4,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8708,
-			"pixel_w": 8888,
-			"file_name": "A306314_V4.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ceramic",
@@ -427,6 +544,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — terracotta · Anatolia, Kültepe",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 45
 	}
 }

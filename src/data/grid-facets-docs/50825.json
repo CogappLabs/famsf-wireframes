@@ -2,20 +2,21 @@
 	"id": 50825,
 	"accession_number": "1964.104a-b",
 	"sort_number": "1964.104a-b",
-	"title": "\"PAVILION\" FAN AND CASE",
+	"title": "\"Pavilion\" fan and case",
 	"object_name": "fan",
-	"display_date": "ca. 1725",
-	"begin_iso_date": "1720",
-	"end_iso_date": "1730",
+	"date_display": "ca. 1725",
+	"date_start": "1720",
+	"date_end": "1730",
 	"medium": "Ivory, tortoiseshell, silk, mother-of-pearl, copper alloy; opaque watercolor and gilded composition shapes, grosgrain ribbon, pivot, rivet",
 	"medium_parts": [
 		"Ivory, tortoiseshell, silk, mother-of-pearl, copper alloy",
 		"opaque watercolor and gilded composition shapes, grosgrain ribbon, pivot, rivet"
 	],
-	"dimensions": "8 1/2 in. (21.59 cm)",
 	"credit_line": "Gift of Mrs. Beatrice Greenough",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1964-10-03",
 	"location_string": "de Young, 059, Cabinet 22, M",
 	"location_building": "de Young",
@@ -40,29 +43,172 @@
 	"titles": [
 		{
 			"title": "\"Pavilion\" fan and case",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "8 1/2 in. (21.59 cm)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 92302,
+			"image_id": 170408,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8060,
+			"width": 10451,
+			"file_name": "A338600_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 92304,
+			"image_id": 26280,
+			"rank": 3,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1234,
+			"width": 2208,
+			"file_name": "0409200109160090.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 92303,
+			"image_id": 170409,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8236,
+			"width": 10343,
+			"file_name": "A338600_V2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "8 1/2 in. (21.59 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 21.59,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 8.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "8 1/2 in. (21.59 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 21.59,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 8.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "8 1/2 in. (21.59 cm)",
+			"type": "Length",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 21.59,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 8.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -90,7 +236,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 19735273,
 			"term": "England",
+			"type": "Descriptor",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -116,7 +264,9 @@
 			]
 		},
 		{
+			"id": 20774286,
 			"term": "Italy",
+			"type": "N/A",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -160,65 +310,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1720,
-	"media": [
-		{
-			"media_xref_id": 92304,
-			"media_master_id": 26280,
-			"rank": 3,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1234,
-			"pixel_w": 2208,
-			"file_name": "0409200109160090.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 92303,
-			"media_master_id": 170409,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8236,
-			"pixel_w": 10343,
-			"file_name": "A338600_V2.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 92302,
-			"media_master_id": 170408,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8060,
-			"pixel_w": 10451,
-			"file_name": "A338600_V1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ivory",
@@ -263,6 +354,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , copper alloy, opaque watercolor, mother-of-pearl … · England, Italy",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 45
 	}
 }

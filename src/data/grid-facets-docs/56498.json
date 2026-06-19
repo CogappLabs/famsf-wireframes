@@ -2,17 +2,18 @@
 	"id": 56498,
 	"accession_number": "1997.195.33",
 	"sort_number": "1997.195.33",
-	"title": "\"WHITE\" STORAGE BAG (AK JUVAL), FACE",
+	"title": "\"White\" storage bag (ak juval), face",
 	"object_name": "storage/transport bag",
-	"display_date": null,
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": null,
+	"date_start": null,
+	"date_end": null,
 	"medium": "Wool, silk; weft-faced plain weave, knotted pile",
 	"medium_parts": ["Wool, silk", "weft-faced plain weave, knotted pile"],
-	"dimensions": "86.4 x 111.8 cm (34  x 44  in.)",
 	"credit_line": "Wiedersperg Collection, Gift of Wolfgang and Gisela Wiedersperg",
 	"department": "Costume and Textile Arts",
 	"classification": "Furnishing",
+	"subclassification": null,
+	"culture": "Turkmen, Tekke tribe",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1997-12-31",
 	"location_string": "de Young, 059, Cabinet 45, C",
 	"location_building": "de Young",
@@ -37,38 +40,112 @@
 	"titles": [
 		{
 			"title": "\"White\" storage bag (ak juval), face",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 37646,
+			"id": 37646,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Turkmen, Tekke tribe",
-			"AlphaSort": "Turkmen, Tekke tribe",
+			"name": "Turkmen, Tekke tribe",
+			"name_sort": "Turkmen, Tekke tribe",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": null,
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Turkmen, Tekke tribe"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "34 x 44 in. (86.4 x 111.8 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 158878,
+			"image_id": 128921,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1872,
+			"width": 2346,
+			"file_name": "8253320200860032.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "34 x 44 in. (86.4 x 111.8 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 86.4,
+				"width_cm": 111.8,
+				"depth_cm": null,
+				"height_in": 34.0,
+				"width_in": 44.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "34 x 44 in. (86.4 x 111.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 86.4,
+				"width_cm": 111.8,
+				"depth_cm": null,
+				"height_in": 34.0,
+				"width_in": 44.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -76,7 +153,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20319418,
 			"term": "Central Asia",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -120,29 +199,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 158878,
-			"media_master_id": 128921,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1872,
-			"pixel_w": 2346,
-			"file_name": "8253320200860032.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Silk",
@@ -165,6 +221,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — ,  · Central Asia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 34
+		"populated_fields": 35
 	}
 }

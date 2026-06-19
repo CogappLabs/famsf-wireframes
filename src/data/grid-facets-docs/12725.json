@@ -2,19 +2,20 @@
 	"id": 12725,
 	"accession_number": "1963.24.105",
 	"sort_number": "1963.24.105",
-	"title": "MARY MAGDALEN",
+	"title": "Mary Magdalen",
 	"object_name": "Religious Figure Study",
-	"display_date": "17th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "17th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "Pen and brown ink and brown wash over black chalk on laid paper",
 	"medium_parts": [
 		"Pen and brown ink and brown wash over black chalk on laid paper"
 	],
-	"dimensions": "Image: 151 x 209 mm (5 15/16 x 8 1/4 in.)",
 	"credit_line": "Achenbach Foundation for Graphic Arts",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": "Provenance: Joseph Green Cogswell; Mortimer Leo Schiff; Moore S. Achenbach;\r\nCogswell no.294 , Hellman no.286 as   “Magdalen” by an unascribed Italian artist ,with note of relationship to AFGA's 1963.24.104 r-v and artist  “ of high rank” (George S. Hellman, Original Drawings by the Old Masters: The Collection formed by Joseph Green Cogswell, 1786-1871, New York: privately published, 1915);\r\nSuggested attributions; see beow;\r\nNote that  in 1977 Lynn Orr suggested circle of Bartolomeo Biscaino for this drawing and related 1963.24.104 (Regional Styles of Drawing in Italy: 1600-1700, 1977, cat. no. 37, p. 66);\r\nGiovanna Bertazzoni, 1.22.1997: I showed a photographic reproduction of the drawing to Professor Giulio Bora (Universita' di Milano), 10.17.1996, who disagrees with an attribution to an Italian artist --as well as for 1963.24.104. He suggests fo the two drawings a Northern European attribution;",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1963-04-09",
 	"location_string": "Legion, 210, Compact Shelf 24, 202",
 	"location_building": "Legion",
@@ -39,60 +42,159 @@
 	"titles": [
 		{
 			"title": "Mary Magdalen",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 38773,
+			"id": 38773,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Unidentified ",
-			"AlphaSort": "Unidentified ",
+			"name": "Unidentified ",
+			"name_sort": "Unidentified ",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "Italian, active 17th century",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "Italian, active 17th century",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Unidentified "
 		},
 		{
-			"ConstituentID": 4338,
+			"id": 38773,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Unidentified ",
+			"name_sort": "Unidentified ",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "Italian, active 17th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Unidentified "
+		},
+		{
+			"id": 4338,
 			"Role": "Circle of",
 			"RoleID": 68,
-			"DisplayName": "Bartolomeo Biscaino",
-			"AlphaSort": "Bartolomeo Biscaino",
+			"name": "Bartolomeo Biscaino",
+			"name_sort": "Bartolomeo Biscaino",
 			"Nationality": "Italian",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1632,
 			"EndDate": 1657,
-			"DisplayDate": "1632–1657",
+			"dates": "1632–1657",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 2,
 			"DisplayLabel": "Bartolomeo Biscaino (1632–1657)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "5 15/16 x 8 1/4 in. (15.1 x 20.9 cm)",
-			"description": null,
-			"element_name": "Image",
+			"media_xref_id": 69212,
+			"image_id": 99544,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1925,
+			"width": 2717,
+			"file_name": "5049161418940084.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "5 15/16 x 8 1/4 in. (15.1 x 20.9 cm)",
+			"type": "Height",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 15.1,
+				"width_cm": 20.9,
+				"depth_cm": null,
+				"height_in": 5.9375,
+				"width_in": 8.25,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "5 15/16 x 8 1/4 in. (15.1 x 20.9 cm)",
+			"type": "Width",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 15.1,
+				"width_cm": 20.9,
+				"depth_cm": null,
+				"height_in": 5.9375,
+				"width_in": 8.25,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -123,7 +225,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 20410539,
 			"term": "Genoa",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -170,7 +274,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Unidentified ",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Unidentified ",
 	"sort_artist": "Unidentified ",
 	"display_year": null,
 	"doc_id": "1963.24.105",
@@ -179,29 +283,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 69212,
-			"media_master_id": 99544,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1925,
-			"pixel_w": 2717,
-			"file_name": "5049161418940084.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ink",

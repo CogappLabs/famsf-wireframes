@@ -2,17 +2,18 @@
 	"id": 175120,
 	"accession_number": "2007.44.8",
 	"sort_number": "2007.44.8",
-	"title": "KÓPE (SPIRIT BOARD)",
+	"title": "Kópe (spirit board)",
 	"object_name": "Spirit board",
-	"display_date": "19th-early 20th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "19th-early 20th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "Wood, pigment",
 	"medium_parts": ["Wood, pigment"],
-	"dimensions": "130 x 67 x 14 cm (51 3/16 x 26 3/8 x 5 1/2 in.)",
 	"credit_line": "Gift of Marcia and John Friede in honor of Diane B. Wilsey and Harry S. Parker III",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Ceremonial & Religious Objects",
+	"subclassification": null,
+	"culture": "Kerewo",
 	"copyright": null,
 	"object_rights_type": "Requires Further Research",
 	"on_view": true,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": "\"Collected by Thomas Schultze-Westrum in 1966.\" (Catalog #461, New Guinea Art: Masterpieces from the Jolika Collection of Marcia and John Friede, 2005, Volume 2, p. 162.)",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2007-10-11",
 	"location_string": "de Young, Display, Gallery 030, Floor Case 4",
 	"location_building": "de Young",
@@ -37,50 +40,190 @@
 	"titles": [
 		{
 			"title": "Kópe (spirit board)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "English",
 			"display_order": 1
 		},
 		{
 			"title": "Spirit board (kópe)",
-			"title_type": "Alternate Title",
+			"type": "Alternate Title",
+			"active": true,
 			"language": "English",
 			"display_order": 2
 		},
 		{
 			"title": "Gope board",
-			"title_type": "Former Title",
+			"type": "Former Title",
+			"active": true,
 			"language": "English",
 			"display_order": 3
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 40537,
+			"id": 40537,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Apae (Otoia village, New Guinea)",
-			"AlphaSort": "Apae (Otoia village, New Guinea)",
+			"name": "Apae (Otoia village, New Guinea)",
+			"name_sort": "Apae (Otoia village, New Guinea)",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "Apae (Otoia village, New Guinea)",
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Apae (Otoia village, New Guinea)"
+		},
+		{
+			"id": 40537,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Apae (Otoia village, New Guinea)",
+			"name_sort": "Apae (Otoia village, New Guinea)",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "Apae (Otoia village, New Guinea)",
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Apae (Otoia village, New Guinea)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "51 3/16 x 26 3/8 x 5 1/2 in. (130 x 67 x 14 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 121672,
+			"image_id": 182839,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 11608,
+			"width": 7530,
+			"file_name": "A360942_V1.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 121673,
+			"image_id": 170041,
+			"rank": 2,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5424,
+			"width": 4047,
+			"file_name": "A360942_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "51 3/16 x 26 3/8 x 5 1/2 in. (130 x 67 x 14 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 130.0,
+				"width_cm": 67.0,
+				"depth_cm": 14.0,
+				"height_in": 51.1875,
+				"width_in": 26.375,
+				"depth_in": 5.5,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "51 3/16 x 26 3/8 x 5 1/2 in. (130 x 67 x 14 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 130.0,
+				"width_cm": 67.0,
+				"depth_cm": 14.0,
+				"height_in": 51.1875,
+				"width_in": 26.375,
+				"depth_in": 5.5,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "51 3/16 x 26 3/8 x 5 1/2 in. (130 x 67 x 14 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 130.0,
+				"width_cm": 67.0,
+				"depth_cm": 14.0,
+				"height_in": 51.1875,
+				"width_in": 26.375,
+				"depth_in": 5.5,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -88,7 +231,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20889835,
 			"term": "Otoia village",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -138,7 +283,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Apae (Otoia village, New Guinea)",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Apae (Otoia village, New Guinea)",
 	"sort_artist": "Apae (Otoia village, New Guinea)",
 	"display_year": null,
 	"doc_id": "2007.44.8",
@@ -147,47 +292,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 121672,
-			"media_master_id": 182839,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 11608,
-			"pixel_w": 7530,
-			"file_name": "A360942_V1.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 121673,
-			"media_master_id": 170041,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 5424,
-			"pixel_w": 4047,
-			"file_name": "A360942_V1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Pigment",
@@ -210,6 +314,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — ,  · Otoia village",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 45
 	}
 }

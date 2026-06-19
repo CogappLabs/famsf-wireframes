@@ -2,20 +2,21 @@
 	"id": 2723,
 	"accession_number": "1952.33",
 	"sort_number": "1952.33",
-	"title": "CARPET FRAGMENT",
+	"title": "Carpet fragment",
 	"object_name": "textile fragment",
-	"display_date": "16–17th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "16–17th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "Wool and cotton; knotted pile (asymmetrical knot, open to the left)",
 	"medium_parts": [
 		"Wool and cotton",
 		"knotted pile (asymmetrical knot, open to the left)"
 	],
-	"dimensions": "67.3 x 66 cm (26 1/2 x 26  in.)",
 	"credit_line": "Gift of Arthur Sachs",
 	"department": "Costume and Textile Arts",
 	"classification": "Textile",
+	"subclassification": "Textile Fragment",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": "Ex-Kelekian, Paris.",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1952-10-03",
 	"location_string": "de Young, 059, Cabinet 49, G",
 	"location_building": "de Young",
@@ -40,29 +43,127 @@
 	"titles": [
 		{
 			"title": "Carpet fragment",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "26 1/2 x 26 in. (67.3 x 66 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 92242,
+			"image_id": 35613,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2304,
+			"width": 2264,
+			"file_name": "0814200310060001.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 92243,
+			"image_id": 33743,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4692,
+			"width": 4772,
+			"file_name": "0904201014400002.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "26 1/2 x 26 in. (67.3 x 66 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 67.3,
+				"width_cm": 66.0,
+				"depth_cm": null,
+				"height_in": 26.5,
+				"width_in": 26.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "26 1/2 x 26 in. (67.3 x 66 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 67.3,
+				"width_cm": 66.0,
+				"depth_cm": null,
+				"height_in": 26.5,
+				"width_in": 26.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -90,7 +191,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20214201,
 			"term": "India",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -134,47 +237,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 92242,
-			"media_master_id": 35613,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2304,
-			"pixel_w": 2264,
-			"file_name": "0814200310060001.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 92243,
-			"media_master_id": 33743,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 4692,
-			"pixel_w": 4772,
-			"file_name": "0904201014400002.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",
@@ -197,6 +259,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — ,  · India",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 41
+		"populated_fields": 42
 	}
 }

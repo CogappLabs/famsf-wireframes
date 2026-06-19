@@ -2,17 +2,18 @@
 	"id": 102473,
 	"accession_number": "1986.8.5",
 	"sort_number": "1986.8.5",
-	"title": "BASKET",
+	"title": "Basket",
 	"object_name": "basket",
-	"display_date": "20th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "20th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "plant fiber, cotton thread, glass beads and lead",
 	"medium_parts": ["plant fiber, cotton thread, glass beads and lead"],
-	"dimensions": "5 1/4 x 15  (13.3 x 38.1 cm)",
 	"credit_line": "Gift of Ira Sachs",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Vessels & Containers",
+	"subclassification": null,
+	"culture": "Balanese",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1986-03-05",
 	"location_string": "de Young, 061, Cabinet 007, A",
 	"location_building": "de Young",
@@ -37,38 +40,112 @@
 	"titles": [
 		{
 			"title": "Basket",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 41389,
+			"id": 41389,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Balinese",
-			"AlphaSort": "Balinese",
+			"name": "Balinese",
+			"name_sort": "Balinese",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Balinese"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "5 1/4 x 15 in. (13.3 x 38.1 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 165079,
+			"image_id": 132561,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1836,
+			"width": 1880,
+			"file_name": "9187330237170026.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "5 1/4 x 15 in. (13.3 x 38.1 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 13.3,
+				"width_cm": 38.1,
+				"depth_cm": null,
+				"height_in": 5.25,
+				"width_in": 15.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "5 1/4 x 15 in. (13.3 x 38.1 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 13.3,
+				"width_cm": 38.1,
+				"depth_cm": null,
+				"height_in": 5.25,
+				"width_in": 15.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -76,7 +153,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 18267442,
 			"term": "Singaraja",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -116,7 +195,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Balinese",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Balinese",
 	"sort_artist": "Balinese",
 	"display_year": null,
 	"doc_id": "1986.8.5",
@@ -125,29 +204,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 165079,
-			"media_master_id": 132561,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1836,
-			"pixel_w": 1880,
-			"file_name": "9187330237170026.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Metal",
@@ -170,6 +226,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — lead, glass bead · Singaraja",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 37
+		"populated_fields": 38
 	}
 }

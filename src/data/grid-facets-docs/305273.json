@@ -2,17 +2,18 @@
 	"id": 305273,
 	"accession_number": "2023.94.1",
 	"sort_number": "2023.94.1",
-	"title": "MOAI KAVAKAVA (FIGURE)",
+	"title": "Moai kavakava (figure)",
 	"object_name": "Figure",
-	"display_date": "18th/19th C",
-	"begin_iso_date": "1780",
-	"end_iso_date": "1820",
+	"date_display": "18th/19th C",
+	"date_start": "1780",
+	"date_end": "1820",
 	"medium": "Wood, obsidian and bone",
 	"medium_parts": ["Wood, obsidian and bone"],
-	"dimensions": "Height: 16 x 3 3/4 x 3 in. (40.64 x 9.525 x 7.62 cm)",
 	"credit_line": "Gift of the Thomas W. Weisel Family Collection",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Ceremonial & Religious Objects",
+	"subclassification": null,
+	"culture": "Rapa Nui",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2023-10-10",
 	"location_string": "de Young, 061, Cabinet 032, D",
 	"location_building": "de Young",
@@ -37,29 +40,198 @@
 	"titles": [
 		{
 			"title": "Moai kavakava (figure)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "English",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "16 x 3 3/4 x 3 in. (40.64 x 9.525 x 7.62 cm)",
-			"description": "Height",
-			"element_name": "Overall",
+			"media_xref_id": 215358,
+			"image_id": 222896,
+			"rank": 0,
+			"primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 11758,
+			"width": 5770,
+			"file_name": "MS_305273_20240509_2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 215361,
+			"image_id": 222899,
+			"rank": 0,
+			"primary": false,
+			"display_order": 6,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8259,
+			"width": 5089,
+			"file_name": "MS_305273_20240509_5.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 215360,
+			"image_id": 222898,
+			"rank": 0,
+			"primary": false,
+			"display_order": 5,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4754,
+			"width": 4690,
+			"file_name": "MS_305273_20240509_4.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 215357,
+			"image_id": 222895,
+			"rank": 0,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 10215,
+			"width": 7068,
+			"file_name": "MS_305273_20240509_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "16 x 3 3/4 x 3 in. (40.64 x 9.525 x 7.62 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 40.64,
+				"width_cm": 9.525,
+				"depth_cm": 7.62,
+				"height_in": 16.0,
+				"width_in": 3.75,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "16 x 3 3/4 x 3 in. (40.64 x 9.525 x 7.62 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 40.64,
+				"width_cm": 9.525,
+				"depth_cm": 7.62,
+				"height_in": 16.0,
+				"width_in": 3.75,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "16 x 3 3/4 x 3 in. (40.64 x 9.525 x 7.62 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 40.64,
+				"width_cm": 9.525,
+				"depth_cm": 7.62,
+				"height_in": 16.0,
+				"width_in": 3.75,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -87,7 +259,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 17972792,
 			"term": "Easter Island",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -118,7 +292,9 @@
 			]
 		},
 		{
+			"id": 17972796,
 			"term": "Rapa Nui",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -161,7 +337,9 @@
 	"term_school": null,
 	"term_materials": [
 		{
+			"id": 16211028,
 			"term": "hardwood",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -229,83 +407,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1780,
-	"media": [
-		{
-			"media_xref_id": 215358,
-			"media_master_id": 222896,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 3,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 11758,
-			"pixel_w": 5770,
-			"file_name": "MS_305273_20240509_2.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 215357,
-			"media_master_id": 222895,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 10215,
-			"pixel_w": 7068,
-			"file_name": "MS_305273_20240509_1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 215360,
-			"media_master_id": 222898,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 5,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 4754,
-			"pixel_w": 4690,
-			"file_name": "MS_305273_20240509_4.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 215361,
-			"media_master_id": 222899,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 6,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8259,
-			"pixel_w": 5089,
-			"file_name": "MS_305273_20240509_5.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Wood",
@@ -334,6 +435,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , hardwood · Easter Island, Rapa Nui",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 44
 	}
 }

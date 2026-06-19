@@ -2,17 +2,18 @@
 	"id": 125785,
 	"accession_number": "2018.28.17.1a-c",
 	"sort_number": "2018.28.17.1a-c",
-	"title": "WOMAN'S SUIT: JACKET (A), BLOUSE (B), AND SKIRT (C)",
+	"title": "Woman's suit: jacket (a), blouse (b), and skirt (c)",
 	"object_name": "woman's costume",
-	"display_date": "Autumn/Winter 1991–1992",
-	"begin_iso_date": "1991",
-	"end_iso_date": "1992",
+	"date_display": "Autumn/Winter 1991–1992",
+	"date_start": "1991",
+	"date_end": "1992",
 	"medium": "tricetate, rayon, silk, plastic, metal",
 	"medium_parts": ["tricetate, rayon, silk, plastic, metal"],
-	"dimensions": null,
 	"credit_line": "Gift of Christine Suppes in memory of Mary Jane Johnson",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2018-06-05",
 	"location_string": "UOVO, Livermore, Cabinet 005",
 	"location_building": "UOVO",
@@ -37,30 +40,73 @@
 	"titles": [
 		{
 			"title": "Woman's suit: jacket (a), blouse (b), and skirt (c)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 19989,
+			"id": 19989,
 			"Role": "Designer",
 			"RoleID": 67,
-			"DisplayName": "Mitsuhiro Matsuda",
-			"AlphaSort": "Mitsuhiro Matsuda",
+			"name": "Mitsuhiro Matsuda",
+			"name_sort": "Mitsuhiro Matsuda",
 			"Nationality": "Japanese",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1934,
-			"EndDate": 0,
-			"DisplayDate": "b. 1934",
+			"EndDate": null,
+			"dates": "b. 1934",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "b. 1934"
 		}
 	],
-	"dimensions_structured": null,
+	"media": [
+		{
+			"media_xref_id": 157151,
+			"image_id": 195995,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4032,
+			"width": 3024,
+			"file_name": "A410813.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -68,7 +114,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 16863178,
 			"term": "Japan",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -112,29 +160,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1991,
-	"media": [
-		{
-			"media_xref_id": 157151,
-			"media_master_id": 195995,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 4032,
-			"pixel_w": 3024,
-			"file_name": "A410813.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Metal",
@@ -165,6 +190,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , , , rayon · Japan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 41
+		"populated_fields": 42
 	}
 }

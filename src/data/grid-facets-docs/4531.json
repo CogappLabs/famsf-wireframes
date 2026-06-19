@@ -2,19 +2,20 @@
 	"id": 4531,
 	"accession_number": "1963.24.209",
 	"sort_number": "1963.24.209",
-	"title": "THE PIETÀ",
+	"title": "The Pietà",
 	"object_name": null,
-	"display_date": "16th–17th century",
-	"begin_iso_date": "1501",
-	"end_iso_date": "1700",
+	"date_display": "16th–17th century",
+	"date_start": "1501",
+	"date_end": "1700",
 	"medium": "Pen and brown ink, red-brown wash, red chalk and white opaque watercolor on laid paper",
 	"medium_parts": [
 		"Pen and brown ink, red-brown wash, red chalk and white opaque watercolor on laid paper"
 	],
-	"dimensions": "22.7 x 18.4 cm (image)",
 	"credit_line": "Achenbach Foundation for Graphic Arts",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": "Joseph Green Cogswell (1786-1871); Mortimer Leo Schiff (1877-1931); Moore S. Achenbach (1878-1963).",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1963-04-09",
 	"location_string": "Legion, Conservation, 260, Table",
 	"location_building": "Legion",
@@ -39,45 +42,140 @@
 	"titles": [
 		{
 			"title": "The Pietà",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 39780,
+			"id": 39780,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Cesare Rossetti",
-			"AlphaSort": "Rossetti,  Cesare",
+			"name": "Cesare Rossetti",
+			"name_sort": "Rossetti,  Cesare",
 			"Nationality": "Italian",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1560,
 			"EndDate": 1627,
-			"DisplayDate": "Italian, ca. 1560–1626/1627",
+			"dates": "Italian, ca. 1560–1626/1627",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Cesare Rossetti (1560–1627)"
+		},
+		{
+			"id": 39780,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Cesare Rossetti",
+			"name_sort": "Rossetti,  Cesare",
+			"Nationality": "Italian",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": 1560,
+			"EndDate": 1627,
+			"dates": "Italian, ca. 1560–1626/1627",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Cesare Rossetti (1560–1627)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "8 15/16 x 7 1/4 in. (22.7 x 18.4 cm)",
-			"description": null,
-			"element_name": "Image",
+			"media_xref_id": 69404,
+			"image_id": 101634,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2449,
+			"width": 1953,
+			"file_name": "5050161212740033.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "8 15/16 x 7 1/4 in. (22.7 x 18.4 cm)",
+			"type": "Width",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 22.7,
+				"width_cm": 18.4,
+				"depth_cm": null,
+				"height_in": 8.9375,
+				"width_in": 7.25,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "8 15/16 x 7 1/4 in. (22.7 x 18.4 cm)",
+			"type": "Height",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 22.7,
+				"width_cm": 18.4,
+				"depth_cm": null,
+				"height_in": 8.9375,
+				"width_in": 7.25,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -108,7 +206,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 16687851,
 			"term": "Rome",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -159,29 +259,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": 1501,
-	"media": [
-		{
-			"media_xref_id": 69404,
-			"media_master_id": 101634,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2449,
-			"pixel_w": 1953,
-			"file_name": "5050161212740033.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ink",

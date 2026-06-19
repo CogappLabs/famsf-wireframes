@@ -2,19 +2,20 @@
 	"id": 106893,
 	"accession_number": "1991.28.1095",
 	"sort_number": "1991.28.1095",
-	"title": "PALLADIUM PROTRACTOR, CHASE TO ASSASSINATION, (GOTHIC FUTURISM)",
+	"title": "Palladium Protractor, Chase to Assassination, (Gothic Futurism)",
 	"object_name": "Abstraction Landscape",
-	"display_date": "1984",
-	"begin_iso_date": "1984",
-	"end_iso_date": "1984",
+	"date_display": "1984",
+	"date_start": "1984",
+	"date_end": "1984",
 	"medium": "Color aquatint, spit-bite aquatint, soap-ground aquatint, etching, and drypoint",
 	"medium_parts": [
 		"Color aquatint, spit-bite aquatint, soap-ground aquatint, etching, and drypoint"
 	],
-	"dimensions": null,
 	"credit_line": "Crown Point Press Archive, Gift of Crown Point Press",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Print",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1991-06-06",
 	"location_string": "Legion, 210, Drawer, 409",
 	"location_building": "Legion",
@@ -39,67 +42,120 @@
 	"titles": [
 		{
 			"title": "Palladium Protractor, Chase to Assassination, (Gothic Futurism)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 7721,
+			"id": 7721,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Rammellzee",
-			"AlphaSort": "Rammellzee",
+			"name": "Rammellzee",
+			"name_sort": "Rammellzee",
 			"Nationality": "American",
+			"place_born": "Queens",
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1960,
 			"EndDate": 2010,
-			"DisplayDate": "1960–2010",
+			"dates": "1960–2010",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Rammellzee (1960–2010)"
 		},
 		{
-			"ConstituentID": 7914,
+			"id": 7914,
 			"Role": "Printer",
 			"RoleID": 40,
-			"DisplayName": "Peter Pettengill",
-			"AlphaSort": "Peter Pettengill",
+			"name": "Peter Pettengill",
+			"name_sort": "Peter Pettengill",
 			"Nationality": "American",
+			"place_born": "Greenfield",
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1955,
-			"EndDate": 0,
-			"DisplayDate": "American, born 1955",
+			"EndDate": null,
+			"dates": "American, born 1955",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 2,
 			"DisplayLabel": "b. 1955"
 		},
 		{
-			"ConstituentID": 7900,
+			"id": 7900,
 			"Role": "Publisher",
 			"RoleID": 39,
-			"DisplayName": "Crown Point Press",
-			"AlphaSort": "Crown Point Press",
+			"name": "Crown Point Press",
+			"name_sort": "Crown Point Press",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "est. 1962",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": " ",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "American, est. 1962",
 			"Institution": "Crown Point Press",
 			"ConstituentType": "Entity",
 			"DisplayOrder": 4,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Crown Point Press"
 		}
 	],
-	"dimensions_structured": null,
+	"media": [
+		{
+			"media_xref_id": 46083,
+			"image_id": 83517,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1589,
+			"width": 2406,
+			"file_name": "3307201303850035.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -130,7 +186,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 16696100,
 			"term": "Colombia",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -181,29 +239,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1984,
-	"media": [
-		{
-			"media_xref_id": 46083,
-			"media_master_id": 83517,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1589,
-			"pixel_w": 2406,
-			"file_name": "3307201303850035.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [],
 	"facet_technique": ["aquatint", "drypoint", "etching"],
 	"facet_place": [
@@ -217,6 +252,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — aquatint, drypoint, etching · Colombia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 42
+		"populated_fields": 43
 	}
 }

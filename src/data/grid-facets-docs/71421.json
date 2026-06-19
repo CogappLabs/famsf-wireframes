@@ -2,17 +2,18 @@
 	"id": 71421,
 	"accession_number": "2000.118.14.14",
 	"sort_number": "2000.118.14.14",
-	"title": "UPPER MANTLE PIN",
+	"title": "Upper mantle pin",
 	"object_name": "pin",
-	"display_date": "19th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "19th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "silver",
 	"medium_parts": ["silver"],
-	"dimensions": "10 1/2 x 2 (26.7 x 5.1 cm)",
 	"credit_line": "Gift of Caroline McCoy Jones",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Personal Accessory",
+	"subclassification": null,
+	"culture": "Republican Period",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2000-10-12",
 	"location_string": "de Young, 061, Cabinet 053, H",
 	"location_building": "de Young",
@@ -37,22 +40,92 @@
 	"titles": [
 		{
 			"title": "Upper mantle pin",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "10 1/2 x 2 in. (26.7 x 5.1 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 107307,
+			"image_id": 44339,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5316,
+			"width": 1474,
+			"file_name": "1203200916400015.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "10 1/2 x 2 in. (26.7 x 5.1 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 26.7,
+				"width_cm": 5.1,
+				"depth_cm": null,
+				"height_in": 10.5,
+				"width_in": 2.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 1/2 x 2 in. (26.7 x 5.1 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 26.7,
+				"width_cm": 5.1,
+				"depth_cm": null,
+				"height_in": 10.5,
+				"width_in": 2.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -60,28 +133,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
-			"term": "Perú",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAACT",
-					"term": "South America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAACT.AAAEL",
-					"term": "Perú"
-				}
-			]
-		},
-		{
+			"id": 20889019,
 			"term": "Andean Region",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -103,6 +157,29 @@
 					"depth": 4,
 					"cn": "AUZ.AAAAB.AAACT.AAAAE.AAAAA",
 					"term": "Andean Region"
+				}
+			]
+		},
+		{
+			"id": 20467702,
+			"term": "Perú",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL",
+					"term": "Perú"
 				}
 			]
 		}
@@ -130,29 +207,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 107307,
-			"media_master_id": 44339,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 5316,
-			"pixel_w": 1474,
-			"file_name": "1203200916400015.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Gold & silver",
@@ -163,20 +217,20 @@
 	"facet_place": [
 		{
 			"region": "South America",
-			"country": "Peru",
-			"state": "",
-			"notable": "Perú"
-		},
-		{
-			"region": "South America",
 			"country": "Altiplano",
 			"state": "",
 			"notable": "Andean Region"
+		},
+		{
+			"region": "South America",
+			"country": "Peru",
+			"state": "",
+			"notable": "Perú"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — silver · Perú, Andean Region",
+		"reason": "grid-facets real slice — silver · Andean Region, Perú",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 34
+		"populated_fields": 35
 	}
 }

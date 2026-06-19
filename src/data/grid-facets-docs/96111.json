@@ -2,20 +2,21 @@
 	"id": 96111,
 	"accession_number": "2004.100.4",
 	"sort_number": "2004.100.4",
-	"title": "DERVISH CAP",
+	"title": "Dervish cap",
 	"object_name": "headwear",
-	"display_date": "late 19th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "late 19th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "Wool, cotton; felt, embroidery (chain and basket stitches)",
 	"medium_parts": [
 		"Wool, cotton",
 		"felt, embroidery (chain and basket stitches)"
 	],
-	"dimensions": "38.1 x 20.3 cm (15 x 8.5 in.)",
 	"credit_line": "Caroline and H. McCoy Jones Collection,\r\nGift of Caroline McCoy-Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": "Turkmen, Yomut tribe",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2004-10-14",
 	"location_string": "de Young, 227, Cabinet 25, TA",
 	"location_building": "de Young",
@@ -40,45 +43,147 @@
 	"titles": [
 		{
 			"title": "Dervish cap",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 40665,
+			"id": 40665,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Turkmen, Yomut tribe",
-			"AlphaSort": "Turkmen, Yomut tribe",
+			"name": "Turkmen, Yomut tribe",
+			"name_sort": "Turkmen, Yomut tribe",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Turkmen, Yomut tribe"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "15 x 8 in. (38.1 x 20.3 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 226713,
+			"image_id": 238537,
+			"rank": 0,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9436,
+			"width": 8923,
+			"file_name": "MS_96111_20241217-01.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 124147,
+			"image_id": 14136,
+			"rank": 1,
+			"primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1959,
+			"width": 1242,
+			"file_name": "0114200513350149.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "15 x 8 in. (38.1 x 20.3 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 38.1,
+				"width_cm": 20.3,
+				"depth_cm": null,
+				"height_in": 15.0,
+				"width_in": 8.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "15 x 8 in. (38.1 x 20.3 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 38.1,
+				"width_cm": 20.3,
+				"depth_cm": null,
+				"height_in": 15.0,
+				"width_in": 8.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -106,7 +211,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20666686,
 			"term": "Iran",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -150,47 +257,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 124147,
-			"media_master_id": 14136,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 3,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1959,
-			"pixel_w": 1242,
-			"file_name": "0114200513350149.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 226713,
-			"media_master_id": 238537,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 9436,
-			"pixel_w": 8923,
-			"file_name": "MS_96111_20241217-01.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",
@@ -217,6 +283,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , felt, , embroidery · Iran",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 38
+		"populated_fields": 40
 	}
 }

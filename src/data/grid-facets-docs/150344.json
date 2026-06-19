@@ -2,19 +2,20 @@
 	"id": 150344,
 	"accession_number": "2018.32",
 	"sort_number": "2018.32",
-	"title": "SQUARE DANCE",
+	"title": "Square Dance",
 	"object_name": null,
-	"display_date": "2014",
-	"begin_iso_date": "2014",
-	"end_iso_date": "2014",
+	"date_display": "2014",
+	"date_start": "2014",
+	"date_end": "2014",
 	"medium": "Rope, steel tube, branch, yarn, acrylic paint, plastic parts, rivets, copper hardware, speaker wire, photograph printed on vinyl, spray adhesive, duct tape, and vacuum cleaner parts",
 	"medium_parts": [
 		"Rope, steel tube, branch, yarn, acrylic paint, plastic parts, rivets, copper hardware, speaker wire, photograph printed on vinyl, spray adhesive, duct tape, and vacuum cleaner parts"
 	],
-	"dimensions": "Overall: 103 15/16 x 68 7/8 x 16 9/16 in. (264 x 175 x 42 cm)",
 	"credit_line": "Museum purchase, Anna Gardner Contemporary Art Fund",
 	"department": "Contemporary Art",
 	"classification": "Sculpture",
+	"subclassification": null,
+	"culture": null,
 	"copyright": "© Jessica Stockholder",
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": "Although she cites her primary artistic influences as Abstract Expressionism and Minimalism, Jessica Stockholder is often considered to be a conceptual heir to assemblage artists of the pre- and post-World War II avant-garde, such as Kurt Schwitters and Robert Rauschenberg. Despite the multifariousness of their composition, Stockholder's three-dimensional works are essentially structured by the fundamental elements of color and line. This is most clearly demonstrated in her installations, but it is also evident in her individual sculptures. Tethered to the wall by a metal pipe, Square Dance gestures to the conventional site of painting while simultaneously moving into the three-dimensional space of sculpture--and further, into the domestic realm of furnishings. In the work, lengths of brightly colored patterned rope are loosely woven around a cruciform armature. This unusual construction resembles a God's eye, a ritual object common to the Native people of the southwestern United States and northwestern Mexico. The weaving patterns have roots in the yarn paintings of the Wixaritari people, in Mexico, frequently used in spiritual ceremonies. Wixarika artists commercialized the form in the late 1960s, opening the path for its popular diffusion as vernacular craft.Stockholder's art allude to craft traditions through both material and form. Her objects, stripped of their functionality, are reduced to their formal components yet are still laden with psychological associations. The narratives suggested by the works' evocative titles remain open-ended, dependent on viewer's subjective interpretations, while the quotidian nature of the media lends a grounding sense of familiarity.",
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2018-06-05",
 	"location_string": "UOVO, Livermore",
 	"location_building": "UOVO",
@@ -39,45 +42,140 @@
 	"titles": [
 		{
 			"title": "Square Dance",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 19986,
+			"id": 19986,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Jessica Stockholder",
-			"AlphaSort": "Stockholder,  Jessica",
+			"name": "Jessica Stockholder",
+			"name_sort": "Stockholder,  Jessica",
 			"Nationality": "American",
+			"place_born": "Seattle",
+			"place_died": null,
+			"place_active": "Nanaimo",
+			"attribution_prefix": null,
 			"BeginDate": 1959,
-			"EndDate": 0,
-			"DisplayDate": "American, born 1959",
+			"EndDate": null,
+			"dates": "American, born 1959",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "b. 1959"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "103 15/16 x 68 7/8 x 16 9/16 in. (264 x 175 x 42 cm)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 151523,
+			"image_id": 169443,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 10500,
+			"width": 7688,
+			"file_name": "A410730_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "103 15/16 x 68 7/8 x 16 9/16 in. (264 x 175 x 42 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 264.0,
+				"width_cm": 175.0,
+				"depth_cm": 42.0,
+				"height_in": 103.9375,
+				"width_in": 68.875,
+				"depth_in": 16.5625,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "103 15/16 x 68 7/8 x 16 9/16 in. (264 x 175 x 42 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 264.0,
+				"width_cm": 175.0,
+				"depth_cm": 42.0,
+				"height_in": 103.9375,
+				"width_in": 68.875,
+				"depth_in": 16.5625,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "103 15/16 x 68 7/8 x 16 9/16 in. (264 x 175 x 42 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 264.0,
+				"width_cm": 175.0,
+				"depth_cm": 42.0,
+				"height_in": 103.9375,
+				"width_in": 68.875,
+				"depth_in": 16.5625,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -105,7 +203,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20212210,
 			"term": "Chicago",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -153,7 +253,9 @@
 	"term_school": null,
 	"term_materials": [
 		{
+			"id": 16289611,
 			"term": "duct tape",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -199,7 +301,279 @@
 			]
 		},
 		{
+			"id": 16465565,
+			"term": "yarn",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAB",
+					"term": "textile materials by form"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAB.AAG",
+					"term": "yarn"
+				}
+			]
+		},
+		{
+			"id": 16207483,
+			"term": "acrylic paint",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
+					"term": "synthetic resin paint"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAA",
+					"term": "acrylic paint"
+				}
+			]
+		},
+		{
+			"id": 16237171,
+			"term": "copper alloy",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
+					"term": "metal by composition or origin"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB",
+					"term": "nonferrous metal"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK",
+					"term": "copper and copper alloy"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB",
+					"term": "copper alloy"
+				}
+			]
+		},
+		{
+			"id": 16590388,
+			"term": "plastic",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAB",
+					"term": "Associated Concepts Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAB.AAA",
+					"term": "Associated Concepts"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAB.AAA.AAI",
+					"term": "multidisciplinary concepts"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAB.AAA.AAI.AAL",
+					"term": "groupings"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA",
+					"term": "object groupings by general context"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB",
+					"term": "components by specific context"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ",
+					"term": "biological components"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE",
+					"term": "plastic"
+				}
+			]
+		},
+		{
+			"id": 16590390,
+			"term": "plastic",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAB",
+					"term": "Associated Concepts Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAB.AAA",
+					"term": "Associated Concepts"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAB.AAA.AAI",
+					"term": "multidisciplinary concepts"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAB.AAA.AAI.AAL",
+					"term": "groupings"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA",
+					"term": "object groupings by general context"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB",
+					"term": "components by specific context"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ",
+					"term": "biological components"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE",
+					"term": "plastic"
+				}
+			]
+		},
+		{
+			"id": 16348110,
 			"term": "steel",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -255,58 +629,9 @@
 			]
 		},
 		{
-			"term": "rope",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
-					"term": "fiber by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAC",
-					"term": "cord"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAC.AAA",
-					"term": "rope"
-				}
-			]
-		},
-		{
+			"id": 16565575,
 			"term": "vinyl",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -367,155 +692,9 @@
 			]
 		},
 		{
-			"term": "copper alloy",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAB",
-					"term": "materials by composition"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
-					"term": "inorganic material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
-					"term": "metal"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
-					"term": "metal by composition or origin"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB",
-					"term": "nonferrous metal"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK",
-					"term": "copper and copper alloy"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB",
-					"term": "copper alloy"
-				}
-			]
-		},
-		{
-			"term": "plastic",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAB",
-					"term": "Associated Concepts Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAB.AAA",
-					"term": "Associated Concepts"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAB.AAA.AAI",
-					"term": "multidisciplinary concepts"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAB.AAA.AAI.AAL",
-					"term": "groupings"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA",
-					"term": "object groupings by general context"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB",
-					"term": "components by specific context"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ",
-					"term": "biological components"
-				},
-				{
-					"depth": 11,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE",
-					"term": "plastic"
-				}
-			]
-		},
-		{
-			"term": "plastic",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAB",
-					"term": "Associated Concepts Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAB.AAA",
-					"term": "Associated Concepts"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAB.AAA.AAI",
-					"term": "multidisciplinary concepts"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAB.AAA.AAI.AAL",
-					"term": "groupings"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA",
-					"term": "object groupings by general context"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB",
-					"term": "components by specific context"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ",
-					"term": "biological components"
-				},
-				{
-					"depth": 11,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE",
-					"term": "plastic"
-				}
-			]
-		},
-		{
-			"term": "yarn",
+			"id": 16208280,
+			"term": "rope",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -555,74 +734,13 @@
 				},
 				{
 					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
-					"term": "textile materials"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAC",
+					"term": "cord"
 				},
 				{
 					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAB",
-					"term": "textile materials by form"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAB.AAG",
-					"term": "yarn"
-				}
-			]
-		},
-		{
-			"term": "acrylic paint",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
-					"term": "paint"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
-					"term": "paint by composition or origin"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
-					"term": "synthetic resin paint"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAA",
-					"term": "acrylic paint"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAC.AAA",
+					"term": "rope"
 				}
 			]
 		}
@@ -639,29 +757,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 2014,
-	"media": [
-		{
-			"media_xref_id": 151523,
-			"media_master_id": 169443,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 10500,
-			"pixel_w": 7688,
-			"file_name": "A410730_V1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Metal",
@@ -696,6 +791,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — copper alloy, steel, acrylic paint,  … · Chicago",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 46
 	}
 }

@@ -2,19 +2,20 @@
 	"id": 94727,
 	"accession_number": "2003.84.1.35",
 	"sort_number": "2003.84.1.35",
-	"title": "PORTRAIT I",
+	"title": "Portrait I",
 	"object_name": null,
-	"display_date": "2002",
-	"begin_iso_date": "2002",
-	"end_iso_date": "2002",
+	"date_display": "2002",
+	"date_start": "2002",
+	"date_end": "2002",
 	"medium": "red, green and blue opaque watercolor (?) and ink (?) on paper",
 	"medium_parts": [
 		"red, green and blue opaque watercolor (?) and ink (?) on paper"
 	],
-	"dimensions": "Frame: 1035 x 832 mm (40 3/4 x 32 3/4 in.)",
 	"credit_line": "Gift of the Diane and Sandy Besser Collection, Santa Fe, New Mexico",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": "Aldo Castillo Gallery, Chicago, IL $2700.00\r\nSandy Besser",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2003-10-09",
 	"location_string": "Legion, 210, Drawer, 270",
 	"location_building": "Legion",
@@ -39,45 +42,121 @@
 	"titles": [
 		{
 			"title": "Portrait I",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 11448,
+			"id": 11448,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Luis Udo Uribe",
-			"AlphaSort": "Luis Udo Uribe",
+			"name": "Luis Udo Uribe",
+			"name_sort": "Luis Udo Uribe",
 			"Nationality": "Colombian",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1950,
-			"EndDate": 0,
-			"DisplayDate": "b. 1950",
+			"EndDate": null,
+			"dates": "b. 1950",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "b. 1950"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "40 3/4 x 32 3/4 in. (103.5 x 83.2 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Frame (4D)",
+			"media_xref_id": 123781,
+			"image_id": 178875,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5830,
+			"width": 4634,
+			"file_name": "A365712_V1.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "40 3/4 x 32 3/4 in. (103.5 x 83.2 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Frame (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 103.5,
+				"width_cm": 83.2,
+				"depth_cm": null,
+				"height_in": 40.75,
+				"width_in": 32.75,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "40 3/4 x 32 3/4 in. (103.5 x 83.2 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Frame (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 103.5,
+				"width_cm": 83.2,
+				"depth_cm": null,
+				"height_in": 40.75,
+				"width_in": 32.75,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -108,7 +187,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 16696100,
 			"term": "Colombia",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -159,29 +240,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": 2002,
-	"media": [
-		{
-			"media_xref_id": 123781,
-			"media_master_id": 178875,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 5830,
-			"pixel_w": 4634,
-			"file_name": "A365712_V1.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ink",

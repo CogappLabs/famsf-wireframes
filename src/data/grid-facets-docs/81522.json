@@ -2,17 +2,18 @@
 	"id": 81522,
 	"accession_number": "1992.107.46",
 	"sort_number": "1992.107.46",
-	"title": "KNIT BAG (CH'USPA)*",
+	"title": "Knit bag (ch'uspa)*",
 	"object_name": "bag/purse",
-	"display_date": "ca. 1950",
-	"begin_iso_date": "1950",
-	"end_iso_date": "1950",
+	"date_display": "ca. 1950",
+	"date_start": "1950",
+	"date_end": "1950",
 	"medium": "wool or camelid fiber; knitting",
 	"medium_parts": ["wool or camelid fiber", "knitting"],
-	"dimensions": "10.8 x 22.8 cm (4 1/4 x 9  in.)",
 	"credit_line": "The Jeffrey Appleby Andean Textile Collection",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": "Quechua",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1992-06-30",
 	"location_string": "de Young",
 	"location_building": "de Young",
@@ -37,38 +40,112 @@
 	"titles": [
 		{
 			"title": "Knit bag (ch'uspa)*",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 41147,
+			"id": 41147,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Quechua",
-			"AlphaSort": "Quechua",
+			"name": "Quechua",
+			"name_sort": "Quechua",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Quechua"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "4 1/4 x 9 in. (10.8 x 22.8 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 94980,
+			"image_id": 120219,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2552,
+			"width": 1539,
+			"file_name": "7565306134070006.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "4 1/4 x 9 in. (10.8 x 22.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 10.8,
+				"width_cm": 22.8,
+				"depth_cm": null,
+				"height_in": 4.25,
+				"width_in": 9.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "4 1/4 x 9 in. (10.8 x 22.8 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 10.8,
+				"width_cm": 22.8,
+				"depth_cm": null,
+				"height_in": 4.25,
+				"width_in": 9.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -76,7 +153,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 18180879,
 			"term": "Urubamba",
+			"type": "Descriptor",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -107,7 +186,9 @@
 			]
 		},
 		{
+			"id": 16702750,
 			"term": "Chincheros",
+			"type": "Descriptor",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -161,29 +242,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1950,
-	"media": [
-		{
-			"media_xref_id": 94980,
-			"media_master_id": 120219,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2552,
-			"pixel_w": 1539,
-			"file_name": "7565306134070006.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Textile",
@@ -208,6 +266,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — knitting · Urubamba, Chincheros",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 40
+		"populated_fields": 42
 	}
 }

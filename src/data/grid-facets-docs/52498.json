@@ -2,17 +2,18 @@
 	"id": 52498,
 	"accession_number": "1998.145a-c",
 	"sort_number": "1998.145a-c",
-	"title": "MAN'S COURT COSTUME; COAT, BREECHES, AND WAISTCOAT",
+	"title": "Man's court costume; coat, breeches, and waistcoat",
 	"object_name": "man's costume",
-	"display_date": "ca. 1800",
-	"begin_iso_date": "1800",
-	"end_iso_date": "1800",
+	"date_display": "ca. 1800",
+	"date_start": "1800",
+	"date_end": "1800",
 	"medium": "silk, satin, velvet, silver, lace",
 	"medium_parts": ["silk, satin, velvet, silver, lace"],
-	"dimensions": "120 x 72 cm (47 1/4 x 28 3/8 in.)",
 	"credit_line": "Gift of  Mrs. Ella Atkinson-Putnam",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1998-12-10",
 	"location_string": "de Young, 059, Cabinet 48, TC",
 	"location_building": "de Young",
@@ -37,60 +40,166 @@
 	"titles": [
 		{
 			"title": "Man's court costume; coat, breeches, and waistcoat",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 259,
+			"id": 259,
 			"Role": "Attributed to",
 			"RoleID": 72,
-			"DisplayName": "Anonymous ",
-			"AlphaSort": "Anonymous",
+			"name": "Anonymous ",
+			"name_sort": "Anonymous",
 			"Nationality": "Italian",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "Italian, active 18th century",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "Italian, active 18th century",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Anonymous "
 		},
 		{
-			"ConstituentID": 2279,
+			"id": 2279,
 			"Role": "Attributed to",
 			"RoleID": 72,
-			"DisplayName": "Anonymous",
-			"AlphaSort": "Anonymous",
+			"name": "Anonymous",
+			"name_sort": "Anonymous",
 			"Nationality": "French",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "French, active 18th century",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "French, active 18th century",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 2,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Anonymous"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "47 1/4 x 28 3/8 in. (120 x 72 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 102642,
+			"image_id": 135453,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1918,
+			"width": 2196,
+			"file_name": "1508200312160478.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 102641,
+			"image_id": 39688,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1114,
+			"width": 755,
+			"file_name": "1007200511020006.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "47 1/4 x 28 3/8 in. (120 x 72 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 120.0,
+				"width_cm": 72.0,
+				"depth_cm": null,
+				"height_in": 47.25,
+				"width_in": 28.375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "47 1/4 x 28 3/8 in. (120 x 72 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 120.0,
+				"width_cm": 72.0,
+				"depth_cm": null,
+				"height_in": 47.25,
+				"width_in": 28.375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -118,7 +227,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 19735273,
 			"term": "England",
+			"type": "Descriptor",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -144,7 +255,9 @@
 			]
 		},
 		{
+			"id": 20618668,
 			"term": "France",
+			"type": "Descriptor",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -188,47 +301,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1800,
-	"media": [
-		{
-			"media_xref_id": 102642,
-			"media_master_id": 135453,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1918,
-			"pixel_w": 2196,
-			"file_name": "1508200312160478.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 102641,
-			"media_master_id": 39688,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1114,
-			"pixel_w": 755,
-			"file_name": "1007200511020006.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Gold & silver",

@@ -2,17 +2,18 @@
 	"id": 64244,
 	"accession_number": "1983.100.4",
 	"sort_number": "1983.100.4",
-	"title": "CARPET (HALY)",
+	"title": "Carpet (haly)",
 	"object_name": "rug",
-	"display_date": "1800–1850",
-	"begin_iso_date": "1800",
-	"end_iso_date": "1850",
+	"date_display": "1800–1850",
+	"date_start": "1800",
+	"date_end": "1850",
 	"medium": "Wool; knotted pile (symmetrical knot)",
 	"medium_parts": ["Wool", "knotted pile (symmetrical knot)"],
-	"dimensions": "240 x 241 cm (94 1/2 x 94 7/8 in.)",
 	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nGift of H. McCoy Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Furnishing",
+	"subclassification": null,
+	"culture": "Turkmen, Saryk tribe",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": "Exhibition catalogue: Tribal Rugs from TurkmenistanNo. 12 Saryq Rug: Close examination clearly indicates that this is an old rug—at least mid-19th century. The smoothness of the back, clear sharp designs, beautiful colors and almost square shape—found more often in antiques than in modern rugs—all confirm this conclusion of age. The design is composed of four rows of nine major guls on a Saryq cherry-red ground. The major gul is an octagon enclosing a central red rectangular medallion with four three-leaf clover designs. The interior of the gul is quartered in coral and ivory. The typical pair of bird-heads appear at the top and bottom while scrolling tendrils project from the sides of the central rectangular medallion. Each quarter contains a red serrated leaf or \"fish\" form. This design may have originated with the Saryqs and later been adopted by the Ersaris as all recent rugs with this design have been attributed to the latter tribe. The minor gul is a stepped lozenge enclosing an eight-pointed star. Latch-hook tendrils project from each of the stepped points of the gul. An interesting feature is a horizontal row of double ivory combs filling the spaces between the third row of major guls from the top of the piece. Also note the form of the weaver between the first and second rows to the left near the center of the rug—a rare procedure for Turkoman weavers. The major border contains a cruciform device with ends terminating in double tendrils. These alternate with a half blue and half coral sundial motif containing a double tendril in each half. Secondary borders are filled with red diamond figures separated by blue and ivory facing triangles.",
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1983-12-14",
 	"location_string": "de Young, 059, Cabinet 58, C",
 	"location_building": "de Young",
@@ -37,45 +40,121 @@
 	"titles": [
 		{
 			"title": "Carpet (haly)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 40720,
+			"id": 40720,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Turkmen, Saryk tribe",
-			"AlphaSort": "Turkmen, Saryk tribe",
+			"name": "Turkmen, Saryk tribe",
+			"name_sort": "Turkmen, Saryk tribe",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Turkmen, Saryk tribe"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "94 1/2 x 94 7/8 in. (240 x 241 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 159266,
+			"image_id": 116739,
+			"rank": 0,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2088,
+			"width": 1976,
+			"file_name": "5256165128510022.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "94 1/2 x 94 7/8 in. (240 x 241 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 240.0,
+				"width_cm": 241.0,
+				"depth_cm": null,
+				"height_in": 94.5,
+				"width_in": 94.875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "94 1/2 x 94 7/8 in. (240 x 241 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 240.0,
+				"width_cm": 241.0,
+				"depth_cm": null,
+				"height_in": 94.5,
+				"width_in": 94.875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -103,28 +182,9 @@
 	],
 	"term_place_of_creation": [
 		{
-			"term": "Afghanistan",
-			"certainty": "Possibly",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAI",
-					"term": "Afghānestān"
-				}
-			]
-		},
-		{
+			"id": 17087474,
 			"term": "Turkmenistan",
+			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -143,6 +203,29 @@
 					"term": "Türkmenistan"
 				}
 			]
+		},
+		{
+			"id": 16680795,
+			"term": "Afghanistan",
+			"type": "N/A",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAI",
+					"term": "Afghānestān"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -157,7 +240,9 @@
 	"term_school": null,
 	"term_materials": [
 		{
+			"id": 16561036,
 			"term": "wool",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -225,29 +310,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1800,
-	"media": [
-		{
-			"media_xref_id": 159266,
-			"media_master_id": 116739,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2088,
-			"pixel_w": 1976,
-			"file_name": "5256165128510022.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Wool",
@@ -258,20 +320,20 @@
 	"facet_place": [
 		{
 			"region": "Central Asia",
-			"country": "Afghanistan",
+			"country": "Turkmenistan",
 			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Central Asia",
-			"country": "Turkmenistan",
+			"country": "Afghanistan",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice —  · Afghanistan, Turkmenistan",
+		"reason": "grid-facets real slice —  · Turkmenistan, Afghanistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 46
 	}
 }

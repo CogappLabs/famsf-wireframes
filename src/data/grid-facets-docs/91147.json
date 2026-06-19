@@ -2,17 +2,18 @@
 	"id": 91147,
 	"accession_number": "1989.55.3a-b",
 	"sort_number": "1989.55.3a-b",
-	"title": "CYLINDER TRIPOD VESSEL WITH TEOTIHUACAN INFLUENCE",
+	"title": "Cylinder tripod vessel with Teotihuacan influence",
 	"object_name": "vessel",
-	"display_date": "A.D. 450–550",
-	"begin_iso_date": "450",
-	"end_iso_date": "550",
+	"date_display": "A.D. 450–550",
+	"date_start": "450",
+	"date_end": "550",
 	"medium": "Earthenware with painted stucco",
 	"medium_parts": ["Earthenware with painted stucco"],
-	"dimensions": "9 1/4 x 7 1/4 (23.5 x 18.4 cm)",
 	"credit_line": "Gift of William S. Judy Jr., M.D.",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Vessels & Containers",
+	"subclassification": null,
+	"culture": "Early Classic Maya",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1989-12-07",
 	"location_string": "de Young, 061, Cabinet 053, B",
 	"location_building": "de Young",
@@ -37,45 +40,121 @@
 	"titles": [
 		{
 			"title": "Cylinder tripod vessel with Teotihuacan influence",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 12835,
+			"id": 12835,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Maya",
-			"AlphaSort": "Maya",
+			"name": "Maya",
+			"name_sort": "Maya",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "",
 			"Institution": null,
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Maya"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "9 1/4 x 7 1/4 in. (23.5 x 18.4 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 163992,
+			"image_id": 128068,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2130,
+			"width": 1772,
+			"file_name": "8235318347410032.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "9 1/4 x 7 1/4 in. (23.5 x 18.4 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 23.5,
+				"width_cm": 18.4,
+				"depth_cm": null,
+				"height_in": 9.25,
+				"width_in": 7.25,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "9 1/4 x 7 1/4 in. (23.5 x 18.4 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 23.5,
+				"width_cm": 18.4,
+				"depth_cm": null,
+				"height_in": 9.25,
+				"width_in": 7.25,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -103,28 +182,9 @@
 	],
 	"term_place_of_creation": [
 		{
-			"term": "Guatemala",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABZ",
-					"term": "North and Central America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABZ.AAADU",
-					"term": "Guatemala"
-				}
-			]
-		},
-		{
+			"id": 20390706,
 			"term": "Honduras",
+			"type": "Descriptor",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -143,6 +203,29 @@
 					"term": "Honduras"
 				}
 			]
+		},
+		{
+			"id": 20354391,
+			"term": "Guatemala",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAADU",
+					"term": "Guatemala"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -151,7 +234,9 @@
 	"term_find_spot": null,
 	"term_period": [
 		{
+			"id": 16204575,
 			"term": "Early Classic",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -216,7 +301,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Maya",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Maya",
 	"sort_artist": "Maya",
 	"display_year": "450–550",
 	"doc_id": "1989.55.3a-b",
@@ -225,29 +310,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 450,
-	"media": [
-		{
-			"media_xref_id": 163992,
-			"media_master_id": 128068,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2130,
-			"pixel_w": 1772,
-			"file_name": "8235318347410032.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ceramic",
@@ -258,20 +320,20 @@
 	"facet_place": [
 		{
 			"region": "Central America",
-			"country": "Guatemala",
+			"country": "Honduras",
 			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Central America",
-			"country": "Honduras",
+			"country": "Guatemala",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — earthenware · Guatemala, Honduras",
+		"reason": "grid-facets real slice — earthenware · Honduras, Guatemala",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 46
 	}
 }

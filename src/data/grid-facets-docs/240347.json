@@ -2,17 +2,18 @@
 	"id": 240347,
 	"accession_number": "2011.51.26",
 	"sort_number": "2011.51.26",
-	"title": "KENDI",
+	"title": "Kendi",
 	"object_name": null,
-	"display_date": "14th–17th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "14th–17th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "brass",
 	"medium_parts": ["brass"],
-	"dimensions": "2 3/4 x 2 1/4 x 1 3/4 (7 x 5.7 x 4.4 cm)",
 	"credit_line": "Gift of the Robert and Helen Kuhn Family Trust",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Vessels & Containers",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2011-12-21",
 	"location_string": "de Young, 061, Cabinet 018, B",
 	"location_building": "de Young",
@@ -37,29 +40,120 @@
 	"titles": [
 		{
 			"title": "Kendi",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "2 3/4 x 2 1/4 x 1 3/4 in. (7 x 5.7 x 4.4 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 175591,
+			"image_id": 132655,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1452,
+			"width": 1268,
+			"file_name": "9187330237170067.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "2 3/4 x 2 1/4 x 1 3/4 in. (7 x 5.7 x 4.4 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 7.0,
+				"width_cm": 5.7,
+				"depth_cm": 4.4,
+				"height_in": 2.75,
+				"width_in": 2.25,
+				"depth_in": 1.75,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "2 3/4 x 2 1/4 x 1 3/4 in. (7 x 5.7 x 4.4 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 7.0,
+				"width_cm": 5.7,
+				"depth_cm": 4.4,
+				"height_in": 2.75,
+				"width_in": 2.25,
+				"depth_in": 1.75,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "2 3/4 x 2 1/4 x 1 3/4 in. (7 x 5.7 x 4.4 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 7.0,
+				"width_cm": 5.7,
+				"depth_cm": 4.4,
+				"height_in": 2.75,
+				"width_in": 2.25,
+				"depth_in": 1.75,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -87,28 +181,9 @@
 	],
 	"term_place_of_creation": [
 		{
-			"term": "Cambodia",
-			"certainty": "Possibly",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAQY",
-					"term": "Kâmpŭchéa"
-				}
-			]
-		},
-		{
+			"id": 20653576,
 			"term": "Indonesia",
+			"type": "Descriptor",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -129,7 +204,9 @@
 			]
 		},
 		{
-			"term": "Thailand",
+			"id": 20713503,
+			"term": "Cambodia",
+			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -144,13 +221,15 @@
 				},
 				{
 					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAEC",
-					"term": "Prathet Thai"
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQY",
+					"term": "Kâmpŭchéa"
 				}
 			]
 		},
 		{
+			"id": 17108019,
 			"term": "Vietnam",
+			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -167,6 +246,29 @@
 					"depth": 3,
 					"cn": "AUZ.AAAAB.AAAAJ.AAAIT",
 					"term": "Việt Nam"
+				}
+			]
+		},
+		{
+			"id": 16928810,
+			"term": "Thailand",
+			"type": "N/A",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAEC",
+					"term": "Prathet Thai"
 				}
 			]
 		}
@@ -194,29 +296,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 175591,
-			"media_master_id": 132655,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1452,
-			"pixel_w": 1268,
-			"file_name": "9187330237170067.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Metal",
@@ -227,19 +306,13 @@
 	"facet_place": [
 		{
 			"region": "Southeast Asia",
-			"country": "Cambodia",
-			"state": "",
-			"notable": ""
-		},
-		{
-			"region": "Southeast Asia",
 			"country": "Indonesia",
 			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Southeast Asia",
-			"country": "Thailand",
+			"country": "Cambodia",
 			"state": "",
 			"notable": ""
 		},
@@ -248,10 +321,16 @@
 			"country": "Vietnam",
 			"state": "",
 			"notable": ""
+		},
+		{
+			"region": "Southeast Asia",
+			"country": "Thailand",
+			"state": "",
+			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — bras · Cambodia, Indonesia, Thailand",
+		"reason": "grid-facets real slice — bras · Indonesia, Cambodia, Vietnam",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 37
 	}

@@ -2,20 +2,21 @@
 	"id": 115020,
 	"accession_number": "2003.86",
 	"sort_number": "2003.86",
-	"title": "MAN'S PONCHO",
+	"title": "Man's poncho",
 	"object_name": "man's costume",
-	"display_date": "18th century",
-	"begin_iso_date": "1701",
-	"end_iso_date": "1800",
+	"date_display": "18th century",
+	"date_start": "1701",
+	"date_end": "1800",
 	"medium": "Wool, silk, metallic thread; plain weave, embroidery (satin, stem, couching, and laid stitches)",
 	"medium_parts": [
 		"Wool, silk, metallic thread",
 		"plain weave, embroidery (satin, stem, couching, and laid stitches)"
 	],
-	"dimensions": "74 x 52 in., (188 x 132.1 cm,)",
 	"credit_line": "The Caroline and H. McCoy Jones Collection, Gift of Caroline McCoy-Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": null,
+	"culture": "Spanish Colonial period",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": "This elaborately embroidered poncho showcases a rich overlay of materials, techniques, and imagery that reflects Spain’s control of Peru during the Colonial Period (1533–1821) and the westernizing impact on its textile manufacturing. With the establishment of the Manila galleons—Spanish ships that made yearly voyages between Manila, Philippines; Acapulco, Mexico; and Lima, Peru—South America became part of the Spanish Empire’s expansive global trade network. By the seventeenth century, Lima was a well-established market for luxury imports from both Europe and Asia, such as European woolens and metallic threads and Chinese silks.This poncho is made completely from imported goods— European navy-blue wool cloth and metallic threads (quite possibly made with American silver) and Chinese silk floss. Also imported were the European embroidery techniques. Recognizing the high skill of Andean textile artisans, Spain quickly established textile manufacturing in Peru, and master embroiderers were among the first craftspeople to be brought to the Americas. These artisans established workshops that employed the same techniques used in Spanish and Italian ecclesiastical embroidery, including couched and laid-stitch metallic-thread embroidery (Phipps 2013, 36–37). The poncho displays imagery that reflects the history of the Habsburg reign, with numerous colonial elements such as the double-headed eagle, the crowned lion, and Melusine—the mermaid with two tails. Such regal garments were often given to notable figures, such as generals, as may have been the case with this poncho of a fine navy cloth resembling that of an officer’s uniform. jkd",
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2003-10-09",
 	"location_string": "de Young, 059, Cabinet 01, D",
 	"location_building": "de Young",
@@ -40,29 +43,191 @@
 	"titles": [
 		{
 			"title": "Man's poncho",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "74 x 52 in., (188 x 132.1 cm,)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 122989,
+			"image_id": 166881,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4736,
+			"width": 3404,
+			"file_name": "A364856_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 122990,
+			"image_id": 34145,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3000,
+			"width": 2156,
+			"file_name": "0913200715570019.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 122992,
+			"image_id": 155069,
+			"rank": 4,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2528,
+			"width": 1708,
+			"file_name": "2305200314550290.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "74 x 52 in., (188 x 132.1 cm,)",
+			"type": "Weight",
+			"element": "Overall",
+			"unit": "Pounds",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 188.0,
+				"width_cm": 132.1,
+				"depth_cm": null,
+				"height_in": 74.0,
+				"width_in": 52.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "74 x 52 in., (188 x 132.1 cm,)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 188.0,
+				"width_cm": 132.1,
+				"depth_cm": null,
+				"height_in": 74.0,
+				"width_in": 52.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "74 x 52 in., (188 x 132.1 cm,)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 188.0,
+				"width_cm": 132.1,
+				"depth_cm": null,
+				"height_in": 74.0,
+				"width_in": 52.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "74 x 52 in., (188 x 132.1 cm,)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 188.0,
+				"width_cm": 132.1,
+				"depth_cm": null,
+				"height_in": 74.0,
+				"width_in": 52.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -90,7 +255,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20467694,
 			"term": "Peru",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -117,7 +284,9 @@
 	"term_find_spot": null,
 	"term_period": [
 		{
+			"id": 16383899,
 			"term": "Spanish Colonial",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -186,65 +355,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1701,
-	"media": [
-		{
-			"media_xref_id": 122990,
-			"media_master_id": 34145,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 3000,
-			"pixel_w": 2156,
-			"file_name": "0913200715570019.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 122992,
-			"media_master_id": 155069,
-			"rank": 4,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2528,
-			"pixel_w": 1708,
-			"file_name": "2305200314550290.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 122989,
-			"media_master_id": 166881,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 4736,
-			"pixel_w": 3404,
-			"file_name": "A364856_V1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Silk",
@@ -275,6 +385,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , satin, , metallic thread … · Peru",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 46
 	}
 }

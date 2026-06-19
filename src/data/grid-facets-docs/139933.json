@@ -2,21 +2,22 @@
 	"id": 139933,
 	"accession_number": "2018.81.29",
 	"sort_number": "2018.81.29",
-	"title": "WOMAN'S SKIRT",
+	"title": "Woman's skirt",
 	"object_name": "woman's costume",
-	"display_date": "mid 20th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "mid 20th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "cotton, metallic thread; warp-predominant plain weave; embroidery",
 	"medium_parts": [
 		"cotton, metallic thread",
 		"warp-predominant plain weave",
 		"embroidery"
 	],
-	"dimensions": "108 x 124.5 cm (42 1/2 x 49 in.)",
 	"credit_line": "Gift from Rita Barela and Thomas K. Seligman",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -30,6 +31,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2018-10-30",
 	"location_string": "de Young, 059, Cabinet 30, J",
 	"location_building": "de Young",
@@ -41,22 +44,92 @@
 	"titles": [
 		{
 			"title": "Woman's skirt",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "42 1/2 x 49 in. (108 x 124.5 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 151698,
+			"image_id": 185260,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8801,
+			"width": 8040,
+			"file_name": "A411733_V1.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "42 1/2 x 49 in. (108 x 124.5 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 108.0,
+				"width_cm": 124.5,
+				"depth_cm": null,
+				"height_in": 42.5,
+				"width_in": 49.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "42 1/2 x 49 in. (108 x 124.5 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 108.0,
+				"width_cm": 124.5,
+				"depth_cm": null,
+				"height_in": 42.5,
+				"width_in": 49.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -64,7 +137,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20354386,
 			"term": "Guatemala",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -108,29 +183,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 151698,
-			"media_master_id": 185260,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8801,
-			"pixel_w": 8040,
-			"file_name": "A411733_V1.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",

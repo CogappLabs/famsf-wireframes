@@ -2,17 +2,18 @@
 	"id": 213406,
 	"accession_number": "46579.34",
 	"sort_number": "46579.34",
-	"title": "ADZE (49-74)",
+	"title": "Adze (49-74)",
 	"object_name": "adze",
-	"display_date": null,
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": null,
+	"date_start": null,
+	"date_end": null,
 	"medium": "stone",
 	"medium_parts": ["stone"],
-	"dimensions": null,
 	"credit_line": "Gift of Sergeant G.H. Hornbostel",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Tools & Equipment",
+	"subclassification": "Transportation",
+	"culture": "Chamorros",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1919-12-01",
 	"location_string": "de Young, 061, Cabinet 102, B",
 	"location_building": "de Young",
@@ -37,30 +40,73 @@
 	"titles": [
 		{
 			"title": "Adze (49-74)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 41404,
+			"id": 41404,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Chamorro",
-			"AlphaSort": "Chamorro",
+			"name": "Chamorro",
+			"name_sort": "Chamorro",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Chamorro"
 		}
 	],
-	"dimensions_structured": null,
+	"media": [
+		{
+			"media_xref_id": 83275,
+			"image_id": 29971,
+			"rank": 2,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1168,
+			"width": 644,
+			"file_name": "0430200102200131.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -68,7 +114,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 18210798,
 			"term": "Mariana Islands",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -89,7 +137,9 @@
 			]
 		},
 		{
+			"id": 16759499,
 			"term": "Guam",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -124,7 +174,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Chamorro",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Chamorro",
 	"sort_artist": "Chamorro",
 	"display_year": null,
 	"doc_id": "46579.34",
@@ -133,29 +183,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 83275,
-			"media_master_id": 29971,
-			"rank": 2,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1168,
-			"pixel_w": 644,
-			"file_name": "0430200102200131.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Stone",
@@ -180,6 +207,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice —  · Mariana Islands, Guam",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 34
+		"populated_fields": 37
 	}
 }

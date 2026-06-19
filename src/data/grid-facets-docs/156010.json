@@ -2,20 +2,21 @@
 	"id": 156010,
 	"accession_number": "20290",
 	"sort_number": "20290",
-	"title": "WOMAN'S VEIL",
+	"title": "Woman's veil",
 	"object_name": "headwear",
-	"display_date": "19th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "19th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "Cotton, brass (nosepiece), metal (chains, coins), metallic thread; plain weave with drawn-thread embroidery (veil), commercial velvet with metallic embroidery (headband), applied accessory objects me(headband)",
 	"medium_parts": [
 		"Cotton, brass (nosepiece), metal (chains, coins), metallic thread",
 		"plain weave with drawn-thread embroidery (veil), commercial velvet with metallic embroidery (headband), applied accessory objects me(headband)"
 	],
-	"dimensions": "113.5 x 20 x 2.5 cm (44 11/16 x 7 7/8 x 1 in.)",
 	"credit_line": "Gift of M.H. de Young",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": "Purchased by M.H. deYoung on February 12, 1901 from the \"sales room\" of the Ghizeh Museum, per Emil Brugsch Bey, Conservateur du Mesee de Ghizeh.",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1901-06-15",
 	"location_string": "de Young, 059, Cabinet 24, A",
 	"location_building": "de Young",
@@ -40,22 +43,111 @@
 	"titles": [
 		{
 			"title": "Woman's veil",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "44 11/16 x 7 7/8 x 1 in. (113.5 x 20 x 2.5 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 82837,
+			"image_id": 50899,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2952,
+			"width": 1057,
+			"file_name": "2002101715130349.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "44 11/16 x 7 7/8 x 1 in. (113.5 x 20 x 2.5 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 113.5,
+				"width_cm": 20.0,
+				"depth_cm": 2.5,
+				"height_in": 44.6875,
+				"width_in": 7.875,
+				"depth_in": 1.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "44 11/16 x 7 7/8 x 1 in. (113.5 x 20 x 2.5 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 113.5,
+				"width_cm": 20.0,
+				"depth_cm": 2.5,
+				"height_in": 44.6875,
+				"width_in": 7.875,
+				"depth_in": 1.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "44 11/16 x 7 7/8 x 1 in. (113.5 x 20 x 2.5 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 113.5,
+				"width_cm": 20.0,
+				"depth_cm": 2.5,
+				"height_in": 44.6875,
+				"width_in": 7.875,
+				"depth_in": 1.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -63,7 +155,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 16943588,
 			"term": "Sudan",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -107,29 +201,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 82837,
-			"media_master_id": 50899,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2952,
-			"pixel_w": 1057,
-			"file_name": "2002101715130349.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",
@@ -160,6 +231,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , , bras, metallic thread · Sudan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 37
 	}
 }

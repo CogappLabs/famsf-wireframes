@@ -260,6 +260,10 @@ def main() -> None:
             {CONSTITUENT_KEY_MAP.get(k, k): v for k, v in c.items()}
             for c in (doc.get("constituents") or [])
         ]
+        # Top-level `culture` (tribes + ancient civilisations) is carried
+        # straight through from the parquet (SELECT *); normalise empty -> null.
+        culture = doc.get("culture")
+        doc["culture"] = culture if (culture or "").strip() else None
         doc, keep = derive_facets(doc, mat_xwalk, place_xwalk)
         if keep:
             candidates.append(doc)

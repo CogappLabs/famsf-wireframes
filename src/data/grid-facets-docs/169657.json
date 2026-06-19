@@ -2,17 +2,18 @@
 	"id": 169657,
 	"accession_number": "2006.133",
 	"sort_number": "2006.133",
-	"title": "EVENING GOWN",
+	"title": "Evening gown",
 	"object_name": "woman's costume",
-	"display_date": "ca. 2005",
-	"begin_iso_date": "2005",
-	"end_iso_date": "2005",
+	"date_display": "ca. 2005",
+	"date_start": "2005",
+	"date_end": "2005",
 	"medium": "silk chiffon, beads, sequins, rhinestones, metal thread",
 	"medium_parts": ["silk chiffon, beads, sequins, rhinestones, metal thread"],
-	"dimensions": "147.3 x 50.8 x 2.5 cm (58 x 20 x 1 in.)",
 	"credit_line": "Gift of Diana Dollar Knowles",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2006-12-31",
 	"location_string": "de Young, 059, Cabinet 19, G",
 	"location_building": "de Young",
@@ -37,38 +40,131 @@
 	"titles": [
 		{
 			"title": "Evening gown",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 213,
+			"id": 213,
 			"Role": "Designer",
 			"RoleID": 67,
-			"DisplayName": "Oscar de la Renta",
-			"AlphaSort": "Oscar de la Renta",
+			"name": "Oscar de la Renta",
+			"name_sort": "Oscar de la Renta",
 			"Nationality": "American",
+			"place_born": "Santo Domingo",
+			"place_died": "Kent",
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1932,
 			"EndDate": 2014,
-			"DisplayDate": "1932–2014",
+			"dates": "1932–2014",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Oscar de la Renta (1932–2014)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "58 x 20 x 1 in. (147.3 x 50.8 x 2.5 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 132403,
+			"image_id": 22345,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3000,
+			"width": 1705,
+			"file_name": "0412201212100001.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "58 x 20 x 1 in. (147.3 x 50.8 x 2.5 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 147.3,
+				"width_cm": 50.8,
+				"depth_cm": 2.5,
+				"height_in": 58.0,
+				"width_in": 20.0,
+				"depth_in": 1.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "58 x 20 x 1 in. (147.3 x 50.8 x 2.5 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 147.3,
+				"width_cm": 50.8,
+				"depth_cm": 2.5,
+				"height_in": 58.0,
+				"width_in": 20.0,
+				"depth_in": 1.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "58 x 20 x 1 in. (147.3 x 50.8 x 2.5 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 147.3,
+				"width_cm": 50.8,
+				"depth_cm": 2.5,
+				"height_in": 58.0,
+				"width_in": 20.0,
+				"depth_in": 1.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -76,7 +172,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 17130463,
 			"term": "New York City",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -130,29 +228,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 2005,
-	"media": [
-		{
-			"media_xref_id": 132403,
-			"media_master_id": 22345,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 3000,
-			"pixel_w": 1705,
-			"file_name": "0412201212100001.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Glass",

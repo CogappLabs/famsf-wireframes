@@ -2,19 +2,20 @@
 	"id": 88987,
 	"accession_number": "1982.2.70.1",
 	"sort_number": "1982.2.70.1",
-	"title": "PORTRAIT OF NAWAB SHUJA AL-DAULA (1732-1775, AFTER A PORTRAIT BY TILLY KETTLE) AND TWO PICTURES OF BEAUTY, A PAGE FROM THE LADY COOTE ALBUM",
+	"title": "Portrait of Nawab Shuja al-Daula (1732-1775, after a portrait by Tilly Kettle) and Two Pictures of Beauty, a page from the Lady Coote Album",
 	"object_name": "Portrait Landscape Animal Historical Waterscape",
-	"display_date": "ca. 1780",
-	"begin_iso_date": "1780",
-	"end_iso_date": "1780",
+	"date_display": "ca. 1780",
+	"date_start": "1780",
+	"date_end": "1780",
 	"medium": "Opaque and transparent watercolor, and ink, gold, and silver with selective burnishing on paper",
 	"medium_parts": [
 		"Opaque and transparent watercolor, and ink, gold, and silver with selective burnishing on paper"
 	],
-	"dimensions": "Overall (each): 15 3/16 x 16 3/16 in. (38.5 x 41.1 cm)\r\nOverall (album page): 17 11/16 x 24 1/8 in. (45 x 61.3 cm)",
 	"credit_line": "Museum Purchase, Partial Gift of Mr. and Mrs. John D. MacDonald and Achenbach Foundation for Graphic Arts Endowment Fund",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1982-01-01",
 	"location_string": "Out for Loan",
 	"location_building": "Out for Loan",
@@ -39,82 +42,313 @@
 	"titles": [
 		{
 			"title": "Portrait of Nawab Shuja al-Daula (1732-1775, after a portrait by Tilly Kettle) and Two Pictures of Beauty, a page from the Lady Coote Album",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 12535,
+			"id": 12535,
 			"Role": "After",
 			"RoleID": 37,
-			"DisplayName": "Tilly Kettle",
-			"AlphaSort": "Tilly Kettle",
+			"name": "Tilly Kettle",
+			"name_sort": "Tilly Kettle",
 			"Nationality": "English",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1735,
 			"EndDate": 1786,
-			"DisplayDate": "1735–1786",
+			"dates": "1735–1786",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Tilly Kettle (1735–1786)"
 		},
 		{
-			"ConstituentID": 2281,
+			"id": 2281,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Anonymous",
-			"AlphaSort": "Anonymous",
+			"name": "Anonymous",
+			"name_sort": "Anonymous",
 			"Nationality": "Indian",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "Indian or Persian",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "Indian or Persian",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 2,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Anonymous"
 		},
 		{
-			"ConstituentID": 12534,
+			"id": 12534,
 			"Role": "Attributed to",
 			"RoleID": 72,
-			"DisplayName": "Mihr Chand",
-			"AlphaSort": "Mihr Chand",
+			"name": "Mihr Chand",
+			"name_sort": "Mihr Chand",
 			"Nationality": "Indian",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "active 18th–19th century",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "active 18th–19th century",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 3,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Mihr Chand"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "15 3/16 x 16 3/16 in. (38.5 x 41.1 cm)",
-			"description": "sheet",
-			"element_name": "Overall",
-			"displayed": true,
-			"rank": 1
+			"media_xref_id": 71863,
+			"image_id": 160584,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 6805,
+			"width": 9354,
+			"file_name": "A027377_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		},
 		{
-			"display_dimensions": "17 11/16 x 24 1/8 in. (45 x 61.3 cm)",
-			"description": "album page",
-			"element_name": "Overall",
+			"media_xref_id": 71865,
+			"image_id": 22323,
+			"rank": 3,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2232,
+			"width": 3000,
+			"file_name": "0411201416270004.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 71864,
+			"image_id": 162628,
+			"rank": 2,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4707,
+			"width": 6791,
+			"file_name": "A027377_V2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 205040,
+			"image_id": 212531,
+			"rank": 1,
+			"primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5319,
+			"width": 6678,
+			"file_name": "MS_88987_20230510_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "15 3/16 x 16 3/16 in. (38.5 x 41.1 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 38.5,
+				"width_cm": 41.1,
+				"depth_cm": null,
+				"height_in": 15.1875,
+				"width_in": 16.1875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "15 3/16 x 16 3/16 in. (38.5 x 41.1 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 38.5,
+				"width_cm": 41.1,
+				"depth_cm": null,
+				"height_in": 15.1875,
+				"width_in": 16.1875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "15 3/16 x 16 3/16 in. (38.5 x 41.1 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 38.5,
+				"width_cm": 41.1,
+				"depth_cm": null,
+				"height_in": 15.1875,
+				"width_in": 16.1875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "17 11/16 x 24 1/8 in. (45 x 61.3 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 45.0,
+				"width_cm": 61.3,
+				"depth_cm": null,
+				"height_in": 17.6875,
+				"width_in": 24.125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "17 11/16 x 24 1/8 in. (45 x 61.3 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 45.0,
+				"width_cm": 61.3,
+				"depth_cm": null,
+				"height_in": 17.6875,
+				"width_in": 24.125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "17 11/16 x 24 1/8 in. (45 x 61.3 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 45.0,
+				"width_cm": 61.3,
+				"depth_cm": null,
+				"height_in": 17.6875,
+				"width_in": 24.125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -145,33 +379,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
-			"term": "Mughal Empire",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
-					"term": "South Asia"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
-					"term": "Mughal Empire"
-				}
-			]
-		},
-		{
+			"id": 18519652,
 			"term": "Lucknow",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -200,6 +410,34 @@
 					"term": "Lucknow"
 				}
 			]
+		},
+		{
+			"id": 20567676,
+			"term": "Mughal Empire",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK",
+					"term": "Mughal Empire"
+				}
+			]
 		}
 	],
 	"term_find_spot": null,
@@ -210,7 +448,9 @@
 	"term_movement": null,
 	"term_school": [
 		{
+			"id": 16343175,
 			"term": "Lucknow",
+			"type": "Used For Term",
 			"certainty": null,
 			"path": [
 				{
@@ -260,7 +500,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Anonymous",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Anonymous",
 	"sort_artist": "Anonymous",
 	"display_year": "1780",
 	"doc_id": "1982.2.70.1",
@@ -269,83 +509,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1780,
-	"media": [
-		{
-			"media_xref_id": 71864,
-			"media_master_id": 162628,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 4707,
-			"pixel_w": 6791,
-			"file_name": "A027377_V2.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 71865,
-			"media_master_id": 22323,
-			"rank": 3,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2232,
-			"pixel_w": 3000,
-			"file_name": "0411201416270004.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 71863,
-			"media_master_id": 160584,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 6805,
-			"pixel_w": 9354,
-			"file_name": "A027377_V1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 205040,
-			"media_master_id": 212531,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 3,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 5319,
-			"pixel_w": 6678,
-			"file_name": "MS_88987_20230510_1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Gold & silver",
@@ -367,20 +530,20 @@
 	"facet_technique": [],
 	"facet_place": [
 		{
-			"region": "South Asia",
-			"country": "",
-			"state": "",
-			"notable": "Mughal Empire"
-		},
-		{
 			"region": "East Asia",
 			"country": "",
 			"state": "",
 			"notable": "Lucknow"
+		},
+		{
+			"region": "South Asia",
+			"country": "",
+			"state": "",
+			"notable": "Mughal Empire"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — gold, silver, , transparent watercolor · Mughal Empire, Lucknow",
+		"reason": "grid-facets real slice — gold, silver, , transparent watercolor · Lucknow, Mughal Empire",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

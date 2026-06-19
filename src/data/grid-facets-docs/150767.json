@@ -2,17 +2,18 @@
 	"id": 150767,
 	"accession_number": "2012.76.65.1",
 	"sort_number": "2012.76.65.1",
-	"title": "ENIGMATICO II, FROM THE WORLD PRINT THREE PORTFOLIO",
+	"title": "Enigmatico II, from the World Print Three portfolio",
 	"object_name": null,
-	"display_date": "1980",
-	"begin_iso_date": "1980",
-	"end_iso_date": "1980",
+	"date_display": "1980",
+	"date_start": "1980",
+	"date_end": "1980",
 	"medium": "etching, mezzotint",
 	"medium_parts": ["etching, mezzotint"],
-	"dimensions": "Sheet: 540 x 749 mm (21 1/4 x 29 1/2 in.); Image: 400 x 605 mm (15 3/4 x 23 13/16 in.)",
 	"credit_line": "Gift from the collection of Mas and Toshiko Yonemura by their children, Ann, Jean and Paul",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Print",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2012-12-31",
 	"location_string": "Legion, 210, Compact Shelf 29, 104",
 	"location_building": "Legion",
@@ -37,52 +40,159 @@
 	"titles": [
 		{
 			"title": "Enigmatico II, from the World Print Three portfolio",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 18768,
+			"id": 18768,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Rodolfo Abularach",
-			"AlphaSort": "Rodolfo Abularach",
+			"name": "Rodolfo Abularach",
+			"name_sort": "Rodolfo Abularach",
 			"Nationality": "Guatemalan",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1933,
-			"EndDate": 0,
-			"DisplayDate": "b. 1933",
+			"EndDate": null,
+			"dates": "b. 1933",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "b. 1933"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "15 3/4 x 23 13/16 in. (40 x 60.5 cm)",
-			"description": null,
-			"element_name": "Image",
+			"media_xref_id": 142133,
+			"image_id": 33068,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2448,
+			"width": 3399,
+			"file_name": "0810201316250078.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "15 3/4 x 23 13/16 in. (40 x 60.5 cm)",
+			"type": "Width",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 40.0,
+				"width_cm": 60.5,
+				"depth_cm": null,
+				"height_in": 15.75,
+				"width_in": 23.8125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "21 1/4 x 29 1/2 in. (54 x 74.9 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Sheet (4D)",
+			"value": "15 3/4 x 23 13/16 in. (40 x 60.5 cm)",
+			"type": "Height",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 40.0,
+				"width_cm": 60.5,
+				"depth_cm": null,
+				"height_in": 15.75,
+				"width_in": 23.8125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "21 1/4 x 29 1/2 in. (54 x 74.9 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 54.0,
+				"width_cm": 74.9,
+				"depth_cm": null,
+				"height_in": 21.25,
+				"width_in": 29.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "21 1/4 x 29 1/2 in. (54 x 74.9 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 54.0,
+				"width_cm": 74.9,
+				"depth_cm": null,
+				"height_in": 21.25,
+				"width_in": 29.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -113,7 +223,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 20354391,
 			"term": "Guatemala",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -154,29 +266,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1980,
-	"media": [
-		{
-			"media_xref_id": 142133,
-			"media_master_id": 33068,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2448,
-			"pixel_w": 3399,
-			"file_name": "0810201316250078.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [],
 	"facet_technique": ["etching", "mezzotint"],
 	"facet_place": [

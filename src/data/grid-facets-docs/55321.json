@@ -2,19 +2,20 @@
 	"id": 55321,
 	"accession_number": "1942.14",
 	"sort_number": "1942.14",
-	"title": "GENEIGTER KOPF MIT GESCHLOSSENEN AUGEN (INCLINED HEAD WITH CLOSED EYES)",
+	"title": "Geneigter Kopf mit geschlossenen Augen (Inclined Head with Closed Eyes)",
 	"object_name": null,
-	"display_date": "ca. 1922",
-	"begin_iso_date": "1922",
-	"end_iso_date": "1922",
+	"date_display": "ca. 1922",
+	"date_start": "1922",
+	"date_end": "1922",
 	"medium": "watercolor (yellow, orange, red) over pen and black ink on cream machine-made laid paper",
 	"medium_parts": [
 		"watercolor (yellow, orange, red) over pen and black ink on cream machine-made laid paper"
 	],
-	"dimensions": "Sheet: 213 x 136 mm (8 3/8 x 5 3/8 in.)",
 	"credit_line": "Giift of Mrs. J. Wolf in memory of Miss Rachel Abel",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": "© Estate of Alexej von Jawlensky / Artists Rights Society (ARS), New York",
 	"object_rights_type": "Copyright - ARS",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": "Provenance: Artist's studio; Rachel Abel; Mrs. J. Wolf; gift to CPLH 1942",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1942-06-09",
 	"location_string": "Legion, 210, Compact Shelf 24, 106",
 	"location_building": "Legion",
@@ -39,45 +42,121 @@
 	"titles": [
 		{
 			"title": "Geneigter Kopf mit geschlossenen Augen (Inclined Head with Closed Eyes)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 2979,
+			"id": 2979,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Alexej von Jawlensky",
-			"AlphaSort": "Alexei von Jawlensky",
+			"name": "Alexej von Jawlensky",
+			"name_sort": "Alexei von Jawlensky",
 			"Nationality": "Russian",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1864,
 			"EndDate": 1941,
-			"DisplayDate": "1864–1941",
+			"dates": "1864–1941",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Alexej von Jawlensky (1864–1941)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "8 3/8 x 5 3/8 in. (21.3 x 13.6 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Sheet (4D)",
+			"media_xref_id": 20004,
+			"image_id": 61029,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1960,
+			"width": 1552,
+			"file_name": "3154201306480089.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "8 3/8 x 5 3/8 in. (21.3 x 13.6 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 21.3,
+				"width_cm": 13.6,
+				"depth_cm": null,
+				"height_in": 8.375,
+				"width_in": 5.375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "8 3/8 x 5 3/8 in. (21.3 x 13.6 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 21.3,
+				"width_cm": 13.6,
+				"depth_cm": null,
+				"height_in": 8.375,
+				"width_in": 5.375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -108,7 +187,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 16964870,
 			"term": "Russia",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -149,29 +230,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": 1922,
-	"media": [
-		{
-			"media_xref_id": 20004,
-			"media_master_id": 61029,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1960,
-			"pixel_w": 1552,
-			"file_name": "3154201306480089.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ink",

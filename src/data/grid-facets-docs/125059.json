@@ -2,17 +2,18 @@
 	"id": 125059,
 	"accession_number": "1992.107.43",
 	"sort_number": "1992.107.43",
-	"title": "HAT, LAPPETED",
+	"title": "Hat, lappeted",
 	"object_name": "miscellaneous cost. accessory",
-	"display_date": "18th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "18th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "camelid hair, linen, embroidery",
 	"medium_parts": ["camelid hair, linen, embroidery"],
-	"dimensions": "19 x 80.2 cm (7 1/2 x 31 9/16 in.)",
 	"credit_line": "The Jeffrey Appleby Andean Textile Collection",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": "Quechua or Spanish",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1992-06-30",
 	"location_string": "de Young, 059, Cabinet 33, D",
 	"location_building": "de Young",
@@ -37,45 +40,140 @@
 	"titles": [
 		{
 			"title": "Hat, lappeted",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 41147,
+			"id": 41147,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Quechua",
-			"AlphaSort": "Quechua",
+			"name": "Quechua",
+			"name_sort": "Quechua",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "possibly",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Quechua"
+		},
+		{
+			"id": 41147,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Quechua",
+			"name_sort": "Quechua",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Quechua"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "7 1/2 x 31 9/16 in. (19 x 80.2 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 94977,
+			"image_id": 125837,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1120,
+			"width": 2756,
+			"file_name": "6250307134210073.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "7 1/2 x 31 9/16 in. (19 x 80.2 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 19.0,
+				"width_cm": 80.2,
+				"depth_cm": null,
+				"height_in": 7.5,
+				"width_in": 31.5625,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "7 1/2 x 31 9/16 in. (19 x 80.2 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 19.0,
+				"width_cm": 80.2,
+				"depth_cm": null,
+				"height_in": 7.5,
+				"width_in": 31.5625,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -103,33 +201,9 @@
 	],
 	"term_place_of_creation": [
 		{
-			"term": "Lima",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAACT",
-					"term": "South America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAACT.AAAEL",
-					"term": "Perú"
-				},
-				{
-					"depth": 4,
-					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAABK",
-					"term": "Lima, Región de"
-				}
-			]
-		},
-		{
+			"id": 18195556,
 			"term": "Cuzco",
+			"type": "Descriptor",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -151,6 +225,34 @@
 					"depth": 4,
 					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAAAW",
 					"term": "Cuzco"
+				}
+			]
+		},
+		{
+			"id": 19715485,
+			"term": "Lima",
+			"type": "N/A",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL",
+					"term": "Perú"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL.AAABK",
+					"term": "Lima, Región de"
 				}
 			]
 		}
@@ -178,29 +280,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 94977,
-			"media_master_id": 125837,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1120,
-			"pixel_w": 2756,
-			"file_name": "6250307134210073.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Textile",
@@ -213,18 +292,18 @@
 			"region": "South America",
 			"country": "Peru",
 			"state": "",
-			"notable": "Lima"
+			"notable": "Cuzco"
 		},
 		{
 			"region": "South America",
 			"country": "Peru",
 			"state": "",
-			"notable": "Cuzco"
+			"notable": "Lima"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — linen, embroidery · Lima, Cuzco",
+		"reason": "grid-facets real slice — linen, embroidery · Cuzco, Lima",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 39
+		"populated_fields": 41
 	}
 }

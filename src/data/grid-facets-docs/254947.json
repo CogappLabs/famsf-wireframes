@@ -2,17 +2,18 @@
 	"id": 254947,
 	"accession_number": "T&D1962.89.dup2",
 	"sort_number": "T&D1962.89.dup2",
-	"title": "GISELLE: COSTUME FOR WILFRID, ACT I",
+	"title": "Giselle: costume for Wilfrid, Act I",
 	"object_name": null,
-	"display_date": "1949",
-	"begin_iso_date": "1949",
-	"end_iso_date": "1949",
+	"date_display": "1949",
+	"date_start": "1949",
+	"date_end": "1949",
 	"medium": "Pencil, pen and ink, and watercolor on paper",
 	"medium_parts": ["Pencil, pen and ink, and watercolor on paper"],
-	"dimensions": "20.8 x 11.5 cm (image); 24.7 x 16.2 cm (sheet)",
 	"credit_line": "Theater and Dance Collection, gift of Mrs. Adolph B. Spreckels",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": "© Estate of Alexandre Benois / Artists Rights Society (ARS), New York",
 	"object_rights_type": "Copyright - ARS",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1962-01-01",
 	"location_string": "Legion, 210, Compact Shelf 23, 214",
 	"location_building": "Legion",
@@ -37,52 +40,159 @@
 	"titles": [
 		{
 			"title": "Giselle: costume for Wilfrid, Act I",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 4277,
+			"id": 4277,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Alexandre Benois",
-			"AlphaSort": "Alexandre Benois",
+			"name": "Alexandre Benois",
+			"name_sort": "Alexandre Benois",
 			"Nationality": "Russian",
+			"place_born": "Saint Petersburg",
+			"place_died": "Paris",
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1870,
 			"EndDate": 1960,
-			"DisplayDate": "1870–1960",
+			"dates": "1870–1960",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Alexandre Benois (1870–1960)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "8 3/16 x 4 1/2 in. (20.8 x 11.5 cm)",
-			"description": null,
-			"element_name": "Image",
+			"media_xref_id": 19978,
+			"image_id": 86432,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2808,
+			"width": 1916,
+			"file_name": "3328201308170019.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "8 3/16 x 4 1/2 in. (20.8 x 11.5 cm)",
+			"type": "Width",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 20.8,
+				"width_cm": 11.5,
+				"depth_cm": null,
+				"height_in": 8.1875,
+				"width_in": 4.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "9 3/4 x 6 3/8 in. (24.7 x 16.2 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Sheet (4D)",
+			"value": "8 3/16 x 4 1/2 in. (20.8 x 11.5 cm)",
+			"type": "Height",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 20.8,
+				"width_cm": 11.5,
+				"depth_cm": null,
+				"height_in": 8.1875,
+				"width_in": 4.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "9 3/4 x 6 3/8 in. (24.7 x 16.2 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 24.7,
+				"width_cm": 16.2,
+				"depth_cm": null,
+				"height_in": 9.75,
+				"width_in": 6.375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "9 3/4 x 6 3/8 in. (24.7 x 16.2 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 24.7,
+				"width_cm": 16.2,
+				"depth_cm": null,
+				"height_in": 9.75,
+				"width_in": 6.375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -113,7 +223,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 16964870,
 			"term": "Russia",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -154,29 +266,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1949,
-	"media": [
-		{
-			"media_xref_id": 19978,
-			"media_master_id": 86432,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2808,
-			"pixel_w": 1916,
-			"file_name": "3328201308170019.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ink",

@@ -2,17 +2,18 @@
 	"id": 224157,
 	"accession_number": "50.32.315",
 	"sort_number": "50.32.315",
-	"title": "AXE (IN TWO PARTS)",
+	"title": "Axe (in two parts)",
 	"object_name": "axe",
-	"display_date": null,
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": null,
+	"date_start": null,
+	"date_end": null,
 	"medium": "stone, wood, and resin",
 	"medium_parts": ["stone, wood, and resin"],
-	"dimensions": "12 1/2 (31.8 cm)",
 	"credit_line": "Gift of Wilfrid H. Hemingway",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Tools & Equipment",
+	"subclassification": "Transportation",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": "collected by Wilfrid Hubert Hemingway in Australia between 1910 and 1924\r\nloaned to the deYoung Museum in 1932\r\ndonated to the deYoung Museum by Hemingway's wife in 1950",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1950-10-26",
 	"location_string": "de Young, 061, Cabinet 005, A",
 	"location_building": "de Young",
@@ -37,22 +40,99 @@
 	"titles": [
 		{
 			"title": "Axe (in two parts)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "12 1/2 in. (31.8 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 83327,
+			"image_id": 40298,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2902,
+			"width": 3886,
+			"file_name": "1012200813050058.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 83328,
+			"image_id": 57820,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3020,
+			"width": 4348,
+			"file_name": "2801200914500029.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "12 1/2 in. (31.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 31.8,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 12.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -60,7 +140,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 19239190,
 			"term": "Nullagine",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -114,47 +196,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 83328,
-			"media_master_id": 57820,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 3020,
-			"pixel_w": 4348,
-			"file_name": "2801200914500029.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 83327,
-			"media_master_id": 40298,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2902,
-			"pixel_w": 3886,
-			"file_name": "1012200813050058.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Stone",
@@ -177,6 +218,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — ,  · Nullagine",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 34
+		"populated_fields": 35
 	}
 }

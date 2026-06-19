@@ -2,19 +2,20 @@
 	"id": 99206,
 	"accession_number": "1983.83.22",
 	"sort_number": "1983.83.22",
-	"title": "FAN",
+	"title": "Fan",
 	"object_name": "fan",
-	"display_date": "ca. 1900",
-	"begin_iso_date": "1895",
-	"end_iso_date": "1905",
+	"date_display": "ca. 1900",
+	"date_start": "1895",
+	"date_end": "1905",
 	"medium": "Opaque watercolor, gold paint, and sequins on silk, painted and gilded ivory sticks and guards, brass ring, silk tassel and passementerie",
 	"medium_parts": [
 		"Opaque watercolor, gold paint, and sequins on silk, painted and gilded ivory sticks and guards, brass ring, silk tassel and passementerie"
 	],
-	"dimensions": "10 in., (25.4 cm,)",
 	"credit_line": "Bequest of Consuelo Y. Ziroli",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Requires Further Research",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1984-01-05",
 	"location_string": "de Young, 059, Cabinet 17, P",
 	"location_building": "de Young",
@@ -39,22 +42,130 @@
 	"titles": [
 		{
 			"title": "Fan",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "10 in., (25.4 cm,)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 93476,
+			"image_id": 21855,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1767,
+			"width": 2898,
+			"file_name": "0409200109160118.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "10 in., (25.4 cm,)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 25.4,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 in., (25.4 cm,)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 25.4,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 in., (25.4 cm,)",
+			"type": "Weight",
+			"element": "Overall",
+			"unit": "Pounds",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 25.4,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 in., (25.4 cm,)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 25.4,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -62,7 +173,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20618668,
 			"term": "France",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -106,29 +219,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1895,
-	"media": [
-		{
-			"media_xref_id": 93476,
-			"media_master_id": 21855,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1767,
-			"pixel_w": 2898,
-			"file_name": "0409200109160118.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Metal",
@@ -171,6 +261,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — brass ring, gold paint, opaque watercolor, painted … · France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 41
+		"populated_fields": 42
 	}
 }

@@ -2,17 +2,18 @@
 	"id": 147840,
 	"accession_number": "1999.142.104",
 	"sort_number": "1999.142.104",
-	"title": "HEADHUNTER NECKLACE",
+	"title": "Headhunter Necklace",
 	"object_name": null,
-	"display_date": "ca. 1900",
-	"begin_iso_date": "1900",
-	"end_iso_date": "1900",
+	"date_display": "ca. 1900",
+	"date_start": "1900",
+	"date_end": "1900",
 	"medium": "wood, multicolor beads, string, twine",
 	"medium_parts": ["wood, multicolor beads, string, twine"],
-	"dimensions": "15 3/4 x 9 1/4 x 1 1/2 (40 x 23.5 x 3.8 cm)",
 	"credit_line": "Bequest of John Gutmann",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": null,
+	"subclassification": null,
+	"culture": "Naga",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1999-12-09",
 	"location_string": "de Young, 061, Cabinet 080, D",
 	"location_building": "de Young",
@@ -37,22 +40,111 @@
 	"titles": [
 		{
 			"title": "Headhunter Necklace",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "15 3/4 x 9 1/4 x 1 1/2 in. (40 x 23.5 x 3.8 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 108349,
+			"image_id": 41728,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1824,
+			"width": 1674,
+			"file_name": "1107200011400048.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "15 3/4 x 9 1/4 x 1 1/2 in. (40 x 23.5 x 3.8 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 40.0,
+				"width_cm": 23.5,
+				"depth_cm": 3.8,
+				"height_in": 15.75,
+				"width_in": 9.25,
+				"depth_in": 1.5,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "15 3/4 x 9 1/4 x 1 1/2 in. (40 x 23.5 x 3.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 40.0,
+				"width_cm": 23.5,
+				"depth_cm": 3.8,
+				"height_in": 15.75,
+				"width_in": 9.25,
+				"depth_in": 1.5,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "15 3/4 x 9 1/4 x 1 1/2 in. (40 x 23.5 x 3.8 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 40.0,
+				"width_cm": 23.5,
+				"depth_cm": 3.8,
+				"height_in": 15.75,
+				"width_in": 9.25,
+				"depth_in": 1.5,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -60,33 +152,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
-			"term": "Nagaland",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
-					"term": "South Asia"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHM",
-					"term": "Nāgāland"
-				}
-			]
-		},
-		{
+			"id": 18184932,
 			"term": "Assam",
+			"type": "Descriptor",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -108,6 +176,34 @@
 					"depth": 5,
 					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAABU",
 					"term": "Assam"
+				}
+			]
+		},
+		{
+			"id": 20574251,
+			"term": "Nagaland",
+			"type": "N/A",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG",
+					"term": "South Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHM",
+					"term": "Nāgāland"
 				}
 			]
 		}
@@ -135,29 +231,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1900,
-	"media": [
-		{
-			"media_xref_id": 108349,
-			"media_master_id": 41728,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1824,
-			"pixel_w": 1674,
-			"file_name": "1107200011400048.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Wood",
@@ -178,18 +251,18 @@
 			"region": "East Asia",
 			"country": "",
 			"state": "",
-			"notable": "Nagaland"
+			"notable": "Assam"
 		},
 		{
 			"region": "East Asia",
 			"country": "",
 			"state": "",
-			"notable": "Assam"
+			"notable": "Nagaland"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , string, twine · Nagaland, Assam",
+		"reason": "grid-facets real slice — , string, twine · Assam, Nagaland",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 37
 	}
 }

@@ -2,19 +2,20 @@
 	"id": 75964,
 	"accession_number": "1988.13.3a",
 	"sort_number": "1988.13.3a",
-	"title": "FAN",
+	"title": "Fan",
 	"object_name": "fan",
-	"display_date": "mid 19th century",
-	"begin_iso_date": "1825",
-	"end_iso_date": "1875",
+	"date_display": "mid 19th century",
+	"date_start": "1825",
+	"date_end": "1875",
 	"medium": "Paint, ivory, and silk on paper, lacquered wood sticks and guards, brass ring",
 	"medium_parts": [
 		"Paint, ivory, and silk on paper, lacquered wood sticks and guards, brass ring"
 	],
-	"dimensions": null,
 	"credit_line": "Bequest of Blanche C. Matthias",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1988-07-13",
 	"location_string": "de Young, 059, Cabinet 17, A",
 	"location_building": "de Young",
@@ -39,21 +42,62 @@
 	"titles": [
 		{
 			"title": "Fan",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": null,
+	"media": [
+		{
+			"media_xref_id": 94591,
+			"image_id": 21877,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1515,
+			"width": 2400,
+			"file_name": "0409200109160147.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -81,7 +125,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 17121651,
 			"term": "China",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -125,29 +171,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1825,
-	"media": [
-		{
-			"media_xref_id": 94591,
-			"media_master_id": 21877,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1515,
-			"pixel_w": 2400,
-			"file_name": "0409200109160147.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ivory",
@@ -178,6 +201,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , brass ring, ,  · China",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 39
+		"populated_fields": 41
 	}
 }

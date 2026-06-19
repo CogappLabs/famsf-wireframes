@@ -2,20 +2,21 @@
 	"id": 89114,
 	"accession_number": "1978.10.17",
 	"sort_number": "1978.10.17",
-	"title": "\"COUNTRY SCENE\" FAN",
+	"title": "\"Country Scene\" fan",
 	"object_name": "fan",
-	"display_date": "1750–1765",
-	"begin_iso_date": "1750",
-	"end_iso_date": "1765",
+	"date_display": "1750–1765",
+	"date_start": "1750",
+	"date_end": "1765",
 	"medium": "Vellum, ivory, mother-of-pearl, copper alloy; opaque watercolor and gold paint, carved, incised, painted, and gilded sticks and guards, backing and pivot, rivet",
 	"medium_parts": [
 		"Vellum, ivory, mother-of-pearl, copper alloy",
 		"opaque watercolor and gold paint, carved, incised, painted, and gilded sticks and guards, backing and pivot, rivet"
 	],
-	"dimensions": "10 1/2 in., (26.7 cm,)",
 	"credit_line": "Gift of Mrs. Reginald Rives",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": "Given by Whitney Warren 10 years after his sister's death",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1979-01-04",
 	"location_string": "de Young, 059, Cabinet 40, TA",
 	"location_building": "de Young",
@@ -40,29 +43,191 @@
 	"titles": [
 		{
 			"title": "\"Country Scene\" fan",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "10 1/2 in., (26.7 cm,)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 92369,
+			"image_id": 174494,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8516,
+			"width": 9822,
+			"file_name": "A338464_V2.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 92370,
+			"image_id": 19051,
+			"rank": 3,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 549,
+			"width": 780,
+			"file_name": "0312200115510072.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 92368,
+			"image_id": 174499,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8095,
+			"width": 9847,
+			"file_name": "A338464_V1.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "10 1/2 in., (26.7 cm,)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 26.7,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 1/2 in., (26.7 cm,)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 26.7,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 1/2 in., (26.7 cm,)",
+			"type": "Weight",
+			"element": "Overall",
+			"unit": "Pounds",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 26.7,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 1/2 in., (26.7 cm,)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 26.7,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 10.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -90,7 +255,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20618668,
 			"term": "France",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -134,65 +301,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": 1750,
-	"media": [
-		{
-			"media_xref_id": 92368,
-			"media_master_id": 174499,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8095,
-			"pixel_w": 9847,
-			"file_name": "A338464_V1.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 92370,
-			"media_master_id": 19051,
-			"rank": 3,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 549,
-			"pixel_w": 780,
-			"file_name": "0312200115510072.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 92369,
-			"media_master_id": 174494,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8516,
-			"pixel_w": 9822,
-			"file_name": "A338464_V2.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ivory",
@@ -231,6 +339,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , copper alloy, gold paint, opaque watercolor … · France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 44
 	}
 }

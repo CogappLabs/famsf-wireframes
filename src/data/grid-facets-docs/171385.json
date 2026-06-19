@@ -2,20 +2,21 @@
 	"id": 171385,
 	"accession_number": "2008.49.24",
 	"sort_number": "2008.49.24",
-	"title": "TITLEHOLDER'S HEADGEAR (KALYEEM)",
+	"title": "Titleholder's headgear (kalyeem)",
 	"object_name": "headwear",
-	"display_date": "early 20th century",
-	"begin_iso_date": "1900",
-	"end_iso_date": "1925",
+	"date_display": "early 20th century",
+	"date_start": "1900",
+	"date_end": "1925",
 	"medium": "Raffia, wool, cotton, glass beads, cowrie shells; coiling, bead embroidery (couching)",
 	"medium_parts": [
 		"Raffia, wool, cotton, glass beads, cowrie shells",
 		"coiling, bead embroidery (couching)"
 	],
-	"dimensions": "10 x 6 x 6 in. (25.4 x 15.2 x 15.2 cm)",
 	"credit_line": "Diane and Sandy Besser Collection, Santa Fe, New Mexico",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": "Kuba",
 	"copyright": null,
 	"object_rights_type": "Requires Further Research",
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2008-10-23",
 	"location_string": "de Young, 061, Cabinet 076, TA",
 	"location_building": "de Young",
@@ -40,38 +43,150 @@
 	"titles": [
 		{
 			"title": "Titleholder's headgear (kalyeem)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 38276,
+			"id": 38276,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Kuba",
-			"AlphaSort": "Kuba",
+			"name": "Kuba",
+			"name_sort": "Kuba",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": null,
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Kuba"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "10 x 6 x 6 in. (25.4 x 15.2 x 15.2 cm)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 133628,
+			"image_id": 163944,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 7230,
+			"width": 5428,
+			"file_name": "A384081_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "10 x 6 x 6 in. (25.4 x 15.2 x 15.2 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 25.4,
+				"width_cm": 15.2,
+				"depth_cm": 15.2,
+				"height_in": 10.0,
+				"width_in": 6.0,
+				"depth_in": 6.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 x 6 x 6 in. (25.4 x 15.2 x 15.2 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 25.4,
+				"width_cm": 15.2,
+				"depth_cm": 15.2,
+				"height_in": 10.0,
+				"width_in": 6.0,
+				"depth_in": 6.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 x 6 x 6 in. (25.4 x 15.2 x 15.2 cm)",
+			"type": "Weight",
+			"element": "Overall",
+			"unit": "Pounds",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 25.4,
+				"width_cm": 15.2,
+				"depth_cm": 15.2,
+				"height_in": 10.0,
+				"width_in": 6.0,
+				"depth_in": 6.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 x 6 x 6 in. (25.4 x 15.2 x 15.2 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 25.4,
+				"width_cm": 15.2,
+				"depth_cm": 15.2,
+				"height_in": 10.0,
+				"width_in": 6.0,
+				"depth_in": 6.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -79,7 +194,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20357290,
 			"term": "Democratic Republic of the Congo",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -123,29 +240,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1900,
-	"media": [
-		{
-			"media_xref_id": 133628,
-			"media_master_id": 163944,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 7230,
-			"pixel_w": 5428,
-			"file_name": "A384081_V1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",
@@ -176,6 +270,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , cowrie shell, glass bead,  · Democratic Republic of the Congo",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 45
 	}
 }

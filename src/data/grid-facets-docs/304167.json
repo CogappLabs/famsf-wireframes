@@ -2,20 +2,21 @@
 	"id": 304167,
 	"accession_number": "2023.65",
 	"sort_number": "2023.65",
-	"title": "ALL POWER TO THE PEOPLE (AFTER MAN WITH AFRO, SAN FRANCISCO, CALIFORNIA, BY LEON A. BORENSZTEIN, 1984)",
+	"title": "All Power To The People (after Man with Afro, San Francisco, California, by Leon A. Borensztein, 1984)",
 	"object_name": "wall hanging",
-	"display_date": "2023",
-	"begin_iso_date": "2023",
-	"end_iso_date": "2023",
+	"date_display": "2023",
+	"date_start": "2023",
+	"date_end": "2023",
 	"medium": "Synthetic and metallic foil complex weave, painted and resist-dyed cotton plain weave and satin weave, various synthetic complex weaves (machine embroidery), cotton velvet, nylon netting, polyester plain weave, applied glass stones and beads, clear vinyl with embedded glitter binding; machine quilting, appliqué",
 	"medium_parts": [
 		"Synthetic and metallic foil complex weave, painted and resist-dyed cotton plain weave and satin weave, various synthetic complex weaves (machine embroidery), cotton velvet, nylon netting, polyester plain weave, applied glass stones and beads, clear vinyl with embedded glitter binding",
 		"machine quilting, appliqué"
 	],
-	"dimensions": "114 x 67 in. (289.561 x 170.18 cm)",
 	"credit_line": "Museum purchase, Textile Art Trust Fund and donations from Bettina S. Bryant, Joyce Dostale, and other textile arts supporters",
 	"department": "Costume and Textile Arts",
 	"classification": "Textile",
+	"subclassification": null,
+	"culture": null,
 	"copyright": "© Bisa Butler",
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -29,6 +30,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2023-10-10",
 	"location_string": "de Young, 059, Wall 07",
 	"location_building": "de Young",
@@ -40,45 +43,314 @@
 	"titles": [
 		{
 			"title": "All Power To The People (after Man with Afro, San Francisco, California, by Leon A. Borensztein, 1984)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "English",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 38492,
+			"id": 38492,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Bisa Butler",
-			"AlphaSort": "Butler,  Bisa",
+			"name": "Bisa Butler",
+			"name_sort": "Butler,  Bisa",
 			"Nationality": "American",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
 			"BeginDate": 1973,
-			"EndDate": 0,
-			"DisplayDate": "American, born 1973",
+			"EndDate": null,
+			"dates": "American, born 1973",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1973"
+		},
+		{
+			"id": 38492,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Bisa Butler",
+			"name_sort": "Butler,  Bisa",
+			"Nationality": "American",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": 1973,
+			"EndDate": null,
+			"dates": "American, born 1973",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "b. 1973"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "114 x 67 in. (289.561 x 170.18 cm)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 215953,
+			"image_id": 223464,
+			"rank": 0,
+			"primary": false,
+			"display_order": 9,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9609,
+			"width": 13146,
+			"file_name": "MS_304167_20230908_7.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 215946,
+			"image_id": 223457,
+			"rank": 0,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 12523,
+			"width": 8205,
+			"file_name": "MS_304167_20230908_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 215952,
+			"image_id": 223463,
+			"rank": 0,
+			"primary": false,
+			"display_order": 8,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9938,
+			"width": 13043,
+			"file_name": "MS_304167_20230908_6.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 215954,
+			"image_id": 223465,
+			"rank": 0,
+			"primary": false,
+			"display_order": 10,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8489,
+			"width": 11319,
+			"file_name": "MS_304167_20230908_8.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 215948,
+			"image_id": 223459,
+			"rank": 0,
+			"primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 14204,
+			"width": 10652,
+			"file_name": "MS_304167_20230908_2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 215955,
+			"image_id": 223466,
+			"rank": 0,
+			"primary": false,
+			"display_order": 11,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 10067,
+			"width": 13424,
+			"file_name": "MS_304167_20230908_9.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "114 x 67 in. (289.561 x 170.18 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 289.561,
+				"width_cm": 170.18,
+				"depth_cm": null,
+				"height_in": 114.0,
+				"width_in": 67.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "114 x 67 in. (289.561 x 170.18 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 289.561,
+				"width_cm": 170.18,
+				"depth_cm": null,
+				"height_in": 114.0,
+				"width_in": 67.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "114 x 67 in. (289.561 x 170.18 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 289.561,
+				"width_cm": 170.18,
+				"depth_cm": null,
+				"height_in": 114.0,
+				"width_in": 67.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": [
+			{
+				"id": 71,
+				"title": "Bisa Butler, All Power To The People, 2023",
+				"alternative_title": "Art historian + podcaster Katy Hessel on “All Power To The People”",
+				"subtitle": null,
+				"alternative_subtitle": null,
+				"audio_stop": null,
+				"transcript": "<p><strong>Bisa Butler, <em>All Power To The People</em>, 2023</strong></p><p>This giant 3-meter-high tapestry of a man in a flamboyant suit combines African American quilting traditions with contemporary designer labels. His gaze meets ours with poise and nobility.</p><p>Bisa Butler’s work starts with an image. Earlier on in her career, it was portraits of people she knew, but recently it’s been images of Black sitters she found in the National Archives. She’s drawn to those who dressed up for staged portraits, women with exuberant dresses or men with sharp suits. But, when she looked at how they’d been described — billed with labels such as “washerwoman,” as opposed to their name or other roles in life — she wanted to repurpose their images with a whole range of personalities.</p><p>Through her work, Butler honors and reconfigures the people in these pictures. She elevates them through dazzling colors in giant textile works that give them new life. In <em>All Power To The People</em>, we meet a local man who lived in the Bay Area in the 1960s and 70s. He was photographed by Leon Borensztein — an instructor from the San Francisco Art Institute known for taking pictures of people in the community.</p><p>Let’s now think about the multiple layers of lenses. An image taken through the lens of Borensztein, re-interpreted and responded to by Butler, who imagines the character through vivid textiles, beads, and more. She now invites us to add our interpretation, and for this person to enter our lives. What’s so powerful about Butler’s work is that even if we don’t have the name of this sitter, she keeps their image alive; as if to say, this person matters.</p><p>Let’s take a closer look at the details: the dignified gaze; the colors that make up his face in a painterly effect, an afro of glistening stitched beads. My eye is then drawn to his grip. Firm hands show him as in control of his image. And although the background doesn’t situate him in any specific place or time, I love how it vibrates and pulsates, keeping his image in motion.</p><p>To my mind, Butler’s works are just as much a portrait as they are a study in fiber, a medium that the artist has said everyone shares and understands. Think about what you’re wearing right now; how does that piece of clothing sit and feel on your body? Sewing has been in Butler’s DNA forever – and she comes from a lineage of women who made their own clothes.</p><p>This work came into the de Young museum collection in an unusual way. When Laura Camerlengo, curator in charge of costume and textile arts, expressed her desire to acquire the textile for the Museums’ collection, dozens of (mainly) women and Bay Area artists stepped forward to help. These benefactors included members of the Textile Arts Council, the support group of the Museums’ textile arts department. I love that it is of a figure from the San Francisco community, funded by the San Francisco community.<br class=\"softbreak\"></p>",
+				"sources": [
+					{
+						"src": "https://www.develop-sr3snxi-i63nmygx3oviw.us-3.platformsh.site/storage/files/03dc6495-6fba-4682-858b-c8201f429c27/2-famsf-butler-final.mp3"
+					}
+				],
+				"media": {
+					"image": {
+						"src": "https://www.develop-sr3snxi-i63nmygx3oviw.us-3.platformsh.site/storage/images/4331a992-009d-4bf3-93e8-14b45e88ed45/butler-power-people-2023.jpg?crop=1077,1079,x56,y326&format=jpg&quality=80&width=800",
+						"width": 800,
+						"height": 801
+					},
+					"alt": "Man in decorative suit",
+					"caption": "<p>Bisa Butler, <em>All Power To The People </em>(after<em> Man with Afro, San Francisco, California</em>, by Leon A. Borensztein)<em>, </em>2023. Printed cotton, printed synthetic, synthetic lamé, cotton velvet, synthetic net, vinyl; quilted and appliquéd, 114 x 67 in. (289.561 x 170.18 cm). Fine Arts Museums of San Francisco, Museum purchase, Textile Art Trust Fund and donations from Bettina S. Bryant, Joyce Dostale, and other textile arts supporters<br class=\"softbreak\"></p>",
+					"credit": ""
+				}
+			}
+		]
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -106,7 +378,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 18334258,
 			"term": "New Jersey",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -144,196 +418,9 @@
 	"term_school": null,
 	"term_materials": [
 		{
-			"term": "cotton",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
-					"term": "fiber by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
-					"term": "textile materials"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
-					"term": "textile materials by composition or origin"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAD",
-					"term": "cotton"
-				}
-			]
-		},
-		{
-			"term": "metal",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAB",
-					"term": "materials by composition"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
-					"term": "inorganic material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
-					"term": "metal"
-				}
-			]
-		},
-		{
-			"term": "vinyl",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAB",
-					"term": "Associated Concepts Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAB.AAA",
-					"term": "Associated Concepts"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAB.AAA.AAI",
-					"term": "multidisciplinary concepts"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAB.AAA.AAI.AAL",
-					"term": "groupings"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA",
-					"term": "object groupings by general context"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB",
-					"term": "components by specific context"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ",
-					"term": "biological components"
-				},
-				{
-					"depth": 11,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE",
-					"term": "plastic"
-				},
-				{
-					"depth": 12,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE",
-					"term": "plastic by property"
-				},
-				{
-					"depth": 13,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA",
-					"term": "thermoplastic"
-				},
-				{
-					"depth": 14,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA.AAV",
-					"term": "vinyl"
-				}
-			]
-		},
-		{
-			"term": "glass",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAB",
-					"term": "materials by composition"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
-					"term": "inorganic material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW",
-					"term": "glass"
-				}
-			]
-		},
-		{
+			"id": 16426365,
 			"term": "synthetic fiber",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -379,7 +466,62 @@
 			]
 		},
 		{
+			"id": 16426381,
+			"term": "polyester",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
+					"term": "fiber"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF",
+					"term": "synthetic fiber"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF.AAH",
+					"term": "polyester"
+				}
+			]
+		},
+		{
+			"id": 16208637,
 			"term": "nylon",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -445,7 +587,72 @@
 			]
 		},
 		{
-			"term": "polyester",
+			"id": 16565575,
+			"term": "vinyl",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAB",
+					"term": "Associated Concepts Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAB.AAA",
+					"term": "Associated Concepts"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAB.AAA.AAI",
+					"term": "multidisciplinary concepts"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAB.AAA.AAI.AAL",
+					"term": "groupings"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA",
+					"term": "object groupings by general context"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB",
+					"term": "components by specific context"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ",
+					"term": "biological components"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE",
+					"term": "plastic"
+				},
+				{
+					"depth": 12,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE",
+					"term": "plastic by property"
+				},
+				{
+					"depth": 13,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA",
+					"term": "thermoplastic"
+				},
+				{
+					"depth": 14,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA.AAV",
+					"term": "vinyl"
+				}
+			]
+		},
+		{
+			"id": 16359757,
+			"term": "cotton",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -480,18 +687,99 @@
 				},
 				{
 					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
-					"term": "fiber"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
 				},
 				{
 					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF",
-					"term": "synthetic fiber"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
 				},
 				{
 					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF.AAH",
-					"term": "polyester"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAD",
+					"term": "cotton"
+				}
+			]
+		},
+		{
+			"id": 16581230,
+			"term": "metal",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				}
+			]
+		},
+		{
+			"id": 16571187,
+			"term": "glass",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW",
+					"term": "glass"
 				}
 			]
 		}
@@ -508,119 +796,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 2023,
-	"media": [
-		{
-			"media_xref_id": 215948,
-			"media_master_id": 223459,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 4,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 14204,
-			"pixel_w": 10652,
-			"file_name": "MS_304167_20230908_2.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 215946,
-			"media_master_id": 223457,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 12523,
-			"pixel_w": 8205,
-			"file_name": "MS_304167_20230908_1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 215955,
-			"media_master_id": 223466,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 11,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 10067,
-			"pixel_w": 13424,
-			"file_name": "MS_304167_20230908_9.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 215952,
-			"media_master_id": 223463,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 8,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 9938,
-			"pixel_w": 13043,
-			"file_name": "MS_304167_20230908_6.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 215954,
-			"media_master_id": 223465,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 10,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8489,
-			"pixel_w": 11319,
-			"file_name": "MS_304167_20230908_8.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 215953,
-			"media_master_id": 223464,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 9,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 9609,
-			"pixel_w": 13146,
-			"file_name": "MS_304167_20230908_7.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",

@@ -2,19 +2,20 @@
 	"id": 115809,
 	"accession_number": "1999.53.3",
 	"sort_number": "1999.53.3",
-	"title": "WOMAN'S VEIL",
+	"title": "Woman's veil",
 	"object_name": "headwear",
-	"display_date": "20th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "20th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "cotton, silk, metallic yarn, embroidery, machine-made compound weave, machine-made lace",
 	"medium_parts": [
 		"cotton, silk, metallic yarn, embroidery, machine-made compound weave, machine-made lace"
 	],
-	"dimensions": "98.5 x 52.5 cm (38 3/4 x 20 11/16 in.)",
 	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nGift of Caroline McCoy-Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1999-06-10",
 	"location_string": "de Young, 227, Cabinet 27, I",
 	"location_building": "de Young",
@@ -39,22 +42,92 @@
 	"titles": [
 		{
 			"title": "Woman's veil",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "38 3/4 x 20 11/16 in. (98.5 x 52.5 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 107619,
+			"image_id": 21612,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 846,
+			"width": 2892,
+			"file_name": "0408200412000407.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "38 3/4 x 20 11/16 in. (98.5 x 52.5 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 98.5,
+				"width_cm": 52.5,
+				"depth_cm": null,
+				"height_in": 38.75,
+				"width_in": 20.6875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "38 3/4 x 20 11/16 in. (98.5 x 52.5 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 98.5,
+				"width_cm": 52.5,
+				"depth_cm": null,
+				"height_in": 38.75,
+				"width_in": 20.6875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -62,7 +135,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 16680808,
 			"term": "Afghanistan",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -106,29 +181,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 107619,
-			"media_master_id": 21612,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 846,
-			"pixel_w": 2892,
-			"file_name": "0408200412000407.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",
@@ -151,6 +203,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , , embroidery · Afghanistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 37
 	}
 }

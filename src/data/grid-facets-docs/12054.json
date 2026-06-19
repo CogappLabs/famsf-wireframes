@@ -2,19 +2,20 @@
 	"id": 12054,
 	"accession_number": "1963.24.55",
 	"sort_number": "1963.24.55",
-	"title": "VIRGIN AND CHILD WITH INFANT ST. JOHN, AND TWO MALE FIGURES (SAINT JOSEPH AND ZECHARIAH?)",
+	"title": "Virgin and Child with Infant St. John, and two male figures (Saint Joseph and Zechariah?)",
 	"object_name": "Religious Genre Landscape",
-	"display_date": "17th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "17th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "Pen and brown ink, blue-gray and brown washes with opaque watercolor over black chalk on laid paper",
 	"medium_parts": [
 		"Pen and brown ink, blue-gray and brown washes with opaque watercolor over black chalk on laid paper"
 	],
-	"dimensions": "Image: 183 x 227 mm (7 3/16 x 8 15/16 in.)",
 	"credit_line": "Achenbach Foundation for Graphic Arts",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": "Joseph Green Cogswell (1786-1871) (ms. no. 137); Mortimer Leo Schiff (1877-1931); Moore S. Achenbach (1878-1963); Gift to the Achenbach Foundation for Graphic Arts, 1963 (L. 3a, verso).",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1963-04-09",
 	"location_string": "Legion, 210, Compact Shelf 24, 211",
 	"location_building": "Legion",
@@ -39,45 +42,121 @@
 	"titles": [
 		{
 			"title": "Virgin and Child with Infant St. John, and two male figures (Saint Joseph and Zechariah?)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 14931,
+			"id": 14931,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Alessandro Tiarini",
-			"AlphaSort": "Alessandro Tiarini",
+			"name": "Alessandro Tiarini",
+			"name_sort": "Alessandro Tiarini",
 			"Nationality": "Italian",
+			"place_born": "Bologna",
+			"place_died": "Bologna",
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1577,
 			"EndDate": 1668,
-			"DisplayDate": "1577–1668",
+			"dates": "1577–1668",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Alessandro Tiarini (1577–1668)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "7 3/16 x 8 15/16 in. (18.3 x 22.7 cm)",
-			"description": null,
-			"element_name": "Image",
+			"media_xref_id": 69469,
+			"image_id": 109611,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1800,
+			"width": 2244,
+			"file_name": "5049161418020093.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "7 3/16 x 8 15/16 in. (18.3 x 22.7 cm)",
+			"type": "Height",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 18.3,
+				"width_cm": 22.7,
+				"depth_cm": null,
+				"height_in": 7.1875,
+				"width_in": 8.9375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "7 3/16 x 8 15/16 in. (18.3 x 22.7 cm)",
+			"type": "Width",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 18.3,
+				"width_cm": 22.7,
+				"depth_cm": null,
+				"height_in": 7.1875,
+				"width_in": 8.9375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -108,7 +187,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 20774286,
 			"term": "Italy",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -149,29 +230,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 69469,
-			"media_master_id": 109611,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1800,
-			"pixel_w": 2244,
-			"file_name": "5049161418020093.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ink",

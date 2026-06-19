@@ -2,21 +2,22 @@
 	"id": 74163,
 	"accession_number": "1981.53.16",
 	"sort_number": "1981.53.16",
-	"title": "SCARF (?)",
+	"title": "Scarf (?)",
 	"object_name": "scarf",
-	"display_date": null,
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": null,
+	"date_start": null,
+	"date_end": null,
 	"medium": "silk; plain weave, embroidery;  knotted edging, tassels",
 	"medium_parts": [
 		"silk",
 		"plain weave, embroidery",
 		"knotted edging, tassels"
 	],
-	"dimensions": "25.4 x 15.2 cm (10  x 6  in.)",
 	"credit_line": "Gift of Mrs. Barbara D. Jostes",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": "Ottoman",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -30,6 +31,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1981-09-02",
 	"location_string": "de Young, 059, Cabinet 57, TC",
 	"location_building": "de Young",
@@ -41,38 +44,112 @@
 	"titles": [
 		{
 			"title": "Scarf (?)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 40706,
+			"id": 40706,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Ottoman",
-			"AlphaSort": "Ottoman",
+			"name": "Ottoman",
+			"name_sort": "Ottoman",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Ottoman"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "10 x 6 in. (25.4 x 15.2 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 92804,
+			"image_id": 59017,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2136,
+			"width": 688,
+			"file_name": "3101200310040483.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "10 x 6 in. (25.4 x 15.2 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 25.4,
+				"width_cm": 15.2,
+				"depth_cm": null,
+				"height_in": 10.0,
+				"width_in": 6.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "10 x 6 in. (25.4 x 15.2 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 25.4,
+				"width_cm": 15.2,
+				"depth_cm": null,
+				"height_in": 10.0,
+				"width_in": 6.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -80,7 +157,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 17086735,
 			"term": "Turkey",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -124,29 +203,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 92804,
-			"media_master_id": 59017,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2136,
-			"pixel_w": 688,
-			"file_name": "3101200310040483.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Silk",
@@ -169,6 +225,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , tassel, embroidery · Turkey",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 38
 	}
 }

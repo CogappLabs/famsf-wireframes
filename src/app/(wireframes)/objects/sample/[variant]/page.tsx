@@ -378,14 +378,6 @@ export default async function SampleObjectPage({ params }: Props) {
 								...(hasConstituents
 									? [{ label: t("object.jumpPeople"), id: "constituents" }]
 									: []),
-								...(doc.accession_iso_date || doc.sort_number
-									? [
-											{
-												label: t("object.jumpAdditional"),
-												id: "additional-information",
-											},
-										]
-									: []),
 								...(doc.has_provenance
 									? [{ label: t("object.jumpProvenance"), id: "provenance" }]
 									: []),
@@ -782,7 +774,27 @@ export default async function SampleObjectPage({ params }: Props) {
 											value={doc.accession_number}
 											field="accession_number"
 										/>
-										{/* accession_iso_date intentionally not rendered: guidelines mark Accession Date internal-only */}
+										{/* Alternate / legacy accession number (sort_number when it
+										    differs from the primary accession). */}
+										{doc.sort_number &&
+											doc.sort_number !== doc.accession_number && (
+												<TombstoneField
+													label="Alternate accession number"
+													value={doc.sort_number}
+													field="sort_number"
+												/>
+											)}
+										{/* Accession date: guidelines mark it internal-only, so gate
+										    behind the scope toggle pending Tier-policy confirm. */}
+										{doc.accession_iso_date && (
+											<ScopeMark label="Accession date (pending Tier policy confirm)">
+												<TombstoneField
+													label="Accession date"
+													value={doc.accession_iso_date.slice(0, 10)}
+													field="accession_iso_date"
+												/>
+											</ScopeMark>
+										)}
 										<ScopeMark label="Museum location">
 											<TombstoneField
 												label="Museum location"
@@ -974,49 +986,11 @@ export default async function SampleObjectPage({ params }: Props) {
 								</WireframeSection>
 							)}
 
-							{/* 5. Additional information [expandable]: consolidated overflow
-							    block for fields not surfaced in the tombstone. June 18 layout
-							    groups named collection, accession date, alternate/legacy
-							    accession numbers, etc. Only accession date + sort number exist
-							    on the pipeline type today (named_collection + a dedicated
-							    alternate-accession field are not emitted yet). Rendered only
-							    when at least one such field is present. */}
-							{(doc.accession_iso_date || doc.sort_number) && (
-								<WireframeSection label="Additional information">
-									<span id="additional-information" className="sr-only">
-										Additional information
-									</span>
-									<details className="group">
-										<summary className="cursor-pointer list-none">
-											<SectionLabel className="inline-flex items-center">
-												<span className="mr-1 inline-block transition-transform group-open:rotate-90">
-													▸
-												</span>
-												{t("object.additionalHeading")}
-											</SectionLabel>
-										</summary>
-										<div className="mt-4 flex flex-col gap-2.5">
-											{doc.accession_iso_date && (
-												<TombstoneField
-													label="Accession date"
-													value={doc.accession_iso_date.slice(0, 10)}
-													field="accession_iso_date"
-												/>
-											)}
-											{doc.sort_number &&
-												doc.sort_number !== doc.accession_number && (
-													<TombstoneField
-														label="Alternate accession number"
-														value={doc.sort_number}
-														field="sort_number"
-													/>
-												)}
-										</div>
-									</details>
-								</WireframeSection>
-							)}
+							{/* Additional information (accession date + alternate accession)
+							    was folded into the Acquisition tombstone group; the separate
+							    expandable held too little to justify its own section. */}
 
-							{/* 6. Provenance → Exhibition history → Bibliography.
+							{/* Provenance → Exhibition history → Bibliography.
 							    ScholarlyRecordSections renders the three dense record blocks
 							    in spec order. Each block still draws its own divider + wide
 							    container, sitting inside the main column. */}

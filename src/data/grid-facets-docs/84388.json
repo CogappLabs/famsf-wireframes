@@ -2,17 +2,18 @@
 	"id": 84388,
 	"accession_number": "1971.17.719",
 	"sort_number": "1971.17.719",
-	"title": "ALLEGRO VIVACE-8TH SYMPHONY",
+	"title": "Allegro Vivace-8th Symphony",
 	"object_name": null,
-	"display_date": "1925",
-	"begin_iso_date": "1925",
-	"end_iso_date": "1925",
+	"date_display": "1925",
+	"date_start": "1925",
+	"date_end": "1925",
 	"medium": "Etching and stipple engraving",
 	"medium_parts": ["Etching and stipple engraving"],
-	"dimensions": "31.5 x 36.8 cm (plate)",
 	"credit_line": "Gift of Dr. Ludwig A. Emge",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Print",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1971-04-01",
 	"location_string": "Legion, 210, Compact Shelf 07, 110",
 	"location_building": "Legion",
@@ -37,38 +40,112 @@
 	"titles": [
 		{
 			"title": "Allegro Vivace-8th Symphony",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 3598,
+			"id": 3598,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Norman Lindsay",
-			"AlphaSort": "Norman Lindsay",
+			"name": "Norman Lindsay",
+			"name_sort": "Norman Lindsay",
 			"Nationality": "Australian",
+			"place_born": "Creswick",
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1879,
 			"EndDate": 1969,
-			"DisplayDate": "1879–1969",
+			"dates": "1879–1969",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Norman Lindsay (1879–1969)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "12 3/8 x 14 1/2 in. (31.5 x 36.8 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Plate (4D)",
+			"media_xref_id": 54363,
+			"image_id": 77270,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1797,
+			"width": 2070,
+			"file_name": "4043202410800016.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "12 3/8 x 14 1/2 in. (31.5 x 36.8 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Plate (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 31.5,
+				"width_cm": 36.8,
+				"depth_cm": null,
+				"height_in": 12.375,
+				"width_in": 14.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "12 3/8 x 14 1/2 in. (31.5 x 36.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Plate (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 31.5,
+				"width_cm": 36.8,
+				"depth_cm": null,
+				"height_in": 12.375,
+				"width_in": 14.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -79,7 +156,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 16656543,
 			"term": "Australia",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -120,29 +199,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1925,
-	"media": [
-		{
-			"media_xref_id": 54363,
-			"media_master_id": 77270,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1797,
-			"pixel_w": 2070,
-			"file_name": "4043202410800016.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [],
 	"facet_technique": ["etching", "stipple engraving"],
 	"facet_place": [

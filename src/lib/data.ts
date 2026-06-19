@@ -150,18 +150,10 @@ export const pages: WireframePage[] = [
 		category: "features",
 	},
 	{
-		id: "collection-areas",
-		title: "Collection areas",
-		description:
-			"Landing page: intro text + grid of collection areas (Achenbach Foundation, Ancient Art, European Decorative Arts and Sculpture, etc.) with object counts. Cards link through to the collection-area detail page. ('Department' == 'collection area', CW-30.)",
-		status: "wip",
-		category: "browse",
-	},
-	{
 		id: "collection-area",
 		title: "Collection area (detail)",
 		description:
-			"Detail page for a single collection area, reached from the /collection-areas landing grid: about, highlights, browse options, related content, de Young vs Legion indicator.",
+			"Per-area detail page (/collection-area/<slug>), reached from the homepage Browse-by-area grid: intro, deep dive, highlights, featured collections, read/watch/listen, other resources. ('Department' == 'collection area', CW-30.)",
 		status: "wip",
 		category: "browse",
 	},
@@ -353,14 +345,13 @@ export interface SiteNavItem {
 	children?: SiteNavItem[];
 }
 
-// "Collection areas" is a plain link to the areas landing (intro + grid),
-// not a dropdown: the grid is the index, each card routes to a detail page.
-// "Department" == "collection area" (CW-30), so there's no separate
-// Departments nav item.
+// The collection-areas index page was removed (2026-06-19): collection-area
+// detail pages are reached only from the homepage Browse-by-area grid, so
+// there is no "Collection areas" nav item. "Department" == "collection area"
+// (CW-30), so there's no Departments nav item either.
 export const siteNavigation: SiteNavItem[] = [
 	{ label: "Explore", href: "/explore" },
 	{ label: "Search", href: "/search-results" },
-	{ label: "Collection areas", href: "/collection-areas" },
 	{ label: "Exhibitions", href: "/exhibitions" },
 	{ label: "My finds", href: "/my-finds" },
 ];

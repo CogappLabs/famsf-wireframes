@@ -2,17 +2,18 @@
 	"id": 238593,
 	"accession_number": "52854",
 	"sort_number": "52854",
-	"title": "CHALICE COVER IN THE FORM OF A CROSS",
+	"title": "Chalice cover in the form of a cross",
 	"object_name": "ecclesiastical/ritual furnishing",
-	"display_date": "17th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "17th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "silk, cotton, chenille, metal thread; embroidery",
 	"medium_parts": ["silk, cotton, chenille, metal thread", "embroidery"],
-	"dimensions": "50.8 x 50.8 cm (20  x 20  in.) cross-shaped",
 	"credit_line": "Gift of Mrs. Hilda R. Nuttall in memory of Magdalena Nuttall",
 	"department": "Costume and Textile Arts",
 	"classification": "Textile",
+	"subclassification": "Ritual & Religious",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1914-01-26",
 	"location_string": "de Young, 059, Cabinet 03, M",
 	"location_building": "de Young",
@@ -37,29 +40,101 @@
 	"titles": [
 		{
 			"title": "Chalice cover in the form of a cross",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "20 x 20 in. (50.8 x 50.8 cm)",
-			"description": "cross-shaped",
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 96334,
+			"image_id": 48302,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1666,
+			"width": 1794,
+			"file_name": "1508200312160179.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "20 x 20 in. (50.8 x 50.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 50.8,
+				"width_cm": 50.8,
+				"depth_cm": null,
+				"height_in": 20.0,
+				"width_in": 20.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "20 x 20 in. (50.8 x 50.8 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 50.8,
+				"width_cm": 50.8,
+				"depth_cm": null,
+				"height_in": 20.0,
+				"width_in": 20.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -87,7 +162,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 17092059,
 			"term": "Finland",
+			"type": "N/A",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -108,7 +185,9 @@
 			]
 		},
 		{
+			"id": 16964870,
 			"term": "Russia",
+			"type": "N/A",
 			"certainty": "Uncertain",
 			"path": [
 				{
@@ -152,29 +231,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 96334,
-			"media_master_id": 48302,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1666,
-			"pixel_w": 1794,
-			"file_name": "1508200312160179.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",
@@ -211,6 +267,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , , chenille, metal thread … · Finland, Russia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 38
+		"populated_fields": 39
 	}
 }

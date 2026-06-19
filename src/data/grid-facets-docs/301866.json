@@ -2,11 +2,11 @@
 	"id": 301866,
 	"accession_number": "2021.93a-h",
 	"sort_number": "2021.93a-h",
-	"title": "WEDDING ENSEMBLE: DRESS (A), TRAIN (B), VEIL (C), SLIP (D), GARTERS (E,F), FAN (G), AND HANGER (H)",
+	"title": "Wedding ensemble: dress (a), train (b), veil (c), slip (d), garters (e,f), fan (g), and hanger (h)",
 	"object_name": "woman's costume",
-	"display_date": "1926",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "1926",
+	"date_start": null,
+	"date_end": null,
 	"medium": "silk charmeuse, beads, tulle (a); silk charmeuse, beads, tulle, artificial orange blossoms (b); silk tulle, artificial orange blossoms, wire (c); silk, silk chiffon, silk tulle (d); silk satin, lace, artificial orange blossoms (e,f); ivory, feathers (g); silk, tulle, artificial orange blossoms (h)",
 	"medium_parts": [
 		"silk charmeuse, beads, tulle (a)",
@@ -17,10 +17,11 @@
 		"ivory, feathers (g)",
 		"silk, tulle, artificial orange blossoms (h)"
 	],
-	"dimensions": "101.6 cm (40 in.) center back length (a); 83.8 cm (33 in.) center back length (d); 44.5 cm (17 1/2 in.) length (g)",
 	"credit_line": "Gift of Frances Dinkelspiel in memory of Florence Hellman Dinkelspiel",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -34,6 +35,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2021-12-07",
 	"location_string": "de Young, 059, Cabinet 53, TB",
 	"location_building": "de Young",
@@ -45,30 +48,73 @@
 	"titles": [
 		{
 			"title": "Wedding ensemble: dress (a), train (b), veil (c), slip (d), garters (e,f), fan (g), and hanger (h)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": null,
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 8795,
+			"id": 8795,
 			"Role": "Attributed to",
 			"RoleID": 72,
-			"DisplayName": "Jeanne Lanvin",
-			"AlphaSort": "Lanvin,  Jeanne",
+			"name": "Jeanne Lanvin",
+			"name_sort": "Lanvin,  Jeanne",
 			"Nationality": "French",
+			"place_born": null,
+			"place_died": "Paris",
+			"place_active": "Brittany",
+			"attribution_prefix": " ",
 			"BeginDate": 1867,
 			"EndDate": 1946,
-			"DisplayDate": "1867–1946",
+			"dates": "1867–1946",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Jeanne Lanvin (1867–1946)"
 		}
 	],
-	"dimensions_structured": null,
+	"media": [
+		{
+			"media_xref_id": 156404,
+			"image_id": 195284,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2880,
+			"width": 3951,
+			"file_name": "A416226.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -76,7 +122,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20618668,
 			"term": "France",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -120,29 +168,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 156404,
-			"media_master_id": 195284,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2880,
-			"pixel_w": 3951,
-			"file_name": "A416226.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ivory",

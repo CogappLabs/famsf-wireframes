@@ -2,17 +2,18 @@
 	"id": 22980,
 	"accession_number": "1952.45",
 	"sort_number": "1952.45",
-	"title": "VASE IN THE FORM OF CONJOINED ANTELOPE FOREQUARTERS",
+	"title": "Vase in the form of conjoined antelope forequarters",
 	"object_name": "vase",
-	"display_date": "1st millennium BC",
-	"begin_iso_date": "-1000",
-	"end_iso_date": "-1",
+	"date_display": "1st millennium BC",
+	"date_start": "-1000",
+	"date_end": "-1",
 	"medium": "Bronze",
 	"medium_parts": ["Bronze"],
-	"dimensions": "4 1/2 x 7  (11.4 x 17.8 cm)",
 	"credit_line": "Gift of Arthur Sachs",
 	"department": "Ancient Art",
 	"classification": "Vessels & Containers",
+	"subclassification": null,
+	"culture": "Anatolian or Iranian",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": true,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1952-11-13",
 	"location_string": "Legion, Display, Gallery 240 west, Wall Case 1",
 	"location_building": "Legion",
@@ -37,22 +40,196 @@
 	"titles": [
 		{
 			"title": "Vase in the form of conjoined antelope forequarters",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "4 1/2 x 7 in. (11.4 x 17.8 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 86114,
+			"image_id": 187185,
+			"rank": 4,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8706,
+			"width": 11606,
+			"file_name": "A306295_V4.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 86113,
+			"image_id": 187187,
+			"rank": 3,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8706,
+			"width": 11606,
+			"file_name": "A306295_V3.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 86111,
+			"image_id": 187061,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8708,
+			"width": 11608,
+			"file_name": "A306295_V1.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 86115,
+			"image_id": 117577,
+			"rank": 5,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1400,
+			"width": 1780,
+			"file_name": "6324304122480061.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 86112,
+			"image_id": 187186,
+			"rank": 2,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8708,
+			"width": 11608,
+			"file_name": "A306295_V2.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "4 1/2 x 7 in. (11.4 x 17.8 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 11.4,
+				"width_cm": 17.8,
+				"depth_cm": null,
+				"height_in": 4.5,
+				"width_in": 7.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "4 1/2 x 7 in. (11.4 x 17.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 11.4,
+				"width_cm": 17.8,
+				"depth_cm": null,
+				"height_in": 4.5,
+				"width_in": 7.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -60,7 +237,32 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20666694,
+			"term": "Iran",
+			"type": "N/A",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQH",
+					"term": "Īrān"
+				}
+			]
+		},
+		{
+			"id": 20295365,
 			"term": "Anatolia",
+			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -84,27 +286,6 @@
 					"term": "Asia Minor"
 				}
 			]
-		},
-		{
-			"term": "Iran",
-			"certainty": "Possibly",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAQH",
-					"term": "Īrān"
-				}
-			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -119,7 +300,9 @@
 	"term_school": null,
 	"term_materials": [
 		{
+			"id": 16293210,
 			"term": "bronze",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -192,101 +375,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": -1000,
-	"media": [
-		{
-			"media_xref_id": 86111,
-			"media_master_id": 187061,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8708,
-			"pixel_w": 11608,
-			"file_name": "A306295_V1.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 86112,
-			"media_master_id": 187186,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8708,
-			"pixel_w": 11608,
-			"file_name": "A306295_V2.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 86115,
-			"media_master_id": 117577,
-			"rank": 5,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1400,
-			"pixel_w": 1780,
-			"file_name": "6324304122480061.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 86113,
-			"media_master_id": 187187,
-			"rank": 3,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8706,
-			"pixel_w": 11606,
-			"file_name": "A306295_V3.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 86114,
-			"media_master_id": 187185,
-			"rank": 4,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8706,
-			"pixel_w": 11606,
-			"file_name": "A306295_V4.TIF",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Metal",
@@ -297,20 +385,20 @@
 	"facet_place": [
 		{
 			"region": "Middle East",
-			"country": "Achaemenid",
-			"state": "",
-			"notable": "Anatolia"
-		},
-		{
-			"region": "Middle East",
 			"country": "Iran",
 			"state": "",
 			"notable": ""
+		},
+		{
+			"region": "Middle East",
+			"country": "Achaemenid",
+			"state": "",
+			"notable": "Anatolia"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — bronze · Anatolia, Iran",
+		"reason": "grid-facets real slice — bronze · Iran, Anatolia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 40
+		"populated_fields": 41
 	}
 }

@@ -2,19 +2,20 @@
 	"id": 128641,
 	"accession_number": "1993.61.15",
 	"sort_number": "1993.61.15",
-	"title": "COVER AND FIRST VOLUME OF THE BOOK, KO-KOI, NOANAMÁ (SAN DIEGO: TUHANA PRESS, 1991)",
+	"title": "Cover and first volume of the book, Ko-Koi, Noanamá (San Diego: Tuhana Press, 1991)",
 	"object_name": null,
-	"display_date": "1991",
-	"begin_iso_date": "1991",
-	"end_iso_date": "1991",
+	"date_display": "1991",
+	"date_start": "1991",
+	"date_end": "1991",
 	"medium": "Etching and aquatint cover , letterset  type  on Rives paper",
 	"medium_parts": [
 		"Etching and aquatint cover , letterset  type  on Rives paper"
 	],
-	"dimensions": "33.5 x 65.5 cm (image); 33.5 x 65.5 cm (sheet); 24 x 16.5 x 1 cm (object)",
 	"credit_line": "Gift of the artist through the Artist Book Council",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Print",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": "Edition: Numbered in graphite on page following colophon: XI/XX\r\nTypes of Papers/Materials Used:  Rives paper\r\nBinding: Printed cover\r\nVolumes in Set:  2 , plus print portfolio in box, of which this the first volume\r\nPagination: 28 pp.\r\nCollation (if unusual):Spanish verses and English translation by Smilja Schmitt ;\r\nLanguages Used in Text: Spanish, English ;\r\nProvenance:Gift of the artist\r\nExhibition History:\r\nRemarks: Foreword includes description of the Ko-Koi frog, the Noanamá Indians, statements by Oscar Arias Sánchez and Francisco Antonio Pacheco.\r\nNote that bar codes for the parts and the order of accession numbers (sub-numbers) were assigned by inventory in 1993, and do not agree with current format.",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1993-12-31",
 	"location_string": "Legion, 253, Shelf 08, 08A",
 	"location_building": "Legion",
@@ -39,74 +42,235 @@
 	"titles": [
 		{
 			"title": "Cover and first volume of the book, Ko-Koi, Noanamá (San Diego: Tuhana Press, 1991)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 13338,
+			"id": 13338,
 			"Role": "Author",
 			"RoleID": 47,
-			"DisplayName": "Magda Santonastasio",
-			"AlphaSort": "Magda Santonastasio",
+			"name": "Magda Santonastasio",
+			"name_sort": "Magda Santonastasio",
 			"Nationality": "Costa Rican",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1937,
-			"EndDate": 0,
-			"DisplayDate": "b. 1937",
+			"EndDate": null,
+			"dates": "b. 1937",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "b. 1937"
 		},
 		{
-			"ConstituentID": 7637,
+			"id": 7637,
 			"Role": "Publisher",
 			"RoleID": 39,
-			"DisplayName": "Tuhana Press",
-			"AlphaSort": "Tuhana Press",
+			"name": "Tuhana Press",
+			"name_sort": "Tuhana Press",
 			"Nationality": "American",
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "active 20th century",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "active 20th century",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 2,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Tuhana Press"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "13 3/16 x 25 13/16 in. (33.5 x 65.5 cm)",
-			"description": "folded cover",
-			"element_name": "Image",
+			"media_xref_id": 73346,
+			"image_id": 93412,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2356,
+			"width": 1612,
+			"file_name": "4159201102070008.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "13 3/16 x 25 13/16 in. (33.5 x 65.5 cm)",
+			"type": "Height",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 33.5,
+				"width_cm": 65.5,
+				"depth_cm": null,
+				"height_in": 13.1875,
+				"width_in": 25.8125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "13 3/16 x 25 13/16 in. (33.5 x 65.5 cm)",
-			"description": "folded, cover",
-			"element_name": "x_Do not use_Sheet (4D)",
+			"value": "13 3/16 x 25 13/16 in. (33.5 x 65.5 cm)",
+			"type": "Width",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 33.5,
+				"width_cm": 65.5,
+				"depth_cm": null,
+				"height_in": 13.1875,
+				"width_in": 25.8125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "9 7/16 x 6 1/2 x 3/8 in. (24 x 16.5 x 1 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Object (4D)",
+			"value": "13 3/16 x 25 13/16 in. (33.5 x 65.5 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 2,
 			"displayed": true,
-			"rank": 3
+			"measurements": {
+				"height_cm": 33.5,
+				"width_cm": 65.5,
+				"depth_cm": null,
+				"height_in": 13.1875,
+				"width_in": 25.8125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "13 3/16 x 25 13/16 in. (33.5 x 65.5 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 33.5,
+				"width_cm": 65.5,
+				"depth_cm": null,
+				"height_in": 13.1875,
+				"width_in": 25.8125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "9 7/16 x 6 1/2 x 3/8 in. (24 x 16.5 x 1 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Object (4D)",
+			"unit": "Inches",
+			"rank": 3,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 24.0,
+				"width_cm": 16.5,
+				"depth_cm": 1.0,
+				"height_in": 9.4375,
+				"width_in": 6.5,
+				"depth_in": 0.375,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "9 7/16 x 6 1/2 x 3/8 in. (24 x 16.5 x 1 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Object (4D)",
+			"unit": "Inches",
+			"rank": 3,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 24.0,
+				"width_cm": 16.5,
+				"depth_cm": 1.0,
+				"height_in": 9.4375,
+				"width_in": 6.5,
+				"depth_in": 0.375,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "9 7/16 x 6 1/2 x 3/8 in. (24 x 16.5 x 1 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Object (4D)",
+			"unit": "Inches",
+			"rank": 3,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 24.0,
+				"width_cm": 16.5,
+				"depth_cm": 1.0,
+				"height_in": 9.4375,
+				"width_in": 6.5,
+				"depth_in": 0.375,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -137,7 +301,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 19821209,
 			"term": "Costa Rica",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -178,29 +344,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": 1991,
-	"media": [
-		{
-			"media_xref_id": 73346,
-			"media_master_id": 93412,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2356,
-			"pixel_w": 1612,
-			"file_name": "4159201102070008.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [],
 	"facet_technique": ["aquatint", "etching"],
 	"facet_place": [

@@ -2,17 +2,18 @@
 	"id": 191217,
 	"accession_number": "50.32.283",
 	"sort_number": "50.32.283",
-	"title": "SPINNING BOARD",
+	"title": "Spinning board",
 	"object_name": null,
-	"display_date": null,
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": null,
+	"date_start": null,
+	"date_end": null,
 	"medium": "wood, paint, and twine",
 	"medium_parts": ["wood, paint, and twine"],
-	"dimensions": "20 3/8",
 	"credit_line": "Gift of Wilfrid H. Hemingway",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Tools & Equipment",
+	"subclassification": "Transportation",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1950-10-26",
 	"location_string": "de Young, 061, Cabinet 038, TC",
 	"location_building": "de Young",
@@ -37,14 +40,53 @@
 	"titles": [
 		{
 			"title": "Spinning board",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": null,
+	"media": [
+		{
+			"media_xref_id": 127888,
+			"image_id": 20167,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 319,
+			"width": 1280,
+			"file_name": "0324200918100016.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -52,7 +94,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 16656543,
 			"term": "Australia",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -96,29 +140,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 127888,
-			"media_master_id": 20167,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 319,
-			"pixel_w": 1280,
-			"file_name": "0324200918100016.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Paint",
@@ -145,6 +166,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , , twine · Australia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 31
+		"populated_fields": 32
 	}
 }

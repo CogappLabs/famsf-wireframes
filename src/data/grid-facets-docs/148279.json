@@ -2,17 +2,18 @@
 	"id": 148279,
 	"accession_number": "2017.51.1",
 	"sort_number": "2017.51.1",
-	"title": "CYLINDER VASE WITH MONKEY SCRIBE AND CODEX SCRIBE",
+	"title": "Cylinder vase with monkey scribe and codex scribe",
 	"object_name": "vase",
-	"display_date": "AD 600–900",
-	"begin_iso_date": "600",
-	"end_iso_date": "900",
+	"date_display": "AD 600–900",
+	"date_start": "600",
+	"date_end": "900",
 	"medium": "Earthenware and pigment",
 	"medium_parts": ["Earthenware and pigment"],
-	"dimensions": null,
 	"credit_line": "Gift of Gail and J. Alec Merriam",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Vessels & Containers",
+	"subclassification": null,
+	"culture": "Late Classic Maya",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": true,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2017-10-26",
 	"location_string": "de Young, Display, Gallery 002",
 	"location_building": "de Young",
@@ -37,37 +40,108 @@
 	"titles": [
 		{
 			"title": "Cylinder vase with monkey scribe and codex scribe",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 12835,
+			"id": 12835,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Maya",
-			"AlphaSort": "Maya",
+			"name": "Maya",
+			"name_sort": "Maya",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "",
 			"Institution": null,
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Maya"
 		}
 	],
-	"dimensions_structured": null,
+	"media": [
+		{
+			"media_xref_id": 232090,
+			"image_id": 246522,
+			"rank": 0,
+			"primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 480,
+			"width": 640,
+			"file_name": "Ref_148279_20250417-2.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 179798,
+			"image_id": 196453,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 6190,
+			"width": 4577,
+			"file_name": "A376219_V1_crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -95,7 +169,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20354391,
 			"term": "Guatemala",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -122,7 +198,9 @@
 	"term_find_spot": null,
 	"term_period": [
 		{
+			"id": 16344179,
 			"term": "Late Classic",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -187,7 +265,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Maya",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Maya",
 	"sort_artist": "Maya",
 	"display_year": "600–900",
 	"doc_id": "2017.51.1",
@@ -196,47 +274,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 600,
-	"media": [
-		{
-			"media_xref_id": 179798,
-			"media_master_id": 196453,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 6190,
-			"pixel_w": 4577,
-			"file_name": "A376219_V1_crop.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 232090,
-			"media_master_id": 246522,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 3,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 480,
-			"pixel_w": 640,
-			"file_name": "Ref_148279_20250417-2.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ceramic",
@@ -259,6 +296,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — earthenware,  · Guatemala",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 45
 	}
 }

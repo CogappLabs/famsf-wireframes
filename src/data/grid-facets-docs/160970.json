@@ -2,19 +2,20 @@
 	"id": 160970,
 	"accession_number": "2012.42.1",
 	"sort_number": "2012.42.1",
-	"title": "JACKET",
+	"title": "Jacket",
 	"object_name": "woman's costume",
-	"display_date": "1990–2009",
-	"begin_iso_date": "1990",
-	"end_iso_date": "2009",
+	"date_display": "1990–2009",
+	"date_start": "1990",
+	"date_end": "2009",
 	"medium": "silk, thread, applied mirrors, brass rings, balls and disks",
 	"medium_parts": [
 		"silk, thread, applied mirrors, brass rings, balls and disks"
 	],
-	"dimensions": "64.8 x 45.7 x 7.6 cm (25 1/2 x 18 x 3 in.)",
 	"credit_line": "Gift of Mrs. John N. Rosekrans, Jr.",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2012-10-18",
 	"location_string": "de Young, 059, Cabinet 11, TB",
 	"location_building": "de Young",
@@ -39,38 +42,131 @@
 	"titles": [
 		{
 			"title": "Jacket",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 18730,
+			"id": 18730,
 			"Role": "Designer",
 			"RoleID": 67,
-			"DisplayName": "Rohit Bal",
-			"AlphaSort": "Rohit Bal",
+			"name": "Rohit Bal",
+			"name_sort": "Rohit Bal",
 			"Nationality": "Kashmiri Pandit",
+			"place_born": "Kashmīr",
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1957,
-			"EndDate": 0,
-			"DisplayDate": "b. 1957",
+			"EndDate": null,
+			"dates": "b. 1957",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "b. 1957"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "25 1/2 x 18 x 3 in. (64.8 x 45.7 x 7.6 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 140950,
+			"image_id": 16423,
+			"rank": 2,
+			"primary": false,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3008,
+			"width": 2000,
+			"file_name": "0211201414260015.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "25 1/2 x 18 x 3 in. (64.8 x 45.7 x 7.6 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 64.8,
+				"width_cm": 45.7,
+				"depth_cm": 7.6,
+				"height_in": 25.5,
+				"width_in": 18.0,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "25 1/2 x 18 x 3 in. (64.8 x 45.7 x 7.6 cm)",
+			"type": "Depth",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 64.8,
+				"width_cm": 45.7,
+				"depth_cm": 7.6,
+				"height_in": 25.5,
+				"width_in": 18.0,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "25 1/2 x 18 x 3 in. (64.8 x 45.7 x 7.6 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 64.8,
+				"width_cm": 45.7,
+				"depth_cm": 7.6,
+				"height_in": 25.5,
+				"width_in": 18.0,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -78,7 +174,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20214201,
 			"term": "India",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -122,29 +220,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1990,
-	"media": [
-		{
-			"media_xref_id": 140950,
-			"media_master_id": 16423,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 3008,
-			"pixel_w": 2000,
-			"file_name": "0211201414260015.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Metal",

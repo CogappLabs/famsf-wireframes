@@ -2,17 +2,18 @@
 	"id": 114381,
 	"accession_number": "1983.83.35",
 	"sort_number": "1983.83.35",
-	"title": "HAND FAN",
+	"title": "Hand fan",
 	"object_name": "fan",
-	"display_date": "early 20th century",
-	"begin_iso_date": "1900",
-	"end_iso_date": "1925",
+	"date_display": "early 20th century",
+	"date_start": "1900",
+	"date_end": "1925",
 	"medium": "Paint on satin, ivory, carved wood stick, silk tassel",
 	"medium_parts": ["Paint on satin, ivory, carved wood stick, silk tassel"],
-	"dimensions": null,
 	"credit_line": "Bequest of Consuelo Y. Ziroli",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Requires Further Research",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1984-01-05",
 	"location_string": "de Young, 059, Cabinet 22, J",
 	"location_building": "de Young",
@@ -37,14 +40,53 @@
 	"titles": [
 		{
 			"title": "Hand fan",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": null,
+	"media": [
+		{
+			"media_xref_id": 93489,
+			"image_id": 21968,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1868,
+			"width": 2202,
+			"file_name": "0409200109160239.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -52,7 +94,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 17121651,
 			"term": "China",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -96,29 +140,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1900,
-	"media": [
-		{
-			"media_xref_id": 93489,
-			"media_master_id": 21968,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1868,
-			"pixel_w": 2202,
-			"file_name": "0409200109160239.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ivory",
@@ -149,6 +170,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , , satin, silk tassel · China",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 38
+		"populated_fields": 40
 	}
 }

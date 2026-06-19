@@ -2,17 +2,18 @@
 	"id": 244640,
 	"accession_number": "T&D1962.42.dup2",
 	"sort_number": "T&D1962.42.dup2",
-	"title": "COSTUME DESIGN FOR THE WIFE OF THE BLUE BIRD IN THE DRAMA LA PISANELLA OU LA MORTE PARFUMÉE (PISANELLA OR THE PERFUMED DEATH)",
+	"title": "Costume design for the Wife of the Blue Bird in the drama La Pisanella ou la morte parfumée (Pisanella or The Perfumed Death)",
 	"object_name": "Art/Music/Dance Fashion Figure Study Literary Theater/Entertainment",
-	"display_date": "1913",
-	"begin_iso_date": "1913",
-	"end_iso_date": "1913",
+	"date_display": "1913",
+	"date_start": "1913",
+	"date_end": "1913",
 	"medium": "Graphite, watercolor, silver and gold paint on laid paper",
 	"medium_parts": ["Graphite, watercolor, silver and gold paint on laid paper"],
-	"dimensions": "Sheet: 372 x 264 mm (14 5/8 x 10 3/8 in.)",
 	"credit_line": "Theater and Dance Collection, gift of Mrs. Adolph B. Spreckels",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1962-01-01",
 	"location_string": "Legion, 210, Compact Shelf 23, 213",
 	"location_building": "Legion",
@@ -37,38 +40,112 @@
 	"titles": [
 		{
 			"title": "Costume design for the Wife of the Blue Bird in the drama La Pisanella ou la morte parfumée (Pisanella or The Perfumed Death)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 2391,
+			"id": 2391,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Léon Bakst (Lev Samoilovich Rosenberg)",
-			"AlphaSort": "Lev Samoilovich Rosenberg, cal",
+			"name": "Léon Bakst (Lev Samoilovich Rosenberg)",
+			"name_sort": "Lev Samoilovich Rosenberg, cal",
 			"Nationality": "Russian",
+			"place_born": "Grodno",
+			"place_died": "Paris",
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1866,
 			"EndDate": 1924,
-			"DisplayDate": "Russian, 1866 - 1924",
+			"dates": "Russian, 1866 - 1924",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Léon Bakst (Lev Samoilovich Rosenberg) (1866–1924)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "14 5/8 x 10 3/8 in. (37.2 x 26.4 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Sheet (4D)",
+			"media_xref_id": 19951,
+			"image_id": 86615,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2619,
+			"width": 1898,
+			"file_name": "3328201308190019.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "14 5/8 x 10 3/8 in. (37.2 x 26.4 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 37.2,
+				"width_cm": 26.4,
+				"depth_cm": null,
+				"height_in": 14.625,
+				"width_in": 10.375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "14 5/8 x 10 3/8 in. (37.2 x 26.4 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 37.2,
+				"width_cm": 26.4,
+				"depth_cm": null,
+				"height_in": 14.625,
+				"width_in": 10.375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -79,7 +156,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 16964870,
 			"term": "Russia",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -120,29 +199,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1913,
-	"media": [
-		{
-			"media_xref_id": 19951,
-			"media_master_id": 86615,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2619,
-			"pixel_w": 1898,
-			"file_name": "3328201308190019.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Gold & silver",

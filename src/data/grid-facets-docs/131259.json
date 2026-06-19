@@ -2,17 +2,18 @@
 	"id": 131259,
 	"accession_number": "2018.28.1.42a-d",
 	"sort_number": "2018.28.1.42a-d",
-	"title": "WOMAN'S SUIT: JACKET (A) BLOUSE (B), SKIRT (C), AND CAMISOLE (D)",
+	"title": "Woman's suit: jacket (a) blouse (b), skirt (c), and camisole (d)",
 	"object_name": "woman's costume",
-	"display_date": "ca. 1999–2004",
-	"begin_iso_date": "1999",
-	"end_iso_date": "2004",
+	"date_display": "ca. 1999–2004",
+	"date_start": "1999",
+	"date_end": "2004",
 	"medium": "wool, acetate, acrylic, silk, nylon, rayon",
 	"medium_parts": ["wool, acetate, acrylic, silk, nylon, rayon"],
-	"dimensions": "50.8 cm (20 in.) jacket, center back; 53.3 cm (21 in.) skirt, center back; 62.2 cm (24 1/2 in.) skirt, center back",
 	"credit_line": "Gift of Christine Suppes in memory of Mary Jane Johnson",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2018-06-05",
 	"location_string": "UOVO, Livermore, Cabinet 003",
 	"location_building": "UOVO",
@@ -37,67 +40,150 @@
 	"titles": [
 		{
 			"title": "Woman's suit: jacket (a) blouse (b), skirt (c), and camisole (d)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 2100,
+			"id": 2100,
 			"Role": "Designer",
 			"RoleID": 67,
-			"DisplayName": "Karl Lagerfeld",
-			"AlphaSort": "Karl Lagerfeld",
+			"name": "Karl Lagerfeld",
+			"name_sort": "Karl Lagerfeld",
 			"Nationality": "German",
+			"place_born": "Hamburg",
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1933,
 			"EndDate": 2019,
-			"DisplayDate": "1933 - 2019",
+			"dates": "1933 - 2019",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Karl Lagerfeld (1933–2019)"
 		},
 		{
-			"ConstituentID": 18890,
+			"id": 18890,
 			"Role": "House of",
 			"RoleID": 356,
-			"DisplayName": "Chanel",
-			"AlphaSort": "Chanel",
+			"name": "Chanel",
+			"name_sort": "Chanel",
 			"Nationality": "French",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1910,
-			"EndDate": 0,
-			"DisplayDate": "est. 1910",
+			"EndDate": null,
+			"dates": "est. 1910",
 			"Institution": "House of Chanel",
 			"ConstituentType": "Entity",
 			"DisplayOrder": 2,
 			"DisplayLabel": "b. 1910"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "24 1/2 in. (62.2 cm)",
-			"description": "skirt, center back",
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 180026,
+			"image_id": 196681,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3024,
+			"width": 4032,
+			"file_name": "A411061.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "24 1/2 in. (62.2 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 62.2,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 24.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "20 in. (50.8 cm)",
-			"description": "jacket, center back",
-			"element_name": "x_Do not use_Overall (4D)",
+			"value": "20 in. (50.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 2,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 50.8,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 20.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "21 in. (53.3 cm)",
-			"description": "skirt, center back",
-			"element_name": "x_Do not use_Overall (4D)",
+			"value": "21 in. (53.3 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 3,
 			"displayed": true,
-			"rank": 3
+			"measurements": {
+				"height_cm": 53.3,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 21.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -105,7 +191,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20618668,
 			"term": "France",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -149,29 +237,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1999,
-	"media": [
-		{
-			"media_xref_id": 180026,
-			"media_master_id": 196681,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 3024,
-			"pixel_w": 4032,
-			"file_name": "A411061.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Paint",

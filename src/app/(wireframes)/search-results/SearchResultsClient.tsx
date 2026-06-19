@@ -261,8 +261,13 @@ function SearchResultsContent({
 		}[] = [
 			{
 				facetType: "primary_artist",
-				facetLabel: "Artist",
+				facetLabel: "Artist/maker",
 				get: (d) => (d.primary_artist ? [d.primary_artist] : []),
+			},
+			{
+				facetType: "culture",
+				facetLabel: "Culture group",
+				get: (d) => (d.culture ? [d.culture] : []),
 			},
 			{
 				facetType: "place",
@@ -276,7 +281,7 @@ function SearchResultsContent({
 			},
 			{
 				facetType: "material",
-				facetLabel: "Material",
+				facetLabel: "Medium",
 				get: (d) =>
 					(d.facet_material ?? []).flatMap((m) =>
 						[m.parent, m.specific].filter((v): v is string => Boolean(v)),
@@ -289,12 +294,12 @@ function SearchResultsContent({
 			},
 			{
 				facetType: "classification",
-				facetLabel: "Classification",
+				facetLabel: "Object type",
 				get: (d) => (d.classification ? [d.classification] : []),
 			},
 			{
 				facetType: "department",
-				facetLabel: "Collection area",
+				facetLabel: "Department",
 				get: (d) => (d.department ? [d.department] : []),
 			},
 			{

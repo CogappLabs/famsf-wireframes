@@ -2,17 +2,18 @@
 	"id": 67445,
 	"accession_number": "1978.2.38",
 	"sort_number": "1978.2.38",
-	"title": "UNTITLED (ROCKS)",
+	"title": "Untitled (Rocks)",
 	"object_name": "Landscape",
-	"display_date": "1978",
-	"begin_iso_date": "1978",
-	"end_iso_date": "1978",
+	"date_display": "1978",
+	"date_start": "1978",
+	"date_end": "1978",
 	"medium": "Pen and black ink on white wove paper",
 	"medium_parts": ["Pen and black ink on white wove paper"],
-	"dimensions": "Image: 325 x 205 mm (12 13/16 x 8 1/16 in.); Sheet: 528 x 368 mm (20 13/16 x 14 1/2 in.)",
 	"credit_line": "Museum purchase, Hamilton-Wells Fund",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1978-12-01",
 	"location_string": "Legion, 210, Compact Shelf 24, 216",
 	"location_building": "Legion",
@@ -37,52 +40,159 @@
 	"titles": [
 		{
 			"title": "Untitled (Rocks)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 3102,
+			"id": 3102,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Vaughan B. Wiles",
-			"AlphaSort": "Vaughan B. Wiles",
+			"name": "Vaughan B. Wiles",
+			"name_sort": "Vaughan B. Wiles",
 			"Nationality": "New Zealander",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1954,
-			"EndDate": 0,
-			"DisplayDate": "b. 1954",
+			"EndDate": null,
+			"dates": "b. 1954",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "b. 1954"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "12 13/16 x 8 1/16 in. (32.5 x 20.5 cm)",
-			"description": null,
-			"element_name": "Image",
+			"media_xref_id": 19848,
+			"image_id": 62703,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1591,
+			"width": 2543,
+			"file_name": "3154201309050035.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "12 13/16 x 8 1/16 in. (32.5 x 20.5 cm)",
+			"type": "Width",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 32.5,
+				"width_cm": 20.5,
+				"depth_cm": null,
+				"height_in": 12.8125,
+				"width_in": 8.0625,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "20 13/16 x 14 1/2 in. (52.8 x 36.8 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Sheet (4D)",
+			"value": "12 13/16 x 8 1/16 in. (32.5 x 20.5 cm)",
+			"type": "Height",
+			"element": "Image",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 32.5,
+				"width_cm": 20.5,
+				"depth_cm": null,
+				"height_in": 12.8125,
+				"width_in": 8.0625,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "20 13/16 x 14 1/2 in. (52.8 x 36.8 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 52.8,
+				"width_cm": 36.8,
+				"depth_cm": null,
+				"height_in": 20.8125,
+				"width_in": 14.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "20 13/16 x 14 1/2 in. (52.8 x 36.8 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 52.8,
+				"width_cm": 36.8,
+				"depth_cm": null,
+				"height_in": 20.8125,
+				"width_in": 14.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -113,7 +223,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 18245001,
 			"term": "New Zealand",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -154,29 +266,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1978,
-	"media": [
-		{
-			"media_xref_id": 19848,
-			"media_master_id": 62703,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1591,
-			"pixel_w": 2543,
-			"file_name": "3154201309050035.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ink",

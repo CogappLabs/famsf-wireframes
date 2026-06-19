@@ -2,19 +2,20 @@
 	"id": 302566,
 	"accession_number": "2022.33.1",
 	"sort_number": "2022.33.1",
-	"title": "WOMAN'S DRESS",
+	"title": "Woman's dress",
 	"object_name": "woman's costume",
-	"display_date": "ca. 1880",
-	"begin_iso_date": "1875",
-	"end_iso_date": "1885",
+	"date_display": "ca. 1880",
+	"date_start": "1875",
+	"date_end": "1885",
 	"medium": "Silk gauze weave with supplementary weft-patterning, silk satin, silk chiffon, silk taffeta, silk and chenille fringe, silk ribbon, silk twill lining",
 	"medium_parts": [
 		"Silk gauze weave with supplementary weft-patterning, silk satin, silk chiffon, silk taffeta, silk and chenille fringe, silk ribbon, silk twill lining"
 	],
-	"dimensions": "center front: 60 in., (152.4 cm,)\r\ncenter back: 83 in., (210.82 cm,)\r\nshoulder-to-shoulder: 14 1/2 in., (36.83 cm,)\r\nwaist: 21 1/2 in., (54.61 cm,)\r\nhip: 37 in., (93.98 cm,)",
 	"credit_line": "Gift of Natalie C. Lewis on behalf of Natalie Greene Lewis",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": "Diana de Marly, \"The History of Haute Couture, 1850 - 1950\" (New York: Holmes & Meier Publishers, Inc., 1980): plate 1.",
 	"provenance": "Owned by Natalie Coffin Greene, of San Francisco, grandmother of the donor",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2022-11-09",
 	"location_string": "de Young, 059, Cabinet 48, TB",
 	"location_building": "de Young",
@@ -39,57 +42,443 @@
 	"titles": [
 		{
 			"title": "Woman's dress",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "English",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "60 in., (152.4 cm,)",
-			"description": "center front",
-			"element_name": "Overall",
+			"media_xref_id": 180110,
+			"image_id": 196765,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9892,
+			"width": 7147,
+			"file_name": "PSI_20220816_302566_1_Crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "60 in., (152.4 cm,)",
+			"type": "Weight",
+			"element": "Overall",
+			"unit": "Pounds",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 152.4,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 60.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "83 in., (210.82 cm,)",
-			"description": "center back",
-			"element_name": "Overall",
+			"value": "60 in., (152.4 cm,)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 152.4,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 60.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "14 1/2 in., (36.83 cm,)",
-			"description": "shoulder-to-shoulder",
-			"element_name": "Overall",
+			"value": "60 in., (152.4 cm,)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 3
+			"measurements": {
+				"height_cm": 152.4,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 60.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "21 1/2 in., (54.61 cm,)",
-			"description": "waist",
-			"element_name": "Overall",
+			"value": "60 in., (152.4 cm,)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 4
+			"measurements": {
+				"height_cm": 152.4,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 60.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "37 in., (93.98 cm,)",
-			"description": "hip",
-			"element_name": "Overall",
+			"value": "83 in., (210.82 cm,)",
+			"type": "Weight",
+			"element": "Overall",
+			"unit": "Pounds",
+			"rank": 2,
 			"displayed": true,
-			"rank": 5
+			"measurements": {
+				"height_cm": 210.82,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 83.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "83 in., (210.82 cm,)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 210.82,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 83.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "83 in., (210.82 cm,)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 210.82,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 83.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "83 in., (210.82 cm,)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 210.82,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 83.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "14 1/2 in., (36.83 cm,)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 3,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 36.83,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 14.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "14 1/2 in., (36.83 cm,)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 3,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 36.83,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 14.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "14 1/2 in., (36.83 cm,)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 3,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 36.83,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 14.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "14 1/2 in., (36.83 cm,)",
+			"type": "Weight",
+			"element": "Overall",
+			"unit": "Pounds",
+			"rank": 3,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 36.83,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 14.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "21 1/2 in., (54.61 cm,)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 4,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 54.61,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 21.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "21 1/2 in., (54.61 cm,)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 4,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 54.61,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 21.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "21 1/2 in., (54.61 cm,)",
+			"type": "Weight",
+			"element": "Overall",
+			"unit": "Pounds",
+			"rank": 4,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 54.61,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 21.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "21 1/2 in., (54.61 cm,)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 4,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 54.61,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 21.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "37 in., (93.98 cm,)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 5,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 93.98,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 37.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "37 in., (93.98 cm,)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 5,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 93.98,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 37.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "37 in., (93.98 cm,)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 5,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 93.98,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 37.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "37 in., (93.98 cm,)",
+			"type": "Weight",
+			"element": "Overall",
+			"unit": "Pounds",
+			"rank": 5,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 93.98,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 37.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -117,28 +506,9 @@
 	],
 	"term_place_of_creation": [
 		{
-			"term": "France",
-			"certainty": "Possibly",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABH",
-					"term": "Europe"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABH.AAASY",
-					"term": "France"
-				}
-			]
-		},
-		{
+			"id": 20843547,
 			"term": "United States of America",
+			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -155,6 +525,29 @@
 					"depth": 3,
 					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
 					"term": "United States"
+				}
+			]
+		},
+		{
+			"id": 20618664,
+			"term": "France",
+			"type": "Descriptor",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
 				}
 			]
 		}
@@ -182,29 +575,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": 1875,
-	"media": [
-		{
-			"media_xref_id": 180110,
-			"media_master_id": 196765,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 9892,
-			"pixel_w": 7147,
-			"file_name": "PSI_20220816_302566_1_Crop.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Silk",
@@ -230,20 +600,20 @@
 	"facet_technique": [],
 	"facet_place": [
 		{
-			"region": "Europe",
-			"country": "France",
-			"state": "",
-			"notable": ""
-		},
-		{
 			"region": "North America",
 			"country": "United States",
 			"state": "",
 			"notable": "United States of America"
+		},
+		{
+			"region": "Europe",
+			"country": "France",
+			"state": "",
+			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , silk chiffon, silk satin, silk taffeta … · France, United States of America",
+		"reason": "grid-facets real slice — , silk chiffon, silk satin, silk taffeta … · United States of America, France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 44
 	}

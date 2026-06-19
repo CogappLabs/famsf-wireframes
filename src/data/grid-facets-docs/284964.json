@@ -2,19 +2,20 @@
 	"id": 284964,
 	"accession_number": "L8365",
 	"sort_number": "L8365",
-	"title": "CHASUBLE",
+	"title": "Chasuble",
 	"object_name": "ecclesiastical/ritual costume",
-	"display_date": "early 18th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "early 18th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "linen, silk, metal thread and spangles, couching and satin stitch",
 	"medium_parts": [
 		"linen, silk, metal thread and spangles, couching and satin stitch"
 	],
-	"dimensions": "109 x 52 cm (42 15/16 x 20 1/2 in.)",
 	"credit_line": "Lent by Edith Bull",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1915-12-16",
 	"location_string": "de Young, 059, Cabinet 03, F",
 	"location_building": "de Young",
@@ -39,29 +42,101 @@
 	"titles": [
 		{
 			"title": "Chasuble",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "42 15/16 x 20 1/2 in. (109 x 52 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 117967,
+			"image_id": 48468,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2724,
+			"width": 1690,
+			"file_name": "1508200312160311.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "42 15/16 x 20 1/2 in. (109 x 52 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 109.0,
+				"width_cm": 52.0,
+				"depth_cm": null,
+				"height_in": 42.9375,
+				"width_in": 20.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "42 15/16 x 20 1/2 in. (109 x 52 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 109.0,
+				"width_cm": 52.0,
+				"depth_cm": null,
+				"height_in": 42.9375,
+				"width_in": 20.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -89,7 +164,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 19740631,
 			"term": "Chile",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -133,29 +210,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 117967,
-			"media_master_id": 48468,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2724,
-			"pixel_w": 1690,
-			"file_name": "1508200312160311.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Silk",

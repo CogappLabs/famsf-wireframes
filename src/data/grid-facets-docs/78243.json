@@ -2,17 +2,18 @@
 	"id": 78243,
 	"accession_number": "1988.11.521",
 	"sort_number": "1988.11.521",
-	"title": "HANGING",
+	"title": "Hanging",
 	"object_name": "miscellaneous",
-	"display_date": "17th century",
-	"begin_iso_date": "1601",
-	"end_iso_date": "1700",
+	"date_display": "17th century",
+	"date_start": "1601",
+	"date_end": "1700",
 	"medium": "Linen, silk; plain weave, embroidery",
 	"medium_parts": ["Linen, silk", "plain weave, embroidery"],
-	"dimensions": "236.2 x 121.9 cm (93  x 48  in.)",
 	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nBequest of H. McCoy Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Fiber Art",
+	"subclassification": null,
+	"culture": "Ottoman",
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1988-06-09",
 	"location_string": "de Young, 059, Cabinet 46, C",
 	"location_building": "de Young",
@@ -37,45 +40,173 @@
 	"titles": [
 		{
 			"title": "Hanging",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 40706,
+			"id": 40706,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Ottoman",
-			"AlphaSort": "Ottoman",
+			"name": "Ottoman",
+			"name_sort": "Ottoman",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Ottoman"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "93 x 48 in. (236.2 x 121.9 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 224447,
+			"image_id": 236440,
+			"rank": 0,
+			"primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 13958,
+			"width": 7978,
+			"file_name": "MS_78243_20241104-02.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 224445,
+			"image_id": 236438,
+			"rank": 0,
+			"primary": false,
+			"display_order": 3,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 13861,
+			"width": 8018,
+			"file_name": "MS_78243_20241104-01.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 94565,
+			"image_id": 26748,
+			"rank": 1,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2433,
+			"width": 1362,
+			"file_name": "0508200413500008.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "93 x 48 in. (236.2 x 121.9 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 236.2,
+				"width_cm": 121.9,
+				"depth_cm": null,
+				"height_in": 93.0,
+				"width_in": 48.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "93 x 48 in. (236.2 x 121.9 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 236.2,
+				"width_cm": 121.9,
+				"depth_cm": null,
+				"height_in": 93.0,
+				"width_in": 48.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -103,7 +234,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 17557532,
 			"term": "Western Anatolia",
+			"type": "Descriptor",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -129,7 +262,9 @@
 			]
 		},
 		{
+			"id": 18230823,
 			"term": "Aegean Islands",
+			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -178,65 +313,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1601,
-	"media": [
-		{
-			"media_xref_id": 94565,
-			"media_master_id": 26748,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2433,
-			"pixel_w": 1362,
-			"file_name": "0508200413500008.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 224447,
-			"media_master_id": 236440,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 4,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 13958,
-			"pixel_w": 7978,
-			"file_name": "MS_78243_20241104-02.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 224445,
-			"media_master_id": 236438,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 3,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 13861,
-			"pixel_w": 8018,
-			"file_name": "MS_78243_20241104-01.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Silk",
@@ -265,6 +341,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , linen, embroidery · Western Anatolia, Aegean Islands",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 44
 	}
 }

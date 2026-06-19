@@ -2,19 +2,20 @@
 	"id": 302284,
 	"accession_number": "2022.26.7",
 	"sort_number": "2022.26.7",
-	"title": "JUNE",
+	"title": "June",
 	"object_name": null,
-	"display_date": "2021",
-	"begin_iso_date": "2021",
-	"end_iso_date": "2021",
+	"date_display": "2021",
+	"date_start": "2021",
+	"date_end": "2021",
 	"medium": "Acrylic, oil, graphite, chalk, charcoal, pastel, casein, and flashe on canvas",
 	"medium_parts": [
 		"Acrylic, oil, graphite, chalk, charcoal, pastel, casein, and flashe on canvas"
 	],
-	"dimensions": "77 1/2 x 62 in. (196.85 x 157.48 cm)",
 	"credit_line": "Museum purchase, a gift from The Svane Family Foundation",
 	"department": "Contemporary Art",
 	"classification": "Painting",
+	"subclassification": null,
+	"culture": null,
 	"copyright": "© Koak. Courtesy of the artist and Altman Siegel, San Francisco.",
 	"object_rights_type": "Copyright",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2022-06-08",
 	"location_string": "de Young, 061, Painting Rack 54, A",
 	"location_building": "de Young",
@@ -39,45 +42,228 @@
 	"titles": [
 		{
 			"title": "June",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "English",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 37457,
+			"id": 37457,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Koak",
-			"AlphaSort": "Koak",
+			"name": "Koak",
+			"name_sort": "Koak",
 			"Nationality": null,
+			"place_born": "Lansing",
+			"place_died": null,
+			"place_active": "San Francisco",
+			"attribution_prefix": "",
 			"BeginDate": 1981,
-			"EndDate": 0,
-			"DisplayDate": "American, born 1981",
+			"EndDate": null,
+			"dates": "American, born 1981",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1981"
+		},
+		{
+			"id": 37457,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Koak",
+			"name_sort": "Koak",
+			"Nationality": null,
+			"place_born": "Lansing",
+			"place_died": null,
+			"place_active": "San Francisco",
+			"attribution_prefix": null,
+			"BeginDate": 1981,
+			"EndDate": null,
+			"dates": "American, born 1981",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "b. 1981"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "77 1/2 x 62 in. (196.85 x 157.48 cm)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 214574,
+			"image_id": 221910,
+			"rank": 0,
+			"primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8256,
+			"width": 5504,
+			"file_name": "MS_302284_20230814_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 156244,
+			"image_id": 195124,
+			"rank": 0,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9626,
+			"width": 8015,
+			"file_name": "PSI_20220517_302284_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 179865,
+			"image_id": 196520,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9314,
+			"width": 7535,
+			"file_name": "PSI_20220517_302284_1_crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "77 1/2 x 62 in. (196.85 x 157.48 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 196.85,
+				"width_cm": 157.48,
+				"depth_cm": null,
+				"height_in": 77.5,
+				"width_in": 62.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "77 1/2 x 62 in. (196.85 x 157.48 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 196.85,
+				"width_cm": 157.48,
+				"depth_cm": null,
+				"height_in": 77.5,
+				"width_in": 62.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": [
+			{
+				"id": 656,
+				"title": "Crafting Radicality: Bay Area Artists from the Svane Gift",
+				"href": "https://www.develop-sr3snxi-i63nmygx3oviw.us-3.platformsh.site/exhibitions/crafting-radicality-bay-area-artists",
+				"date": "Sat, July 22",
+				"year": "2023",
+				"subtitle": "<time datetime=\"2023-07-22\">Jul 22</time> – <time datetime=\"2023-12-31\">Dec 31, 2023</time>",
+				"description": null,
+				"meta_primary": "<time datetime=\"2023-07-22\">Jul 22</time> – <time datetime=\"2023-12-31\">Dec 31, 2023</time>",
+				"sticker": null,
+				"access_day": false,
+				"location": "Gallery 16",
+				"media": {
+					"image": {
+						"src": "https://www.develop-sr3snxi-i63nmygx3oviw.us-3.platformsh.site/storage/images/77670463-dac9-470d-a863-341b076d15bc/psi-20220517-302307-1.jpg?crop=1001,563,x419,y735&format=jpg&quality=80&width=800",
+						"width": 800,
+						"height": 450
+					},
+					"alt": "collage of human male body parts and a non-human face",
+					"caption": "<p>Rashaad Newsome.&nbsp;<em>Thirst Trap </em>(detail), 2020. Collage on paper in custom mahogany and resin artist frame with automotive paint, 45 1/4 x 43 11/16 x 4 1/2 in. (114.935 x 110.966 x 11.43 cm). Fine Arts Museums of San Francisco, a gift from the Svane Family Foundation, 2022.26.24a-b. Courtesy of the artist and Jessica Silverman, San Francisco. Photograph by Randy Dodson<br class=\"softbreak\"></p>",
+					"credit": ""
+				},
+				"tags": [
+					{
+						"text": null,
+						"href": null,
+						"location": "de-young"
+					},
+					{
+						"text": "Exhibition",
+						"href": null,
+						"location": null
+					}
+				]
+			}
+		],
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -105,7 +291,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20495791,
 			"term": "San Francisco",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -153,7 +341,105 @@
 	"term_school": null,
 	"term_materials": [
 		{
+			"id": 16386703,
+			"term": "vinyl paint",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
+					"term": "synthetic resin paint"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAD",
+					"term": "vinyl paint"
+				}
+			]
+		},
+		{
+			"id": 16537008,
+			"term": "chalk",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAO",
+					"term": "chalk"
+				}
+			]
+		},
+		{
+			"id": 16291345,
 			"term": "charcoal",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -199,7 +485,67 @@
 			]
 		},
 		{
+			"id": 16207483,
+			"term": "acrylic paint",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
+					"term": "synthetic resin paint"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAA",
+					"term": "acrylic paint"
+				}
+			]
+		},
+		{
+			"id": 16397500,
 			"term": "oil paint",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -250,7 +596,9 @@
 			]
 		},
 		{
+			"id": 16608688,
 			"term": "graphite",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -291,7 +639,110 @@
 			]
 		},
 		{
+			"id": 16344960,
+			"term": "pastel",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAC",
+					"term": "pastel"
+				}
+			]
+		},
+		{
+			"id": 16418138,
+			"term": "canvas",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD",
+					"term": "textile materials by process or technique"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD.AAE",
+					"term": "canvas"
+				}
+			]
+		},
+		{
+			"id": 16207518,
 			"term": "casein paint",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -350,251 +801,6 @@
 					"term": "casein paint"
 				}
 			]
-		},
-		{
-			"term": "pastel",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAC",
-					"term": "pastel"
-				}
-			]
-		},
-		{
-			"term": "chalk",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAB",
-					"term": "materials by composition"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
-					"term": "inorganic material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAO",
-					"term": "chalk"
-				}
-			]
-		},
-		{
-			"term": "canvas",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
-					"term": "fiber by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
-					"term": "textile materials"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD",
-					"term": "textile materials by process or technique"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD.AAE",
-					"term": "canvas"
-				}
-			]
-		},
-		{
-			"term": "vinyl paint",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
-					"term": "paint"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
-					"term": "paint by composition or origin"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
-					"term": "synthetic resin paint"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAD",
-					"term": "vinyl paint"
-				}
-			]
-		},
-		{
-			"term": "acrylic paint",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
-					"term": "paint"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
-					"term": "paint by composition or origin"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
-					"term": "synthetic resin paint"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAA",
-					"term": "acrylic paint"
-				}
-			]
 		}
 	],
 	"term_subject": null,
@@ -609,65 +815,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 2021,
-	"media": [
-		{
-			"media_xref_id": 214574,
-			"media_master_id": 221910,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 4,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 8256,
-			"pixel_w": 5504,
-			"file_name": "MS_302284_20230814_1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 179865,
-			"media_master_id": 196520,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 9314,
-			"pixel_w": 7535,
-			"file_name": "PSI_20220517_302284_1_crop.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 156244,
-			"media_master_id": 195124,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 9626,
-			"pixel_w": 8015,
-			"file_name": "PSI_20220517_302284_1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Paint",

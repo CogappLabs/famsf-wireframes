@@ -2,17 +2,18 @@
 	"id": 109929,
 	"accession_number": "1992.107.2",
 	"sort_number": "1992.107.2",
-	"title": "WOMAN'S SHOULDER CLOTH (ICULLA, KEPAM)",
+	"title": "Woman's shoulder cloth (iculla, kepam)",
 	"object_name": "woman's costume",
-	"display_date": "early 20th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "early 20th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "sheep's wool",
 	"medium_parts": ["sheep's wool"],
-	"dimensions": "118.8 x 155 cm (46 3/4 x 61  in.)",
 	"credit_line": "The Jeffrey Appleby Andean Textile Collection",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
+	"subclassification": null,
+	"culture": "Mapuche",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1992-06-30",
 	"location_string": "de Young, 227, Cabinet 26, H",
 	"location_building": "de Young",
@@ -37,38 +40,112 @@
 	"titles": [
 		{
 			"title": "Woman's shoulder cloth (iculla, kepam)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 40971,
+			"id": 40971,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Mapuche",
-			"AlphaSort": "Mapuche",
+			"name": "Mapuche",
+			"name_sort": "Mapuche",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Mapuche"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "46 3/4 x 61 in. (118.8 x 155 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 94906,
+			"image_id": 125314,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2167,
+			"width": 1793,
+			"file_name": "6250304134760082.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "46 3/4 x 61 in. (118.8 x 155 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 118.8,
+				"width_cm": 155.0,
+				"depth_cm": null,
+				"height_in": 46.75,
+				"width_in": 61.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "46 3/4 x 61 in. (118.8 x 155 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 118.8,
+				"width_cm": 155.0,
+				"depth_cm": null,
+				"height_in": 46.75,
+				"width_in": 61.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -76,38 +153,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
-			"term": "Temuco",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAACT",
-					"term": "South America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAACT.AAABI",
-					"term": "Chile"
-				},
-				{
-					"depth": 4,
-					"cn": "AUZ.AAAAB.AAACT.AAABI.AAAAC",
-					"term": "Araucanía"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAACT.AAABI.AAAAC.AABML",
-					"term": "Temuco"
-				}
-			]
-		},
-		{
+			"id": 17616000,
 			"term": "Quepe",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -136,6 +184,39 @@
 					"term": "Quepe"
 				}
 			]
+		},
+		{
+			"id": 17715217,
+			"term": "Temuco",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAABI",
+					"term": "Chile"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAABI.AAAAC",
+					"term": "Araucanía"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAACT.AAABI.AAAAC.AABML",
+					"term": "Temuco"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -161,29 +242,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 94906,
-			"media_master_id": 125314,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 2167,
-			"pixel_w": 1793,
-			"file_name": "6250304134760082.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Wool",
@@ -196,18 +254,18 @@
 			"region": "South America",
 			"country": "Chile",
 			"state": "",
-			"notable": "Temuco"
+			"notable": "Quepe"
 		},
 		{
 			"region": "South America",
 			"country": "Chile",
 			"state": "",
-			"notable": "Quepe"
+			"notable": "Temuco"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — sheep's wool · Temuco, Quepe",
+		"reason": "grid-facets real slice — sheep's wool · Quepe, Temuco",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 37
 	}
 }

@@ -2,17 +2,18 @@
 	"id": 101452,
 	"accession_number": "1997.112.19",
 	"sort_number": "1997.112.19",
-	"title": "UNA COCITA NORDRYA (?)",
+	"title": "Una Cocita Nordrya (?)",
 	"object_name": "lithograph",
-	"display_date": "1973",
-	"begin_iso_date": "1973",
-	"end_iso_date": "1973",
+	"date_display": "1973",
+	"date_start": "1973",
+	"date_end": "1973",
 	"medium": "color lithograph",
 	"medium_parts": ["color lithograph"],
-	"dimensions": "560 x 749 mm (22 1/16 x 29 1/2 in.)",
 	"credit_line": "Gift of David Whitehouse",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Print",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1997-12-11",
 	"location_string": "Legion, 101, Bin 62, B",
 	"location_building": "Legion",
@@ -37,38 +40,112 @@
 	"titles": [
 		{
 			"title": "Una Cocita Nordrya (?)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 4080,
+			"id": 4080,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Emilio Sanchez",
-			"AlphaSort": "Emilio Sanchez",
+			"name": "Emilio Sanchez",
+			"name_sort": "Emilio Sanchez",
 			"Nationality": "Cuban",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1921,
 			"EndDate": 1999,
-			"DisplayDate": "1921–1999",
+			"dates": "1921–1999",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Emilio Sanchez (1921–1999)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "22 1/16 x 29 1/2 in. (56 x 74.9 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 103729,
+			"image_id": 127174,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1766,
+			"width": 2358,
+			"file_name": "8030319206180049.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "22 1/16 x 29 1/2 in. (56 x 74.9 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 56.0,
+				"width_cm": 74.9,
+				"depth_cm": null,
+				"height_in": 22.0625,
+				"width_in": 29.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "22 1/16 x 29 1/2 in. (56 x 74.9 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 56.0,
+				"width_cm": 74.9,
+				"depth_cm": null,
+				"height_in": 22.0625,
+				"width_in": 29.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -79,7 +156,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 20183106,
 			"term": "Cuba",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -120,29 +199,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1973,
-	"media": [
-		{
-			"media_xref_id": 103729,
-			"media_master_id": 127174,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1766,
-			"pixel_w": 2358,
-			"file_name": "8030319206180049.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [],
 	"facet_technique": ["lithograph"],
 	"facet_place": [

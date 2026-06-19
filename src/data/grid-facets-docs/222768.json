@@ -2,17 +2,18 @@
 	"id": 222768,
 	"accession_number": "2021.76",
 	"sort_number": "2021.76",
-	"title": "90S DEJEUNER",
+	"title": "90s Dejeuner",
 	"object_name": null,
-	"display_date": "2021",
-	"begin_iso_date": "2021",
-	"end_iso_date": "2021",
+	"date_display": "2021",
+	"date_start": "2021",
+	"date_end": "2021",
 	"medium": "Acrylic, oil, ink, and wood carving on panel",
 	"medium_parts": ["Acrylic, oil, ink, and wood carving on panel"],
-	"dimensions": "Overall: 68 x 104 in. (172.72 x 264.161 cm)",
 	"credit_line": "Museum purchase, Gift of Tara and Bryan Meehan",
 	"department": "Contemporary Art",
 	"classification": "Painting",
+	"subclassification": null,
+	"culture": null,
 	"copyright": "© Didier William",
 	"object_rights_type": "Copyright",
 	"on_view": true,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "2021-12-07",
 	"location_string": "de Young, Display, Gallery 015",
 	"location_building": "de Young",
@@ -37,45 +40,140 @@
 	"titles": [
 		{
 			"title": "90s Dejeuner",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 20515,
+			"id": 20515,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Didier William",
-			"AlphaSort": "William,  Didier",
+			"name": "Didier William",
+			"name_sort": "William,  Didier",
 			"Nationality": "Haitian",
+			"place_born": "Port-au-Prince",
+			"place_died": null,
+			"place_active": "Philadelphia",
+			"attribution_prefix": null,
 			"BeginDate": 1983,
-			"EndDate": 0,
-			"DisplayDate": "Haitian-American, born 1983",
+			"EndDate": null,
+			"dates": "Haitian-American, born 1983",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
 			"DisplayLabel": "b. 1983"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "68 x 104 in. (172.72 x 264.161 cm)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 156286,
+			"image_id": 195166,
+			"rank": 0,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 6751,
+			"width": 10756,
+			"file_name": "A416155_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "68 x 104 in. (172.72 x 264.161 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 172.72,
+				"width_cm": 264.161,
+				"depth_cm": null,
+				"height_in": 68.0,
+				"width_in": 104.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "68 x 104 in. (172.72 x 264.161 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 172.72,
+				"width_cm": 264.161,
+				"depth_cm": null,
+				"height_in": 68.0,
+				"width_in": 104.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "68 x 104 in. (172.72 x 264.161 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 172.72,
+				"width_cm": 264.161,
+				"depth_cm": null,
+				"height_in": 68.0,
+				"width_in": 104.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110965,
 			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -103,7 +201,9 @@
 	],
 	"term_place_of_creation": [
 		{
+			"id": 20408635,
 			"term": "Philadelphia",
+			"type": "Descriptor",
 			"certainty": "Probably",
 			"path": [
 				{
@@ -151,48 +251,9 @@
 	"term_school": null,
 	"term_materials": [
 		{
-			"term": "ink",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAA",
-					"term": "ink"
-				}
-			]
-		},
-		{
-			"term": "oil",
+			"id": 16207483,
+			"term": "acrylic paint",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -237,13 +298,20 @@
 				},
 				{
 					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
-					"term": "oil paint"
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
+					"term": "synthetic resin paint"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAA",
+					"term": "acrylic paint"
 				}
 			]
 		},
 		{
+			"id": 16487328,
 			"term": "wood panel",
+			"type": "Used For Term",
 			"certainty": null,
 			"path": [
 				{
@@ -299,7 +367,9 @@
 			]
 		},
 		{
-			"term": "acrylic paint",
+			"id": 16397501,
+			"term": "oil",
+			"type": "Used For Term",
 			"certainty": null,
 			"path": [
 				{
@@ -344,13 +414,51 @@
 				},
 				{
 					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
-					"term": "synthetic resin paint"
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
+					"term": "oil paint"
+				}
+			]
+		},
+		{
+			"id": 16207394,
+			"term": "ink",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
 				},
 				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAA",
-					"term": "acrylic paint"
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAA",
+					"term": "ink"
 				}
 			]
 		}
@@ -367,29 +475,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 2021,
-	"media": [
-		{
-			"media_xref_id": 156286,
-			"media_master_id": 195166,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 6751,
-			"pixel_w": 10756,
-			"file_name": "A416155_V1.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ink",

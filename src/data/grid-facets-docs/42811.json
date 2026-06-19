@@ -2,19 +2,20 @@
 	"id": 42811,
 	"accession_number": "1963.24.176",
 	"sort_number": "1963.24.176",
-	"title": "ACHILLES AMONG THE DAUGHTERS OF LYCOMEDES",
+	"title": "Achilles among the Daughters of Lycomedes",
 	"object_name": "Myth/Legend Genre",
-	"display_date": "17th century",
-	"begin_iso_date": null,
-	"end_iso_date": null,
+	"date_display": "17th century",
+	"date_start": null,
+	"date_end": null,
 	"medium": "Black chalk, red chalk, pen and brown ink, brown wash, and white opaque watercolor on laid paper mounted to a heavier sheet, attached to a second heavy sheet",
 	"medium_parts": [
 		"Black chalk, red chalk, pen and brown ink, brown wash, and white opaque watercolor on laid paper mounted to a heavier sheet, attached to a second heavy sheet"
 	],
-	"dimensions": "Sheet: 335 x 442 mm (13 3/16 x 17 3/8 in.)",
 	"credit_line": "Achenbach Foundation for Graphic Arts",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
+	"subclassification": null,
+	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
@@ -28,6 +29,8 @@
 	"bibliography_text": null,
 	"provenance": "Provenance: Joseph Green Cogswell; Mortimer Leo Schiff; Moore S. Achenbach;\r\nCogswell no.not visible , Hellman no.84 as “Mythological  Drawing” by Carlo Maratta (George S. Hellman, Original Drawings by the Old Masters: The Collection formed by Joseph Green Cogswell, 1786-1871, New York: privately published, 1915);\r\nSuggested attributions from mat and old file:\r\nUnidentified attribution  in file and on mat: Ciro Ferri? (School of Pietro da Cortona)[Attribution given without supporting reasons or documentation toe xplain why Ferri, 's principal pupil, was selected];\r\nPhilip Pouncey (Nov. 1983): Neo-classic academic;",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1963-04-09",
 	"location_string": "Legion, 210, Compact Shelf 23, 113",
 	"location_building": "Legion",
@@ -39,60 +42,159 @@
 	"titles": [
 		{
 			"title": "Achilles among the Daughters of Lycomedes",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 38773,
+			"id": 38773,
 			"Role": "Artist",
 			"RoleID": 1,
-			"DisplayName": "Unidentified ",
-			"AlphaSort": "Unidentified ",
+			"name": "Unidentified ",
+			"name_sort": "Unidentified ",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": "Italian, active 17th century",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "Italian, active 17th century",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Unidentified "
 		},
 		{
-			"ConstituentID": 9768,
+			"id": 38773,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Unidentified ",
+			"name_sort": "Unidentified ",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "Italian, active 17th century",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Unidentified "
+		},
+		{
+			"id": 9768,
 			"Role": "Follower of",
 			"RoleID": 55,
-			"DisplayName": "Pietro Berrettini (Pietro da Cortona)",
-			"AlphaSort": "Pietro Berrettini called Pietr",
+			"name": "Pietro Berrettini (Pietro da Cortona)",
+			"name_sort": "Pietro Berrettini called Pietr",
 			"Nationality": "Italian",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
 			"BeginDate": 1596,
 			"EndDate": 1669,
-			"DisplayDate": "1596–1669",
+			"dates": "1596–1669",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 2,
 			"DisplayLabel": "Pietro Berrettini (Pietro da Cortona) (1596–1669)"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "13 3/16 x 17 3/8 in. (33.5 x 44.2 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Sheet (4D)",
+			"media_xref_id": 69328,
+			"image_id": 104953,
+			"rank": 1,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1918,
+			"width": 2514,
+			"file_name": "5050161218070002.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "13 3/16 x 17 3/8 in. (33.5 x 44.2 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 33.5,
+				"width_cm": 44.2,
+				"depth_cm": null,
+				"height_in": 13.1875,
+				"width_in": 17.375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "13 3/16 x 17 3/8 in. (33.5 x 44.2 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Sheet (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 33.5,
+				"width_cm": 44.2,
+				"depth_cm": null,
+				"height_in": 13.1875,
+				"width_in": 17.375,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
 	"is_compound": false,
 	"term_rights_statement": [
 		{
+			"id": 16110964,
 			"term": "Copyright status is public domain",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -123,7 +225,9 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
+			"id": 20774286,
 			"term": "Italy",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -155,7 +259,7 @@
 	"term_subject": null,
 	"term_intended_market": null,
 	"primary_artist": "Unidentified ",
-	"primary_artist_display": "b. 0",
+	"primary_artist_display": "Unidentified ",
 	"sort_artist": "Unidentified ",
 	"display_year": null,
 	"doc_id": "1963.24.176",
@@ -164,29 +268,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": null,
-	"media": [
-		{
-			"media_xref_id": 69328,
-			"media_master_id": 104953,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1918,
-			"pixel_w": 2514,
-			"file_name": "5050161218070002.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Ink",

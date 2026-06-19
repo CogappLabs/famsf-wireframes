@@ -2,17 +2,18 @@
 	"id": 111440,
 	"accession_number": "1982.130.12.11",
 	"sort_number": "1982.130.12.11",
-	"title": "ONE OF TWELVE SMALL TENT BANDS (FOR TENT 1982.130.1-13)",
+	"title": "One of twelve small tent bands (for tent 1982.130.1-13)",
 	"object_name": "tent band",
-	"display_date": "late 20th century",
-	"begin_iso_date": "1960",
-	"end_iso_date": "1982",
+	"date_display": "late 20th century",
+	"date_start": "1960",
+	"date_end": "1982",
 	"medium": "Wool, goat hair, cotton, felt",
 	"medium_parts": ["Wool, goat hair, cotton, felt"],
-	"dimensions": "232 x 1 1/2 in. (589.281 x 3.81 cm)\r\nTassel width: 3 in., (7.62 cm,)",
 	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nGift of Caroline and H. McCoy Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Furnishing",
+	"subclassification": null,
+	"culture": "Turkmen, possible Ersari tribe",
 	"copyright": null,
 	"object_rights_type": "Requires Further Research",
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": "Jay Jones, 2630 Castro Valley Boulevard, Hayward, California",
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1983-01-06",
 	"location_string": "de Young, 059, Cabinet 26, TB",
 	"location_building": "de Young",
@@ -37,60 +40,245 @@
 	"titles": [
 		{
 			"title": "One of twelve small tent bands (for tent 1982.130.1-13)",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 37647,
+			"id": 37647,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Turkmen, Ersari tribe",
-			"AlphaSort": "Turkmen, Ersari tribe",
+			"name": "Turkmen, Ersari tribe",
+			"name_sort": "Turkmen, Ersari tribe",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": null,
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Turkmen, Ersari tribe"
 		},
 		{
-			"ConstituentID": 37648,
+			"id": 37647,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Turkmen",
-			"AlphaSort": "Turkmen",
+			"name": "Turkmen, Ersari tribe",
+			"name_sort": "Turkmen, Ersari tribe",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "possibly",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Turkmen, Ersari tribe"
+		},
+		{
+			"id": 37648,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Turkmen",
+			"name_sort": "Turkmen",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": null,
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 2,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Turkmen"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "232 x 1 1/2 in. (589.281 x 3.81 cm)",
-			"description": null,
-			"element_name": "Overall",
+			"media_xref_id": 210618,
+			"image_id": 217865,
+			"rank": 0,
+			"primary": true,
+			"display_order": 1,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 7794,
+			"width": 13737,
+			"file_name": "MS_111440_20230802_1_Crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "232 x 1 1/2 in. (589.281 x 3.81 cm)",
+			"type": "Width",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 589.281,
+				"width_cm": 3.81,
+				"depth_cm": null,
+				"height_in": 232.0,
+				"width_in": 1.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		},
 		{
-			"display_dimensions": "3 in., (7.62 cm,)",
-			"description": "Tassel width",
-			"element_name": "Other",
+			"value": "232 x 1 1/2 in. (589.281 x 3.81 cm)",
+			"type": "Depth",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 2
+			"measurements": {
+				"height_cm": 589.281,
+				"width_cm": 3.81,
+				"depth_cm": null,
+				"height_in": 232.0,
+				"width_in": 1.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "232 x 1 1/2 in. (589.281 x 3.81 cm)",
+			"type": "Height",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 589.281,
+				"width_cm": 3.81,
+				"depth_cm": null,
+				"height_in": 232.0,
+				"width_in": 1.5,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "3 in., (7.62 cm,)",
+			"type": "Depth",
+			"element": "Other",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 7.62,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 3.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "3 in., (7.62 cm,)",
+			"type": "Width",
+			"element": "Other",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 7.62,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 3.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "3 in., (7.62 cm,)",
+			"type": "Weight",
+			"element": "Other",
+			"unit": "Pounds",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 7.62,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 3.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "3 in., (7.62 cm,)",
+			"type": "Height",
+			"element": "Other",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 7.62,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 3.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -98,7 +286,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 16680808,
 			"term": "Afghanistan",
+			"type": "N/A",
 			"certainty": null,
 			"path": [
 				{
@@ -142,29 +332,6 @@
 	"has_provenance": true,
 	"has_children": false,
 	"sort_year": 1960,
-	"media": [
-		{
-			"media_xref_id": 210618,
-			"media_master_id": 217865,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 7794,
-			"pixel_w": 13737,
-			"file_name": "MS_111440_20230802_1_Crop.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Cotton",
@@ -191,6 +358,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — , felt,  · Afghanistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 42
+		"populated_fields": 43
 	}
 }

@@ -47,7 +47,19 @@ interface MediaItem {
 interface ResourceItem {
 	title: string;
 	desc: string;
+	/** Outbound URL. When set, the card links out (e.g. study centers on
+	 * famsf.org). Absent = plain informational card. */
+	href?: string;
 }
+
+// FAMSF study centers live on the main museum site; every collection-area
+// page surfaces them as a standing "Other resources" entry.
+const STUDY_CENTERS_URL = "https://www.famsf.org/art/study-centers";
+const STUDY_CENTERS_RESOURCE: ResourceItem = {
+	title: "Study centers",
+	desc: "Make an appointment to view works in person at the FAMSF study centers.",
+	href: STUDY_CENTERS_URL,
+};
 
 interface AreaData {
 	name: string;
@@ -1241,7 +1253,7 @@ export default async function CollectionAreaPage({ params }: Props) {
 					<Container>
 						<div className="mb-2">
 							<Link
-								href="/collection-areas"
+								href="/collection-landing"
 								className="font-mono text-meta text-gray-500 underline hover:text-gray-600"
 							>
 								&larr; {t("area.backToCollection")}
@@ -1430,16 +1442,33 @@ export default async function CollectionAreaPage({ params }: Props) {
 							{t("area.resourcesHeading")}
 						</SectionLabel>
 						<div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-							{area.resources.map((res) => (
-								<div key={res.title} className="border border-gray-300 p-5">
-									<h3 className="font-mono text-card font-medium leading-snug">
-										{res.title}
-									</h3>
-									<p className="mt-1 font-mono text-meta text-gray-500">
-										{res.desc}
-									</p>
-								</div>
-							))}
+							{[STUDY_CENTERS_RESOURCE, ...area.resources].map((res) =>
+								res.href ? (
+									<a
+										key={res.title}
+										href={res.href}
+										target="_blank"
+										rel="noreferrer"
+										className="border border-gray-300 p-5 transition-colors hover:border-gray-500"
+									>
+										<h3 className="font-mono text-card font-medium leading-snug">
+											{res.title}
+										</h3>
+										<p className="mt-1 font-mono text-meta text-gray-500">
+											{res.desc}
+										</p>
+									</a>
+								) : (
+									<div key={res.title} className="border border-gray-300 p-5">
+										<h3 className="font-mono text-card font-medium leading-snug">
+											{res.title}
+										</h3>
+										<p className="mt-1 font-mono text-meta text-gray-500">
+											{res.desc}
+										</p>
+									</div>
+								),
+							)}
 						</div>
 					</Container>
 				</WireframeSection>

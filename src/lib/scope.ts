@@ -375,15 +375,8 @@ export const scope: Record<string, ScopeEntry> = {
 		issueUrl: issue("CW-54"),
 	},
 
-	// ── Collection areas index ──────────────────────────────────────────
-	// Landing page (intro + grid) for the curatorial collection areas; cards
-	// link to the collection-area detail page. ("Department" == "collection
-	// area", CW-30; the public-facing term is "collection area".)
-	"collection-areas/Header": {
-		mvp: true,
-		note: "Collection-areas landing: intro + grid of areas per FAMSF feedback May 2026",
-	},
-	"collection-areas/Listing": { mvp: true },
+	// (The collection-areas index page was removed 2026-06-19: collection-area
+	// detail pages are reached only from the homepage Browse-by-area grid.)
 
 	// ── Exhibitions index ───────────────────────────────────────────────
 	"exhibitions/Header": {
@@ -634,10 +627,6 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Collapsible raw curator bibliography text under the reformatted list (the Phase 1 raw-block render).",
 		issueUrl: issue("CW-68"),
 	},
-	"objects/sample/Two-column record layout": {
-		mvp: false,
-		note: "`?variation=two-column` toggle: flows the three dense record blocks (exhibition history, provenance, bibliography) across two columns to cut scrolling. Provenance splits lines left / footnotes right; exhibitions + bibliography reflow by height. Curatorial Fellows ask (stakeholder synthesis); a display option, not a separate MVP feature.",
-	},
 	// Parent-child (CW-32) is a Phase 1 requirement shown inline on the artwork
 	// page: parent shows its metadata + a flat list of children (each linking
 	// to its own page); a child links back to its parent. The standalone
@@ -688,9 +677,42 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Request-image pathway beside the open-access download (in-copyright + high-res requests). Added per the June 18 2026 page-layouts spec. Routes to the /image-orders flow (CW-54).",
 		issueUrl: issue("CW-54"),
 	},
-	"objects/sample/Additional information": {
+	// Additional-information expandable was folded into the Acquisition
+	// tombstone group (2026-06-19); accession date + alternate accession now
+	// render inline there. Its scope row is gone.
+	"objects/sample/Accession date (pending Tier policy confirm)": {
 		mvp: false,
-		note: "Consolidated expandable for secondary tombstone fields (accession date, alternate/legacy accession numbers, named collection). Added per the June 18 2026 page-layouts spec. named_collection + a dedicated legacy-accession field are not yet on the pipeline schema; sort_number stands in for the alternate accession. Phase 2 pending schema + Tier-policy confirm.",
+		note: "Accession date. Guidelines mark it internal-only; surfaced inline in the Acquisition group pending FAMSF confirmation of the 2026 Tier-policy flip.",
+		issueUrl: issue("CW-49"),
+	},
+	"objects/sample/Museum location": {
+		mvp: true,
+		note: "On-view / storage location string in the Acquisition group.",
+		issueUrl: issue("CW-49"),
+	},
+	"objects/sample/Content source": {
+		mvp: true,
+		note: "Content-source labelling on web text (label copy as default). Helps educators trust the text origin.",
+		issueUrl: issue("CW-49"),
+	},
+	"objects/sample/Didactic label": {
+		mvp: true,
+		note: "Didactic / gallery label text, shown under web text when distinct.",
+		issueUrl: issue("CW-49"),
+	},
+	"objects/sample/Image actions": {
+		mvp: true,
+		note: "Image action row: open-access download + request-image link (zoom / cite / share dropped for now).",
+		issueUrl: issue("CW-46"),
+	},
+	"objects/sample/Phase 2 (pending Tier policy confirm)": {
+		mvp: false,
+		note: "Non-geography Attributes (period, reign, dynasty, style, movement, school, materials, subject, intended market). Geography is Tier 1 public; these are Phase 2 pending FAMSF confirmation of the 2026 Tier-policy flip.",
+		issueUrl: issue("CW-49"),
+	},
+	"objects/sample/Marks (pending Tier policy confirm)": {
+		mvp: false,
+		note: "Marks / inscriptions / signatures. Guidelines mark these internal-only; surfaced pending FAMSF confirmation of the 2026 Tier-policy flip.",
 		issueUrl: issue("CW-49"),
 	},
 	"objects/sample/Scholarly publications": {

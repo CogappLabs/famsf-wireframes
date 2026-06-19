@@ -2,17 +2,18 @@
 	"id": 68220,
 	"accession_number": "1988.11.481",
 	"sort_number": "1988.11.481",
-	"title": "TENT BAND",
+	"title": "Tent band",
 	"object_name": "tent band",
-	"display_date": "19th century",
-	"begin_iso_date": "1801",
-	"end_iso_date": "1900",
+	"date_display": "19th century",
+	"date_start": "1801",
+	"date_end": "1900",
 	"medium": "wool",
 	"medium_parts": ["wool"],
-	"dimensions": "34.3 x 1404.6 cm (13 1/2 x 553  in.)",
 	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nBequest of H. McCoy Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Furnishing",
+	"subclassification": null,
+	"culture": "Turkmen, Yomut tribe",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
@@ -26,6 +27,8 @@
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
 	"accession_iso_date": "1988-06-09",
 	"location_string": "de Young, 059, Cabinet 58, H",
 	"location_building": "de Young",
@@ -37,38 +40,138 @@
 	"titles": [
 		{
 			"title": "Tent band",
-			"title_type": "Primary Title",
+			"type": "Primary Title",
+			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
 	"constituents": [
 		{
-			"ConstituentID": 40665,
+			"id": 40665,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"DisplayName": "Turkmen, Yomut tribe",
-			"AlphaSort": "Turkmen, Yomut tribe",
+			"name": "Turkmen, Yomut tribe",
+			"name_sort": "Turkmen, Yomut tribe",
 			"Nationality": null,
-			"BeginDate": 0,
-			"EndDate": 0,
-			"DisplayDate": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "b. 0"
+			"DisplayLabel": "Turkmen, Yomut tribe"
 		}
 	],
-	"dimensions_structured": [
+	"media": [
 		{
-			"display_dimensions": "13 1/2 x 553 in. (34.3 x 1404.6 cm)",
-			"description": null,
-			"element_name": "x_Do not use_Overall (4D)",
+			"media_xref_id": 161566,
+			"image_id": 116746,
+			"rank": 0,
+			"primary": false,
+			"display_order": 2,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1204,
+			"width": 2984,
+			"file_name": "5256165106130036.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 219748,
+			"image_id": 230453,
+			"rank": 0,
+			"primary": false,
+			"display_order": 4,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 14204,
+			"width": 2814,
+			"file_name": "MS_68220_20240730_2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "13 1/2 x 553 in. (34.3 x 1404.6 cm)",
+			"type": "Height",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
 			"displayed": true,
-			"rank": 1
+			"measurements": {
+				"height_cm": 34.3,
+				"width_cm": 1404.6,
+				"depth_cm": null,
+				"height_in": 13.5,
+				"width_in": 553.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "13 1/2 x 553 in. (34.3 x 1404.6 cm)",
+			"type": "Width",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 34.3,
+				"width_cm": 1404.6,
+				"depth_cm": null,
+				"height_in": 13.5,
+				"width_in": 553.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
 		}
 	],
 	"associations": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
 	"physical_child_ids": null,
 	"virtual_parent_ids": null,
 	"virtual_child_ids": null,
@@ -76,7 +179,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
+			"id": 20666686,
 			"term": "Iran",
+			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -97,28 +202,9 @@
 			]
 		},
 		{
-			"term": "Turkmenistan",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAIE",
-					"term": "Türkmenistan"
-				}
-			]
-		},
-		{
+			"id": 16887148,
 			"term": "Uzbekistan",
+			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
 				{
@@ -137,6 +223,29 @@
 					"term": "O'zbekiston"
 				}
 			]
+		},
+		{
+			"id": 17087474,
+			"term": "Turkmenistan",
+			"type": "N/A",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAIE",
+					"term": "Türkmenistan"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -151,7 +260,9 @@
 	"term_school": null,
 	"term_materials": [
 		{
+			"id": 16561036,
 			"term": "wool",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -219,47 +330,6 @@
 	"has_provenance": false,
 	"has_children": false,
 	"sort_year": 1801,
-	"media": [
-		{
-			"media_xref_id": 161566,
-			"media_master_id": 116746,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 1204,
-			"pixel_w": 2984,
-			"file_name": "5256165106130036.jpg",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		},
-		{
-			"media_xref_id": 219748,
-			"media_master_id": 230453,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 4,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"pixel_h": 14204,
-			"pixel_w": 2814,
-			"file_name": "MS_68220_20240730_2.tif",
-			"iiif_url": null,
-			"thumbnail_url": null,
-			"iiif_info_url": null
-		}
-	],
-	"primary_thumbnail_url": null,
-	"primary_iiif_info_url": null,
-	"has_iiif": false,
 	"facet_material": [
 		{
 			"parent": "Wool",
@@ -276,20 +346,20 @@
 		},
 		{
 			"region": "Central Asia",
-			"country": "Turkmenistan",
+			"country": "Uzbekistan",
 			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Central Asia",
-			"country": "Uzbekistan",
+			"country": "Turkmenistan",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice —  · Iran, Turkmenistan, Uzbekistan",
+		"reason": "grid-facets real slice —  · Iran, Uzbekistan, Turkmenistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 40
+		"populated_fields": 41
 	}
 }
