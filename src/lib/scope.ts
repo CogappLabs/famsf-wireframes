@@ -26,16 +26,11 @@ const issue = (id: string) => `https://famsfweb.atlassian.net/browse/${id}`;
  */
 export const scope: Record<string, ScopeEntry> = {
 	// ── Collection landing ─────────────────────────────────────────────
+	// Page order + section set follow the June 18 2026 page-layouts spec
+	// ("New organization"). Off-spec sections (stats, dual pathways,
+	// more-ways-in, browse-by-type, gallery browse, what-to-see, timeline)
+	// were removed from the page on 2026-06-19, so their scope rows are gone.
 	"collection-landing/Hero": { mvp: true, issueUrl: issue("CW-27") },
-	"collection-landing/Collection stats": {
-		mvp: false,
-		note: "Editorial vanity metrics: not contracted, not load-bearing for search/discovery",
-	},
-	"collection-landing/Dual pathways": {
-		mvp: false,
-		note: "Explore vs Search entry points. Deferred in the lean-MVP homepage pass (2026-06-09): Explore itself is post-MVP, so the dual split adds a non-MVP route. MVP homepage leads with the search bar.",
-		issueUrl: issue("CW-27"),
-	},
 	"collection-landing/Search bar": {
 		mvp: true,
 		note: "Autocomplete search with suggestions",
@@ -46,29 +41,29 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Inline filter chips promoting selected facets from Advanced. Lean-MVP homepage pass (2026-06-09) trimmed to Open access + On view; dropped Highlights (no editorial owner), Has image (not a useful entry filter), Popular (needs analytics).",
 		issueUrl: issue("CW-36"),
 	},
-	"collection-landing/More ways in": {
+	"collection-landing/Highlights": {
 		mvp: false,
-		note: "Additional entry points (recently added, open access, by medium, by place, by era). Deferred in the lean-MVP homepage pass (2026-06-09): overlaps the search filter chips; defer to keep the launch homepage short.",
+		note: "Curated selection, needs editorial ownership. Per the June 18 2026 page-layouts spec it is a retained landing module; deferred at launch (no editorial owner).",
 		issueUrl: issue("CW-27"),
 	},
 	"collection-landing/Browse by area": {
 		mvp: false,
-		note: "Department grid + browse-by-type. Deferred in the lean-MVP homepage pass (2026-06-09): the same browse path lives in search facets (Department) and the Collection Areas nav. MVP homepage leads with search.",
+		note: "Collection-areas grid. Per the June 18 2026 page-layouts spec it is a retained landing module; the same browse path also lives in search facets (Department) and the Collection Areas nav.",
 		issueUrl: issue("CW-27"),
 	},
-	"collection-landing/Highlights": {
+	"collection-landing/Thematic exploration": {
 		mvp: false,
-		note: "Curated selection, needs editorial ownership. Deferred in the lean-MVP homepage pass (2026-06-09): no editorial owner at launch; defer to keep the homepage short.",
+		note: "Curator-led thematic-discovery tiles cutting across collection areas. Added per the June 18 2026 page-layouts spec (new landing organization). Needs curator-editable theme list; deferred to keep the launch homepage lean.",
 		issueUrl: issue("CW-27"),
 	},
-	"collection-landing/What to see": {
+	"collection-landing/Read watch listen": {
 		mvp: false,
-		note: "Curated visit path: links to Visit Planner",
-		issueUrl: issue("CW-61"),
+		note: "Article / video / audio editorial module. Added per the June 18 2026 page-layouts spec. Needs content audit + editorial owner; existing links surfaced in production.",
+		issueUrl: issue("CW-27"),
 	},
-	"collection-landing/Timeline": {
+	"collection-landing/New to the collections": {
 		mvp: false,
-		note: "Chronological browse: requires date data cleanup",
+		note: "Recent-acquisitions strip. Added per the June 18 2026 page-layouts spec. accession_date is indexed so the feed is trivial; deferred as editorial / homepage-length call, not a data gap.",
 		issueUrl: issue("CW-27"),
 	},
 
@@ -210,38 +205,40 @@ export const scope: Record<string, ScopeEntry> = {
 	},
 
 	// ── Collection area ────────────────────────────────────────────────
+	// Section set + order follow the June 18 2026 page-layouts spec ("New
+	// organization"): header → intro → deep dive → highlights → featured
+	// collections → read/watch/listen → other resources. Off-spec sections
+	// (stats, browse options, provenance statement, related programs) were
+	// removed from the page on 2026-06-19, so their scope rows are gone.
 	"collection-area/Hero": { mvp: true, issueUrl: issue("CW-30") },
 	"collection-area/About": {
 		mvp: true,
-		note: "Restore rich about text: currently stripped back",
+		note: "Intro text (150-200 words, general audience). The Collection 'About' page is folded into this intro per the June 18 2026 page-layouts spec.",
 		issueUrl: issue("CW-30"),
-	},
-	"collection-area/Stats": {
-		mvp: false,
-		note: "Editorial vanity metrics: not contracted",
 	},
 	"collection-area/Highlights": {
 		mvp: true,
-		note: "Curated, on-view works prioritised",
-		issueUrl: issue("CW-30"),
-	},
-	"collection-area/Browse options": {
-		mvp: true,
-		issueUrl: issue("CW-30"),
-	},
-	"collection-area/Provenance statement": {
-		mvp: true,
-		note: "Industry standard per Curatorial Liaison",
+		note: "Curated, on-view works prioritised (25-40 in production)",
 		issueUrl: issue("CW-30"),
 	},
 	"collection-area/Articles & essays": {
 		mvp: false,
-		note: "Requires content audit of existing publications",
+		note: "Read, watch + listen (article / video / audio). Requires content audit of existing publications.",
 		issueUrl: issue("CW-30"),
 	},
-	"collection-area/Related programs": {
+	"collection-area/Deep dive": {
 		mvp: false,
-		note: "Dynamic programme feed: integration TBD",
+		note: "Expandable collection-history narrative. Added per the June 18 2026 page-layouts spec (Cleveland Museum of Art collection-area ref). Needs editorial copy; deferred pending content audit.",
+		issueUrl: issue("CW-30"),
+	},
+	"collection-area/Featured collections": {
+		mvp: false,
+		note: "Named / sub-collection grid surfacing existing collection links. Added per the June 18 2026 page-layouts spec. Needs a curated sub-collection list per area.",
+		issueUrl: issue("CW-30"),
+	},
+	"collection-area/Other resources": {
+		mvp: false,
+		note: "Study centers, research contacts, department-specific resources. Added per the June 18 2026 page-layouts spec. Editorial / per-department content.",
 		issueUrl: issue("CW-30"),
 	},
 
@@ -369,14 +366,14 @@ export const scope: Record<string, ScopeEntry> = {
 	// it's about the on-object trigger; this standalone cart page extends it.
 	"image-orders/Header": {
 		mvp: false,
-		note: "Licensing / high-res request workflow for in-copyright works",
+		note: "Licensing / high-res request signpost for in-copyright works",
 		issueUrl: issue("CW-54"),
 	},
-	"image-orders/Cart": {
+	"image-orders/Linkout": {
 		mvp: false,
-		note: "Works added from the object page's Request Image button accumulate here",
+		note: "Licensing + reproduction requests are handled on famsf.org, not in the collection site. This page is a thin signpost (intro + outbound link), not an in-site request form / cart.",
+		issueUrl: issue("CW-54"),
 	},
-	"image-orders/Request form": { mvp: false },
 
 	// ── Collection areas index ──────────────────────────────────────────
 	// Landing page (intro + grid) for the curatorial collection areas; cards
@@ -440,11 +437,6 @@ export const scope: Record<string, ScopeEntry> = {
 		mvp: true,
 		note: "accession_number is the primary identifier in the index. Search-by-accession works automatically. Tip text is copy only.",
 		issueUrl: issue("CW-37"),
-	},
-	"collection-landing/Gallery browse": {
-		mvp: false,
-		note: "Browse by physical gallery: visit-planning entry point",
-		issueUrl: issue("CW-27"),
 	},
 	"visit-planner/Gallery filter callout": {
 		mvp: false,
@@ -690,6 +682,21 @@ export const scope: Record<string, ScopeEntry> = {
 		mvp: true,
 		note: "Phase 1 (CW-52): rights statement + clickable icon, copyright, credit line + citation generator with copy-to-clipboard.",
 		issueUrl: issue("CW-52"),
+	},
+	"objects/sample/Image request": {
+		mvp: true,
+		note: "Request-image pathway beside the open-access download (in-copyright + high-res requests). Added per the June 18 2026 page-layouts spec. Routes to the /image-orders flow (CW-54).",
+		issueUrl: issue("CW-54"),
+	},
+	"objects/sample/Additional information": {
+		mvp: false,
+		note: "Consolidated expandable for secondary tombstone fields (accession date, alternate/legacy accession numbers, named collection). Added per the June 18 2026 page-layouts spec. named_collection + a dedicated legacy-accession field are not yet on the pipeline schema; sort_number stands in for the alternate accession. Phase 2 pending schema + Tier-policy confirm.",
+		issueUrl: issue("CW-49"),
+	},
+	"objects/sample/Scholarly publications": {
+		mvp: false,
+		note: "Expandable long-form scholarly-publications module. Added per the June 18 2026 page-layouts spec. No backing field yet (placeholder); data source TBD.",
+		issueUrl: issue("CW-49"),
 	},
 };
 

@@ -9,6 +9,7 @@ import {
 import { loadSampleDocs } from "@/lib/sample-docs-registry";
 import { t } from "@/lib/strings";
 import { ScopePage } from "@/providers/ScopeProvider";
+import { slugify } from "../collection-area/[slug]/page";
 
 interface CollectionAreaEntry {
 	name: string;
@@ -84,7 +85,7 @@ export default function CollectionAreasIndexPage() {
 								{areas.map((a) => (
 									<Link
 										key={a.name}
-										href={`/collection-area?name=${encodeURIComponent(a.name)}`}
+										href={`/collection-area/${slugify(a.name)}`}
 										className="flex flex-col border border-gray-300 transition-colors hover:border-gray-500"
 									>
 										<ImagePlaceholder aspect="1/1" label={`[${a.name}]`} />

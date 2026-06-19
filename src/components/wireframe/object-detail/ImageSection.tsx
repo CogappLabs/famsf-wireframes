@@ -1,8 +1,8 @@
+import Link from "next/link";
 import {
 	Container,
 	ImagePlaceholder,
 	ScopeMark,
-	TombstoneLabel,
 	WireframeSection,
 } from "@/components/wireframe";
 import FieldSourceBadge from "@/components/wireframe/FieldSourceBadge";
@@ -208,25 +208,9 @@ export function ImageSection({
 					</p>
 				)}
 
-				{/* Alt text placeholder */}
-				<ScopeMark label="Alt text">
-					<div className="mt-3 border border-gray-200 bg-gray-50 px-3 py-2">
-						<TombstoneLabel>Alt text [placeholder]</TombstoneLabel>
-						<p className="mt-0.5 font-mono text-meta text-gray-500">
-							Alt text not yet provided
-						</p>
-					</div>
-				</ScopeMark>
-
 				{/* Image actions row [placeholder]: non-functional buttons. */}
 				<WireframeSection label="Image actions">
 					<div className="mt-3 flex flex-wrap items-center gap-3">
-						<button
-							type="button"
-							className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-500 hover:border-gray-500"
-						>
-							Zoom
-						</button>
 						{isPublicDomain ? (
 							<button
 								type="button"
@@ -244,18 +228,18 @@ export function ImageSection({
 								Download (in copyright)
 							</button>
 						)}
-						<button
-							type="button"
-							className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-500 hover:border-gray-500"
-						>
-							Share
-						</button>
-						<button
-							type="button"
-							className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-500 hover:border-gray-500"
-						>
-							{t("object.citeButton")}
-						</button>
+						{/* Image request link: routes to the licensing / image-orders flow.
+						    Sits beside the download control per the June 18 layout (a
+						    pathway for in-copyright + high-res requests not covered by
+						    open-access download). Shown for every work in the wireframe. */}
+						<ScopeMark label="Image request">
+							<Link
+								href="/image-orders"
+								className="border border-gray-300 px-3 py-1.5 font-mono text-label tracking-wide text-gray-500 hover:border-gray-500"
+							>
+								{t("object.requestImage")}
+							</Link>
+						</ScopeMark>
 					</div>
 				</WireframeSection>
 			</Container>

@@ -5,15 +5,20 @@ import { Suspense } from "react";
 import {
 	Container,
 	ImagePlaceholder,
-	LinkCard,
 	ScopeMark,
 	SectionLabel,
-	StatCard,
 	WireframeSection,
 } from "@/components/wireframe";
 import CollectionAutocomplete from "@/components/wireframe/CollectionAutocomplete";
 import { t } from "@/lib/strings";
 import { ScopePage } from "@/providers/ScopeProvider";
+import { slugify } from "../collection-area/[slug]/page";
+
+// Section order follows the June 18 2026 page-layouts spec ("New organization"):
+// header + tagline → search bar → highlights → thematic exploration →
+// collection areas → read/watch/listen → new to the collections.
+// Off-spec sections (stats, dual pathways, gallery browse, what-to-see,
+// timeline, more-ways-in, browse-by-type) were removed to match the doc flow.
 
 const COLLECTION_AREAS = [
 	{
@@ -73,75 +78,12 @@ const COLLECTION_AREAS = [
 	},
 ];
 
-const SUB_COLLECTIONS = [
-	{ name: "Photography", count: "5,881" },
-	{ name: "Prints", count: "96,074" },
-	{ name: "Drawings", count: "10,233" },
-	{ name: "Paintings", count: "1,737" },
-	{ name: "Sculpture", count: "2,274" },
-	{ name: "Textiles", count: "2,644" },
-	{ name: "Costume", count: "7,418" },
-];
-
 // Basic-search filter chips. Submit appends to /search-results query string.
 // Lean-MVP homepage pass (2026-06-09): dropped Highlights (no editorial owner),
 // Has image (not a useful entry filter here) and Popular (needs analytics).
 const BASIC_FILTERS = [
 	{ key: "open_access", label: "Open access" },
 	{ key: "on_view", label: "On view" },
-];
-
-const MORE_ENTRY_POINTS = [
-	{
-		title: "Recently added",
-		desc: "Newest acquisitions and reattributions",
-		href: "/search-results?sort=accession_date_desc",
-	},
-	{
-		title: "Open access",
-		desc: "Works released for free reuse and download",
-		href: "/search-results?open_access=true",
-	},
-	{
-		title: "On view today",
-		desc: "Browse what's hanging at de Young + Legion right now",
-		href: "/search-results?on_view=true",
-	},
-	{
-		title: "By collection area",
-		desc: "Curatorial areas: African Art, European Paintings, Achenbach, more",
-		href: "/collection-areas",
-	},
-	{
-		title: "By exhibition",
-		desc: "Works grouped by past, current, and upcoming shows",
-		href: "/exhibitions",
-	},
-	{
-		title: "By medium",
-		desc: "Paintings, prints, photography, textiles, sculpture",
-		href: "/search-results?facet=medium",
-	},
-	{
-		title: "By place of creation",
-		desc: "Map and list of geographies represented",
-		href: "/search-results?facet=place",
-	},
-	{
-		title: "By era",
-		desc: "Ancient, medieval, modern, contemporary",
-		href: "/search-results?facet=era",
-	},
-];
-
-const TIMELINE_PERIODS = [
-	{ label: "Ancient", range: "3000 BCE–1 CE", count: "1,204" },
-	{ label: "Medieval", range: "1–1400", count: "892" },
-	{ label: "Renaissance", range: "1400–1600", count: "3,471" },
-	{ label: "Baroque", range: "1600–1750", count: "8,236" },
-	{ label: "Modern", range: "1750–1900", count: "52,108" },
-	{ label: "20th Century", range: "1900–2000", count: "31,445" },
-	{ label: "Contemporary", range: "2000–present", count: "1,891" },
 ];
 
 const HIGHLIGHTS = [
@@ -183,11 +125,81 @@ const HIGHLIGHTS = [
 	},
 ];
 
+// Curated thematic-discovery tiles (NEW organization, 2026-06-18 page layouts).
+// Editorial themes, not browse facets. Each routes a free-text theme search;
+// curator-editable list per FAMSF feedback.
+const THEMES = [
+	{ name: "Environment", desc: "Land, sea, and our changing climate" },
+	{ name: "Making", desc: "Process, craft, and the hand of the maker" },
+	{ name: "Portraiture", desc: "Faces, identity, and the painted self" },
+	{ name: "The Sea", desc: "Oceans, voyages, and coastal life" },
+	{ name: "Devotion & Ritual", desc: "Sacred objects and ceremony" },
+	{ name: "Power & Politics", desc: "Authority, protest, and the state" },
+];
+
+// Editorial article / video / audio cards (NEW organization).
+const READ_WATCH_LISTEN = [
+	{
+		kind: "Article",
+		title: "Conserving the Rodin bronzes",
+		desc: "Inside the studio as conservators stabilise a century of patina",
+		meta: "6 min read",
+	},
+	{
+		kind: "Video",
+		title: "Behind the scenes: textile storage",
+		desc: "How 20,000 fragile costumes and textiles are kept safe",
+		meta: "4 min watch",
+	},
+	{
+		kind: "Audio",
+		title: "The story of Water Lilies",
+		desc: "A curator on Monet's late garden paintings",
+		meta: "12 min listen",
+	},
+	{
+		kind: "Article",
+		title: "Reattributing a Dutch portrait",
+		desc: "What technical imaging revealed beneath the varnish",
+		meta: "8 min read",
+	},
+];
+
+// Recently-acquired works strip (NEW organization). Dedicated module showing
+// actual recent works.
+const NEW_ACQUISITIONS = [
+	{
+		title: "Untitled (Seascape)",
+		artist: "Joan Brown",
+		acquired: "Acquired 2025",
+	},
+	{
+		title: "Standing Figure",
+		artist: "Ruth Asawa",
+		acquired: "Acquired 2025",
+	},
+	{
+		title: "View of the Bay",
+		artist: "Wayne Thiebaud",
+		acquired: "Acquired 2024",
+	},
+	{
+		title: "Ceremonial Vessel",
+		artist: "Unknown maker",
+		acquired: "Acquired 2024",
+	},
+	{
+		title: "Self-Portrait",
+		artist: "Elmer Bischoff",
+		acquired: "Acquired 2024",
+	},
+];
+
 function CollectionLandingContent() {
 	return (
 		<ScopePage id="collection-landing">
 			<div className="min-h-screen bg-white">
-				{/* Hero */}
+				{/* Hero: page header + tagline */}
 				<WireframeSection
 					label="Hero"
 					className="border-b border-gray-300 py-12"
@@ -208,60 +220,7 @@ function CollectionLandingContent() {
 					</Container>
 				</WireframeSection>
 
-				{/* Collection stats */}
-				<WireframeSection
-					label="Collection stats"
-					className="border-b border-gray-300 py-12"
-				>
-					<Container>
-						<SectionLabel className="mb-6">
-							{t("collection.statsHeading")}
-						</SectionLabel>
-						<div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-							<StatCard
-								value={t("collection.stat1Value")}
-								label={t("collection.stat1Label")}
-							/>
-							<StatCard
-								value={t("collection.stat2Value")}
-								label={t("collection.stat2Label")}
-							/>
-							<StatCard
-								value={t("collection.stat3Value")}
-								label={t("collection.stat3Label")}
-							/>
-							<StatCard
-								value={t("collection.stat4Value")}
-								label={t("collection.stat4Label")}
-							/>
-						</div>
-					</Container>
-				</WireframeSection>
-
-				{/* Dual pathways: Explore vs Search */}
-				<WireframeSection
-					label="Dual pathways"
-					className="border-b border-gray-300 py-12"
-				>
-					<Container size="md">
-						<div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-							<LinkCard
-								title={t("collection.exploreLabel")}
-								description={t("collection.exploreDesc")}
-								href="/explore"
-								arrow
-							/>
-							<LinkCard
-								title={t("collection.searchLabel")}
-								description={t("collection.searchDesc")}
-								href="/search-results"
-								arrow
-							/>
-						</div>
-					</Container>
-				</WireframeSection>
-
-				{/* Search bar */}
+				{/* Search bar: basic filters + advanced search accessible */}
 				<WireframeSection
 					label="Search bar"
 					className="border-b border-gray-300 py-8"
@@ -301,154 +260,7 @@ function CollectionLandingContent() {
 					</Container>
 				</WireframeSection>
 
-				{/* Browse by collection area */}
-				<WireframeSection
-					label="Browse by area"
-					className="border-b border-gray-300 py-12"
-				>
-					<Container>
-						<SectionLabel className="mb-6">
-							{t("collection.browseHeading")}
-						</SectionLabel>
-						<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-							{COLLECTION_AREAS.map((area) => (
-								<Link
-									key={area.name}
-									href="/collection-area"
-									className="flex flex-col border border-gray-300 p-5 text-left transition-colors hover:border-gray-500"
-								>
-									<ImagePlaceholder
-										aspect="1/1"
-										label={`[${area.name}]`}
-										className="mb-4"
-									/>
-									<h3 className="font-mono text-card font-medium leading-snug">
-										{area.name}
-									</h3>
-									<p className="mt-1 font-mono text-meta text-gray-500">
-										{area.count} {t("collection.objectsSuffix")}
-									</p>
-									<p className="mt-2 font-mono text-meta text-gray-500">
-										{area.desc}
-									</p>
-								</Link>
-							))}
-						</div>
-					</Container>
-				</WireframeSection>
-
-				{/* Sub-collection pathways */}
-				<WireframeSection
-					label="Browse by area"
-					className="border-b border-gray-300 py-8"
-				>
-					<Container>
-						<SectionLabel className="mb-4">Browse by type</SectionLabel>
-						<div className="flex flex-wrap gap-2">
-							{SUB_COLLECTIONS.map((sc) => (
-								<Link
-									key={sc.name}
-									href={`/search-results?q=${encodeURIComponent(sc.name)}`}
-									className="border border-gray-300 px-4 py-2 font-mono text-meta text-gray-500 transition-colors hover:border-gray-500 hover:bg-gray-50"
-								>
-									{sc.name} <span className="text-gray-400">{sc.count}</span>
-								</Link>
-							))}
-						</div>
-					</Container>
-				</WireframeSection>
-
-				{/* More entry points beyond highlights / area / topic */}
-				<WireframeSection
-					label="More ways in"
-					className="border-b border-gray-300 py-12"
-				>
-					<Container>
-						<SectionLabel className="mb-6">More ways in</SectionLabel>
-						<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-							{MORE_ENTRY_POINTS.map((e) => (
-								<Link
-									key={e.title}
-									href={e.href}
-									className="flex flex-col border border-gray-300 p-4 transition-colors hover:border-gray-500 hover:bg-gray-50"
-								>
-									<h3 className="font-mono text-card font-medium leading-snug">
-										{e.title}
-									</h3>
-									<p className="mt-2 font-mono text-meta text-gray-500">
-										{e.desc}
-									</p>
-								</Link>
-							))}
-						</div>
-					</Container>
-				</WireframeSection>
-
-				{/* Browse by gallery (post-MVP) */}
-				<ScopeMark label="Gallery browse">
-					<WireframeSection
-						label="Gallery browse"
-						className="border-b border-gray-300 py-8"
-					>
-						<Container>
-							<SectionLabel className="mb-2">
-								{t("landing.galleryBrowseHeading")}
-							</SectionLabel>
-							<p className="mb-4 font-mono text-meta text-gray-500">
-								{t("landing.galleryBrowseHint")}
-							</p>
-							<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-								{[
-									{
-										name: "Court of Honor: Rodin",
-										venue: "Legion of Honor",
-										count: 14,
-									},
-									{
-										name: "Gallery 10: Impressionism",
-										venue: "Legion of Honor",
-										count: 12,
-									},
-									{
-										name: "Gallery 11: 19th-century French",
-										venue: "Legion of Honor",
-										count: 8,
-									},
-									{
-										name: "Gallery 6: European Decorative Arts",
-										venue: "Legion of Honor",
-										count: 22,
-									},
-									{
-										name: "Gallery 22: American Modernism",
-										venue: "de Young",
-										count: 6,
-									},
-									{
-										name: "Gallery 15: Arts of Africa",
-										venue: "de Young",
-										count: 18,
-									},
-								].map((g) => (
-									<Link
-										key={g.name}
-										href="/search-results"
-										className="border border-gray-300 p-3 transition-colors hover:border-gray-500"
-									>
-										<p className="font-mono text-meta font-medium text-gray-700">
-											{g.name}
-										</p>
-										<p className="mt-1 font-mono text-label tracking-wide text-gray-400">
-											{g.venue} &middot; {g.count} on view
-										</p>
-									</Link>
-								))}
-							</div>
-						</Container>
-					</WireframeSection>
-				</ScopeMark>
-
-				{/* Highlights */}
+				{/* Highlights module */}
 				<WireframeSection
 					label="Highlights"
 					className="border-b border-gray-300 py-12"
@@ -479,56 +291,155 @@ function CollectionLandingContent() {
 					</Container>
 				</WireframeSection>
 
-				{/* What to see in an hour */}
-				<ScopeMark label="What to see">
+				{/* Thematic exploration: curated theme tiles (NEW organization) */}
+				<ScopeMark label="Thematic exploration">
 					<WireframeSection
-						label="What to see"
-						className="border-b border-gray-300 py-8"
+						label="Thematic exploration"
+						className="border-b border-gray-300 py-12"
 					>
-						<Container size="md">
+						<Container>
 							<SectionLabel className="mb-2">
-								{t("collection.whatToSeeHeading")}
+								{t("collection.themesHeading")}
 							</SectionLabel>
-							<p className="mb-4 font-mono text-body text-gray-700">
-								{t("collection.whatToSeeDesc")}
+							<p className="mb-6 max-w-[var(--container-md)] font-mono text-meta text-gray-500">
+								{t("collection.themesIntro")}
 							</p>
-							<LinkCard
-								title={t("collection.whatToSeeCta")}
-								description={t("visit.intro")}
-								href="/visit-planner"
-								arrow
-							/>
+							<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+								{THEMES.map((theme) => (
+									<Link
+										key={theme.name}
+										href={`/search-results?q=${encodeURIComponent(theme.name)}`}
+										className="flex flex-col border border-gray-300 transition-colors hover:border-gray-500"
+									>
+										<ImagePlaceholder aspect="3/2" label={`[${theme.name}]`} />
+										<div className="p-4">
+											<h3 className="font-mono text-card font-medium leading-snug">
+												{theme.name}
+											</h3>
+											<p className="mt-2 font-mono text-meta text-gray-500">
+												{theme.desc}
+											</p>
+										</div>
+									</Link>
+								))}
+							</div>
 						</Container>
 					</WireframeSection>
 				</ScopeMark>
 
-				{/* Timeline */}
-				<WireframeSection label="Timeline" className="py-12">
+				{/* Collection areas */}
+				<WireframeSection
+					label="Browse by area"
+					className="border-b border-gray-300 py-12"
+				>
 					<Container>
 						<SectionLabel className="mb-6">
-							{t("collection.timelineHeading")}
+							{t("collection.browseHeading")}
 						</SectionLabel>
-						<div className="flex flex-col gap-2 sm:flex-row sm:gap-0">
-							{TIMELINE_PERIODS.map((period, i) => (
+						<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+							{COLLECTION_AREAS.map((area) => (
 								<Link
-									key={period.label}
-									href={`/search-results?q=${encodeURIComponent(period.label)}`}
-									className={`flex flex-1 flex-col border border-gray-300 p-4 text-left transition-colors hover:border-gray-500 hover:bg-gray-50 ${i > 0 ? "sm:-ml-px" : ""}`}
+									key={area.name}
+									href={`/collection-area/${slugify(area.name)}`}
+									className="flex flex-col border border-gray-300 p-5 text-left transition-colors hover:border-gray-500"
 								>
-									<span className="font-mono text-card font-medium">
-										{period.label}
-									</span>
-									<span className="mt-0.5 font-mono text-meta text-gray-500">
-										{period.range}
-									</span>
-									<span className="mt-2 font-mono text-label text-gray-400">
-										{period.count} {t("collection.worksSuffix")}
-									</span>
+									<ImagePlaceholder
+										aspect="1/1"
+										label={`[${area.name}]`}
+										className="mb-4"
+									/>
+									<h3 className="font-mono text-card font-medium leading-snug">
+										{area.name}
+									</h3>
+									<p className="mt-1 font-mono text-meta text-gray-500">
+										{area.count} {t("collection.objectsSuffix")}
+									</p>
+									<p className="mt-2 font-mono text-meta text-gray-500">
+										{area.desc}
+									</p>
 								</Link>
 							))}
 						</div>
 					</Container>
 				</WireframeSection>
+
+				{/* Read, watch + listen: editorial content (NEW organization) */}
+				<ScopeMark label="Read watch listen">
+					<WireframeSection
+						label="Read watch listen"
+						className="border-b border-gray-300 py-12"
+					>
+						<Container>
+							<SectionLabel className="mb-2">
+								{t("collection.readWatchListenHeading")}
+							</SectionLabel>
+							<p className="mb-6 max-w-[var(--container-md)] font-mono text-meta text-gray-500">
+								{t("collection.readWatchListenIntro")}
+							</p>
+							<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+								{READ_WATCH_LISTEN.map((item) => (
+									<Link
+										key={item.title}
+										href="/explore"
+										className="flex flex-col border border-gray-300 transition-colors hover:border-gray-500"
+									>
+										<ImagePlaceholder aspect="16/9" label={`[${item.kind}]`} />
+										<div className="flex flex-1 flex-col p-4">
+											<span className="font-mono text-label uppercase tracking-[0.08em] text-gray-400">
+												{item.kind}
+											</span>
+											<h3 className="mt-2 font-mono text-card font-medium leading-snug">
+												{item.title}
+											</h3>
+											<p className="mt-2 font-mono text-meta text-gray-500">
+												{item.desc}
+											</p>
+											<span className="mt-3 font-mono text-label text-gray-400">
+												{item.meta}
+											</span>
+										</div>
+									</Link>
+								))}
+							</div>
+						</Container>
+					</WireframeSection>
+				</ScopeMark>
+
+				{/* New to the collections: recent acquisitions strip (NEW organization) */}
+				<ScopeMark label="New to the collections">
+					<WireframeSection label="New to the collections" className="py-12">
+						<Container>
+							<SectionLabel className="mb-2">
+								{t("collection.newToCollectionsHeading")}
+							</SectionLabel>
+							<p className="mb-6 max-w-[var(--container-md)] font-mono text-meta text-gray-500">
+								{t("collection.newToCollectionsIntro")}
+							</p>
+							<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+								{NEW_ACQUISITIONS.map((work) => (
+									<Link
+										key={work.title}
+										href="/search-results?sort=accession_date_desc"
+										className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
+									>
+										<ImagePlaceholder aspect="4/5" label={`[${work.title}]`} />
+										<div className="p-3">
+											<h3 className="font-mono text-card font-medium leading-snug">
+												{work.title}
+											</h3>
+											<p className="mt-0.5 font-mono text-label text-gray-500">
+												{work.artist}
+											</p>
+											<p className="mt-2 font-mono text-label text-gray-400">
+												{work.acquired}
+											</p>
+										</div>
+									</Link>
+								))}
+							</div>
+						</Container>
+					</WireframeSection>
+				</ScopeMark>
 			</div>
 		</ScopePage>
 	);

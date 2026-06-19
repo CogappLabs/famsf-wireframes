@@ -150,22 +150,24 @@ export function ScholarlyRecordSections({
 
 	// Each block's entries flow across two columns inside the section (handled
 	// in the blocks above). A wide container gives the columns room to breathe.
+	// Order follows the June 18 2026 page-layouts spec: provenance →
+	// exhibition history → bibliography.
 	return (
 		<>
-			{exhibitionsBlock && (
-				<WireframeSection
-					label="Exhibitions"
-					className="border-b border-gray-300 py-8"
-				>
-					<Container size="lg">{exhibitionsBlock}</Container>
-				</WireframeSection>
-			)}
 			{provenanceBlock && (
 				<WireframeSection
 					label="Provenance"
 					className="border-b border-gray-300 py-8"
 				>
 					<Container size="lg">{provenanceBlock}</Container>
+				</WireframeSection>
+			)}
+			{exhibitionsBlock && (
+				<WireframeSection
+					label="Exhibitions"
+					className="border-b border-gray-300 py-8"
+				>
+					<Container size="lg">{exhibitionsBlock}</Container>
 				</WireframeSection>
 			)}
 			{bibliographyBlock && (

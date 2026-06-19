@@ -49,7 +49,7 @@ export default function PortfolioDetailClient({
 							{ label: "Collection", href: "/collection-landing" },
 							{
 								label: "Achenbach Foundation for Graphic Arts",
-								href: "/collection-area",
+								href: "/collection-area/achenbach-foundation-for-graphic-arts",
 							},
 							{ label: "La Sainte Bible (portfolio)" },
 						]}
