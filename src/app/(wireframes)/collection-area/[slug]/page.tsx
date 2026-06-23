@@ -17,12 +17,15 @@ import { ScopePage } from "@/providers/ScopeProvider";
 // (stats, browse options, provenance statement, related programs) were removed
 // to match the doc flow.
 //
-// Per-area dynamic route: `[slug]` selects the area from the AREAS map below
-// (keys are the canonical collection-area names from the collection-areas index;
-// slugs are kebab-case derivations via slugify). Statically generated per area
-// at build time via generateStaticParams. An unmatched slug 404s (notFound).
-// European Decorative Arts and Sculpture carries the original verbatim copy; the
-// other ten areas use plausible wireframe-grade placeholder content.
+// Per-area dynamic route: `[slug]` selects the area from the AREAS map below.
+// Keys are the nine TMS departments carrying web-visible objects (collection
+// areas, CW-30); slugs are kebab-case derivations via slugify. Statically
+// generated per area at build time via generateStaticParams. An unmatched slug
+// 404s (notFound). European Decorative Arts and Sculpture carries the original
+// verbatim copy; the other areas use wireframe-grade placeholder content.
+// Featured-collection cards are the real named "(Web)" collections from the
+// curated TMS "Topics" package folder. Only the Achenbach department has any in
+// TMS, so the other areas render no featured grid (empty `featured`).
 
 interface Highlight {
 	title: string;
@@ -264,21 +267,40 @@ const AREAS: Record<string, AreaData> = {
 				medium: "Red chalk on paper",
 			},
 		],
+		// Real named collections under AFGA, from the curated TMS "Topics" package
+		// folder (web-visible member counts probed from live TMS). These six are
+		// the only departments-scoped named "(Web)" collections in TMS; every
+		// member of all six resolves to the Achenbach department.
 		featured: [
 			{
-				name: "Japanese Woodblock Prints",
-				desc: "Ukiyo-e and shin-hanga sheets from the Edo period through the twentieth century.",
-				count: "640 objects",
+				name: "Crown Point Press Collection",
+				desc: "Etchings and aquatints from the influential San Francisco printmaking studio.",
+				count: "5,383 objects",
 			},
 			{
-				name: "Old Master Prints",
-				desc: "Engravings and etchings by Dürer, Rembrandt, and their contemporaries.",
-				count: "1,240 objects",
+				name: "Logan Collection",
+				desc: "Prints and works on paper from the Reva and David Logan gift.",
+				count: "2,858 objects",
 			},
 			{
-				name: "Modern Editions",
-				desc: "Twentieth-century lithographs, screenprints, and artists' books.",
-				count: "880 objects",
+				name: "Paulson Fontaine Press Collection",
+				desc: "Contemporary editions from the Berkeley fine-art printmaking press.",
+				count: "715 objects",
+			},
+			{
+				name: "Anderson Collection",
+				desc: "Twentieth-century prints from the Harry W. and Mary Margaret Anderson gift.",
+				count: "674 objects",
+			},
+			{
+				name: "Theater and Dance Collection",
+				desc: "Posters, prints, and graphic works documenting performance.",
+				count: "459 objects",
+			},
+			{
+				name: "Ed Ruscha Collection",
+				desc: "Prints and artists' books by the American conceptual artist.",
+				count: "372 objects",
 			},
 		],
 		media: [
@@ -420,17 +442,20 @@ const AREAS: Record<string, AreaData> = {
 		],
 	},
 
-	"Arts of Africa": {
-		name: "Arts of Africa",
+	// One TMS department (AOA), not the three separate areas an earlier wireframe
+	// pass split it into. The galleries group African, Oceanic, and ancient-American
+	// holdings together at the de Young.
+	"Arts of Africa, Oceania, and the Americas": {
+		name: "Arts of Africa, Oceania, and the Americas",
 		museums: "de Young Museum",
 		intro: [
-			"The Arts of Africa collection presents sculpture, masks, textiles, and ceremonial objects from across the continent, with particular depth in West and Central African traditions. The works speak to ritual, leadership, and daily life across many cultures and centuries.",
-			"Highlights include figurative sculpture, beaded regalia, and masquerade objects, displayed in dedicated galleries at the de Young alongside related holdings from Oceania and the Americas.",
+			"The Arts of Africa, Oceania, and the Americas collection brings together sculpture, masks, textiles, regalia, and ceremonial objects from across the African continent, the islands of the Pacific, and the ancient and indigenous Americas. The works speak to ritual, leadership, navigation, ancestry, and daily life across many cultures and several thousand years.",
+			"Strengths range from West and Central African figurative sculpture to Melanesian and Polynesian carving and Mesoamerican and Andean ceramics, gold, and textiles, shown together in dedicated galleries at the de Young.",
 		],
 		history: [
-			"The collection developed through gifts and purchases that brought significant bodies of West and Central African art to the de Young, establishing African art as a distinct curatorial area.",
-			"Curatorial collecting deepened the holdings in figurative sculpture and ceremonial regalia, with attention to documentation, cultural context, and the circumstances of acquisition.",
-			"Recent work emphasises provenance research, community consultation, and the responsible interpretation of objects with sacred or ceremonial significance.",
+			"The collection developed through gifts and purchases that brought significant bodies of African, Pacific, and Pre-Columbian art to the de Young, later consolidated into a single curatorial area spanning the three regions.",
+			"Curatorial collecting deepened the holdings in figurative sculpture, ceremonial regalia, and ancient American ceramics and metalwork, with attention to documentation, cultural context, and the circumstances of acquisition.",
+			"Recent work emphasises provenance research, consultation with originating and descendant communities, and the responsible interpretation of objects with sacred or ceremonial significance.",
 		],
 		highlights: [
 			{
@@ -440,53 +465,38 @@ const AREAS: Record<string, AreaData> = {
 				medium: "Wood and metal",
 			},
 			{
-				title: "Mask",
-				artist: "Unknown Dan artist",
-				date: "20th century",
-				medium: "Wood",
-			},
-			{
 				title: "Power Figure (Nkisi)",
 				artist: "Unknown Kongo artist",
 				date: "19th century",
 				medium: "Wood, iron, mixed media",
 			},
 			{
-				title: "Beaded Crown",
-				artist: "Unknown Yoruba artist",
-				date: "20th century",
-				medium: "Glass beads and fiber",
+				title: "Malagan Carving",
+				artist: "Unknown artist, New Ireland",
+				date: "19th century",
+				medium: "Wood, fiber, shell",
 			},
 			{
-				title: "Seated Couple",
-				artist: "Unknown Dogon artist",
-				date: "18th–19th century",
-				medium: "Wood",
+				title: "Tiki Pendant",
+				artist: "Unknown Māori artist",
+				date: "ca. 1800",
+				medium: "Nephrite",
 			},
 			{
-				title: "Kente Cloth",
-				artist: "Unknown Asante artist",
-				date: "20th century",
-				medium: "Silk and cotton",
+				title: "Funerary Mask",
+				artist: "Unknown artist, Peru",
+				date: "ca. 900–1100 CE",
+				medium: "Gold alloy",
+			},
+			{
+				title: "Maya Vase",
+				artist: "Unknown Maya artist",
+				date: "ca. 600–900 CE",
+				medium: "Painted ceramic",
 			},
 		],
-		featured: [
-			{
-				name: "West African Sculpture",
-				desc: "Figurative and masquerade works from across the western Sahel and forest regions.",
-				count: "420 objects",
-			},
-			{
-				name: "Central African Art",
-				desc: "Power figures, masks, and regalia from the Congo basin and beyond.",
-				count: "260 objects",
-			},
-			{
-				name: "Textiles and Regalia",
-				desc: "Woven cloth, beadwork, and ceremonial dress.",
-				count: "180 objects",
-			},
-		],
+		// No curated named "(Web)" collections under this department in TMS.
+		featured: [],
 		media: [
 			{
 				kicker: t("area.mediaArticle"),
@@ -496,220 +506,14 @@ const AREAS: Record<string, AreaData> = {
 			},
 			{
 				kicker: t("area.mediaVideo"),
-				title: "Masquerade in Motion",
-				desc: "Masks were made to move; a curator explores their performance context.",
-				meta: "10 min watch",
-			},
-			{
-				kicker: t("area.mediaAudio"),
-				title: "Provenance and Responsibility",
-				desc: "A conversation on collecting histories and community consultation.",
-				meta: "12 min listen",
-			},
-		],
-		resources: [
-			{
-				title: "Research inquiries",
-				desc: "research@famsf.org for curatorial and provenance questions.",
-			},
-			{
-				title: "Provenance research",
-				desc: "Ongoing documentation of collecting histories for African holdings.",
-			},
-			{
-				title: "Image licensing",
-				desc: "Rights and reproduction requests for publication and study.",
-			},
-		],
-	},
-
-	"Arts of Oceania": {
-		name: "Arts of Oceania",
-		museums: "de Young Museum",
-		intro: [
-			"The Arts of Oceania collection gathers sculpture, carving, and ceremonial objects from the island cultures of Melanesia, Polynesia, and Micronesia. The works reflect navigation, ancestry, and ritual across the vast Pacific.",
-			"Strengths include figurative carving, shields, and adornment, shown in dedicated galleries at the de Young alongside the museum's African and American holdings.",
-		],
-		history: [
-			"The collection took shape through gifts and acquisitions that brought significant Pacific material to the de Young, establishing Oceanic art as a curatorial area in its own right.",
-			"Curatorial collecting broadened the holdings across Melanesian, Polynesian, and Micronesian traditions, with attention to documentation and cultural context.",
-			"Recent work emphasises provenance, consultation with originating communities, and the careful interpretation of objects tied to ancestry and ceremony.",
-		],
-		highlights: [
-			{
-				title: "Ancestor Figure",
-				artist: "Unknown artist, Papua New Guinea",
-				date: "19th–20th century",
-				medium: "Wood and pigment",
-			},
-			{
-				title: "Malagan Carving",
-				artist: "Unknown artist, New Ireland",
-				date: "19th century",
-				medium: "Wood, fiber, shell",
-			},
-			{
-				title: "War Shield",
-				artist: "Unknown artist, Solomon Islands",
-				date: "19th century",
-				medium: "Fiber, shell, pigment",
-			},
-			{
-				title: "Tiki Pendant",
-				artist: "Unknown Māori artist",
-				date: "ca. 1800",
-				medium: "Nephrite",
-			},
-			{
-				title: "Canoe Prow Ornament",
-				artist: "Unknown artist, Solomon Islands",
-				date: "19th century",
-				medium: "Wood and shell inlay",
-			},
-			{
-				title: "Mask",
-				artist: "Unknown artist, New Britain",
-				date: "20th century",
-				medium: "Barkcloth and fiber",
-			},
-		],
-		featured: [
-			{
-				name: "Melanesian Carving",
-				desc: "Figurative sculpture and ceremonial objects from New Guinea and island Melanesia.",
-				count: "210 objects",
-			},
-			{
-				name: "Polynesian Adornment",
-				desc: "Personal ornament, weapons, and regalia from across Polynesia.",
-				count: "140 objects",
-			},
-			{
-				name: "Pacific Textiles",
-				desc: "Barkcloth and woven fiber from across the region.",
-				count: "90 objects",
-			},
-		],
-		media: [
-			{
-				kicker: t("area.mediaArticle"),
-				title: "Carving Ancestry",
-				desc: "How Malagan sculpture connects the living and the dead in New Ireland.",
-				meta: "6 min read",
-			},
-			{
-				kicker: t("area.mediaVideo"),
 				title: "The Art of the Voyage",
 				desc: "Navigation, canoe-building, and the material culture of the Pacific.",
 				meta: "11 min watch",
 			},
 			{
 				kicker: t("area.mediaAudio"),
-				title: "Objects in Ceremony",
-				desc: "A curator on the ritual lives of Oceanic works.",
-				meta: "9 min listen",
-			},
-		],
-		resources: [
-			{
-				title: "Research inquiries",
-				desc: "research@famsf.org for curatorial and provenance questions.",
-			},
-			{
-				title: "Community consultation",
-				desc: "Engagement with originating communities on interpretation and care.",
-			},
-			{
-				title: "Image licensing",
-				desc: "Rights and reproduction requests for publication and study.",
-			},
-		],
-	},
-
-	"Arts of the Americas": {
-		name: "Arts of the Americas",
-		museums: "de Young Museum",
-		intro: [
-			"The Arts of the Americas collection spans the indigenous and ancient cultures of North, Central, and South America, from monumental stone sculpture to ceramics, gold, and textiles. The works range across several thousand years.",
-			"Strengths include Mesoamerican and Andean material, with figurative ceramics, metalwork, and stone carving displayed in dedicated galleries at the de Young.",
-		],
-		history: [
-			"The collection grew from early gifts and acquisitions of Pre-Columbian art, later consolidated as a distinct curatorial area encompassing the ancient and indigenous Americas.",
-			"Curatorial collecting deepened the Mesoamerican and Andean holdings, with attention to archaeological context, documentation, and the circumstances of acquisition.",
-			"Recent work emphasises provenance research, consultation with descendant communities, and the responsible stewardship of culturally significant objects.",
-		],
-		highlights: [
-			{
-				title: "Seated Figure",
-				artist: "Unknown Olmec artist",
-				date: "ca. 1000–600 BCE",
-				medium: "Ceramic",
-			},
-			{
-				title: "Funerary Mask",
-				artist: "Unknown artist, Peru",
-				date: "ca. 900–1100 CE",
-				medium: "Gold alloy",
-			},
-			{
-				title: "Stirrup-Spout Vessel",
-				artist: "Unknown Moche artist",
-				date: "ca. 100–700 CE",
-				medium: "Ceramic with slip",
-			},
-			{
-				title: "Maya Vase",
-				artist: "Unknown Maya artist",
-				date: "ca. 600–900 CE",
-				medium: "Painted ceramic",
-			},
-			{
-				title: "Standing Figure",
-				artist: "Unknown Aztec artist",
-				date: "ca. 1400–1521 CE",
-				medium: "Stone",
-			},
-			{
-				title: "Feathered Panel",
-				artist: "Unknown artist, Peru",
-				date: "ca. 600–900 CE",
-				medium: "Feathers on cotton",
-			},
-		],
-		featured: [
-			{
-				name: "Mesoamerican Art",
-				desc: "Olmec, Maya, and Aztec sculpture and ceramics from ancient Mexico and Central America.",
-				count: "380 objects",
-			},
-			{
-				name: "Andean Gold and Ceramics",
-				desc: "Metalwork and figurative pottery from the central Andes.",
-				count: "290 objects",
-			},
-			{
-				name: "Ancient Textiles",
-				desc: "Woven and featherwork panels from coastal Peru.",
-				count: "150 objects",
-			},
-		],
-		media: [
-			{
-				kicker: t("area.mediaArticle"),
 				title: "The Goldsmiths of Ancient Peru",
 				desc: "Technique and meaning in Andean metalwork.",
-				meta: "7 min read",
-			},
-			{
-				kicker: t("area.mediaVideo"),
-				title: "Reading a Maya Vase",
-				desc: "A curator decodes the imagery on a painted ceramic vessel.",
-				meta: "10 min watch",
-			},
-			{
-				kicker: t("area.mediaAudio"),
-				title: "Stone and Ceremony",
-				desc: "An audio tour through the museum's Mesoamerican sculpture.",
 				meta: "8 min listen",
 			},
 		],
@@ -720,7 +524,7 @@ const AREAS: Record<string, AreaData> = {
 			},
 			{
 				title: "Provenance research",
-				desc: "Ongoing documentation of collecting histories for ancient American holdings.",
+				desc: "Ongoing documentation of collecting histories across the three regions.",
 			},
 			{
 				title: "Image licensing",
@@ -1408,8 +1212,9 @@ export function AreaPageLayout({
 
 				{/* Featured collections: named sub-collections, each its own page
 				    rendered from this same template. Hidden on featured child
-				    pages (no nested featured grid). */}
-				{showFeatured && featuredBasePath && (
+				    pages (no nested featured grid) and on areas with no named
+				    sub-collections in TMS (empty `featured`). */}
+				{showFeatured && featuredBasePath && area.featured.length > 0 && (
 					<WireframeSection
 						label="Featured collections"
 						className="border-b border-gray-300 py-12"

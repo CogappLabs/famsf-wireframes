@@ -20,60 +20,55 @@ import { slugify } from "../collection-area/[slug]/page";
 // Off-spec sections (stats, dual pathways, gallery browse, what-to-see,
 // timeline, more-ways-in, browse-by-type) were removed to match the doc flow.
 
+// Collection areas == TMS Departments (CW-30). The nine departments below are
+// the only ones carrying web-visible objects; counts are web-visible object
+// counts probed from live TMS (vCI_PrismObjectsFilter_Cogapp), ordered by size.
+// "Arts of Africa, Oceania, and the Americas" is a single TMS department (AOA),
+// not the three separate areas an earlier wireframe pass invented.
 const COLLECTION_AREAS = [
 	{
 		name: "Achenbach Foundation for Graphic Arts",
-		count: "115,627",
+		count: "118,773",
 		desc: "One of the largest works-on-paper collections in the US: prints, drawings, photographs, and artists' books",
 	},
 	{
 		name: "Costume and Textile Arts",
-		count: "11,983",
+		count: "12,381",
 		desc: "20,000+ objects spanning 120+ countries and cultures, from ancient textiles to contemporary fashion",
 	},
 	{
 		name: "European Decorative Arts and Sculpture",
-		count: "6,063",
+		count: "6,535",
 		desc: "Porcelain, furniture, silver, sculpture, and the world-renowned Rodin collection",
 	},
 	{
-		name: "Arts of Africa",
-		count: "1,842",
-		desc: "Sculpture, masks, textiles, and ritual objects from across the African continent",
-	},
-	{
-		name: "Arts of Oceania",
-		count: "1,103",
-		desc: "Carving, regalia, and ceremonial objects from Melanesia, Polynesia, and Micronesia",
-	},
-	{
-		name: "Arts of the Americas",
-		count: "2,522",
-		desc: "Pre-Columbian, Indigenous American, and Latin American art across millennia",
+		name: "Arts of Africa, Oceania, and the Americas",
+		count: "6,330",
+		desc: "Sculpture, masks, textiles, regalia, and ceremonial objects from across Africa, Oceania, and the Americas",
 	},
 	{
 		name: "American Decorative Arts and Sculpture",
-		count: "2,483",
+		count: "2,865",
 		desc: "Decorative arts, sculpture, and design from the colonial era to the present",
 	},
 	{
 		name: "Ancient Art",
-		count: "1,301",
+		count: "1,316",
 		desc: "Greek, Roman, and Near Eastern antiquities spanning 5,000 years",
 	},
 	{
 		name: "American Paintings",
-		count: "796",
+		count: "833",
 		desc: "American painting from the colonial period through the mid-20th century",
 	},
 	{
 		name: "European Paintings",
-		count: "757",
+		count: "793",
 		desc: "European painting from the medieval period to the early 20th century, including major French holdings",
 	},
 	{
 		name: "Contemporary Art",
-		count: "34",
+		count: "224",
 		desc: "Contemporary art and programming across all media",
 	},
 ];
@@ -121,7 +116,7 @@ const HIGHLIGHTS = [
 		title: "Standing Male Figure (Nkisi)",
 		artist: "Unknown artist",
 		date: "19th century",
-		dept: "Arts of Africa",
+		dept: "Arts of Africa, Oceania, and the Americas",
 	},
 ];
 
@@ -154,7 +149,7 @@ const THEMES = [
 	{
 		name: "Devotion & Ritual",
 		desc: "Sacred objects and ceremony",
-		facet: "department:Arts of Africa",
+		facet: "department:Arts of Africa, Oceania, and the Americas",
 	},
 	{
 		name: "Power & Politics",
