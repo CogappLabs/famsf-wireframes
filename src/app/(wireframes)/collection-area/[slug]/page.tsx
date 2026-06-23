@@ -44,21 +44,43 @@ interface MediaItem {
 	meta: string;
 }
 
+/** "Other resources" cards are informational *content*, not links: an image,
+ *  an info blurb, and optional contact detail (address / email / phone). */
 interface ResourceItem {
 	title: string;
 	desc: string;
-	/** Outbound URL. When set, the card links out (e.g. study centers on
-	 * famsf.org). Absent = plain informational card. */
-	href?: string;
+	/** Placeholder caption for the resource image. Falls back to the title. */
+	image?: string;
+	/** Contact line (address, email, phone) shown under the blurb. */
+	contact?: string;
 }
 
-// FAMSF study centers live on the main museum site; every collection-area
-// page surfaces them as a standing "Other resources" entry.
-const STUDY_CENTERS_URL = "https://www.famsf.org/art/study-centers";
-const STUDY_CENTERS_RESOURCE: ResourceItem = {
+// Read/watch/listen editorial lives on the main museum site.
+const READ_WATCH_LISTEN_URL =
+	"https://www.famsf.org/learn-engage/read-watch-listen";
+
+// FAMSF study centers: a standing, featured "Other resources" entry rendered
+// as a rich split-column card (prose + CTA + links on the left, images on the
+// right) rather than a plain content card.
+const STUDY_CENTERS = {
 	title: "Study centers",
-	desc: "Make an appointment to view works in person at the FAMSF study centers.",
-	href: STUDY_CENTERS_URL,
+	lead: "Make an appointment to view works on paper, textiles, and other light-sensitive objects in person.",
+	body: [
+		"The study centers hold the reference library, object files, and the many works not currently on display. Curators and researchers use them for close looking, condition review, and provenance work.",
+		"Appointments are free and open to students, scholars, and members of the public. Requests are usually scheduled within two to three weeks.",
+	],
+	links: [
+		{
+			label: "Visiting + hours",
+			href: "https://www.famsf.org/visit",
+		},
+		{
+			label: "Research inquiries",
+			href: "mailto:research@famsf.org",
+		},
+	],
+	contact: "study.centers@famsf.org · de Young Museum, Golden Gate Park",
+	images: ["[Study center reading room]", "[Works on paper, table view]"],
 };
 
 interface AreaData {
@@ -1235,13 +1257,33 @@ export function generateStaticParams() {
 	return AREA_SLUGS.map((slug) => ({ slug }));
 }
 
-type Props = { params: Promise<{ slug: string }> };
+/** Sub-collection slug, scoped under its parent area. */
+export function featuredSlug(name: string): string {
+	return slugify(name);
+}
 
-export default async function CollectionAreaPage({ params }: Props) {
-	const { slug } = await params;
-	const area = AREA_BY_SLUG[slug];
-	if (!area) notFound();
+export type { AreaData, Featured };
+export { AREA_BY_SLUG };
 
+/** Shared collection-area template. Parent area pages and featured-collection
+ *  child pages both render this — the child reuses the identical layout, only
+ *  with `showFeatured={false}` (a featured page has no nested featured grid)
+ *  and a back link pointing at its parent. */
+export function AreaPageLayout({
+	area,
+	backHref,
+	backLabel,
+	featuredBasePath,
+	showFeatured = true,
+}: {
+	area: AreaData;
+	backHref: string;
+	backLabel: string;
+	/** Parent-area path featured cards route under (e.g. `/collection-area/x`).
+	 *  Only used when `showFeatured`. */
+	featuredBasePath?: string;
+	showFeatured?: boolean;
+}) {
 	return (
 		<ScopePage id="collection-area">
 			<div className="min-h-screen bg-white">
@@ -1253,10 +1295,10 @@ export default async function CollectionAreaPage({ params }: Props) {
 					<Container>
 						<div className="mb-2">
 							<Link
-								href="/collection-landing"
+								href={backHref}
 								className="font-mono text-meta text-gray-500 underline hover:text-gray-600"
 							>
-								&larr; {t("area.backToCollection")}
+								&larr; {backLabel}
 							</Link>
 						</div>
 						<SectionLabel>{t("area.label")}</SectionLabel>
@@ -1333,9 +1375,9 @@ export default async function CollectionAreaPage({ params }: Props) {
 						</p>
 						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
 							{area.highlights.map((work) => (
-								<button
+								<Link
 									key={work.title}
-									type="button"
+									href="/objects/sample/water-lilies-1973-3"
 									className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
 								>
 									<ImagePlaceholder label={`[${work.title}]`} />
@@ -1350,7 +1392,7 @@ export default async function CollectionAreaPage({ params }: Props) {
 											{work.date}
 										</p>
 									</div>
-								</button>
+								</Link>
 							))}
 						</div>
 						<div className="mt-4">
@@ -1364,53 +1406,69 @@ export default async function CollectionAreaPage({ params }: Props) {
 					</Container>
 				</WireframeSection>
 
-				{/* Featured collections: named / sub-collections, existing links surfaced */}
-				<WireframeSection
-					label="Featured collections"
-					className="border-b border-gray-300 py-12"
-				>
-					<Container size="md">
-						<SectionLabel className="mb-2">
-							{t("area.featuredHeading")}
-						</SectionLabel>
-						<p className="mb-6 font-mono text-meta text-gray-500">
-							{t("area.featuredNote")}
-						</p>
-						<div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-							{area.featured.map((col) => (
-								<Link
-									key={col.name}
-									href={`/search-results?q=${encodeURIComponent(col.name)}`}
-									className="flex flex-col border border-gray-300 p-5 transition-colors hover:border-gray-500"
-								>
-									<h3 className="font-mono text-card font-medium leading-snug">
-										{col.name}
-									</h3>
-									<p className="mt-1 font-mono text-meta text-gray-500">
-										{col.desc}
-									</p>
-									<p className="mt-2 font-mono text-label text-gray-400">
-										{col.count}
-									</p>
-								</Link>
-							))}
-						</div>
-					</Container>
-				</WireframeSection>
+				{/* Featured collections: named sub-collections, each its own page
+				    rendered from this same template. Hidden on featured child
+				    pages (no nested featured grid). */}
+				{showFeatured && featuredBasePath && (
+					<WireframeSection
+						label="Featured collections"
+						className="border-b border-gray-300 py-12"
+					>
+						<Container size="md">
+							<SectionLabel className="mb-2">
+								{t("area.featuredHeading")}
+							</SectionLabel>
+							<p className="mb-6 font-mono text-meta text-gray-500">
+								{t("area.featuredNote")}
+							</p>
+							<div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+								{area.featured.map((col) => (
+									<Link
+										key={col.name}
+										href={`${featuredBasePath}/${featuredSlug(col.name)}`}
+										className="flex flex-col border border-gray-300 p-5 transition-colors hover:border-gray-500"
+									>
+										<h3 className="font-mono text-card font-medium leading-snug">
+											{col.name}
+										</h3>
+										<p className="mt-1 font-mono text-meta text-gray-500">
+											{col.desc}
+										</p>
+										<p className="mt-2 font-mono text-label text-gray-400">
+											{col.count}
+										</p>
+										<span className="mt-3 font-mono text-label text-gray-500 underline">
+											{t("area.featuredViewAll")} &rarr;
+										</span>
+									</Link>
+								))}
+							</div>
+						</Container>
+					</WireframeSection>
+				)}
 
-				{/* Read, watch + listen (reframed from Articles & essays) */}
+				{/* Articles & essays: cards link out to read/watch/listen on famsf.org */}
 				<ScopeMark label="Articles & essays">
 					<WireframeSection
 						label="Articles & essays"
 						className="border-b border-gray-300 py-12"
 					>
 						<Container size="md">
-							<SectionLabel className="mb-6">
+							<SectionLabel className="mb-2">
 								{t("area.contentHeading")}
 							</SectionLabel>
+							<p className="mb-6 font-mono text-meta text-gray-500">
+								{t("area.contentNote")}
+							</p>
 							<div className="flex flex-col gap-3">
 								{area.media.map((item) => (
-									<div key={item.title} className="border border-gray-300 p-5">
+									<a
+										key={item.title}
+										href={READ_WATCH_LISTEN_URL}
+										target="_blank"
+										rel="noreferrer"
+										className="block border border-gray-300 p-5 transition-colors hover:border-gray-500"
+									>
 										<p className="font-mono text-label uppercase tracking-[0.08em] text-gray-400">
 											{item.kicker}
 										</p>
@@ -1423,56 +1481,129 @@ export default async function CollectionAreaPage({ params }: Props) {
 										<p className="mt-2 font-mono text-label text-gray-400">
 											{item.meta}
 										</p>
-									</div>
+									</a>
 								))}
-								<div className="border border-dashed border-gray-300 p-5">
-									<h3 className="font-mono text-meta text-gray-400">
-										{t("area.moreArticlesPlaceholder")}
-									</h3>
-								</div>
+							</div>
+							<div className="mt-4">
+								<a
+									href={READ_WATCH_LISTEN_URL}
+									target="_blank"
+									rel="noreferrer"
+									className="font-mono text-meta text-gray-500 underline hover:text-gray-600"
+								>
+									{t("area.contentViewAll")} &rarr;
+								</a>
 							</div>
 						</Container>
 					</WireframeSection>
 				</ScopeMark>
 
-				{/* Other resources: study centers, contacts, department resources */}
+				{/* Other resources: single column. Study centers lead as a rich
+				    split-column card (prose + CTA + links left, images right);
+				    remaining resources stack as plain content cards below. */}
 				<WireframeSection label="Other resources" className="py-8">
 					<Container size="md">
 						<SectionLabel className="mb-6">
 							{t("area.resourcesHeading")}
 						</SectionLabel>
-						<div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-							{[STUDY_CENTERS_RESOURCE, ...area.resources].map((res) =>
-								res.href ? (
-									<a
-										key={res.title}
-										href={res.href}
-										target="_blank"
-										rel="noreferrer"
-										className="border border-gray-300 p-5 transition-colors hover:border-gray-500"
-									>
-										<h3 className="font-mono text-card font-medium leading-snug">
-											{res.title}
-										</h3>
-										<p className="mt-1 font-mono text-meta text-gray-500">
-											{res.desc}
-										</p>
-									</a>
-								) : (
-									<div key={res.title} className="border border-gray-300 p-5">
-										<h3 className="font-mono text-card font-medium leading-snug">
-											{res.title}
-										</h3>
-										<p className="mt-1 font-mono text-meta text-gray-500">
-											{res.desc}
-										</p>
+						<div className="flex flex-col gap-4">
+							{/* Study centers: split-column rich card */}
+							<div className="grid grid-cols-1 border border-gray-300 lg:grid-cols-2">
+								<div className="flex flex-col p-6">
+									<h3 className="font-mono text-card font-medium leading-snug">
+										{STUDY_CENTERS.title}
+									</h3>
+									<p className="mt-2 font-mono text-body text-gray-700">
+										{STUDY_CENTERS.lead}
+									</p>
+									<div className="mt-4 space-y-3 font-mono text-meta text-gray-500">
+										{STUDY_CENTERS.body.map((para) => (
+											<p key={para}>{para}</p>
+										))}
 									</div>
-								),
-							)}
+									<div className="mt-5 flex flex-wrap gap-x-4 gap-y-1">
+										{STUDY_CENTERS.links.map((link) => (
+											<a
+												key={link.label}
+												href={link.href}
+												target="_blank"
+												rel="noreferrer"
+												className="font-mono text-meta text-gray-500 underline hover:text-gray-600"
+											>
+												{link.label}
+											</a>
+										))}
+									</div>
+									<p className="mt-4 font-mono text-label text-gray-400">
+										<span className="uppercase tracking-[0.08em]">
+											{t("area.resourcesContact")}:
+										</span>{" "}
+										{STUDY_CENTERS.contact}
+									</p>
+								</div>
+								<div className="flex flex-col gap-px bg-gray-300 lg:border-l lg:border-gray-300">
+									{STUDY_CENTERS.images.map((img) => (
+										<ImagePlaceholder
+											key={img}
+											aspect="4/3"
+											label={img}
+											className="flex-1 bg-white"
+										/>
+									))}
+								</div>
+							</div>
+
+							{/* Remaining resources: stacked content cards */}
+							{area.resources.map((res) => (
+								<div
+									key={res.title}
+									className="flex flex-col border border-gray-300 sm:flex-row"
+								>
+									<div className="sm:w-1/3">
+										<ImagePlaceholder
+											aspect="4/3"
+											label={res.image ?? `[${res.title}]`}
+										/>
+									</div>
+									<div className="flex flex-1 flex-col p-5">
+										<h3 className="font-mono text-card font-medium leading-snug">
+											{res.title}
+										</h3>
+										<p className="mt-1 font-mono text-meta text-gray-500">
+											{res.desc}
+										</p>
+										{res.contact && (
+											<p className="mt-3 font-mono text-label text-gray-400">
+												<span className="uppercase tracking-[0.08em]">
+													{t("area.resourcesContact")}:
+												</span>{" "}
+												{res.contact}
+											</p>
+										)}
+									</div>
+								</div>
+							))}
 						</div>
 					</Container>
 				</WireframeSection>
 			</div>
 		</ScopePage>
+	);
+}
+
+type Props = { params: Promise<{ slug: string }> };
+
+export default async function CollectionAreaPage({ params }: Props) {
+	const { slug } = await params;
+	const area = AREA_BY_SLUG[slug];
+	if (!area) notFound();
+
+	return (
+		<AreaPageLayout
+			area={area}
+			backHref="/collection-landing"
+			backLabel={t("area.backToCollection")}
+			featuredBasePath={`/collection-area/${slug}`}
+		/>
 	);
 }

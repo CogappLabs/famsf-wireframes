@@ -126,15 +126,41 @@ const HIGHLIGHTS = [
 ];
 
 // Curated thematic-discovery tiles (NEW organization, 2026-06-18 page layouts).
-// Editorial themes, not browse facets. Each routes a free-text theme search;
-// curator-editable list per FAMSF feedback.
+// Editorial themes, not browse facets. Each routes a pre-canned search:
+// a free-text theme query PLUS one seeded facet (`facet=type:value`, seeded by
+// GridFacetsView.seedSelectionFromFacet) so the result lands pre-filtered.
+// Curator-editable list per FAMSF feedback.
 const THEMES = [
-	{ name: "Environment", desc: "Land, sea, and our changing climate" },
-	{ name: "Making", desc: "Process, craft, and the hand of the maker" },
-	{ name: "Portraiture", desc: "Faces, identity, and the painted self" },
-	{ name: "The Sea", desc: "Oceans, voyages, and coastal life" },
-	{ name: "Devotion & Ritual", desc: "Sacred objects and ceremony" },
-	{ name: "Power & Politics", desc: "Authority, protest, and the state" },
+	{
+		name: "Environment",
+		desc: "Land, sea, and our changing climate",
+		facet: "classification:Paintings",
+	},
+	{
+		name: "Making",
+		desc: "Process, craft, and the hand of the maker",
+		facet: "material:Metal",
+	},
+	{
+		name: "Portraiture",
+		desc: "Faces, identity, and the painted self",
+		facet: "classification:Paintings",
+	},
+	{
+		name: "The Sea",
+		desc: "Oceans, voyages, and coastal life",
+		facet: "classification:Paintings",
+	},
+	{
+		name: "Devotion & Ritual",
+		desc: "Sacred objects and ceremony",
+		facet: "department:Arts of Africa",
+	},
+	{
+		name: "Power & Politics",
+		desc: "Authority, protest, and the state",
+		facet: "classification:Prints",
+	},
 ];
 
 // Editorial article / video / audio cards (NEW organization).
@@ -273,7 +299,7 @@ function CollectionLandingContent() {
 							{HIGHLIGHTS.map((work) => (
 								<Link
 									key={work.title}
-									href={`/search-results?q=${encodeURIComponent(work.title)}`}
+									href="/objects/sample/water-lilies-1973-3"
 									className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
 								>
 									<ImagePlaceholder aspect="4/5" label={`[${work.title}]`} />
@@ -308,7 +334,7 @@ function CollectionLandingContent() {
 								{THEMES.map((theme) => (
 									<Link
 										key={theme.name}
-										href={`/search-results?q=${encodeURIComponent(theme.name)}`}
+										href={`/search-results?variation=grid-facets&q=${encodeURIComponent(theme.name)}&facet=${encodeURIComponent(theme.facet)}`}
 										className="flex flex-col border border-gray-300 transition-colors hover:border-gray-500"
 									>
 										<ImagePlaceholder aspect="3/2" label={`[${theme.name}]`} />
@@ -378,9 +404,11 @@ function CollectionLandingContent() {
 							</p>
 							<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
 								{READ_WATCH_LISTEN.map((item) => (
-									<Link
+									<a
 										key={item.title}
-										href="/explore"
+										href="https://www.famsf.org/learn-engage/read-watch-listen"
+										target="_blank"
+										rel="noopener noreferrer"
 										className="flex flex-col border border-gray-300 transition-colors hover:border-gray-500"
 									>
 										<ImagePlaceholder aspect="16/9" label={`[${item.kind}]`} />
@@ -398,7 +426,7 @@ function CollectionLandingContent() {
 												{item.meta}
 											</span>
 										</div>
-									</Link>
+									</a>
 								))}
 							</div>
 						</Container>
@@ -419,7 +447,7 @@ function CollectionLandingContent() {
 								{NEW_ACQUISITIONS.map((work) => (
 									<Link
 										key={work.title}
-										href="/search-results?sort=accession_date_desc"
+										href="/objects/sample/water-lilies-1973-3"
 										className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
 									>
 										<ImagePlaceholder aspect="4/5" label={`[${work.title}]`} />
