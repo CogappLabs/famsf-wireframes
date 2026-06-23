@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import {
 	Breadcrumb,
 	Container,
+	ExternalLink,
 	ScopeMark,
 	SectionLabel,
 	TombstoneLabel,
@@ -1067,12 +1068,12 @@ export default async function SampleObjectPage({ params }: Props) {
 							{/* Error reporting on the data-accuracy disclaimer (June 18
 							    layout). mailto placeholder; production routes to the
 							    rights & reproductions / data-quality inbox. */}
-							<a
+							<ExternalLink
 								href="mailto:collections@famsf.org?subject=Data%20correction"
 								className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
 							>
 								{t("object.contactLink")}
-							</a>
+							</ExternalLink>
 						</p>
 					</ScopeMark>
 				</Container>

@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { featuredMembersForSlug } from "@/lib/collection-members";
 import { t } from "@/lib/strings";
 import {
 	AREA_BY_SLUG,
@@ -6,6 +7,7 @@ import {
 	AreaPageLayout,
 	type Featured,
 	featuredSlug,
+	memberToHighlight,
 	slugify,
 } from "../page";
 
@@ -15,11 +17,17 @@ import {
 // nested featured grid suppressed. Copy is wireframe-grade placeholder,
 // synthesised from the parent Featured entry — there is no separate data store.
 
-/** Build an AreaData for a featured sub-collection from its parent. Highlights,
- *  history, and media reuse the parent area's content (a real implementation
- *  would scope these to the sub-collection); intro is generated from the
- *  Featured blurb so each page reads as its own collection. */
-function buildFeaturedArea(parent: AreaData, featured: Featured): AreaData {
+/** Build an AreaData for a featured sub-collection from its parent. Highlights
+ *  are the collection's real members (from the export), so each featured page
+ *  shows its own works; history and media reuse the parent area's content;
+ *  intro is generated from the Featured blurb. */
+function buildFeaturedArea(
+	parent: AreaData,
+	featured: Featured,
+	featuredSlugValue: string,
+): AreaData {
+	const highlights =
+		featuredMembersForSlug(featuredSlugValue).map(memberToHighlight);
 	return {
 		name: featured.name,
 		museums: parent.museums,
@@ -28,7 +36,7 @@ function buildFeaturedArea(parent: AreaData, featured: Featured): AreaData {
 			"This is a featured sub-collection: a curated grouping within the wider collection area, with its own highlights, history, and resources. Copy here is placeholder for the wireframe.",
 		],
 		history: parent.history,
-		highlights: parent.highlights,
+		highlights,
 		// A featured page has no nested featured grid, so this is unused.
 		featured: [],
 		media: parent.media,
@@ -53,7 +61,7 @@ export default async function FeaturedCollectionPage({ params }: Props) {
 	const entry = parent.featured.find((f) => slugify(f.name) === featured);
 	if (!entry) notFound();
 
-	const area = buildFeaturedArea(parent, entry);
+	const area = buildFeaturedArea(parent, entry, featured);
 
 	return (
 		<AreaPageLayout

@@ -3,6 +3,7 @@
 import type { ReactNode } from "react";
 import { getAnnotation } from "@/lib/scope";
 import { useScope, useScopePageId } from "@/providers/ScopeProvider";
+import ExternalLink from "./ExternalLink";
 import { IssueIcon } from "./IssueIcon";
 
 interface WireframeSectionProps {
@@ -50,15 +51,14 @@ export default function WireframeSection({
 					</span>
 				)}
 				{issueUrl && (
-					<a
+					<ExternalLink
 						href={issueUrl}
-						target="_blank"
-						rel="noopener noreferrer"
 						className={`pointer-events-auto flex items-center hover:opacity-70 ${textClass}`}
 						title="Open in issue tracker"
+						hideIcon
 					>
 						<IssueIcon />
-					</a>
+					</ExternalLink>
 				)}
 			</span>
 			{children}
@@ -96,15 +96,14 @@ export function ScopeMark({ children, label, className = "" }: ScopeMarkProps) {
 				</span>
 				{note && <span className="opacity-70">· {note}</span>}
 				{issueUrl && (
-					<a
+					<ExternalLink
 						href={issueUrl}
-						target="_blank"
-						rel="noopener noreferrer"
 						className={`flex items-center hover:opacity-70 ${textClass}`}
 						title="Open in issue tracker"
+						hideIcon
 					>
 						<IssueIcon />
-					</a>
+					</ExternalLink>
 				)}
 			</span>
 			{children}

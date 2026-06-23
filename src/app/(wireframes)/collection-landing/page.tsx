@@ -10,6 +10,7 @@ import {
 	WireframeSection,
 } from "@/components/wireframe";
 import CollectionAutocomplete from "@/components/wireframe/CollectionAutocomplete";
+import { homepageHighlights } from "@/lib/collection-members";
 import { t } from "@/lib/strings";
 import { ScopePage } from "@/providers/ScopeProvider";
 import { slugify } from "../collection-area/[slug]/page";
@@ -81,44 +82,13 @@ const BASIC_FILTERS = [
 	{ key: "on_view", label: "On view" },
 ];
 
-const HIGHLIGHTS = [
-	{
-		title: "The Thinker",
-		artist: "Auguste Rodin",
-		date: "1904",
-		dept: "European Sculpture",
-	},
-	{
-		title: "Ocean Park #116",
-		artist: "Richard Diebenkorn",
-		date: "1979",
-		dept: "American Paintings",
-	},
-	{
-		title: "Water Lilies",
-		artist: "Claude Monet",
-		date: "ca. 1914–1917",
-		dept: "European Paintings",
-	},
-	{
-		title: "Woman in a Striped Dress",
-		artist: "Édouard Vuillard",
-		date: "1895",
-		dept: "European Paintings",
-	},
-	{
-		title: "Teotitlán del Valle Rug",
-		artist: "Anonymous",
-		date: "20th century",
-		dept: "Costume and Textile Arts",
-	},
-	{
-		title: "Standing Male Figure (Nkisi)",
-		artist: "Unknown artist",
-		date: "19th century",
-		dept: "Arts of Africa, Oceania, and the Americas",
-	},
-];
+// Real cross-department Web Highlights for the homepage row: the top-ranked
+// curator pick from each collection area (one work per department).
+const HIGHLIGHTS = homepageHighlights(8).map((m) => ({
+	title: m.title ?? "Untitled",
+	artist: m.artist ?? "",
+	date: m.date ?? "",
+}));
 
 // Curated thematic-discovery tiles (NEW organization, 2026-06-18 page layouts).
 // Editorial themes, not browse facets. Each routes a pre-canned search:
@@ -290,7 +260,7 @@ function CollectionLandingContent() {
 						<SectionLabel className="mb-6">
 							{t("collection.highlightsHeading")}
 						</SectionLabel>
-						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
 							{HIGHLIGHTS.map((work) => (
 								<Link
 									key={work.title}

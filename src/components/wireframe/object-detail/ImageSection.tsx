@@ -11,6 +11,7 @@ import {
 	iiifImageUrl,
 } from "@/lib/collection-document";
 import { t } from "@/lib/strings";
+import ExternalLink from "../ExternalLink";
 
 type MediaItem = CollectionDocument["media"][number];
 
@@ -87,17 +88,15 @@ export function ImageSection({
 						<div className="border-t border-gray-200 px-3 py-2">
 							<p className="font-mono text-label text-gray-400">
 								Live IIIF URL:{" "}
-								<a
+								<ExternalLink
 									href={iiifImageUrl(
 										visibleMedia[0].media_master_id,
 										"!600,600",
 									)}
-									target="_blank"
-									rel="noopener noreferrer"
 									className="underline decoration-gray-300 hover:decoration-gray-600"
 								>
 									{iiifImageUrl(visibleMedia[0].media_master_id, "!600,600")}
-								</a>
+								</ExternalLink>
 							</p>
 						</div>
 					</div>
@@ -153,14 +152,12 @@ export function ImageSection({
 												)}
 												<p className="mt-1 font-mono text-label text-gray-400">
 													Live IIIF URL:{" "}
-													<a
+													<ExternalLink
 														href={imgUrl}
-														target="_blank"
-														rel="noopener noreferrer"
 														className="underline decoration-gray-300 hover:decoration-gray-600"
 													>
 														{imgUrl}
-													</a>
+													</ExternalLink>
 												</p>
 											</div>
 										</div>

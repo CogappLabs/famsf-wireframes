@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Suspense } from "react";
+import { ExternalLink } from "@/components/wireframe";
 import BananaEasterEgg from "@/components/wireframe/BananaEasterEgg";
 import FieldDebugToggle from "@/components/wireframe/FieldDebugToggle";
 import FloatingSearch from "@/components/wireframe/FloatingSearch";
@@ -90,28 +91,28 @@ export default function WireframeLayout({
 							{/* Cross-property links */}
 							<ul className="mt-4 flex flex-col gap-1">
 								<li>
-									<a
+									<ExternalLink
 										href="https://www.famsf.org/"
 										className="font-mono text-meta text-gray-600 underline hover:text-gray-900"
 									>
-										{t("footer.crossLinkMain")} ↗
-									</a>
+										{t("footer.crossLinkMain")}
+									</ExternalLink>
 								</li>
 								<li>
-									<a
+									<ExternalLink
 										href="https://www.famsf.org/visit"
 										className="font-mono text-meta text-gray-600 underline hover:text-gray-900"
 									>
-										{t("footer.crossLinkVisit")} ↗
-									</a>
+										{t("footer.crossLinkVisit")}
+									</ExternalLink>
 								</li>
 								<li>
-									<a
+									<ExternalLink
 										href="https://tickets.famsf.org/"
 										className="font-mono text-meta text-gray-600 underline hover:text-gray-900"
 									>
-										{t("footer.crossLinkTickets")} ↗
-									</a>
+										{t("footer.crossLinkTickets")}
+									</ExternalLink>
 								</li>
 								<li>
 									<Link

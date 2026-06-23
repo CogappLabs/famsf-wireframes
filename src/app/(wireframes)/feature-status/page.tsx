@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { Container, SectionLabel } from "@/components/wireframe";
+import { Container, ExternalLink, SectionLabel } from "@/components/wireframe";
 import { MvpBadge } from "@/components/wireframe/StatusBadge";
 import { pages } from "@/lib/data";
 import { isPageMvp, listScopeRows } from "@/lib/scope";
@@ -160,14 +160,13 @@ export default function FeatureStatusPage() {
 												</td>
 												<td className="py-2">
 													{s.issueUrl ? (
-														<a
+														<ExternalLink
 															href={s.issueUrl}
-															target="_blank"
-															rel="noreferrer"
 															className="text-gray-500 underline decoration-gray-300 hover:decoration-gray-700"
+															hideIcon
 														>
 															↗
-														</a>
+														</ExternalLink>
 													) : (
 														<span className="text-gray-300">–</span>
 													)}

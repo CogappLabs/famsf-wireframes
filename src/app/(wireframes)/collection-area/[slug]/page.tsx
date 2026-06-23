@@ -2,11 +2,16 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
 	Container,
+	ExternalLink,
 	ImagePlaceholder,
 	ScopeMark,
 	SectionLabel,
 	WireframeSection,
 } from "@/components/wireframe";
+import {
+	type CollectionMember,
+	highlightsForDepartment,
+} from "@/lib/collection-members";
 import { t } from "@/lib/strings";
 import { ScopePage } from "@/providers/ScopeProvider";
 
@@ -1165,50 +1170,53 @@ export function AreaPageLayout({
 					</Container>
 				</WireframeSection>
 
-				{/* Highlights module (25-40 works in production) */}
-				<WireframeSection
-					label="Highlights"
-					className="border-b border-gray-300 py-12"
-				>
-					<Container>
-						<SectionLabel className="mb-2">
-							{t("area.highlightsHeading")}
-						</SectionLabel>
-						<p className="mb-6 font-mono text-meta text-gray-500">
-							{t("area.highlightsNote")}
-						</p>
-						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-							{area.highlights.map((work) => (
+				{/* Highlights module: real Web Highlights members (25-40 in
+				    production). Rendered only when there are members to show. */}
+				{area.highlights.length > 0 && (
+					<WireframeSection
+						label="Highlights"
+						className="border-b border-gray-300 py-12"
+					>
+						<Container>
+							<SectionLabel className="mb-2">
+								{t("area.highlightsHeading")}
+							</SectionLabel>
+							<p className="mb-6 font-mono text-meta text-gray-500">
+								{t("area.highlightsNote")}
+							</p>
+							<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+								{area.highlights.map((work) => (
+									<Link
+										key={work.title}
+										href="/objects/sample/water-lilies-1973-3"
+										className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
+									>
+										<ImagePlaceholder label={`[${work.title}]`} />
+										<div className="p-3">
+											<h3 className="font-mono text-card font-medium leading-snug">
+												{work.title}
+											</h3>
+											<p className="mt-0.5 font-mono text-label text-gray-500">
+												{work.artist}
+											</p>
+											<p className="font-mono text-label text-gray-400">
+												{work.date}
+											</p>
+										</div>
+									</Link>
+								))}
+							</div>
+							<div className="mt-4">
 								<Link
-									key={work.title}
-									href="/objects/sample/water-lilies-1973-3"
-									className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
+									href="/search-results"
+									className="font-mono text-meta text-gray-500 underline hover:text-gray-600"
 								>
-									<ImagePlaceholder label={`[${work.title}]`} />
-									<div className="p-3">
-										<h3 className="font-mono text-card font-medium leading-snug">
-											{work.title}
-										</h3>
-										<p className="mt-0.5 font-mono text-label text-gray-500">
-											{work.artist}
-										</p>
-										<p className="font-mono text-label text-gray-400">
-											{work.date}
-										</p>
-									</div>
+									{t("area.highlightsViewAll")} &rarr;
 								</Link>
-							))}
-						</div>
-						<div className="mt-4">
-							<Link
-								href="/search-results"
-								className="font-mono text-meta text-gray-500 underline hover:text-gray-600"
-							>
-								{t("area.highlightsViewAll")} &rarr;
-							</Link>
-						</div>
-					</Container>
-				</WireframeSection>
+							</div>
+						</Container>
+					</WireframeSection>
+				)}
 
 				{/* Featured collections: named sub-collections, each its own page
 				    rendered from this same template. Hidden on featured child
@@ -1267,14 +1275,13 @@ export function AreaPageLayout({
 							</p>
 							<div className="flex flex-col gap-3">
 								{area.media.map((item) => (
-									<a
+									<ExternalLink
 										key={item.title}
 										href={READ_WATCH_LISTEN_URL}
-										target="_blank"
-										rel="noreferrer"
+										corner
 										className="block border border-gray-300 p-5 transition-colors hover:border-gray-500"
 									>
-										<p className="font-mono text-label uppercase tracking-[0.08em] text-gray-400">
+										<p className="pr-7 font-mono text-label uppercase tracking-[0.08em] text-gray-400">
 											{item.kicker}
 										</p>
 										<h3 className="mt-1 font-mono text-card font-medium">
@@ -1286,18 +1293,16 @@ export function AreaPageLayout({
 										<p className="mt-2 font-mono text-label text-gray-400">
 											{item.meta}
 										</p>
-									</a>
+									</ExternalLink>
 								))}
 							</div>
 							<div className="mt-4">
-								<a
+								<ExternalLink
 									href={READ_WATCH_LISTEN_URL}
-									target="_blank"
-									rel="noreferrer"
 									className="font-mono text-meta text-gray-500 underline hover:text-gray-600"
 								>
-									{t("area.contentViewAll")} &rarr;
-								</a>
+									{t("area.contentViewAll")}
+								</ExternalLink>
 							</div>
 						</Container>
 					</WireframeSection>
@@ -1328,15 +1333,13 @@ export function AreaPageLayout({
 									</div>
 									<div className="mt-5 flex flex-wrap gap-x-4 gap-y-1">
 										{STUDY_CENTERS.links.map((link) => (
-											<a
+											<ExternalLink
 												key={link.label}
 												href={link.href}
-												target="_blank"
-												rel="noreferrer"
 												className="font-mono text-meta text-gray-500 underline hover:text-gray-600"
 											>
 												{link.label}
-											</a>
+											</ExternalLink>
 										))}
 									</div>
 									<p className="mt-4 font-mono text-label text-gray-400">
@@ -1396,6 +1399,17 @@ export function AreaPageLayout({
 	);
 }
 
+/** Map a real collection member onto the page's Highlight card shape. Title and
+ *  medium can be null in TMS; fall back so a card never renders blank. */
+export function memberToHighlight(member: CollectionMember): Highlight {
+	return {
+		title: member.title ?? "Untitled",
+		artist: member.artist ?? "",
+		date: member.date ?? "",
+		medium: member.medium ?? "",
+	};
+}
+
 type Props = { params: Promise<{ slug: string }> };
 
 export default async function CollectionAreaPage({ params }: Props) {
@@ -1403,9 +1417,17 @@ export default async function CollectionAreaPage({ params }: Props) {
 	const area = AREA_BY_SLUG[slug];
 	if (!area) notFound();
 
+	// Real Web Highlights members for this collection area, ordered by curator
+	// rank. The highlights grid renders only when the export carries members for
+	// the department; there is no placeholder fallback.
+	const area_ = {
+		...area,
+		highlights: highlightsForDepartment(area.name).map(memberToHighlight),
+	};
+
 	return (
 		<AreaPageLayout
-			area={area}
+			area={area_}
 			backHref="/collection-landing"
 			backLabel={t("area.backToCollection")}
 			featuredBasePath={`/collection-area/${slug}`}

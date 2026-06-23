@@ -1,5 +1,6 @@
 import {
 	Container,
+	ExternalLink,
 	SectionLabel,
 	WireframeSection,
 } from "@/components/wireframe";
@@ -25,14 +26,12 @@ export default function CuratorDeviationsPage() {
 						the scale of the gap, and whether the pipeline or the wireframe
 						compensates.
 					</p>
-					<a
+					<ExternalLink
 						href={SHEET_URL}
-						target="_blank"
-						rel="noopener noreferrer"
 						className="inline-flex items-center gap-2 rounded border border-gray-300 bg-white px-4 py-2 font-mono text-meta text-gray-500 shadow-sm hover:border-gray-400 hover:bg-gray-50"
 					>
-						Open the spreadsheet ↗
-					</a>
+						Open the spreadsheet
+					</ExternalLink>
 				</Container>
 			</WireframeSection>
 		</ScopePage>

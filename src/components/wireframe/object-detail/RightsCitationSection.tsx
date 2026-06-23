@@ -8,6 +8,7 @@ import {
 } from "@/components/wireframe";
 import FieldSourceBadge from "@/components/wireframe/FieldSourceBadge";
 import { t } from "@/lib/strings";
+import ExternalLink from "../ExternalLink";
 
 export interface RightsStatementDisplay {
 	label: string;
@@ -50,14 +51,12 @@ export function RightsCitationSection({
 							</TombstoneLabel>
 							<FieldSourceBadge field="term_rights_statement" block />
 							{rightsStatementDisplay.uri ? (
-								<a
+								<ExternalLink
 									href={rightsStatementDisplay.uri}
-									target="_blank"
-									rel="noopener noreferrer"
 									className="inline-block border border-blue-200 bg-blue-50 px-2 py-0.5 font-mono text-meta text-blue-700 underline decoration-blue-300 hover:decoration-blue-600"
 								>
 									{rightsStatementDisplay.label}
-								</a>
+								</ExternalLink>
 							) : (
 								<p className="font-mono text-meta text-gray-700">
 									{rightsStatementDisplay.label}
