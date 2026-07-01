@@ -8,7 +8,9 @@
 	"date_start": null,
 	"date_end": null,
 	"medium": "Wood, fiber, shell, pigments",
-	"medium_parts": ["Wood, fiber, shell, pigments"],
+	"medium_parts": [
+		"Wood, fiber, shell, pigments"
+	],
 	"credit_line": "Gift of Edward and Mina Smith",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Sculpture",
@@ -35,7 +37,7 @@
 	"location_room": null,
 	"edition": null,
 	"signed": null,
-	"inscribed": "A375141 Formerly L05.17",
+	"inscribed": "A375141\nFormerly L05.17",
 	"markings": null,
 	"titles": [
 		{
@@ -52,8 +54,8 @@
 			"media_xref_id": 129718,
 			"image_id": 186101,
 			"rank": 1,
+			"file_date": "2023-02-27 08:19:35",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
@@ -78,13 +80,13 @@
 			"media_xref_id": 129720,
 			"image_id": 153225,
 			"rank": 3,
+			"file_date": "2023-02-27 07:22:52",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 3600,
@@ -109,45 +111,6 @@
 	"dimensions": [
 		{
 			"value": "20 1/4 x 19 x 11 in. (51.4 x 48.3 x 27.9 cm)",
-			"type": "Depth",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 51.4,
-				"width_cm": 48.3,
-				"depth_cm": 27.9,
-				"height_in": 20.25,
-				"width_in": 19.0,
-				"depth_in": 11.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "20 1/4 x 19 x 11 in. (51.4 x 48.3 x 27.9 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 51.4,
-				"width_cm": 48.3,
-				"depth_cm": 27.9,
-				"height_in": 20.25,
-				"width_in": 19.0,
-				"depth_in": 11.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "20 1/4 x 19 x 11 in. (51.4 x 48.3 x 27.9 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -166,6 +129,13 @@
 		}
 	],
 	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "oceanic-art-web-highlights",
+			"collection_name": "Oceanic Art Web Highlights",
+			"rank": 27
+		}
+	],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -227,28 +197,37 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": null,
 	"display_year": null,
 	"doc_id": "2005.167",
 	"slug": "2005.167/seated-figure",
 	"has_image": true,
 	"has_provenance": true,
 	"has_children": false,
+	"is_highlight": true,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Pigment",
+			"section": "Decorative & other materials",
+			"subcategory": "Animal material (ivory, bone, leather)",
+			"specific": "Shell"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Wood",
 			"specific": ""
 		},
 		{
-			"parent": "Shell",
-			"specific": ""
+			"section": "Painting",
+			"subcategory": "Other paint",
+			"specific": "Pigments"
 		},
 		{
-			"parent": "Wood",
+			"section": "Textile",
+			"subcategory": "Other textile",
 			"specific": ""
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "Oceania",
@@ -258,8 +237,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , ,  · Vella Lavella",
+		"reason": "grid-facets real slice — Shell, Wood, Pigments, Other textile · Vella Lavella",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 38
 	}
 }

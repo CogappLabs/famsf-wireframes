@@ -8,7 +8,9 @@
 	"date_start": null,
 	"date_end": null,
 	"medium": "gold",
-	"medium_parts": ["gold"],
+	"medium_parts": [
+		"gold"
+	],
 	"credit_line": "Museum purchase, M.H. de Young Endowment Fund",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Ceremonial & Religious Objects",
@@ -52,13 +54,13 @@
 			"media_xref_id": 174059,
 			"image_id": 146170,
 			"rank": 0,
+			"file_date": "2023-02-27 07:19:20",
 			"primary": false,
-			"display_order": 2,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 3616,
@@ -78,13 +80,13 @@
 			"media_xref_id": 83445,
 			"image_id": 58057,
 			"rank": 1,
+			"file_date": "2023-02-27 06:34:07",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 1770,
@@ -109,26 +111,6 @@
 	"dimensions": [
 		{
 			"value": "1 3/4 x 1 in. (4.4 x 2.5 cm)",
-			"type": "Height",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 4.4,
-				"width_cm": 2.5,
-				"depth_cm": null,
-				"height_in": 1.75,
-				"width_in": 1.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "1 3/4 x 1 in. (4.4 x 2.5 cm)",
-			"type": "Width",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -147,6 +129,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -188,29 +171,6 @@
 	],
 	"term_place_of_creation": [
 		{
-			"id": 20624577,
-			"term": "Panamá",
-			"type": "Descriptor",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABZ",
-					"term": "North and Central America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABZ.AAAGU",
-					"term": "Panamá"
-				}
-			]
-		},
-		{
 			"id": 19821217,
 			"term": "Costa Rica",
 			"type": "Descriptor",
@@ -232,6 +192,29 @@
 					"term": "Costa Rica"
 				}
 			]
+		},
+		{
+			"id": 20624577,
+			"term": "Panamá",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAGU",
+					"term": "Panamá"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -250,37 +233,39 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": null,
 	"display_year": null,
 	"doc_id": "53657",
 	"slug": "53657/frog",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Gold & silver",
-			"specific": "gold"
+			"section": "Decorative & other materials",
+			"subcategory": "Precious metal (gold, silver)",
+			"specific": "Gold"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
-		{
-			"region": "Central America",
-			"country": "Panama",
-			"state": "",
-			"notable": "Panamá"
-		},
 		{
 			"region": "Central America",
 			"country": "Costa Rica",
 			"state": "",
 			"notable": ""
+		},
+		{
+			"region": "Central America",
+			"country": "Panama",
+			"state": "",
+			"notable": "Panamá"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — gold · Panamá, Costa Rica",
+		"reason": "grid-facets real slice — Gold · Costa Rica, Panamá",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 37
 	}
 }

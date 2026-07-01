@@ -8,7 +8,9 @@
 	"date_start": "2006",
 	"date_end": "2006",
 	"medium": "cotton, rayon, lace, leather, metal",
-	"medium_parts": ["cotton, rayon, lace, leather, metal"],
+	"medium_parts": [
+		"cotton, rayon, lace, leather, metal"
+	],
 	"credit_line": "Gift of Christine Suppes in memory of Mary Jane Johnson",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
@@ -72,8 +74,8 @@
 			"media_xref_id": 157170,
 			"image_id": 196014,
 			"rank": 0,
+			"file_date": "2023-02-27 06:08:07",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": null,
@@ -102,6 +104,7 @@
 	"has_iiif": false,
 	"dimensions": null,
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -153,36 +156,42 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": [],
 	"display_year": "2006",
 	"doc_id": "2018.28.15.1",
 	"slug": "2018.28.15.1/woman-s-skirt",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 2006,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Cotton",
-			"specific": ""
+			"section": "Decorative & other materials",
+			"subcategory": "Animal material (ivory, bone, leather)",
+			"specific": "Leather / hide"
 		},
 		{
-			"parent": "Lace",
-			"specific": ""
+			"section": "Decorative & other materials",
+			"subcategory": "Other material",
+			"specific": "Metal"
 		},
 		{
-			"parent": "Leather",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
 		},
 		{
-			"parent": "Metal",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Synthetic fiber (nylon, polyester)",
+			"specific": "Rayon"
 		},
 		{
-			"parent": "Textile",
-			"specific": "rayon"
+			"section": "Textile",
+			"subcategory": "Woven & worked cloth",
+			"specific": ""
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "East Asia",
@@ -192,8 +201,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , , ,  … · Russia",
+		"reason": "grid-facets real slice — Leather / hide, Metal, Cotton, Rayon … · Russia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 40
+		"populated_fields": 41
 	}
 }

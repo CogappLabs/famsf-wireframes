@@ -34,12 +34,14 @@ export interface PlaceFacet {
 }
 
 /**
- * Two-tier material facet (parent → specific) derived from the Material
- * workbook's FACET_DESIGN_v2 design (e.g. Metal → bronze, Ceramic →
- * earthenware). Technique stays flat (`facet_technique: string[]`).
+ * Three-level object-type medium facet (section → subcategory → specific)
+ * derived from the medium taxonomy (e.g. Print → Etching & engraving
+ * (intaglio) → Etching; Painting → Oil → Oil on canvas). Any of `subcategory`
+ * / `specific` may be empty when the classified node is itself that level.
  */
-export interface MaterialFacet {
-	parent: string;
+export interface MediumFacet {
+	section: string;
+	subcategory: string;
 	specific: string;
 }
 
@@ -233,12 +235,12 @@ export interface CollectionDocument {
 	/**
 	 * Curator-taxonomy facets, pre-derived for the search-results
 	 * `grid-facets` variation by scripts/export_grid_facets_docs.py from the
-	 * REGION_REMAP + Material workbooks. NOT emitted by the production
-	 * pipeline yet — present only on src/data/grid-facets-docs/ exports.
+	 * REGION_REMAP workbook + the object-type medium taxonomy. NOT emitted by
+	 * the production pipeline yet — present only on src/data/grid-facets-docs/
+	 * exports.
 	 */
 	facet_place?: PlaceFacet[];
-	facet_material?: MaterialFacet[];
-	facet_technique?: string[];
+	facet_medium?: MediumFacet[];
 	primary_artist: string;
 	iiif_info_url?: string;
 	iiif_thumbnail_url?: string;

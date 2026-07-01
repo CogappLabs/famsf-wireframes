@@ -8,7 +8,9 @@
 	"date_start": "600",
 	"date_end": "850",
 	"medium": "Earthenware",
-	"medium_parts": ["Earthenware"],
+	"medium_parts": [
+		"Earthenware"
+	],
 	"credit_line": "Gift of Lewis K. and Elizabeth M. Land",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Vessels & Containers",
@@ -35,7 +37,7 @@
 	"location_room": "Gallery 002",
 	"edition": null,
 	"signed": null,
-	"inscribed": "T#92.166.23 A308878\r\nwhite paper tape label with accession number on underside",
+	"inscribed": "T#92.166.23 A308878\nwhite paper tape label with accession number on underside",
 	"markings": null,
 	"titles": [
 		{
@@ -72,13 +74,13 @@
 			"media_xref_id": 173090,
 			"image_id": 132311,
 			"rank": 0,
+			"file_date": "2023-02-27 07:12:36",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 1785,
@@ -103,45 +105,6 @@
 	"dimensions": [
 		{
 			"value": "4 7/16 x 4 7/16 x 2 7/16 in. (11.3 x 11.3 x 6.2 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 11.3,
-				"width_cm": 11.3,
-				"depth_cm": 6.2,
-				"height_in": 4.4375,
-				"width_in": 4.4375,
-				"depth_in": 2.4375,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "4 7/16 x 4 7/16 x 2 7/16 in. (11.3 x 11.3 x 6.2 cm)",
-			"type": "Depth",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 11.3,
-				"width_cm": 11.3,
-				"depth_cm": 6.2,
-				"height_in": 4.4375,
-				"width_in": 4.4375,
-				"depth_in": 2.4375,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "4 7/16 x 4 7/16 x 2 7/16 in. (11.3 x 11.3 x 6.2 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -160,6 +123,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -200,29 +164,6 @@
 		}
 	],
 	"term_place_of_creation": [
-		{
-			"id": 20390706,
-			"term": "Honduras",
-			"type": "Descriptor",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABZ",
-					"term": "North and Central America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABZ.AAAEE",
-					"term": "Honduras"
-				}
-			]
-		},
 		{
 			"id": 20224320,
 			"term": "El Salvador",
@@ -268,6 +209,29 @@
 					"term": "Guatemala"
 				}
 			]
+		},
+		{
+			"id": 20390706,
+			"term": "Honduras",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAEE",
+					"term": "Honduras"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -286,27 +250,25 @@
 	"primary_artist": "Maya",
 	"primary_artist_display": "Maya",
 	"sort_artist": "Maya",
+	"culture_group": [
+		"Maya"
+	],
 	"display_year": "600–850",
 	"doc_id": "2009.1.39",
 	"slug": "2009.1.39/bottle",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 600,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Ceramic",
-			"specific": "earthenware"
+			"section": "Ceramic & glass",
+			"subcategory": "Earthenware & stoneware",
+			"specific": "Earthenware"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
-		{
-			"region": "Central America",
-			"country": "Honduras",
-			"state": "",
-			"notable": ""
-		},
 		{
 			"region": "Central America",
 			"country": "El Salvador",
@@ -318,11 +280,17 @@
 			"country": "Guatemala",
 			"state": "",
 			"notable": ""
+		},
+		{
+			"region": "Central America",
+			"country": "Honduras",
+			"state": "",
+			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — earthenware · Honduras, El Salvador, Guatemala",
+		"reason": "grid-facets real slice — Earthenware · El Salvador, Guatemala, Honduras",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 48
 	}
 }

@@ -23,7 +23,7 @@
 	"last_modified": "2026-02-23 11:02:22.743000",
 	"is_virtual": false,
 	"identifying_description": null,
-	"web_text": "This diminutive mosaic figurine depicts a high-ranking member of Wari society. He wears a distinctive Wari-style four-cornered hat, large ear ornaments, and an elaborate tunic. The detailed pattern of the tunic marks him as a high-ranking imperial official. The mosaic is made of precious materials, all carefully adhered to a wooden form. The pink and orange fragments are Spondylus (spiny oyster) shells, harvested from the Ecuadorian coast and traded great distances to the Andean highlands. The figure's necklace is made of a crescent-shaped sheet of thinly hammered silver, now oxidized to a dark gray.  Wari mosaic figurines such as this are uncommon and were likely made for and owned by the elite members of the empire.",
+	"web_text": "This diminutive mosaic figurine depicts a high-ranking member of Wari society. He wears a distinctive Wari-style four-cornered hat, large ear ornaments, and an elaborate tunic. The detailed pattern of the tunic marks him as a high-ranking imperial official. The mosaic is made of precious materials, all carefully adhered to a wooden form. The pink and orange fragments are Spondylus (spiny oyster) shells, harvested from the Ecuadorian coast and traded great distances to the Andean highlands. The figure's necklace is made of a crescent-shaped sheet of thinly hammered silver, now oxidized to a dark gray. Wari mosaic figurines such as this are uncommon and were likely made for and owned by the elite members of the empire.",
 	"didactic_label": "This extraordinary object was a burial offering for a high-ranking individual. The rich tapestry tunic the figure is wearing depicts abstract designs of feline heads, rectangular bars, and concentric circles, all appropriate symbols of ritual and rank. The figure is composed on a wood core and then covered with a tar-like adhesive. Inlays of colored shells, stone, and bone were pressed into the adhesive.",
 	"exhibition_history_text": null,
 	"bibliography_text": null,
@@ -63,37 +63,11 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 82724,
-			"image_id": 20179,
-			"rank": 2,
-			"primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 1719,
-			"width": 1497,
-			"file_name": "0325200408580012.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 179621,
 			"image_id": 196279,
 			"rank": 0,
+			"file_date": "2022-08-15 11:45:19.41",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -113,6 +87,32 @@
 			"blurhash": null,
 			"iiif_width": null,
 			"iiif_height": null
+		},
+		{
+			"media_xref_id": 82724,
+			"image_id": 20179,
+			"rank": 2,
+			"file_date": "2023-02-27 06:13:29",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1719,
+			"width": 1497,
+			"file_name": "0325200408580012.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -123,45 +123,6 @@
 	"dimensions": [
 		{
 			"value": "3 1/2 x 3 x 1 in. (8.9 x 7.6 x 2.5 cm)",
-			"type": "Depth",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": false,
-			"measurements": {
-				"height_cm": 8.9,
-				"width_cm": 7.6,
-				"depth_cm": 2.5,
-				"height_in": 3.5,
-				"width_in": 3.0,
-				"depth_in": 1.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "3 1/2 x 3 x 1 in. (8.9 x 7.6 x 2.5 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": false,
-			"measurements": {
-				"height_cm": 8.9,
-				"width_cm": 7.6,
-				"depth_cm": 2.5,
-				"height_in": 3.5,
-				"width_in": 3.0,
-				"depth_in": 1.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "3 1/2 x 3 x 1 in. (8.9 x 7.6 x 2.5 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -180,6 +141,13 @@
 		}
 	],
 	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "arts-of-the-americas-web-highlights",
+			"collection_name": "Arts of the Americas Web Highlights",
+			"rank": 6
+		}
+	],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -289,24 +257,39 @@
 	"primary_artist": "Wari",
 	"primary_artist_display": "Wari",
 	"sort_artist": "Wari",
+	"culture_group": [
+		"Wari"
+	],
 	"display_year": "700–900",
 	"doc_id": "1989.4",
 	"slug": "1989.4",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": true,
 	"sort_year": 700,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Shell",
-			"specific": "mother-of-pearl"
+			"section": "Decorative & other materials",
+			"subcategory": "Animal material (ivory, bone, leather)",
+			"specific": "Bone / antler / horn"
 		},
 		{
-			"parent": "Wood",
+			"section": "Decorative & other materials",
+			"subcategory": "Animal material (ivory, bone, leather)",
+			"specific": "Shell"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Precious metal (gold, silver)",
+			"specific": "Silver"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Wood",
 			"specific": ""
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "South America",
@@ -322,8 +305,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — mother-of-pearl,  · Perú, Huari",
+		"reason": "grid-facets real slice — Bone / antler / horn, Shell, Silver, Wood · Perú, Huari",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 49
 	}
 }

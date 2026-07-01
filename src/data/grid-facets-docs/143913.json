@@ -8,7 +8,9 @@
 	"date_start": "2010",
 	"date_end": "2010",
 	"medium": "silk, nylon, rayon, polyester, cotton, linen, metal",
-	"medium_parts": ["silk, nylon, rayon, polyester, cotton, linen, metal"],
+	"medium_parts": [
+		"silk, nylon, rayon, polyester, cotton, linen, metal"
+	],
 	"credit_line": "Gift of Christine Suppes in memory of Mary Jane Johnson",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
@@ -91,8 +93,8 @@
 			"media_xref_id": 179979,
 			"image_id": 196634,
 			"rank": 0,
+			"file_date": "2023-02-27 06:08:14",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": null,
@@ -122,7 +124,6 @@
 	"dimensions": [
 		{
 			"value": "44 in. (111.8 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -141,7 +142,6 @@
 		},
 		{
 			"value": "17 1/2 in. (44.5 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 2,
@@ -160,6 +160,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -211,44 +212,52 @@
 	"primary_artist": "Karl Lagerfeld",
 	"primary_artist_display": "Karl Lagerfeld (1933–2019)",
 	"sort_artist": "Karl Lagerfeld",
+	"culture_group": [],
 	"display_year": "2010",
 	"doc_id": "2018.28.1.34a-b",
 	"slug": "2018.28.1.34a-b/woman-s-ensemble-jacket-a-and-dress-b",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 2010,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Cotton",
-			"specific": ""
+			"section": "Decorative & other materials",
+			"subcategory": "Other material",
+			"specific": "Metal"
 		},
 		{
-			"parent": "Metal",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
 		},
 		{
-			"parent": "Silk",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Linen"
 		},
 		{
-			"parent": "Textile",
-			"specific": "linen"
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
 		},
 		{
-			"parent": "Textile",
-			"specific": "nylon"
+			"section": "Textile",
+			"subcategory": "Synthetic fiber (nylon, polyester)",
+			"specific": "Nylon"
 		},
 		{
-			"parent": "Textile",
-			"specific": "polyester"
+			"section": "Textile",
+			"subcategory": "Synthetic fiber (nylon, polyester)",
+			"specific": "Polyester"
 		},
 		{
-			"parent": "Textile",
-			"specific": "rayon"
+			"section": "Textile",
+			"subcategory": "Synthetic fiber (nylon, polyester)",
+			"specific": "Rayon"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "Europe",
@@ -258,8 +267,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , , , linen … · France",
+		"reason": "grid-facets real slice — Metal, Cotton, Linen, Silk … · France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 44
 	}
 }

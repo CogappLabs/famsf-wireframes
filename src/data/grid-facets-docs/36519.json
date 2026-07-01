@@ -26,7 +26,7 @@
 	"identifying_description": "Leaf of paper with opaque watercolor, gold paint, and selectively applied glaze showing scene of Diana and huntresses. On reverse, painted scene of Minerva in battle dress. Sticks and guards of carved, incised, and gilded ivory with chinoiserie designs. Mother-of-pearl pivot; and copper alloy rivet.",
 	"web_text": "Idyllic countrysides frequently served as backdrops in eighteenth-century fan designs, reflecting urban society's idealization of the pastoral. These landscapes were well-suited settings for both romantic scenes and mythological tales. In this example, Diana, Roman goddess of the hunt, is shown at center, flanked by her attendants. Their bows, arrows, and quivers are cast aside as they enjoy nature's bounty. Typical for representations of Diana, she wears a crescent moon on her head and is accompanied by two hunting dogs, shown at the far left.",
 	"didactic_label": "Idyllic countrysides frequently served as backdrops in eighteenth-century fan designs, reflecting urban society's idealization of the pastoral. These landscapes were well-suited settings for both romantic scenes and mythological tales. In this example, Diana, Roman goddess of the hunt, is shown at center, flanked by her attendants. Their bows, arrows, and quivers are cast aside as they enjoy nature's bounty. Typical for representations of Diana, she wears a crescent moon on her head and is accompanied by two hunting dogs, shown at the far left.",
-	"exhibition_history_text": "Fans of the Eighteenth Century, Textiles Education Gallery, de Young Museum, 3/31/18 - 11/2/18\r\nGallery 9A, Legion of Honor, 4/03 - 9/03\r\nFans in Fashion, Legion of Honor, 5/23/81 - 8/30/81\r\nCentury of Brides, 1978",
+	"exhibition_history_text": "Fans of the Eighteenth Century, Textiles Education Gallery, de Young Museum, 3/31/18 - 11/2/18\nGallery 9A, Legion of Honor, 4/03 - 9/03\nFans in Fashion, Legion of Honor, 5/23/81 - 8/30/81\nCentury of Brides, 1978",
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
@@ -55,8 +55,8 @@
 			"media_xref_id": 92246,
 			"image_id": 170515,
 			"rank": 1,
+			"file_date": "2023-02-27 07:40:34",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -78,63 +78,11 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 92248,
-			"image_id": 174479,
-			"rank": 3,
-			"primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 7907,
-			"width": 10708,
-			"file_name": "A338441_V3.TIF",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 92249,
-			"image_id": 174478,
-			"rank": 4,
-			"primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 7744,
-			"width": 10604,
-			"file_name": "A338441_V4.TIF",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 92247,
 			"image_id": 170500,
 			"rank": 2,
+			"file_date": "2023-02-27 07:40:34",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -154,6 +102,58 @@
 			"blurhash": null,
 			"iiif_width": null,
 			"iiif_height": null
+		},
+		{
+			"media_xref_id": 92248,
+			"image_id": 174479,
+			"rank": 3,
+			"file_date": "2019-08-02 15:21:29",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 7907,
+			"width": 10708,
+			"file_name": "A338441_V3.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 92249,
+			"image_id": 174478,
+			"rank": 4,
+			"file_date": "2019-08-02 15:21:27",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 7744,
+			"width": 10604,
+			"file_name": "A338441_V4.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -164,45 +164,6 @@
 	"dimensions": [
 		{
 			"value": "11 1/4 x 19 3/4 in. (28.6 x 50.2 cm)",
-			"type": "Width",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 28.6,
-				"width_cm": 50.2,
-				"depth_cm": null,
-				"height_in": 11.25,
-				"width_in": 19.75,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "11 1/4 x 19 3/4 in. (28.6 x 50.2 cm)",
-			"type": "Depth",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 28.6,
-				"width_cm": 50.2,
-				"depth_cm": null,
-				"height_in": 11.25,
-				"width_in": 19.75,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "11 1/4 x 19 3/4 in. (28.6 x 50.2 cm)",
-			"type": "Height",
 			"element": "Overall",
 			"unit": "Inches",
 			"rank": 1,
@@ -221,6 +182,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -262,29 +224,6 @@
 	],
 	"term_place_of_creation": [
 		{
-			"id": 20437806,
-			"term": "Germany",
-			"type": "N/A",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABH",
-					"term": "Europe"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABH.AAAQL",
-					"term": "Deutschland"
-				}
-			]
-		},
-		{
 			"id": 16872845,
 			"term": "Netherlands",
 			"type": "N/A",
@@ -306,6 +245,29 @@
 					"term": "Nederland"
 				}
 			]
+		},
+		{
+			"id": 20437806,
+			"term": "Germany",
+			"type": "N/A",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAAQL",
+					"term": "Deutschland"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -324,53 +286,64 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": null,
 	"display_year": "1740–50",
 	"doc_id": "1956.82a-b",
 	"slug": "1956.82a-b/diana-and-the-maidens-fan-and-case",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 1740,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Ivory",
+			"section": "Ceramic & glass",
+			"subcategory": "Other ceramic",
 			"specific": ""
 		},
 		{
-			"parent": "Metal",
-			"specific": "copper alloy"
+			"section": "Decorative & other materials",
+			"subcategory": "Animal material (ivory, bone, leather)",
+			"specific": "Ivory / tusk"
 		},
 		{
-			"parent": "Paint",
-			"specific": "gold paint"
+			"section": "Decorative & other materials",
+			"subcategory": "Base metal (bronze, iron, copper)",
+			"specific": "Copper"
 		},
 		{
-			"parent": "Paint",
-			"specific": "opaque watercolor"
+			"section": "Painting",
+			"subcategory": "Gouache / opaque watercolor",
+			"specific": ""
 		},
 		{
-			"parent": "Shell",
-			"specific": "mother-of-pearl"
+			"section": "Sculpture",
+			"subcategory": "Other sculpture material",
+			"specific": ""
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
+			"specific": "Paper"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
-		{
-			"region": "Europe",
-			"country": "Germany",
-			"state": "",
-			"notable": ""
-		},
 		{
 			"region": "Europe",
 			"country": "Holland",
 			"state": "",
 			"notable": "Netherlands"
+		},
+		{
+			"region": "Europe",
+			"country": "Germany",
+			"state": "",
+			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , copper alloy, gold paint, opaque watercolor … · Germany, Netherlands",
+		"reason": "grid-facets real slice — Other ceramic, Ivory / tusk, Copper, Gouache / opaque watercolor … · Netherlands, Germany",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 46
 	}
 }

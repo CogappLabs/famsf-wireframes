@@ -8,8 +8,11 @@
 	"date_start": null,
 	"date_end": null,
 	"medium": "cotton, camelid fiber;",
-	"medium_parts": ["cotton, camelid fiber", ""],
-	"credit_line": "Gift of  David and Marita Paly",
+	"medium_parts": [
+		"cotton, camelid fiber",
+		""
+	],
+	"credit_line": "Gift of David and Marita Paly",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
 	"subclassification": "Accessory",
@@ -20,7 +23,7 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-03-09 12:48:31.623000",
 	"is_virtual": false,
-	"identifying_description": "Early Intermediate, Nazca I\r\nplain weave, looping",
+	"identifying_description": "Early Intermediate, Nazca I\nplain weave, looping",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -72,13 +75,13 @@
 			"media_xref_id": 106776,
 			"image_id": 21363,
 			"rank": 1,
+			"file_date": "2023-02-27 06:14:07",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 1600,
@@ -103,26 +106,6 @@
 	"dimensions": [
 		{
 			"value": "32 11/16 x 19 1/8 in. (83 x 48.5 cm)",
-			"type": "Height",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 83.0,
-				"width_cm": 48.5,
-				"depth_cm": null,
-				"height_in": 32.6875,
-				"width_in": 19.125,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "32 11/16 x 19 1/8 in. (83 x 48.5 cm)",
-			"type": "Width",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -141,6 +124,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -152,29 +136,6 @@
 	"is_compound": false,
 	"term_rights_statement": null,
 	"term_place_of_creation": [
-		{
-			"id": 20467694,
-			"term": "Peru",
-			"type": "N/A",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAACT",
-					"term": "South America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAACT.AAAEL",
-					"term": "Perú"
-				}
-			]
-		},
 		{
 			"id": 16735782,
 			"term": "Ica",
@@ -207,6 +168,29 @@
 					"term": "Ica"
 				}
 			]
+		},
+		{
+			"id": 20467694,
+			"term": "Peru",
+			"type": "N/A",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAEL",
+					"term": "Perú"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -225,37 +209,46 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": [
+		"Nasca"
+	],
 	"display_year": null,
 	"doc_id": "1998.231",
 	"slug": "1998.231/man-s-turban-or-headcloth",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Cotton",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Camelid / alpaca"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "South America",
 			"country": "Peru",
 			"state": "",
-			"notable": ""
+			"notable": "Ica"
 		},
 		{
 			"region": "South America",
 			"country": "Peru",
 			"state": "",
-			"notable": "Ica"
+			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice —  · Peru, Ica",
+		"reason": "grid-facets real slice — Camelid / alpaca, Cotton · Ica, Peru",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 38
+		"populated_fields": 40
 	}
 }

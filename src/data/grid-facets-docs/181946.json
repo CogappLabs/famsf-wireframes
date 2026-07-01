@@ -72,11 +72,11 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 152420,
-			"image_id": 186039,
-			"rank": 4,
-			"primary": false,
-			"display_order": 1,
+			"media_xref_id": 152417,
+			"image_id": 186057,
+			"rank": 1,
+			"file_date": "2023-02-27 08:22:01",
+			"primary": true,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -84,9 +84,9 @@
 			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
-			"height": 10522,
-			"width": 5296,
-			"file_name": "A413143_V4.TIF",
+			"height": 10762,
+			"width": 5439,
+			"file_name": "A413143_V1.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -101,8 +101,8 @@
 			"media_xref_id": 152419,
 			"image_id": 186078,
 			"rank": 3,
+			"file_date": "2023-02-27 08:22:01",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -124,11 +124,11 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 152417,
-			"image_id": 186057,
-			"rank": 1,
-			"primary": true,
-			"display_order": 1,
+			"media_xref_id": 152420,
+			"image_id": 186039,
+			"rank": 4,
+			"file_date": "2023-02-27 08:22:01",
+			"primary": false,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -136,9 +136,9 @@
 			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
-			"height": 10762,
-			"width": 5439,
-			"file_name": "A413143_V1.TIF",
+			"height": 10522,
+			"width": 5296,
+			"file_name": "A413143_V4.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -158,7 +158,6 @@
 	"dimensions": [
 		{
 			"value": "64 in. (162.6 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -177,6 +176,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -243,44 +243,72 @@
 	"primary_artist": "Rodarte",
 	"primary_artist_display": "b. 2005",
 	"sort_artist": "Rodarte",
+	"culture_group": [],
 	"display_year": "2016",
 	"doc_id": "2019.83.3",
 	"slug": "2019.83.3/woman-s-gown-shakespeare-refashioned",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 2016,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Cotton",
+			"section": "Ceramic & glass",
+			"subcategory": "Glass",
+			"specific": "Lead / crystal glass"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Other material",
+			"specific": "Polyamide"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Plastic & synthetic",
 			"specific": ""
 		},
 		{
-			"parent": "Lace",
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
+			"specific": "Fringe"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Synthetic fiber (nylon, polyester)",
 			"specific": ""
 		},
 		{
-			"parent": "Textile",
-			"specific": "polyester"
+			"section": "Textile",
+			"subcategory": "Synthetic fiber (nylon, polyester)",
+			"specific": "Polyester"
 		},
 		{
-			"parent": "Textile",
-			"specific": "rayon"
+			"section": "Textile",
+			"subcategory": "Synthetic fiber (nylon, polyester)",
+			"specific": "Rayon"
 		},
 		{
-			"parent": "Textile",
-			"specific": "velvet"
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Embroidery"
 		},
 		{
-			"parent": "Trimmings",
-			"specific": "fringe"
+			"section": "Textile",
+			"subcategory": "Thread & trimmings",
+			"specific": "Sequins"
 		},
 		{
-			"parent": "Trimmings",
-			"specific": "sequin"
+			"section": "Textile",
+			"subcategory": "Woven & worked cloth",
+			"specific": ""
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "North America",
@@ -290,8 +318,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , , polyester, rayon … · Los Angeles",
+		"reason": "grid-facets real slice — Lead / crystal glass, Polyamide, Plastic & synthetic, Cotton … · Los Angeles",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 44
 	}
 }

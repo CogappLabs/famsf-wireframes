@@ -22,10 +22,10 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2025-08-13 12:53:42.873000",
 	"is_virtual": false,
-	"identifying_description": "standing figure of a mustachioed man dressed in gold cloth with floral decorations and furs, wearing  red and gold boots, and holding a red bow, in a landscape with retainers and his elephant; flanked by two smaller half-length profile portraits of young women by windows: 1)looking out to a lake, 2) looking out at  green fields and buildings",
+	"identifying_description": "standing figure of a mustachioed man dressed in gold cloth with floral decorations and furs, wearing red and gold boots, and holding a red bow, in a landscape with retainers and his elephant; flanked by two smaller half-length profile portraits of young women by windows: 1)looking out to a lake, 2) looking out at green fields and buildings",
 	"web_text": null,
 	"didactic_label": null,
-	"exhibition_history_text": "CPLH, 20 yearsof collecting: Director's Choice, 7 March - 14 June 1987.\r\nCPLH, Treasures, 11 Nov 1995 - 3 March 1996, cat. # 227.\r\nUniversity Art Museum, Berkeley, Indian Paintings from Bay Area Collections, 23 May - 19 Aug 1984.\r\nLACMA, Los Angeles, CA, Captured Hearts: The Lure of Courtly Lucknow, Dec 5, 2010 - March 6, 2011; Musee National des Arts Asiatiques-Guimet, April 3 - July 18, 2011.",
+	"exhibition_history_text": "CPLH, 20 yearsof collecting: Director's Choice, 7 March - 14 June 1987.\nCPLH, Treasures, 11 Nov 1995 - 3 March 1996, cat. # 227.\nUniversity Art Museum, Berkeley, Indian Paintings from Bay Area Collections, 23 May - 19 Aug 1984.\nLACMA, Los Angeles, CA, Captured Hearts: The Lure of Courtly Lucknow, Dec 5, 2010 - March 6, 2011; Musee National des Arts Asiatiques-Guimet, April 3 - July 18, 2011.",
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
@@ -109,11 +109,37 @@
 	],
 	"media": [
 		{
+			"media_xref_id": 205040,
+			"image_id": 212531,
+			"rank": 1,
+			"file_date": "2023-05-23 23:55:09",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5319,
+			"width": 6678,
+			"file_name": "MS_88987_20230510_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
 			"media_xref_id": 71863,
 			"image_id": 160584,
 			"rank": 1,
+			"file_date": "2023-02-27 07:26:23",
 			"primary": false,
-			"display_order": 2,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
@@ -135,37 +161,11 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 71865,
-			"image_id": 22323,
-			"rank": 3,
-			"primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 2232,
-			"width": 3000,
-			"file_name": "0411201416270004.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 71864,
 			"image_id": 162628,
 			"rank": 2,
+			"file_date": "2023-02-27 08:35:45",
 			"primary": false,
-			"display_order": 2,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -187,21 +187,21 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 205040,
-			"image_id": 212531,
-			"rank": 1,
+			"media_xref_id": 71865,
+			"image_id": 22323,
+			"rank": 3,
+			"file_date": "2023-02-27 06:14:36",
 			"primary": false,
-			"display_order": 3,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
 			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
-			"height": 5319,
-			"width": 6678,
-			"file_name": "MS_88987_20230510_1.tif",
+			"height": 2232,
+			"width": 3000,
+			"file_name": "0411201416270004.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -221,45 +221,6 @@
 	"dimensions": [
 		{
 			"value": "15 3/16 x 16 3/16 in. (38.5 x 41.1 cm)",
-			"type": "Depth",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 38.5,
-				"width_cm": 41.1,
-				"depth_cm": null,
-				"height_in": 15.1875,
-				"width_in": 16.1875,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "15 3/16 x 16 3/16 in. (38.5 x 41.1 cm)",
-			"type": "Width",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 38.5,
-				"width_cm": 41.1,
-				"depth_cm": null,
-				"height_in": 15.1875,
-				"width_in": 16.1875,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "15 3/16 x 16 3/16 in. (38.5 x 41.1 cm)",
-			"type": "Height",
 			"element": "Overall",
 			"unit": "Inches",
 			"rank": 1,
@@ -278,45 +239,6 @@
 		},
 		{
 			"value": "17 11/16 x 24 1/8 in. (45 x 61.3 cm)",
-			"type": "Width",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 2,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 45.0,
-				"width_cm": 61.3,
-				"depth_cm": null,
-				"height_in": 17.6875,
-				"width_in": 24.125,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "17 11/16 x 24 1/8 in. (45 x 61.3 cm)",
-			"type": "Height",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 2,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 45.0,
-				"width_cm": 61.3,
-				"depth_cm": null,
-				"height_in": 17.6875,
-				"width_in": 24.125,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "17 11/16 x 24 1/8 in. (45 x 61.3 cm)",
-			"type": "Depth",
 			"element": "Overall",
 			"unit": "Inches",
 			"rank": 2,
@@ -335,6 +257,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -502,32 +425,37 @@
 	"primary_artist": "Anonymous",
 	"primary_artist_display": "Anonymous",
 	"sort_artist": "Anonymous",
+	"culture_group": [],
 	"display_year": "1780",
 	"doc_id": "1982.2.70.1",
 	"slug": "1982.2.70.1/portrait-of-nawab-shuja-al-daula-1732-1775-after-a-portrait-by-tilly-kettle-and-two-pictures-of-beauty-a-page-from-the-lady-coote-album",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 1780,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Gold & silver",
-			"specific": "gold"
+			"section": "Decorative & other materials",
+			"subcategory": "Precious metal (gold, silver)",
+			"specific": "Gold"
 		},
 		{
-			"parent": "Gold & silver",
-			"specific": "silver"
+			"section": "Decorative & other materials",
+			"subcategory": "Precious metal (gold, silver)",
+			"specific": "Silver"
 		},
 		{
-			"parent": "Ink",
+			"section": "Drawing",
+			"subcategory": "Ink",
+			"specific": "Ink (unspecified)"
+		},
+		{
+			"section": "Painting",
+			"subcategory": "Watercolor",
 			"specific": ""
-		},
-		{
-			"parent": "Paint",
-			"specific": "transparent watercolor"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "East Asia",
@@ -543,8 +471,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — gold, silver, , transparent watercolor · Lucknow, Mughal Empire",
+		"reason": "grid-facets real slice — Gold, Silver, Ink (unspecified), Watercolor · Lucknow, Mughal Empire",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 46
 	}
 }

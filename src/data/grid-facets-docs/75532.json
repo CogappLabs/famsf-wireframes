@@ -1,0 +1,220 @@
+{
+	"id": 75532,
+	"accession_number": "1997.142.9",
+	"sort_number": "1997.142.9",
+	"title": "Large storage bag (juval), face",
+	"object_name": "storage/transport bag",
+	"date_display": null,
+	"date_start": null,
+	"date_end": null,
+	"medium": "Wool, silk; knotted pile",
+	"medium_parts": [
+		"Wool, silk",
+		"knotted pile"
+	],
+	"credit_line": "Wiedersperg Collection, Gift of Wolfgang and Gisela Wiedersperg",
+	"department": "Costume and Textile Arts",
+	"classification": "Furnishing",
+	"subclassification": null,
+	"culture": "Turkmen, Salor tribe",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-27 12:48:22.177000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": "Salor bag (chuval)Wool, silk; knotted pile, assymetrical knot, open on the right; aternate warps slightly depressedThe Salor and Tekke tribes both wove chuvals in the design of this example. In caes such as this, when design alone does not permit accurate attribution, textile scholars often depend on telltale features of the weves to establish provenance. Salor knots, for example, are different from those of the Tekke. Weave structure tends to be more conservative than the design and more specific to a tribe, workshop, or region. In other words, it is easier for a weaver to copy a foreign design than to adopt an entirely new way of weaving. In traditional Turkmen culture, a girl begins to weave at a very young age. By the time she is mature, her hands are so habituated to the repeated motions she has learned since childhood that her hand sfly across the loom. To retrain them would mean the loss of valuable time.1997.142.9",
+	"didactic_label": "Salor bag (chuval)\nWool, silk; knotted pile, assymetrical knot, open on the right; aternate warps slightly depressed\n\nThe Salor and Tekke tribes both wove chuvals in the design of this example. In caes such as this, when design alone does not permit accurate attribution, textile scholars often depend on telltale features of the weves to establish provenance. Salor knots, for example, are different from those of the Tekke. Weave structure tends to be more conservative than the design and more specific to a tribe, workshop, or region. In other words, it is easier for a weaver to copy a foreign design than to adopt an entirely new way of weaving. In traditional Turkmen culture, a girl begins to weave at a very young age. By the time she is mature, her hands are so habituated to the repeated motions she has learned since childhood that her hand sfly across the loom. To retrain them would mean the loss of valuable time.",
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "1997-12-11",
+	"location_string": "de Young, 059, Cabinet 45, E",
+	"location_building": "de Young",
+	"location_room": "Cabinet 45",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Large storage bag (juval), face",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 41264,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Turkmen, Salor tribe",
+			"name_sort": "Turkmen, Salor tribe",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Turkmen, Salor tribe"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 162137,
+			"image_id": 128914,
+			"rank": 0,
+			"file_date": "2023-02-27 07:10:36",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1936,
+			"width": 2895,
+			"file_name": "8253320200860063.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "32 x 48 in. (81.3 x 121.9 cm)",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 81.3,
+				"width_cm": 121.9,
+				"depth_cm": null,
+				"height_in": 32.0,
+				"width_in": 48.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 20319418,
+			"term": "Central Asia",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAMD",
+					"term": "Central Asia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"culture_group": [
+		"Turkmen, Salor tribe"
+	],
+	"display_year": null,
+	"doc_id": "1997.142.9",
+	"slug": "1997.142.9/large-storage-bag-juval-face",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Knotted pile"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Central Asia",
+			"country": "",
+			"state": "",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Silk, Wool, Knotted pile · Central Asia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 39
+	}
+}

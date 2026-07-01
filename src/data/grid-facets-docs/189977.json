@@ -1,0 +1,423 @@
+{
+	"id": 189977,
+	"accession_number": "2012.42.63a-d",
+	"sort_number": "2012.42.63a-d",
+	"title": "ensemble: jacket and top",
+	"object_name": "woman's costume",
+	"date_display": "Fall/Winter 2001 Haute Couture",
+	"date_start": "2001",
+	"date_end": "2001",
+	"medium": "Jacket: wool twill weave with silk embroidery (satin stitch), metal embroidery (chain stitch), and metal cord; faceted glass beads, glass bugle and seed beads, glass stones, painted plastic sequins, plastic sequins, glass pearl beads; with two white alloy metal and glass stone pins (added by wearer) Top: cotton knit, cotton plain weave appliqué, and metal snaps and zippers",
+	"medium_parts": [
+		"Jacket: wool twill weave with silk embroidery (satin stitch), metal embroidery (chain stitch), and metal cord",
+		"faceted glass beads, glass bugle and seed beads, glass stones, painted plastic sequins, plastic sequins, glass pearl beads",
+		"with two white alloy metal and glass stone pins (added by wearer) Top: cotton knit, cotton plain weave appliqué, and metal snaps and zippers"
+	],
+	"credit_line": "Gift of Mrs. John N. Rosekrans, Jr.",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2024-08-20 13:55:26.390000",
+	"is_virtual": false,
+	"identifying_description": "Ensemble: (a) short sleeved jacket of grey pinstripe wool embroidered with blue and pink floral designs and sequins; stand collar; trimmed with green fabric embellished with sequins; lined in silk (b) blouse of white cotton with masses of applied silver snaps as decoration; two pins attached to jacket of a snowflake and a bow.",
+	"web_text": "“Dodie” Rosekrans was an early and enduring supporter of John Galliano’s work, financing collections as well as procuring some of his most iconic garments over more than fifteen years. The selection of whimsical designs seen here—which Galliano made under his eponymous label as well as while serving as creative director of the French couture house Christian Dior—were all worn by Rosekrans, who was recognized internationally for her eclectic style of dress.",
+	"didactic_label": "“Dodie” Rosekrans was an early and enduring supporter of John Galliano’s work, financing collections as well as procuring some of his most iconic garments over more than fifteen years. The selection of whimsical designs seen here—which Galliano made under his eponymous label as well as while serving as creative director of the French couture house Christian Dior—were all worn by Rosekrans, who was recognized internationally for her eclectic style of dress.",
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Worn by Mrs. John N. Rosekrans, Jr. (née Georgette \"Dodie\" Naify)",
+	"label_text": "Jacket: (white label with black text at center backof collar) “Christian Dior / HAUTE COUTURE /PARIS / 32639 AH2001 2002 / 100% LAINE”Top: (white label with black text at proper left side)“Christian Dior / HAUTE COUTURE / PARIS /32641 AH2001 2002 / 100% COTON”",
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "2012-10-18",
+	"location_string": "de Young, 059",
+	"location_building": "de Young",
+	"location_room": null,
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "ensemble: jacket and top",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 18727,
+			"Role": "Designer",
+			"RoleID": 67,
+			"name": "John Galliano",
+			"name_sort": "John Galliano",
+			"Nationality": "British",
+			"place_born": "Gibraltar",
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": 1960,
+			"EndDate": null,
+			"dates": "b. 1960",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1960"
+		},
+		{
+			"id": 18728,
+			"Role": "House of",
+			"RoleID": 356,
+			"name": "Dior",
+			"name_sort": "Dior",
+			"Nationality": "French",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": 1947,
+			"EndDate": null,
+			"dates": "est. 1947",
+			"Institution": "House of Dior",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 1947"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 220546,
+			"image_id": 231059,
+			"rank": 0,
+			"file_date": "2024-08-26 11:47:09.42",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 12817,
+			"width": 9607,
+			"file_name": "MS_189977-242362_FSF-DeInstall-Photography_20240813_2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 220572,
+			"image_id": 231085,
+			"rank": 0,
+			"file_date": "2024-08-26 11:44:51.19",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 13548,
+			"width": 10160,
+			"file_name": "MS_189977-242362_FSF-DeInstall-Photography_20240813_1_Crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 220571,
+			"image_id": 231084,
+			"rank": 0,
+			"file_date": "2024-08-26 11:40:17.37",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 13548,
+			"width": 10160,
+			"file_name": "MS_189977-242362_FSF-DeInstall-Photography_20240813_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 207373,
+			"image_id": 214739,
+			"rank": 1,
+			"file_date": "2023-09-26 09:28:00.697",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 11046,
+			"width": 8202,
+			"file_name": "MS_A392694_1_Crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 140829,
+			"image_id": 140855,
+			"rank": 4,
+			"file_date": "2023-02-27 07:16:29",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3008,
+			"width": 2000,
+			"file_name": "0213201417240007.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "56 x 18 x 3 in., (142.2 x 45.72 x 7.62 cm,)",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 142.2,
+				"width_cm": 45.72,
+				"depth_cm": 7.62,
+				"height_in": 56.0,
+				"width_in": 18.0,
+				"depth_in": 3.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "28 x 19 x 1 in., (71.1 x 48.26 x 2.54 cm,)",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 71.1,
+				"width_cm": 48.26,
+				"depth_cm": 2.54,
+				"height_in": 28.0,
+				"width_in": 19.0,
+				"depth_in": 1.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 17716136,
+			"term": "Paris",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME",
+					"term": "Île-de-France"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AABMN",
+					"term": "Paris"
+				}
+			]
+		},
+		{
+			"id": 17716137,
+			"term": "Paris",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME",
+					"term": "Île-de-France"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AABMN",
+					"term": "Paris"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "John Galliano",
+	"primary_artist_display": "b. 1960",
+	"sort_artist": "John Galliano",
+	"culture_group": [],
+	"display_year": "2001",
+	"doc_id": "2012.42.63a-d",
+	"slug": "2012.42.63a-d/ensemble-jacket-and-top",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": 2001,
+	"facet_medium": [
+		{
+			"section": "Ceramic & glass",
+			"subcategory": "Glass",
+			"specific": "Glass (unspecified)"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Other material",
+			"specific": ""
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Plastic & synthetic",
+			"specific": ""
+		},
+		{
+			"section": "Painting",
+			"subcategory": "Other paint",
+			"specific": ""
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Other natural fiber"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Embroidery"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"state": "",
+			"notable": "Paris"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Glass (unspecified), Other material, Plastic & synthetic, Other paint … · Paris",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 47
+	}
+}

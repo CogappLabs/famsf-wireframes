@@ -7,10 +7,10 @@
 	"date_display": "20th century",
 	"date_start": null,
 	"date_end": null,
-	"medium": "Silk, cotton; warp-resist-dyed (ikat) plain-weave lining, printed\r\nedging, applied fringe, embroidery (chain, laid and couched,\r\nfishbone, rope, and whipped stem stitches)",
+	"medium": "Silk, cotton; warp-resist-dyed (ikat) plain-weave lining, printed edging, applied fringe, embroidery (chain, laid and couched, fishbone, rope, and whipped stem stitches)",
 	"medium_parts": [
 		"Silk, cotton",
-		"warp-resist-dyed (ikat) plain-weave lining, printed\r\nedging, applied fringe, embroidery (chain, laid and couched,\r\nfishbone, rope, and whipped stem stitches)"
+		"warp-resist-dyed (ikat) plain-weave lining, printed edging, applied fringe, embroidery (chain, laid and couched, fishbone, rope, and whipped stem stitches)"
 	],
 	"credit_line": "Museum purchase, Mrs. V. Volkmann Bosche Tribute Fund and Carol Dunker Tribute Fund",
 	"department": "Costume and Textile Arts",
@@ -72,37 +72,11 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 124124,
-			"image_id": 15779,
-			"rank": 3,
-			"primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 6188,
-			"width": 4890,
-			"file_name": "0204201015300001.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 124122,
 			"image_id": 169720,
 			"rank": 1,
+			"file_date": "2023-02-27 07:38:23",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -127,8 +101,8 @@
 			"media_xref_id": 124123,
 			"image_id": 169721,
 			"rank": 2,
+			"file_date": "2023-02-27 07:38:23",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -148,6 +122,32 @@
 			"blurhash": null,
 			"iiif_width": null,
 			"iiif_height": null
+		},
+		{
+			"media_xref_id": 124124,
+			"image_id": 15779,
+			"rank": 3,
+			"file_date": "2023-02-27 06:11:11",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 6188,
+			"width": 4890,
+			"file_name": "0204201015300001.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -158,26 +158,6 @@
 	"dimensions": [
 		{
 			"value": "23 1/4 x 22 1/4 in. (59 x 56.5 cm)",
-			"type": "Height",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 59.0,
-				"width_cm": 56.5,
-				"depth_cm": null,
-				"height_in": 23.25,
-				"width_in": 22.25,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "23 1/4 x 22 1/4 in. (59 x 56.5 cm)",
-			"type": "Width",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -196,6 +176,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -247,24 +228,44 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": [
+		"Turkmen, Tekke tribe"
+	],
 	"display_year": null,
 	"doc_id": "2003.75",
 	"slug": "2003.75/child-s-tunic",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Cotton",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
 		},
 		{
-			"parent": "Silk",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
+			"specific": "Rope"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Embroidery"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Weaving"
 		}
 	],
-	"facet_technique": ["embroidery"],
 	"facet_place": [
 		{
 			"region": "Central Asia",
@@ -274,8 +275,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , , embroidery · Uzbekistan",
+		"reason": "grid-facets real slice — Cotton, Silk, Rope, Embroidery … · Uzbekistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 38
+		"populated_fields": 39
 	}
 }

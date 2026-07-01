@@ -237,9 +237,9 @@ function SearchResultsContent({
 
 	// Autocomplete data for the grid-facets variations. The omnibox only
 	// suggests the facets that actually appear on that page (Artist, Place,
-	// Material, Technique, Classification, Department, Gallery), counted over
-	// the same ~600-doc slice the page filters — so a suggestion never offers a
-	// facet the page can't honour. Hits come from the slice too.
+	// Medium, Classification, Department, Gallery), counted over the same
+	// ~600-doc slice the page filters — so a suggestion never offers a facet the
+	// page can't honour. Hits come from the slice too.
 	const gridFacetsHits = useMemo(
 		() =>
 			gridFacetsDocs.map((d) => ({
@@ -280,17 +280,14 @@ function SearchResultsContent({
 					),
 			},
 			{
-				facetType: "material",
+				facetType: "medium",
 				facetLabel: "Medium",
 				get: (d) =>
-					(d.facet_material ?? []).flatMap((m) =>
-						[m.parent, m.specific].filter((v): v is string => Boolean(v)),
+					(d.facet_medium ?? []).flatMap((m) =>
+						[m.section, m.subcategory, m.specific].filter((v): v is string =>
+							Boolean(v),
+						),
 					),
-			},
-			{
-				facetType: "technique",
-				facetLabel: "Technique",
-				get: (d) => d.facet_technique ?? [],
 			},
 			{
 				facetType: "classification",

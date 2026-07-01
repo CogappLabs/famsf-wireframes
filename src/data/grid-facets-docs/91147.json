@@ -8,7 +8,9 @@
 	"date_start": "450",
 	"date_end": "550",
 	"medium": "Earthenware with painted stucco",
-	"medium_parts": ["Earthenware with painted stucco"],
+	"medium_parts": [
+		"Earthenware with painted stucco"
+	],
 	"credit_line": "Gift of William S. Judy Jr., M.D.",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Vessels & Containers",
@@ -72,13 +74,13 @@
 			"media_xref_id": 163992,
 			"image_id": 128068,
 			"rank": 0,
+			"file_date": "2023-02-27 07:10:11",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 2130,
@@ -103,26 +105,6 @@
 	"dimensions": [
 		{
 			"value": "9 1/4 x 7 1/4 in. (23.5 x 18.4 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 23.5,
-				"width_cm": 18.4,
-				"depth_cm": null,
-				"height_in": 9.25,
-				"width_in": 7.25,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "9 1/4 x 7 1/4 in. (23.5 x 18.4 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -141,6 +123,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -182,29 +165,6 @@
 	],
 	"term_place_of_creation": [
 		{
-			"id": 20390706,
-			"term": "Honduras",
-			"type": "Descriptor",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABZ",
-					"term": "North and Central America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABZ.AAAEE",
-					"term": "Honduras"
-				}
-			]
-		},
-		{
 			"id": 20354391,
 			"term": "Guatemala",
 			"type": "Descriptor",
@@ -224,6 +184,29 @@
 					"depth": 3,
 					"cn": "AUZ.AAAAB.AAABZ.AAADU",
 					"term": "Guatemala"
+				}
+			]
+		},
+		{
+			"id": 20390706,
+			"term": "Honduras",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAEE",
+					"term": "Honduras"
 				}
 			]
 		}
@@ -303,37 +286,41 @@
 	"primary_artist": "Maya",
 	"primary_artist_display": "Maya",
 	"sort_artist": "Maya",
+	"culture_group": [
+		"Maya"
+	],
 	"display_year": "450–550",
 	"doc_id": "1989.55.3a-b",
 	"slug": "1989.55.3a-b/cylinder-tripod-vessel-with-teotihuacan-influence",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 450,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Ceramic",
-			"specific": "earthenware"
+			"section": "Painting",
+			"subcategory": "Other paint",
+			"specific": ""
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
-		{
-			"region": "Central America",
-			"country": "Honduras",
-			"state": "",
-			"notable": ""
-		},
 		{
 			"region": "Central America",
 			"country": "Guatemala",
 			"state": "",
 			"notable": ""
+		},
+		{
+			"region": "Central America",
+			"country": "Honduras",
+			"state": "",
+			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — earthenware · Honduras, Guatemala",
+		"reason": "grid-facets real slice — Other paint · Guatemala, Honduras",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 48
 	}
 }

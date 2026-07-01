@@ -23,7 +23,7 @@
 	"last_modified": "2025-08-14 15:25:40.687000",
 	"is_virtual": false,
 	"identifying_description": "Skeletal figure (a) of \"Death\" holding bow (b) and arrow (c) and seated in cart (d). The cart has a long pole (e) coming out the front",
-	"web_text": "The Penitentes are an order of Spanish-American Catholics whose secret rituals marking the death and resurrection of Christ represent some of the oldest continuously practiced religious rites the United States. Pentitente ritual, which emphasized public and bodily penance, was officially condemned by the Church in the nineteenth century, but these observances continued in secret. \r\n\r\n<BR>For the Penitentes, Easter Holy Week observance inspired the most profound public expressions of penance. Reenacting the scenes of the passion of Christ, they processed from the morada, or Penitente chapter house, toward a preselected Calvary site. In these processions, death was personified as a life-size, skeletal figure, made ever more realistic by the addition of hair, glass marble eyes, teeth, and movable limbs.\r\n<BR>",
+	"web_text": "The Penitentes are an order of Spanish-American Catholics whose secret rituals marking the death and resurrection of Christ represent some of the oldest continuously practiced religious rites the United States. Pentitente ritual, which emphasized public and bodily penance, was officially condemned by the Church in the nineteenth century, but these observances continued in secret. \n\nFor the Penitentes, Easter Holy Week observance inspired the most profound public expressions of penance. Reenacting the scenes of the passion of Christ, they processed from the morada, or Penitente chapter house, toward a preselected Calvary site. In these processions, death was personified as a life-size, skeletal figure, made ever more realistic by the addition of hair, glass marble eyes, teeth, and movable limbs.",
 	"didactic_label": null,
 	"exhibition_history_text": null,
 	"bibliography_text": null,
@@ -71,11 +71,37 @@
 	],
 	"media": [
 		{
+			"media_xref_id": 80775,
+			"image_id": 169752,
+			"rank": 1,
+			"file_date": "2023-02-27 07:38:17",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9183,
+			"width": 7227,
+			"file_name": "A323242_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
 			"media_xref_id": 80776,
 			"image_id": 141835,
 			"rank": 2,
+			"file_date": "2023-02-27 07:17:10",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": null,
@@ -97,37 +123,11 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 80778,
-			"image_id": 29748,
-			"rank": 4,
-			"primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 685,
-			"width": 515,
-			"file_name": "0708200915280015.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 80777,
 			"image_id": 139543,
 			"rank": 3,
+			"file_date": "2023-02-27 07:16:47",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": null,
@@ -149,21 +149,21 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 80775,
-			"image_id": 169752,
-			"rank": 1,
-			"primary": true,
-			"display_order": 1,
+			"media_xref_id": 80778,
+			"image_id": 29748,
+			"rank": 4,
+			"file_date": "2023-02-27 06:18:04",
+			"primary": false,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
 			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
-			"height": 9183,
-			"width": 7227,
-			"file_name": "A323242_V1.tif",
+			"height": 685,
+			"width": 515,
+			"file_name": "0708200915280015.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -183,45 +183,6 @@
 	"dimensions": [
 		{
 			"value": "40 x 48 x 20 in. (101.6 x 121.9 x 50.8 cm)",
-			"type": "Height",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 101.6,
-				"width_cm": 121.9,
-				"depth_cm": 50.8,
-				"height_in": 40.0,
-				"width_in": 48.0,
-				"depth_in": 20.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "40 x 48 x 20 in. (101.6 x 121.9 x 50.8 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 101.6,
-				"width_cm": 121.9,
-				"depth_cm": 50.8,
-				"height_in": 40.0,
-				"width_in": 48.0,
-				"depth_in": 20.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "40 x 48 x 20 in. (101.6 x 121.9 x 50.8 cm)",
-			"type": "Depth",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -240,6 +201,13 @@
 		}
 	],
 	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "american-art-web-highlights",
+			"collection_name": "American Art Web Highlights",
+			"rank": 13
+		}
+	],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -251,6 +219,39 @@
 	"is_compound": false,
 	"term_rights_statement": null,
 	"term_place_of_creation": [
+		{
+			"id": 17101931,
+			"term": "Mora",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS",
+					"term": "New Mexico"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS.AAAIK",
+					"term": "Mora"
+				}
+			]
+		},
 		{
 			"id": 20889057,
 			"term": "Española",
@@ -288,39 +289,6 @@
 					"term": "Espanola"
 				}
 			]
-		},
-		{
-			"id": 17101931,
-			"term": "Mora",
-			"type": "Descriptor",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABZ",
-					"term": "North and Central America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
-					"term": "United States"
-				},
-				{
-					"depth": 4,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS",
-					"term": "New Mexico"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS.AAAIK",
-					"term": "Mora"
-				}
-			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -335,8 +303,8 @@
 	"term_school": null,
 	"term_materials": [
 		{
-			"id": 16318628,
-			"term": "leather",
+			"id": 16487471,
+			"term": "horsehair",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
@@ -372,13 +340,28 @@
 				},
 				{
 					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF",
-					"term": "processed animal material"
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE",
+					"term": "keratinous material"
 				},
 				{
 					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF.AAC",
-					"term": "leather"
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB",
+					"term": "hair and hair components as materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA",
+					"term": "hair"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAA",
+					"term": "hair by composition or origin"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAA.AAI",
+					"term": "horsehair"
 				}
 			]
 		},
@@ -451,8 +434,8 @@
 			]
 		},
 		{
-			"id": 16487471,
-			"term": "horsehair",
+			"id": 16318628,
+			"term": "leather",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
@@ -488,28 +471,13 @@
 				},
 				{
 					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE",
-					"term": "keratinous material"
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF",
+					"term": "processed animal material"
 				},
 				{
 					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB",
-					"term": "hair and hair components as materials"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA",
-					"term": "hair"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAA",
-					"term": "hair by composition or origin"
-				},
-				{
-					"depth": 11,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAA.AAI",
-					"term": "horsehair"
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF.AAC",
+					"term": "leather"
 				}
 			]
 		}
@@ -519,49 +487,69 @@
 	"primary_artist": "Unidentified",
 	"primary_artist_display": "Unidentified",
 	"sort_artist": "Unidentified",
+	"culture_group": [],
 	"display_year": "1895–1905",
 	"doc_id": "1995.28a-e",
 	"slug": "1995.28a-e/la-carreta-de-la-muerte-chariot-of-death-carrying-the-angel-of-death",
 	"has_image": true,
 	"has_provenance": true,
 	"has_children": false,
+	"is_highlight": true,
 	"sort_year": 1895,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Leather",
+			"section": "Ceramic & glass",
+			"subcategory": "Glass",
+			"specific": "Glass (unspecified)"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Animal material (ivory, bone, leather)",
+			"specific": "Leather / hide"
+		},
+		{
+			"section": "Painting",
+			"subcategory": "Other paint",
+			"specific": "Paint"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
+			"specific": "Paper"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
+			"specific": "String"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Woven & worked cloth",
 			"specific": ""
-		},
-		{
-			"parent": "Paint",
-			"specific": ""
-		},
-		{
-			"parent": "Textile",
-			"specific": "fabric"
-		},
-		{
-			"parent": "Yarn & thread",
-			"specific": "string"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "North America",
 			"country": "United States",
 			"state": "New Mexico",
-			"notable": "Española"
+			"notable": "Mora"
 		},
 		{
 			"region": "North America",
 			"country": "United States",
 			"state": "New Mexico",
-			"notable": "Mora"
+			"notable": "Española"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , , fabric, string · Española, Mora",
+		"reason": "grid-facets real slice — Glass (unspecified), Leather / hide, Paint, Cotton … · Mora, Española",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 47
+		"populated_fields": 49
 	}
 }

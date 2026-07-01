@@ -12,7 +12,7 @@
 		"wool, silk",
 		"knotted pile (asymmetrical knot, open to the right)"
 	],
-	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nGift of Caroline McCoy-Jones",
+	"credit_line": "The Caroline and H. McCoy Jones Collection\nGift of Caroline McCoy-Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Textile",
 	"subclassification": "Ritual & Religious",
@@ -26,11 +26,11 @@
 	"identifying_description": null,
 	"web_text": "From \"Turkoman Rugs,\" Fogg Art Museum, Harvard, exhibition cat. pg. 47: \"This rug shows many non-Turkoman features. The hanging poemegranates and stylized flowers of the design and the yellow color appearing on the border reveal the influence of the rugs of Chinese Turkestan. The form of the prayer niche is like no other found on Turkoman rugs, but is reminiscent of certain Turkish prayer rugs. The weave is loose. The wool is softer and more silky than the wool of most Turkoman rugs.\"",
 	"didactic_label": null,
-	"exhibition_history_text": "January 26 - March 6, 1966:  Fogg Art Museum, Cambridge, MA. \r\n     \"Turoman Rugs.\" (catalogue noted in \"Publications field.\"\r\nFor Tent & Trade: Masterpieces of Turkmen Weaving, 2007-2008",
+	"exhibition_history_text": "January 26 - March 6, 1966: Fogg Art Museum, Cambridge, MA. \n \"Turoman Rugs.\" (catalogue noted in \"Publications field.\"\nFor Tent & Trade: Masterpieces of Turkmen Weaving, 2007-2008",
 	"bibliography_text": null,
 	"provenance": "1966: Mr. and Mrs. Christopher D. Reed (cited in Fogg catalog, above)",
 	"label_text": null,
-	"publication_text": "This rug shows many non-Turkoman features.  The hanging poemegranates and stylized flowers of the design and the yellow color appearing on the border reveal the influence of the rugs of Chinese Turkestan.  The form of the prayer niche is like no other found on Turkoman rugs, but is reminiscent of certain Turkish prayer rugs. The weave is loose.  The wool is softer and more silky than the wool of most Turkoman rugs.",
+	"publication_text": "This rug shows many non-Turkoman features. The hanging poemegranates and stylized flowers of the design and the yellow color appearing on the border reveal the influence of the rugs of Chinese Turkestan. The form of the prayer niche is like no other found on Turkoman rugs, but is reminiscent of certain Turkish prayer rugs. The weave is loose. The wool is softer and more silky than the wool of most Turkoman rugs.",
 	"catalogue_raisonne": null,
 	"accession_iso_date": "2000-10-12",
 	"location_string": "de Young, 059, Cabinet 47, D",
@@ -60,7 +60,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": null,
+			"attribution_prefix": "",
 			"BeginDate": null,
 			"EndDate": null,
 			"dates": null,
@@ -79,7 +79,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": null,
 			"BeginDate": null,
 			"EndDate": null,
 			"dates": null,
@@ -110,37 +110,11 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 225666,
-			"image_id": 237556,
-			"rank": 0,
-			"primary": false,
-			"display_order": 4,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 14001,
-			"width": 7502,
-			"file_name": "MS_133010_20241104-02.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 225667,
 			"image_id": 237557,
 			"rank": 0,
+			"file_date": "2024-11-27 10:32:13.297",
 			"primary": false,
-			"display_order": 5,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -162,21 +136,21 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 104217,
-			"image_id": 149167,
-			"rank": 1,
+			"media_xref_id": 225666,
+			"image_id": 237556,
+			"rank": 0,
+			"file_date": "2024-11-27 10:30:15.07",
 			"primary": false,
-			"display_order": 2,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
-			"height": 3108,
-			"width": 1728,
-			"file_name": "0817200511350003.jpg",
+			"height": 14001,
+			"width": 7502,
+			"file_name": "MS_133010_20241104-02.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -191,8 +165,8 @@
 			"media_xref_id": 225665,
 			"image_id": 237555,
 			"rank": 0,
+			"file_date": "2024-11-26 16:25:46.48",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -217,8 +191,8 @@
 			"media_xref_id": 225664,
 			"image_id": 237554,
 			"rank": 0,
+			"file_date": "2024-11-26 16:24:25.893",
 			"primary": false,
-			"display_order": 3,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -238,6 +212,32 @@
 			"blurhash": null,
 			"iiif_width": null,
 			"iiif_height": null
+		},
+		{
+			"media_xref_id": 104217,
+			"image_id": 149167,
+			"rank": 1,
+			"file_date": "2023-02-27 07:21:19",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3108,
+			"width": 1728,
+			"file_name": "0817200511350003.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -248,26 +248,6 @@
 	"dimensions": [
 		{
 			"value": "84 x 44 in. (213.4 x 111.8 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 213.4,
-				"width_cm": 111.8,
-				"depth_cm": null,
-				"height_in": 84.0,
-				"width_in": 44.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "84 x 44 in. (213.4 x 111.8 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -286,6 +266,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -327,29 +308,6 @@
 	],
 	"term_place_of_creation": [
 		{
-			"id": 17087474,
-			"term": "Turkmenistan",
-			"type": "N/A",
-			"certainty": "Possibly",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAIE",
-					"term": "Türkmenistan"
-				}
-			]
-		},
-		{
 			"id": 16680808,
 			"term": "Afghanistan",
 			"type": "N/A",
@@ -371,6 +329,29 @@
 					"term": "Afghānestān"
 				}
 			]
+		},
+		{
+			"id": 17087474,
+			"term": "Turkmenistan",
+			"type": "N/A",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAIE",
+					"term": "Türkmenistan"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -384,64 +365,6 @@
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": [
-		{
-			"id": 16551699,
-			"term": "silk",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
-					"term": "fiber by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
-					"term": "textile materials"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
-					"term": "textile materials by composition or origin"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAP",
-					"term": "silk"
-				}
-			]
-		},
 		{
 			"id": 16561036,
 			"term": "wool",
@@ -499,6 +422,64 @@
 					"term": "wool"
 				}
 			]
+		},
+		{
+			"id": 16551699,
+			"term": "silk",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAP",
+					"term": "silk"
+				}
+			]
 		}
 	],
 	"term_subject": null,
@@ -506,41 +487,52 @@
 	"primary_artist": "Turkmen, Ersari tribe",
 	"primary_artist_display": "Turkmen, Ersari tribe",
 	"sort_artist": "Turkmen, Ersari tribe",
+	"culture_group": [
+		"Turkmen",
+		"Turkmen, Ersari tribe"
+	],
 	"display_year": "1801–1900",
 	"doc_id": "2000.118.9",
 	"slug": "2000.118.9/prayer-rug-namazlyk",
 	"has_image": true,
 	"has_provenance": true,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 1801,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Silk",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
 		},
 		{
-			"parent": "Wool",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Knotted pile"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
-		{
-			"region": "Central Asia",
-			"country": "Turkmenistan",
-			"state": "",
-			"notable": ""
-		},
 		{
 			"region": "Central Asia",
 			"country": "Afghanistan",
 			"state": "",
 			"notable": ""
+		},
+		{
+			"region": "Central Asia",
+			"country": "Turkmenistan",
+			"state": "",
+			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — ,  · Turkmenistan, Afghanistan",
+		"reason": "grid-facets real slice — Silk, Wool, Knotted pile · Afghanistan, Turkmenistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 50
+		"populated_fields": 52
 	}
 }

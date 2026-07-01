@@ -13,7 +13,7 @@
 		"appliedaccessory objects, warp wrapping",
 		"silk cloth (lining)"
 	],
-	"credit_line": "Museum purchase, Textile Arts Council Endowment Fund and Gift of  Ngawang and Pema Bista",
+	"credit_line": "Museum purchase, Textile Arts Council Endowment Fund and Gift of Ngawang and Pema Bista",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
 	"subclassification": "Accessory",
@@ -73,21 +73,21 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 121046,
-			"image_id": 43094,
-			"rank": 2,
-			"primary": false,
-			"display_order": 1,
+			"media_xref_id": 121045,
+			"image_id": 42084,
+			"rank": 1,
+			"file_date": "2023-02-27 06:24:26",
+			"primary": true,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 2839,
 			"width": 1288,
-			"file_name": "1126200210550135.jpg",
+			"file_name": "1107200215060249.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -99,21 +99,21 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 121045,
-			"image_id": 42084,
-			"rank": 1,
-			"primary": true,
-			"display_order": 1,
+			"media_xref_id": 121046,
+			"image_id": 43094,
+			"rank": 2,
+			"file_date": "2023-02-27 06:24:59",
+			"primary": false,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 2839,
 			"width": 1288,
-			"file_name": "1107200215060249.jpg",
+			"file_name": "1126200210550135.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -133,26 +133,6 @@
 	"dimensions": [
 		{
 			"value": "49 x 16 in. (124.5 x 40.6 cm)",
-			"type": "Height",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 124.5,
-				"width_cm": 40.6,
-				"depth_cm": null,
-				"height_in": 49.0,
-				"width_in": 16.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "49 x 16 in. (124.5 x 40.6 cm)",
-			"type": "Width",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -171,6 +151,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -232,40 +213,59 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": [
+		"Kirati"
+	],
 	"display_year": null,
 	"doc_id": "2002.111",
 	"slug": "2002.111/woman-s-festival-headdress-perak",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Glass",
-			"specific": "glas"
+			"section": "Ceramic & glass",
+			"subcategory": "Glass",
+			"specific": "Glass (unspecified)"
 		},
 		{
-			"parent": "Gold & silver",
-			"specific": "silver"
+			"section": "Decorative & other materials",
+			"subcategory": "Beads, feathers & plant material",
+			"specific": "Amber"
 		},
 		{
-			"parent": "Silk",
+			"section": "Decorative & other materials",
+			"subcategory": "Beads, feathers & plant material",
+			"specific": "Coral"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Precious metal (gold, silver)",
+			"specific": "Silver"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
 			"specific": ""
 		},
 		{
-			"parent": "Stone",
-			"specific": "turquoise"
-		},
-		{
-			"parent": "Wool",
+			"section": "Textile",
+			"subcategory": "Thread & trimmings",
 			"specific": ""
-		},
-		{
-			"parent": "Yarn & thread",
-			"specific": "metallic thread"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "East Asia",
@@ -275,8 +275,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — glas, silver, , turquoise … · Ladakh",
+		"reason": "grid-facets real slice — Glass (unspecified), Amber, Coral, Silver … · Ladakh",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 38
+		"populated_fields": 40
 	}
 }

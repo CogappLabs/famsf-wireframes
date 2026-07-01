@@ -55,13 +55,13 @@
 			"media_xref_id": 143349,
 			"image_id": 23114,
 			"rank": 1,
+			"file_date": "2023-02-27 06:15:02",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 2000,
@@ -81,13 +81,13 @@
 			"media_xref_id": 143350,
 			"image_id": 17584,
 			"rank": 2,
+			"file_date": "2023-02-27 06:12:11",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 903,
@@ -112,26 +112,6 @@
 	"dimensions": [
 		{
 			"value": "46 x 44 in. (116.8 x 111.8 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 116.8,
-				"width_cm": 111.8,
-				"depth_cm": null,
-				"height_in": 46.0,
-				"width_in": 44.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "46 x 44 in. (116.8 x 111.8 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -150,6 +130,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -201,28 +182,37 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": null,
 	"display_year": null,
 	"doc_id": "2013.67.7",
 	"slug": "2013.67.7/saddle-cover",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Silk",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
 		},
 		{
-			"parent": "Textile",
-			"specific": "velvet"
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
 		},
 		{
-			"parent": "Trimmings",
-			"specific": "fringe"
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Weaving"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Woven & worked cloth",
+			"specific": "Velvet"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "Middle East",
@@ -232,8 +222,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , velvet, fringe · Iran",
+		"reason": "grid-facets real slice — Cotton, Silk, Weaving, Velvet · Iran",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 37
 	}
 }

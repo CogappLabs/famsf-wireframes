@@ -1,0 +1,572 @@
+{
+	"id": 266709,
+	"accession_number": "78.43",
+	"sort_number": "78.43",
+	"title": "Game table",
+	"object_name": "table",
+	"date_display": "ca. 1830",
+	"date_start": "1825",
+	"date_end": "1835",
+	"medium": "Rosewood, mahogany, pine, brass, paint, and gilding",
+	"medium_parts": [
+		"Rosewood, mahogany, pine, brass, paint, and gilding"
+	],
+	"credit_line": "Gift of Mrs. John Alden Converse",
+	"department": "American Decorative Arts and Sculpture",
+	"classification": "Furnishing",
+	"subclassification": null,
+	"culture": null,
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": true,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2022-10-05 18:25:28.790000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "1978-08-01",
+	"location_string": "de Young, Display, Gallery 022",
+	"location_building": "de Young",
+	"location_room": "Gallery 022",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Game table",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 14118,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Unidentified",
+			"name_sort": "Unidentified",
+			"Nationality": "American",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "New York, American",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Unidentified"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 81023,
+			"image_id": 12650,
+			"rank": 1,
+			"file_date": "2023-02-27 06:09:22",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1449,
+			"width": 1655,
+			"file_name": "0104200108410001.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "29 1/2 x 18 1/8 in. (75 x 46 cm)",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 75.0,
+				"width_cm": 46.0,
+				"depth_cm": null,
+				"height_in": 29.5,
+				"width_in": 18.125,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"id": 16110964,
+			"term": "Copyright status is public domain",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Copyright status is public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"id": 17130463,
+			"term": "New York City",
+			"type": "N/A",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFW",
+					"term": "New York"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFW.AAAJG",
+					"term": "New York"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"id": 16609259,
+			"term": "mahogany",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ACL",
+					"term": "mahogany"
+				}
+			]
+		},
+		{
+			"id": 16613116,
+			"term": "rosewood",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ADJ",
+					"term": "rosewood"
+				}
+			]
+		},
+		{
+			"id": 16536800,
+			"term": "pine",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAB",
+					"term": "softwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAB.AAN",
+					"term": "pine"
+				}
+			]
+		},
+		{
+			"id": 16388447,
+			"term": "gilding",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAB",
+					"term": "metal by form"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAB.AAE",
+					"term": "gilding"
+				}
+			]
+		},
+		{
+			"id": 16212757,
+			"term": "brass",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
+					"term": "metal by composition or origin"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB",
+					"term": "nonferrous metal"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK",
+					"term": "copper and copper alloy"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB",
+					"term": "copper alloy"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB.AAA",
+					"term": "brass"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unidentified",
+	"primary_artist_display": "Unidentified",
+	"sort_artist": "Unidentified",
+	"culture_group": [],
+	"display_year": "1825–35",
+	"doc_id": "78.43",
+	"slug": "78.43/game-table",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": 1825,
+	"facet_medium": [
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Base metal (bronze, iron, copper)",
+			"specific": "Brass"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Other material",
+			"specific": ""
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Other material",
+			"specific": "Pine"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Other material",
+			"specific": "Rosewood"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Wood",
+			"specific": "Mahogany"
+		},
+		{
+			"section": "Painting",
+			"subcategory": "Other paint",
+			"specific": "Paint"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "United States",
+			"state": "New York",
+			"notable": "New York City"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Brass, Other material, Pine, Rosewood … · New York City",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

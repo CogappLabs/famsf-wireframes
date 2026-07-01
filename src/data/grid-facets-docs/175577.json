@@ -1,0 +1,398 @@
+{
+	"id": 175577,
+	"accession_number": "2018.28.1.99a-b",
+	"sort_number": "2018.28.1.99a-b",
+	"title": "suit ensemble: jacket and skirt",
+	"object_name": "woman's costume",
+	"date_display": "1996",
+	"date_start": "1991",
+	"date_end": "2001",
+	"medium": "Worn by Christine Suppes (American, b. 1953) Wool gauze, silk satin weave, quilted silk, synthetic horsehair appliqué; floral-shaped plastic sequins, glass bugle beads, sequins, and seed beads, and painted imitation pearl; molded plastic and rhinestone buttons",
+	"medium_parts": [
+		"Worn by Christine Suppes (American, b. 1953) Wool gauze, silk satin weave, quilted silk, synthetic horsehair appliqué",
+		"floral-shaped plastic sequins, glass bugle beads, sequins, and seed beads, and painted imitation pearl",
+		"molded plastic and rhinestone buttons"
+	],
+	"credit_line": "Gift of Christine Suppes in memory of Mary Jane Johnson",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2024-08-20 13:55:29.180000",
+	"is_virtual": false,
+	"identifying_description": "Women’s suit of black waffled wool with silk trim: (a) jewel neckline with silk collar; two oversized buttons encrusted with rhinestones and pearl beads (b) mid-length skirt with thick waistband.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Worn by Christine Suppes",
+	"label_text": "Jacket: (black label with white text at center back)“CHANEL”",
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "2018-06-05",
+	"location_string": "UOVO, Livermore",
+	"location_building": "UOVO",
+	"location_room": null,
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "suit ensemble: jacket and skirt",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 2100,
+			"Role": "Designer",
+			"RoleID": 67,
+			"name": "Karl Lagerfeld",
+			"name_sort": "Karl Lagerfeld",
+			"Nationality": "German",
+			"place_born": "Hamburg",
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": 1933,
+			"EndDate": 2019,
+			"dates": "1933 - 2019",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Karl Lagerfeld (1933–2019)"
+		},
+		{
+			"id": 18890,
+			"Role": "House of",
+			"RoleID": 356,
+			"name": "Chanel",
+			"name_sort": "Chanel",
+			"Nationality": "French",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": 1910,
+			"EndDate": null,
+			"dates": "est. 1910",
+			"Institution": "House of Chanel",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 1910"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 220812,
+			"image_id": 231412,
+			"rank": 0,
+			"file_date": "2024-08-29 00:52:07.68",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 12817,
+			"width": 9607,
+			"file_name": "MS_175577_FSF-DeInstall-Photography_20240816_2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 220811,
+			"image_id": 231411,
+			"rank": 0,
+			"file_date": "2024-08-29 00:43:49.31",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 12817,
+			"width": 9607,
+			"file_name": "MS_175577_FSF-DeInstall-Photography_20240816_1_Crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 220810,
+			"image_id": 231410,
+			"rank": 0,
+			"file_date": "2024-08-29 00:29:04.717",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 12817,
+			"width": 9607,
+			"file_name": "MS_175577_FSF-DeInstall-Photography_20240816_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 179974,
+			"image_id": 196629,
+			"rank": 0,
+			"file_date": "2023-02-27 06:08:12",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4032,
+			"width": 3024,
+			"file_name": "A411010.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "25 1/2 in., (64.8 cm,)",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 64.8,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 25.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "19 1/2 in., (49.5 cm,)",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 49.5,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 19.5,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 17716137,
+			"term": "Paris",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME",
+					"term": "Île-de-France"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AABMN",
+					"term": "Paris"
+				}
+			]
+		},
+		{
+			"id": 20618668,
+			"term": "France",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Karl Lagerfeld",
+	"primary_artist_display": "Karl Lagerfeld (1933–2019)",
+	"sort_artist": "Karl Lagerfeld",
+	"culture_group": [],
+	"display_year": "1991–2001",
+	"doc_id": "2018.28.1.99a-b",
+	"slug": "2018.28.1.99a-b/suit-ensemble-jacket-and-skirt",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": 1991,
+	"facet_medium": [
+		{
+			"section": "Ceramic & glass",
+			"subcategory": "Glass",
+			"specific": "Glass (unspecified)"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Beads, feathers & plant material",
+			"specific": ""
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Plastic & synthetic",
+			"specific": ""
+		},
+		{
+			"section": "Painting",
+			"subcategory": "Other paint",
+			"specific": ""
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
+			"specific": ""
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Thread & trimmings",
+			"specific": "Sequins"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"state": "",
+			"notable": "Paris"
+		},
+		{
+			"region": "Europe",
+			"country": "France",
+			"state": "",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Glass (unspecified), Beads, feathers & plant material, Plastic & synthetic, Other paint … · Paris, France",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

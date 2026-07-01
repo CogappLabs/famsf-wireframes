@@ -8,7 +8,9 @@
 	"date_start": null,
 	"date_end": null,
 	"medium": "Wood, pigment, fiber, mammal skin, gum",
-	"medium_parts": ["Wood, pigment, fiber, mammal skin, gum"],
+	"medium_parts": [
+		"Wood, pigment, fiber, mammal skin, gum"
+	],
 	"credit_line": "Gift of Marcia and John Friede in honor of Diane B. Wilsey and Harry S. Parker III",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Musical Instrument",
@@ -21,8 +23,8 @@
 	"last_modified": "2026-04-23 13:55:29.080000",
 	"is_virtual": false,
 	"identifying_description": "Large drum reserved for use at samb-zi, a great festive song. At the base, a curvilinear relief carving references the organic form of a wasp hive, and at the top a star or flying fox. Patterns are enhanced with white, black, and red pigments. The mammal skin is probably tree kangaroo, Dendrolagus, and the gum is blood and lime.",
-	"web_text": "1 OBJECT LABEL + EXTENDED TEXT\r\nCASE LABEL \r\n<BR>(5 X ?) MAGNETIC SLANT DECK\r\n<BR>\r\n<BR>Drum, kandara\r\n<BR>West Papua (Irian Jaya), South Coast, Merauke area, Marind-anim people\r\n<BR>19th century\r\n<BR>Wood, pigment, fiber, skin, and gum\r\n<BR>Gift of Marcia and John Friede in honor of Diane B. Wilsey and Harry S. Parker III\r\n<BR>2007.44.89 (cat. no. 508)\r\n<BR>\r\n<BR>For the Marind-anim people who live on the southern coast of New Guinea, performances are an integral part of life. This large drum is reserved for samb-zi, a great festive song restricted to male participation. Drummers assemble around a big fire, heating and tightening the head of their drums, and dancers with reed and feather headdresses quietly huddle. When the drumming starts, the dancers begin moving to its moderate tempo, swinging all the ornaments hanging from their bodies. As the drummers increase their cadence, the dancers increase their speed, and their wooden phalluses swing up and down.\r\n<BR>\r\n<BR>An elegant hourglass shape and skillfully proportioned handle distinguish this tall Marind-anim drum (kandara). Mammal skin is stretched over the top of the wooden chamber and attached using a mixture of blood and lime. Curvilinear relief carvings imitate the form of a wasp hive at the base with a star or flying fox at the top. These patterns are beautifully enhanced with white, black, and red pigments.\r\n<BR>\r\n<BR>\r\n<BR>",
-	"didactic_label": "For the Marind-anim people who live on the southern coast of New Guinea, performances are an integral part of life. This large drum is reserved for samb-zi, a great festive song restricted to male participation. Drummers assemble around a big fire, heating and tightening the head of their drums, and dancers with reed and feather headdresses quietly huddle. When the drumming starts, the dancers begin moving to its moderate tempo, swinging all the ornaments hanging from their bodies. As the drummers increase their cadence, the dancers increase their speed, and their wooden phalluses swing up and down.\r\n\r\nAn elegant hourglass shape and skillfully proportioned handle distinguish this tall Marind-anim drum (kandara). Mammal skin is stretched over the top of the wooden chamber and attached using a mixture of blood and lime. Curvilinear relief carvings imitate the form of a wasp hive at the base with a star or flying fox at the top. These patterns are beautifully enhanced with white, black, and red pigments.",
+	"web_text": "1 OBJECT LABEL + EXTENDED TEXT\nCASE LABEL \n(5 X ?) MAGNETIC SLANT DECK\n\nDrum, kandara\nWest Papua (Irian Jaya), South Coast, Merauke area, Marind-anim people\n19th century\nWood, pigment, fiber, skin, and gum\nGift of Marcia and John Friede in honor of Diane B. Wilsey and Harry S. Parker III\n2007.44.89 (cat. no. 508)\n\nFor the Marind-anim people who live on the southern coast of New Guinea, performances are an integral part of life. This large drum is reserved for samb-zi, a great festive song restricted to male participation. Drummers assemble around a big fire, heating and tightening the head of their drums, and dancers with reed and feather headdresses quietly huddle. When the drumming starts, the dancers begin moving to its moderate tempo, swinging all the ornaments hanging from their bodies. As the drummers increase their cadence, the dancers increase their speed, and their wooden phalluses swing up and down.\n\nAn elegant hourglass shape and skillfully proportioned handle distinguish this tall Marind-anim drum (kandara). Mammal skin is stretched over the top of the wooden chamber and attached using a mixture of blood and lime. Curvilinear relief carvings imitate the form of a wasp hive at the base with a star or flying fox at the top. These patterns are beautifully enhanced with white, black, and red pigments.",
+	"didactic_label": "For the Marind-anim people who live on the southern coast of New Guinea, performances are an integral part of life. This large drum is reserved for samb-zi, a great festive song restricted to male participation. Drummers assemble around a big fire, heating and tightening the head of their drums, and dancers with reed and feather headdresses quietly huddle. When the drumming starts, the dancers begin moving to its moderate tempo, swinging all the ornaments hanging from their bodies. As the drummers increase their cadence, the dancers increase their speed, and their wooden phalluses swing up and down.\n\nAn elegant hourglass shape and skillfully proportioned handle distinguish this tall Marind-anim drum (kandara). Mammal skin is stretched over the top of the wooden chamber and attached using a mixture of blood and lime. Curvilinear relief carvings imitate the form of a wasp hive at the base with a star or flying fox at the top. These patterns are beautifully enhanced with white, black, and red pigments.",
 	"exhibition_history_text": "2005 - New Guinea Art. Masterpieces from the Jolika Collection of Marcia and John Friede. De Young Museum, San Francisco, 2005.",
 	"bibliography_text": null,
 	"provenance": "\"Collected by Father Petrus Vertenten, m.s.c., between 1910-25, Missionaries of the Sacred Heart, Tilburg, The Netherlands.\" (Catalog #508, New Guinea Art: Masterpieces from the Jolika Collection of Marcia and John Friede, 2005, Volume 2, p. 171.)",
@@ -35,7 +37,7 @@
 	"location_room": "Gallery 030",
 	"edition": null,
 	"signed": null,
-	"inscribed": "L05.1.290 A361205\r\nowner number 508",
+	"inscribed": "L05.1.290 A361205\nowner number 508",
 	"markings": null,
 	"titles": [
 		{
@@ -72,13 +74,13 @@
 			"media_xref_id": 122216,
 			"image_id": 14687,
 			"rank": 1,
+			"file_date": "2023-02-27 06:10:30",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 1344,
@@ -103,7 +105,6 @@
 	"dimensions": [
 		{
 			"value": "60 in. (152.4 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -122,6 +123,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -133,34 +135,6 @@
 	"is_compound": false,
 	"term_rights_statement": null,
 	"term_place_of_creation": [
-		{
-			"id": 20889468,
-			"term": "South Papua Province",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAQC",
-					"term": "Indonesia"
-				},
-				{
-					"depth": 4,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAQC.AAAEM",
-					"term": "South Papua Province"
-				}
-			]
-		},
 		{
 			"id": 20261389,
 			"term": "Merauke",
@@ -193,6 +167,34 @@
 					"term": "Merauke"
 				}
 			]
+		},
+		{
+			"id": 20889468,
+			"term": "South Papua Province",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQC",
+					"term": "Indonesia"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQC.AAAEM",
+					"term": "South Papua Province"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -211,41 +213,51 @@
 	"primary_artist": "Marind-Anim",
 	"primary_artist_display": "Marind-Anim",
 	"sort_artist": "Marind-Anim",
+	"culture_group": [
+		"Marind-Anim"
+	],
 	"display_year": null,
 	"doc_id": "2007.44.89",
 	"slug": "2007.44.89/drum-kandara",
 	"has_image": true,
 	"has_provenance": true,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Pigment",
+			"section": "Decorative & other materials",
+			"subcategory": "Wood",
 			"specific": ""
 		},
 		{
-			"parent": "Wood",
+			"section": "Painting",
+			"subcategory": "Other paint",
+			"specific": ""
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
 			"specific": ""
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
-		{
-			"region": "Southeast Asia",
-			"country": "Indonesia",
-			"state": "",
-			"notable": "South Papua Province"
-		},
 		{
 			"region": "Southeast Asia",
 			"country": "",
 			"state": "",
 			"notable": "Merauke"
+		},
+		{
+			"region": "Southeast Asia",
+			"country": "Indonesia",
+			"state": "",
+			"notable": "South Papua Province"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — ,  · South Papua Province, Merauke",
+		"reason": "grid-facets real slice — Wood, Other paint, Other textile · Merauke, South Papua Province",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 45
 	}
 }

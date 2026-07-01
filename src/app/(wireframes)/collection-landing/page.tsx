@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Suspense } from "react";
 import {
 	Container,
+	ExternalLink,
 	ImagePlaceholder,
 	ScopeMark,
 	SectionLabel,
@@ -369,11 +370,10 @@ function CollectionLandingContent() {
 							</p>
 							<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
 								{READ_WATCH_LISTEN.map((item) => (
-									<a
+									<ExternalLink
 										key={item.title}
 										href="https://www.famsf.org/learn-engage/read-watch-listen"
-										target="_blank"
-										rel="noopener noreferrer"
+										corner
 										className="flex flex-col border border-gray-300 transition-colors hover:border-gray-500"
 									>
 										<ImagePlaceholder aspect="16/9" label={`[${item.kind}]`} />
@@ -391,7 +391,7 @@ function CollectionLandingContent() {
 												{item.meta}
 											</span>
 										</div>
-									</a>
+									</ExternalLink>
 								))}
 							</div>
 						</Container>

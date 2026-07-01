@@ -14,7 +14,7 @@
 		"photogravure with colored pencil (?)",
 		"and woodcut, on Twinrocker handmade paper"
 	],
-	"credit_line": "Gift of the Reva and David Logan  Foundation",
+	"credit_line": "Gift of the Reva and David Logan Foundation",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Print",
 	"subclassification": null,
@@ -28,7 +28,7 @@
 	"identifying_description": "Portfolio in a film canister with a poem by John Ashbery, illustrations by multiple artists",
 	"web_text": null,
 	"didactic_label": null,
-	"exhibition_history_text": "CPLH, Artists' Books in the Modern Era  1870 - 2000: YThe Reva and David Logan Collection of Illustrated Books, 6 Oct 2001 - 6 Jan 2002.",
+	"exhibition_history_text": "CPLH, Artists' Books in the Modern Era 1870 - 2000: YThe Reva and David Logan Collection of Illustrated Books, 6 Oct 2001 - 6 Jan 2002.",
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
@@ -157,7 +157,7 @@
 			"place_born": "Holland",
 			"place_died": "New York",
 			"place_active": null,
-			"attribution_prefix": null,
+			"attribution_prefix": "",
 			"BeginDate": 1904,
 			"EndDate": 1997,
 			"dates": "American, born Holland, 1904–1997",
@@ -176,7 +176,7 @@
 			"place_born": "Holland",
 			"place_died": "New York",
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": null,
 			"BeginDate": 1904,
 			"EndDate": 1997,
 			"dates": "American, born Holland, 1904–1997",
@@ -266,12 +266,12 @@
 			"Role": "Artist",
 			"RoleID": 1,
 			"name": "Alex Katz",
-			"name_sort": "Alex Katz",
+			"name_sort": "Katz,  Alex",
 			"Nationality": "American",
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": null,
 			"BeginDate": 1927,
 			"EndDate": null,
 			"dates": "b. 1927",
@@ -285,12 +285,12 @@
 			"Role": "Artist",
 			"RoleID": 1,
 			"name": "Alex Katz",
-			"name_sort": "Alex Katz",
+			"name_sort": "Katz,  Alex",
 			"Nationality": "American",
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": null,
+			"attribution_prefix": "",
 			"BeginDate": 1927,
 			"EndDate": null,
 			"dates": "b. 1927",
@@ -419,13 +419,13 @@
 			"media_xref_id": 104747,
 			"image_id": 149811,
 			"rank": 1,
+			"file_date": "2023-02-27 07:21:38",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 1296,
@@ -450,45 +450,6 @@
 	"dimensions": [
 		{
 			"value": "19 3/16 x 19 3/16 x 1 9/16 in. (48.8 x 48.8 x 4 cm)",
-			"type": "Width",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 48.8,
-				"width_cm": 48.8,
-				"depth_cm": 4.0,
-				"height_in": 19.1875,
-				"width_in": 19.1875,
-				"depth_in": 1.5625,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "19 3/16 x 19 3/16 x 1 9/16 in. (48.8 x 48.8 x 4 cm)",
-			"type": "Height",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 48.8,
-				"width_cm": 48.8,
-				"depth_cm": 4.0,
-				"height_in": 19.1875,
-				"width_in": 19.1875,
-				"depth_in": 1.5625,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "19 3/16 x 19 3/16 x 1 9/16 in. (48.8 x 48.8 x 4 cm)",
-			"type": "Depth",
 			"element": "Overall",
 			"unit": "Inches",
 			"rank": 1,
@@ -507,6 +468,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -602,28 +564,47 @@
 	"primary_artist": "Richard Avedon",
 	"primary_artist_display": "Richard Avedon (1923–2004)",
 	"sort_artist": "Richard Avedon",
+	"culture_group": [],
 	"display_year": "1984",
 	"doc_id": "2000.200.24.1-8",
 	"slug": "2000.200.24.1-8/self-portrait-in-a-convex-mirror-by-john-ashbery",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 1984,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Metal",
+			"section": "Decorative & other materials",
+			"subcategory": "Other material",
+			"specific": "Metal"
+		},
+		{
+			"section": "Photograph",
+			"subcategory": "Photogravure / photomechanical",
 			"specific": ""
 		},
 		{
-			"parent": "Pencil, chalk & crayon",
-			"specific": "pencil"
+			"section": "Print",
+			"subcategory": "Etching & engraving (intaglio)",
+			"specific": "Mixed / other intaglio"
 		},
 		{
-			"parent": "Stone",
-			"specific": ""
+			"section": "Print",
+			"subcategory": "Lithographs (planographic)",
+			"specific": "Mixed / other planographic"
+		},
+		{
+			"section": "Print",
+			"subcategory": "Relief prints (woodcut, linocut)",
+			"specific": "Letterpress & line block"
+		},
+		{
+			"section": "Print",
+			"subcategory": "Relief prints (woodcut, linocut)",
+			"specific": "Woodcut"
 		}
 	],
-	"facet_technique": ["aquatint", "photogravure", "woodcut"],
 	"facet_place": [
 		{
 			"region": "North America",
@@ -633,7 +614,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , pencil, , aquatint … · San Francisco",
+		"reason": "grid-facets real slice — Metal, Photogravure / photomechanical, Mixed / other intaglio, Mixed / other planographic … · San Francisco",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

@@ -22,7 +22,7 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2024-09-12 16:16:23.460000",
 	"is_virtual": false,
-	"identifying_description": "design created by three panels of Nast'aliq  script  in black ink set at right angles to a small panel in black ink in Farsi, with decorative borders",
+	"identifying_description": "design created by three panels of Nast'aliq script in black ink set at right angles to a small panel in black ink in Farsi, with decorative borders",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -71,37 +71,11 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 20542,
-			"image_id": 114480,
-			"rank": 1,
-			"primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 1910,
-			"width": 2580,
-			"file_name": "5131162228160006.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 205047,
 			"image_id": 212538,
 			"rank": 1,
+			"file_date": "2023-05-23 23:16:42",
 			"primary": false,
-			"display_order": 3,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
@@ -121,6 +95,32 @@
 			"blurhash": null,
 			"iiif_width": null,
 			"iiif_height": null
+		},
+		{
+			"media_xref_id": 20542,
+			"image_id": 114480,
+			"rank": 1,
+			"file_date": "2023-02-27 07:02:57",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1910,
+			"width": 2580,
+			"file_name": "5131162228160006.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -131,26 +131,6 @@
 	"dimensions": [
 		{
 			"value": "17 1/2 x 24 1/8 in. (44.5 x 61.3 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Album Page (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 44.5,
-				"width_cm": 61.3,
-				"depth_cm": null,
-				"height_in": 17.5,
-				"width_in": 24.125,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "17 1/2 x 24 1/8 in. (44.5 x 61.3 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Album Page (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -169,26 +149,6 @@
 		},
 		{
 			"value": "16 13/16 x 6 1/2 in. (42.7 x 16.5 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Sheets (Four) (4D)",
-			"unit": "Inches",
-			"rank": 2,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 42.7,
-				"width_cm": 16.5,
-				"depth_cm": null,
-				"height_in": 16.8125,
-				"width_in": 6.5,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "16 13/16 x 6 1/2 in. (42.7 x 16.5 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Sheets (Four) (4D)",
 			"unit": "Inches",
 			"rank": 2,
@@ -207,6 +167,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -374,32 +335,37 @@
 	"primary_artist": "Hafiz Nur Allah",
 	"primary_artist_display": "Hafiz Nur Allah",
 	"sort_artist": "Hafiz Nur Allah",
+	"culture_group": [],
 	"display_year": "1780",
 	"doc_id": "1982.2.70.11",
 	"slug": "1982.2.70.11/a-page-of-calligraphy-from-the-lady-coote-album",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 1780,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Gold & silver",
-			"specific": "gold"
+			"section": "Decorative & other materials",
+			"subcategory": "Precious metal (gold, silver)",
+			"specific": "Gold"
 		},
 		{
-			"parent": "Gold & silver",
-			"specific": "silver"
+			"section": "Decorative & other materials",
+			"subcategory": "Precious metal (gold, silver)",
+			"specific": "Silver"
 		},
 		{
-			"parent": "Ink",
+			"section": "Drawing",
+			"subcategory": "Ink",
+			"specific": "Ink (unspecified)"
+		},
+		{
+			"section": "Painting",
+			"subcategory": "Watercolor",
 			"specific": ""
-		},
-		{
-			"parent": "Paint",
-			"specific": "transparent watercolor"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "East Asia",
@@ -415,8 +381,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — gold, silver, , transparent watercolor · Lucknow, Mughal Empire",
+		"reason": "grid-facets real slice — Gold, Silver, Ink (unspecified), Watercolor · Lucknow, Mughal Empire",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 46
 	}
 }

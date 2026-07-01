@@ -8,8 +8,11 @@
 	"date_start": "1830",
 	"date_end": "1831",
 	"medium": "Wool, cotton (?); knotted pile",
-	"medium_parts": ["Wool, cotton (?)", "knotted pile"],
-	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nBequest of H. McCoy Jones",
+	"medium_parts": [
+		"Wool, cotton (?)",
+		"knotted pile"
+	],
+	"credit_line": "The Caroline and H. McCoy Jones Collection\nBequest of H. McCoy Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Furnishing",
 	"subclassification": null,
@@ -76,37 +79,11 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 226128,
-			"image_id": 238009,
-			"rank": 0,
-			"primary": false,
-			"display_order": 3,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 14648,
-			"width": 6403,
-			"file_name": "MS_75499_20241205-01.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 226130,
 			"image_id": 238011,
 			"rank": 0,
+			"file_date": "2024-12-06 13:32:13.067",
 			"primary": false,
-			"display_order": 4,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -128,16 +105,42 @@
 			"iiif_height": null
 		},
 		{
+			"media_xref_id": 226128,
+			"image_id": 238009,
+			"rank": 0,
+			"file_date": "2024-12-06 13:28:24.713",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 14648,
+			"width": 6403,
+			"file_name": "MS_75499_20241205-01.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
 			"media_xref_id": 162134,
 			"image_id": 116863,
 			"rank": 0,
+			"file_date": "2023-02-27 07:04:11",
 			"primary": false,
-			"display_order": 2,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 2976,
@@ -162,26 +165,6 @@
 	"dimensions": [
 		{
 			"value": "178 x 68 in. (452.1 x 172.7 cm)",
-			"type": "Height",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 452.1,
-				"width_cm": 172.7,
-				"depth_cm": null,
-				"height_in": 178.0,
-				"width_in": 68.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "178 x 68 in. (452.1 x 172.7 cm)",
-			"type": "Width",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -200,6 +183,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -397,24 +381,34 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": [
+		"Kurdish"
+	],
 	"display_year": "1830–31",
 	"doc_id": "1988.11.137",
 	"slug": "1988.11.137/carpet-fers",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 1830,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Cotton",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
 		},
 		{
-			"parent": "Wool",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Knotted pile"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "Middle East",
@@ -424,8 +418,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — ,  · Iran",
+		"reason": "grid-facets real slice — Cotton, Wool, Knotted pile · Iran",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 46
 	}
 }

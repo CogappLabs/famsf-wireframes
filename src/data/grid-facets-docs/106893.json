@@ -112,13 +112,13 @@
 			"media_xref_id": 46083,
 			"image_id": 83517,
 			"rank": 1,
+			"file_date": "2023-02-27 06:47:16",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 1589,
@@ -142,6 +142,13 @@
 	"has_iiif": false,
 	"dimensions": null,
 	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "crown-point-press-collection-web",
+			"collection_name": "Crown Point Press Collection (Web)",
+			"rank": 1858
+		}
+	],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -232,15 +239,32 @@
 	"primary_artist": "Rammellzee",
 	"primary_artist_display": "Rammellzee (1960–2010)",
 	"sort_artist": "Rammellzee",
+	"culture_group": [],
 	"display_year": "1984",
 	"doc_id": "1991.28.1095",
 	"slug": "1991.28.1095/palladium-protractor-chase-to-assassination-gothic-futurism",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": true,
 	"sort_year": 1984,
-	"facet_material": [],
-	"facet_technique": ["aquatint", "drypoint", "etching"],
+	"facet_medium": [
+		{
+			"section": "Print",
+			"subcategory": "Etching & engraving (intaglio)",
+			"specific": "Aquatint"
+		},
+		{
+			"section": "Print",
+			"subcategory": "Etching & engraving (intaglio)",
+			"specific": "Drypoint"
+		},
+		{
+			"section": "Print",
+			"subcategory": "Etching & engraving (intaglio)",
+			"specific": "Etching"
+		}
+	],
 	"facet_place": [
 		{
 			"region": "South America",
@@ -250,8 +274,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — aquatint, drypoint, etching · Colombia",
+		"reason": "grid-facets real slice — Aquatint, Drypoint, Etching · Colombia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 45
 	}
 }

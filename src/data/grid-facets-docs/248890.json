@@ -1,0 +1,422 @@
+{
+	"id": 248890,
+	"accession_number": "2005.23a-d",
+	"sort_number": "2005.23a-d",
+	"title": "Duein fubara (Ancestral screen)",
+	"object_name": null,
+	"date_display": "1890–1920",
+	"date_start": "1890",
+	"date_end": "1920",
+	"medium": "Iroko wood, bamboo, rattan, pigment, vegetable fibers, metal",
+	"medium_parts": [
+		"Iroko wood, bamboo, rattan, pigment, vegetable fibers, metal"
+	],
+	"credit_line": "Foundation purchase, Phyllis C. Wattis Fund for Major Accessions",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Ceremonial & Religious Objects",
+	"subclassification": null,
+	"culture": "Kalabari Ijo",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": true,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2023-10-18 10:31:34.727000",
+	"is_virtual": false,
+	"identifying_description": "Latticed screen with attached figures.",
+	"web_text": "Among the Ijo of the Kalabari, the Ekine ruling society kept duein fubara (ancestral screens) to memorialize and communicate with the spirits of deceased trade house founders. This screen is attributed to a lineage of artists in the eastern Niger Delta. The central figure is the ancestor, accompanied by family members or supporters. Their geometric forms and direct, intense stares are distinctly Kalabari Ijo in styl, and the figures display signs of status and power like, prestige hats, vibrant pigments, and possibly weapons. The screen would have been part of an altar or shrine located in a meeting room of the trade house. Kalabari traders played a strategic role in this region for nearly five centuries and these detailed screens also embody the cultural exchanges from centuries of trade with Europeans. Scholars note that their construction shows knowledge of European carpentry, but the representation of the figures are distinctly Kalabari.",
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "The Artist (Pokia Family)\n\nCollected in the Niger Delta River village of Abonnema in 1987 by Charles Davis, a dealer in New Orleans\n\nDavis Gallery, LA\n\nPrivate Collection, Connecticut, 1987-2004",
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "2005-04-14",
+	"location_string": "de Young, Display, Gallery 040",
+	"location_building": "de Young",
+	"location_room": "Gallery 040",
+	"edition": null,
+	"signed": null,
+	"inscribed": "A373645",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Duein fubara (Ancestral screen)",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 13216,
+			"Role": "Maker",
+			"RoleID": 56,
+			"name": "Pokia Family",
+			"name_sort": "Pokia Family",
+			"Nationality": "Kalabari Ijo",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": 1890,
+			"EndDate": 1920,
+			"dates": "active 1890–1920",
+			"Institution": "Pokia Family",
+			"ConstituentType": "Entity",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Pokia Family (1890–1920)"
+		},
+		{
+			"id": 38273,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Kalabari Ijo",
+			"name_sort": "Ijo, Kalabari",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Kalabari Ijo"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 129178,
+			"image_id": 166945,
+			"rank": 1,
+			"file_date": "2023-02-27 07:29:15",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 10831,
+			"width": 8495,
+			"file_name": "A373645_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 129179,
+			"image_id": 168165,
+			"rank": 2,
+			"file_date": "2023-02-27 07:34:07",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 7230,
+			"width": 5428,
+			"file_name": "A373645_V2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 129180,
+			"image_id": 141815,
+			"rank": 3,
+			"file_date": "2023-02-27 07:17:09",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2780,
+			"width": 2187,
+			"file_name": "0228200513430004.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 129181,
+			"image_id": 30312,
+			"rank": 4,
+			"file_date": "2023-02-27 06:18:13",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4500,
+			"width": 3709,
+			"file_name": "0604200812250029.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 129182,
+			"image_id": 150100,
+			"rank": 5,
+			"file_date": "2023-02-27 07:21:50",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 10831,
+			"width": 8495,
+			"file_name": "1020200615080008.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "35 1/2 x 34 in. (90.2 x 86.4 cm)",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 90.2,
+				"width_cm": 86.4,
+				"depth_cm": null,
+				"height_in": 35.5,
+				"width_in": 34.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "african-art-web-highlights",
+			"collection_name": "African Art Web Highlights",
+			"rank": 21
+		}
+	],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 16793394,
+			"term": "Nigeria",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAABD",
+					"term": "Nigeria"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"id": 16601348,
+			"term": "iroko",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA",
+					"term": "wood by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA",
+					"term": "hardwood"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA.AAA.AAA.ABR",
+					"term": "iroko"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Pokia Family",
+	"primary_artist_display": "Pokia Family (1890–1920)",
+	"sort_artist": "Pokia Family",
+	"culture_group": [
+		"Kalabari Ijo"
+	],
+	"display_year": "1890–1920",
+	"doc_id": "2005.23a-d",
+	"slug": "2005.23a-d/duein-fubara-ancestral-screen",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"is_highlight": true,
+	"sort_year": 1890,
+	"facet_medium": [
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Beads, feathers & plant material",
+			"specific": "Rattan"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Other material",
+			"specific": "Metal"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Wood",
+			"specific": ""
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Wood",
+			"specific": "Bamboo"
+		},
+		{
+			"section": "Painting",
+			"subcategory": "Other paint",
+			"specific": ""
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Nigeria",
+			"state": "",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Rattan, Metal, Wood, Bamboo … · Nigeria",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 50
+	}
+}

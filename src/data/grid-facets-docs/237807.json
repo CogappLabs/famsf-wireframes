@@ -77,13 +77,13 @@
 			"media_xref_id": 133616,
 			"image_id": 168005,
 			"rank": 1,
+			"file_date": "2023-02-27 07:34:52",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 7214,
@@ -103,13 +103,13 @@
 			"media_xref_id": 133618,
 			"image_id": 31555,
 			"rank": 3,
+			"file_date": "2023-02-27 06:18:51",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 7214,
@@ -134,45 +134,6 @@
 	"dimensions": [
 		{
 			"value": "49 x 8 x 1 in. (124.5 x 20.3 x 2.5 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 124.5,
-				"width_cm": 20.3,
-				"depth_cm": 2.5,
-				"height_in": 49.0,
-				"width_in": 8.0,
-				"depth_in": 1.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "49 x 8 x 1 in. (124.5 x 20.3 x 2.5 cm)",
-			"type": "Depth",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 124.5,
-				"width_cm": 20.3,
-				"depth_cm": 2.5,
-				"height_in": 49.0,
-				"width_in": 8.0,
-				"depth_in": 1.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "49 x 8 x 1 in. (124.5 x 20.3 x 2.5 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -191,6 +152,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -242,40 +204,59 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": [
+		"Yoruba"
+	],
 	"display_year": null,
 	"doc_id": "2008.49.55",
 	"slug": "2008.49.55/diviner-s-necklace-odigba-ifa",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Cotton",
-			"specific": ""
+			"section": "Ceramic & glass",
+			"subcategory": "Glass",
+			"specific": "Glass (unspecified)"
 		},
 		{
-			"parent": "Leather",
-			"specific": ""
+			"section": "Decorative & other materials",
+			"subcategory": "Animal material (ivory, bone, leather)",
+			"specific": "Leather / hide"
 		},
 		{
-			"parent": "Metal",
-			"specific": "bras"
+			"section": "Decorative & other materials",
+			"subcategory": "Base metal (bronze, iron, copper)",
+			"specific": "Brass"
 		},
 		{
-			"parent": "Paper",
-			"specific": "cardboard"
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
 		},
 		{
-			"parent": "Trimmings",
-			"specific": "glass bead"
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
 		},
 		{
-			"parent": "Wool",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Other textile",
+			"specific": "Cardboard"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Embroidery"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Weaving"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "Africa",
@@ -285,8 +266,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , , bras, cardboard … · Nigeria",
+		"reason": "grid-facets real slice — Glass (unspecified), Leather / hide, Brass, Cotton … · Nigeria",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 38
+		"populated_fields": 40
 	}
 }

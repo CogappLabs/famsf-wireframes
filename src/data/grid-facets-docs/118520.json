@@ -7,10 +7,10 @@
 	"date_display": "19th century",
 	"date_start": null,
 	"date_end": null,
-	"medium": "Wool, silk; felt, embroidery (chain stitches, ilme or ildirme),\r\nbraid (cehek)",
+	"medium": "Wool, silk; felt, embroidery (chain stitches, ilme or ildirme), braid (cehek)",
 	"medium_parts": [
 		"Wool, silk",
-		"felt, embroidery (chain stitches, ilme or ildirme),\r\nbraid (cehek)"
+		"felt, embroidery (chain stitches, ilme or ildirme), braid (cehek)"
 	],
 	"credit_line": "Gift of George and Marie Hecksher",
 	"department": "Costume and Textile Arts",
@@ -26,7 +26,7 @@
 	"identifying_description": null,
 	"web_text": "The Turkmen of Central Asia use five main stitch types for their embroideries, including chain stitches known as ilme or ildirme. As found on this cap, Turkmen chain stitches are distinguished by their rounded shape, and for being worked so tightly, often in paired lines, that their ground fabric is not visible.",
 	"didactic_label": "The Turkmen of Central Asia use five main stitch types for their embroideries, including chain stitches known as ilme or ildirme. As found on this cap, Turkmen chain stitches are distinguished by their rounded shape, and for being worked so tightly, often in paired lines, that their ground fabric is not visible.",
-	"exhibition_history_text": "Beauty, Power, and Prestige: Textiles and Costume from the Permanent Collection- New DeYoung opening, 10/05\r\nBeyond the Surface: Worldwide Embroidery Techniques, Textile Education Gallery, de Young Museum, 12/16-12/17",
+	"exhibition_history_text": "Beauty, Power, and Prestige: Textiles and Costume from the Permanent Collection- New DeYoung opening, 10/05\nBeyond the Surface: Worldwide Embroidery Techniques, Textile Education Gallery, de Young Museum, 12/16-12/17",
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
@@ -75,8 +75,8 @@
 			"media_xref_id": 119005,
 			"image_id": 169745,
 			"rank": 1,
+			"file_date": "2023-02-27 07:38:22",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -101,8 +101,8 @@
 			"media_xref_id": 119008,
 			"image_id": 169748,
 			"rank": 4,
+			"file_date": "2023-02-27 07:38:22",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -127,8 +127,8 @@
 			"media_xref_id": 119009,
 			"image_id": 169749,
 			"rank": 5,
+			"file_date": "2023-02-27 07:38:22",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -158,45 +158,6 @@
 	"dimensions": [
 		{
 			"value": "10 x 8 x 8 in. (25.4 x 20.3 x 20.3 cm)",
-			"type": "Depth",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 25.4,
-				"width_cm": 20.3,
-				"depth_cm": 20.3,
-				"height_in": 10.0,
-				"width_in": 8.0,
-				"depth_in": 8.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "10 x 8 x 8 in. (25.4 x 20.3 x 20.3 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 25.4,
-				"width_cm": 20.3,
-				"depth_cm": 20.3,
-				"height_in": 10.0,
-				"width_in": 8.0,
-				"depth_in": 8.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "10 x 8 x 8 in. (25.4 x 20.3 x 20.3 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -215,6 +176,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -266,28 +228,39 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": [
+		"Turkmen, Chodor tribe"
+	],
 	"display_year": null,
 	"doc_id": "2001.143.1",
 	"slug": "2001.143.1/woman-s-cap",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Silk",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
 		},
 		{
-			"parent": "Textile",
-			"specific": "felt"
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
 		},
 		{
-			"parent": "Wool",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Embroidery"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Woven & worked cloth",
+			"specific": "Felt"
 		}
 	],
-	"facet_technique": ["embroidery"],
 	"facet_place": [
 		{
 			"region": "Central Asia",
@@ -297,8 +270,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , felt, , embroidery · Central Asia",
+		"reason": "grid-facets real slice — Silk, Wool, Embroidery, Felt · Central Asia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 41
+		"populated_fields": 42
 	}
 }

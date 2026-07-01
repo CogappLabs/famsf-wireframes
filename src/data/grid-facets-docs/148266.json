@@ -8,7 +8,9 @@
 	"date_start": null,
 	"date_end": null,
 	"medium": "wood, paint, and hair",
-	"medium_parts": ["wood, paint, and hair"],
+	"medium_parts": [
+		"wood, paint, and hair"
+	],
 	"credit_line": "Gift of Wilfrid H. Hemingway",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Tools & Equipment",
@@ -69,37 +71,11 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 127898,
-			"image_id": 18962,
-			"rank": 2,
-			"primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 3648,
-			"width": 1903,
-			"file_name": "0311200918500014.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 127897,
 			"image_id": 14792,
 			"rank": 1,
+			"file_date": "2023-02-27 06:10:34",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
@@ -119,6 +95,32 @@
 			"blurhash": null,
 			"iiif_width": null,
 			"iiif_height": null
+		},
+		{
+			"media_xref_id": 127898,
+			"image_id": 18962,
+			"rank": 2,
+			"file_date": "2023-02-27 06:12:53",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3648,
+			"width": 1903,
+			"file_name": "0311200918500014.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -128,6 +130,7 @@
 	"has_iiif": false,
 	"dimensions": null,
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -184,24 +187,29 @@
 	"primary_artist": "Australian Aboriginal, Yindi ",
 	"primary_artist_display": "Australian Aboriginal, Yindi ",
 	"sort_artist": "Australian Aboriginal, Yindi ",
+	"culture_group": [
+		"Australian Aboriginal, Yindi "
+	],
 	"display_year": null,
 	"doc_id": "50.32.288",
 	"slug": "50.32.288/spinning-board",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Paint",
+			"section": "Decorative & other materials",
+			"subcategory": "Wood",
 			"specific": ""
 		},
 		{
-			"parent": "Wood",
-			"specific": ""
+			"section": "Painting",
+			"subcategory": "Other paint",
+			"specific": "Paint"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "Oceania",
@@ -211,8 +219,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — ,  · Western Australia",
+		"reason": "grid-facets real slice — Wood, Paint · Western Australia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 38
 	}
 }

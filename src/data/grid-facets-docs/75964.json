@@ -22,7 +22,7 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2022-06-15 15:30:50.233000",
 	"is_virtual": false,
-	"identifying_description": "Asian scenes. Figures with faces consisting of  thinly shaved ivory(100 Faces), painted and costumes of many of the figures made of silk cut out and adhered to the paper.",
+	"identifying_description": "Asian scenes. Figures with faces consisting of thinly shaved ivory(100 Faces), painted and costumes of many of the figures made of silk cut out and adhered to the paper.",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -54,13 +54,13 @@
 			"media_xref_id": 94591,
 			"image_id": 21877,
 			"rank": 1,
+			"file_date": "2023-02-27 06:14:22",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 1515,
@@ -84,6 +84,7 @@
 	"has_iiif": false,
 	"dimensions": null,
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -164,32 +165,42 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": null,
 	"display_year": "1825–75",
 	"doc_id": "1988.13.3a",
 	"slug": "1988.13.3a/fan",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 1825,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Ivory",
+			"section": "Decorative & other materials",
+			"subcategory": "Animal material (ivory, bone, leather)",
+			"specific": "Ivory / tusk"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Base metal (bronze, iron, copper)",
+			"specific": "Brass"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Wood",
 			"specific": ""
 		},
 		{
-			"parent": "Metal",
-			"specific": "brass ring"
+			"section": "Painting",
+			"subcategory": "Other paint",
+			"specific": "Paint"
 		},
 		{
-			"parent": "Paint",
-			"specific": ""
-		},
-		{
-			"parent": "Silk",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "East Asia",
@@ -199,8 +210,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , brass ring, ,  · China",
+		"reason": "grid-facets real slice — Ivory / tusk, Brass, Wood, Paint … · China",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 41
+		"populated_fields": 42
 	}
 }

@@ -55,8 +55,8 @@
 			"media_xref_id": 151651,
 			"image_id": 185832,
 			"rank": 1,
+			"file_date": "2023-02-27 08:20:11",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -81,8 +81,8 @@
 			"media_xref_id": 151652,
 			"image_id": 185840,
 			"rank": 2,
+			"file_date": "2023-02-27 08:20:11",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -111,6 +111,7 @@
 	"has_iiif": false,
 	"dimensions": null,
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -172,28 +173,37 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": null,
 	"display_year": null,
 	"doc_id": "2018.74.3",
 	"slug": "2018.74.3/man-s-sarong",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Cotton",
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
 			"specific": ""
 		},
 		{
-			"parent": "Textile",
-			"specific": "discontinuous supplementary-weft patterning"
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Weaving"
 		},
 		{
-			"parent": "Yarn & thread",
-			"specific": "metallic thread"
+			"section": "Textile",
+			"subcategory": "Thread & trimmings",
+			"specific": ""
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "Southeast Asia",
@@ -203,8 +213,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , discontinuous supplementary-weft patterning, metallic thread · Pagaralam",
+		"reason": "grid-facets real slice — Cotton, Other textile, Weaving, Thread & trimmings · Pagaralam",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 34
+		"populated_fields": 35
 	}
 }

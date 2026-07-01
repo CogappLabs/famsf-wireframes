@@ -93,8 +93,8 @@
 			"media_xref_id": 214574,
 			"image_id": 221910,
 			"rank": 0,
+			"file_date": "2024-04-26 14:30:34.047",
 			"primary": false,
-			"display_order": 4,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
@@ -116,37 +116,11 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 156244,
-			"image_id": 195124,
-			"rank": 0,
-			"primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 9626,
-			"width": 8015,
-			"file_name": "PSI_20220517_302284_1.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 179865,
 			"image_id": 196520,
 			"rank": 0,
+			"file_date": "2022-08-16 12:20:06.117",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -166,6 +140,32 @@
 			"blurhash": null,
 			"iiif_width": null,
 			"iiif_height": null
+		},
+		{
+			"media_xref_id": 156244,
+			"image_id": 195124,
+			"rank": 0,
+			"file_date": "2022-07-19 10:05:48.03",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9626,
+			"width": 8015,
+			"file_name": "PSI_20220517_302284_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -176,26 +176,6 @@
 	"dimensions": [
 		{
 			"value": "77 1/2 x 62 in. (196.85 x 157.48 cm)",
-			"type": "Height",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 196.85,
-				"width_cm": 157.48,
-				"depth_cm": null,
-				"height_in": 77.5,
-				"width_in": 62.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "77 1/2 x 62 in. (196.85 x 157.48 cm)",
-			"type": "Width",
 			"element": "Overall",
 			"unit": "Inches",
 			"rank": 1,
@@ -214,6 +194,13 @@
 		}
 	],
 	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "contemporary-art-web-highlights",
+			"collection_name": "Contemporary Art Web Highlights",
+			"rank": 31
+		}
+	],
 	"editorial_related_content": {
 		"stories": null,
 		"events": [
@@ -341,6 +328,107 @@
 	"term_school": null,
 	"term_materials": [
 		{
+			"id": 16418138,
+			"term": "canvas",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD",
+					"term": "textile materials by process or technique"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD.AAE",
+					"term": "canvas"
+				}
+			]
+		},
+		{
+			"id": 16608688,
+			"term": "graphite",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABB",
+					"term": "mineral"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABB.ACR",
+					"term": "graphite"
+				}
+			]
+		},
+		{
 			"id": 16386703,
 			"term": "vinyl paint",
 			"type": "Descriptor",
@@ -433,6 +521,59 @@
 					"depth": 6,
 					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAO",
 					"term": "chalk"
+				}
+			]
+		},
+		{
+			"id": 16397500,
+			"term": "oil paint",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
+					"term": "oil paint"
 				}
 			]
 		},
@@ -543,102 +684,6 @@
 			]
 		},
 		{
-			"id": 16397500,
-			"term": "oil paint",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
-					"term": "paint"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
-					"term": "paint by composition or origin"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAE",
-					"term": "oil paint"
-				}
-			]
-		},
-		{
-			"id": 16608688,
-			"term": "graphite",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAB",
-					"term": "materials by composition"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
-					"term": "inorganic material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABB",
-					"term": "mineral"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABB.ACR",
-					"term": "graphite"
-				}
-			]
-		},
-		{
 			"id": 16344960,
 			"term": "pastel",
 			"type": "Descriptor",
@@ -678,64 +723,6 @@
 					"depth": 7,
 					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAC",
 					"term": "pastel"
-				}
-			]
-		},
-		{
-			"id": 16418138,
-			"term": "canvas",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
-					"term": "fiber by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
-					"term": "textile materials"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD",
-					"term": "textile materials by process or technique"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD.AAE",
-					"term": "canvas"
 				}
 			]
 		},
@@ -808,44 +795,47 @@
 	"primary_artist": "Koak",
 	"primary_artist_display": "b. 1981",
 	"sort_artist": "Koak",
+	"culture_group": [],
 	"display_year": "2021",
 	"doc_id": "2022.26.7",
 	"slug": "2022.26.7/june",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": true,
 	"sort_year": 2021,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Paint",
-			"specific": "acrylic"
+			"section": "Drawing",
+			"subcategory": "Pencil, chalk & crayon",
+			"specific": "Chalk"
 		},
 		{
-			"parent": "Paint",
-			"specific": "acrylic paint"
+			"section": "Drawing",
+			"subcategory": "Pencil, chalk & crayon",
+			"specific": "Charcoal"
 		},
 		{
-			"parent": "Paint",
-			"specific": "oil"
+			"section": "Drawing",
+			"subcategory": "Pencil, chalk & crayon",
+			"specific": "Graphite / pencil"
 		},
 		{
-			"parent": "Paint",
-			"specific": "oil paint"
+			"section": "Drawing",
+			"subcategory": "Pencil, chalk & crayon",
+			"specific": "Pastel"
 		},
 		{
-			"parent": "Pencil, chalk & crayon",
-			"specific": "chalk"
+			"section": "Painting",
+			"subcategory": "Acrylic",
+			"specific": ""
 		},
 		{
-			"parent": "Pencil, chalk & crayon",
-			"specific": "graphite"
-		},
-		{
-			"parent": "Pencil, chalk & crayon",
-			"specific": "pastel"
+			"section": "Painting",
+			"subcategory": "Oil",
+			"specific": "Oil (other support)"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "North America",
@@ -855,8 +845,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — acrylic, acrylic paint, oil, oil paint … · San Francisco",
+		"reason": "grid-facets real slice — Chalk, Charcoal, Graphite / pencil, Pastel … · San Francisco",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 48
+		"populated_fields": 50
 	}
 }

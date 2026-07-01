@@ -1,0 +1,192 @@
+{
+	"id": 232010,
+	"accession_number": "77.26.20",
+	"sort_number": "77.26.20",
+	"title": "Canoe splash board",
+	"object_name": "boat",
+	"date_display": "20th century",
+	"date_start": null,
+	"date_end": null,
+	"medium": "carved wood, pigment",
+	"medium_parts": [
+		"carved wood, pigment"
+	],
+	"credit_line": "Museum purchase, Mr. and Mrs. Alec J. Merriam Fund",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Tools & Equipment",
+	"subclassification": "Transportation",
+	"culture": null,
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2012-04-30 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Purchased in Papua New Guinea by Thomas Seligman from various people.",
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "1977-01-06",
+	"location_string": "de Young, 061, Cabinet 011, B",
+	"location_building": "de Young",
+	"location_room": "Cabinet 011",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Canoe splash board",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"media": [
+		{
+			"media_xref_id": 174948,
+			"image_id": 132586,
+			"rank": 0,
+			"file_date": "2023-02-27 07:12:44",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2492,
+			"width": 1636,
+			"file_name": "9187330237160091.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "19 1/4 x 10 1/4 in. (48.9 x 26 cm)",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 48.9,
+				"width_cm": 26.0,
+				"depth_cm": null,
+				"height_in": 19.25,
+				"width_in": 10.25,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 18225610,
+			"term": "Melanesia",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAABA",
+					"term": "Melanesia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"culture_group": null,
+	"display_year": null,
+	"doc_id": "77.26.20",
+	"slug": "77.26.20/canoe-splash-board",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Painting",
+			"subcategory": "Other paint",
+			"specific": ""
+		},
+		{
+			"section": "Sculpture",
+			"subcategory": "Wood",
+			"specific": ""
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "",
+			"state": "",
+			"notable": "Melanesia"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Other paint, Wood · Melanesia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 37
+	}
+}

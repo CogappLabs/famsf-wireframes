@@ -72,63 +72,11 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 133584,
-			"image_id": 163946,
-			"rank": 2,
-			"primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 5428,
-			"width": 7230,
-			"file_name": "A384096_V2.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 133585,
-			"image_id": 31550,
-			"rank": 3,
-			"primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 5428,
-			"width": 7230,
-			"file_name": "0718200710340019.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 133583,
 			"image_id": 164005,
 			"rank": 1,
+			"file_date": "2023-02-27 11:02:13",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": null,
@@ -148,6 +96,58 @@
 			"blurhash": null,
 			"iiif_width": null,
 			"iiif_height": null
+		},
+		{
+			"media_xref_id": 133584,
+			"image_id": 163946,
+			"rank": 2,
+			"file_date": "2023-02-27 11:02:15",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5428,
+			"width": 7230,
+			"file_name": "A384096_V2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 133585,
+			"image_id": 31550,
+			"rank": 3,
+			"file_date": "2023-02-27 06:18:51",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5428,
+			"width": 7230,
+			"file_name": "0718200710340019.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -158,64 +158,6 @@
 	"dimensions": [
 		{
 			"value": "8 x 8 x 8 in. (20.3 x 20.3 x 20.3 cm)",
-			"type": "Height",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 20.3,
-				"width_cm": 20.3,
-				"depth_cm": 20.3,
-				"height_in": 8.0,
-				"width_in": 8.0,
-				"depth_in": 8.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "8 x 8 x 8 in. (20.3 x 20.3 x 20.3 cm)",
-			"type": "Width",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 20.3,
-				"width_cm": 20.3,
-				"depth_cm": 20.3,
-				"height_in": 8.0,
-				"width_in": 8.0,
-				"depth_in": 8.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "8 x 8 x 8 in. (20.3 x 20.3 x 20.3 cm)",
-			"type": "Weight",
-			"element": "Overall",
-			"unit": "Pounds",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 20.3,
-				"width_cm": 20.3,
-				"depth_cm": 20.3,
-				"height_in": 8.0,
-				"width_in": 8.0,
-				"depth_in": 8.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "8 x 8 x 8 in. (20.3 x 20.3 x 20.3 cm)",
-			"type": "Depth",
 			"element": "Overall",
 			"unit": "Inches",
 			"rank": 1,
@@ -234,6 +176,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -285,32 +228,49 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": [
+		"Yoruba"
+	],
 	"display_year": "1901–2000",
 	"doc_id": "2008.49.39",
 	"slug": "2008.49.39/coronet-orikogbofo",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 1901,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Cotton",
-			"specific": ""
+			"section": "Ceramic & glass",
+			"subcategory": "Glass",
+			"specific": "Glass (unspecified)"
 		},
 		{
-			"parent": "Metal",
-			"specific": ""
+			"section": "Decorative & other materials",
+			"subcategory": "Other material",
+			"specific": "Metal"
 		},
 		{
-			"parent": "Textile",
-			"specific": "nylon"
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
 		},
 		{
-			"parent": "Trimmings",
-			"specific": "glass bead"
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Jute"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Synthetic fiber (nylon, polyester)",
+			"specific": "Nylon"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Embroidery"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "Africa",
@@ -320,8 +280,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , , nylon, glass bead · Nigeria",
+		"reason": "grid-facets real slice — Glass (unspecified), Metal, Cotton, Jute … · Nigeria",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 47
 	}
 }

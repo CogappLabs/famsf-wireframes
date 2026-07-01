@@ -23,7 +23,7 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-03-06 11:30:51.373000",
 	"is_virtual": false,
-	"identifying_description": "Large carpet with large central medallion and quarter medallions on a red field.  Each medallion and quarter medallion is edged with an ornamental border that appears to derive from Chinese cloud motifs.  Split-leaf motifs (rumi) in the field. Colors (10): red. orange, mustard yellow, dark purple, bright dark blue, medium blue, dark green, medium green, dyed brown, white. Wefts are dark red wool.  Selvedges are original.  One end (about 12-18\") is completely rewoven.",
+	"identifying_description": "Large carpet with large central medallion and quarter medallions on a red field. Each medallion and quarter medallion is edged with an ornamental border that appears to derive from Chinese cloud motifs. Split-leaf motifs (rumi) in the field. Colors (10): red. orange, mustard yellow, dark purple, bright dark blue, medium blue, dark green, medium green, dyed brown, white. Wefts are dark red wool. Selvedges are original. One end (about 12-18\") is completely rewoven.",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -60,7 +60,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": "possibly",
 			"BeginDate": null,
 			"EndDate": null,
 			"dates": null,
@@ -79,7 +79,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": "possibly",
+			"attribution_prefix": "",
 			"BeginDate": null,
 			"EndDate": null,
 			"dates": null,
@@ -94,8 +94,8 @@
 			"media_xref_id": 206036,
 			"image_id": 213456,
 			"rank": 1,
+			"file_date": "2023-07-11 14:20:04.403",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -117,63 +117,11 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 92348,
-			"image_id": 14755,
-			"rank": 2,
-			"primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 3600,
-			"width": 2305,
-			"file_name": "0120201014130001.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 206046,
-			"image_id": 213466,
-			"rank": 1,
-			"primary": false,
-			"display_order": 8,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 14154,
-			"width": 10339,
-			"file_name": "MS_110626_20230706_5.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 206043,
 			"image_id": 213463,
 			"rank": 1,
+			"file_date": "2023-07-11 12:33:42.873",
 			"primary": false,
-			"display_order": 5,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -195,11 +143,37 @@
 			"iiif_height": null
 		},
 		{
+			"media_xref_id": 206046,
+			"image_id": 213466,
+			"rank": 1,
+			"file_date": "2023-07-11 12:29:05.597",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 14154,
+			"width": 10339,
+			"file_name": "MS_110626_20230706_5.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
 			"media_xref_id": 92347,
 			"image_id": 163458,
 			"rank": 1,
+			"file_date": "2023-02-27 10:19:41",
 			"primary": false,
-			"display_order": 2,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": null,
@@ -219,6 +193,32 @@
 			"blurhash": null,
 			"iiif_width": null,
 			"iiif_height": null
+		},
+		{
+			"media_xref_id": 92348,
+			"image_id": 14755,
+			"rank": 2,
+			"file_date": "2023-02-27 06:10:33",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3600,
+			"width": 2305,
+			"file_name": "0120201014130001.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -229,26 +229,6 @@
 	"dimensions": [
 		{
 			"value": "150 x 89 in. (381 x 226.1 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 381.0,
-				"width_cm": 226.1,
-				"depth_cm": null,
-				"height_in": 150.0,
-				"width_in": 89.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "150 x 89 in. (381 x 226.1 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -267,6 +247,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -307,29 +288,6 @@
 		}
 	],
 	"term_place_of_creation": [
-		{
-			"id": 20666688,
-			"term": "Īrān",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAQH",
-					"term": "Īrān"
-				}
-			]
-		},
 		{
 			"id": 16650701,
 			"term": "Bijar",
@@ -385,6 +343,29 @@
 					"term": "Persia"
 				}
 			]
+		},
+		{
+			"id": 20666688,
+			"term": "Īrān",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQH",
+					"term": "Īrān"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -403,27 +384,35 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": [
+		"Kurdish"
+	],
 	"display_year": "1600–99",
 	"doc_id": "1975.4.3",
 	"slug": "1975.4.3/carpet",
 	"has_image": true,
 	"has_provenance": true,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 1600,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Wool",
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
 			"specific": ""
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Knotted pile"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
-		{
-			"region": "Middle East",
-			"country": "Iran",
-			"state": "",
-			"notable": "Īrān"
-		},
 		{
 			"region": "East Asia",
 			"country": "",
@@ -435,11 +424,17 @@
 			"country": "Persia",
 			"state": "",
 			"notable": ""
+		},
+		{
+			"region": "Middle East",
+			"country": "Iran",
+			"state": "",
+			"notable": "Īrān"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice —  · Īrān, Bijar, Persia",
+		"reason": "grid-facets real slice — Wool, Other textile, Knotted pile · Bijar, Persia, Īrān",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 46
 	}
 }

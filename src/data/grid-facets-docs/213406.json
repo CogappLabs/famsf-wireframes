@@ -8,7 +8,9 @@
 	"date_start": null,
 	"date_end": null,
 	"medium": "stone",
-	"medium_parts": ["stone"],
+	"medium_parts": [
+		"stone"
+	],
 	"credit_line": "Gift of Sergeant G.H. Hornbostel",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Tools & Equipment",
@@ -72,8 +74,8 @@
 			"media_xref_id": 83275,
 			"image_id": 29971,
 			"rank": 2,
+			"file_date": "2023-02-27 06:17:00",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": null,
@@ -102,6 +104,7 @@
 	"has_iiif": false,
 	"dimensions": null,
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -113,29 +116,6 @@
 	"is_compound": false,
 	"term_rights_statement": null,
 	"term_place_of_creation": [
-		{
-			"id": 18210798,
-			"term": "Mariana Islands",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAACB",
-					"term": "Oceania"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAACB.AAAAX",
-					"term": "Mariana Islands"
-				}
-			]
-		},
 		{
 			"id": 16759499,
 			"term": "Guam",
@@ -158,6 +138,29 @@
 					"term": "Guam"
 				}
 			]
+		},
+		{
+			"id": 18210798,
+			"term": "Mariana Islands",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAAAX",
+					"term": "Mariana Islands"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -176,37 +179,41 @@
 	"primary_artist": "Chamorro",
 	"primary_artist_display": "Chamorro",
 	"sort_artist": "Chamorro",
+	"culture_group": [
+		"Chamorro"
+	],
 	"display_year": null,
 	"doc_id": "46579.34",
 	"slug": "46579.34/adze-49-74",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Stone",
-			"specific": ""
+			"section": "Decorative & other materials",
+			"subcategory": "Other material",
+			"specific": "Stone"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
-		{
-			"region": "Oceania",
-			"country": "Mariana Islands",
-			"state": "",
-			"notable": ""
-		},
 		{
 			"region": "Oceania",
 			"country": "Guam",
 			"state": "",
 			"notable": ""
+		},
+		{
+			"region": "Oceania",
+			"country": "Mariana Islands",
+			"state": "",
+			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice —  · Mariana Islands, Guam",
+		"reason": "grid-facets real slice — Stone · Guam, Mariana Islands",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 37
+		"populated_fields": 39
 	}
 }

@@ -25,7 +25,7 @@
 	"identifying_description": "edition of 30",
 	"web_text": "Conceived by Erick Lyle and Marshall Weber, STREETOPIA is an assemblage of works by twenty-four current and former San Francisco artists associated with the art movements known as the Mission School and the New Mission School. Lyle traces the project's origins to a cement graffiti tag reading \"Glitter Doll\" that he encountered on Twenty-First Street near Capp Street in the Mission. He was soon imagining the stories behind other scratches and drawings that appear all over this ever-changing city. Each book in the variable edition of 30 is subtitled with the name of a different San Francisco neighborhood and features unique works of art.",
 	"didactic_label": "Conceived by Erick Lyle and Marshall Weber, STREETOPIA is an assemblage of works by twenty-four current and former San Francisco artists associated with the art movements known as the Mission School and the New Mission School. Lyle traces the project's origins to a cement graffiti tag reading “Glitter Doll” that he encountered on Twenty-First Street near Capp Street in the Mission. He was soon imagining the stories behind other scratches and drawings that appear all over this ever-changing city. Each book in the variable edition of 30 is subtitled with the name of a different San Francisco neighborhood and features unique works of art.",
-	"exhibition_history_text": "California BookWorks\r\nCPLH, Logan Gallery, May 7 to October 16, 2016",
+	"exhibition_history_text": "California BookWorks\nCPLH, Logan Gallery, May 7 to October 16, 2016",
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
@@ -71,63 +71,11 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 140382,
-			"image_id": 168832,
-			"rank": 5,
-			"primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 6159,
-			"width": 4463,
-			"file_name": "A392453_V2.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 140387,
-			"image_id": 164242,
-			"rank": 10,
-			"primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 4449,
-			"width": 6083,
-			"file_name": "A392453_V6.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 140379,
 			"image_id": 168745,
 			"rank": 2,
+			"file_date": "2023-02-27 07:36:21",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -149,11 +97,37 @@
 			"iiif_height": null
 		},
 		{
+			"media_xref_id": 140382,
+			"image_id": 168832,
+			"rank": 5,
+			"file_date": "2023-02-27 07:36:21",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 6159,
+			"width": 4463,
+			"file_name": "A392453_V2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
 			"media_xref_id": 140383,
 			"image_id": 167299,
 			"rank": 6,
+			"file_date": "2023-02-27 07:31:43",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -173,6 +147,32 @@
 			"blurhash": null,
 			"iiif_width": null,
 			"iiif_height": null
+		},
+		{
+			"media_xref_id": 140387,
+			"image_id": 164242,
+			"rank": 10,
+			"file_date": "2023-02-27 11:24:54",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4449,
+			"width": 6083,
+			"file_name": "A392453_V6.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -183,45 +183,6 @@
 	"dimensions": [
 		{
 			"value": "9 7/8 x 8 5/16 x 7/8 in. (25.1 x 21.1 x 2.2 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Object (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 25.1,
-				"width_cm": 21.1,
-				"depth_cm": 2.2,
-				"height_in": 9.875,
-				"width_in": 8.3125,
-				"depth_in": 0.875,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "9 7/8 x 8 5/16 x 7/8 in. (25.1 x 21.1 x 2.2 cm)",
-			"type": "Height",
-			"element": "x_Do not use_Object (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 25.1,
-				"width_cm": 21.1,
-				"depth_cm": 2.2,
-				"height_in": 9.875,
-				"width_in": 8.3125,
-				"depth_in": 0.875,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "9 7/8 x 8 5/16 x 7/8 in. (25.1 x 21.1 x 2.2 cm)",
-			"type": "Depth",
 			"element": "x_Do not use_Object (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -240,6 +201,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -330,32 +292,67 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": [],
 	"display_year": "2011",
 	"doc_id": "2012.33",
 	"slug": "2012.33/streetopia-the-fillmore-brooklyn-booklyn-artists-alliance-2011",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 2011,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Paint",
-			"specific": "opaque watercolor"
+			"section": "Drawing",
+			"subcategory": "Ink",
+			"specific": "Ink (unspecified)"
 		},
 		{
-			"parent": "Pencil, chalk & crayon",
-			"specific": "crayon"
+			"section": "Drawing",
+			"subcategory": "Pen & ink",
+			"specific": ""
 		},
 		{
-			"parent": "Pencil, chalk & crayon",
-			"specific": "pencil"
+			"section": "Drawing",
+			"subcategory": "Pencil, chalk & crayon",
+			"specific": "Crayon"
 		},
 		{
-			"parent": "Textile",
-			"specific": "fabric"
+			"section": "Drawing",
+			"subcategory": "Pencil, chalk & crayon",
+			"specific": "Graphite / pencil"
+		},
+		{
+			"section": "Painting",
+			"subcategory": "Gouache / opaque watercolor",
+			"specific": ""
+		},
+		{
+			"section": "Photograph",
+			"subcategory": "Gelatin silver print",
+			"specific": ""
+		},
+		{
+			"section": "Print",
+			"subcategory": "Lithographs (planographic)",
+			"specific": "Offset lithograph"
+		},
+		{
+			"section": "Print",
+			"subcategory": "Screenprints & stencils",
+			"specific": "Screenprint"
+		},
+		{
+			"section": "Print",
+			"subcategory": "Screenprints & stencils",
+			"specific": "Stencil"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Woven & worked cloth",
+			"specific": ""
 		}
 	],
-	"facet_technique": ["screenprint"],
 	"facet_place": [
 		{
 			"region": "North America",
@@ -365,7 +362,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — opaque watercolor, crayon, pencil, fabric … · San Francisco",
+		"reason": "grid-facets real slice — Ink (unspecified), Pen & ink, Crayon, Graphite / pencil … · San Francisco",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

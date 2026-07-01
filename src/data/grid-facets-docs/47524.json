@@ -93,13 +93,13 @@
 			"media_xref_id": 100803,
 			"image_id": 124170,
 			"rank": 1,
+			"file_date": "2023-02-27 07:08:13",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 1792,
@@ -124,26 +124,6 @@
 	"dimensions": [
 		{
 			"value": "22 x 20 1/2 in. (55.9 x 52.1 cm)",
-			"type": "Height",
-			"element": "x_Do not use_Sheet (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 55.9,
-				"width_cm": 52.1,
-				"depth_cm": null,
-				"height_in": 22.0,
-				"width_in": 20.5,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "22 x 20 1/2 in. (55.9 x 52.1 cm)",
-			"type": "Width",
 			"element": "x_Do not use_Sheet (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -162,6 +142,13 @@
 		}
 	],
 	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "anderson-collection-web",
+			"collection_name": "Anderson Collection (Web)",
+			"rank": 581
+		}
+	],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -242,20 +229,41 @@
 	"primary_artist": "Alan J. Shields",
 	"primary_artist_display": "Alan J. Shields (1944–2005)",
 	"sort_artist": "Shields,  Alan",
+	"culture_group": [],
 	"display_year": "1978",
 	"doc_id": "1996.74.435",
 	"slug": "1996.74.435/armie-s-tough-course",
 	"has_image": true,
 	"has_provenance": true,
 	"has_children": false,
+	"is_highlight": true,
 	"sort_year": 1978,
-	"facet_material": [],
-	"facet_technique": [
-		"aquatint",
-		"drypoint",
-		"engraving",
-		"etching",
-		"mezzotint"
+	"facet_medium": [
+		{
+			"section": "Print",
+			"subcategory": "Etching & engraving (intaglio)",
+			"specific": "Aquatint"
+		},
+		{
+			"section": "Print",
+			"subcategory": "Etching & engraving (intaglio)",
+			"specific": "Drypoint"
+		},
+		{
+			"section": "Print",
+			"subcategory": "Etching & engraving (intaglio)",
+			"specific": "Engraving"
+		},
+		{
+			"section": "Print",
+			"subcategory": "Etching & engraving (intaglio)",
+			"specific": "Etching"
+		},
+		{
+			"section": "Print",
+			"subcategory": "Etching & engraving (intaglio)",
+			"specific": "Mezzotint"
+		}
 	],
 	"facet_place": [
 		{
@@ -266,8 +274,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — aquatint, drypoint, engraving, etching … · United States",
+		"reason": "grid-facets real slice — Aquatint, Drypoint, Engraving, Etching … · United States",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 46
 	}
 }

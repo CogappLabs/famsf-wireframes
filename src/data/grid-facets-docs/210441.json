@@ -74,13 +74,13 @@
 			"media_xref_id": 140613,
 			"image_id": 14397,
 			"rank": 1,
+			"file_date": "2023-02-27 06:10:22",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 3008,
@@ -97,42 +97,16 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 140616,
-			"image_id": 141668,
-			"rank": 4,
-			"primary": false,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 3008,
-			"width": 2000,
-			"file_name": "0213201417240013.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 140614,
 			"image_id": 16528,
 			"rank": 2,
+			"file_date": "2023-02-27 06:11:30",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 3008,
@@ -152,18 +126,44 @@
 			"media_xref_id": 140615,
 			"image_id": 140832,
 			"rank": 3,
+			"file_date": "2023-02-27 07:16:28",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 3008,
 			"width": 2000,
 			"file_name": "0212201417590014.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 140616,
+			"image_id": 141668,
+			"rank": 4,
+			"file_date": "2023-02-27 07:16:31",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3008,
+			"width": 2000,
+			"file_name": "0213201417240013.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -183,7 +183,6 @@
 	"dimensions": [
 		{
 			"value": "38 in. (96.5 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -202,7 +201,6 @@
 		},
 		{
 			"value": "6 in. (15.2 cm)",
-			"type": "Depth",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 2,
@@ -221,26 +219,6 @@
 		},
 		{
 			"value": "33 x 27 in. (83.8 x 68.6 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 3,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 83.8,
-				"width_cm": 68.6,
-				"depth_cm": null,
-				"height_in": 33.0,
-				"width_in": 27.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "33 x 27 in. (83.8 x 68.6 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 3,
@@ -259,26 +237,6 @@
 		},
 		{
 			"value": "31 x 5 in. (78.7 x 12.7 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 4,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 78.7,
-				"width_cm": 12.7,
-				"depth_cm": null,
-				"height_in": 31.0,
-				"width_in": 5.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "31 x 5 in. (78.7 x 12.7 cm)",
-			"type": "Depth",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 4,
@@ -297,6 +255,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -348,32 +307,42 @@
 	"primary_artist": "Yohji Yamamoto",
 	"primary_artist_display": "b. 1943",
 	"sort_artist": "Yohji Yamamato",
+	"culture_group": [],
 	"display_year": "1981–99",
 	"doc_id": "2012.42.152a-b",
 	"slug": "2012.42.152a-b/jacket-and-skirt",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 1981,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Textile",
-			"specific": "linen"
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cashmere"
 		},
 		{
-			"parent": "Textile",
-			"specific": "polyester"
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Linen"
 		},
 		{
-			"parent": "Wool",
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Synthetic fiber (nylon, polyester)",
 			"specific": ""
-		},
-		{
-			"parent": "Wool",
-			"specific": "cashmere"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "East Asia",
@@ -383,8 +352,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — linen, polyester, , cashmere · Japan",
+		"reason": "grid-facets real slice — Cashmere, Linen, Silk, Wool … · Japan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 42
+		"populated_fields": 43
 	}
 }

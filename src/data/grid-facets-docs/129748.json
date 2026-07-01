@@ -1,0 +1,264 @@
+{
+	"id": 129748,
+	"accession_number": "1999.9",
+	"sort_number": "1999.9",
+	"title": "Man's cloak (aknif)",
+	"object_name": "man's costume",
+	"date_display": "early 20th century",
+	"date_start": "1900",
+	"date_end": "1925",
+	"medium": "Wool; weft-faced plain-weave, tapestry, weft-substitution",
+	"medium_parts": [
+		"Wool",
+		"weft-faced plain-weave, tapestry, weft-substitution"
+	],
+	"credit_line": "Museum purchase, gift of the Textile Arts Council in honor of Maria Chabot",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"subclassification": null,
+	"culture": "Berber, Aït Ouaouzguite",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-02 13:09:43.907000",
+	"is_virtual": false,
+	"identifying_description": "full hooded cloak, black with red diamond shape on back and embrodered motif, fringe end finish hem. Semi-circular shape woven on a vertical loom.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "From Three Continents: Textile Acquisitions 1996-2000",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "1999-02-11",
+	"location_string": "de Young, 059, Cabinet 20, TC",
+	"location_building": "de Young",
+	"location_room": "Cabinet 20",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Man's cloak (aknif)",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 41139,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Amazigh, Aït Ouaouzguite tribe",
+			"name_sort": "Amazigh, Aït Ouaouzguite tribe",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Amazigh, Aït Ouaouzguite tribe"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 104391,
+			"image_id": 14968,
+			"rank": 1,
+			"file_date": "2023-02-27 06:10:39",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1978,
+			"width": 1555,
+			"file_name": "0124200111450011.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "77 x 69 in. (195.58 x 175.26 cm)",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 195.58,
+				"width_cm": 175.26,
+				"depth_cm": null,
+				"height_in": 77.0,
+				"width_in": 69.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 18244705,
+			"term": "Atlas Mountains",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAGF",
+					"term": "Atlas Mountains"
+				}
+			]
+		},
+		{
+			"id": 18160451,
+			"term": "Jebel Siroua",
+			"type": "N/A",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAFV",
+					"term": "Al Maghrib"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAAAB.AAAFV.AAABM",
+					"term": "Souss-Massa"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAB.AAAFV.AAABM.AAAAM",
+					"term": "Sirwa"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"culture_group": [
+		"Amazigh, Aït Ouaouzguite tribe"
+	],
+	"display_year": "1900–25",
+	"doc_id": "1999.9",
+	"slug": "1999.9/man-s-cloak-aknif",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": 1900,
+	"facet_medium": [
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
+			"specific": ""
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
+			"specific": "Tapestry"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Weaving"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "",
+			"state": "",
+			"notable": "Atlas Mountains"
+		},
+		{
+			"region": "Africa",
+			"country": "Morocco",
+			"state": "",
+			"notable": "Jebel Siroua"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Wool, Other textile, Tapestry, Weaving · Atlas Mountains, Jebel Siroua",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

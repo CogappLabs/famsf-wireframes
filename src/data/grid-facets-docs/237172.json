@@ -12,7 +12,7 @@
 		"Wool, goat hair, silk",
 		"knotted pile (asymmetrical knot, open to the right)"
 	],
-	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nGift of Caroline McCoy-Jones",
+	"credit_line": "The Caroline and H. McCoy Jones Collection\nGift of Caroline McCoy-Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Tools & Equipment",
 	"subclassification": "Transportation",
@@ -94,8 +94,8 @@
 			"media_xref_id": 121034,
 			"image_id": 163713,
 			"rank": 1,
+			"file_date": "2023-02-27 10:37:12",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": null,
@@ -120,13 +120,13 @@
 			"media_xref_id": 121035,
 			"image_id": 31560,
 			"rank": 2,
+			"file_date": "2023-02-27 06:18:48",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 1586,
@@ -151,26 +151,6 @@
 	"dimensions": [
 		{
 			"value": "73 1/4 x 20 1/16 in. (186 x 51 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 186.0,
-				"width_cm": 51.0,
-				"depth_cm": null,
-				"height_in": 73.25,
-				"width_in": 20.0625,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "73 1/4 x 20 1/16 in. (186 x 51 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -189,6 +169,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -201,8 +182,8 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
-			"id": 16887148,
-			"term": "Uzbekistan",
+			"id": 16680795,
+			"term": "Afghanistan",
 			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
@@ -218,8 +199,8 @@
 				},
 				{
 					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAADD",
-					"term": "O'zbekiston"
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAI",
+					"term": "Afghānestān"
 				}
 			]
 		},
@@ -247,8 +228,8 @@
 			]
 		},
 		{
-			"id": 16680795,
-			"term": "Afghanistan",
+			"id": 16887148,
+			"term": "Uzbekistan",
 			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
@@ -264,8 +245,8 @@
 				},
 				{
 					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAI",
-					"term": "Afghānestān"
+					"cn": "AUZ.AAAAB.AAAAJ.AAADD",
+					"term": "O'zbekiston"
 				}
 			]
 		}
@@ -345,64 +326,6 @@
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": [
-		{
-			"id": 16551699,
-			"term": "silk",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
-					"term": "fiber by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
-					"term": "textile materials"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
-					"term": "textile materials by composition or origin"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAP",
-					"term": "silk"
-				}
-			]
-		},
 		{
 			"id": 16561036,
 			"term": "wool",
@@ -523,6 +446,64 @@
 					"term": "goat hair"
 				}
 			]
+		},
+		{
+			"id": 16551699,
+			"term": "silk",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAP",
+					"term": "silk"
+				}
+			]
 		}
 	],
 	"term_subject": null,
@@ -530,28 +511,39 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": [
+		"Turkmen",
+		"Turkmen, Ersari tribe"
+	],
 	"display_year": "1801–1900",
 	"doc_id": "2002.122.10",
 	"slug": "2002.122.10/camel-trapping-for-a-bridal-procession-kejebelik",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 1801,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Silk",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
 		},
 		{
-			"parent": "Wool",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Knotted pile"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "Central Asia",
-			"country": "Uzbekistan",
+			"country": "Afghanistan",
 			"state": "",
 			"notable": ""
 		},
@@ -563,14 +555,14 @@
 		},
 		{
 			"region": "Central Asia",
-			"country": "Afghanistan",
+			"country": "Uzbekistan",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — ,  · Uzbekistan, Turkmenistan, Afghanistan",
+		"reason": "grid-facets real slice — Silk, Wool, Knotted pile · Afghanistan, Turkmenistan, Uzbekistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 47
 	}
 }

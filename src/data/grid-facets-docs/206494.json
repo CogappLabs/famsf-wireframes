@@ -1,0 +1,269 @@
+{
+	"id": 206494,
+	"accession_number": "2019.51.2",
+	"sort_number": "2019.51.2",
+	"title": "Ceremonial betelnut bag (fune mama) (aul masamu)",
+	"object_name": "bag/purse",
+	"date_display": "19th century",
+	"date_start": null,
+	"date_end": null,
+	"medium": "cotton; plain weave, supplementary weft wrapping, applied trade beads, wooden roundels, horese hair, conus shells",
+	"medium_parts": [
+		"cotton",
+		"plain weave, supplementary weft wrapping, applied trade beads, wooden roundels, horese hair, conus shells"
+	],
+	"credit_line": "Gift of Susan York",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": "Tetum people",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2026-03-26 13:44:11.587000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "2019-10-08",
+	"location_string": "de Young, 227",
+	"location_building": "de Young",
+	"location_room": null,
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Ceremonial betelnut bag (fune mama) (aul masamu)",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 41327,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Tetum",
+			"name_sort": "Tetum",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Tetum"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 180257,
+			"image_id": 196912,
+			"rank": 0,
+			"file_date": "2023-02-27 06:08:20",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1600,
+			"width": 680,
+			"file_name": "A412548.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "13 in. (33 cm)",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 33.0,
+				"width_cm": null,
+				"depth_cm": null,
+				"height_in": 13.0,
+				"width_in": null,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 20183000,
+			"term": "Nusa Tenggara Timur",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACF",
+					"term": "Nusa Tenggara Timur"
+				}
+			]
+		},
+		{
+			"id": 20889045,
+			"term": "Timor Tengah Regency",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACF",
+					"term": "Nusa Tenggara Timur"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACF.AAAEZ",
+					"term": "Timor Tengah Regency"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"culture_group": [
+		"Tetum"
+	],
+	"display_year": null,
+	"doc_id": "2019.51.2",
+	"slug": "2019.51.2/ceremonial-betelnut-bag-fune-mama-aul-masamu",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Beads, feathers & plant material",
+			"specific": ""
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
+			"specific": ""
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Weaving"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "",
+			"state": "",
+			"notable": "Nusa Tenggara Timur"
+		},
+		{
+			"region": "East Asia",
+			"country": "",
+			"state": "",
+			"notable": "Timor Tengah Regency"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Beads, feathers & plant material, Cotton, Other textile, Weaving · Nusa Tenggara Timur, Timor Tengah Regency",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 38
+	}
+}

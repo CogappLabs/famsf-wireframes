@@ -10,11 +10,10 @@ import { isPublicDomain, ResultsGrid } from "./results";
 //
 // Real-data variation backed by src/data/grid-facets-docs/ (~600 docs with
 // curator-taxonomy facets baked on by scripts/export_grid_facets_docs.py).
-// Left column has two expandable hierarchies + one flat facet:
-//   • Place    — region → country → [US state] → notable place (REGION_REMAP
-//                workbook). The state tier is US-only; non-US places are 3-tier.
-//   • Material — parent → specific (FACET_DESIGN_v2 workbook)
-//   • Technique — flat (FacetBlock)
+// Left column has two expandable hierarchies:
+//   • Place  — region → country → [US state] → notable place (REGION_REMAP
+//              workbook). The state tier is US-only; non-US places are 3-tier.
+//   • Medium — section → subcategory → specific (object-type medium taxonomy)
 // Each tree row carries a caret (expand/collapse children in place) and a
 // checkbox (filter by that node, at any tier); a "Filter …" box prunes +
 // auto-expands matching branches.
@@ -28,13 +27,14 @@ interface PlaceSelection {
 	value: string;
 }
 
-// Material is a 2-tier facet (parent → specific), same as place. A
-// selection records the tier so a parent and a specific never collide.
-const MATERIAL_LEVELS = ["parent", "specific"] as const;
-type MaterialLevel = (typeof MATERIAL_LEVELS)[number];
+// Medium is a 3-tier facet (section → subcategory → specific), same tree shape
+// as place. A selection records the tier so nodes at different levels never
+// collide.
+const MEDIUM_LEVELS = ["section", "subcategory", "specific"] as const;
+type MediumLevel = (typeof MEDIUM_LEVELS)[number];
 
-interface MaterialSelection {
-	level: MaterialLevel;
+interface MediumSelection {
+	level: MediumLevel;
 	value: string;
 }
 
@@ -48,8 +48,7 @@ interface GridFacetSelections {
 	artist: string | null;
 	culture: string | null;
 	place: PlaceSelection | null;
-	material: MaterialSelection | null;
-	technique: string | null;
+	medium: MediumSelection | null;
 	classification: string | null;
 	department: string | null;
 	gallery: string | null;
@@ -63,8 +62,7 @@ const EMPTY_GRID_SELECTIONS: GridFacetSelections = {
 	artist: null,
 	culture: null,
 	place: null,
-	material: null,
-	technique: null,
+	medium: null,
 	classification: null,
 	department: null,
 	gallery: null,
@@ -82,14 +80,12 @@ function docMatchesPlace(
 	return (doc.facet_place ?? []).some((p) => p[place.level] === place.value);
 }
 
-function docMatchesMaterial(
+function docMatchesMedium(
 	doc: CollectionDocument,
-	material: MaterialSelection | null,
+	medium: MediumSelection | null,
 ): boolean {
-	if (!material) return true;
-	return (doc.facet_material ?? []).some(
-		(m) => m[material.level] === material.value,
-	);
+	if (!medium) return true;
+	return (doc.facet_medium ?? []).some((m) => m[medium.level] === medium.value);
 }
 
 /** Free-text omnibox match over the fields a visitor is likely to type:
@@ -120,9 +116,7 @@ function filterGridDocs(
 		if (sel.artist && d.primary_artist !== sel.artist) return false;
 		if (sel.culture && d.culture !== sel.culture) return false;
 		if (!docMatchesPlace(d, sel.place)) return false;
-		if (!docMatchesMaterial(d, sel.material)) return false;
-		if (sel.technique && !(d.facet_technique ?? []).includes(sel.technique))
-			return false;
+		if (!docMatchesMedium(d, sel.medium)) return false;
 		if (sel.classification && d.classification !== sel.classification)
 			return false;
 		if (sel.department && d.department !== sel.department) return false;
@@ -265,11 +259,12 @@ const byCountDesc = (a: FacetTreeNode, b: FacetTreeNode) =>
 	b.count - a.count || a.value.localeCompare(b.value);
 
 /**
- * Generic 2- or 3-tier tree builder. `tiers` maps each doc to a list of
+ * Generic 2- to 4-tier tree builder. `paths` maps each doc to a list of
  * tuples giving the value at each tier for one path through the doc's
- * facet (e.g. [region, country, notable] for place, [parent, specific]
- * for material). Empty tier values truncate that path (so a region with
- * no country simply has no children). Counts are distinct docs per node.
+ * facet (e.g. [region, country, state, notable] for place, [section,
+ * subcategory, specific] for medium). Empty tier values truncate that path
+ * (so a section with no subcategory simply has no children). Counts are
+ * distinct docs per node.
  */
 function buildFacetTree(
 	docs: CollectionDocument[],
@@ -314,10 +309,20 @@ const buildPlaceTree = (docs: CollectionDocument[]): FacetTreeNode[] =>
 		(d.facet_place ?? []).map((p) => [p.region, p.country, p.state, p.notable]),
 	);
 
-const buildMaterialTree = (docs: CollectionDocument[]): FacetTreeNode[] =>
-	buildFacetTree(docs, (d) =>
-		(d.facet_material ?? []).map((m) => [m.parent, m.specific]),
+const MEDIUM_OTHER_SECTION = "Other / unclassified";
+
+const buildMediumTree = (docs: CollectionDocument[]): FacetTreeNode[] => {
+	const tree = buildFacetTree(docs, (d) =>
+		(d.facet_medium ?? []).map((m) => [m.section, m.subcategory, m.specific]),
 	);
+	// Keep the object-type sections in count order but always pin the catch-all
+	// "Other / unclassified" bucket to the bottom, so it never outranks a real
+	// object type in the visitor-facing facet.
+	return [
+		...tree.filter((n) => n.value !== MEDIUM_OTHER_SECTION),
+		...tree.filter((n) => n.value === MEDIUM_OTHER_SECTION),
+	];
+};
 
 const FACET_TOP_N = 8;
 
@@ -609,7 +614,11 @@ const PLACE_LEVEL_BY_DEPTH: PlaceLevel[] = [
 	"state",
 	"notable",
 ];
-const MATERIAL_LEVEL_BY_DEPTH: MaterialLevel[] = ["parent", "specific"];
+const MEDIUM_LEVEL_BY_DEPTH: MediumLevel[] = [
+	"section",
+	"subcategory",
+	"specific",
+];
 
 /** A generic tier selection — level name + chosen value. */
 interface TierSelection {
@@ -1000,8 +1009,6 @@ function seedSelectionFromFacet(
 			return { artist: value };
 		case "culture":
 			return { culture: value };
-		case "technique":
-			return { technique: value };
 		case "classification":
 			return { classification: value };
 		case "department":
@@ -1018,11 +1025,11 @@ function seedSelectionFromFacet(
 			}
 			return null;
 		}
-		case "material": {
+		case "medium": {
 			for (const d of docs) {
-				for (const m of d.facet_material ?? []) {
-					for (const level of MATERIAL_LEVELS) {
-						if (m[level] === value) return { material: { level, value } };
+				for (const m of d.facet_medium ?? []) {
+					for (const level of MEDIUM_LEVELS) {
+						if (m[level] === value) return { medium: { level, value } };
 					}
 				}
 			}
@@ -1056,10 +1063,8 @@ export function GridFacetsView({
 	const [page, setPage] = useState(0);
 	const [placeExpanded, setPlaceExpanded] = useState<Set<string>>(new Set());
 	const [placeSearch, setPlaceSearch] = useState("");
-	const [materialExpanded, setMaterialExpanded] = useState<Set<string>>(
-		new Set(),
-	);
-	const [materialSearch, setMaterialSearch] = useState("");
+	const [mediumExpanded, setMediumExpanded] = useState<Set<string>>(new Set());
+	const [mediumSearch, setMediumSearch] = useState("");
 
 	// Seed a selection from an autocomplete facet pick (?facet=type:value).
 	// Runs when the seed string changes (a new pick), not on every render.
@@ -1085,12 +1090,6 @@ export function GridFacetsView({
 		setSel((prev) => ({
 			...prev,
 			culture: prev.culture === value ? null : value,
-		}));
-	};
-	const setTechnique = (value: string | null) => {
-		setSel((prev) => ({
-			...prev,
-			technique: prev.technique === value ? null : value,
 		}));
 	};
 	const setClassification = (value: string | null) => {
@@ -1124,12 +1123,11 @@ export function GridFacetsView({
 			return { ...prev, place: same ? null : (next as PlaceSelection) };
 		});
 	};
-	const selectMaterial = (next: TierSelection) => {
+	const selectMedium = (next: TierSelection) => {
 		setSel((prev) => {
 			const same =
-				prev.material?.level === next.level &&
-				prev.material.value === next.value;
-			return { ...prev, material: same ? null : (next as MaterialSelection) };
+				prev.medium?.level === next.level && prev.medium.value === next.value;
+			return { ...prev, medium: same ? null : (next as MediumSelection) };
 		});
 	};
 	const makeToggle =
@@ -1142,7 +1140,7 @@ export function GridFacetsView({
 			});
 		};
 	const togglePlace = makeToggle(setPlaceExpanded);
-	const toggleMaterial = makeToggle(setMaterialExpanded);
+	const toggleMedium = makeToggle(setMediumExpanded);
 
 	const matches = useMemo(
 		() => filterGridDocs(docs, sel, query),
@@ -1172,11 +1170,9 @@ export function GridFacetsView({
 		() => buildPlaceTree(filterGridDocs(docs, { ...sel, place: null }, query)),
 		[docs, sel, query],
 	);
-	const materialTree = useMemo(
+	const mediumTree = useMemo(
 		() =>
-			buildMaterialTree(
-				filterGridDocs(docs, { ...sel, material: null }, query),
-			),
+			buildMediumTree(filterGridDocs(docs, { ...sel, medium: null }, query)),
 		[docs, sel, query],
 	);
 	const artistOpts = useMemo(
@@ -1190,14 +1186,6 @@ export function GridFacetsView({
 		() =>
 			countFlat(filterGridDocs(docs, { ...sel, culture: null }, query), (d) =>
 				d.culture ? [d.culture] : [],
-			),
-		[docs, sel, query],
-	);
-	const techniqueOpts = useMemo(
-		() =>
-			countFlat(
-				filterGridDocs(docs, { ...sel, technique: null }, query),
-				(d) => d.facet_technique,
 			),
 		[docs, sel, query],
 	);
@@ -1233,15 +1221,14 @@ export function GridFacetsView({
 	const placeChipLabel = sel.place
 		? `${sel.place.level === "region" ? "Region" : sel.place.level === "country" ? "Country" : sel.place.level === "state" ? "State" : "Place"}: ${sel.place.value}`
 		: null;
-	const materialChipLabel = sel.material
-		? `${sel.material.level === "parent" ? "Medium" : "Medium detail"}: ${sel.material.value}`
+	const mediumChipLabel = sel.medium
+		? `${sel.medium.level === "section" ? "Medium" : sel.medium.level === "subcategory" ? "Medium type" : "Medium detail"}: ${sel.medium.value}`
 		: null;
 	const anyActive =
 		Boolean(sel.artist) ||
 		Boolean(sel.culture) ||
 		Boolean(sel.place) ||
-		Boolean(sel.material) ||
-		Boolean(sel.technique) ||
+		Boolean(sel.medium) ||
 		Boolean(sel.classification) ||
 		Boolean(sel.department) ||
 		Boolean(sel.gallery) ||
@@ -1309,34 +1296,21 @@ export function GridFacetsView({
 			),
 		},
 		{
-			id: "material",
+			id: "medium",
 			label: "Medium",
-			activeCount: sel.material ? 1 : 0,
+			activeCount: sel.medium ? 1 : 0,
 			control: (
 				<TreeFacet
 					label="Medium"
-					tree={materialTree}
-					levelByDepth={MATERIAL_LEVEL_BY_DEPTH}
-					selected={sel.material}
-					onSelect={selectMaterial}
-					expanded={materialExpanded}
-					onToggle={toggleMaterial}
-					search={materialSearch}
-					onSearch={setMaterialSearch}
-					topN={8}
-				/>
-			),
-		},
-		{
-			id: "technique",
-			label: "Technique",
-			activeCount: sel.technique ? 1 : 0,
-			control: (
-				<FacetBlock
-					label="Technique"
-					options={techniqueOpts}
-					selected={sel.technique}
-					onSelect={setTechnique}
+					tree={mediumTree}
+					levelByDepth={MEDIUM_LEVEL_BY_DEPTH}
+					selected={sel.medium}
+					onSelect={selectMedium}
+					expanded={mediumExpanded}
+					onToggle={toggleMedium}
+					search={mediumSearch}
+					onSearch={setMediumSearch}
+					topN={null}
 				/>
 			),
 		},
@@ -1405,10 +1379,9 @@ export function GridFacetsView({
 		"date",
 		"place",
 		"culture",
-		"material",
+		"medium",
 		"classification",
 		"department",
-		"technique",
 		"gallery",
 		"collection",
 	];
@@ -1583,23 +1556,13 @@ export function GridFacetsView({
 									<span>×</span>
 								</button>
 							)}
-							{materialChipLabel && (
+							{mediumChipLabel && (
 								<button
 									type="button"
-									onClick={() => setSel((p) => ({ ...p, material: null }))}
+									onClick={() => setSel((p) => ({ ...p, medium: null }))}
 									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
 								>
-									<span>{materialChipLabel}</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.technique && (
-								<button
-									type="button"
-									onClick={() => setTechnique(null)}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Technique: {sel.technique}</span>
+									<span>{mediumChipLabel}</span>
 									<span>×</span>
 								</button>
 							)}

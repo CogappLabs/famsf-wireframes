@@ -1,0 +1,224 @@
+{
+	"id": 78867,
+	"accession_number": "1988.11.11",
+	"sort_number": "1988.11.11",
+	"title": "Saddlebag",
+	"object_name": "storage/transport bag",
+	"date_display": "19th century",
+	"date_start": null,
+	"date_end": null,
+	"medium": "Wool, goat hair; knotted pile (asymmetrical knot, open left), complementary-weft weave, weft-faced plain weave, countered twining, slit tapestry (closures);",
+	"medium_parts": [
+		"Wool, goat hair",
+		"knotted pile (asymmetrical knot, open left), complementary-weft weave, weft-faced plain weave, countered twining, slit tapestry (closures)",
+		""
+	],
+	"credit_line": "The Caroline and H. McCoy Jones Collection\nBequest of H. McCoy Jones",
+	"department": "Costume and Textile Arts",
+	"classification": "Fiber Art",
+	"subclassification": null,
+	"culture": "Baluch (?) people",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-02 14:42:00.417000",
+	"is_virtual": false,
+	"identifying_description": "Complete saddlebag with the central square of each bag patterned in complementary-weft weave (weft substitution) bordered on all four sides with thick pile. The central part of both bags consists of three horizonatal bands, the top and bottom bands patterned throughout with tiny botehs. The fine polychrome closures are of slit-tapestry construction. Foundation wefts are dark brown. \n\nThe bag was attributed to the Afshar in original registration records. The simple, unembellished, and structurally weak closures, the unusally wide bridge between the two bags, the orientation of the asymmetrical knot to the left, and the light red of the back of the saddlebags are not characteristics of Afhar weaving. It is much more likely to be Baluch.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "1988-06-09",
+	"location_string": "de Young, 059, Cabinet 27, P",
+	"location_building": "de Young",
+	"location_room": "Cabinet 27",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Saddlebag",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 40722,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Baloch",
+			"name_sort": "Baloch",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "(not entered)",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Baloch"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 162476,
+			"image_id": 116836,
+			"rank": 0,
+			"file_date": "2023-02-27 07:04:10",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2856,
+			"width": 1408,
+			"file_name": "5256165129260006.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "56 x 28 in. (142.2 x 71.1 cm)",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 142.2,
+				"width_cm": 71.1,
+				"depth_cm": null,
+				"height_in": 56.0,
+				"width_in": 28.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 20666686,
+			"term": "Iran",
+			"type": "N/A",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQH",
+					"term": "Īrān"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"culture_group": [],
+	"display_year": null,
+	"doc_id": "1988.11.11",
+	"slug": "1988.11.11/saddlebag",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
+			"specific": ""
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Knotted pile"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Weaving"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Middle East",
+			"country": "Iran",
+			"state": "",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Wool, Other textile, Knotted pile, Weaving · Iran",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 38
+	}
+}

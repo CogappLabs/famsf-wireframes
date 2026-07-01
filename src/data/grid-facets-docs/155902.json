@@ -8,7 +8,9 @@
 	"date_start": "400",
 	"date_end": "550",
 	"medium": "Earthenware",
-	"medium_parts": ["Earthenware"],
+	"medium_parts": [
+		"Earthenware"
+	],
 	"credit_line": "Museum purchase, AOA Art Trust Fund and Unrestricted AOA Trust Fund",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Ceremonial & Religious Objects",
@@ -61,11 +63,37 @@
 	],
 	"media": [
 		{
+			"media_xref_id": 102685,
+			"image_id": 166272,
+			"rank": 1,
+			"file_date": "2023-02-27 07:28:41",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5428,
+			"width": 7230,
+			"file_name": "A314846_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
 			"media_xref_id": 102686,
 			"image_id": 166343,
 			"rank": 2,
+			"file_date": "2023-02-27 07:28:41",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
@@ -90,44 +118,18 @@
 			"media_xref_id": 102687,
 			"image_id": 16657,
 			"rank": 3,
+			"file_date": "2023-02-27 06:11:35",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 811,
 			"width": 1080,
 			"file_name": "0212200811210002.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 102685,
-			"image_id": 166272,
-			"rank": 1,
-			"primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 5428,
-			"width": 7230,
-			"file_name": "A314846_V1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -147,45 +149,6 @@
 	"dimensions": [
 		{
 			"value": "11 1/8 x 14 1/2 x 9 1/4 in. (28.3 x 36.8 x 23.5 cm)",
-			"type": "Depth",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": false,
-			"measurements": {
-				"height_cm": 28.3,
-				"width_cm": 36.8,
-				"depth_cm": 23.5,
-				"height_in": 11.125,
-				"width_in": 14.5,
-				"depth_in": 9.25,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "11 1/8 x 14 1/2 x 9 1/4 in. (28.3 x 36.8 x 23.5 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": false,
-			"measurements": {
-				"height_cm": 28.3,
-				"width_cm": 36.8,
-				"depth_cm": 23.5,
-				"height_in": 11.125,
-				"width_in": 14.5,
-				"depth_in": 9.25,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "11 1/8 x 14 1/2 x 9 1/4 in. (28.3 x 36.8 x 23.5 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -204,6 +167,13 @@
 		}
 	],
 	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "arts-of-the-americas-web-highlights",
+			"collection_name": "Arts of the Americas Web Highlights",
+			"rank": 12
+		}
+	],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -313,20 +283,24 @@
 	"primary_artist": "Maya",
 	"primary_artist_display": "Maya",
 	"sort_artist": "Maya",
+	"culture_group": [
+		"Maya"
+	],
 	"display_year": "400–550",
 	"doc_id": "1997.135a-b",
 	"slug": "1997.135a-b",
 	"has_image": true,
 	"has_provenance": true,
 	"has_children": false,
+	"is_highlight": true,
 	"sort_year": 400,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Ceramic",
-			"specific": "earthenware"
+			"section": "Ceramic & glass",
+			"subcategory": "Earthenware & stoneware",
+			"specific": "Earthenware"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "Central America",
@@ -342,8 +316,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — earthenware · Guatemala, Escuintla",
+		"reason": "grid-facets real slice — Earthenware · Guatemala, Escuintla",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 47
+		"populated_fields": 50
 	}
 }

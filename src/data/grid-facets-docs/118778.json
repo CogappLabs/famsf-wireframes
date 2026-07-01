@@ -12,7 +12,7 @@
 		"Silk, cotton",
 		"plain weave, embroidery (self-couching, chain and open-chain stitches)"
 	],
-	"credit_line": "The Caroline and H. McCoy Jones Collection\r\nGift of Caroline and H. McCoy Jones",
+	"credit_line": "The Caroline and H. McCoy Jones Collection\nGift of Caroline and H. McCoy Jones",
 	"department": "Costume and Textile Arts",
 	"classification": "Furnishing",
 	"subclassification": null,
@@ -26,7 +26,7 @@
 	"identifying_description": null,
 	"web_text": "Richly embroidered with brilliantly dyed silk threads on a fine white cotton ground, this suzani would have originally served as an important part of a bride’s dowry, to drape the nuptial chambers or as a cover for her bed. The term is derived from the Persian word suzan, or needlework, and is often used to refer to the large embroidered cloths. Although suzani were used to decorate the home, traditionally the wedding cloth would be stored in chests and brought out only for festival occasions. Uzbek women are known for their expertise in needlework, and to prepare for her wedding, a bride and her female family members would work to embroider the many pieces of her dowry. The bedcover’s designs would be drawn by a master draftswoman onto various cloth strips and distributed among the bride’s relatives to be embroidered. This suzani is believed to have come from Shakhrisyabz in Southern Uzbekistan, an area known for its fine embroidery work and for the classical composition of the four-and-one floral motif: the large rosettes surrounded by four smaller flowers found in both the center panel and repeated in multiple variations along the border. Meandering leaf patterns encircle the entire cloth, creating a dense visual field that is often interpreted as a symbol of fertility and prosperity. jkd",
 	"didactic_label": null,
-	"exhibition_history_text": "Viewpoints: Good, Better Best, 1987\r\nUnravelling Yarns(rotation)  1993-1996\r\nBeauty, Power, and Prestige: Textiles and Costume from the Permanent Collection- New DeYoung opening, 10/05",
+	"exhibition_history_text": "Viewpoints: Good, Better Best, 1987\nUnravelling Yarns(rotation) 1993-1996\nBeauty, Power, and Prestige: Textiles and Costume from the Permanent Collection- New DeYoung opening, 10/05",
 	"bibliography_text": null,
 	"provenance": null,
 	"label_text": null,
@@ -75,8 +75,8 @@
 			"media_xref_id": 156391,
 			"image_id": 195271,
 			"rank": 0,
+			"file_date": "2022-06-02 13:34:18.223",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
@@ -101,13 +101,13 @@
 			"media_xref_id": 94119,
 			"image_id": 41029,
 			"rank": 1,
+			"file_date": "2023-02-27 06:23:44",
 			"primary": false,
-			"display_order": 2,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 3128,
@@ -132,64 +132,6 @@
 	"dimensions": [
 		{
 			"value": "101 x 78 in., (256.5 x 198.1 cm,)",
-			"type": "Weight",
-			"element": "Overall",
-			"unit": "Pounds",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 256.5,
-				"width_cm": 198.1,
-				"depth_cm": null,
-				"height_in": 101.0,
-				"width_in": 78.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "101 x 78 in., (256.5 x 198.1 cm,)",
-			"type": "Depth",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 256.5,
-				"width_cm": 198.1,
-				"depth_cm": null,
-				"height_in": 101.0,
-				"width_in": 78.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "101 x 78 in., (256.5 x 198.1 cm,)",
-			"type": "Width",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 256.5,
-				"width_cm": 198.1,
-				"depth_cm": null,
-				"height_in": 101.0,
-				"width_in": 78.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "101 x 78 in., (256.5 x 198.1 cm,)",
-			"type": "Height",
 			"element": "Overall",
 			"unit": "Inches",
 			"rank": 1,
@@ -208,6 +150,13 @@
 		}
 	],
 	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "costume-and-textiles-web-highlights",
+			"collection_name": "Costume and Textiles Web Highlights",
+			"rank": 16
+		}
+	],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -288,24 +237,39 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
+	"culture_group": [
+		"Uzbek"
+	],
 	"display_year": "1795–1805",
 	"doc_id": "1985.89.4",
 	"slug": "1985.89.4/embroidered-hanging-or-cover-suzani",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
+	"is_highlight": true,
 	"sort_year": 1795,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Cotton",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Cotton"
 		},
 		{
-			"parent": "Silk",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Embroidery"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Weaving"
 		}
 	],
-	"facet_technique": ["embroidery"],
 	"facet_place": [
 		{
 			"region": "Central Asia",
@@ -315,8 +279,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , , embroidery · Uzbekistan",
+		"reason": "grid-facets real slice — Cotton, Silk, Embroidery, Weaving · Uzbekistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 48
 	}
 }

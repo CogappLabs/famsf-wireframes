@@ -8,7 +8,9 @@
 	"date_start": null,
 	"date_end": null,
 	"medium": "Wood, pigment",
-	"medium_parts": ["Wood, pigment"],
+	"medium_parts": [
+		"Wood, pigment"
+	],
 	"credit_line": "Gift of Marcia and John Friede in honor of Diane B. Wilsey and Harry S. Parker III",
 	"department": "Arts of Africa, Oceania, and the Americas",
 	"classification": "Ceremonial & Religious Objects",
@@ -22,8 +24,8 @@
 	"is_virtual": false,
 	"identifying_description": "Carved from one piece of wood. The face of a spirit figure is clearly discerned; the body is highly stylized: abdomen, navel, and other body parts are arranged symmetrically around a vertical axis.",
 	"web_text": "The face of the spirit figure represented on this kópe, or spirit board, is clearly discerned, though elements of the body are highly stylized. Masterful relief carving and the use of negative and positive space accentuate its abdomen, navel, and other body parts arranged symmetrically around the vertical axis. Along the southern coast of New Guinea, the expansive Fly River and other large rivers to the east and their deltas support a vast cultural area known as the Gulf of Papua. Communities are built along the water’s edge and in the mangrove forests. Before widespread conversion to Christianity, monumental ceremonial men’s houses were common. These impressive structures housed shrines for each clan containing masks, relics, and ceremonial items including kópe boards used to bring success in head-hunting. Rituals and dance performances took place in and around the ceremonial houses. German scientist Thomas Schultze-Westrum visited the region several times while conducting biological and anthropological research. This kópe was stored in an open shed and no longer used for ritual purposes when Schultze-Westrum purchased it from the owners. Although collected from Kiwai language speakers at Epegau village in the Wapo River area, this kópe was made by a man called Apae in Otoia village on the Goarebari River opposite the mouth of the Omati River, the place of origin of the Kerewo (Kerewa). At a later time, it traveled eastward in the context of migrations, via O’a and Ani (the place of origin for the neighboring villages of Epegau and Tituhui), and finally reached Epegau village. Its history is a testament to the antiquity of many kópe boards. Fine Arts Museums of San Francisco, de Young 125 (California: Cameron + Company, 2021), p. 293, entry by Christina Hellmich.",
-	"didactic_label": "There is a vast cultural area known as the Gulf of Papua along the southern coast of New Guinea, where communities are built along the water's edge and in mangrove forests. Before widespread conversion to Christianity, monumental ceremonial men's houses were common. These impressive structures housed shrines for each clan and contained ceremonial items, including spirit boards (kópe), used to bring success in headhunting.\r\n\r\nA man called Apae in Otoia village made this kópe. At a later time, it traveled eastward in the context of migrations and reached Epegau village. Its history is a testament to the antiquity of many kópe boards.\r\n\r\nThe face of the spirit figure represented on this kópe is easily discernable, while elements of the body are highly stylized. Masterful low-relief carving and the use of negative and positive space accentuate the abdomen, navel, and other body parts, arranged symmetrically around the vertical axis.",
-	"exhibition_history_text": "2005 - New Guinea Art. Masterpieces from the Jolika Collection of Marcia and John Friede. De Young Museum, San Francisco, 2005.\r\n\r\n1972 - Olympic Village, Munich, 1972, \"Weltkulturen und moderne Kunst.\"",
+	"didactic_label": "There is a vast cultural area known as the Gulf of Papua along the southern coast of New Guinea, where communities are built along the water's edge and in mangrove forests. Before widespread conversion to Christianity, monumental ceremonial men's houses were common. These impressive structures housed shrines for each clan and contained ceremonial items, including spirit boards (kópe), used to bring success in headhunting.\n\nA man called Apae in Otoia village made this kópe. At a later time, it traveled eastward in the context of migrations and reached Epegau village. Its history is a testament to the antiquity of many kópe boards.\n\nThe face of the spirit figure represented on this kópe is easily discernable, while elements of the body are highly stylized. Masterful low-relief carving and the use of negative and positive space accentuate the abdomen, navel, and other body parts, arranged symmetrically around the vertical axis.",
+	"exhibition_history_text": "2005 - New Guinea Art. Masterpieces from the Jolika Collection of Marcia and John Friede. De Young Museum, San Francisco, 2005.\n\n1972 - Olympic Village, Munich, 1972, \"Weltkulturen und moderne Kunst.\"",
 	"bibliography_text": null,
 	"provenance": "\"Collected by Thomas Schultze-Westrum in 1966.\" (Catalog #461, New Guinea Art: Masterpieces from the Jolika Collection of Marcia and John Friede, 2005, Volume 2, p. 162.)",
 	"label_text": null,
@@ -35,7 +37,7 @@
 	"location_room": "Gallery 030",
 	"edition": null,
 	"signed": null,
-	"inscribed": "L05.1.27 A360942\r\nowner number 461",
+	"inscribed": "L05.1.27 A360942\nowner number 461",
 	"markings": null,
 	"titles": [
 		{
@@ -71,7 +73,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": null,
+			"attribution_prefix": "",
 			"BeginDate": null,
 			"EndDate": null,
 			"dates": null,
@@ -90,7 +92,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": null,
 			"BeginDate": null,
 			"EndDate": null,
 			"dates": null,
@@ -105,8 +107,8 @@
 			"media_xref_id": 121672,
 			"image_id": 182839,
 			"rank": 1,
+			"file_date": "2023-02-27 08:14:16",
 			"primary": false,
-			"display_order": 2,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
@@ -131,13 +133,13 @@
 			"media_xref_id": 121673,
 			"image_id": 170041,
 			"rank": 2,
+			"file_date": "2023-02-27 07:40:41",
 			"primary": false,
-			"display_order": 2,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 5424,
@@ -162,45 +164,6 @@
 	"dimensions": [
 		{
 			"value": "51 3/16 x 26 3/8 x 5 1/2 in. (130 x 67 x 14 cm)",
-			"type": "Depth",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 130.0,
-				"width_cm": 67.0,
-				"depth_cm": 14.0,
-				"height_in": 51.1875,
-				"width_in": 26.375,
-				"depth_in": 5.5,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "51 3/16 x 26 3/8 x 5 1/2 in. (130 x 67 x 14 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 130.0,
-				"width_cm": 67.0,
-				"depth_cm": 14.0,
-				"height_in": 51.1875,
-				"width_in": 26.375,
-				"depth_in": 5.5,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "51 3/16 x 26 3/8 x 5 1/2 in. (130 x 67 x 14 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -219,6 +182,13 @@
 		}
 	],
 	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "oceanic-art-web-highlights",
+			"collection_name": "Oceanic Art Web Highlights",
+			"rank": 38
+		}
+	],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -285,24 +255,27 @@
 	"primary_artist": "Apae (Otoia village, New Guinea)",
 	"primary_artist_display": "Apae (Otoia village, New Guinea)",
 	"sort_artist": "Apae (Otoia village, New Guinea)",
+	"culture_group": [],
 	"display_year": null,
 	"doc_id": "2007.44.8",
 	"slug": "2007.44.8/kope-spirit-board",
 	"has_image": true,
 	"has_provenance": true,
 	"has_children": false,
+	"is_highlight": true,
 	"sort_year": null,
-	"facet_material": [
+	"facet_medium": [
 		{
-			"parent": "Pigment",
+			"section": "Decorative & other materials",
+			"subcategory": "Wood",
 			"specific": ""
 		},
 		{
-			"parent": "Wood",
+			"section": "Painting",
+			"subcategory": "Other paint",
 			"specific": ""
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
 		{
 			"region": "Oceania",
@@ -312,8 +285,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — ,  · Otoia village",
+		"reason": "grid-facets real slice — Wood, Other paint · Otoia village",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 47
 	}
 }

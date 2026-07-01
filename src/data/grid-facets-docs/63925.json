@@ -7,9 +7,9 @@
 	"date_display": "1991",
 	"date_start": "1991",
 	"date_end": "1991",
-	"medium": "Etching and aquatint cover , letterset  type  on Rives paper",
+	"medium": "Etching and aquatint cover , letterset type on Rives paper",
 	"medium_parts": [
-		"Etching and aquatint cover , letterset  type  on Rives paper"
+		"Etching and aquatint cover , letterset type on Rives paper"
 	],
 	"credit_line": "Gift of the artist through the Artist Book Council",
 	"department": "Achenbach Foundation for Graphic Arts",
@@ -22,12 +22,12 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2014-04-14 00:00:00.000000",
 	"is_virtual": false,
-	"identifying_description": "frog images, faces, symbols, (duplicate of cover on first colume),  text  translations into German and French",
+	"identifying_description": "frog images, faces, symbols, (duplicate of cover on first colume), text translations into German and French",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
 	"bibliography_text": null,
-	"provenance": "Edition: Numbered in graphite on page following colophon: XI/XX\r\nTypes of Papers/Materials Used:  Rives paper\r\nBinding: Printed cover\r\nVolumes in Set:  2, plus print portfolio in box, of which this the second volume\r\nPagination: 28 pp.\r\nCollation (if unusual):French translation by Smilja Schmitt, German translation by Hans Jürg Tetzeli;\r\nLanguages Used in Text: French, German ;\r\nProvenance:Gift of the artist\r\nExhibition History:\r\nRemarks: Foreword include description of the Ko-Koi frog, the Noanamá Indians, statements by Oscar Arias Sánchez and Francisco Antonio Pacheco.\r\nNote that bar codes for the parts and the order of accession numbers (sub-numbers) were assigned by inventory in 1993, and do not agree with current format.",
+	"provenance": "Edition: Numbered in graphite on page following colophon: XI/XX\nTypes of Papers/Materials Used: Rives paper\nBinding: Printed cover\nVolumes in Set: 2, plus print portfolio in box, of which this the second volume\nPagination: 28 pp.\nCollation (if unusual):French translation by Smilja Schmitt, German translation by Hans Jürg Tetzeli;\nLanguages Used in Text: French, German ;\nProvenance:Gift of the artist\nExhibition History:\nRemarks: Foreword include description of the Ko-Koi frog, the Noanamá Indians, statements by Oscar Arias Sánchez and Francisco Antonio Pacheco.\nNote that bar codes for the parts and the order of accession numbers (sub-numbers) were assigned by inventory in 1993, and do not agree with current format.",
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -93,13 +93,13 @@
 			"media_xref_id": 73347,
 			"image_id": 93409,
 			"rank": 1,
+			"file_date": "2023-02-27 06:52:04",
 			"primary": true,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": null,
-			"copyright_status": null,
-			"credit_line": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
 			"height": 2364,
@@ -124,7 +124,6 @@
 	"dimensions": [
 		{
 			"value": "13 3/16 x 25 13/16 in. (33.5 x 65.5 cm)",
-			"type": "Height",
 			"element": "Image",
 			"unit": "Inches",
 			"rank": 1,
@@ -143,45 +142,6 @@
 		},
 		{
 			"value": "13 3/16 x 25 13/16 in. (33.5 x 65.5 cm)",
-			"type": "Width",
-			"element": "Image",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 33.5,
-				"width_cm": 65.5,
-				"depth_cm": null,
-				"height_in": 13.1875,
-				"width_in": 25.8125,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "13 3/16 x 25 13/16 in. (33.5 x 65.5 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Sheet (4D)",
-			"unit": "Inches",
-			"rank": 2,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 33.5,
-				"width_cm": 65.5,
-				"depth_cm": null,
-				"height_in": 13.1875,
-				"width_in": 25.8125,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "13 3/16 x 25 13/16 in. (33.5 x 65.5 cm)",
-			"type": "Height",
 			"element": "x_Do not use_Sheet (4D)",
 			"unit": "Inches",
 			"rank": 2,
@@ -200,45 +160,6 @@
 		},
 		{
 			"value": "9 7/16 x 6 1/2 x 3/8 in. (24 x 16.5 x 1 cm)",
-			"type": "Height",
-			"element": "x_Do not use_Object (4D)",
-			"unit": "Inches",
-			"rank": 3,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 24.0,
-				"width_cm": 16.5,
-				"depth_cm": 1.0,
-				"height_in": 9.4375,
-				"width_in": 6.5,
-				"depth_in": 0.375,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "9 7/16 x 6 1/2 x 3/8 in. (24 x 16.5 x 1 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Object (4D)",
-			"unit": "Inches",
-			"rank": 3,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 24.0,
-				"width_cm": 16.5,
-				"depth_cm": 1.0,
-				"height_in": 9.4375,
-				"width_in": 6.5,
-				"depth_in": 0.375,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "9 7/16 x 6 1/2 x 3/8 in. (24 x 16.5 x 1 cm)",
-			"type": "Depth",
 			"element": "x_Do not use_Object (4D)",
 			"unit": "Inches",
 			"rank": 3,
@@ -257,6 +178,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -337,15 +259,22 @@
 	"primary_artist": "Magda Santonastasio",
 	"primary_artist_display": "b. 1937",
 	"sort_artist": "Magda Santonastasio",
+	"culture_group": [],
 	"display_year": "1991",
 	"doc_id": "1993.61.16",
 	"slug": "1993.61.16/cover-and-second-volume-of-the-book-ko-koi-noanama-san-diego-tuhana-press-1991",
 	"has_image": true,
 	"has_provenance": true,
 	"has_children": false,
+	"is_highlight": false,
 	"sort_year": 1991,
-	"facet_material": [],
-	"facet_technique": ["aquatint", "etching"],
+	"facet_medium": [
+		{
+			"section": "Print",
+			"subcategory": "Etching & engraving (intaglio)",
+			"specific": "Mixed / other intaglio"
+		}
+	],
 	"facet_place": [
 		{
 			"region": "Central America",
@@ -355,8 +284,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — aquatint, etching · Costa Rica",
+		"reason": "grid-facets real slice — Mixed / other intaglio · Costa Rica",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 45
 	}
 }

@@ -5,10 +5,12 @@
 	"title": "Mummy of Irethorrou in coffin",
 	"object_name": "mummy",
 	"date_display": "ca. 500 BC",
-	"date_start": "500",
-	"date_end": "500",
+	"date_start": "-500",
+	"date_end": "-500",
 	"medium": "Bone, Wood, linen, pigment, resin, faiance",
-	"medium_parts": ["Bone, Wood, linen, pigment, resin, faiance"],
+	"medium_parts": [
+		"Bone, Wood, linen, pigment, resin, faiance"
+	],
 	"credit_line": "Gift of the First Federal Trust Company (from the Estate of Jeremiah Lynch)",
 	"department": "Ancient Art",
 	"classification": "Funerary Object",
@@ -69,11 +71,11 @@
 	],
 	"media": [
 		{
-			"media_xref_id": 82094,
-			"image_id": 168642,
-			"rank": 4,
-			"primary": false,
-			"display_order": 1,
+			"media_xref_id": 82091,
+			"image_id": 162181,
+			"rank": 1,
+			"file_date": "2023-02-27 09:34:00",
+			"primary": true,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
@@ -81,9 +83,9 @@
 			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
-			"height": 5428,
-			"width": 7230,
-			"file_name": "A389156_V4.tif",
+			"height": 7226,
+			"width": 4230,
+			"file_name": "A389156_V1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -98,8 +100,8 @@
 			"media_xref_id": 82093,
 			"image_id": 164135,
 			"rank": 3,
+			"file_date": "2023-02-27 11:16:15",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
@@ -121,11 +123,37 @@
 			"iiif_height": null
 		},
 		{
+			"media_xref_id": 82094,
+			"image_id": 168642,
+			"rank": 4,
+			"file_date": "2023-02-27 07:36:00",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5428,
+			"width": 7230,
+			"file_name": "A389156_V4.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
 			"media_xref_id": 82095,
 			"image_id": 150067,
 			"rank": 5,
+			"file_date": "2023-02-27 07:21:46",
 			"primary": false,
-			"display_order": 1,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": null,
@@ -145,32 +173,6 @@
 			"blurhash": null,
 			"iiif_width": null,
 			"iiif_height": null
-		},
-		{
-			"media_xref_id": 82091,
-			"image_id": 162181,
-			"rank": 1,
-			"primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 7226,
-			"width": 4230,
-			"file_name": "A389156_V1.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -181,45 +183,6 @@
 	"dimensions": [
 		{
 			"value": "70 x 24 x 17 in. (177.8 x 61 x 43.2 cm)",
-			"type": "Height",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 177.8,
-				"width_cm": 61.0,
-				"depth_cm": 43.2,
-				"height_in": 70.0,
-				"width_in": 24.0,
-				"depth_in": 17.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "70 x 24 x 17 in. (177.8 x 61 x 43.2 cm)",
-			"type": "Width",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 177.8,
-				"width_cm": 61.0,
-				"depth_cm": 43.2,
-				"height_in": 70.0,
-				"width_in": 24.0,
-				"depth_in": 17.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "70 x 24 x 17 in. (177.8 x 61 x 43.2 cm)",
-			"type": "Depth",
 			"element": "x_Do not use_Overall (4D)",
 			"unit": "Inches",
 			"rank": 1,
@@ -238,6 +201,7 @@
 		}
 	],
 	"associations": [],
+	"highlights": [],
 	"editorial_related_content": {
 		"stories": null,
 		"events": null,
@@ -249,29 +213,6 @@
 	"is_compound": false,
 	"term_rights_statement": null,
 	"term_place_of_creation": [
-		{
-			"id": 20869914,
-			"term": "Egypt",
-			"type": "N/A",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAB",
-					"term": "Africa"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAB.AAAPN",
-					"term": "Miṣr"
-				}
-			]
-		},
 		{
 			"id": 16701511,
 			"term": "Akhmīm",
@@ -299,6 +240,29 @@
 					"term": "Akhmīm"
 				}
 			]
+		},
+		{
+			"id": 20869914,
+			"term": "Egypt",
+			"type": "N/A",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAPN",
+					"term": "Miṣr"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -317,45 +281,56 @@
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
-	"display_year": "500",
+	"culture_group": [
+		"Egyptian"
+	],
+	"display_year": "500 BC",
 	"doc_id": "42895a-c",
 	"slug": "42895a-c/mummy-of-irethorrou-in-coffin",
 	"has_image": true,
 	"has_provenance": true,
 	"has_children": false,
-	"sort_year": 500,
-	"facet_material": [
+	"is_highlight": false,
+	"sort_year": -500,
+	"facet_medium": [
 		{
-			"parent": "Pigment",
+			"section": "Decorative & other materials",
+			"subcategory": "Animal material (ivory, bone, leather)",
+			"specific": "Bone / antler / horn"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Wood",
 			"specific": ""
 		},
 		{
-			"parent": "Textile",
-			"specific": "linen"
+			"section": "Painting",
+			"subcategory": "Other paint",
+			"specific": ""
 		},
 		{
-			"parent": "Wood",
-			"specific": ""
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Linen"
 		}
 	],
-	"facet_technique": [],
 	"facet_place": [
-		{
-			"region": "Africa",
-			"country": "Egypt",
-			"state": "",
-			"notable": ""
-		},
 		{
 			"region": "Middle East",
 			"country": "",
 			"state": "",
 			"notable": "Akhmīm"
+		},
+		{
+			"region": "Africa",
+			"country": "Egypt",
+			"state": "",
+			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — , linen,  · Egypt, Akhmīm",
+		"reason": "grid-facets real slice — Bone / antler / horn, Wood, Other paint, Linen · Akhmīm, Egypt",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 46
 	}
 }

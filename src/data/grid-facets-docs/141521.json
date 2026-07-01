@@ -1,0 +1,235 @@
+{
+	"id": 141521,
+	"accession_number": "2004.10.1a-b",
+	"sort_number": "2004.10.1a-b",
+	"title": "Container",
+	"object_name": null,
+	"date_display": "19th century",
+	"date_start": null,
+	"date_end": null,
+	"medium": "Bamboo, wood, horn, metal, black smoke",
+	"medium_parts": [
+		"Bamboo, wood, horn, metal, black smoke"
+	],
+	"credit_line": "Gift of George and Marie Hecksher",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Vessels & Containers",
+	"subclassification": null,
+	"culture": "Batak people",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-04-06 13:28:10.553000",
+	"is_virtual": false,
+	"identifying_description": "Human form, torso made from a section of bamboo, exaggerated head, stern facial expression, twisted body.",
+	"web_text": "In the highlands of northern Sumatra a special class of cultured priest (datu) existed among the Batak people who were the diviners and interpreters of the spiritual realm. Mediating and exerting influence between man, nature, and the supernatural, datu were men who possessed immense knowledge. Literate, and conversant with ancient Batak texts, they were also proficient in medicinal lore and in the harnessing and utilization of white and black magic.\n\nDatu owned materials that were emblematic and essential to their craft, including magic staffs, priestly books, inscribed charms, and a variety of containers that were used for storing medicines and magical ointments.\n\nThe datu who created this masterful container skillfully visualized its torso from a section of bamboo. The exaggerated head, stern visage of the face, and twisted body all warn against the opening or improper handling of this object.",
+	"didactic_label": "In the highlands of northern Sumatra a special class of cultured priest (datu) existed among the Batak people who were the diviners and interpreters of the spiritual realm. Mediating and exerting influence between man, nature, and the supernatural, datu were men who possessed immense knowledge. Literate, and conversant with ancient Batak texts, they were also proficient in medicinal lore and in the harnessing and utilization of white and black magic.\n\nDatu owned materials that were emblematic and essential to their craft, including magic staffs, priestly books, inscribed charms, and a variety of containers that were used for storing medicines and magical ointments.\n\nThe datu who created this masterful container skillfully visualized its torso from a section of bamboo. The exaggerated head, stern visage of the face, and twisted body all warn against the opening or improper handling of this object.",
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": "Robert and Helen Kuhn collection, Los Angeles, CA",
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "2004-06-10",
+	"location_string": "de Young, Display, Gallery 031",
+	"location_building": "de Young",
+	"location_room": "Gallery 031",
+	"edition": null,
+	"signed": null,
+	"inscribed": "L04.1.1a-b, L99.188.2 a,b,c",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Container",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 41391,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Batak",
+			"name_sort": "Batak",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Batak"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 155869,
+			"image_id": 194753,
+			"rank": 0,
+			"file_date": "2022-06-07 10:57:56.903",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9000,
+			"width": 7016,
+			"file_name": "A352201_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "9 3/4 x 5 x 4 3/4 in. (24.8 x 12.7 x 12.1 cm)",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 24.8,
+				"width_cm": 12.7,
+				"depth_cm": 12.1,
+				"height_in": 9.75,
+				"width_in": 5.0,
+				"depth_in": 4.75,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "oceanic-art-web-highlights",
+			"collection_name": "Oceanic Art Web Highlights",
+			"rank": 10
+		}
+	],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 20331582,
+			"term": "North Sumatra",
+			"type": "N/A",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADQ",
+					"term": "Sumatera Utara"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Batak",
+	"primary_artist_display": "Batak",
+	"sort_artist": "Batak",
+	"culture_group": [
+		"Batak"
+	],
+	"display_year": null,
+	"doc_id": "2004.10.1a-b",
+	"slug": "2004.10.1a-b/container",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"is_highlight": true,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Animal material (ivory, bone, leather)",
+			"specific": "Bone / antler / horn"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Other material",
+			"specific": "Metal"
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Wood",
+			"specific": ""
+		},
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Wood",
+			"specific": "Bamboo"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Southeast Asia",
+			"country": "",
+			"state": "",
+			"notable": "North Sumatra"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Bone / antler / horn, Metal, Wood, Bamboo · North Sumatra",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

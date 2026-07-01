@@ -3,30 +3,31 @@
 search-results `grid-facets` variation, with curator-taxonomy facets
 baked on.
 
-Three real, curator-reviewed facets are pre-derived per object so the
+Two real, curator-reviewed facets are pre-derived per object so the
 wireframe just reads ready-made arrays:
 
   facet_place[]      hierarchical: {region, country, state, notable} from
                      the REGION_REMAP workbook, keyed on each place term's
                      Getty TGN `cn` code. `state` is US-only (empty elsewhere).
-  facet_material[]   2-tier {parent, specific} pairs (Metal → bronze,
-                     Ceramic → earthenware …) from the FACET_DESIGN_v2
-                     parent/specific design.
-  facet_technique[]  flat Technique labels (Etching, Lithograph …).
-                     Both via the Material workbook bridge: raw token ->
-                     master_v2.canonical_final + facet_final -> joined to
-                     FACET_DESIGN_v2; matched against term_materials + the
-                     `medium` prose.
+  facet_medium[]     3-level {section, subcategory, specific} object-type
+                     paths (Print → Etching & engraving (intaglio) → Etching,
+                     Painting → Oil → Oil on canvas …) from the object-type
+                     medium taxonomy. Each object's raw `medium` string is
+                     split on hard delimiters (comma, semicolon, slash, pipe,
+                     newline — NOT "and"/"with"/"on", matching
+                     probe_medium_full_list.py), each token lowercased and run
+                     through the MaterialClassifier (same AAT-backed path the
+                     build_material_taxonomy.py driver uses).
 
-Slice = objects with geography AND at least one mapped material/technique,
-capped to TARGET docs and balanced across place-regions so every left-column
-facet populates without committing the whole collection. Output: one JSON
-per object in src/data/grid-facets-docs/, matching the sample-doc shape.
+Slice = objects with geography AND at least one classified medium, capped to
+TARGET docs and balanced across place-regions so every left-column facet
+populates without committing the whole collection. Output: one JSON per object
+in src/data/grid-facets-docs/, matching the sample-doc shape.
 
 Prereqs: run scripts/pull_taxonomy_sheets.py first (writes the TSVs under
-src/data/taxonomy-tsv/). Then:
+src/data/taxonomy-tsv/) so aat_index.parquet is present. Then:
 
-    uv run --no-project python scripts/export_grid_facets_docs.py
+    uv run --with polars python scripts/export_grid_facets_docs.py
 """
 
 import csv
@@ -36,12 +37,28 @@ import shutil
 import subprocess
 from pathlib import Path
 
+import polars as pl
+
+# Support running as a plain script (no package parent on sys.path). Only retry
+# for a missing *material_taxonomy* import; a ModuleNotFoundError from inside the
+# package must surface, not be masked by the shim.
+try:
+    from material_taxonomy import MaterialClassifier, OTHER_SECTION
+except ModuleNotFoundError as exc:  # pragma: no cover - script-invocation shim
+    if exc.name != "material_taxonomy":
+        raise
+    import sys
+
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from material_taxonomy import MaterialClassifier, OTHER_SECTION
+
 ROOT = Path(__file__).resolve().parent.parent
 PARQUET = Path(
     "/Users/lukew/git/famsf-collections/collection-flow-famsf-real/"
     "output/collection_documents.parquet"
 )
 TSV = ROOT / "src" / "data" / "taxonomy-tsv"
+AAT_INDEX = TSV / "aat_index.parquet"
 OUT_DIR = ROOT / "src" / "data" / "grid-facets-docs"
 
 CONSTITUENT_KEY_MAP = {
@@ -61,8 +78,11 @@ CONSTITUENT_KEY_MAP = {
 }
 
 PLACE_KEYS = ("term_place_of_creation", "term_related_geography")
-# split the free-text medium prose into candidate tokens for the crosswalk
-MEDIUM_SPLIT = re.compile(r"[;,/()]| and | with | on | over | in ")
+# Split the raw medium string into tokens on HARD delimiters only (comma,
+# semicolon, slash, pipe, newline), matching probe_medium_full_list.py. A
+# composite phrase like "oil on canvas" stays ONE token; connective words
+# ("and"/"with"/"on") are deliberately NOT split points.
+MEDIUM_SPLIT = re.compile(r"[;,/|\r\n]")
 
 # cap the committed slice; balance per place-region so the facets stay varied
 TARGET = 600
@@ -74,44 +94,28 @@ def _rows(path: Path) -> list[dict]:
         return list(csv.DictReader(f, delimiter="\t"))
 
 
-def build_material_crosswalk() -> dict[str, dict]:
-    """raw token -> facet hit, via the curator Material workbook.
+def load_aat_lookup() -> dict[str, dict]:
+    """Lower-cased AAT term -> {facet, chain, aat_label}, the classifier inputs.
 
-    Authoritative bridge is `master_v2` (token -> canonical_final +
-    facet_final) joined to `FACET_DESIGN_v2` (the 2-tier design: Material
-    `specific` labels roll up to a `parent`; Technique labels are `flat`).
-
-    Material hits carry both tiers:  {"facet": "Material", "parent", "specific"}
-    Technique hits are flat:         {"facet": "Technique", "label"}
+    Mirrors build_material_taxonomy.py's `load_aat`: preferred, faceted terms
+    only, one row per term (lowest subject_id wins for determinism). Keyed on
+    the lower-cased term so a lower-cased medium token joins straight in.
     """
-    # DESIGN: specific material label -> parent; set of flat technique labels.
-    spec_parent: dict[str, str] = {}
-    tech_flat: set[str] = set()
-    for r in _rows(TSV / "material_FACET_DESIGN_v2.tsv"):
-        group = (r.get("facet_group") or "").strip()
-        level = (r.get("level") or "").strip()
-        label = (r.get("label") or "").strip()
-        if group == "Material" and level == "specific":
-            spec_parent[label.lower()] = r.get("parent", "").strip()
-        elif group == "Technique" and level == "flat":
-            tech_flat.add(label.lower())
-
-    token_to_hit: dict[str, dict] = {}
-    for r in _rows(TSV / "material_master_v2.tsv"):
-        tok = (r.get("token") or "").strip().lower()
-        canon = (r.get("canonical_final") or "").strip()
-        facet = (r.get("facet_final") or "").strip()
-        if not tok or not canon:
-            continue
-        cl = canon.lower()
-        if facet == "material" and cl in spec_parent:
-            token_to_hit.setdefault(
-                tok,
-                {"facet": "Material", "parent": spec_parent[cl], "specific": canon},
-            )
-        elif facet == "technique" and cl in tech_flat:
-            token_to_hit.setdefault(tok, {"facet": "Technique", "label": canon})
-    return token_to_hit
+    aat = (
+        pl.read_parquet(AAT_INDEX)
+        .filter((pl.col("is_preferred")) & (pl.col("facet") != ""))
+        .sort(["term", "subject_id"])
+        .unique(subset=["term"], keep="first")
+        .select("term", "facet", "parent_string", "pref_label")
+    )
+    return {
+        (r["term"] or "").lower(): {
+            "facet": r["facet"] or "",
+            "chain": r["parent_string"] or "",
+            "aat_label": r["pref_label"] or "",
+        }
+        for r in aat.iter_rows(named=True)
+    }
 
 
 def build_place_crosswalk() -> dict[str, dict]:
@@ -131,9 +135,11 @@ def build_place_crosswalk() -> dict[str, dict]:
         country = (r.get("country") or "").strip()
         state = (r.get("state") or "").strip()
         tier = (r.get("tier") or "").strip()
-        display = (r.get("override_label") or "").strip() or (
-            r.get("display_label") or ""
-        ).strip() or (r.get("label") or "").strip()
+        display = (
+            (r.get("override_label") or "").strip()
+            or (r.get("display_label") or "").strip()
+            or (r.get("label") or "").strip()
+        )
         by_cn[cn] = {
             "region": region,
             "country": country,
@@ -143,38 +149,51 @@ def build_place_crosswalk() -> dict[str, dict]:
     return by_cn
 
 
-def material_tokens(doc: dict) -> set[str]:
-    out: set[str] = set()
-    for m in doc.get("term_materials") or []:
-        if m.get("term"):
-            out.add(m["term"].strip().lower())
+def medium_tokens(doc: dict) -> list[str]:
+    """Lower-cased tokens from the raw `medium` string, hard-delimiter split.
+
+    Order-preserving + deduped so the first classification of each distinct
+    token wins deterministically.
+    """
+    seen: set[str] = set()
+    out: list[str] = []
     for part in MEDIUM_SPLIT.split((doc.get("medium") or "").lower()):
         p = part.strip()
-        if p:
-            out.add(p)
+        if p and p not in seen:
+            seen.add(p)
+            out.append(p)
     return out
 
 
-def derive_facets(doc: dict, mat_xwalk: dict, place_xwalk: dict) -> tuple[dict, bool]:
-    # Material is 2-tier ({parent, specific}); technique is flat.
-    materials: dict[tuple[str, str], None] = {}
-    techniques: set[str] = set()
-    for tok in material_tokens(doc):
-        hit = mat_xwalk.get(tok)
-        if not hit:
-            continue
-        if hit["facet"] == "Material":
-            # Collapse a specific that just repeats its parent (FACET_DESIGN
-            # has a "silk" specific under the "Silk" parent etc.), so the
-            # tree never shows a child identical to its parent.
-            specific = (
-                ""
-                if hit["specific"].strip().lower() == hit["parent"].strip().lower()
-                else hit["specific"]
-            )
-            materials[(hit["parent"], specific)] = None
-        else:
-            techniques.add(hit["label"])
+def derive_facets(
+    doc: dict,
+    aat_lookup: dict,
+    classifier: MaterialClassifier,
+    place_xwalk: dict,
+) -> tuple[dict, bool]:
+    # Medium is one 3-level object-type facet: section -> subcategory -> specific.
+    media: dict[tuple[str, str, str], None] = {}
+    for tok in medium_tokens(doc):
+        aat = aat_lookup.get(tok, {})
+        path = classifier.classify(
+            tok,
+            aat_facet=aat.get("facet", ""),
+            chain=aat.get("chain", ""),
+            aat_label=aat.get("aat_label", ""),
+        )
+        # Collapse a level that merely repeats its ancestor so the tree never
+        # shows a child identical to its parent (e.g. Bronze / Bronze / Bronze).
+        subcategory = "" if path.subcategory == path.section else path.subcategory
+        specific = (
+            "" if path.specific in (path.subcategory, path.section) else path.specific
+        )
+        media[(path.section, subcategory, specific)] = None
+
+    # Drop the "Other / unclassified" residue when the object already has a real
+    # medium section: an object that is Textile + Other doesn't need the Other
+    # tag. Other survives only for objects nothing else matched.
+    if any(sec != OTHER_SECTION for (sec, _, _) in media):
+        media = {k: None for k in media if k[0] != OTHER_SECTION}
 
     # place: walk each term's TGN ancestry, map the deepest mapped `cn`.
     places: list[dict] = []
@@ -185,7 +204,9 @@ def derive_facets(doc: dict, mat_xwalk: dict, place_xwalk: dict) -> tuple[dict, 
             for node in term.get("path") or []:
                 cn = (node.get("cn") or "").strip()
                 if cn in place_xwalk:
-                    mapped = place_xwalk[cn]  # deepest mapped node wins (path is shallow→deep)
+                    mapped = place_xwalk[
+                        cn
+                    ]  # deepest mapped node wins (path is shallow→deep)
             if not mapped or not mapped["region"]:
                 continue
             region = mapped["region"]
@@ -217,21 +238,23 @@ def derive_facets(doc: dict, mat_xwalk: dict, place_xwalk: dict) -> tuple[dict, 
                 }
             )
 
-    doc["facet_material"] = [
-        {"parent": p, "specific": s}
-        for (p, s) in sorted(materials, key=lambda x: (x[0], x[1]))
+    doc["facet_medium"] = [
+        {"section": sec, "subcategory": sub, "specific": spec}
+        for (sec, sub, spec) in sorted(media, key=lambda x: (x[0], x[1], x[2]))
     ]
-    doc["facet_technique"] = sorted(techniques)
+    doc.pop("facet_material", None)
+    doc.pop("facet_technique", None)
     doc["facet_place"] = places
-    has_facets = bool(materials or techniques) and bool(places)
+    has_facets = bool(media) and bool(places)
     return doc, has_facets
 
 
 def main() -> None:
-    mat_xwalk = build_material_crosswalk()
+    aat_lookup = load_aat_lookup()
+    classifier = MaterialClassifier()
     place_xwalk = build_place_crosswalk()
     print(
-        f"crosswalks: {len(mat_xwalk)} material tokens, "
+        f"crosswalks: {len(aat_lookup)} AAT medium terms, "
         f"{len(place_xwalk)} place TGN nodes",
         flush=True,
     )
@@ -264,18 +287,22 @@ def main() -> None:
         # straight through from the parquet (SELECT *); normalise empty -> null.
         culture = doc.get("culture")
         doc["culture"] = culture if (culture or "").strip() else None
-        doc, keep = derive_facets(doc, mat_xwalk, place_xwalk)
+        doc, keep = derive_facets(doc, aat_lookup, classifier, place_xwalk)
         if keep:
             candidates.append(doc)
         if (i + 1) % 20000 == 0:
-            print(f"  scanned {i + 1}/{len(lines)}, qualifying {len(candidates)}", flush=True)
+            print(
+                f"  scanned {i + 1}/{len(lines)}, qualifying {len(candidates)}",
+                flush=True,
+            )
     print(f"Qualifying docs: {len(candidates)}", flush=True)
 
     # Pass 2 — balance across the primary place-region, round-robin, richest
     # first within each region, so no single region floods the slice.
     def richness(d: dict) -> int:
         return (
-            len(d["facet_material"]) + len(d["facet_technique"]) + len(d["facet_place"])
+            len(d["facet_medium"])
+            + len(d["facet_place"])
             + (5 if d.get("has_image") else 0)
             + (3 if d.get("primary_artist") else 0)
         )
@@ -306,7 +333,10 @@ def main() -> None:
     OUT_DIR.mkdir(parents=True)
 
     for doc in picked:
-        mats = [m["specific"] for m in doc["facet_material"]] + doc["facet_technique"]
+        mats = [
+            m["specific"] or m["subcategory"] or m["section"]
+            for m in doc["facet_medium"]
+        ]
         plc = [p["notable"] or p["country"] or p["region"] for p in doc["facet_place"]]
         doc["_sample_meta"] = {
             "reason": (

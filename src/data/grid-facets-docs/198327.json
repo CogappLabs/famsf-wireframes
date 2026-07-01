@@ -1,0 +1,284 @@
+{
+	"id": 198327,
+	"accession_number": "46529",
+	"sort_number": "46529",
+	"title": "Hanging or cover",
+	"object_name": "miscellaneous furnishing",
+	"date_display": "19th–20th century",
+	"date_start": null,
+	"date_end": null,
+	"medium": "silk, metal thread; satin weave, embroidery, piecework, applique",
+	"medium_parts": [
+		"silk, metal thread",
+		"satin weave, embroidery, piecework, applique"
+	],
+	"credit_line": "Gift of Mrs. Sigmund Schwabacher",
+	"department": "Costume and Textile Arts",
+	"classification": "Furnishing",
+	"subclassification": null,
+	"culture": "Ottoman period",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-09 13:22:34.370000",
+	"is_virtual": false,
+	"identifying_description": "Rectangular cover or hanging of pieced and/or appliqued silk satin in red, light tan, an silver gray satin embroidered with gold metallic yarns in \"dival\" technique (couching over motifs cut out of paper card) and a finer silver/copper metal yarn in chain stitch. At the center is a large roundel embroidered with the stylized signature (tugra) of an Ottoman sultan, surround, with corner motifs and borders consisting of cartouches containing Arabic calligraphy. Elaborate floral patterns in several types of metal thread fill the interstices between major design elements. The corners of the object are edged with needle lace (igne oyasi) and terminate in silk tassels.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "1919-11-19",
+	"location_string": "de Young, 059, Cabinet 01, I",
+	"location_building": "de Young",
+	"location_room": "Cabinet 01",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Hanging or cover",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 40706,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Ottoman",
+			"name_sort": "Ottoman",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Ottoman"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 95876,
+			"image_id": 58275,
+			"rank": 1,
+			"file_date": "2023-02-27 06:34:14",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2718,
+			"width": 2043,
+			"file_name": "2909200411170299.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "95 1/16 x 74 3/16 in. (241.5 x 188.5 cm)",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 241.5,
+				"width_cm": 188.5,
+				"depth_cm": null,
+				"height_in": 95.0625,
+				"width_in": 74.1875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 16957544,
+			"term": "Istanbul",
+			"type": "N/A",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASN",
+					"term": "Marmara"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASN.AAAAD.AAAEP",
+					"term": "İstanbul"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": [
+		{
+			"id": 20889447,
+			"term": "Ottoman",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAD",
+					"term": "Styles and Periods Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAD.AAA",
+					"term": "Styles and Periods"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAD.AAA.AAB",
+					"term": "styles, periods, and cultures by region"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAD.AAA.AAB.AAM",
+					"term": "Islamic World, The"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD",
+					"term": "Islamic World dynastic styles and periods"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD.AAB",
+					"term": "Anatolian Islamic styles and periods after Manzikert"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAD.AAA.AAB.AAM.AAD.AAB.AAC",
+					"term": "Ottoman"
+				}
+			]
+		}
+	],
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"culture_group": [
+		"Ottoman"
+	],
+	"display_year": null,
+	"doc_id": "46529",
+	"slug": "46529/hanging-or-cover",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Silk"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Other textile",
+			"specific": ""
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Textile technique (weaving, embroidery)",
+			"specific": "Embroidery"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Thread & trimmings",
+			"specific": "Metal thread"
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Woven & worked cloth",
+			"specific": ""
+		}
+	],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "Achaemenid",
+			"state": "",
+			"notable": "Istanbul"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Silk, Other textile, Embroidery, Metal thread … · Istanbul",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 40
+	}
+}

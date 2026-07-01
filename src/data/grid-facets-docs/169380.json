@@ -1,0 +1,326 @@
+{
+	"id": 169380,
+	"accession_number": "41520",
+	"sort_number": "41520",
+	"title": "Kahu kiwi (Kiwi feather cloak)",
+	"object_name": null,
+	"date_display": "19th century",
+	"date_start": null,
+	"date_end": null,
+	"medium": "Kiwi bird (Apteryx) feathers, muka (processed flax [phormium tenax]), and commercial wool",
+	"medium_parts": [
+		"Kiwi bird (Apteryx) feathers, muka (processed flax [phormium tenax]), and commercial wool"
+	],
+	"credit_line": "Gift of M.H. de Young",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Personal Accessory",
+	"subclassification": null,
+	"culture": "Maori people",
+	"copyright": null,
+	"object_rights_type": "Requires Further Research",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-04-23 13:30:42.863000",
+	"is_virtual": false,
+	"identifying_description": "Kakahu kiwi-kiwi cloak. Kiwi bird feathers, wool, bast fiber (muka - flax fiber; phormium tenax).",
+	"web_text": "An exceptional Kiwi feather cloak, hand-woven from flax fiber and covered with feathers from the flightless Kiwi bird native to New Zealand, this cloak is called a kahu kiwi. It was a prestigious garment worn over the shoulders on top of clothing such as a suit or dress. The decorative borders with geometric designs, tāniko, incorporate multicolored wool. Reportedly, this feather cloak was worn by Māori chief Mita Taupopoki (ca. 1845–1935), renowned for his participation in the wars of the 1860s and his success in land court. Reportedly, Taupopoki wore this feather cloak during a tour of Australia, the United States, and England in 1910–1911. While in England, Taupopoki attended the coronation of King George V.",
+	"didactic_label": "Maori cloaks like this one from the 19th century were woven by hand from flax fiber and worn as prestige garments. They were often considered personal taonga (treasures). This kakahu kiwi cloak has been covered with kiwi bird feathers. The semi-nocturnal and flightless bird is native to New Zealand. The woven taniko border of the cloak includes brightly colored commercial wool fiber and contrasts with the natural and brown-dyed flax.\n\nFeather cloaks were worn over the shoulders on top of clothing such as a suit or dress. Museum records indicate that a renowned Maori chief, Mita Taupopoki (1845/1846- 1935), once owned this cloak. In 1910, he wore it during a tour of Australia, the United States, and England where he attended the coronation of George V and took part in the Festival of Empire celebrations.",
+	"exhibition_history_text": "previously in the old AOA galleryWorn by Chief Mita Tapopoki of the Te Arawa tribe at the coronation of Edward and the diamond jubilee of Victoria when chiefs of distant tribes gathered to pay homage",
+	"bibliography_text": null,
+	"provenance": null,
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "1915-10-28",
+	"location_string": "de Young, 059, Cabinet 02, TA",
+	"location_building": "de Young",
+	"location_room": "Cabinet 02",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Kahu kiwi (Kiwi feather cloak)",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 40487,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Māori",
+			"name_sort": "Māori",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Māori"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 156055,
+			"image_id": 194935,
+			"rank": 0,
+			"file_date": "2022-08-17 19:49:44.763",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 7896,
+			"width": 10860,
+			"file_name": "A308438_V1_crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 204735,
+			"image_id": 212236,
+			"rank": 1,
+			"file_date": "2023-05-17 12:25:08",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9044,
+			"width": 11824,
+			"file_name": "MS_169380_20230509_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 83221,
+			"image_id": 171988,
+			"rank": 1,
+			"file_date": "2023-02-27 07:43:54",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8323,
+			"width": 10860,
+			"file_name": "A308438_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 83222,
+			"image_id": 25488,
+			"rank": 2,
+			"file_date": "2023-02-27 06:15:46",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 560,
+			"width": 765,
+			"file_name": "0522200712430002.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "42 x 64 in. (106.7 x 162.6 cm)",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 106.7,
+				"width_cm": 162.6,
+				"depth_cm": null,
+				"height_in": 42.0,
+				"width_in": 64.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		},
+		{
+			"value": "42 x 64 in. (106.68 x 162.56 cm)",
+			"element": "x_Do not use_Image (Filemaker)",
+			"unit": "Inches",
+			"rank": 2,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 106.68,
+				"width_cm": 162.56,
+				"depth_cm": null,
+				"height_in": 42.0,
+				"width_in": 64.0,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "oceanic-art-web-highlights",
+			"collection_name": "Oceanic Art Web Highlights",
+			"rank": 21
+		}
+	],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 17330452,
+			"term": "Whanganui",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAABD",
+					"term": "New Zealand"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACB.AAABD.AAACV",
+					"term": "North Island"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAACB.AAABD.AAACV.AAAAH.AAAQH",
+					"term": "Whanganui"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"primary_artist": "Māori",
+	"primary_artist_display": "Māori",
+	"sort_artist": "Māori",
+	"culture_group": [
+		"Māori"
+	],
+	"display_year": null,
+	"doc_id": "41520",
+	"slug": "41520/kahu-kiwi-kiwi-feather-cloak",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": true,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Decorative & other materials",
+			"subcategory": "Beads, feathers & plant material",
+			"specific": ""
+		},
+		{
+			"section": "Textile",
+			"subcategory": "Natural fiber (silk, wool, cotton)",
+			"specific": "Wool"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Oceania",
+			"country": "New Zealand",
+			"state": "",
+			"notable": "Whanganui"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Beads, feathers & plant material, Wool · Whanganui",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}
