@@ -834,7 +834,7 @@ function TreeFacet({
 
 /** Side drawer for the facet controls (drawer layout, mobile + desktop).
  *  A native <dialog> (so it keeps the backdrop, focus trap, and Esc-to-close)
- *  anchored to the right edge, full height, sliding in from the side rather
+ *  anchored to the LEFT edge, full height, sliding in from the side rather
  *  than the old centred modal. Near-full width on mobile, fixed on desktop. */
 function FacetDrawer({
 	title,
@@ -858,9 +858,9 @@ function FacetDrawer({
 			onClick={(e) => {
 				if (e.target === e.currentTarget) onClose();
 			}}
-			// Pin to the right edge, full height. `ml-auto` + inset push the panel
-			// flush to the right so the backdrop fills the rest of the viewport.
-			className="m-0 ml-auto h-dvh max-h-dvh w-[88vw] max-w-sm border-l border-gray-300 bg-white p-0 backdrop:bg-black/30"
+			// Pin to the left edge, full height. `mr-auto` pushes the panel flush
+			// to the left so the backdrop fills the rest of the viewport.
+			className="m-0 mr-auto h-dvh max-h-dvh w-[88vw] max-w-sm border-r border-gray-300 bg-white p-0 backdrop:bg-black/30"
 		>
 			<div className="flex h-full flex-col">
 				<div className="flex items-center justify-between border-b border-gray-200 px-4 py-3">
