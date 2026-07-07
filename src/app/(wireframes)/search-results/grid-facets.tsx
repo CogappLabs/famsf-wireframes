@@ -735,6 +735,7 @@ function TreeFacet({
 	search,
 	onSearch,
 	topN = null,
+	fill = false,
 }: {
 	label: string;
 	tree: FacetTreeNode[];
@@ -746,6 +747,9 @@ function TreeFacet({
 	search: string;
 	onSearch: (v: string) => void;
 	topN?: number | null;
+	/** Drawer layout: let the list grow to fill the drawer (which scrolls),
+	 *  instead of the inline `max-h-96` inner-scroll cap. */
+	fill?: boolean;
 }) {
 	const [showAll, setShowAll] = useState(false);
 
@@ -775,7 +779,11 @@ function TreeFacet({
 	const hiddenCount = visible.length - rows.length;
 
 	return (
-		<div className="border-b border-gray-200 pb-3">
+		<div
+			className={
+				fill ? "flex min-h-0 flex-1 flex-col" : "border-b border-gray-200 pb-3"
+			}
+		>
 			<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
 				{label}
 			</p>
@@ -789,7 +797,13 @@ function TreeFacet({
 			{visible.length > 0 ? (
 				<>
 					<ul
-						className={`flex flex-col ${topN == null ? "max-h-96 overflow-y-auto" : ""}`}
+						className={`flex flex-col ${
+							fill
+								? "min-h-0 flex-1 overflow-y-auto"
+								: topN == null
+									? "max-h-96 overflow-y-auto"
+									: ""
+						}`}
 					>
 						{rows.map((node) => (
 							<FacetTreeRow
@@ -873,7 +887,12 @@ function FacetDrawer({
 						Close
 					</button>
 				</div>
-				<div className="flex-1 overflow-y-auto p-4">{children}</div>
+				{/* Flex column so a `fill` TreeFacet can stretch to the drawer
+				    height + scroll internally; flat facets just overflow + scroll
+				    the body. */}
+				<div className="flex min-h-0 flex-1 flex-col overflow-y-auto p-4">
+					{children}
+				</div>
 			</div>
 		</dialog>
 	);
@@ -1277,6 +1296,7 @@ export function GridFacetsView({
 					onToggle={togglePlace}
 					search={placeSearch}
 					onSearch={setPlaceSearch}
+					fill={layout === "drawer"}
 				/>
 			),
 		},
@@ -1296,6 +1316,7 @@ export function GridFacetsView({
 					search={mediumSearch}
 					onSearch={setMediumSearch}
 					topN={null}
+					fill={layout === "drawer"}
 				/>
 			),
 		},
