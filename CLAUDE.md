@@ -38,7 +38,7 @@ The index, top bar badges, footer links, and scope overlay all derive from these
 |------|-------|-------------|
 | Collection Landing | `/collection-landing` | **Lean MVP**: hero + autocomplete search bar with basic filter chips. Everything else (stats, dual pathways, browse-by-area, highlights, "what to see", timeline) is scope-deferred post-MVP but still on the page. |
 | Explore | `/explore` | Curated themes, timeline browse, discovery prompts, most viewed (post-MVP) |
-| Search Results | `/search-results` | **Primary view = grid + facet modals** (real data, omnibox + sort + pager). Other variations behind `?variation=`. |
+| Search Results | `/search-results` | **Primary view = grid + facet drawer** (real data, omnibox + sort + pager). Other variations behind `?variation=`. |
 | Object Detail | `/objects/sample/[variant]` | **Two-column layout** (full-width image → left rail: title/subtitle, on-view+location, audio, parent-child → wide main: web text, tombstone, dimensions, scale, people, additional info, provenance → exhibitions → bibliography, scholarly publications, rights & citation → full-width Related works + data disclaimer). Per the June 18 2026 page-layouts spec. Sections split into `object-detail/*` components. |
 | Collection areas | (no index page) | The standalone `/collection-areas` index was removed 2026-06-19; collection-area detail pages are reached only from the homepage Browse-by-area grid. |
 | Collection Area (detail) | `/collection-area/[slug]` | Per-area detail route, statically generated for the **9 TMS departments** carrying web-visible objects (collection areas == departments, CW-30) from an `AREAS` data map keyed by slug. AOA is one area ("Arts of Africa, Oceania, and the Americas"), not three. Order per the June 18 2026 spec: intro → deep dive (collection history) → highlights → featured collections → read/watch/listen → other resources. Featured-collection cards are the real named "(Web)" collections from the curated TMS "Topics" package folder, rendered as child pages at `/collection-area/[slug]/[featured]`; only Achenbach has any, so other areas show no featured grid. |
@@ -84,16 +84,16 @@ All components are exported from `@/components/wireframe`:
 Pages can offer alternative layouts via URL search params (e.g. `?variation=list`). This lets stakeholders compare design options with shareable links. The toggle renders automatically in the layout top bar.
 
 Current variations:
-- **Search Results**: grid + facet modals (**primary / default**) / grid + facets / grid / list / zero-results / AI search / artworks + artists / interleaved
-  - **grid + facet modals** is **first in `VIEW_VARIATIONS`**, so bare
+- **Search Results**: grid + facet drawer (**primary / default**) / grid + facets / grid / list / zero-results / AI search / artworks + artists / interleaved
+  - **grid + facet drawer** is **first in `VIEW_VARIATIONS`**, so bare
     `/search-results` loads it — it's the Phase 1 primary search view. The
     other entries stay as design alternatives behind `?variation=`.
-  - **grid + facet modals** (`?variation=grid-facets-modal`) and **grid +
+  - **grid + facet drawer** (`?variation=grid-facets-modal`) and **grid +
     facets** (`?variation=grid-facets`) are the only variations backed by
     **real pipeline data** (a ~600-object slice in `src/data/grid-facets-docs/`,
     see below). Both render a left facet column instead of the horizontal bar,
     sharing the same `GridFacetsView` (a `layout` prop switches inline vs
-    modal). Facets, top to bottom:
+    drawer). Facets, top to bottom:
     Facet display order (PANEL_ORDER, grid-facets.tsx): Artist/maker, Date,
     Place, Culture group, Medium, Object type, Department, Collection. (The
     Gallery + Technique facets were removed 2026-07-07.) Labels use
@@ -145,7 +145,7 @@ Current variations:
       OR `object_rights_type == "Public Domain"`. The grid-facets slice has
       `copyright: null` and carries the rights enum, so the dual check is what
       makes the OA facet + the card badge fire on this view (214 PD docs).
-      Inline layout: a full-width row under the search. Modal layout: top of
+      Inline layout: a full-width row under the search. Drawer layout: top of
       the left column.
     The CW-41 core facet set (geo, medium, classification, dept, OA, on-view,
     has-image) + date (CW-64) is complete; Artist + Culture group are kept on
@@ -153,7 +153,9 @@ Current variations:
     facets cap at 8 with "Show more"; Place (geography) and the full Medium tree
     show all. `grid-facets` shows every facet expanded
     inline; `grid-facets-modal` shows one button per facet (name + active-count
-    badge) opening the same control in a `<dialog>`.
+    badge) opening the same control in a right-anchored side **drawer** (native
+    `<dialog>`, mobile + desktop; the URL key keeps the `-modal` name for stable
+    links, changed 2026-07-07).
   - **Omnibox, sort, pagination** (grid-facets only): the search bar's `?q=`
     filters the slice (title/artist/medium/dept/classification/accession) via
     a `query` prop on `GridFacetsView`; the autocomplete suggests **only the

@@ -78,7 +78,7 @@ export function deriveArtists(docs: CollectionDocument[]): ArtistRecord[] {
 // so bare /search-results loads it. The other entries stay as design
 // alternatives behind ?variation=.
 export const VIEW_VARIATIONS = [
-	{ key: "grid-facets-modal", label: "Grid + facet modals" },
+	{ key: "grid-facets-modal", label: "Grid + facet drawer" },
 	{ key: "grid-facets", label: "Grid + facets" },
 	{ key: "grid", label: "Grid" },
 	{ key: "list", label: "List" },
@@ -546,7 +546,8 @@ function SearchResultsContent({
 				{/* Grid + left-column facets variations: replace the horizontal
 				    facet bar and results with a real-data faceted browse.
 				    `grid-facets` expands each facet inline; `grid-facets-modal`
-				    renders a button per facet that opens the control in a dialog. */}
+				    renders a button per facet that opens the control in a side
+				    drawer (the URL key keeps the -modal name for stable links). */}
 				{variation === "grid-facets" || variation === "grid-facets-modal" ? (
 					<Container className="py-8">
 						<WireframeSection label="Faceted browse (real data)">
@@ -557,7 +558,7 @@ function SearchResultsContent({
 								// fully-built sample object (Water Lilies) to demo the
 								// search → object-detail flow.
 								getHref={() => "/objects/sample/water-lilies-1973-3"}
-								layout={variation === "grid-facets-modal" ? "modal" : "inline"}
+								layout={variation === "grid-facets-modal" ? "drawer" : "inline"}
 								query={query}
 								seedFacet={urlFacet}
 							/>

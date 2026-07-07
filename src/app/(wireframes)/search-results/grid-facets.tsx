@@ -832,8 +832,11 @@ function TreeFacet({
 	);
 }
 
-/** Lightweight modal wrapper for the facet dialogs (modal layout). */
-function FacetModal({
+/** Side drawer for the facet controls (drawer layout, mobile + desktop).
+ *  A native <dialog> (so it keeps the backdrop, focus trap, and Esc-to-close)
+ *  anchored to the right edge, full height, sliding in from the side rather
+ *  than the old centred modal. Near-full width on mobile, fixed on desktop. */
+function FacetDrawer({
 	title,
 	onClose,
 	children,
@@ -855,24 +858,28 @@ function FacetModal({
 			onClick={(e) => {
 				if (e.target === e.currentTarget) onClose();
 			}}
-			className="m-auto w-full max-w-md border border-gray-300 bg-white p-0 backdrop:bg-black/30"
+			// Pin to the right edge, full height. `ml-auto` + inset push the panel
+			// flush to the right so the backdrop fills the rest of the viewport.
+			className="m-0 ml-auto h-dvh max-h-dvh w-[88vw] max-w-sm border-l border-gray-300 bg-white p-0 backdrop:bg-black/30"
 		>
-			<div className="flex items-center justify-between border-b border-gray-200 px-4 py-3">
-				<h3 className="font-mono text-meta font-medium">{title}</h3>
-				<button
-					type="button"
-					onClick={onClose}
-					className="font-mono text-meta text-gray-500 hover:text-gray-700"
-				>
-					Close
-				</button>
+			<div className="flex h-full flex-col">
+				<div className="flex items-center justify-between border-b border-gray-200 px-4 py-3">
+					<h3 className="font-mono text-meta font-medium">{title}</h3>
+					<button
+						type="button"
+						onClick={onClose}
+						className="font-mono text-meta text-gray-500 hover:text-gray-700"
+					>
+						Close
+					</button>
+				</div>
+				<div className="flex-1 overflow-y-auto p-4">{children}</div>
 			</div>
-			<div className="max-h-[70vh] overflow-y-auto p-4">{children}</div>
 		</dialog>
 	);
 }
 
-/** Left-column button that opens a facet modal (modal layout). Shows the
+/** Left-column button that opens a facet drawer (drawer layout). Shows the
  *  facet name + active-selection count. */
 function FacetButton({
 	label,
@@ -1043,9 +1050,9 @@ export function GridFacetsView({
 }: {
 	docs: CollectionDocument[];
 	getHref: (id: number) => string;
-	/** "inline" renders each facet expanded in the left column; "modal"
-	 *  renders a button per facet that opens the same control in a dialog. */
-	layout?: "inline" | "modal";
+	/** "inline" renders each facet expanded in the left column; "drawer"
+	 *  renders a button per facet that opens the same control in a side drawer. */
+	layout?: "inline" | "drawer";
 	/** Free-text omnibox query (from ?q=); filters docs alongside the facets. */
 	query?: string;
 	/** Autocomplete facet pick (raw `?facet=type:value`); seeds a selection. */
@@ -1216,7 +1223,7 @@ export function GridFacetsView({
 		sel.openAccess;
 
 	// One descriptor per facet: its control (shared by both layouts) and how
-	// many selections are active (for the modal-layout button badge).
+	// many selections are active (for the drawer-layout button badge).
 	const panelsByDef = [
 		{
 			id: "collection",
@@ -1415,14 +1422,14 @@ export function GridFacetsView({
 							</button>
 						</div>
 
-						{/* Modal layout: toggles at the top of the left column. */}
-						{layout === "modal" && (
+						{/* Drawer layout: toggles at the top of the left column. */}
+						{layout === "drawer" && (
 							<div className="mt-3 flex flex-wrap gap-2 border-b border-gray-200 pb-3">
 								{toggleButtons}
 							</div>
 						)}
 
-						{layout === "modal" ? (
+						{layout === "drawer" ? (
 							<div className="mt-3 flex flex-col gap-2">
 								{panels.map((p) => (
 									<FacetButton
@@ -1446,14 +1453,14 @@ export function GridFacetsView({
 					</aside>
 				</ScopeMark>
 
-				{/* Modal layout: one dialog for the open facet */}
-				{layout === "modal" && activePanel && (
-					<FacetModal
+				{/* Drawer layout: one side drawer for the open facet */}
+				{layout === "drawer" && activePanel && (
+					<FacetDrawer
 						title={activePanel.label}
 						onClose={() => setOpenFacet(null)}
 					>
 						{activePanel.control}
-					</FacetModal>
+					</FacetDrawer>
 				)}
 
 				{/* Results */}
