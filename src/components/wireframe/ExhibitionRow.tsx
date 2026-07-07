@@ -11,8 +11,9 @@ interface ExhibitionRowProps {
 
 /**
  * FAMSF cataloguing guidelines (Exhibition History, lines 780–787) specify:
- *   `City, Venue, Month Day, Year – Month Day, Year. "Exhibition Title," no. X`
- * Exhibition title in quotation marks (not italics).
+ *   `City, Venue, Month Day, Year–Month Day, Year. <em>Exhibition Title</em>, no. X`
+ * House style (object-page notes): exhibition title in ITALICS, not quotation
+ * marks.
  */
 export default function ExhibitionRow({
 	title,

@@ -316,7 +316,7 @@ export function ArtistHero({
 							{dateRange && (
 								<p>
 									<span className="text-gray-400">Date range: </span>
-									{dateRange.earliest_year} &ndash; {dateRange.latest_year}
+									{dateRange.earliest_year}&ndash;{dateRange.latest_year}
 								</p>
 							)}
 							{topClassifications.length > 0 && (
@@ -417,7 +417,7 @@ export function ZeroResults({
 	const suggestions = [
 		"Pissarro",
 		"Rodin sculpture",
-		"watercolour",
+		"watercolor",
 		"Japanese textile",
 	];
 	const displayQuery = query || "glass vases form 1972";

@@ -159,7 +159,7 @@ function SeedJourneyContent({
 					</p>
 					<p className="mt-3 font-mono text-meta text-gray-500">
 						<Link href="/my-finds" className="underline hover:text-gray-700">
-							&#8592; Back to My Finds
+							&#8592; Back to My finds
 						</Link>
 					</p>
 				</Container>
@@ -485,7 +485,7 @@ function SeedPicker({ docs }: { docs: CollectionDocument[] }) {
 					</p>
 					<p className="mt-3 font-mono text-meta text-gray-500">
 						<Link href="/my-finds" className="underline hover:text-gray-700">
-							&#8592; Back to My Finds
+							&#8592; Back to My finds
 						</Link>
 					</p>
 				</Container>

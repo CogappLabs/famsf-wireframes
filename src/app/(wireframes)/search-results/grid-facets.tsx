@@ -1557,7 +1557,7 @@ export function GridFacetsView({
 									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
 								>
 									<span>
-										Date: {yearLabel(sel.date.min)} – {yearLabel(sel.date.max)}
+										Date: {yearLabel(sel.date.min)}–{yearLabel(sel.date.max)}
 									</span>
 									<span>×</span>
 								</button>

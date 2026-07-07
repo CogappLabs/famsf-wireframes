@@ -33,12 +33,12 @@ export function RightsCitationSection({
 }) {
 	return (
 		<WireframeSection
-			label="Rights & citation"
+			label="Rights and citation"
 			className="border-b border-gray-300 py-8"
 		>
 			<Container size="md">
 				<span id="rights-citation" className="sr-only">
-					Rights & citation
+					Rights and citation
 				</span>
 				<SectionLabel className="mb-4">
 					{t("object.sectionRightsCitation")}

@@ -236,7 +236,7 @@ export default async function SampleConstituentPage({ params }: Props) {
 					altNames.length > 0 ||
 					branchLikeBios.length > 0) && (
 					<WireframeSection
-						label="Roles & alternative names"
+						label="Roles and alternative names"
 						className="border-b border-gray-300 py-8"
 					>
 						<Container size="md">

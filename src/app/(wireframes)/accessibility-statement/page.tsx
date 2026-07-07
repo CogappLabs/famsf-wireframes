@@ -14,7 +14,7 @@ const FEATURES = [
 	"Alt text on every collection image (sourced from TMS, AI-assisted on legacy records)",
 	"Captions and transcripts on audio and video media",
 	"Semantic landmarks and heading hierarchy on every page",
-	"Sufficient colour contrast (WCAG 2.2 AA)",
+	"Sufficient color contrast (WCAG 2.2 AA)",
 	"Resizable text up to 200% without loss of content",
 	"Screen-reader friendly facet filtering and search results",
 ];

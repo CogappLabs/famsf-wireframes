@@ -87,7 +87,7 @@ const STUDY_CENTERS = {
 			href: "mailto:research@famsf.org",
 		},
 	],
-	contact: "study.centers@famsf.org · de Young Museum, Golden Gate Park",
+	contact: "study.centers@famsf.org · de Young museum, Golden Gate Park",
 	images: ["[Study center reading room]", "[Works on paper, table view]"],
 };
 
@@ -116,7 +116,7 @@ const AREAS: Record<string, AreaData> = {
 	// Default fallback. Original verbatim copy from the hardcoded page.
 	"European Decorative Arts and Sculpture": {
 		name: "European Decorative Arts and Sculpture",
-		museums: "de Young Museum & Legion of Honor",
+		museums: "de Young museum and Legion of Honor",
 		intro: [
 			"The European Decorative Arts and Sculpture collection encompasses over 6,000 works spanning from the medieval period to the early twentieth century. The collection is particularly distinguished by its world-renowned holdings of sculpture by Auguste Rodin, including The Thinker, The Three Shades, and numerous other works displayed at the Legion of Honor.",
 			"The collection also features exceptional examples of French decorative arts from the eighteenth century, including furniture, porcelain, silver, and gilt bronze. Major holdings include works by Peter Carl Fabergé and significant examples of European ceramics and metalwork.",
@@ -224,7 +224,7 @@ const AREAS: Record<string, AreaData> = {
 
 	"Achenbach Foundation for Graphic Arts": {
 		name: "Achenbach Foundation for Graphic Arts",
-		museums: "de Young Museum",
+		museums: "de Young museum",
 		intro: [
 			"The Achenbach Foundation for Graphic Arts holds the museum's collection of works on paper: prints, drawings, watercolors, and artists' books spanning more than five centuries. With well over 90,000 works, it is one of the largest such collections in the western United States.",
 			"Strengths range from Old Master engravings and Japanese woodblock prints to twentieth-century lithographs and contemporary editions, alongside a deep reference library. Most works are housed in the study room and rotate through gallery displays for conservation reasons.",
@@ -346,7 +346,7 @@ const AREAS: Record<string, AreaData> = {
 
 	"Costume and Textile Arts": {
 		name: "Costume and Textile Arts",
-		museums: "de Young Museum",
+		museums: "de Young museum",
 		intro: [
 			"The Costume and Textile Arts collection spans more than 13,000 works of dress, fashion, and textiles drawn from cultures across the globe and across two thousand years. It ranges from archaeological fragments to contemporary couture.",
 			"Particular strengths include European and American fashion, ecclesiastical and ceremonial textiles, and a broad survey of weaving, embroidery, and dyeing traditions. The light-sensitive nature of textiles means works rotate frequently through dedicated galleries.",
@@ -452,7 +452,7 @@ const AREAS: Record<string, AreaData> = {
 	// holdings together at the de Young.
 	"Arts of Africa, Oceania, and the Americas": {
 		name: "Arts of Africa, Oceania, and the Americas",
-		museums: "de Young Museum",
+		museums: "de Young museum",
 		intro: [
 			"The Arts of Africa, Oceania, and the Americas collection brings together sculpture, masks, textiles, regalia, and ceremonial objects from across the African continent, the islands of the Pacific, and the ancient and indigenous Americas. The works speak to ritual, leadership, navigation, ancestry, and daily life across many cultures and several thousand years.",
 			"Strengths range from West and Central African figurative sculpture to Melanesian and Polynesian carving and Mesoamerican and Andean ceramics, gold, and textiles, shown together in dedicated galleries at the de Young.",
@@ -540,7 +540,7 @@ const AREAS: Record<string, AreaData> = {
 
 	"American Decorative Arts and Sculpture": {
 		name: "American Decorative Arts and Sculpture",
-		museums: "de Young Museum",
+		museums: "de Young museum",
 		intro: [
 			"The American Decorative Arts and Sculpture collection surveys furniture, silver, ceramics, glass, and sculpture made in the United States from the colonial era to the early twentieth century. It traces the development of American craft and taste.",
 			"Strengths include early American furniture, silver, and the decorative arts of the Arts and Crafts movement, displayed in galleries and period settings at the de Young.",
@@ -746,7 +746,7 @@ const AREAS: Record<string, AreaData> = {
 
 	"American Paintings": {
 		name: "American Paintings",
-		museums: "de Young Museum",
+		museums: "de Young museum",
 		intro: [
 			"The American Paintings collection traces the history of painting in the United States from the colonial period to the mid-twentieth century, including portraiture, landscape, genre, and still life. It documents the emergence of a distinct national art.",
 			"Strengths include nineteenth-century landscape, trompe l'oeil still life, and California painting, displayed in galleries at the de Young alongside American decorative arts.",
@@ -952,7 +952,7 @@ const AREAS: Record<string, AreaData> = {
 
 	"Contemporary Art": {
 		name: "Contemporary Art",
-		museums: "de Young Museum",
+		museums: "de Young museum",
 		intro: [
 			"The Contemporary Art collection presents painting, sculpture, photography, and new media from the mid-twentieth century to the present. It engages with the art of our own time, including work by Bay Area and international artists.",
 			"Strengths include postwar American painting, sculpture, and a growing body of work by living artists, displayed in galleries at the de Young and through changing installations.",
@@ -1261,9 +1261,9 @@ export function AreaPageLayout({
 				)}
 
 				{/* Articles & essays: cards link out to read/watch/listen on famsf.org */}
-				<ScopeMark label="Articles & essays">
+				<ScopeMark label="Articles and essays">
 					<WireframeSection
-						label="Articles & essays"
+						label="Articles and essays"
 						className="border-b border-gray-300 py-12"
 					>
 						<Container size="md">

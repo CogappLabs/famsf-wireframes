@@ -23,7 +23,7 @@ const SHUFFLE_PERIODS = [
 const SHUFFLE_MEDIA = [
 	"Bronze",
 	"Oil on canvas",
-	"Watercolour",
+	"Watercolor",
 	"Silk",
 	"Ceramic",
 ];

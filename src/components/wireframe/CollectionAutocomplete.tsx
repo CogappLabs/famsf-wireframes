@@ -220,7 +220,7 @@ const SAMPLE_FACETS: Omit<FacetSuggestion, "type">[] = [
 	{
 		facetType: "medium",
 		facetLabel: "Medium",
-		value: "Watercolour",
+		value: "Watercolor",
 		count: 2187,
 	},
 	{

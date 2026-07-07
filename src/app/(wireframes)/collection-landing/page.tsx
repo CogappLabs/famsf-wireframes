@@ -118,12 +118,12 @@ const THEMES = [
 		facet: "classification:Paintings",
 	},
 	{
-		name: "Devotion & Ritual",
+		name: "Devotion and ritual",
 		desc: "Sacred objects and ceremony",
 		facet: "department:Arts of Africa, Oceania, and the Americas",
 	},
 	{
-		name: "Power & Politics",
+		name: "Power and politics",
 		desc: "Authority, protest, and the state",
 		facet: "classification:Prints",
 	},
