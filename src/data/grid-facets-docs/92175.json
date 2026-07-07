@@ -27,8 +27,19 @@
 	"web_text": "Fans with printed or decoratively woven textile leaves grew increasingly popular in the 1770s, offering a less expensive but equally ornamental alternative to fully painted leaves. As their popularity grew, painted fan designs shrank to small vignettes, often with one central scene and two smaller side vignettes. Scenes of country life and classical figures remained popular, as seen on this example. Sequins offered further embellishment, at less cost and labor than gilding.",
 	"didactic_label": "Fans with printed or decoratively woven textile leaves grew increasingly popular in the 1770s, offering a less expensive but equally ornamental alternative to fully painted leaves. As their popularity grew, painted fan designs shrank to small vignettes, often with one central scene and two smaller side vignettes. Scenes of country life and classical figures remained popular, as seen on this example. Sequins offered further embellishment, at less cost and labor than gilding.",
 	"exhibition_history_text": "Fans of the Eighteenth Century, Textiles Education Gallery, de Young Museum, 9/25/18 - 7/7/19",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "Fans of the Eighteenth Century, Textiles Education Gallery, de Young Museum, 9/25/18 - 7/7/19"
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -198,29 +209,6 @@
 	],
 	"term_place_of_creation": [
 		{
-			"id": 20618668,
-			"term": "France",
-			"type": "Descriptor",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABH",
-					"term": "Europe"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABH.AAASY",
-					"term": "France"
-				}
-			]
-		},
-		{
 			"id": 20437806,
 			"term": "Germany",
 			"type": "N/A",
@@ -242,6 +230,29 @@
 					"term": "Deutschland"
 				}
 			]
+		},
+		{
+			"id": 20618668,
+			"term": "France",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -257,6 +268,18 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Europe"
+		],
+		"lvl1": [
+			"Europe > Deutschland",
+			"Europe > France"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -271,53 +294,58 @@
 	"sort_year": 1775,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Glass",
-			"specific": "Glass (unspecified)"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Animal material (ivory, bone, leather)",
-			"specific": "Ivory / tusk"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Base metal (bronze, iron, copper)",
-			"specific": "Copper"
-		},
-		{
-			"section": "Painting",
-			"subcategory": "Gouache / opaque watercolor",
+			"section": "Glass",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Sculpture",
-			"subcategory": "Other sculpture material",
+			"section": "Ink & drawing media",
+			"subcategory": "Incising",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
+			"section": "Metal",
+			"subcategory": "Copper alloy",
+			"specific": ""
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Ivory & bone",
+			"specific": "ivory"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Shell & pearl",
+			"specific": "mother-of-pearl"
+		},
+		{
+			"section": "Paint & pigment",
+			"subcategory": "Watercolour & wash",
+			"specific": "opaque watercolor"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": ""
 		}
 	],
 	"facet_place": [
 		{
 			"region": "Europe",
-			"country": "France",
+			"country": "Germany",
 			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Europe",
-			"country": "Germany",
+			"country": "France",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass (unspecified), Ivory / tusk, Copper, Gouache / opaque watercolor … · France, Germany",
+		"reason": "grid-facets real slice — Glass, Incising, Copper alloy, ivory … · Germany, France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 49
 	}
 }

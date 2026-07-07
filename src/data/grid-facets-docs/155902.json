@@ -26,8 +26,21 @@
 	"web_text": "The Mesoamerican ballgame was a sport and religious ritual in which players tried to keep a hard rubber ball aloft without using their hands. The game reenacts the story of the Maize God, who is decapitated after losing a match to the Lords of the Underworld. His sons, the Hero Twins, travel to the Underworld, defeat the Lords at the ballgame, and return their father’s head so he can live anew—an allegory for the yearly rebirth of maize. Ball players were great athletes. They wore protective padding and, in artworks, are often depicted in contorted poses, lunging for the ball. This offering vessel is the form of a ball player. He lays on his side, one arm resting on his chest, the other raised in salute or supplication. He wears the signature protective gear of a ball player: a forearm cover, a leather yoke around the waist, and a hard knee pad, here in the form of the storm god Chaac. However the player is missing his other regalia -- ear ornaments and a headdress -- raising the question of whether this figure depicts a defeated player or if it has lost its original accoutrements.",
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": "ex collection of William Palmer III",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "ex collection of William Palmer III",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -280,6 +293,20 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North and Central America"
+		],
+		"lvl1": [
+			"North and Central America > Guatemala",
+			"North and Central America > Mexican Empire"
+		],
+		"lvl2": [
+			"North and Central America > Mexican Empire > Escuintla"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Maya",
 	"primary_artist_display": "Maya",
 	"sort_artist": "Maya",
@@ -296,9 +323,9 @@
 	"sort_year": 400,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Earthenware & stoneware",
-			"specific": "Earthenware"
+			"section": "Ceramic",
+			"subcategory": "Earthenware",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -318,6 +345,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — Earthenware · Guatemala, Escuintla",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 50
+		"populated_fields": 52
 	}
 }

@@ -26,8 +26,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -117,29 +123,6 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
-			"id": 16759499,
-			"term": "Guam",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAACB",
-					"term": "Oceania"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAACB.AAAAM",
-					"term": "Guam"
-				}
-			]
-		},
-		{
 			"id": 18210798,
 			"term": "Mariana Islands",
 			"type": "Descriptor",
@@ -161,6 +144,29 @@
 					"term": "Mariana Islands"
 				}
 			]
+		},
+		{
+			"id": 16759499,
+			"term": "Guam",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAAAM",
+					"term": "Guam"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -176,6 +182,18 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Oceania"
+		],
+		"lvl1": [
+			"Oceania > Guam",
+			"Oceania > Mariana Islands"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Chamorro",
 	"primary_artist_display": "Chamorro",
 	"sort_artist": "Chamorro",
@@ -192,28 +210,28 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
-			"specific": "Stone"
+			"section": "Stone",
+			"subcategory": "",
+			"specific": ""
 		}
 	],
 	"facet_place": [
 		{
 			"region": "Oceania",
-			"country": "Guam",
+			"country": "Mariana Islands",
 			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Oceania",
-			"country": "Mariana Islands",
+			"country": "Guam",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Stone · Guam, Mariana Islands",
+		"reason": "grid-facets real slice — Stone · Mariana Islands, Guam",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 39
+		"populated_fields": 41
 	}
 }

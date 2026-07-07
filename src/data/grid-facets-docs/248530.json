@@ -1,0 +1,221 @@
+{
+	"id": 248530,
+	"accession_number": "2002.183.3",
+	"sort_number": "2002.183.3",
+	"title": "Cocoa bag (ch'uspa)",
+	"object_name": "bag/purse",
+	"date_display": null,
+	"date_start": null,
+	"date_end": null,
+	"medium": "camelid fiber; weft predominate plain weave, floating weft weave; tassels",
+	"medium_parts": [
+		"camelid fiber",
+		"weft predominate plain weave, floating weft weave",
+		"tassels"
+	],
+	"credit_line": "Gift of Harry and Diane Greenberg",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": null,
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2019-03-11 00:00:00.000000",
+	"is_virtual": false,
+	"identifying_description": null,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
+	"bibliography_text": null,
+	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "2002-12-31",
+	"location_string": "de Young, 059, Cabinet 35, K",
+	"location_building": "de Young",
+	"location_room": "Cabinet 35",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Cocoa bag (ch'uspa)",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [],
+	"media": [
+		{
+			"media_xref_id": 121583,
+			"image_id": 15773,
+			"rank": 1,
+			"file_date": "2023-02-27 06:11:11",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4858,
+			"width": 6282,
+			"file_name": "0204201015300004.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "11 13/16 x 15 3/16 in. (30 x 38.5 cm)",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 30.0,
+				"width_cm": 38.5,
+				"depth_cm": null,
+				"height_in": 11.8125,
+				"width_in": 15.1875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 18253686,
+			"term": "Bolivia",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAAAZ",
+					"term": "Bolivia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"South America"
+		],
+		"lvl1": [
+			"South America > Bolivia"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"culture_group": null,
+	"display_year": null,
+	"doc_id": "2002.183.3",
+	"slug": "2002.183.3/cocoa-bag-ch-uspa",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Fiber",
+			"specific": "camelid fiber"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "tassel"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": "Plain weave"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "Bolivia",
+			"state": "",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — camelid fiber, tassel, Weaving, Plain weave · Bolivia",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 37
+	}
+}

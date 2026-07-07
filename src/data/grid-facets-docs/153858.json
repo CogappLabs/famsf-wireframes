@@ -26,8 +26,14 @@
 	"web_text": "The figure in the back of this miniature two-person kayak (iqyax in Unangam Tunuu) wears the type of seal-gut garment worn by hunters to keep dry and protected from rain and ocean waters. The brim on the conical wooden hat would shield the hunter’s eyes from glare, while the seal whiskers extending from the hat’s back would announce the hunter’s prowess and number of kills. Such historic models can be valuable sources of information for contemporary craftspeople dedicated to learning and reviving ancestral forms of technology. Text by Roslyn Tunis, consulting curator, Thomas G. Fowler Collection.",
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -336,6 +342,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North America"
+		],
+		"lvl1": [
+			"North America > United States"
+		],
+		"lvl2": [
+			"North America > United States > Alaska"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unangax̂",
 	"primary_artist_display": "Unangax̂",
 	"sort_artist": "Unangax̂",
@@ -353,39 +372,39 @@
 	"sort_year": 1855,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Glass",
-			"specific": "Glass (unspecified)"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Base metal (bronze, iron, copper)",
-			"specific": "Iron"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
-			"specific": "Lead"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Wood",
+			"section": "Glass",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
+			"section": "Metal",
+			"subcategory": "Iron",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
+			"section": "Metal",
+			"subcategory": "Lead",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Wool"
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
+		},
+		{
+			"section": "Paint & pigment",
+			"subcategory": "Pigment",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Wool",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -397,8 +416,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass (unspecified), Iron, Lead, Wood … · United States",
+		"reason": "grid-facets real slice — Glass, Iron, Lead, wood … · United States",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 47
+		"populated_fields": 49
 	}
 }

@@ -27,8 +27,21 @@
 	"web_text": "Woven in Peru two centuries after the Spanish conquest, this offspring of two cultures bears a general resemblance to the European tapestries among which it is included, while retaining certain technical features typical of its New World inheritance. The tapestry displays the heraldic shield of Don Luis Jeronimo Fernandez Cabrera y Bobadilla, count of Chinchon, beneath a uniting seven-pointed crown. Each quarter of the shield corresponds to either the Cabrera or the Bobadilla family. The lion and the castle in the border are the insignia of Leon and Castile. Don Luis, whose biography has been published, was viceroy of Peru from 1627 to 1629. Heavy black outlines define the major areas: the outer frame, the rounded shield shape, the narrow device-bearing strip forming its outer edge, and its internal divisions. This use of black intensifies the predominating red of the ground, as well as the golds, tans, and whites. Dark outlines were characteristic of the final phase of pre-Columbian tapestries. Their presence in this panel may represent a continuation of this tradition. From Anna Gray Bennett, \"Five Centuries of Tapestry: The Fine Arts Museums of San Francisco\" (San Francisco: Chronicle Books; The Fine Arts Museums of San Francisco, 1976; repr. 1992): p. 294.",
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": "Mr. and Mrs. Daniel C. Jackling, Woodside, California",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Mr. and Mrs. Daniel C. Jackling, Woodside, California",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -208,6 +221,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"South America"
+		],
+		"lvl1": [
+			"South America > Perú"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -222,19 +246,19 @@
 	"sort_year": 1600,
 	"facet_medium": [
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Wool"
+			"section": "Textiles & fiber",
+			"subcategory": "Fiber",
+			"specific": "camelid fiber"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
-			"specific": "Tapestry"
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": "Tapestry weave"
 		}
 	],
 	"facet_place": [
@@ -246,8 +270,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Wool, Tapestry · Peru",
+		"reason": "grid-facets real slice — Cotton, camelid fiber, Tapestry weave · Peru",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 47
 	}
 }

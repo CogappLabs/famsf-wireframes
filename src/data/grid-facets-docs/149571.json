@@ -1,0 +1,261 @@
+{
+	"id": 149571,
+	"accession_number": "2005.140.1",
+	"sort_number": "2005.140.1",
+	"title": "Protective statue, Pagar",
+	"object_name": "figure",
+	"date_display": "19th century",
+	"date_start": null,
+	"date_end": null,
+	"medium": "Wood, metal, hide, hair (horse)",
+	"medium_parts": [
+		"Wood, metal, hide, hair (horse)"
+	],
+	"credit_line": "Gift of George and Marie Hecksher",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Sculpture",
+	"subclassification": null,
+	"culture": "Toba Batak people",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": true,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-04-27 13:02:12.437000",
+	"is_virtual": false,
+	"identifying_description": "Carved wood figure with inlaid metal eyes and a piece of horse mane attached to head with nails. Around the mouth are deposits/stains and wear from ritual feeding. The surface has a dark coating from exposure to smoke and use over time.",
+	"web_text": "Batak carvers kept a variety of statues (pagar) intended to prevent evil. Pagar can be thought of as supra-sentinels, forces to detect and fend off intruders or neutralize black magic. The Batak excelled at carving in minutiae, but wooden figures in the round are usually crude. This statue is a notable exception, with outreaching oversized hands, vigilant all-seeing eyes, and a ready-for-action stance. Such a timeless projection of power is a reminder that every age and culture cultivates imagery to engender protection.\n\nThis is the largest of a trio of figures from one house that were possibly made by the same hand. The other two are held by the Dallas Museum of Art and were charged with a substance called puk-puk to empower them with life force and to make them subservient to a ritual priest (datu). It is not entirely clear how this impressive pagar was used. Although it lacks the addition of puk-puk, there is evidence that this figure has been ritually fed and anointed and is most likely a pagar.",
+	"didactic_label": "Batak carvers kept a variety of statues (pagar) intended to prevent evil. Pagar can be thought of as supra-sentinels, forces to detect and fend off intruders or neutralize black magic. The Batak excelled at carving in minutiae, but wooden figures in the round are usually crude. This statue is a notable exception, with outreaching oversized hands, vigilant all-seeing eyes, and a ready-for-action stance. Such a timeless projection of power is a reminder that every age and culture cultivates imagery to engender protection.\n\nThis is the largest of a trio of figures from one house that were possibly made by the same hand. The other two are held by the Dallas Museum of Art and were charged with a substance called puk-puk to empower them with life force and to make them subservient to a ritual priest (datu). It is not entirely clear how this impressive pagar was used. Although it lacks the addition of puk-puk, there is evidence that this figure has been ritually fed and anointed and is most likely a pagar.",
+	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
+	"bibliography_text": null,
+	"provenance": "Dr. and Mrs. Robert Kuhn, Los Angeles, 1999",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Dr. and Mrs. Robert Kuhn, Los Angeles, 1999",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "2005-12-31",
+	"location_string": "de Young, Display, Gallery 031",
+	"location_building": "de Young",
+	"location_room": "Gallery 031",
+	"edition": null,
+	"signed": null,
+	"inscribed": "L05.2.1, L99.79.3, 21.11",
+	"markings": null,
+	"titles": [
+		{
+			"title": "Protective statue, Pagar",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 41329,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Toba Batak",
+			"name_sort": "Toba Batak",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Toba Batak"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 129321,
+			"image_id": 150390,
+			"rank": 2,
+			"file_date": "2023-02-27 07:20:53",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2768,
+			"width": 652,
+			"file_name": "0308200509100004.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "45 x 5 x 10 in. (114.3 x 12.7 x 25.4 cm)",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 114.3,
+				"width_cm": 12.7,
+				"depth_cm": 25.4,
+				"height_in": 45.0,
+				"width_in": 5.0,
+				"depth_in": 10.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "oceanic-art-web-highlights",
+			"collection_name": "Oceanic Art Web Highlights",
+			"rank": 35
+		}
+	],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 20331582,
+			"term": "North Sumatra",
+			"type": "N/A",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH",
+					"term": "Southeast Asia"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADQ",
+					"term": "Sumatera Utara"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Southeast Asia"
+		],
+		"lvl1": [
+			"Southeast Asia > Southeast Asia"
+		],
+		"lvl2": [
+			"Southeast Asia > Southeast Asia > Sumatera Utara"
+		],
+		"lvl3": null,
+		"historic": false
+	},
+	"primary_artist": "Toba Batak",
+	"primary_artist_display": "Toba Batak",
+	"sort_artist": "Toba Batak",
+	"culture_group": [
+		"Toba Batak"
+	],
+	"display_year": null,
+	"doc_id": "2005.140.1",
+	"slug": "2005.140.1/protective-statue-pagar",
+	"has_image": true,
+	"has_provenance": true,
+	"has_children": false,
+	"is_highlight": true,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Metal",
+			"subcategory": "",
+			"specific": ""
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Hair, fur & feather",
+			"specific": "hair"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Leather & hide",
+			"specific": "hide"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Southeast Asia",
+			"country": "",
+			"state": "",
+			"notable": "North Sumatra"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Metal, hair, hide, wood · North Sumatra",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 48
+	}
+}

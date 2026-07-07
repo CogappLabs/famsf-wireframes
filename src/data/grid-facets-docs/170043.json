@@ -26,8 +26,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -213,6 +219,21 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North America"
+		],
+		"lvl1": [
+			"North America > United States"
+		],
+		"lvl2": [
+			"North America > United States > California"
+		],
+		"lvl3": [
+			"North America > United States > California > Los Angeles"
+		],
+		"historic": false
+	},
 	"primary_artist": "Rodarte",
 	"primary_artist_display": "b. 2005",
 	"sort_artist": "Rodarte",
@@ -227,29 +248,34 @@
 	"sort_year": 2015,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Glass",
-			"specific": "Glass (unspecified)"
-		},
-		{
-			"section": "Ceramic & glass",
-			"subcategory": "Glass",
-			"specific": "Lead / crystal glass"
-		},
-		{
-			"section": "Painting",
-			"subcategory": "Other paint",
+			"section": "Glass",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
+			"section": "Glass",
+			"subcategory": "",
+			"specific": "Crystal"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Synthetic fiber (nylon, polyester)",
+			"section": "Paint & pigment",
+			"subcategory": "Paint",
 			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "nylon"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "sequin"
 		}
 	],
 	"facet_place": [
@@ -261,8 +287,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass (unspecified), Lead / crystal glass, Other paint, Cotton … · Los Angeles",
+		"reason": "grid-facets real slice — Glass, Crystal, Paint, Cotton … · Los Angeles",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 46
 	}
 }

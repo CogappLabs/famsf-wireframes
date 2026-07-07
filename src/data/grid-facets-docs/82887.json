@@ -1,0 +1,322 @@
+{
+	"id": 82887,
+	"accession_number": "1979.63.19",
+	"sort_number": "1979.63.19",
+	"title": "Woman's helmet mask",
+	"object_name": "headwear",
+	"date_display": "20th century",
+	"date_start": "1901",
+	"date_end": "2000",
+	"medium": "Cross knit looped dyed plant fiber, oblique interlaced dyed plant fiber, plaited, plied and corded dyed plant fiber, cowrie shells, glass beads, appliquéd tinned steel, stamped plated zinc alloy, dyed cotton thread",
+	"medium_parts": [
+		"Cross knit looped dyed plant fiber, oblique interlaced dyed plant fiber, plaited, plied and corded dyed plant fiber, cowrie shells, glass beads, appliquéd tinned steel, stamped plated zinc alloy, dyed cotton thread"
+	],
+	"credit_line": "Museum purchase, Mrs. Paul L. Wattis Fund",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"subclassification": "Accessory",
+	"culture": "Dogon",
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2025-09-16 09:11:54.163000",
+	"is_virtual": false,
+	"identifying_description": "Headgear, headwear",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
+	"bibliography_text": null,
+	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "1980-02-05",
+	"location_string": "Out for Loan",
+	"location_building": "Out for Loan",
+	"location_room": null,
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Woman's helmet mask",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 37484,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Dogon",
+			"name_sort": "Dogon",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Dogon"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 92587,
+			"image_id": 49469,
+			"rank": 1,
+			"file_date": "2023-02-27 06:29:17",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 5118,
+			"width": 3500,
+			"file_name": "1906200915310010.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "18 x 12 1/2 x 9 in., (45.72 x 31.75 x 22.86 cm,)",
+			"element": "Overall",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 45.72,
+				"width_cm": 31.75,
+				"depth_cm": 22.86,
+				"height_in": 18.0,
+				"width_in": 12.5,
+				"depth_in": 9.0,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 18280625,
+			"term": "Sanga",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAOI",
+					"term": "Mali"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAAAB.AAAOI.AAAAX",
+					"term": "Mopti"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAB.AAAOI.AAAAX.AAABD",
+					"term": "Sanga"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": [
+		{
+			"id": 16421194,
+			"term": "cowry shell",
+			"type": "Used For Term",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC",
+					"term": "combination inorganic/organic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB",
+					"term": "combination inorganic/organic animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAD",
+					"term": "shell and shell material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAD.AAA",
+					"term": "shell"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAD.AAA.AAB",
+					"term": "seashell"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAC.AAB.AAD.AAA.AAB.AAE",
+					"term": "cowrie shell"
+				}
+			]
+		}
+	],
+	"term_subject": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Africa"
+		],
+		"lvl1": [
+			"Africa > Mali"
+		],
+		"lvl2": [
+			"Africa > Mali > Sanga"
+		],
+		"lvl3": null,
+		"historic": false
+	},
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"culture_group": [
+		"Dogon"
+	],
+	"display_year": "1901–2000",
+	"doc_id": "1979.63.19",
+	"slug": "1979.63.19/woman-s-helmet-mask",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": 1901,
+	"facet_medium": [
+		{
+			"section": "Metal",
+			"subcategory": "Steel",
+			"specific": ""
+		},
+		{
+			"section": "Metal",
+			"subcategory": "Zinc",
+			"specific": ""
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Shell & pearl",
+			"specific": "cowrie shell"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Fiber",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "glass bead"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Africa",
+			"country": "Mali",
+			"state": "",
+			"notable": "Sanga"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Steel, Zinc, cowrie shell, Cotton … · Sanga",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 47
+	}
+}

@@ -27,8 +27,34 @@
 	"web_text": "From \"Turkoman Rugs,\" Fogg Art Museum, Harvard, exhibition cat. pg. 47: \"This rug shows many non-Turkoman features. The hanging poemegranates and stylized flowers of the design and the yellow color appearing on the border reveal the influence of the rugs of Chinese Turkestan. The form of the prayer niche is like no other found on Turkoman rugs, but is reminiscent of certain Turkish prayer rugs. The weave is loose. The wool is softer and more silky than the wool of most Turkoman rugs.\"",
 	"didactic_label": null,
 	"exhibition_history_text": "January 26 - March 6, 1966: Fogg Art Museum, Cambridge, MA. \n \"Turoman Rugs.\" (catalogue noted in \"Publications field.\"\nFor Tent & Trade: Masterpieces of Turkmen Weaving, 2007-2008",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "January 26 - March 6, 1966: Fogg Art Museum, Cambridge, MA."
+		},
+		{
+			"order": 1,
+			"text": "\"Turoman Rugs.\" (catalogue noted in \"Publications field.\""
+		},
+		{
+			"order": 2,
+			"text": "For Tent & Trade: Masterpieces of Turkmen Weaving, 2007-2008"
+		}
+	],
 	"bibliography_text": null,
 	"provenance": "1966: Mr. and Mrs. Christopher D. Reed (cited in Fogg catalog, above)",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "1966: Mr. and Mrs. Christopher D. Reed (cited in Fogg catalog, above)",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": null,
 	"publication_text": "This rug shows many non-Turkoman features. The hanging poemegranates and stylized flowers of the design and the yellow color appearing on the border reveal the influence of the rugs of Chinese Turkestan. The form of the prayer niche is like no other found on Turkoman rugs, but is reminiscent of certain Turkish prayer rugs. The weave is loose. The wool is softer and more silky than the wool of most Turkoman rugs.",
 	"catalogue_raisonne": null,
@@ -308,29 +334,6 @@
 	],
 	"term_place_of_creation": [
 		{
-			"id": 16680808,
-			"term": "Afghanistan",
-			"type": "N/A",
-			"certainty": "Probably",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAI",
-					"term": "Afghānestān"
-				}
-			]
-		},
-		{
 			"id": 17087474,
 			"term": "Turkmenistan",
 			"type": "N/A",
@@ -352,6 +355,29 @@
 					"term": "Türkmenistan"
 				}
 			]
+		},
+		{
+			"id": 16680808,
+			"term": "Afghanistan",
+			"type": "N/A",
+			"certainty": "Probably",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAI",
+					"term": "Afghānestān"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -365,64 +391,6 @@
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": [
-		{
-			"id": 16561036,
-			"term": "wool",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
-					"term": "fiber by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
-					"term": "textile materials"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
-					"term": "textile materials by composition or origin"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAR",
-					"term": "wool"
-				}
-			]
-		},
 		{
 			"id": 16551699,
 			"term": "silk",
@@ -480,16 +448,86 @@
 					"term": "silk"
 				}
 			]
+		},
+		{
+			"id": 16561036,
+			"term": "wool",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAR",
+					"term": "wool"
+				}
+			]
 		}
 	],
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia"
+		],
+		"lvl1": [
+			"Asia > Afghānestān",
+			"Asia > Türkmenistan"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Turkmen, Ersari tribe",
 	"primary_artist_display": "Turkmen, Ersari tribe",
 	"sort_artist": "Turkmen, Ersari tribe",
 	"culture_group": [
-		"Turkmen",
-		"Turkmen, Ersari tribe"
+		"Turkmen, Ersari tribe",
+		"Turkmen"
 	],
 	"display_year": "1801–1900",
 	"doc_id": "2000.118.9",
@@ -501,38 +539,38 @@
 	"sort_year": 1801,
 	"facet_medium": [
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Wool"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
 			"specific": "Knotted pile"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Wool",
+			"specific": ""
 		}
 	],
 	"facet_place": [
 		{
 			"region": "Central Asia",
-			"country": "Afghanistan",
+			"country": "Turkmenistan",
 			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Central Asia",
-			"country": "Turkmenistan",
+			"country": "Afghanistan",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Silk, Wool, Knotted pile · Afghanistan, Turkmenistan",
+		"reason": "grid-facets real slice — Silk, Knotted pile, Wool · Turkmenistan, Afghanistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 52
+		"populated_fields": 55
 	}
 }

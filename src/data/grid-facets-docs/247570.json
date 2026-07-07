@@ -26,8 +26,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -51,11 +57,89 @@
 	"constituents": [],
 	"media": [
 		{
+			"media_xref_id": 266428,
+			"image_id": 265353,
+			"rank": 0,
+			"file_date": "2026-07-01 15:46:48.003",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 15836,
+			"width": 13021,
+			"file_name": "MS_247570_20260624-02.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 266427,
+			"image_id": 265352,
+			"rank": 0,
+			"file_date": "2026-07-01 15:45:01.84",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 15836,
+			"width": 12413,
+			"file_name": "MS_247570_20260624-01_Crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 266426,
+			"image_id": 265351,
+			"rank": 0,
+			"file_date": "2026-07-01 15:43:31.843",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 15836,
+			"width": 13019,
+			"file_name": "MS_247570_20260624-01.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
 			"media_xref_id": 95985,
 			"image_id": 59252,
 			"rank": 1,
 			"file_date": "2023-02-27 06:34:47",
-			"primary": true,
+			"primary": false,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
@@ -181,6 +265,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North America"
+		],
+		"lvl1": [
+			"North America > United States"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -195,34 +290,34 @@
 	"sort_year": 1885,
 	"facet_medium": [
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
+			"section": "Textiles & fiber",
+			"subcategory": "Embroidery",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
-			"specific": "Embroidery"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "satin"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Thread & trimmings",
-			"specific": "Ribbon"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "velvet"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
-			"specific": "Satin"
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
-			"specific": "Velvet"
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "ribbon"
 		}
 	],
 	"facet_place": [
@@ -234,8 +329,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Silk, Embroidery, Ribbon … · United States",
+		"reason": "grid-facets real slice — Cotton, Embroidery, satin, velvet … · United States",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 45
 	}
 }

@@ -26,8 +26,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -209,6 +215,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Europe"
+		],
+		"lvl1": [
+			"Europe > France"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Karl Lagerfeld",
 	"primary_artist_display": "Karl Lagerfeld (1933–2019)",
 	"sort_artist": "Karl Lagerfeld",
@@ -223,39 +240,39 @@
 	"sort_year": 2010,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
-			"specific": "Metal"
+			"section": "Metal",
+			"subcategory": "",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Linen"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "linen"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "nylon"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Synthetic fiber (nylon, polyester)",
-			"specific": "Nylon"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "polyester"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Synthetic fiber (nylon, polyester)",
-			"specific": "Polyester"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "rayon"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Synthetic fiber (nylon, polyester)",
-			"specific": "Rayon"
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -267,8 +284,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Metal, Cotton, Linen, Silk … · France",
+		"reason": "grid-facets real slice — Metal, Cotton, linen, nylon … · France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 46
 	}
 }

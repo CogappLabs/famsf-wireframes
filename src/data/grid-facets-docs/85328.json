@@ -26,8 +26,21 @@
 	"web_text": "The Kongo people believe that their great god, Ne Kongo, delivered the first sacred nkisi (medicine) from heaven in an earthenware container. Created by a skilled Kongo artist, nkisi nkondi can serve as an oath-taking figure to resolve disputes or lawsuits and also acts as a guardian of Kongo spiritual beliefs and practices. Known as power figures, they are identifyable through the nails and blades embedded in the wood and often have medicines placed in a mirror box at the stomach and on top of the head. This nkisi nkondi also has materials behind the eyes and inside the mouth, with numerous nails and blades piercing it. At the request of a client or opposing parties, a nganga or spiritual healer commissions a nkisi figure and then ritually drive the metals, representing the disputes or issues, into the figure. They make an oath or agreement, and if it is broken, the nganga activates the nkisi to carry out its mission of divine punishment or protection. The partnership between the artist and spiritual leader are essential in crafting and empowering nkisi nkondi, which are used to tackle social, political, and health issues within the community.",
 	"didactic_label": "This powerful figure's acutely alert pose indicates its central role as a spirit being who settled lawsuits or serious disputes in its Kongo community. The figure was viewed as a living spirit presence and was addressed by clients. Each nail and blade in its body either represents a condensed argument that helped resolve a legal matter or was pounded in when the spirit was being asked to do its work. The figure was collected in 1903 by R. Visser, a missionary-ethnographer of what was then called the Belgian Congo. \n\nAudio Tour 216 (Green)",
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": "Collected in 1903 by Robert Visser, head of a Dutch trading company in the Lower Kongo region; was the main purveyor of Kongo art for the Berlin and Stuttgart Museums from 1902-1909.Ex-coll. Museum für Völkerkunde, LeipzigEx-coll. Walter RandelEx-coll. Herbert Baker",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Collected in 1903 by Robert Visser, head of a Dutch trading company in the Lower Kongo region; was the main purveyor of Kongo art for the Berlin and Stuttgart Museums from 1902-1909.Ex-coll. Museum für Völkerkunde, LeipzigEx-coll. Walter RandelEx-coll. Herbert Baker",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": "label saved in object's conservation folder: \"10 1903 Majumba Visser ??? 883\"",
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -123,32 +136,6 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 194885,
-			"image_id": 202453,
-			"rank": 1,
-			"file_date": "2023-02-27 06:07:04",
-			"primary": false,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 9778,
-			"width": 7491,
-			"file_name": "MS_85328_6.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 194886,
 			"image_id": 202454,
 			"rank": 1,
@@ -175,10 +162,10 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 194881,
-			"image_id": 202449,
+			"media_xref_id": 194885,
+			"image_id": 202453,
 			"rank": 1,
-			"file_date": "2023-02-27 06:07:03",
+			"file_date": "2023-02-27 06:07:04",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -187,61 +174,9 @@
 			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
-			"height": 9718,
-			"width": 7782,
-			"file_name": "MS_85328_2.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 194882,
-			"image_id": 202450,
-			"rank": 1,
-			"file_date": "2023-02-27 06:07:03",
-			"primary": false,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 9718,
-			"width": 7782,
-			"file_name": "MS_85328_3.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 194880,
-			"image_id": 202448,
-			"rank": 1,
-			"file_date": "2023-02-27 06:07:03",
-			"primary": false,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 9718,
-			"width": 7782,
-			"file_name": "MS_85328_1.tif",
+			"height": 9778,
+			"width": 7491,
+			"file_name": "MS_85328_6.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -279,6 +214,58 @@
 			"iiif_height": null
 		},
 		{
+			"media_xref_id": 194880,
+			"image_id": 202448,
+			"rank": 1,
+			"file_date": "2023-02-27 06:07:03",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9718,
+			"width": 7782,
+			"file_name": "MS_85328_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 194881,
+			"image_id": 202449,
+			"rank": 1,
+			"file_date": "2023-02-27 06:07:03",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9718,
+			"width": 7782,
+			"file_name": "MS_85328_2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
 			"media_xref_id": 194883,
 			"image_id": 202451,
 			"rank": 1,
@@ -294,6 +281,32 @@
 			"height": 9718,
 			"width": 7782,
 			"file_name": "MS_85328_4.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 194882,
+			"image_id": 202450,
+			"rank": 1,
+			"file_date": "2023-02-27 06:07:03",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 9718,
+			"width": 7782,
+			"file_name": "MS_85328_3.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -482,6 +495,17 @@
 	],
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Africa"
+		],
+		"lvl1": [
+			"Africa > Congo, République Démocratique du"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -498,38 +522,33 @@
 	"sort_year": 1801,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Glass",
-			"specific": "Glass (unspecified)"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Animal material (ivory, bone, leather)",
-			"specific": "Ivory / tusk"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Beads, feathers & plant material",
+			"section": "Glass",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
-			"specific": "Metal"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Wood",
+			"section": "Metal",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
+			"section": "Organic",
+			"subcategory": "Hair, fur & feather",
+			"specific": "feather"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
+		},
+		{
+			"section": "Paint & pigment",
+			"subcategory": "Pigment",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Other textile",
+			"section": "Textiles & fiber",
+			"subcategory": "Fiber",
 			"specific": ""
 		}
 	],
@@ -542,8 +561,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass (unspecified), Ivory / tusk, Beads, feathers & plant material, Metal … · Democratic Republic of the Congo",
+		"reason": "grid-facets real slice — Glass, Metal, feather, wood … · Democratic Republic of the Congo",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 49
+		"populated_fields": 51
 	}
 }

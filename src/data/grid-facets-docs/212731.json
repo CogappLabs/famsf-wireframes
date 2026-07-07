@@ -26,8 +26,14 @@
 	"web_text": "This possibly unique female figure in the corpus of Luba sculpture is distinguished by the fine detail of its elegant elongated form. It embodies concepts of beauty, memory, power, and authority in Luba culture, where women served important roles as spirit mediums, emissaries, and advisors to Luba kings and chiefs through the twentieth century. Thin arms loop toward the chest with hands placed on the breasts in a gesture expressing a belief that only a woman’s body is strong enough to contain powerful spirits (such as the spirit of a chief or king) and “precepts of royalty.\". The facial features of the figure are delicately rendered. A large coiffure extends down the neck, adorned with copper-alloy beads, and a string of copper-alloy beads accentuates the hips. When the figure was created, copper was scarce and highly valued. The elongated torso draws attention to a scarification pattern of keloids (raised scars) that surrounds and emphasizes the umbilical hernia, the point of maternal contact. Beads and scarification are mnemonic devices. For example, each bead is a morpheme—a unit of form and meaning purposefully placed or arranged. Luba scarification patterns are named and have specific meanings; a woman decides what patterns she will wear and how she will be seen by others. These attachments and inscribed elements allow a knowing viewer or handler of the figure to “read” the sculpture. Women are acknowledged as the primary keepers of the history and memories of Luba peoples. This figure, which expresses Luba ideals of beauty, also presents the female body as a locus for Luba memory. Fine Arts Museums of San Francisco, de Young 125 (California: Cameron + Company, 2021), p. 245, entry by Christina Hellmich.",
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": "\"62\" printed on rectangular paper label on left side of chest; two illegible labels on back; all three were removed in 2020 and placed in curatorial files",
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -544,54 +550,6 @@
 	"term_school": null,
 	"term_materials": [
 		{
-			"id": 16211005,
-			"term": "wood",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAF",
-					"term": "materials by origin"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
-					"term": "biological material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
-					"term": "plant material"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
-					"term": "wood and wood by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
-					"term": "wood"
-				}
-			]
-		},
-		{
 			"id": 16237171,
 			"term": "copper alloy",
 			"type": "Descriptor",
@@ -648,10 +606,69 @@
 					"term": "copper alloy"
 				}
 			]
+		},
+		{
+			"id": 16211005,
+			"term": "wood",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAA",
+					"term": "wood"
+				}
+			]
 		}
 	],
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Africa"
+		],
+		"lvl1": [
+			"Africa > Congo, République Démocratique du"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -668,34 +685,29 @@
 	"sort_year": 1801,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Base metal (bronze, iron, copper)",
-			"specific": "Copper"
+			"section": "Metal",
+			"subcategory": "Copper alloy",
+			"specific": ""
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
-			"specific": "Hardwood"
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "hardwood"
 		},
 		{
-			"section": "Painting",
+			"section": "Paint & pigment",
 			"subcategory": "Oil",
-			"specific": "Oil (other support)"
+			"specific": ""
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
-			"specific": "Black pigment"
+			"section": "Paint & pigment",
+			"subcategory": "Pigment",
+			"specific": ""
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
-			"specific": "White pigment"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -707,8 +719,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Copper, Hardwood, Oil (other support), Black pigment … · Democratic Republic of the Congo",
+		"reason": "grid-facets real slice — Copper alloy, hardwood, Oil, Pigment … · Democratic Republic of the Congo",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 49
+		"populated_fields": 51
 	}
 }

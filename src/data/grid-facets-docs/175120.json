@@ -26,8 +26,30 @@
 	"web_text": "The face of the spirit figure represented on this kópe, or spirit board, is clearly discerned, though elements of the body are highly stylized. Masterful relief carving and the use of negative and positive space accentuate its abdomen, navel, and other body parts arranged symmetrically around the vertical axis. Along the southern coast of New Guinea, the expansive Fly River and other large rivers to the east and their deltas support a vast cultural area known as the Gulf of Papua. Communities are built along the water’s edge and in the mangrove forests. Before widespread conversion to Christianity, monumental ceremonial men’s houses were common. These impressive structures housed shrines for each clan containing masks, relics, and ceremonial items including kópe boards used to bring success in head-hunting. Rituals and dance performances took place in and around the ceremonial houses. German scientist Thomas Schultze-Westrum visited the region several times while conducting biological and anthropological research. This kópe was stored in an open shed and no longer used for ritual purposes when Schultze-Westrum purchased it from the owners. Although collected from Kiwai language speakers at Epegau village in the Wapo River area, this kópe was made by a man called Apae in Otoia village on the Goarebari River opposite the mouth of the Omati River, the place of origin of the Kerewo (Kerewa). At a later time, it traveled eastward in the context of migrations, via O’a and Ani (the place of origin for the neighboring villages of Epegau and Tituhui), and finally reached Epegau village. Its history is a testament to the antiquity of many kópe boards. Fine Arts Museums of San Francisco, de Young 125 (California: Cameron + Company, 2021), p. 293, entry by Christina Hellmich.",
 	"didactic_label": "There is a vast cultural area known as the Gulf of Papua along the southern coast of New Guinea, where communities are built along the water's edge and in mangrove forests. Before widespread conversion to Christianity, monumental ceremonial men's houses were common. These impressive structures housed shrines for each clan and contained ceremonial items, including spirit boards (kópe), used to bring success in headhunting.\n\nA man called Apae in Otoia village made this kópe. At a later time, it traveled eastward in the context of migrations and reached Epegau village. Its history is a testament to the antiquity of many kópe boards.\n\nThe face of the spirit figure represented on this kópe is easily discernable, while elements of the body are highly stylized. Masterful low-relief carving and the use of negative and positive space accentuate the abdomen, navel, and other body parts, arranged symmetrically around the vertical axis.",
 	"exhibition_history_text": "2005 - New Guinea Art. Masterpieces from the Jolika Collection of Marcia and John Friede. De Young Museum, San Francisco, 2005.\n\n1972 - Olympic Village, Munich, 1972, \"Weltkulturen und moderne Kunst.\"",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "2005 - New Guinea Art. Masterpieces from the Jolika Collection of Marcia and John Friede. De Young Museum, San Francisco, 2005."
+		},
+		{
+			"order": 2,
+			"text": "1972 - Olympic Village, Munich, 1972, \"Weltkulturen und moderne Kunst.\""
+		}
+	],
 	"bibliography_text": null,
 	"provenance": "\"Collected by Thomas Schultze-Westrum in 1966.\" (Catalog #461, New Guinea Art: Masterpieces from the Jolika Collection of Marcia and John Friede, 2005, Volume 2, p. 162.)",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "\"Collected by Thomas Schultze-Westrum in 1966.\" (Catalog #461, New Guinea Art: Masterpieces from the Jolika Collection of Marcia and John Friede, 2005, Volume 2, p. 162.)",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -252,6 +274,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Oceania"
+		],
+		"lvl1": [
+			"Oceania > Fly River"
+		],
+		"lvl2": [
+			"Oceania > Fly River > Otoia village"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Apae (Otoia village, New Guinea)",
 	"primary_artist_display": "Apae (Otoia village, New Guinea)",
 	"sort_artist": "Apae (Otoia village, New Guinea)",
@@ -266,13 +301,13 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Wood",
-			"specific": ""
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
+			"section": "Paint & pigment",
+			"subcategory": "Pigment",
 			"specific": ""
 		}
 	],
@@ -285,8 +320,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Wood, Other paint · Otoia village",
+		"reason": "grid-facets real slice — wood, Pigment · Otoia village",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 47
+		"populated_fields": 50
 	}
 }

@@ -26,8 +26,21 @@
 	"web_text": null,
 	"didactic_label": "Plate with seated figure on throneHolmul style, Central Maya area, Maya cultureA.D. 600-800Earthenware and pigmentPromised gift of Gail and J. Alec MerriamL06.144.4",
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": "Sotheby’s May 27, 1998 sale # 173",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Sotheby’s May 27, 1998 sale # 173",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": "Handwritten in ink, circle label: 98 / 4",
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -411,6 +424,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North and Central America"
+		],
+		"lvl1": [
+			"North and Central America > Belize",
+			"North and Central America > Central America",
+			"North and Central America > Honduras"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Maya",
 	"primary_artist_display": "Maya",
 	"sort_artist": "Maya",
@@ -427,8 +453,8 @@
 	"sort_year": 600,
 	"facet_medium": [
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
+			"section": "Paint & pigment",
+			"subcategory": "Pigment",
 			"specific": ""
 		}
 	],
@@ -453,8 +479,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Other paint · Mesoamerica, Belize, Honduras",
+		"reason": "grid-facets real slice — Pigment · Mesoamerica, Belize, Honduras",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 52
+		"populated_fields": 54
 	}
 }

@@ -28,8 +28,19 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "19th Century American Quilts, 1988",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "19th Century American Quilts, 1988"
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -306,6 +317,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North America"
+		],
+		"lvl1": [
+			"North America > United States"
+		],
+		"lvl2": [
+			"North America > United States > Middle Atlantic"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "E. McLean",
 	"primary_artist_display": "E. McLean",
 	"sort_artist": "E. McLean",
@@ -320,34 +344,29 @@
 	"sort_year": 1858,
 	"facet_medium": [
 		{
-			"section": "Drawing",
+			"section": "Ink & drawing media",
 			"subcategory": "Ink",
-			"specific": "Ink (unspecified)"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Other textile",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
-			"specific": "Weaving"
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
-			"specific": "Cut velvet"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "velvet"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": "Plain weave"
 		}
 	],
 	"facet_place": [
@@ -359,8 +378,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Ink (unspecified), Cotton, Silk, Other textile … · Middle Atlantic",
+		"reason": "grid-facets real slice — Ink, Cotton, velvet, Silk … · Middle Atlantic",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 48
+		"populated_fields": 51
 	}
 }

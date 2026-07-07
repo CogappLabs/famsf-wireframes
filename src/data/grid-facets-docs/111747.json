@@ -27,8 +27,23 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "Recent Rug Acquisitions, 1986\nFor Tent & Trade: Masterpieces of Turkmen Weaving, 2007-2008",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "Recent Rug Acquisitions, 1986"
+		},
+		{
+			"order": 1,
+			"text": "For Tent & Trade: Masterpieces of Turkmen Weaving, 2007-2008"
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -344,12 +359,23 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia"
+		],
+		"lvl1": [
+			"Asia > Afghānestān"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
 	"culture_group": [
-		"Turkmen",
-		"Turkmen, Ersari tribe"
+		"Turkmen, Ersari tribe",
+		"Turkmen"
 	],
 	"display_year": "1825–75",
 	"doc_id": "1986.93.3",
@@ -361,24 +387,24 @@
 	"sort_year": 1825,
 	"facet_medium": [
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Wool"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
 			"specific": "Knotted pile"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
-			"specific": "Weaving"
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": "Plain weave"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Wool",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -390,8 +416,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Wool, Knotted pile, Weaving · Afghanistan",
+		"reason": "grid-facets real slice — Cotton, Knotted pile, Plain weave, Wool · Afghanistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 49
 	}
 }

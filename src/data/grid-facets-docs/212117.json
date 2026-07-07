@@ -27,8 +27,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -164,6 +170,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Oceania"
+		],
+		"lvl1": [
+			"Oceania > Micronesia"
+		],
+		"lvl2": [
+			"Oceania > Micronesia > Truk"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Chuukese",
 	"primary_artist_display": "Chuukese",
 	"sort_artist": "Chuukese",
@@ -180,19 +199,19 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Animal material (ivory, bone, leather)",
-			"specific": "Shell"
+			"section": "Organic",
+			"subcategory": "Shell & pearl",
+			"specific": "coconut shell"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Other textile",
+			"section": "Textiles & fiber",
+			"subcategory": "Fiber",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
-			"specific": "Weaving"
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": "Plain weave"
 		}
 	],
 	"facet_place": [
@@ -204,8 +223,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Shell, Other textile, Weaving · Truk Atoll",
+		"reason": "grid-facets real slice — coconut shell, Fiber, Plain weave · Truk Atoll",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 38
+		"populated_fields": 40
 	}
 }

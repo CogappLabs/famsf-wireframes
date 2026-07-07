@@ -26,8 +26,50 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "CPLH, Recent Acquisitions, Part 1, 1500-1950, 7 March - 24 May 1987.",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "CPLH, Recent Acquisitions, Part 1, 1500-1950, 7 March - 24 May 1987."
+		}
+	],
 	"bibliography_text": null,
 	"provenance": "Provenance: William Theo Brown and Paul Wonner Collection;\nFrom AFGA file:\nRobert Skelton, Keeper of Indian Art, Victoria and Albert Museum, London ( 1 October 1985) (notes in old file and transcribed on mat): Inscription read and dated either as from the time or possibly later {Skelton expressed uncertainy];\nAttributed to Mughal or Deccan (i.e. Southern) School;\nTerence McInerny, Greater India Co. (n.d.)(copy in file): Undated appraisal and description. Calls the work Mughal, ca. 1760, identifies type of script but does not translate, gives full description.;",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Provenance: William Theo Brown and Paul Wonner Collection;",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 1,
+				"text": "From AFGA file:",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 2,
+				"text": "Robert Skelton, Keeper of Indian Art, Victoria and Albert Museum, London ( 1 October 1985) (notes in old file and transcribed on mat): Inscription read and dated either as from the time or possibly later {Skelton expressed uncertainy];",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 3,
+				"text": "Attributed to Mughal or Deccan (i.e. Southern) School;",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 4,
+				"text": "Terence McInerny, Greater India Co. (n.d.)(copy in file): Undated appraisal and description. Calls the work Mughal, ca. 1760, identifies type of script but does not translate, gives full description.;",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -278,6 +320,20 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia"
+		],
+		"lvl1": [
+			"Asia > South Asia"
+		],
+		"lvl2": [
+			"Asia > South Asia > Delhi",
+			"Asia > South Asia > Mughal Empire"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Zuka Allah of Delhi",
 	"primary_artist_display": "Zuka Allah of Delhi",
 	"sort_artist": "Zuka  Allah of Delhi",
@@ -292,9 +348,9 @@
 	"sort_year": 1760,
 	"facet_medium": [
 		{
-			"section": "Painting",
-			"subcategory": "Gouache / opaque watercolor",
-			"specific": ""
+			"section": "Paint & pigment",
+			"subcategory": "Watercolour & wash",
+			"specific": "opaque watercolor"
 		}
 	],
 	"facet_place": [
@@ -312,8 +368,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Gouache / opaque watercolor · Mughal Empire, Delhi",
+		"reason": "grid-facets real slice — opaque watercolor · Mughal Empire, Delhi",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 48
+		"populated_fields": 51
 	}
 }

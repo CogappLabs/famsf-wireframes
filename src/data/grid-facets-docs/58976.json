@@ -27,8 +27,19 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "Beauty, Power, and Prestige: Textiles and Costume from the Permanent Collection- New DeYoung opening, 10/05Gallery 9A, Legion of Honor, 10/03 - 3/04 (verso)Viewpoints IV, 1988Fans in Fashion, Legion of Honor, 5/23/81 - 8/30/81",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "Beauty, Power, and Prestige: Textiles and Costume from the Permanent Collection- New DeYoung opening, 10/05Gallery 9A, Legion of Honor, 10/03 - 3/04 (verso)Viewpoints IV, 1988Fans in Fashion, Legion of Honor, 5/23/81 - 8/30/81"
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -277,6 +288,18 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Europe"
+		],
+		"lvl1": [
+			"Europe > France",
+			"Europe > Nederland"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -291,29 +314,34 @@
 	"sort_year": 1747,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Animal material (ivory, bone, leather)",
-			"specific": "Ivory / tusk"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
+			"section": "Ink & drawing media",
+			"subcategory": "Incising",
 			"specific": ""
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Gouache / opaque watercolor",
+			"section": "Metal",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Sculpture",
-			"subcategory": "Other sculpture material",
-			"specific": ""
+			"section": "Organic",
+			"subcategory": "Ivory & bone",
+			"specific": "ivory"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Other textile",
-			"specific": "Paper"
+			"section": "Organic",
+			"subcategory": "Shell & pearl",
+			"specific": "mother-of-pearl"
+		},
+		{
+			"section": "Paint & pigment",
+			"subcategory": "Watercolour & wash",
+			"specific": "opaque watercolor"
+		},
+		{
+			"section": "Paper & parchment",
+			"subcategory": "Paper",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -331,8 +359,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Ivory / tusk, Other material, Gouache / opaque watercolor, Other sculpture material … · Netherlands, France",
+		"reason": "grid-facets real slice — Incising, Metal, ivory, mother-of-pearl … · Netherlands, France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 48
 	}
 }

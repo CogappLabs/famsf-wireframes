@@ -26,8 +26,14 @@
 	"web_text": "Koak’s painting style is deeply rooted in comics subculture, which she has been immersed in since childhood. Weaponizing the form’s subversive capabilities, she interrogates dominant modes of storytelling and stereotypical constructions of femininity. Her unruly lines, set against flat color fields, conjure figures with a visceral sense of agency and emotional complexity. Conceived during the COVID-19 pandemic under California’s wildfire-induced red skies of 2020, June challenges traditional binary representations of women as either desirable or maternal by emphasizing the figure’s sensuality as she nurses her child in a setting that hints at both intimacy and isolation as a consequence of early motherhood and the need to shelter in place.",
 	"didactic_label": "Koak’s painting style is deeply rooted in comics subculture, which she has been immersed in since childhood. Weaponizing the form’s subversive capabilities, she interrogates dominant modes of storytelling and stereotypical constructions of femininity. Her unruly lines, set against flat color fields, conjure figures with a visceral sense of agency and emotional complexity.Conceived during the COVID-19 pandemic under California’s wildfire-induced red skies of 2020, June challenges traditional binary representations of women as either desirable or maternal by emphasizing the figure’s sensuality as she nurses her child in a setting that hints at both intimacy and isolation as a consequence of early motherhood and the need to shelter in place.",
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -328,6 +334,261 @@
 	"term_school": null,
 	"term_materials": [
 		{
+			"id": 16207483,
+			"term": "acrylic paint",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
+					"term": "synthetic resin paint"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAA",
+					"term": "acrylic paint"
+				}
+			]
+		},
+		{
+			"id": 16207518,
+			"term": "casein paint",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAK",
+					"term": "water-base paint"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAK.AAD",
+					"term": "tempera"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAK.AAD.AAA",
+					"term": "casein paint"
+				}
+			]
+		},
+		{
+			"id": 16344960,
+			"term": "pastel",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAC",
+					"term": "pastel"
+				}
+			]
+		},
+		{
+			"id": 16291345,
+			"term": "charcoal",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAM",
+					"term": "modified plant material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAM.AAB",
+					"term": "charcoal"
+				}
+			]
+		},
+		{
+			"id": 16608688,
+			"term": "graphite",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABB",
+					"term": "mineral"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABB.ACR",
+					"term": "graphite"
+				}
+			]
+		},
+		{
 			"id": 16418138,
 			"term": "canvas",
 			"type": "Descriptor",
@@ -382,107 +643,6 @@
 					"depth": 10,
 					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAD.AAE",
 					"term": "canvas"
-				}
-			]
-		},
-		{
-			"id": 16608688,
-			"term": "graphite",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAB",
-					"term": "materials by composition"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
-					"term": "inorganic material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABB",
-					"term": "mineral"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABB.ACR",
-					"term": "graphite"
-				}
-			]
-		},
-		{
-			"id": 16386703,
-			"term": "vinyl paint",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
-					"term": "paint"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
-					"term": "paint by composition or origin"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
-					"term": "synthetic resin paint"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAD",
-					"term": "vinyl paint"
 				}
 			]
 		},
@@ -578,56 +738,8 @@
 			]
 		},
 		{
-			"id": 16291345,
-			"term": "charcoal",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAF",
-					"term": "materials by origin"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
-					"term": "biological material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
-					"term": "plant material"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAM",
-					"term": "modified plant material"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAM.AAB",
-					"term": "charcoal"
-				}
-			]
-		},
-		{
-			"id": 16207483,
-			"term": "acrylic paint",
+			"id": 16386703,
+			"term": "vinyl paint",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
@@ -678,120 +790,29 @@
 				},
 				{
 					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAA",
-					"term": "acrylic paint"
-				}
-			]
-		},
-		{
-			"id": 16344960,
-			"term": "pastel",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAC",
-					"term": "pastel"
-				}
-			]
-		},
-		{
-			"id": 16207518,
-			"term": "casein paint",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
-					"term": "paint"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
-					"term": "paint by composition or origin"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAK",
-					"term": "water-base paint"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAK.AAD",
-					"term": "tempera"
-				},
-				{
-					"depth": 11,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAK.AAD.AAA",
-					"term": "casein paint"
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAD",
+					"term": "vinyl paint"
 				}
 			]
 		}
 	],
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North America"
+		],
+		"lvl1": [
+			"North America > United States"
+		],
+		"lvl2": [
+			"North America > United States > California"
+		],
+		"lvl3": [
+			"North America > United States > California > San Francisco"
+		],
+		"historic": false
+	},
 	"primary_artist": "Koak",
 	"primary_artist_display": "b. 1981",
 	"sort_artist": "Koak",
@@ -806,34 +827,39 @@
 	"sort_year": 2021,
 	"facet_medium": [
 		{
-			"section": "Drawing",
-			"subcategory": "Pencil, chalk & crayon",
-			"specific": "Chalk"
+			"section": "Ink & drawing media",
+			"subcategory": "Chalk & crayon",
+			"specific": "chalk"
 		},
 		{
-			"section": "Drawing",
-			"subcategory": "Pencil, chalk & crayon",
-			"specific": "Charcoal"
+			"section": "Ink & drawing media",
+			"subcategory": "Charcoal",
+			"specific": ""
 		},
 		{
-			"section": "Drawing",
-			"subcategory": "Pencil, chalk & crayon",
-			"specific": "Graphite / pencil"
+			"section": "Ink & drawing media",
+			"subcategory": "Pastel",
+			"specific": ""
 		},
 		{
-			"section": "Drawing",
-			"subcategory": "Pencil, chalk & crayon",
-			"specific": "Pastel"
+			"section": "Ink & drawing media",
+			"subcategory": "Pencil & graphite",
+			"specific": "graphite"
 		},
 		{
-			"section": "Painting",
+			"section": "Paint & pigment",
 			"subcategory": "Acrylic",
 			"specific": ""
 		},
 		{
-			"section": "Painting",
+			"section": "Paint & pigment",
 			"subcategory": "Oil",
-			"specific": "Oil (other support)"
+			"specific": ""
+		},
+		{
+			"section": "Paper & parchment",
+			"subcategory": "Paper",
+			"specific": "Canvas"
 		}
 	],
 	"facet_place": [
@@ -845,8 +871,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Chalk, Charcoal, Graphite / pencil, Pastel … · San Francisco",
+		"reason": "grid-facets real slice — chalk, Charcoal, Pastel, graphite … · San Francisco",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 50
+		"populated_fields": 52
 	}
 }

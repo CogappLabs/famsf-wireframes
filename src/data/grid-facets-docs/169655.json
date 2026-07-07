@@ -26,8 +26,26 @@
 	"web_text": "1 OBJECT LABEL + 1 EXTENDED TEXT LABEL\nCASE LABEL\n(4 X ?) MAGNETIC SLANT DECK\n\nJaniform comb\nWestern Province; Gulf of Papua, south of the Fly River; Kiwai people\n19th-early 20th century\nWood and ochre and lime pigment\nGift of Marcia and John Friede in honor of Diane B. Wilsey and Harry S. Parker III\n2007.44.27 (cat. no. 491)\n\nThe Gulf of Papua is located on the south coast of the island of New Guinea. Heavy rainfall and the many lakes, rivers, and deltas saturate the lowland and nourish mangrove and sago forests. In the villages of Kiwai Island in the Fly River estuary and along the nearby coast of the Gulf of Papua, important Kiwai men and women wear decorated combs in their hair during ceremonies.\n\nMost combs from Kiwai depict animals, cosmic symbols, and totem and tattoo marks, although this one probably represents an ancestor figure with two faces joined back to back on either side of the comb. The stylized figure with its high forehead, teardrop eyes, and elongated, linear nose is reminiscent of spirit boards made by the neighboring Kerewa people.",
 	"didactic_label": "The Gulf of Papua is located on the south coast of the island of New Guinea. Heavy rainfall and the many lakes, rivers, and deltas saturate the lowland and nourish mangrove and sago forests. In the villages of Kiwai Island in the Fly River estuary and along the nearby coast of the Gulf of Papua, important Kiwai men and women wear decorated combs in their hair during ceremonies.\n\nMost combs from Kiwai depict animals, cosmic symbols, and totem and tattoo marks, although this one probably represents an ancestor figure with two faces joined back to back on either side of the comb. The stylized figure with its high forehead, teardrop eyes, and elongated, linear nose is reminiscent of spirit boards made by the neighboring Kerewa people.",
 	"exhibition_history_text": "2005 - New Guinea Art. Masterpieces from the Jolika Collection of Marcia and John Friede. De Young Museum, San Francisco, 2005.",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "2005 - New Guinea Art. Masterpieces from the Jolika Collection of Marcia and John Friede. De Young Museum, San Francisco, 2005."
+		}
+	],
 	"bibliography_text": null,
 	"provenance": "\"Collected by George Craig in the 1960s.\" (Catalog #491, New Guinea Art: Masterpieces from the Jolika Collection of Marcia and John Friede, 2005, Volume 2, p. 167.)",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "\"Collected by George Craig in the 1960s.\" (Catalog #491, New Guinea Art: Masterpieces from the Jolika Collection of Marcia and John Friede, 2005, Volume 2, p. 167.)",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -217,6 +235,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Oceania"
+		],
+		"lvl1": [
+			"Oceania > Fly River"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Kiwai language speakers",
 	"primary_artist_display": "Kiwai language speakers",
 	"sort_artist": "Kiwai language speakers",
@@ -233,13 +262,13 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Wood",
-			"specific": ""
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
+			"section": "Paint & pigment",
+			"subcategory": "Pigment",
 			"specific": ""
 		}
 	],
@@ -252,8 +281,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Wood, Other paint · Fly River Delta",
+		"reason": "grid-facets real slice — wood, Pigment · Fly River Delta",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 47
+		"populated_fields": 50
 	}
 }

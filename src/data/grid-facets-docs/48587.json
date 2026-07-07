@@ -27,8 +27,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -166,39 +172,6 @@
 	],
 	"term_place_of_creation": [
 		{
-			"id": 16657939,
-			"term": "Bursa",
-			"type": "Descriptor",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
-					"term": "Achaemenid Empire"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAAAJ",
-					"term": "Aegean Region"
-				},
-				{
-					"depth": 7,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAAAJ.AAAAL.AAAAC",
-					"term": "Bursa"
-				}
-			]
-		},
-		{
 			"id": 16957548,
 			"term": "İstanbul",
 			"type": "Descriptor",
@@ -230,6 +203,39 @@
 					"term": "İstanbul"
 				}
 			]
+		},
+		{
+			"id": 16657939,
+			"term": "Bursa",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAAAJ",
+					"term": "Aegean Region"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAAAJ.AAAAL.AAAAC",
+					"term": "Bursa"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -245,6 +251,20 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia"
+		],
+		"lvl1": [
+			"Asia > Achaemenid Empire"
+		],
+		"lvl2": [
+			"Asia > Achaemenid Empire > Bursa",
+			"Asia > Achaemenid Empire > İstanbul"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -261,38 +281,38 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "velvet"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Thread & trimmings",
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
-			"specific": ""
+			"section": "Textiles & fiber",
+			"subcategory": "Yarn & thread",
+			"specific": "metallic thread"
 		}
 	],
 	"facet_place": [
 		{
 			"region": "East Asia",
-			"country": "",
-			"state": "",
-			"notable": "Bursa"
-		},
-		{
-			"region": "East Asia",
 			"country": "Achaemenid",
 			"state": "",
 			"notable": "İstanbul"
+		},
+		{
+			"region": "East Asia",
+			"country": "",
+			"state": "",
+			"notable": "Bursa"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Silk, Thread & trimmings, Woven & worked cloth · Bursa, İstanbul",
+		"reason": "grid-facets real slice — velvet, Silk, metallic thread · İstanbul, Bursa",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 42
+		"populated_fields": 44
 	}
 }

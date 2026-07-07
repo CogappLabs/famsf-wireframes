@@ -29,8 +29,27 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "\"Artists' Books in the Modern Era 1870-2000: The Reva and David Logan Collection of Illustrated Books\"\nLegion of Honor, FAMSF Oct. 6, 2001 - Jan. 6, 2002.\nCPLH, Logan Gallery, The Book and the Binding, 17 Nov 2012 - 12 May 2013.",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "\"Artists' Books in the Modern Era 1870-2000: The Reva and David Logan Collection of Illustrated Books\""
+		},
+		{
+			"order": 1,
+			"text": "Legion of Honor, FAMSF Oct. 6, 2001 - Jan. 6, 2002."
+		},
+		{
+			"order": 2,
+			"text": "CPLH, Logan Gallery, The Book and the Binding, 17 Nov 2012 - 12 May 2013."
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -214,8 +233,8 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 235965,
-			"image_id": 43223,
+			"media_xref_id": 235966,
+			"image_id": 43291,
 			"rank": 0,
 			"file_date": "2023-02-27 06:25:03",
 			"primary": false,
@@ -226,9 +245,9 @@
 			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
-			"height": 2382,
-			"width": 1572,
-			"file_name": "1129200011520029.jpg",
+			"height": 2370,
+			"width": 1626,
+			"file_name": "1129200011520030.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -255,6 +274,32 @@
 			"height": 2382,
 			"width": 1590,
 			"file_name": "1129200011520026.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 235965,
+			"image_id": 43223,
+			"rank": 0,
+			"file_date": "2023-02-27 06:25:03",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2382,
+			"width": 1572,
+			"file_name": "1129200011520029.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -318,84 +363,6 @@
 			"iiif_height": null
 		},
 		{
-			"media_xref_id": 235966,
-			"image_id": 43291,
-			"rank": 0,
-			"file_date": "2023-02-27 06:25:03",
-			"primary": false,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 2370,
-			"width": 1626,
-			"file_name": "1129200011520030.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 235961,
-			"image_id": 43285,
-			"rank": 0,
-			"file_date": "2023-02-27 06:25:02",
-			"primary": false,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 2358,
-			"width": 1542,
-			"file_name": "1129200011520024.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 235960,
-			"image_id": 43220,
-			"rank": 0,
-			"file_date": "2023-02-27 06:25:02",
-			"primary": false,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 2376,
-			"width": 1536,
-			"file_name": "1129200011520023.jpg",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
 			"media_xref_id": 235955,
 			"image_id": 43215,
 			"rank": 0,
@@ -437,6 +404,58 @@
 			"height": 2424,
 			"width": 1608,
 			"file_name": "1129200011520022.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 235960,
+			"image_id": 43220,
+			"rank": 0,
+			"file_date": "2023-02-27 06:25:02",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2376,
+			"width": 1536,
+			"file_name": "1129200011520023.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 235961,
+			"image_id": 43285,
+			"rank": 0,
+			"file_date": "2023-02-27 06:25:02",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2358,
+			"width": 1542,
+			"file_name": "1129200011520024.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -594,6 +613,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Europe"
+		],
+		"lvl1": [
+			"Europe > France"
+		],
+		"lvl2": [
+			"Europe > France > Paris"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Charles Maurin",
 	"primary_artist_display": "Charles Maurin (1855–1914)",
 	"sort_artist": "Charles Maurin",
@@ -608,43 +640,38 @@
 	"sort_year": 1897,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Animal material (ivory, bone, leather)",
-			"specific": "Leather / hide"
+			"section": "Metal",
+			"subcategory": "Gilt & gold leaf",
+			"specific": "Gilt"
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
+			"section": "Metal",
+			"subcategory": "Gold",
 			"specific": ""
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Precious metal (gold, silver)",
-			"specific": "Gold"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Precious metal (gold, silver)",
-			"specific": "Silver"
-		},
-		{
-			"section": "Print",
-			"subcategory": "Etching & engraving (intaglio)",
-			"specific": "Mixed / other intaglio"
-		},
-		{
-			"section": "Print",
-			"subcategory": "Lithographs (planographic)",
-			"specific": "Lithograph"
-		},
-		{
-			"section": "Sculpture",
-			"subcategory": "Marble",
+			"section": "Metal",
+			"subcategory": "Silver",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
+			"section": "Organic",
+			"subcategory": "Leather & hide",
+			"specific": "leather"
+		},
+		{
+			"section": "Paper & parchment",
+			"subcategory": "Paper",
+			"specific": ""
+		},
+		{
+			"section": "Prints",
+			"subcategory": "Aquatint",
+			"specific": ""
+		},
+		{
+			"section": "Prints",
+			"subcategory": "Lithograph",
 			"specific": ""
 		}
 	],
@@ -657,8 +684,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Leather / hide, Other material, Gold, Silver … · Paris",
+		"reason": "grid-facets real slice — Gilt, Gold, Silver, leather … · Paris",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 47
+		"populated_fields": 50
 	}
 }

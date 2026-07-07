@@ -26,8 +26,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -299,142 +305,8 @@
 	"term_school": null,
 	"term_materials": [
 		{
-			"id": 16427291,
-			"term": "lacquer",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAA",
-					"term": "coating by composition or origin"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAA.AAF",
-					"term": "lacquer"
-				}
-			]
-		},
-		{
-			"id": 16521927,
-			"term": "insulation",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAS",
-					"term": "building materials"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAS.AAL",
-					"term": "insulation"
-				}
-			]
-		},
-		{
-			"id": 16426381,
+			"id": 16160643,
 			"term": "polyester",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
-					"term": "fiber"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF",
-					"term": "synthetic fiber"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF.AAH",
-					"term": "polyester"
-				}
-			]
-		},
-		{
-			"id": 16397283,
-			"term": "epoxy resin",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
@@ -485,66 +357,13 @@
 				},
 				{
 					"depth": 13,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAB",
-					"term": "thermoset"
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAC",
+					"term": "plastic by property: thermoplastic or thermoset"
 				},
 				{
 					"depth": 14,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAB.AAE",
-					"term": "epoxy resin"
-				}
-			]
-		},
-		{
-			"id": 16529734,
-			"term": "plywood",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAF",
-					"term": "materials by origin"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
-					"term": "biological material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
-					"term": "plant material"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
-					"term": "wood and wood by product"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAB",
-					"term": "wood by product"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAB.AAM",
-					"term": "plywood"
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAC.AAA",
+					"term": "polyester"
 				}
 			]
 		},
@@ -680,8 +499,89 @@
 			]
 		},
 		{
-			"id": 16160643,
-			"term": "polyester",
+			"id": 16521927,
+			"term": "insulation",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAS",
+					"term": "building materials"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAS.AAL",
+					"term": "insulation"
+				}
+			]
+		},
+		{
+			"id": 16427291,
+			"term": "lacquer",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAA",
+					"term": "coating by composition or origin"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAA.AAF",
+					"term": "lacquer"
+				}
+			]
+		},
+		{
+			"id": 16397283,
+			"term": "epoxy resin",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
@@ -732,19 +632,140 @@
 				},
 				{
 					"depth": 13,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAC",
-					"term": "plastic by property: thermoplastic or thermoset"
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAB",
+					"term": "thermoset"
 				},
 				{
 					"depth": 14,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAC.AAA",
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAB.AAE",
+					"term": "epoxy resin"
+				}
+			]
+		},
+		{
+			"id": 16426381,
+			"term": "polyester",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
+					"term": "fiber"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF",
+					"term": "synthetic fiber"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF.AAH",
 					"term": "polyester"
+				}
+			]
+		},
+		{
+			"id": 16529734,
+			"term": "plywood",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB",
+					"term": "plant material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ",
+					"term": "wood and wood by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAB",
+					"term": "wood by product"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAB.AAZ.AAB.AAM",
+					"term": "plywood"
 				}
 			]
 		}
 	],
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North America"
+		],
+		"lvl1": [
+			"North America > United States"
+		],
+		"lvl2": [
+			"North America > United States > California"
+		],
+		"lvl3": [
+			"North America > United States > California > Los Angeles"
+		],
+		"historic": false
+	},
 	"primary_artist": "Julian Hoeber",
 	"primary_artist_display": "b. 1974",
 	"sort_artist": "Hoeber,  Julian",
@@ -759,49 +780,49 @@
 	"sort_year": 2017,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Glass",
-			"specific": "Glass (unspecified)"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Lacquer & enamel",
-			"specific": "Lacquer"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
+			"section": "Glass",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
-			"specific": "Pea gravel"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
-			"specific": "Plywood"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Wood",
+			"section": "Metal",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Painting",
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "lacquer"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "plywood"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
+		},
+		{
+			"section": "Paint & pigment",
 			"subcategory": "Acrylic",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Synthetic fiber (nylon, polyester)",
-			"specific": ""
+			"section": "Paint & pigment",
+			"subcategory": "Surface technique",
+			"specific": "Collage"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Synthetic fiber (nylon, polyester)",
-			"specific": "Polyester"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "nylon"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "polyester"
 		}
 	],
 	"facet_place": [
@@ -813,8 +834,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass (unspecified), Lacquer, Other material, Pea gravel … · Los Angeles",
+		"reason": "grid-facets real slice — Glass, Metal, lacquer, plywood … · Los Angeles",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 47
 	}
 }

@@ -26,8 +26,23 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "CPLH, 20 years of collecting: Director's Choice, 17 June - 13 Sept 1987.\n\nUniversity Art Museum, Berkeley, Indian Paintings from Bay Area Collections, 23 May - 19 Aug 1984.",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "CPLH, 20 years of collecting: Director's Choice, 17 June - 13 Sept 1987."
+		},
+		{
+			"order": 2,
+			"text": "University Art Museum, Berkeley, Indian Paintings from Bay Area Collections, 23 May - 19 Aug 1984."
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -306,6 +321,20 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia"
+		],
+		"lvl1": [
+			"Asia > South Asia"
+		],
+		"lvl2": [
+			"Asia > South Asia > Lucknow",
+			"Asia > South Asia > Mughal Empire"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Anonymous",
 	"primary_artist_display": "Anonymous",
 	"sort_artist": "Anonymous",
@@ -320,24 +349,24 @@
 	"sort_year": 1780,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Precious metal (gold, silver)",
-			"specific": "Gold"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Precious metal (gold, silver)",
-			"specific": "Silver"
-		},
-		{
-			"section": "Drawing",
+			"section": "Ink & drawing media",
 			"subcategory": "Ink",
-			"specific": "Ink (unspecified)"
+			"specific": ""
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Watercolor",
+			"section": "Metal",
+			"subcategory": "Gold",
 			"specific": ""
+		},
+		{
+			"section": "Metal",
+			"subcategory": "Silver",
+			"specific": ""
+		},
+		{
+			"section": "Paint & pigment",
+			"subcategory": "Watercolour & wash",
+			"specific": "transparent watercolor"
 		}
 	],
 	"facet_place": [
@@ -355,8 +384,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Gold, Silver, Ink (unspecified), Watercolor · Lucknow, Mughal Empire",
+		"reason": "grid-facets real slice — Ink, Gold, Silver, transparent watercolor · Lucknow, Mughal Empire",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 47
+		"populated_fields": 50
 	}
 }

@@ -26,8 +26,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -304,6 +310,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"East Asia"
+		],
+		"lvl1": [
+			"East Asia > Japan"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Yohji Yamamoto",
 	"primary_artist_display": "b. 1943",
 	"sort_artist": "Yohji Yamamato",
@@ -318,29 +335,29 @@
 	"sort_year": 1981,
 	"facet_medium": [
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cashmere"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "linen"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Linen"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "polyester"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Wool"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Synthetic fiber (nylon, polyester)",
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
 			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Wool",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Wool",
+			"specific": "cashmere"
 		}
 	],
 	"facet_place": [
@@ -352,8 +369,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cashmere, Linen, Silk, Wool … · Japan",
+		"reason": "grid-facets real slice — linen, polyester, Silk, Wool … · Japan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 45
 	}
 }

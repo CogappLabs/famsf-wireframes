@@ -26,8 +26,21 @@
 	"web_text": "For centuries, Micronesians have used canoes to ply the seas surrounding the more than six hundred islands distributed across 1,700 miles in the Western Pacific Ocean that make up the Federated States of Micronesia, an independent republic associated with the United States. Their distinctive wa, or sailing canoes, are said to be a gift from a heavenly spirit. Expert navigators relied on their knowledge of the winds and weather, ocean currents, astronomy, and the protection of osonifei, special navigation spirit effigies, as they made their voyages, some hundreds of miles in distance. Canoe voyaging in the region continues today. These figures, imbued with incantations and prayers, offered protection for the navigator from the dangers of the ocean. Portable and small but with strong manaman, or cosmic force and power to aid the mariner, osonifei were secured to the canoe’s rigging or placed for safekeeping in a navigator hut located on the outrigger platform when not in use. Fine Arts Museums of San Francisco, de Young 125 (California: Cameron + Company, 2021), p. 146, entry by Christina Hellmich.",
 	"didactic_label": "In the hands of a master navigator of the late eighteenth-early twentieth century- who had the knowledge to possess it and activate it- this effigy became a powerful spiritual ally to safeguard the navigator and his vessel while at sea.",
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": "Collected by Captain John Gordon Hitchfield and, his wife, Louisa, and purchased by the Park commission in 1905.",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Collected by Captain John Gordon Hitchfield and, his wife, Louisa, and purchased by the Park commission in 1905.",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -201,39 +214,6 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
-			"id": 19733980,
-			"term": "Ulul",
-			"type": "Descriptor",
-			"certainty": "Possibly",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAACB",
-					"term": "Oceania"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAACB.AAABB",
-					"term": "Micronesia"
-				},
-				{
-					"depth": 6,
-					"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA",
-					"term": "Chuuk"
-				},
-				{
-					"depth": 7,
-					"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA.AAABG",
-					"term": "Ulul"
-				}
-			]
-		},
-		{
 			"id": 18159734,
 			"term": "Namonuito",
 			"type": "Descriptor",
@@ -265,6 +245,39 @@
 					"term": "Namonuito"
 				}
 			]
+		},
+		{
+			"id": 19733980,
+			"term": "Ulul",
+			"type": "Descriptor",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACB",
+					"term": "Oceania"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACB.AAABB",
+					"term": "Micronesia"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA",
+					"term": "Chuuk"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA.AAABG",
+					"term": "Ulul"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -280,6 +293,20 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Oceania"
+		],
+		"lvl1": [
+			"Oceania > Micronesia"
+		],
+		"lvl2": [
+			"Oceania > Micronesia > Namonuito",
+			"Oceania > Micronesia > Ulul"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Onoun",
 	"primary_artist_display": "Onoun",
 	"sort_artist": "Onoun",
@@ -296,28 +323,28 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Other ceramic",
+			"section": "Ceramic",
+			"subcategory": "Clay",
 			"specific": ""
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Wood",
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
+		},
+		{
+			"section": "Paint & pigment",
+			"subcategory": "Pigment",
 			"specific": ""
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
-			"specific": ""
+			"section": "Stone",
+			"subcategory": "",
+			"specific": "Plaster"
 		},
 		{
-			"section": "Sculpture",
-			"subcategory": "Plaster",
-			"specific": ""
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Other textile",
+			"section": "Textiles & fiber",
+			"subcategory": "Fiber",
 			"specific": ""
 		}
 	],
@@ -326,18 +353,18 @@
 			"region": "Oceania",
 			"country": "",
 			"state": "",
-			"notable": "Ulul"
+			"notable": "Namonuito"
 		},
 		{
 			"region": "Oceania",
 			"country": "",
 			"state": "",
-			"notable": "Namonuito"
+			"notable": "Ulul"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Other ceramic, Wood, Other paint, Plaster … · Ulul, Namonuito",
+		"reason": "grid-facets real slice — Clay, wood, Pigment, Plaster … · Namonuito, Ulul",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 48
 	}
 }

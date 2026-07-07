@@ -27,8 +27,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -192,6 +198,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North America"
+		],
+		"lvl1": [
+			"North America > United States"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Hubert de Givenchy",
 	"primary_artist_display": "Hubert de Givenchy (1927–2018)",
 	"sort_artist": "Hubert de Givenchy",
@@ -206,44 +223,44 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
-			"specific": "Wire"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Plastic & synthetic",
+			"section": "Inorganic",
+			"subcategory": "Plastic",
 			"specific": ""
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
+			"section": "Inorganic",
+			"subcategory": "Synthetic",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Other textile",
-			"specific": "Buckram"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
-			"specific": "Knotted pile"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Thread & trimmings",
+			"section": "Metal",
+			"subcategory": "Wire",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
+			"section": "Paint & pigment",
+			"subcategory": "Paint",
+			"specific": "painted"
+		},
+		{
+			"section": "Paper & parchment",
+			"subcategory": "Paper",
 			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "velvet"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "grosgrain"
 		}
 	],
 	"facet_place": [
@@ -255,8 +272,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Wire, Plastic & synthetic, Other paint, Cotton … · United States",
+		"reason": "grid-facets real slice — Plastic, Synthetic, Wire, painted … · United States",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 40
+		"populated_fields": 42
 	}
 }

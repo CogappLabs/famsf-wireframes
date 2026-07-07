@@ -26,8 +26,26 @@
 	"web_text": "\"Revelations\" catalogue caption:\n\n[QUOTE]\n“Art ain't about paint. It ain't about canvas. It's about ideas. Too many people died without ever getting their minds out to the world.” —Thornton Dial\n\nThornton Dial's title Strange Fruit is derived from blues singer Billie Holiday's 1939 recording that denounced the racist lynching of African Americans. The assemblage documents the fallout from a 1993 CBS 60 Minutes program titled “Tin Man,” in which Atlanta art patron and collector William Arnett was accused of exploiting several African American artists, including Dial. The artist depicts Arnett as a Christlike martyr who has been lynched from the TV antenna of a shotgun house, while Dial—a diminutive black dolllike figure hanged at the middle left—is depicted as a secondary victim of the episode. Dial, who defended Arnett, recalled the condescending treatment of him by 60 Minutes reporter Morley Safer: “It seems to me this man talking the price of Dial don't be no different than the slave-seller talking the price of a African, like a bull or a cow. . . . Mr. Dial might be looking good for the price, but he just as soon still be a slave.” [TAB]",
 	"didactic_label": null,
 	"exhibition_history_text": "San Francisco, The Fine Arts Museums of San Francisco, Revelations: Art from the African American South, June 3, 2017-April 1, 2018",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "San Francisco, The Fine Arts Museums of San Francisco, Revelations: Art from the African American South, June 3, 2017-April 1, 2018"
+		}
+	],
 	"bibliography_text": null,
 	"provenance": "One of 62 objects in a partial gift, partial purchase transaction between the Souls Grown Deep Foundation (Atlanta, Georgia) and the Fine Arts Museums of San Francisco (FAMSF Board of Trustees vote: 01/31/2017).",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "One of 62 objects in a partial gift, partial purchase transaction between the Souls Grown Deep Foundation (Atlanta, Georgia) and the Fine Arts Museums of San Francisco (FAMSF Board of Trustees vote: 01/31/2017).",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": null,
 	"publication_text": "“Art ain't about paint. It ain't about canvas. It's about ideas. Too many people died without ever getting their minds out to the world.” —Thornton Dial\n\nThornton Dial's title Strange Fruit is derived from blues singer Billie Holiday's 1939 recording that denounced the racist lynching of African Americans. The assemblage documents the fallout from a 1993 CBS 60 Minutes program titled “Tin Man,” in which Atlanta art patron and collector William Arnett was accused of exploiting several African American artists, including Dial. The artist depicts Arnett as a Christlike martyr who has been lynched from the TV antenna of a shotgun house, while Dial—a diminutive black dolllike figure hanged at the middle left—is depicted as a secondary victim of the episode. Dial, who defended Arnett, recalled the condescending treatment of him by 60 Minutes reporter Morley Safer: “It seems to me this man talking the price of Dial don't be no different than the slave-seller talking the price of a African, like a bull or a cow. . . . Mr. Dial might be looking good for the price, but he just as soon still be a slave.”",
 	"catalogue_raisonne": null,
@@ -211,6 +229,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North America"
+		],
+		"lvl1": [
+			"North America > United States"
+		],
+		"lvl2": [
+			"North America > United States > Alabama"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Thornton Dial",
 	"primary_artist_display": "Thornton Dial (1928–2016)",
 	"sort_artist": "Thornton Dial",
@@ -225,34 +256,39 @@
 	"sort_year": 2003,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Lacquer & enamel",
-			"specific": "Enamel"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
+			"section": "Metal",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
-			"specific": "Wire"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Wood",
+			"section": "Metal",
+			"subcategory": "Enamel",
 			"specific": ""
 		},
 		{
-			"section": "Painting",
+			"section": "Metal",
+			"subcategory": "Wire",
+			"specific": ""
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
+		},
+		{
+			"section": "Paint & pigment",
 			"subcategory": "Oil",
-			"specific": "Oil (other support)"
+			"specific": ""
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
-			"specific": "Spray paint"
+			"section": "Paint & pigment",
+			"subcategory": "Paint",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Artificial flower",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -264,8 +300,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Enamel, Other material, Wire, Wood … · United States",
+		"reason": "grid-facets real slice — Metal, Enamel, Wire, wood … · United States",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 47
+		"populated_fields": 50
 	}
 }

@@ -27,8 +27,19 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "Unravelling Yarns(rotation) 1993-1996",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "Unravelling Yarns(rotation) 1993-1996"
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -156,39 +167,6 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
-			"id": 16795641,
-			"term": "Karapınar",
-			"type": "Descriptor",
-			"certainty": "Possibly",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
-					"term": "Achaemenid Empire"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASN",
-					"term": "Marmara"
-				},
-				{
-					"depth": 7,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASN.AAAAB.AAABC",
-					"term": "Karapınar"
-				}
-			]
-		},
-		{
 			"id": 17307577,
 			"term": "Konya",
 			"type": "Descriptor",
@@ -213,6 +191,34 @@
 					"depth": 5,
 					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAAPQ",
 					"term": "Konya"
+				}
+			]
+		},
+		{
+			"id": 20295365,
+			"term": "Anatolia",
+			"type": "N/A",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABGE",
+					"term": "Asia Minor"
 				}
 			]
 		},
@@ -250,10 +256,10 @@
 			]
 		},
 		{
-			"id": 20295365,
-			"term": "Anatolia",
-			"type": "N/A",
-			"certainty": null,
+			"id": 16795641,
+			"term": "Karapınar",
+			"type": "Descriptor",
+			"certainty": "Possibly",
 			"path": [
 				{
 					"depth": 1,
@@ -272,8 +278,13 @@
 				},
 				{
 					"depth": 5,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABGE",
-					"term": "Asia Minor"
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASN",
+					"term": "Marmara"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASN.AAAAB.AAABC",
+					"term": "Karapınar"
 				}
 			]
 		}
@@ -350,12 +361,28 @@
 	],
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia"
+		],
+		"lvl1": [
+			"Asia > Achaemenid Empire"
+		],
+		"lvl2": [
+			"Asia > Achaemenid Empire > Asia Minor",
+			"Asia > Achaemenid Empire > Karapınar",
+			"Asia > Achaemenid Empire > Konya",
+			"Asia > Achaemenid Empire > Obruk"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
 	"culture_group": [
-		"Yörük",
-		"Turkish"
+		"Turkish",
+		"Yörük"
 	],
 	"display_year": "1801–1900",
 	"doc_id": "1988.11.252",
@@ -367,33 +394,33 @@
 	"sort_year": 1801,
 	"facet_medium": [
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Wool"
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": "Supplementary-weft patterning"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Other textile",
+			"section": "Textiles & fiber",
+			"subcategory": "Wool",
 			"specific": ""
 		}
 	],
 	"facet_place": [
 		{
 			"region": "East Asia",
-			"country": "",
-			"state": "",
-			"notable": "Karapınar"
-		},
-		{
-			"region": "East Asia",
 			"country": "Achaemenid",
 			"state": "",
 			"notable": "Konya"
+		},
+		{
+			"region": "Middle East",
+			"country": "Achaemenid",
+			"state": "",
+			"notable": "Anatolia"
 		},
 		{
 			"region": "East Asia",
@@ -402,15 +429,15 @@
 			"notable": "Obruk"
 		},
 		{
-			"region": "Middle East",
-			"country": "Achaemenid",
+			"region": "East Asia",
+			"country": "",
 			"state": "",
-			"notable": "Anatolia"
+			"notable": "Karapınar"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Wool, Other textile · Karapınar, Konya, Obruk",
+		"reason": "grid-facets real slice — Cotton, Supplementary-weft patterning, Wool · Konya, Anatolia, Obruk",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 47
 	}
 }

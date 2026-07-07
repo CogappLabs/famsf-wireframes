@@ -26,8 +26,26 @@
 	"web_text": "This spirit mask garment (doroe or dekewar) is worn by the Asmat people for the jipae festival, a mortuary feast that brings the community together to assist the recently deceased in their journey to the spirit world. A typical spirit mask costume includes a painted bodice made by twining paper mulberry tree bark and coiling rattan; a painted mask accessorized with ears, eyepieces, a nose, and an upright stick of cassowary feathers; and a skirt of sago fronds. During the jipae festival, performers masked in costumes—such as this particularly elaborate example from Jakapis village—approach by canoe from the river or emerge from the forest in the late afternoon and travel to the homes of mourning relatives. The spirits stay overnight, dancing and feasting, until they disappear at sunrise down the river or into the forest. The garments remain stored in the village and are considered special heirlooms.",
 	"didactic_label": "This spirit mask costume (doroe or dekewar) is worn by the Asmat people in a jipae festival, a mortuary feast that takes place every few years. The typical spirit mask costume includes a painted bodice made by twining the inner bark of a paper mulberry tree and coiling rattan; a painted mask accessorized with ears, eyepieces, a nose, and an upright stick of cassowary feathers; and a skirt of sago fronds.\n\nThe jipae festival brings the community together to assist the recently deceased in their journey to the spirit world. On the day of the feast, performers masked in costumes, such as this particularly elaborate example from Jakapis village, approach by canoe from the river or emerge from the forest in the late afternoon and travel to the homes of mourning relatives. Village men entice the spirits into a mock fight in an attempt to embarrass them and force their retreat into the world of the dead. Instead, the spirits stay overnight, dancing and feasting, until they finally disappear at sunrise down the river or into the forest. The masks, however, remain stored in the village and are considered special heirlooms.",
 	"exhibition_history_text": "2005 - New Guinea Art. Masterpieces from the Jolika Collection of Marcia and John Friede. De Young Museum, San Francisco, 2005.",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "2005 - New Guinea Art. Masterpieces from the Jolika Collection of Marcia and John Friede. De Young Museum, San Francisco, 2005."
+		}
+	],
 	"bibliography_text": null,
 	"provenance": "\"Walter Randall Collection, New York.\" (Catalog #516, New Guinea Art: Masterpieces from the Jolika Collection of Marcia and John Friede, 2005, Volume 2, p. 174.)",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "\"Walter Randall Collection, New York.\" (Catalog #516, New Guinea Art: Masterpieces from the Jolika Collection of Marcia and John Friede, 2005, Volume 2, p. 174.)",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -204,6 +222,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Southeast Asia"
+		],
+		"lvl1": [
+			"Southeast Asia > Southeast Asia"
+		],
+		"lvl2": [
+			"Southeast Asia > Southeast Asia > Jakapis villlage"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Asmat, Emari Ducur subgroup",
 	"primary_artist_display": "Asmat, Emari Ducur subgroup",
 	"sort_artist": "Asmat, Emari Ducur subgroup",
@@ -220,33 +251,33 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Animal material (ivory, bone, leather)",
-			"specific": "Shell"
+			"section": "Organic",
+			"subcategory": "Hair, fur & feather",
+			"specific": "feather"
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Beads, feathers & plant material",
+			"section": "Organic",
+			"subcategory": "Shell & pearl",
+			"specific": "shell"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "rattan"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
+		},
+		{
+			"section": "Paint & pigment",
+			"subcategory": "Pigment",
 			"specific": ""
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Beads, feathers & plant material",
-			"specific": "Rattan"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Wood",
-			"specific": ""
-		},
-		{
-			"section": "Painting",
-			"subcategory": "Other paint",
-			"specific": ""
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Other textile",
+			"section": "Textiles & fiber",
+			"subcategory": "Fiber",
 			"specific": ""
 		}
 	],
@@ -259,8 +290,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Shell, Beads, feathers & plant material, Rattan, Wood … · Jakapis villlage",
+		"reason": "grid-facets real slice — feather, shell, rattan, wood … · Jakapis villlage",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 49
 	}
 }

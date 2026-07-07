@@ -26,8 +26,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -152,6 +158,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North America"
+		],
+		"lvl1": [
+			"North America > United States"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -166,39 +183,39 @@
 	"sort_year": 1897,
 	"facet_medium": [
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
-			"specific": "Paint"
+			"section": "Paint & pigment",
+			"subcategory": "Paint",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
+			"section": "Textiles & fiber",
+			"subcategory": "Embroidery",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Other textile",
-			"specific": "Taffeta"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "satin"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
-			"specific": "Embroidery"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "taffeta"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
-			"specific": "Satin"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "velvet"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
-			"specific": "Velvet"
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -210,8 +227,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Paint, Cotton, Silk, Taffeta … · United States",
+		"reason": "grid-facets real slice — Paint, Cotton, Embroidery, satin … · United States",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 42
+		"populated_fields": 44
 	}
 }

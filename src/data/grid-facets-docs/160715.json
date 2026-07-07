@@ -26,8 +26,21 @@
 	"web_text": "Half-figure of a man on a prestige stool\nDemocratic Republic of Congo or southeastern Gabon, Mbete people\nLate 19th-early 20th century\nWood, pigment, cowry shells, metal, and fiber \nBlossom and Dwight Strong Collection\nL10.51.1",
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": "Purchased from Guy Piazzini, 1984",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Purchased from Guy Piazzini, 1984",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -331,6 +344,18 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Africa"
+		],
+		"lvl1": [
+			"Africa > Congo, République Démocratique du",
+			"Africa > Gabon"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -345,18 +370,23 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Wood",
+			"section": "Organic",
+			"subcategory": "Shell & pearl",
+			"specific": "shell"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
+		},
+		{
+			"section": "Paint & pigment",
+			"subcategory": "Pigment",
 			"specific": ""
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
-			"specific": ""
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Other textile",
+			"section": "Textiles & fiber",
+			"subcategory": "Fiber",
 			"specific": ""
 		}
 	],
@@ -375,8 +405,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Wood, Other paint, Other textile · Gabon, Democratic Republic of the Congo",
+		"reason": "grid-facets real slice — shell, wood, Pigment, Fiber · Gabon, Democratic Republic of the Congo",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 39
+		"populated_fields": 41
 	}
 }

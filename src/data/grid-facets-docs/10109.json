@@ -27,8 +27,19 @@
 	"web_text": "This textile is in the style of Italian ferronnerie velvet, named for the ironwork that the designs' delicate outlines resemble. Although it appears typically Italian, its weave structure suggests that it was made at a workshop in Istanbul or Bursa. By the late fifteenth century, Italian silks typically had S-twisted main warp threads; this textile's main warp threads are Z-twisted, indicating an Ottoman origin. From the late 15th century into the 16th century, luxury textiles were frequently given as diplomatic gifts between the Ottoman and Venetian courts, resulting in shared artistic styles and motifs.",
 	"didactic_label": "This textile is in the style of Italian ferronnerie velvet, named for the ironwork that the designs' delicate outlines resemble. Although it appears typically Italian, its weave structure suggests that it may have been made in Turkey. By the late fifteenth century, Italian silks typically had S-twisted main warp threads; this textile's main warp threads are Z-twisted, indicating a Turkish origin.",
 	"exhibition_history_text": "Study Drawer Rotation, Textile Education Gallery, de Young, 12/16-present",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "Study Drawer Rotation, Textile Education Gallery, de Young, 12/16-present"
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -224,54 +235,6 @@
 	"term_school": null,
 	"term_materials": [
 		{
-			"id": 16387385,
-			"term": "metal thread",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
-					"term": "fiber"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAD",
-					"term": "metal thread"
-				}
-			]
-		},
-		{
 			"id": 16551699,
 			"term": "silk",
 			"type": "Descriptor",
@@ -328,10 +291,71 @@
 					"term": "silk"
 				}
 			]
+		},
+		{
+			"id": 16387385,
+			"term": "metal thread",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
+					"term": "fiber"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAD",
+					"term": "metal thread"
+				}
+			]
 		}
 	],
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia",
+			"Europe"
+		],
+		"lvl1": [
+			"Asia > Türkiye",
+			"Europe > Italia"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -348,19 +372,19 @@
 	"sort_year": 1475,
 	"facet_medium": [
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Thread & trimmings",
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
-			"specific": ""
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": "discontinuous supplementary-weft patterning"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Yarn & thread",
+			"specific": "metallic thread"
 		}
 	],
 	"facet_place": [
@@ -378,8 +402,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Silk, Thread & trimmings, Woven & worked cloth · Turkey, Italy",
+		"reason": "grid-facets real slice — Silk, discontinuous supplementary-weft patterning, metallic thread · Turkey, Italy",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 49
+		"populated_fields": 52
 	}
 }

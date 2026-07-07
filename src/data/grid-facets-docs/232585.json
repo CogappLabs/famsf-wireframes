@@ -26,8 +26,33 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": "collected by Wilfrid Hubert Hemingway in Australia between 1910 and 1924\nloaned to the deYoung Museum in 1932\ndonated to the deYoung Museum by Hemingway's wife in 1950",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "collected by Wilfrid Hubert Hemingway in Australia between 1910 and 1924",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 1,
+				"text": "loaned to the deYoung Museum in 1932",
+				"refs": [],
+				"is_uncertain": false
+			},
+			{
+				"order": 2,
+				"text": "donated to the deYoung Museum by Hemingway's wife in 1950",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -182,6 +207,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Oceania"
+		],
+		"lvl1": [
+			"Oceania > Australia"
+		],
+		"lvl2": [
+			"Oceania > Australia > Kimberley"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Nyulnyul",
 	"primary_artist_display": "Nyulnyul",
 	"sort_artist": "Nyulnyul",
@@ -198,13 +236,18 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
-			"specific": "Stone"
+			"section": "Organic",
+			"subcategory": "Horn, gut & sinew",
+			"specific": "sinew"
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Wood",
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
+		},
+		{
+			"section": "Stone",
+			"subcategory": "",
 			"specific": ""
 		}
 	],
@@ -217,8 +260,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Stone, Wood · Kimberley",
+		"reason": "grid-facets real slice — sinew, wood, Stone · Kimberley",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 40
+		"populated_fields": 42
 	}
 }

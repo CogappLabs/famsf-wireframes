@@ -29,8 +29,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -596,6 +602,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Europe"
+		],
+		"lvl1": [
+			"Europe > France"
+		],
+		"lvl2": [
+			"Europe > France > Paris"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Christian Lacroix",
 	"primary_artist_display": "b. 1951",
 	"sort_artist": "Lacroix,  Christian",
@@ -610,49 +629,54 @@
 	"sort_year": 2007,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Glass",
-			"specific": "Lead / crystal glass"
+			"section": "Glass",
+			"subcategory": "",
+			"specific": "Crystal"
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Beads, feathers & plant material",
+			"section": "Metal",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
-			"specific": "Metal"
+			"section": "Organic",
+			"subcategory": "Hair, fur & feather",
+			"specific": "fur"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
+			"section": "Organic",
+			"subcategory": "Hair, fur & feather",
+			"specific": "goat hair"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Wool"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Other textile",
-			"specific": "Charmeuse"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Thread & trimmings",
+			"section": "Textiles & fiber",
+			"subcategory": "Lace",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "felt"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
-			"specific": "Felt"
+			"section": "Textiles & fiber",
+			"subcategory": "Wool",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Yarn & thread",
+			"specific": "metallic thread"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Yarn & thread",
+			"specific": "thread"
 		}
 	],
 	"facet_place": [
@@ -664,8 +688,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Lead / crystal glass, Beads, feathers & plant material, Metal, Silk … · Paris",
+		"reason": "grid-facets real slice — Crystal, Metal, fur, goat hair … · Paris",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 47
 	}
 }

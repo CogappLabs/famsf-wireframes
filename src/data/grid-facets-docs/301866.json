@@ -1,0 +1,256 @@
+{
+	"id": 301866,
+	"accession_number": "2021.93a-h",
+	"sort_number": "2021.93a-h",
+	"title": "Wedding ensemble: dress (a), train (b), veil (c), slip (d), garters (e,f), fan (g), and hanger (h)",
+	"object_name": "woman's costume",
+	"date_display": "1926",
+	"date_start": null,
+	"date_end": null,
+	"medium": "silk charmeuse, beads, tulle (a); silk charmeuse, beads, tulle, artificial orange blossoms (b); silk tulle, artificial orange blossoms, wire (c); silk, silk chiffon, silk tulle (d); silk satin, lace, artificial orange blossoms (e,f); ivory, feathers (g); silk, tulle, artificial orange blossoms (h)",
+	"medium_parts": [
+		"silk charmeuse, beads, tulle (a)",
+		"silk charmeuse, beads, tulle, artificial orange blossoms (b)",
+		"silk tulle, artificial orange blossoms, wire (c)",
+		"silk, silk chiffon, silk tulle (d)",
+		"silk satin, lace, artificial orange blossoms (e,f)",
+		"ivory, feathers (g)",
+		"silk, tulle, artificial orange blossoms (h)"
+	],
+	"credit_line": "Gift of Frances Dinkelspiel in memory of Florence Hellman Dinkelspiel",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2022-02-03 23:28:58.550000",
+	"last_modified": "2023-01-26 12:02:37.240000",
+	"is_virtual": false,
+	"identifying_description": "Woman’s wedding ensemble comprised of: (a) ivory silk charmeuse dress with bateau neckline and long sleeves tapered to wrists, secured by five silk charmeuses-covered buttons each, and full knee-length skirt, accented along collar and at cuffs with white and ivory beading, with beaded silk tulle insertions at waist, forming tassels over skirt; (b) ivory silk charmeuse cathedral-length train with tulle and beaded edging, culminating in elaborately beaded hem decorated with artificial orange blossoms; (c) cathedral-length silk tulle veil with crown of artificial orange blossoms secured by wire; (d) ivory silk plain weave slip with chiffon skirt and sheer tulle shoulders, secured by hook-and-eye closured at back; (e, f) silk satin and lace garters, in ivory and blue, with artificial orange blossoms; (g) carved ivory and feather fan; (h) hanger in ivory silk and tulle with artificial orange blossoms and heart-shaped sachet.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
+	"bibliography_text": null,
+	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "2021-12-07",
+	"location_string": "de Young, 059, Cabinet 53, TB",
+	"location_building": "de Young",
+	"location_room": "Cabinet 53",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Wedding ensemble: dress (a), train (b), veil (c), slip (d), garters (e,f), fan (g), and hanger (h)",
+			"type": "Primary Title",
+			"active": true,
+			"language": null,
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 8795,
+			"Role": "Attributed to",
+			"RoleID": 72,
+			"name": "Jeanne Lanvin",
+			"name_sort": "Lanvin,  Jeanne",
+			"Nationality": "French",
+			"place_born": null,
+			"place_died": "Paris",
+			"place_active": "Brittany",
+			"attribution_prefix": " ",
+			"BeginDate": 1867,
+			"EndDate": 1946,
+			"dates": "1867–1946",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Jeanne Lanvin (1867–1946)"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 156404,
+			"image_id": 195284,
+			"rank": 0,
+			"file_date": "2023-02-27 06:08:23",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2880,
+			"width": 3951,
+			"file_name": "A416226.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 20618668,
+			"term": "France",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Europe"
+		],
+		"lvl1": [
+			"Europe > France"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"culture_group": [],
+	"display_year": null,
+	"doc_id": "2021.93a-h",
+	"slug": "2021.93a-h/wedding-ensemble-dress-a-train-b-veil-c-slip-d-garters-e-f-fan-g-and-hanger-h",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Metal",
+			"subcategory": "Wire",
+			"specific": ""
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Hair, fur & feather",
+			"specific": "feather"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Ivory & bone",
+			"specific": "ivory"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Lace",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "tulle"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": "silk chiffon"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": "silk satin"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": "silk tulle"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "bead"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"state": "",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Wire, feather, ivory, Lace … · France",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 38
+	}
+}

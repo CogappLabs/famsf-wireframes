@@ -26,8 +26,19 @@
 	"web_text": "An exceptional Kiwi feather cloak, hand-woven from flax fiber and covered with feathers from the flightless Kiwi bird native to New Zealand, this cloak is called a kahu kiwi. It was a prestigious garment worn over the shoulders on top of clothing such as a suit or dress. The decorative borders with geometric designs, tāniko, incorporate multicolored wool. Reportedly, this feather cloak was worn by Māori chief Mita Taupopoki (ca. 1845–1935), renowned for his participation in the wars of the 1860s and his success in land court. Reportedly, Taupopoki wore this feather cloak during a tour of Australia, the United States, and England in 1910–1911. While in England, Taupopoki attended the coronation of King George V.",
 	"didactic_label": "Maori cloaks like this one from the 19th century were woven by hand from flax fiber and worn as prestige garments. They were often considered personal taonga (treasures). This kakahu kiwi cloak has been covered with kiwi bird feathers. The semi-nocturnal and flightless bird is native to New Zealand. The woven taniko border of the cloak includes brightly colored commercial wool fiber and contrasts with the natural and brown-dyed flax.\n\nFeather cloaks were worn over the shoulders on top of clothing such as a suit or dress. Museum records indicate that a renowned Maori chief, Mita Taupopoki (1845/1846- 1935), once owned this cloak. In 1910, he wore it during a tour of Australia, the United States, and England where he attended the coronation of George V and took part in the Festival of Empire celebrations.",
 	"exhibition_history_text": "previously in the old AOA galleryWorn by Chief Mita Tapopoki of the Te Arawa tribe at the coronation of Edward and the diamond jubilee of Victoria when chiefs of distant tribes gathered to pay homage",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "previously in the old AOA galleryWorn by Chief Mita Tapopoki of the Te Arawa tribe at the coronation of Edward and the diamond jubilee of Victoria when chiefs of distant tribes gathered to pay homage"
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -284,6 +295,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Oceania"
+		],
+		"lvl1": [
+			"Oceania > New Zealand"
+		],
+		"lvl2": [
+			"Oceania > New Zealand > Whanganui"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Māori",
 	"primary_artist_display": "Māori",
 	"sort_artist": "Māori",
@@ -300,14 +324,14 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Beads, feathers & plant material",
-			"specific": ""
+			"section": "Organic",
+			"subcategory": "Hair, fur & feather",
+			"specific": "feather"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Wool"
+			"section": "Textiles & fiber",
+			"subcategory": "Wool",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -319,8 +343,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Beads, feathers & plant material, Wool · Whanganui",
+		"reason": "grid-facets real slice — feather, Wool · Whanganui",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 48
 	}
 }

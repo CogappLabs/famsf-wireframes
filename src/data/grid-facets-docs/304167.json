@@ -27,8 +27,14 @@
 	"web_text": "Bisa Butler has distinguished herself in the contemporary art world for her large-scale, celebratory quilted portraits of Black Americans. Born in Orange, New Jersey, in 1973, she received a fine arts degree from Howard University before earning a master of arts degree from Montclair State University in 2005. Butler encountered textile arts during her graduate studies, which encouraged her “artistic epiphany,” when she realized she had found the medium through which she could best express her art. Butler’s quilt-making process often begins in historical archives. The artist is drawn to black-and-white photographs of historically obscured Black Americans dressed for staged portraits. Working from a photograph, Butler digitally sketches the light and dark areas of the photograph, then she considers the color scheme, narrative, and mood. To achieve variations in tone, Butler cuts, pieces, and layers multiple colors of fabric to create what she calls a “topographical map.” The resultant portrait is rendered larger than life-size and reasserts agency to identities that have been deliberately ignored from historical and artistic canons. This quilt references a photograph of a local man taken by Leon Borensztein, an instructor from the San Francisco Art Institute known for taking pictures of people in the community. The artist herself recommended this artwork for acquisition by the Fine Arts Museums because of its connections to the Bay Area. It enhances the Museums’ global contemporary art collection, as well as expands the collection of United States-made quilts, especially the Museums’ holdings of important examples by Black makers spanning from the post-Civil War era to the present.",
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -60,7 +66,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": null,
 			"BeginDate": 1973,
 			"EndDate": null,
 			"dates": "American, born 1973",
@@ -79,7 +85,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": null,
+			"attribution_prefix": "",
 			"BeginDate": 1973,
 			"EndDate": null,
 			"dates": "American, born 1973",
@@ -380,151 +386,70 @@
 	"term_school": null,
 	"term_materials": [
 		{
-			"id": 16581230,
-			"term": "metal",
+			"id": 16208637,
+			"term": "nylon",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
 					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
+					"cn": "AUY.AAB",
+					"term": "Associated Concepts Facet"
 				},
 				{
 					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
+					"cn": "AUY.AAB.AAA",
+					"term": "Associated Concepts"
 				},
 				{
 					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
+					"cn": "AUY.AAB.AAA.AAI",
+					"term": "multidisciplinary concepts"
 				},
 				{
 					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAB",
-					"term": "materials by composition"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
-					"term": "inorganic material"
+					"cn": "AUY.AAB.AAA.AAI.AAL",
+					"term": "groupings"
 				},
 				{
 					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
-					"term": "metal"
-				}
-			]
-		},
-		{
-			"id": 16359757,
-			"term": "cotton",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
-					"term": "fiber by product"
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA",
+					"term": "object groupings by general context"
 				},
 				{
 					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
-					"term": "textile materials"
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB",
+					"term": "components by specific context"
 				},
 				{
 					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
-					"term": "textile materials by composition or origin"
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ",
+					"term": "biological components"
 				},
 				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAD",
-					"term": "cotton"
-				}
-			]
-		},
-		{
-			"id": 16426381,
-			"term": "polyester",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
+					"depth": 11,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE",
+					"term": "plastic"
 				},
 				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
+					"depth": 12,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE",
+					"term": "plastic by property"
 				},
 				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
+					"depth": 13,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA",
+					"term": "thermoplastic"
 				},
 				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
+					"depth": 14,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA.AAM",
+					"term": "polyamide"
 				},
 				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
-					"term": "fiber"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF",
-					"term": "synthetic fiber"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF.AAH",
-					"term": "polyester"
+					"depth": 15,
+					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA.AAM.AAA",
+					"term": "nylon"
 				}
 			]
 		},
@@ -592,8 +517,8 @@
 			]
 		},
 		{
-			"id": 16571187,
-			"term": "glass",
+			"id": 16359757,
+			"term": "cotton",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
@@ -614,18 +539,38 @@
 				},
 				{
 					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAB",
-					"term": "materials by composition"
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
 				},
 				{
 					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
-					"term": "inorganic material"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
 				},
 				{
 					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW",
-					"term": "glass"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB",
+					"term": "fiber by product"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA",
+					"term": "textile materials by composition or origin"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAA.AAD",
+					"term": "cotton"
 				}
 			]
 		},
@@ -678,76 +623,150 @@
 			]
 		},
 		{
-			"id": 16208637,
-			"term": "nylon",
+			"id": 16571187,
+			"term": "glass",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
 					"depth": 1,
-					"cn": "AUY.AAB",
-					"term": "Associated Concepts Facet"
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
 				},
 				{
 					"depth": 2,
-					"cn": "AUY.AAB.AAA",
-					"term": "Associated Concepts"
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
 				},
 				{
 					"depth": 3,
-					"cn": "AUY.AAB.AAA.AAI",
-					"term": "multidisciplinary concepts"
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
 				},
 				{
 					"depth": 4,
-					"cn": "AUY.AAB.AAA.AAI.AAL",
-					"term": "groupings"
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
 				},
 				{
 					"depth": 6,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA",
-					"term": "object groupings by general context"
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.AAW",
+					"term": "glass"
+				}
+			]
+		},
+		{
+			"id": 16426381,
+			"term": "polyester",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
+					"term": "fiber"
 				},
 				{
 					"depth": 8,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB",
-					"term": "components by specific context"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF",
+					"term": "synthetic fiber"
 				},
 				{
 					"depth": 9,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ",
-					"term": "biological components"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAF.AAH",
+					"term": "polyester"
+				}
+			]
+		},
+		{
+			"id": 16581230,
+			"term": "metal",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
 				},
 				{
-					"depth": 11,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE",
-					"term": "plastic"
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
 				},
 				{
-					"depth": 12,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE",
-					"term": "plastic by property"
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
 				},
 				{
-					"depth": 13,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA",
-					"term": "thermoplastic"
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
 				},
 				{
-					"depth": 14,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA.AAM",
-					"term": "polyamide"
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
 				},
 				{
-					"depth": 15,
-					"cn": "AUY.AAB.AAA.AAI.AAL.AAA.AAA.AAA.AAB.AAQ.AAC.ABE.AAE.AAA.AAM.AAA",
-					"term": "nylon"
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
 				}
 			]
 		}
 	],
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North America"
+		],
+		"lvl1": [
+			"North America > United States"
+		],
+		"lvl2": [
+			"North America > United States > New Jersey"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Bisa Butler",
 	"primary_artist_display": "b. 1973",
 	"sort_artist": "Butler,  Bisa",
@@ -762,39 +781,34 @@
 	"sort_year": 2023,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Glass",
-			"specific": "Glass (unspecified)"
-		},
-		{
-			"section": "Painting",
-			"subcategory": "Other paint",
+			"section": "Glass",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
+			"section": "Paint & pigment",
+			"subcategory": "Paint",
+			"specific": "painted"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Other textile",
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Synthetic fiber (nylon, polyester)",
-			"specific": ""
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "nylon"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
-			"specific": "Embroidery"
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "polyester"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
-			"specific": "Weaving"
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": "complex weave"
 		}
 	],
 	"facet_place": [
@@ -806,8 +820,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass (unspecified), Other paint, Cotton, Other textile … · United States",
+		"reason": "grid-facets real slice — Glass, painted, Cotton, nylon … · United States",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 49
+		"populated_fields": 51
 	}
 }

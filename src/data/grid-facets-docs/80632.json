@@ -33,8 +33,39 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "Loan: Monsieur Dior, Musee de la Mode, Paris, 1987\nNew Look to Now, de Young Museum, 1989-91\nLoan: Picturing French Style, Mobile Museum of Art, 2002\nLoan: Picturing French Style, Norton Museum, West Palm Beach, FL, 2003\nMobile Museum of Art, Mobile, Al, Picturing French Style: Three Hundred Years of Art and Fashion, Sept 6, 2002 - Jan 12, 2003\nChristian Dior, Couturier du Rêve, Musée des Arts Décoratifs, 7/5/17 - 1/7/18",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "Loan: Monsieur Dior, Musee de la Mode, Paris, 1987"
+		},
+		{
+			"order": 1,
+			"text": "New Look to Now, de Young Museum, 1989-91"
+		},
+		{
+			"order": 2,
+			"text": "Loan: Picturing French Style, Mobile Museum of Art, 2002"
+		},
+		{
+			"order": 3,
+			"text": "Loan: Picturing French Style, Norton Museum, West Palm Beach, FL, 2003"
+		},
+		{
+			"order": 4,
+			"text": "Mobile Museum of Art, Mobile, Al, Picturing French Style: Three Hundred Years of Art and Fashion, Sept 6, 2002 - Jan 12, 2003"
+		},
+		{
+			"order": 5,
+			"text": "Christian Dior, Couturier du Rêve, Musée des Arts Décoratifs, 7/5/17 - 1/7/18"
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": "(white label with black text at proper rightbodice seam) “AUTOMNE-HIVER 1955 /Christian Dior / PARIS [stamped in black] 77486”",
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -337,6 +368,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Europe"
+		],
+		"lvl1": [
+			"Europe > France"
+		],
+		"lvl2": [
+			"Europe > France > Paris"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Christian Dior",
 	"primary_artist_display": "Christian Dior (1905–1957)",
 	"sort_artist": "Dior ,  Christian",
@@ -351,34 +395,54 @@
 	"sort_year": 1955,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Glass",
-			"specific": "Glass (unspecified)"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Base metal (bronze, iron, copper)",
-			"specific": "Copper"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
+			"section": "Glass",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Precious metal (gold, silver)",
-			"specific": "Gold"
+			"section": "Metal",
+			"subcategory": "Copper",
+			"specific": ""
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Precious metal (gold, silver)",
-			"specific": "Silver"
+			"section": "Metal",
+			"subcategory": "Copper alloy",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
+			"section": "Metal",
+			"subcategory": "Gold",
+			"specific": ""
+		},
+		{
+			"section": "Metal",
+			"subcategory": "Silver",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Embroidery",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": "silk satin"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "glass seed bead"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "sequin"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Yarn & thread",
+			"specific": "thread"
 		}
 	],
 	"facet_place": [
@@ -390,8 +454,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass (unspecified), Copper, Other material, Gold … · Paris",
+		"reason": "grid-facets real slice — Glass, Copper, Copper alloy, Gold … · Paris",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 49
 	}
 }

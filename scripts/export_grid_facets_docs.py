@@ -9,25 +9,32 @@ wireframe just reads ready-made arrays:
   facet_place[]      hierarchical: {region, country, state, notable} from
                      the REGION_REMAP workbook, keyed on each place term's
                      Getty TGN `cn` code. `state` is US-only (empty elsewhere).
-  facet_medium[]     3-level {section, subcategory, specific} object-type
-                     paths (Print → Etching & engraving (intaglio) → Etching,
-                     Painting → Oil → Oil on canvas …) from the object-type
-                     medium taxonomy. Each object's raw `medium` string is
-                     split on hard delimiters (comma, semicolon, slash, pipe,
-                     newline — NOT "and"/"with"/"on", matching
-                     probe_medium_full_list.py), each token lowercased and run
-                     through the MaterialClassifier (same AAT-backed path the
-                     build_material_taxonomy.py driver uses).
+  facet_medium[]     3-level {section, subcategory, specific} paths mapping the
+                     curators' 12-Tier-1 MATERIAL-GROUP medium taxonomy
+                     (Prints, Ink & drawing media, Textiles & fiber, Paint &
+                     pigment, Paper & parchment, Ceramic, Glass, Stone, Metal,
+                     Organic, Inorganic, Other) → Tier-1/2/3. `section`=Tier-1,
+                     `subcategory`=Tier-2, `specific`=Tier-3. Each object's raw
+                     `medium` string is split on hard delimiters (comma,
+                     semicolon, slash, pipe, newline — NOT "and"/"with"/"on",
+                     matching probe_medium_full_list.py), each token lowercased
+                     and resolved by Tier1Classifier (the same full-coverage
+                     classifier that push_tier1_full_coverage_sheet.py pushes to
+                     the "12-Tier-1 full map" tab): curated exact override →
+                     high-priority composite rule → not_medium → keyword derived
+                     from the curated leaves → supplementary root → Other.
 
 Slice = objects with geography AND at least one classified medium, capped to
 TARGET docs and balanced across place-regions so every left-column facet
 populates without committing the whole collection. Output: one JSON per object
 in src/data/grid-facets-docs/, matching the sample-doc shape.
 
-Prereqs: run scripts/pull_taxonomy_sheets.py first (writes the TSVs under
-src/data/taxonomy-tsv/) so aat_index.parquet is present. Then:
+Prereqs: `~/Downloads/MediumFilterTaxonomy-12Tier1Terms.xlsx` (the curated head,
+read locally by push_tier1_medium_map_sheet.build_rows) + the local
+material_master_v2.tsv (token → canonical_final + facet_final, from
+scripts/pull_taxonomy_sheets.py). Then:
 
-    uv run --with polars python scripts/export_grid_facets_docs.py
+    uv run --with polars --with openpyxl python scripts/export_grid_facets_docs.py
 """
 
 import csv
@@ -37,20 +44,24 @@ import shutil
 import subprocess
 from pathlib import Path
 
-import polars as pl
-
 # Support running as a plain script (no package parent on sys.path). Only retry
-# for a missing *material_taxonomy* import; a ModuleNotFoundError from inside the
-# package must surface, not be masked by the shim.
+# for a missing local-module import; a ModuleNotFoundError from inside those
+# modules must surface, not be masked by the shim.
 try:
-    from material_taxonomy import MaterialClassifier, OTHER_SECTION
+    from material_taxonomy.tier1_classifier import Tier1Classifier
+    from push_tier1_medium_map_sheet import build_rows as build_curated_rows
 except ModuleNotFoundError as exc:  # pragma: no cover - script-invocation shim
-    if exc.name != "material_taxonomy":
+    if exc.name not in ("material_taxonomy", "push_tier1_medium_map_sheet"):
         raise
     import sys
 
     sys.path.insert(0, str(Path(__file__).resolve().parent))
-    from material_taxonomy import MaterialClassifier, OTHER_SECTION
+    from material_taxonomy.tier1_classifier import Tier1Classifier
+    from push_tier1_medium_map_sheet import build_rows as build_curated_rows
+
+# Tier-1 "Other" is the catch-all group (unresolved / not-a-medium tokens land
+# here); dropped from a doc's facet_medium when a real material group is present.
+OTHER_TIER1 = "Other"
 
 ROOT = Path(__file__).resolve().parent.parent
 PARQUET = Path(
@@ -58,7 +69,7 @@ PARQUET = Path(
     "output/collection_documents.parquet"
 )
 TSV = ROOT / "src" / "data" / "taxonomy-tsv"
-AAT_INDEX = TSV / "aat_index.parquet"
+MASTER_V2 = TSV / "material_master_v2.tsv"
 OUT_DIR = ROOT / "src" / "data" / "grid-facets-docs"
 
 CONSTITUENT_KEY_MAP = {
@@ -94,28 +105,31 @@ def _rows(path: Path) -> list[dict]:
         return list(csv.DictReader(f, delimiter="\t"))
 
 
-def load_aat_lookup() -> dict[str, dict]:
-    """Lower-cased AAT term -> {facet, chain, aat_label}, the classifier inputs.
+def load_master_lookup() -> dict[str, dict]:
+    """Lower-cased medium token -> {canonical, facet_final}, the classifier's
+    per-token context. From the local material_master_v2.tsv (the full token
+    universe with curator canonicalisation + the not_medium flag)."""
+    out: dict[str, dict] = {}
+    for r in _rows(MASTER_V2):
+        tok = (r.get("token") or "").strip().lower()
+        if not tok:
+            continue
+        out.setdefault(
+            tok,
+            {
+                "canonical": (r.get("canonical_final") or "").strip(),
+                "facet_final": (r.get("facet_final") or "").strip(),
+            },
+        )
+    return out
 
-    Mirrors build_material_taxonomy.py's `load_aat`: preferred, faceted terms
-    only, one row per term (lowest subject_id wins for determinism). Keyed on
-    the lower-cased term so a lower-cased medium token joins straight in.
-    """
-    aat = (
-        pl.read_parquet(AAT_INDEX)
-        .filter((pl.col("is_preferred")) & (pl.col("facet") != ""))
-        .sort(["term", "subject_id"])
-        .unique(subset=["term"], keep="first")
-        .select("term", "facet", "parent_string", "pref_label")
-    )
-    return {
-        (r["term"] or "").lower(): {
-            "facet": r["facet"] or "",
-            "chain": r["parent_string"] or "",
-            "aat_label": r["pref_label"] or "",
-        }
-        for r in aat.iter_rows(named=True)
-    }
+
+def load_curated_rows() -> list[dict]:
+    """The curated 12-Tier-1 head as dicts the Tier1Classifier consumes."""
+    return [
+        {"tier1": r[0], "tier2": r[1], "tier3": r[2], "leaf": r[3]}
+        for r in build_curated_rows()[1:]  # skip header
+    ]
 
 
 def build_place_crosswalk() -> dict[str, dict]:
@@ -167,33 +181,38 @@ def medium_tokens(doc: dict) -> list[str]:
 
 def derive_facets(
     doc: dict,
-    aat_lookup: dict,
-    classifier: MaterialClassifier,
+    master_lookup: dict,
+    classifier: Tier1Classifier,
     place_xwalk: dict,
 ) -> tuple[dict, bool]:
-    # Medium is one 3-level object-type facet: section -> subcategory -> specific.
+    # Medium is one 3-level MATERIAL-GROUP facet: Tier-1 -> Tier-2 -> Tier-3,
+    # mapped onto {section, subcategory, specific} (shape unchanged from the old
+    # object-type facet, so the wireframe tree reads it as-is).
     media: dict[tuple[str, str, str], None] = {}
     for tok in medium_tokens(doc):
-        aat = aat_lookup.get(tok, {})
+        m = master_lookup.get(tok, {})
         path = classifier.classify(
             tok,
-            aat_facet=aat.get("facet", ""),
-            chain=aat.get("chain", ""),
-            aat_label=aat.get("aat_label", ""),
+            canonical=m.get("canonical", ""),
+            facet_final=m.get("facet_final", ""),
         )
         # Collapse a level that merely repeats its ancestor so the tree never
-        # shows a child identical to its parent (e.g. Bronze / Bronze / Bronze).
-        subcategory = "" if path.subcategory == path.section else path.subcategory
+        # shows a child identical to its parent — case-insensitively, since the
+        # curated exact-match path can echo the lowercased token as Tier-3
+        # ("silk" under "Silk"). Metal / Metal / Metal, Silk / silk both collapse.
+        subcategory = "" if path.tier2.lower() == path.tier1.lower() else path.tier2
         specific = (
-            "" if path.specific in (path.subcategory, path.section) else path.specific
+            ""
+            if path.tier3.lower() in (path.tier2.lower(), path.tier1.lower())
+            else path.tier3
         )
-        media[(path.section, subcategory, specific)] = None
+        media[(path.tier1, subcategory, specific)] = None
 
     # Drop the "Other / unclassified" residue when the object already has a real
-    # medium section: an object that is Textile + Other doesn't need the Other
-    # tag. Other survives only for objects nothing else matched.
-    if any(sec != OTHER_SECTION for (sec, _, _) in media):
-        media = {k: None for k in media if k[0] != OTHER_SECTION}
+    # medium group: an object that is Textile + Other doesn't need the Other tag.
+    # Other survives only for objects nothing else matched.
+    if any(sec != OTHER_TIER1 for (sec, _, _) in media):
+        media = {k: None for k in media if k[0] != OTHER_TIER1}
 
     # place: walk each term's TGN ancestry, map the deepest mapped `cn`.
     places: list[dict] = []
@@ -250,11 +269,11 @@ def derive_facets(
 
 
 def main() -> None:
-    aat_lookup = load_aat_lookup()
-    classifier = MaterialClassifier()
+    master_lookup = load_master_lookup()
+    classifier = Tier1Classifier(load_curated_rows())
     place_xwalk = build_place_crosswalk()
     print(
-        f"crosswalks: {len(aat_lookup)} AAT medium terms, "
+        f"crosswalks: {len(master_lookup)} master_v2 medium tokens, "
         f"{len(place_xwalk)} place TGN nodes",
         flush=True,
     )
@@ -287,7 +306,7 @@ def main() -> None:
         # straight through from the parquet (SELECT *); normalise empty -> null.
         culture = doc.get("culture")
         doc["culture"] = culture if (culture or "").strip() else None
-        doc, keep = derive_facets(doc, aat_lookup, classifier, place_xwalk)
+        doc, keep = derive_facets(doc, master_lookup, classifier, place_xwalk)
         if keep:
             candidates.append(doc)
         if (i + 1) % 20000 == 0:

@@ -26,8 +26,14 @@
 	"web_text": "Pūtōrino are Māori musical instruments (taonga pūoro) with important cultural associations linking them to the natural and spiritual world in Aotearoa, the Māori name for New Zealand. The flute tapers at each end and mirrors the shape of the cocoon of the case moth (Oeceticus omnivorous) that is endemic to Aotearoa. The caterpillars of the moth spin strong silken thread into cocoons that they then move with them while feeding, concealing the cocoons safely by securely hanging them from branches. Females never leave the cocoon; only the males grow wings and fly away, and the children hatch from eggs and emerge as caterpillars through the narrow opening at the end. In Māori mythology, the goddess of flute music, Hine Raukatauri, changed herself into a case moth and transformed her cocoon into a flute so she could live in it and sing from the opening in the top. Pūtōrino can be played from both ends, and the center opening, or mouth (māngai), that is carved on the flute with a surrounding face including pāua or abalone shell (Haliotis) inlay eyes. The sounds, or voices, can be male or female if played as a trumpet or flute, respectively. Māori attribute a third sound, or voice, to Raukatauri’s daughter Wheke—or to her children—if the flute is played from the māngai. Human breath creates songs and voices of the ancestors through the pūtōrino—sounds of loss and loneliness but also joy and fulfillment—music of a life’s journey. Gifts of Art to the Fine Arts Museums of San Francisco (San Francisco: Fine Arts Museums of San Francisco, 2025), p. 98, entry by Christina Hellmich.",
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -283,6 +289,17 @@
 	],
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Oceania"
+		],
+		"lvl1": [
+			"Oceania > New Zealand"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Māori",
 	"primary_artist_display": "Māori",
 	"sort_artist": "Māori",
@@ -299,14 +316,14 @@
 	"sort_year": 1780,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Animal material (ivory, bone, leather)",
-			"specific": "Shell"
+			"section": "Organic",
+			"subcategory": "Shell & pearl",
+			"specific": "shell"
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Wood",
-			"specific": ""
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
 		}
 	],
 	"facet_place": [
@@ -324,8 +341,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Shell, Wood · Aotearoa, New Zealand",
+		"reason": "grid-facets real slice — shell, wood · Aotearoa, New Zealand",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 49
+		"populated_fields": 51
 	}
 }

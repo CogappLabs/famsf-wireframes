@@ -26,8 +26,14 @@
 	"web_text": "Jessica Stockholder is known for colorful “situations” made up of everyday elements such as thrift-store furniture, store-bought goods, textiles, yarn, and building supplies. Frequently referencing craft traditions, her ensembles occupy a space between painting, sculpture and installation. The weaving of Square Dance appropriates the God’s eye, a ritual object common to the native people of the Southwestern United States and Northwestern Mexico that provides spiritual protection and guidance. The weaving patterns have roots in the nieríka, or votive yarn paintings, of the Wixáritari (Huichol) that gained international popularity beginning in the 1950s.",
 	"didactic_label": "Jessica Stockholder is known for colorful “situations” made up of everyday elements such as thrift-store furniture, store-bought goods, textiles, yarn, and building supplies. Frequently referencing crafttraditions, her ensembles occupy a space between painting, sculpture and installation. The weaving of Square Dance appropriates the God’s eye, a ritual object common to the native people of the Southwestern United States and Northwestern Mexico that provides spiritual protection and guidance. The weaving patterns have roots in the nieríka, or votive yarn paintings, of the Wixáritari (Huichol) that gained international popularity beginning in the 1950s.",
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": "Although she cites her primary artistic influences as Abstract Expressionism and Minimalism, Jessica Stockholder is often considered to be a conceptual heir to assemblage artists of the pre- and post-World War II avant-garde, such as Kurt Schwitters and Robert Rauschenberg. Despite the multifariousness of their composition, Stockholder's three-dimensional works are essentially structured by the fundamental elements of color and line. This is most clearly demonstrated in her installations, but it is also evident in her individual sculptures. Tethered to the wall by a metal pipe, Square Dance gestures to the conventional site of painting while simultaneously moving into the three-dimensional space of sculpture--and further, into the domestic realm of furnishings. In the work, lengths of brightly colored patterned rope are loosely woven around a cruciform armature. This unusual construction resembles a God's eye, a ritual object common to the Native people of the southwestern United States and northwestern Mexico. The weaving patterns have roots in the yarn paintings of the Wixaritari people, in Mexico, frequently used in spiritual ceremonies. Wixarika artists commercialized the form in the late 1960s, opening the path for its popular diffusion as vernacular craft.Stockholder's art allude to craft traditions through both material and form. Her objects, stripped of their functionality, are reduced to their formal components yet are still laden with psychological associations. The narratives suggested by the works' evocative titles remain open-ended, dependent on viewer's subjective interpretations, while the quotidian nature of the media lends a grounding sense of familiarity.",
 	"catalogue_raisonne": null,
@@ -221,8 +227,172 @@
 	"term_school": null,
 	"term_materials": [
 		{
-			"id": 16465565,
-			"term": "yarn",
+			"id": 16207483,
+			"term": "acrylic paint",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
+					"term": "coating"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
+					"term": "coating by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
+					"term": "paint"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
+					"term": "paint by composition or origin"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
+					"term": "synthetic resin paint"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAA",
+					"term": "acrylic paint"
+				}
+			]
+		},
+		{
+			"id": 16237171,
+			"term": "copper alloy",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAB",
+					"term": "materials by composition"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
+					"term": "inorganic material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
+					"term": "metal"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
+					"term": "metal by composition or origin"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB",
+					"term": "nonferrous metal"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK",
+					"term": "copper and copper alloy"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB",
+					"term": "copper alloy"
+				}
+			]
+		},
+		{
+			"id": 16289611,
+			"term": "duct tape",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAE",
+					"term": "materials by function"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAC",
+					"term": "adhesive"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAC.AAB",
+					"term": "adhesive by form"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAC.AAB.AAE",
+					"term": "pressure-sensitive adhesive"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAE.AAC.AAB.AAE.AAA.AAB",
+					"term": "duct tape"
+				}
+			]
+		},
+		{
+			"id": 16208280,
+			"term": "rope",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
@@ -263,18 +433,13 @@
 				},
 				{
 					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
-					"term": "textile materials"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAC",
+					"term": "cord"
 				},
 				{
 					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAB",
-					"term": "textile materials by form"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAB.AAG",
-					"term": "yarn"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAC.AAA",
+					"term": "rope"
 				}
 			]
 		},
@@ -438,64 +603,6 @@
 			]
 		},
 		{
-			"id": 16207483,
-			"term": "acrylic paint",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX",
-					"term": "coating"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB",
-					"term": "coating by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB",
-					"term": "paint"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA",
-					"term": "paint by composition or origin"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI",
-					"term": "synthetic resin paint"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAX.AAB.AAB.AAA.AAI.AAA",
-					"term": "acrylic paint"
-				}
-			]
-		},
-		{
 			"id": 16348110,
 			"term": "steel",
 			"type": "Descriptor",
@@ -554,114 +661,8 @@
 			]
 		},
 		{
-			"id": 16237171,
-			"term": "copper alloy",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAB",
-					"term": "materials by composition"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA",
-					"term": "inorganic material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA",
-					"term": "metal"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA",
-					"term": "metal by composition or origin"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB",
-					"term": "nonferrous metal"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK",
-					"term": "copper and copper alloy"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAB.AAA.ABA.AAA.AAB.AAK.AAB",
-					"term": "copper alloy"
-				}
-			]
-		},
-		{
-			"id": 16289611,
-			"term": "duct tape",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAE",
-					"term": "materials by function"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAC",
-					"term": "adhesive"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAC.AAB",
-					"term": "adhesive by form"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAC.AAB.AAE",
-					"term": "pressure-sensitive adhesive"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAE.AAC.AAB.AAE.AAA.AAB",
-					"term": "duct tape"
-				}
-			]
-		},
-		{
-			"id": 16208280,
-			"term": "rope",
+			"id": 16465565,
+			"term": "yarn",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
@@ -702,19 +703,37 @@
 				},
 				{
 					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAC",
-					"term": "cord"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI",
+					"term": "textile materials"
 				},
 				{
 					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAC.AAA",
-					"term": "rope"
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAB",
+					"term": "textile materials by form"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAB.AAI.AAB.AAG",
+					"term": "yarn"
 				}
 			]
 		}
 	],
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North America"
+		],
+		"lvl1": [
+			"North America > United States"
+		],
+		"lvl2": [
+			"North America > United States > Chicago"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Jessica Stockholder",
 	"primary_artist_display": "b. 1959",
 	"sort_artist": "Stockholder,  Jessica",
@@ -729,39 +748,39 @@
 	"sort_year": 2014,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Base metal (bronze, iron, copper)",
-			"specific": "Copper"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Base metal (bronze, iron, copper)",
-			"specific": "Steel"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Plastic & synthetic",
+			"section": "Inorganic",
+			"subcategory": "Plastic",
 			"specific": ""
 		},
 		{
-			"section": "Painting",
+			"section": "Metal",
+			"subcategory": "Copper",
+			"specific": ""
+		},
+		{
+			"section": "Metal",
+			"subcategory": "Steel",
+			"specific": ""
+		},
+		{
+			"section": "Metal",
+			"subcategory": "Wire",
+			"specific": ""
+		},
+		{
+			"section": "Paint & pigment",
 			"subcategory": "Acrylic",
-			"specific": "Acrylic paint"
+			"specific": "acrylic paint"
 		},
 		{
-			"section": "Photograph",
-			"subcategory": "Photograph (unspecified)",
-			"specific": ""
+			"section": "Prints",
+			"subcategory": "Photographic process",
+			"specific": "Photograph"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Other textile",
-			"specific": "Rope"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Thread & trimmings",
-			"specific": "Yarn"
+			"section": "Textiles & fiber",
+			"subcategory": "Yarn & thread",
+			"specific": "yarn"
 		}
 	],
 	"facet_place": [
@@ -773,8 +792,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Copper, Steel, Plastic & synthetic, Acrylic paint … · Chicago",
+		"reason": "grid-facets real slice — Plastic, Copper, Steel, Wire … · Chicago",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 48
+		"populated_fields": 50
 	}
 }

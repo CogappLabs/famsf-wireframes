@@ -26,8 +26,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -201,6 +207,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia"
+		],
+		"lvl1": [
+			"Asia > New Guinea"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Julie Kumin Mota",
 	"primary_artist_display": "b. 1978",
 	"sort_artist": "Julie Kumin Mota",
@@ -215,24 +232,24 @@
 	"sort_year": 2001,
 	"facet_medium": [
 		{
-			"section": "Drawing",
-			"subcategory": "Other drawing media",
+			"section": "Ink & drawing media",
+			"subcategory": "Chalk & crayon",
+			"specific": "crayon"
+		},
+		{
+			"section": "Ink & drawing media",
+			"subcategory": "Drawing",
 			"specific": ""
 		},
 		{
-			"section": "Drawing",
-			"subcategory": "Pencil, chalk & crayon",
-			"specific": "Crayon"
+			"section": "Ink & drawing media",
+			"subcategory": "Pencil & graphite",
+			"specific": "graphite"
 		},
 		{
-			"section": "Drawing",
-			"subcategory": "Pencil, chalk & crayon",
-			"specific": "Graphite / pencil"
-		},
-		{
-			"section": "Painting",
-			"subcategory": "Other paint",
-			"specific": "Paint"
+			"section": "Paint & pigment",
+			"subcategory": "Paint",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -244,8 +261,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Other drawing media, Crayon, Graphite / pencil, Paint · New Guinea",
+		"reason": "grid-facets real slice — crayon, Drawing, graphite, Paint · New Guinea",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 47
 	}
 }

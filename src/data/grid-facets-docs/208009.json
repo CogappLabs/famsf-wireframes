@@ -26,8 +26,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -188,29 +194,6 @@
 			]
 		},
 		{
-			"id": 20354391,
-			"term": "Guatemala",
-			"type": "Descriptor",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABZ",
-					"term": "North and Central America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABZ.AAADU",
-					"term": "Guatemala"
-				}
-			]
-		},
-		{
 			"id": 20390706,
 			"term": "Honduras",
 			"type": "Descriptor",
@@ -232,6 +215,29 @@
 					"term": "Honduras"
 				}
 			]
+		},
+		{
+			"id": 20354391,
+			"term": "Guatemala",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAADU",
+					"term": "Guatemala"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
@@ -247,6 +253,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North and Central America"
+		],
+		"lvl1": [
+			"North and Central America > El Salvador",
+			"North and Central America > Guatemala",
+			"North and Central America > Honduras"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Maya",
 	"primary_artist_display": "Maya",
 	"sort_artist": "Maya",
@@ -263,9 +282,9 @@
 	"sort_year": 600,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Earthenware & stoneware",
-			"specific": "Earthenware"
+			"section": "Ceramic",
+			"subcategory": "Earthenware",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -277,20 +296,20 @@
 		},
 		{
 			"region": "Central America",
-			"country": "Guatemala",
+			"country": "Honduras",
 			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Central America",
-			"country": "Honduras",
+			"country": "Guatemala",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Earthenware · El Salvador, Guatemala, Honduras",
+		"reason": "grid-facets real slice — Earthenware · El Salvador, Honduras, Guatemala",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 48
+		"populated_fields": 50
 	}
 }

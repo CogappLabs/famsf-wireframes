@@ -26,8 +26,14 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -172,6 +178,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Africa"
+		],
+		"lvl1": [
+			"Africa > Uganda"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -188,29 +205,39 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Other ceramic",
-			"specific": "Clay"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Base metal (bronze, iron, copper)",
-			"specific": "Iron"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Beads, feathers & plant material",
+			"section": "Ceramic",
+			"subcategory": "Clay",
 			"specific": ""
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
+			"section": "Metal",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
+			"section": "Organic",
+			"subcategory": "Hair, fur & feather",
+			"specific": "feather"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Hair, fur & feather",
+			"specific": "human hair"
+		},
+		{
+			"section": "Paint & pigment",
+			"subcategory": "Pigment",
 			"specific": ""
+		},
+		{
+			"section": "Paint & pigment",
+			"subcategory": "Pigment",
+			"specific": "yellow"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "fabric"
 		}
 	],
 	"facet_place": [
@@ -222,8 +249,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Clay, Iron, Beads, feathers & plant material, Other paint … · Uganda",
+		"reason": "grid-facets real slice — Clay, Metal, feather, human hair … · Uganda",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 38
+		"populated_fields": 40
 	}
 }

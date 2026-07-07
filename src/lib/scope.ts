@@ -109,11 +109,6 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "'possibly by', 'after', 'circle of' shown in result thumbnails: not just object page. Stakeholder Must Have (European Paintings + American Art). Data exists in TMS; display task only.",
 		issueUrl: issue("CW-43"),
 	},
-	"search-results/Gallery location filter": {
-		mvp: true,
-		note: "Filter by which physical gallery objects are currently on view in. #1 visitor motivator per Hotjar (44%: 'check what is on view'). Education interview high-priority ask.",
-		issueUrl: issue("CW-41"),
-	},
 	"search-results/Dynamic filtering": {
 		mvp: true,
 		note: "Only show filter values with matching results",
@@ -180,7 +175,7 @@ export const scope: Record<string, ScopeEntry> = {
 	// (artist, place, material, …) lives in the facet code, not the overlay.
 	"search-results/Facets": {
 		mvp: true,
-		note: "Left facet column: artist, place, material, technique, classification, collection area, gallery, date + on-view/has-image/open-access toggles.",
+		note: "Left facet column: artist, date, place, culture group, medium, object type, department, collection + on-view/has-image/open-access toggles.",
 		issueUrl: issue("CW-41"),
 	},
 	"search-results/Count + sort": {

@@ -27,8 +27,19 @@
 	"web_text": "For more then 4,000 years India has been producing fine cotton textiles and supplying a thriving export market. India's preeminence as a textile producer was a direct result of its early technical advances in mordant- and resist- dyeing and painting.",
 	"didactic_label": "For more then 4,000 years India has been producing fine cotton textiles and supplying a thriving export market. India's preeminence as a textile producer was a direct result of its early technical advances in mordant- and resist- dyeing and painting.",
 	"exhibition_history_text": "To Dye For: A World Saturated in Color, DY, 2010",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "To Dye For: A World Saturated in Color, DY, 2010"
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -234,6 +245,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia"
+		],
+		"lvl1": [
+			"Asia > Bhārat"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -248,19 +270,19 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Cotton"
+			"section": "Textiles & fiber",
+			"subcategory": "Dyeing",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
-			"specific": "Weaving"
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": "Plain weave"
 		}
 	],
 	"facet_place": [
@@ -272,8 +294,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Other paint, Cotton, Weaving · India",
+		"reason": "grid-facets real slice — Cotton, Dyeing, Plain weave · India",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 40
+		"populated_fields": 43
 	}
 }

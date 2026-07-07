@@ -26,8 +26,23 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "American Federation of the Arts: Indian Miniatures from the Ehrenfeld Collection, 1985-1987, catalogue by Daniel J. Ehnbom, cat. no. 4, p. 28, repr. p. 29; University of Texas, Austin; New Orleans Museum of Art; Norton Gallery, West Palm Beach; Worcester Art Museum; Northwestern University; Blanden Memorial Art Gallery, Ft. Dodge, Iowa; Oklahoma Museum of Art, Oklahoma City; Ackland Museum, Chapel Hill, N.C.\nCPLH, TREASURES, 11 Nov 1995 - 3 March 1996, cat. # 221.",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "American Federation of the Arts: Indian Miniatures from the Ehrenfeld Collection, 1985-1987, catalogue by Daniel J. Ehnbom, cat. no. 4, p. 28, repr. p. 29; University of Texas, Austin; New Orleans Museum of Art; Norton Gallery, West Palm Beach; Worcester Art Museum; Northwestern University; Blanden Memorial Art Gallery, Ft. Dodge, Iowa; Oklahoma Museum of Art, Oklahoma City; Ackland Museum, Chapel Hill, N.C."
+		},
+		{
+			"order": 1,
+			"text": "CPLH, TREASURES, 11 Nov 1995 - 3 March 1996, cat. # 221."
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -59,7 +74,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": null,
 			"BeginDate": null,
 			"EndDate": null,
 			"dates": "Indian, active 16th century",
@@ -78,7 +93,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": null,
+			"attribution_prefix": "",
 			"BeginDate": null,
 			"EndDate": null,
 			"dates": "Indian, active 16th century",
@@ -375,6 +390,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia"
+		],
+		"lvl1": [
+			"Asia > South Asia"
+		],
+		"lvl2": [
+			"Asia > South Asia > Mughal Empire"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unidentified",
 	"primary_artist_display": "Unidentified",
 	"sort_artist": "Unidentified",
@@ -389,19 +417,19 @@
 	"sort_year": 1562,
 	"facet_medium": [
 		{
-			"section": "Drawing",
+			"section": "Ink & drawing media",
 			"subcategory": "Ink",
-			"specific": "Black ink"
+			"specific": "black ink"
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Gouache / opaque watercolor",
-			"specific": ""
+			"section": "Paint & pigment",
+			"subcategory": "Watercolour & wash",
+			"specific": "opaque watercolor"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
-			"specific": ""
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "cloth"
 		}
 	],
 	"facet_place": [
@@ -413,8 +441,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Black ink, Gouache / opaque watercolor, Woven & worked cloth · Mughal Empire",
+		"reason": "grid-facets real slice — black ink, opaque watercolor, cloth · Mughal Empire",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 49
 	}
 }

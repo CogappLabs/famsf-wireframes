@@ -27,8 +27,19 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "CPLH, 19th century French Landscapes: Prints and drawings from the permanent collection, July 7 - Sept 3, 1984.",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "CPLH, 19th century French Landscapes: Prints and drawings from the permanent collection, July 7 - Sept 3, 1984."
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -220,6 +231,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Europe"
+		],
+		"lvl1": [
+			"Europe > France"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Félix Hilaire Buhot",
 	"primary_artist_display": "Félix Hilaire Buhot (1847–1898)",
 	"sort_artist": "Félix Hilaire Buhot",
@@ -234,34 +256,39 @@
 	"sort_year": 1886,
 	"facet_medium": [
 		{
-			"section": "Drawing",
+			"section": "Ink & drawing media",
 			"subcategory": "Ink",
-			"specific": "Brown ink"
-		},
-		{
-			"section": "Drawing",
-			"subcategory": "Ink",
-			"specific": "Ink (unspecified)"
-		},
-		{
-			"section": "Photograph",
-			"subcategory": "Photogravure / photomechanical",
 			"specific": ""
 		},
 		{
-			"section": "Print",
-			"subcategory": "Etching & engraving (intaglio)",
-			"specific": "Aquatint"
+			"section": "Prints",
+			"subcategory": "Aquatint",
+			"specific": ""
 		},
 		{
-			"section": "Print",
-			"subcategory": "Etching & engraving (intaglio)",
-			"specific": "Drypoint"
+			"section": "Prints",
+			"subcategory": "Drypoint",
+			"specific": ""
 		},
 		{
-			"section": "Print",
-			"subcategory": "Etching & engraving (intaglio)",
-			"specific": "Etching"
+			"section": "Prints",
+			"subcategory": "Etching",
+			"specific": ""
+		},
+		{
+			"section": "Prints",
+			"subcategory": "Etching",
+			"specific": "Roulette"
+		},
+		{
+			"section": "Prints",
+			"subcategory": "Mezzotint",
+			"specific": ""
+		},
+		{
+			"section": "Prints",
+			"subcategory": "Photomechanical",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -273,8 +300,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Brown ink, Ink (unspecified), Photogravure / photomechanical, Aquatint … · France",
+		"reason": "grid-facets real slice — Ink, Aquatint, Drypoint, Etching … · France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 48
 	}
 }

@@ -236,8 +236,8 @@ function SearchResultsContent({
 	}, [docs]);
 
 	// Autocomplete data for the grid-facets variations. The omnibox only
-	// suggests the facets that actually appear on that page (Artist, Place,
-	// Medium, Classification, Department, Gallery), counted over the same
+	// suggests the facets that actually appear on that page (Artist, Culture,
+	// Place, Medium, Object type, Department), counted over the same
 	// ~600-doc slice the page filters — so a suggestion never offers a facet the
 	// page can't honour. Hits come from the slice too.
 	const gridFacetsHits = useMemo(
@@ -298,11 +298,6 @@ function SearchResultsContent({
 				facetType: "department",
 				facetLabel: "Department",
 				get: (d) => (d.department ? [d.department] : []),
-			},
-			{
-				facetType: "gallery",
-				facetLabel: "Gallery",
-				get: (d) => (d.location_building ? [d.location_building] : []),
 			},
 		];
 		const out: {
@@ -601,16 +596,6 @@ function SearchResultsContent({
 													{sel ? `: ${sel}` : ""} &#x25BE;
 												</button>
 											);
-											if (facet.id === "gallery") {
-												return (
-													<ScopeMark
-														key={facet.id}
-														label="Gallery location filter"
-													>
-														{button}
-													</ScopeMark>
-												);
-											}
 											return button;
 										})}
 

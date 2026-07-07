@@ -29,8 +29,19 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "CPLH, Artists' Books in the Modern Era 1870 - 2000: YThe Reva and David Logan Collection of Illustrated Books, 6 Oct 2001 - 6 Jan 2002.",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "CPLH, Artists' Books in the Modern Era 1870 - 2000: YThe Reva and David Logan Collection of Illustrated Books, 6 Oct 2001 - 6 Jan 2002."
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -62,7 +73,7 @@
 			"place_born": "New York",
 			"place_died": "San Antonio",
 			"place_active": null,
-			"attribution_prefix": null,
+			"attribution_prefix": "",
 			"BeginDate": 1923,
 			"EndDate": 2004,
 			"dates": "1923–2004",
@@ -81,7 +92,7 @@
 			"place_born": "New York",
 			"place_died": "San Antonio",
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": null,
 			"BeginDate": 1923,
 			"EndDate": 2004,
 			"dates": "1923–2004",
@@ -119,7 +130,7 @@
 			"place_born": "New York City",
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": null,
 			"BeginDate": 1920,
 			"EndDate": 1989,
 			"dates": "1920–1989",
@@ -138,7 +149,7 @@
 			"place_born": "New York City",
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": null,
+			"attribution_prefix": "",
 			"BeginDate": 1920,
 			"EndDate": 1989,
 			"dates": "1920–1989",
@@ -157,7 +168,7 @@
 			"place_born": "Holland",
 			"place_died": "New York",
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": null,
 			"BeginDate": 1904,
 			"EndDate": 1997,
 			"dates": "American, born Holland, 1904–1997",
@@ -176,7 +187,7 @@
 			"place_born": "Holland",
 			"place_died": "New York",
 			"place_active": null,
-			"attribution_prefix": null,
+			"attribution_prefix": "",
 			"BeginDate": 1904,
 			"EndDate": 1997,
 			"dates": "American, born Holland, 1904–1997",
@@ -233,7 +244,7 @@
 			"place_born": "Brooklyn",
 			"place_died": "Manhattan",
 			"place_active": null,
-			"attribution_prefix": null,
+			"attribution_prefix": "",
 			"BeginDate": 1924,
 			"EndDate": 2014,
 			"dates": "1924–2014",
@@ -252,7 +263,7 @@
 			"place_born": "Brooklyn",
 			"place_died": "Manhattan",
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": null,
 			"BeginDate": 1924,
 			"EndDate": 2014,
 			"dates": "1924–2014",
@@ -271,7 +282,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": null,
+			"attribution_prefix": "",
 			"BeginDate": 1927,
 			"EndDate": null,
 			"dates": "b. 1927",
@@ -290,7 +301,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": null,
 			"BeginDate": 1927,
 			"EndDate": null,
 			"dates": "b. 1927",
@@ -561,6 +572,21 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North America"
+		],
+		"lvl1": [
+			"North America > United States"
+		],
+		"lvl2": [
+			"North America > United States > California"
+		],
+		"lvl3": [
+			"North America > United States > California > San Francisco"
+		],
+		"historic": false
+	},
 	"primary_artist": "Richard Avedon",
 	"primary_artist_display": "Richard Avedon (1923–2004)",
 	"sort_artist": "Richard Avedon",
@@ -575,34 +601,39 @@
 	"sort_year": 1984,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Other material",
-			"specific": "Metal"
-		},
-		{
-			"section": "Photograph",
-			"subcategory": "Photogravure / photomechanical",
+			"section": "Metal",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Print",
-			"subcategory": "Etching & engraving (intaglio)",
-			"specific": "Mixed / other intaglio"
+			"section": "Paper & parchment",
+			"subcategory": "Paper",
+			"specific": "handmade paper"
 		},
 		{
-			"section": "Print",
-			"subcategory": "Lithographs (planographic)",
-			"specific": "Mixed / other planographic"
+			"section": "Prints",
+			"subcategory": "Aquatint",
+			"specific": ""
 		},
 		{
-			"section": "Print",
-			"subcategory": "Relief prints (woodcut, linocut)",
-			"specific": "Letterpress & line block"
+			"section": "Prints",
+			"subcategory": "Letterpress",
+			"specific": ""
 		},
 		{
-			"section": "Print",
-			"subcategory": "Relief prints (woodcut, linocut)",
-			"specific": "Woodcut"
+			"section": "Prints",
+			"subcategory": "Offset lithograph",
+			"specific": ""
+		},
+		{
+			"section": "Prints",
+			"subcategory": "Photogravure",
+			"specific": ""
+		},
+		{
+			"section": "Prints",
+			"subcategory": "Woodcut",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -614,8 +645,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Metal, Photogravure / photomechanical, Mixed / other intaglio, Mixed / other planographic … · San Francisco",
+		"reason": "grid-facets real slice — Metal, handmade paper, Aquatint, Letterpress … · San Francisco",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 48
 	}
 }

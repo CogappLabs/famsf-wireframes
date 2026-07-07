@@ -1,0 +1,254 @@
+{
+	"id": 83827,
+	"accession_number": "1992.107.22",
+	"sort_number": "1992.107.22",
+	"title": "poncho (poncho)",
+	"object_name": "man's costume",
+	"date_display": "early 20th century",
+	"date_start": null,
+	"date_end": null,
+	"medium": "cotton; warp-faced plain weave, warp-resist dyeing (ikat)",
+	"medium_parts": [
+		"cotton",
+		"warp-faced plain weave, warp-resist dyeing (ikat)"
+	],
+	"credit_line": "The Jeffrey Appleby Andean Textile Collection",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"subclassification": null,
+	"culture": "Quechua",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-25 09:38:30.720000",
+	"is_virtual": false,
+	"identifying_description": "Very large poncho, two pieces sewn together at center seam, neck opening, blue/white ikat patterning, white and blue edge binding with fringe.\nCatalogue #146, pp.106-107, Tradtional Textiles of the Andes",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "To Honor the Ancestors, 1997",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "To Honor the Ancestors, 1997"
+		}
+	],
+	"bibliography_text": null,
+	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
+	"label_text": null,
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "1992-06-30",
+	"location_string": "de Young, 059, Cabinet 29, A",
+	"location_building": "de Young",
+	"location_room": "Cabinet 29",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "poncho (poncho)",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 41147,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Quechua",
+			"name_sort": "Quechua",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Quechua"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 94929,
+			"image_id": 125303,
+			"rank": 1,
+			"file_date": "2023-02-27 07:08:51",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1996,
+			"width": 1841,
+			"file_name": "6250304134760068.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": [
+		{
+			"value": "56 5/16 x 56 11/16 in. (143 x 144 cm)",
+			"element": "x_Do not use_Overall (4D)",
+			"unit": "Inches",
+			"rank": 1,
+			"displayed": true,
+			"measurements": {
+				"height_cm": 143.0,
+				"width_cm": 144.0,
+				"depth_cm": null,
+				"height_in": 56.3125,
+				"width_in": 56.6875,
+				"depth_in": null,
+				"weight_kg": null,
+				"weight_lb": null,
+				"duration_seconds": null
+			}
+		}
+	],
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 16742512,
+			"term": "Riobamba",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAACT",
+					"term": "South America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAACT.AAABV",
+					"term": "Ecuador"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAACT.AAABV.AAABM",
+					"term": "Sierra"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAACT.AAABV.AAABM.AAAAE.AAAAK",
+					"term": "Riobamba"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"South America"
+		],
+		"lvl1": [
+			"South America > Ecuador"
+		],
+		"lvl2": [
+			"South America > Ecuador > Riobamba"
+		],
+		"lvl3": null,
+		"historic": false
+	},
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": null,
+	"sort_artist": null,
+	"culture_group": [
+		"Quechua"
+	],
+	"display_year": null,
+	"doc_id": "1992.107.22",
+	"slug": "1992.107.22/poncho-poncho",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Dyeing",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": "Plain weave"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "South America",
+			"country": "",
+			"state": "",
+			"notable": "Riobamba"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Cotton, Dyeing, Plain weave · Riobamba",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 43
+	}
+}

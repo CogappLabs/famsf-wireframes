@@ -26,8 +26,35 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "CPLH, Masterworks from the Achenbach Foundation for Graphic Arts, Feb 21 - May 3, 1981.\nArtful Animals (part 1);\nCPLHG, Animals Real and Imagined, Nov 21, 1981 - Feb 7, 1982.\nLegion of Honor, November 17, 2012-April 28, 2013; \nCPLH, TREASURES, 11 Nov 1995 - 3 March 1996, cat. # 223.",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "CPLH, Masterworks from the Achenbach Foundation for Graphic Arts, Feb 21 - May 3, 1981."
+		},
+		{
+			"order": 1,
+			"text": "Artful Animals (part 1);"
+		},
+		{
+			"order": 2,
+			"text": "CPLHG, Animals Real and Imagined, Nov 21, 1981 - Feb 7, 1982."
+		},
+		{
+			"order": 3,
+			"text": "Legion of Honor, November 17, 2012-April 28, 2013;"
+		},
+		{
+			"order": 4,
+			"text": "CPLH, TREASURES, 11 Nov 1995 - 3 March 1996, cat. # 223."
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -354,6 +381,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia"
+		],
+		"lvl1": [
+			"Asia > South Asia"
+		],
+		"lvl2": [
+			"Asia > South Asia > Mughal Empire"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Anonymous",
 	"primary_artist_display": "Anonymous (1625–1650)",
 	"sort_artist": "Anonymous",
@@ -368,19 +408,19 @@
 	"sort_year": 1625,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Precious metal (gold, silver)",
-			"specific": "Gold"
-		},
-		{
-			"section": "Drawing",
+			"section": "Ink & drawing media",
 			"subcategory": "Ink",
-			"specific": "Black ink"
+			"specific": "black ink"
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Gouache / opaque watercolor",
+			"section": "Metal",
+			"subcategory": "Gold",
 			"specific": ""
+		},
+		{
+			"section": "Paint & pigment",
+			"subcategory": "Watercolour & wash",
+			"specific": "opaque watercolor"
 		}
 	],
 	"facet_place": [
@@ -392,8 +432,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Gold, Black ink, Gouache / opaque watercolor · Mughal Empire",
+		"reason": "grid-facets real slice — black ink, Gold, opaque watercolor · Mughal Empire",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 49
 	}
 }

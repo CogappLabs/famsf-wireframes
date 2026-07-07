@@ -27,8 +27,26 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "On display at the V&A Museum for the \"Electric Fashion\" book launch exhibition, May 11, 2015.",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "On display at the V&A Museum for the \"Electric Fashion\" book launch exhibition, May 11, 2015."
+		}
+	],
 	"bibliography_text": null,
 	"provenance": "Worn by Christine Suppes",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Worn by Christine Suppes",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": "(white label with black text at back of neck)“CHANEL / [CC insignia]”",
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -347,6 +365,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Europe"
+		],
+		"lvl1": [
+			"Europe > France"
+		],
+		"lvl2": [
+			"Europe > France > Paris"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Karl Lagerfeld",
 	"primary_artist_display": "Karl Lagerfeld (1933–2019)",
 	"sort_artist": "Karl Lagerfeld",
@@ -361,34 +392,44 @@
 	"sort_year": 2009,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Glass",
-			"specific": "Glass (unspecified)"
-		},
-		{
-			"section": "Ceramic & glass",
-			"subcategory": "Glass",
-			"specific": "Pressed / molded glass"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Lacquer & enamel",
+			"section": "Glass",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Plastic & synthetic",
+			"section": "Glass",
+			"subcategory": "Rhinestone",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
+			"section": "Inorganic",
+			"subcategory": "Plastic",
+			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Textile technique (weaving, embroidery)",
-			"specific": "Weaving"
+			"section": "Textiles & fiber",
+			"subcategory": "Embroidery",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "bead"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "glass bead"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "sequin"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -406,8 +447,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass (unspecified), Pressed / molded glass, Lacquer & enamel, Plastic & synthetic … · Paris, France",
+		"reason": "grid-facets real slice — Glass, Rhinestone, Plastic, Embroidery … · Paris, France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 49
 	}
 }

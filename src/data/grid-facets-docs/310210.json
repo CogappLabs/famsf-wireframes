@@ -1,0 +1,288 @@
+{
+	"id": 310210,
+	"accession_number": "2025.22.2a-e",
+	"sort_number": "2025.22.2a-e",
+	"title": "Ensemble: jacket, jacket, and pants",
+	"object_name": null,
+	"date_display": "Spring 2005 Ready-to-Wear",
+	"date_start": "2005",
+	"date_end": "2005",
+	"medium": "(a) Silk crepe; plastic buttons; (b) cotton plain weave, cotton twill weave, plated metal buttons; (c) silk and acetate, supplementary weft patterning; synthetic metallic cord, plated metal buttons",
+	"medium_parts": [
+		"(a) Silk crepe",
+		"plastic buttons",
+		"(b) cotton plain weave, cotton twill weave, plated metal buttons",
+		"(c) silk and acetate, supplementary weft patterning",
+		"synthetic metallic cord, plated metal buttons"
+	],
+	"credit_line": "Gift of Dr. Carolyn Chang",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
+	"copyright": null,
+	"object_rights_type": "Copyright",
+	"on_view": false,
+	"entered_date": "2025-01-21 11:47:24.640000",
+	"last_modified": "2025-04-09 10:29:58.900000",
+	"is_virtual": false,
+	"identifying_description": "Woman's ensemble consisting of interchangeable pieces: a pair trousers, a camisole, a structured jacket and draped jacket. The tuxedo style trousers are of black silk and acetate crepe with gold braiding and gold buttons at the waist and a black tuxedo stripe down each leg made to look like snakeskin through supplementary weft patterning. The camisole is black and white silk with a wrap stile neckline and is printed with a zigzag pattern and black silk bias tape at the edges. The structed jacket is of blue cotton plain weave with white cotton \"pinstripes\" every seventh count. It is a military style with epaulettes and gold buttons embellished with a horn design and a black twill weave lapel. The draped jacket is of navy blue silk with a draped back with a curved hem and matching sash.",
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
+	"bibliography_text": null,
+	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
+	"label_text": "(jacket, centerback collar, black text on ivory satin label) BALENCIAGA.PARIS(jacket, proper left side seam, black text on white label) 40 (jacket, proper left side seam, black text on white double sided satin label) COMPOSIZIONE-COMPOSITION / 100% SETA SILK / SOIE SEIDE / FODERA-LINING-DOUBLURE; NO TUMBLE DRY / PROFESSIONALLY DRY CLEAN / PERCHLORETHYLENE / MADE IN ITALY / FABRIQUE EN ITALIE / BALENCIAGA / UP57 2004 00650 / 144601 T1224 0606(jacket, proper left side seam, black text on white label) 40(jacket, proper left side seam, black text on white label) BALENCIAGA FRANCE(jacket, proper left side seam, black text on white double sided satin label) COMPOSIZIONE-COMPOSITION / 100% COTTON / COTON BA [illegible] / 100% RAYON / VISCOSA; FODERA-LINING-DOUBLURE / 100% SETA SILK / SOIE SEIDE / NO TUMBLE DRY/ PROFESSIONALLY DRY CLEAN / PERCHLORETHYLENE / IRON ON REVERSE SIDE ONLY / STIRARE SOLO A ROVESCIO / MADE IN FRANCE / FABRIQUE' EN FRANCE / BALENCIAGA / UF57 2004 01196 / 143503 TI426 0533(pants, centerback waistband, black text on ivory satin label) BALENCIAGA.PARIS(pants, proper left waistband, black text on white label) 40(pants, proper left waistband, black text on white double sided satin label) FODERA-LINING-DOUBLURE / NO TUMBLE DRY / PROFESSIONALLY DRY CLEAN / PERCHLORETHYLENE / IRON ON REVERSE SIDE ONLY / STIRARE SOLO A ROVESCIO / MADE IN FRANCE / FABRIQUE' EN FRANCE / BALENCIAGA / [illegible] 04 01183 / [illegible] 310 0447; COMPOSIZIONE-COMPOSITION / 65% ACETATO ACETATE / ESSIGSAUER / 35% SETA SILK / SOIE SEIUE / 100% SETA SILK / SOIE SEIDE / 100% SETA SILK / SOIE SEIDE",
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "2025-04-02",
+	"location_string": "de Young, 059, Cabinet 55, TA",
+	"location_building": "de Young",
+	"location_room": "Cabinet 55",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": null,
+	"titles": [
+		{
+			"title": "Ensemble: jacket, jacket, and pants",
+			"type": "Primary Title",
+			"active": true,
+			"language": "English",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 18786,
+			"Role": "House of",
+			"RoleID": 356,
+			"name": "Balenciaga",
+			"name_sort": "Balenciaga",
+			"Nationality": "French",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": 1937,
+			"EndDate": null,
+			"dates": "French, founded 1937",
+			"Institution": null,
+			"ConstituentType": "Entity",
+			"DisplayOrder": 1,
+			"DisplayLabel": "b. 1937"
+		},
+		{
+			"id": 18784,
+			"Role": "Designer",
+			"RoleID": 67,
+			"name": "Nicolas Ghesquière",
+			"name_sort": "Ghesquière,  Nicolas",
+			"Nationality": "French",
+			"place_born": "Comines",
+			"place_died": null,
+			"place_active": "Paris",
+			"attribution_prefix": "",
+			"BeginDate": 1971,
+			"EndDate": null,
+			"dates": "French, born 1971",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "b. 1971"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 263582,
+			"image_id": 264521,
+			"rank": 1,
+			"file_date": "2026-05-26 22:12:29.93",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 3024,
+			"width": 4032,
+			"file_name": "REF_310210_20260526-1.JPG",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 20618664,
+			"term": "France",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
+		},
+		{
+			"id": 20774286,
+			"term": "Italy",
+			"type": "N/A",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAAVP",
+					"term": "Italia"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Europe"
+		],
+		"lvl1": [
+			"Europe > France",
+			"Europe > Italia"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
+	"primary_artist": "Nicolas Ghesquière",
+	"primary_artist_display": "b. 1971",
+	"sort_artist": "Ghesquière,  Nicolas",
+	"culture_group": [],
+	"display_year": "2005",
+	"doc_id": "2025.22.2a-e",
+	"slug": "2025.22.2a-e/ensemble-jacket-jacket-and-pants",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": 2005,
+	"facet_medium": [
+		{
+			"section": "Inorganic",
+			"subcategory": "Plastic",
+			"specific": ""
+		},
+		{
+			"section": "Metal",
+			"subcategory": "",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Cotton",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": "silk crepe"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Weaving",
+			"specific": "Supplementary-weft patterning"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Yarn & thread",
+			"specific": "cord"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"state": "",
+			"notable": ""
+		},
+		{
+			"region": "Europe",
+			"country": "Italy",
+			"state": "",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Plastic, Metal, Cotton, Silk … · France, Italy",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

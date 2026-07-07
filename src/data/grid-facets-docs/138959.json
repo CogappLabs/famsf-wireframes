@@ -1,0 +1,412 @@
+{
+	"id": 138959,
+	"accession_number": "2005.153.2",
+	"sort_number": "2005.153.2",
+	"title": "Evening dress",
+	"object_name": "woman's costume",
+	"date_display": "ca. 1921",
+	"date_start": "1921",
+	"date_end": "1921",
+	"medium": "Silk satin weave; silk plain weave; calendered silk twill weave bow; silk grosgrain ribbon with metal supplementary patterning; silk ribbon with metal-wrapped thread warps; silk-wrapped metal flower stems; silk satin weave rosettes; silk and metal thread flowers with metal thread supplementary warp patterning; metal strip plain weave; paired silk warp plain weave with silk weft and metal foil supplementary weft patterning; silk and metal foil plain weave; silk pile yarn over metal cord; glass seed beads and glass cabochons; and flocked silk stamen",
+	"medium_parts": [
+		"Silk satin weave",
+		"silk plain weave",
+		"calendered silk twill weave bow",
+		"silk grosgrain ribbon with metal supplementary patterning",
+		"silk ribbon with metal-wrapped thread warps",
+		"silk-wrapped metal flower stems",
+		"silk satin weave rosettes",
+		"silk and metal thread flowers with metal thread supplementary warp patterning",
+		"metal strip plain weave",
+		"paired silk warp plain weave with silk weft and metal foil supplementary weft patterning",
+		"silk and metal foil plain weave",
+		"silk pile yarn over metal cord",
+		"glass seed beads and glass cabochons",
+		"and flocked silk stamen"
+	],
+	"credit_line": "Gift of Nan Tucker McEvoy",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"subclassification": null,
+	"culture": null,
+	"copyright": "© Estate of Lucile / Artists Rights Society (ARS), New York",
+	"object_rights_type": "Copyright - ARS",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2024-05-02 09:48:26.117000",
+	"is_virtual": false,
+	"identifying_description": "Robe de style silhouette with black satin bodice featuring beaded floral spray across front with wired leaves; blue silk chiffon and silk satin saw-tooth hemmed skirt; two black cire loops with streamers at center back. Partial label: \"...11, rue de Penthièvre\"",
+	"web_text": "Evening dresses by Lady Duff Gordon, known professionally as Lucile, are distinctive for their vibrant-colored sheer, luminous metallic textiles, and historicized silhouettes with asymmetrical trimmings. This dress epitomizes the Lucile aesthetic. The full skirt is exaggerated at the sides to evoke eighteenth-century undergarments(panniers), and handmade silk flowers wrap around the body to offer a sense of movement. The theatrical nature of Lucile’s designs was an outgrowth of her work in costuming for theater and film, which she",
+	"didactic_label": "Evening dresses by Lady Duff Gordon, known professionally as Lucile, are distinctive for their vibrant-colored sheer, luminous metallic textiles, and historicized silhouettes with asymmetrical trimmings. This dress epitomizes the Lucile aesthetic. The full skirt is exaggerated at the sides to evoke eighteenth-century undergarments (panniers), and handmade silk flowers wrap around the body to offer a sense of movement. The theatrical nature of Lucile’s designs was an outgrowth of her work in costuming for theater and film, which she continued to do throughout her career.",
+	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
+	"bibliography_text": null,
+	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
+	"label_text": "(white label with green text atcenter back of waistband)“[missing] ... 11. rue de Penthièvre / PARIS\"",
+	"publication_text": null,
+	"catalogue_raisonne": null,
+	"accession_iso_date": "2005-12-31",
+	"location_string": "de Young, 059, Cabinet 55, TC",
+	"location_building": "de Young",
+	"location_room": "Cabinet 55",
+	"edition": null,
+	"signed": null,
+	"inscribed": null,
+	"markings": "[Partial] \"...11, rue de Penthièvre/PARIS\", white label with green text at center back waistband",
+	"titles": [
+		{
+			"title": "Evening dress",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 38892,
+			"Role": "Designer",
+			"RoleID": 67,
+			"name": "Lady Duff Gordon",
+			"name_sort": "Lady Duff Gordon",
+			"Nationality": "English",
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": 1863,
+			"EndDate": 1935,
+			"dates": "1863–1935",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Lady Duff Gordon (1863–1935)"
+		},
+		{
+			"id": 14269,
+			"Role": "House of",
+			"RoleID": 356,
+			"name": "Lucile",
+			"name_sort": "Lucile",
+			"Nationality": "English",
+			"place_born": "London",
+			"place_died": "Putney",
+			"place_active": null,
+			"attribution_prefix": null,
+			"BeginDate": 1893,
+			"EndDate": 1923,
+			"dates": "English, 1893 - 1923",
+			"Institution": null,
+			"ConstituentType": "Individual",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Lucile (1893–1923)"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 215296,
+			"image_id": 222834,
+			"rank": 0,
+			"file_date": "2024-05-13 10:12:37.577",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8000,
+			"width": 5999,
+			"file_name": "MS_138959_20240429_1_Crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 207073,
+			"image_id": 214443,
+			"rank": 1,
+			"file_date": "2023-08-15 13:28:06.09",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 12811,
+			"width": 9415,
+			"file_name": "MS_138959_20230601_10.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 207070,
+			"image_id": 214440,
+			"rank": 1,
+			"file_date": "2023-08-15 13:20:24.213",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 12811,
+			"width": 9415,
+			"file_name": "MS_138959_20230601_7.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 207071,
+			"image_id": 214441,
+			"rank": 1,
+			"file_date": "2023-08-15 13:16:49.857",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 12811,
+			"width": 9415,
+			"file_name": "MS_138959_20230601_8.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		},
+		{
+			"media_xref_id": 207072,
+			"image_id": 214442,
+			"rank": 1,
+			"file_date": "2023-08-15 13:16:32.163",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Jorge Bachmann, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 12811,
+			"width": 9415,
+			"file_name": "MS_138959_20230601_9.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"id": 16110965,
+			"term": "Copyright status is copyrighted",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAC",
+					"term": "Copyright status is copyrighted"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"id": 17716136,
+			"term": "Paris",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME",
+					"term": "Île-de-France"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AABMN",
+					"term": "Paris"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_period": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_style": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_subject": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Europe"
+		],
+		"lvl1": [
+			"Europe > France"
+		],
+		"lvl2": [
+			"Europe > France > Paris"
+		],
+		"lvl3": null,
+		"historic": false
+	},
+	"primary_artist": "Lady Duff Gordon",
+	"primary_artist_display": "Lady Duff Gordon (1863–1935)",
+	"sort_artist": "Lady Duff Gordon",
+	"culture_group": [],
+	"display_year": "1921",
+	"doc_id": "2005.153.2",
+	"slug": "2005.153.2/evening-dress",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": 1921,
+	"facet_medium": [
+		{
+			"section": "Metal",
+			"subcategory": "",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": "silk satin"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "glass seed bead"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "grosgrain"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "silk ribbon"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Yarn & thread",
+			"specific": "metal thread"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Europe",
+			"country": "France",
+			"state": "",
+			"notable": "Paris"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Metal, Silk, silk satin, glass seed bead … · Paris",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 51
+	}
+}

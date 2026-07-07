@@ -28,8 +28,21 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
 	"bibliography_text": null,
 	"provenance": "Worn by Christine Suppes",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Worn by Christine Suppes",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": "Jacket: (black label with white text at center back)“CHANEL”",
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -322,6 +335,19 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Europe"
+		],
+		"lvl1": [
+			"Europe > France"
+		],
+		"lvl2": [
+			"Europe > France > Paris"
+		],
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Karl Lagerfeld",
 	"primary_artist_display": "Karl Lagerfeld (1933–2019)",
 	"sort_artist": "Karl Lagerfeld",
@@ -336,44 +362,44 @@
 	"sort_year": 1991,
 	"facet_medium": [
 		{
-			"section": "Ceramic & glass",
-			"subcategory": "Glass",
-			"specific": "Glass (unspecified)"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Beads, feathers & plant material",
+			"section": "Glass",
+			"subcategory": "Rhinestone",
 			"specific": ""
 		},
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Plastic & synthetic",
+			"section": "Organic",
+			"subcategory": "Hair, fur & feather",
+			"specific": "horsehair"
+		},
+		{
+			"section": "Paint & pigment",
+			"subcategory": "Paint",
+			"specific": "painted"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "gauze"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Painting",
-			"subcategory": "Other paint",
-			"specific": ""
+			"section": "Textiles & fiber",
+			"subcategory": "Silk",
+			"specific": "silk satin"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Silk"
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "bead"
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Natural fiber (silk, wool, cotton)",
-			"specific": "Wool"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Other textile",
-			"specific": ""
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Thread & trimmings",
-			"specific": "Sequins"
+			"section": "Textiles & fiber",
+			"subcategory": "Trimmings",
+			"specific": "sequin"
 		}
 	],
 	"facet_place": [
@@ -391,8 +417,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass (unspecified), Beads, feathers & plant material, Plastic & synthetic, Other paint … · Paris, France",
+		"reason": "grid-facets real slice — Rhinestone, horsehair, painted, gauze … · Paris, France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 47
 	}
 }

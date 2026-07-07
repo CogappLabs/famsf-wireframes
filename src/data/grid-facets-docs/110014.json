@@ -26,8 +26,23 @@
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "CPLH, Tradition and Innovation, 1500 - 1989, 10 Sept - 31 Dec 1989.\nThe Haggerty Museum of Art, Milwaukee, WI, Wilfrado Lam in North America, Oct 1, 2006 - Jan 31, 2007.",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "CPLH, Tradition and Innovation, 1500 - 1989, 10 Sept - 31 Dec 1989."
+		},
+		{
+			"order": 1,
+			"text": "The Haggerty Museum of Art, Milwaukee, WI, Wilfrado Lam in North America, Oct 1, 2006 - Jan 31, 2007."
+		}
+	],
 	"bibliography_text": null,
 	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -201,6 +216,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North and Central America"
+		],
+		"lvl1": [
+			"North and Central America > Cuba"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Wifredo Lam",
 	"primary_artist_display": "Wifredo Lam (1902–1982)",
 	"sort_artist": "Lam,  Wifredo",
@@ -215,9 +241,9 @@
 	"sort_year": 1947,
 	"facet_medium": [
 		{
-			"section": "Print",
-			"subcategory": "Lithographs (planographic)",
-			"specific": "Lithograph"
+			"section": "Prints",
+			"subcategory": "Lithograph",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -231,6 +257,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — Lithograph · Cuba",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 48
 	}
 }

@@ -2,6 +2,7 @@
 
 import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { ScopeMark, SectionLabelInline } from "@/components/wireframe";
+import mediumTaxonomy from "@/data/medium-taxonomy.json";
 import type { CollectionDocument } from "@/lib/collection-document";
 import { type FacetOption, objectYear } from "./facets";
 import { isPublicDomain, ResultsGrid } from "./results";
@@ -13,7 +14,13 @@ import { isPublicDomain, ResultsGrid } from "./results";
 // Left column has two expandable hierarchies:
 //   • Place  — region → country → [US state] → notable place (REGION_REMAP
 //              workbook). The state tier is US-only; non-US places are 3-tier.
-//   • Medium — section → subcategory → specific (object-type medium taxonomy)
+//   • Medium — Tier-1 (material group) → Tier-2 → Tier-3, from the curators'
+//              12-Tier-1 material-group taxonomy. The FULL curated hierarchy is
+//              shown with REAL full-collection object counts (from
+//              scripts/build_medium_taxonomy_facet.py → src/data/medium-taxonomy.json),
+//              not just the nodes the ~600-doc slice contains — so every taxonomy
+//              node renders with its true count. Selecting a node still only
+//              filters the slice, so a node with no slice member filters to 0.
 // Each tree row carries a caret (expand/collapse children in place) and a
 // checkbox (filter by that node, at any tier); a "Filter …" box prunes +
 // auto-expands matching branches.
@@ -51,7 +58,6 @@ interface GridFacetSelections {
 	medium: MediumSelection | null;
 	classification: string | null;
 	department: string | null;
-	gallery: string | null;
 	date: YearRange | null;
 	onView: boolean;
 	hasImage: boolean;
@@ -65,7 +71,6 @@ const EMPTY_GRID_SELECTIONS: GridFacetSelections = {
 	medium: null,
 	classification: null,
 	department: null,
-	gallery: null,
 	date: null,
 	onView: false,
 	hasImage: false,
@@ -120,7 +125,6 @@ function filterGridDocs(
 		if (sel.classification && d.classification !== sel.classification)
 			return false;
 		if (sel.department && d.department !== sel.department) return false;
-		if (sel.gallery && d.location_building !== sel.gallery) return false;
 		if (sel.date) {
 			const y = objectYear(d);
 			if (y == null || y < sel.date.min || y > sel.date.max) return false;
@@ -309,20 +313,12 @@ const buildPlaceTree = (docs: CollectionDocument[]): FacetTreeNode[] =>
 		(d.facet_place ?? []).map((p) => [p.region, p.country, p.state, p.notable]),
 	);
 
-const MEDIUM_OTHER_SECTION = "Other / unclassified";
-
-const buildMediumTree = (docs: CollectionDocument[]): FacetTreeNode[] => {
-	const tree = buildFacetTree(docs, (d) =>
-		(d.facet_medium ?? []).map((m) => [m.section, m.subcategory, m.specific]),
-	);
-	// Keep the object-type sections in count order but always pin the catch-all
-	// "Other / unclassified" bucket to the bottom, so it never outranks a real
-	// object type in the visitor-facing facet.
-	return [
-		...tree.filter((n) => n.value !== MEDIUM_OTHER_SECTION),
-		...tree.filter((n) => n.value === MEDIUM_OTHER_SECTION),
-	];
-};
+// The Medium facet renders the FULL curated 12-Tier-1 taxonomy with real
+// full-collection counts, baked once by build_medium_taxonomy_facet.py. It is a
+// static tree (not derived from the slice), so every taxonomy node shows with
+// its true count even when no slice doc reaches it. Already count-desc with
+// "Other" pinned last by the build script; the JSON matches FacetTreeNode.
+const MEDIUM_TREE = mediumTaxonomy as FacetTreeNode[];
 
 const FACET_TOP_N = 8;
 
@@ -1013,8 +1009,6 @@ function seedSelectionFromFacet(
 			return { classification: value };
 		case "department":
 			return { department: value };
-		case "gallery":
-			return { gallery: value };
 		case "place": {
 			for (const d of docs) {
 				for (const p of d.facet_place ?? []) {
@@ -1104,12 +1098,6 @@ export function GridFacetsView({
 			department: prev.department === value ? null : value,
 		}));
 	};
-	const setGallery = (value: string | null) => {
-		setSel((prev) => ({
-			...prev,
-			gallery: prev.gallery === value ? null : value,
-		}));
-	};
 	const setDate = (range: YearRange | null) => {
 		setSel((prev) => ({ ...prev, date: range }));
 	};
@@ -1170,11 +1158,9 @@ export function GridFacetsView({
 		() => buildPlaceTree(filterGridDocs(docs, { ...sel, place: null }, query)),
 		[docs, sel, query],
 	);
-	const mediumTree = useMemo(
-		() =>
-			buildMediumTree(filterGridDocs(docs, { ...sel, medium: null }, query)),
-		[docs, sel, query],
-	);
+	// Static full taxonomy tree with real counts — independent of the slice /
+	// other selections (unlike place, which recomputes so its counts co-vary).
+	const mediumTree = MEDIUM_TREE;
 	const artistOpts = useMemo(
 		() =>
 			countFlat(filterGridDocs(docs, { ...sel, artist: null }, query), (d) =>
@@ -1205,13 +1191,6 @@ export function GridFacetsView({
 			),
 		[docs, sel, query],
 	);
-	const galleryOpts = useMemo(
-		() =>
-			countFlat(filterGridDocs(docs, { ...sel, gallery: null }, query), (d) =>
-				d.location_building ? [d.location_building] : [],
-			),
-		[docs, sel, query],
-	);
 	const dateHistogram = useMemo(
 		() =>
 			buildYearHistogram(filterGridDocs(docs, { ...sel, date: null }, query)),
@@ -1231,7 +1210,6 @@ export function GridFacetsView({
 		Boolean(sel.medium) ||
 		Boolean(sel.classification) ||
 		Boolean(sel.department) ||
-		Boolean(sel.gallery) ||
 		Boolean(sel.date) ||
 		sel.onView ||
 		sel.hasImage ||
@@ -1341,19 +1319,6 @@ export function GridFacetsView({
 			),
 		},
 		{
-			id: "gallery",
-			label: "Gallery",
-			activeCount: sel.gallery ? 1 : 0,
-			control: (
-				<FacetBlock
-					label="Gallery"
-					options={galleryOpts}
-					selected={sel.gallery}
-					onSelect={setGallery}
-				/>
-			),
-		},
-		{
 			id: "date",
 			label: "Date",
 			activeCount: sel.date ? 1 : 0,
@@ -1382,7 +1347,6 @@ export function GridFacetsView({
 		"medium",
 		"classification",
 		"department",
-		"gallery",
 		"collection",
 	];
 	const panels = PANEL_ORDER.map((id) =>
@@ -1583,16 +1547,6 @@ export function GridFacetsView({
 									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
 								>
 									<span>Department: {sel.department}</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.gallery && (
-								<button
-									type="button"
-									onClick={() => setGallery(null)}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Gallery: {sel.gallery}</span>
 									<span>×</span>
 								</button>
 							)}

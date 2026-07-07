@@ -26,8 +26,26 @@
 	"web_text": "The prominent bird beak incorporated into the human face of this extraordinary mask represents a ground hornbill (Bucorvus abyssinicus). Large birds that dwell in the forest, known for their distinctive call and humanlike walk, hornbills are monogamous, and male birds care for females during the incubation of the eggs in a secluded nest and then the chicks when they hatch. This aspect of hornbill behavior expressed through the mask is important symbolically for the Poro society, which educates and prepares young men for adulthood. The mask was made and performed by a Mano man of the Poro society. During the nineteenth century, in this area of Liberia, trade with merchants from African empires brought cultures in contact with Islamic beliefs. Inside the mask and seen only by the wearer are “mystical writings and invocations [that] enhance the potentialities of the dancer performing in the mask and offer protection to the community for whom it performs.\" These khatem talismanic squares, Arab-influenced script or invocations in Arabic or possibly Vai language, enhance the power of the mask and reflect the synthesis of Mano cosmology and Islamic religion. Fine Arts Museums of San Francisco, de Young 125 (California: Cameron + Company, 2021), p. 192, entry by Christina Hellmich.",
 	"didactic_label": null,
 	"exhibition_history_text": "Inscribing meaning: Writing and Graphic Systems in African Art, October 14, 2007- February 17, 2008, University of California, Los Angeles, Fowler Museum.The Artistry of African Islam, October 1983-June 1984, National Museum of African Art, Smithsonian Institute.",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "Inscribing meaning: Writing and Graphic Systems in African Art, October 14, 2007- February 17, 2008, University of California, Los Angeles, Fowler Museum.The Artistry of African Islam, October 1983-June 1984, National Museum of African Art, Smithsonian Institute."
+		}
+	],
 	"bibliography_text": null,
 	"provenance": "Purchased from J. J. Klejman, New York",
+	"provenance_structured": {
+		"lines": [
+			{
+				"order": 0,
+				"text": "Purchased from J. J. Klejman, New York",
+				"refs": [],
+				"is_uncertain": false
+			}
+		],
+		"footnotes": [],
+		"parsed": true
+	},
 	"label_text": null,
 	"publication_text": null,
 	"catalogue_raisonne": null,
@@ -344,6 +362,17 @@
 	"term_materials": null,
 	"term_subject": null,
 	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Africa"
+		],
+		"lvl1": [
+			"Africa > Liberia"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"historic": false
+	},
 	"primary_artist": "Unknown artist",
 	"primary_artist_display": null,
 	"sort_artist": null,
@@ -360,34 +389,34 @@
 	"sort_year": 1801,
 	"facet_medium": [
 		{
-			"section": "Decorative & other materials",
-			"subcategory": "Base metal (bronze, iron, copper)",
-			"specific": "Iron"
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Beads, feathers & plant material",
-			"specific": ""
-		},
-		{
-			"section": "Decorative & other materials",
-			"subcategory": "Wood",
-			"specific": ""
-		},
-		{
-			"section": "Drawing",
+			"section": "Ink & drawing media",
 			"subcategory": "Ink",
-			"specific": "Ink (unspecified)"
-		},
-		{
-			"section": "Textile",
-			"subcategory": "Other textile",
 			"specific": ""
 		},
 		{
-			"section": "Textile",
-			"subcategory": "Woven & worked cloth",
-			"specific": "Cloth"
+			"section": "Metal",
+			"subcategory": "Iron",
+			"specific": ""
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Hair, fur & feather",
+			"specific": "feather"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Wood & plant",
+			"specific": "wood"
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Fiber",
+			"specific": ""
+		},
+		{
+			"section": "Textiles & fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "cloth"
 		}
 	],
 	"facet_place": [
@@ -399,8 +428,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Iron, Beads, feathers & plant material, Wood, Ink (unspecified) … · Liberia",
+		"reason": "grid-facets real slice — Ink, Iron, feather, wood … · Liberia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 48
+		"populated_fields": 51
 	}
 }

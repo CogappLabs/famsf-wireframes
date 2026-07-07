@@ -94,8 +94,9 @@ Current variations:
     see below). Both render a left facet column instead of the horizontal bar,
     sharing the same `GridFacetsView` (a `layout` prop switches inline vs
     modal). Facets, top to bottom:
-    Facet display order (2026-06-19): Artist/maker, Date, Place, Culture group,
-    Medium, Object type, Department, Technique, Gallery, Collection. Labels use
+    Facet display order (PANEL_ORDER, grid-facets.tsx): Artist/maker, Date,
+    Place, Culture group, Medium, Object type, Department, Collection. (The
+    Gallery + Technique facets were removed 2026-07-07.) Labels use
     the client's final filter naming (Artist/maker, Medium, Object type,
     Department) rather than the old code-field names. The `id`/field keys
     (`artist`, `material`, `classification`, `department`) are unchanged; only
@@ -112,15 +113,23 @@ Current variations:
       node (any tier). "Filter place…" prunes + auto-expands matching branches
       (e.g. "paris" → Europe ▾ France ▾ Paris). Geography shows **all**
       top-level rows (no 8-cap — the one exception).
-    - **Medium** — same expandable tree, 2-tier (parent → specific, per the
-      Material workbook FACET_DESIGN_v2; e.g. Metal → bronze). 8-cap with
-      "Show N more" on the parents. (Field id stays `material`.)
-    - **Technique** — flat list (8-cap).
-    - **Object type** / **Department** / **Gallery** — flat facets
-      (8-cap + search-within) off `classification`, `department`,
-      `location_building`. The `department` facet is labelled **"Department"**
-      per the client final filter list (was "Collection area"); `department`
-      stays the code/field id. "Object type" is the `classification` facet.
+    - **Medium** — same expandable tree, now the curators' **full 12-Tier-1
+      material-group taxonomy** (Tier-1 = material group: Prints, Textiles &
+      fiber, Metal, …; → Tier-2 → Tier-3). The **complete** curated hierarchy
+      is rendered with **real full-collection object counts** (334 nodes, from
+      `src/data/medium-taxonomy.json`, built by
+      `scripts/build_medium_taxonomy_facet.py`) — not just the nodes the
+      ~600-doc slice contains, and `topN={null}` so all 12 Tier-1s show. The
+      static tree is display-only: selecting a node still filters the slice, so
+      a node with no slice member filters to 0 results. Facet id stays
+      `material`; the `facet_medium[]` doc field keys stay `section`/
+      `subcategory`/`specific` (= Tier-1/2/3).
+    - **Object type** / **Department** — flat facets (8-cap + search-within)
+      off `classification`, `department`. The `department` facet is labelled
+      **"Department"** per the client final filter list (was "Collection area");
+      `department` stays the code/field id. "Object type" is the
+      `classification` facet. (The Gallery facet off `location_building` +
+      the flat Technique facet were removed 2026-07-07.)
     - **Collection** — a disabled placeholder facet (`PendingFacet`): the FAMSF
       Collecting Area TMS field does not exist yet, so it renders greyed with a
       "not yet in TMS" note and no options.
@@ -138,10 +147,11 @@ Current variations:
       makes the OA facet + the card badge fire on this view (214 PD docs).
       Inline layout: a full-width row under the search. Modal layout: top of
       the left column.
-    The CW-41 core facet set (geo, material, classification, dept, gallery, OA,
-    on-view, has-image) + date (CW-64) is complete; Artist + Technique are kept
-    on top as extras. Flat facets + Material cap at 8 with "Show more"; only
-    Place (geography) shows all. `grid-facets` shows every facet expanded
+    The CW-41 core facet set (geo, medium, classification, dept, OA, on-view,
+    has-image) + date (CW-64) is complete; Artist + Culture group are kept on
+    top as extras. The Gallery + Technique facets were removed 2026-07-07. Flat
+    facets cap at 8 with "Show more"; Place (geography) and the full Medium tree
+    show all. `grid-facets` shows every facet expanded
     inline; `grid-facets-modal` shows one button per facet (name + active-count
     badge) opening the same control in a `<dialog>`.
   - **Omnibox, sort, pagination** (grid-facets only): the search bar's `?q=`
@@ -339,38 +349,105 @@ separate bulk export, NOT the curated sample-docs set above:
 - `src/data/grid-facets-docs/` — ~600 `{ObjectID}.json` docs, a balanced
   slice (per-region cap) of the `-real` pipeline's
   `collection_documents.parquet`, restricted to objects with geography +
-  a mapped material/technique. Loaded by `loadGridFacetsDocs()` in
+  a classified medium. Loaded by `loadGridFacetsDocs()` in
   `src/lib/sample-docs-registry.ts`. These are NOT in the auto-discovery
   registry and don't appear on `/objects/sample`.
-- Each doc carries three **pre-derived curator-taxonomy facet** fields
+- Each doc carries two **pre-derived curator-taxonomy facet** fields
   (added by the export, not emitted by the production pipeline yet):
   `facet_place[]` (`{region, country, state, notable}`, hierarchical, from the
   REGION_REMAP workbook keyed on each place term's Getty TGN `cn`; `state` is
-  US-only per ADR 0002 amend, empty elsewhere),
-  `facet_material[]` (`{parent, specific}`, 2-tier, e.g. Metal → bronze)
-  and `facet_technique[]` (flat string labels). Material + technique come
-  from the Material workbook bridge: raw token → `master_v2.canonical_final`
-  + `facet_final` → joined to `FACET_DESIGN_v2` (the parent/specific design;
-  Technique rows are `level=flat`). Typed on `CollectionDocument` +
-  `PlaceFacet` / `MaterialFacet` in `src/lib/collection-document.ts`.
+  US-only per ADR 0002 amend, empty elsewhere), and
+  `facet_medium[]` (`{section, subcategory, specific}` = **Tier-1/2/3** of the
+  curators' 12-Tier-1 **material-group** taxonomy; e.g. Textiles & fiber →
+  Weaving → Plain weave). Medium comes from `Tier1Classifier`
+  (`scripts/material_taxonomy/tier1_classifier.py`), fed each raw `medium`
+  token (hard-delimiter split) plus its `master_v2` `canonical_final` /
+  `facet_final`. Typed on `CollectionDocument` + `PlaceFacet` / `MediumFacet`
+  in `src/lib/collection-document.ts`. (The earlier object-type `facet_material`
+  + `facet_technique` fields are retired; `facet_medium` replaces both.)
+
+The **Medium left-column facet** does NOT read node counts from this 600-doc
+slice — it renders the **full curated hierarchy with real full-collection
+counts** from `src/data/medium-taxonomy.json` (see below). The slice only
+backs selection/filtering.
 
 Regenerate (one-off, not Dagster assets):
 
 1. `uv run … python scripts/pull_taxonomy_sheets.py` — pulls the live
-   curator workbooks (REGION_REMAP + Material `master_v2` /
-   `FACET_DESIGN_v2` / `FACET_PUBLIC_v2`) to `src/data/taxonomy-tsv/` via
-   **cogapp-sheets** (ADC-authed; run `gcloud auth application-default login`
-   first). Sheet IDs are in the script; tab names confirmed at runtime.
-   NB: `pull_to_tsv` caps at ~9999 rows, so the long tail of rare `master_v2`
-   tokens is dropped (high-frequency tokens, sorted first, are kept).
-2. `uv run --no-project python scripts/export_grid_facets_docs.py` —
-   reads the parquet + the TSV crosswalks, derives the three facets, and
-   writes the balanced slice. `TARGET` / `PER_REGION_CAP` cap the output.
+   curator workbooks (REGION_REMAP + Material `master_v2`) to
+   `src/data/taxonomy-tsv/` via **cogapp-sheets** (ADC-authed; run
+   `gcloud auth application-default login` first). NB: `pull_to_tsv` caps at
+   ~9999 rows, so the long tail of rare `master_v2` tokens is dropped
+   (high-frequency tokens, sorted first, are kept).
+2. `uv run --with openpyxl python scripts/export_grid_facets_docs.py` —
+   reads the parquet + `master_v2.tsv` + the curated head (from
+   `~/Downloads/MediumFilterTaxonomy-12Tier1Terms.xlsx` via
+   `push_tier1_medium_map_sheet.build_rows`), derives `facet_place` +
+   `facet_medium`, and writes the balanced slice. `TARGET` / `PER_REGION_CAP`
+   cap the output.
+3. `uv run --with openpyxl python scripts/build_medium_taxonomy_facet.py` —
+   classifies **every** object's medium in the parquet and rolls up
+   distinct-object counts per Tier-1/2/3 node → `src/data/medium-taxonomy.json`
+   (the full 334-node tree with real counts the Medium facet renders).
 
-Taxonomy design lives in `docs/place-geography-taxonomy.md` (Place) and
-the Material sibling workbook. The pipeline does NOT yet emit these facet
-fields (see that doc's "Not yet built"); the export is the wireframe-only
-stand-in until it does.
+Taxonomy design lives in `docs/place-geography-taxonomy.md` (Place) and the
+Material sibling workbook. The pipeline does NOT yet emit these facet fields;
+the export is the wireframe-only stand-in until it does.
+
+### 12-Tier-1 medium taxonomy (material-axis re-org, 2026-07-03)
+
+FAMSF curators re-organised the medium facet Tier-1 from **object-type**
+(Print / Drawing / Painting / … — what `material_taxonomy/taxonomy_config.py`'s
+`SECTIONS` still encode) to **material group**: 12 Tier-1 terms (Prints,
+Ink & drawing media, Textiles & fiber, Paint & pigment, Paper & parchment,
+Ceramic, Glass, Stone, Metal, Organic, Inorganic, Other). Only "Prints" stays a
+process bucket; the other 11 are substance buckets. Different organising axis,
+not a relabel — object-type keeps its own facet (`classification`). Source is the
+curators' uploaded `.xlsx` (`MediumFilterTaxonomy-12Tier1Terms`, Drive id
+`1-DIKvMoO4nzlL7b-G8sMSaQr0U81196E`) — an Office file the Sheets API / cogapp-sheets
+**reject**, so read it locally with openpyxl (the download at
+`~/Downloads/MediumFilterTaxonomy-12Tier1Terms.xlsx`), or re-auth the Drive MCP
+for its threaded cell comments.
+
+Both tabs land in the **Medium audit** workbook (`14h4f-ZGnjjbBS6svQjRbdVjBKe7DBv9MifPLWy79FkI`,
+same workbook as `master_v2` + the object-type `Facet review` / `Facet tree`):
+
+- `scripts/push_tier1_medium_map_sheet.py` → **"12-Tier-1 medium map"** tab: the
+  ~280 curated head rows straight from the .xlsx (Tier1/2/3 + count + Approve?
+  dropdown + Cleanup note; the 10 flagged curator comments carried inline). Forward-
+  fills the .xlsx block layout into one full-path row per leaf.
+- `scripts/material_taxonomy/tier1_classifier.py` — `Tier1Classifier`: resolves
+  any TMS token to a 12-Tier-1 path. Order = curated exact override →
+  keyword derived from the curated leaves → hand-picked `SUPPLEMENTARY_KEYWORDS`
+  roots (paper/canvas/photo/glass/etc the curated leaves don't leaf) →
+  `master_v2.facet_final=="not_medium"` (→ Other, Suppress? suggested) →
+  unresolved (→ Other). Each hit carries a `source` + `confidence`. Bare Tier-2
+  labels resolve to `(t1, t2, "")` (two-pass exact-map build) so `paper` doesn't
+  borrow the first child's Tier-3.
+- `scripts/push_tier1_full_coverage_sheet.py` → **"12-Tier-1 full map"** tab:
+  classifies **all ~17.2K `master_v2` tokens** for total facet coverage, sorted by
+  object count, with Source / Confidence / Suppress? / Approve? columns. Curated
+  head is pre-marked Approve?=Yes; curators triage the low-confidence rows.
+  Coverage: curated 65% + keyword 16% + supplementary 7% ≈ **88% of object
+  mentions by signal**; ~9% unresolved (colours, condition terms, cross-material
+  techniques) + ~3% not_medium land in Other for per-token curator review.
+  Non-media tokens get a **suggested** Suppress? but are **not** auto-dropped
+  (curator decides per-token).
+
+Run (wireframes repo root, after `gcloud auth application-default login`):
+
+    uv run --with openpyxl --with google-api-python-client --with google-auth \
+        --with-editable ~/git/cogapp-sheets \
+        python scripts/push_tier1_full_coverage_sheet.py
+
+**This crosswalk is now the wireframe's medium source** (done 2026-07-07):
+`export_grid_facets_docs.py` derives each doc's `facet_medium` via
+`Tier1Classifier`, and `build_medium_taxonomy_facet.py` rolls the same
+classifier over the whole parquet to produce the full-taxonomy facet tree with
+real counts (`src/data/medium-taxonomy.json`). The old object-type
+`taxonomy_config.SECTIONS` / `MaterialClassifier` path is no longer used by the
+wireframe. Curators finalising Approve?/Suppress? in the sheet + re-pulling
+`master_v2` then re-running both scripts refreshes the facet.
 
 ## Reference pages
 
