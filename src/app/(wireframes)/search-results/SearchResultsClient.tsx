@@ -80,7 +80,8 @@ export function deriveArtists(docs: CollectionDocument[]): ArtistRecord[] {
 export const VIEW_VARIATIONS = [
 	{ key: "grid-facets-modal", label: "Grid + facet drawer" },
 	{ key: "grid-facets", label: "Grid + facets" },
-	{ key: "grid", label: "Grid" },
+	{ key: "grid-facets-place", label: "Grid + place options" },
+	{ key: "grid-facets-place-flat", label: "Grid + place options (flat)" },
 	{ key: "list", label: "List" },
 	{ key: "zero-results", label: "Zero results" },
 	{ key: "ai-search", label: "AI search" },
@@ -326,7 +327,12 @@ function SearchResultsContent({
 	}, [gridFacetsDocs]);
 
 	const isGridFacets =
-		variation === "grid-facets" || variation === "grid-facets-modal";
+		variation === "grid-facets" ||
+		variation === "grid-facets-modal" ||
+		variation === "grid-facets-place" ||
+		variation === "grid-facets-place-flat";
+	const isPlaceExtras =
+		variation === "grid-facets-place" || variation === "grid-facets-place-flat";
 
 	const { queryObjects, queryArtists } = useMemo(() => {
 		if (!query) return { queryObjects: docs, queryArtists: allArtists };
@@ -548,7 +554,7 @@ function SearchResultsContent({
 				    `grid-facets` expands each facet inline; `grid-facets-modal`
 				    renders a button per facet that opens the control in a side
 				    drawer (the URL key keeps the -modal name for stable links). */}
-				{variation === "grid-facets" || variation === "grid-facets-modal" ? (
+				{isGridFacets ? (
 					<Container className="py-8">
 						<WireframeSection label="Faceted browse (real data)">
 							<GridFacetsView
@@ -558,9 +564,17 @@ function SearchResultsContent({
 								// fully-built sample object (Water Lilies) to demo the
 								// search → object-detail flow.
 								getHref={() => "/objects/sample/water-lilies-1973-3"}
-								layout={variation === "grid-facets-modal" ? "drawer" : "inline"}
+								layout={
+									variation === "grid-facets-modal" || isPlaceExtras
+										? "drawer"
+										: "inline"
+								}
 								query={query}
 								seedFacet={urlFacet}
+								placeExtras={isPlaceExtras}
+								placeExtrasMode={
+									variation === "grid-facets-place-flat" ? "grouped" : "buttons"
+								}
 							/>
 						</WireframeSection>
 					</Container>

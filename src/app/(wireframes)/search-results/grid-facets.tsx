@@ -51,14 +51,54 @@ interface YearRange {
 	max: number;
 }
 
+// Raw TMS place-term fields, surfaced as extra flat facets in the
+// "More place options" accordion (place-plus variation). Each is a
+// TermEntry[] on the doc; we filter/count on the `.term` string.
+const PLACE_EXTRA_FIELDS = [
+	{ id: "place_of_creation", label: "Place of creation" },
+	{ id: "place_of_fabrication", label: "Place of fabrication" },
+	{ id: "place_name_at_creation", label: "Place name at creation" },
+	{ id: "related_geography", label: "Related geography" },
+	{ id: "find_spot", label: "Find spot" },
+] as const;
+
+type PlaceExtraId = (typeof PLACE_EXTRA_FIELDS)[number]["id"];
+
+const PLACE_EXTRA_ACCESSOR: Record<
+	PlaceExtraId,
+	(d: CollectionDocument) => string[]
+> = {
+	place_of_creation: (d) => (d.term_place_of_creation ?? []).map((t) => t.term),
+	place_of_fabrication: (d) =>
+		(d.term_place_of_fabrication ?? []).map((t) => t.term),
+	place_name_at_creation: (d) =>
+		(d.term_place_name_at_creation ?? []).map((t) => t.term),
+	related_geography: (d) => (d.term_related_geography ?? []).map((t) => t.term),
+	find_spot: (d) => (d.term_find_spot ?? []).map((t) => t.term),
+};
+
+/** Distinct maker roles on a doc (constituents[].Role). */
+const docRoles = (d: CollectionDocument): string[] =>
+	(d.constituents ?? [])
+		.map((c) => c.Role)
+		.filter((r): r is string => Boolean(r));
+
 interface GridFacetSelections {
 	artist: string | null;
+	/** Maker-role facet ("More maker options" under Artist/maker). */
+	role: string | null;
 	culture: string | null;
 	place: PlaceSelection | null;
 	medium: MediumSelection | null;
 	classification: string | null;
 	department: string | null;
 	date: YearRange | null;
+	/** Raw place-term facet selections, keyed by PlaceExtraId (buttons mode:
+	 *  each field is its own value facet). */
+	placeExtras: Partial<Record<PlaceExtraId, string>>;
+	/** Checked place FIELD types (grouped mode): a presence constraint — the doc
+	 *  must have a value in at least one checked field. Not a value filter. */
+	placeTypes: PlaceExtraId[];
 	onView: boolean;
 	hasImage: boolean;
 	openAccess: boolean;
@@ -66,12 +106,15 @@ interface GridFacetSelections {
 
 const EMPTY_GRID_SELECTIONS: GridFacetSelections = {
 	artist: null,
+	role: null,
 	culture: null,
 	place: null,
 	medium: null,
 	classification: null,
 	department: null,
 	date: null,
+	placeExtras: {},
+	placeTypes: [],
 	onView: false,
 	hasImage: false,
 	openAccess: false,
@@ -119,12 +162,26 @@ function filterGridDocs(
 	return docs.filter((d) => {
 		if (!docMatchesQuery(d, q)) return false;
 		if (sel.artist && d.primary_artist !== sel.artist) return false;
+		if (sel.role && !docRoles(d).includes(sel.role)) return false;
 		if (sel.culture && d.culture !== sel.culture) return false;
 		if (!docMatchesPlace(d, sel.place)) return false;
 		if (!docMatchesMedium(d, sel.medium)) return false;
 		if (sel.classification && d.classification !== sel.classification)
 			return false;
 		if (sel.department && d.department !== sel.department) return false;
+		for (const [id, value] of Object.entries(sel.placeExtras)) {
+			if (!value) continue;
+			if (!PLACE_EXTRA_ACCESSOR[id as PlaceExtraId](d).includes(value))
+				return false;
+		}
+		// Place-type presence constraint (grouped mode): doc must carry a value
+		// in at least one checked place field.
+		if (sel.placeTypes.length > 0) {
+			const hasAny = sel.placeTypes.some(
+				(id) => PLACE_EXTRA_ACCESSOR[id](d).length > 0,
+			);
+			if (!hasAny) return false;
+		}
 		if (sel.date) {
 			const y = objectYear(d);
 			if (y == null || y < sel.date.min || y > sel.date.max) return false;
@@ -418,6 +475,73 @@ function FacetBlock({
 					Show fewer
 				</button>
 			)}
+		</div>
+	);
+}
+
+/** "Place type" drawer body: a checkbox list of the raw place-term FIELDS
+ *  (Place of creation, Related geography, …). Checking a field adds a presence
+ *  constraint (the object must carry a value in at least one checked field) —
+ *  it scopes which place fields count, not a specific place value; the value is
+ *  still picked in the main Place tree. Empty fields are omitted. Used by the
+ *  grid-facets-place-flat variation as the single nested facet under Place. */
+function PlaceFieldsFacet({
+	fields,
+	selected,
+	onToggle,
+}: {
+	fields: { id: PlaceExtraId; label: string; count: number }[];
+	/** Currently-checked field ids. */
+	selected: PlaceExtraId[];
+	onToggle: (id: PlaceExtraId) => void;
+}) {
+	if (fields.length === 0) {
+		return (
+			<p className="py-1 font-mono text-meta text-gray-500">
+				No place-field data in this slice.
+			</p>
+		);
+	}
+	return (
+		<div className="flex flex-col gap-1">
+			<p className="mb-1 font-mono text-meta text-gray-500">
+				Filter by which place field an object records. The place value is chosen
+				in the Place tree above.
+			</p>
+			<ul className="flex flex-col">
+				{fields.map((f) => {
+					const on = selected.includes(f.id);
+					return (
+						<li key={f.id}>
+							<button
+								type="button"
+								aria-pressed={on}
+								onClick={() => onToggle(f.id)}
+								className={`flex w-full items-center gap-2 py-1.5 text-left font-mono text-meta hover:bg-gray-50 ${
+									on ? "text-gray-950" : "text-gray-700 hover:text-gray-950"
+								}`}
+							>
+								<span
+									aria-hidden
+									className={`flex h-4 w-4 shrink-0 items-center justify-center border text-label leading-none ${
+										on
+											? "border-gray-900 bg-gray-900 text-white"
+											: "border-gray-500 bg-white"
+									}`}
+								>
+									{on ? "✓" : ""}
+								</span>
+								<span className={`min-w-0 flex-1 ${on ? "font-medium" : ""}`}>
+									{f.label}
+								</span>
+								<span className="shrink-0 tabular-nums text-gray-500">
+									{f.count.toLocaleString()}
+								</span>
+							</button>
+						</li>
+					);
+				})}
+			</ul>
 		</div>
 	);
 }
@@ -1066,6 +1190,9 @@ export function GridFacetsView({
 	layout = "inline",
 	query = "",
 	seedFacet = "",
+	placeExtras = false,
+	placeExtrasCollapsible = true,
+	placeExtrasMode = "buttons",
 }: {
 	docs: CollectionDocument[];
 	getHref: (id: number) => string;
@@ -1076,7 +1203,23 @@ export function GridFacetsView({
 	query?: string;
 	/** Autocomplete facet pick (raw `?facet=type:value`); seeds a selection. */
 	seedFacet?: string;
+	/** Show the raw place-term facets in a "More place options" disclosure
+	 *  under Place, and the maker Role facet under Artist/maker (place-plus
+	 *  variation). */
+	placeExtras?: boolean;
+	/** true → place extras sit in a "More place options" accordion; false →
+	 *  rendered directly nested under Place (like the maker Role facet). Only
+	 *  used when placeExtrasMode === "buttons". */
+	placeExtrasCollapsible?: boolean;
+	/** How the place-term facets nest under Place:
+	 *  - "buttons": one facet button per place field (each opens its own drawer),
+	 *    optionally wrapped in a "More place options" accordion.
+	 *  - "grouped": a single "Place type" button (like Role) opening ONE drawer
+	 *    where the place fields are expandable sections. */
+	placeExtrasMode?: "buttons" | "grouped";
 }) {
+	// Same flag gates the maker-role extras; kept as one variation switch.
+	const makerExtras = placeExtras;
 	const [sel, setSel] = useState<GridFacetSelections>(EMPTY_GRID_SELECTIONS);
 	const [openFacet, setOpenFacet] = useState<string | null>(null);
 	const [sort, setSort] = useState<SortKey>("relevance");
@@ -1106,6 +1249,9 @@ export function GridFacetsView({
 			artist: prev.artist === value ? null : value,
 		}));
 	};
+	const setRole = (value: string | null) => {
+		setSel((prev) => ({ ...prev, role: prev.role === value ? null : value }));
+	};
 	const setCulture = (value: string | null) => {
 		setSel((prev) => ({
 			...prev,
@@ -1126,6 +1272,22 @@ export function GridFacetsView({
 	};
 	const setDate = (range: YearRange | null) => {
 		setSel((prev) => ({ ...prev, date: range }));
+	};
+	const setPlaceExtra = (id: PlaceExtraId, value: string | null) => {
+		setSel((prev) => {
+			const next = { ...prev.placeExtras };
+			if (value == null || next[id] === value) delete next[id];
+			else next[id] = value;
+			return { ...prev, placeExtras: next };
+		});
+	};
+	const togglePlaceType = (id: PlaceExtraId) => {
+		setSel((prev) => ({
+			...prev,
+			placeTypes: prev.placeTypes.includes(id)
+				? prev.placeTypes.filter((t) => t !== id)
+				: [...prev.placeTypes, id],
+		}));
 	};
 	const toggleFlag = (key: "onView" | "hasImage" | "openAccess") => {
 		setSel((prev) => ({ ...prev, [key]: !prev[key] }));
@@ -1194,6 +1356,16 @@ export function GridFacetsView({
 			),
 		[docs, sel, query],
 	);
+	const roleOpts = useMemo(
+		() =>
+			makerExtras
+				? countFlat(
+						filterGridDocs(docs, { ...sel, role: null }, query),
+						docRoles,
+					)
+				: [],
+		[docs, sel, query, makerExtras],
+	);
 	const cultureOpts = useMemo(
 		() =>
 			countFlat(filterGridDocs(docs, { ...sel, culture: null }, query), (d) =>
@@ -1222,6 +1394,37 @@ export function GridFacetsView({
 			buildYearHistogram(filterGridDocs(docs, { ...sel, date: null }, query)),
 		[docs, sel, query],
 	);
+	// Options for each raw place-term facet, counted with that facet's own
+	// selection cleared (so its list stays browsable) but the others applied.
+	const placeExtraOpts = useMemo(() => {
+		if (!placeExtras) return {} as Record<PlaceExtraId, FacetOption[]>;
+		const out = {} as Record<PlaceExtraId, FacetOption[]>;
+		for (const { id } of PLACE_EXTRA_FIELDS) {
+			const others = { ...sel.placeExtras };
+			delete others[id];
+			out[id] = countFlat(
+				filterGridDocs(docs, { ...sel, placeExtras: others }, query),
+				PLACE_EXTRA_ACCESSOR[id],
+			);
+		}
+		return out;
+	}, [docs, sel, query, placeExtras]);
+
+	// Presence count per place field (grouped mode): how many docs would carry a
+	// value in that field under the OTHER active filters (place-types cleared,
+	// so each count is independent of the current type selection).
+	const placeTypeCounts = useMemo(() => {
+		if (!placeExtras) return {} as Record<PlaceExtraId, number>;
+		const base = filterGridDocs(docs, { ...sel, placeTypes: [] }, query);
+		const out = {} as Record<PlaceExtraId, number>;
+		for (const { id } of PLACE_EXTRA_FIELDS) {
+			out[id] = base.reduce(
+				(n, d) => n + (PLACE_EXTRA_ACCESSOR[id](d).length > 0 ? 1 : 0),
+				0,
+			);
+		}
+		return out;
+	}, [docs, sel, query, placeExtras]);
 
 	const placeChipLabel = sel.place
 		? `${sel.place.level === "region" ? "Region" : sel.place.level === "country" ? "Country" : sel.place.level === "state" ? "State" : "Place"}: ${sel.place.value}`
@@ -1229,17 +1432,119 @@ export function GridFacetsView({
 	const mediumChipLabel = sel.medium
 		? `${sel.medium.level === "section" ? "Medium" : sel.medium.level === "subcategory" ? "Medium type" : "Medium detail"}: ${sel.medium.value}`
 		: null;
+	const activePlaceExtras = Object.entries(sel.placeExtras).filter(([, v]) =>
+		Boolean(v),
+	) as [PlaceExtraId, string][];
 	const anyActive =
 		Boolean(sel.artist) ||
+		Boolean(sel.role) ||
 		Boolean(sel.culture) ||
 		Boolean(sel.place) ||
 		Boolean(sel.medium) ||
 		Boolean(sel.classification) ||
 		Boolean(sel.department) ||
 		Boolean(sel.date) ||
+		activePlaceExtras.length > 0 ||
+		sel.placeTypes.length > 0 ||
 		sel.onView ||
 		sel.hasImage ||
 		sel.openAccess;
+
+	// How many nested place selections are active, per mode: field-values
+	// (buttons) vs checked field-types (grouped).
+	const placeExtraActiveCount =
+		placeExtrasMode === "grouped"
+			? sel.placeTypes.length
+			: activePlaceExtras.length;
+
+	// "More place options" — the raw TMS place-term fields, each surfaced as its
+	// own facet panel (drawer button + control) nested under Place in a
+	// disclosure. Only fields that carry options in the current slice appear, so
+	// no empty facets show. place-plus variation only.
+	const placeExtraPanels = placeExtras
+		? PLACE_EXTRA_FIELDS.map(({ id, label }) => ({
+				id: `pe:${id}` as const,
+				extraId: id,
+				label,
+				options: placeExtraOpts[id] ?? [],
+				activeCount: sel.placeExtras[id] ? 1 : 0,
+			})).filter((p) => p.options.length > 0 || p.activeCount > 0)
+		: [];
+
+	// Populated place fields for the "grouped" mode (single "Place type" drawer:
+	// checkbox list of field names + presence counts). A field shows if it has
+	// any doc in the current slice (count > 0) or is already checked.
+	const placeFields = placeExtras
+		? PLACE_EXTRA_FIELDS.map(({ id, label }) => ({
+				id,
+				label,
+				count: placeTypeCounts[id] ?? 0,
+			})).filter((f) => f.count > 0 || sel.placeTypes.includes(f.id))
+		: [];
+
+	// "More maker options" — extra maker facets nested under Artist/maker in a
+	// disclosure. Currently just Role (constituents[].Role). Only shown when it
+	// has options (or an active selection).
+	const makerExtraPanels =
+		makerExtras && (roleOpts.length > 0 || sel.role)
+			? [
+					{
+						id: "me:role" as const,
+						label: "Role",
+						options: roleOpts,
+						selected: sel.role,
+						onSelect: setRole,
+						activeCount: sel.role ? 1 : 0,
+					},
+				]
+			: [];
+
+	// Nested "More … options" disclosures, keyed by their PARENT panel id. Each
+	// renders under its parent's drawer button as a sub-list of facet buttons.
+	const nestedByParent: Record<
+		string,
+		{
+			/** true → wrap the nested buttons in a "More …" <details> accordion;
+			 *  false → render them directly nested (single facet doesn't warrant a
+			 *  collapse). */
+			collapsible: boolean;
+			summary: string;
+			activeCount: number;
+			panels: { id: string; label: string; activeCount: number }[];
+		}
+	> = {
+		place:
+			placeExtrasMode === "grouped"
+				? {
+						// One "Place type" button (like Role); opens a drawer with the
+						// place-field checkbox list.
+						collapsible: false,
+						summary: "",
+						activeCount: sel.placeTypes.length,
+						panels:
+							placeFields.length > 0
+								? [
+										{
+											id: "pe:place-type",
+											label: "Place type",
+											activeCount: sel.placeTypes.length,
+										},
+									]
+								: [],
+					}
+				: {
+						collapsible: placeExtrasCollapsible,
+						summary: "More place options",
+						activeCount: activePlaceExtras.length,
+						panels: placeExtraPanels,
+					},
+		artist: {
+			collapsible: false,
+			summary: "More maker options",
+			activeCount: sel.role ? 1 : 0,
+			panels: makerExtraPanels,
+		},
+	};
 
 	// One descriptor per facet: its control (shared by both layouts) and how
 	// many selections are active (for the drawer-layout button badge).
@@ -1258,7 +1563,7 @@ export function GridFacetsView({
 		{
 			id: "artist",
 			label: "Artist/maker",
-			activeCount: sel.artist ? 1 : 0,
+			activeCount: (sel.artist ? 1 : 0) + (sel.role ? 1 : 0),
 			control: (
 				<FacetBlock
 					label="Artist/maker"
@@ -1284,7 +1589,7 @@ export function GridFacetsView({
 		{
 			id: "place",
 			label: "Place",
-			activeCount: sel.place ? 1 : 0,
+			activeCount: (sel.place ? 1 : 0) + placeExtraActiveCount,
 			control: (
 				<TreeFacet
 					label="Place"
@@ -1380,7 +1685,54 @@ export function GridFacetsView({
 	const panels = PANEL_ORDER.map((id) =>
 		panelsByDef.find((p) => p.id === id),
 	).filter((p): p is (typeof panelsByDef)[number] => p != null);
-	const activePanel = panels.find((p) => p.id === openFacet);
+
+	// Drawer content for an open nested facet (opened from a nested facet button
+	// under a parent): place-extras under Place, maker Role under Artist/maker.
+	const activePlaceExtra = placeExtraPanels.find((p) => p.id === openFacet);
+	const activeMakerExtra = makerExtraPanels.find((p) => p.id === openFacet);
+	// "grouped" mode: the single "Place type" drawer with expandable field
+	// sections (all place fields in one control).
+	const activePlaceType =
+		placeExtrasMode === "grouped" && openFacet === "pe:place-type";
+	const activePanel = activePlaceType
+		? {
+				id: "pe:place-type",
+				label: "Place type",
+				control: (
+					<PlaceFieldsFacet
+						fields={placeFields}
+						selected={sel.placeTypes}
+						onToggle={togglePlaceType}
+					/>
+				),
+			}
+		: activePlaceExtra
+			? {
+					id: activePlaceExtra.id,
+					label: activePlaceExtra.label,
+					control: (
+						<FacetBlock
+							label={activePlaceExtra.label}
+							options={activePlaceExtra.options}
+							selected={sel.placeExtras[activePlaceExtra.extraId] ?? null}
+							onSelect={(v) => setPlaceExtra(activePlaceExtra.extraId, v)}
+						/>
+					),
+				}
+			: activeMakerExtra
+				? {
+						id: activeMakerExtra.id,
+						label: activeMakerExtra.label,
+						control: (
+							<FacetBlock
+								label={activeMakerExtra.label}
+								options={activeMakerExtra.options}
+								selected={activeMakerExtra.selected}
+								onSelect={activeMakerExtra.onSelect}
+							/>
+						),
+					}
+				: panels.find((p) => p.id === openFacet);
 
 	// On view / Has image / Open access toggles. Rendered as one segmented
 	// pill group (shared border, no gaps) so the three read as a single
@@ -1452,14 +1804,63 @@ export function GridFacetsView({
 
 						{layout === "drawer" ? (
 							<div className="mt-3 flex flex-col gap-2">
-								{panels.map((p) => (
-									<FacetButton
-										key={p.id}
-										label={p.label}
-										activeCount={p.activeCount}
-										onClick={() => setOpenFacet(p.id)}
-									/>
-								))}
+								{panels.map((p) => {
+									const nested = nestedByParent[p.id];
+									return (
+										<div key={p.id} className="flex flex-col gap-2">
+											<FacetButton
+												label={p.label}
+												activeCount={p.activeCount}
+												onClick={() => setOpenFacet(p.id)}
+											/>
+											{/* Nested facets under a parent button (place-term facets
+											    under Place, maker Role under Artist). Multiple → a
+											    "More …" accordion; single → rendered directly nested. */}
+											{nested &&
+												nested.panels.length > 0 &&
+												(nested.collapsible ? (
+													<details
+														className="group ml-3 border-l border-gray-200 pl-2"
+														open={nested.activeCount > 0}
+													>
+														<summary className="flex cursor-pointer list-none items-center gap-1 py-1 font-mono text-meta text-gray-600 hover:text-gray-900">
+															<span
+																aria-hidden
+																className="inline-block transition-transform group-open:rotate-90"
+															>
+																▸
+															</span>
+															{nested.summary}
+															{nested.activeCount > 0
+																? ` (${nested.activeCount})`
+																: ""}
+														</summary>
+														<div className="mt-1 flex flex-col gap-2">
+															{nested.panels.map((np) => (
+																<FacetButton
+																	key={np.id}
+																	label={np.label}
+																	activeCount={np.activeCount}
+																	onClick={() => setOpenFacet(np.id)}
+																/>
+															))}
+														</div>
+													</details>
+												) : (
+													<div className="ml-3 flex flex-col gap-2 border-l border-gray-200 pl-2">
+														{nested.panels.map((np) => (
+															<FacetButton
+																key={np.id}
+																label={np.label}
+																activeCount={np.activeCount}
+																onClick={() => setOpenFacet(np.id)}
+															/>
+														))}
+													</div>
+												))}
+										</div>
+									);
+								})}
 							</div>
 						) : (
 							<div className="mt-3 flex flex-col gap-3">
@@ -1528,6 +1929,16 @@ export function GridFacetsView({
 									<span>×</span>
 								</button>
 							)}
+							{sel.role && (
+								<button
+									type="button"
+									onClick={() => setRole(null)}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>Role: {sel.role}</span>
+									<span>×</span>
+								</button>
+							)}
 							{sel.culture && (
 								<button
 									type="button"
@@ -1548,6 +1959,38 @@ export function GridFacetsView({
 									<span>×</span>
 								</button>
 							)}
+							{activePlaceExtras.map(([id, value]) => {
+								const label =
+									PLACE_EXTRA_FIELDS.find((f) => f.id === id)?.label ?? id;
+								return (
+									<button
+										key={id}
+										type="button"
+										onClick={() => setPlaceExtra(id, null)}
+										className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+									>
+										<span>
+											{label}: {value}
+										</span>
+										<span>×</span>
+									</button>
+								);
+							})}
+							{sel.placeTypes.map((id) => {
+								const label =
+									PLACE_EXTRA_FIELDS.find((f) => f.id === id)?.label ?? id;
+								return (
+									<button
+										key={id}
+										type="button"
+										onClick={() => togglePlaceType(id)}
+										className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+									>
+										<span>Place type: {label}</span>
+										<span>×</span>
+									</button>
+								);
+							})}
 							{mediumChipLabel && (
 								<button
 									type="button"

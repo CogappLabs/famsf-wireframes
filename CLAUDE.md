@@ -84,16 +84,17 @@ All components are exported from `@/components/wireframe`:
 Pages can offer alternative layouts via URL search params (e.g. `?variation=list`). This lets stakeholders compare design options with shareable links. The toggle renders automatically in the layout top bar.
 
 Current variations:
-- **Search Results**: grid + facet drawer (**primary / default**) / grid + facets / grid / list / zero-results / AI search / artworks + artists / interleaved
+- **Search Results**: grid + facet drawer (**primary / default**) / grid + facets / grid + place options / grid + place options (flat) / list / zero-results / AI search / artworks + artists / interleaved. (The bare `grid` variation was removed 2026-07-08.)
   - **grid + facet drawer** is **first in `VIEW_VARIATIONS`**, so bare
     `/search-results` loads it — it's the Phase 1 primary search view. The
     other entries stay as design alternatives behind `?variation=`.
-  - **grid + facet drawer** (`?variation=grid-facets-modal`) and **grid +
-    facets** (`?variation=grid-facets`) are the only variations backed by
-    **real pipeline data** (a ~600-object slice in `src/data/grid-facets-docs/`,
-    see below). Both render a left facet column instead of the horizontal bar,
-    sharing the same `GridFacetsView` (a `layout` prop switches inline vs
-    drawer). Facets, top to bottom:
+  - **grid + facet drawer** (`?variation=grid-facets-modal`), **grid +
+    facets** (`?variation=grid-facets`), and the two **place-options**
+    variations (`?variation=grid-facets-place` / `grid-facets-place-flat`) are
+    the variations backed by **real pipeline data** (a ~600-object slice in
+    `src/data/grid-facets-docs/`, see below). All render a left facet column
+    instead of the horizontal bar, sharing the same `GridFacetsView` (a
+    `layout` prop switches inline vs drawer). Facets, top to bottom:
     Facet display order (PANEL_ORDER, grid-facets.tsx): Artist/maker, Date,
     Place, Culture group, Medium, Object type, Department, Collection. (The
     Gallery + Technique facets were removed 2026-07-07.) Labels use
@@ -156,6 +157,37 @@ Current variations:
     badge) opening the same control in a right-anchored side **drawer** (native
     `<dialog>`, mobile + desktop; the URL key keeps the `-modal` name for stable
     links, changed 2026-07-07).
+  - **Nested "More … options" facets** (`placeExtras` prop on `GridFacetsView`,
+    drawer layout, place-options variations only, added 2026-07-08). Under a
+    parent facet button, a sub-list of extra facet buttons (indented, left
+    border), each opening its own drawer:
+    - **Place → raw place-term facets.** The four/five raw TMS place fields
+      (`term_place_of_creation`, `term_place_of_fabrication`,
+      `term_place_name_at_creation`, `term_related_geography`, `term_find_spot`)
+      as flat facets. Only fields with options in the slice render (Place of
+      creation ~534 docs + Related geography ~74 docs on the current slice; the
+      rest are empty and hidden — no fabricated data). Filter/count on `.term`.
+    - **Artist/maker → Role.** Single facet off `constituents[].Role`
+      (Artist / Publisher / Designer / Printer / Author / …, ~372 docs).
+    - Two variations differ in how Place's extras nest (`placeExtrasMode` prop):
+      - `grid-facets-place` (`"buttons"`) — one facet **button per place field**
+        under Place, each opening its own drawer, wrapped in a **"More place
+        options" accordion** (`<details>`, `placeExtrasCollapsible`).
+      - `grid-facets-place-flat` (`"grouped"`) — a **single "Place type" button**
+        under Place (like Role under Artist). Opens ONE drawer that is a
+        **checkbox list of the place FIELD names** (`PlaceFieldsFacet`): Place of
+        creation / Place name at creation / Related geography / Find spot, with a
+        presence count each. Checking fields adds a **presence constraint**
+        (`placeTypes` on the selection) — the object must record a value in at
+        least one checked field. It scopes *which* place field counts, NOT a
+        place value; the value is still picked in the Place tree above. (The
+        curated `facet_place` tree is source-field-agnostic, so the tree can't be
+        truly re-pointed at one TMS field — hence a presence constraint rather
+        than a re-target.)
+      The maker Role is always a single directly-nested button. Parent button
+      badge counts its own + nested selections; each active place-field / role
+      pick gets its own active-filter chip. `nestedByParent` in `grid-facets.tsx`
+      is the config map (parent id → summary + panels + `collapsible`).
   - **Omnibox, sort, pagination** (grid-facets only): the search bar's `?q=`
     filters the slice (title/artist/medium/dept/classification/accession) via
     a `query` prop on `GridFacetsView`; the autocomplete suggests **only the
