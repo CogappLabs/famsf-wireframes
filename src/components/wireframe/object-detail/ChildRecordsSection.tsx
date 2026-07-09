@@ -12,19 +12,18 @@ const CHILD_CARD_LIMIT = 12;
 
 /**
  * Object-detail child-records section (CW-32, parent-child inline): a thumbnail
- * grid when child_cards are populated, otherwise a flat accession-ID fallback
- * split into physical / virtual children. Renders nothing without child ids.
+ * grid when child_cards are populated, otherwise a flat accession-ID fallback of
+ * physical children. Renders nothing without child ids. Virtual (Runway
+ * collection) children are omitted per the FAMSF field-exclusion list.
  */
 export function ChildRecordsSection({
 	childCards,
 	physicalChildIds,
-	virtualChildIds,
 }: {
 	childCards: ChildCard[];
 	physicalChildIds: number[];
-	virtualChildIds: number[];
 }) {
-	const hasChildIds = physicalChildIds.length > 0 || virtualChildIds.length > 0;
+	const hasChildIds = physicalChildIds.length > 0;
 	if (!hasChildIds) return null;
 
 	const hasChildCards = childCards.length > 0;
@@ -39,10 +38,7 @@ export function ChildRecordsSection({
 			<Container>
 				<SectionLabel className="mb-4">
 					Child records (
-					{childCards.length > 0
-						? childCards.length
-						: physicalChildIds.length + virtualChildIds.length}
-					)
+					{childCards.length > 0 ? childCards.length : physicalChildIds.length})
 				</SectionLabel>
 				<FieldSourceBadge field="child_cards" block />
 
@@ -91,40 +87,20 @@ export function ChildRecordsSection({
 						)}
 					</>
 				) : (
-					<>
-						{physicalChildIds.length > 0 && (
-							<div className="mb-4">
-								<TombstoneLabel className="mb-2 block">
-									Physical children ({physicalChildIds.length})
-								</TombstoneLabel>
-								<p className="font-mono text-meta text-gray-700">
-									{physicalChildIds.slice(0, 10).join(", ")}
-									{physicalChildIds.length > 10 && (
-										<span className="text-gray-400">
-											{" "}
-											and {physicalChildIds.length - 10} more
-										</span>
-									)}
-								</p>
-							</div>
-						)}
-						{virtualChildIds.length > 0 && (
-							<div>
-								<TombstoneLabel className="mb-2 block">
-									Virtual children ({virtualChildIds.length})
-								</TombstoneLabel>
-								<p className="font-mono text-meta text-gray-700">
-									{virtualChildIds.slice(0, 10).join(", ")}
-									{virtualChildIds.length > 10 && (
-										<span className="text-gray-400">
-											{" "}
-											and {virtualChildIds.length - 10} more
-										</span>
-									)}
-								</p>
-							</div>
-						)}
-					</>
+					<div>
+						<TombstoneLabel className="mb-2 block">
+							Physical children ({physicalChildIds.length})
+						</TombstoneLabel>
+						<p className="font-mono text-meta text-gray-700">
+							{physicalChildIds.slice(0, 10).join(", ")}
+							{physicalChildIds.length > 10 && (
+								<span className="text-gray-400">
+									{" "}
+									and {physicalChildIds.length - 10} more
+								</span>
+							)}
+						</p>
+					</div>
 				)}
 			</Container>
 		</WireframeSection>

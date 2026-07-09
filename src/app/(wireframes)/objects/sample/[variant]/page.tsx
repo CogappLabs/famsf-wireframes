@@ -7,7 +7,6 @@ import {
 	ScopeMark,
 	SectionLabel,
 	TombstoneLabel,
-	TranscriptionList,
 	WireframeSection,
 } from "@/components/wireframe";
 import FieldSourceBadge from "@/components/wireframe/FieldSourceBadge";
@@ -63,21 +62,16 @@ function humaniseFieldName(field: string): string {
 		.replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
-/** All 15 term_* field keys in preferred display order. */
+/** term_* field keys in preferred display order.
+ * Period/Reign/Dynasty/Style/Movement/School and Subject are omitted per the
+ * FAMSF object-page field-exclusion list (Style/period/movement, Subject tags). */
 const TERM_FIELDS = [
 	"term_place_of_creation",
 	"term_place_of_fabrication",
 	"term_place_name_at_creation",
 	"term_related_geography",
 	"term_find_spot",
-	"term_period",
-	"term_reign",
-	"term_dynasty",
-	"term_style",
-	"term_movement",
-	"term_school",
 	"term_materials",
-	"term_subject",
 	"term_intended_market",
 	"term_rights_statement",
 ] as const;
@@ -221,14 +215,9 @@ export default async function SampleObjectPage({ params }: Props) {
 	const hasConstituents = doc.constituents.length > 0;
 	const hasExhibitions = doc.exhibitions.length > 0;
 	const physicalChildIds = doc.physical_child_ids ?? [];
-	const virtualChildIds = doc.virtual_child_ids ?? [];
 	const childCards = doc.child_cards ?? [];
 	const mediumParts = doc.medium_parts ?? [];
-	const hasDescription = !!(
-		doc.identifying_description ||
-		doc.web_text ||
-		doc.didactic_label
-	);
+	const hasDescription = !!doc.web_text;
 	const onViewLocation =
 		doc.on_view && (doc.location_building || doc.location_room)
 			? [doc.location_building, doc.location_room].filter(Boolean).join(", ")
@@ -458,19 +447,14 @@ export default async function SampleObjectPage({ params }: Props) {
 									</p>
 								)}
 
-								{/* Gap 1: is_compound / is_virtual badges */}
-								{(doc.is_compound || doc.is_virtual) && (
+								{/* Compound-parent badge. The Virtual (Runway collection /
+								    virtual parents) badge is intentionally not rendered per the
+								    FAMSF field-exclusion list. */}
+								{doc.is_compound && (
 									<div className="mb-3 flex flex-wrap gap-2">
-										{doc.is_compound && (
-											<span className="inline-block rounded bg-gray-100 px-2 py-0.5 font-mono text-label tracking-wider text-gray-500">
-												Compound Parent
-											</span>
-										)}
-										{doc.is_virtual && (
-											<span className="inline-block rounded bg-amber-50 px-2 py-0.5 font-mono text-label tracking-wider text-amber-700">
-												Virtual
-											</span>
-										)}
+										<span className="inline-block rounded bg-gray-100 px-2 py-0.5 font-mono text-label tracking-wider text-gray-500">
+											Compound Parent
+										</span>
 									</div>
 								)}
 
@@ -587,7 +571,6 @@ export default async function SampleObjectPage({ params }: Props) {
 							<ChildRecordsSection
 								childCards={childCards}
 								physicalChildIds={physicalChildIds}
-								virtualChildIds={virtualChildIds}
 							/>
 						</aside>
 
@@ -618,24 +601,8 @@ export default async function SampleObjectPage({ params }: Props) {
 											</div>
 										</ScopeMark>
 									)}
-									{doc.didactic_label &&
-										doc.didactic_label !== doc.web_text && (
-											<div>
-												<ScopeMark label="Didactic label">
-													<TombstoneLabel className="mb-1 block">
-														Didactic label
-													</TombstoneLabel>
-													<FieldSourceBadge field="didactic_label" block />
-													<p
-														className="font-mono text-body leading-relaxed text-gray-700 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
-														// biome-ignore lint/security/noDangerouslySetInnerHtml: sanitised via allow-list
-														dangerouslySetInnerHTML={{
-															__html: sanitiseHtml(doc.didactic_label),
-														}}
-													/>
-												</ScopeMark>
-											</div>
-										)}
+									{/* didactic_label (Object label text / wall text) intentionally
+									    not rendered per FAMSF field-exclusion list */}
 								</WireframeSection>
 							)}
 
@@ -644,10 +611,7 @@ export default async function SampleObjectPage({ params }: Props) {
 								<SectionLabel className="mb-4">Object details</SectionLabel>
 								<div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
 									{/* Creation */}
-									{(doc.display_date ||
-										doc.medium ||
-										doc.object_name ||
-										doc.edition) && (
+									{(doc.display_date || doc.medium || doc.edition) && (
 										<TombstoneGroup label="Creation">
 											{doc.display_date && (
 												<TombstoneField
@@ -678,7 +642,6 @@ export default async function SampleObjectPage({ params }: Props) {
 													)}
 												</div>
 											)}
-											{/* object_name intentionally not rendered: guidelines mark it CMS-only (Art Finder) */}
 											{doc.edition && (
 												<TombstoneField
 													label="Edition"
@@ -802,16 +765,8 @@ export default async function SampleObjectPage({ params }: Props) {
 											value={doc.accession_number}
 											field="accession_number"
 										/>
-										{/* Alternate / legacy accession number (sort_number when it
-										    differs from the primary accession). */}
-										{doc.sort_number &&
-											doc.sort_number !== doc.accession_number && (
-												<TombstoneField
-													label="Alternate accession number"
-													value={doc.sort_number}
-													field="sort_number"
-												/>
-											)}
+										{/* Alternate / legacy accession number (sort_number)
+										    intentionally not rendered per FAMSF field-exclusion list */}
 										{/* Accession date: guidelines mark it internal-only, so gate
 										    behind the scope toggle pending Tier-policy confirm. */}
 										{doc.accession_iso_date && (
@@ -850,48 +805,8 @@ export default async function SampleObjectPage({ params }: Props) {
 										</TombstoneGroup>
 									)}
 
-									{/* Marks: Signed / Inscribed / Markings.
-							 Guidelines (Mark(s), Inscription(s), Signed) currently mark these
-							 fields internal-only. Wireframe surfaces them pending FAMSF
-							 confirmation of 2026 Tier-policy flip. Wrap in ScopeMark so
-							 stakeholders can see the gate. */}
-									{(doc.signed || doc.inscribed || doc.markings) && (
-										<TombstoneGroup label="Marks (pending Tier policy confirm)">
-											{doc.signed && (
-												<div>
-													<TombstoneLabel>Signed</TombstoneLabel>
-													<FieldSourceBadge field="signed" />
-													<TranscriptionList
-														segments={doc.signed_structured}
-														rawFallback={doc.signed}
-														className="mt-0.5"
-													/>
-												</div>
-											)}
-											{doc.inscribed && (
-												<div>
-													<TombstoneLabel>Inscribed</TombstoneLabel>
-													<FieldSourceBadge field="inscribed" />
-													<TranscriptionList
-														segments={doc.inscribed_structured}
-														rawFallback={doc.inscribed}
-														className="mt-0.5"
-													/>
-												</div>
-											)}
-											{doc.markings && (
-												<div>
-													<TombstoneLabel>Markings</TombstoneLabel>
-													<FieldSourceBadge field="markings" />
-													<TranscriptionList
-														segments={doc.markings_structured}
-														rawFallback={doc.markings.trim()}
-														className="mt-0.5"
-													/>
-												</div>
-											)}
-										</TombstoneGroup>
-									)}
+									{/* Marks (Signed / Inscribed / Markings) and Label on object
+									    intentionally not rendered per FAMSF field-exclusion list */}
 								</div>
 							</WireframeSection>
 
