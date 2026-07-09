@@ -17,7 +17,6 @@ import {
 	ImageSection,
 	RelatedWorksSection,
 	RightsCitationSection,
-	ScaleDiagram,
 	ScholarlyRecordSections,
 } from "@/components/wireframe/object-detail";
 import TomatoEasterEgg from "@/components/wireframe/TomatoEasterEgg";
@@ -47,6 +46,16 @@ export function generateStaticParams() {
 // ── Helpers ───────────────────────────────────────────────────────────
 
 /** Convert a snake_case field name to a human-readable label. */
+/**
+ * Keep only the "Overall:" element of a raw dimensions string, dropping the
+ * secondary elements (Framed, Sheet, Mount, …) that follow it. Falls back to
+ * the whole string when no "Overall:" element is present.
+ */
+function overallDimensions(dims: string): string {
+	const match = dims.match(/Overall:\s*(.+?)(?=\s+\p{Lu}[\p{L} ]*:|$)/u);
+	return match ? match[1].trim() : dims;
+}
+
 function humaniseFieldName(field: string): string {
 	return field
 		.replace(/^term_/, "")
@@ -215,8 +224,6 @@ export default async function SampleObjectPage({ params }: Props) {
 	const virtualChildIds = doc.virtual_child_ids ?? [];
 	const childCards = doc.child_cards ?? [];
 	const mediumParts = doc.medium_parts ?? [];
-	const hasDimensions =
-		doc.dimensions_structured.length > 0 || !!doc.dimensions;
 	const hasDescription = !!(
 		doc.identifying_description ||
 		doc.web_text ||
@@ -889,48 +896,17 @@ export default async function SampleObjectPage({ params }: Props) {
 							</WireframeSection>
 
 							{/* 3. Dimensions */}
-							{hasDimensions && (
+							{doc.dimensions && (
 								<WireframeSection label="Dimensions">
 									<span id="dimensions" className="sr-only">
 										Dimensions
 									</span>
 									<SectionLabel className="mb-4">Dimensions</SectionLabel>
-									<FieldSourceBadge field="dimensions_structured" block />
-									{doc.dimensions_structured.filter((d) => d.Displayed).length >
-									0 ? (
-										<ul className="flex flex-col gap-1.5">
-											{doc.dimensions_structured
-												.filter((d) => d.Displayed)
-												.map((d) => {
-													const label = d.ElementName ?? d.Description;
-													return (
-														<li
-															key={`${d.Rank}-${d.DisplayDimensions}`}
-															className="font-mono text-meta text-gray-700"
-														>
-															{label && (
-																<span className="text-gray-500">{label}: </span>
-															)}
-															{d.DisplayDimensions}
-														</li>
-													);
-												})}
-										</ul>
-									) : (
-										doc.dimensions && (
-											<p className="font-mono text-meta text-gray-700">
-												{doc.dimensions}
-											</p>
-										)
-									)}
+									<FieldSourceBadge field="dimensions" block />
+									<p className="font-mono text-meta text-gray-700">
+										{overallDimensions(doc.dimensions)}
+									</p>
 								</WireframeSection>
-							)}
-
-							{/* 3b. Scale diagram */}
-							{doc.dimensions && (
-								<ScopeMark label="Scale">
-									<ScaleDiagram obj={doc} />
-								</ScopeMark>
 							)}
 
 							{/* 4. People (constituents) */}
