@@ -17,7 +17,7 @@ import { isPageMvp } from "@/lib/scope";
 import { t } from "@/lib/strings";
 
 export default function WireframeIndex() {
-	const [mvpOnly, setMvpOnly] = useState(false);
+	const [mvpOnly, setMvpOnly] = useState(true);
 	const filtered = mvpOnly ? pages.filter((p) => isPageMvp(p.id)) : pages;
 	const mvpCount = pages.filter((p) => isPageMvp(p.id)).length;
 
