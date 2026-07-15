@@ -8,6 +8,7 @@ import BananaEasterEgg from "@/components/wireframe/BananaEasterEgg";
 import FieldDebugToggle from "@/components/wireframe/FieldDebugToggle";
 import FloatingSearch from "@/components/wireframe/FloatingSearch";
 import GlobalNav from "@/components/wireframe/GlobalNav";
+import MvpOnlyToggle from "@/components/wireframe/MvpOnlyToggle";
 import ScopeToggle from "@/components/wireframe/ScopeToggle";
 import { MvpBadge, StatusBadge } from "@/components/wireframe/StatusBadge";
 import VariationToggle from "@/components/wireframe/VariationToggle";
@@ -49,6 +50,7 @@ export default function WireframeLayout({
 				</Suspense>
 				<div className="flex items-center gap-2">
 					<FieldDebugToggle />
+					<MvpOnlyToggle />
 					<ScopeToggle />
 					{page ? (
 						<>

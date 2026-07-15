@@ -42,28 +42,28 @@ export const scope: Record<string, ScopeEntry> = {
 		issueUrl: issue("CW-36"),
 	},
 	"collection-landing/Highlights": {
-		mvp: false,
-		note: "Curated selection, needs editorial ownership. Per the June 18 2026 page-layouts spec it is a retained landing module; deferred at launch (no editorial owner).",
+		mvp: true,
+		note: "Curated selection. Per the June 18 2026 page-layouts spec it is a retained landing module. Phase 1 (needs editorial ownership for the curated set).",
 		issueUrl: issue("CW-27"),
 	},
 	"collection-landing/Browse by area": {
-		mvp: false,
-		note: "Collection-areas grid. Per the June 18 2026 page-layouts spec it is a retained landing module; the same browse path also lives in search facets (Department) and the Collection Areas nav.",
+		mvp: true,
+		note: "Collection-areas grid. Per the June 18 2026 page-layouts spec it is a retained landing module; the same browse path also lives in search facets (Department).",
 		issueUrl: issue("CW-27"),
 	},
 	"collection-landing/Thematic exploration": {
-		mvp: false,
-		note: "Curator-led thematic-discovery tiles cutting across collection areas. Added per the June 18 2026 page-layouts spec (new landing organization). Needs curator-editable theme list; deferred to keep the launch homepage lean.",
+		mvp: true,
+		note: "Curator-led thematic-discovery tiles cutting across collection areas. Per the June 18 2026 page-layouts spec (new landing organization). Phase 1 (needs curator-editable theme list).",
 		issueUrl: issue("CW-27"),
 	},
 	"collection-landing/Read watch listen": {
-		mvp: false,
-		note: "Article / video / audio editorial module. Added per the June 18 2026 page-layouts spec. Needs content audit + editorial owner; existing links surfaced in production.",
+		mvp: true,
+		note: "Article / video / audio editorial module. Per the June 18 2026 page-layouts spec. Phase 1 (needs content audit + editorial owner).",
 		issueUrl: issue("CW-27"),
 	},
 	"collection-landing/New to the collections": {
-		mvp: false,
-		note: "Recent-acquisitions strip. Added per the June 18 2026 page-layouts spec. accession_date is indexed so the feed is trivial; deferred as editorial / homepage-length call, not a data gap.",
+		mvp: true,
+		note: "Recent-acquisitions strip. Per the June 18 2026 page-layouts spec. accession_date is indexed so the feed is trivial. Phase 1.",
 		issueUrl: issue("CW-27"),
 	},
 
@@ -216,24 +216,24 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Curated, on-view works prioritised (25-40 in production)",
 		issueUrl: issue("CW-30"),
 	},
-	"collection-area/Articles & essays": {
-		mvp: false,
-		note: "Read, watch + listen (article / video / audio). Requires content audit of existing publications.",
+	"collection-area/Articles and essays": {
+		mvp: true,
+		note: "Read, watch, listen (article / video / audio). Phase 1 (needs content audit of existing publications).",
 		issueUrl: issue("CW-30"),
 	},
 	"collection-area/Deep dive": {
-		mvp: false,
-		note: "Expandable collection-history narrative. Added per the June 18 2026 page-layouts spec (Cleveland Museum of Art collection-area ref). Needs editorial copy; deferred pending content audit.",
+		mvp: true,
+		note: "Expandable collection-history narrative. Per the June 18 2026 page-layouts spec (Cleveland Museum of Art collection-area ref). Phase 1 (needs editorial copy).",
 		issueUrl: issue("CW-30"),
 	},
 	"collection-area/Featured collections": {
-		mvp: false,
-		note: "Named / sub-collection grid surfacing existing collection links. Added per the June 18 2026 page-layouts spec. Needs a curated sub-collection list per area.",
+		mvp: true,
+		note: "Named / sub-collection grid surfacing existing collection links. Per the June 18 2026 page-layouts spec. Phase 1 (needs a curated sub-collection list per area).",
 		issueUrl: issue("CW-30"),
 	},
 	"collection-area/Other resources": {
-		mvp: false,
-		note: "Study centers, research contacts, department-specific resources. Added per the June 18 2026 page-layouts spec. Editorial / per-department content.",
+		mvp: true,
+		note: "Study centers, research contacts, department-specific resources. Per the June 18 2026 page-layouts spec. Phase 1 (editorial / per-department content).",
 		issueUrl: issue("CW-30"),
 	},
 
@@ -643,7 +643,7 @@ export const scope: Record<string, ScopeEntry> = {
 	// on constituents index (CW-124) + pipeline (CW-105), both unfinished.
 	"constituents/sample/Tombstone": { mvp: false, issueUrl: issue("CW-31") },
 	"constituents/sample/Biography": { mvp: false, issueUrl: issue("CW-31") },
-	"constituents/sample/Roles & alternative names": {
+	"constituents/sample/Roles and alternative names": {
 		mvp: false,
 		issueUrl: issue("CW-31"),
 	},
@@ -662,7 +662,7 @@ export const scope: Record<string, ScopeEntry> = {
 		mvp: false,
 		note: "Scale diagram (human + banana + object on a shared baseline). Post-MVP: nice-to-have visualisation, not a Phase 1 tombstone field. Dimensions themselves are MVP.",
 	},
-	"objects/sample/Rights & citation": {
+	"objects/sample/Rights and citation": {
 		mvp: true,
 		note: "Phase 1 (CW-52): rights statement + clickable icon, copyright, credit line + citation generator with copy-to-clipboard.",
 		issueUrl: issue("CW-52"),
@@ -711,8 +711,8 @@ export const scope: Record<string, ScopeEntry> = {
 		issueUrl: issue("CW-49"),
 	},
 	"objects/sample/Scholarly publications": {
-		mvp: false,
-		note: "Expandable long-form scholarly-publications module. Added per the June 18 2026 page-layouts spec. No backing field yet (placeholder); data source TBD.",
+		mvp: true,
+		note: "Expandable long-form scholarly-publications module. Per the June 18 2026 page-layouts spec. Phase 1 (no backing field yet; data source TBD).",
 		issueUrl: issue("CW-49"),
 	},
 };

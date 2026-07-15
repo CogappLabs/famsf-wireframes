@@ -17,9 +17,12 @@ export default function WireframeSection({
 	label,
 	className = "",
 }: WireframeSectionProps) {
-	const { showScope } = useScope();
+	const { showScope, mvpOnly } = useScope();
 	const pageId = useScopePageId();
 	const entry = getAnnotation(pageId, label);
+
+	// MVP-only view drops post-MVP sections from the page entirely.
+	if (mvpOnly && entry && !entry.mvp) return null;
 
 	if (!showScope || !entry) {
 		return <section className={className}>{children}</section>;
@@ -73,9 +76,12 @@ interface ScopeMarkProps {
 }
 
 export function ScopeMark({ children, label, className = "" }: ScopeMarkProps) {
-	const { showScope } = useScope();
+	const { showScope, mvpOnly } = useScope();
 	const pageId = useScopePageId();
 	const entry = getAnnotation(pageId, label);
+
+	// MVP-only view drops post-MVP sub-components from the page entirely.
+	if (mvpOnly && entry && !entry.mvp) return null;
 
 	if (!showScope || !entry) {
 		return className ? <div className={className}>{children}</div> : children;

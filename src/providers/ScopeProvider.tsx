@@ -7,17 +7,28 @@ import { createContext, type ReactNode, useContext, useState } from "react";
 interface ScopeContextValue {
 	showScope: boolean;
 	setShowScope: (show: boolean) => void;
+	// When true, post-MVP sections are hidden entirely so the page shows the
+	// Phase 1 build only. Independent of showScope (the annotation overlay).
+	mvpOnly: boolean;
+	setMvpOnly: (mvpOnly: boolean) => void;
 }
 
 const ScopeContext = createContext<ScopeContextValue>({
 	showScope: false,
 	setShowScope: () => {},
+	mvpOnly: false,
+	setMvpOnly: () => {},
 });
 
 export function ScopeProvider({ children }: { children: ReactNode }) {
 	const [showScope, setShowScope] = useState(false);
+	// Default the review view to MVP-only: the page loads showing the Phase 1
+	// build, post-MVP sections hidden. Reviewers flip it off to see everything.
+	const [mvpOnly, setMvpOnly] = useState(true);
 	return (
-		<ScopeContext.Provider value={{ showScope, setShowScope }}>
+		<ScopeContext.Provider
+			value={{ showScope, setShowScope, mvpOnly, setMvpOnly }}
+		>
 			{children}
 		</ScopeContext.Provider>
 	);

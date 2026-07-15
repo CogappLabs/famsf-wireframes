@@ -1260,7 +1260,7 @@ export function AreaPageLayout({
 					</WireframeSection>
 				)}
 
-				{/* Articles & essays: cards link out to read/watch/listen on famsf.org */}
+				{/* Articles and essays: cards link out to read/watch/listen on famsf.org */}
 				<ScopeMark label="Articles and essays">
 					<WireframeSection
 						label="Articles and essays"
