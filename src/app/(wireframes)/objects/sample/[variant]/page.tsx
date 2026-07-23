@@ -90,23 +90,6 @@ const GEOGRAPHY_TERM_FIELDS = new Set<TermField>([
 
 // ── Sub-components ────────────────────────────────────────────────────
 
-function TombstoneGroup({
-	label,
-	children,
-}: {
-	label: string;
-	children: React.ReactNode;
-}) {
-	return (
-		<section>
-			<h3 className="mb-3 border-b border-gray-200 pb-1.5 font-mono text-label tracking-wide text-gray-500">
-				{label}
-			</h3>
-			<div className="flex flex-col gap-2.5">{children}</div>
-		</section>
-	);
-}
-
 function TombstoneField({
 	label,
 	value,
@@ -606,207 +589,178 @@ export default async function SampleObjectPage({ params }: Props) {
 								</WireframeSection>
 							)}
 
-							{/* 2. Tombstone info (Level 1) — the groups grid (header moved to rail) */}
+							{/* 2. Tombstone info (Level 1) — one flat field list, no
+							    per-category sub-headers, so the core info reads as a single
+							    tombstone with deeper-dive sections below. */}
 							<WireframeSection label="Tombstone">
 								<SectionLabel className="mb-4">Object details</SectionLabel>
-								<div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-									{/* Creation */}
-									{(doc.display_date || doc.medium || doc.edition) && (
-										<TombstoneGroup label="Creation">
-											{doc.display_date && (
-												<TombstoneField
-													label="Date"
-													value={doc.display_date}
-													field="display_date"
-												/>
-											)}
-											{doc.medium && (
-												<div>
-													<TombstoneField
-														label="Medium"
-														value={doc.medium}
-														field="medium"
-													/>
-													{/* Gap 4: medium_parts chips: only when more than one part */}
-													{mediumParts.length > 1 && (
-														<div className="mt-1.5 flex flex-wrap gap-1.5">
-															{mediumParts.map((part) => (
-																<span
-																	key={part}
-																	className="inline-block rounded bg-gray-100 px-2 py-0.5 font-mono text-label text-gray-500"
-																>
-																	{part}
-																</span>
-															))}
-														</div>
-													)}
+								<div className="flex flex-col gap-2.5">
+									{doc.display_date && (
+										<TombstoneField
+											label="Date"
+											value={doc.display_date}
+											field="display_date"
+										/>
+									)}
+									{doc.medium && (
+										<div>
+											<TombstoneField
+												label="Medium"
+												value={doc.medium}
+												field="medium"
+											/>
+											{/* medium_parts chips: only when more than one part */}
+											{mediumParts.length > 1 && (
+												<div className="mt-1.5 flex flex-wrap gap-1.5">
+													{mediumParts.map((part) => (
+														<span
+															key={part}
+															className="inline-block rounded bg-gray-100 px-2 py-0.5 font-mono text-label text-gray-500"
+														>
+															{part}
+														</span>
+													))}
 												</div>
 											)}
-											{doc.edition && (
-												<TombstoneField
-													label="Edition"
-													value={doc.edition.trim()}
-													field="edition"
-												/>
-											)}
-										</TombstoneGroup>
+										</div>
 									)}
-
-									{/* Classification */}
-									{(doc.department || doc.classification) && (
-										<TombstoneGroup label="Classification">
-											{doc.department && (
-												<TombstoneField
-													label="Collection area"
-													value={doc.department}
-													href={`/search-results?facet=department&value=${encodeURIComponent(doc.department)}`}
-													field="department"
-												/>
-											)}
-											{doc.classification && (
-												<TombstoneField
-													label="Classification"
-													value={doc.classification}
-													href={`/search-results?facet=classification&value=${encodeURIComponent(doc.classification)}`}
-													field="classification"
-												/>
-											)}
-										</TombstoneGroup>
-									)}
-
-									{/* Attributes: all populated term_* groups.
-							 Geography fields are Tier 1 public per guidelines.
-							 Non-geography (Period/Reign/Dynasty/Style/Movement/School/
-							 Materials/Subject/Intended Market) are marked Phase 2 — gated
-							 via ScopeMark pending FAMSF confirmation of 2026 policy flip. */}
-									{hasTerms && (
-										<TombstoneGroup label="Attributes">
-											{populatedTermGroups.map(({ field, label, entries }) => {
-												const isGeo = GEOGRAPHY_TERM_FIELDS.has(
-													field as TermField,
-												);
-												const inner = (
-													<>
-														<TombstoneLabel>{label}</TombstoneLabel>
-														<FieldSourceBadge field={field} />
-														<ul className="mt-0.5 flex flex-col gap-1">
-															{entries.map((entry) => {
-																const showCertainty =
-																	entry.certainty &&
-																	entry.certainty !== "(not assigned)" &&
-																	entry.certainty !== "";
-																return (
-																	<li
-																		key={`${field}-${entry.term}`}
-																		className="font-mono text-meta text-gray-700"
-																	>
-																		<Link
-																			href={`/search-results?facet=${field}&value=${encodeURIComponent(entry.term)}`}
-																			className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
-																		>
-																			{entry.term}
-																		</Link>
-																		{showCertainty && (
-																			<TombstoneLabel className="ml-1.5">
-																				({entry.certainty})
-																			</TombstoneLabel>
-																		)}
-																		{entry.path.length > 0 && (
-																			<span className="block text-label text-gray-400">
-																				{entry.path.map((n, i) => (
-																					<span key={n.cn || n.term}>
-																						{i > 0 && (
-																							<span className="text-gray-300">
-																								{" "}
-																								&gt;{" "}
-																							</span>
-																						)}
-																						<Link
-																							href={`/search-results?facet=${field}&value=${encodeURIComponent(n.term)}`}
-																							className="hover:underline hover:decoration-gray-500"
-																						>
-																							{n.term}
-																						</Link>
-																					</span>
-																				))}
-																			</span>
-																		)}
-																	</li>
-																);
-															})}
-														</ul>
-													</>
-												);
-												return isGeo ? (
-													<div key={field}>{inner}</div>
-												) : (
-													<ScopeMark
-														key={field}
-														label="Phase 2 (pending Tier policy confirm)"
-													>
-														<div>{inner}</div>
-													</ScopeMark>
-												);
-											})}
-										</TombstoneGroup>
-									)}
-
-									{/* Acquisition */}
-									<TombstoneGroup label="Acquisition">
-										{doc.credit_line && (
-											<TombstoneField
-												label="Credit line"
-												value={doc.credit_line}
-												field="credit_line"
-											/>
-										)}
+									{doc.edition && (
 										<TombstoneField
-											label="Accession number"
-											value={doc.accession_number}
-											field="accession_number"
+											label="Edition"
+											value={doc.edition.trim()}
+											field="edition"
 										/>
-										{/* Alternate / legacy accession number (sort_number)
-										    intentionally not rendered per FAMSF field-exclusion list */}
-										{/* Accession date: guidelines mark it internal-only, so gate
-										    behind the scope toggle pending Tier-policy confirm. */}
-										{doc.accession_iso_date && (
-											<ScopeMark label="Accession date (pending Tier policy confirm)">
-												<TombstoneField
-													label="Accession date"
-													value={doc.accession_iso_date.slice(0, 10)}
-													field="accession_iso_date"
-												/>
-											</ScopeMark>
-										)}
-										<ScopeMark label="Museum location">
+									)}
+									{doc.department && (
+										<TombstoneField
+											label="Collection area"
+											value={doc.department}
+											href={`/search-results?facet=department&value=${encodeURIComponent(doc.department)}`}
+											field="department"
+										/>
+									)}
+									{doc.classification && (
+										<TombstoneField
+											label="Object type"
+											value={doc.classification}
+											href={`/search-results?facet=classification&value=${encodeURIComponent(doc.classification)}`}
+											field="classification"
+										/>
+									)}
+
+									{/* Attribute term_* fields inline in the tombstone.
+									    Geography fields are Tier 1 public per guidelines;
+									    non-geography (Materials / Intended Market / …) are
+									    Phase 2, gated via ScopeMark pending Tier-policy confirm. */}
+									{hasTerms &&
+										populatedTermGroups.map(({ field, label, entries }) => {
+											const isGeo = GEOGRAPHY_TERM_FIELDS.has(
+												field as TermField,
+											);
+											const inner = (
+												<>
+													<TombstoneLabel>{label}</TombstoneLabel>
+													<FieldSourceBadge field={field} />
+													<ul className="mt-0.5 flex flex-col gap-1">
+														{entries.map((entry) => {
+															const showCertainty =
+																entry.certainty &&
+																entry.certainty !== "(not assigned)" &&
+																entry.certainty !== "";
+															return (
+																<li
+																	key={`${field}-${entry.term}`}
+																	className="font-mono text-meta text-gray-700"
+																>
+																	<Link
+																		href={`/search-results?facet=${field}&value=${encodeURIComponent(entry.term)}`}
+																		className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
+																	>
+																		{entry.term}
+																	</Link>
+																	{showCertainty && (
+																		<TombstoneLabel className="ml-1.5">
+																			({entry.certainty})
+																		</TombstoneLabel>
+																	)}
+																	{entry.path.length > 0 && (
+																		<span className="block text-label text-gray-400">
+																			{entry.path.map((n, i) => (
+																				<span key={n.cn || n.term}>
+																					{i > 0 && (
+																						<span className="text-gray-300">
+																							{" "}
+																							&gt;{" "}
+																						</span>
+																					)}
+																					<Link
+																						href={`/search-results?facet=${field}&value=${encodeURIComponent(n.term)}`}
+																						className="hover:underline hover:decoration-gray-500"
+																					>
+																						{n.term}
+																					</Link>
+																				</span>
+																			))}
+																		</span>
+																	)}
+																</li>
+															);
+														})}
+													</ul>
+												</>
+											);
+											return isGeo ? (
+												<div key={field}>{inner}</div>
+											) : (
+												<ScopeMark
+													key={field}
+													label="Phase 2 (pending Tier policy confirm)"
+												>
+													<div>{inner}</div>
+												</ScopeMark>
+											);
+										})}
+
+									{doc.credit_line && (
+										<TombstoneField
+											label="Credit line"
+											value={doc.credit_line}
+											field="credit_line"
+										/>
+									)}
+									<TombstoneField
+										label="Accession number"
+										value={doc.accession_number}
+										field="accession_number"
+									/>
+									{/* Accession date: guidelines mark it internal-only, so gate
+									    behind the scope toggle pending Tier-policy confirm. */}
+									{doc.accession_iso_date && (
+										<ScopeMark label="Accession date (pending Tier policy confirm)">
 											<TombstoneField
-												label="Museum location"
-												value={museumLocation}
-												field="location_string"
+												label="Accession date"
+												value={doc.accession_iso_date.slice(0, 10)}
+												field="accession_iso_date"
 											/>
 										</ScopeMark>
-									</TombstoneGroup>
-
-									{/* Rights */}
-									{doc.object_rights_type && (
-										<TombstoneGroup label="Rights">
-											<TombstoneField
-												label="Rights type"
-												value={doc.object_rights_type}
-												field="object_rights_type"
-											/>
-											{doc.copyright && (
-												<TombstoneField
-													label="Copyright"
-													value={doc.copyright}
-													field="copyright"
-												/>
-											)}
-										</TombstoneGroup>
 									)}
+									<ScopeMark label="Museum location">
+										<TombstoneField
+											label="Museum location"
+											value={museumLocation}
+											field="location_string"
+										/>
+									</ScopeMark>
 
-									{/* Marks (Signed / Inscribed / Markings) and Label on object
-									    intentionally not rendered per FAMSF field-exclusion list */}
+									{/* object_rights_type intentionally not shown per curator
+									    feedback; copyright statement is kept. */}
+									{doc.copyright && (
+										<TombstoneField
+											label="Copyright"
+											value={doc.copyright}
+											field="copyright"
+										/>
+									)}
 								</div>
 							</WireframeSection>
 

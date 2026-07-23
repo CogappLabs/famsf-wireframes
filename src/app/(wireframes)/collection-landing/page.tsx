@@ -239,15 +239,12 @@ function CollectionLandingContent() {
 							</div>
 						</ScopeMark>
 						<p className="mt-3 font-mono text-meta text-gray-400">
-							Or use{" "}
 							<Link
 								href="/search-results"
 								className="underline hover:text-gray-600"
 							>
 								{t("search.advancedToggle")}
-							</Link>{" "}
-							with filters for geography, culture, material, date range, and
-							more
+							</Link>
 						</p>
 					</Container>
 				</WireframeSection>
@@ -290,12 +287,9 @@ function CollectionLandingContent() {
 						className="border-b border-gray-300 py-12"
 					>
 						<Container>
-							<SectionLabel className="mb-2">
+							<SectionLabel className="mb-6">
 								{t("collection.themesHeading")}
 							</SectionLabel>
-							<p className="mb-6 max-w-[var(--container-md)] font-mono text-meta text-gray-500">
-								{t("collection.themesIntro")}
-							</p>
 							<div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
 								{THEMES.map((theme) => (
 									<Link
@@ -308,9 +302,6 @@ function CollectionLandingContent() {
 											<h3 className="font-mono text-card font-medium leading-snug">
 												{theme.name}
 											</h3>
-											<p className="mt-2 font-mono text-meta text-gray-500">
-												{theme.desc}
-											</p>
 										</div>
 									</Link>
 								))}
@@ -343,12 +334,6 @@ function CollectionLandingContent() {
 									<h3 className="font-mono text-card font-medium leading-snug">
 										{area.name}
 									</h3>
-									<p className="mt-1 font-mono text-meta text-gray-500">
-										{area.count} {t("collection.objectsSuffix")}
-									</p>
-									<p className="mt-2 font-mono text-meta text-gray-500">
-										{area.desc}
-									</p>
 								</Link>
 							))}
 						</div>
@@ -362,12 +347,9 @@ function CollectionLandingContent() {
 						className="border-b border-gray-300 py-12"
 					>
 						<Container>
-							<SectionLabel className="mb-2">
+							<SectionLabel className="mb-6">
 								{t("collection.readWatchListenHeading")}
 							</SectionLabel>
-							<p className="mb-6 max-w-[var(--container-md)] font-mono text-meta text-gray-500">
-								{t("collection.readWatchListenIntro")}
-							</p>
 							<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
 								{READ_WATCH_LISTEN.map((item) => (
 									<ExternalLink
@@ -402,12 +384,9 @@ function CollectionLandingContent() {
 				<ScopeMark label="New to the collections">
 					<WireframeSection label="New to the collections" className="py-12">
 						<Container>
-							<SectionLabel className="mb-2">
+							<SectionLabel className="mb-6">
 								{t("collection.newToCollectionsHeading")}
 							</SectionLabel>
-							<p className="mb-6 max-w-[var(--container-md)] font-mono text-meta text-gray-500">
-								{t("collection.newToCollectionsIntro")}
-							</p>
 							<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
 								{NEW_ACQUISITIONS.map((work) => (
 									<Link

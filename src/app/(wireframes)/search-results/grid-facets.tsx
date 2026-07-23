@@ -100,6 +100,8 @@ interface GridFacetSelections {
 	 *  must have a value in at least one checked field. Not a value filter. */
 	placeTypes: PlaceExtraId[];
 	onView: boolean;
+	/** When On view is active, narrow to one museum. null = either. */
+	onViewBuilding: "de Young" | "Legion" | null;
 	hasImage: boolean;
 	openAccess: boolean;
 }
@@ -116,6 +118,7 @@ const EMPTY_GRID_SELECTIONS: GridFacetSelections = {
 	placeExtras: {},
 	placeTypes: [],
 	onView: false,
+	onViewBuilding: null,
 	hasImage: false,
 	openAccess: false,
 };
@@ -187,6 +190,12 @@ function filterGridDocs(
 			if (y == null || y < sel.date.min || y > sel.date.max) return false;
 		}
 		if (sel.onView && !d.on_view) return false;
+		if (
+			sel.onView &&
+			sel.onViewBuilding &&
+			d.location_building !== sel.onViewBuilding
+		)
+			return false;
 		if (sel.hasImage && !d.has_image) return false;
 		if (sel.openAccess && !isPublicDomain(d)) return false;
 		return true;
@@ -1289,8 +1298,24 @@ export function GridFacetsView({
 				: [...prev.placeTypes, id],
 		}));
 	};
-	const toggleFlag = (key: "onView" | "hasImage" | "openAccess") => {
+	const toggleFlag = (key: "hasImage" | "openAccess") => {
 		setSel((prev) => ({ ...prev, [key]: !prev[key] }));
+	};
+	const setOnView = (on: boolean, building: "de Young" | "Legion" | null) => {
+		setSel((prev) => ({
+			...prev,
+			onView: on,
+			onViewBuilding: on ? building : null,
+		}));
+	};
+	const setOnViewBuilding = (building: "de Young" | "Legion") => {
+		setSel((prev) => ({
+			...prev,
+			onView: true,
+			// Toggle the museum off (back to "either") if it's already selected.
+			onViewBuilding:
+				prev.onView && prev.onViewBuilding === building ? null : building,
+		}));
 	};
 	const selectPlace = (next: TierSelection) => {
 		setSel((prev) => {
@@ -1574,6 +1599,66 @@ export function GridFacetsView({
 			),
 		},
 		{
+			id: "onview",
+			label: "On view",
+			activeCount: sel.onView ? 1 : 0,
+			control: (
+				<div className="border-b border-gray-200 pb-3">
+					<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
+						On view
+					</p>
+					<ul className="flex flex-col">
+						{(
+							[
+								["On view (either museum)", null],
+								["de Young", "de Young"],
+								["Legion of Honor", "Legion"],
+							] as const
+						).map(([label, building]) => {
+							const on = sel.onView && sel.onViewBuilding === building;
+							return (
+								<li key={label}>
+									<button
+										type="button"
+										aria-pressed={on}
+										onClick={() =>
+											building === null
+												? setOnView(true, null)
+												: setOnViewBuilding(building)
+										}
+										className={`flex w-full items-center gap-2 py-1 text-left font-mono text-meta ${
+											on
+												? "text-gray-950"
+												: "text-gray-700 hover:bg-gray-50 hover:text-gray-950"
+										}`}
+									>
+										<span
+											aria-hidden
+											className={`h-4 w-4 shrink-0 border ${
+												on
+													? "border-gray-900 bg-gray-900"
+													: "border-gray-500 bg-white"
+											}`}
+										/>
+										<span className="min-w-0 flex-1 truncate">{label}</span>
+									</button>
+								</li>
+							);
+						})}
+					</ul>
+					{sel.onView && (
+						<button
+							type="button"
+							onClick={() => setOnView(false, null)}
+							className="mt-2 font-mono text-label text-gray-500 underline hover:text-gray-700"
+						>
+							Clear
+						</button>
+					)}
+				</div>
+			),
+		},
+		{
 			id: "culture",
 			label: "Culture group",
 			activeCount: sel.culture ? 1 : 0,
@@ -1674,6 +1759,7 @@ export function GridFacetsView({
 	// last (non-functional until the FAMSF Collecting Area TMS field exists).
 	const PANEL_ORDER = [
 		"artist",
+		"onview",
 		"date",
 		"place",
 		"culture",
@@ -1734,34 +1820,36 @@ export function GridFacetsView({
 					}
 				: panels.find((p) => p.id === openFacet);
 
-	// On view / Has image / Open access toggles. Rendered as one segmented
-	// pill group (shared border, no gaps) so the three read as a single
-	// "quick filters" control rather than three loose buttons.
+	// Has image / Open access toggles. Rendered as one segmented pill group
+	// (shared border, no gaps). On view is a drawer facet panel (below
+	// Artist/maker), not a pill, so it can carry the de Young / Legion
+	// museum narrowing.
 	const TOGGLES = [
-		["onView", "On view", sel.onView],
 		["hasImage", "Has image", sel.hasImage],
 		["openAccess", "Open access", sel.openAccess],
 	] as const;
 	const toggleButtons = (
-		<fieldset className="inline-flex divide-x divide-gray-300 overflow-hidden border border-gray-300 p-0">
-			<legend className="sr-only">Quick filters</legend>
-			{TOGGLES.map(([key, label, on]) => (
-				<button
-					key={key}
-					type="button"
-					aria-pressed={on}
-					onClick={() => toggleFlag(key)}
-					className={`flex items-center gap-1.5 px-3 py-1.5 font-mono text-meta transition-colors ${
-						on
-							? "bg-gray-900 text-white"
-							: "bg-white text-gray-700 hover:bg-gray-50"
-					}`}
-				>
-					<span aria-hidden>{on ? "✓" : "+"}</span>
-					{label}
-				</button>
-			))}
-		</fieldset>
+		<div className="flex flex-wrap items-center gap-2">
+			<fieldset className="inline-flex divide-x divide-gray-300 overflow-hidden border border-gray-300 p-0">
+				<legend className="sr-only">Quick filters</legend>
+				{TOGGLES.map(([key, label, on]) => (
+					<button
+						key={key}
+						type="button"
+						aria-pressed={on}
+						onClick={() => toggleFlag(key)}
+						className={`flex items-center gap-1.5 px-3 py-1.5 font-mono text-meta transition-colors ${
+							on
+								? "bg-gray-900 text-white"
+								: "bg-white text-gray-700 hover:bg-gray-50"
+						}`}
+					>
+						<span aria-hidden>{on ? "✓" : "+"}</span>
+						{label}
+					</button>
+				))}
+			</fieldset>
+		</div>
 	);
 
 	return (
@@ -2036,10 +2124,13 @@ export function GridFacetsView({
 							{sel.onView && (
 								<button
 									type="button"
-									onClick={() => toggleFlag("onView")}
+									onClick={() => setOnView(false, null)}
 									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
 								>
-									<span>On view</span>
+									<span>
+										On view
+										{sel.onViewBuilding ? `: ${sel.onViewBuilding}` : ""}
+									</span>
 									<span>×</span>
 								</button>
 							)}

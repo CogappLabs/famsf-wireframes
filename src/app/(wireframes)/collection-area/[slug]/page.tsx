@@ -1154,11 +1154,13 @@ export function AreaPageLayout({
 						<details className="group border border-gray-300">
 							<summary className="flex cursor-pointer items-center justify-between p-5 font-mono text-card font-medium transition-colors hover:bg-gray-50">
 								<span>{t("area.deepDiveHeading")}</span>
-								<span className="font-mono text-meta text-gray-400 group-open:hidden">
-									{t("area.deepDiveExpand")}
-								</span>
-								<span className="hidden font-mono text-meta text-gray-400 group-open:inline">
-									{t("area.deepDiveCollapse")}
+								{/* "+" / "−" expansion, matching the main famsf.org site. */}
+								<span
+									aria-hidden
+									className="font-mono text-lg leading-none text-gray-400"
+								>
+									<span className="group-open:hidden">+</span>
+									<span className="hidden group-open:inline">−</span>
 								</span>
 							</summary>
 							<div className="space-y-4 border-t border-gray-300 p-5 font-mono text-body text-gray-700">
@@ -1308,87 +1310,54 @@ export function AreaPageLayout({
 					</WireframeSection>
 				</ScopeMark>
 
-				{/* Other resources: single column. Study centers lead as a rich
-				    split-column card (prose + CTA + links left, images right);
-				    remaining resources stack as plain content cards below. */}
+				{/* Other resources: uniform text entries (no image cards, nothing
+				    that links off to a new page), per curator feedback. Study
+				    centers lead with their prose + contact, remaining resources
+				    follow in the same text style. */}
 				<WireframeSection label="Other resources" className="py-8">
 					<Container size="md">
 						<SectionLabel className="mb-6">
 							{t("area.resourcesHeading")}
 						</SectionLabel>
-						<div className="flex flex-col gap-4">
-							{/* Study centers: split-column rich card */}
-							<div className="grid grid-cols-1 border border-gray-300 lg:grid-cols-2">
-								<div className="flex flex-col p-6">
-									<h3 className="font-mono text-card font-medium leading-snug">
-										{STUDY_CENTERS.title}
-									</h3>
-									<p className="mt-2 font-mono text-body text-gray-700">
-										{STUDY_CENTERS.lead}
-									</p>
-									<div className="mt-4 space-y-3 font-mono text-meta text-gray-500">
-										{STUDY_CENTERS.body.map((para) => (
-											<p key={para}>{para}</p>
-										))}
-									</div>
-									<div className="mt-5 flex flex-wrap gap-x-4 gap-y-1">
-										{STUDY_CENTERS.links.map((link) => (
-											<ExternalLink
-												key={link.label}
-												href={link.href}
-												className="font-mono text-meta text-gray-500 underline hover:text-gray-600"
-											>
-												{link.label}
-											</ExternalLink>
-										))}
-									</div>
-									<p className="mt-4 font-mono text-label text-gray-400">
-										<span className="uppercase tracking-[0.08em]">
-											{t("area.resourcesContact")}:
-										</span>{" "}
-										{STUDY_CENTERS.contact}
-									</p>
-								</div>
-								<div className="flex flex-col gap-px bg-gray-300 lg:border-l lg:border-gray-300">
-									{STUDY_CENTERS.images.map((img) => (
-										<ImagePlaceholder
-											key={img}
-											aspect="4/3"
-											label={img}
-											className="flex-1 bg-white"
-										/>
+						<div className="flex flex-col divide-y divide-gray-200 border-t border-gray-200">
+							{/* Study centers */}
+							<div className="py-5">
+								<h3 className="font-mono text-card font-medium leading-snug">
+									{STUDY_CENTERS.title}
+								</h3>
+								<p className="mt-2 font-mono text-body text-gray-700">
+									{STUDY_CENTERS.lead}
+								</p>
+								<div className="mt-4 space-y-3 font-mono text-meta text-gray-500">
+									{STUDY_CENTERS.body.map((para) => (
+										<p key={para}>{para}</p>
 									))}
 								</div>
+								<p className="mt-4 font-mono text-label text-gray-400">
+									<span className="uppercase tracking-[0.08em]">
+										{t("area.resourcesContact")}:
+									</span>{" "}
+									{STUDY_CENTERS.contact}
+								</p>
 							</div>
 
-							{/* Remaining resources: stacked content cards */}
+							{/* Remaining resources: same text style */}
 							{area.resources.map((res) => (
-								<div
-									key={res.title}
-									className="flex flex-col border border-gray-300 sm:flex-row"
-								>
-									<div className="sm:w-1/3">
-										<ImagePlaceholder
-											aspect="4/3"
-											label={res.image ?? `[${res.title}]`}
-										/>
-									</div>
-									<div className="flex flex-1 flex-col p-5">
-										<h3 className="font-mono text-card font-medium leading-snug">
-											{res.title}
-										</h3>
-										<p className="mt-1 font-mono text-meta text-gray-500">
-											{res.desc}
+								<div key={res.title} className="py-5">
+									<h3 className="font-mono text-card font-medium leading-snug">
+										{res.title}
+									</h3>
+									<p className="mt-1 font-mono text-meta text-gray-500">
+										{res.desc}
+									</p>
+									{res.contact && (
+										<p className="mt-3 font-mono text-label text-gray-400">
+											<span className="uppercase tracking-[0.08em]">
+												{t("area.resourcesContact")}:
+											</span>{" "}
+											{res.contact}
 										</p>
-										{res.contact && (
-											<p className="mt-3 font-mono text-label text-gray-400">
-												<span className="uppercase tracking-[0.08em]">
-													{t("area.resourcesContact")}:
-												</span>{" "}
-												{res.contact}
-											</p>
-										)}
-									</div>
+									)}
 								</div>
 							))}
 						</div>

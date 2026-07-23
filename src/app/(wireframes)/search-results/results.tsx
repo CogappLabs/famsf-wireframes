@@ -46,14 +46,6 @@ export function ResultsGrid({
 						<ImagePlaceholder
 							label={`[${work.title || work.accession_number}]`}
 						/>
-						{isPublicDomain(work) && (
-							<span
-								title="Open access: public domain. Direct download available."
-								className="absolute right-2 top-2 flex h-7 w-7 items-center justify-center border border-green-400 bg-white font-mono text-label font-semibold text-green-700"
-							>
-								↓
-							</span>
-						)}
 					</div>
 					<div className="p-3">
 						<h3 className="font-mono text-card font-medium leading-snug">
@@ -227,11 +219,8 @@ export function ResultsList({
 								</span>
 							)}
 							{isPublicDomain(work) && (
-								<span
-									title="Open access: direct download"
-									className="inline-block border border-green-300 bg-green-50 px-1.5 py-0.5 font-mono text-label text-green-700"
-								>
-									↓ Open access
+								<span className="inline-block border border-green-300 bg-green-50 px-1.5 py-0.5 font-mono text-label text-green-700">
+									Open access
 								</span>
 							)}
 						</div>
