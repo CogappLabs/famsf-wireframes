@@ -444,7 +444,11 @@ curators' uploaded `.xlsx` (`MediumFilterTaxonomy-12Tier1Terms`, Drive id
 for its threaded cell comments.
 
 Both tabs land in the **Medium audit** workbook (`14h4f-ZGnjjbBS6svQjRbdVjBKe7DBv9MifPLWy79FkI`,
-same workbook as `master_v2` + the object-type `Facet review` / `Facet tree`):
+same workbook as `master_v2`). The old object-type-pass tabs (`Facet review`,
+`Facet tree`, `FACET_DESIGN_v2`, `FACET_PUBLIC_v2`, the `category_rollup_*_v2`
+tabs, `variant_rescue_v2`, `FACET_LIST_v2`) and their scripts
+(`build_material_taxonomy.py`, `push_facet_review_sheet.py`) were removed
+2026-07-14 — superseded by the 12-Tier-1 material-axis pass below:
 
 - `scripts/push_tier1_medium_map_sheet.py` → **"12-Tier-1 medium map"** tab: the
   ~280 curated head rows straight from the .xlsx (Tier1/2/3 + count + Approve?

@@ -38,12 +38,9 @@ def main() -> None:
     # adjust here if the curator renamed them.
     targets = [
         (place, "REGION_REMAP", OUT / "place_region_remap.tsv"),
-        # Material facet: master_v2 (token -> canonical + facet_final) joined to
-        # FACET_DESIGN_v2 (parent/specific 2-tier design) drives the 2-tier
-        # Material + flat Technique facets. FACET_PUBLIC_v2 kept for reference.
+        # Material facet: master_v2 (token -> canonical_final + facet_final) is
+        # the source Tier1Classifier reads to build the 12-Tier-1 medium facet.
         (material, "master_v2", OUT / "material_master_v2.tsv"),
-        (material, "FACET_DESIGN_v2", OUT / "material_FACET_DESIGN_v2.tsv"),
-        (material, "FACET_PUBLIC_v2", OUT / "material_remap.tsv"),
     ]
     for client, tab, path in targets:
         try:
