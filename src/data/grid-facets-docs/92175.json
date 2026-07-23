@@ -3,7 +3,6 @@
 	"accession_number": "1983.83.8",
 	"sort_number": "1983.83.8",
 	"title": "\"Couple at Shrine\" fan",
-	"object_name": "fan",
 	"date_display": "1775–1800",
 	"date_start": "1775",
 	"date_end": "1800",
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2022-09-19 17:17:31.187000",
 	"is_virtual": false,
-	"identifying_description": "Leaf of silk plain weave with opaque watercolor and sequins with central scene of couple laying flowers on a tomb or shrine. Central cartouche is flanked by a boy, at right, and a woman, at left. Sticks and guards of carved, incised, and gilded ivory with mother-of-pearl backing on guards. Glass jewel and copper alloy rivet.",
 	"web_text": "Fans with printed or decoratively woven textile leaves grew increasingly popular in the 1770s, offering a less expensive but equally ornamental alternative to fully painted leaves. As their popularity grew, painted fan designs shrank to small vignettes, often with one central scene and two smaller side vignettes. Scenes of country life and classical figures remained popular, as seen on this example. Sequins offered further embellishment, at less cost and labor than gilding.",
 	"didactic_label": "Fans with printed or decoratively woven textile leaves grew increasingly popular in the 1770s, offering a less expensive but equally ornamental alternative to fully painted leaves. As their popularity grew, painted fan designs shrank to small vignettes, often with one central scene and two smaller side vignettes. Scenes of country life and classical figures remained popular, as seen on this example. Sequins offered further embellishment, at less cost and labor than gilding.",
 	"exhibition_history_text": "Fans of the Eighteenth Century, Textiles Education Gallery, de Young Museum, 9/25/18 - 7/7/19",
@@ -42,15 +40,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1984-01-05",
-	"location_string": "de Young, 059, Cabinet 40, TA",
-	"location_building": "de Young",
-	"location_room": "Cabinet 40",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "\"Couple at Shrine\" fan",
@@ -78,6 +72,7 @@
 			"height": 8425,
 			"width": 10979,
 			"file_name": "A338642_V1.TIF",
+			"file_path": "TMSShared/Media/All Staff/21/A338642_V1.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -86,7 +81,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 93498,
@@ -104,6 +102,7 @@
 			"height": 8292,
 			"width": 10953,
 			"file_name": "A338642_V2.TIF",
+			"file_path": "TMSShared/Media/All Staff/21/A338642_V2.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -112,7 +111,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 93499,
@@ -130,6 +132,7 @@
 			"height": 2048,
 			"width": 3072,
 			"file_name": "0409200109160130.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u236/0409200109160130.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -138,7 +141,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -146,26 +152,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "11 in., (27.9 cm,)",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 27.9,
-				"width_cm": null,
-				"depth_cm": null,
-				"height_in": 11.0,
-				"width_in": null,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "11 in., (27.9 cm,)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -180,7 +167,7 @@
 	"term_rights_statement": [
 		{
 			"id": 16110964,
-			"term": "Copyright status is public domain",
+			"term": "Public domain",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
@@ -202,7 +189,7 @@
 				{
 					"depth": 3,
 					"cn": "AUT.AAA.AAU.AAB",
-					"term": "Copyright status is public domain"
+					"term": "Public domain"
 				}
 			]
 		}
@@ -259,14 +246,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -278,10 +262,27 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Europe > Deutschland",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABH.AAAQL"
+			},
+			{
+				"value": "Europe > France",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABH.AAASY"
+			},
+			{
+				"value": "Europe",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABH"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": "1775–1800",
@@ -299,7 +300,7 @@
 			"specific": ""
 		},
 		{
-			"section": "Ink & drawing media",
+			"section": "Ink + drawing media",
 			"subcategory": "Incising",
 			"specific": ""
 		},
@@ -310,21 +311,21 @@
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Ivory & bone",
-			"specific": "ivory"
+			"subcategory": "Ivory + bone",
+			"specific": "Ivory"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Shell & pearl",
-			"specific": "mother-of-pearl"
+			"subcategory": "Shell + pearl",
+			"specific": "Mother-of-pearl"
 		},
 		{
-			"section": "Paint & pigment",
-			"subcategory": "Watercolour & wash",
-			"specific": "opaque watercolor"
+			"section": "Paint + pigment",
+			"subcategory": "Watercolour + wash",
+			"specific": "Opaque watercolor"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		}
@@ -344,8 +345,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass, Incising, Copper alloy, ivory … · Germany, France",
+		"reason": "grid-facets real slice — Glass, Incising, Copper alloy, Ivory … · Germany, France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 49
+		"populated_fields": 45
 	}
 }

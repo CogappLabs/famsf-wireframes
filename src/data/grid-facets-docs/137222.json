@@ -3,7 +3,6 @@
 	"accession_number": "2000.17.11",
 	"sort_number": "2000.17.11",
 	"title": "Chief's belt (yet)",
-	"object_name": "belt/sash",
 	"date_display": "early 20th century",
 	"date_start": "1900",
 	"date_end": "1925",
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2022-07-12 15:40:38.860000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "From Three Continents: Textile Acquisitions 1996-2000",
@@ -41,15 +39,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2000-04-13",
-	"location_string": "de Young, 061, Cabinet 099, B",
-	"location_building": "de Young",
-	"location_room": "Cabinet 099",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Chief's belt (yet)",
@@ -97,6 +91,7 @@
 			"height": 4912,
 			"width": 5925,
 			"file_name": "A335464_V1.tif",
+			"file_path": "TMSShared/Media/All Staff/20/A335464_V1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -105,7 +100,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 107148,
@@ -123,6 +121,7 @@
 			"height": 4907,
 			"width": 5925,
 			"file_name": "A335464_V2.tif",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u341/A335464_V2.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -131,7 +130,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 107149,
@@ -149,6 +151,7 @@
 			"height": 4862,
 			"width": 5900,
 			"file_name": "A335464_V3.tif",
+			"file_path": "TMSShared/Media/All Staff/24/A335464_V3.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -157,7 +160,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 107150,
@@ -175,6 +181,7 @@
 			"height": 2858,
 			"width": 3000,
 			"file_name": "0526201615410011.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u238/0526201615410011.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -183,7 +190,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 107151,
@@ -201,6 +211,7 @@
 			"height": 270,
 			"width": 403,
 			"file_name": "0711200102300039.jpg",
+			"file_path": "TMSShared/Media/All Staff/20/0711200102300039.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -209,7 +220,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 107152,
@@ -227,6 +241,7 @@
 			"height": 270,
 			"width": 403,
 			"file_name": "0711200102300039.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u241/0711200102300039.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -235,7 +250,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -243,26 +261,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "6 x 31 in. (15.2 x 78.7 cm)",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 15.2,
-				"width_cm": 78.7,
-				"depth_cm": null,
-				"height_in": 6.0,
-				"width_in": 31.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "6 x 31 in. (15.2 x 78.7 cm)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -304,14 +303,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -322,11 +318,23 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Africa",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAB"
+			},
+			{
+				"value": "Africa > Congo, République Démocratique du",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAB.AAAIT"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
-	"sort_artist": null,
+	"primary_artist": "Kuba, Bushong subgroup",
+	"primary_artist_display": "Kuba, Bushong subgroup",
+	"sort_artist": "Kuba, Bushong subgroup",
 	"culture_group": [
 		"Kuba, Bushong subgroup"
 	],
@@ -341,23 +349,23 @@
 	"facet_medium": [
 		{
 			"section": "Organic",
-			"subcategory": "Shell & pearl",
-			"specific": "cowrie shell"
+			"subcategory": "Shell + pearl",
+			"specific": "Cowrie shell"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Shell & pearl",
-			"specific": "shell"
+			"subcategory": "Shell + pearl",
+			"specific": "Shell"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Fiber",
-			"specific": "raffia"
+			"specific": "Raffia"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "glass bead"
+			"specific": "Bead"
 		}
 	],
 	"facet_place": [
@@ -369,8 +377,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — cowrie shell, shell, raffia, glass bead · Democratic Republic of the Congo",
+		"reason": "grid-facets real slice — Cowrie shell, Shell, Raffia, Bead · Democratic Republic of the Congo",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 48
+		"populated_fields": 46
 	}
 }

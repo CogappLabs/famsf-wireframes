@@ -3,7 +3,6 @@
 	"accession_number": "2005.180.39",
 	"sort_number": "2005.180.39",
 	"title": "Clan emblem from dema dance costume",
-	"object_name": null,
 	"date_display": "19th-early 20th century",
 	"date_start": null,
 	"date_end": null,
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-24 00:00:00.000000",
 	"last_modified": "2026-04-23 13:55:20.973000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -43,15 +41,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2005-02-23",
 	"location_string": "de Young, Display, Gallery 030, Wall Case 3",
 	"location_building": "de Young",
 	"location_room": "Gallery 030",
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Clan emblem from dema dance costume",
@@ -99,6 +93,7 @@
 			"height": 355,
 			"width": 229,
 			"file_name": "1220200209590022.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u248/1220200209590022.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -107,7 +102,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -115,26 +113,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "40 x 26 x 3 in. (101.6 x 66 x 7.6 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 101.6,
-				"width_cm": 66.0,
-				"depth_cm": 7.6,
-				"height_in": 40.0,
-				"width_in": 26.0,
-				"depth_in": 3.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "101.6 x 66 x 7.6 cm (40 x 26 x 3 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -214,14 +193,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -236,6 +212,38 @@
 			"Southeast Asia > Southeast Asia > Merauke"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Southeast Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Southeast Asia > Indonesia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAQC"
+			},
+			{
+				"value": "Southeast Asia > Indonesia > South Papua Province",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAQC.AAAEM"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Papua",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Papua > Merauke",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAACO"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Marind-Anim",
@@ -260,16 +268,16 @@
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Shell & pearl",
-			"specific": "shell"
+			"subcategory": "Shell + pearl",
+			"specific": "Shell"
 		},
 		{
-			"section": "Paint & pigment",
+			"section": "Paint + pigment",
 			"subcategory": "Pigment",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Fiber",
 			"specific": ""
 		}
@@ -289,7 +297,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass, shell, Pigment, Fiber · Merauke, South Papua Province",
+		"reason": "grid-facets real slice — Glass, Shell, Pigment, Fiber · Merauke, South Papua Province",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 43
 	}

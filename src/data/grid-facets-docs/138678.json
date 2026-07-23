@@ -3,7 +3,6 @@
 	"accession_number": "2014.73.2",
 	"sort_number": "2014.73.2",
 	"title": "Man's headdress",
-	"object_name": "headwear",
 	"date_display": "late 19th century",
 	"date_start": "1875",
 	"date_end": "1900",
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2024-03-01 14:45:05.507000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": "The small cluster of the Santa Cruz Islands is part of the greater Solomon Island chain. Ndendé, the central and largest island, is remarkable in that it is one of the few islands in the Pacific where both weaving and bark cloth manufacturing, known as lepau, existed.\n\nMade from the inner bark of the paper mulberry tree, this extensive cloth measures nearly ninety-five inches in length, the entire surface covered with an elaborate patterned field. Its aesthetic order is achieved through an organized grid of rectangles, each shape filled with fine crosshatched geometric designs that loosely repeat in series of three, creating an exemplary study of pattern repetition and variation. This cloth would have been worn as a headdress (abe) by a high-ranking male, wrapped around the head in the form of a tall cylinder cone. During the 1930s, the abe was replaced by the European brimmed hat as a status symbol of age rank, and at this time the production of bark cloth also ceased until it was reintroduced in the 1970s as a craft.\n\nThis headdress, along with a Santa Cruz Island bag, was given to the Fine Arts Museums by a descendant of Joseph Stillman Badger. Badger worked for Australia’s Brisbane Tramways Co. Ltd. from 1896 to 1920, serving as the managing director from 1914 until his retirement. In his role as manager, he frequently visited the United States, including in 1914, 1919, and 1922. It is believed that on one of these voyages he acquired these two objects, prime examples of late nineteenth-century Santa Cruz Island textile arts. jkd",
 	"didactic_label": null,
 	"exhibition_history_text": "On the Grid: Textiles and Minimalism, de Young Museum, 7/23/16 - 2/12/17",
@@ -49,15 +47,11 @@
 	},
 	"label_text": null,
 	"publication_text": "The small cluster of the Santa Cruz Islands is part of the greater Solomon Island chain. Ndendé, the central and largest island, is remarkable in that it is one of the few islands in the Pacific where both weaving and bark cloth manufacturing, known as lepau, existed.Made from the inner bark of the paper mulberry tree, this extensive cloth measures nearly ninety-five inches in length, the entire surface covered with an elaborate patterned field. Its aesthetic order is achieved through an organized grid of rectangles, each shape filled with fine crosshatched geometric designs that loosely repeat in series of three, creating an exemplary study of pattern repetition and variation. This cloth would have been worn as a headdress (abe) by a high-ranking male, wrapped around the head in the form of a tall cylinder cone. During the 1930s, the abe was replaced by the European brimmed hat as a status symbol of age rank, and at this time the production of bark cloth also ceased until it was reintroduced in the 1970s as a craft.This headdress, along with a Santa Cruz Island bag, was given to the Fine Arts Museums by a descendant of Joseph Stillman Badger. Badger worked for Australia’s Brisbane Tramways Co. Ltd. from 1896 to 1920, serving as the managing director from 1914 until his retirement. In his role as manager, he frequently visited the United States, including in 1914, 1919, and 1922. It is believed that on one of these voyages he acquired these two objects, prime examples of late nineteenth-century Santa Cruz Island textile arts. jkd",
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2014-10-16",
-	"location_string": "de Young, 059, Textile Rack 14, E",
-	"location_building": "de Young",
-	"location_room": "Textile Rack 14",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Man's headdress",
@@ -85,6 +79,7 @@
 			"height": 1983,
 			"width": 5271,
 			"file_name": "A397700_V1.tif",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u342/A397700_V1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -93,7 +88,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145325,
@@ -111,6 +109,7 @@
 			"height": 4912,
 			"width": 7360,
 			"file_name": "A397700_V10.tif",
+			"file_path": "TMSShared/Media/All Staff/24/A397700_V10.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -119,7 +118,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145326,
@@ -137,6 +139,7 @@
 			"height": 4912,
 			"width": 7360,
 			"file_name": "A397700_V11.tif",
+			"file_path": "TMSShared/Media/All Staff/22/A397700_V11.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -145,7 +148,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145327,
@@ -163,6 +169,7 @@
 			"height": 6448,
 			"width": 4616,
 			"file_name": "A397700_V12.tif",
+			"file_path": "TMSShared/Media/All Staff/22/A397700_V12.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -171,7 +178,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145328,
@@ -189,6 +199,7 @@
 			"height": 6104,
 			"width": 4576,
 			"file_name": "A397700_V13.tif",
+			"file_path": "TMSShared/Media/All Staff/24/A397700_V13.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -197,7 +208,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145329,
@@ -215,6 +229,7 @@
 			"height": 6224,
 			"width": 4912,
 			"file_name": "A397700_V14.tif",
+			"file_path": "TMSShared/Media/All Staff/22/A397700_V14.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -223,7 +238,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145330,
@@ -241,6 +259,7 @@
 			"height": 6472,
 			"width": 4912,
 			"file_name": "A397700_V15.tif",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u342/A397700_V15.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -249,7 +268,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145331,
@@ -267,6 +289,7 @@
 			"height": 6431,
 			"width": 4520,
 			"file_name": "A397700_V16.tif",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u342/A397700_V16.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -275,7 +298,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145332,
@@ -293,6 +319,7 @@
 			"height": 7360,
 			"width": 4912,
 			"file_name": "A397700_V17.tif",
+			"file_path": "TMSShared/Media/All Staff/22/A397700_V17.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -301,7 +328,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145333,
@@ -319,6 +349,7 @@
 			"height": 7360,
 			"width": 4912,
 			"file_name": "A397700_V18.tif",
+			"file_path": "TMSShared/Media/All Staff/24/A397700_V18.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -327,7 +358,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145334,
@@ -345,6 +379,7 @@
 			"height": 5040,
 			"width": 3947,
 			"file_name": "A397700_V19.tif",
+			"file_path": "TMSShared/Media/All Staff/22/A397700_V19.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -353,7 +388,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145335,
@@ -371,6 +409,7 @@
 			"height": 1983,
 			"width": 5271,
 			"file_name": "A397700_V2.tif",
+			"file_path": "TMSShared/Media/All Staff/22/A397700_V2.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -379,7 +418,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145336,
@@ -397,6 +439,7 @@
 			"height": 5745,
 			"width": 15058,
 			"file_name": "A397700_V20.TIF",
+			"file_path": "TMSShared/Media/All Staff/24/A397700_V20.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -405,7 +448,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145337,
@@ -423,6 +469,7 @@
 			"height": 1983,
 			"width": 5271,
 			"file_name": "A397700_V3.tif",
+			"file_path": "TMSShared/Media/All Staff/22/A397700_V3.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -431,7 +478,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145338,
@@ -449,6 +499,7 @@
 			"height": 4912,
 			"width": 7360,
 			"file_name": "A397700_V4.tif",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u342/A397700_V4.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -457,7 +508,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145339,
@@ -475,6 +529,7 @@
 			"height": 7360,
 			"width": 4912,
 			"file_name": "A397700_V5.tif",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u342/A397700_V5.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -483,7 +538,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145340,
@@ -501,6 +559,7 @@
 			"height": 7360,
 			"width": 4912,
 			"file_name": "A397700_V6.tif",
+			"file_path": "TMSShared/Media/All Staff/24/A397700_V6.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -509,7 +568,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 145341,
@@ -527,6 +589,7 @@
 			"height": 4912,
 			"width": 7360,
 			"file_name": "A397700_V7.tif",
+			"file_path": "TMSShared/Media/All Staff/24/A397700_V7.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -535,7 +598,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -543,26 +609,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "35 x 94 1/2 in., (88.9 x 240 cm,)",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 88.9,
-				"width_cm": 240.0,
-				"depth_cm": null,
-				"height_in": 35.0,
-				"width_in": 94.5,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "35 x 94 1/2 in., (88.9 x 240 cm,)",
 	"associations": [],
 	"highlights": [
 		{
@@ -620,14 +667,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -640,10 +684,32 @@
 			"Oceania > Solomon Islands > Santa Cruz Islands"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Oceania > Solomon Islands > Temotu > Santa Cruz Islands",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAACB.AAABT.AAAAD.AAAAO.AAAAB"
+			},
+			{
+				"value": "Oceania > Solomon Islands > Temotu",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAACB.AAABT.AAAAD.AAAAO"
+			},
+			{
+				"value": "Oceania",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACB"
+			},
+			{
+				"value": "Oceania > Solomon Islands",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACB.AAABT"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": "1875–1900",
@@ -657,13 +723,13 @@
 	"facet_medium": [
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "bark"
+			"subcategory": "Wood + plant",
+			"specific": "Bark"
 		},
 		{
-			"section": "Paint & pigment",
+			"section": "Paint + pigment",
 			"subcategory": "Paint",
-			"specific": "painted"
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -675,8 +741,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — bark, painted · Santa Cruz Islands",
+		"reason": "grid-facets real slice — Bark, Paint · Santa Cruz Islands",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 49
+		"populated_fields": 46
 	}
 }

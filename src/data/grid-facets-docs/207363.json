@@ -3,7 +3,6 @@
 	"accession_number": "2012.42.73",
 	"sort_number": "2012.42.73",
 	"title": "Coat",
-	"object_name": "woman's costume",
 	"date_display": "Spring/Summer 1993 Ready-to-Wear",
 	"date_start": "1993",
 	"date_end": "1993",
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-24 00:00:00.000000",
 	"last_modified": "2024-08-20 13:55:27.910000",
 	"is_virtual": false,
-	"identifying_description": "Long “Incroyable” style coat of black open-weave cotton with yellow-gold epaulets: collar and lining in red, orange, and pink plaid silk taffeta; red suede shoulders flaps; three gold buttons on sleeve closures.",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -36,15 +34,11 @@
 	},
 	"label_text": "no label",
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2012-10-18",
-	"location_string": "de Young, 059, Cabinet 54, TB",
-	"location_building": "de Young",
-	"location_room": "Cabinet 54",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Coat",
@@ -96,6 +90,66 @@
 	],
 	"media": [
 		{
+			"media_xref_id": 220547,
+			"image_id": 231060,
+			"rank": 0,
+			"file_date": "2026-07-10 02:46:20.163",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 12787,
+			"width": 9584,
+			"file_name": "MS_207363-190320_FSF-DeInstall-Photography_20240813_1.tif",
+			"file_path": "TMSShared/Media/All Staff/10/MS_207363-190320_FSF-DeInstall-Photography_20240813_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 220548,
+			"image_id": 231061,
+			"rank": 0,
+			"file_date": "2026-07-10 02:46:20.163",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 12787,
+			"width": 9584,
+			"file_name": "MS_207363-190320_FSF-DeInstall-Photography_20240813_1_Crop.tif",
+			"file_path": "TMSShared/Media/All Staff/10/MS_207363-190320_FSF-DeInstall-Photography_20240813_1_Crop.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
 			"media_xref_id": 220549,
 			"image_id": 231062,
 			"rank": 0,
@@ -111,6 +165,7 @@
 			"height": 12768,
 			"width": 9243,
 			"file_name": "MS_207363-190320_FSF-DeInstall-Photography_20240813_2.tif",
+			"file_path": "TMSShared/Media/All Staff/10/MS_207363-190320_FSF-DeInstall-Photography_20240813_2.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -119,59 +174,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 220548,
-			"image_id": 231061,
-			"rank": 0,
-			"file_date": "2024-08-26 11:54:19.03",
-			"primary": false,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 12787,
-			"width": 9584,
-			"file_name": "MS_207363-190320_FSF-DeInstall-Photography_20240813_1_Crop.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 220547,
-			"image_id": 231060,
-			"rank": 0,
-			"file_date": "2024-08-26 11:54:16.747",
-			"primary": false,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 12787,
-			"width": 9584,
-			"file_name": "MS_207363-190320_FSF-DeInstall-Photography_20240813_1.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 210722,
@@ -189,6 +195,7 @@
 			"height": 11245,
 			"width": 7866,
 			"file_name": "MS_A392704_1_Crop_phtoshopped.tif",
+			"file_path": "TMSShared/Media/All Staff/01/MS_A392704_1_Crop_phtoshopped.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -197,7 +204,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207522,
@@ -215,6 +225,7 @@
 			"height": 11245,
 			"width": 8221,
 			"file_name": "MS_A392704_1.tif",
+			"file_path": "TMSShared/Media/All Staff/02/MS_A392704_1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -223,7 +234,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207523,
@@ -241,6 +255,7 @@
 			"height": 11245,
 			"width": 8221,
 			"file_name": "MS_A392704_2.tif",
+			"file_path": "TMSShared/Media/All Staff/02/MS_A392704_2.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -249,7 +264,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207524,
@@ -267,6 +285,7 @@
 			"height": 11245,
 			"width": 8221,
 			"file_name": "MS_A392704_3.tif",
+			"file_path": "TMSShared/Media/All Staff/02/MS_A392704_3.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -275,7 +294,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207374,
@@ -293,6 +315,7 @@
 			"height": 11245,
 			"width": 8221,
 			"file_name": "MS_A392704_1_Crop.tif",
+			"file_path": "TMSShared/Media/All Staff/02/MS_A392704_1_Crop.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -301,7 +324,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 140737,
@@ -319,6 +345,7 @@
 			"height": 3008,
 			"width": 2000,
 			"file_name": "0115201414520083.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u233/0115201414520083.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -327,7 +354,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 140738,
@@ -345,6 +375,7 @@
 			"height": 3008,
 			"width": 2000,
 			"file_name": "0211201414260072.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u234/0211201414260072.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -353,7 +384,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -361,26 +395,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "75 x 20 x 3 in., (190.5 x 50.8 x 7.6 cm,)",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 190.5,
-				"width_cm": 50.8,
-				"depth_cm": 7.6,
-				"height_in": 75.0,
-				"width_in": 20.0,
-				"depth_in": 3.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "75 x 20 x 3 in., (190.5 x 50.8 x 7.6 cm,)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -465,14 +480,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -485,6 +497,28 @@
 			"Europe > France > Paris"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Europe > France > Île-de-France",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME"
+			},
+			{
+				"value": "Europe > France > Île-de-France > Paris",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AABMN"
+			},
+			{
+				"value": "Europe",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABH"
+			},
+			{
+				"value": "Europe > France",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABH.AAASY"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "John Galliano",
@@ -512,33 +546,33 @@
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Leather & hide",
-			"specific": "leather"
+			"subcategory": "Leather + hide",
+			"specific": "Leather"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Leather & hide",
-			"specific": "suede"
+			"subcategory": "Leather + hide",
+			"specific": "Suede"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "wood"
+			"subcategory": "Wood + plant",
+			"specific": "Wood"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Other woven textiles",
-			"specific": "knitting"
+			"specific": "Knitting"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
-			"specific": "silk taffeta"
+			"specific": "Silk taffeta"
 		}
 	],
 	"facet_place": [
@@ -550,8 +584,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Metal, Silver, leather, suede … · Paris",
+		"reason": "grid-facets real slice — Metal, Silver, Leather, Suede … · Paris",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 47
+		"populated_fields": 42
 	}
 }

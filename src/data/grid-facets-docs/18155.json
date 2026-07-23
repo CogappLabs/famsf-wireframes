@@ -3,7 +3,6 @@
 	"accession_number": "1925.616",
 	"sort_number": "1925.616",
 	"title": "Napkin (yaglik)",
-	"object_name": "table furnishing",
 	"date_display": "early 20th century",
 	"date_start": "1900",
 	"date_end": "1925",
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2024-09-09 14:09:06.910000",
 	"is_virtual": false,
-	"identifying_description": "green, gold, purple, orange flowering plant design at each end, three motifs across. Flowers and leaves in drawn work.",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1925-10-21",
-	"location_string": "de Young, 059, Cabinet 57, TC",
-	"location_building": "de Young",
-	"location_room": "Cabinet 57",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Napkin (yaglik)",
@@ -61,7 +55,7 @@
 			"media_xref_id": 91925,
 			"image_id": 58959,
 			"rank": 1,
-			"file_date": "2023-02-27 06:34:36",
+			"file_date": "2026-07-10 02:52:27.303",
 			"primary": true,
 			"media_view": null,
 			"public_caption": null,
@@ -73,6 +67,7 @@
 			"height": 3036,
 			"width": 1248,
 			"file_name": "3101200310040376.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u253/3101200310040376.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -81,7 +76,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -89,26 +87,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "18 1/2 x 50 in. (47 x 127 cm)",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 47.0,
-				"width_cm": 127.0,
-				"depth_cm": null,
-				"height_in": 18.5,
-				"width_in": 50.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "18 1/2 x 50 in. (47 x 127 cm)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -150,14 +129,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -168,10 +144,22 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Asia > Türkiye",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAID"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": "1900–25",
@@ -184,29 +172,29 @@
 	"sort_year": 1900,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Embroidery",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Other woven textiles",
-			"specific": "linen"
+			"specific": "Linen"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "metallic thread"
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Thread"
 		}
 	],
 	"facet_place": [
@@ -218,8 +206,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Embroidery, linen, Silk … · Turkey",
+		"reason": "grid-facets real slice — Cotton, Embroidery, Linen, Silk … · Turkey",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 39
 	}
 }

@@ -1,0 +1,270 @@
+{
+	"id": 146357,
+	"accession_number": "2015.67.23a-e",
+	"sort_number": "2015.67.23a-e",
+	"title": "Fiesta costume: (a) huipil, (b) rebozo, (c) wrap-around skirt, (d) headdress, and (e) belt",
+	"date_display": "Fourth quarter of the 20th century",
+	"date_start": null,
+	"date_end": null,
+	"medium": "(a) cotton, synthetic; plain weave, embroidery in satin stitches, floss; (b) cotton; plain weave; (c) cotton; plain weave; (d) wool; (e) palm leaf soyate, wool; plaited, tablet weaving",
+	"medium_parts": [
+		"(a) cotton, synthetic",
+		"plain weave, embroidery in satin stitches, floss",
+		"(b) cotton",
+		"plain weave",
+		"(c) cotton",
+		"plain weave",
+		"(d) wool",
+		"(e) palm leaf soyate, wool",
+		"plaited, tablet weaving"
+	],
+	"credit_line": "Gift of Cathy and Wayne Siewert",
+	"department": "Costume and Textile Arts",
+	"classification": "Costume",
+	"subclassification": null,
+	"culture": "Zapotec",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-30 11:50:41.127000",
+	"is_virtual": false,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
+	"bibliography_text": null,
+	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
+	"label_text": null,
+	"publication_text": null,
+	"accession_iso_date": "2015-10-07",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
+	"edition": null,
+	"titles": [
+		{
+			"title": "Fiesta costume: (a) huipil, (b) rebozo, (c) wrap-around skirt, (d) headdress, and (e) belt",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 41096,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Zapotec",
+			"name_sort": "Zapotec",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Zapotec"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 147794,
+			"image_id": 169637,
+			"rank": 1,
+			"file_date": "2023-02-27 07:38:38",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 11615,
+			"width": 8291,
+			"file_name": "A402491_V1.tif",
+			"file_path": "TMSShared/Media/All Staff/20/A402491_V1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": null,
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 17696361,
+			"term": "Hidalgo Yalalag",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAFF",
+					"term": "Mexican Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACS",
+					"term": "Oaxaca"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACS.AABKZ",
+					"term": "Hidalgo Yalalag"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North and Central America"
+		],
+		"lvl1": [
+			"North and Central America > Mexican Empire"
+		],
+		"lvl2": [
+			"North and Central America > Mexican Empire > Hidalgo Yalalag"
+		],
+		"lvl3": null,
+		"nodes": [
+			{
+				"value": "North and Central America",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABZ"
+			},
+			{
+				"value": "North and Central America > Mexican Empire > Oaxaca",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACS"
+			},
+			{
+				"value": "North and Central America > Mexican Empire",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABZ.AAAFF"
+			},
+			{
+				"value": "North and Central America > Mexican Empire > Oaxaca > Hidalgo Yalalag",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACS.AABKZ"
+			}
+		],
+		"historic": false
+	},
+	"primary_artist": "Zapotec",
+	"primary_artist_display": "Zapotec",
+	"sort_artist": "Zapotec",
+	"culture_group": [
+		"Zapotec"
+	],
+	"display_year": null,
+	"doc_id": "2015.67.23a-e",
+	"slug": "2015.67.23a-e/fiesta-costume-a-huipil-b-rebozo-c-wrap-around-skirt-d-headdress-and-e-belt",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Inorganic",
+			"subcategory": "Synthetic",
+			"specific": ""
+		},
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Cotton",
+			"specific": ""
+		},
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Embroidery",
+			"specific": ""
+		},
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Weaving",
+			"specific": "Plain weave"
+		},
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Wool",
+			"specific": ""
+		}
+	],
+	"facet_place": [
+		{
+			"region": "North America",
+			"country": "",
+			"state": "",
+			"notable": "Hidalgo Yalalag"
+		},
+		{
+			"region": "Central America",
+			"country": "",
+			"state": "",
+			"notable": "Hidalgo Yalalag"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Synthetic, Cotton, Embroidery, Plain weave … · Hidalgo Yalalag, Hidalgo Yalalag",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 37
+	}
+}

@@ -3,7 +3,6 @@
 	"accession_number": "1988.11.209",
 	"sort_number": "1988.11.209",
 	"title": "Rug (haly)",
-	"object_name": "rug",
 	"date_display": "19th century",
 	"date_start": "1801",
 	"date_end": "1900",
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-03-30 11:09:54.457000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1988-06-09",
-	"location_string": "de Young, 059, Cabinet 54, C",
-	"location_building": "de Young",
-	"location_room": "Cabinet 54",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Rug (haly)",
@@ -66,7 +60,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": "possibly",
+			"attribution_prefix": "",
 			"BeginDate": null,
 			"EndDate": null,
 			"dates": null,
@@ -85,7 +79,7 @@
 			"place_born": null,
 			"place_died": null,
 			"place_active": null,
-			"attribution_prefix": "",
+			"attribution_prefix": "possibly",
 			"BeginDate": null,
 			"EndDate": null,
 			"dates": null,
@@ -93,6 +87,25 @@
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
 			"DisplayLabel": "Uzbek"
+		},
+		{
+			"id": 41143,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Arab",
+			"name_sort": "Arab",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 2,
+			"DisplayLabel": "Arab"
 		},
 		{
 			"id": 41143,
@@ -112,25 +125,6 @@
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 2,
 			"DisplayLabel": "Arab"
-		},
-		{
-			"id": 41143,
-			"Role": "Culture Group",
-			"RoleID": 588,
-			"name": "Arab",
-			"name_sort": "Arab",
-			"Nationality": null,
-			"place_born": null,
-			"place_died": null,
-			"place_active": null,
-			"attribution_prefix": "",
-			"BeginDate": null,
-			"EndDate": null,
-			"dates": null,
-			"Institution": "",
-			"ConstituentType": "Culture Group",
-			"DisplayOrder": 2,
-			"DisplayLabel": "Arab"
 		}
 	],
 	"media": [
@@ -138,7 +132,7 @@
 			"media_xref_id": 215410,
 			"image_id": 222949,
 			"rank": 0,
-			"file_date": "2024-05-13 10:25:22.463",
+			"file_date": "2026-07-09 11:21:23.71",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -150,6 +144,7 @@
 			"height": 11728,
 			"width": 8923,
 			"file_name": "MS_47469_20240506_1.tif",
+			"file_path": "TMSShared/Media/All Staff/04/MS_47469_20240506_1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -158,39 +153,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 215411,
-			"image_id": 222950,
-			"rank": 0,
-			"file_date": "2024-05-13 10:25:02.637",
-			"primary": false,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 11909,
-			"width": 8746,
-			"file_name": "MS_47469_20240506_2.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 215412,
 			"image_id": 222951,
 			"rank": 0,
-			"file_date": "2024-05-13 10:24:29.263",
+			"file_date": "2026-07-09 11:21:23.71",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -202,6 +174,7 @@
 			"height": 12701,
 			"width": 8798,
 			"file_name": "MS_47469_20240506_3.tif",
+			"file_path": "TMSShared/Media/All Staff/04/MS_47469_20240506_3.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -210,7 +183,40 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 215411,
+			"image_id": 222950,
+			"rank": 0,
+			"file_date": "2026-07-09 11:21:23.71",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 11909,
+			"width": 8746,
+			"file_name": "MS_47469_20240506_2.tif",
+			"file_path": "TMSShared/Media/All Staff/04/MS_47469_20240506_2.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -218,26 +224,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "88 3/16 x 61 13/16 in. (224 x 157 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 224.0,
-				"width_cm": 157.0,
-				"depth_cm": null,
-				"height_in": 88.1875,
-				"width_in": 61.8125,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "224 x 157 cm (88 3/16 x 61 13/16 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -252,8 +239,8 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
-			"id": 16887148,
-			"term": "Uzbekistan",
+			"id": 17073211,
+			"term": "Tajikistan",
 			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
@@ -269,8 +256,8 @@
 				},
 				{
 					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAADD",
-					"term": "O'zbekiston"
+					"cn": "AUZ.AAAAB.AAAAJ.AAAHT",
+					"term": "Tojikiston"
 				}
 			]
 		},
@@ -298,8 +285,8 @@
 			]
 		},
 		{
-			"id": 17073211,
-			"term": "Tajikistan",
+			"id": 16887148,
+			"term": "Uzbekistan",
 			"type": "N/A",
 			"certainty": "Possibly",
 			"path": [
@@ -315,8 +302,8 @@
 				},
 				{
 					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAHT",
-					"term": "Tojikiston"
+					"cn": "AUZ.AAAAB.AAAAJ.AAADD",
+					"term": "O'zbekiston"
 				}
 			]
 		},
@@ -348,10 +335,8 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": [
@@ -414,7 +399,6 @@
 			]
 		}
 	],
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -428,14 +412,41 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia > Türkmenistan",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAIE"
+			},
+			{
+				"value": "Asia > O'zbekiston",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAADD"
+			},
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Asia > Afghānestān",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAI"
+			},
+			{
+				"value": "Asia > Tojikiston",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAHT"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
-	"sort_artist": null,
+	"primary_artist": "Uzbek",
+	"primary_artist_display": "Uzbek",
+	"sort_artist": "Uzbek",
 	"culture_group": [
-		"Arab",
-		"Uzbek"
+		"Uzbek",
+		"Arab"
 	],
 	"display_year": "1801–1900",
 	"doc_id": "1988.11.209",
@@ -447,22 +458,22 @@
 	"sort_year": 1801,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": "Knotted pile"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Wool",
 			"specific": ""
 		}
 	],
 	"facet_place": [
 		{
-			"region": "Central Asia",
-			"country": "Uzbekistan",
+			"region": "East Asia",
+			"country": "",
 			"state": "",
-			"notable": ""
+			"notable": "Tajikistan"
 		},
 		{
 			"region": "Central Asia",
@@ -471,10 +482,10 @@
 			"notable": ""
 		},
 		{
-			"region": "East Asia",
-			"country": "",
+			"region": "Central Asia",
+			"country": "Uzbekistan",
 			"state": "",
-			"notable": "Tajikistan"
+			"notable": ""
 		},
 		{
 			"region": "Central Asia",
@@ -484,8 +495,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Knotted pile, Wool · Uzbekistan, Turkmenistan, Tajikistan",
+		"reason": "grid-facets real slice — Knotted pile, Wool · Tajikistan, Turkmenistan, Uzbekistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 46
+		"populated_fields": 44
 	}
 }

@@ -1,0 +1,388 @@
+{
+	"id": 78243,
+	"accession_number": "1988.11.521",
+	"sort_number": "1988.11.521",
+	"title": "Hanging",
+	"date_display": "17th century",
+	"date_start": "1601",
+	"date_end": "1700",
+	"medium": "Linen, silk; plain weave, embroidery",
+	"medium_parts": [
+		"Linen, silk",
+		"plain weave, embroidery"
+	],
+	"credit_line": "The Caroline and H. McCoy Jones Collection\nBequest of H. McCoy Jones",
+	"department": "Costume and Textile Arts",
+	"classification": "Fiber Art",
+	"subclassification": null,
+	"culture": "Ottoman",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-09 13:22:33.833000",
+	"is_virtual": false,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": "The Rug Collection: New Acquisitions 1985 *Although not a rug, this piece is pictured with the number L84.64.13(1988.11.524) in the Fine Arts magazine piece about the show. TDaly 2011",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "The Rug Collection: New Acquisitions 1985 *Although not a rug, this piece is pictured with the number L84.64.13(1988.11.524) in the Fine Arts magazine piece about the show. TDaly 2011"
+		}
+	],
+	"bibliography_text": null,
+	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
+	"label_text": null,
+	"publication_text": null,
+	"accession_iso_date": "1988-06-09",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
+	"edition": null,
+	"titles": [
+		{
+			"title": "Hanging",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 40706,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Ottoman",
+			"name_sort": "Ottoman",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Ottoman"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 224447,
+			"image_id": 236440,
+			"rank": 0,
+			"file_date": "2026-02-12 16:54:07.893",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 13958,
+			"width": 7978,
+			"file_name": "MS_78243_20241104-02.tif",
+			"file_path": "TMSShared/Media/All Staff/13/MS_78243_20241104-02.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 224445,
+			"image_id": 236438,
+			"rank": 0,
+			"file_date": "2026-02-12 16:36:06.66",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 13861,
+			"width": 8018,
+			"file_name": "MS_78243_20241104-01.tif",
+			"file_path": "TMSShared/Media/All Staff/13/MS_78243_20241104-01.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 94565,
+			"image_id": 26748,
+			"rank": 1,
+			"file_date": "2023-02-27 06:16:24",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2433,
+			"width": 1362,
+			"file_name": "0508200413500008.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u239/0508200413500008.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": "236.2 x 121.9 cm (93 x 48 in.)",
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"id": 16110964,
+			"term": "Public domain",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"id": 17557532,
+			"term": "Western Anatolia",
+			"type": "Descriptor",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABBW",
+					"term": "Western Anatolia"
+				}
+			]
+		},
+		{
+			"id": 18230823,
+			"term": "Aegean Islands",
+			"type": "N/A",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAARU",
+					"term": "Ellás"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABH.AAARU.AAABE",
+					"term": "Nísoi Aiyaíou"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia",
+			"Europe"
+		],
+		"lvl1": [
+			"Asia > Achaemenid Empire",
+			"Europe > Ellás"
+		],
+		"lvl2": [
+			"Asia > Achaemenid Empire > Western Anatolia",
+			"Europe > Ellás > Nísoi Aiyaíou"
+		],
+		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Europe > Ellás > Nísoi Aiyaíou",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAABH.AAARU.AAABE"
+			},
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Europe",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABH"
+			},
+			{
+				"value": "Asia > Achaemenid Empire > Western Anatolia",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABBW"
+			},
+			{
+				"value": "Europe > Ellás",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABH.AAARU"
+			},
+			{
+				"value": "Asia > Achaemenid Empire",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF"
+			}
+		],
+		"historic": false
+	},
+	"primary_artist": "Ottoman",
+	"primary_artist_display": "Ottoman",
+	"sort_artist": "Ottoman",
+	"culture_group": [
+		"Ottoman"
+	],
+	"display_year": "1601–1700",
+	"doc_id": "1988.11.521",
+	"slug": "1988.11.521/hanging",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": 1601,
+	"facet_medium": [
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Embroidery",
+			"specific": ""
+		},
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "Linen"
+		},
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Silk",
+			"specific": ""
+		},
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Weaving",
+			"specific": "Plain weave"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "East Asia",
+			"country": "Achaemenid",
+			"state": "",
+			"notable": "Western Anatolia"
+		},
+		{
+			"region": "Europe",
+			"country": "Greece",
+			"state": "",
+			"notable": "Aegean Islands"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Embroidery, Linen, Silk, Plain weave · Western Anatolia, Aegean Islands",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 46
+	}
+}

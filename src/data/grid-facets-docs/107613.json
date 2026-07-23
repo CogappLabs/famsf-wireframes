@@ -1,0 +1,249 @@
+{
+	"id": 107613,
+	"accession_number": "1988.4",
+	"sort_number": "1988.4",
+	"title": "Water Serpent Effigy",
+	"date_display": "ca. 7th–9th century",
+	"date_start": null,
+	"date_end": null,
+	"medium": "jade",
+	"medium_parts": [
+		"jade"
+	],
+	"credit_line": "Museum purchase, Fine Arts Museums Acquisition Fund in memory of James Medley, Jr.",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Personal Accessory",
+	"subclassification": null,
+	"culture": "Late Classic Maya",
+	"copyright": null,
+	"object_rights_type": null,
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-02-12 13:29:22.157000",
+	"is_virtual": false,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
+	"bibliography_text": null,
+	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
+	"label_text": null,
+	"publication_text": null,
+	"accession_iso_date": "1988-02-03",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
+	"edition": null,
+	"titles": [
+		{
+			"title": "Water Serpent Effigy",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 12835,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Maya",
+			"name_sort": "Maya",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "",
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Maya"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 82720,
+			"image_id": 30157,
+			"rank": 1,
+			"file_date": "2026-07-10 02:41:11.187",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1492,
+			"width": 1237,
+			"file_name": "0523200301270006.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u240/0523200301270006.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": "2 1/2 x 1 1/2 x 1 5/8 (6.4 x 3.8 x 4.1 cm)",
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": null,
+	"term_place_of_creation": [
+		{
+			"id": 20354391,
+			"term": "Guatemala",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAADU",
+					"term": "Guatemala"
+				}
+			]
+		},
+		{
+			"id": 20496354,
+			"term": "México",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAFG",
+					"term": "México"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North and Central America"
+		],
+		"lvl1": [
+			"North and Central America > Guatemala",
+			"North and Central America > México"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"nodes": [
+			{
+				"value": "North and Central America > México",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABZ.AAAFG"
+			},
+			{
+				"value": "North and Central America > Guatemala",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABZ.AAADU"
+			},
+			{
+				"value": "North and Central America",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABZ"
+			}
+		],
+		"historic": false
+	},
+	"primary_artist": "Maya",
+	"primary_artist_display": "Maya",
+	"sort_artist": "Maya",
+	"culture_group": [
+		"Maya"
+	],
+	"display_year": null,
+	"doc_id": "1988.4",
+	"slug": "1988.4/water-serpent-effigy",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": null,
+	"facet_medium": [
+		{
+			"section": "Other",
+			"subcategory": "",
+			"specific": ""
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Central America",
+			"country": "Guatemala",
+			"state": "",
+			"notable": ""
+		},
+		{
+			"region": "North America",
+			"country": "Mexico",
+			"state": "",
+			"notable": "México"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Other · Guatemala, México",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 38
+	}
+}

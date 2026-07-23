@@ -3,7 +3,6 @@
 	"accession_number": "1988.11.448",
 	"sort_number": "1988.11.448",
 	"title": "Cover?",
-	"object_name": "miscellaneous",
 	"date_display": "19th century",
 	"date_start": null,
 	"date_end": null,
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-03-09 13:22:34.067000",
 	"is_virtual": false,
-	"identifying_description": "Design in format of Ottoman book cover. DMott 3/03",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1988-06-09",
-	"location_string": "de Young, 059, Cabinet 52, B",
-	"location_building": "de Young",
-	"location_room": "Cabinet 52",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Cover?",
@@ -93,6 +87,7 @@
 			"height": 2360,
 			"width": 1628,
 			"file_name": "5256165106130008.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u262/5256165106130008.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -101,7 +96,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -109,26 +107,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "59 x 43 in. (149.9 x 109.2 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 149.9,
-				"width_cm": 109.2,
-				"depth_cm": null,
-				"height_in": 59.0,
-				"width_in": 43.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "149.9 x 109.2 cm (59 x 43 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -194,58 +173,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": [
-		{
-			"id": 20889447,
-			"term": "Ottoman",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAD",
-					"term": "Styles and Periods Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAD.AAA",
-					"term": "Styles and Periods"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAD.AAA.AAB",
-					"term": "styles, periods, and cultures by region"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAD.AAA.AAB.AAM",
-					"term": "Islamic World, The"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAD.AAA.AAB.AAM.AAD",
-					"term": "Islamic World dynastic styles and periods"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAD.AAA.AAB.AAM.AAD.AAB",
-					"term": "Anatolian Islamic styles and periods after Manzikert"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAD.AAA.AAB.AAM.AAD.AAB.AAC",
-					"term": "Ottoman"
-				}
-			]
-		}
-	],
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -256,11 +188,23 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia > Türkiye",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAID"
+			},
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
-	"sort_artist": null,
+	"primary_artist": "Ottoman",
+	"primary_artist_display": "Ottoman",
+	"sort_artist": "Ottoman",
 	"culture_group": [
 		"Ottoman"
 	],
@@ -274,24 +218,24 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Embroidery",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Other woven textiles",
-			"specific": "velvet"
+			"specific": "Velvet"
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "metallic thread"
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Thread"
 		}
 	],
 	"facet_place": [
@@ -303,8 +247,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Embroidery, velvet, metallic thread · Turkey",
+		"reason": "grid-facets real slice — Cotton, Embroidery, Velvet, Thread · Turkey",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 40
 	}
 }

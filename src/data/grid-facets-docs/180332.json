@@ -1,0 +1,367 @@
+{
+	"id": 180332,
+	"accession_number": "2006.127.3",
+	"sort_number": "2006.127.3",
+	"title": "Textile fragment",
+	"date_display": "ca. 1170–1285",
+	"date_start": "1170",
+	"date_end": "1285",
+	"medium": "Silk, gold-wrapped threads; lampas",
+	"medium_parts": [
+		"Silk, gold-wrapped threads",
+		"lampas"
+	],
+	"credit_line": "Gift of George and Marie Hecksher",
+	"department": "Costume and Textile Arts",
+	"classification": "Textile",
+	"subclassification": "Textile Fragment",
+	"culture": "Seljuk period",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-03-27 08:38:55.520000",
+	"is_virtual": false,
+	"web_text": "Woven with silk and gold threads in a repeating interlaced pattern encompassing heraldic eagles, this extraordinary textile fragment dates to the Seljuk period, the Turkic dynasty that ruled an area spanning Iran and Anatolia from the eleventh to the thirteenth centuries. The fragment is woven using lampas, a compound weaving structure with two warps and two or more wefts, invented by the Iranians in the eleventh century and soon adopted worldwide. Geometry and repetition of ornamental motifs permeate Islamic art, as seen in the maze-of-star pattern found here. The eagle is linked to pre-Islamic traditions, and the bird of prey served as a totem for the Oghuz Turks, ancestors to the Seljuk (Otto-Dorn 1978/1979, 114). These elements illustrate the multiple layers of cultural histories and personal identities that existed. Cloth of gold (nasi) such as this would have been highly coveted by Mongol invaders, who soon abandoned their simple attire of felt, fur, and leather for garments of opulent silk and gold thread. The execution of such complex patterns may be attributed to the regular meetings among mathematicians and artisans. For example, famed first-century mathematician Abū al-Wafāʾ Būzhjānī writes “in his treatise [On Those Parts of Geometry Needed by Craftsmen] about the interactions of artists and artisans with mathematicians on topics such as geometric constructions of ornamental patterns and the application of geometry to architectural constructions” (Sarhangi 2008, 514). jkd",
+	"didactic_label": "Woven with silk and gold threads in a repeating interlaced pattern encompassing heraldic eagles, this extraordinary textile fragment dates to the Seljuk period, the Turkic dynasty that ruled an area spanning Iran and Anatolia from the 11th to 13th centuries.",
+	"exhibition_history_text": "Exhibiting Excellence: Recent Acquisitions, 2006 - 2009, de Young, Oct.2009 - 1/17/10",
+	"exhibition_history_lines": [
+		{
+			"order": 0,
+			"text": "Exhibiting Excellence: Recent Acquisitions, 2006 - 2009, de Young, Oct.2009 - 1/17/10"
+		}
+	],
+	"bibliography_text": null,
+	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
+	"label_text": null,
+	"publication_text": "Woven with silk and gold threads in a repeating interlaced pattern encompassing heraldic eagles, this extraordinary textile fragment dates to the Seljuk period, the Turkic dynasty that ruled an area spanning Iran and Anatolia from the eleventh to the thirteenth centuries. The fragment is woven using lampas, a compound weaving structure with two warps and two or more wefts, invented by the Iranians in the eleventh century and soon adopted worldwide. Geometry and repetition of ornamental motifs permeate Islamic art, as seen in the maze-of-star pattern found here. The eagle is linked to pre-Islamic traditions, and the bird of prey served as a totem for the Oghuz Turks, ancestors to the Seljuk (Otto-Dorn 1978/1979, 114). These elements illustrate the multiple layers of cultural histories and personal identities that existed. Cloth of gold (nasi) such as this would have been highly coveted by Mongol invaders, who soon abandoned their simple attire of felt, fur, and leather for garments of opulent silk and gold thread. The execution of such complex patterns may be attributed to the regular meetings among mathematicians and artisans. For example, famed first-century mathematician Abū al-Wafāʾ Būzhjānī writes “in his treatise [On Those Parts of Geometry Needed by Craftsmen] about the interactions of artists and artisans with mathematicians on topics such as geometric constructions of ornamental patterns and the application of geometry to architectural constructions” (Sarhangi 2008, 514). jkd",
+	"accession_iso_date": "2006-12-31",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
+	"edition": null,
+	"titles": [
+		{
+			"title": "Textile fragment",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 41335,
+			"Role": "Culture Group",
+			"RoleID": 588,
+			"name": "Turco-Persian",
+			"name_sort": "Turco-Persian",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": null,
+			"Institution": "",
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Turco-Persian"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 124134,
+			"image_id": 166712,
+			"rank": 1,
+			"file_date": "2023-02-27 07:29:06",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8216,
+			"width": 10222,
+			"file_name": "A361975_V1.TIF",
+			"file_path": "TMSShared/Media/All Staff/20/A361975_V1.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 124135,
+			"image_id": 176790,
+			"rank": 2,
+			"file_date": "2026-07-10 03:00:01.75",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 4555,
+			"width": 11292,
+			"file_name": "A361975_V2.TIF",
+			"file_path": "TMSShared/Media/All Staff/27/A361975_V2.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 124136,
+			"image_id": 28625,
+			"rank": 3,
+			"file_date": "2026-07-10 02:41:11.953",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 7548,
+			"width": 2704,
+			"file_name": "0609201113000045.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u240/0609201113000045.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": "26 3/16 x 11 1/4 x 1 3/16 in., (66.5 x 28.5 x 3 cm,)",
+	"associations": [],
+	"highlights": [
+		{
+			"collection_slug": "costume-and-textiles-web-highlights",
+			"collection_name": "Costume and Textiles Web Highlights",
+			"rank": 22
+		}
+	],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"id": 16110964,
+			"term": "Public domain",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"id": 20295365,
+			"term": "Anatolia",
+			"type": "N/A",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABGE",
+					"term": "Asia Minor"
+				}
+			]
+		},
+		{
+			"id": 20666686,
+			"term": "Iran",
+			"type": "N/A",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQH",
+					"term": "Īrān"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"Asia"
+		],
+		"lvl1": [
+			"Asia > Achaemenid Empire",
+			"Asia > Īrān"
+		],
+		"lvl2": [
+			"Asia > Achaemenid Empire > Asia Minor"
+		],
+		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Asia > Achaemenid Empire",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF"
+			},
+			{
+				"value": "Asia > Achaemenid Empire > Asia Minor",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABGE"
+			},
+			{
+				"value": "Asia > Īrān",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAQH"
+			}
+		],
+		"historic": false
+	},
+	"primary_artist": "Turco-Persian",
+	"primary_artist_display": "Turco-Persian",
+	"sort_artist": "Turco-Persian",
+	"culture_group": [
+		"Turco-Persian"
+	],
+	"display_year": "1170–1285",
+	"doc_id": "2006.127.3",
+	"slug": "2006.127.3/textile-fragment",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": true,
+	"sort_year": 1170,
+	"facet_medium": [
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Silk",
+			"specific": ""
+		},
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Thread"
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Middle East",
+			"country": "Achaemenid",
+			"state": "",
+			"notable": "Anatolia"
+		},
+		{
+			"region": "Middle East",
+			"country": "Iran",
+			"state": "",
+			"notable": ""
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Silk, Thread · Anatolia, Iran",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 51
+	}
+}

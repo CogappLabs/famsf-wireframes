@@ -3,7 +3,6 @@
 	"accession_number": "1992.136",
 	"sort_number": "1992.136",
 	"title": "Nimrud ivory shield-shaped blinker ornament with sacred tree",
-	"object_name": "plaque",
 	"date_display": "9th–7th century BC",
 	"date_start": "-900",
 	"date_end": "-601",
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2022-08-24 18:54:10.207000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": "The Assyrians of the early first millennium BC decorated their magnificent palaces with elaborate furniture embellished with ivory plaques carved with images echoing scenes on the monumental stone reliefs covering the walls. The Nimrud ivories in the Museums’ rare collection were excavated from crammed storerooms in Fort Shalmaneser, the palace of Shalmaneser III (r. 859–824 BC). Their intricate carvings represent a cross section of international motifs common at this time, such as this blinker in the shape of a shield with a sacred tree, reflect the cultures of the Near East and Mediterranean basin. Although they were found in an Assyrian city, neither their design nor their craftsmanship is Assyrian; Assyrian-style ivory carving is not represented in this collection. The Museums’ holdings appear to have been created by Phoenician (from modern Lebanon) and Syrian artists carving in their local styles, which often borrowed from Egyptian art portraying iconic images.",
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -36,15 +34,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1992-06-30",
 	"location_string": "Legion, Display, Gallery 240 west, Wall Case 1",
 	"location_building": "Legion",
 	"location_room": "Gallery 240 west",
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Nimrud ivory shield-shaped blinker ornament with sacred tree",
@@ -72,6 +66,7 @@
 			"height": 8048,
 			"width": 6530,
 			"file_name": "A310886_V1_crop.tif",
+			"file_path": "TMSShared/Media/All Staff/A310886_V1_crop.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -80,7 +75,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 81910,
@@ -98,6 +96,7 @@
 			"height": 10579,
 			"width": 6530,
 			"file_name": "A310886_V1.TIF",
+			"file_path": "TMSShared/Media/All Staff/22/A310886_V1.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -106,7 +105,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 81911,
@@ -124,6 +126,7 @@
 			"height": 2969,
 			"width": 853,
 			"file_name": "6250304139010070.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u264/6250304139010070.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -132,7 +135,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -140,26 +146,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "3 3/4 x 3 x 1/4 in. (9.5 x 7.6 x 0.6 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 9.5,
-				"width_cm": 7.6,
-				"depth_cm": 0.6,
-				"height_in": 3.75,
-				"width_in": 3.0,
-				"depth_in": 0.25,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "3 3/4 x 3 x 1/4 (9.5 x 7.6 x 0.6 cm)",
 	"associations": [],
 	"highlights": [
 		{
@@ -203,6 +190,39 @@
 			]
 		},
 		{
+			"id": 16703691,
+			"term": "Nimrud",
+			"type": "N/A",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAG.AAABL",
+					"term": "Nīnawá"
+				},
+				{
+					"depth": 6,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAG.AAABL.AAAAG",
+					"term": "Calah"
+				}
+			]
+		},
+		{
 			"id": 20888927,
 			"term": "Fort Shalmaneser",
 			"type": "Descriptor",
@@ -239,98 +259,14 @@
 					"term": "Fort Shalmaneser"
 				}
 			]
-		},
-		{
-			"id": 16703691,
-			"term": "Nimrud",
-			"type": "N/A",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
-					"term": "Achaemenid Empire"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAG.AAABL",
-					"term": "Nīnawá"
-				},
-				{
-					"depth": 6,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAG.AAABL.AAAAG",
-					"term": "Calah"
-				}
-			]
 		}
 	],
 	"term_place_of_fabrication": null,
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": [
-		{
-			"id": 16284494,
-			"term": "Syro-Phoenician",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAD",
-					"term": "Styles and Periods Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAD.AAA",
-					"term": "Styles and Periods"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAD.AAA.AAB",
-					"term": "styles, periods, and cultures by region"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAD.AAA.AAB.AAH",
-					"term": "Early Western World"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAD.AAA.AAB.AAH.AAC",
-					"term": "Near Eastern"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAD.AAA.AAB.AAH.AAC.AAM",
-					"term": "Levantine"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAD.AAA.AAB.AAH.AAC.AAM.AAL",
-					"term": "Phoenician"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAD.AAA.AAB.AAH.AAC.AAM.AAL.AAB",
-					"term": "Syro-Phoenician"
-				}
-			]
-		}
-	],
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": [
@@ -408,7 +344,6 @@
 			]
 		}
 	],
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -424,13 +359,45 @@
 			"Asia > Achaemenid Empire > Fort Shalmaneser"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia > Achaemenid Empire",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF"
+			},
+			{
+				"value": "Asia > Achaemenid Empire > Nīnawá",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAG.AAABL"
+			},
+			{
+				"value": "Middle East > Assyria",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAKQ"
+			},
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Asia > Achaemenid Empire > Nīnawá > Calah",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAG.AAABL.AAAAG"
+			},
+			{
+				"value": "Asia > Achaemenid Empire > Nīnawá > Calah > Fort Shalmaneser",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAG.AAABL.AAAAG.AAAAA"
+			}
+		],
 		"historic": true
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
-	"display_year": "900 BC – 601 BC",
+	"display_year": "900 BC–601 BC",
 	"doc_id": "1992.136",
 	"slug": "1992.136/nimrud-ivory-shield-shaped-blinker-ornament-with-sacred-tree",
 	"has_image": true,
@@ -441,8 +408,8 @@
 	"facet_medium": [
 		{
 			"section": "Organic",
-			"subcategory": "Ivory & bone",
-			"specific": "ivory"
+			"subcategory": "Ivory + bone",
+			"specific": "Ivory"
 		}
 	],
 	"facet_place": [
@@ -456,18 +423,18 @@
 			"region": "East Asia",
 			"country": "Achaemenid",
 			"state": "",
-			"notable": "Fort Shalmaneser"
+			"notable": "Nimrud"
 		},
 		{
 			"region": "East Asia",
 			"country": "Achaemenid",
 			"state": "",
-			"notable": "Nimrud"
+			"notable": "Fort Shalmaneser"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — ivory · Assyria, Fort Shalmaneser, Nimrud",
+		"reason": "grid-facets real slice — Ivory · Assyria, Nimrud, Fort Shalmaneser",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 47
+		"populated_fields": 46
 	}
 }

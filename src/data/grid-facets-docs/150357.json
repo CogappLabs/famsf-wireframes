@@ -3,7 +3,6 @@
 	"accession_number": "2018.74.3",
 	"sort_number": "2018.74.3",
 	"title": "Man's sarong",
-	"object_name": "man's costume",
 	"date_display": "mid-late 19th century",
 	"date_start": null,
 	"date_end": null,
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2020-06-26 00:00:00.000000",
 	"is_virtual": false,
-	"identifying_description": "Tanjung Umpack (man's palembang cloth)",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2018-10-30",
-	"location_string": "de Young, 059, Textile Rack 02, OO",
-	"location_building": "de Young",
-	"location_room": "Textile Rack 02",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Man's sarong",
@@ -61,7 +55,7 @@
 			"media_xref_id": 151651,
 			"image_id": 185832,
 			"rank": 1,
-			"file_date": "2023-02-27 08:20:11",
+			"file_date": "2026-07-10 04:55:35.857",
 			"primary": true,
 			"media_view": null,
 			"public_caption": null,
@@ -73,6 +67,7 @@
 			"height": 10726,
 			"width": 8541,
 			"file_name": "A411620_V1.TIF",
+			"file_path": "TMSShared/Media/All Staff/23/A411620_V1.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -81,13 +76,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 151652,
 			"image_id": 185840,
 			"rank": 2,
-			"file_date": "2023-02-27 08:20:11",
+			"file_date": "2026-07-10 04:55:35.857",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -99,6 +97,7 @@
 			"height": 6477,
 			"width": 8139,
 			"file_name": "A411620_V2.TIF",
+			"file_path": "TMSShared/Media/All Staff/23/A411620_V2.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -107,7 +106,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -167,14 +169,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -187,10 +186,32 @@
 			"Southeast Asia > Southeast Asia > Pagaralam"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Southeast Asia > Southeast Asia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH"
+			},
+			{
+				"value": "Southeast Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Sumatera > Pagaralam",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADN.AAAAQ.AAABE"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Sumatera",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADN"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": null,
@@ -203,24 +224,24 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": "Plain weave"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
-			"specific": "discontinuous supplementary-weft patterning"
+			"specific": "Discontinuous supplementary-weft patterning"
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "metallic thread"
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Thread"
 		}
 	],
 	"facet_place": [
@@ -232,8 +253,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Plain weave, discontinuous supplementary-weft patterning, metallic thread · Pagaralam",
+		"reason": "grid-facets real slice — Cotton, Plain weave, Discontinuous supplementary-weft patterning, Thread · Pagaralam",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 37
+		"populated_fields": 33
 	}
 }

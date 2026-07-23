@@ -3,7 +3,6 @@
 	"accession_number": "X1989.407",
 	"sort_number": "X1989.407",
 	"title": "Robe",
-	"object_name": "woman's costume",
 	"date_display": null,
 	"date_start": null,
 	"date_end": null,
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-24 00:00:00.000000",
 	"last_modified": "2014-04-14 00:00:00.000000",
 	"is_virtual": false,
-	"identifying_description": "beige linen with red and 2 neck cords embroidery on sleeves",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1901-01-01",
-	"location_string": "de Young, 059, Cabinet 06, TC",
-	"location_building": "de Young",
-	"location_room": "Cabinet 06",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Robe",
@@ -73,6 +67,7 @@
 			"height": 2184,
 			"width": 1655,
 			"file_name": "1211200309020473.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u247/1211200309020473.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -81,7 +76,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -89,26 +87,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "54 5/16 x 77 3/16 in. (138 x 196 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 138.0,
-				"width_cm": 196.0,
-				"depth_cm": null,
-				"height_in": 54.3125,
-				"width_in": 77.1875,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "138 x 196 cm (54 5/16 x 77 3/16 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -150,14 +129,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -168,10 +144,22 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Asia > Sūrīyah",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGT"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": null,
@@ -184,24 +172,24 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Other woven textiles",
-			"specific": "linen"
+			"specific": "Linen"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": "Plain weave"
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "metallic thread"
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Thread"
 		}
 	],
 	"facet_place": [
@@ -213,8 +201,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, linen, Plain weave, metallic thread · Syria",
+		"reason": "grid-facets real slice — Cotton, Linen, Plain weave, Thread · Syria",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 37
+		"populated_fields": 33
 	}
 }

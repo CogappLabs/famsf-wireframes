@@ -9,6 +9,13 @@ head - those mappings are authoritative overrides.
 Resolution order per token (first hit wins), each carries a `source` +
 `confidence` so curators triage the shaky rows, not the whole 17K:
 
+  0. suppressed  bare colour tokens curators want dropped from the facet
+               entirely ("green", "yellow"). Confidence 1.0, `suppressed=True`;
+               callers must skip nodes with this flag rather than render them.
+  0b. normalised  curator-reviewed near-duplicate tokens collapsed to one bucket
+               label (colour/composite variants of watercolor, ink, chalk,
+               paint, pigment, glass, engraving, earthenware, …). Exact-token
+               match, confidence 1.0.
   1. curated   exact match on a curated leaf / Tier-2 / Tier-3 label (or its
                canonical_final). Confidence 1.0, pre-approved.
   2. override  high-priority composite rules that MUST beat the greedy keyword
@@ -168,6 +175,104 @@ SUPPLEMENTARY_KEYWORDS: dict[str, list[tuple[str, str, str]]] = {
     ],
 }
 
+# --- Curator normalisation buckets (Cogapp review, medium-filter feedback) ------
+# Curator-reviewed term normalisations: a set of near-duplicate tokens (colour
+# variants, composite phrases) that should all read as one bucket label rather
+# than a leaf per raw token. Exact-token match, run before every other pass so
+# a normalised bucket always wins over the greedy keyword/curated-exact passes.
+# (tier1, tier2, tier3) - tier3 "" means the bucket IS the Tier-2 node.
+NORMALISATION_KEYWORDS: dict[str, tuple[str, str, str]] = {
+    # Watercolour bucket
+    "opaque watercolor": ("Paint & pigment", "Watercolour & wash", "Watercolor"),
+    "transparent watercolor": ("Paint & pigment", "Watercolour & wash", "Watercolor"),
+    "white opaque watercolor": ("Paint & pigment", "Watercolour & wash", "Watercolor"),
+    # Wash bucket
+    "brown wash": ("Paint & pigment", "Watercolour & wash", "Wash"),
+    "brown washe": ("Paint & pigment", "Watercolour & wash", "Wash"),  # canonical_final typo in master_v2
+    "watercolor wash": ("Paint & pigment", "Watercolour & wash", "Wash"),
+    "gray wash": ("Paint & pigment", "Watercolour & wash", "Wash"),
+    "gray washe": ("Paint & pigment", "Watercolour & wash", "Wash"),  # canonical_final typo in master_v2
+    # Ink (own Tier 2)
+    "ink": ("Ink & drawing media", "Ink", ""),
+    "black ink": ("Ink & drawing media", "Ink", ""),
+    "brown ink": ("Ink & drawing media", "Ink", ""),
+    "blue ink": ("Ink & drawing media", "Ink", ""),
+    "red ink": ("Ink & drawing media", "Ink", ""),
+    "sepia ink": ("Ink & drawing media", "Ink", ""),
+    "sumi ink": ("Ink & drawing media", "Ink", ""),
+    "india ink": ("Ink & drawing media", "Ink", ""),
+    "double-sided ink": ("Ink & drawing media", "Ink", ""),
+    "ink wash": ("Ink & drawing media", "Ink", ""),
+    "tones brown ink": ("Ink & drawing media", "Ink", ""),
+    "pen": ("Ink & drawing media", "Ink", ""),
+    # Pencil bucket
+    "blue pencil": ("Ink & drawing media", "Pencil & graphite", "Pencil"),
+    # Chalk bucket
+    "black chalk": ("Ink & drawing media", "Chalk & crayon", "Chalk"),
+    "white chalk": ("Ink & drawing media", "Chalk & crayon", "Chalk"),
+    "red chalk": ("Ink & drawing media", "Chalk & crayon", "Chalk"),
+    # Crayon bucket
+    "black crayon": ("Ink & drawing media", "Chalk & crayon", "Crayon"),
+    # Paint (own Tier 2)
+    "paint": ("Paint & pigment", "Paint", ""),
+    "painted": ("Paint & pigment", "Paint", ""),
+    "gold paint": ("Paint & pigment", "Paint", ""),
+    "gesso": ("Paint & pigment", "Paint", ""),
+    "metallic paint": ("Paint & pigment", "Paint", ""),
+    "overglaze painting": ("Paint & pigment", "Paint", ""),
+    # Pigment bucket
+    "pigment": ("Paint & pigment", "Pigment", ""),
+    "metallic pigment": ("Paint & pigment", "Pigment", ""),
+    # Gouache bucket
+    "gray gouache ground": ("Paint & pigment", "Gouache & tempera", "Gouache"),
+    "white gouache": ("Paint & pigment", "Gouache & tempera", "Gouache"),
+    # Oil (own Tier 2)
+    "oil": ("Paint & pigment", "Oil", ""),
+    "oil paint": ("Paint & pigment", "Oil", ""),
+    # Acrylic (own Tier 2)
+    "acrylic": ("Paint & pigment", "Acrylic", ""),
+    "acrylic paint": ("Paint & pigment", "Acrylic", ""),
+    # Glass (own Tier 1)
+    "glass": ("Glass", "Glass", ""),
+    "pressed lead glass": ("Glass", "Glass", ""),
+    "free-blown glass": ("Glass", "Glass", ""),
+    "blown glass": ("Glass", "Glass", ""),
+    # Engraving (own Tier 2)
+    "engraving": ("Prints", "Engraving", ""),
+    "stipple engraving": ("Prints", "Engraving", ""),
+    # Earthenware bucket
+    "glazed earthenware": ("Ceramic", "Earthenware", "Earthenware"),
+    "tin-glazed earthenware": ("Ceramic", "Earthenware", "Earthenware"),
+    # Ceramic bucket
+    "glazed ceramic": ("Ceramic", "Ceramic", "Ceramic"),
+    # Bead bucket
+    "glass bead": ("Textiles & fiber", "Trimmings", "Bead"),
+    "glass seed bead": ("Textiles & fiber", "Trimmings", "Bead"),
+    # Thread bucket
+    "metallic thread": ("Textiles & fiber", "Yarn & thread", "Thread"),
+    "metal thread": ("Textiles & fiber", "Yarn & thread", "Thread"),
+    # Wool bucket
+    "sheep's wool": ("Textiles & fiber", "Wool", "Wool"),
+    # Cotton (own Tier 2)
+    "white cotton": ("Textiles & fiber", "Cotton", ""),
+    # Linen bucket
+    "white linen": ("Textiles & fiber", "Other woven textiles", "Linen"),
+    "embroidered linen": ("Textiles & fiber", "Other woven textiles", "Linen"),
+    # Rattan bucket
+    "woven rattan": ("Organic", "Wood & plant", "Rattan"),
+    # Ribbon bucket
+    "silk ribbon": ("Textiles & fiber", "Trimmings", "Ribbon"),
+    # Marble (own Tier 2)
+    "marble base": ("Stone", "Marble", ""),
+    # Rhinestone moves under Textile & fiber trimmings (was its own Glass leaf).
+    "rhinestone": ("Textiles & fiber", "Trimmings", "Rhinestone"),
+    "rhinestones": ("Textiles & fiber", "Trimmings", "Rhinestone"),
+}
+
+# Bare colour tokens suppressed from the medium facet entirely (curator
+# feedback: "green"/"yellow" pigment leaves are noise, not a useful facet node).
+SUPPRESSED_TOKENS: frozenset[str] = frozenset({"green", "yellow"})
+
 # --- High-priority overrides, run BEFORE the derived-keyword pass ---------------
 # The derived-keyword pass is greedy: a single incidental word inside a token
 # (image-forming "silver", a colour, a paper-finish name) grabs the token before
@@ -272,6 +377,7 @@ class Tier1Path:
     source: str  # curated|override|keyword|supplementary|not_medium|unresolved
     confidence: float
     suppress_suggested: bool
+    suppressed: bool = False
 
 
 def _norm(s: str) -> str:
@@ -340,11 +446,41 @@ class Tier1Classifier:
     def classify(
         self, token: str, *, canonical: str = "", facet_final: str = ""
     ) -> Tier1Path:
+        """Resolve a token, then apply two curator fixups regardless of which
+        pass produced the result (so a composite phrase, not just the bare
+        token, is corrected the same way):
+
+        - colour-only buckets ("green"/"yellow") are suppressed entirely.
+        - "Rhinestone" moves under Textiles & fiber / Trimmings (it was its
+          own Glass leaf; rhinestones aren't reliably glass).
+        """
+        p = self._classify(token, canonical=canonical, facet_final=facet_final)
+        if p.tier3.lower() in SUPPRESSED_TOKENS:
+            return Tier1Path("Other", "", "", "suppressed", 1.0, False, True)
+        if p.tier3.lower() == "rhinestone" and p.tier1 != "Textiles & fiber":
+            return Tier1Path(
+                "Textiles & fiber", "Trimmings", "Rhinestone", "normalised", 1.0, False
+            )
+        return p
+
+    def _classify(
+        self, token: str, *, canonical: str = "", facet_final: str = ""
+    ) -> Tier1Path:
         tok = _norm(token)
         can = _norm(canonical)
 
         def _hit(kw: str) -> bool:
             return bool(kw) and (_kw_hit(kw, tok) or (can and _kw_hit(kw, can)))
+
+        # 0. bare colour tokens suppressed from the facet entirely.
+        if tok in SUPPRESSED_TOKENS or (can and can in SUPPRESSED_TOKENS):
+            return Tier1Path("Other", "", "", "suppressed", 1.0, False, True)
+
+        # 0b. curator normalisation buckets — exact-token match, wins outright.
+        for key in (tok, can):
+            if key and key in NORMALISATION_KEYWORDS:
+                t1, t2, t3 = NORMALISATION_KEYWORDS[key]
+                return Tier1Path(t1, t2, t3, "normalised", 1.0, False)
 
         # 1. curated exact override (token or its canonical form)
         for key in (tok, can):

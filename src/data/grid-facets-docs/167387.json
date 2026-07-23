@@ -3,7 +3,6 @@
 	"accession_number": "2002.122.2",
 	"sort_number": "2002.122.2",
 	"title": "Headhunter's headdress",
-	"object_name": "headwear",
 	"date_display": "early 20th century",
 	"date_start": null,
 	"date_end": null,
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2018-02-07 00:00:00.000000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "Beauty, Power, and Prestige: Textiles and Costume from the Permanent Collection- New DeYoung opening, 10/05",
@@ -41,15 +39,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2002-10-10",
-	"location_string": "de Young, 061, Cabinet 028, C",
-	"location_building": "de Young",
-	"location_room": "Cabinet 028",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Headhunter's headdress",
@@ -77,6 +71,7 @@
 			"height": 3192,
 			"width": 2496,
 			"file_name": "0813200310100065.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u249/0813200310100065.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -85,7 +80,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 120010,
@@ -103,6 +101,7 @@
 			"height": 1800,
 			"width": 1134,
 			"file_name": "1212200209370144.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u247/1212200209370144.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -111,7 +110,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -119,26 +121,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "10 1/4 x 9 x 14 in. (26 x 22.9 x 35.6 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 26.0,
-				"width_cm": 22.9,
-				"depth_cm": 35.6,
-				"height_in": 10.25,
-				"width_in": 9.0,
-				"depth_in": 14.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "26 x 22.9 x 35.6 cm (10 1/4 x 9 x 14 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -185,14 +168,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -205,10 +185,27 @@
 			"Southeast Asia > Southeast Asia > Luzon"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Southeast Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Luzon",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAC.AAAEG"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": null,
@@ -232,23 +229,23 @@
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Hair, fur & feather",
-			"specific": "hair"
+			"subcategory": "Hair, fur + feather",
+			"specific": "Hair"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Shell & pearl",
-			"specific": "pearl"
+			"subcategory": "Shell + pearl",
+			"specific": "Pearl"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "rattan"
+			"subcategory": "Wood + plant",
+			"specific": "Rattan"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "wood"
+			"subcategory": "Wood + plant",
+			"specific": "Wood"
 		}
 	],
 	"facet_place": [
@@ -260,8 +257,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Metal, Brass, hair, pearl … · Luzon",
+		"reason": "grid-facets real slice — Metal, Brass, Hair, Pearl … · Luzon",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 41
+		"populated_fields": 38
 	}
 }

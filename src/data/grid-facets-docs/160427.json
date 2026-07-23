@@ -3,7 +3,6 @@
 	"accession_number": "2007.44.17",
 	"sort_number": "2007.44.17",
 	"title": "Doroe or dekewar (spirit mask costume)",
-	"object_name": "Costume",
 	"date_display": "20th century",
 	"date_start": null,
 	"date_end": null,
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-04-06 12:34:07.890000",
 	"is_virtual": false,
-	"identifying_description": "Painted bodice made by twining the inner bark of a paper mulberry tree and coiling rattan; painted mask accessorized with ears, eyepieces, a nose, and an upright stick of cassowary feathers, and a skirt of sago fronds.",
 	"web_text": "This spirit mask garment (doroe or dekewar) is worn by the Asmat people for the jipae festival, a mortuary feast that brings the community together to assist the recently deceased in their journey to the spirit world. A typical spirit mask costume includes a painted bodice made by twining paper mulberry tree bark and coiling rattan; a painted mask accessorized with ears, eyepieces, a nose, and an upright stick of cassowary feathers; and a skirt of sago fronds. During the jipae festival, performers masked in costumes—such as this particularly elaborate example from Jakapis village—approach by canoe from the river or emerge from the forest in the late afternoon and travel to the homes of mourning relatives. The spirits stay overnight, dancing and feasting, until they disappear at sunrise down the river or into the forest. The garments remain stored in the village and are considered special heirlooms.",
 	"didactic_label": "This spirit mask costume (doroe or dekewar) is worn by the Asmat people in a jipae festival, a mortuary feast that takes place every few years. The typical spirit mask costume includes a painted bodice made by twining the inner bark of a paper mulberry tree and coiling rattan; a painted mask accessorized with ears, eyepieces, a nose, and an upright stick of cassowary feathers; and a skirt of sago fronds.\n\nThe jipae festival brings the community together to assist the recently deceased in their journey to the spirit world. On the day of the feast, performers masked in costumes, such as this particularly elaborate example from Jakapis village, approach by canoe from the river or emerge from the forest in the late afternoon and travel to the homes of mourning relatives. Village men entice the spirits into a mock fight in an attempt to embarrass them and force their retreat into the world of the dead. Instead, the spirits stay overnight, dancing and feasting, until they finally disappear at sunrise down the river or into the forest. The masks, however, remain stored in the village and are considered special heirlooms.",
 	"exhibition_history_text": "2005 - New Guinea Art. Masterpieces from the Jolika Collection of Marcia and John Friede. De Young Museum, San Francisco, 2005.",
@@ -48,15 +46,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2007-10-11",
 	"location_string": "de Young, Display, Gallery 030",
 	"location_building": "de Young",
 	"location_room": "Gallery 030",
 	"edition": null,
-	"signed": null,
-	"inscribed": "L05.1.80 A360995\nowner number 516",
-	"markings": null,
 	"titles": [
 		{
 			"title": "Doroe or dekewar (spirit mask costume)",
@@ -111,6 +105,7 @@
 			"height": 879,
 			"width": 390,
 			"file_name": "0609200304010036.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u270/0609200304010036.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -119,7 +114,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -127,26 +125,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "82 11/16 x 25 9/16 x 16 1/8 in. (210 x 65 x 41 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 210.0,
-				"width_cm": 65.0,
-				"depth_cm": 41.0,
-				"height_in": 82.6875,
-				"width_in": 25.5625,
-				"depth_in": 16.125,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "210 x 65 x 41 cm (82 11/16 x 25 9/16 x 16 1/8 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -213,14 +192,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -233,6 +209,43 @@
 			"Southeast Asia > Southeast Asia > Jakapis villlage"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Southeast Asia > Southeast Asia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Papua > Asmat Regency > Northwest Asmat",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAAFB.AAAAB"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Papua > Asmat Regency > Northwest Asmat > Yerep River",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAAFB.AAAAB.AAAAC"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Papua",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI"
+			},
+			{
+				"value": "Southeast Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Papua > Asmat Regency > Northwest Asmat > Yerep River > Jakapis villlage",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAAFB.AAAAB.AAAAC.AAAAA"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Papua > Asmat Regency",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAAFB"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Asmat, Emari Ducur subgroup",
@@ -252,31 +265,31 @@
 	"facet_medium": [
 		{
 			"section": "Organic",
-			"subcategory": "Hair, fur & feather",
-			"specific": "feather"
+			"subcategory": "Hair, fur + feather",
+			"specific": "Feather"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Shell & pearl",
-			"specific": "shell"
+			"subcategory": "Shell + pearl",
+			"specific": "Shell"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "rattan"
+			"subcategory": "Wood + plant",
+			"specific": "Rattan"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "wood"
+			"subcategory": "Wood + plant",
+			"specific": "Wood"
 		},
 		{
-			"section": "Paint & pigment",
+			"section": "Paint + pigment",
 			"subcategory": "Pigment",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Fiber",
 			"specific": ""
 		}
@@ -290,8 +303,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — feather, shell, rattan, wood … · Jakapis villlage",
+		"reason": "grid-facets real slice — Feather, Shell, Rattan, Wood … · Jakapis villlage",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 49
+		"populated_fields": 46
 	}
 }

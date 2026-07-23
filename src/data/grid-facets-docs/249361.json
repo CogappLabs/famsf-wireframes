@@ -3,7 +3,6 @@
 	"accession_number": "52942a-b",
 	"sort_number": "52942a-b",
 	"title": "Rosary and bag",
-	"object_name": "ecclesiastical/ritual costume",
 	"date_display": null,
 	"date_start": null,
 	"date_end": null,
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-24 00:00:00.000000",
 	"last_modified": "2019-11-14 00:00:00.000000",
 	"is_virtual": false,
-	"identifying_description": "Rosary with cord of coral beads and gold metallic thread. Pendant from it is a miniature figure of the Virgin with a surround of angles and flowers, all formed by turning narrow bands of braided poychrome and metal-wrapped silk and anchoring the turns in place with stitches, creating three dimensional forms. Must be viewed under magnification. With the rosary is a small, plain silk bag.",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1914-01-26",
-	"location_string": "de Young, 059, Cabinet 03, M",
-	"location_building": "de Young",
-	"location_room": "Cabinet 03",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Rosary and bag",
@@ -73,6 +67,7 @@
 			"height": 917,
 			"width": 798,
 			"file_name": "1508200312160181.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u248/1508200312160181.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -81,7 +76,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -131,14 +129,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -149,10 +144,22 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "North and Central America",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABZ"
+			},
+			{
+				"value": "North and Central America > México",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABZ.AAAFG"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": null,
@@ -171,28 +178,28 @@
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Shell & pearl",
-			"specific": "pearl"
+			"subcategory": "Shell + pearl",
+			"specific": "Pearl"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Embroidery",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "sequin"
+			"specific": "Sequin"
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "yarn"
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Yarn"
 		}
 	],
 	"facet_place": [
@@ -204,8 +211,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Gold, pearl, Embroidery, Silk … · Mexico",
+		"reason": "grid-facets real slice — Gold, Pearl, Embroidery, Silk … · Mexico",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 36
+		"populated_fields": 32
 	}
 }

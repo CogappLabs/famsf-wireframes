@@ -3,7 +3,6 @@
 	"accession_number": "1988.11.252",
 	"sort_number": "1988.11.252",
 	"title": "Cover or hanging (cicim)",
-	"object_name": "Floor cover or hanging (non-tapestry)",
 	"date_display": "19th century",
 	"date_start": "1801",
 	"date_end": "1900",
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-05-26 15:47:11.260000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "Unravelling Yarns(rotation) 1993-1996",
@@ -42,15 +40,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1988-06-09",
-	"location_string": "de Young, 059, Cabinet 55, B",
-	"location_building": "de Young",
-	"location_room": "Cabinet 55",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Cover or hanging (cicim)",
@@ -117,6 +111,7 @@
 			"height": 2476,
 			"width": 1888,
 			"file_name": "5256165128510073.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u262/5256165128510073.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -125,7 +120,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -133,26 +131,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "56 1/2 x 42 in. (143.5 x 106.7 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 143.5,
-				"width_cm": 106.7,
-				"depth_cm": null,
-				"height_in": 56.5,
-				"width_in": 42.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "143.5 x 106.7 cm (56 1/2 x 42 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -191,6 +170,39 @@
 					"depth": 5,
 					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAAPQ",
 					"term": "Konya"
+				}
+			]
+		},
+		{
+			"id": 16795641,
+			"term": "Karapınar",
+			"type": "Descriptor",
+			"certainty": "Possibly",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
+					"term": "Achaemenid Empire"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASN",
+					"term": "Marmara"
+				},
+				{
+					"depth": 7,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASN.AAAAB.AAABC",
+					"term": "Karapınar"
 				}
 			]
 		},
@@ -254,49 +266,14 @@
 					"term": "Obruk"
 				}
 			]
-		},
-		{
-			"id": 16795641,
-			"term": "Karapınar",
-			"type": "Descriptor",
-			"certainty": "Possibly",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF",
-					"term": "Achaemenid Empire"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASN",
-					"term": "Marmara"
-				},
-				{
-					"depth": 7,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASN.AAAAB.AAABC",
-					"term": "Karapınar"
-				}
-			]
 		}
 	],
 	"term_place_of_fabrication": null,
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": [
@@ -359,7 +336,6 @@
 			]
 		}
 	],
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -375,11 +351,53 @@
 			"Asia > Achaemenid Empire > Obruk"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia > Achaemenid Empire > Marmara",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASN"
+			},
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Asia > Achaemenid Empire > Mediterranean Region",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASW"
+			},
+			{
+				"value": "Asia > Achaemenid Empire > Mediterranean Region > Obruk",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASW.AAAAM.AAAGY"
+			},
+			{
+				"value": "Asia > Achaemenid Empire > Marmara > Karapınar",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAASN.AAAAB.AAABC"
+			},
+			{
+				"value": "Asia > Achaemenid Empire",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF"
+			},
+			{
+				"value": "Asia > Achaemenid Empire > Asia Minor",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABGE"
+			},
+			{
+				"value": "Asia > Achaemenid Empire > Konya",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAAPQ"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
-	"sort_artist": null,
+	"primary_artist": "Yörük",
+	"primary_artist_display": "Yörük",
+	"sort_artist": "Yörük",
 	"culture_group": [
 		"Turkish",
 		"Yörük"
@@ -394,17 +412,17 @@
 	"sort_year": 1801,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": "Supplementary-weft patterning"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Wool",
 			"specific": ""
 		}
@@ -417,6 +435,12 @@
 			"notable": "Konya"
 		},
 		{
+			"region": "East Asia",
+			"country": "",
+			"state": "",
+			"notable": "Karapınar"
+		},
+		{
 			"region": "Middle East",
 			"country": "Achaemenid",
 			"state": "",
@@ -427,17 +451,11 @@
 			"country": "",
 			"state": "",
 			"notable": "Obruk"
-		},
-		{
-			"region": "East Asia",
-			"country": "",
-			"state": "",
-			"notable": "Karapınar"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Supplementary-weft patterning, Wool · Konya, Anatolia, Obruk",
+		"reason": "grid-facets real slice — Cotton, Supplementary-weft patterning, Wool · Konya, Karapınar, Anatolia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 47
+		"populated_fields": 45
 	}
 }

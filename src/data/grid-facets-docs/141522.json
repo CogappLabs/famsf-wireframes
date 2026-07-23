@@ -3,7 +3,6 @@
 	"accession_number": "2004.100.6",
 	"sort_number": "2004.100.6",
 	"title": "Dervish cap",
-	"object_name": "headwear",
 	"date_display": "19th century",
 	"date_start": null,
 	"date_end": null,
@@ -25,7 +24,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2012-04-30 00:00:00.000000",
 	"is_virtual": false,
-	"identifying_description": "The lining is made of a plainweavee changeant (changeable) silk.",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "Beauty, Power, and Prestige: Textiles and Costume from the Permanent Collection- New DeYoung opening, 10/05",
@@ -44,15 +42,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2004-10-14",
-	"location_string": "de Young, 227, Cabinet 25, TA",
-	"location_building": "de Young",
-	"location_room": "Cabinet 25",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Dervish cap",
@@ -80,6 +74,7 @@
 			"height": 1762,
 			"width": 1176,
 			"file_name": "0114200513350150.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u233/0114200513350150.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -88,7 +83,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -96,26 +94,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "11 x 8 in. (27.9 x 20.3 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 27.9,
-				"width_cm": 20.3,
-				"depth_cm": null,
-				"height_in": 11.0,
-				"width_in": 8.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "27.9 x 20.3 cm (11.5 x 8 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -157,14 +136,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -175,10 +151,22 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia > Īrān",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAQH"
+			},
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": null,
@@ -191,27 +179,27 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Embroidery",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
-			"specific": "silk lining"
+			"specific": "Silk lining"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Wool",
 			"specific": ""
 		}
@@ -225,8 +213,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Embroidery, Silk, silk lining … · Iran",
+		"reason": "grid-facets real slice — Cotton, Embroidery, Silk, Silk lining … · Iran",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 41
+		"populated_fields": 37
 	}
 }

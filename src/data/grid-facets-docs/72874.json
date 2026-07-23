@@ -3,7 +3,6 @@
 	"accession_number": "1995.28a-e",
 	"sort_number": "1995.28a-e",
 	"title": "La Carreta de la Muerte (Chariot of Death Carrying the Angel of Death)",
-	"object_name": "ritual object",
 	"date_display": "ca. 1900",
 	"date_start": "1895",
 	"date_end": "1905",
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2025-08-14 15:25:40.687000",
 	"is_virtual": false,
-	"identifying_description": "Skeletal figure (a) of \"Death\" holding bow (b) and arrow (c) and seated in cart (d). The cart has a long pole (e) coming out the front",
 	"web_text": "The Penitentes are an order of Spanish-American Catholics whose secret rituals marking the death and resurrection of Christ represent some of the oldest continuously practiced religious rites the United States. Pentitente ritual, which emphasized public and bodily penance, was officially condemned by the Church in the nineteenth century, but these observances continued in secret. \n\nFor the Penitentes, Easter Holy Week observance inspired the most profound public expressions of penance. Reenacting the scenes of the passion of Christ, they processed from the morada, or Penitente chapter house, toward a preselected Calvary site. In these processions, death was personified as a life-size, skeletal figure, made ever more realistic by the addition of hair, glass marble eyes, teeth, and movable limbs.",
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -43,15 +41,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1995-06-15",
 	"location_string": "de Young, Display, Gallery 020",
 	"location_building": "de Young",
 	"location_room": "Gallery 020",
 	"edition": null,
-	"signed": null,
-	"inscribed": "White label on the back of the cart : \"John Haley\"; White label on the thicker end of the pole : \"John Haley\", and yellow label with handwriting : \"Death Cart\"",
-	"markings": null,
 	"titles": [
 		{
 			"title": "La Carreta de la Muerte (Chariot of Death Carrying the Angel of Death)",
@@ -79,7 +73,7 @@
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "Unidentified"
+			"DisplayLabel": "Unidentified, active late 19th century, early 20th century"
 		}
 	],
 	"media": [
@@ -99,6 +93,7 @@
 			"height": 9183,
 			"width": 7227,
 			"file_name": "A323242_V1.tif",
+			"file_path": "TMSShared/Media/All Staff/20/A323242_V1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -107,7 +102,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 80776,
@@ -125,6 +123,7 @@
 			"height": 1336,
 			"width": 1384,
 			"file_name": "0302200114530028.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u269/0302200114530028.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -133,7 +132,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 80777,
@@ -151,6 +153,7 @@
 			"height": 1936,
 			"width": 2127,
 			"file_name": "0508200413500011.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u268/0508200413500011.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -159,7 +162,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 80778,
@@ -177,6 +183,7 @@
 			"height": 685,
 			"width": 515,
 			"file_name": "0708200915280015.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u240/0708200915280015.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -185,7 +192,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -193,26 +203,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "40 x 48 x 20 in. (101.6 x 121.9 x 50.8 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 101.6,
-				"width_cm": 121.9,
-				"depth_cm": 50.8,
-				"height_in": 40.0,
-				"width_in": 48.0,
-				"depth_in": 20.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "40 x 48.5 x 20 in. (101.6 x 121.9 x 50.8 cm)",
 	"associations": [],
 	"highlights": [
 		{
@@ -232,6 +223,39 @@
 	"is_compound": false,
 	"term_rights_statement": null,
 	"term_place_of_creation": [
+		{
+			"id": 17101931,
+			"term": "Mora",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
+				},
+				{
+					"depth": 4,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS",
+					"term": "New Mexico"
+				},
+				{
+					"depth": 5,
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS.AAAIK",
+					"term": "Mora"
+				}
+			]
+		},
 		{
 			"id": 20889057,
 			"term": "Española",
@@ -269,163 +293,17 @@
 					"term": "Espanola"
 				}
 			]
-		},
-		{
-			"id": 17101931,
-			"term": "Mora",
-			"type": "Descriptor",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABZ",
-					"term": "North and Central America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
-					"term": "United States"
-				},
-				{
-					"depth": 4,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS",
-					"term": "New Mexico"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS.AAAIK",
-					"term": "Mora"
-				}
-			]
 		}
 	],
 	"term_place_of_fabrication": null,
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": [
-		{
-			"id": 16318628,
-			"term": "leather",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAF",
-					"term": "materials by origin"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
-					"term": "biological material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
-					"term": "animal material"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF",
-					"term": "processed animal material"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF.AAC",
-					"term": "leather"
-				}
-			]
-		},
-		{
-			"id": 16487471,
-			"term": "horsehair",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAF",
-					"term": "materials by origin"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
-					"term": "biological material"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
-					"term": "animal material"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE",
-					"term": "keratinous material"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB",
-					"term": "hair and hair components as materials"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA",
-					"term": "hair"
-				},
-				{
-					"depth": 10,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAA",
-					"term": "hair by composition or origin"
-				},
-				{
-					"depth": 11,
-					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAA.AAI",
-					"term": "horsehair"
-				}
-			]
-		},
 		{
 			"id": 16426862,
 			"term": "cottonwood",
@@ -493,9 +371,119 @@
 					"term": "cottonwood"
 				}
 			]
+		},
+		{
+			"id": 16487471,
+			"term": "horsehair",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
+					"term": "animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE",
+					"term": "keratinous material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB",
+					"term": "hair and hair components as materials"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA",
+					"term": "hair"
+				},
+				{
+					"depth": 10,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAA",
+					"term": "hair by composition or origin"
+				},
+				{
+					"depth": 11,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAE.AAB.AAA.AAA.AAI",
+					"term": "horsehair"
+				}
+			]
+		},
+		{
+			"id": 16318628,
+			"term": "leather",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAF",
+					"term": "materials by origin"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA",
+					"term": "biological material"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA",
+					"term": "animal material"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF",
+					"term": "processed animal material"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAF.AAA.AAA.AAF.AAC",
+					"term": "leather"
+				}
+			]
 		}
 	],
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -509,10 +497,42 @@
 			"North America > United States > Mora"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "North America > United States > New Mexico > Rio Arriba",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS.AAAMX"
+			},
+			{
+				"value": "North America > United States > New Mexico > Rio Arriba > Espanola",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS.AAAMX.AAAMR"
+			},
+			{
+				"value": "North America > United States > New Mexico",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS"
+			},
+			{
+				"value": "North America > United States",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABZ.AAAKC"
+			},
+			{
+				"value": "North America",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABZ"
+			},
+			{
+				"value": "North America > United States > New Mexico > Mora",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAABZ.AAAKC.AAEFS.AAAIK"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Unidentified",
-	"primary_artist_display": "Unidentified",
+	"primary_artist": "Unidentified, active late 19th century, early 20th century",
+	"primary_artist_display": "Unidentified, active late 19th century, early 20th century",
 	"sort_artist": "Unidentified",
 	"culture_group": [],
 	"display_year": "1895–1905",
@@ -531,38 +551,38 @@
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Hair, fur & feather",
-			"specific": "horsehair"
+			"subcategory": "Hair, fur + feather",
+			"specific": "Horsehair"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Leather & hide",
-			"specific": "leather"
+			"subcategory": "Leather + hide",
+			"specific": "Leather"
 		},
 		{
-			"section": "Paint & pigment",
+			"section": "Paint + pigment",
 			"subcategory": "Paint",
 			"specific": ""
 		},
 		{
-			"section": "Paper & parchment",
+			"section": "Paper + parchment",
 			"subcategory": "Paper",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Other woven textiles",
-			"specific": "fabric"
+			"specific": "Fabric"
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "string"
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "String"
 		}
 	],
 	"facet_place": [
@@ -570,18 +590,18 @@
 			"region": "North America",
 			"country": "United States",
 			"state": "New Mexico",
-			"notable": "Española"
+			"notable": "Mora"
 		},
 		{
 			"region": "North America",
 			"country": "United States",
 			"state": "New Mexico",
-			"notable": "Mora"
+			"notable": "Española"
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass, horsehair, leather, Paint … · Española, Mora",
+		"reason": "grid-facets real slice — Glass, Horsehair, Leather, Paint … · Mora, Española",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 51
+		"populated_fields": 48
 	}
 }

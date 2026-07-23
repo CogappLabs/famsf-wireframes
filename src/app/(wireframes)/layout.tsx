@@ -6,7 +6,6 @@ import { Suspense } from "react";
 import { ExternalLink } from "@/components/wireframe";
 import BananaEasterEgg from "@/components/wireframe/BananaEasterEgg";
 import FieldDebugToggle from "@/components/wireframe/FieldDebugToggle";
-import FloatingSearch from "@/components/wireframe/FloatingSearch";
 import GlobalNav from "@/components/wireframe/GlobalNav";
 import MvpOnlyToggle from "@/components/wireframe/MvpOnlyToggle";
 import ScopeToggle from "@/components/wireframe/ScopeToggle";
@@ -72,8 +71,6 @@ export default function WireframeLayout({
 			<GlobalNav />
 
 			<main className="flex-1">{children}</main>
-
-			<FloatingSearch />
 
 			<footer className="border-t border-gray-300">
 				<div className="px-[var(--margin-xl)] py-8">

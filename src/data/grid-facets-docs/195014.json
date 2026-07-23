@@ -3,7 +3,6 @@
 	"accession_number": "50.32.106",
 	"sort_number": "50.32.106",
 	"title": "Fighting club (nulla-nulla)",
-	"object_name": "club",
 	"date_display": null,
 	"date_start": null,
 	"date_end": null,
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2014-04-14 00:00:00.000000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -55,15 +53,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1950-10-26",
-	"location_string": "de Young, 061, Cabinet 005, B",
-	"location_building": "de Young",
-	"location_room": "Cabinet 005",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Fighting club (nulla-nulla)",
@@ -91,6 +85,7 @@
 			"height": 648,
 			"width": 2844,
 			"file_name": "9187330237170054.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u265/9187330237170054.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -99,7 +94,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -159,14 +157,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -179,10 +174,32 @@
 			"Oceania > Australia > Mount Margaret"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Oceania > Australia > Western Australia > Mount Margaret",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAACB.AAAAC.AAADG.AASXF"
+			},
+			{
+				"value": "Oceania",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACB"
+			},
+			{
+				"value": "Oceania > Australia > Western Australia",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAACB.AAAAC.AAADG"
+			},
+			{
+				"value": "Oceania > Australia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACB.AAAAC"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": null,
@@ -196,11 +213,11 @@
 	"facet_medium": [
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "wood"
+			"subcategory": "Wood + plant",
+			"specific": "Wood"
 		},
 		{
-			"section": "Paint & pigment",
+			"section": "Paint + pigment",
 			"subcategory": "Paint",
 			"specific": ""
 		}
@@ -214,8 +231,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — wood, Paint · Mount Margaret",
+		"reason": "grid-facets real slice — Wood, Paint · Mount Margaret",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 37
+		"populated_fields": 34
 	}
 }

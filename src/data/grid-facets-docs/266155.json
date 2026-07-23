@@ -3,7 +3,6 @@
 	"accession_number": "71.15",
 	"sort_number": "71.15",
 	"title": "Chief's headdress",
-	"object_name": "headwear",
 	"date_display": "early 20th century",
 	"date_start": "1900",
 	"date_end": "1925",
@@ -20,9 +19,8 @@
 	"object_rights_type": "Requires Further Research",
 	"on_view": false,
 	"entered_date": "2021-11-24 00:00:00.000000",
-	"last_modified": "2023-04-28 14:05:32.820000",
+	"last_modified": "2026-07-22 08:34:40.157000",
 	"is_virtual": false,
-	"identifying_description": "Headdress carved in wood in the shape of a bird, with a hollow on the underside to fit over the top of the wearer's head. The surface of the hollow is not finished smooth - tool marks remain in the surface. Holes are drilled through the wood around the bottom edge of the hollow for stitched attachments. The exterior surface of the headdress is entirely covered with a plant fiber (bast?) plain weave textile stitched together and laced to the wood with a 2-ply, Z-twist plant fiber cord. Coils of black (human?) hair are visible around the lower edge of the mask. The surface of the textile is covered with cowrie shells and glass beads - large dark blue tubes, small circular red (translucent red over a white core), turquoise, opaque white.",
 	"web_text": "Chief's headdressCameroon, Bamileke people Early 20th centuryWood, beads Museum purchase, M. H. de Young Art Trust Fund71.15",
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -43,15 +41,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1971-09-01",
-	"location_string": "UOVO, Livermore",
-	"location_building": "UOVO",
+	"location_string": null,
+	"location_building": null,
 	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Chief's headdress",
@@ -64,10 +58,10 @@
 	"constituents": [
 		{
 			"id": 38249,
-			"Role": "Culture Group",
-			"RoleID": 588,
-			"name": "Bamileke",
-			"name_sort": "Bamileke",
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Bamiléké",
+			"name_sort": "Bamiléké",
 			"Nationality": null,
 			"place_born": null,
 			"place_died": null,
@@ -79,7 +73,7 @@
 			"Institution": null,
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "Bamileke"
+			"DisplayLabel": "Bamiléké"
 		}
 	],
 	"media": [
@@ -99,6 +93,7 @@
 			"height": 5428,
 			"width": 7230,
 			"file_name": "A308450_V1.tif",
+			"file_path": "TMSShared/Media/All Staff/24/A308450_V1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -107,7 +102,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 83563,
@@ -125,6 +123,7 @@
 			"height": 750,
 			"width": 1272,
 			"file_name": "0701200514170001.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u272/0701200514170001.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -133,7 +132,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -141,26 +143,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "9 x 8 1/2 x 25 1/4 in., (22.9 x 21.6 x 64.135 cm,)",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 22.9,
-				"width_cm": 21.6,
-				"depth_cm": 64.135,
-				"height_in": 9.0,
-				"width_in": 8.5,
-				"depth_in": 25.25,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "9 x 8 1/2 x 26 in., (22.9 x 21.6 x 66 cm,)",
 	"associations": [],
 	"highlights": [
 		{
@@ -208,66 +191,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": [
-		{
-			"id": 16289908,
-			"term": "vegetable fiber",
-			"type": "Used For Term",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAG",
-					"term": "Materials Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAG.AAA",
-					"term": "Materials"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAG.AAA.AAA",
-					"term": "materials"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAG.AAA.AAA.AAC",
-					"term": "materials by form"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
-					"term": "materials by physical form"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
-					"term": "fiber and fiber by product"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
-					"term": "fiber"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAE",
-					"term": "natural fiber"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAE.AAB",
-					"term": "plant fiber"
-				}
-			]
-		},
 		{
 			"id": 16421191,
 			"term": "cowrie shell",
@@ -325,9 +253,61 @@
 					"term": "cowrie shell"
 				}
 			]
+		},
+		{
+			"id": 16289908,
+			"term": "vegetable fiber",
+			"type": "Used For Term",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUY.AAG",
+					"term": "Materials Facet"
+				},
+				{
+					"depth": 2,
+					"cn": "AUY.AAG.AAA",
+					"term": "Materials"
+				},
+				{
+					"depth": 3,
+					"cn": "AUY.AAG.AAA.AAA",
+					"term": "materials"
+				},
+				{
+					"depth": 4,
+					"cn": "AUY.AAG.AAA.AAA.AAC",
+					"term": "materials by form"
+				},
+				{
+					"depth": 5,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI",
+					"term": "materials by physical form"
+				},
+				{
+					"depth": 6,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE",
+					"term": "fiber and fiber by product"
+				},
+				{
+					"depth": 7,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA",
+					"term": "fiber"
+				},
+				{
+					"depth": 8,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAE",
+					"term": "natural fiber"
+				},
+				{
+					"depth": 9,
+					"cn": "AUY.AAG.AAA.AAA.AAC.AAI.AAE.AAA.AAE.AAB",
+					"term": "plant fiber"
+				}
+			]
 		}
 	],
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -338,13 +318,25 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Africa > Cameroun",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAB.AAAHZ"
+			},
+			{
+				"value": "Africa",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAB"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
-	"sort_artist": null,
+	"primary_artist": "Bamiléké",
+	"primary_artist_display": "Bamiléké",
+	"sort_artist": "Bamiléké",
 	"culture_group": [
-		"Bamileke"
+		"Bamiléké"
 	],
 	"display_year": "1900–25",
 	"doc_id": "71.15",
@@ -357,28 +349,28 @@
 	"facet_medium": [
 		{
 			"section": "Organic",
-			"subcategory": "Hair, fur & feather",
-			"specific": "hair"
+			"subcategory": "Hair, fur + feather",
+			"specific": "Hair"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Shell & pearl",
-			"specific": "cowrie shell"
+			"subcategory": "Shell + pearl",
+			"specific": "Cowrie shell"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "wood"
+			"subcategory": "Wood + plant",
+			"specific": "Wood"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Fiber",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "glass bead"
+			"specific": "Bead"
 		}
 	],
 	"facet_place": [
@@ -390,8 +382,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — hair, cowrie shell, wood, Fiber … · Cameroon",
+		"reason": "grid-facets real slice — Hair, Cowrie shell, Wood, Fiber … · Cameroon",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 49
+		"populated_fields": 47
 	}
 }

@@ -3,7 +3,6 @@
 	"accession_number": "1988.18.1",
 	"sort_number": "1988.18.1",
 	"title": "Wedding sarong, songket",
-	"object_name": "woman's costume",
 	"date_display": "ca. 1950–1960",
 	"date_start": "1950",
 	"date_end": "1960",
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2019-09-23 00:00:00.000000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1988-12-07",
-	"location_string": "de Young, 059, Textile Rack 02, NN",
-	"location_building": "de Young",
-	"location_room": "Textile Rack 02",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Wedding sarong, songket",
@@ -73,6 +67,7 @@
 			"height": 11608,
 			"width": 5300,
 			"file_name": "A324183_V1.TIF",
+			"file_path": "TMSShared/Media/All Staff/22/A324183_V1.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -81,7 +76,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 94596,
@@ -99,6 +97,7 @@
 			"height": 11700,
 			"width": 5371,
 			"file_name": "A324183_V2.TIF",
+			"file_path": "TMSShared/Media/All Staff/22/A324183_V2.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -107,7 +106,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 94597,
@@ -125,6 +127,7 @@
 			"height": 2794,
 			"width": 5430,
 			"file_name": "1103200814010009.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u245/1103200814010009.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -133,7 +136,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -141,26 +147,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "94 x 39 1/2 in. (238.8 x 100.3 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 238.8,
-				"width_cm": 100.3,
-				"depth_cm": null,
-				"height_in": 94.0,
-				"width_in": 39.5,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "238.8 x 100.3 cm (94 x 39 1/2 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -245,14 +232,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -266,10 +250,37 @@
 			"Southeast Asia > Southeast Asia > Minangkabau"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Southeast Asia > Southeast Asia > Sumatera > Minangkabau",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADN.AAAAC"
+			},
+			{
+				"value": "Southeast Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Sumatera",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADN"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Sumatera > Bukittinggi",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADN.AAAAP.AAAAI"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": "1950–60",
@@ -282,19 +293,19 @@
 	"sort_year": 1950,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": "Supplementary-weft patterning"
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "yarn"
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Yarn"
 		}
 	],
 	"facet_place": [
@@ -312,8 +323,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Silk, Supplementary-weft patterning, yarn · Bukittinggi, Minangkabau",
+		"reason": "grid-facets real slice — Silk, Supplementary-weft patterning, Yarn · Bukittinggi, Minangkabau",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 42
+		"populated_fields": 39
 	}
 }

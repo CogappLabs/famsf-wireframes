@@ -3,7 +3,6 @@
 	"accession_number": "1996.173.13a-b",
 	"sort_number": "1996.173.13a-b",
 	"title": "Two large tabs from a garment (mantle?)",
-	"object_name": "textile fragment",
 	"date_display": "200 BC-400",
 	"date_start": "-200",
 	"date_end": "400",
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-03-09 12:48:31.510000",
 	"is_virtual": false,
-	"identifying_description": "Pair of tabs from same mantle border, each tab creates a head (one green, one red)with eyes and mouth. each head is topped with a geometrically patterned turban and has a long brown fringe suggesting hair or beard. Plain-weave cotton embroiderd with camelid-fiber, cross knit looping of camelid-fiber and camelid-fiber fringe.",
 	"web_text": "Looping: a non-woven method of fabric construction, in which yarn is twisted to create a loop through which another yarn can pass.",
 	"didactic_label": null,
 	"exhibition_history_text": "Study drawers, Textile Education Gallerry, DY 10/05 - 7/06",
@@ -42,15 +40,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1996-12-31",
-	"location_string": "de Young, 059, Cabinet 58, TB",
-	"location_building": "de Young",
-	"location_room": "Cabinet 58",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Two large tabs from a garment (mantle?)",
@@ -98,6 +92,7 @@
 			"height": 1110,
 			"width": 1650,
 			"file_name": "1212200209370004.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u247/1212200209370004.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -106,7 +101,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -114,26 +112,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "9 1/16 x 5 5/16 in. (23 x 13.5 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 23.0,
-				"width_cm": 13.5,
-				"depth_cm": null,
-				"height_in": 9.0625,
-				"width_in": 5.3125,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "23 x 13.5 cm (9 1/16 x 5 5/16 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -148,7 +127,7 @@
 	"term_rights_statement": [
 		{
 			"id": 16110964,
-			"term": "Copyright status is public domain",
+			"term": "Public domain",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
@@ -170,7 +149,7 @@
 				{
 					"depth": 3,
 					"cn": "AUT.AAA.AAU.AAB",
-					"term": "Copyright status is public domain"
+					"term": "Public domain"
 				}
 			]
 		}
@@ -204,68 +183,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": [
-		{
-			"id": 16487627,
-			"term": "Proto-Nasca",
-			"type": "Used For Term",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAD",
-					"term": "Styles and Periods Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAD.AAA",
-					"term": "Styles and Periods"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAD.AAA.AAB",
-					"term": "styles, periods, and cultures by region"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAD.AAA.AAB.AAC",
-					"term": "Americas, The"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAD.AAA.AAB.AAC.AAC",
-					"term": "Pre-Columbian"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAD.AAA.AAB.AAC.AAC.AAC",
-					"term": "Pre-Columbian South American styles and periods"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAD.AAA.AAB.AAC.AAC.AAC.AAD",
-					"term": "Pre-Columbian Andean styles and periods"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAD.AAA.AAB.AAC.AAC.AAC.AAD.AAE",
-					"term": "Early Intermediate Period"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAD.AAA.AAB.AAC.AAC.AAC.AAD.AAE.AAI",
-					"term": "Proto-Nazca"
-				}
-			]
-		}
-	],
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -276,15 +198,27 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "South America > Perú",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACT.AAAEL"
+			},
+			{
+				"value": "South America",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACT"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
-	"sort_artist": null,
+	"primary_artist": "Nasca",
+	"primary_artist_display": "Nasca",
+	"sort_artist": "Nasca",
 	"culture_group": [
 		"Nasca"
 	],
-	"display_year": "200 BC – 400",
+	"display_year": "200 BC–400",
 	"doc_id": "1996.173.13a-b",
 	"slug": "1996.173.13a-b/two-large-tabs-from-a-garment-mantle",
 	"has_image": true,
@@ -294,17 +228,17 @@
 	"sort_year": -200,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Fiber",
-			"specific": "camelid fiber"
+			"specific": "Camelid fiber"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": "Plain weave"
 		}
@@ -318,8 +252,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, camelid fiber, Plain weave · Peru",
+		"reason": "grid-facets real slice — Cotton, Camelid fiber, Plain weave · Peru",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 52
+		"populated_fields": 48
 	}
 }

@@ -3,7 +3,6 @@
 	"accession_number": "1988.11.260",
 	"sort_number": "1988.11.260",
 	"title": "Saddle rug",
-	"object_name": "animal trapping",
 	"date_display": null,
 	"date_start": null,
 	"date_end": null,
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-03-02 14:41:59.860000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1988-06-09",
-	"location_string": "de Young, 059, Cabinet 28, G",
-	"location_building": "de Young",
-	"location_room": "Cabinet 28",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Saddle rug",
@@ -93,6 +87,7 @@
 			"height": 7600,
 			"width": 10045,
 			"file_name": "A311859_V1_Crop.tif",
+			"file_path": "TMSShared/Media/All Staff/12/A311859_V1_Crop.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -101,7 +96,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 94451,
@@ -119,6 +117,7 @@
 			"height": 1912,
 			"width": 2368,
 			"file_name": "2002121804150385.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u250/2002121804150385.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -127,7 +126,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -135,26 +137,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "31 1/2 x 24 in. (80 x 61 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 80.0,
-				"width_cm": 61.0,
-				"depth_cm": null,
-				"height_in": 31.5,
-				"width_in": 24.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "80 x 61 cm (31 1/2 x 24 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -168,29 +151,6 @@
 	"is_compound": false,
 	"term_rights_statement": null,
 	"term_place_of_creation": [
-		{
-			"id": 20666686,
-			"term": "Iran",
-			"type": "N/A",
-			"certainty": "Uncertain",
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAAQH",
-					"term": "Īrān"
-				}
-			]
-		},
 		{
 			"id": 16680808,
 			"term": "Afghanistan",
@@ -213,20 +173,40 @@
 					"term": "Afghānestān"
 				}
 			]
+		},
+		{
+			"id": 20666686,
+			"term": "Iran",
+			"type": "N/A",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAJ",
+					"term": "Asia"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAJ.AAAQH",
+					"term": "Īrān"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -238,11 +218,28 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia > Īrān",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAQH"
+			},
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Asia > Afghānestān",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAAI"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
-	"sort_artist": null,
+	"primary_artist": "Baloch",
+	"primary_artist_display": "Baloch",
+	"sort_artist": "Baloch",
 	"culture_group": [],
 	"display_year": null,
 	"doc_id": "1988.11.260",
@@ -254,33 +251,33 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": "Knotted pile"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Wool",
 			"specific": ""
 		}
 	],
 	"facet_place": [
 		{
-			"region": "Middle East",
-			"country": "Iran",
+			"region": "Central Asia",
+			"country": "Afghanistan",
 			"state": "",
 			"notable": ""
 		},
 		{
-			"region": "Central Asia",
-			"country": "Afghanistan",
+			"region": "Middle East",
+			"country": "Iran",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Knotted pile, Wool · Iran, Afghanistan",
+		"reason": "grid-facets real slice — Knotted pile, Wool · Afghanistan, Iran",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 40
+		"populated_fields": 38
 	}
 }

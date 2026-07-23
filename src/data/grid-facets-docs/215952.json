@@ -3,7 +3,6 @@
 	"accession_number": "26168",
 	"sort_number": "26168",
 	"title": "Osonifei (navigation spirit)",
-	"object_name": "Figure",
 	"date_display": "19th century",
 	"date_start": null,
 	"date_end": null,
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-24 00:00:00.000000",
 	"last_modified": "2026-01-20 15:09:39.667000",
 	"is_virtual": false,
-	"identifying_description": "Navigation figures, effigies of seafaring deities, imbued with incantations and prayers offered protection for the navigator from the inherent dangers of the ocean, such as destructive typhoons and storms with high winds and waves that could imperil their vessel. Portable and small in scale, but with strong manaman, cosmic force and power, the figures accompanied the navigator while at sea and were secured to the rigging or placed for safekeeping in a navigator hut located on the outrigger platform when not in use. This rare figure originated from Namonuito Atoll in the Caroline Islands archipelago.",
 	"web_text": "For centuries, Micronesians have used canoes to ply the seas surrounding the more than six hundred islands distributed across 1,700 miles in the Western Pacific Ocean that make up the Federated States of Micronesia, an independent republic associated with the United States. Their distinctive wa, or sailing canoes, are said to be a gift from a heavenly spirit. Expert navigators relied on their knowledge of the winds and weather, ocean currents, astronomy, and the protection of osonifei, special navigation spirit effigies, as they made their voyages, some hundreds of miles in distance. Canoe voyaging in the region continues today. These figures, imbued with incantations and prayers, offered protection for the navigator from the dangers of the ocean. Portable and small but with strong manaman, or cosmic force and power to aid the mariner, osonifei were secured to the canoe’s rigging or placed for safekeeping in a navigator hut located on the outrigger platform when not in use. Fine Arts Museums of San Francisco, de Young 125 (California: Cameron + Company, 2021), p. 146, entry by Christina Hellmich.",
 	"didactic_label": "In the hands of a master navigator of the late eighteenth-early twentieth century- who had the knowledge to possess it and activate it- this effigy became a powerful spiritual ally to safeguard the navigator and his vessel while at sea.",
 	"exhibition_history_text": null,
@@ -43,15 +41,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1905-06-30",
-	"location_string": "de Young, 061, Cabinet 025, B",
-	"location_building": "de Young",
-	"location_room": "Cabinet 025",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": "V II 21 on inside shell like container and on PR side of wood",
-	"markings": null,
 	"titles": [
 		{
 			"title": "Osonifei (navigation spirit)",
@@ -106,6 +100,7 @@
 			"height": 11608,
 			"width": 7893,
 			"file_name": "A307362_V2_crop.tif",
+			"file_path": "TMSShared/Media/All Staff/A307362_V2_crop.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -114,7 +109,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 83059,
@@ -132,6 +130,7 @@
 			"height": 9046,
 			"width": 7007,
 			"file_name": "A307362_V1.TIF",
+			"file_path": "TMSShared/Media/All Staff/20/A307362_V1.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -140,7 +139,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 83060,
@@ -158,6 +160,7 @@
 			"height": 11608,
 			"width": 8708,
 			"file_name": "A307362_V2.TIF",
+			"file_path": "TMSShared/Media/All Staff/27/A307362_V2.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -166,7 +169,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -174,26 +180,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "16 x 2 1/2 in. (40.6 x 6.4 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 40.6,
-				"width_cm": 6.4,
-				"depth_cm": null,
-				"height_in": 16.0,
-				"width_in": 2.5,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "16 x 2 1/2 (40.6 x 6.4 cm)",
 	"associations": [],
 	"highlights": [
 		{
@@ -284,14 +271,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -305,6 +289,33 @@
 			"Oceania > Micronesia > Ulul"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Oceania > Micronesia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACB.AAABB"
+			},
+			{
+				"value": "Oceania > Micronesia > Chuuk",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA"
+			},
+			{
+				"value": "Oceania > Micronesia > Chuuk > Ulul",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA.AAABG"
+			},
+			{
+				"value": "Oceania > Micronesia > Chuuk > Namonuito",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA.AAAAM"
+			},
+			{
+				"value": "Oceania",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACB"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Onoun",
@@ -329,11 +340,11 @@
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "wood"
+			"subcategory": "Wood + plant",
+			"specific": "Wood"
 		},
 		{
-			"section": "Paint & pigment",
+			"section": "Paint + pigment",
 			"subcategory": "Pigment",
 			"specific": ""
 		},
@@ -343,7 +354,7 @@
 			"specific": "Plaster"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Fiber",
 			"specific": ""
 		}
@@ -363,8 +374,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Clay, wood, Pigment, Plaster … · Namonuito, Ulul",
+		"reason": "grid-facets real slice — Clay, Wood, Pigment, Plaster … · Namonuito, Ulul",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 48
+		"populated_fields": 42
 	}
 }

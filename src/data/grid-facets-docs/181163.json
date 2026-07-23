@@ -3,7 +3,6 @@
 	"accession_number": "2000.208.10",
 	"sort_number": "2000.208.10",
 	"title": "Bark cloth (siapo)",
-	"object_name": "dual gender costume",
 	"date_display": "20th century",
 	"date_start": null,
 	"date_end": null,
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2020-08-17 00:00:00.000000",
 	"is_virtual": false,
-	"identifying_description": "Textile, tapa",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "On the Grid: Textiles and Minimalism, de Young Museum, 7/23/16 - 2/12/17",
@@ -42,15 +40,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2000-12-31",
-	"location_string": "de Young, 059, Textile Rack 14, I",
-	"location_building": "de Young",
-	"location_room": "Textile Rack 14",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Bark cloth (siapo)",
@@ -78,6 +72,7 @@
 			"height": 2570,
 			"width": 3362,
 			"file_name": "0729201511290001.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u241/0729201511290001.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -86,7 +81,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 113069,
@@ -104,6 +102,7 @@
 			"height": 4242,
 			"width": 4584,
 			"file_name": "A334260_V1.tif",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u343/A334260_V1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -112,7 +111,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 113070,
@@ -130,6 +132,7 @@
 			"height": 2440,
 			"width": 2835,
 			"file_name": "0729201511290002.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u243/0729201511290002.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -138,7 +141,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -188,14 +194,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -206,10 +209,22 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Oceania",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACB"
+			},
+			{
+				"value": "Oceania > Samoa",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACB.AAABQ"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": null,
@@ -223,13 +238,13 @@
 	"facet_medium": [
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "bark"
+			"subcategory": "Wood + plant",
+			"specific": "Bark"
 		},
 		{
-			"section": "Paint & pigment",
+			"section": "Paint + pigment",
 			"subcategory": "Paint",
-			"specific": "painted"
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -241,8 +256,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — bark, painted · Samoa",
+		"reason": "grid-facets real slice — Bark, Paint · Samoa",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 39
+		"populated_fields": 35
 	}
 }

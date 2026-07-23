@@ -3,7 +3,6 @@
 	"accession_number": "1981.84.84",
 	"sort_number": "1981.84.84",
 	"title": "Cloth panel fragment",
-	"object_name": "textile fragment",
 	"date_display": null,
 	"date_start": null,
 	"date_end": null,
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2020-01-14 00:00:00.000000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1980-12-02",
-	"location_string": "de Young, 059, Cabinet 55, TB",
-	"location_building": "de Young",
-	"location_room": "Cabinet 55",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Cloth panel fragment",
@@ -61,7 +55,7 @@
 			"media_xref_id": 92895,
 			"image_id": 54592,
 			"rank": 1,
-			"file_date": "2023-02-27 06:32:10",
+			"file_date": "2026-07-10 02:42:41.773",
 			"primary": true,
 			"media_view": null,
 			"public_caption": null,
@@ -73,6 +67,7 @@
 			"height": 1312,
 			"width": 2968,
 			"file_name": "2305200314550228.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u251/2305200314550228.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -81,7 +76,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -89,26 +87,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "66 x 31 1/2 in. (167.6 x 80 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 167.6,
-				"width_cm": 80.0,
-				"depth_cm": null,
-				"height_in": 66.0,
-				"width_in": 31.5,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "167.6 x 80 cm (66 x 31 1/2 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -168,14 +147,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -187,10 +163,27 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "South America",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACT"
+			},
+			{
+				"value": "Southeast Asia > Cambodia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAQY"
+			},
+			{
+				"value": "Southeast Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": null,
@@ -203,17 +196,17 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Dyeing",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		}
@@ -235,6 +228,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — Cotton, Dyeing, Silk · South America, Cambodia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 37
+		"populated_fields": 34
 	}
 }

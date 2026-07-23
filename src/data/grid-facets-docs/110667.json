@@ -3,7 +3,6 @@
 	"accession_number": "1992.107.192",
 	"sort_number": "1992.107.192",
 	"title": "Beaded hat (lluchu)",
-	"object_name": "headwear",
 	"date_display": "early 20th century",
 	"date_start": null,
 	"date_end": null,
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-03-02 14:13:43.880000",
 	"is_virtual": false,
-	"identifying_description": "Medium to large hat, one piece, pink, all over patterning in multicolored glass seed beads, scalloped edging on bottom, one multicolored tassel on top.\nCatalogue #70, p. 84, Traditional Textiles of the Andes",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": "To Honor the Ancestors, 1997",
@@ -42,15 +40,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1992-06-30",
-	"location_string": "de Young, 059, Cabinet 33, J",
-	"location_building": "de Young",
-	"location_room": "Cabinet 33",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Beaded hat (lluchu)",
@@ -98,6 +92,7 @@
 			"height": 2292,
 			"width": 1452,
 			"file_name": "6250307134220028.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u264/6250307134220028.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -106,7 +101,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -114,26 +112,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "8 x 14 5/8 in. (20.3 x 37.2 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 20.3,
-				"width_cm": 37.2,
-				"depth_cm": null,
-				"height_in": 8.0,
-				"width_in": 14.625,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "20.3 x 37.2 cm (8 x 14 5/8 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -175,14 +154,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -193,11 +169,23 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "South America > Titicaca, Lago",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACT.AAAFR"
+			},
+			{
+				"value": "South America",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACT"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
-	"sort_artist": null,
+	"primary_artist": "Aymara",
+	"primary_artist_display": "Aymara",
+	"sort_artist": "Aymara",
 	"culture_group": [
 		"Aymara"
 	],
@@ -211,19 +199,19 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Fiber",
-			"specific": "camelid fiber"
+			"specific": "Camelid fiber"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Other woven textiles",
-			"specific": "knitting"
+			"specific": "Knitting"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "glass bead"
+			"specific": "Bead"
 		}
 	],
 	"facet_place": [
@@ -235,8 +223,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — camelid fiber, knitting, glass bead · Lake Titicaca",
+		"reason": "grid-facets real slice — Camelid fiber, Knitting, Bead · Lake Titicaca",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 41
 	}
 }

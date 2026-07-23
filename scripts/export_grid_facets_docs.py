@@ -48,6 +48,7 @@ from pathlib import Path
 # for a missing local-module import; a ModuleNotFoundError from inside those
 # modules must surface, not be masked by the shim.
 try:
+    from material_taxonomy.label_format import format_label
     from material_taxonomy.tier1_classifier import Tier1Classifier
     from push_tier1_medium_map_sheet import build_rows as build_curated_rows
 except ModuleNotFoundError as exc:  # pragma: no cover - script-invocation shim
@@ -56,6 +57,7 @@ except ModuleNotFoundError as exc:  # pragma: no cover - script-invocation shim
     import sys
 
     sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from material_taxonomy.label_format import format_label
     from material_taxonomy.tier1_classifier import Tier1Classifier
     from push_tier1_medium_map_sheet import build_rows as build_curated_rows
 
@@ -137,6 +139,10 @@ def build_place_crosswalk() -> dict[str, dict]:
 
     `state` is the US-only tier (ADR 0002 amend): the SQL bakes it onto every
     US row (a US city row carries its parent state), so this is a flat lookup.
+
+    `region` can hold multiple `;`-separated values (e.g. Mexico/Guatemala
+    places that belong under both North America and Central America); the
+    caller fans a multi-region row out into one facet_place entry per region.
     """
     by_cn: dict[str, dict] = {}
     for r in _rows(TSV / "place_region_remap.tsv"):
@@ -196,6 +202,8 @@ def derive_facets(
             canonical=m.get("canonical", ""),
             facet_final=m.get("facet_final", ""),
         )
+        if path.suppressed:
+            continue
         # Collapse a level that merely repeats its ancestor so the tree never
         # shows a child identical to its parent — case-insensitively, since the
         # curated exact-match path can echo the lowercased token as Tier-3
@@ -228,37 +236,48 @@ def derive_facets(
                     ]  # deepest mapped node wins (path is shallow→deep)
             if not mapped or not mapped["region"]:
                 continue
-            region = mapped["region"]
-            # Collapse a country that just repeats its region (REGION_REMAP
-            # leaves country == region when no distinct country is assigned),
-            # so the tree never shows a child identical to its parent.
-            country = mapped["country"] if mapped["country"] != region else ""
-            # US-only state tier. Drop it if it just repeats region/country.
-            state = mapped.get("state", "")
-            if state in (country, region):
-                state = ""
-            notable = mapped["notable"] or (
-                term["term"] if term.get("term") != mapped["country"] else ""
-            )
-            # Same guard one tier down: drop a notable that repeats any ancestor
-            # (state included — a US state node has no distinct notable child).
-            if notable in (state, country, region):
-                notable = ""
-            keyt = (region, country, state, notable)
-            if keyt in seen_place:
-                continue
-            seen_place.add(keyt)
-            places.append(
-                {
-                    "region": region,
-                    "country": country,
-                    "state": state,
-                    "notable": notable,
-                }
-            )
+            # A place shared across two regions (e.g. Mexico/Guatemala under
+            # both North America and Central America) fans out to one
+            # facet_place entry per region so it shows under each branch.
+            for region in mapped["region"].split(";"):
+                region = region.strip()
+                if not region:
+                    continue
+                # Collapse a country that just repeats its region (REGION_REMAP
+                # leaves country == region when no distinct country is assigned),
+                # so the tree never shows a child identical to its parent.
+                country = mapped["country"] if mapped["country"] != region else ""
+                # US-only state tier. Drop it if it just repeats region/country.
+                state = mapped.get("state", "")
+                if state in (country, region):
+                    state = ""
+                notable = mapped["notable"] or (
+                    term["term"] if term.get("term") != mapped["country"] else ""
+                )
+                # Same guard one tier down: drop a notable that repeats any
+                # ancestor (state included — a US state node has no distinct
+                # notable child).
+                if notable in (state, country, region):
+                    notable = ""
+                keyt = (region, country, state, notable)
+                if keyt in seen_place:
+                    continue
+                seen_place.add(keyt)
+                places.append(
+                    {
+                        "region": region,
+                        "country": country,
+                        "state": state,
+                        "notable": notable,
+                    }
+                )
 
     doc["facet_medium"] = [
-        {"section": sec, "subcategory": sub, "specific": spec}
+        {
+            "section": format_label(sec),
+            "subcategory": format_label(sub),
+            "specific": format_label(spec),
+        }
         for (sec, sub, spec) in sorted(media, key=lambda x: (x[0], x[1], x[2]))
     ]
     doc.pop("facet_material", None)

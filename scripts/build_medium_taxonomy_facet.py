@@ -30,6 +30,7 @@ import subprocess
 from pathlib import Path
 
 try:
+    from material_taxonomy.label_format import format_label
     from material_taxonomy.tier1_classifier import Tier1Classifier
     from push_tier1_medium_map_sheet import build_rows as build_curated_rows
 except ModuleNotFoundError as exc:  # pragma: no cover - script-invocation shim
@@ -38,6 +39,7 @@ except ModuleNotFoundError as exc:  # pragma: no cover - script-invocation shim
     import sys
 
     sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from material_taxonomy.label_format import format_label
     from material_taxonomy.tier1_classifier import Tier1Classifier
     from push_tier1_medium_map_sheet import build_rows as build_curated_rows
 
@@ -94,6 +96,8 @@ def classify_doc(
         p = clf.classify(
             tok, canonical=m.get("canonical", ""), facet_final=m.get("facet_final", "")
         )
+        if p.suppressed:
+            continue
         t2 = "" if p.tier2.lower() == p.tier1.lower() else p.tier2
         t3 = "" if p.tier3.lower() in (p.tier2.lower(), p.tier1.lower()) else p.tier3
         seen.add((p.tier1, t2, t3))
@@ -141,31 +145,52 @@ def main() -> None:
         if (i + 1) % 20000 == 0:
             print(f"  classified {i + 1:,}/{len(lines):,}", flush=True)
 
+    # Re-key every tier by its formatted display label before assembling the
+    # tree, merging counts where formatting makes two raw classifier labels
+    # collide (e.g. a normalisation bucket landing on the same word as an
+    # existing lowercase leaf, "Watercolor" vs "watercolor") — so the tree
+    # never shows two siblings with identical text.
+    t1c_f: dict[str, int] = {}
+    for t1, c in t1c.items():
+        v = format_label(t1)
+        t1c_f[v] = t1c_f.get(v, 0) + c
+
+    t2c_f: dict[tuple[str, str], int] = {}
+    for (t1, t2), c in t2c.items():
+        k = (format_label(t1), format_label(t2))
+        t2c_f[k] = t2c_f.get(k, 0) + c
+
+    t3c_f: dict[tuple[str, str, str], int] = {}
+    for (t1, t2, t3), c in t3c.items():
+        k = (format_label(t1), format_label(t2), format_label(t3))
+        t3c_f[k] = t3c_f.get(k, 0) + c
+
     # Assemble the nested tree, count-desc within each tier (Other pinned last).
     def kids_t3(t1: str, t2: str) -> list[dict]:
-        rows = [(t3, c) for (a, b, t3), c in t3c.items() if a == t1 and b == t2]
+        rows = [(t3, c) for (a, b, t3), c in t3c_f.items() if a == t1 and b == t2]
         rows.sort(key=lambda x: (-x[1], x[0]))
         return [{"value": t3, "count": c, "children": []} for t3, c in rows]
 
     def kids_t2(t1: str) -> list[dict]:
-        rows = [(t2, c) for (a, t2), c in t2c.items() if a == t1]
+        rows = [(t2, c) for (a, t2), c in t2c_f.items() if a == t1]
         rows.sort(key=lambda x: (-x[1], x[0]))
         return [
             {"value": t2, "count": c, "children": kids_t3(t1, t2)} for t2, c in rows
         ]
 
-    tier1_rows = sorted(t1c.items(), key=lambda x: (-x[1], x[0]))
+    other_f = format_label(OTHER_TIER1)
+    tier1_rows = sorted(t1c_f.items(), key=lambda x: (-x[1], x[0]))
     tree = [
         {"value": t1, "count": c, "children": kids_t2(t1)}
         for t1, c in tier1_rows
-        if t1 != OTHER_TIER1
+        if t1 != other_f
     ]
-    if OTHER_TIER1 in t1c:  # pin Other to the bottom
+    if other_f in t1c_f:  # pin Other to the bottom
         tree.append(
             {
-                "value": OTHER_TIER1,
-                "count": t1c[OTHER_TIER1],
-                "children": kids_t2(OTHER_TIER1),
+                "value": other_f,
+                "count": t1c_f[other_f],
+                "children": kids_t2(other_f),
             }
         )
 

@@ -3,7 +3,6 @@
 	"accession_number": "26216.2",
 	"sort_number": "26216.2",
 	"title": "Skirt",
-	"object_name": "woman's costume",
 	"date_display": null,
 	"date_start": null,
 	"date_end": null,
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-03-02 15:51:59.673000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1905-06-30",
-	"location_string": "de Young, 061, Cabinet 033, TB",
-	"location_building": "de Young",
-	"location_room": "Cabinet 033",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Skirt",
@@ -93,6 +87,7 @@
 			"height": 324,
 			"width": 432,
 			"file_name": "0921200917260076.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u244/0921200917260076.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -101,7 +96,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -161,14 +159,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -181,6 +176,28 @@
 			"Oceania > Micronesia > Truk"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Oceania > Micronesia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACB.AAABB"
+			},
+			{
+				"value": "Oceania > Micronesia > Chuuk > Truk",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA.AAABB"
+			},
+			{
+				"value": "Oceania",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACB"
+			},
+			{
+				"value": "Oceania > Micronesia > Chuuk",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Chuukese",
@@ -199,12 +216,12 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Fiber",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": "Plain weave"
 		}
@@ -220,6 +237,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — Fiber, Plain weave · Truk Atoll",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 40
+		"populated_fields": 36
 	}
 }

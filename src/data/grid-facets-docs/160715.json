@@ -3,7 +3,6 @@
 	"accession_number": "2010.36.1",
 	"sort_number": "2010.36.1",
 	"title": "Half-figure of a man on a prestige stool",
-	"object_name": "figure",
 	"date_display": "19th–20th century",
 	"date_start": null,
 	"date_end": null,
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2022-03-22 14:23:32.740000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": "Half-figure of a man on a prestige stool\nDemocratic Republic of Congo or southeastern Gabon, Mbete people\nLate 19th-early 20th century\nWood, pigment, cowry shells, metal, and fiber \nBlossom and Dwight Strong Collection\nL10.51.1",
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -43,15 +41,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2010-10-21",
-	"location_string": "de Young, 061, Cabinet 073, TB",
-	"location_building": "de Young",
-	"location_room": "Cabinet 073",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": "A390091\nL10.51.1",
-	"markings": null,
 	"titles": [
 		{
 			"title": "Half-figure of a man on a prestige stool",
@@ -79,6 +73,7 @@
 			"height": 6920,
 			"width": 3822,
 			"file_name": "A390091_V1.tif",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u341/A390091_V1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -87,7 +82,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 138167,
@@ -105,6 +103,7 @@
 			"height": 6920,
 			"width": 3822,
 			"file_name": "A390091_V2.tif",
+			"file_path": "TMSShared/Media/All Staff/24/A390091_V2.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -113,7 +112,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 138168,
@@ -131,6 +133,7 @@
 			"height": 6920,
 			"width": 3822,
 			"file_name": "A390091_V3.tif",
+			"file_path": "TMSShared/Media/All Staff/24/A390091_V3.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -139,7 +142,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 138170,
@@ -157,6 +163,7 @@
 			"height": 797,
 			"width": 309,
 			"file_name": "0526201011280010.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u270/0526201011280010.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -165,13 +172,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 138171,
 			"image_id": 28805,
 			"rank": 6,
-			"file_date": "2023-02-27 06:17:36",
+			"file_date": "2026-07-10 02:41:12.027",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -183,6 +193,7 @@
 			"height": 3000,
 			"width": 1421,
 			"file_name": "0615201516010005.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u240/0615201516010005.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -191,13 +202,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 138172,
 			"image_id": 29836,
 			"rank": 7,
-			"file_date": "2023-02-27 06:18:07",
+			"file_date": "2026-07-10 02:41:12.477",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -209,6 +223,7 @@
 			"height": 3000,
 			"width": 1421,
 			"file_name": "0708201514210070.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u240/0708201514210070.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -217,13 +232,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 138173,
 			"image_id": 154323,
 			"rank": 8,
-			"file_date": "2023-02-27 07:23:28",
+			"file_date": "2026-07-10 03:25:42.237",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -235,6 +253,7 @@
 			"height": 3872,
 			"width": 2592,
 			"file_name": "1102201014290009.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u273/1102201014290009.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -243,7 +262,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -251,26 +273,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "28 1/2 x 7 1/2 x 7 in. (72.4 x 19.1 x 17.8 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 72.4,
-				"width_cm": 19.1,
-				"depth_cm": 17.8,
-				"height_in": 28.5,
-				"width_in": 7.5,
-				"depth_in": 7.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "28 1/2 x 7 1/2 x 7 in.",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -284,29 +287,6 @@
 	"is_compound": false,
 	"term_rights_statement": null,
 	"term_place_of_creation": [
-		{
-			"id": 20510559,
-			"term": "Gabon",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAB",
-					"term": "Africa"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAB.AAAKI",
-					"term": "Gabon"
-				}
-			]
-		},
 		{
 			"id": 20357290,
 			"term": "Democratic Republic of the Congo",
@@ -329,20 +309,40 @@
 					"term": "Congo, République Démocratique du"
 				}
 			]
+		},
+		{
+			"id": 20510559,
+			"term": "Gabon",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAAAB.AAAKI",
+					"term": "Gabon"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -354,10 +354,27 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Africa > Congo, République Démocratique du",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAB.AAAIT"
+			},
+			{
+				"value": "Africa > Gabon",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAB.AAAKI"
+			},
+			{
+				"value": "Africa",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAB"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": null,
@@ -371,21 +388,21 @@
 	"facet_medium": [
 		{
 			"section": "Organic",
-			"subcategory": "Shell & pearl",
-			"specific": "shell"
+			"subcategory": "Shell + pearl",
+			"specific": "Shell"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "wood"
+			"subcategory": "Wood + plant",
+			"specific": "Wood"
 		},
 		{
-			"section": "Paint & pigment",
+			"section": "Paint + pigment",
 			"subcategory": "Pigment",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Fiber",
 			"specific": ""
 		}
@@ -393,20 +410,20 @@
 	"facet_place": [
 		{
 			"region": "Africa",
-			"country": "Gabon",
+			"country": "Democratic Republic of the Congo",
 			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Africa",
-			"country": "Democratic Republic of the Congo",
+			"country": "Gabon",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — shell, wood, Pigment, Fiber · Gabon, Democratic Republic of the Congo",
+		"reason": "grid-facets real slice — Shell, Wood, Pigment, Fiber · Democratic Republic of the Congo, Gabon",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 41
+		"populated_fields": 37
 	}
 }

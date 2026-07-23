@@ -3,7 +3,6 @@
 	"accession_number": "2007.44.89",
 	"sort_number": "2007.44.89",
 	"title": "Drum, kandara",
-	"object_name": null,
 	"date_display": "19th century",
 	"date_start": null,
 	"date_end": null,
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-04-23 13:55:29.080000",
 	"is_virtual": false,
-	"identifying_description": "Large drum reserved for use at samb-zi, a great festive song. At the base, a curvilinear relief carving references the organic form of a wasp hive, and at the top a star or flying fox. Patterns are enhanced with white, black, and red pigments. The mammal skin is probably tree kangaroo, Dendrolagus, and the gum is blood and lime.",
 	"web_text": "1 OBJECT LABEL + EXTENDED TEXT\nCASE LABEL \n(5 X ?) MAGNETIC SLANT DECK\n\nDrum, kandara\nWest Papua (Irian Jaya), South Coast, Merauke area, Marind-anim people\n19th century\nWood, pigment, fiber, skin, and gum\nGift of Marcia and John Friede in honor of Diane B. Wilsey and Harry S. Parker III\n2007.44.89 (cat. no. 508)\n\nFor the Marind-anim people who live on the southern coast of New Guinea, performances are an integral part of life. This large drum is reserved for samb-zi, a great festive song restricted to male participation. Drummers assemble around a big fire, heating and tightening the head of their drums, and dancers with reed and feather headdresses quietly huddle. When the drumming starts, the dancers begin moving to its moderate tempo, swinging all the ornaments hanging from their bodies. As the drummers increase their cadence, the dancers increase their speed, and their wooden phalluses swing up and down.\n\nAn elegant hourglass shape and skillfully proportioned handle distinguish this tall Marind-anim drum (kandara). Mammal skin is stretched over the top of the wooden chamber and attached using a mixture of blood and lime. Curvilinear relief carvings imitate the form of a wasp hive at the base with a star or flying fox at the top. These patterns are beautifully enhanced with white, black, and red pigments.",
 	"didactic_label": "For the Marind-anim people who live on the southern coast of New Guinea, performances are an integral part of life. This large drum is reserved for samb-zi, a great festive song restricted to male participation. Drummers assemble around a big fire, heating and tightening the head of their drums, and dancers with reed and feather headdresses quietly huddle. When the drumming starts, the dancers begin moving to its moderate tempo, swinging all the ornaments hanging from their bodies. As the drummers increase their cadence, the dancers increase their speed, and their wooden phalluses swing up and down.\n\nAn elegant hourglass shape and skillfully proportioned handle distinguish this tall Marind-anim drum (kandara). Mammal skin is stretched over the top of the wooden chamber and attached using a mixture of blood and lime. Curvilinear relief carvings imitate the form of a wasp hive at the base with a star or flying fox at the top. These patterns are beautifully enhanced with white, black, and red pigments.",
 	"exhibition_history_text": "2005 - New Guinea Art. Masterpieces from the Jolika Collection of Marcia and John Friede. De Young Museum, San Francisco, 2005.",
@@ -48,15 +46,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2007-10-11",
 	"location_string": "de Young, Display, Gallery 030, Wall Case 3",
 	"location_building": "de Young",
 	"location_room": "Gallery 030",
 	"edition": null,
-	"signed": null,
-	"inscribed": "L05.1.290 A361205\nowner number 508",
-	"markings": null,
 	"titles": [
 		{
 			"title": "Drum, kandara",
@@ -104,6 +98,7 @@
 			"height": 1344,
 			"width": 1008,
 			"file_name": "0118200513410005.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u233/0118200513410005.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -112,7 +107,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -120,26 +118,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "60 in. (152.4 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 152.4,
-				"width_cm": null,
-				"depth_cm": null,
-				"height_in": 60.0,
-				"width_in": null,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "152.4 cm (60 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -219,14 +198,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -241,6 +217,38 @@
 			"Southeast Asia > Southeast Asia > Merauke"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Southeast Asia > Indonesia > South Papua Province",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAQC.AAAEM"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Papua > Merauke",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAACO"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia > Papua",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI"
+			},
+			{
+				"value": "Southeast Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Southeast Asia > Southeast Asia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGH"
+			},
+			{
+				"value": "Southeast Asia > Indonesia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAQC"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Marind-Anim",
@@ -260,16 +268,16 @@
 	"facet_medium": [
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "wood"
+			"subcategory": "Wood + plant",
+			"specific": "Wood"
 		},
 		{
-			"section": "Paint & pigment",
+			"section": "Paint + pigment",
 			"subcategory": "Pigment",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Fiber",
 			"specific": ""
 		}
@@ -289,8 +297,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — wood, Pigment, Fiber · Merauke, South Papua Province",
+		"reason": "grid-facets real slice — Wood, Pigment, Fiber · Merauke, South Papua Province",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 48
+		"populated_fields": 46
 	}
 }

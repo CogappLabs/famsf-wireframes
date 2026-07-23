@@ -3,7 +3,6 @@
 	"accession_number": "78.56.85",
 	"sort_number": "78.56.85",
 	"title": "Tapestry purse (unassembled )",
-	"object_name": "bag/purse",
 	"date_display": null,
 	"date_start": null,
 	"date_end": null,
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2019-06-25 00:00:00.000000",
 	"is_virtual": false,
-	"identifying_description": "A slit-woven tapestry purse after removal from loom, about to be finished; the same on both sides. The purse was shaped on the loom and woven in a floral pattern influenced by European design and rendered in a medium ill suited to the design.",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1978-10-05",
-	"location_string": "de Young, 059, Cabinet 33, TB",
-	"location_building": "de Young",
-	"location_room": "Cabinet 33",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Tapestry purse (unassembled )",
@@ -61,7 +55,7 @@
 			"media_xref_id": 98194,
 			"image_id": 18644,
 			"rank": 1,
-			"file_date": "2023-02-27 06:12:43",
+			"file_date": "2026-07-10 03:46:53.273",
 			"primary": true,
 			"media_view": null,
 			"public_caption": null,
@@ -73,6 +67,7 @@
 			"height": 560,
 			"width": 668,
 			"file_name": "0307200116490107.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u235/0307200116490107.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -81,7 +76,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -131,14 +129,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -149,10 +144,22 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia > Sūrīyah",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAGT"
+			},
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": null,
@@ -165,24 +172,24 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": "Tapestry weave"
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "yarn"
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Yarn"
 		}
 	],
 	"facet_place": [
@@ -194,8 +201,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Silk, Tapestry weave, yarn · Syria",
+		"reason": "grid-facets real slice — Cotton, Silk, Tapestry weave, Yarn · Syria",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 37
+		"populated_fields": 33
 	}
 }

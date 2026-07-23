@@ -3,7 +3,6 @@
 	"accession_number": "1963.30.29363",
 	"sort_number": "1963.30.29363",
 	"title": "The C-Sharp Minor Quartet",
-	"object_name": null,
 	"date_display": "1927",
 	"date_start": "1927",
 	"date_end": "1927",
@@ -20,9 +19,8 @@
 	"object_rights_type": null,
 	"on_view": false,
 	"entered_date": "2021-11-23 00:00:00.000000",
-	"last_modified": "2014-07-17 00:00:00.000000",
+	"last_modified": "2026-07-16 15:48:17.797000",
 	"is_virtual": false,
-	"identifying_description": "A man the likeness of a young Beethoven stands in the center of this composition surrounded by nearly naked young women both below as well as above, the latter presumably weighing on his apparently troubled mind. Funereal foliage glows a bit in the overall darkness. (Jim Hahn 11/10/94)",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -36,15 +34,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1963-04-09",
-	"location_string": "Legion, 210, Compact Shelf 07, 209",
-	"location_building": "Legion",
-	"location_room": "Compact Shelf 07",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "The C-Sharp Minor Quartet",
@@ -92,6 +86,7 @@
 			"height": 7062,
 			"width": 4731,
 			"file_name": "A043319_V1.tif",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u340/A043319_V1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -100,7 +95,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 54352,
@@ -118,6 +116,7 @@
 			"height": 3000,
 			"width": 2371,
 			"file_name": "0714201713010012.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u241/0714201713010012.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -126,7 +125,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 54353,
@@ -144,6 +146,7 @@
 			"height": 2367,
 			"width": 1820,
 			"file_name": "4043202410800019.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u256/4043202410800019.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -152,7 +155,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -160,26 +166,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "14 15/16 x 11 7/8 in. (37.9 x 30.2 cm)",
-			"element": "x_Do not use_Plate (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 37.9,
-				"width_cm": 30.2,
-				"depth_cm": null,
-				"height_in": 14.9375,
-				"width_in": 11.875,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "37.9 x 30.2 cm (plate)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -221,14 +208,11 @@
 		}
 	],
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -239,6 +223,18 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Oceania > Australia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACB.AAAAC"
+			},
+			{
+				"value": "Oceania",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACB"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Norman Lindsay",
@@ -262,7 +258,7 @@
 		{
 			"section": "Prints",
 			"subcategory": "Engraving",
-			"specific": "stipple engraving"
+			"specific": "Stipple engraving"
 		},
 		{
 			"section": "Prints",
@@ -279,8 +275,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Engraving, stipple engraving, Etching · Australia",
+		"reason": "grid-facets real slice — Engraving, Stipple engraving, Etching · Australia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 40
 	}
 }

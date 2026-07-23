@@ -3,7 +3,6 @@
 	"accession_number": "46579.34",
 	"sort_number": "46579.34",
 	"title": "Adze (49-74)",
-	"object_name": "adze",
 	"date_display": null,
 	"date_start": null,
 	"date_end": null,
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-24 00:00:00.000000",
 	"last_modified": "2026-04-09 11:45:38.453000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -36,15 +34,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1919-12-01",
-	"location_string": "de Young, 061, Cabinet 102, B",
-	"location_building": "de Young",
-	"location_room": "Cabinet 102",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Adze (49-74)",
@@ -92,6 +86,7 @@
 			"height": 1168,
 			"width": 644,
 			"file_name": "0430200102200131.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u240/0430200102200131.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -100,7 +95,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -173,14 +171,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -192,6 +187,23 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Oceania > Mariana Islands",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACB.AAAAX"
+			},
+			{
+				"value": "Oceania > Guam",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACB.AAAAM"
+			},
+			{
+				"value": "Oceania",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACB"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Chamorro",
@@ -232,6 +244,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — Stone · Mariana Islands, Guam",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 41
+		"populated_fields": 37
 	}
 }

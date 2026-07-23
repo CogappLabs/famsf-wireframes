@@ -3,7 +3,6 @@
 	"accession_number": "2021.2.6a-d",
 	"sort_number": "2021.2.6a-d",
 	"title": "Wedding dress: top (a), skirt (b), belt (c), and shawl (d)",
-	"object_name": "woman's costume",
 	"date_display": "ca. 1980",
 	"date_start": "1980",
 	"date_end": "1980",
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2023-01-26 12:00:34.080000",
 	"is_virtual": false,
-	"identifying_description": "Woman's light gold silk and metallic thread complex weave wedding dress comprised of top, skirt, belt, and shawl: (a) top with round neck and short sleeves; zipper closure at back with hook and eye at top; slit at each side of hip; (b) full skirt gathered at waist, and secured with four hook and eye and single button closure at back; embellished throughout with silk and metallic thread embroidery in couched, chain, stem, satin, and knot stitches forming scroll and paisley designs, three embroidered bands at hem; gold silk lining with basting stitches still visible along bottom edge of hem; (c) long belt with silk and metallic thread embroidery in couched and satin stitches with silk braid edging; five snaps for closure; and (d) large shawl embellished throughout with silk and metallic thread embroidery in couched, chain, stem, satin, and knot stitches forming scroll and paisley designs, three embroidered bands at edges.",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -36,15 +34,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2021-02-09",
-	"location_string": "de Young, 067, Area B, Floor",
-	"location_building": "de Young",
-	"location_room": "Area B",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Wedding dress: top (a), skirt (b), belt (c), and shawl (d)",
@@ -72,6 +66,7 @@
 			"height": 2962,
 			"width": 3657,
 			"file_name": "A414375.jpg",
+			"file_path": "TMSShared/Media/Object Reference Images/A414375.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -80,7 +75,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -88,98 +86,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "27 1/2 in. (69.9 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 69.9,
-				"width_cm": null,
-				"depth_cm": null,
-				"height_in": 27.5,
-				"width_in": null,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "43 in. (109.2 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 2,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 109.2,
-				"width_cm": null,
-				"depth_cm": null,
-				"height_in": 43.0,
-				"width_in": null,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "44 1/2 in. (113 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 3,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 113.0,
-				"width_cm": null,
-				"depth_cm": null,
-				"height_in": 44.5,
-				"width_in": null,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "32 in. (81.3 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 4,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 81.3,
-				"width_cm": null,
-				"depth_cm": null,
-				"height_in": 32.0,
-				"width_in": null,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "93 1/2 x 2 1/4 in. (237.5 x 5.7 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 5,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 237.5,
-				"width_cm": 5.7,
-				"depth_cm": null,
-				"height_in": 93.5,
-				"width_in": 2.25,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "69.9 cm (27 1/2 in.) center back length (a); 113 cm (44 1/2 in.) center back length (b); 81.3 x 5.7 cm (32 x 2 1/4 in.) (c); 237.5 x 109.2 cm (93 1/2 x 43 in.) (d)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -221,14 +128,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -239,10 +143,22 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Asia > Bhārat",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAALD"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": "1980",
@@ -255,19 +171,19 @@
 	"sort_year": 1980,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Other woven textiles",
-			"specific": "satin"
+			"specific": "Satin"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "metallic thread"
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Metallic thread"
 		}
 	],
 	"facet_place": [
@@ -279,8 +195,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — satin, Silk, metallic thread · India",
+		"reason": "grid-facets real slice — Satin, Silk, Metallic thread · India",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 39
 	}
 }

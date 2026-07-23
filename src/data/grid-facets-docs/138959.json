@@ -3,7 +3,6 @@
 	"accession_number": "2005.153.2",
 	"sort_number": "2005.153.2",
 	"title": "Evening dress",
-	"object_name": "woman's costume",
 	"date_display": "ca. 1921",
 	"date_start": "1921",
 	"date_end": "1921",
@@ -35,7 +34,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2024-05-02 09:48:26.117000",
 	"is_virtual": false,
-	"identifying_description": "Robe de style silhouette with black satin bodice featuring beaded floral spray across front with wired leaves; blue silk chiffon and silk satin saw-tooth hemmed skirt; two black cire loops with streamers at center back. Partial label: \"...11, rue de Penthièvre\"",
 	"web_text": "Evening dresses by Lady Duff Gordon, known professionally as Lucile, are distinctive for their vibrant-colored sheer, luminous metallic textiles, and historicized silhouettes with asymmetrical trimmings. This dress epitomizes the Lucile aesthetic. The full skirt is exaggerated at the sides to evoke eighteenth-century undergarments(panniers), and handmade silk flowers wrap around the body to offer a sense of movement. The theatrical nature of Lucile’s designs was an outgrowth of her work in costuming for theater and film, which she",
 	"didactic_label": "Evening dresses by Lady Duff Gordon, known professionally as Lucile, are distinctive for their vibrant-colored sheer, luminous metallic textiles, and historicized silhouettes with asymmetrical trimmings. This dress epitomizes the Lucile aesthetic. The full skirt is exaggerated at the sides to evoke eighteenth-century undergarments (panniers), and handmade silk flowers wrap around the body to offer a sense of movement. The theatrical nature of Lucile’s designs was an outgrowth of her work in costuming for theater and film, which she continued to do throughout her career.",
 	"exhibition_history_text": null,
@@ -49,15 +47,11 @@
 	},
 	"label_text": "(white label with green text atcenter back of waistband)“[missing] ... 11. rue de Penthièvre / PARIS\"",
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2005-12-31",
-	"location_string": "de Young, 059, Cabinet 55, TC",
-	"location_building": "de Young",
-	"location_room": "Cabinet 55",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": "[Partial] \"...11, rue de Penthièvre/PARIS\", white label with green text at center back waistband",
 	"titles": [
 		{
 			"title": "Evening dress",
@@ -112,7 +106,7 @@
 			"media_xref_id": 215296,
 			"image_id": 222834,
 			"rank": 0,
-			"file_date": "2024-05-13 10:12:37.577",
+			"file_date": "2026-07-09 11:21:23.683",
 			"primary": true,
 			"media_view": null,
 			"public_caption": null,
@@ -124,6 +118,7 @@
 			"height": 8000,
 			"width": 5999,
 			"file_name": "MS_138959_20240429_1_Crop.tif",
+			"file_path": "TMSShared/Media/All Staff/04/MS_138959_20240429_1_Crop.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -132,7 +127,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207073,
@@ -150,6 +148,7 @@
 			"height": 12811,
 			"width": 9415,
 			"file_name": "MS_138959_20230601_10.tif",
+			"file_path": "TMSShared/Media/All Staff/02/MS_138959_20230601_10.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -158,7 +157,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207070,
@@ -176,6 +178,7 @@
 			"height": 12811,
 			"width": 9415,
 			"file_name": "MS_138959_20230601_7.tif",
+			"file_path": "TMSShared/Media/All Staff/02/MS_138959_20230601_7.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -184,7 +187,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207071,
@@ -202,6 +208,7 @@
 			"height": 12811,
 			"width": 9415,
 			"file_name": "MS_138959_20230601_8.tif",
+			"file_path": "TMSShared/Media/All Staff/02/MS_138959_20230601_8.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -210,7 +217,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207072,
@@ -228,6 +238,7 @@
 			"height": 12811,
 			"width": 9415,
 			"file_name": "MS_138959_20230601_9.tif",
+			"file_path": "TMSShared/Media/All Staff/02/MS_138959_20230601_9.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -236,7 +247,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -259,7 +273,7 @@
 	"term_rights_statement": [
 		{
 			"id": 16110965,
-			"term": "Copyright status is copyrighted",
+			"term": "Copyrighted",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
@@ -281,7 +295,7 @@
 				{
 					"depth": 3,
 					"cn": "AUT.AAA.AAU.AAC",
-					"term": "Copyright status is copyrighted"
+					"term": "Copyrighted"
 				}
 			]
 		}
@@ -325,14 +339,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -345,6 +356,28 @@
 			"Europe > France > Paris"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Europe",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABH"
+			},
+			{
+				"value": "Europe > France",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABH.AAASY"
+			},
+			{
+				"value": "Europe > France > Île-de-France > Paris",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AABMN"
+			},
+			{
+				"value": "Europe > France > Île-de-France",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Lady Duff Gordon",
@@ -366,34 +399,34 @@
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
-			"specific": "silk satin"
+			"specific": "Silk satin"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "glass seed bead"
+			"specific": "Glass seed bead"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "grosgrain"
+			"specific": "Grosgrain"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "silk ribbon"
+			"specific": "Silk ribbon"
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "metal thread"
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Metal thread"
 		}
 	],
 	"facet_place": [
@@ -405,8 +438,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Metal, Silk, silk satin, glass seed bead … · Paris",
+		"reason": "grid-facets real slice — Metal, Silk, Silk satin, Glass seed bead … · Paris",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 51
+		"populated_fields": 45
 	}
 }

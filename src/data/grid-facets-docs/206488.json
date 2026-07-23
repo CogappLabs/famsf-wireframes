@@ -1,0 +1,428 @@
+{
+	"id": 206488,
+	"accession_number": "2018.93.3",
+	"sort_number": "2018.93.3",
+	"title": "Vessel with procession of wayob",
+	"date_display": "650–800",
+	"date_start": "650",
+	"date_end": "800",
+	"medium": "Earthenware and pigment",
+	"medium_parts": [
+		"Earthenware and pigment"
+	],
+	"credit_line": "Gift of Gail and J. Alec Merriam",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Vessels & Containers",
+	"subclassification": null,
+	"culture": "Late Classic Maya",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": true,
+	"entered_date": "2021-11-24 00:00:00.000000",
+	"last_modified": "2026-02-12 13:29:22.463000",
+	"is_virtual": false,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
+	"bibliography_text": null,
+	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
+	"label_text": null,
+	"publication_text": null,
+	"accession_iso_date": "2018-10-30",
+	"location_string": "de Young, Display, Gallery 002",
+	"location_building": "de Young",
+	"location_room": "Gallery 002",
+	"edition": null,
+	"titles": [
+		{
+			"title": "Vessel with procession of wayob",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 12835,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Maya",
+			"name_sort": "Maya",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "",
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Maya"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 172955,
+			"image_id": 182838,
+			"rank": 0,
+			"file_date": "2023-02-27 08:14:16",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8676,
+			"width": 11566,
+			"file_name": "A381985_V6.TIF",
+			"file_path": "TMSShared/Media/All Staff/21/A381985_V6.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 172946,
+			"image_id": 172511,
+			"rank": 0,
+			"file_date": "2023-02-27 07:45:23",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 6634,
+			"width": 6492,
+			"file_name": "A381985_V6.TIF",
+			"file_path": "TMSShared/Media/All Staff/20/A381985_V6.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 172949,
+			"image_id": 172549,
+			"rank": 0,
+			"file_date": "2023-02-27 07:45:23",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 6451,
+			"width": 6117,
+			"file_name": "A381985_V3.TIF",
+			"file_path": "TMSShared/Media/All Staff/20/A381985_V3.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 172954,
+			"image_id": 182477,
+			"rank": 0,
+			"file_date": "2020-01-02 13:47:13",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 8307,
+			"width": 10824,
+			"file_name": "A381985_V8.TIF",
+			"file_path": "TMSShared/Media/All Staff/21/A381985_V8.TIF",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 137630,
+			"image_id": 15410,
+			"rank": 12,
+			"file_date": "2023-02-27 06:10:51",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 7224,
+			"width": 5428,
+			"file_name": "0128200810560004.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u233/0128200810560004.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 137632,
+			"image_id": 154890,
+			"rank": 14,
+			"file_date": "2026-07-10 03:25:43.237",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 2575,
+			"width": 1620,
+			"file_name": "1214200612130012.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u273/1214200612130012.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": "Overall: 8 5/8 x 4 3/4 x 4 3/4 in. (21.9 x 12.1 x 12.1 cm)",
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"id": 16110964,
+			"term": "Public domain",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"id": 20354391,
+			"term": "Guatemala",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAADU",
+					"term": "Guatemala"
+				}
+			]
+		},
+		{
+			"id": 20496354,
+			"term": "México",
+			"type": "Descriptor",
+			"certainty": "Uncertain",
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAFG",
+					"term": "México"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North and Central America"
+		],
+		"lvl1": [
+			"North and Central America > Guatemala",
+			"North and Central America > México"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"nodes": [
+			{
+				"value": "North and Central America > Guatemala",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABZ.AAADU"
+			},
+			{
+				"value": "North and Central America > México",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABZ.AAAFG"
+			},
+			{
+				"value": "North and Central America",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABZ"
+			}
+		],
+		"historic": false
+	},
+	"primary_artist": "Maya",
+	"primary_artist_display": "Maya",
+	"sort_artist": "Maya",
+	"culture_group": [
+		"Maya"
+	],
+	"display_year": "650–800",
+	"doc_id": "2018.93.3",
+	"slug": "2018.93.3/vessel-with-procession-of-wayob",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": 650,
+	"facet_medium": [
+		{
+			"section": "Paint + pigment",
+			"subcategory": "Pigment",
+			"specific": ""
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Central America",
+			"country": "Guatemala",
+			"state": "",
+			"notable": ""
+		},
+		{
+			"region": "North America",
+			"country": "Mexico",
+			"state": "",
+			"notable": "México"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Pigment · Guatemala, México",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 47
+	}
+}

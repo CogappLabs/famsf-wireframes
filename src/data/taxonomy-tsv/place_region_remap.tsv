@@ -118,7 +118,7 @@ Sèvres	AUZ.AAAAB.AAABH.AAASY.AAAME.AABXL	5		Sèvres, France	notable	France	Euro
 Pennsylvania	AUZ.AAAAB.AAABZ.AAAKC.AAERY	4	Pennsylvania	Pennsylvania	state	United States	North America			auto	46
 Java	AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAAAY	5		Java, Southeast Asia	notable	Southeast Asia	Southeast Asia			auto	46
 Strasbourg	AUZ.AAAAB.AAABH.AAASY.AAAKH.AAJHP	5		Strasbourg, France	notable	France	Europe			auto	45
-Petén	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAU	5		Petén, North and Central America	notable	North and Central America	North America			auto	44
+Petén	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAU	5		Petén	notable		North America	North America;Central America		auto	44
 Tiverton	AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA.AAAAY.AAABS.AAARN	8		Tiverton	notable		Europe			review: country from TGN branch node	44
 Chelsea	AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA.AAAAY.AAACN.AAAAQ.AAAAL.AAAAC	10		Chelsea	notable		Europe			review: country from TGN branch node	44
 Basel	AUZ.AAAAB.AAABH.AAAHG.AABDX.AAAAA	5		Basel, Switzerland	notable	Switzerland	Europe			auto	43
@@ -130,7 +130,7 @@ Bolivia	AUZ.AAAAB.AAACT.AAAAZ	3		Bolivia	country	Bolivia	South America			auto	42
 Mughal Empire	AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAHK	5		Mughal Empire	notable		South Asia			auto	41
 Naples	AUZ.AAAAB.AAABH.AAAVP.AAABT.AAAAO	5		Naples, Italy	notable	Italy	Europe			auto	41
 Devon	AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA.AAAAY.AAABS	7		Devon	notable		Europe			review: country from TGN branch node	40
-Yucatan	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAEC	5		Yucatan, North and Central America	notable	North and Central America	North America			auto	39
+Yucatan	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAEC	5		Yucatan	notable		North America	North America;Central America		auto	39
 Zurich	AUZ.AAAAB.AAABH.AAAHG.AABBM	4		Zurich	country	Switzerland	Europe			auto	39
 Pacific Northwest	AUZ.AAAAB.AAABZ.AAAKC.AAHQX	4	Pacific Northwest	Pacific Northwest	state	United States	North America			auto	38
 Kashmīr	AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAFC	5		Kashmīr	notable		East Asia			auto	38
@@ -175,7 +175,7 @@ Nuremburg	AUZ.AAAAB.AAABH.AAAQL.AAAAL.ABJGN	5		Nuremburg, Germany	notable	German
 Kosrae	AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAB	6		Kosrae, Micronesia	notable	Micronesia	Oceania			auto	27
 New Zealand	AUZ.AAAAB.AAACB.AAABD	3		New Zealand	country	New Zealand	Oceania			auto	27
 Yugoslavia	AUZ.AAAAB.AAABH.AAALH	3		Yugoslavia	country	Yugoslavia	Europe			auto	26
-Veracruz	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAEA	5		Veracruz, North and Central America	notable	North and Central America	North America			auto	26
+Veracruz	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAEA	5		Veracruz	notable		North America	North America;Central America		auto	26
 Augsburg	AUZ.AAAAB.AAABH.AAAQL.AAAAL.AACEI	5		Augsburg, Germany	notable	Germany	Europe			auto	26
 Birmingham	AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA.AAAAY.AAAHK.AAAAA	8		Birmingham	notable		Europe			review: country from TGN branch node	26
 Madrid	AUZ.AAAAB.AAABH.AAASB.AAACL.AAAAA	5		Madrid, Spain	notable	Spain	Europe			auto	26
@@ -185,8 +185,8 @@ Romania	AUZ.AAAAB.AAABH.AAAGE	3		Romania	country	Romania	Europe			auto	25
 Wingen-sur-Moder	AUZ.AAAAB.AAABH.AAASY.AAAKH.AAKOR	5		Wingen-sur-Moder, France	notable	France	Europe			auto	25
 Mariana Islands	AUZ.AAAAB.AAACB.AAAAX	3		Mariana Islands	country	Mariana Islands	Oceania			auto	24
 Midwest	AUZ.AAAAB.AAABZ.AAAKC.AADXF	4	Midwest	Midwest	state	United States	North America			auto	24
-Jalisco	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAABW	5		Jalisco	below-threshold	North and Central America	North America			auto	24
-Nayarit	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACM	5		Nayarit	below-threshold	North and Central America	North America			auto	24
+Jalisco	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAABW	5		Jalisco	below-threshold		North America	North America;Central America		auto	24
+Nayarit	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACM	5		Nayarit	below-threshold		North America	North America;Central America		auto	24
 Portugal	AUZ.AAAAB.AAABH.AAAFG	3		Portugal	country	Portugal	Europe			auto	24
 Washington DC	AUZ.AAAAB.AAABZ.AAAKC.AABME.AAAAA	5		Washington DC	below-threshold	United States	North America			auto	24
 Sapwuahfik	AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAC.AAAAK	7		Sapwuahfik	below-threshold	Micronesia	Oceania			auto	23
@@ -199,7 +199,7 @@ Apulia	AUZ.AAAAB.AAABH.AAAVP.AAAFC	4		Apulia	country	Italy	Europe			auto	22
 Luzon	AUZ.AAAAB.AAAAJ.AAAGH.AAAAC.AAAEG	5		Luzon	below-threshold	Southeast Asia	Southeast Asia			auto	22
 Sumatra	AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADN	5		Sumatra	below-threshold	Southeast Asia	Southeast Asia			auto	22
 El Salvador	AUZ.AAAAB.AAABZ.AAACO	3		El Salvador	country	El Salvador	Central America			auto	22
-Jaina Island	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAAR.AAAKG	6		Jaina Island	below-threshold	North and Central America	North America			auto	22
+Jaina Island	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAAR.AAAKG	6		Jaina Island	below-threshold		North America	North America;Central America		auto	22
 Central Anatolia	AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABME	5		Central Anatolia	below-threshold	Achaemenid	East Asia			auto	22
 Trobriand Islands	AUZ.AAAAB.AAABU.AAAAB.AAAAB.AAAAU.AAABU	6		Trobriand Islands	below-threshold					review: no region rule	21
 Gambell	AUZ.AAAAB.AAABZ.AAAKC.AAHGI.AAAAV.AABBI.AAAAA	7	Alaska	Gambell	below-threshold	United States	North America			auto	21
@@ -230,7 +230,7 @@ Aleutian Islands	AUZ.AAAAB.AAABZ.AAAKC.AAHGI.AAAAL.AAAYQ	6	Alaska	Aleutian Islan
 Leipzig	AUZ.AAAAB.AAABH.AAAQL.AAAEU.AAFLK	5		Leipzig	below-threshold	Germany	Europe			auto	17
 Niger	AUZ.AAAAB.AAAAB.AAABC	3		Niger	country	Niger	Africa			auto	17
 Northern Ireland	AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACY	5		Northern Ireland	below-threshold	United Kingdom	Europe			auto	17
-Oaxaca	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACS	5		Oaxaca	below-threshold	North and Central America	North America			auto	17
+Oaxaca	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACS	5		Oaxaca	below-threshold		North America	North America;Central America		auto	17
 Delft	AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAA.AAAEQ.AABWE	7		Delft	below-threshold		Europe			auto	17
 Western Anatolia	AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AABBW	5		Western Anatolia	below-threshold	Achaemenid	East Asia			auto	17
 Guizhou	AUZ.AAAAB.AAAAJ.AAANR.AAAAC.AABCY	5		Guizhou	below-threshold		East Asia			auto	16
@@ -241,7 +241,7 @@ Antwerp	AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAEN.AAAAA	7		Antwerp	below-threshold
 Western Europe	AUZ.AAAAB.AAABH.AAALB	3		Western Europe	country		Europe			review: country from TGN branch node	16
 Greenland	AUZ.AAAAB.AAABZ.AAADS	3		Greenland	country	Greenland	North America			auto	15
 Leiden	AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAA.AAAEQ.AAAMQ	7		Leiden	below-threshold		Europe			auto	15
-Valley of Mexico	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACG.AABZU	6		Valley of Mexico	below-threshold	North and Central America	North America			auto	15
+Valley of Mexico	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACG.AABZU	6		Valley of Mexico	below-threshold		North America	North America;Central America		auto	15
 Mewar	AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAIG.AAAIZ	6		Mewar	below-threshold		East Asia			auto	15
 Korea	AUZ.AAAAB.AAAAJ.AAASI	3		Korea	country	Korea	East Asia			auto	15
 Mannheim	AUZ.AAAAB.AAABH.AAAQL.AAAAK.AANEZ	5		Mannheim	below-threshold	Germany	Europe			auto	15
@@ -261,9 +261,9 @@ Hollywood	AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AAATP.AAATG.AAAAR	7	California	Hollywood	b
 Tahiti	AUZ.AAAAB.AAABH.AAASY.AABLP.AAABJ	5		Tahiti	below-threshold	France	Europe			auto	14
 Boeotia	AUZ.AAAAB.AAABH.AAARU.AAAAI.AABXD	5		Boeotia	below-threshold	Greece	Europe			auto	14
 Bavaria	AUZ.AAAAB.AAABH.AAAQL.AAAAL	4		Bavaria	admin (drop)	Germany	Europe			auto	14
-Trapiche Grande	AUZ.AAAAB.AAABZ.AAAFF.AAAAE.AAAAM.AAAAA.AAAAA	7		Trapiche Grande	below-threshold	North and Central America	North America			auto	14
+Trapiche Grande	AUZ.AAAAB.AAABZ.AAAFF.AAAAE.AAAAM.AAAAA.AAAAA	7		Trapiche Grande	below-threshold		North America	North America;Central America		auto	14
 Sumba	AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAAAO.AAAAE.AAAEI	7		Sumba	below-threshold	Southeast Asia	Southeast Asia			auto	14
-Teotihuacan	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACG.AADWQ	6		Teotihuacan	below-threshold	North and Central America	North America			auto	14
+Teotihuacan	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACG.AADWQ	6		Teotihuacan	below-threshold		North America	North America;Central America		auto	14
 Potsdam	AUZ.AAAAB.AAABH.AAAQL.AAABS.AAILC	5		Potsdam	below-threshold	Germany	Europe			auto	14
 San Jose	AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AABJO.AAAER	6	California	San Jose	below-threshold	United States	North America			auto	14
 Tanzania	AUZ.AAAAB.AAAAB.AAAEQ	3		Tanzania	country	Tanzania	Africa			auto	14
@@ -276,7 +276,7 @@ New Jersey	AUZ.AAAAB.AAABZ.AAAKC.AAEFP	4	New Jersey	New Jersey	state	United Stat
 Laon	AUZ.AAAAB.AAABH.AAASY.AAALU.AADNE	5		Laon	below-threshold	France	Europe			auto	13
 Oruro	AUZ.AAAAB.AAACT.AAAAZ.AAAAR	4		Oruro	country	Bolivia	South America			auto	13
 Solomon Islands	AUZ.AAAAB.AAACB.AAABS	3		Solomon Islands	country	Solomon Islands	Oceania			auto	13
-Michoacan	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAAJ.AABJX	6		Michoacan	below-threshold	North and Central America	North America			auto	13
+Michoacan	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAAJ.AABJX	6		Michoacan	below-threshold		North America	North America;Central America		auto	13
 Konya	AUZ.AAAAB.AAAAJ.AAAAF.AAAAD.AAAPQ	5		Konya	below-threshold	Achaemenid	East Asia			auto	13
 Borneo	AUZ.AAAAB.AAAAJ.AAALK	3		Borneo	country	Borneo	East Asia			auto	12
 Admiralty Islands	AUZ.AAAAB.AAABU.AAAAB.AAAAB.AAAAT.AAAAA	6		Admiralty Islands	below-threshold					review: no region rule	12
@@ -299,7 +299,7 @@ Santa Cruz	AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AABJQ.AAAHN	6	California	Santa Cruz	below
 Brooklyn	AUZ.AAAAB.AAABZ.AAAKC.AAEFW.AAAYY.AAAAO.AAAAB	7	New York	Brooklyn	below-threshold	United States	North America			auto	11
 Gujarat	AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAEH	5		Gujarat	below-threshold		East Asia			auto	11
 Troyes	AUZ.AAAAB.AAABH.AAASY.AAAKH.AAJPY	5		Troyes	below-threshold	France	Europe			auto	11
-Nicoya peninsula	AUZ.AAAAB.AAABZ.AAAFF.AAAAD.AAAAP	5		Nicoya peninsula	below-threshold	North and Central America	North America			auto	11
+Nicoya peninsula	AUZ.AAAAB.AAABZ.AAAFF.AAAAD.AAAAP	5		Nicoya peninsula	below-threshold		North America	North America;Central America		auto	11
 Madagascar	AUZ.AAAAB.AAAAB.AAAOC	3		Madagascar	country	Madagascar	Africa			auto	11
 Kentucky	AUZ.AAAAB.AAABZ.AAAKC.AADAF	4	Kentucky	Kentucky	state	United States	North America			auto	11
 Rakhine State	AUZ.AAAAB.AAAAJ.AAAGH.AAAAB.AAABG	5		Rakhine State	below-threshold	Southeast Asia	Southeast Asia			auto	11
@@ -311,23 +311,23 @@ Tokyo	AUZ.AAAAB.AAAAJ.AAANR.AAAAB.AAACJ.AAACF.AAAAG.AAAFV	8		Tokyo	below-thresho
 Moscow	AUZ.AAAAB.AAABH.AAAGX.AAAAD.AAASI.AAABS.AAAAA	7		Moscow	below-threshold		Europe			auto	10
 Kyjov	AUZ.AAAAB.AAABH.AAARM.AAAAJ.AAAAF.AAABG	6		Kyjov	below-threshold		Europe			review: country from TGN branch node	10
 Nimrud	AUZ.AAAAB.AAAAJ.AAAAF.AAAAG.AAABL.AAAAG	6		Nimrud	below-threshold	Achaemenid	East Asia			auto	10
-Aguas Calientes	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAU.AAAAC	6		Aguas Calientes	below-threshold	North and Central America	North America			auto	10
+Aguas Calientes	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAU.AAAAC	6		Aguas Calientes	below-threshold		North America	North America;Central America		auto	10
 Andean region	AUZ.AAAAB.AAACT.AAAAN	3		Andean region	country	Andean region	South America			auto	10
 Persia	AUZ.AAAAB.AAAAJ.AAADV	3		Persia	country	Persia	Middle East			auto	10
 Maéwo	AUZ.AAAAB.AAACB.AAABY.AAAAJ.AAAAF	5		Maéwo	below-threshold	Vanuatu	Oceania			auto	10
-Guerrero	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAABO	5		Guerrero	below-threshold	North and Central America	North America			auto	10
+Guerrero	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAABO	5		Guerrero	below-threshold		North America	North America;Central America		auto	10
 Brazil	AUZ.AAAAB.AAACT.AAABA	3		Brazil	country	Brazil	South America			auto	10
 Yogyakarta	AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAAEG	5		Yogyakarta	below-threshold	Southeast Asia	Southeast Asia			auto	10
 Lampung	AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAABO	5		Lampung	below-threshold	Southeast Asia	Southeast Asia			auto	10
 Amazon Basin	AUZ.AAAAB.AAACT.AAAAU	3		Amazon Basin	country	Amazon Basin	South America			auto	10
 Azerbaijan	AUZ.AAAAB.AAAAJ.AAAKS	3		Azerbaijan	country	Azerbaijan	East Asia			auto	10
 Nevers	AUZ.AAAAB.AAABH.AAASY.AABRT.AAGHV	5		Nevers	below-threshold	France	Europe			auto	10
-Chichicastenango	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAX.AAAAB	6		Chichicastenango	below-threshold	North and Central America	North America			auto	10
+Chichicastenango	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAX.AAAAB	6		Chichicastenango	below-threshold		North America	North America;Central America		auto	10
 Portland	AUZ.AAAAB.AAABZ.AAAKC.AAENL.AAANX.AAAIU	6	Oregon	Portland	below-threshold	United States	North America			auto	10
 Haida Gwaii	AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAAAN.AAAEN	6		Haida Gwaii	below-threshold	United States	North America			auto	10
 Potosi	AUZ.AAAAB.AAACT.AAAAZ.AAAAU	4		Potosi	country	Bolivia	South America			auto	10
-Totonicapán	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAABH.AAAAB	6		Totonicapán	below-threshold	North and Central America	North America			auto	10
-Chiapas	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAAJ.AAACA	6		Chiapas	below-threshold	North and Central America	North America			auto	10
+Totonicapán	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAABH.AAAAB	6		Totonicapán	below-threshold		North America	North America;Central America		auto	10
+Chiapas	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAAJ.AAACA	6		Chiapas	below-threshold		North America	North America;Central America		auto	10
 Winfield	AUZ.AAAAB.AAABZ.AAAKC.AAHJQ.AAAWU.AAAJG	6		Winfield	below-threshold	United States	North America			auto	10
 Rehovot	AUZ.AAAAB.AAABY.AAAAG.AAAAJ.AAABC	5		Rehovot	below-threshold	Middle East	Middle East			auto	10
 Lyon	AUZ.AAAAB.AAABH.AAASY.AABOE.AAJEM	5		Lyon	below-threshold	France	Europe			auto	10
@@ -355,7 +355,7 @@ Nomoi Islands	AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA.AAAAN	7		Nomoi Islands	bel
 Northern Italy	AUZ.AAAAB.AAABH.AAAVP.AAAEJ	4		Northern Italy	country	Italy	Europe			auto	8
 Palembang	AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADN.AAAAQ.AAABG	7		Palembang	below-threshold	Southeast Asia	Southeast Asia			auto	8
 Colorado	AUZ.AAAAB.AAABZ.AAAKC.AABBS	4	Colorado	Colorado	state	United States	North America			auto	8
-Tikal	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAU.AAADK	6		Tikal	below-threshold	North and Central America	North America			auto	8
+Tikal	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAU.AAADK	6		Tikal	below-threshold		North America	North America;Central America		auto	8
 Lisbon	AUZ.AAAAB.AAABH.AAAFG.AAAEZ.AAARJ	5		Lisbon	below-threshold	Portugal	Europe			auto	8
 Thuringia	AUZ.AAAAB.AAABH.AAAJM	3		Thuringia	country	Thuringia	Europe			auto	8
 Murchison River	AUZ.AAAAB.AAACB.AAAAC.AAADG.AATKX	5		Murchison River	below-threshold	Australia	Oceania			auto	8
@@ -384,7 +384,7 @@ Bundi	AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAIG.AAAYO	6		Bundi	below-threshold		East Asi
 Marshall Islands	AUZ.AAAAB.AAACB.AAAAZ	3		Marshall Islands	country	Marshall Islands	Oceania			auto	8
 Paucartambo	AUZ.AAAAB.AAACT.AAAEL.AAAAW.AAABQ	5		Paucartambo	below-threshold	Peru	South America			auto	8
 Deruta	AUZ.AAAAB.AAABH.AAAVP.AAAGL.AAAAB.AABFN	6		Deruta	below-threshold	Italy	Europe			auto	8
-Casas Grandes	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAAV.AABGQ	6		Casas Grandes	below-threshold	North and Central America	North America			auto	8
+Casas Grandes	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAAV.AABGQ	6		Casas Grandes	below-threshold		North America	North America;Central America		auto	8
 Corning	AUZ.AAAAB.AAABZ.AAAKC.AAEFW.AAARR.AAAHZ	6	New York	Corning	below-threshold	United States	North America			auto	8
 Tournai	AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAEQ.AAAAC.AADHJ	8		Tournai	below-threshold		Europe			auto	8
 Derby	AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA.AAAAY.AAABP.AAAKH	8		Derby	below-threshold		Europe			review: country from TGN branch node	8
@@ -399,13 +399,13 @@ Amazon	AUZ.AAAAB.AAACT.AAAAL	3		Amazon	country	Amazon	South America			auto	7
 Montgomery	AUZ.AAAAB.AAABZ.AAAKC.AADSV.AAAPH	5	Alabama	Montgomery	below-threshold	United States	North America			auto	7
 Point Hope	AUZ.AAAAB.AAABZ.AAAKC.AAHGI.AAADN.AAALP	6	Alaska	Point Hope	below-threshold	United States	North America			auto	7
 Marquesas Islands	AUZ.AAAAB.AAABH.AAASY.AABLP.AAAAP	5		Marquesas Islands	below-threshold	France	Europe			auto	7
-Cuernavaca	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACK.AAADJ	6		Cuernavaca	below-threshold	North and Central America	North America			auto	7
-Escuintla	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAJ	5		Escuintla	below-threshold	North and Central America	North America			auto	7
+Cuernavaca	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACK.AAADJ	6		Cuernavaca	below-threshold		North America	North America;Central America		auto	7
+Escuintla	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAJ	5		Escuintla	below-threshold		North America	North America;Central America		auto	7
 Beagle Bay Mission	AUZ.AAAAB.AAACB.AAAAC.AAADG.AABFS	5		Beagle Bay Mission	below-threshold	Australia	Oceania			auto	7
 Eastern Goldfields	AUZ.AAAAB.AAACB.AAAAC.AAADG.ABGAU	5		Eastern Goldfields	below-threshold	Australia	Oceania			auto	7
 Society Islands	AUZ.AAAAB.AAABH.AAASY.AABLP.AAABH	5		Society Islands	below-threshold	France	Europe			auto	7
 Centerville	AUZ.AAAAB.AAABZ.AAAKC.AAAQT.AAAAE.AAACU.AAAAB	7	California	Centerville	below-threshold	United States	North America			auto	7
-Campeche	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAAR	5		Campeche	below-threshold	North and Central America	North America			auto	7
+Campeche	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAAR	5		Campeche	below-threshold		North America	North America;Central America		auto	7
 Acora	AUZ.AAAAB.AAACT.AAAEL.AAABY.AAAAY	5		Acora	below-threshold	Peru	South America			auto	7
 Idaho	AUZ.AAAAB.AAABZ.AAAKC.AACTB	4	Idaho	Idaho	state	United States	North America			auto	7
 Tana Toraja Regency	AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAADJ.AAADI	6		Tana Toraja Regency	below-threshold	Southeast Asia	Southeast Asia			auto	7
@@ -415,11 +415,11 @@ Herbert River	AUZ.AAAAB.AAACB.AAAAC.AAACI.AAOHS	5		Herbert River	below-threshold
 Cuzco	AUZ.AAAAB.AAACT.AAAEL.AAAAW	4		Cuzco	country	Peru	South America			auto	7
 Campania	AUZ.AAAAB.AAABH.AAAVP.AAABT	4		Campania	country	Italy	Europe			auto	7
 Chambri Lake	AUZ.AAAAB.AAABU.AAAAB.AAAAB.AAAAJ.AAACB.AAAAC	7		Chambri Lake	below-threshold					review: no region rule	7
-Copán	AUZ.AAAAB.AAABZ.AAAFF.AAAAG.AAAAK	5		Copán	below-threshold	North and Central America	North America			auto	7
+Copán	AUZ.AAAAB.AAABZ.AAAFF.AAAAG.AAAAK	5		Copán	below-threshold		North America	North America;Central America		auto	7
 Toulouse	AUZ.AAAAB.AAABH.AAASY.AAAWJ.AAAAT	5		Toulouse	below-threshold	France	Europe			auto	7
 Paulatuk	AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACJ.AAAJF	6		Paulatuk	below-threshold	United States	North America			auto	7
 Jaipur	AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAIG.AACPD	6		Jaipur	below-threshold		East Asia			auto	7
-Remojadas	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAEA.AAFCW	6		Remojadas	below-threshold	North and Central America	North America			auto	7
+Remojadas	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAAEA.AAFCW	6		Remojadas	below-threshold		North America	North America;Central America		auto	7
 Miami	AUZ.AAAAB.AAABZ.AAAKC.AABZV.AAACE.AAAOI	6	Florida	Miami	below-threshold	United States	North America			auto	6
 Syracuse	AUZ.AAAAB.AAABZ.AAAKC.AAEFW.AAAKN.AAABT	6	New York	Syracuse	below-threshold	United States	North America			auto	6
 Sihuas	AUZ.AAAAB.AAACT.AAAEL.AAAAD.AAABK	5		Sihuas	below-threshold	Peru	South America			auto	6
@@ -430,7 +430,7 @@ Halls Creek	AUZ.AAAAB.AAACB.AAAAC.AAADG.AALTT	5		Halls Creek	below-threshold	Aus
 Canchis	AUZ.AAAAB.AAACT.AAAEL.AAAAW.AAAAH	5		Canchis	below-threshold	Peru	South America			auto	6
 Western Highlands Province	AUZ.AAAAB.AAABU.AAAAB.AAAAB.AAABJ	5		Western Highlands Province	below-threshold					review: no region rule	6
 Burano	AUZ.AAAAB.AAABH.AAAVP.AAAGP.AAAAE.AAAJW	6		Burano	below-threshold	Italy	Europe			auto	6
-Kaminaljuyu	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAK.AAAAD	6		Kaminaljuyu	below-threshold	North and Central America	North America			auto	6
+Kaminaljuyu	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAK.AAAAD	6		Kaminaljuyu	below-threshold		North America	North America;Central America		auto	6
 Jingdezhen	AUZ.AAAAB.AAAAJ.AAANR.AAAAC.AAABA.AAPUO	6		Jingdezhen	below-threshold		East Asia			auto	6
 Calcutta	AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAKE.AABKY	6		Calcutta	below-threshold		East Asia			auto	6
 Davis Inlet	AUZ.AAAAB.AAABZ.AAAKC.AADTC.AAACH.AAAOQ	6		Davis Inlet	below-threshold	United States	North America			auto	6
@@ -516,15 +516,15 @@ Palpa	AUZ.AAAAB.AAACT.AAAEL.AAABF.AAAAS	5		Palpa	below-threshold	Peru	South Amer
 Truk Atoll	AUZ.AAAAB.AAACB.AAABB.AAAAA.AAAAB.AAAAA.AAABB	7		Truk Atoll	below-threshold	Micronesia	Oceania			auto	5
 Anggruk	AUZ.AAAAB.AAAAJ.AAAGH.AAAAJ.AAACI.AAAFF.AAAAB	7		Anggruk	below-threshold	Southeast Asia	Southeast Asia			auto	5
 Mopti	AUZ.AAAAB.AAAAB.AAAOI.AAAAX	4		Mopti	country	Mali	Africa			auto	5
-Quetzaltenango	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAW	5		Quetzaltenango	below-threshold	North and Central America	North America			auto	5
+Quetzaltenango	AUZ.AAAAB.AAABZ.AAAFF.AAAAF.AAAAW	5		Quetzaltenango	below-threshold		North America	North America;Central America		auto	5
 Mesopotamia	AUZ.AAAAB.AAAAJ.AAABM	3		Mesopotamia	country	Mesopotamia	Middle East			auto	5
 Jodhpur	AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAEM.AAARZ	6		Jodhpur	below-threshold		East Asia			auto	5
 Tuscany	AUZ.AAAAB.AAABH.AAAVP.AAAGE	4		Tuscany	admin (drop)	Italy	Europe			auto	5
 Pacajes	AUZ.AAAAB.AAACT.AAAAZ.AAAAL.AAACT	5		Pacajes	below-threshold	Bolivia	South America			auto	5
 Verona	AUZ.AAAAB.AAABH.AAAVP.AAAGP.AAAAF	5		Verona	below-threshold	Italy	Europe			auto	5
 Kotah	AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAIG.AADQY	6		Kotah	below-threshold		East Asia			auto	5
-Ulúa	AUZ.AAAAB.AAABZ.AAAFF.AAAAG.AAABI	5		Ulúa	below-threshold	North and Central America	North America			auto	5
-Tamazulapan	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACS.AAEYH	6		Tamazulapan	below-threshold	North and Central America	North America			auto	5
+Ulúa	AUZ.AAAAB.AAABZ.AAAFF.AAAAG.AAABI	5		Ulúa	below-threshold		North America	North America;Central America		auto	5
+Tamazulapan	AUZ.AAAAB.AAABZ.AAAFF.AAAAH.AAACS.AAEYH	6		Tamazulapan	below-threshold		North America	North America;Central America		auto	5
 Hernando	AUZ.AAAAB.AAABZ.AAAKC.AADZE.AABHH.AAABD	6	Mississippi	Hernando	below-threshold	United States	North America			auto	5
 Little Rock	AUZ.AAAAB.AAABZ.AAAKC.AAHJQ.AAAUI.AAAPI	6		Little Rock	below-threshold	United States	North America			auto	5
 Rajput	AUZ.AAAAB.AAAAJ.AAAGG.AAAAK.AAAIH	5		Rajput	below-threshold		East Asia			auto	5

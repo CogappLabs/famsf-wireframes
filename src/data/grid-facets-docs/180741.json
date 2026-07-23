@@ -3,7 +3,6 @@
 	"accession_number": "2017.75.17",
 	"sort_number": "2017.75.17",
 	"title": "Evening jacket",
-	"object_name": "woman's costume",
 	"date_display": "Spring/Summer 2007 Demi-Couture",
 	"date_start": "2007",
 	"date_end": "2007",
@@ -24,7 +23,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2024-08-20 13:55:27.807000",
 	"is_virtual": false,
-	"identifying_description": "Cotton jacket with bell sleeves and peplum with metallic thread embroidery in chain stitches and cotton embroidery in couched and button hole stitches, accented by sequins, rhinestones, onyx, and coral stones; black waist tape with hook and eye closure; bronze striped complex weave lining; three hook and eye closures at front. Label: \"Vivienne/ Westwood/ Couture/ London\"",
 	"web_text": "Over the course of her nearly forty-year career, Vivienne Westwood has explored the history of cutting and tailoring garments within the longstanding English tradition. Self-taught, she often incorporates elements from eighteenth-century gowns, such as corsets and skirt pulls, to create evening wear of unrestrained grandeur. As evinced by this jacket, her opulent blend of colors, fabrics, and materials is unparalleled in contemporary fashion.",
 	"didactic_label": null,
 	"exhibition_history_text": "On display at the V&A Museum for the \"Electric Fashion\" book launch exhibition, May 11, 2015.",
@@ -43,15 +41,11 @@
 	},
 	"label_text": "(ecru label with gold text at center back ofbodice) “Vivienne / Westwood / Couture / London”",
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2017-10-26",
-	"location_string": "de Young, 059, Cabinet 32, TB",
-	"location_building": "de Young",
-	"location_room": "Cabinet 32",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Evening jacket",
@@ -99,6 +93,7 @@
 			"height": 1367,
 			"width": 1232,
 			"file_name": "A409881.jpg",
+			"file_path": "TMSShared/Media/Object Reference Images/A409881.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -107,7 +102,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -115,26 +113,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "13 1/2 in. (34.3 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 34.3,
-				"width_cm": null,
-				"depth_cm": null,
-				"height_in": 13.5,
-				"width_in": null,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "34.3 cm (13 1/2 in.) center back length",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -196,14 +175,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -216,6 +192,38 @@
 			"Europe > Northern Europe > City of London"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Europe > Northern Europe > Great Britain",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA"
+			},
+			{
+				"value": "Europe",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABH"
+			},
+			{
+				"value": "Europe > Northern Europe > Great Britain > Greater London > London",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA.AAAAY.AAACN.AAAAQ"
+			},
+			{
+				"value": "Europe > Northern Europe > Great Britain > Greater London > London > City of London",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA.AAAAY.AAACN.AAAAQ.AAAAE"
+			},
+			{
+				"value": "Europe > Northern Europe",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABH.AAADQ"
+			},
+			{
+				"value": "Europe > Northern Europe > Great Britain > Greater London",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA.AAAAY.AAACN"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Vivienne Westwood",
@@ -247,34 +255,34 @@
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Embroidery",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
-			"specific": "silk satin"
+			"specific": "Silk satin"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "bead"
+			"specific": "Bead"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "glass seed bead"
+			"specific": "Bead"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "sequin"
+			"specific": "Sequin"
 		}
 	],
 	"facet_place": [
@@ -288,6 +296,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — Glass, Plastic, Stone, Embroidery … · London",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 51
+		"populated_fields": 46
 	}
 }

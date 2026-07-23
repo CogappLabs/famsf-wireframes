@@ -3,7 +3,6 @@
 	"accession_number": "41520",
 	"sort_number": "41520",
 	"title": "Kahu kiwi (Kiwi feather cloak)",
-	"object_name": null,
 	"date_display": "19th century",
 	"date_start": null,
 	"date_end": null,
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-04-23 13:30:42.863000",
 	"is_virtual": false,
-	"identifying_description": "Kakahu kiwi-kiwi cloak. Kiwi bird feathers, wool, bast fiber (muka - flax fiber; phormium tenax).",
 	"web_text": "An exceptional Kiwi feather cloak, hand-woven from flax fiber and covered with feathers from the flightless Kiwi bird native to New Zealand, this cloak is called a kahu kiwi. It was a prestigious garment worn over the shoulders on top of clothing such as a suit or dress. The decorative borders with geometric designs, tāniko, incorporate multicolored wool. Reportedly, this feather cloak was worn by Māori chief Mita Taupopoki (ca. 1845–1935), renowned for his participation in the wars of the 1860s and his success in land court. Reportedly, Taupopoki wore this feather cloak during a tour of Australia, the United States, and England in 1910–1911. While in England, Taupopoki attended the coronation of King George V.",
 	"didactic_label": "Maori cloaks like this one from the 19th century were woven by hand from flax fiber and worn as prestige garments. They were often considered personal taonga (treasures). This kakahu kiwi cloak has been covered with kiwi bird feathers. The semi-nocturnal and flightless bird is native to New Zealand. The woven taniko border of the cloak includes brightly colored commercial wool fiber and contrasts with the natural and brown-dyed flax.\n\nFeather cloaks were worn over the shoulders on top of clothing such as a suit or dress. Museum records indicate that a renowned Maori chief, Mita Taupopoki (1845/1846- 1935), once owned this cloak. In 1910, he wore it during a tour of Australia, the United States, and England where he attended the coronation of George V and took part in the Festival of Empire celebrations.",
 	"exhibition_history_text": "previously in the old AOA galleryWorn by Chief Mita Tapopoki of the Te Arawa tribe at the coronation of Edward and the diamond jubilee of Victoria when chiefs of distant tribes gathered to pay homage",
@@ -41,15 +39,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1915-10-28",
-	"location_string": "de Young, 059, Cabinet 02, TA",
-	"location_building": "de Young",
-	"location_room": "Cabinet 02",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Kahu kiwi (Kiwi feather cloak)",
@@ -97,6 +91,7 @@
 			"height": 7896,
 			"width": 10860,
 			"file_name": "A308438_V1_crop.tif",
+			"file_path": "TMSShared/Media/All Staff/A308438_V1_crop.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -105,7 +100,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 204735,
@@ -123,6 +121,7 @@
 			"height": 9044,
 			"width": 11824,
 			"file_name": "MS_169380_20230509_1.tif",
+			"file_path": "TMSShared/Media/All Staff/12/MS_169380_20230509_1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -131,7 +130,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 83221,
@@ -149,6 +151,7 @@
 			"height": 8323,
 			"width": 10860,
 			"file_name": "A308438_V1.tif",
+			"file_path": "TMSShared/Media/All Staff/20/A308438_V1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -157,7 +160,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 83222,
@@ -175,6 +181,7 @@
 			"height": 560,
 			"width": 765,
 			"file_name": "0522200712430002.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u238/0522200712430002.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -183,7 +190,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -191,44 +201,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "42 x 64 in. (106.7 x 162.6 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 106.7,
-				"width_cm": 162.6,
-				"depth_cm": null,
-				"height_in": 42.0,
-				"width_in": 64.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "42 x 64 in. (106.68 x 162.56 cm)",
-			"element": "x_Do not use_Image (Filemaker)",
-			"unit": "Inches",
-			"rank": 2,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 106.68,
-				"width_cm": 162.56,
-				"depth_cm": null,
-				"height_in": 42.0,
-				"width_in": 64.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "42 x 64 (106.7 x 162.6 cm)",
 	"associations": [],
 	"highlights": [
 		{
@@ -286,14 +259,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -306,6 +276,28 @@
 			"Oceania > New Zealand > Whanganui"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Oceania > New Zealand",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACB.AAABD"
+			},
+			{
+				"value": "Oceania > New Zealand > North Island",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAACB.AAABD.AAACV"
+			},
+			{
+				"value": "Oceania",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACB"
+			},
+			{
+				"value": "Oceania > New Zealand > North Island > Whanganui",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAACB.AAABD.AAACV.AAAAH.AAAQH"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Māori",
@@ -325,11 +317,11 @@
 	"facet_medium": [
 		{
 			"section": "Organic",
-			"subcategory": "Hair, fur & feather",
-			"specific": "feather"
+			"subcategory": "Hair, fur + feather",
+			"specific": "Feather"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Wool",
 			"specific": ""
 		}
@@ -343,8 +335,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — feather, Wool · Whanganui",
+		"reason": "grid-facets real slice — Feather, Wool · Whanganui",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 48
+		"populated_fields": 44
 	}
 }

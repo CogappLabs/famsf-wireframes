@@ -3,7 +3,6 @@
 	"accession_number": "1986.91.1",
 	"sort_number": "1986.91.1",
 	"title": "Cover or hanging",
-	"object_name": "miscellaneous furnishing",
 	"date_display": "1875–1900",
 	"date_start": "1875",
 	"date_end": "1900",
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-03-30 11:06:53.537000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1986-12-03",
-	"location_string": "de Young, 059, Cabinet 52, E",
-	"location_building": "de Young",
-	"location_room": "Cabinet 52",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Cover or hanging",
@@ -93,6 +87,7 @@
 			"height": 2984,
 			"width": 1588,
 			"file_name": "1211200309020069.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u247/1211200309020069.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -101,7 +96,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -109,26 +107,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "82 5/16 x 43 11/16 in. (209 x 111 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 209.0,
-				"width_cm": 111.0,
-				"depth_cm": null,
-				"height_in": 82.3125,
-				"width_in": 43.6875,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "209 x 111 cm (82 5/16 x 43 11/16 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -170,14 +149,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -188,11 +164,23 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			},
+			{
+				"value": "Asia > O'zbekiston",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAADD"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
-	"sort_artist": null,
+	"primary_artist": "Uzbek",
+	"primary_artist_display": "Uzbek",
+	"sort_artist": "Uzbek",
 	"culture_group": [
 		"Uzbek"
 	],
@@ -206,22 +194,22 @@
 	"sort_year": 1875,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Dyeing",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": "Plain weave"
 		}
@@ -237,6 +225,6 @@
 	"_sample_meta": {
 		"reason": "grid-facets real slice — Cotton, Dyeing, Silk, Plain weave · Uzbekistan",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 44
+		"populated_fields": 42
 	}
 }

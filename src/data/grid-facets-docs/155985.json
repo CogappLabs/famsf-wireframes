@@ -1,0 +1,338 @@
+{
+	"id": 155985,
+	"accession_number": "2008.73.3",
+	"sort_number": "2008.73.3",
+	"title": "Earflare inlay or pendant with two kneeling prisoners",
+	"date_display": "A.D. 600–900",
+	"date_start": "600",
+	"date_end": "900",
+	"medium": "Shell and pigment",
+	"medium_parts": [
+		"Shell and pigment"
+	],
+	"credit_line": "Gift of Gail and J. Alec Merriam",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": "Personal Accessory",
+	"subclassification": "Jewelry",
+	"culture": "Maya",
+	"copyright": null,
+	"object_rights_type": "Public Domain",
+	"on_view": false,
+	"entered_date": "2021-11-23 00:00:00.000000",
+	"last_modified": "2026-02-12 13:29:22.433000",
+	"is_virtual": false,
+	"web_text": null,
+	"didactic_label": null,
+	"exhibition_history_text": null,
+	"exhibition_history_lines": [],
+	"bibliography_text": null,
+	"provenance": null,
+	"provenance_structured": {
+		"lines": [],
+		"footnotes": [],
+		"parsed": false
+	},
+	"label_text": null,
+	"publication_text": null,
+	"accession_iso_date": "2008-12-31",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
+	"edition": null,
+	"titles": [
+		{
+			"title": "Earflare inlay or pendant with two kneeling prisoners",
+			"type": "Primary Title",
+			"active": true,
+			"language": "(not assigned)",
+			"display_order": 1
+		}
+	],
+	"constituents": [
+		{
+			"id": 12835,
+			"Role": "Artist",
+			"RoleID": 1,
+			"name": "Maya",
+			"name_sort": "Maya",
+			"Nationality": null,
+			"place_born": null,
+			"place_died": null,
+			"place_active": null,
+			"attribution_prefix": "",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "",
+			"Institution": null,
+			"ConstituentType": "Culture Group",
+			"DisplayOrder": 1,
+			"DisplayLabel": "Maya"
+		}
+	],
+	"media": [
+		{
+			"media_xref_id": 135782,
+			"image_id": 142045,
+			"rank": 1,
+			"file_date": "2023-02-27 07:17:16",
+			"primary": true,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 724,
+			"width": 900,
+			"file_name": "0314200814120027.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u269/0314200814120027.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 135783,
+			"image_id": 138890,
+			"rank": 2,
+			"file_date": "2023-02-27 07:14:47",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1124,
+			"width": 1080,
+			"file_name": "0424200815170025.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u267/0424200815170025.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 135784,
+			"image_id": 147948,
+			"rank": 3,
+			"file_date": "2023-02-27 07:20:11",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1688,
+			"width": 1780,
+			"file_name": "0510200515250030.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u270/0510200515250030.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		}
+	],
+	"primary_thumbnail_url": null,
+	"primary_social_url": null,
+	"primary_iiif_info_url": null,
+	"primary_blurhash": null,
+	"has_iiif": false,
+	"dimensions": "3/4 x 3 1/2 in.",
+	"associations": [],
+	"highlights": [],
+	"editorial_related_content": {
+		"stories": null,
+		"events": null,
+		"audio_items": null
+	},
+	"physical_child_ids": null,
+	"virtual_parent_ids": null,
+	"virtual_child_ids": null,
+	"is_compound": false,
+	"term_rights_statement": [
+		{
+			"id": 16110964,
+			"term": "Public domain",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 0,
+					"cn": "AUT",
+					"term": "Keywords / Thesaurus"
+				},
+				{
+					"depth": 1,
+					"cn": "AUT.AAA",
+					"term": "Attributes"
+				},
+				{
+					"depth": 2,
+					"cn": "AUT.AAA.AAU",
+					"term": "Object Rights Statement"
+				},
+				{
+					"depth": 3,
+					"cn": "AUT.AAA.AAU.AAB",
+					"term": "Public domain"
+				}
+			]
+		}
+	],
+	"term_place_of_creation": [
+		{
+			"id": 20354391,
+			"term": "Guatemala",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAADU",
+					"term": "Guatemala"
+				}
+			]
+		},
+		{
+			"id": 20496354,
+			"term": "México",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABZ",
+					"term": "North and Central America"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABZ.AAAFG",
+					"term": "México"
+				}
+			]
+		}
+	],
+	"term_place_of_fabrication": null,
+	"term_place_name_at_creation": null,
+	"term_related_geography": null,
+	"term_find_spot": null,
+	"term_reign": null,
+	"term_dynasty": null,
+	"term_movement": null,
+	"term_school": null,
+	"term_materials": null,
+	"term_intended_market": null,
+	"place": {
+		"lvl0": [
+			"North and Central America"
+		],
+		"lvl1": [
+			"North and Central America > Guatemala",
+			"North and Central America > México"
+		],
+		"lvl2": null,
+		"lvl3": null,
+		"nodes": [
+			{
+				"value": "North and Central America > México",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABZ.AAAFG"
+			},
+			{
+				"value": "North and Central America",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABZ"
+			},
+			{
+				"value": "North and Central America > Guatemala",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABZ.AAADU"
+			}
+		],
+		"historic": false
+	},
+	"primary_artist": "Maya",
+	"primary_artist_display": "Maya",
+	"sort_artist": "Maya",
+	"culture_group": [
+		"Maya"
+	],
+	"display_year": "600–900",
+	"doc_id": "2008.73.3",
+	"slug": "2008.73.3/earflare-inlay-or-pendant-with-two-kneeling-prisoners",
+	"has_image": true,
+	"has_provenance": false,
+	"has_children": false,
+	"is_highlight": false,
+	"sort_year": 600,
+	"facet_medium": [
+		{
+			"section": "Paint + pigment",
+			"subcategory": "Pigment",
+			"specific": ""
+		}
+	],
+	"facet_place": [
+		{
+			"region": "Central America",
+			"country": "Guatemala",
+			"state": "",
+			"notable": ""
+		},
+		{
+			"region": "North America",
+			"country": "Mexico",
+			"state": "",
+			"notable": "México"
+		}
+	],
+	"_sample_meta": {
+		"reason": "grid-facets real slice — Pigment · Guatemala, México",
+		"source": "collection_documents.parquet + curator taxonomy workbooks",
+		"populated_fields": 45
+	}
+}

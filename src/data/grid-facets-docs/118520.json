@@ -3,7 +3,6 @@
 	"accession_number": "2001.143.1",
 	"sort_number": "2001.143.1",
 	"title": "Woman's cap",
-	"object_name": "headwear",
 	"date_display": "19th century",
 	"date_start": null,
 	"date_end": null,
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-03-27 12:43:23.360000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": "The Turkmen of Central Asia use five main stitch types for their embroideries, including chain stitches known as ilme or ildirme. As found on this cap, Turkmen chain stitches are distinguished by their rounded shape, and for being worked so tightly, often in paired lines, that their ground fabric is not visible.",
 	"didactic_label": "The Turkmen of Central Asia use five main stitch types for their embroideries, including chain stitches known as ilme or ildirme. As found on this cap, Turkmen chain stitches are distinguished by their rounded shape, and for being worked so tightly, often in paired lines, that their ground fabric is not visible.",
 	"exhibition_history_text": "Beauty, Power, and Prestige: Textiles and Costume from the Permanent Collection- New DeYoung opening, 10/05\nBeyond the Surface: Worldwide Embroidery Techniques, Textile Education Gallery, de Young Museum, 12/16-12/17",
@@ -46,15 +44,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2001-12-13",
-	"location_string": "de Young, 227, Cabinet 24, TA",
-	"location_building": "de Young",
-	"location_room": "Cabinet 24",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Woman's cap",
@@ -102,6 +96,7 @@
 			"height": 7781,
 			"width": 6154,
 			"file_name": "A333920_V1.tif",
+			"file_path": "TMSShared/Media/All Staff/20/A333920_V1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -110,7 +105,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 119008,
@@ -128,6 +126,7 @@
 			"height": 7883,
 			"width": 5728,
 			"file_name": "A333920_V4.tif",
+			"file_path": "TMSShared/Media/All Staff/20/A333920_V4.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -136,7 +135,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 119009,
@@ -154,6 +156,7 @@
 			"height": 7937,
 			"width": 5923,
 			"file_name": "A333920_V5.tif",
+			"file_path": "TMSShared/Media/All Staff/20/A333920_V5.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -162,7 +165,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -170,26 +176,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "10 x 8 x 8 in. (25.4 x 20.3 x 20.3 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 25.4,
-				"width_cm": 20.3,
-				"depth_cm": 20.3,
-				"height_in": 10.0,
-				"width_in": 8.0,
-				"depth_in": 8.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "25.4 x 20.3 x 20.3 cm (10 x 8 x 8 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -231,14 +218,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -249,11 +233,23 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia > Central Asia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAMD"
+			},
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
-	"sort_artist": null,
+	"primary_artist": "Turkmen, Chodor tribe",
+	"primary_artist_display": "Turkmen, Chodor tribe",
+	"sort_artist": "Turkmen, Chodor tribe",
 	"culture_group": [
 		"Turkmen, Chodor tribe"
 	],
@@ -267,22 +263,22 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Embroidery",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Other woven textiles",
-			"specific": "felt"
+			"specific": "Felt"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Wool",
 			"specific": ""
 		}
@@ -296,8 +292,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Embroidery, felt, Silk, Wool · Central Asia",
+		"reason": "grid-facets real slice — Embroidery, Felt, Silk, Wool · Central Asia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 43
 	}
 }

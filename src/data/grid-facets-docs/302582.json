@@ -3,7 +3,6 @@
 	"accession_number": "2021.82.3a-c",
 	"sort_number": "2021.82.3a-c",
 	"title": "Ensemble: top (a), skirt (b) and stockings c-d",
-	"object_name": null,
 	"date_display": "Fall/Winter 2010",
 	"date_start": "2010",
 	"date_end": "2010",
@@ -24,7 +23,6 @@
 	"entered_date": "2022-06-16 14:17:38.720000",
 	"last_modified": "2026-04-17 15:02:16.317000",
 	"is_virtual": false,
-	"identifying_description": "Woman's ensemble comprised of: (a) long sleeve, scoop neck tan linen gauze top with supplementary weft patterning, and white cotton eyelet and tan cotton lace insertions, zipper and hook and eye closure at back, label at center back (gray text on white label) \"RODARTE\"; (b) skirt of checkered synthetic plain weave and synthetic gauze weave with supplementary weft patterning in shades of orange, blue, and brown, side zip closure at proper left, label at back (gray text on white label): \"RODARTE\"; (c) stockings of peach synthetic net with metallic thread and cotton embroidery (satin stitch) and sequins and beads, zipper and hook and eye closure at back, label at back (gray text on white label): \"RODARTE\"",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -38,15 +36,11 @@
 	},
 	"label_text": "(top, centerback zipper, gray text on cream satin) RODARTE; (top, centerback zipper, black text on white satin) 6; (top, centerback zipper, black text on white satin); Contents:/ 45% Cotton/ 25% Wool/ 24% Silk/ 3% Viscose/ 2% Cashmere/ 1% Rubber Latex/ Made in the USA (reverse) Care:/; Specialized Care Only/ Spot Clean Only/ Do not Dry Clean(skirt, centerback waist, black text on white satin) RODARTE; (skirt, centerback waist, black text on white satin) 6; (skirt, centerback waist, gray text on white satin) Contents:/ 40% Silk/ 40% Wool/ 10% Polyester/ 8% Wool/ 2% Nylon/ Made in the USA (reverse) Care:/ Specialized/ Dry Clean Only(stockings, centerback seam, black text on cream satin) RODARTE; (stockings, centerback seam, black text on cream satin) Contents:/ 30% Glass/ 30% Polyester/ 25% Viscose/ 10% Nylon/ 4% Silk/ 1% Rubber Latex/ Made in the USA (reverse) Care:/ Specialized Care only/ Spot Clean Only/ Do not Dry Clean",
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2021-12-07",
-	"location_string": "de Young, 059",
-	"location_building": "de Young",
+	"location_string": null,
+	"location_building": null,
 	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Ensemble: top (a), skirt (b) and stockings c-d",
@@ -132,6 +126,7 @@
 			"height": 13601,
 			"width": 9327,
 			"file_name": "MS_302582_20240730_1.tif",
+			"file_path": "TMSShared/Media/All Staff/10/MS_302582_20240730_1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -140,7 +135,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -148,44 +146,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "23 in. (58.42 cm)",
-			"element": "Other",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 58.42,
-				"width_cm": null,
-				"depth_cm": null,
-				"height_in": 23.0,
-				"width_in": null,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "44 in. (111.76 cm)",
-			"element": "Other",
-			"unit": "Inches",
-			"rank": 2,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 111.76,
-				"width_cm": null,
-				"depth_cm": null,
-				"height_in": 44.0,
-				"width_in": null,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "Other (Center back length (a)): 23 in. (58.42 cm) Other (Center back length (b)): 44 in. (111.76 cm)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -227,14 +188,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -245,6 +203,18 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "North America > United States",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABZ.AAAKC"
+			},
+			{
+				"value": "North America",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABZ"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Kate Mulleavy",
@@ -266,29 +236,29 @@
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Other woven textiles",
-			"specific": "gauze"
+			"specific": "Gauze"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Other woven textiles",
-			"specific": "linen"
+			"specific": "Linen"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "sequin"
+			"specific": "Sequin"
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "metallic thread"
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Metallic thread"
 		}
 	],
 	"facet_place": [
@@ -300,8 +270,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Synthetic, Cotton, gauze, linen … · USA",
+		"reason": "grid-facets real slice — Synthetic, Cotton, Gauze, Linen … · USA",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 42
 	}
 }

@@ -3,7 +3,6 @@
 	"accession_number": "2018.28.27.10",
 	"sort_number": "2018.28.27.10",
 	"title": "evening dress",
-	"object_name": "woman's costume",
 	"date_display": "Autumn/Winter 2010 Ready-to-Wear",
 	"date_start": "2010",
 	"date_end": "2010",
@@ -28,7 +27,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2024-08-20 13:55:26.257000",
 	"is_virtual": false,
-	"identifying_description": "Red silk satin dress with metallic sequins and gold thread embroidery: folded and puffed shoulder sleeves; chest peplum applique of black silk satin embroidered heavily with gold thread and metallic sequins in biota motifs; silk acetate lining.",
 	"web_text": "This dress was part of Alexander McQueen’s final collection before his death in 2010. Unofficially and posthumously titled Angels and Demons, the collection was inspired by religious iconography, drawing from altarpieces by Byzantine, Renaissance, and Baroque artists. Hallmarks of the collection included digitally woven textiles portraying classical paintings and heavily embroidered motifs, which highlighted McQueen’s career-long interest in juxtaposing handcraft with innovative techniques. This dress features intricate layers of hand embroidery, giving the effect of a carved relief sculpture; the gold scrollwork and animal motifs recall symbolism seen in religious manuscripts.",
 	"didactic_label": "This dress was part of Alexander McQueen’s final collection before his death in 2010. Unofficially and posthumously titled Angels and Demons, the collection was inspired by religious iconography, drawing from altarpieces by Byzantine, Renaissance, and Baroque artists. Hallmarks of the collection included digitally woven textiles portraying classical paintings and heavily embroidered motifs, which highlighted McQueen’s career-long interest in juxtaposing handcraft with innovative techniques. This dress features intricate layers of hand embroidery, giving the effect of a carved relief sculpture; the gold scrollwork and animal motifs recall symbolism seen in religious manuscripts.",
 	"exhibition_history_text": null,
@@ -49,15 +47,11 @@
 	},
 	"label_text": "(gray label with white text at center back)“ALEXANDER McQUEEN / MADE IN ITALY”",
 	"publication_text": "Alexander McQueen was one of the most inventive and provocative fashion designers of the late twentieth and early twenty-first centuries. Renowned for his intimate knowledge of garment construction, McQueen is remembered for his ability to push the boundaries of fashion with his exquisite tailoring, which often altered the shape of the female body, as well as by incorporating diverse and challenging cultural and political themes into his designs. Indeed, McQueen garnered international press and accolades for his superbly tailored garments and consummate showmanship throughout his nineteen-year career, until his suicide in 2010. His final collection, for which this dress was conceived, was inspired by Byzantine art and Old Master paintings and was posthumously dubbed the “Angels and Demons” collection. McQueen drew upon paintings and altarpieces by Hans Memling, Hieronymus Bosch, and Sandro Botticelli, among other artists, for the collection’s patterns. Both full artworks and details were captured and woven by jacquard loom into textiles. In contrast to his preceding collection— his technology-inspired Spring/Summer 2010 “Plato’s Atlantis” line—McQueen’s Fall/Winter 2010 designs emphasized handcraftsmanship, as seen in the highly elaborate metallic embroidery that forms this dress’s main decorative interest. llc",
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2018-06-05",
-	"location_string": "de Young, 059, Cabinet 07, J",
-	"location_building": "de Young",
-	"location_room": "Cabinet 07",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "evening dress",
@@ -124,6 +118,7 @@
 			"height": 14204,
 			"width": 10652,
 			"file_name": "MS_177932_FSF-DeInstall-Photography_20240812_1.tif",
+			"file_path": "TMSShared/Media/All Staff/10/MS_177932_FSF-DeInstall-Photography_20240812_1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -132,7 +127,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207576,
@@ -150,6 +148,7 @@
 			"height": 10571,
 			"width": 6809,
 			"file_name": "A411077_20220511__V4.tif",
+			"file_path": "TMSShared/Media/All Staff/02/A411077_20220511__V4.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -158,7 +157,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207575,
@@ -176,6 +178,7 @@
 			"height": 10807,
 			"width": 6961,
 			"file_name": "A411077_20220511__V3.tif",
+			"file_path": "TMSShared/Media/All Staff/02/A411077_20220511__V3.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -184,13 +187,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 151545,
 			"image_id": 185829,
 			"rank": 1,
-			"file_date": "2023-02-27 08:20:00",
+			"file_date": "2026-07-10 04:55:35.717",
 			"primary": true,
 			"media_view": null,
 			"public_caption": null,
@@ -202,6 +208,7 @@
 			"height": 6427,
 			"width": 4988,
 			"file_name": "A411077_V1.TIF",
+			"file_path": "TMSShared/Media/All Staff/23/A411077_V1.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -210,13 +217,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 151546,
 			"image_id": 185843,
 			"rank": 2,
-			"file_date": "2023-02-27 08:20:00",
+			"file_date": "2026-07-10 04:55:35.717",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -228,6 +238,7 @@
 			"height": 6382,
 			"width": 5019,
 			"file_name": "A411077_V2.TIF",
+			"file_path": "TMSShared/Media/All Staff/23/A411077_V2.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -236,13 +247,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 151548,
 			"image_id": 185838,
 			"rank": 4,
-			"file_date": "2023-02-27 08:20:00",
+			"file_date": "2026-07-10 04:55:35.717",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -254,6 +268,7 @@
 			"height": 10325,
 			"width": 6310,
 			"file_name": "A411077_V4.TIF",
+			"file_path": "TMSShared/Media/All Staff/23/A411077_V4.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -262,13 +277,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 151549,
 			"image_id": 185834,
 			"rank": 5,
-			"file_date": "2023-02-27 08:20:00",
+			"file_date": "2026-07-10 04:55:35.717",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -280,6 +298,7 @@
 			"height": 10450,
 			"width": 6643,
 			"file_name": "A411077_V5.TIF",
+			"file_path": "TMSShared/Media/All Staff/23/A411077_V5.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -288,13 +307,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 151550,
 			"image_id": 185848,
 			"rank": 6,
-			"file_date": "2023-02-27 08:20:00",
+			"file_date": "2026-07-10 04:55:35.717",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -306,6 +328,7 @@
 			"height": 10343,
 			"width": 6443,
 			"file_name": "A411077_V6.TIF",
+			"file_path": "TMSShared/Media/All Staff/23/A411077_V6.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -314,13 +337,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 151551,
 			"image_id": 185845,
 			"rank": 7,
-			"file_date": "2023-02-27 08:20:00",
+			"file_date": "2026-07-10 04:55:35.717",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -332,6 +358,7 @@
 			"height": 10462,
 			"width": 6561,
 			"file_name": "A411077_V7.TIF",
+			"file_path": "TMSShared/Media/All Staff/23/A411077_V7.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -340,13 +367,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 151552,
 			"image_id": 185844,
 			"rank": 8,
-			"file_date": "2023-02-27 08:20:00",
+			"file_date": "2026-07-10 04:55:35.717",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -358,6 +388,7 @@
 			"height": 10490,
 			"width": 6718,
 			"file_name": "A411077_V8.TIF",
+			"file_path": "TMSShared/Media/All Staff/23/A411077_V8.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -366,13 +397,16 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 151553,
 			"image_id": 185839,
 			"rank": 9,
-			"file_date": "2023-02-27 08:20:09",
+			"file_date": "2026-07-10 04:55:35.717",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -384,6 +418,7 @@
 			"height": 10462,
 			"width": 7554,
 			"file_name": "A411077_V9.TIF",
+			"file_path": "TMSShared/Media/All Staff/23/A411077_V9.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -392,7 +427,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -400,26 +438,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "",
-			"element": "Footprint",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": false,
-			"measurements": {
-				"height_cm": null,
-				"width_cm": null,
-				"depth_cm": null,
-				"height_in": null,
-				"width_in": null,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": null,
 	"associations": [],
 	"highlights": [
 		{
@@ -510,14 +529,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -531,6 +547,38 @@
 			"Europe > Northern Europe > London"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Europe > Northern Europe > Great Britain > Greater London",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA.AAAAY.AAACN"
+			},
+			{
+				"value": "Europe > Northern Europe",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABH.AAADQ"
+			},
+			{
+				"value": "Europe > Northern Europe > Great Britain > Greater London > London",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA.AAAAY.AAACN.AAAAQ"
+			},
+			{
+				"value": "Europe > Northern Europe > Great Britain",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAACA"
+			},
+			{
+				"value": "Europe",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABH"
+			},
+			{
+				"value": "Europe > Northern Europe > England",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAABT"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Alexander McQueen",
@@ -547,34 +595,34 @@
 	"sort_year": 2010,
 	"facet_medium": [
 		{
-			"section": "Paint & pigment",
+			"section": "Paint + pigment",
 			"subcategory": "Paint",
-			"specific": "painted"
+			"specific": "Painted"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Embroidery",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
-			"specific": "silk net"
+			"specific": "Silk net"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
-			"specific": "silk satin"
+			"specific": "Silk satin"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "glass bead"
+			"specific": "Glass bead"
 		}
 	],
 	"facet_place": [
@@ -592,8 +640,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — painted, Embroidery, Silk, silk net … · London, England",
+		"reason": "grid-facets real slice — Painted, Embroidery, Silk, Silk net … · London, England",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 52
+		"populated_fields": 46
 	}
 }

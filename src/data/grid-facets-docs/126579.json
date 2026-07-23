@@ -3,7 +3,6 @@
 	"accession_number": "1985.91",
 	"sort_number": "1985.91",
 	"title": "Mantle for a married woman (chyrpy)",
-	"object_name": "woman's costume",
 	"date_display": "19th century",
 	"date_start": null,
 	"date_end": null,
@@ -23,7 +22,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2026-03-27 12:53:03.557000",
 	"is_virtual": false,
-	"identifying_description": "A mantle for a married woman above the age of 40, as signified by the egg-yolk yellow ground. The polychrome silk embroidery uses more green than usual and is very beautifully executed on the back of the garment, whereas the embroidery on the two fronts is clumsier, with elements differently spaced on left and right. The differences in embroidery suggest that three different women did the embroidery on this example. The cotton lining is coarsely woven and of Central Asian production.",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -37,15 +35,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1986-01-09",
-	"location_string": "de Young, 059, Cabinet 24, P",
-	"location_building": "de Young",
-	"location_room": "Cabinet 24",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Mantle for a married woman (chyrpy)",
@@ -93,6 +87,7 @@
 			"height": 1720,
 			"width": 1496,
 			"file_name": "1107200215060241.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u246/1107200215060241.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -101,7 +96,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -109,26 +107,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "51 3/16 x 31 7/8 in. (130 x 81 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 130.0,
-				"width_cm": 81.0,
-				"depth_cm": null,
-				"height_in": 51.1875,
-				"width_in": 31.875,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "130 x 81 cm (51 3/16 x 31 7/8 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -170,14 +149,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -188,11 +164,23 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Asia > Central Asia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAJ.AAAMD"
+			},
+			{
+				"value": "Asia",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAJ"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
-	"sort_artist": null,
+	"primary_artist": "Turkmen, Tekke tribe",
+	"primary_artist_display": "Turkmen, Tekke tribe",
+	"sort_artist": "Turkmen, Tekke tribe",
 	"culture_group": [
 		"Turkmen, Tekke tribe"
 	],
@@ -206,24 +194,24 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Embroidery",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "fringe"
+			"specific": "Fringe"
 		}
 	],
 	"facet_place": [
@@ -235,8 +223,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Embroidery, Silk, fringe · Central Asia",
+		"reason": "grid-facets real slice — Cotton, Embroidery, Silk, Fringe · Central Asia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 41
+		"populated_fields": 38
 	}
 }

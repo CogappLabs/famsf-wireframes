@@ -3,7 +3,6 @@
 	"accession_number": "2005.167",
 	"sort_number": "2005.167",
 	"title": "Seated Figure",
-	"object_name": "figure",
 	"date_display": "early 20th century",
 	"date_start": null,
 	"date_end": null,
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2020-08-31 00:00:00.000000",
 	"is_virtual": false,
-	"identifying_description": "Seated figure painted black with unpainted hair and inlaid mother-of-pearl face decoration. White facial ornamentation, in contrast to the black background, represents mbúsapunderi (thin lines commonly painted on the face of men and women using lime).",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -43,15 +41,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2005-12-31",
-	"location_string": "de Young",
-	"location_building": "de Young",
+	"location_string": null,
+	"location_building": null,
 	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": "A375141\nFormerly L05.17",
-	"markings": null,
 	"titles": [
 		{
 			"title": "Seated Figure",
@@ -79,6 +73,7 @@
 			"height": 6434,
 			"width": 4964,
 			"file_name": "A375141_V1.TIF",
+			"file_path": "TMSShared/Media/All Staff/24/A375141_V1.TIF",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -87,7 +82,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 129720,
@@ -105,6 +103,7 @@
 			"height": 3600,
 			"width": 2777,
 			"file_name": "0813200812330011.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u272/0813200812330011.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -113,7 +112,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -121,26 +123,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "20 1/4 x 19 x 11 in. (51.4 x 48.3 x 27.9 cm)",
-			"element": "x_Do not use_Overall (4D)",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 51.4,
-				"width_cm": 48.3,
-				"depth_cm": 27.9,
-				"height_in": 20.25,
-				"width_in": 19.0,
-				"depth_in": 11.0,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "51.4 x 48.3 x 27.9 cm (20 1/4 x 19 x 11 in.)",
 	"associations": [],
 	"highlights": [
 		{
@@ -198,14 +181,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -218,10 +198,32 @@
 			"Oceania > Solomon Islands > Vella Lavella"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Oceania > Solomon Islands",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACB.AAABT"
+			},
+			{
+				"value": "Oceania",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACB"
+			},
+			{
+				"value": "Oceania > Solomon Islands > Western",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAACB.AAABT.AAAAD.AAAAP"
+			},
+			{
+				"value": "Oceania > Solomon Islands > Western > Vella Lavella",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAACB.AAABT.AAAAD.AAAAP.AAAAY"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Unknown artist",
-	"primary_artist_display": null,
+	"primary_artist_display": "Unknown artist",
 	"sort_artist": null,
 	"culture_group": null,
 	"display_year": null,
@@ -235,21 +237,21 @@
 	"facet_medium": [
 		{
 			"section": "Organic",
-			"subcategory": "Shell & pearl",
-			"specific": "shell"
+			"subcategory": "Shell + pearl",
+			"specific": "Shell"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "wood"
+			"subcategory": "Wood + plant",
+			"specific": "Wood"
 		},
 		{
-			"section": "Paint & pigment",
+			"section": "Paint + pigment",
 			"subcategory": "Pigment",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Fiber",
 			"specific": ""
 		}
@@ -263,8 +265,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — shell, wood, Pigment, Fiber · Vella Lavella",
+		"reason": "grid-facets real slice — Shell, Wood, Pigment, Fiber · Vella Lavella",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 40
+		"populated_fields": 36
 	}
 }

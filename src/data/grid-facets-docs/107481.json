@@ -3,7 +3,6 @@
 	"accession_number": "1981.53.1",
 	"sort_number": "1981.53.1",
 	"title": "Evening dress \"Veilleur de Nuit\" (Night Watchman)",
-	"object_name": "woman's costume",
 	"date_display": "Spring/Summer 1924",
 	"date_start": "1924",
 	"date_end": "1924",
@@ -26,7 +25,6 @@
 	"entered_date": "2021-11-23 00:00:00.000000",
 	"last_modified": "2024-08-20 13:55:24.960000",
 	"is_virtual": false,
-	"identifying_description": "Sleeveless robe de style evening gown of silk taffeta and embroidered net: wide scoop neckband front and back of netting embroidered with silver thread; three swags of pearls and metallic disks outlined with green chain stitch across front; ropes of pearls and disks hang below armholes and across back; dropped waist; midcalf gathered skirt with large embroidered medallion designs front and back of pearls, beads, disks, green thread, and silver thread; band of silver thread near hem; flounce of silver lace at hem; left side hooked closure.",
 	"web_text": "Jeanne Lanvin’s robe de style evening dresses, with their tubular bodices, dropped waists, and full, ankle-length skirts (often worn with side hoops), referenced eighteenth-century fashions. This version also features elements influenced by the costumes and textiles of the Manchu-led Qing dynasty (1644–1911) of China. The appliqués are reminiscent of medallions and circular embroideries worn on court robes, and the net at the hem mimics the contrast borders that adorned nonofficial, semiformal robes from the last half of the nineteenth century.",
 	"didactic_label": "Jeanne Lanvin’s robe de style evening dresses, with their tubular bodices, dropped waists, and full, ankle-length skirts (often worn with side hoops), referenced eighteenth-century fashions. This version also features elements influenced by the costumes and textiles of the Manchuled Qing dynasty (1644–1911) of China. The appliqués are reminiscent of medallions and circular embroideries worn on court robes, and the net at the hem mimics the contrast borders that adorned nonofficial, semiformal robes from the last half of the nineteenth century.",
 	"exhibition_history_text": "Opera Bound in the Twenties, de Young, 1983\nLoan to Mobile Museum of Art, Mobile, AL, Picturing French Style: Three Hundred Years of Art and Fashion 9/6/02 - 1/12/03\nLoan to Norton Museum, West Palm Beach, FL, 2003\nBeauty, Power, and Prestige: Textiles and Costume from the Permanent Collection, New de Young Opening, 10/15/05 - 6/5/06",
@@ -57,15 +55,11 @@
 	},
 	"label_text": "(cream label with black and red text atcenter back of waist) “[stamped in black] 1924[handwritten in pencil] 72735 / Jeanne Lanvin /PARIS UNIS-FRANCE / 15 7”",
 	"publication_text": "This evening dress, known as a robe de style, is distinguished by its tubular bodice with a dropped waist and wide, mid-calf length skirt. It is a silhouette for which the French couturier Jeanne Lanvin was well known during the 1910s and 1920s. Although Lanvin began her career as a milliner, she achieved great success with her imaginative women’s eveningwear, for which she drew inspiration from a wide array of artistic and cultural sources. Indeed, her personal library, whose contents served as her muse, housed rare volumes as well as historic costumes and textiles from around the world, ranging from Venetian lace collars to Chinese and Japanese ceremonial robes. The shape of the robe de style evokes that of seventeenth- and eighteenth-century Spanish women’s court dress, particularly the fashions found on female subjects depicted by court painter Diego Velázquez (Johnson 2002, 1–2). Elaborate embroideries and appliqués are also manifest throughout Lanvin’s work; the large metallic and silk embroideries found on this dress’s skirt motifs are comparable to those found in Chinese rank badges, while the dress’s metallic edging is reminiscent of the hems found on Manchu robes (Koda 2015, 37). llc",
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1981-09-02",
-	"location_string": "de Young, 059, Cabinet 07, K",
-	"location_building": "de Young",
-	"location_room": "Cabinet 07",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Evening dress \"Veilleur de Nuit\" (Night Watchman)",
@@ -117,10 +111,40 @@
 	],
 	"media": [
 		{
+			"media_xref_id": 220778,
+			"image_id": 231339,
+			"rank": 0,
+			"file_date": "2026-07-10 02:46:20.13",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"copyright_status": "Copyright Owned by FAMSF",
+			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 13164,
+			"width": 8616,
+			"file_name": "MS_107481_FSF-DeInstall-Photography_20240819_1.tif",
+			"file_path": "TMSShared/Media/All Staff/10/MS_107481_FSF-DeInstall-Photography_20240819_1.tif",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
 			"media_xref_id": 220781,
 			"image_id": 231342,
 			"rank": 0,
-			"file_date": "2024-08-28 03:26:36.953",
+			"file_date": "2026-07-10 02:46:20.13",
 			"primary": false,
 			"media_view": null,
 			"public_caption": null,
@@ -132,6 +156,7 @@
 			"height": 13164,
 			"width": 8473,
 			"file_name": "MS_107481_FSF-DeInstall-Photography_20240819_3.tif",
+			"file_path": "TMSShared/Media/All Staff/10/MS_107481_FSF-DeInstall-Photography_20240819_3.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -140,7 +165,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 220780,
@@ -158,6 +186,7 @@
 			"height": 13164,
 			"width": 8356,
 			"file_name": "MS_107481_FSF-DeInstall-Photography_20240819_2.tif",
+			"file_path": "TMSShared/Media/All Staff/10/MS_107481_FSF-DeInstall-Photography_20240819_2.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -166,33 +195,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
-		},
-		{
-			"media_xref_id": 220778,
-			"image_id": 231339,
-			"rank": 0,
-			"file_date": "2024-08-28 03:20:52.23",
-			"primary": false,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson. Courtesy of the Fine Arts Museums of San Francisco.",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 13164,
-			"width": 8616,
-			"file_name": "MS_107481_FSF-DeInstall-Photography_20240819_1.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 220779,
@@ -210,6 +216,7 @@
 			"height": 13164,
 			"width": 8616,
 			"file_name": "MS_107481_FSF-DeInstall-Photography_20240819_1_Crop.tif",
+			"file_path": "TMSShared/Media/All Staff/10/MS_107481_FSF-DeInstall-Photography_20240819_1_Crop.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -218,7 +225,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 215815,
@@ -236,6 +246,7 @@
 			"height": 11608,
 			"width": 8708,
 			"file_name": "MS_A347464_6.tif",
+			"file_path": "TMSShared/Media/CIDA/01/MS_A347464_6.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -244,7 +255,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 215816,
@@ -262,6 +276,7 @@
 			"height": 11608,
 			"width": 8708,
 			"file_name": "MS_A347464_7.tif",
+			"file_path": "TMSShared/Media/CIDA/01/MS_A347464_7.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -270,7 +285,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 155868,
@@ -288,6 +306,7 @@
 			"height": 11525,
 			"width": 8586,
 			"file_name": "A347464_V4.tif",
+			"file_path": "TMSShared/Media/All Staff/A347464_V4.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -296,7 +315,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 206974,
@@ -314,6 +336,7 @@
 			"height": 10779,
 			"width": 7591,
 			"file_name": "MS_A347464_1_Crop.tif",
+			"file_path": "TMSShared/Media/All Staff/02/MS_A347464_1_Crop.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -322,7 +345,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207333,
@@ -340,6 +366,7 @@
 			"height": 11608,
 			"width": 8708,
 			"file_name": "MS_A347464_11.tif",
+			"file_path": "TMSShared/Media/All Staff/02/MS_A347464_11.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -348,7 +375,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207334,
@@ -366,6 +396,7 @@
 			"height": 8708,
 			"width": 11608,
 			"file_name": "MS_A347464_12.tif",
+			"file_path": "TMSShared/Media/All Staff/02/MS_A347464_12.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -374,7 +405,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 207335,
@@ -392,6 +426,7 @@
 			"height": 11608,
 			"width": 8708,
 			"file_name": "MS_A347464_13.tif",
+			"file_path": "TMSShared/Media/All Staff/02/MS_A347464_13.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -400,7 +435,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 92795,
@@ -418,6 +456,7 @@
 			"height": 5082,
 			"width": 3302,
 			"file_name": "A347464_V1.tif",
+			"file_path": "TMSShared/Media/All Staff/22/A347464_V1.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -426,7 +465,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 92796,
@@ -444,6 +486,7 @@
 			"height": 5082,
 			"width": 3302,
 			"file_name": "A347464_V2.tif",
+			"file_path": "TMSShared/Media/All Staff/24/A347464_V2.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -452,7 +495,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 92797,
@@ -470,6 +516,7 @@
 			"height": 5082,
 			"width": 3302,
 			"file_name": "A347464_V3.tif",
+			"file_path": "TMSShared/Media/All Staff/20/A347464_V3.tif",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -478,7 +525,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -486,44 +536,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": [
-		{
-			"value": "54 x 21 in., (137.16 x 53.34 cm,)",
-			"element": "Overall",
-			"unit": "Inches",
-			"rank": 1,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 137.16,
-				"width_cm": 53.34,
-				"depth_cm": null,
-				"height_in": 54.0,
-				"width_in": 21.0,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		},
-		{
-			"value": "34 1/2 x 24 1/2 in. (87.63 x 62.23 cm)",
-			"element": "Footprint",
-			"unit": "Inches",
-			"rank": 2,
-			"displayed": true,
-			"measurements": {
-				"height_cm": 87.63,
-				"width_cm": 62.23,
-				"depth_cm": null,
-				"height_in": 34.5,
-				"width_in": 24.5,
-				"depth_in": null,
-				"weight_kg": null,
-				"weight_lb": null,
-				"duration_seconds": null
-			}
-		}
-	],
+	"dimensions": "54 x 21 in., (137.16 x 53.34 cm,)",
 	"associations": [],
 	"highlights": [
 		{
@@ -604,14 +617,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -624,6 +634,28 @@
 			"Europe > France > Paris"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Europe > France > Île-de-France > Paris",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AABMN"
+			},
+			{
+				"value": "Europe > France",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABH.AAASY"
+			},
+			{
+				"value": "Europe",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABH"
+			},
+			{
+				"value": "Europe > France > Île-de-France",
+				"search_level": null,
+				"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Jeanne Lanvin",
@@ -645,39 +677,39 @@
 			"specific": ""
 		},
 		{
-			"section": "Glass",
-			"subcategory": "Rhinestone",
-			"specific": ""
-		},
-		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Embroidery",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "bead"
+			"specific": "Bead"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "glass seed bead"
+			"specific": "Rhinestone"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "sequin"
+			"specific": "Bead"
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "thread"
+			"section": "Textiles + fiber",
+			"subcategory": "Trimmings",
+			"specific": "Sequin"
+		},
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Thread"
 		}
 	],
 	"facet_place": [
@@ -695,8 +727,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass, Rhinestone, Embroidery, Silk … · Paris, France",
+		"reason": "grid-facets real slice — Glass, Embroidery, Silk, Bead … · Paris, France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 53
+		"populated_fields": 48
 	}
 }

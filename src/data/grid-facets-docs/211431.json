@@ -3,7 +3,6 @@
 	"accession_number": "50.32.287",
 	"sort_number": "50.32.287",
 	"title": "Spinning board",
-	"object_name": null,
 	"date_display": null,
 	"date_start": null,
 	"date_end": null,
@@ -22,7 +21,6 @@
 	"entered_date": "2021-11-24 00:00:00.000000",
 	"last_modified": "2026-04-06 11:44:46.257000",
 	"is_virtual": false,
-	"identifying_description": null,
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -36,15 +34,11 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "1950-10-26",
-	"location_string": "de Young, 061, Cabinet 038, TC",
-	"location_building": "de Young",
-	"location_room": "Cabinet 038",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Spinning board",
@@ -59,7 +53,7 @@
 			"id": 41373,
 			"Role": "Artist",
 			"RoleID": 1,
-			"name": "Australian Aboriginal, Yindi ",
+			"name": "Australian Aboriginal, Yindi",
 			"name_sort": "Australian Aboriginal, Yindi ",
 			"Nationality": null,
 			"place_born": null,
@@ -72,7 +66,7 @@
 			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "Australian Aboriginal, Yindi "
+			"DisplayLabel": "Australian Aboriginal, Yindi"
 		}
 	],
 	"media": [
@@ -92,6 +86,7 @@
 			"height": 1213,
 			"width": 600,
 			"file_name": "0121200915500046.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u233/0121200915500046.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -100,7 +95,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		},
 		{
 			"media_xref_id": 127896,
@@ -118,6 +116,7 @@
 			"height": 3768,
 			"width": 1868,
 			"file_name": "0311200918500013.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u235/0311200918500013.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -126,7 +125,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -134,7 +136,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": null,
+	"dimensions": "14 5/8 x 7/8",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -181,14 +183,11 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -201,13 +200,30 @@
 			"Oceania > Australia > Western Australia"
 		],
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Oceania > Australia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAACB.AAAAC"
+			},
+			{
+				"value": "Oceania",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAACB"
+			},
+			{
+				"value": "Oceania > Australia > Western Australia",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAACB.AAAAC.AAADG"
+			}
+		],
 		"historic": false
 	},
-	"primary_artist": "Australian Aboriginal, Yindi ",
-	"primary_artist_display": "Australian Aboriginal, Yindi ",
+	"primary_artist": "Australian Aboriginal, Yindi",
+	"primary_artist_display": "Australian Aboriginal, Yindi",
 	"sort_artist": "Australian Aboriginal, Yindi ",
 	"culture_group": [
-		"Australian Aboriginal, Yindi "
+		"Australian Aboriginal, Yindi"
 	],
 	"display_year": null,
 	"doc_id": "50.32.287",
@@ -220,16 +236,16 @@
 	"facet_medium": [
 		{
 			"section": "Organic",
-			"subcategory": "Hair, fur & feather",
-			"specific": "hair"
+			"subcategory": "Hair, fur + feather",
+			"specific": "Hair"
 		},
 		{
 			"section": "Organic",
-			"subcategory": "Wood & plant",
-			"specific": "wood"
+			"subcategory": "Wood + plant",
+			"specific": "Wood"
 		},
 		{
-			"section": "Paint & pigment",
+			"section": "Paint + pigment",
 			"subcategory": "Paint",
 			"specific": ""
 		}
@@ -243,8 +259,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — hair, wood, Paint · Western Australia",
+		"reason": "grid-facets real slice — Hair, Wood, Paint · Western Australia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 40
+		"populated_fields": 38
 	}
 }

@@ -135,55 +135,56 @@ const READ_WATCH_LISTEN = [
 		kind: "Article",
 		title: "Conserving the Rodin bronzes",
 		desc: "Inside the studio as conservators stabilise a century of patina",
-		meta: "6 min read",
+		meta: "6 min. read",
 	},
 	{
 		kind: "Video",
 		title: "Behind the scenes: textile storage",
 		desc: "How 20,000 fragile costumes and textiles are kept safe",
-		meta: "4 min watch",
+		meta: "4 min. watch",
 	},
 	{
 		kind: "Audio",
 		title: "The story of Water Lilies",
 		desc: "A curator on Monet's late garden paintings",
-		meta: "12 min listen",
+		meta: "12 min. listen",
 	},
 	{
 		kind: "Article",
 		title: "Reattributing a Dutch portrait",
 		desc: "What technical imaging revealed beneath the varnish",
-		meta: "8 min read",
+		meta: "8 min. read",
 	},
 ];
 
 // Recently-acquired works strip (NEW organization). Dedicated module showing
-// actual recent works.
+// actual recent works. Shows the artwork year (matching Highlights), not the
+// acquisition year.
 const NEW_ACQUISITIONS = [
 	{
 		title: "Untitled (Seascape)",
 		artist: "Joan Brown",
-		acquired: "Acquired 2025",
+		date: "1963",
 	},
 	{
 		title: "Standing Figure",
 		artist: "Ruth Asawa",
-		acquired: "Acquired 2025",
+		date: "1959",
 	},
 	{
 		title: "View of the Bay",
 		artist: "Wayne Thiebaud",
-		acquired: "Acquired 2024",
+		date: "1968",
 	},
 	{
 		title: "Ceremonial Vessel",
 		artist: "Unknown maker",
-		acquired: "Acquired 2024",
+		date: "ca. 600–900",
 	},
 	{
 		title: "Self-Portrait",
 		artist: "Elmer Bischoff",
-		acquired: "Acquired 2024",
+		date: "1955",
 	},
 ];
 
@@ -223,7 +224,7 @@ function CollectionLandingContent() {
 						</SectionLabel>
 						<CollectionAutocomplete />
 						<ScopeMark label="Basic filters">
-							<div className="mt-4 flex flex-wrap items-center gap-2">
+							<div className="mt-4 flex flex-wrap items-center gap-4">
 								<span className="font-mono text-meta text-gray-500">
 									Filter to:
 								</span>
@@ -231,8 +232,12 @@ function CollectionLandingContent() {
 									<Link
 										key={f.key}
 										href={`/search-results?${f.key}=true`}
-										className="border border-gray-300 px-3 py-1 font-mono text-meta text-gray-500 transition-colors hover:border-gray-500 hover:bg-gray-50"
+										className="group flex items-center gap-2 font-mono text-meta text-gray-700 hover:text-gray-950"
 									>
+										<span
+											aria-hidden
+											className="flex h-4 w-4 shrink-0 items-center justify-center border border-gray-400 bg-white group-hover:border-gray-700"
+										/>
 										{f.label}
 									</Link>
 								))}
@@ -400,10 +405,7 @@ function CollectionLandingContent() {
 												{work.title}
 											</h3>
 											<p className="mt-0.5 font-mono text-label text-gray-500">
-												{work.artist}
-											</p>
-											<p className="mt-2 font-mono text-label text-gray-400">
-												{work.acquired}
+												{work.artist}, {work.date}
 											</p>
 										</div>
 									</Link>

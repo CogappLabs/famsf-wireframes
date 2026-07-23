@@ -3,7 +3,6 @@
 	"accession_number": "2025.22.2a-e",
 	"sort_number": "2025.22.2a-e",
 	"title": "Ensemble: jacket, jacket, and pants",
-	"object_name": null,
 	"date_display": "Spring 2005 Ready-to-Wear",
 	"date_start": "2005",
 	"date_end": "2005",
@@ -26,7 +25,6 @@
 	"entered_date": "2025-01-21 11:47:24.640000",
 	"last_modified": "2025-04-09 10:29:58.900000",
 	"is_virtual": false,
-	"identifying_description": "Woman's ensemble consisting of interchangeable pieces: a pair trousers, a camisole, a structured jacket and draped jacket. The tuxedo style trousers are of black silk and acetate crepe with gold braiding and gold buttons at the waist and a black tuxedo stripe down each leg made to look like snakeskin through supplementary weft patterning. The camisole is black and white silk with a wrap stile neckline and is printed with a zigzag pattern and black silk bias tape at the edges. The structed jacket is of blue cotton plain weave with white cotton \"pinstripes\" every seventh count. It is a military style with epaulettes and gold buttons embellished with a horn design and a black twill weave lapel. The draped jacket is of navy blue silk with a draped back with a curved hem and matching sash.",
 	"web_text": null,
 	"didactic_label": null,
 	"exhibition_history_text": null,
@@ -40,15 +38,11 @@
 	},
 	"label_text": "(jacket, centerback collar, black text on ivory satin label) BALENCIAGA.PARIS(jacket, proper left side seam, black text on white label) 40 (jacket, proper left side seam, black text on white double sided satin label) COMPOSIZIONE-COMPOSITION / 100% SETA SILK / SOIE SEIDE / FODERA-LINING-DOUBLURE; NO TUMBLE DRY / PROFESSIONALLY DRY CLEAN / PERCHLORETHYLENE / MADE IN ITALY / FABRIQUE EN ITALIE / BALENCIAGA / UP57 2004 00650 / 144601 T1224 0606(jacket, proper left side seam, black text on white label) 40(jacket, proper left side seam, black text on white label) BALENCIAGA FRANCE(jacket, proper left side seam, black text on white double sided satin label) COMPOSIZIONE-COMPOSITION / 100% COTTON / COTON BA [illegible] / 100% RAYON / VISCOSA; FODERA-LINING-DOUBLURE / 100% SETA SILK / SOIE SEIDE / NO TUMBLE DRY/ PROFESSIONALLY DRY CLEAN / PERCHLORETHYLENE / IRON ON REVERSE SIDE ONLY / STIRARE SOLO A ROVESCIO / MADE IN FRANCE / FABRIQUE' EN FRANCE / BALENCIAGA / UF57 2004 01196 / 143503 TI426 0533(pants, centerback waistband, black text on ivory satin label) BALENCIAGA.PARIS(pants, proper left waistband, black text on white label) 40(pants, proper left waistband, black text on white double sided satin label) FODERA-LINING-DOUBLURE / NO TUMBLE DRY / PROFESSIONALLY DRY CLEAN / PERCHLORETHYLENE / IRON ON REVERSE SIDE ONLY / STIRARE SOLO A ROVESCIO / MADE IN FRANCE / FABRIQUE' EN FRANCE / BALENCIAGA / [illegible] 04 01183 / [illegible] 310 0447; COMPOSIZIONE-COMPOSITION / 65% ACETATO ACETATE / ESSIGSAUER / 35% SETA SILK / SOIE SEIUE / 100% SETA SILK / SOIE SEIDE / 100% SETA SILK / SOIE SEIDE",
 	"publication_text": null,
-	"catalogue_raisonne": null,
 	"accession_iso_date": "2025-04-02",
-	"location_string": "de Young, 059, Cabinet 55, TA",
-	"location_building": "de Young",
-	"location_room": "Cabinet 55",
+	"location_string": null,
+	"location_building": null,
+	"location_room": null,
 	"edition": null,
-	"signed": null,
-	"inscribed": null,
-	"markings": null,
 	"titles": [
 		{
 			"title": "Ensemble: jacket, jacket, and pants",
@@ -115,6 +109,7 @@
 			"height": 3024,
 			"width": 4032,
 			"file_name": "REF_310210_20260526-1.JPG",
+			"file_path": "TMSShared/Media/Object Reference Images/06/REF_310210_20260526-1.JPG",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -123,7 +118,10 @@
 			"social_url": null,
 			"blurhash": null,
 			"iiif_width": null,
-			"iiif_height": null
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
 		}
 	],
 	"primary_thumbnail_url": null,
@@ -146,29 +144,6 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
-			"id": 20618664,
-			"term": "France",
-			"type": "Descriptor",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABH",
-					"term": "Europe"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABH.AAASY",
-					"term": "France"
-				}
-			]
-		},
-		{
 			"id": 20774286,
 			"term": "Italy",
 			"type": "N/A",
@@ -190,20 +165,40 @@
 					"term": "Italia"
 				}
 			]
+		},
+		{
+			"id": 20618664,
+			"term": "France",
+			"type": "Descriptor",
+			"certainty": null,
+			"path": [
+				{
+					"depth": 1,
+					"cn": "AUZ.AAAAB",
+					"term": "World"
+				},
+				{
+					"depth": 2,
+					"cn": "AUZ.AAAAB.AAABH",
+					"term": "Europe"
+				},
+				{
+					"depth": 3,
+					"cn": "AUZ.AAAAB.AAABH.AAASY",
+					"term": "France"
+				}
+			]
 		}
 	],
 	"term_place_of_fabrication": null,
 	"term_place_name_at_creation": null,
 	"term_related_geography": null,
 	"term_find_spot": null,
-	"term_period": null,
 	"term_reign": null,
 	"term_dynasty": null,
-	"term_style": null,
 	"term_movement": null,
 	"term_school": null,
 	"term_materials": null,
-	"term_subject": null,
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
@@ -215,6 +210,23 @@
 		],
 		"lvl2": null,
 		"lvl3": null,
+		"nodes": [
+			{
+				"value": "Europe",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABH"
+			},
+			{
+				"value": "Europe > France",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABH.AAASY"
+			},
+			{
+				"value": "Europe > Italia",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABH.AAAVP"
+			}
+		],
 		"historic": false
 	},
 	"primary_artist": "Nicolas Ghesquière",
@@ -241,48 +253,48 @@
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Cotton",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Silk",
-			"specific": "silk crepe"
+			"specific": "Silk crepe"
 		},
 		{
-			"section": "Textiles & fiber",
+			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": "Supplementary-weft patterning"
 		},
 		{
-			"section": "Textiles & fiber",
-			"subcategory": "Yarn & thread",
-			"specific": "cord"
+			"section": "Textiles + fiber",
+			"subcategory": "Yarn + thread",
+			"specific": "Cord"
 		}
 	],
 	"facet_place": [
 		{
 			"region": "Europe",
-			"country": "France",
+			"country": "Italy",
 			"state": "",
 			"notable": ""
 		},
 		{
 			"region": "Europe",
-			"country": "Italy",
+			"country": "France",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Plastic, Metal, Cotton, Silk … · France, Italy",
+		"reason": "grid-facets real slice — Plastic, Metal, Cotton, Silk … · Italy, France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 41
 	}
 }
