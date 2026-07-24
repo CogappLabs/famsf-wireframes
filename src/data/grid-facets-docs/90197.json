@@ -220,9 +220,9 @@
 	"sort_year": 1943,
 	"facet_medium": [
 		{
-			"section": "Ink + drawing media",
+			"section": "Ink + drawing",
 			"subcategory": "Ink",
-			"specific": "Black ink"
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -234,7 +234,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Black ink · Cuba",
+		"reason": "grid-facets real slice — Ink · Cuba",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 43
 	}

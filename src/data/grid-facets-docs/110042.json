@@ -339,11 +339,6 @@
 	"facet_medium": [
 		{
 			"section": "Textiles + fiber",
-			"subcategory": "Fiber",
-			"specific": "Camelid fiber"
-		},
-		{
-			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": ""
 		},
@@ -351,6 +346,11 @@
 			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
 			"specific": "Plain weave"
+		},
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Wool",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -368,7 +368,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Camelid fiber, Weaving, Plain weave · Bolivia, Calamarca",
+		"reason": "grid-facets real slice — Weaving, Plain weave, Wool · Bolivia, Calamarca",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 47
 	}

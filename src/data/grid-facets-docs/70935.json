@@ -327,7 +327,7 @@
 	"sort_year": 1600,
 	"facet_medium": [
 		{
-			"section": "Ink + drawing media",
+			"section": "Ink + drawing",
 			"subcategory": "Ink",
 			"specific": ""
 		},
@@ -339,7 +339,7 @@
 		{
 			"section": "Paint + pigment",
 			"subcategory": "Watercolour + wash",
-			"specific": "Opaque watercolor"
+			"specific": "Watercolor"
 		}
 	],
 	"facet_place": [
@@ -351,7 +351,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Ink, Gold, Opaque watercolor · Mughal Empire",
+		"reason": "grid-facets real slice — Ink, Gold, Watercolor · Mughal Empire",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

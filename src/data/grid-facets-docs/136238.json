@@ -405,17 +405,12 @@
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "Rhinestone"
-		},
-		{
-			"section": "Textiles + fiber",
-			"subcategory": "Trimmings",
 			"specific": "Bead"
 		},
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "Glass bead"
+			"specific": "Rhinestone"
 		},
 		{
 			"section": "Textiles + fiber",
@@ -443,7 +438,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass, Plastic, Embroidery, Rhinestone … · Paris, France",
+		"reason": "grid-facets real slice — Glass, Plastic, Embroidery, Bead … · Paris, France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

@@ -450,7 +450,7 @@
 	"sort_year": 1780,
 	"facet_medium": [
 		{
-			"section": "Ink + drawing media",
+			"section": "Ink + drawing",
 			"subcategory": "Ink",
 			"specific": ""
 		},
@@ -467,7 +467,7 @@
 		{
 			"section": "Paint + pigment",
 			"subcategory": "Watercolour + wash",
-			"specific": "Transparent watercolor"
+			"specific": "Watercolor"
 		}
 	],
 	"facet_place": [
@@ -485,7 +485,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Ink, Gold, Silver, Transparent watercolor · Lucknow, Mughal Empire",
+		"reason": "grid-facets real slice — Ink, Gold, Silver, Watercolor · Lucknow, Mughal Empire",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

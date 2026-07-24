@@ -314,13 +314,13 @@
 	"facet_medium": [
 		{
 			"section": "Textiles + fiber",
-			"subcategory": "Fiber",
-			"specific": "Camelid fiber"
+			"subcategory": "Weaving",
+			"specific": "Plain weave"
 		},
 		{
 			"section": "Textiles + fiber",
-			"subcategory": "Weaving",
-			"specific": "Plain weave"
+			"subcategory": "Wool",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -338,7 +338,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Camelid fiber, Plain weave · Arque, Bolívar",
+		"reason": "grid-facets real slice — Plain weave, Wool · Arque, Bolívar",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 43
 	}

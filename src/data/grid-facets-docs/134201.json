@@ -183,7 +183,7 @@
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Yarn + thread",
-			"specific": "Metallic thread"
+			"specific": "Thread"
 		}
 	],
 	"facet_place": [
@@ -195,7 +195,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Satin, Silk, Metallic thread · India",
+		"reason": "grid-facets real slice — Satin, Silk, Thread · India",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 39
 	}

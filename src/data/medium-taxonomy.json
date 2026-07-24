@@ -1,11 +1,11 @@
 [
 	{
 		"value": "Prints",
-		"count": 91616,
+		"count": 91185,
 		"children": [
 			{
 				"value": "Etching",
-				"count": 19392,
+				"count": 19299,
 				"children": [
 					{
 						"value": "Soft-ground etching",
@@ -26,13 +26,8 @@
 			},
 			{
 				"value": "Engraving",
-				"count": 16476,
+				"count": 16441,
 				"children": [
-					{
-						"value": "Stipple engraving",
-						"count": 484,
-						"children": []
-					},
 					{
 						"value": "Stipple",
 						"count": 36,
@@ -42,12 +37,12 @@
 			},
 			{
 				"value": "Lithograph",
-				"count": 15351,
+				"count": 15292,
 				"children": []
 			},
 			{
 				"value": "Woodcut",
-				"count": 9033,
+				"count": 8972,
 				"children": []
 			},
 			{
@@ -57,7 +52,7 @@
 			},
 			{
 				"value": "Aquatint",
-				"count": 6106,
+				"count": 6080,
 				"children": []
 			},
 			{
@@ -118,27 +113,27 @@
 			},
 			{
 				"value": "Drypoint",
-				"count": 3709,
+				"count": 3686,
 				"children": []
 			},
 			{
 				"value": "Offset lithograph",
-				"count": 3268,
+				"count": 3265,
 				"children": []
 			},
 			{
 				"value": "Mezzotint",
-				"count": 1803,
+				"count": 1701,
 				"children": []
 			},
 			{
 				"value": "Screenprint",
-				"count": 1694,
+				"count": 1690,
 				"children": []
 			},
 			{
 				"value": "Letterpress",
-				"count": 756,
+				"count": 754,
 				"children": []
 			},
 			{
@@ -148,7 +143,7 @@
 			},
 			{
 				"value": "Photogravure",
-				"count": 443,
+				"count": 436,
 				"children": []
 			},
 			{
@@ -158,7 +153,7 @@
 			},
 			{
 				"value": "Monotype",
-				"count": 387,
+				"count": 378,
 				"children": []
 			},
 			{
@@ -184,7 +179,7 @@
 			},
 			{
 				"value": "Pochoir",
-				"count": 283,
+				"count": 263,
 				"children": []
 			},
 			{
@@ -204,7 +199,7 @@
 			},
 			{
 				"value": "Intaglio print",
-				"count": 83,
+				"count": 82,
 				"children": []
 			},
 			{
@@ -221,11 +216,11 @@
 	},
 	{
 		"value": "Textiles + fiber",
-		"count": 11631,
+		"count": 11630,
 		"children": [
 			{
 				"value": "Silk",
-				"count": 3195,
+				"count": 3186,
 				"children": [
 					{
 						"value": "Silk satin",
@@ -234,27 +229,27 @@
 					},
 					{
 						"value": "Silk velvet",
-						"count": 131,
+						"count": 129,
 						"children": []
 					},
 					{
 						"value": "Silk taffeta",
-						"count": 95,
+						"count": 93,
 						"children": []
 					},
 					{
 						"value": "Silk chiffon",
-						"count": 89,
+						"count": 87,
 						"children": []
 					},
 					{
 						"value": "Silk brocade",
-						"count": 80,
+						"count": 77,
 						"children": []
 					},
 					{
 						"value": "Silk gros de tour",
-						"count": 71,
+						"count": 70,
 						"children": []
 					},
 					{
@@ -264,7 +259,7 @@
 					},
 					{
 						"value": "Embroidered silk",
-						"count": 46,
+						"count": 45,
 						"children": []
 					},
 					{
@@ -286,11 +281,11 @@
 			},
 			{
 				"value": "Other woven textiles",
-				"count": 2849,
+				"count": 2850,
 				"children": [
 					{
 						"value": "Linen",
-						"count": 759,
+						"count": 805,
 						"children": []
 					},
 					{
@@ -374,11 +369,6 @@
 						"children": []
 					},
 					{
-						"value": "White linen",
-						"count": 34,
-						"children": []
-					},
-					{
 						"value": "Wool felt",
 						"count": 33,
 						"children": []
@@ -387,23 +377,13 @@
 						"value": "Tapa cloth",
 						"count": 14,
 						"children": []
-					},
-					{
-						"value": "Embroidered linen",
-						"count": 11,
-						"children": []
 					}
 				]
 			},
 			{
 				"value": "Wool",
-				"count": 2138,
+				"count": 2158,
 				"children": [
-					{
-						"value": "Sheep's wool or camelid hair",
-						"count": 65,
-						"children": []
-					},
 					{
 						"value": "Alpaca",
 						"count": 47,
@@ -413,28 +393,17 @@
 						"value": "Cashmere",
 						"count": 41,
 						"children": []
-					},
-					{
-						"value": "Sheep's wool",
-						"count": 11,
-						"children": []
 					}
 				]
 			},
 			{
 				"value": "Cotton",
-				"count": 2094,
-				"children": [
-					{
-						"value": "White cotton",
-						"count": 43,
-						"children": []
-					}
-				]
+				"count": 2095,
+				"children": []
 			},
 			{
 				"value": "Weaving",
-				"count": 2070,
+				"count": 2069,
 				"children": [
 					{
 						"value": "Knotted pile",
@@ -458,7 +427,7 @@
 					},
 					{
 						"value": "Complex weave",
-						"count": 111,
+						"count": 110,
 						"children": []
 					},
 					{
@@ -516,16 +485,16 @@
 			},
 			{
 				"value": "Trimmings",
-				"count": 1228,
+				"count": 1231,
 				"children": [
 					{
 						"value": "Bead",
-						"count": 528,
+						"count": 573,
 						"children": []
 					},
 					{
 						"value": "Ribbon",
-						"count": 219,
+						"count": 235,
 						"children": []
 					},
 					{
@@ -549,11 +518,6 @@
 						"children": []
 					},
 					{
-						"value": "Glass bead",
-						"count": 62,
-						"children": []
-					},
-					{
 						"value": "Tassel",
 						"count": 53,
 						"children": []
@@ -567,26 +531,16 @@
 						"value": "Chenille",
 						"count": 45,
 						"children": []
-					},
-					{
-						"value": "Silk ribbon",
-						"count": 14,
-						"children": []
-					},
-					{
-						"value": "Glass seed bead",
-						"count": 11,
-						"children": []
 					}
 				]
 			},
 			{
 				"value": "Fiber",
-				"count": 916,
+				"count": 896,
 				"children": [
 					{
 						"value": "Camelid fiber",
-						"count": 316,
+						"count": 296,
 						"children": []
 					},
 					{
@@ -603,11 +557,11 @@
 			},
 			{
 				"value": "Yarn + thread",
-				"count": 751,
+				"count": 757,
 				"children": [
 					{
 						"value": "Thread",
-						"count": 401,
+						"count": 487,
 						"children": []
 					},
 					{
@@ -629,16 +583,6 @@
 						"value": "Cord",
 						"count": 49,
 						"children": []
-					},
-					{
-						"value": "Metallic thread",
-						"count": 45,
-						"children": []
-					},
-					{
-						"value": "Metal thread",
-						"count": 43,
-						"children": []
 					}
 				]
 			},
@@ -655,140 +599,65 @@
 		]
 	},
 	{
-		"value": "Ink + drawing media",
-		"count": 9881,
+		"value": "Ink + drawing",
+		"count": 9915,
 		"children": [
 			{
 				"value": "Ink",
-				"count": 5369,
+				"count": 5545,
 				"children": [
 					{
-						"value": "Black ink",
-						"count": 2087,
-						"children": []
-					},
-					{
-						"value": "Brown ink",
-						"count": 395,
-						"children": []
-					},
-					{
-						"value": "Red ink",
-						"count": 83,
-						"children": []
-					},
-					{
-						"value": "Blue ink",
-						"count": 78,
-						"children": []
-					},
-					{
 						"value": "Pen",
-						"count": 66,
-						"children": []
-					},
-					{
-						"value": "Double-sided ink",
-						"count": 59,
-						"children": []
-					},
-					{
-						"value": "Sumi ink",
-						"count": 59,
-						"children": []
-					},
-					{
-						"value": "Sepia ink",
-						"count": 54,
-						"children": []
-					},
-					{
-						"value": "Ink wash",
-						"count": 41,
-						"children": []
-					},
-					{
-						"value": "India ink",
-						"count": 34,
-						"children": []
-					},
-					{
-						"value": "Tones brown ink",
-						"count": 27,
+						"count": 65,
 						"children": []
 					}
 				]
 			},
 			{
 				"value": "Pencil + graphite",
-				"count": 2817,
+				"count": 2644,
 				"children": [
 					{
 						"value": "Graphite",
-						"count": 2250,
+						"count": 2081,
 						"children": []
 					},
 					{
 						"value": "Pencil",
-						"count": 559,
-						"children": []
-					},
-					{
-						"value": "Blue pencil",
-						"count": 53,
+						"count": 605,
 						"children": []
 					}
 				]
 			},
 			{
 				"value": "Chalk + crayon",
-				"count": 1050,
+				"count": 1012,
 				"children": [
 					{
-						"value": "Crayon",
-						"count": 313,
-						"children": []
-					},
-					{
-						"value": "Black chalk",
-						"count": 312,
-						"children": []
-					},
-					{
-						"value": "White chalk",
-						"count": 132,
-						"children": []
-					},
-					{
-						"value": "Red chalk",
-						"count": 115,
-						"children": []
-					},
-					{
 						"value": "Chalk",
-						"count": 114,
+						"count": 602,
 						"children": []
 					},
 					{
-						"value": "Black crayon",
-						"count": 106,
+						"value": "Crayon",
+						"count": 412,
 						"children": []
 					}
 				]
 			},
 			{
 				"value": "Drawing",
-				"count": 434,
+				"count": 433,
 				"children": []
 			},
 			{
 				"value": "Charcoal",
-				"count": 387,
+				"count": 377,
 				"children": []
 			},
 			{
 				"value": "Pastel",
-				"count": 320,
+				"count": 300,
 				"children": []
 			},
 			{
@@ -803,21 +672,16 @@
 			},
 			{
 				"value": "Metalpoint",
-				"count": 21,
+				"count": 17,
 				"children": [
 					{
 						"value": "Silverpoint",
-						"count": 15,
+						"count": 12,
 						"children": []
 					},
 					{
 						"value": "Goldpoint",
 						"count": 2,
-						"children": []
-					},
-					{
-						"value": "Leadpoint",
-						"count": 1,
 						"children": []
 					}
 				]
@@ -826,72 +690,36 @@
 	},
 	{
 		"value": "Paint + pigment",
-		"count": 6454,
+		"count": 6982,
 		"children": [
 			{
 				"value": "Watercolour + wash",
-				"count": 2363,
+				"count": 2792,
 				"children": [
 					{
 						"value": "Watercolor",
-						"count": 1398,
-						"children": []
-					},
-					{
-						"value": "Opaque watercolor",
-						"count": 821,
+						"count": 2442,
 						"children": []
 					},
 					{
 						"value": "Wash",
-						"count": 138,
-						"children": []
-					},
-					{
-						"value": "Brown wash",
-						"count": 28,
-						"children": []
-					},
-					{
-						"value": "Transparent watercolor",
-						"count": 24,
-						"children": []
-					},
-					{
-						"value": "Gray wash",
-						"count": 12,
-						"children": []
-					},
-					{
-						"value": "White opaque watercolor",
-						"count": 4,
+						"count": 379,
 						"children": []
 					}
 				]
 			},
 			{
 				"value": "Oil",
-				"count": 1522,
-				"children": [
-					{
-						"value": "Oil paint",
-						"count": 17,
-						"children": []
-					}
-				]
+				"count": 1536,
+				"children": []
 			},
 			{
 				"value": "Pigment",
-				"count": 1124,
+				"count": 1158,
 				"children": [
 					{
 						"value": "Underglazed decorative motifs in blue",
 						"count": 138,
-						"children": []
-					},
-					{
-						"value": "Metallic pigment",
-						"count": 35,
 						"children": []
 					},
 					{
@@ -903,68 +731,32 @@
 			},
 			{
 				"value": "Paint",
-				"count": 959,
+				"count": 1024,
 				"children": [
 					{
 						"value": "Painted",
-						"count": 232,
-						"children": []
-					},
-					{
-						"value": "Overglaze painting",
-						"count": 57,
-						"children": []
-					},
-					{
-						"value": "Gold paint",
-						"count": 22,
-						"children": []
-					},
-					{
-						"value": "Metallic paint",
-						"count": 21,
-						"children": []
-					},
-					{
-						"value": "Gesso",
-						"count": 10,
+						"count": 228,
 						"children": []
 					}
 				]
 			},
 			{
 				"value": "Acrylic",
-				"count": 345,
-				"children": [
-					{
-						"value": "Acrylic paint",
-						"count": 35,
-						"children": []
-					}
-				]
+				"count": 352,
+				"children": []
 			},
 			{
 				"value": "Gouache + tempera",
-				"count": 232,
+				"count": 238,
 				"children": [
 					{
 						"value": "Tempera",
-						"count": 137,
+						"count": 128,
 						"children": []
 					},
 					{
 						"value": "Gouache",
-						"count": 55,
-						"children": []
-					},
-					{
-						"value": "Gray gouache ground",
-						"count": 31,
-						"children": []
-					},
-					{
-						"value": "White gouache",
-						"count": 10,
+						"count": 110,
 						"children": []
 					}
 				]
@@ -1159,7 +951,7 @@
 					},
 					{
 						"value": "Rattan",
-						"count": 81,
+						"count": 84,
 						"children": []
 					},
 					{
@@ -1220,11 +1012,6 @@
 					{
 						"value": "Wood panel",
 						"count": 4,
-						"children": []
-					},
-					{
-						"value": "Woven rattan",
-						"count": 3,
 						"children": []
 					},
 					{
@@ -1398,7 +1185,7 @@
 	},
 	{
 		"value": "Ceramic",
-		"count": 3924,
+		"count": 3917,
 		"children": [
 			{
 				"value": "Porcelain",
@@ -1407,12 +1194,12 @@
 			},
 			{
 				"value": "Earthenware",
-				"count": 699,
+				"count": 818,
 				"children": []
 			},
 			{
 				"value": "Terracotta",
-				"count": 441,
+				"count": 437,
 				"children": []
 			},
 			{
@@ -1427,17 +1214,12 @@
 			},
 			{
 				"value": "Faience",
-				"count": 184,
+				"count": 180,
 				"children": []
 			},
 			{
 				"value": "Clay",
 				"count": 173,
-				"children": []
-			},
-			{
-				"value": "Glazed earthenware",
-				"count": 93,
 				"children": []
 			},
 			{
@@ -1454,42 +1236,21 @@
 				"value": "Soft paste porcelain",
 				"count": 33,
 				"children": []
-			},
-			{
-				"value": "Tin-glazed earthenware",
-				"count": 25,
-				"children": []
-			},
-			{
-				"value": "Glazed ceramic",
-				"count": 13,
-				"children": []
 			}
 		]
 	},
 	{
 		"value": "Glass",
-		"count": 2062,
-		"children": [
-			{
-				"value": "Blown glass",
-				"count": 34,
-				"children": []
-			},
-			{
-				"value": "Free-blown glass",
-				"count": 9,
-				"children": []
-			}
-		]
+		"count": 2067,
+		"children": []
 	},
 	{
 		"value": "Paper + parchment",
-		"count": 1893,
+		"count": 1885,
 		"children": [
 			{
 				"value": "Paper",
-				"count": 1803,
+				"count": 1794,
 				"children": [
 					{
 						"value": "Laid paper",
@@ -1588,18 +1349,12 @@
 	},
 	{
 		"value": "Stone",
-		"count": 1344,
+		"count": 1353,
 		"children": [
 			{
 				"value": "Marble",
-				"count": 194,
-				"children": [
-					{
-						"value": "Marble base",
-						"count": 31,
-						"children": []
-					}
-				]
+				"count": 203,
+				"children": []
 			},
 			{
 				"value": "Hardstone",

@@ -463,12 +463,12 @@
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "Rhinestone"
+			"specific": "Bead"
 		},
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "Glass seed bead"
+			"specific": "Rhinestone"
 		},
 		{
 			"section": "Textiles + fiber",
@@ -491,7 +491,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Pearl, Nylon, Silk, Rhinestone … · Paris, France",
+		"reason": "grid-facets real slice — Pearl, Nylon, Silk, Bead … · Paris, France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

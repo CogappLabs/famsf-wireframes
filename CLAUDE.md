@@ -115,11 +115,11 @@ Current variations:
       (e.g. "paris" → Europe ▾ France ▾ Paris). Geography shows **all**
       top-level rows (no 8-cap — the one exception).
     - **Medium** — same expandable tree, now the curators' **full 12-Tier-1
-      material-group taxonomy** (Tier-1 = material group: Prints, Textiles &
+      material-group taxonomy** (Tier-1 = material group: Prints, Textiles +
       fiber, Metal, …; → Tier-2 → Tier-3). The **complete** curated hierarchy
-      is rendered with **real full-collection object counts** (334 nodes, from
+      is rendered with **real full-collection object counts** (~282 nodes, from
       `src/data/medium-taxonomy.json`, built by
-      `scripts/build_medium_taxonomy_facet.py`) — not just the nodes the
+      `scripts/build_medium_facet.py`) — not just the nodes the
       ~600-doc slice contains, and `topN={null}` so all 12 Tier-1s show. The
       static tree is display-only: selecting a node still filters the slice, so
       a node with no slice member filters to 0 results. Facet id stays
@@ -392,13 +392,15 @@ separate bulk export, NOT the curated sample-docs set above:
   REGION_REMAP workbook keyed on each place term's Getty TGN `cn`; `state` is
   US-only per ADR 0002 amend, empty elsewhere), and
   `facet_medium[]` (`{section, subcategory, specific}` = **Tier-1/2/3** of the
-  curators' 12-Tier-1 **material-group** taxonomy; e.g. Textiles & fiber →
-  Weaving → Plain weave). Medium comes from `Tier1Classifier`
-  (`scripts/material_taxonomy/tier1_classifier.py`), fed each raw `medium`
-  token (hard-delimiter split) plus its `master_v2` `canonical_final` /
-  `facet_final`. Typed on `CollectionDocument` + `PlaceFacet` / `MediumFacet`
-  in `src/lib/collection-document.ts`. (The earlier object-type `facet_material`
-  + `facet_technique` fields are retired; `facet_medium` replaces both.)
+  curators' 12-Tier-1 **material-group** taxonomy; e.g. Textiles + fiber →
+  Weaving → Plain weave). Medium now comes from a **frozen token→path map**
+  (`src/data/medium-token-map.json`): each raw `medium` token (hard-delimiter
+  split) is a plain dict lookup, no classifier at runtime. Values are already
+  display-formatted (`&`→`+`, sentence case, "Ink + drawing" rename) and
+  ancestor-collapsed. Typed on `CollectionDocument` + `PlaceFacet` /
+  `MediumFacet` in `src/lib/collection-document.ts`. (The earlier object-type
+  `facet_material` + `facet_technique` fields are retired; `facet_medium`
+  replaces both.)
 
 The **Medium left-column facet** does NOT read node counts from this 600-doc
 slice — it renders the **full curated hierarchy with real full-collection
@@ -413,16 +415,22 @@ Regenerate (one-off, not Dagster assets):
    `gcloud auth application-default login` first). NB: `pull_to_tsv` caps at
    ~9999 rows, so the long tail of rare `master_v2` tokens is dropped
    (high-frequency tokens, sorted first, are kept).
-2. `uv run --with openpyxl python scripts/export_grid_facets_docs.py` —
-   reads the parquet + `master_v2.tsv` + the curated head (from
-   `~/Downloads/MediumFilterTaxonomy-12Tier1Terms.xlsx` via
-   `push_tier1_medium_map_sheet.build_rows`), derives `facet_place` +
-   `facet_medium`, and writes the balanced slice. `TARGET` / `PER_REGION_CAP`
-   cap the output.
-3. `uv run --with openpyxl python scripts/build_medium_taxonomy_facet.py` —
-   classifies **every** object's medium in the parquet and rolls up
+2. `uv run --with openpyxl python scripts/build_medium_token_map.py` — runs the
+   `Tier1Classifier` once over **every** distinct medium token in the parquet
+   (~24K) and freezes the curator-reviewed answer to
+   `src/data/medium-token-map.json` (`token → {section, subcategory, specific}`
+   or `{suppress: true}`). This is the only step that touches the classifier;
+   re-run it after editing the classifier or the curated sheet. Needs the
+   `.xlsx` curated head + `master_v2.tsv`.
+3. `uv run --with polars python scripts/export_grid_facets_docs.py` — reads the
+   parquet + the frozen token map + the REGION_REMAP crosswalk, derives
+   `facet_place` (crosswalk) + `facet_medium` (map lookup), and writes the
+   balanced slice. `TARGET` / `PER_REGION_CAP` cap the output.
+4. `uv run python scripts/build_medium_facet.py` — the data-driven transform
+   (Dagster-asset-shaped): reads the parquet + the frozen token map, rolls up
    distinct-object counts per Tier-1/2/3 node → `src/data/medium-taxonomy.json`
-   (the full 334-node tree with real counts the Medium facet renders).
+   (the full tree with real counts the Medium facet renders). Plain dict lookup,
+   no classifier. Successor to the retired `build_medium_taxonomy_facet.py`.
 
 Taxonomy design lives in `docs/place-geography-taxonomy.md` (Place) and the
 Material sibling workbook. The pipeline does NOT yet emit these facet fields;
@@ -478,14 +486,18 @@ Run (wireframes repo root, after `gcloud auth application-default login`):
         --with-editable ~/git/cogapp-sheets \
         python scripts/push_tier1_full_coverage_sheet.py
 
-**This crosswalk is now the wireframe's medium source** (done 2026-07-07):
-`export_grid_facets_docs.py` derives each doc's `facet_medium` via
-`Tier1Classifier`, and `build_medium_taxonomy_facet.py` rolls the same
-classifier over the whole parquet to produce the full-taxonomy facet tree with
-real counts (`src/data/medium-taxonomy.json`). The old object-type
-`taxonomy_config.SECTIONS` / `MaterialClassifier` path is no longer used by the
-wireframe. Curators finalising Approve?/Suppress? in the sheet + re-pulling
-`master_v2` then re-running both scripts refreshes the facet.
+**Frozen token map is the wireframe's medium source** (Cogapp medium-filter
+review baked in, 2026-07-24): the `Tier1Classifier` was the bootstrap; now that
+curators have reviewed the facet, `build_medium_token_map.py` runs the
+classifier **once** over every distinct token and freezes the answer to
+`src/data/medium-token-map.json`. Both consumers then do a plain dict lookup, no
+classifier at runtime: `export_grid_facets_docs.py` (per-doc `facet_medium`) and
+`build_medium_facet.py` (the full-taxonomy tree + counts →
+`src/data/medium-taxonomy.json`). The old object-type
+`taxonomy_config.SECTIONS` / `MaterialClassifier` path is unused. To refresh:
+edit the classifier or the curated sheet, re-run `build_medium_token_map.py`,
+then re-run the two consumers. Curator-editable tweaks can also be made straight
+in `medium-token-map.json` (no classifier re-run needed).
 
 ## Reference pages
 

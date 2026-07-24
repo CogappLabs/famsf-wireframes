@@ -210,7 +210,7 @@
 		{
 			"section": "Paint + pigment",
 			"subcategory": "Watercolour + wash",
-			"specific": "Opaque watercolor"
+			"specific": "Watercolor"
 		}
 	],
 	"facet_place": [
@@ -222,7 +222,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Opaque watercolor · Cuba",
+		"reason": "grid-facets real slice — Watercolor · Cuba",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 42
 	}

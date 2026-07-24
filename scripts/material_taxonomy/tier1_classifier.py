@@ -188,10 +188,18 @@ NORMALISATION_KEYWORDS: dict[str, tuple[str, str, str]] = {
     "white opaque watercolor": ("Paint & pigment", "Watercolour & wash", "Watercolor"),
     # Wash bucket
     "brown wash": ("Paint & pigment", "Watercolour & wash", "Wash"),
-    "brown washe": ("Paint & pigment", "Watercolour & wash", "Wash"),  # canonical_final typo in master_v2
+    "brown washe": (
+        "Paint & pigment",
+        "Watercolour & wash",
+        "Wash",
+    ),  # canonical_final typo in master_v2
     "watercolor wash": ("Paint & pigment", "Watercolour & wash", "Wash"),
     "gray wash": ("Paint & pigment", "Watercolour & wash", "Wash"),
-    "gray washe": ("Paint & pigment", "Watercolour & wash", "Wash"),  # canonical_final typo in master_v2
+    "gray washe": (
+        "Paint & pigment",
+        "Watercolour & wash",
+        "Wash",
+    ),  # canonical_final typo in master_v2
     # Ink (own Tier 2)
     "ink": ("Ink & drawing media", "Ink", ""),
     "black ink": ("Ink & drawing media", "Ink", ""),
@@ -272,6 +280,39 @@ NORMALISATION_KEYWORDS: dict[str, tuple[str, str, str]] = {
 # Bare colour tokens suppressed from the medium facet entirely (curator
 # feedback: "green"/"yellow" pigment leaves are noise, not a useful facet node).
 SUPPRESSED_TOKENS: frozenset[str] = frozenset({"green", "yellow"})
+
+# Multi-word normalisation keys, matched as a phrase *anywhere* in a token so a
+# composite ("opaque watercolor on paper", "stipple engraving with hand
+# coloring", "black ink on paper") collapses to the same bucket as the bare
+# token. Longest-phrase-first so a specific key ("white opaque watercolor")
+# beats a shorter one ("opaque watercolor") sharing a prefix. Single-word keys
+# ("ink", "paint", "oil", "glass") are deliberately excluded — as substrings
+# they would over-match (e.g. "ink" inside "thinking"); they keep exact-token
+# match only. Built at load from NORMALISATION_KEYWORDS.
+# A few single-word normalisation keys are distinctive enough to also match as a
+# substring inside a composite without the over-match risk that "ink"/"oil"/
+# "paint" carry (no common word contains them). Listed here so e.g. "linen and
+# gesso" / "wood with gesso" collapse to the Gesso->Paint bucket rather than
+# landing on the curated "Gesso" leaf the review asked us to drop.
+_NORM_SAFE_SINGLE_WORDS: frozenset[str] = frozenset({"gesso"})
+
+# Multi-word normalisation keys, matched as a phrase *anywhere* in a token so a
+# composite ("opaque watercolor on paper", "stipple engraving with hand
+# coloring", "black ink on paper") collapses to the same bucket as the bare
+# token. Plus the safe single words above. Longest-phrase-first so a specific key
+# ("white opaque watercolor") beats a shorter one ("opaque watercolor") sharing a
+# prefix. Other single-word keys ("ink", "paint", "oil", "glass") are excluded —
+# as substrings they would over-match (e.g. "ink" inside "thinking") — and keep
+# exact-token match only. Built at load from NORMALISATION_KEYWORDS.
+_NORM_PHRASES: list[tuple[str, tuple[str, str, str]]] = sorted(
+    (
+        (k, v)
+        for k, v in NORMALISATION_KEYWORDS.items()
+        if " " in k or "-" in k or k in _NORM_SAFE_SINGLE_WORDS
+    ),
+    key=lambda kv: len(kv[0]),
+    reverse=True,
+)
 
 # --- High-priority overrides, run BEFORE the derived-keyword pass ---------------
 # The derived-keyword pass is greedy: a single incidental word inside a token
@@ -480,6 +521,14 @@ class Tier1Classifier:
         for key in (tok, can):
             if key and key in NORMALISATION_KEYWORDS:
                 t1, t2, t3 = NORMALISATION_KEYWORDS[key]
+                return Tier1Path(t1, t2, t3, "normalised", 1.0, False)
+
+        # 0c. multi-word normalisation phrases, matched anywhere in the token so
+        #     a composite ("opaque watercolor on paper") collapses to the bucket
+        #     just like the bare token. Longest-phrase-first; single-word keys are
+        #     excluded (they stay exact-only via 0b) to avoid substring traps.
+        for phrase, (t1, t2, t3) in _NORM_PHRASES:
+            if phrase in tok or (can and phrase in can):
                 return Tier1Path(t1, t2, t3, "normalised", 1.0, False)
 
         # 1. curated exact override (token or its canonical form)

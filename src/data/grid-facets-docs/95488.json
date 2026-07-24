@@ -304,7 +304,7 @@
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Wool",
-			"specific": "Sheep's wool"
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -328,7 +328,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Sheep's wool · Tarabuco, Yamparáez, Candelaria",
+		"reason": "grid-facets real slice — Wool · Tarabuco, Yamparáez, Candelaria",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 46
 	}

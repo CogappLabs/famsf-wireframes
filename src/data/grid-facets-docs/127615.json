@@ -216,7 +216,7 @@
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "Glass bead"
+			"specific": "Bead"
 		}
 	],
 	"facet_place": [
@@ -228,7 +228,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Brass, Hair, Bast fiber, Glass bead · Gabon",
+		"reason": "grid-facets real slice — Brass, Hair, Bast fiber, Bead · Gabon",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

@@ -266,7 +266,7 @@
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Wool",
-			"specific": "Sheep's wool or camelid hair"
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -284,7 +284,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Sheep's wool or camelid hair · Espíritu Pampa, Andahuaylas",
+		"reason": "grid-facets real slice — Cotton, Wool · Espíritu Pampa, Andahuaylas",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 39
 	}

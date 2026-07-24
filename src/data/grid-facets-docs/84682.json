@@ -244,13 +244,13 @@
 		},
 		{
 			"section": "Textiles + fiber",
-			"subcategory": "Fiber",
-			"specific": "Camelid fiber"
+			"subcategory": "Weaving",
+			"specific": "Tapestry weave"
 		},
 		{
 			"section": "Textiles + fiber",
-			"subcategory": "Weaving",
-			"specific": "Tapestry weave"
+			"subcategory": "Wool",
+			"specific": ""
 		}
 	],
 	"facet_place": [
@@ -262,7 +262,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Camelid fiber, Tapestry weave · Peru",
+		"reason": "grid-facets real slice — Cotton, Tapestry weave, Wool · Peru",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 43
 	}

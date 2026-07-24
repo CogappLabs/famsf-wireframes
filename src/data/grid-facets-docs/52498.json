@@ -1,38 +1,37 @@
 {
-	"id": 82858,
-	"accession_number": "1979.59.9",
-	"sort_number": "1979.59.9",
-	"title": "\"Dante's Dream\" fan",
-	"date_display": "ca. 1881",
-	"date_start": "1876",
-	"date_end": "1886",
-	"medium": "Oil painted, gilded, and varnished bone, mother-of-pearl, silk, cut-glass, copper alloy; sticks and guards, grosgrain ribbon, rivet",
+	"id": 52498,
+	"accession_number": "1998.145a-c",
+	"sort_number": "1998.145a-c",
+	"title": "Man's court costume; coat, breeches, and waistcoat",
+	"date_display": "ca. 1800",
+	"date_start": "1800",
+	"date_end": "1800",
+	"medium": "silk, satin, velvet, silver, lace",
 	"medium_parts": [
-		"Oil painted, gilded, and varnished bone, mother-of-pearl, silk, cut-glass, copper alloy",
-		"sticks and guards, grosgrain ribbon, rivet"
+		"silk, satin, velvet, silver, lace"
 	],
-	"credit_line": "Gift of Mrs. Robert Homans",
+	"credit_line": "Gift of Mrs. Ella Atkinson-Putnam",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
-	"subclassification": "Accessory",
+	"subclassification": null,
 	"culture": null,
 	"copyright": null,
 	"object_rights_type": "Public Domain",
 	"on_view": false,
 	"entered_date": "2021-11-23 00:00:00.000000",
-	"last_modified": "2022-06-15 15:12:27.707000",
+	"last_modified": "2021-01-07 00:00:00.000000",
 	"is_virtual": false,
 	"web_text": null,
 	"didactic_label": null,
-	"exhibition_history_text": "Cult of Beauty, Legion of Honor, 2012\nFans in Fashion, Legion of Honor, 5/23/81 - 8/30/81",
+	"exhibition_history_text": "(Coat & waistcoat) A Gentleman's Finery, de Young Museum, 1985\n(Waistcoat only) Legion of Honor, Gallery 9C, 2004",
 	"exhibition_history_lines": [
 		{
 			"order": 0,
-			"text": "Cult of Beauty, Legion of Honor, 2012"
+			"text": "(Coat & waistcoat) A Gentleman's Finery, de Young Museum, 1985"
 		},
 		{
 			"order": 1,
-			"text": "Fans in Fashion, Legion of Honor, 5/23/81 - 8/30/81"
+			"text": "(Waistcoat only) Legion of Honor, Gallery 9C, 2004"
 		}
 	],
 	"bibliography_text": null,
@@ -44,14 +43,14 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"accession_iso_date": "1979-11-06",
+	"accession_iso_date": "1998-12-10",
 	"location_string": null,
 	"location_building": null,
 	"location_room": null,
 	"edition": null,
 	"titles": [
 		{
-			"title": "\"Dante's Dream\" fan",
+			"title": "Man's court costume; coat, breeches, and waistcoat",
 			"type": "Primary Title",
 			"active": true,
 			"language": "(not assigned)",
@@ -60,62 +59,92 @@
 	],
 	"constituents": [
 		{
-			"id": 17018,
-			"Role": "After",
-			"RoleID": 37,
-			"name": "Dante Gabriel Rossetti",
-			"name_sort": "Dante Gabriel Rossetti",
-			"Nationality": "English",
-			"place_born": "London",
-			"place_died": "Birchington",
+			"id": 259,
+			"Role": "Attributed to",
+			"RoleID": 72,
+			"name": "Anonymous",
+			"name_sort": "Anonymous",
+			"Nationality": "Italian",
+			"place_born": null,
+			"place_died": null,
 			"place_active": null,
 			"attribution_prefix": null,
-			"BeginDate": 1828,
-			"EndDate": 1882,
-			"dates": "1828–1882",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "Italian, active 18th century",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "Dante Gabriel Rossetti (1828–1882)"
+			"DisplayLabel": "Anonymous, Italian, active 18th century"
 		},
 		{
-			"id": 14424,
-			"Role": "After",
-			"RoleID": 37,
-			"name": "Claude Lorrain",
-			"name_sort": "Lorrain,  Claude",
+			"id": 2279,
+			"Role": "Attributed to",
+			"RoleID": 72,
+			"name": "Anonymous",
+			"name_sort": "Anonymous",
 			"Nationality": "French",
-			"place_born": "Champagne",
-			"place_died": "Rome",
+			"place_born": null,
+			"place_died": null,
 			"place_active": null,
 			"attribution_prefix": null,
-			"BeginDate": 1604,
-			"EndDate": 1682,
-			"dates": "French, circa 1604–1682",
+			"BeginDate": null,
+			"EndDate": null,
+			"dates": "French, active 18th century",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 2,
-			"DisplayLabel": "Claude Lorrain (1604–1682)"
+			"DisplayLabel": "Anonymous, French, active 18th century"
 		}
 	],
 	"media": [
 		{
-			"media_xref_id": 92581,
-			"image_id": 170533,
+			"media_xref_id": 102641,
+			"image_id": 39688,
 			"rank": 1,
-			"file_date": "2023-02-27 07:40:40",
+			"file_date": "2023-02-27 06:23:02",
 			"primary": true,
 			"media_view": null,
 			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
 			"copyright_status": "Copyright Owned by FAMSF",
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
-			"height": 8521,
-			"width": 11359,
-			"file_name": "A338610_V1.tif",
-			"file_path": "TMSShared/Media/All Staff/22/A338610_V1.tif",
+			"height": 1114,
+			"width": 755,
+			"file_name": "1007200511020006.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u244/1007200511020006.jpg",
+			"iiif_id": null,
+			"iiif_info_url": null,
+			"iiif_image_url": null,
+			"thumb_400_url": null,
+			"thumb_800_url": null,
+			"social_url": null,
+			"blurhash": null,
+			"iiif_width": null,
+			"iiif_height": null,
+			"color_swatches": null,
+			"source_key": null,
+			"run_id": null
+		},
+		{
+			"media_xref_id": 102642,
+			"image_id": 135453,
+			"rank": 2,
+			"file_date": "2023-02-27 07:13:46",
+			"primary": false,
+			"media_view": null,
+			"public_caption": null,
+			"copyright": null,
+			"copyright_status": null,
+			"credit_line": null,
+			"approved_for_web": false,
+			"media_type": "Image",
+			"height": 1918,
+			"width": 2196,
+			"file_name": "1508200312160478.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u266/1508200312160478.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -135,7 +164,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": "7 3/4 x 14 1/2 in., (19.7 x 36.8 cm,)",
+	"dimensions": "120 x 72 cm (47 1/4 x 28 3/8 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -254,75 +283,65 @@
 		"lvl3": null,
 		"nodes": [
 			{
-				"value": "Europe > Northern Europe",
-				"search_level": "lvl1",
-				"cn": "AUZ.AAAAB.AAABH.AAADQ"
-			},
-			{
 				"value": "Europe",
 				"search_level": "lvl0",
 				"cn": "AUZ.AAAAB.AAABH"
 			},
 			{
-				"value": "Europe > Northern Europe > England",
-				"search_level": "lvl2",
-				"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAABT"
-			},
-			{
 				"value": "Europe > France",
 				"search_level": "lvl1",
 				"cn": "AUZ.AAAAB.AAABH.AAASY"
+			},
+			{
+				"value": "Europe > Northern Europe",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABH.AAADQ"
+			},
+			{
+				"value": "Europe > Northern Europe > England",
+				"search_level": "lvl2",
+				"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAABT"
 			}
 		],
 		"historic": false
 	},
-	"primary_artist": "Dante Gabriel Rossetti",
-	"primary_artist_display": "Dante Gabriel Rossetti (1828–1882)",
-	"sort_artist": "Dante Gabriel Rossetti",
+	"primary_artist": "Anonymous, Italian, active 18th century",
+	"primary_artist_display": "Attributed to Anonymous, Italian, active 18th century",
+	"sort_artist": "Anonymous",
 	"culture_group": [],
-	"display_year": "1876–86",
-	"doc_id": "1979.59.9",
-	"slug": "1979.59.9/dante-s-dream-fan",
+	"display_year": "1800",
+	"doc_id": "1998.145a-c",
+	"slug": "1998.145a-c/man-s-court-costume-coat-breeches-and-waistcoat",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
 	"is_highlight": false,
-	"sort_year": 1876,
+	"sort_year": 1800,
 	"facet_medium": [
 		{
-			"section": "Glass",
-			"subcategory": "",
-			"specific": ""
-		},
-		{
 			"section": "Metal",
-			"subcategory": "Copper alloy",
+			"subcategory": "Silver",
 			"specific": ""
 		},
 		{
-			"section": "Organic",
-			"subcategory": "Ivory + bone",
-			"specific": "Bone"
-		},
-		{
-			"section": "Organic",
-			"subcategory": "Shell + pearl",
-			"specific": "Mother-of-pearl"
-		},
-		{
-			"section": "Paint + pigment",
-			"subcategory": "Oil",
+			"section": "Textiles + fiber",
+			"subcategory": "Lace",
 			"specific": ""
+		},
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "Satin"
+		},
+		{
+			"section": "Textiles + fiber",
+			"subcategory": "Other woven textiles",
+			"specific": "Velvet"
 		},
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Silk",
 			"specific": ""
-		},
-		{
-			"section": "Textiles + fiber",
-			"subcategory": "Trimmings",
-			"specific": "Grosgrain"
 		}
 	],
 	"facet_place": [
@@ -340,8 +359,8 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Glass, Copper alloy, Bone, Mother-of-pearl … · England, France",
+		"reason": "grid-facets real slice — Silver, Lace, Satin, Velvet … · England, France",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 45
+		"populated_fields": 44
 	}
 }

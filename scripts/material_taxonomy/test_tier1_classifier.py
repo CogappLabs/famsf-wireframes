@@ -9,6 +9,7 @@ Run: uv run --with pytest python -m pytest scripts/material_taxonomy/test_tier1_
 
 import pytest
 
+from material_taxonomy.label_format import format_label
 from material_taxonomy.tier1_classifier import Tier1Classifier
 
 # A curated fixture that deliberately seeds the *keyword traps* the overrides
@@ -208,3 +209,46 @@ def test_everything_maps(clf: Tier1Classifier) -> None:
     p = clf.classify("wholly unrecognised gibberish xyzzy")
     assert p.tier1 == "Other"
     assert p.source == "unresolved"
+
+
+# --- Cogapp medium-filter review: composite phrases collapse to the bucket -----
+@pytest.mark.parametrize(
+    ("token", "tier2", "tier3"),
+    [
+        # The real parquet tokens are composites, not the bare normalisation key.
+        ("opaque watercolor on paper", "Watercolour & wash", "Watercolor"),
+        ("stipple engraving with hand coloring", "Engraving", ""),
+        ("black ink on paper", "Ink", ""),
+        ("gold paint on laid paper", "Paint", ""),
+        ("tin glazed earthenware (majolica)", "Earthenware", "Earthenware"),
+        ("acrylic paint on unstretched canvas", "Acrylic", ""),
+    ],
+)
+def test_composite_normalises_to_bucket(
+    clf: Tier1Classifier, token: str, tier2: str, tier3: str
+) -> None:
+    """A phrase key must fire inside a composite token, not only on the bare word."""
+    p = clf.classify(token)
+    assert p.source == "normalised"
+    assert (p.tier2, p.tier3) == (tier2, tier3)
+
+
+def test_single_word_norm_key_not_substring(clf: Tier1Classifier) -> None:
+    """Single-word normalisation keys stay exact-only — no substring over-match."""
+    # "ink" is a bare normalisation key; it must NOT fire inside "thinking man".
+    p = clf.classify("thinking man sculpture")
+    assert not (p.source == "normalised" and p.tier2 == "Ink")
+
+
+# --- Display formatting: & -> +, sentence case, explicit renames ---------------
+@pytest.mark.parametrize(
+    ("raw", "shown"),
+    [
+        ("Ink & drawing media", "Ink + drawing"),  # explicit rename (drops "media")
+        ("Paint & pigment", "Paint + pigment"),
+        ("watercolor", "Watercolor"),  # sentence case
+        ("Textiles & fiber", "Textiles + fiber"),
+    ],
+)
+def test_format_label(raw: str, shown: str) -> None:
+    assert format_label(raw) == shown

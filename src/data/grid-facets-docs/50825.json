@@ -328,7 +328,7 @@
 		{
 			"section": "Paint + pigment",
 			"subcategory": "Watercolour + wash",
-			"specific": "Opaque watercolor"
+			"specific": "Watercolor"
 		},
 		{
 			"section": "Textiles + fiber",
@@ -356,7 +356,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Copper alloy, Ivory, Mother-of-pearl, Opaque watercolor … · England, Italy",
+		"reason": "grid-facets real slice — Copper alloy, Ivory, Mother-of-pearl, Watercolor … · England, Italy",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

@@ -1,25 +1,25 @@
 {
-	"id": 85778,
-	"accession_number": "1986.2.52",
-	"sort_number": "1986.2.52",
-	"title": "Seated Woman",
-	"date_display": "1943",
-	"date_start": "1943",
-	"date_end": "1943",
-	"medium": "Pen and brush and brown ink on wove paper",
+	"id": 86471,
+	"accession_number": "1994.96.1",
+	"sort_number": "1994.96.1",
+	"title": "Untitled",
+	"date_display": "1983–1984",
+	"date_start": "1983",
+	"date_end": "1984",
+	"medium": "spray paint, oil pastel, charcoal, color pencil, opaque watercolor (oil pastel on frame)",
 	"medium_parts": [
-		"Pen and brush and brown ink on wove paper"
+		"spray paint, oil pastel, charcoal, color pencil, opaque watercolor (oil pastel on frame)"
 	],
-	"credit_line": "Gift of George Hopper Fitch",
+	"credit_line": "Gift of Raymond A. and Betty Ann Barnett",
 	"department": "Achenbach Foundation for Graphic Arts",
 	"classification": "Drawing",
 	"subclassification": null,
 	"culture": null,
-	"copyright": "© Estate of Mario Carreño / Artists Rights Society (ARS), New York",
+	"copyright": "© Estate of Roy De Forest / Licensed by VAGA at Artists Rights Society (ARS), New York",
 	"object_rights_type": "Copyright - ARS",
 	"on_view": false,
 	"entered_date": "2021-11-23 00:00:00.000000",
-	"last_modified": "2017-02-10 00:00:00.000000",
+	"last_modified": "2014-04-15 00:00:00.000000",
 	"is_virtual": false,
 	"web_text": null,
 	"didactic_label": null,
@@ -34,14 +34,14 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"accession_iso_date": "1986-01-01",
+	"accession_iso_date": "1994-10-13",
 	"location_string": null,
 	"location_building": null,
 	"location_room": null,
 	"edition": null,
 	"titles": [
 		{
-			"title": "Seated Woman",
+			"title": "Untitled",
 			"type": "Primary Title",
 			"active": true,
 			"language": "(not assigned)",
@@ -50,31 +50,31 @@
 	],
 	"constituents": [
 		{
-			"id": 7158,
+			"id": 9894,
 			"Role": "Artist",
 			"RoleID": 1,
-			"name": "Mario Carreño",
-			"name_sort": "Mario Carreño",
-			"Nationality": "Cuban",
-			"place_born": "Havana",
-			"place_died": "Santiago",
+			"name": "Roy De Forest",
+			"name_sort": "Roy De Forest",
+			"Nationality": "American",
+			"place_born": "North Platte",
+			"place_died": "California",
 			"place_active": null,
 			"attribution_prefix": null,
-			"BeginDate": 1913,
-			"EndDate": 1999,
-			"dates": "1913–1999",
+			"BeginDate": 1930,
+			"EndDate": 2007,
+			"dates": "1930–2007",
 			"Institution": null,
 			"ConstituentType": "Individual",
 			"DisplayOrder": 1,
-			"DisplayLabel": "Mario Carreño (1913–1999)"
+			"DisplayLabel": "Roy De Forest (1930–2007)"
 		}
 	],
 	"media": [
 		{
-			"media_xref_id": 45254,
-			"image_id": 62659,
+			"media_xref_id": 99908,
+			"image_id": 124522,
 			"rank": 1,
-			"file_date": "2026-07-10 02:39:44.737",
+			"file_date": "2023-02-27 07:08:24",
 			"primary": true,
 			"media_view": null,
 			"public_caption": null,
@@ -83,10 +83,10 @@
 			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
-			"height": 2086,
-			"width": 1677,
-			"file_name": "3154201309050030.jpg",
-			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u254/3154201309050030.jpg",
+			"height": 1529,
+			"width": 2053,
+			"file_name": "6233305137030077.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u264/6233305137030077.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -106,7 +106,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": "34.7 x 27.8 cm (sheet)",
+	"dimensions": "76 x 101.6 cm (sheet)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -153,8 +153,8 @@
 	"term_place_name_at_creation": null,
 	"term_related_geography": [
 		{
-			"id": 20183106,
-			"term": "Cuba",
+			"id": 20843545,
+			"term": "United States",
 			"type": "Descriptor",
 			"certainty": null,
 			"path": [
@@ -170,8 +170,8 @@
 				},
 				{
 					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABZ.AAACF",
-					"term": "Cuba"
+					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
+					"term": "United States"
 				}
 			]
 		}
@@ -185,56 +185,76 @@
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
-			"North and Central America"
+			"North America"
 		],
 		"lvl1": [
-			"North and Central America > Cuba"
+			"North America > United States"
 		],
 		"lvl2": null,
 		"lvl3": null,
 		"nodes": [
 			{
-				"value": "North and Central America",
-				"search_level": "lvl0",
-				"cn": "AUZ.AAAAB.AAABZ"
+				"value": "North America > United States",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAABZ.AAAKC"
 			},
 			{
-				"value": "North and Central America > Cuba",
-				"search_level": "lvl1",
-				"cn": "AUZ.AAAAB.AAABZ.AAACF"
+				"value": "North America",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAABZ"
 			}
 		],
 		"historic": false
 	},
-	"primary_artist": "Mario Carreño",
-	"primary_artist_display": "Mario Carreño (1913–1999)",
-	"sort_artist": "Mario Carreño",
+	"primary_artist": "Roy De Forest",
+	"primary_artist_display": "Roy De Forest (1930–2007)",
+	"sort_artist": "Roy De Forest",
 	"culture_group": [],
-	"display_year": "1943",
-	"doc_id": "1986.2.52",
-	"slug": "1986.2.52/seated-woman",
+	"display_year": "1983–84",
+	"doc_id": "1994.96.1",
+	"slug": "1994.96.1/untitled",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
 	"is_highlight": false,
-	"sort_year": 1943,
+	"sort_year": 1983,
 	"facet_medium": [
 		{
 			"section": "Ink + drawing",
-			"subcategory": "Ink",
+			"subcategory": "Charcoal",
 			"specific": ""
+		},
+		{
+			"section": "Ink + drawing",
+			"subcategory": "Pastel",
+			"specific": ""
+		},
+		{
+			"section": "Ink + drawing",
+			"subcategory": "Pencil + graphite",
+			"specific": "Pencil"
+		},
+		{
+			"section": "Paint + pigment",
+			"subcategory": "Paint",
+			"specific": ""
+		},
+		{
+			"section": "Paint + pigment",
+			"subcategory": "Watercolour + wash",
+			"specific": "Watercolor"
 		}
 	],
 	"facet_place": [
 		{
-			"region": "West Indies",
-			"country": "Cuba",
+			"region": "North America",
+			"country": "United States",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Ink · Cuba",
+		"reason": "grid-facets real slice — Charcoal, Pastel, Pencil, Paint … · United States",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 43
 	}

@@ -1,26 +1,26 @@
 {
-	"id": 144745,
-	"accession_number": "2001.188.5",
-	"sort_number": "2001.188.5",
-	"title": "Woman's beaded apron (dibul kouan)",
-	"date_display": "mid 20th century",
-	"date_start": "1925",
-	"date_end": "1975",
-	"medium": "Glass beads, plastic beads, cowrie shells, cotton; beadwork",
+	"id": 177100,
+	"accession_number": "2002.165.13",
+	"sort_number": "2002.165.13",
+	"title": "Woman's headband",
+	"date_display": "20th century",
+	"date_start": null,
+	"date_end": null,
+	"medium": "leather, glass beads, metal, shell; sewn beadwork, applied accessory objects",
 	"medium_parts": [
-		"Glass beads, plastic beads, cowrie shells, cotton",
-		"beadwork"
+		"leather, glass beads, metal, shell",
+		"sewn beadwork, applied accessory objects"
 	],
-	"credit_line": "Gift of Andrés and Vanessa Moraga",
+	"credit_line": "Gift of Georgia Sales",
 	"department": "Costume and Textile Arts",
 	"classification": "Costume",
-	"subclassification": null,
-	"culture": "Bana-Guili (Kirdi)",
+	"subclassification": "Accessory",
+	"culture": "Maasai",
 	"copyright": null,
-	"object_rights_type": "Requires Further Research",
+	"object_rights_type": null,
 	"on_view": false,
 	"entered_date": "2021-11-23 00:00:00.000000",
-	"last_modified": "2026-03-06 10:53:45.297000",
+	"last_modified": "2026-03-09 10:47:26.157000",
 	"is_virtual": false,
 	"web_text": null,
 	"didactic_label": null,
@@ -35,14 +35,14 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"accession_iso_date": "2001-12-31",
+	"accession_iso_date": "2002-12-12",
 	"location_string": null,
 	"location_building": null,
 	"location_room": null,
 	"edition": null,
 	"titles": [
 		{
-			"title": "Woman's beaded apron (dibul kouan)",
+			"title": "Woman's headband",
 			"type": "Primary Title",
 			"active": true,
 			"language": "(not assigned)",
@@ -51,11 +51,11 @@
 	],
 	"constituents": [
 		{
-			"id": 38416,
+			"id": 41214,
 			"Role": "Culture Group",
 			"RoleID": 588,
-			"name": "Kirdi",
-			"name_sort": "Kirdi",
+			"name": "Maasai",
+			"name_sort": "Maasai",
 			"Nationality": null,
 			"place_born": null,
 			"place_died": null,
@@ -64,18 +64,18 @@
 			"BeginDate": null,
 			"EndDate": null,
 			"dates": null,
-			"Institution": null,
+			"Institution": "",
 			"ConstituentType": "Culture Group",
 			"DisplayOrder": 1,
-			"DisplayLabel": "Kirdi"
+			"DisplayLabel": "Maasai"
 		}
 	],
 	"media": [
 		{
-			"media_xref_id": 119786,
-			"image_id": 45996,
+			"media_xref_id": 121228,
+			"image_id": 44618,
 			"rank": 1,
-			"file_date": "2023-02-27 06:26:40",
+			"file_date": "2023-02-27 06:25:49",
 			"primary": true,
 			"media_view": null,
 			"public_caption": null,
@@ -84,10 +84,10 @@
 			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
-			"height": 1047,
-			"width": 2013,
-			"file_name": "1212200209370149.jpg",
-			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u247/1212200209370149.jpg",
+			"height": 3872,
+			"width": 2282,
+			"file_name": "1206200916240008.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u247/1206200916240008.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -107,7 +107,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": "8 1/2 x 17 x 1 in. (21.6 x 43.2 x 2.5 cm)",
+	"dimensions": "35 x 29 cm (13 3/4 x 11 7/16 in.)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -122,9 +122,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
-			"id": 20266931,
-			"term": "Cameroon",
-			"type": "N/A",
+			"id": 20668771,
+			"term": "Kenya",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -139,8 +139,8 @@
 				},
 				{
 					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAB.AAAHZ",
-					"term": "Cameroun"
+					"cn": "AUZ.AAAAB.AAAAB.AAAMH",
+					"term": "Kenya"
 				}
 			]
 		}
@@ -160,7 +160,7 @@
 			"Africa"
 		],
 		"lvl1": [
-			"Africa > Cameroun"
+			"Africa > Kenya"
 		],
 		"lvl2": null,
 		"lvl3": null,
@@ -171,42 +171,42 @@
 				"cn": "AUZ.AAAAB.AAAAB"
 			},
 			{
-				"value": "Africa > Cameroun",
+				"value": "Africa > Kenya",
 				"search_level": "lvl1",
-				"cn": "AUZ.AAAAB.AAAAB.AAAHZ"
+				"cn": "AUZ.AAAAB.AAAAB.AAAMH"
 			}
 		],
 		"historic": false
 	},
-	"primary_artist": "Kirdi",
-	"primary_artist_display": "Kirdi",
-	"sort_artist": "Kirdi",
+	"primary_artist": "Maasai",
+	"primary_artist_display": "Maasai",
+	"sort_artist": "Maasai",
 	"culture_group": [
-		"Kirdi"
+		"Maasai"
 	],
-	"display_year": "1925–75",
-	"doc_id": "2001.188.5",
-	"slug": "2001.188.5/woman-s-beaded-apron-dibul-kouan",
+	"display_year": null,
+	"doc_id": "2002.165.13",
+	"slug": "2002.165.13/woman-s-headband",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
 	"is_highlight": false,
-	"sort_year": 1925,
+	"sort_year": null,
 	"facet_medium": [
 		{
-			"section": "Organic",
-			"subcategory": "Shell + pearl",
-			"specific": "Cowrie shell"
-		},
-		{
-			"section": "Textiles + fiber",
-			"subcategory": "Cotton",
+			"section": "Metal",
+			"subcategory": "",
 			"specific": ""
 		},
 		{
-			"section": "Textiles + fiber",
-			"subcategory": "Trimmings",
-			"specific": "Bead"
+			"section": "Organic",
+			"subcategory": "Leather + hide",
+			"specific": "Leather"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Shell + pearl",
+			"specific": "Shell"
 		},
 		{
 			"section": "Textiles + fiber",
@@ -217,14 +217,14 @@
 	"facet_place": [
 		{
 			"region": "Africa",
-			"country": "Cameroon",
+			"country": "Kenya",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cowrie shell, Cotton, Bead, Bead · Cameroon",
+		"reason": "grid-facets real slice — Metal, Leather, Shell, Bead · Kenya",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 43
+		"populated_fields": 39
 	}
 }

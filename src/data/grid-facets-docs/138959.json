@@ -411,7 +411,7 @@
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "Glass seed bead"
+			"specific": "Bead"
 		},
 		{
 			"section": "Textiles + fiber",
@@ -421,12 +421,12 @@
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Trimmings",
-			"specific": "Silk ribbon"
+			"specific": "Ribbon"
 		},
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Yarn + thread",
-			"specific": "Metal thread"
+			"specific": "Thread"
 		}
 	],
 	"facet_place": [
@@ -438,7 +438,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Metal, Silk, Silk satin, Glass seed bead … · Paris",
+		"reason": "grid-facets real slice — Metal, Silk, Silk satin, Bead … · Paris",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

@@ -257,11 +257,6 @@
 		},
 		{
 			"section": "Prints",
-			"subcategory": "Engraving",
-			"specific": "Stipple engraving"
-		},
-		{
-			"section": "Prints",
 			"subcategory": "Etching",
 			"specific": ""
 		}
@@ -275,7 +270,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Engraving, Stipple engraving, Etching · Australia",
+		"reason": "grid-facets real slice — Engraving, Etching · Australia",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 40
 	}

@@ -458,7 +458,7 @@
 		{
 			"section": "Paint + pigment",
 			"subcategory": "Watercolour + wash",
-			"specific": "Opaque watercolor"
+			"specific": "Watercolor"
 		}
 	],
 	"facet_place": [
@@ -476,7 +476,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Opaque watercolor · Mughal Empire, Kashmir",
+		"reason": "grid-facets real slice — Watercolor · Mughal Empire, Kashmir",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 37
 	}

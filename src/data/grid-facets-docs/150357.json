@@ -231,12 +231,12 @@
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
-			"specific": "Plain weave"
+			"specific": "Discontinuous supplementary-weft patterning"
 		},
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Weaving",
-			"specific": "Discontinuous supplementary-weft patterning"
+			"specific": "Plain weave"
 		},
 		{
 			"section": "Textiles + fiber",
@@ -253,7 +253,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Cotton, Plain weave, Discontinuous supplementary-weft patterning, Thread · Pagaralam",
+		"reason": "grid-facets real slice — Cotton, Discontinuous supplementary-weft patterning, Plain weave, Thread · Pagaralam",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 33
 	}

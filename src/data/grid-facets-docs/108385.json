@@ -254,9 +254,9 @@
 	"sort_year": 1625,
 	"facet_medium": [
 		{
-			"section": "Ink + drawing media",
+			"section": "Ink + drawing",
 			"subcategory": "Ink",
-			"specific": "Black ink"
+			"specific": ""
 		},
 		{
 			"section": "Metal",
@@ -278,7 +278,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Black ink, Gold, Watercolor · India",
+		"reason": "grid-facets real slice — Ink, Gold, Watercolor · India",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 45
 	}

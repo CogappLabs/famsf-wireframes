@@ -226,7 +226,7 @@
 		{
 			"section": "Textiles + fiber",
 			"subcategory": "Yarn + thread",
-			"specific": "Metal thread"
+			"specific": "Thread"
 		}
 	],
 	"facet_place": [
@@ -238,7 +238,7 @@
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Linen, Satin, Silk, Metal thread · Chile",
+		"reason": "grid-facets real slice — Linen, Satin, Silk, Thread · Chile",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
 		"populated_fields": 38
 	}

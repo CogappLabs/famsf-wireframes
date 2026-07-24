@@ -17,7 +17,7 @@ import { isPublicDomain, ResultsGrid } from "./results";
 //   • Medium — Tier-1 (material group) → Tier-2 → Tier-3, from the curators'
 //              12-Tier-1 material-group taxonomy. The FULL curated hierarchy is
 //              shown with REAL full-collection object counts (from
-//              scripts/build_medium_taxonomy_facet.py → src/data/medium-taxonomy.json),
+//              scripts/build_medium_facet.py → src/data/medium-taxonomy.json),
 //              not just the nodes the ~600-doc slice contains — so every taxonomy
 //              node renders with its true count. Selecting a node still only
 //              filters the slice, so a node with no slice member filters to 0.
@@ -380,7 +380,7 @@ const buildPlaceTree = (docs: CollectionDocument[]): FacetTreeNode[] =>
 	);
 
 // The Medium facet renders the FULL curated 12-Tier-1 taxonomy with real
-// full-collection counts, baked once by build_medium_taxonomy_facet.py. It is a
+// full-collection counts, baked once by build_medium_facet.py. It is a
 // static tree (not derived from the slice), so every taxonomy node shows with
 // its true count even when no slice doc reaches it. Already count-desc with
 // "Other" pinned last by the build script; the JSON matches FacetTreeNode.

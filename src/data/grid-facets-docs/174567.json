@@ -1,26 +1,25 @@
 {
-	"id": 153445,
-	"accession_number": "2014.102.20",
-	"sort_number": "2014.102.20",
-	"title": "Wedding bag",
+	"id": 174567,
+	"accession_number": "2008.38.112",
+	"sort_number": "2008.38.112",
+	"title": "Crown Ade upper section",
 	"date_display": "early 20th century",
 	"date_start": null,
 	"date_end": null,
-	"medium": "glass seed bead; interlocking through beads",
+	"medium": "wood, leather, fabric, glass beads",
 	"medium_parts": [
-		"glass seed bead",
-		"interlocking through beads"
+		"wood, leather, fabric, glass beads"
 	],
-	"credit_line": "Gift of Thomas Murray",
-	"department": "Costume and Textile Arts",
-	"classification": "Costume",
-	"subclassification": "Accessory",
-	"culture": "Gujurat",
+	"credit_line": "Gift of the Erle Loran Family Collection",
+	"department": "Arts of Africa, Oceania, and the Americas",
+	"classification": null,
+	"subclassification": null,
+	"culture": "Yoruba",
 	"copyright": null,
 	"object_rights_type": null,
 	"on_view": false,
 	"entered_date": "2021-11-23 00:00:00.000000",
-	"last_modified": "2026-03-04 10:59:08.013000",
+	"last_modified": "2014-04-14 00:00:00.000000",
 	"is_virtual": false,
 	"web_text": null,
 	"didactic_label": null,
@@ -35,78 +34,28 @@
 	},
 	"label_text": null,
 	"publication_text": null,
-	"accession_iso_date": "2014-10-16",
+	"accession_iso_date": "2008-10-23",
 	"location_string": null,
 	"location_building": null,
 	"location_room": null,
 	"edition": null,
 	"titles": [
 		{
-			"title": "Wedding bag",
+			"title": "Crown Ade upper section",
 			"type": "Primary Title",
 			"active": true,
 			"language": "(not assigned)",
 			"display_order": 1
 		}
 	],
-	"constituents": [
-		{
-			"id": 41181,
-			"Role": "Culture Group",
-			"RoleID": 588,
-			"name": "Gujarati",
-			"name_sort": "Gujarati",
-			"Nationality": null,
-			"place_born": null,
-			"place_died": null,
-			"place_active": null,
-			"attribution_prefix": "",
-			"BeginDate": null,
-			"EndDate": null,
-			"dates": null,
-			"Institution": "",
-			"ConstituentType": "Culture Group",
-			"DisplayOrder": 1,
-			"DisplayLabel": "Gujarati"
-		}
-	],
+	"constituents": [],
 	"media": [
 		{
-			"media_xref_id": 146824,
-			"image_id": 164581,
+			"media_xref_id": 107984,
+			"image_id": 31436,
 			"rank": 1,
-			"file_date": "2023-02-27 07:28:15",
+			"file_date": "2023-02-27 06:18:48",
 			"primary": true,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "© Don Tuttle Photography",
-			"copyright_status": "Copyright Owned by Third Party",
-			"credit_line": "© Don Tuttle Photography",
-			"approved_for_web": false,
-			"media_type": "Image",
-			"height": 3530,
-			"width": 2353,
-			"file_name": "A401075_V1.tif",
-			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u342/A401075_V1.tif",
-			"iiif_id": null,
-			"iiif_info_url": null,
-			"iiif_image_url": null,
-			"thumb_400_url": null,
-			"thumb_800_url": null,
-			"social_url": null,
-			"blurhash": null,
-			"iiif_width": null,
-			"iiif_height": null,
-			"color_swatches": null,
-			"source_key": null,
-			"run_id": null
-		},
-		{
-			"media_xref_id": 146825,
-			"image_id": 22402,
-			"rank": 2,
-			"file_date": "2023-02-27 06:14:38",
-			"primary": false,
 			"media_view": null,
 			"public_caption": null,
 			"copyright": "Courtesy of the Fine Arts Museums of San Francisco",
@@ -114,10 +63,10 @@
 			"credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
 			"approved_for_web": false,
 			"media_type": "Image",
-			"height": 3530,
-			"width": 2353,
-			"file_name": "0413201516400019.jpg",
-			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u236/0413201516400019.jpg",
+			"height": 4448,
+			"width": 2460,
+			"file_name": "0717200111590002.jpg",
+			"file_path": "TMSShared/Media/db_photo/PictionLegacy_u241/0717200111590002.jpg",
 			"iiif_id": null,
 			"iiif_info_url": null,
 			"iiif_image_url": null,
@@ -137,7 +86,7 @@
 	"primary_iiif_info_url": null,
 	"primary_blurhash": null,
 	"has_iiif": false,
-	"dimensions": "20.3 x 17.8 cm (8 x 7 in.)",
+	"dimensions": "10 3/4 x 5 (27.3 x 12.7 cm)",
 	"associations": [],
 	"highlights": [],
 	"editorial_related_content": {
@@ -152,9 +101,9 @@
 	"term_rights_statement": null,
 	"term_place_of_creation": [
 		{
-			"id": 20214201,
-			"term": "India",
-			"type": "N/A",
+			"id": 16793394,
+			"term": "Nigeria",
+			"type": "Descriptor",
 			"certainty": null,
 			"path": [
 				{
@@ -164,13 +113,13 @@
 				},
 				{
 					"depth": 2,
-					"cn": "AUZ.AAAAB.AAAAJ",
-					"term": "Asia"
+					"cn": "AUZ.AAAAB.AAAAB",
+					"term": "Africa"
 				},
 				{
 					"depth": 3,
-					"cn": "AUZ.AAAAB.AAAAJ.AAALD",
-					"term": "Bhārat"
+					"cn": "AUZ.AAAAB.AAAAB.AAABD",
+					"term": "Nigeria"
 				}
 			]
 		}
@@ -187,36 +136,34 @@
 	"term_intended_market": null,
 	"place": {
 		"lvl0": [
-			"Asia"
+			"Africa"
 		],
 		"lvl1": [
-			"Asia > Bhārat"
+			"Africa > Nigeria"
 		],
 		"lvl2": null,
 		"lvl3": null,
 		"nodes": [
 			{
-				"value": "Asia > Bhārat",
-				"search_level": "lvl1",
-				"cn": "AUZ.AAAAB.AAAAJ.AAALD"
+				"value": "Africa",
+				"search_level": "lvl0",
+				"cn": "AUZ.AAAAB.AAAAB"
 			},
 			{
-				"value": "Asia",
-				"search_level": "lvl0",
-				"cn": "AUZ.AAAAB.AAAAJ"
+				"value": "Africa > Nigeria",
+				"search_level": "lvl1",
+				"cn": "AUZ.AAAAB.AAAAB.AAABD"
 			}
 		],
 		"historic": false
 	},
-	"primary_artist": "Gujarati",
-	"primary_artist_display": "Gujarati",
-	"sort_artist": "Gujarati",
-	"culture_group": [
-		"Gujarati"
-	],
+	"primary_artist": "Unknown artist",
+	"primary_artist_display": "Unknown artist",
+	"sort_artist": null,
+	"culture_group": null,
 	"display_year": null,
-	"doc_id": "2014.102.20",
-	"slug": "2014.102.20/wedding-bag",
+	"doc_id": "2008.38.112",
+	"slug": "2008.38.112/crown-ade-upper-section",
 	"has_image": true,
 	"has_provenance": false,
 	"has_children": false,
@@ -224,9 +171,19 @@
 	"sort_year": null,
 	"facet_medium": [
 		{
+			"section": "Organic",
+			"subcategory": "Leather + hide",
+			"specific": "Leather"
+		},
+		{
+			"section": "Organic",
+			"subcategory": "Wood + plant",
+			"specific": "Wood"
+		},
+		{
 			"section": "Textiles + fiber",
-			"subcategory": "Trimmings",
-			"specific": "Bead"
+			"subcategory": "Other woven textiles",
+			"specific": "Fabric"
 		},
 		{
 			"section": "Textiles + fiber",
@@ -236,15 +193,15 @@
 	],
 	"facet_place": [
 		{
-			"region": "South Asia",
-			"country": "India",
+			"region": "Africa",
+			"country": "Nigeria",
 			"state": "",
 			"notable": ""
 		}
 	],
 	"_sample_meta": {
-		"reason": "grid-facets real slice — Bead, Bead · India",
+		"reason": "grid-facets real slice — Leather, Wood, Fabric, Bead · Nigeria",
 		"source": "collection_documents.parquet + curator taxonomy workbooks",
-		"populated_fields": 39
+		"populated_fields": 34
 	}
 }
