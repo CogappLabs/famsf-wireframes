@@ -7,6 +7,8 @@ import { useVariationContext } from "@/providers/VariationProvider";
 export interface Variation {
 	key: string;
 	label: string;
+	// hidden = still reachable via ?variation= URL, but no toggle button rendered
+	hidden?: boolean;
 }
 
 interface VariationToggleProps {
@@ -63,9 +65,11 @@ export default function VariationToggle({
 		router.push(url, { scroll: false });
 	}
 
+	const visible = variations.filter((v) => !v.hidden);
+
 	return (
 		<div className="flex gap-1">
-			{variations.map((v) => (
+			{visible.map((v) => (
 				<button
 					key={v.key}
 					type="button"

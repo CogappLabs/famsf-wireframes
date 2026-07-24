@@ -79,14 +79,15 @@ export function deriveArtists(docs: CollectionDocument[]): ArtistRecord[] {
 // alternatives behind ?variation=.
 export const VIEW_VARIATIONS = [
 	{ key: "grid-facets-modal", label: "Grid + facet drawer" },
-	{ key: "grid-facets", label: "Grid + facets" },
+	// hidden = code kept, reachable via ?variation=, but no toggle button
+	{ key: "grid-facets", label: "Grid + facets", hidden: true },
 	{ key: "grid-facets-place", label: "Grid + place options" },
 	{ key: "grid-facets-place-flat", label: "Grid + place options (flat)" },
-	{ key: "list", label: "List" },
+	{ key: "list", label: "List", hidden: true },
 	{ key: "zero-results", label: "Zero results" },
-	{ key: "ai-search", label: "AI search" },
-	{ key: "mixed", label: "Artworks + artists" },
-	{ key: "interleaved", label: "Interleaved" },
+	{ key: "ai-search", label: "AI search", hidden: true },
+	{ key: "mixed", label: "Artworks + artists", hidden: true },
+	{ key: "interleaved", label: "Interleaved", hidden: true },
 ] as const;
 
 // ── Page ────────────────────────────────────────────────────────────
