@@ -18,7 +18,7 @@ wireframe just reads ready-made arrays:
                      `medium` string is split on hard delimiters (comma,
                      semicolon, slash, pipe, newline — NOT "and"/"with"/"on"),
                      each token lowercased and looked up in the frozen token map
-                     (src/data/medium-token-map.json, baked once by
+                     (src/data/medium-token-map.tsv, baked once by
                      build_medium_token_map.py); an unknown token falls to Other.
                      Values in the map are already display-formatted + collapsed.
 
@@ -27,7 +27,7 @@ TARGET docs and balanced across place-regions so every left-column facet
 populates without committing the whole collection. Output: one JSON per object
 in src/data/grid-facets-docs/, matching the sample-doc shape.
 
-Prereqs: the frozen medium-token-map.json (build_medium_token_map.py) + the
+Prereqs: the frozen medium-token-map.tsv (build_medium_token_map.py) + the
 place_region_remap.tsv crosswalk (scripts/pull_taxonomy_sheets.py). Then:
 
     uv run --with polars python scripts/export_grid_facets_docs.py
@@ -40,7 +40,7 @@ import shutil
 import subprocess
 from pathlib import Path
 
-# Medium now comes from the frozen token->path map (medium-token-map.json, baked
+# Medium now comes from the frozen token->path map (medium-token-map.tsv, baked
 # by build_medium_token_map.py). No classifier at runtime — a plain dict lookup,
 # same as build_medium_facet.py. Place still needs the REGION_REMAP crosswalk.
 
@@ -54,7 +54,7 @@ PARQUET = Path(
     "output/collection_documents.parquet"
 )
 TSV = ROOT / "src" / "data" / "taxonomy-tsv"
-TOKEN_MAP = ROOT / "src" / "data" / "medium-token-map.json"
+TOKEN_MAP = ROOT / "src" / "data" / "medium-token-map.tsv"
 OUT_DIR = ROOT / "src" / "data" / "grid-facets-docs"
 
 CONSTITUENT_KEY_MAP = {
@@ -91,12 +91,19 @@ def _rows(path: Path) -> list[dict]:
 
 
 def load_token_map() -> dict[str, dict]:
-    """Frozen medium token -> {section, subcategory, specific} | {suppress}.
+    """token -> {section, subcategory, specific, suppress} from the TSV map.
 
-    The curator-reviewed resolution, baked by build_medium_token_map.py. Values
-    are already display-formatted and ancestor-collapsed, so the caller stores
-    them straight onto facet_medium."""
-    return json.loads(TOKEN_MAP.read_text())
+    Hand-owned, display-formatted + collapsed; the caller stores the path
+    straight onto facet_medium (or skips it when suppress is set)."""
+    out: dict[str, dict] = {}
+    for r in _rows(TOKEN_MAP):
+        out[r["token"]] = {
+            "section": r["section"],
+            "subcategory": r["subcategory"],
+            "specific": r["specific"],
+            "suppress": r["suppress"] == "true",
+        }
+    return out
 
 
 def build_place_crosswalk() -> dict[str, dict]:

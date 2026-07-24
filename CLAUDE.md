@@ -407,30 +407,29 @@ slice — it renders the **full curated hierarchy with real full-collection
 counts** from `src/data/medium-taxonomy.json` (see below). The slice only
 backs selection/filtering.
 
-Regenerate (one-off, not Dagster assets):
+**Medium is a flat, hand-owned mapping** (`src/data/medium-token-map.json`:
+`token → {section, subcategory, specific}` or `{suppress: true}`). The mapping
+IS the logic — no classifier, no rules, no fallbacks at runtime. Both consumers
+look each parquet token up directly; an unknown token falls to `Other`. Values
+are pre-formatted (`&`→`+`, sentence case, "Ink + drawing" rename) + collapsed.
+This is `parquet → map → output`, the shape the `-real` Dagster pipeline will use.
 
-1. `uv run … python scripts/pull_taxonomy_sheets.py` — pulls the live
-   curator workbooks (REGION_REMAP + Material `master_v2`) to
-   `src/data/taxonomy-tsv/` via **cogapp-sheets** (ADC-authed; run
-   `gcloud auth application-default login` first). NB: `pull_to_tsv` caps at
-   ~9999 rows, so the long tail of rare `master_v2` tokens is dropped
-   (high-frequency tokens, sorted first, are kept).
-2. `uv run --with openpyxl python scripts/build_medium_token_map.py` — runs the
-   `Tier1Classifier` once over **every** distinct medium token in the parquet
-   (~24K) and freezes the curator-reviewed answer to
-   `src/data/medium-token-map.json` (`token → {section, subcategory, specific}`
-   or `{suppress: true}`). This is the only step that touches the classifier;
-   re-run it after editing the classifier or the curated sheet. Needs the
-   `.xlsx` curated head + `master_v2.tsv`.
-3. `uv run --with polars python scripts/export_grid_facets_docs.py` — reads the
-   parquet + the frozen token map + the REGION_REMAP crosswalk, derives
-   `facet_place` (crosswalk) + `facet_medium` (map lookup), and writes the
-   balanced slice. `TARGET` / `PER_REGION_CAP` cap the output.
-4. `uv run python scripts/build_medium_facet.py` — the data-driven transform
-   (Dagster-asset-shaped): reads the parquet + the frozen token map, rolls up
-   distinct-object counts per Tier-1/2/3 node → `src/data/medium-taxonomy.json`
-   (the full tree with real counts the Medium facet renders). Plain dict lookup,
-   no classifier. Successor to the retired `build_medium_taxonomy_facet.py`.
+Normal refresh (Dagster-asset-shaped, no classifier):
+
+1. Edit `src/data/medium-token-map.json` — add a token, retarget a path, flip
+   `suppress`. This is where medium decisions live now.
+2. `uv run --with polars python scripts/export_grid_facets_docs.py` — reads the
+   parquet + the token map + the REGION_REMAP crosswalk, derives `facet_place`
+   (crosswalk) + `facet_medium` (map lookup), writes the balanced slice.
+3. `uv run python scripts/build_medium_facet.py` — the transform: parquet + token
+   map → `src/data/medium-taxonomy.json` (the full tree + real counts the Medium
+   facet renders). Plain dict lookup. Successor to `build_medium_taxonomy_facet.py`.
+
+Bootstrap only (re-seed the map from scratch, NOT a refresh — overwrites hand
+edits): `pull_taxonomy_sheets.py` (pull curator workbooks) then
+`build_medium_token_map.py`, which runs the archived `Tier1Classifier` once over
+every distinct token to regenerate the whole map. Re-apply reviewed edits after.
+The classifier + baker are archived bootstrap, off the runtime path.
 
 Taxonomy design lives in `docs/place-geography-taxonomy.md` (Place) and the
 Material sibling workbook. The pipeline does NOT yet emit these facet fields;
@@ -486,18 +485,16 @@ Run (wireframes repo root, after `gcloud auth application-default login`):
         --with-editable ~/git/cogapp-sheets \
         python scripts/push_tier1_full_coverage_sheet.py
 
-**Frozen token map is the wireframe's medium source** (Cogapp medium-filter
-review baked in, 2026-07-24): the `Tier1Classifier` was the bootstrap; now that
-curators have reviewed the facet, `build_medium_token_map.py` runs the
-classifier **once** over every distinct token and freezes the answer to
-`src/data/medium-token-map.json`. Both consumers then do a plain dict lookup, no
-classifier at runtime: `export_grid_facets_docs.py` (per-doc `facet_medium`) and
+**Flat token map is the wireframe's medium source** (Cogapp medium-filter review
+baked in, 2026-07-24): `src/data/medium-token-map.json` is the hand-owned source
+of truth. The `Tier1Classifier` only ever seeded it (a one-off bootstrap over
+~24K tokens); it is archived, off the runtime path. Both consumers do a plain
+dict lookup: `export_grid_facets_docs.py` (per-doc `facet_medium`) and
 `build_medium_facet.py` (the full-taxonomy tree + counts →
 `src/data/medium-taxonomy.json`). The old object-type
-`taxonomy_config.SECTIONS` / `MaterialClassifier` path is unused. To refresh:
-edit the classifier or the curated sheet, re-run `build_medium_token_map.py`,
-then re-run the two consumers. Curator-editable tweaks can also be made straight
-in `medium-token-map.json` (no classifier re-run needed).
+`taxonomy_config.SECTIONS` / `MaterialClassifier` path is unused. **Refresh =
+edit the JSON map + re-run the two consumers** — no classifier. Only re-run
+`build_medium_token_map.py` to re-seed from scratch (it overwrites hand edits).
 
 ## Reference pages
 

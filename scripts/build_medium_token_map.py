@@ -1,25 +1,11 @@
 #!/usr/bin/env python3
-"""Bake the medium classifier into a flat token -> facet-path mapping.
+"""Bootstrap-only: seed src/data/medium-token-map.tsv from the classifier.
 
-The `Tier1Classifier` heuristic chain (curated head + normalisation buckets +
-keyword/supplementary passes) was the right tool to *bootstrap* the medium facet
-before curators had reviewed it. Now that the Cogapp medium-filter review is in,
-the resolution of each token is settled, so we freeze it: run the classifier once
-over every distinct medium token in the collection and write the final, curator-
-reviewed answer to a flat JSON map.
-
-Downstream (build_medium_facet.py) then does a plain dict lookup instead of
-re-running the heuristics — which is both faster and much closer to what the
-`-real` Dagster pipeline will do: read parquet, apply a mapping, emit the facet.
-Curators refine the map by editing the JSON (or the upstream sheet + re-baking).
-
-Output: src/data/medium-token-map.json
-  { "<raw lower-cased token>": {section, subcategory, specific} }
-  { "<raw lower-cased token>": {suppress: true} }         # dropped from the facet
-Values are the DISPLAY-formatted, ancestor-collapsed path (what the facet renders),
-so the transform never touches label_format or the collapse rules again.
-
-Run (wireframes repo root):
+The runtime medium logic is the flat, hand-owned map (token -> path, or
+{suppress: true}). This ran the `Tier1Classifier` once over ~24K distinct tokens
+to generate a starting answer for each, so the map didn't have to be typed by
+hand. Edit the map directly from here on; re-run this only to re-seed from
+scratch — it OVERWRITES hand edits. Values are display-formatted + collapsed.
 
     uv run --with openpyxl python scripts/build_medium_token_map.py
 """
@@ -52,7 +38,7 @@ PARQUET = Path(
 )
 TSV = ROOT / "src" / "data" / "taxonomy-tsv"
 MASTER_V2 = TSV / "material_master_v2.tsv"
-OUT = ROOT / "src" / "data" / "medium-token-map.json"
+OUT = ROOT / "src" / "data" / "medium-token-map.tsv"
 
 OTHER_TIER1 = "Other"
 # Same hard-delimiter split the consumers use (a composite phrase like
@@ -108,21 +94,29 @@ def distinct_tokens() -> list[str]:
 
 
 def resolve(tok: str, master: dict, clf: Tier1Classifier) -> dict:
-    """Classify one token to its final DISPLAY path (or {suppress: true})."""
+    """Classify one token to a TSV row: token + DISPLAY path + suppress flag."""
     m = master.get(tok, {})
     p = clf.classify(
         tok, canonical=m.get("canonical", ""), facet_final=m.get("facet_final", "")
     )
     if p.suppressed:
-        return {"suppress": True}
-    # Collapse a level that merely repeats its ancestor (case-insensitive), as
-    # both consumers did inline, so the frozen value is render-ready.
+        return {
+            "token": tok,
+            "section": "",
+            "subcategory": "",
+            "specific": "",
+            "suppress": "true",
+        }
+    # Collapse a level that merely repeats its ancestor (case-insensitive) so the
+    # frozen value is render-ready, as both consumers did inline before.
     sub = "" if p.tier2.lower() == p.tier1.lower() else p.tier2
     spec = "" if p.tier3.lower() in (p.tier2.lower(), p.tier1.lower()) else p.tier3
     return {
+        "token": tok,
         "section": format_label(p.tier1),
         "subcategory": format_label(sub),
         "specific": format_label(spec),
+        "suppress": "false",
     }
 
 
@@ -132,22 +126,20 @@ def main() -> None:
     toks = distinct_tokens()
     print(f"{len(toks):,} distinct medium tokens; classifying once …", flush=True)
 
-    mapping: dict[str, dict] = {}
-    suppressed = 0
-    other = 0
-    for i, tok in enumerate(toks):
-        r = resolve(tok, master, clf)
-        mapping[tok] = r
-        if r.get("suppress"):
-            suppressed += 1
-        elif r.get("section") == OTHER_TIER1:
-            other += 1
-        if (i + 1) % 5000 == 0:
-            print(f"  {i + 1:,}/{len(toks):,}", flush=True)
+    rows = [resolve(tok, master, clf) for tok in toks]
+    with OUT.open("w", newline="") as f:
+        w = csv.DictWriter(
+            f,
+            fieldnames=["token", "section", "subcategory", "specific", "suppress"],
+            delimiter="\t",
+        )
+        w.writeheader()
+        w.writerows(rows)
 
-    OUT.write_text(json.dumps(mapping, ensure_ascii=False, indent="\t") + "\n")
+    suppressed = sum(r["suppress"] == "true" for r in rows)
+    other = sum(r["section"] == OTHER_TIER1 for r in rows)
     print(
-        f"Done. {len(mapping):,} tokens -> {OUT.name} "
+        f"Done. {len(rows):,} tokens -> {OUT.name} "
         f"({suppressed:,} suppressed, {other:,} Other)",
         flush=True,
     )

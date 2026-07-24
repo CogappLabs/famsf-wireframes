@@ -1,147 +1,141 @@
 #!/usr/bin/env python3
-"""Data-driven medium-facet transform: parquet + token map -> facet tree.
+"""parquet + medium-token-map.tsv -> medium-taxonomy.json (the facet tree).
 
-Shaped like the Dagster asset the `-real` pipeline will eventually run: a pure
-transform of two inputs (the collection parquet + a frozen token->path mapping)
-into the facet outputs, with no classifier heuristics at runtime. The heuristics
-were baked into `medium-token-map.json` once by build_medium_token_map.py; here
-we only look each token up and roll the results into a tree.
+Polars transform shaped like the `-real` Dagster asset it will become. Each token
+is a plain lookup into the hand-owned map — no classifier. Edit the map, re-run.
 
-Editing the medium facet is now editing the JSON map, not Python: change a
-token's answer in medium-token-map.json (or re-bake it from the sheet with
-build_medium_token_map.py) and re-run this.
-
-  transform(medium_strings, token_map) -> nested tree
-    [{ value, count, children: [{ value, count, children: [...] }] }]
-
-Distinct-object counts per node, rolled up (an object counts once per node no
-matter how many of its tokens land there). Output: src/data/medium-taxonomy.json.
-
-Run (wireframes repo root):
-
-    uv run python scripts/build_medium_facet.py
+    uv run --with polars python scripts/build_medium_facet.py
 """
 
 import json
-import re
-import subprocess
 from pathlib import Path
+
+import polars as pl
 
 ROOT = Path(__file__).resolve().parent.parent
 PARQUET = Path(
     "/Users/lukew/git/famsf-collections/collection-flow-famsf-real/"
     "output/collection_documents.parquet"
 )
-TOKEN_MAP = ROOT / "src" / "data" / "medium-token-map.json"
+TOKEN_MAP = ROOT / "src" / "data" / "medium-token-map.tsv"
 OUT = ROOT / "src" / "data" / "medium-taxonomy.json"
 
 OTHER_TIER1 = "Other"
-MEDIUM_SPLIT = re.compile(r"[;,/|\r\n]")
+# Hard delimiters only (comma, semicolon, slash, pipe, newline). A composite
+# phrase like "oil on canvas" stays ONE token; "and"/"with"/"on" are NOT splits.
+# Normalised to a single comma before str.split so one split call covers all.
+MEDIUM_DELIMS = r"[;/|\r\n]"
 
 
-def load_token_map() -> dict[str, dict]:
-    return json.loads(TOKEN_MAP.read_text())
+def load_map() -> pl.DataFrame:
+    """token -> path (+ suppress flag), the hand-owned mapping to join on."""
+    return pl.read_csv(TOKEN_MAP, separator="\t").with_columns(
+        pl.col("section", "subcategory", "specific").fill_null("")
+    )
 
 
-def doc_nodes(medium: str, token_map: dict) -> set[tuple[str, str, str]]:
-    """Distinct (section, subcategory, specific) nodes for one object's medium.
-
-    Unknown tokens (not in the frozen map) fall to Other, matching the map's own
-    unresolved handling. Other residue is dropped once a real group is present.
-    """
-    seen: set[tuple[str, str, str]] = set()
-    for part in MEDIUM_SPLIT.split((medium or "").lower()):
-        tok = part.strip()
-        if not tok:
-            continue
-        entry = token_map.get(tok)
-        if entry is None:
-            seen.add((OTHER_TIER1, "", ""))
-            continue
-        if entry.get("suppress"):
-            continue
-        seen.add(
-            (
-                entry.get("section", OTHER_TIER1),
-                entry.get("subcategory", ""),
-                entry.get("specific", ""),
-            )
+def tokens_to_nodes(objects: pl.LazyFrame, token_map: pl.DataFrame) -> pl.LazyFrame:
+    """One row per (object, distinct facet node): tokenise, map, dedupe."""
+    exploded = (
+        objects.select(pl.col("medium"))
+        .drop_nulls()
+        .with_row_index("obj")
+        .with_columns(
+            pl.col("medium")
+            .str.to_lowercase()
+            .str.replace_all(MEDIUM_DELIMS, ",")
+            .str.split(",")
+            .alias("token")
         )
-    if any(sec != OTHER_TIER1 for (sec, _, _) in seen):
-        seen = {n for n in seen if n[0] != OTHER_TIER1}
-    return seen
+        .explode("token")
+        .with_columns(pl.col("token").str.strip_chars())
+        # drop the empty pieces "a,,b" or a trailing delimiter leaves behind
+        .filter(pl.col("token").is_not_null() & (pl.col("token") != ""))
+    )
+
+    mapped = (
+        exploded.join(token_map.lazy(), on="token", how="left")
+        .with_columns(  # unmapped token -> Other (section is null after the join)
+            pl.col("section").fill_null(OTHER_TIER1),
+            pl.col("subcategory").fill_null(""),
+            pl.col("specific").fill_null(""),
+            pl.col("suppress").fill_null(False),
+        )
+        .filter(~pl.col("suppress"))
+        .select("obj", "section", "subcategory", "specific")
+        .unique()
+    )
+
+    # Drop the Other residue for any object that already has a real group.
+    has_real = mapped.filter(pl.col("section") != OTHER_TIER1).select("obj").unique()
+    return mapped.join(
+        has_real.with_columns(pl.lit(True).alias("_real")), on="obj", how="left"
+    ).filter(~((pl.col("section") == OTHER_TIER1) & pl.col("_real").fill_null(False)))
 
 
-def transform(medium_strings: list[str], token_map: dict) -> list[dict]:
-    """The asset body: media strings + map -> nested count tree."""
-    t1c: dict[str, int] = {}
-    t2c: dict[tuple[str, str], int] = {}
-    t3c: dict[tuple[str, str, str], int] = {}
-    for i, medium in enumerate(medium_strings):
-        nodes = doc_nodes(medium, token_map)
-        for t1 in {n[0] for n in nodes}:
-            t1c[t1] = t1c.get(t1, 0) + 1
-        for k in {(n[0], n[1]) for n in nodes if n[1]}:
-            t2c[k] = t2c.get(k, 0) + 1
-        for k in {n for n in nodes if n[2]}:
-            t3c[k] = t3c.get(k, 0) + 1
-        if (i + 1) % 20000 == 0:
-            print(f"  counted {i + 1:,}/{len(medium_strings):,}", flush=True)
+def transform(objects: pl.LazyFrame, token_map: pl.DataFrame) -> list[dict]:
+    """parquet LazyFrame + map -> nested count tree (the asset output)."""
+    nodes = tokens_to_nodes(objects, token_map)
 
-    # Labels in the map are already DISPLAY-formatted, so assemble directly.
-    def kids_t3(t1: str, t2: str) -> list[dict]:
-        rows = [(t3, c) for (a, b, t3), c in t3c.items() if a == t1 and b == t2]
+    # Distinct-object counts per tier, all in Polars.
+    t1 = (
+        nodes.group_by("section").agg(pl.col("obj").n_unique().alias("count")).collect()
+    )
+    t2 = (
+        nodes.filter(pl.col("subcategory") != "")
+        .group_by("section", "subcategory")
+        .agg(pl.col("obj").n_unique().alias("count"))
+        .collect()
+    )
+    t3 = (
+        nodes.filter(pl.col("specific") != "")
+        .group_by("section", "subcategory", "specific")
+        .agg(pl.col("obj").n_unique().alias("count"))
+        .collect()
+    )
+
+    t1c = dict(zip(t1["section"], t1["count"], strict=True))
+    t2c = {(s, sub): c for s, sub, c in t2.iter_rows()}
+    t3c = {(s, sub, sp): c for s, sub, sp, c in t3.iter_rows()}
+
+    # Assemble the nested tree, count-desc within each tier (Other pinned last).
+    def children_t3(sec: str, sub: str) -> list[dict]:
+        rows = [(sp, c) for (s, b, sp), c in t3c.items() if s == sec and b == sub]
         rows.sort(key=lambda x: (-x[1], x[0]))
-        return [{"value": t3, "count": c, "children": []} for t3, c in rows]
+        return [{"value": sp, "count": c, "children": []} for sp, c in rows]
 
-    def kids_t2(t1: str) -> list[dict]:
-        rows = [(t2, c) for (a, t2), c in t2c.items() if a == t1]
+    def children_t2(sec: str) -> list[dict]:
+        rows = [(sub, c) for (s, sub), c in t2c.items() if s == sec]
         rows.sort(key=lambda x: (-x[1], x[0]))
         return [
-            {"value": t2, "count": c, "children": kids_t3(t1, t2)} for t2, c in rows
+            {"value": sub, "count": c, "children": children_t3(sec, sub)}
+            for sub, c in rows
         ]
 
     tier1_rows = sorted(t1c.items(), key=lambda x: (-x[1], x[0]))
     tree = [
-        {"value": t1, "count": c, "children": kids_t2(t1)}
-        for t1, c in tier1_rows
-        if t1 != OTHER_TIER1
+        {"value": sec, "count": c, "children": children_t2(sec)}
+        for sec, c in tier1_rows
+        if sec != OTHER_TIER1
     ]
     if OTHER_TIER1 in t1c:  # pin Other to the bottom
         tree.append(
             {
                 "value": OTHER_TIER1,
                 "count": t1c[OTHER_TIER1],
-                "children": kids_t2(OTHER_TIER1),
+                "children": children_t2(OTHER_TIER1),
             }
         )
     return tree
 
 
-def load_media() -> list[str]:
-    query = f"""
-        COPY (
-            SELECT medium FROM read_parquet('{PARQUET}')
-            WHERE medium IS NOT NULL
-        ) TO '/dev/stdout' (FORMAT JSON);
-    """
-    proc = subprocess.run(
-        ["duckdb", "-c", query], capture_output=True, text=True, check=True
-    )
-    return [
-        json.loads(ln).get("medium") or ""
-        for ln in proc.stdout.splitlines()
-        if ln.strip()
-    ]
-
-
 def main() -> None:
-    token_map = load_token_map()
-    print(f"token map: {len(token_map):,} entries", flush=True)
-    media = load_media()
-    print(f"objects with a medium: {len(media):,}", flush=True)
+    token_map = load_map()
+    print(f"token map: {token_map.height:,} rows", flush=True)
 
-    tree = transform(media, token_map)
+    objects = pl.scan_parquet(PARQUET)
+    tree = transform(objects, token_map)
+
     OUT.write_text(json.dumps(tree, ensure_ascii=False, indent="\t") + "\n")
     n_nodes = sum(
         1 + len(t2["children"]) for t1 in tree for t2 in t1["children"]
