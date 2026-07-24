@@ -116,7 +116,7 @@ const AREAS: Record<string, AreaData> = {
 	// Default fallback. Original verbatim copy from the hardcoded page.
 	"European Decorative Arts and Sculpture": {
 		name: "European Decorative Arts and Sculpture",
-		museums: "de Young museum and Legion of Honor",
+		museums: "Legion of Honor",
 		intro: [
 			"The European Decorative Arts and Sculpture collection encompasses over 6,000 works spanning from the medieval period to the early twentieth century. The collection is particularly distinguished by its world-renowned holdings of sculpture by Auguste Rodin, including The Thinker, The Three Shades, and numerous other works displayed at the Legion of Honor.",
 			"The collection also features exceptional examples of French decorative arts from the eighteenth century, including furniture, porcelain, silver, and gilt bronze. Major holdings include works by Peter Carl Fabergé and significant examples of European ceramics and metalwork.",
