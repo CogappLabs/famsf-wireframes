@@ -1,23 +1,22 @@
 import {
 	BibliographyText,
 	Container,
-	ExhibitionRow,
 	ProvenanceText,
-	ScopeMark,
 	SectionLabel,
 	WireframeSection,
 } from "@/components/wireframe";
 import FieldSourceBadge from "@/components/wireframe/FieldSourceBadge";
 import type {
-	ExhibitionEntry,
+	ExhibitionHistoryLine,
 	ProvenanceStructured,
 } from "@/lib/collection-document";
 
 interface Props {
-	exhibitions: ExhibitionEntry[];
+	/** Pre-formatted exhibition prose, one entry per line. The served index has
+	 *  no structured venue/date/title fields, so these cannot be linked out to
+	 *  an exhibition record or reformatted per the house style. */
+	exhibitionLines: ExhibitionHistoryLine[];
 	hasExhibitions: boolean;
-	/** Pre-sanitised HTML (sanitised server-side in the page). */
-	exhibitionHistoryHtml: string | null;
 	hasProvenance: boolean;
 	provenanceStructured: ProvenanceStructured | null;
 	provenanceRaw: string | null;
@@ -33,9 +32,8 @@ interface Props {
  * vertical run).
  */
 export function ScholarlyRecordSections({
-	exhibitions,
+	exhibitionLines,
 	hasExhibitions,
-	exhibitionHistoryHtml,
 	hasProvenance,
 	provenanceStructured,
 	provenanceRaw,
@@ -50,38 +48,25 @@ export function ScholarlyRecordSections({
 				Exhibitions
 			</span>
 			<SectionLabel className="mb-4">Exhibition history</SectionLabel>
-			<FieldSourceBadge field="exhibitions" block />
+			<FieldSourceBadge field="exhibition_history_lines" block />
 			{/* CSS multi-column flows the rows by height; each row
 			    breaks-inside-avoid so it never splits across the boundary. */}
 			<div className="columns-2 gap-x-10 [&>*]:mb-3 [&>*]:break-inside-avoid">
-				{exhibitions.map((e) => (
-					<ExhibitionRow
-						key={e.ExhibitionID}
-						title={e.ExhTitle}
-						date={e.DisplayDate ?? undefined}
-						venue={e.VenueName ?? undefined}
-						href={`/exhibition-detail?id=${e.ExhibitionID}`}
-					/>
+				{exhibitionLines.map((line) => (
+					<p
+						key={line.order}
+						className="border-l-2 border-gray-200 pl-3 font-mono text-meta leading-relaxed text-gray-700"
+					>
+						{line.text}
+					</p>
 				))}
 			</div>
-			{exhibitionHistoryHtml && (
-				<ScopeMark label="Exhibition history text">
-					<details className="mt-4 border-t border-gray-200 pt-4 group">
-						<summary className="cursor-pointer list-none font-mono text-label tracking-[0.08em] text-gray-500 hover:text-gray-700">
-							<span className="mr-1 inline-block transition-transform group-open:rotate-90">
-								▸
-							</span>
-							Full exhibition history (raw curator text)
-							<FieldSourceBadge field="exhibition_history_text" />
-						</summary>
-						<p
-							className="mt-3 whitespace-pre-line font-mono text-meta text-gray-600 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
-							// biome-ignore lint/security/noDangerouslySetInnerHtml: sanitised server-side via allow-list
-							dangerouslySetInnerHTML={{ __html: exhibitionHistoryHtml }}
-						/>
-					</details>
-				</ScopeMark>
-			)}
+			{/* The index serves exhibition history as prose only, so the per-venue
+			    fields the house-style row needs are unavailable. */}
+			<p className="mt-3 font-mono text-label text-gray-400">
+				Venue, date, and catalogue number are not separated in the current
+				index, so entries cannot link to an exhibition record.
+			</p>
 		</div>
 	) : null;
 
@@ -98,25 +83,6 @@ export function ScholarlyRecordSections({
 					rawFallback={provenanceRaw}
 					columns
 				/>
-				{/* Raw curator text, collapsed: only when a structured payload is
-				    already shown above (else ProvenanceText's raw fallback is the
-				    raw text and this would duplicate it). */}
-				{provenanceStructured && (
-					<ScopeMark label="Provenance text">
-						<details className="group mt-4 border-t border-gray-200 pt-4">
-							<summary className="cursor-pointer list-none font-mono text-label tracking-[0.08em] text-gray-500 hover:text-gray-700">
-								<span className="mr-1 inline-block transition-transform group-open:rotate-90">
-									▸
-								</span>
-								Full provenance (raw curator text)
-								<FieldSourceBadge field="provenance" />
-							</summary>
-							<p className="mt-3 whitespace-pre-line font-mono text-meta text-gray-600">
-								{provenanceRaw}
-							</p>
-						</details>
-					</ScopeMark>
-				)}
 			</div>
 		) : null;
 
@@ -128,23 +94,6 @@ export function ScholarlyRecordSections({
 			<SectionLabel className="mb-4">Bibliography</SectionLabel>
 			<FieldSourceBadge field="bibliography_text" block />
 			<BibliographyText value={bibliographyText} columns />
-			{/* Raw curator text, collapsed: BibliographyText reformats the raw
-			    string into a numbered list, so expose the unprocessed source for
-			    verification (mirrors exhibition history). */}
-			<ScopeMark label="Bibliography text">
-				<details className="group mt-4 border-t border-gray-200 pt-4">
-					<summary className="cursor-pointer list-none font-mono text-label tracking-[0.08em] text-gray-500 hover:text-gray-700">
-						<span className="mr-1 inline-block transition-transform group-open:rotate-90">
-							▸
-						</span>
-						Full bibliography (raw curator text)
-						<FieldSourceBadge field="bibliography_text" />
-					</summary>
-					<p className="mt-3 whitespace-pre-line font-mono text-meta text-gray-600">
-						{bibliographyText}
-					</p>
-				</details>
-			</ScopeMark>
 		</div>
 	) : null;
 

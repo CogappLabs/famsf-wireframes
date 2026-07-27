@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import {
 	Breadcrumb,
 	Container,
-	ExternalLink,
 	ScopeMark,
 	SectionLabel,
 	TombstoneLabel,
@@ -19,7 +18,12 @@ import {
 	ScholarlyRecordSections,
 } from "@/components/wireframe/object-detail";
 import TomatoEasterEgg from "@/components/wireframe/TomatoEasterEgg";
-import { allMedia } from "@/lib/collection-document";
+import {
+	allMedia,
+	alternateTitles,
+	isPublicDomain,
+	placeAncestry,
+} from "@/lib/collection-document";
 import { constituentSlugById } from "@/lib/constituent-samples-registry";
 import {
 	findSampleBySlug,
@@ -29,6 +33,7 @@ import {
 import { t } from "@/lib/strings";
 import {
 	formatImageCaption,
+	formatIsoDate,
 	normaliseDateRange,
 	normaliseTitle,
 } from "@/lib/text-format";
@@ -38,8 +43,10 @@ import { ScopePage } from "@/providers/ScopeProvider";
 // Slugs and docs are auto-discovered from src/data/sample-docs/*.json.
 // To add a new sample: drop the JSON in, no code edit required.
 
+// The pipeline slug is `{accession}/{title-slug}`, so it spans two path
+// segments and the route has to be a catch-all.
 export function generateStaticParams() {
-	return loadSampleDocs().map((e) => ({ variant: e.slug }));
+	return loadSampleDocs().map((e) => ({ variant: e.slug.split("/") }));
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────
@@ -150,11 +157,11 @@ function sanitiseHtml(html: string): string {
 
 // ── Page ──────────────────────────────────────────────────────────────
 
-type Props = { params: Promise<{ variant: string }> };
+type Props = { params: Promise<{ variant: string[] }> };
 
 export default async function SampleObjectPage({ params }: Props) {
 	const { variant } = await params;
-	const entry = findSampleBySlug(variant);
+	const entry = findSampleBySlug(variant.join("/"));
 	if (!entry) notFound();
 	const doc = entry.doc;
 
@@ -172,33 +179,41 @@ export default async function SampleObjectPage({ params }: Props) {
 	// Normalised primary title (handles Untitled + descriptive-bracket convention)
 	const titleDisplay = normaliseTitle(doc.title);
 	// Normalised display date (en dash between year tokens per guideline)
-	const displayDate = normaliseDateRange(doc.display_date);
+	const displayDate = normaliseDateRange(doc.date_display ?? undefined);
 
-	// Alternate titles (exclude Primary Title, which is already in doc.title)
-	const alternateTitles = doc.titles.filter(
-		(t) => t.TitleType !== "Primary Title",
-	);
+	// Alternate titles (exclude the primary, which is already doc.title)
+	const alternates = alternateTitles(doc);
 
-	// Group constituents by Role, sorted by lowest DisplayOrder in each group
-	const constituentsByRole = doc.constituents.reduce<
-		Map<string, (typeof doc.constituents)[number][]>
+	// Group constituents by role, sorted by lowest display_order in each group.
+	// Deduped on constituent id + role: TMS object xrefs can repeat a person.
+	const constituents = doc.constituents ?? [];
+	const seenConstituents = new Set<string>();
+	const uniqueConstituents = constituents.filter((c) => {
+		const key = `${c.id}-${c.role}`;
+		if (seenConstituents.has(key)) return false;
+		seenConstituents.add(key);
+		return true;
+	});
+
+	const constituentsByRole = uniqueConstituents.reduce<
+		Map<string, typeof uniqueConstituents>
 	>((map, c) => {
-		const group = map.get(c.Role) ?? [];
+		const group = map.get(c.role) ?? [];
 		group.push(c);
-		map.set(c.Role, group);
+		map.set(c.role, group);
 		return map;
 	}, new Map());
 
 	const sortedRoles = [...constituentsByRole.entries()].sort(
 		([, a], [, b]) =>
-			Math.min(...a.map((c) => c.DisplayOrder)) -
-			Math.min(...b.map((c) => c.DisplayOrder)),
+			Math.min(...a.map((c) => c.display_order)) -
+			Math.min(...b.map((c) => c.display_order)),
 	);
 
-	const hasConstituents = doc.constituents.length > 0;
-	const hasExhibitions = doc.exhibitions.length > 0;
+	const hasConstituents = uniqueConstituents.length > 0;
+	const exhibitionLines = doc.exhibition_history_lines ?? [];
+	const hasExhibitions = exhibitionLines.length > 0;
 	const physicalChildIds = doc.physical_child_ids ?? [];
-	const childCards = doc.child_cards ?? [];
 	const mediumParts = doc.medium_parts ?? [];
 	const hasDescription = !!doc.web_text;
 	const onViewLocation =
@@ -206,29 +221,31 @@ export default async function SampleObjectPage({ params }: Props) {
 			? [doc.location_building, doc.location_room].filter(Boolean).join(", ")
 			: null;
 
-	// Parent record: link to the in-repo sample if known, else fall back to legacy route.
 	const slugById = objectSlugById();
 	const constituentSlugs = constituentSlugById();
-	const parentSlug = doc.physical_parent_id
-		? (slugById[doc.physical_parent_id] ?? null)
-		: null;
-	const parentHref = doc.physical_parent_id
-		? parentSlug
-			? `/objects/sample/${parentSlug}`
-			: "/objects/sample"
+
+	// Parent pointer: the index serves virtual_parent_ids only (bare ids).
+	const parentId = doc.virtual_parent_ids?.[0] ?? null;
+	const parentSlug = parentId !== null ? (slugById[parentId] ?? null) : null;
+	const parentHref = parentSlug ? `/objects/sample/${parentSlug}` : null;
+
+	// Museum location only makes sense for something on display; a stored object
+	// should not advertise a gallery it is not in.
+	const museumLocation = doc.on_view
+		? (doc.location_string ??
+			doc.location_room ??
+			doc.location_building ??
+			null)
 		: null;
 
-	// Museum location string for the Acquisition group.
-	const museumLocation =
-		doc.location_string ??
-		doc.location_room ??
-		doc.location_building ??
-		"Not on view";
+	// Curated collections this object belongs to (the "named collection").
+	const namedCollections = doc.highlights ?? [];
 
 	// Rights status: drives whether the download placeholder is disabled.
-	const isPublicDomain =
-		doc.copyright?.toLowerCase().includes("public domain") ?? false;
-	const copyrightStatement = doc.copyright ?? "Rights not specified";
+	const publicDomain = isPublicDomain(doc);
+	// Rights-holder attribution only. Null on public-domain works, where the
+	// rights statement carries the legal status instead.
+	const copyrightStatement = doc.copyright ?? null;
 
 	// Object Rights Statement: controlled-vocab term mapped to rightsstatements.org URI.
 	// Guidelines section "Object Rights Statement" lists three canonical values.
@@ -261,7 +278,7 @@ export default async function SampleObjectPage({ params }: Props) {
 	// Suggested citation built from tombstone fields. Industry-standard art
 	// citation order: Artist, Title (Date), Medium, Credit Line, Accession No.
 	const citationTitle = normaliseTitle(doc.title).display;
-	const citationDate = normaliseDateRange(doc.display_date);
+	const citationDate = normaliseDateRange(doc.date_display ?? undefined);
 	const citationParts = [
 		doc.primary_artist,
 		citationTitle && citationDate
@@ -280,9 +297,10 @@ export default async function SampleObjectPage({ params }: Props) {
 	const imageCaption = formatImageCaption({
 		primary_artist: doc.primary_artist,
 		title: doc.title,
-		display_date: doc.display_date,
+		display_date: doc.date_display,
 		medium: doc.medium,
-		dimensions: doc.dimensions_structured?.[0]?.DisplayDimensions ?? null,
+		// Only the raw dimensions string is served, so take the "Overall:" element.
+		dimensions: doc.dimensions ? overallDimensions(doc.dimensions) : null,
 		credit_line: doc.credit_line,
 		accession_number: doc.accession_number,
 		photo_credit: doc.copyright,
@@ -300,8 +318,6 @@ export default async function SampleObjectPage({ params }: Props) {
 		.slice(0, 8)
 		.map((e) => e.doc);
 
-	const lastUpdated = doc.last_modified ?? doc.indexed_at;
-
 	return (
 		<ScopePage id="objects/sample">
 			<TomatoEasterEgg />
@@ -316,8 +332,10 @@ export default async function SampleObjectPage({ params }: Props) {
 					/>
 				</Container>
 
-				{/* Parent record banner */}
-				{doc.physical_parent_id && parentHref && (
+				{/* Parent record banner. The index serves the parent as a bare id
+				    (no title or accession), so the label falls back to the id when
+				    the parent is not among the loaded samples. */}
+				{parentId !== null && (
 					<ScopeMark label="Parent record">
 						<Container className="border-b border-gray-200 bg-gray-50 py-3">
 							<div className="flex items-center justify-between gap-3">
@@ -326,20 +344,23 @@ export default async function SampleObjectPage({ params }: Props) {
 										Part of &middot; Parent record
 									</TombstoneLabel>
 									<p className="font-mono text-meta text-gray-700">
-										{doc.parent_title ?? "Parent record"}
-										{doc.parent_accession_number && (
-											<span className="ml-2 text-gray-500">
-												({doc.parent_accession_number})
+										{parentHref ? (
+											`Object ${parentId}`
+										) : (
+											<span className="text-gray-400">
+												Object {parentId} is not in the current index.
 											</span>
 										)}
 									</p>
 								</div>
-								<Link
-									href={parentHref}
-									className="font-mono text-label tracking-wide text-gray-500 underline hover:text-gray-900"
-								>
-									View parent record &rarr;
-								</Link>
+								{parentHref && (
+									<Link
+										href={parentHref}
+										className="font-mono text-label tracking-wide text-gray-500 underline hover:text-gray-900"
+									>
+										View parent record &rarr;
+									</Link>
+								)}
 							</div>
 						</Container>
 					</ScopeMark>
@@ -350,7 +371,7 @@ export default async function SampleObjectPage({ params }: Props) {
 					visibleMedia={visibleMedia}
 					hiddenCount={hiddenCount}
 					hasAnyImage={hasAnyImage}
-					isPublicDomain={isPublicDomain}
+					isPublicDomain={publicDomain}
 					caption={imageCaption}
 				/>
 				{/* Jump-to nav: sits between the image gallery and the title so it's
@@ -414,22 +435,6 @@ export default async function SampleObjectPage({ params }: Props) {
 									Object
 								</span>
 
-								{/* Gap 3: Physical parent breadcrumb: only when physical_parent_id is set */}
-								{doc.physical_parent_id && (
-									<p className="mb-3 font-mono text-meta text-gray-500">
-										Part of:{" "}
-										{doc.parent_title && (
-											<span className="text-gray-700">{doc.parent_title}</span>
-										)}
-										{doc.parent_accession_number && (
-											<span className="text-gray-500">
-												{" "}
-												({doc.parent_accession_number})
-											</span>
-										)}
-									</p>
-								)}
-
 								{/* Compound-parent badge. The Virtual (Runway collection /
 								    virtual parents) badge is intentionally not rendered per the
 								    FAMSF field-exclusion list. */}
@@ -453,36 +458,51 @@ export default async function SampleObjectPage({ params }: Props) {
 								</h1>
 								<FieldSourceBadge field="title" block />
 
-								{alternateTitles.length > 0 && (
+								{alternates.length > 0 && (
 									<ul className="mt-1.5 flex flex-col gap-0.5">
-										{alternateTitles.map((t) => (
+										{alternates.map((t) => (
 											<li
-												key={`${t.TitleType}-${t.DisplayOrder}`}
+												key={`${t.type}-${t.display_order}`}
 												className="font-mono text-meta text-gray-500"
 											>
-												<span className="text-gray-400">
-													{t.TitleTypeDisplay ?? t.TitleType}:
-												</span>{" "}
-												{t.Title}
+												<span className="text-gray-400">{t.type}:</span>{" "}
+												{t.title}
 											</li>
 										))}
 									</ul>
 								)}
 
+								{/* Artist, date, and medium all route to a filtered search. */}
 								{doc.primary_artist_display && (
 									<p className="mt-1 font-mono text-body text-gray-700">
-										{doc.primary_artist_display}
+										<Link
+											href={`/search-results?facet=artist&value=${encodeURIComponent(doc.primary_artist)}`}
+											className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
+										>
+											{doc.primary_artist_display}
+										</Link>
 										<FieldSourceBadge field="primary_artist_display" />
 									</p>
 								)}
 								{displayDate && (
 									<p className="mt-0.5 font-mono text-meta text-gray-500">
-										{displayDate}
-										<FieldSourceBadge field="display_date" />
+										<Link
+											href={`/search-results?facet=date&value=${encodeURIComponent(doc.date_display ?? "")}`}
+											className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
+										>
+											{displayDate}
+										</Link>
+										<FieldSourceBadge field="date_display" />
 										{doc.medium && (
 											<>
 												{" "}
-												&middot; {doc.medium}
+												&middot;{" "}
+												<Link
+													href={`/search-results?facet=material&value=${encodeURIComponent(doc.medium)}`}
+													className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
+												>
+													{doc.medium}
+												</Link>
 												<FieldSourceBadge field="medium" />
 											</>
 										)}
@@ -551,10 +571,7 @@ export default async function SampleObjectPage({ params }: Props) {
 							</WireframeSection>
 
 							{/* 4. Parent-child module (relocated up from the tail) */}
-							<ChildRecordsSection
-								childCards={childCards}
-								physicalChildIds={physicalChildIds}
-							/>
+							<ChildRecordsSection physicalChildIds={physicalChildIds} />
 						</aside>
 
 						{/* RIGHT MAIN COLUMN */}
@@ -595,11 +612,12 @@ export default async function SampleObjectPage({ params }: Props) {
 							<WireframeSection label="Tombstone">
 								<SectionLabel className="mb-4">Object details</SectionLabel>
 								<div className="flex flex-col gap-2.5">
-									{doc.display_date && (
+									{doc.date_display && (
 										<TombstoneField
 											label="Date"
-											value={doc.display_date}
-											field="display_date"
+											value={doc.date_display}
+											href={`/search-results?facet=date&value=${encodeURIComponent(doc.date_display)}`}
+											field="date_display"
 										/>
 									)}
 									{doc.medium && (
@@ -607,6 +625,7 @@ export default async function SampleObjectPage({ params }: Props) {
 											<TombstoneField
 												label="Medium"
 												value={doc.medium}
+												href={`/search-results?facet=material&value=${encodeURIComponent(doc.medium)}`}
 												field="medium"
 											/>
 											{/* medium_parts chips: only when more than one part */}
@@ -661,16 +680,21 @@ export default async function SampleObjectPage({ params }: Props) {
 												<>
 													<TombstoneLabel>{label}</TombstoneLabel>
 													<FieldSourceBadge field={field} />
-													<ul className="mt-0.5 flex flex-col gap-1">
+													{/* Each entry is its own bordered row: multiple places
+													    ran together as plain lines were hard to tell apart. */}
+													<ul className="mt-1 flex flex-col gap-2">
 														{entries.map((entry) => {
 															const showCertainty =
 																entry.certainty &&
 																entry.certainty !== "(not assigned)" &&
 																entry.certainty !== "";
+															// Specific to general, per curator feedback. The raw
+															// Getty path runs the other way and starts at "World".
+															const ancestry = placeAncestry(entry);
 															return (
 																<li
 																	key={`${field}-${entry.term}`}
-																	className="font-mono text-meta text-gray-700"
+																	className="border-l-2 border-gray-200 pl-2.5 font-mono text-meta text-gray-700"
 																>
 																	<Link
 																		href={`/search-results?facet=${field}&value=${encodeURIComponent(entry.term)}`}
@@ -683,14 +707,13 @@ export default async function SampleObjectPage({ params }: Props) {
 																			({entry.certainty})
 																		</TombstoneLabel>
 																	)}
-																	{entry.path.length > 0 && (
-																		<span className="block text-label text-gray-400">
-																			{entry.path.map((n, i) => (
+																	{ancestry.length > 0 && (
+																		<span className="mt-0.5 block text-label text-gray-400">
+																			{ancestry.map((n, i) => (
 																				<span key={n.cn || n.term}>
 																					{i > 0 && (
 																						<span className="text-gray-300">
-																							{" "}
-																							&gt;{" "}
+																							{", "}
 																						</span>
 																					)}
 																					<Link
@@ -733,24 +756,16 @@ export default async function SampleObjectPage({ params }: Props) {
 										value={doc.accession_number}
 										field="accession_number"
 									/>
-									{/* Accession date: guidelines mark it internal-only, so gate
-									    behind the scope toggle pending Tier-policy confirm. */}
-									{doc.accession_iso_date && (
-										<ScopeMark label="Accession date (pending Tier policy confirm)">
+									{/* Museum location only when the object is on display. */}
+									{museumLocation && (
+										<ScopeMark label="Museum location">
 											<TombstoneField
-												label="Accession date"
-												value={doc.accession_iso_date.slice(0, 10)}
-												field="accession_iso_date"
+												label="Museum location"
+												value={museumLocation}
+												field="location_string"
 											/>
 										</ScopeMark>
 									)}
-									<ScopeMark label="Museum location">
-										<TombstoneField
-											label="Museum location"
-											value={museumLocation}
-											field="location_string"
-										/>
-									</ScopeMark>
 
 									{/* object_rights_type intentionally not shown per curator
 									    feedback; copyright statement is kept. */}
@@ -762,6 +777,88 @@ export default async function SampleObjectPage({ params }: Props) {
 										/>
 									)}
 								</div>
+							</WireframeSection>
+
+							{/* Additional information: the deeper-dive fields curators asked
+							    to keep out of the main tombstone. Inscriptions and Signed are
+							    listed but unavailable, as the index does not serve them. */}
+							<WireframeSection label="Additional information">
+								<details className="group">
+									<summary className="cursor-pointer list-none">
+										<SectionLabel className="inline-flex items-center">
+											<span className="mr-1 inline-block transition-transform group-open:rotate-90">
+												▸
+											</span>
+											Additional information
+										</SectionLabel>
+									</summary>
+									<div className="mt-4 flex flex-col gap-2.5">
+										{namedCollections.length > 0 && (
+											<div>
+												<TombstoneLabel>Named collection</TombstoneLabel>
+												<FieldSourceBadge field="highlights" />
+												{/* Not linked: the search-results Collection facet is the
+												    FAMSF Collecting Area, a different grouping that has no
+												    TMS field yet. Curated highlights have no facet of their
+												    own to filter on. */}
+												<ul className="mt-0.5 flex flex-col gap-0.5">
+													{namedCollections.map((c) => (
+														<li
+															key={c.collection_slug}
+															className="font-mono text-meta text-gray-700"
+														>
+															{c.collection_name}
+														</li>
+													))}
+												</ul>
+											</div>
+										)}
+										{doc.accession_iso_date && (
+											<TombstoneField
+												label="Accession date"
+												value={formatIsoDate(doc.accession_iso_date)}
+												field="accession_iso_date"
+											/>
+										)}
+										{doc.medium && (
+											<TombstoneField
+												label="Material"
+												value={doc.medium}
+												href={`/search-results?facet=material&value=${encodeURIComponent(doc.medium)}`}
+												field="medium"
+											/>
+										)}
+										{/* Inscription(s) + Signed belong here per the field list,
+										    but the index does not serve them yet. */}
+										{doc.department && (
+											<TombstoneField
+												label="Department"
+												value={doc.department}
+												href={`/search-results?facet=department&value=${encodeURIComponent(doc.department)}`}
+												field="department"
+											/>
+										)}
+										{alternates.length > 0 && (
+											<div>
+												<TombstoneLabel>Alternate title</TombstoneLabel>
+												<FieldSourceBadge field="titles" />
+												<ul className="mt-0.5 flex flex-col gap-0.5">
+													{alternates.map((t) => (
+														<li
+															key={`alt-${t.type}-${t.display_order}`}
+															className="font-mono text-meta text-gray-700"
+														>
+															{t.title}
+															<span className="ml-1.5 text-gray-400">
+																({t.type})
+															</span>
+														</li>
+													))}
+												</ul>
+											</div>
+										)}
+									</div>
+								</details>
 							</WireframeSection>
 
 							{/* 3. Dimensions */}
@@ -797,49 +894,47 @@ export default async function SampleObjectPage({ params }: Props) {
 												<div className="flex flex-col gap-2">
 													{members
 														.slice()
-														.sort((a, b) => a.DisplayOrder - b.DisplayOrder)
+														.sort((a, b) => a.display_order - b.display_order)
 														.map((c) => (
 															<div
-																key={c.ConstituentID}
+																key={`${c.id}-${c.role}`}
 																className="border-l-2 border-gray-200 pl-3"
 															>
 																<p className="font-mono text-meta font-medium text-gray-700">
-																	{constituentSlugs[c.ConstituentID] ? (
+																	{/* Attribution qualifier ("Attributed to",
+																	    "Possibly") sits ahead of the name. */}
+																	{c.attribution_prefix && (
+																		<span className="font-normal text-gray-500">
+																			{c.attribution_prefix}{" "}
+																		</span>
+																	)}
+																	{constituentSlugs[c.id] ? (
 																		<Link
-																			href={`/constituents/sample/${constituentSlugs[c.ConstituentID]}`}
+																			href={`/constituents/sample/${constituentSlugs[c.id]}`}
 																			className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
 																		>
-																			{c.DisplayName}
+																			{c.name}
 																		</Link>
 																	) : (
-																		c.DisplayName
+																		c.name
 																	)}
 																</p>
-																<p className="font-mono text-label text-gray-500">
-																	{c.Nationality && <>{c.Nationality}</>}
-																	{c.DisplayDate && (
-																		<>
-																			{c.Nationality ? " · " : ""}
-																			{c.DisplayDate}
-																		</>
-																	)}
-																</p>
+																{/* `dates` usually already leads with the
+																    nationality ("French, 1840-1926"), so only add
+																    it when it is not already there. */}
 																{(() => {
-																	const bio =
-																		c.display_bios?.[0]?.bio ?? c.Biography;
-																	if (!bio) return null;
-																	// Suppress when bio just repeats nationality+date row
-																	const above = [c.Nationality, c.DisplayDate]
-																		.filter(Boolean)
-																		.join(" · ");
-																	if (
-																		bio.trim() === above.trim() ||
-																		bio.trim() === c.DisplayDate?.trim()
-																	)
-																		return null;
+																	const parts =
+																		c.dates && c.nationality
+																			? c.dates.includes(c.nationality)
+																				? [c.dates]
+																				: [c.nationality, c.dates]
+																			: [c.nationality, c.dates].filter(
+																					Boolean,
+																				);
+																	if (parts.length === 0) return null;
 																	return (
-																		<p className="mt-1 font-mono text-label leading-relaxed text-gray-500">
-																			{bio}
+																		<p className="font-mono text-label text-gray-500">
+																			{parts.join(" · ")}
 																		</p>
 																	);
 																})()}
@@ -852,22 +947,13 @@ export default async function SampleObjectPage({ params }: Props) {
 								</WireframeSection>
 							)}
 
-							{/* Additional information (accession date + alternate accession)
-							    was folded into the Acquisition tombstone group; the separate
-							    expandable held too little to justify its own section. */}
-
 							{/* Provenance → Exhibition history → Bibliography.
 							    ScholarlyRecordSections renders the three dense record blocks
 							    in spec order. Each block still draws its own divider + wide
 							    container, sitting inside the main column. */}
 							<ScholarlyRecordSections
-								exhibitions={doc.exhibitions}
+								exhibitionLines={exhibitionLines}
 								hasExhibitions={hasExhibitions}
-								exhibitionHistoryHtml={
-									doc.exhibition_history_text
-										? sanitiseHtml(doc.exhibition_history_text)
-										: null
-								}
 								hasProvenance={doc.has_provenance}
 								provenanceStructured={doc.provenance_structured ?? null}
 								provenanceRaw={doc.provenance ?? null}
@@ -904,7 +990,7 @@ export default async function SampleObjectPage({ params }: Props) {
 							    useful MVP grouping (CW-52) at the end of the main column. */}
 							<RightsCitationSection
 								rightsStatementDisplay={rightsStatementDisplay}
-								isPublicDomain={isPublicDomain}
+								isPublicDomain={publicDomain}
 								copyrightStatement={copyrightStatement}
 								suggestedCitation={suggestedCitation}
 							/>
@@ -923,32 +1009,15 @@ export default async function SampleObjectPage({ params }: Props) {
 					/>
 				)}
 
-				{/* Data disclaimer */}
-				<Container className="py-4">
-					<ScopeMark label="Data disclaimer">
-						<p className="font-mono text-label text-gray-500">
-							Data may be incomplete or under review. Last updated:{" "}
-							{lastUpdated.slice(0, 10)}
-							{" · "}
-							{/* Error reporting on the data-accuracy disclaimer (June 18
-							    layout). mailto placeholder; production routes to the
-							    rights & reproductions / data-quality inbox. */}
-							<ExternalLink
-								href="mailto:collections@famsf.org?subject=Data%20correction"
-								className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
-							>
-								{t("object.contactLink")}
-							</ExternalLink>
-						</p>
-					</ScopeMark>
-				</Container>
-
 				{/* Document metadata footer */}
 				<Container className="py-6">
 					<div className="border border-gray-200 bg-gray-50 px-4 py-3">
 						<p className="font-mono text-label text-gray-500">
-							Pipeline document &middot; id {doc.id} &middot; indexed{" "}
-							{doc.indexed_at.slice(0, 10)} &middot;{" "}
+							Pipeline document &middot; id {doc.id}
+							{doc.last_modified && (
+								<> &middot; updated {doc.last_modified.slice(0, 10)}</>
+							)}{" "}
+							&middot;{" "}
 							<Link
 								href="/objects/sample"
 								className="underline decoration-gray-300 hover:decoration-gray-600"

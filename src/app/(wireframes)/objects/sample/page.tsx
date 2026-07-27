@@ -36,9 +36,9 @@ function SampleCard({ entry }: { entry: SampleEntry }) {
 							{doc.primary_artist_display}
 						</p>
 					)}
-					{(doc.display_date || doc.display_year) && (
+					{(doc.date_display || doc.display_year) && (
 						<p className="font-mono text-label text-gray-400">
-							{doc.display_date ?? doc.display_year}
+							{doc.date_display ?? doc.display_year}
 						</p>
 					)}
 					{reason && (
@@ -77,9 +77,12 @@ export default function SampleObjectsIndex() {
 					Real ETL pipeline documents
 				</h1>
 				<p className="mb-10 font-mono text-meta text-gray-700">
-					Collection objects from the FAMSF pipeline. Refresh via{" "}
-					<code className="text-gray-700">npm run sync:samples</code>. New JSON
-					files in <code className="text-gray-700">src/data/sample-docs/</code>{" "}
+					Collection objects as served by the Elasticsearch index. Refresh via{" "}
+					<code className="text-gray-700">
+						uv run python scripts/pull_sample_docs_from_es.py
+					</code>
+					. New JSON files in{" "}
+					<code className="text-gray-700">src/data/sample-docs/</code>{" "}
 					auto-appear on next build.
 				</p>
 

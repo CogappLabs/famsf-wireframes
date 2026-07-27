@@ -607,24 +607,14 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Exhibition history display (raw text block in Phase 1; structured array deferred CW-139).",
 		issueUrl: issue("CW-51"),
 	},
-	"objects/sample/Exhibition history text": {
-		mvp: true,
-		note: "Collapsible raw curator exhibition-history text under the structured rows (the Phase 1 raw-block render).",
-		issueUrl: issue("CW-51"),
-	},
 	"objects/sample/Provenance": {
 		mvp: true,
 		note: "Provenance display (raw text block in Phase 1; structured parsing deferred CW-140).",
 		issueUrl: issue("CW-50"),
 	},
-	"objects/sample/Provenance text": {
+	"objects/sample/Bibliography": {
 		mvp: true,
-		note: "Collapsible raw curator provenance text, shown under the structured lines when a structured payload exists.",
-		issueUrl: issue("CW-50"),
-	},
-	"objects/sample/Bibliography text": {
-		mvp: true,
-		note: "Collapsible raw curator bibliography text under the reformatted list (the Phase 1 raw-block render).",
+		note: "Bibliography, reformatted into a numbered list with CMOS italics.",
 		issueUrl: issue("CW-68"),
 	},
 	// Parent-child (CW-32) is a Phase 1 requirement shown inline on the artwork

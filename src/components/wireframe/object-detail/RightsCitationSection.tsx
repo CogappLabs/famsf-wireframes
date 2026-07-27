@@ -28,7 +28,10 @@ export function RightsCitationSection({
 }: {
 	rightsStatementDisplay: RightsStatementDisplay | null;
 	isPublicDomain: boolean;
-	copyrightStatement: string;
+	/** Rights-holder attribution (TMS ObjRights.Copyright), e.g. "© 2026 Artist
+	 *  Name". Null for public-domain works, which have no holder to credit. The
+	 *  legal status lives in the rights statement above, not here. */
+	copyrightStatement: string | null;
 	suggestedCitation: string;
 }) {
 	return (
@@ -73,15 +76,17 @@ export function RightsCitationSection({
 						</div>
 					</ScopeMark>
 				)}
-				<ScopeMark label="Copyright">
-					<div className="mb-6">
-						<TombstoneLabel className="mb-1 block">Copyright</TombstoneLabel>
-						<FieldSourceBadge field="copyright" block />
-						<p className="font-mono text-meta text-gray-700">
-							{copyrightStatement}
-						</p>
-					</div>
-				</ScopeMark>
+				{copyrightStatement && (
+					<ScopeMark label="Copyright">
+						<div className="mb-6">
+							<TombstoneLabel className="mb-1 block">Copyright</TombstoneLabel>
+							<FieldSourceBadge field="copyright" block />
+							<p className="font-mono text-meta text-gray-700">
+								{copyrightStatement}
+							</p>
+						</div>
+					</ScopeMark>
+				)}
 				<ScopeMark label="Suggested citation">
 					<div>
 						<TombstoneLabel className="mb-1 block">

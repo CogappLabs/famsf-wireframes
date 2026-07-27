@@ -44,7 +44,7 @@ export function RelatedWorksSection({
 				if (mode === "period")
 					return r.display_year && currentDoc.display_year
 						? r.display_year === currentDoc.display_year
-						: r.display_date === currentDoc.display_date;
+						: r.date_display === currentDoc.date_display;
 				if (mode === "gallery") return r.department === currentDoc.department;
 				return true;
 			})
@@ -82,7 +82,7 @@ export function RelatedWorksSection({
 				<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
 					{filtered.map((r) => {
 						const artistDisplay = r.primary_artist_display || r.primary_artist;
-						const dateDisplay = r.display_date || r.display_year;
+						const dateDisplay = r.date_display || r.display_year;
 						return (
 							<Link
 								key={`${mode}-${r.id}`}

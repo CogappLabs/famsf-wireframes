@@ -17,6 +17,21 @@ export function normaliseDateRange(value: string | null | undefined): string {
 	return value.replace(/(\d{3,4})\s*[-–]\s*(\d{3,4})/g, "$1–$2");
 }
 
+/** Render an ISO date as "May 17, 1982". Curators asked for a written-out date
+ *  rather than the raw ISO value; FAMSF house style is US month-first.
+ *  Returns "" on an unparseable input. */
+export function formatIsoDate(value: string | null | undefined): string {
+	if (!value) return "";
+	const date = new Date(value.slice(0, 10));
+	if (Number.isNaN(date.getTime())) return "";
+	return date.toLocaleDateString("en-US", {
+		month: "long",
+		day: "numeric",
+		year: "numeric",
+		timeZone: "UTC",
+	});
+}
+
 export interface NormalisedTitle {
 	display: string;
 	isDescriptive: boolean;

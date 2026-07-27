@@ -14,7 +14,7 @@ import { t } from "@/lib/strings";
 import type { ImageCaption } from "@/lib/text-format";
 import ExternalLink from "../ExternalLink";
 
-type MediaItem = CollectionDocument["media"][number];
+type MediaItem = NonNullable<CollectionDocument["media"]>[number];
 
 /** House-style object caption (rule 7): title italic for real titles, roman
  *  for descriptive names. Rendered directly beneath the image. */
@@ -64,7 +64,8 @@ export function ImageSection({
 						<div data-splattable data-splat-id="img-0">
 							<ImagePlaceholder
 								aspect="4/3"
-								label={`[IIIF image: media_master_id ${visibleMedia[0].media_master_id}]`}
+								maxHeight="70vh"
+								label={`[IIIF image: image_id ${visibleMedia[0].image_id}]`}
 								className="border-0"
 							/>
 						</div>
@@ -73,7 +74,6 @@ export function ImageSection({
 						</div>
 						{(visibleMedia[0].media_view ||
 							visibleMedia[0].public_caption ||
-							visibleMedia[0].photographer ||
 							visibleMedia[0].credit_line) && (
 							<div className="border-t border-gray-200 px-3 py-2">
 								{visibleMedia[0].media_view && (
@@ -88,18 +88,10 @@ export function ImageSection({
 										<FieldSourceBadge field="media[].public_caption" />
 									</p>
 								)}
-								{(visibleMedia[0].photographer ||
-									visibleMedia[0].credit_line) && (
+								{visibleMedia[0].credit_line && (
 									<p className="mt-0.5 font-mono text-label text-gray-400">
-										{visibleMedia[0].photographer ??
-											visibleMedia[0].credit_line}
-										<FieldSourceBadge
-											field={
-												visibleMedia[0].photographer
-													? "media[].photographer"
-													: "media[].credit_line"
-											}
-										/>
+										{visibleMedia[0].credit_line}
+										<FieldSourceBadge field="media[].credit_line" />
 									</p>
 								)}
 							</div>
@@ -108,13 +100,10 @@ export function ImageSection({
 							<p className="font-mono text-label text-gray-400">
 								Live IIIF URL:{" "}
 								<ExternalLink
-									href={iiifImageUrl(
-										visibleMedia[0].media_master_id,
-										"!600,600",
-									)}
+									href={iiifImageUrl(visibleMedia[0].image_id, "!600,600")}
 									className="underline decoration-gray-300 hover:decoration-gray-600"
 								>
-									{iiifImageUrl(visibleMedia[0].media_master_id, "!600,600")}
+									{iiifImageUrl(visibleMedia[0].image_id, "!600,600")}
 								</ExternalLink>
 							</p>
 						</div>
@@ -128,17 +117,18 @@ export function ImageSection({
 						<div className="mb-3 border border-gray-200 px-3 py-2">
 							<CaptionLine caption={caption} />
 						</div>
-						{/* Main scroll container */}
+						{/* Main scroll container. overscroll-x-contain keeps a horizontal
+						    swipe inside the carousel without capturing the page scroll. */}
 						<div
-							className="relative overflow-x-auto"
+							className="relative overflow-x-auto overflow-y-hidden overscroll-x-contain"
 							style={{ scrollSnapType: "x mandatory" }}
 						>
 							<div className="flex">
 								{visibleMedia.map((item, i) => {
-									const imgUrl = iiifImageUrl(item.media_master_id, "!600,600");
+									const imgUrl = iiifImageUrl(item.image_id, "!600,600");
 									return (
 										<div
-											key={item.media_master_id}
+											key={item.image_id}
 											id={`image-${i}`}
 											className="min-w-full border border-gray-300"
 											style={{ scrollSnapAlign: "start" }}
@@ -146,7 +136,8 @@ export function ImageSection({
 											<div data-splattable data-splat-id={`img-${i}`}>
 												<ImagePlaceholder
 													aspect="4/3"
-													label={`[IIIF image ${i + 1} of ${visibleMedia.length}: media_master_id ${item.media_master_id}]`}
+													maxHeight="70vh"
+													label={`[IIIF image ${i + 1} of ${visibleMedia.length}: image_id ${item.image_id}]`}
 													className="border-0"
 												/>
 											</div>
@@ -161,16 +152,10 @@ export function ImageSection({
 														<FieldSourceBadge field="media[].public_caption" />
 													</p>
 												)}
-												{(item.photographer || item.credit_line) && (
+												{item.credit_line && (
 													<p className="mt-0.5 font-mono text-label text-gray-400">
-														{item.photographer ?? item.credit_line}
-														<FieldSourceBadge
-															field={
-																item.photographer
-																	? "media[].photographer"
-																	: "media[].credit_line"
-															}
-														/>
+														{item.credit_line}
+														<FieldSourceBadge field="media[].credit_line" />
 													</p>
 												)}
 												<p className="mt-1 font-mono text-label text-gray-400">
@@ -192,10 +177,10 @@ export function ImageSection({
 						{/* Thumbnail strip: anchor links to each slide */}
 						<div className="mt-3 flex gap-2 overflow-x-auto pb-1">
 							{visibleMedia.map((item, i) => {
-								const thumbUrl = iiifImageUrl(item.media_master_id, "!200,200");
+								const thumbUrl = iiifImageUrl(item.image_id, "!200,200");
 								return (
 									<a
-										key={item.media_master_id}
+										key={item.image_id}
 										href={`#image-${i}`}
 										className="flex-shrink-0 border-2 border-gray-300 hover:border-gray-600"
 										title={item.media_view ?? `Image ${i + 1}`}

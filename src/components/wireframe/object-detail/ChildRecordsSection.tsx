@@ -1,34 +1,31 @@
 import {
 	Container,
-	ImagePlaceholder,
 	SectionLabel,
 	TombstoneLabel,
 	WireframeSection,
 } from "@/components/wireframe";
 import FieldSourceBadge from "@/components/wireframe/FieldSourceBadge";
-import type { ChildCard } from "@/lib/collection-document";
 
-const CHILD_CARD_LIMIT = 12;
+const CHILD_ID_LIMIT = 10;
 
 /**
- * Object-detail child-records section (CW-32, parent-child inline): a thumbnail
- * grid when child_cards are populated, otherwise a flat accession-ID fallback of
- * physical children. Renders nothing without child ids. Virtual (Runway
- * collection) children are omitted per the FAMSF field-exclusion list.
+ * Object-detail child-records section (CW-32, parent-child inline). Renders
+ * nothing without child ids. Virtual (Runway collection) children are omitted
+ * per the FAMSF field-exclusion list.
+ *
+ * The served index carries only the bare child ObjectID array, so the intended
+ * thumbnail grid (title, artist, date, thumb per child) cannot be built. The
+ * pipeline would need to denormalise those child fields onto the parent.
  */
 export function ChildRecordsSection({
-	childCards,
 	physicalChildIds,
 }: {
-	childCards: ChildCard[];
 	physicalChildIds: number[];
 }) {
-	const hasChildIds = physicalChildIds.length > 0;
-	if (!hasChildIds) return null;
+	if (physicalChildIds.length === 0) return null;
 
-	const hasChildCards = childCards.length > 0;
-	const visibleChildCards = childCards.slice(0, CHILD_CARD_LIMIT);
-	const hiddenChildCardCount = childCards.length - visibleChildCards.length;
+	const visibleIds = physicalChildIds.slice(0, CHILD_ID_LIMIT);
+	const hiddenCount = physicalChildIds.length - visibleIds.length;
 
 	return (
 		<WireframeSection
@@ -37,71 +34,23 @@ export function ChildRecordsSection({
 		>
 			<Container>
 				<SectionLabel className="mb-4">
-					Child records (
-					{childCards.length > 0 ? childCards.length : physicalChildIds.length})
+					Child records ({physicalChildIds.length})
 				</SectionLabel>
-				<FieldSourceBadge field="child_cards" block />
+				<FieldSourceBadge field="physical_child_ids" block />
 
-				{hasChildCards ? (
-					<>
-						<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-							{visibleChildCards.map((card) => (
-								<div
-									key={card.id}
-									className="border border-gray-200 hover:border-gray-400"
-								>
-									<ImagePlaceholder
-										aspect="1/1"
-										label={
-											card.iiif_thumbnail_url
-												? "[IIIF thumb]"
-												: card.has_iiif
-													? "[IIIF available]"
-													: "[No image]"
-										}
-									/>
-									<div className="px-2.5 py-2">
-										<p className="font-mono text-label tracking-wide text-gray-400">
-											{card.accession_number}
-										</p>
-										{card.title && (
-											<p className="mt-0.5 font-mono text-meta text-gray-700 leading-snug">
-												{card.title}
-											</p>
-										)}
-										{(card.primary_artist_display || card.display_date) && (
-											<p className="mt-0.5 font-mono text-label text-gray-400">
-												{[card.primary_artist_display, card.display_date]
-													.filter(Boolean)
-													.join(" · ")}
-											</p>
-										)}
-									</div>
-								</div>
-							))}
-						</div>
-						{hiddenChildCardCount > 0 && (
-							<p className="mt-4 font-mono text-meta text-gray-500">
-								+ {hiddenChildCardCount} more
-							</p>
-						)}
-					</>
-				) : (
-					<div>
-						<TombstoneLabel className="mb-2 block">
-							Physical children ({physicalChildIds.length})
-						</TombstoneLabel>
-						<p className="font-mono text-meta text-gray-700">
-							{physicalChildIds.slice(0, 10).join(", ")}
-							{physicalChildIds.length > 10 && (
-								<span className="text-gray-400">
-									{" "}
-									and {physicalChildIds.length - 10} more
-								</span>
-							)}
-						</p>
-					</div>
-				)}
+				<TombstoneLabel className="mb-2 block">
+					Physical children ({physicalChildIds.length})
+				</TombstoneLabel>
+				<p className="font-mono text-meta text-gray-700">
+					{visibleIds.join(", ")}
+					{hiddenCount > 0 && (
+						<span className="text-gray-400"> and {hiddenCount} more</span>
+					)}
+				</p>
+				<p className="mt-3 font-mono text-label text-gray-400">
+					Child titles, artists, and thumbnails are not in the current index, so
+					this shows object ids only.
+				</p>
 			</Container>
 		</WireframeSection>
 	);
