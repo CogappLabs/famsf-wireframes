@@ -1133,7 +1133,7 @@ function FacetDrawer({
 			}}
 			// Pin to the left edge, full height. `mr-auto` pushes the panel flush
 			// to the left so the backdrop fills the rest of the viewport.
-			className="m-0 mr-auto h-dvh max-h-dvh w-[88vw] max-w-sm border-r border-gray-300 bg-white p-0 backdrop:bg-black/30"
+			className="m-0 mr-auto h-dvh max-h-dvh w-[88vw] max-w-xs border-r border-gray-300 bg-white p-0 backdrop:bg-black/30"
 		>
 			<div className="flex h-full flex-col">
 				<div className="flex items-center justify-between border-b border-gray-200 px-4 py-3">
