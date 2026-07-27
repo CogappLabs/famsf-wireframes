@@ -36,7 +36,7 @@ The index, top bar badges, footer links, and scope overlay all derive from these
 
 | Page | Route | Key features |
 |------|-------|-------------|
-| Collection Landing | `/collection-landing` | **Lean MVP**: hero + autocomplete search bar with basic filter chips. Everything else (stats, dual pathways, browse-by-area, highlights, "what to see", timeline) is scope-deferred post-MVP but still on the page. |
+| Collection Landing | `/collection-landing` | **Lean MVP**: hero + autocomplete search bar with basic filter chips. Everything else (stats, dual pathways, browse-by-area, highlights, "what to see", timeline) is scope-deferred post-MVP but still on the page. Highlights render as a CSS-column masonry grid (`columns-*` + `break-inside-avoid`) with aspect ratios cycled per card from `HIGHLIGHT_ASPECTS`. |
 | Explore | `/explore` | Curated themes, timeline browse, discovery prompts, most viewed (post-MVP) |
 | Search Results | `/search-results` | **Primary view = grid + facet drawer** (real data, omnibox + sort + pager). Other variations behind `?variation=`. |
 | Object Detail | `/objects/sample/[...variant]` | **Two-column layout** (full-width image → left rail: title/subtitle, on-view+location, audio, parent-child → wide main: web text, tombstone, Additional information, dimensions, people, provenance → exhibitions → bibliography, scholarly publications, rights & citation → full-width Related works). Per the June 18 2026 page-layouts spec. Sections split into `object-detail/*` components. Route is a catch-all: the served slug is `{accession}/{title-slug}`. Museum location renders only when `on_view`; accession date is written out ("7 January 1973"); artist, date, medium, department, and object type all route to a filtered search; place ancestry reads specific → general with the Getty "World" root dropped. The data disclaimer was removed 2026-07-27. **Excluded fields** (FAMSF field-exclusion list, not rendered): Object name, Label on object, Marks (Signed/Inscribed/Markings), Style/period/movement + Subject (dropped from `TERM_FIELDS`), Runway collection / virtual parents (Virtual badge + virtual children), Object label text / wall text (`didactic_label`), Alternate/legacy accession (`sort_number`), Identifying description, Conversation notes, Catalogue raisonné. |
@@ -312,7 +312,9 @@ All Discovery-phase outputs from FAMSF, kept under `docs/`. They drive the wiref
 - de Young vs Legion museum-location clarity on object + collection-area pages (Gap Analysis recurring theme)
 
 ### Open scope decisions surfaced from FAMSF feedback on `/collection-landing` (May 2026)
-- "Topic" entry currently only Environment + Making and non-editable — needs curator-editable list
+- "Explore by topic" now carries the six curator suggestions (Bay Area, 19th-century French art, Pueblo pottery, New Guinea art, Fashion, Rodin sculpture) as placeholders; the final list is still open and the set is not yet curator-editable
+- "Explore by collection" uses FAMSF's 12 public-facing collection names, not the 9 TMS departments. Several names share an area-page destination (African / Oceanic / Arts of the Americas → AOA; European sculpture → European decorative arts; Photography + Works on paper → Achenbach). List still being finalised FAMSF-side
+- Promo mosaic ("In focus") is post-MVP as of 2026-07-27, so it is hidden in the default MVP-only view
 - Exhibition history timeline with archival images (blue-sky; possibly outside `/collection-landing` scope)
 - Intro copy reviewed + replaced ("Ancient Greek sculptures, French Impressionist paintings…") in `en.json`
 - Card aspect ratios normalised: collection-area cards → 1/1, highlights → 4/5

@@ -14,7 +14,6 @@ import CollectionAutocomplete from "@/components/wireframe/CollectionAutocomplet
 import { homepageHighlights } from "@/lib/collection-members";
 import { t } from "@/lib/strings";
 import { ScopePage } from "@/providers/ScopeProvider";
-import { slugify } from "../collection-area/[slug]/page";
 
 // Section order follows the June 18 2026 page-layouts spec ("New organization"):
 // header + tagline → search bar → highlights → thematic exploration →
@@ -22,57 +21,36 @@ import { slugify } from "../collection-area/[slug]/page";
 // Off-spec sections (stats, dual pathways, gallery browse, what-to-see,
 // timeline, more-ways-in, browse-by-type) were removed to match the doc flow.
 
-// Collection areas == TMS Departments (CW-30). The nine departments below are
-// the only ones carrying web-visible objects; counts are web-visible object
-// counts probed from live TMS (vCI_PrismObjectsFilter_Cogapp), ordered by size.
-// "Arts of Africa, Oceania, and the Americas" is a single TMS department (AOA),
-// not the three separate areas an earlier wireframe pass invented.
+// Homepage "Explore by collection" grid. These are the public-facing collection
+// names FAMSF uses in the current collection experience (curator list, 2026-07-27),
+// which do NOT map 1:1 to the nine TMS departments the /collection-area pages are
+// built from (CW-30). Each card carries the slug of the nearest existing area
+// page, so several names share a destination: African / Oceanic / Arts of the
+// Americas all route to the single AOA department page, European sculpture to
+// European Decorative Arts and Sculpture, and Photography + Works on Paper to
+// Achenbach. The list is still being finalised on the FAMSF side.
 const COLLECTION_AREAS = [
+	{ name: "African art", slug: "arts-of-africa-oceania-and-the-americas" },
+	{ name: "American art", slug: "american-paintings" },
+	{ name: "Ancient art", slug: "ancient-art" },
 	{
-		name: "Achenbach Foundation for Graphic Arts",
-		count: "118,773",
-		desc: "One of the largest works-on-paper collections in the US: prints, drawings, photographs, and artists' books",
+		name: "Arts of the Americas",
+		slug: "arts-of-africa-oceania-and-the-americas",
 	},
+	{ name: "Contemporary art", slug: "contemporary-art" },
+	{ name: "Costume + textile arts", slug: "costume-and-textile-arts" },
 	{
-		name: "Costume and Textile Arts",
-		count: "12,381",
-		desc: "20,000+ objects spanning 120+ countries and cultures, from ancient textiles to contemporary fashion",
+		name: "European decorative arts",
+		slug: "european-decorative-arts-and-sculpture",
 	},
+	{ name: "European paintings", slug: "european-paintings" },
 	{
-		name: "European Decorative Arts and Sculpture",
-		count: "6,535",
-		desc: "Porcelain, furniture, silver, sculpture, and the world-renowned Rodin collection",
+		name: "European sculpture",
+		slug: "european-decorative-arts-and-sculpture",
 	},
-	{
-		name: "Arts of Africa, Oceania, and the Americas",
-		count: "6,330",
-		desc: "Sculpture, masks, textiles, regalia, and ceremonial objects from across Africa, Oceania, and the Americas",
-	},
-	{
-		name: "American Decorative Arts and Sculpture",
-		count: "2,865",
-		desc: "Decorative arts, sculpture, and design from the colonial era to the present",
-	},
-	{
-		name: "Ancient Art",
-		count: "1,316",
-		desc: "Greek, Roman, and Near Eastern antiquities spanning 5,000 years",
-	},
-	{
-		name: "American Paintings",
-		count: "833",
-		desc: "American painting from the colonial period through the mid-20th century",
-	},
-	{
-		name: "European Paintings",
-		count: "793",
-		desc: "European painting from the medieval period to the early 20th century, including major French holdings",
-	},
-	{
-		name: "Contemporary Art",
-		count: "224",
-		desc: "Contemporary art and programming across all media",
-	},
+	{ name: "Oceanic art", slug: "arts-of-africa-oceania-and-the-americas" },
+	{ name: "Photography", slug: "achenbach-foundation-for-graphic-arts" },
+	{ name: "Works on paper", slug: "achenbach-foundation-for-graphic-arts" },
 ];
 
 // Basic-search filter chips. Submit appends to /search-results query string.
@@ -85,11 +63,17 @@ const BASIC_FILTERS = [
 
 // Real cross-department Web Highlights for the homepage row: the top-ranked
 // curator pick from each collection area (one work per department).
-const HIGHLIGHTS = homepageHighlights(8).map((m) => ({
+// One work per department, so this tops out at the nine departments regardless
+// of the limit asked for. Only the title is kept: the grid is images alone, and
+// the title carries the accessible name for each link.
+const HIGHLIGHTS = homepageHighlights(12).map((m) => ({
 	title: m.title ?? "Untitled",
-	artist: m.artist ?? "",
-	date: m.date ?? "",
 }));
+
+// Masonry highlights grid: real collection images are mixed portrait / landscape
+// / square, so cycling a few ratios by card index gives the staggered column
+// rhythm the reference layout has. Placeholder stand-in until real thumbs land.
+const HIGHLIGHT_ASPECTS = ["4/5", "3/2", "1/1", "5/7", "4/3", "2/3"];
 
 // Full-bleed promo mosaic (Figma node 174:1464), sitting above Highlights.
 // A flexible editorial slot: each cell is one of three kinds, so curators can
@@ -137,37 +121,40 @@ const PROMO_CELLS: PromoCell[] = [
 // Editorial themes, not browse facets. Each routes a pre-canned search:
 // a free-text theme query PLUS one seeded facet (`facet=type:value`, seeded by
 // GridFacetsView.seedSelectionFromFacet) so the result lands pre-filtered.
-// Curator-editable list per FAMSF feedback.
+// Curator suggestions (FAMSF, 2026-07-27) — the final homepage list is still
+// open, so treat these six as placeholders for a curator-editable set. The
+// `query` is what gets typed into the search box when the theme differs from
+// the words a cataloguer would have used.
 const THEMES = [
 	{
-		name: "Environment",
-		desc: "Land, sea, and our changing climate",
-		facet: "classification:Paintings",
+		name: "Bay Area",
+		query: "San Francisco",
+		facet: "place:United States",
 	},
 	{
-		name: "Making",
-		desc: "Process, craft, and the hand of the maker",
-		facet: "material:Metal",
+		name: "19th-century French art",
+		query: "French",
+		facet: "place:France",
 	},
 	{
-		name: "Portraiture",
-		desc: "Faces, identity, and the painted self",
-		facet: "classification:Paintings",
+		name: "Pueblo pottery",
+		query: "Pueblo",
+		facet: "material:Ceramic",
 	},
 	{
-		name: "The Sea",
-		desc: "Oceans, voyages, and coastal life",
-		facet: "classification:Paintings",
-	},
-	{
-		name: "Devotion and ritual",
-		desc: "Sacred objects and ceremony",
+		name: "New Guinea art",
+		query: "New Guinea",
 		facet: "department:Arts of Africa, Oceania, and the Americas",
 	},
 	{
-		name: "Power and politics",
-		desc: "Authority, protest, and the state",
-		facet: "classification:Prints",
+		name: "Fashion",
+		query: "dress",
+		facet: "department:Costume and Textile Arts",
+	},
+	{
+		name: "Rodin sculpture",
+		query: "Rodin",
+		facet: "classification:Sculpture",
 	},
 ];
 
@@ -399,22 +386,18 @@ function CollectionLandingContent() {
 						<SectionLabel className="mb-6">
 							{t("collection.highlightsHeading")}
 						</SectionLabel>
-						<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-							{HIGHLIGHTS.map((work) => (
+						<div className="columns-2 gap-4 sm:columns-3 lg:columns-4">
+							{HIGHLIGHTS.map((work, i) => (
 								<Link
 									key={work.title}
 									href="/objects/sample/1973.3/water-lilies"
-									className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
+									aria-label={work.title}
+									className="mb-4 block break-inside-avoid transition-opacity hover:opacity-80"
 								>
-									<ImagePlaceholder aspect="4/5" label={`[${work.title}]`} />
-									<div className="p-3">
-										<h3 className="font-mono text-card font-medium leading-snug">
-											{work.title}
-										</h3>
-										<p className="mt-0.5 font-mono text-label text-gray-500">
-											{work.artist}, {work.date}
-										</p>
-									</div>
+									<ImagePlaceholder
+										aspect={HIGHLIGHT_ASPECTS[i % HIGHLIGHT_ASPECTS.length]}
+										label={`[${work.title}]`}
+									/>
 								</Link>
 							))}
 						</div>
@@ -435,7 +418,7 @@ function CollectionLandingContent() {
 								{THEMES.map((theme) => (
 									<Link
 										key={theme.name}
-										href={`/search-results?variation=grid-facets&q=${encodeURIComponent(theme.name)}&facet=${encodeURIComponent(theme.facet)}`}
+										href={`/search-results?variation=grid-facets&q=${encodeURIComponent(theme.query)}&facet=${encodeURIComponent(theme.facet)}`}
 										className="flex flex-col border border-gray-300 transition-colors hover:border-gray-500"
 									>
 										<ImagePlaceholder aspect="3/2" label={`[${theme.name}]`} />
@@ -464,7 +447,7 @@ function CollectionLandingContent() {
 							{COLLECTION_AREAS.map((area) => (
 								<Link
 									key={area.name}
-									href={`/collection-area/${slugify(area.name)}`}
+									href={`/collection-area/${area.slug}`}
 									className="flex flex-col border border-gray-300 p-5 text-left transition-colors hover:border-gray-500"
 								>
 									<ImagePlaceholder
