@@ -1996,36 +1996,32 @@ export function GridFacetsView({
 					}
 				: panels.find((p) => p.id === openFacet);
 
-	// Has image / Open access toggles. Rendered as one segmented pill group
-	// (shared border, no gaps). On view is a drawer facet panel (below
-	// Artist/maker), not a pill, so it can carry the de Young / Legion
-	// museum narrowing.
+	// Has image / Open access filters. Plain checkboxes, matching the facet
+	// option rows rather than reading as actions. On view is a drawer facet
+	// panel (below Artist/maker) so it can carry the de Young / Legion museum
+	// narrowing.
 	const TOGGLES = [
 		["hasImage", "Has image", sel.hasImage],
 		["openAccess", "Open access", sel.openAccess],
 	] as const;
 	const toggleButtons = (
-		<div className="flex flex-wrap items-center gap-2">
-			<fieldset className="inline-flex divide-x divide-gray-300 overflow-hidden border border-gray-300 p-0">
-				<legend className="sr-only">Quick filters</legend>
-				{TOGGLES.map(([key, label, on]) => (
-					<button
-						key={key}
-						type="button"
-						aria-pressed={on}
-						onClick={() => toggleFlag(key)}
-						className={`flex items-center gap-1.5 px-3 py-1.5 font-mono text-meta transition-colors ${
-							on
-								? "bg-gray-900 text-white"
-								: "bg-white text-gray-700 hover:bg-gray-50"
-						}`}
-					>
-						<span aria-hidden>{on ? "✓" : "+"}</span>
-						{label}
-					</button>
-				))}
-			</fieldset>
-		</div>
+		<fieldset className="flex flex-wrap items-center gap-x-5 gap-y-2 p-0">
+			<legend className="sr-only">Quick filters</legend>
+			{TOGGLES.map(([key, label, on]) => (
+				<label
+					key={key}
+					className="flex cursor-pointer items-center gap-2 font-mono text-meta text-gray-700 hover:text-gray-950"
+				>
+					<input
+						type="checkbox"
+						checked={on}
+						onChange={() => toggleFlag(key)}
+						className="h-4 w-4 shrink-0 accent-gray-900"
+					/>
+					{label}
+				</label>
+			))}
+		</fieldset>
 	);
 
 	return (
@@ -2059,9 +2055,10 @@ export function GridFacetsView({
 							</button>
 						</div>
 
-						{/* Drawer layout: toggles at the top of the left column. */}
+						{/* Drawer layout: toggles at the top of the left column, stacked
+						    so they fit the narrow column. */}
 						{layout === "drawer" && (
-							<div className="mt-3 flex flex-wrap gap-2 border-b border-gray-200 pb-3">
+							<div className="mt-3 flex flex-col gap-2 border-b border-gray-200 pb-3 [&_fieldset]:flex-col [&_fieldset]:items-start">
 								{toggleButtons}
 							</div>
 						)}

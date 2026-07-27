@@ -140,14 +140,17 @@ Current variations:
       the bars to pick a year range, or type into the From / To year inputs
       (the keyboard / screen-reader path); both drive the same `{min,max}`
       `YearRange` filter. Years come from `objectYear` (sort_year, neg = BCE).
-    - **On view** / **Has image** / **Open access** — a segmented toggle pill
-      group (`fieldset`). Open access = `isPublicDomain(doc)` (shared helper in
-      `results.tsx`): matches free-text `copyright` containing "public domain"
-      OR `object_rights_type == "Public Domain"`. The grid-facets slice has
-      `copyright: null` and carries the rights enum, so the dual check is what
-      makes the OA facet + the card badge fire on this view (214 PD docs).
-      Inline layout: a full-width row under the search. Drawer layout: top of
-      the left column.
+    - **Has image** / **Open access** — plain checkboxes in a `fieldset`
+      (changed from a segmented pill group 2026-07-27, so they read as filters
+      rather than actions). Open access = `isPublicDomain(doc)` (shared helper
+      in `results.tsx`): matches free-text `copyright` containing "public
+      domain" OR `object_rights_type == "Public Domain"`. The grid-facets slice
+      has `copyright: null` and carries the rights enum, so the dual check is
+      what makes the OA facet + the card badge fire on this view (214 PD docs).
+      Inline layout: a full-width row under the search. Drawer layout: stacked
+      at the top of the left column. **On view** is a drawer facet panel (below
+      Artist/maker), not a checkbox, so it can carry the de Young / Legion
+      museum narrowing.
     The CW-41 core facet set (geo, medium, classification, dept, OA, on-view,
     has-image) + date (CW-64) is complete; Artist + Culture group are kept on
     top as extras. The Gallery + Technique facets were removed 2026-07-07. Flat
