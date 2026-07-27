@@ -1,163 +1,234 @@
 {
-	"id": 13754,
-	"accession_number": "1928.8",
-	"sort_number": "1928.8",
-	"title": "Jacob and Rebekah, from The Story of Jacob series",
-	"object_name": "tapestry, hanging",
-	"display_date": "early 16th century",
-	"medium": "wool, cotton, silk; tapestry weave",
-	"medium_parts": ["wool, cotton, silk", "tapestry weave"],
-	"dimensions": "166 x 121 in. (421.6 x 307.3 cm)",
-	"dimensions_display_primary": "166 x 121 in. (421.6 x 307.3 cm)",
-	"credit_line": "Museum purchase, California Palace of the Legion of Honor, General Fund",
-	"department": "Costume and Textile Arts",
-	"classification": "Fiber Art",
-	"object_rights_type": "Public Domain",
-	"on_view": false,
-	"last_modified": "2024-06-24 14:01:28.727000",
-	"is_virtual": false,
-	"identifying_description": "Scene of Jacob and Rebekah in center; surrounded by floral border with mythological figures.",
-	"web_text": "The well, which draws the eye to the upper left corner, recalls an incident in the life of Rebekah (Genesis 24). Abraham sent his trusted servant, Eleazar, to find a wife for his son, Isaac. After a long journey to the land of Abraham's kindred, Eleazar stopped beside a well with his camels. There he prayed that the woman who should give him and his camels water to drink would be the one intended to be Isaac's wife. Eleazar's prayer was answered; Rebekah gave him and his camels water and took him home to her father's house. The presence of the well in this scene helps to identify her. Rebekah bends toward her son Jacob like a conspirator, her finger raised as if directing him: “Go now to the flock, and fetch me from thence two good kids of the goats” (Genesis 27:9). Her instructions have already been carried out: Jacob holds the kids in his arms (“and he went and fetches, and brought them to his mother,” Genesis 27:14). The iconographic ambiguity results from the telescoping of two moments of the story. The volume of the figures is emphasized by drapery looped around the forms. For all their weight and plasticity, the bodies move stiffly, and the faces are inexpressive. Exotic costume touches, such as the lion-headed sandals, attempt to suggest a different time and place. The borders are nearly the same for all panels of the Moses and Jacob series. The top border is half the size of the other three. Mythological beings, perhaps Minerva and Neptune in the Jacob and Rebekah panel, sit on miniature chariots in the lower corners. From the headdresses of each, an ascending structure of fanciful ironwork, or ferronnerie, supports pairs of fantastic birds, fruits, flowers, and standing figures imprisoned in circlets of iron. A putto plays his hurdy-gurdy near the center of the lower border. From Anna Gray Bennett, \"Five Centuries of Tapestry: The Fine Arts Museums of San Francisco\" (San Francisco: Chronicle Books; The Fine Arts Museums of San Francisco, 1976; repr. 1992): p. 114.",
-	"provenance": "Barbarini Family, Rome, c. 17th centuryCharles Mather Ffoulke, 1889-1909",
-	"accession_iso_date": "1928-01-27",
-	"location_string": "Legion, 101, Tapestry Rack 14, C",
-	"location_building": "Legion",
-	"location_room": "Tapestry Rack 14",
-	"titles": [
-		{
-			"Title": "Jacob and Rebekah, from The Story of Jacob series",
-			"TitleType": "Primary Title",
-			"TitleTypeDisplay": "Primary",
-			"Language": "(not assigned)",
-			"DisplayOrder": 1
-		}
-	],
-	"constituents": [],
-	"media": [],
-	"exhibitions": [],
-	"dimensions_structured": [
-		{
-			"DisplayDimensions": "166 x 121 in. (421.6 x 307.3 cm)",
-			"Description": null,
-			"ElementName": "Overall",
-			"Displayed": true,
-			"Rank": 1,
-			"measures": {
-				"height_cm": 421.6,
-				"width_cm": 307.3,
-				"depth_cm": null,
-				"height_in": 166.0,
-				"width_in": 121.0,
-				"depth_in": null
-			}
-		}
-	],
-	"associations": [],
-	"is_compound": false,
-	"term_rights_statement": [
-		{
-			"term": "Copyright status is public domain",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 0,
-					"cn": "AUT",
-					"term": "Keywords / Thesaurus"
-				},
-				{
-					"depth": 1,
-					"cn": "AUT.AAA",
-					"term": "Attributes"
-				},
-				{
-					"depth": 2,
-					"cn": "AUT.AAA.AAU",
-					"term": "Object Rights Statement"
-				},
-				{
-					"depth": 3,
-					"cn": "AUT.AAA.AAU.AAB",
-					"term": "Copyright status is public domain"
-				}
-			]
-		}
-	],
-	"term_place_of_creation": [
-		{
-			"term": "Flanders",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABH",
-					"term": "Europe"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABH.AAASO",
-					"term": "Flanders"
-				}
-			]
-		},
-		{
-			"term": "Brussels",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABH",
-					"term": "Europe"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABH.AAAAR",
-					"term": "Luxembourg"
-				},
-				{
-					"depth": 6,
-					"cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAAM",
-					"term": "Brussels Hoofdstedelijk Gewest"
-				},
-				{
-					"depth": 7,
-					"cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAAM.AAAAJ",
-					"term": "Bruxelles"
-				}
-			]
-		}
-	],
-	"primary_artist": "Unknown artist",
-	"has_image": false,
-	"provenance_structured": {
-		"lines": [
-			{
-				"order": 0,
-				"text": "Barbarini Family, Rome, c. 17th centuryCharles Mather Ffoulke, 1889-1909",
-				"refs": [],
-				"is_uncertain": false
-			}
-		],
-		"footnotes": []
-	},
-	"has_iiif": false,
-	"has_provenance": true,
-	"has_children": false,
-	"sort_artist": "unknown artist",
-	"slug": "jacob-and-rebekah-from-the-story-of-jacob-series-1928-8",
-	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
-	"_sample_meta": {
-		"reason": "Jacob and Rebekah (1928.8) — 2+ place_of_creation entries, exercises multi-region tagging",
-		"picked_at": "2026-05-26T12:50:36.842330+00:00",
-		"populated_fields": 38
-	}
+  "id": 13754,
+  "accession_number": "1928.8",
+  "sort_number": "1928.8",
+  "title": "Jacob and Rebekah, from The Story of Jacob series",
+  "date_display": "early 16th century",
+  "date_start": "1500",
+  "date_end": "1540",
+  "medium": "wool, cotton, silk; tapestry weave",
+  "medium_parts": [
+    "wool, cotton, silk",
+    "tapestry weave"
+  ],
+  "credit_line": "Museum purchase, California Palace of the Legion of Honor, General Fund",
+  "department": "Costume and Textile Arts",
+  "classification": "Fiber Art",
+  "subclassification": null,
+  "culture": "Flemish",
+  "copyright": null,
+  "object_rights_type": "Public Domain",
+  "on_view": false,
+  "entered_date": "2021-11-23 00:00:00.000000",
+  "last_modified": "2024-06-24 14:01:28.727000",
+  "is_virtual": false,
+  "web_text": "The well, which draws the eye to the upper left corner, recalls an incident in the life of Rebekah (Genesis 24). Abraham sent his trusted servant, Eleazar, to find a wife for his son, Isaac. After a long journey to the land of Abraham's kindred, Eleazar stopped beside a well with his camels. There he prayed that the woman who should give him and his camels water to drink would be the one intended to be Isaac's wife. Eleazar's prayer was answered; Rebekah gave him and his camels water and took him home to her father's house. The presence of the well in this scene helps to identify her. Rebekah bends toward her son Jacob like a conspirator, her finger raised as if directing him: “Go now to the flock, and fetch me from thence two good kids of the goats” (Genesis 27:9). Her instructions have already been carried out: Jacob holds the kids in his arms (“and he went and fetches, and brought them to his mother,” Genesis 27:14). The iconographic ambiguity results from the telescoping of two moments of the story. The volume of the figures is emphasized by drapery looped around the forms. For all their weight and plasticity, the bodies move stiffly, and the faces are inexpressive. Exotic costume touches, such as the lion-headed sandals, attempt to suggest a different time and place. The borders are nearly the same for all panels of the Moses and Jacob series. The top border is half the size of the other three. Mythological beings, perhaps Minerva and Neptune in the Jacob and Rebekah panel, sit on miniature chariots in the lower corners. From the headdresses of each, an ascending structure of fanciful ironwork, or ferronnerie, supports pairs of fantastic birds, fruits, flowers, and standing figures imprisoned in circlets of iron. A putto plays his hurdy-gurdy near the center of the lower border. From Anna Gray Bennett, \"Five Centuries of Tapestry: The Fine Arts Museums of San Francisco\" (San Francisco: Chronicle Books; The Fine Arts Museums of San Francisco, 1976; repr. 1992): p. 114.",
+  "didactic_label": null,
+  "exhibition_history_text": null,
+  "exhibition_history_lines": [],
+  "bibliography_text": null,
+  "provenance": "Barbarini Family, Rome, c. 17th centuryCharles Mather Ffoulke, 1889-1909",
+  "provenance_structured": {
+    "lines": [
+      {
+        "order": 0,
+        "text": "Barbarini Family, Rome, c. 17th centuryCharles Mather Ffoulke, 1889-1909",
+        "refs": [],
+        "is_uncertain": false
+      }
+    ],
+    "footnotes": [],
+    "parsed": true
+  },
+  "label_text": null,
+  "publication_text": "The well, which draws the eye to the upper left corner, recalls an incident in the life of Rebekah (Genesis 24). Abraham sent his trusted servant, Eleazar, to find a wife for his son, Isaac. After a long journey to the land of Abraham's kindred, Eleazar stopped beside a well with his camels. There he prayed that the woman who should give him and his camels water to drink would be the one intended to be Isaac's wife. Eleazar's prayer was answered; Rebekah gave him and his camels water and took him home to her father's house. The presence of the well in this scene helps to identify her. Rebekah bends toward her son Jacob like a conspirator, her finger raised as if directing him: “Go now to the flock, and fetch me from thence two good kids of the goats” (Genesis 27:9). Her instructions have already been carried out: Jacob holds the kids in his arms (“and he went and fetches, and brought them to his mother,” Genesis 27:14). The iconographic ambiguity results from the telescoping of two moments of the story. The volume of the figures is emphasized by drapery looped around the forms. For all their weight and plasticity, the bodies move stiffly, and the faces are inexpressive. Exotic costume touches, such as the lion-headed sandals, attempt to suggest a different time and place. The borders are nearly the same for all panels of the Moses and Jacob series. The top border is half the size of the other three. Mythological beings, perhaps Minerva and Neptune in the Jacob and Rebekah panel, sit on miniature chariots in the lower corners. From the headdresses of each, an ascending structure of fanciful ironwork, or ferronnerie, supports pairs of fantastic birds, fruits, flowers, and standing figures imprisoned in circlets of iron. A putto plays his hurdy-gurdy near the center of the lower border.",
+  "accession_iso_date": "1928-01-27",
+  "location_string": null,
+  "location_building": null,
+  "location_room": null,
+  "edition": null,
+  "titles": [
+    {
+      "title": "Jacob and Rebekah, from The Story of Jacob series",
+      "type": "Primary Title",
+      "active": true,
+      "language": "(not assigned)",
+      "display_order": 1
+    }
+  ],
+  "constituents": null,
+  "media": null,
+  "primary_thumbnail_url": null,
+  "primary_social_url": null,
+  "primary_iiif_info_url": null,
+  "primary_blurhash": null,
+  "has_iiif": false,
+  "dimensions": "166 x 121 in. (421.6 x 307.3 cm)",
+  "associations": [],
+  "highlights": [],
+  "editorial_related_content": {
+    "stories": null,
+    "events": null,
+    "audio_items": null
+  },
+  "physical_child_ids": null,
+  "virtual_parent_ids": null,
+  "virtual_child_ids": null,
+  "is_compound": false,
+  "term_rights_statement": [
+    {
+      "id": 16110964,
+      "term": "Public domain",
+      "type": "Descriptor",
+      "certainty": null,
+      "path": [
+        {
+          "depth": 0,
+          "cn": "AUT",
+          "term": "Keywords / Thesaurus"
+        },
+        {
+          "depth": 1,
+          "cn": "AUT.AAA",
+          "term": "Attributes"
+        },
+        {
+          "depth": 2,
+          "cn": "AUT.AAA.AAU",
+          "term": "Object Rights Statement"
+        },
+        {
+          "depth": 3,
+          "cn": "AUT.AAA.AAU.AAB",
+          "term": "Public domain"
+        }
+      ]
+    }
+  ],
+  "term_place_of_creation": [
+    {
+      "id": 16734015,
+      "term": "Brussels",
+      "type": "N/A",
+      "certainty": null,
+      "path": [
+        {
+          "depth": 1,
+          "cn": "AUZ.AAAAB",
+          "term": "World"
+        },
+        {
+          "depth": 2,
+          "cn": "AUZ.AAAAB.AAABH",
+          "term": "Europe"
+        },
+        {
+          "depth": 3,
+          "cn": "AUZ.AAAAB.AAABH.AAAAR",
+          "term": "Luxembourg"
+        },
+        {
+          "depth": 6,
+          "cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAAM",
+          "term": "Brussels Hoofdstedelijk Gewest"
+        },
+        {
+          "depth": 7,
+          "cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAAM.AAAAJ",
+          "term": "Bruxelles"
+        }
+      ]
+    },
+    {
+      "id": 20594578,
+      "term": "Flanders",
+      "type": "Descriptor",
+      "certainty": null,
+      "path": [
+        {
+          "depth": 1,
+          "cn": "AUZ.AAAAB",
+          "term": "World"
+        },
+        {
+          "depth": 2,
+          "cn": "AUZ.AAAAB.AAABH",
+          "term": "Europe"
+        },
+        {
+          "depth": 3,
+          "cn": "AUZ.AAAAB.AAABH.AAASO",
+          "term": "Flanders"
+        }
+      ]
+    }
+  ],
+  "term_place_of_fabrication": null,
+  "term_place_name_at_creation": null,
+  "term_related_geography": null,
+  "term_find_spot": null,
+  "term_reign": null,
+  "term_dynasty": null,
+  "term_movement": null,
+  "term_school": null,
+  "term_materials": null,
+  "term_intended_market": null,
+  "place": {
+    "lvl0": [
+      "Europe"
+    ],
+    "lvl1": [
+      "Europe > Flanders",
+      "Europe > Luxembourg"
+    ],
+    "lvl2": [
+      "Europe > Luxembourg > Bruxelles"
+    ],
+    "lvl3": null,
+    "nodes": [
+      {
+        "value": "Europe > Luxembourg > Brussels Hoofdstedelijk Gewest",
+        "search_level": null,
+        "cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAAM"
+      },
+      {
+        "value": "Europe > Luxembourg > Brussels Hoofdstedelijk Gewest > Bruxelles",
+        "search_level": "lvl2",
+        "cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAAM.AAAAJ"
+      },
+      {
+        "value": "Europe > Luxembourg",
+        "search_level": "lvl1",
+        "cn": "AUZ.AAAAB.AAABH.AAAAR"
+      },
+      {
+        "value": "Europe",
+        "search_level": "lvl0",
+        "cn": "AUZ.AAAAB.AAABH"
+      },
+      {
+        "value": "Europe > Flanders",
+        "search_level": "lvl1",
+        "cn": "AUZ.AAAAB.AAABH.AAASO"
+      }
+    ],
+    "historic": false
+  },
+  "primary_artist": "Unknown artist",
+  "primary_artist_display": "Unknown artist",
+  "sort_artist": null,
+  "culture_group": null,
+  "display_year": "1500–40",
+  "doc_id": "1928.8",
+  "slug": "1928.8/jacob-and-rebekah-from-the-story-of-jacob-series",
+  "has_image": false,
+  "has_provenance": true,
+  "has_children": false,
+  "is_highlight": false,
+  "sort_year": 1500,
+  "_sample_meta": {
+    "reason": "Jacob and Rebekah (1928.8) — 2+ place_of_creation entries, exercises multi-region tagging",
+    "picked_at": "2026-05-26T12:50:36.842330+00:00",
+    "populated_fields": 38
+  }
 }

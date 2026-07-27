@@ -1,229 +1,244 @@
 {
-	"id": 99070,
-	"accession_number": "1999.131",
-	"sort_number": "1999.131",
-	"title": "Untitled (Two Figures)",
-	"display_date": "ca. 1947",
-	"begin_iso_date": "1942",
-	"end_iso_date": "1952",
-	"medium": "Oil and enamel paint, charcoal, and graphite on paper",
-	"medium_parts": ["Oil and enamel paint, charcoal, and graphite on paper"],
-	"dimensions": "22 1/2 x 22 in. (57.2 x 55.9 cm)",
-	"dimensions_display_primary": "22 1/2 x 22 in. (57.2 x 55.9 cm)",
-	"credit_line": "Museum purchase, Gift of Mrs. Paul L. Wattis",
-	"department": "Achenbach Foundation for Graphic Arts",
-	"classification": "Drawing",
-	"copyright": "© The Willem de Kooning Foundation / Artists Rights Society (ARS), New York",
-	"object_rights_type": "Copyright - ARS",
-	"on_view": false,
-	"last_modified": "2026-04-27 12:38:40.830000",
-	"is_virtual": false,
-	"identifying_description": "Abstracted figures of a man and a woman standing side by side. The woman has blond hair and wears a long green, red, and black gown. The man wears a tie and an orange jacket.",
-	"web_text": "Before and after immigrating to the United States in 1926, the young de Kooning supported himself by painting signs, designing window displays, and drawing cartoons. He remained interested in these kinds of commercial art forms even into the 1940s, when he was living in New York. His observation that the distorted, schematic appearance of male figures in a series of drawings begun at this time was inspired by the sight of men standing in the subway \"like manikins\" seems equally fitting to this drawing. In Untitled, the stiff, empty-headed male figure is matched by the woman, whose head is being manipulated by a pair of arms coming from behind her. However, her fractured, more expressively rendered figure leads to speculation that this pairing of motifs may have personal significance in terms of de Kooning's conflicted attitude toward women. Certainly, the handling of the female form in this drawing presaged his depictions of women in the paintings that were later to earn him the reputation as one of the masters of Abstract Expressionism.",
-	"didactic_label": "Before and after immigrating to the United States in 1926, the young de Kooning supported himself by painting signs, designing window displays, and drawing cartoons. He remained interested in these kinds of commercial art forms even into the 1940s, when he was living in New York. His observation that the distorted, schematic appearance of male figures in a series of drawings begun at this time was inspired by the sight of men standing in the subway \"like manikins\" seems equally fitting to this drawing. In Untitled. the stiff, empty-headed male figure is matched by the woman, whose head is being manipulated by a pair of arms coming from behind her. However, her fractured, more expressively rendered figure leads to speculation that this pairing of motifs may have personal significance in terms of de Kooning's conflicted attitude toward women. Certainly, the handling of the female form in this drawing presaged his depictions of women in the paintings that were later to earn him the reputation as one of the masters of Abstract Expressionism. --KB, Rembrandt to Thiebaud, pg. 44. (hgs 2/28/08)",
-	"exhibition_history_text": "Fine Arts Museums of San Francisco, Legion of Honor, 'Recent Acquisitions 1997-1999,' 8 April - 6 August 2000; Los Angeles, Museum of Contemporary Art, MOCA Gallery at the Pacific Design Center, San Francisco Museum of Modern Art and Washington, D.C., National Gallery of Art, 'Willem de Kooning: Tracing the Figure, 2002-2003; Fine Arts Museums of San Francisco, Legion of Honor, 'Rembrandt to Thiebaud: A Decade of Collecting Works on Paper,' 23 June - 7 October 2007, (cat. by Johnson, Robert Flynn, Karin Breuer, and Louise Siddons); New York Museum of Modern Art, 'De Kooning: A Retrospective,' 18 September 2011 - 9 January 2012",
-	"provenance": "The artist Traded to Bart Perry By descent",
-	"accession_iso_date": "1999-12-09",
-	"location_string": "Legion, 257, Bin, 213",
-	"location_building": "Legion",
-	"location_room": "Bin",
-	"titles": [
-		{
-			"Title": "Untitled (Two Figures)",
-			"TitleType": "Primary Title",
-			"TitleTypeDisplay": "Primary",
-			"Language": "(not assigned)",
-			"DisplayOrder": 1
-		}
-	],
-	"constituents": [
-		{
-			"ConstituentID": 9898,
-			"Role": "Artist",
-			"RoleID": 1,
-			"DisplayName": "Willem de Kooning",
-			"AlphaSort": "de Kooning,  Willem",
-			"Nationality": "American",
-			"BeginDate": 1904,
-			"EndDate": 1997,
-			"BeginDateISO": "1904",
-			"EndDateISO": "1997-03-19",
-			"DisplayDate": "American, born Holland, 1904–1997",
-			"Biography": "American, born Holland, 1904–1997",
-			"display_bios": [
-				{
-					"bio": "American, born Holland, 1904–1997",
-					"display_order": 1
-				},
-				{
-					"bio": "1904–1997",
-					"display_order": 2
-				}
-			],
-			"Institution": null,
-			"ConstituentType": "Individual",
-			"DisplayOrder": 1,
-			"DisplayLabel": "Willem de Kooning (American, born Holland, 1904–1997)"
-		}
-	],
-	"media": [
-		{
-			"media_xref_id": 180501,
-			"media_master_id": 197142,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Print Quality",
-			"copyright_status": "Copyright Owned by FAMSF",
-			"web_publishing_size": "4365 x 4502px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 4502,
-			"pixel_w": 4365
-		}
-	],
-	"exhibitions": [
-		{
-			"ExhibitionID": 517,
-			"ExhTitle": "Drawing the Line ",
-			"DisplayDate": "Saturday, August 5, 2023 - Sunday, February 25, 2024",
-			"BeginISODate": "2023-08-05",
-			"EndISODate": "2024-02-25",
-			"IsInHouse": true,
-			"VenueName": "Legion of Honor"
-		},
-		{
-			"ExhibitionID": 928,
-			"ExhTitle": "de Kooning Retrospective",
-			"DisplayDate": "Sunday, September 18, 2011 - Monday, January 9, 2012",
-			"BeginISODate": "2011-09-18",
-			"EndISODate": "2012-01-09",
-			"IsInHouse": false,
-			"VenueName": "The Museum of Modern Art"
-		},
-		{
-			"ExhibitionID": 1240,
-			"ExhTitle": "Willem de Kooning:  Tracing the Figure",
-			"DisplayDate": "Sunday, February 10, 2002 - Sunday, January 5, 2003",
-			"BeginISODate": "2002-02-10",
-			"EndISODate": "2003-01-05",
-			"IsInHouse": false,
-			"VenueName": "Museum of Contemporary Art"
-		},
-		{
-			"ExhibitionID": 1236,
-			"ExhTitle": "Willem de Kooning Drawing",
-			"DisplayDate": null,
-			"BeginISODate": "2026-06-14",
-			"EndISODate": "2027-01-17",
-			"IsInHouse": false,
-			"VenueName": "The Art Institute of Chicago"
-		}
-	],
-	"dimensions_structured": [
-		{
-			"DisplayDimensions": "22 1/2 x 22 in. (57.2 x 55.9 cm)",
-			"Description": null,
-			"ElementName": "Overall",
-			"Displayed": true,
-			"Rank": 1,
-			"measures": {
-				"height_cm": 57.2,
-				"width_cm": 55.9,
-				"depth_cm": null,
-				"height_in": 22.5,
-				"width_in": 22.0,
-				"depth_in": null
-			}
-		}
-	],
-	"associations": [],
-	"is_compound": false,
-	"term_rights_statement": [
-		{
-			"term": "Copyright status is copyrighted",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 0,
-					"cn": "AUT",
-					"term": "Keywords / Thesaurus"
-				},
-				{
-					"depth": 1,
-					"cn": "AUT.AAA",
-					"term": "Attributes"
-				},
-				{
-					"depth": 2,
-					"cn": "AUT.AAA.AAU",
-					"term": "Object Rights Statement"
-				},
-				{
-					"depth": 3,
-					"cn": "AUT.AAA.AAU.AAC",
-					"term": "Copyright status is copyrighted"
-				}
-			]
-		}
-	],
-	"term_related_geography": [
-		{
-			"term": "United States",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABZ",
-					"term": "North and Central America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
-					"term": "United States"
-				}
-			]
-		}
-	],
-	"primary_artist": "Willem de Kooning",
-	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/197142/info.json",
-	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/197142/full/300,/0/default.jpg",
-	"has_image": true,
-	"primary_artist_display": "Willem de Kooning (1904–1997)",
-	"display_year": "1942–52",
-	"provenance_structured": {
-		"lines": [
-			{
-				"order": 0,
-				"text": "The artist Traded to Bart Perry By descent",
-				"refs": [],
-				"is_uncertain": false
-			}
-		],
-		"footnotes": []
-	},
-	"has_iiif": true,
-	"has_provenance": true,
-	"has_children": false,
-	"sort_artist": "willem de kooning",
-	"sort_year": 1942,
-	"slug": "untitled-two-figures-1999-131",
-	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
-	"_sample_meta": {
-		"reason": "de Kooning, Untitled Two Figures (1999.131) — 1000+ char didactic label, exercises long-prose rendering",
-		"picked_at": "2026-05-26T12:50:36.842330+00:00",
-		"populated_fields": 50
-	}
+  "id": 99070,
+  "accession_number": "1999.131",
+  "sort_number": "1999.131",
+  "title": "Untitled (Two Figures)",
+  "date_display": "ca. 1947",
+  "date_start": "1942",
+  "date_end": "1952",
+  "medium": "Oil and enamel paint, charcoal, and graphite on paper",
+  "medium_parts": [
+    "Oil and enamel paint, charcoal, and graphite on paper"
+  ],
+  "credit_line": "Museum purchase, Gift of Mrs. Paul L. Wattis",
+  "department": "Achenbach Foundation for Graphic Arts",
+  "classification": "Drawing",
+  "subclassification": null,
+  "culture": null,
+  "copyright": "© The Willem de Kooning Foundation / Artists Rights Society (ARS), New York",
+  "object_rights_type": "Copyright - ARS",
+  "on_view": false,
+  "entered_date": "2021-11-23 00:00:00.000000",
+  "last_modified": "2026-04-27 12:38:40.830000",
+  "is_virtual": false,
+  "web_text": "Before and after immigrating to the United States in 1926, the young de Kooning supported himself by painting signs, designing window displays, and drawing cartoons. He remained interested in these kinds of commercial art forms even into the 1940s, when he was living in New York. His observation that the distorted, schematic appearance of male figures in a series of drawings begun at this time was inspired by the sight of men standing in the subway \"like manikins\" seems equally fitting to this drawing. In Untitled, the stiff, empty-headed male figure is matched by the woman, whose head is being manipulated by a pair of arms coming from behind her. However, her fractured, more expressively rendered figure leads to speculation that this pairing of motifs may have personal significance in terms of de Kooning's conflicted attitude toward women. Certainly, the handling of the female form in this drawing presaged his depictions of women in the paintings that were later to earn him the reputation as one of the masters of Abstract Expressionism.",
+  "didactic_label": "Before and after immigrating to the United States in 1926, the young de Kooning supported himself by painting signs, designing window displays, and drawing cartoons. He remained interested in these kinds of commercial art forms even into the 1940s, when he was living in New York. His observation that the distorted, schematic appearance of male figures in a series of drawings begun at this time was inspired by the sight of men standing in the subway \"like manikins\" seems equally fitting to this drawing. In Untitled. the stiff, empty-headed male figure is matched by the woman, whose head is being manipulated by a pair of arms coming from behind her. However, her fractured, more expressively rendered figure leads to speculation that this pairing of motifs may have personal significance in terms of de Kooning's conflicted attitude toward women. Certainly, the handling of the female form in this drawing presaged his depictions of women in the paintings that were later to earn him the reputation as one of the masters of Abstract Expressionism. --KB, Rembrandt to Thiebaud, pg. 44. (hgs 2/28/08)",
+  "exhibition_history_text": "Fine Arts Museums of San Francisco, Legion of Honor, 'Recent Acquisitions 1997-1999,' 8 April - 6 August 2000; Los Angeles, Museum of Contemporary Art, MOCA Gallery at the Pacific Design Center, San Francisco Museum of Modern Art and Washington, D.C., National Gallery of Art, 'Willem de Kooning: Tracing the Figure, 2002-2003; Fine Arts Museums of San Francisco, Legion of Honor, 'Rembrandt to Thiebaud: A Decade of Collecting Works on Paper,' 23 June - 7 October 2007, (cat. by Johnson, Robert Flynn, Karin Breuer, and Louise Siddons); New York Museum of Modern Art, 'De Kooning: A Retrospective,' 18 September 2011 - 9 January 2012",
+  "exhibition_history_lines": [
+    {
+      "order": 0,
+      "text": "Fine Arts Museums of San Francisco, Legion of Honor, 'Recent Acquisitions 1997-1999,' 8 April - 6 August 2000; Los Angeles, Museum of Contemporary Art, MOCA Gallery at the Pacific Design Center, San Francisco Museum of Modern Art and Washington, D.C., National Gallery of Art, 'Willem de Kooning: Tracing the Figure, 2002-2003; Fine Arts Museums of San Francisco, Legion of Honor, 'Rembrandt to Thiebaud: A Decade of Collecting Works on Paper,' 23 June - 7 October 2007, (cat. by Johnson, Robert Flynn, Karin Breuer, and Louise Siddons); New York Museum of Modern Art, 'De Kooning: A Retrospective,' 18 September 2011 - 9 January 2012"
+    }
+  ],
+  "bibliography_text": null,
+  "provenance": "The artist Traded to Bart Perry By descent",
+  "provenance_structured": {
+    "lines": [
+      {
+        "order": 0,
+        "text": "The artist Traded to Bart Perry By descent",
+        "refs": [],
+        "is_uncertain": false
+      }
+    ],
+    "footnotes": [],
+    "parsed": true
+  },
+  "label_text": null,
+  "publication_text": null,
+  "accession_iso_date": "1999-12-09",
+  "location_string": null,
+  "location_building": null,
+  "location_room": null,
+  "edition": null,
+  "titles": [
+    {
+      "title": "Untitled (Two Figures)",
+      "type": "Primary Title",
+      "active": true,
+      "language": "(not assigned)",
+      "display_order": 1
+    }
+  ],
+  "constituents": [
+    {
+      "id": 9898,
+      "role": "Artist",
+      "role_id": 1,
+      "name": "Willem de Kooning",
+      "name_sort": "de Kooning,  Willem",
+      "nationality": "American",
+      "place_born": "Holland",
+      "place_died": "New York",
+      "place_active": null,
+      "attribution_prefix": null,
+      "begin_date": 1904,
+      "end_date": 1997,
+      "dates": "American, born Holland, 1904–1997",
+      "institution": null,
+      "constituent_type": "Individual",
+      "display_order": 1,
+      "display_label": "Willem de Kooning (1904–1997)"
+    }
+  ],
+  "media": [
+    {
+      "media_xref_id": 180501,
+      "image_id": 197142,
+      "rank": 0,
+      "file_date": "2022-09-02T13:10:00.623000",
+      "primary": true,
+      "media_view": null,
+      "public_caption": null,
+      "copyright": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+      "copyright_status": "Copyright Owned by FAMSF",
+      "credit_line": "Photograph by Joseph McDonald, courtesy of the Fine Arts Museums of San Francisco",
+      "approved_for_web": false,
+      "media_type": "Image",
+      "height": 4502,
+      "width": 4365,
+      "file_name": "A076624_V1_crop.tif",
+      "file_path": "TMSShared/Media/All Staff/A076624_V1_crop.tif",
+      "iiif_id": "A076624_V1_crop",
+      "iiif_info_url": "https://iiif.famsf.org/iiif/3/A076624_V1_crop/info.json",
+      "iiif_image_url": "https://iiif.famsf.org/iiif/3/A076624_V1_crop/full/max/0/default.jpg",
+      "thumb_400_url": "https://iiif.famsf.org/iiif/3/A076624_V1_crop/thumb-400.webp",
+      "thumb_800_url": "https://iiif.famsf.org/iiif/3/A076624_V1_crop/thumb-800.webp",
+      "social_url": "https://iiif.famsf.org/iiif/3/A076624_V1_crop/social-1200.jpg",
+      "blurhash": "LFM?rC4;$y~Crv-pj^IV-ORPNHS4",
+      "iiif_width": 4365,
+      "iiif_height": 4502,
+      "color_swatches": null,
+      "source_key": null,
+      "run_id": null
+    }
+  ],
+  "primary_thumbnail_url": "https://iiif.famsf.org/iiif/3/A076624_V1_crop/thumb-400.webp",
+  "primary_social_url": "https://iiif.famsf.org/iiif/3/A076624_V1_crop/social-1200.jpg",
+  "primary_iiif_info_url": "https://iiif.famsf.org/iiif/3/A076624_V1_crop/info.json",
+  "primary_blurhash": "LFM?rC4;$y~Crv-pj^IV-ORPNHS4",
+  "has_iiif": true,
+  "dimensions": "22 1/2 x 22 in. (57.2 x 55.9 cm)",
+  "associations": [],
+  "highlights": [
+    {
+      "collection_slug": "achenbach-foundation-for-graphic-arts-web-highlights",
+      "collection_name": "Achenbach Foundation for Graphic Arts Web Highlights",
+      "rank": 64
+    }
+  ],
+  "editorial_related_content": {
+    "stories": null,
+    "events": null,
+    "audio_items": null
+  },
+  "physical_child_ids": null,
+  "virtual_parent_ids": null,
+  "virtual_child_ids": null,
+  "is_compound": false,
+  "term_rights_statement": [
+    {
+      "id": 16110965,
+      "term": "Copyrighted",
+      "type": "Descriptor",
+      "certainty": null,
+      "path": [
+        {
+          "depth": 0,
+          "cn": "AUT",
+          "term": "Keywords / Thesaurus"
+        },
+        {
+          "depth": 1,
+          "cn": "AUT.AAA",
+          "term": "Attributes"
+        },
+        {
+          "depth": 2,
+          "cn": "AUT.AAA.AAU",
+          "term": "Object Rights Statement"
+        },
+        {
+          "depth": 3,
+          "cn": "AUT.AAA.AAU.AAC",
+          "term": "Copyrighted"
+        }
+      ]
+    }
+  ],
+  "term_place_of_creation": null,
+  "term_place_of_fabrication": null,
+  "term_place_name_at_creation": null,
+  "term_related_geography": [
+    {
+      "id": 20843545,
+      "term": "United States",
+      "type": "Descriptor",
+      "certainty": null,
+      "path": [
+        {
+          "depth": 1,
+          "cn": "AUZ.AAAAB",
+          "term": "World"
+        },
+        {
+          "depth": 2,
+          "cn": "AUZ.AAAAB.AAABZ",
+          "term": "North and Central America"
+        },
+        {
+          "depth": 3,
+          "cn": "AUZ.AAAAB.AAABZ.AAAKC",
+          "term": "United States"
+        }
+      ]
+    }
+  ],
+  "term_find_spot": null,
+  "term_reign": null,
+  "term_dynasty": null,
+  "term_movement": null,
+  "term_school": null,
+  "term_materials": null,
+  "term_intended_market": null,
+  "place": {
+    "lvl0": [
+      "North America"
+    ],
+    "lvl1": [
+      "North America > United States"
+    ],
+    "lvl2": null,
+    "lvl3": null,
+    "nodes": [
+      {
+        "value": "North America > United States",
+        "search_level": "lvl1",
+        "cn": "AUZ.AAAAB.AAABZ.AAAKC"
+      },
+      {
+        "value": "North America",
+        "search_level": "lvl0",
+        "cn": "AUZ.AAAAB.AAABZ"
+      }
+    ],
+    "historic": false
+  },
+  "primary_artist": "Willem de Kooning",
+  "primary_artist_display": "Willem de Kooning (1904–1997)",
+  "sort_artist": "de Kooning,  Willem",
+  "culture_group": [],
+  "display_year": "1942–52",
+  "doc_id": "1999.131",
+  "slug": "1999.131/untitled-two-figures",
+  "has_image": true,
+  "has_provenance": true,
+  "has_children": false,
+  "is_highlight": true,
+  "sort_year": 1942,
+  "_sample_meta": {
+    "reason": "de Kooning, Untitled Two Figures (1999.131) — 1000+ char didactic label, exercises long-prose rendering",
+    "picked_at": "2026-05-26T12:50:36.842330+00:00",
+    "populated_fields": 50
+  }
 }

@@ -1,193 +1,228 @@
 {
-	"id": 231,
-	"accession_number": "1963.30.38317",
-	"sort_number": "1963.30.38317",
-	"title": "\"The Prince's cicerone\" from Vanity Fair Supplement",
-	"display_date": "ca. 1900",
-	"begin_iso_date": "1900",
-	"end_iso_date": "1900",
-	"medium": "Lithograph",
-	"medium_parts": ["Lithograph"],
-	"dimensions": "32.7 x 19.8 cm (image); 39 x 26.5 cm (sheet)",
-	"dimensions_display_primary": "12 7/8 x 7 13/16 in. (32.7 x 19.8 cm)",
-	"credit_line": "Achenbach Foundation for Graphic Arts",
-	"department": "Achenbach Foundation for Graphic Arts",
-	"classification": "Print",
-	"on_view": false,
-	"is_virtual": false,
-	"accession_iso_date": "1963-04-09",
-	"location_string": "Legion, 101, Shelf 15, F",
-	"location_building": "Legion",
-	"location_room": "Shelf 15",
-	"titles": [
-		{
-			"Title": "\"The Prince's cicerone\" from Vanity Fair Supplement",
-			"TitleType": "Primary Title",
-			"TitleTypeDisplay": "Primary",
-			"Language": "(not assigned)",
-			"DisplayOrder": 1
-		}
-	],
-	"constituents": [
-		{
-			"ConstituentID": 3019,
-			"Role": "Artist",
-			"RoleID": 1,
-			"DisplayName": "Leslie Matthew Ward, (Spy)",
-			"AlphaSort": "Ward, Leslie (Spy)",
-			"Nationality": "English",
-			"BeginDate": 1851,
-			"EndDate": 1922,
-			"BeginDateISO": "1851",
-			"EndDateISO": "1922",
-			"DisplayDate": "1851–1922",
-			"Biography": "1851–1922",
-			"display_bios": [
-				{
-					"bio": "1851–1922",
-					"display_order": 1
-				},
-				{
-					"bio": "1851–1922",
-					"display_order": 2
-				}
-			],
-			"Institution": null,
-			"ConstituentType": "Individual",
-			"DisplayOrder": 1,
-			"DisplayLabel": "Leslie Matthew Ward, (Spy) (1851–1922)"
-		},
-		{
-			"ConstituentID": 18031,
-			"Role": "Publisher",
-			"RoleID": 39,
-			"DisplayName": "Vincent Brooks Day & Son",
-			"AlphaSort": "Vincent Brooks Day & Son",
-			"Nationality": "British",
-			"BeginDate": null,
-			"EndDate": null,
-			"BeginDateISO": null,
-			"EndDateISO": null,
-			"DisplayDate": "active 19th century",
-			"Biography": "active 19th century",
-			"display_bios": [
-				{
-					"bio": "active 19th century",
-					"display_order": 1
-				},
-				{
-					"bio": "active 19th century",
-					"display_order": 2
-				}
-			],
-			"Institution": null,
-			"ConstituentType": "Entity",
-			"DisplayOrder": 2,
-			"DisplayLabel": "Vincent Brooks Day & Son (active 19th century)"
-		}
-	],
-	"media": [
-		{
-			"media_xref_id": 78171,
-			"media_master_id": 122846,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": null,
-			"photographer": null,
-			"credit_line": null,
-			"use_quality": "Web / Digital Quality",
-			"copyright_status": null,
-			"web_publishing_size": "1550 x 2510px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 2510,
-			"pixel_w": 1550
-		}
-	],
-	"exhibitions": [],
-	"dimensions_structured": [
-		{
-			"DisplayDimensions": "12 7/8 x 7 13/16 in. (32.7 x 19.8 cm)",
-			"Description": null,
-			"ElementName": "Image",
-			"Displayed": true,
-			"Rank": 1,
-			"measures": {
-				"height_cm": 32.7,
-				"width_cm": 19.8,
-				"depth_cm": null,
-				"height_in": 12.875,
-				"width_in": 7.8125,
-				"depth_in": null
-			}
-		},
-		{
-			"DisplayDimensions": "15 3/8 x 10 7/16 in. (39 x 26.5 cm)",
-			"Description": null,
-			"ElementName": "x_Do not use_Sheet (4D)",
-			"Displayed": true,
-			"Rank": 2,
-			"measures": {
-				"height_cm": 39.0,
-				"width_cm": 26.5,
-				"depth_cm": null,
-				"height_in": 15.375,
-				"width_in": 10.4375,
-				"depth_in": null
-			}
-		}
-	],
-	"associations": [],
-	"is_compound": false,
-	"term_related_geography": [
-		{
-			"term": "England",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABH",
-					"term": "Europe"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABH.AAADQ",
-					"term": "Northern Europe"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAABT",
-					"term": "England"
-				}
-			]
-		}
-	],
-	"primary_artist": "Leslie Matthew Ward, (Spy)",
-	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/122846/info.json",
-	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/122846/full/300,/0/default.jpg",
-	"has_image": true,
-	"primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
-	"display_year": "1900",
-	"has_iiif": true,
-	"has_provenance": false,
-	"has_children": false,
-	"sort_artist": "leslie matthew ward, (spy)",
-	"sort_year": 1900,
-	"slug": "the-prince-s-cicerone-from-vanity-fair-supplement-1963-30-38317",
-	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
-	"_sample_meta": {
-		"reason": "Leslie Matthew Ward (Spy), The Prince's cicerone, Vanity Fair (1963.30.38317) — 33 fields, true median, IIIF",
-		"picked_at": "2026-05-26T12:50:36.842330+00:00",
-		"populated_fields": 39
-	}
+  "id": 231,
+  "accession_number": "1963.30.38317",
+  "sort_number": "1963.30.38317",
+  "title": "\"The Prince's cicerone\" from Vanity Fair Supplement",
+  "date_display": "ca. 1900",
+  "date_start": "1900",
+  "date_end": "1900",
+  "medium": "Lithograph",
+  "medium_parts": [
+    "Lithograph"
+  ],
+  "credit_line": "Achenbach Foundation for Graphic Arts",
+  "department": "Achenbach Foundation for Graphic Arts",
+  "classification": "Print",
+  "subclassification": null,
+  "culture": null,
+  "copyright": null,
+  "object_rights_type": null,
+  "on_view": false,
+  "entered_date": "2021-11-23 00:00:00.000000",
+  "last_modified": null,
+  "is_virtual": false,
+  "web_text": null,
+  "didactic_label": null,
+  "exhibition_history_text": null,
+  "exhibition_history_lines": [],
+  "bibliography_text": null,
+  "provenance": null,
+  "provenance_structured": {
+    "lines": [],
+    "footnotes": [],
+    "parsed": false
+  },
+  "label_text": null,
+  "publication_text": null,
+  "accession_iso_date": "1963-04-09",
+  "location_string": null,
+  "location_building": null,
+  "location_room": null,
+  "edition": null,
+  "titles": [
+    {
+      "title": "\"The Prince's cicerone\" from Vanity Fair Supplement",
+      "type": "Primary Title",
+      "active": true,
+      "language": "(not assigned)",
+      "display_order": 1
+    }
+  ],
+  "constituents": [
+    {
+      "id": 3019,
+      "role": "Artist",
+      "role_id": 1,
+      "name": "Leslie Matthew Ward, (Spy)",
+      "name_sort": "Ward, Leslie (Spy)",
+      "nationality": "English",
+      "place_born": null,
+      "place_died": null,
+      "place_active": null,
+      "attribution_prefix": null,
+      "begin_date": 1851,
+      "end_date": 1922,
+      "dates": "1851–1922",
+      "institution": null,
+      "constituent_type": "Individual",
+      "display_order": 1,
+      "display_label": "Leslie Matthew Ward, (Spy) (1851–1922)"
+    },
+    {
+      "id": 18031,
+      "role": "Publisher",
+      "role_id": 39,
+      "name": "Vincent Brooks Day & Son",
+      "name_sort": "Vincent Brooks Day & Son",
+      "nationality": "British",
+      "place_born": null,
+      "place_died": null,
+      "place_active": null,
+      "attribution_prefix": null,
+      "begin_date": null,
+      "end_date": null,
+      "dates": "active 19th century",
+      "institution": null,
+      "constituent_type": "Entity",
+      "display_order": 2,
+      "display_label": "Vincent Brooks Day & Son"
+    }
+  ],
+  "media": [
+    {
+      "media_xref_id": 78171,
+      "image_id": 122846,
+      "rank": 1,
+      "file_date": "2023-02-27T07:06:00",
+      "primary": true,
+      "media_view": null,
+      "public_caption": null,
+      "copyright": "Courtesy of the Fine Arts Museums of San Francisco",
+      "copyright_status": "Copyright Owned by FAMSF",
+      "credit_line": "Courtesy of the Fine Arts Museums of San Francisco",
+      "approved_for_web": false,
+      "media_type": "Image",
+      "height": 2510,
+      "width": 1550,
+      "file_name": "6103165124690012.jpg",
+      "file_path": "TMSShared/Media/db_photo/PictionLegacy_u263/6103165124690012.jpg",
+      "iiif_id": null,
+      "iiif_info_url": null,
+      "iiif_image_url": null,
+      "thumb_400_url": null,
+      "thumb_800_url": null,
+      "social_url": null,
+      "blurhash": null,
+      "iiif_width": null,
+      "iiif_height": null,
+      "color_swatches": null,
+      "source_key": null,
+      "run_id": null
+    }
+  ],
+  "primary_thumbnail_url": null,
+  "primary_social_url": null,
+  "primary_iiif_info_url": null,
+  "primary_blurhash": null,
+  "has_iiif": false,
+  "dimensions": "32.7 x 19.8 cm (image); 39 x 26.5 cm (sheet)",
+  "associations": [],
+  "highlights": [],
+  "editorial_related_content": {
+    "stories": null,
+    "events": null,
+    "audio_items": null
+  },
+  "physical_child_ids": null,
+  "virtual_parent_ids": null,
+  "virtual_child_ids": null,
+  "is_compound": false,
+  "term_rights_statement": null,
+  "term_place_of_creation": null,
+  "term_place_of_fabrication": null,
+  "term_place_name_at_creation": null,
+  "term_related_geography": [
+    {
+      "id": 19735273,
+      "term": "England",
+      "type": "Descriptor",
+      "certainty": null,
+      "path": [
+        {
+          "depth": 1,
+          "cn": "AUZ.AAAAB",
+          "term": "World"
+        },
+        {
+          "depth": 2,
+          "cn": "AUZ.AAAAB.AAABH",
+          "term": "Europe"
+        },
+        {
+          "depth": 3,
+          "cn": "AUZ.AAAAB.AAABH.AAADQ",
+          "term": "Northern Europe"
+        },
+        {
+          "depth": 5,
+          "cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAABT",
+          "term": "England"
+        }
+      ]
+    }
+  ],
+  "term_find_spot": null,
+  "term_reign": null,
+  "term_dynasty": null,
+  "term_movement": null,
+  "term_school": null,
+  "term_materials": null,
+  "term_intended_market": null,
+  "place": {
+    "lvl0": [
+      "Europe"
+    ],
+    "lvl1": [
+      "Europe > Northern Europe"
+    ],
+    "lvl2": [
+      "Europe > Northern Europe > England"
+    ],
+    "lvl3": null,
+    "nodes": [
+      {
+        "value": "Europe",
+        "search_level": "lvl0",
+        "cn": "AUZ.AAAAB.AAABH"
+      },
+      {
+        "value": "Europe > Northern Europe > England",
+        "search_level": "lvl2",
+        "cn": "AUZ.AAAAB.AAABH.AAADQ.AAAAE.AAABT"
+      },
+      {
+        "value": "Europe > Northern Europe",
+        "search_level": "lvl1",
+        "cn": "AUZ.AAAAB.AAABH.AAADQ"
+      }
+    ],
+    "historic": false
+  },
+  "primary_artist": "Leslie Matthew Ward, (Spy)",
+  "primary_artist_display": "Leslie Matthew Ward, (Spy) (1851–1922)",
+  "sort_artist": "Ward, Leslie (Spy)",
+  "culture_group": [],
+  "display_year": "1900",
+  "doc_id": "1963.30.38317",
+  "slug": "1963.30.38317/the-prince-s-cicerone-from-vanity-fair-supplement",
+  "has_image": true,
+  "has_provenance": false,
+  "has_children": false,
+  "is_highlight": false,
+  "sort_year": 1900,
+  "_sample_meta": {
+    "reason": "Leslie Matthew Ward (Spy), The Prince's cicerone, Vanity Fair (1963.30.38317) — 33 fields, true median, IIIF",
+    "picked_at": "2026-05-26T12:50:36.842330+00:00",
+    "populated_fields": 39
+  }
 }

@@ -1,234 +1,291 @@
 {
-	"id": 128513,
-	"accession_number": "2011.38.8.1-209",
-	"sort_number": "2011.38.8.1-209",
-	"title": "Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925)",
-	"display_date": "1925",
-	"begin_iso_date": "1925",
-	"end_iso_date": "1925",
-	"medium": "book with woodcuts",
-	"medium_parts": ["book with woodcuts"],
-	"dimensions": "Object: 320 x 240 x 89 mm (12 5/8 x 9 7/16 x 3 1/2 in.)",
-	"dimensions_display_primary": "12 5/8 x 9 7/16 x 3 1/2 in. (32 x 24 x 8.9 cm)",
-	"credit_line": "Gift of Earl M. Collier, Jr. in honor of Ann and Bill Anderson",
-	"department": "Achenbach Foundation for Graphic Arts",
-	"classification": "Artist's Book",
-	"copyright": "© Estate of Maurice Denis / Artists Rights Society (ARS), New York",
-	"object_rights_type": "Copyright - ARS",
-	"on_view": false,
-	"last_modified": "2016-09-19 00:00:00.000000",
-	"is_virtual": false,
-	"exhibition_history_text": "CPLH, Logan Gallery, The Book and the Binding, 17 Nov 2012 - 12 May 2013.",
-	"accession_iso_date": "2011-12-21",
-	"location_string": "Legion, 253, Shelf 07, 02D",
-	"location_building": "Legion",
-	"location_room": "Shelf 07",
-	"titles": [
-		{
-			"Title": "Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925)",
-			"TitleType": "Primary Title",
-			"TitleTypeDisplay": "Primary",
-			"Language": "(not assigned)",
-			"DisplayOrder": 1
-		}
-	],
-	"constituents": [
-		{
-			"ConstituentID": 9946,
-			"Role": "Artist",
-			"RoleID": 1,
-			"DisplayName": "Maurice Denis",
-			"AlphaSort": "Maurice Denis",
-			"Nationality": "French",
-			"BeginDate": 1870,
-			"EndDate": 1943,
-			"BeginDateISO": "1870-11-25",
-			"EndDateISO": "1943-11-13",
-			"DisplayDate": "1870–1943",
-			"Biography": "1870–1943",
-			"display_bios": [
-				{
-					"bio": "1870–1943",
-					"display_order": 1
-				},
-				{
-					"bio": "1870–1943",
-					"display_order": 2
-				}
-			],
-			"Institution": null,
-			"ConstituentType": "Individual",
-			"DisplayOrder": 1,
-			"DisplayLabel": "Maurice Denis (1870–1943)"
-		},
-		{
-			"ConstituentID": 9946,
-			"Role": "Author",
-			"RoleID": 47,
-			"DisplayName": "Maurice Denis",
-			"AlphaSort": "Maurice Denis",
-			"Nationality": "French",
-			"BeginDate": 1870,
-			"EndDate": 1943,
-			"BeginDateISO": "1870-11-25",
-			"EndDateISO": "1943-11-13",
-			"DisplayDate": "1870–1943",
-			"Biography": "1870–1943",
-			"display_bios": [
-				{
-					"bio": "1870–1943",
-					"display_order": 1
-				},
-				{
-					"bio": "1870–1943",
-					"display_order": 2
-				}
-			],
-			"Institution": null,
-			"ConstituentType": "Individual",
-			"DisplayOrder": 2,
-			"DisplayLabel": "Maurice Denis (1870–1943)"
-		},
-		{
-			"ConstituentID": 17470,
-			"Role": "Publisher",
-			"RoleID": 39,
-			"DisplayName": "Jacques Beltrand",
-			"AlphaSort": "Jacques Beltrand",
-			"Nationality": null,
-			"BeginDate": null,
-			"EndDate": null,
-			"BeginDateISO": null,
-			"EndDateISO": null,
-			"DisplayDate": null,
-			"Biography": null,
-			"display_bios": null,
-			"Institution": null,
-			"ConstituentType": "Individual",
-			"DisplayOrder": 3,
-			"DisplayLabel": "Jacques Beltrand"
-		}
-	],
-	"media": [
-		{
-			"media_xref_id": 140105,
-			"media_master_id": 151968,
-			"rank": 1,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Web / Digital Quality",
-			"copyright_status": null,
-			"web_publishing_size": "2263 x 3000px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 3000,
-			"pixel_w": 2263
-		}
-	],
-	"exhibitions": [],
-	"dimensions_structured": [
-		{
-			"DisplayDimensions": "12 5/8 x 9 7/16 x 3 1/2 in. (32 x 24 x 8.9 cm)",
-			"Description": null,
-			"ElementName": "x_Do not use_Object (4D)",
-			"Displayed": true,
-			"Rank": 1,
-			"measures": {
-				"height_cm": 32.0,
-				"width_cm": 24.0,
-				"depth_cm": 8.9,
-				"height_in": 12.625,
-				"width_in": 9.4375,
-				"depth_in": 3.5
-			}
-		}
-	],
-	"associations": [],
-	"is_compound": true,
-	"term_rights_statement": [
-		{
-			"term": "Copyright status is copyrighted",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 0,
-					"cn": "AUT",
-					"term": "Keywords / Thesaurus"
-				},
-				{
-					"depth": 1,
-					"cn": "AUT.AAA",
-					"term": "Attributes"
-				},
-				{
-					"depth": 2,
-					"cn": "AUT.AAA.AAU",
-					"term": "Object Rights Statement"
-				},
-				{
-					"depth": 3,
-					"cn": "AUT.AAA.AAU.AAC",
-					"term": "Copyright status is copyrighted"
-				}
-			]
-		}
-	],
-	"term_related_geography": [
-		{
-			"term": "Paris",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABH",
-					"term": "Europe"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABH.AAASY",
-					"term": "France"
-				},
-				{
-					"depth": 4,
-					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME",
-					"term": "Île-de-France"
-				},
-				{
-					"depth": 5,
-					"cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AABMN",
-					"term": "Paris"
-				}
-			]
-		}
-	],
-	"primary_artist": "Maurice Denis",
-	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/151968/info.json",
-	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/151968/full/300,/0/default.jpg",
-	"has_image": true,
-	"primary_artist_display": "Maurice Denis (1870–1943)",
-	"display_year": "1925",
-	"has_iiif": true,
-	"has_provenance": false,
-	"has_children": false,
-	"sort_artist": "maurice denis",
-	"sort_year": 1925,
-	"slug": "carnets-de-voyage-en-italie-by-maurice-denis-paris-jacques-beltran-1925-2011-38-8-1-209",
-	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
-	"_sample_meta": {
-		"reason": "Maurice Denis, Carnets de Voyage en Italie (2011.38.8.1-209) — compound parent, portfolio of 209 plates",
-		"picked_at": "2026-05-26T12:50:36.842330+00:00",
-		"populated_fields": 44
-	}
+  "id": 128513,
+  "accession_number": "2011.38.8.1-209",
+  "sort_number": "2011.38.8.1-209",
+  "title": "Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925)",
+  "date_display": "1925",
+  "date_start": "1925",
+  "date_end": "1925",
+  "medium": "book with woodcuts",
+  "medium_parts": [
+    "book with woodcuts"
+  ],
+  "credit_line": "Gift of Earl M. Collier, Jr. in honor of Ann and Bill Anderson",
+  "department": "Achenbach Foundation for Graphic Arts",
+  "classification": "Artist's Book",
+  "subclassification": null,
+  "culture": null,
+  "copyright": "© Estate of Maurice Denis / Artists Rights Society (ARS), New York",
+  "object_rights_type": "Copyright - ARS",
+  "on_view": false,
+  "entered_date": "2021-11-23 00:00:00.000000",
+  "last_modified": "2016-09-19 00:00:00.000000",
+  "is_virtual": false,
+  "web_text": null,
+  "didactic_label": null,
+  "exhibition_history_text": "CPLH, Logan Gallery, The Book and the Binding, 17 Nov 2012 - 12 May 2013.",
+  "exhibition_history_lines": [
+    {
+      "order": 0,
+      "text": "CPLH, Logan Gallery, The Book and the Binding, 17 Nov 2012 - 12 May 2013."
+    }
+  ],
+  "bibliography_text": null,
+  "provenance": null,
+  "provenance_structured": {
+    "lines": [],
+    "footnotes": [],
+    "parsed": false
+  },
+  "label_text": null,
+  "publication_text": null,
+  "accession_iso_date": "2011-12-21",
+  "location_string": null,
+  "location_building": null,
+  "location_room": null,
+  "edition": null,
+  "titles": [
+    {
+      "title": "Carnets de Voyage en Italie by Maurice Denis (Paris: Jacques Beltran, 1925)",
+      "type": "Primary Title",
+      "active": true,
+      "language": "(not assigned)",
+      "display_order": 1
+    }
+  ],
+  "constituents": [
+    {
+      "id": 9946,
+      "role": "Artist",
+      "role_id": 1,
+      "name": "Maurice Denis",
+      "name_sort": "Maurice Denis",
+      "nationality": "French",
+      "place_born": null,
+      "place_died": "Paris",
+      "place_active": null,
+      "attribution_prefix": null,
+      "begin_date": 1870,
+      "end_date": 1943,
+      "dates": "1870–1943",
+      "institution": null,
+      "constituent_type": "Individual",
+      "display_order": 1,
+      "display_label": "Maurice Denis (1870–1943)"
+    },
+    {
+      "id": 9946,
+      "role": "Author",
+      "role_id": 47,
+      "name": "Maurice Denis",
+      "name_sort": "Maurice Denis",
+      "nationality": "French",
+      "place_born": null,
+      "place_died": "Paris",
+      "place_active": null,
+      "attribution_prefix": null,
+      "begin_date": 1870,
+      "end_date": 1943,
+      "dates": "1870–1943",
+      "institution": null,
+      "constituent_type": "Individual",
+      "display_order": 2,
+      "display_label": "Maurice Denis (1870–1943)"
+    },
+    {
+      "id": 17470,
+      "role": "Publisher",
+      "role_id": 39,
+      "name": "Jacques Beltrand",
+      "name_sort": "Jacques Beltrand",
+      "nationality": null,
+      "place_born": null,
+      "place_died": null,
+      "place_active": null,
+      "attribution_prefix": null,
+      "begin_date": null,
+      "end_date": null,
+      "dates": null,
+      "institution": null,
+      "constituent_type": "Individual",
+      "display_order": 3,
+      "display_label": "Jacques Beltrand"
+    }
+  ],
+  "media": [
+    {
+      "media_xref_id": 140105,
+      "image_id": 151968,
+      "rank": 1,
+      "file_date": "2023-02-27T07:22:16",
+      "primary": true,
+      "media_view": null,
+      "public_caption": null,
+      "copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "copyright_status": "Copyright Owned by FAMSF",
+      "credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "approved_for_web": false,
+      "media_type": "Image",
+      "height": 3000,
+      "width": 2263,
+      "file_name": "0508201212490007.jpg",
+      "file_path": "TMSShared/Media/db_photo/PictionLegacy_u272/0508201212490007.jpg",
+      "iiif_id": null,
+      "iiif_info_url": null,
+      "iiif_image_url": null,
+      "thumb_400_url": null,
+      "thumb_800_url": null,
+      "social_url": null,
+      "blurhash": null,
+      "iiif_width": null,
+      "iiif_height": null,
+      "color_swatches": null,
+      "source_key": null,
+      "run_id": null
+    }
+  ],
+  "primary_thumbnail_url": null,
+  "primary_social_url": null,
+  "primary_iiif_info_url": null,
+  "primary_blurhash": null,
+  "has_iiif": false,
+  "dimensions": "Object: 320 x 240 x 89 mm (12 5/8 x 9 7/16 x 3 1/2 in.)",
+  "associations": [],
+  "highlights": [],
+  "editorial_related_content": {
+    "stories": null,
+    "events": null,
+    "audio_items": null
+  },
+  "physical_child_ids": null,
+  "virtual_parent_ids": null,
+  "virtual_child_ids": null,
+  "is_compound": true,
+  "term_rights_statement": [
+    {
+      "id": 16110965,
+      "term": "Copyrighted",
+      "type": "Descriptor",
+      "certainty": null,
+      "path": [
+        {
+          "depth": 0,
+          "cn": "AUT",
+          "term": "Keywords / Thesaurus"
+        },
+        {
+          "depth": 1,
+          "cn": "AUT.AAA",
+          "term": "Attributes"
+        },
+        {
+          "depth": 2,
+          "cn": "AUT.AAA.AAU",
+          "term": "Object Rights Statement"
+        },
+        {
+          "depth": 3,
+          "cn": "AUT.AAA.AAU.AAC",
+          "term": "Copyrighted"
+        }
+      ]
+    }
+  ],
+  "term_place_of_creation": null,
+  "term_place_of_fabrication": null,
+  "term_place_name_at_creation": null,
+  "term_related_geography": [
+    {
+      "id": 17716136,
+      "term": "Paris",
+      "type": "Descriptor",
+      "certainty": null,
+      "path": [
+        {
+          "depth": 1,
+          "cn": "AUZ.AAAAB",
+          "term": "World"
+        },
+        {
+          "depth": 2,
+          "cn": "AUZ.AAAAB.AAABH",
+          "term": "Europe"
+        },
+        {
+          "depth": 3,
+          "cn": "AUZ.AAAAB.AAABH.AAASY",
+          "term": "France"
+        },
+        {
+          "depth": 4,
+          "cn": "AUZ.AAAAB.AAABH.AAASY.AAAME",
+          "term": "Île-de-France"
+        },
+        {
+          "depth": 5,
+          "cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AABMN",
+          "term": "Paris"
+        }
+      ]
+    }
+  ],
+  "term_find_spot": null,
+  "term_reign": null,
+  "term_dynasty": null,
+  "term_movement": null,
+  "term_school": null,
+  "term_materials": null,
+  "term_intended_market": null,
+  "place": {
+    "lvl0": [
+      "Europe"
+    ],
+    "lvl1": [
+      "Europe > France"
+    ],
+    "lvl2": [
+      "Europe > France > Paris"
+    ],
+    "lvl3": null,
+    "nodes": [
+      {
+        "value": "Europe",
+        "search_level": "lvl0",
+        "cn": "AUZ.AAAAB.AAABH"
+      },
+      {
+        "value": "Europe > France > Île-de-France",
+        "search_level": null,
+        "cn": "AUZ.AAAAB.AAABH.AAASY.AAAME"
+      },
+      {
+        "value": "Europe > France > Île-de-France > Paris",
+        "search_level": "lvl2",
+        "cn": "AUZ.AAAAB.AAABH.AAASY.AAAME.AABMN"
+      },
+      {
+        "value": "Europe > France",
+        "search_level": "lvl1",
+        "cn": "AUZ.AAAAB.AAABH.AAASY"
+      }
+    ],
+    "historic": false
+  },
+  "primary_artist": "Maurice Denis",
+  "primary_artist_display": "Maurice Denis (1870–1943)",
+  "sort_artist": "Maurice Denis",
+  "culture_group": [],
+  "display_year": "1925",
+  "doc_id": "2011.38.8.1-209",
+  "slug": "2011.38.8.1-209/carnets-de-voyage-en-italie-by-maurice-denis-paris-jacques-beltran-1925",
+  "has_image": true,
+  "has_provenance": false,
+  "has_children": false,
+  "is_highlight": false,
+  "sort_year": 1925,
+  "_sample_meta": {
+    "reason": "Maurice Denis, Carnets de Voyage en Italie (2011.38.8.1-209) — compound parent, portfolio of 209 plates",
+    "picked_at": "2026-05-26T12:50:36.842330+00:00",
+    "populated_fields": 44
+  }
 }

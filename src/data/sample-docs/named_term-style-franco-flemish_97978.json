@@ -1,206 +1,228 @@
 {
-	"id": 97978,
-	"accession_number": "1969.15",
-	"sort_number": "1969.15",
-	"title": "Abraham and Melchizedek",
-	"object_name": "tapestry, hanging",
-	"display_date": "ca. 1475",
-	"begin_iso_date": "1475",
-	"end_iso_date": "1475",
-	"medium": "wool, silk; tapestry weave",
-	"medium_parts": ["wool, silk", "tapestry weave"],
-	"dimensions": "427 x 376 cm (168 1/8 x 148 1/16 in.)",
-	"dimensions_display_primary": "168 1/8 x 148 in. (427 x 376 cm)",
-	"credit_line": "Gift of the Provident Securities Company",
-	"department": "Costume and Textile Arts",
-	"classification": "Fiber Art",
-	"object_rights_type": "Public Domain",
-	"on_view": false,
-	"last_modified": "2022-09-19 17:14:23.210000",
-	"is_virtual": false,
-	"identifying_description": "Scene illustrating the story of Abraham and Melchizedek from the Book of Genesis.",
-	"web_text": "Old EDEC Label Text:Abraham and MelchizedekFranco-Flemish, probably Tournai, 1460-1470Wool, silk; tapestry weaveGift of the Provident Securities Co. 1969.15This story from the Book of Genesis tells the meeting of Abraham and Melchizedek after the battle of Dan. Melchizedek, the priest-king of Salem, brings bread and wine to the patriarch and blesses him. Abraham offers Melchizedek one tenth of his plunder. The tapestry is divided compositionally along the diagonal line-the battle in progress is shown at the left and the meeting of the two men at the right. Abraham, with his flowing beard, gently bends his armored knee as he takes the bread and wine from Melchizedek, adorned in elaborate robes and a bejeweled crown. The high horizon, flattening of forms, and extreme chaos of the battle scene are typical of the Tournai tapestries of the time.",
-	"didactic_label": "This story from the Book of Genesis tells the meeting of Abraham and Melchizedek after the battle of Dan. Melchizedek, the priest-king of Salem, brings bread and wine to the patriarch and blesses him. Abraham offers Melchizedek one tenth of his plunder. The tapestry is divided compositionally along the diagonal line-the battle in progress is shown at the left and the meeting of the two men at the right. Abraham, with his flowing beard, gently bends his armored knee as he takes the bread and wine from Melchizedek, adorned in elaborate robes and a bejeweled crown. The high horizon, flattening of forms, and extreme chaos of the battle scene are typical of the Tournai tapestries of the time.",
-	"exhibition_history_text": "Five Centuries of Tapestry, Fine Arts Museums of San Francisco, Legion of Honor, 1976\nNational Tour: Five Centuries of Tapestry, Art Gallery of the University of Rochester, New York, 12/3/77- 1/29/78; Fine Arts Gallery of San Diego, 5/13/78 - 7/2/78; Museum of Fine Arts, Dallas, 9/13/78 - 10/29/78\nGallery Rotation, Fine Arts Museums of San Francisco, Legion of Honor, 5/06 - 5/07",
-	"provenance": "Felix Doisteau CollectionSale, Hotel Drouot, 22-25 November,1909, no. 438Mr. and Mrs. William H. Crocker Collection",
-	"accession_iso_date": "1970-10-26",
-	"location_string": "Legion, 101, Tapestry Rack 11, G",
-	"location_building": "Legion",
-	"location_room": "Tapestry Rack 11",
-	"titles": [
-		{
-			"Title": "Abraham and Melchizedek",
-			"TitleType": "Primary Title",
-			"TitleTypeDisplay": "Primary",
-			"Language": "(not assigned)",
-			"DisplayOrder": 1
-		}
-	],
-	"constituents": [],
-	"media": [],
-	"exhibitions": [],
-	"dimensions_structured": [
-		{
-			"DisplayDimensions": "168 1/8 x 148 in. (427 x 376 cm)",
-			"Description": null,
-			"ElementName": "x_Do not use_Overall (4D)",
-			"Displayed": true,
-			"Rank": 1,
-			"measures": {
-				"height_cm": 427.0,
-				"width_cm": 376.0,
-				"depth_cm": null,
-				"height_in": 168.125,
-				"width_in": 148.0,
-				"depth_in": null
-			}
-		}
-	],
-	"associations": [],
-	"is_compound": false,
-	"term_rights_statement": [
-		{
-			"term": "Copyright status is public domain",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 0,
-					"cn": "AUT",
-					"term": "Keywords / Thesaurus"
-				},
-				{
-					"depth": 1,
-					"cn": "AUT.AAA",
-					"term": "Attributes"
-				},
-				{
-					"depth": 2,
-					"cn": "AUT.AAA.AAU",
-					"term": "Object Rights Statement"
-				},
-				{
-					"depth": 3,
-					"cn": "AUT.AAA.AAU.AAB",
-					"term": "Copyright status is public domain"
-				}
-			]
-		}
-	],
-	"term_place_of_creation": [
-		{
-			"term": "Tournai",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABH",
-					"term": "Europe"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABH.AAAAR",
-					"term": "Luxembourg"
-				},
-				{
-					"depth": 6,
-					"cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAEQ",
-					"term": "Wallonne, Région"
-				},
-				{
-					"depth": 7,
-					"cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAEQ.AAAAC",
-					"term": "Hainaut, Province de"
-				},
-				{
-					"depth": 8,
-					"cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAEQ.AAAAC.AADHJ",
-					"term": "Tournai"
-				}
-			]
-		}
-	],
-	"term_style": [
-		{
-			"term": "Franco-Flemish",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUY.AAD",
-					"term": "Styles and Periods Facet"
-				},
-				{
-					"depth": 2,
-					"cn": "AUY.AAD.AAA",
-					"term": "Styles and Periods"
-				},
-				{
-					"depth": 3,
-					"cn": "AUY.AAD.AAA.AAB",
-					"term": "styles, periods, and cultures by region"
-				},
-				{
-					"depth": 4,
-					"cn": "AUY.AAD.AAA.AAB.AAI",
-					"term": "European"
-				},
-				{
-					"depth": 5,
-					"cn": "AUY.AAD.AAA.AAB.AAI.AAH",
-					"term": "Medieval styles and periods"
-				},
-				{
-					"depth": 6,
-					"cn": "AUY.AAD.AAA.AAB.AAI.AAH.AAA",
-					"term": "Medieval"
-				},
-				{
-					"depth": 7,
-					"cn": "AUY.AAD.AAA.AAB.AAI.AAH.AAA.AAG",
-					"term": "Medieval regional styles"
-				},
-				{
-					"depth": 8,
-					"cn": "AUY.AAD.AAA.AAB.AAI.AAH.AAA.AAG.AAC",
-					"term": "Northern European Medieval styles"
-				},
-				{
-					"depth": 9,
-					"cn": "AUY.AAD.AAA.AAB.AAI.AAH.AAA.AAG.AAC.AAE",
-					"term": "Franco-Flemish"
-				}
-			]
-		}
-	],
-	"primary_artist": "Unknown artist",
-	"has_image": false,
-	"display_year": "1475",
-	"provenance_structured": {
-		"lines": [
-			{
-				"order": 0,
-				"text": "Felix Doisteau CollectionSale, Hotel Drouot, 22-25 November,1909, no. 438Mr. and Mrs. William H. Crocker Collection",
-				"refs": [],
-				"is_uncertain": false
-			}
-		],
-		"footnotes": []
-	},
-	"has_iiif": false,
-	"has_provenance": true,
-	"has_children": false,
-	"sort_artist": "unknown artist",
-	"sort_year": 1475,
-	"slug": "abraham-and-melchizedek-1969-15",
-	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
-	"_sample_meta": {
-		"reason": "Abraham and Melchizedek (1969.15) — Franco-Flemish style, exercises term_style array",
-		"picked_at": "2026-05-26T12:50:36.842330+00:00",
-		"populated_fields": 45
-	}
+  "id": 97978,
+  "accession_number": "1969.15",
+  "sort_number": "1969.15",
+  "title": "Abraham and Melchizedek",
+  "date_display": "ca. 1475",
+  "date_start": "1475",
+  "date_end": "1475",
+  "medium": "wool, silk; tapestry weave",
+  "medium_parts": [
+    "wool, silk",
+    "tapestry weave"
+  ],
+  "credit_line": "Gift of the Provident Securities Company",
+  "department": "Costume and Textile Arts",
+  "classification": "Fiber Art",
+  "subclassification": null,
+  "culture": "Franco-Flemish",
+  "copyright": null,
+  "object_rights_type": "Public Domain",
+  "on_view": false,
+  "entered_date": "2021-11-23 00:00:00.000000",
+  "last_modified": "2022-09-19 17:14:23.210000",
+  "is_virtual": false,
+  "web_text": "Old EDEC Label Text:Abraham and MelchizedekFranco-Flemish, probably Tournai, 1460-1470Wool, silk; tapestry weaveGift of the Provident Securities Co. 1969.15This story from the Book of Genesis tells the meeting of Abraham and Melchizedek after the battle of Dan. Melchizedek, the priest-king of Salem, brings bread and wine to the patriarch and blesses him. Abraham offers Melchizedek one tenth of his plunder. The tapestry is divided compositionally along the diagonal line-the battle in progress is shown at the left and the meeting of the two men at the right. Abraham, with his flowing beard, gently bends his armored knee as he takes the bread and wine from Melchizedek, adorned in elaborate robes and a bejeweled crown. The high horizon, flattening of forms, and extreme chaos of the battle scene are typical of the Tournai tapestries of the time.",
+  "didactic_label": "This story from the Book of Genesis tells the meeting of Abraham and Melchizedek after the battle of Dan. Melchizedek, the priest-king of Salem, brings bread and wine to the patriarch and blesses him. Abraham offers Melchizedek one tenth of his plunder. The tapestry is divided compositionally along the diagonal line-the battle in progress is shown at the left and the meeting of the two men at the right. Abraham, with his flowing beard, gently bends his armored knee as he takes the bread and wine from Melchizedek, adorned in elaborate robes and a bejeweled crown. The high horizon, flattening of forms, and extreme chaos of the battle scene are typical of the Tournai tapestries of the time.",
+  "exhibition_history_text": "Five Centuries of Tapestry, Fine Arts Museums of San Francisco, Legion of Honor, 1976\nNational Tour: Five Centuries of Tapestry, Art Gallery of the University of Rochester, New York, 12/3/77- 1/29/78; Fine Arts Gallery of San Diego, 5/13/78 - 7/2/78; Museum of Fine Arts, Dallas, 9/13/78 - 10/29/78 \nGallery Rotation, Fine Arts Museums of San Francisco, Legion of Honor, 5/06 - 5/07",
+  "exhibition_history_lines": [
+    {
+      "order": 0,
+      "text": "Five Centuries of Tapestry, Fine Arts Museums of San Francisco, Legion of Honor, 1976"
+    },
+    {
+      "order": 1,
+      "text": "National Tour: Five Centuries of Tapestry, Art Gallery of the University of Rochester, New York, 12/3/77- 1/29/78; Fine Arts Gallery of San Diego, 5/13/78 - 7/2/78; Museum of Fine Arts, Dallas, 9/13/78 - 10/29/78"
+    },
+    {
+      "order": 2,
+      "text": "Gallery Rotation, Fine Arts Museums of San Francisco, Legion of Honor, 5/06 - 5/07"
+    }
+  ],
+  "bibliography_text": null,
+  "provenance": "Felix Doisteau CollectionSale, Hotel Drouot, 22-25 November,1909, no. 438Mr. and Mrs. William H. Crocker Collection",
+  "provenance_structured": {
+    "lines": [
+      {
+        "order": 0,
+        "text": "Felix Doisteau CollectionSale, Hotel Drouot, 22-25 November,1909, no. 438Mr. and Mrs. William H. Crocker Collection",
+        "refs": [],
+        "is_uncertain": false
+      }
+    ],
+    "footnotes": [],
+    "parsed": true
+  },
+  "label_text": null,
+  "publication_text": null,
+  "accession_iso_date": "1970-10-26",
+  "location_string": null,
+  "location_building": null,
+  "location_room": null,
+  "edition": null,
+  "titles": [
+    {
+      "title": "Abraham and Melchizedek",
+      "type": "Primary Title",
+      "active": true,
+      "language": "(not assigned)",
+      "display_order": 1
+    }
+  ],
+  "constituents": null,
+  "media": null,
+  "primary_thumbnail_url": null,
+  "primary_social_url": null,
+  "primary_iiif_info_url": null,
+  "primary_blurhash": null,
+  "has_iiif": false,
+  "dimensions": "427 x 376 cm (168 1/8 x 148 1/16 in.)",
+  "associations": [],
+  "highlights": [],
+  "editorial_related_content": {
+    "stories": null,
+    "events": null,
+    "audio_items": null
+  },
+  "physical_child_ids": null,
+  "virtual_parent_ids": null,
+  "virtual_child_ids": null,
+  "is_compound": false,
+  "term_rights_statement": [
+    {
+      "id": 16110964,
+      "term": "Public domain",
+      "type": "Descriptor",
+      "certainty": null,
+      "path": [
+        {
+          "depth": 0,
+          "cn": "AUT",
+          "term": "Keywords / Thesaurus"
+        },
+        {
+          "depth": 1,
+          "cn": "AUT.AAA",
+          "term": "Attributes"
+        },
+        {
+          "depth": 2,
+          "cn": "AUT.AAA.AAU",
+          "term": "Object Rights Statement"
+        },
+        {
+          "depth": 3,
+          "cn": "AUT.AAA.AAU.AAB",
+          "term": "Public domain"
+        }
+      ]
+    }
+  ],
+  "term_place_of_creation": [
+    {
+      "id": 18105359,
+      "term": "Tournai",
+      "type": "Descriptor",
+      "certainty": null,
+      "path": [
+        {
+          "depth": 1,
+          "cn": "AUZ.AAAAB",
+          "term": "World"
+        },
+        {
+          "depth": 2,
+          "cn": "AUZ.AAAAB.AAABH",
+          "term": "Europe"
+        },
+        {
+          "depth": 3,
+          "cn": "AUZ.AAAAB.AAABH.AAAAR",
+          "term": "Luxembourg"
+        },
+        {
+          "depth": 6,
+          "cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAEQ",
+          "term": "Wallonne, Région"
+        },
+        {
+          "depth": 7,
+          "cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAEQ.AAAAC",
+          "term": "Hainaut, Province de"
+        },
+        {
+          "depth": 8,
+          "cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAEQ.AAAAC.AADHJ",
+          "term": "Tournai"
+        }
+      ]
+    }
+  ],
+  "term_place_of_fabrication": null,
+  "term_place_name_at_creation": null,
+  "term_related_geography": null,
+  "term_find_spot": null,
+  "term_reign": null,
+  "term_dynasty": null,
+  "term_movement": null,
+  "term_school": null,
+  "term_materials": null,
+  "term_intended_market": null,
+  "place": {
+    "lvl0": [
+      "Europe"
+    ],
+    "lvl1": [
+      "Europe > Luxembourg"
+    ],
+    "lvl2": [
+      "Europe > Luxembourg > Tournai"
+    ],
+    "lvl3": null,
+    "nodes": [
+      {
+        "value": "Europe > Luxembourg",
+        "search_level": "lvl1",
+        "cn": "AUZ.AAAAB.AAABH.AAAAR"
+      },
+      {
+        "value": "Europe > Luxembourg > Wallonne, Région > Hainaut, Province de",
+        "search_level": null,
+        "cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAEQ.AAAAC"
+      },
+      {
+        "value": "Europe",
+        "search_level": "lvl0",
+        "cn": "AUZ.AAAAB.AAABH"
+      },
+      {
+        "value": "Europe > Luxembourg > Wallonne, Région > Hainaut, Province de > Tournai",
+        "search_level": "lvl2",
+        "cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAEQ.AAAAC.AADHJ"
+      },
+      {
+        "value": "Europe > Luxembourg > Wallonne, Région",
+        "search_level": null,
+        "cn": "AUZ.AAAAB.AAABH.AAAAR.AAABC.AAAAB.AAAEQ"
+      }
+    ],
+    "historic": false
+  },
+  "primary_artist": "Unknown artist",
+  "primary_artist_display": "Unknown artist",
+  "sort_artist": null,
+  "culture_group": null,
+  "display_year": "1475",
+  "doc_id": "1969.15",
+  "slug": "1969.15/abraham-and-melchizedek",
+  "has_image": false,
+  "has_provenance": true,
+  "has_children": false,
+  "is_highlight": false,
+  "sort_year": 1475,
+  "_sample_meta": {
+    "reason": "Abraham and Melchizedek (1969.15) — Franco-Flemish style, exercises term_style array",
+    "picked_at": "2026-05-26T12:50:36.842330+00:00",
+    "populated_fields": 45
+  }
 }

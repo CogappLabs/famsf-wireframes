@@ -1,416 +1,502 @@
 {
-	"id": 136399,
-	"accession_number": "2017.50",
-	"sort_number": "2017.50",
-	"title": "Sky Cathedral's Presence I",
-	"object_name": "mixed media",
-	"display_date": "1959–1962",
-	"begin_iso_date": "1959",
-	"end_iso_date": "1962",
-	"medium": "Painted wood and found objects",
-	"medium_parts": ["Painted wood and found objects"],
-	"dimensions": "107 x 120 1/8 x 21 1/2 in. (271.8 x 305.1 x 54.6 cm)",
-	"dimensions_display_primary": "107 x 120 1/8 x 21 1/2 in. (271.8 x 305.1 x 54.6 cm)",
-	"credit_line": "Museum purchase, Phyllis C. Wattis Fund for Major Accessions",
-	"department": "American Decorative Arts and Sculpture",
-	"classification": "Sculpture",
-	"copyright": "© Estate of Louise Nevelson / Artists Rights Society (ARS), New York",
-	"object_rights_type": "Copyright - ARS",
-	"on_view": true,
-	"last_modified": "2025-12-10 08:56:58.433000",
-	"is_virtual": false,
-	"identifying_description": "The object is a collage relief made of salvaged\nwooden boxes, wood scraps and objects fragments, spray-painted in black. The whole\nobject consists of eleven components, plus a 2-part base. Each component is identified by a white label with a number (from 1 to 11) glued on its back. A hand drawn diagram, glued under component #11, shows the location of each component. Its numbering system is consistent with the numbers written on the white labels. A different, and probably more recent numbering, appears on blue tape\nstuck on the back of each component. Pencil writing reading “P.G. #01963” appears on the back of at least three\ncomponents (#3, 4, and 7). The artist’s signature – “Nevelson 1964” – appears\non component #2.",
-	"web_text": "Louise Nevelson created her wall-size constructions from cast-off wood and metal scavenged from the streets of New York City. Nevelson’s “Sky Cathedral” sculptures were inspired by diverse sources that included ancient Mayan temples, Gothic European cathedrals, and Manhattan’s urban landscape, which she described “as a great big sculpture.” The boxes of fragments in \"Sky Cathedral’s Presence I\" contain enigmatic signs and symbols that are open to any number of interpretations.\n\nNevelson linked her first use of coffin-like black boxes to the trauma inflicted by World War II, in which her son served. The works in Nevelson’s “Sky Cathedral” series address the issue of religious belief in an existential age wrought by the horrors of war, the Holocaust, and the atomic bomb. Balancing fragmentation and unity, they reflect our perennial desire for something larger than ourselves—a mythical and mysterious “presence” that is spiritually sustaining.",
-	"didactic_label": "Louise Nevelson created her wall-size constructions from cast-off wood and metal scavenged from the streets of New York City. Nevelson’s “Sky Cathedral” sculptures were inspired by diverse sources that included ancient Mayan temples, Gothic European cathedrals, and Manhattan’s urban landscape, which she described “as a great big sculpture.” The boxes of fragments in Sky Cathedral’s Presence I contain enigmatic signs and symbols that are open to any number of interpretations.Nevelson linked her first use of coffin-like black boxes to the trauma inflicted by World War II, in which her son served. The works in Nevelson’s “Sky Cathedral” series address the issue of religious belief in an existential age wrought by the horrors of war, the Holocaust, and the atomic bomb. Balancing fragmentation and unity, they reflect our perennial desire for something larger than ourselves—a mythical and mysterious “presence” that is spiritually sustaining.385",
-	"exhibition_history_text": "New York, The Jewish Museum, Revisiting New York: 1962-1964, July 15, 2022 - January 8, 2023",
-	"provenance": "The artist, until 1969\nPace Gallery, New York, NY, 1969 until 1993\nSold to private collector, 1993 until 2017\nSold at Christie's, Post-War and Contemporary Art Sale, New York, September, 28, 2017, lot #60.",
-	"label_text": "Each component is identified by a white label with a number (from 1 to 11) glued on its back. A hand drawn diagram, glued under component #11, shows the location of each component.",
-	"accession_iso_date": "2017-10-26",
-	"location_string": "de Young, Display, Gallery 013",
-	"location_building": "de Young",
-	"location_room": "Gallery 013",
-	"signed": "The artist’s signature – “Nevelson 1964” – appears on component #2.",
-	"inscribed": "Pencil writing reading “P.G. #01963” appears on the back of at least three components (#3, 4, and 7).",
-	"titles": [
-		{
-			"Title": "Sky Cathedral's Presence I",
-			"TitleType": "Primary Title",
-			"TitleTypeDisplay": "Primary",
-			"Language": "(not assigned)",
-			"DisplayOrder": 1
-		}
-	],
-	"constituents": [
-		{
-			"ConstituentID": 6251,
-			"Role": "Artist",
-			"RoleID": 1,
-			"DisplayName": "Louise Nevelson",
-			"AlphaSort": "Nevelson,  Louise",
-			"Nationality": "American",
-			"BeginDate": 1899,
-			"EndDate": 1988,
-			"BeginDateISO": "1899-09-23",
-			"EndDateISO": "1988-04-17",
-			"DisplayDate": "American, born Ukraine, 1899–1988",
-			"Biography": "American, born Ukraine, 1899–1988",
-			"display_bios": [
-				{
-					"bio": "American, born Ukraine, 1899–1988",
-					"display_order": 1
-				},
-				{
-					"bio": "American, born Ukraine, 1899–1988",
-					"display_order": 2
-				}
-			],
-			"Institution": null,
-			"ConstituentType": "Individual",
-			"DisplayOrder": 1,
-			"DisplayLabel": "Louise Nevelson (American, born Ukraine, 1899–1988)"
-		}
-	],
-	"media": [
-		{
-			"media_xref_id": 249749,
-			"media_master_id": 259787,
-			"rank": 0,
-			"is_primary": false,
-			"display_order": 3,
-			"media_view": null,
-			"public_caption": " Bouquets to Art, de Young, San Francisco, 2026",
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Print Quality",
-			"copyright_status": null,
-			"web_publishing_size": "3853 x 5779px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 5779,
-			"pixel_w": 3853
-		},
-		{
-			"media_xref_id": 156034,
-			"media_master_id": 194914,
-			"rank": 0,
-			"is_primary": true,
-			"display_order": 1,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Web / Digital Quality",
-			"copyright_status": null,
-			"web_publishing_size": "10040 x 8490px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 8490,
-			"pixel_w": 10040
-		},
-		{
-			"media_xref_id": 150514,
-			"media_master_id": 169487,
-			"rank": 1,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Web / Digital Quality",
-			"copyright_status": null,
-			"web_publishing_size": "11318 x 8490px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 8490,
-			"pixel_w": 11318
-		},
-		{
-			"media_xref_id": 150515,
-			"media_master_id": 169488,
-			"rank": 2,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Web / Digital Quality",
-			"copyright_status": null,
-			"web_publishing_size": "11608 x 8708px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 8708,
-			"pixel_w": 11608
-		},
-		{
-			"media_xref_id": 150516,
-			"media_master_id": 169489,
-			"rank": 3,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Web / Digital Quality",
-			"copyright_status": null,
-			"web_publishing_size": "10335 x 8558px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 8558,
-			"pixel_w": 10335
-		},
-		{
-			"media_xref_id": 150517,
-			"media_master_id": 169490,
-			"rank": 4,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Web / Digital Quality",
-			"copyright_status": null,
-			"web_publishing_size": "8370 x 9013px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 9013,
-			"pixel_w": 8370
-		},
-		{
-			"media_xref_id": 150518,
-			"media_master_id": 169491,
-			"rank": 5,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Web / Digital Quality",
-			"copyright_status": null,
-			"web_publishing_size": "11129 x 8708px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 8708,
-			"pixel_w": 11129
-		},
-		{
-			"media_xref_id": 150519,
-			"media_master_id": 169492,
-			"rank": 6,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Web / Digital Quality",
-			"copyright_status": null,
-			"web_publishing_size": "8708 x 11608px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 11608,
-			"pixel_w": 8708
-		},
-		{
-			"media_xref_id": 150520,
-			"media_master_id": 169493,
-			"rank": 7,
-			"is_primary": false,
-			"display_order": 2,
-			"media_view": null,
-			"public_caption": null,
-			"copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"photographer": null,
-			"credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
-			"use_quality": "Web / Digital Quality",
-			"copyright_status": null,
-			"web_publishing_size": "10175 x 8577px @ 72dpi",
-			"remarks": null,
-			"approved_for_web": false,
-			"display_in_report": false,
-			"media_type": "Image",
-			"pixel_h": 8577,
-			"pixel_w": 10175
-		}
-	],
-	"exhibitions": [
-		{
-			"ExhibitionID": 459,
-			"ExhTitle": "Revisiting New York: 1962-1964",
-			"DisplayDate": "Friday, July 15, 2022 - Sunday, January 8, 2023",
-			"BeginISODate": "2022-07-15",
-			"EndISODate": "2023-01-08",
-			"IsInHouse": false,
-			"VenueName": "The Jewish Museum"
-		}
-	],
-	"dimensions_structured": [
-		{
-			"DisplayDimensions": "107 x 120 1/8 x 21 1/2 in. (271.8 x 305.1 x 54.6 cm)",
-			"Description": null,
-			"ElementName": "x_Do not use_Overall (4D)",
-			"Displayed": true,
-			"Rank": 1,
-			"measures": {
-				"height_cm": 271.8,
-				"width_cm": 305.1,
-				"depth_cm": 54.6,
-				"height_in": 107.0,
-				"width_in": 120.125,
-				"depth_in": 21.5
-			}
-		}
-	],
-	"associations": [],
-	"is_compound": false,
-	"term_rights_statement": [
-		{
-			"term": "Copyright status is copyrighted",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 0,
-					"cn": "AUT",
-					"term": "Keywords / Thesaurus"
-				},
-				{
-					"depth": 1,
-					"cn": "AUT.AAA",
-					"term": "Attributes"
-				},
-				{
-					"depth": 2,
-					"cn": "AUT.AAA.AAU",
-					"term": "Object Rights Statement"
-				},
-				{
-					"depth": 3,
-					"cn": "AUT.AAA.AAU.AAC",
-					"term": "Copyright status is copyrighted"
-				}
-			]
-		}
-	],
-	"term_place_of_creation": [
-		{
-			"term": "United States",
-			"certainty": null,
-			"path": [
-				{
-					"depth": 1,
-					"cn": "AUZ.AAAAB",
-					"term": "World"
-				},
-				{
-					"depth": 2,
-					"cn": "AUZ.AAAAB.AAABZ",
-					"term": "North and Central America"
-				},
-				{
-					"depth": 3,
-					"cn": "AUZ.AAAAB.AAABZ.AAAKC",
-					"term": "United States"
-				}
-			]
-		}
-	],
-	"primary_artist": "Louise Nevelson",
-	"iiif_info_url": "https://famsf.emuseum.com/apis/iiif/image/v2/194914/info.json",
-	"iiif_thumbnail_url": "https://famsf.emuseum.com/apis/iiif/image/v2/194914/full/300,/0/default.jpg",
-	"has_image": true,
-	"primary_artist_display": "Louise Nevelson (1899–1988)",
-	"display_year": "1959–62",
-	"provenance_structured": {
-		"lines": [
-			{
-				"order": 0,
-				"text": "The artist, until 1969",
-				"refs": [],
-				"is_uncertain": false
-			},
-			{
-				"order": 1,
-				"text": "Pace Gallery, New York, NY, 1969 until 1993",
-				"refs": [],
-				"is_uncertain": false
-			},
-			{
-				"order": 2,
-				"text": "Sold to private collector, 1993 until 2017",
-				"refs": [],
-				"is_uncertain": false
-			},
-			{
-				"order": 3,
-				"text": "Sold at Christie's, Post-War and Contemporary Art Sale, New York, September, 28, 2017, lot #60.",
-				"refs": [],
-				"is_uncertain": false
-			}
-		],
-		"footnotes": []
-	},
-	"signed_structured": [
-		{
-			"raw": "The artist’s signature – “Nevelson 1964” – appears on component #2.",
-			"location": null,
-			"transcription": null,
-			"is_watermark": false
-		}
-	],
-	"inscribed_structured": [
-		{
-			"raw": "Pencil writing reading “P.G. #01963” appears on the back of at least three components (#3, 4, and 7).",
-			"location": null,
-			"transcription": null,
-			"is_watermark": false
-		}
-	],
-	"label_text_structured": [
-		{
-			"raw": "Each component is identified by a white label with a number (from 1 to 11) glued on its back. A hand drawn diagram, glued under component #11, shows the location of each component.",
-			"location": null,
-			"transcription": null,
-			"is_watermark": false
-		}
-	],
-	"has_iiif": true,
-	"has_provenance": true,
-	"has_children": false,
-	"sort_artist": "louise nevelson",
-	"sort_year": 1959,
-	"slug": "sky-cathedral-s-presence-i-2017-50",
-	"indexed_at": "2026-05-26T12:50:36.842330+00:00",
-	"_sample_meta": {
-		"reason": "Auto-picked: most populated fields in the dataset (true max).",
-		"picked_at": "2026-05-26T12:50:36.842330+00:00",
-		"populated_fields": 57
-	}
+  "id": 136399,
+  "accession_number": "2017.50",
+  "sort_number": "2017.50",
+  "title": "Sky Cathedral's Presence I",
+  "date_display": "1959–1962",
+  "date_start": "1959",
+  "date_end": "1962",
+  "medium": "Painted wood and found objects",
+  "medium_parts": [
+    "Painted wood and found objects"
+  ],
+  "credit_line": "Museum purchase, Phyllis C. Wattis Fund for Major Accessions",
+  "department": "American Decorative Arts and Sculpture",
+  "classification": "Sculpture",
+  "subclassification": null,
+  "culture": null,
+  "copyright": "© Estate of Louise Nevelson / Artists Rights Society (ARS), New York",
+  "object_rights_type": "Copyright - ARS",
+  "on_view": true,
+  "entered_date": "2021-11-23 00:00:00.000000",
+  "last_modified": "2025-12-10 08:56:58.433000",
+  "is_virtual": false,
+  "web_text": "Louise Nevelson created her wall-size constructions from cast-off wood and metal scavenged from the streets of New York City. Nevelson’s “Sky Cathedral” sculptures were inspired by diverse sources that included ancient Mayan temples, Gothic European cathedrals, and Manhattan’s urban landscape, which she described “as a great big sculpture.” The boxes of fragments in \"Sky Cathedral’s Presence I\" contain enigmatic signs and symbols that are open to any number of interpretations.\n\nNevelson linked her first use of coffin-like black boxes to the trauma inflicted by World War II, in which her son served. The works in Nevelson’s “Sky Cathedral” series address the issue of religious belief in an existential age wrought by the horrors of war, the Holocaust, and the atomic bomb. Balancing fragmentation and unity, they reflect our perennial desire for something larger than ourselves—a mythical and mysterious “presence” that is spiritually sustaining.",
+  "didactic_label": "Louise Nevelson created her wall-size constructions from cast-off wood and metal scavenged from the streets of New York City. Nevelson’s “Sky Cathedral” sculptures were inspired by diverse sources that included ancient Mayan temples, Gothic European cathedrals, and Manhattan’s urban landscape, which she described “as a great big sculpture.” The boxes of fragments in Sky Cathedral’s Presence I contain enigmatic signs and symbols that are open to any number of interpretations.Nevelson linked her first use of coffin-like black boxes to the trauma inflicted by World War II, in which her son served. The works in Nevelson’s “Sky Cathedral” series address the issue of religious belief in an existential age wrought by the horrors of war, the Holocaust, and the atomic bomb. Balancing fragmentation and unity, they reflect our perennial desire for something larger than ourselves—a mythical and mysterious “presence” that is spiritually sustaining.385",
+  "exhibition_history_text": "New York, The Jewish Museum, Revisiting New York: 1962-1964, July 15, 2022 - January 8, 2023",
+  "exhibition_history_lines": [
+    {
+      "order": 0,
+      "text": "New York, The Jewish Museum, Revisiting New York: 1962-1964, July 15, 2022 - January 8, 2023"
+    }
+  ],
+  "bibliography_text": null,
+  "provenance": "The artist, until 1969\nPace Gallery, New York, NY, 1969 until 1993\nSold to private collector, 1993 until 2017\nSold at Christie's, Post-War and Contemporary Art Sale, New York, September, 28, 2017, lot #60.",
+  "provenance_structured": {
+    "lines": [
+      {
+        "order": 0,
+        "text": "The artist, until 1969",
+        "refs": [],
+        "is_uncertain": false
+      },
+      {
+        "order": 1,
+        "text": "Pace Gallery, New York, NY, 1969 until 1993",
+        "refs": [],
+        "is_uncertain": false
+      },
+      {
+        "order": 2,
+        "text": "Sold to private collector, 1993 until 2017",
+        "refs": [],
+        "is_uncertain": false
+      },
+      {
+        "order": 3,
+        "text": "Sold at Christie's, Post-War and Contemporary Art Sale, New York, September, 28, 2017, lot #60.",
+        "refs": [],
+        "is_uncertain": false
+      }
+    ],
+    "footnotes": [],
+    "parsed": true
+  },
+  "label_text": "Each component is identified by a white label with a number (from 1 to 11) glued on its back. A hand drawn diagram, glued under component #11, shows the location of each component.",
+  "publication_text": null,
+  "accession_iso_date": "2017-10-26",
+  "location_string": "de Young, Display, Gallery 013",
+  "location_building": "de Young",
+  "location_room": "Gallery 013",
+  "edition": null,
+  "titles": [
+    {
+      "title": "Sky Cathedral's Presence I",
+      "type": "Primary Title",
+      "active": true,
+      "language": "(not assigned)",
+      "display_order": 1
+    }
+  ],
+  "constituents": [
+    {
+      "id": 6251,
+      "role": "Artist",
+      "role_id": 1,
+      "name": "Louise Nevelson",
+      "name_sort": "Nevelson,  Louise",
+      "nationality": "American",
+      "place_born": "Kiev",
+      "place_died": "New York",
+      "place_active": null,
+      "attribution_prefix": null,
+      "begin_date": 1899,
+      "end_date": 1988,
+      "dates": "American, born Ukraine, 1899–1988",
+      "institution": null,
+      "constituent_type": "Individual",
+      "display_order": 1,
+      "display_label": "Louise Nevelson (1899–1988)"
+    }
+  ],
+  "media": [
+    {
+      "media_xref_id": 249749,
+      "image_id": 259787,
+      "rank": 0,
+      "file_date": "2026-03-02T14:33:45.233000",
+      "primary": false,
+      "media_view": null,
+      "public_caption": " Bouquets to Art, de Young, San Francisco, 2026",
+      "copyright": "Photograph by Randy Dodson. © Fine Arts Museums of San Francisco",
+      "copyright_status": "Copyright Owned by FAMSF",
+      "credit_line": "Photograph by Randy Dodson. © Fine Arts Museums of San Francisco",
+      "approved_for_web": false,
+      "media_type": "Image",
+      "height": 5779,
+      "width": 3853,
+      "file_name": "BTA-DEY_Bouquets_20260302-37.tif",
+      "file_path": "TMSShared/Media/All Staff/31/BTA-DEY_Bouquets_20260302-37.tif",
+      "iiif_id": null,
+      "iiif_info_url": null,
+      "iiif_image_url": null,
+      "thumb_400_url": null,
+      "thumb_800_url": null,
+      "social_url": null,
+      "blurhash": null,
+      "iiif_width": null,
+      "iiif_height": null,
+      "color_swatches": null,
+      "source_key": null,
+      "run_id": null
+    },
+    {
+      "media_xref_id": 156034,
+      "image_id": 194914,
+      "rank": 0,
+      "file_date": "2022-08-17T13:24:05.597000",
+      "primary": true,
+      "media_view": null,
+      "public_caption": null,
+      "copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "copyright_status": "Copyright Owned by FAMSF",
+      "credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "approved_for_web": false,
+      "media_type": "Image",
+      "height": 8490,
+      "width": 10040,
+      "file_name": "A409315_V1_crop.tif",
+      "file_path": "TMSShared/Media/All Staff/A409315_V1_crop.tif",
+      "iiif_id": null,
+      "iiif_info_url": null,
+      "iiif_image_url": null,
+      "thumb_400_url": null,
+      "thumb_800_url": null,
+      "social_url": null,
+      "blurhash": null,
+      "iiif_width": null,
+      "iiif_height": null,
+      "color_swatches": null,
+      "source_key": null,
+      "run_id": null
+    },
+    {
+      "media_xref_id": 150514,
+      "image_id": 169487,
+      "rank": 1,
+      "file_date": "2023-02-27T07:38:45",
+      "primary": false,
+      "media_view": null,
+      "public_caption": null,
+      "copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "copyright_status": "Copyright Owned by FAMSF",
+      "credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "approved_for_web": false,
+      "media_type": "Image",
+      "height": 8490,
+      "width": 11318,
+      "file_name": "A409315_V1.tif",
+      "file_path": "TMSShared/Media/All Staff/20/A409315_V1.tif",
+      "iiif_id": null,
+      "iiif_info_url": null,
+      "iiif_image_url": null,
+      "thumb_400_url": null,
+      "thumb_800_url": null,
+      "social_url": null,
+      "blurhash": null,
+      "iiif_width": null,
+      "iiif_height": null,
+      "color_swatches": null,
+      "source_key": null,
+      "run_id": null
+    },
+    {
+      "media_xref_id": 150515,
+      "image_id": 169488,
+      "rank": 2,
+      "file_date": "2023-02-27T07:38:45",
+      "primary": false,
+      "media_view": null,
+      "public_caption": null,
+      "copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "copyright_status": "Copyright Owned by FAMSF",
+      "credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "approved_for_web": false,
+      "media_type": "Image",
+      "height": 8708,
+      "width": 11608,
+      "file_name": "A409315_V2.tif",
+      "file_path": "TMSShared/Media/All Staff/20/A409315_V2.tif",
+      "iiif_id": null,
+      "iiif_info_url": null,
+      "iiif_image_url": null,
+      "thumb_400_url": null,
+      "thumb_800_url": null,
+      "social_url": null,
+      "blurhash": null,
+      "iiif_width": null,
+      "iiif_height": null,
+      "color_swatches": null,
+      "source_key": null,
+      "run_id": null
+    },
+    {
+      "media_xref_id": 150516,
+      "image_id": 169489,
+      "rank": 3,
+      "file_date": "2023-02-27T07:38:45",
+      "primary": false,
+      "media_view": null,
+      "public_caption": null,
+      "copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "copyright_status": "Copyright Owned by FAMSF",
+      "credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "approved_for_web": false,
+      "media_type": "Image",
+      "height": 8558,
+      "width": 10335,
+      "file_name": "A409315_V3.tif",
+      "file_path": "TMSShared/Media/All Staff/20/A409315_V3.tif",
+      "iiif_id": null,
+      "iiif_info_url": null,
+      "iiif_image_url": null,
+      "thumb_400_url": null,
+      "thumb_800_url": null,
+      "social_url": null,
+      "blurhash": null,
+      "iiif_width": null,
+      "iiif_height": null,
+      "color_swatches": null,
+      "source_key": null,
+      "run_id": null
+    },
+    {
+      "media_xref_id": 150517,
+      "image_id": 169490,
+      "rank": 4,
+      "file_date": "2023-02-27T07:38:45",
+      "primary": false,
+      "media_view": null,
+      "public_caption": null,
+      "copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "copyright_status": "Copyright Owned by FAMSF",
+      "credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "approved_for_web": false,
+      "media_type": "Image",
+      "height": 9013,
+      "width": 8370,
+      "file_name": "A409315_V4.tif",
+      "file_path": "TMSShared/Media/All Staff/20/A409315_V4.tif",
+      "iiif_id": null,
+      "iiif_info_url": null,
+      "iiif_image_url": null,
+      "thumb_400_url": null,
+      "thumb_800_url": null,
+      "social_url": null,
+      "blurhash": null,
+      "iiif_width": null,
+      "iiif_height": null,
+      "color_swatches": null,
+      "source_key": null,
+      "run_id": null
+    },
+    {
+      "media_xref_id": 150518,
+      "image_id": 169491,
+      "rank": 5,
+      "file_date": "2023-02-27T07:38:45",
+      "primary": false,
+      "media_view": null,
+      "public_caption": null,
+      "copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "copyright_status": "Copyright Owned by FAMSF",
+      "credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "approved_for_web": false,
+      "media_type": "Image",
+      "height": 8708,
+      "width": 11129,
+      "file_name": "A409315_V5.tif",
+      "file_path": "TMSShared/Media/All Staff/20/A409315_V5.tif",
+      "iiif_id": null,
+      "iiif_info_url": null,
+      "iiif_image_url": null,
+      "thumb_400_url": null,
+      "thumb_800_url": null,
+      "social_url": null,
+      "blurhash": null,
+      "iiif_width": null,
+      "iiif_height": null,
+      "color_swatches": null,
+      "source_key": null,
+      "run_id": null
+    },
+    {
+      "media_xref_id": 150519,
+      "image_id": 169492,
+      "rank": 6,
+      "file_date": "2023-02-27T07:38:45",
+      "primary": false,
+      "media_view": null,
+      "public_caption": null,
+      "copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "copyright_status": "Copyright Owned by FAMSF",
+      "credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "approved_for_web": false,
+      "media_type": "Image",
+      "height": 11608,
+      "width": 8708,
+      "file_name": "A409315_V6.tif",
+      "file_path": "TMSShared/Media/All Staff/20/A409315_V6.tif",
+      "iiif_id": null,
+      "iiif_info_url": null,
+      "iiif_image_url": null,
+      "thumb_400_url": null,
+      "thumb_800_url": null,
+      "social_url": null,
+      "blurhash": null,
+      "iiif_width": null,
+      "iiif_height": null,
+      "color_swatches": null,
+      "source_key": null,
+      "run_id": null
+    },
+    {
+      "media_xref_id": 150520,
+      "image_id": 169493,
+      "rank": 7,
+      "file_date": "2023-02-27T07:38:45",
+      "primary": false,
+      "media_view": null,
+      "public_caption": null,
+      "copyright": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "copyright_status": "Copyright Owned by FAMSF",
+      "credit_line": "Photograph by Randy Dodson, courtesy of the Fine Arts Museums of San Francisco",
+      "approved_for_web": false,
+      "media_type": "Image",
+      "height": 8577,
+      "width": 10175,
+      "file_name": "A409315_V7.tif",
+      "file_path": "TMSShared/Media/All Staff/20/A409315_V7.tif",
+      "iiif_id": null,
+      "iiif_info_url": null,
+      "iiif_image_url": null,
+      "thumb_400_url": null,
+      "thumb_800_url": null,
+      "social_url": null,
+      "blurhash": null,
+      "iiif_width": null,
+      "iiif_height": null,
+      "color_swatches": null,
+      "source_key": null,
+      "run_id": null
+    }
+  ],
+  "primary_thumbnail_url": null,
+  "primary_social_url": null,
+  "primary_iiif_info_url": null,
+  "primary_blurhash": null,
+  "has_iiif": false,
+  "dimensions": "107 x 120 1/8 x 21 1/2 in. (271.8 x 305.1 x 54.6 cm)",
+  "associations": [],
+  "highlights": [
+    {
+      "collection_slug": "american-art-web-highlights",
+      "collection_name": "American Art Web Highlights",
+      "rank": 27
+    }
+  ],
+  "editorial_related_content": {
+    "stories": null,
+    "events": null,
+    "audio_items": null
+  },
+  "physical_child_ids": null,
+  "virtual_parent_ids": null,
+  "virtual_child_ids": null,
+  "is_compound": false,
+  "term_rights_statement": [
+    {
+      "id": 16110965,
+      "term": "Copyrighted",
+      "type": "Descriptor",
+      "certainty": null,
+      "path": [
+        {
+          "depth": 0,
+          "cn": "AUT",
+          "term": "Keywords / Thesaurus"
+        },
+        {
+          "depth": 1,
+          "cn": "AUT.AAA",
+          "term": "Attributes"
+        },
+        {
+          "depth": 2,
+          "cn": "AUT.AAA.AAU",
+          "term": "Object Rights Statement"
+        },
+        {
+          "depth": 3,
+          "cn": "AUT.AAA.AAU.AAC",
+          "term": "Copyrighted"
+        }
+      ]
+    }
+  ],
+  "term_place_of_creation": [
+    {
+      "id": 20843545,
+      "term": "United States",
+      "type": "Descriptor",
+      "certainty": null,
+      "path": [
+        {
+          "depth": 1,
+          "cn": "AUZ.AAAAB",
+          "term": "World"
+        },
+        {
+          "depth": 2,
+          "cn": "AUZ.AAAAB.AAABZ",
+          "term": "North and Central America"
+        },
+        {
+          "depth": 3,
+          "cn": "AUZ.AAAAB.AAABZ.AAAKC",
+          "term": "United States"
+        }
+      ]
+    }
+  ],
+  "term_place_of_fabrication": null,
+  "term_place_name_at_creation": null,
+  "term_related_geography": null,
+  "term_find_spot": null,
+  "term_reign": null,
+  "term_dynasty": null,
+  "term_movement": null,
+  "term_school": null,
+  "term_materials": null,
+  "term_intended_market": null,
+  "place": {
+    "lvl0": [
+      "North America"
+    ],
+    "lvl1": [
+      "North America > United States"
+    ],
+    "lvl2": null,
+    "lvl3": null,
+    "nodes": [
+      {
+        "value": "North America",
+        "search_level": "lvl0",
+        "cn": "AUZ.AAAAB.AAABZ"
+      },
+      {
+        "value": "North America > United States",
+        "search_level": "lvl1",
+        "cn": "AUZ.AAAAB.AAABZ.AAAKC"
+      }
+    ],
+    "historic": false
+  },
+  "primary_artist": "Louise Nevelson",
+  "primary_artist_display": "Louise Nevelson (1899–1988)",
+  "sort_artist": "Nevelson,  Louise",
+  "culture_group": [],
+  "display_year": "1959–62",
+  "doc_id": "2017.50",
+  "slug": "2017.50/sky-cathedral-s-presence-i",
+  "has_image": true,
+  "has_provenance": true,
+  "has_children": false,
+  "is_highlight": true,
+  "sort_year": 1959,
+  "_sample_meta": {
+    "reason": "Auto-picked: most populated fields in the dataset (true max).",
+    "picked_at": "2026-05-26T12:50:36.842330+00:00",
+    "populated_fields": 57
+  }
 }
