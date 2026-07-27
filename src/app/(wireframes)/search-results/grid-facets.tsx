@@ -2,6 +2,8 @@
 
 import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
 import { ScopeMark, SectionLabelInline } from "@/components/wireframe";
+import facetCounts from "@/data/facet-counts.json";
+import famsfCollectionValues from "@/data/famsf-collection-values.json";
 import mediumTaxonomy from "@/data/medium-taxonomy.json";
 import type { CollectionDocument } from "@/lib/collection-document";
 import { type FacetOption, objectYear } from "./facets";
@@ -147,7 +149,7 @@ function geoScopeValues(d: CollectionDocument, scope: GeoScopeId): string[] {
 /** Distinct maker roles on a doc (constituents[].Role). */
 const docRoles = (d: CollectionDocument): string[] =>
 	(d.constituents ?? [])
-		.map((c) => c.Role)
+		.map((c) => c.role)
 		.filter((r): r is string => Boolean(r));
 
 interface GridFacetSelections {
@@ -161,6 +163,9 @@ interface GridFacetSelections {
 	medium: MediumSelection | null;
 	classification: string | null;
 	department: string | null;
+	/** FAMSF Collection, the curators' subdepartment grouping (CW-254). Not yet
+	 *  served, so the options are static and a pick filters the slice to 0. */
+	collection: string | null;
 	date: YearRange | null;
 	/** Raw place-term facet selections, keyed by PlaceExtraId (buttons mode:
 	 *  each field is its own value facet). */
@@ -184,6 +189,7 @@ const EMPTY_GRID_SELECTIONS: GridFacetSelections = {
 	medium: null,
 	classification: null,
 	department: null,
+	collection: null,
 	date: null,
 	placeExtras: {},
 	placeTypes: [],
@@ -245,6 +251,9 @@ function filterGridDocs(
 		if (sel.classification && d.classification !== sel.classification)
 			return false;
 		if (sel.department && d.department !== sel.department) return false;
+		// FAMSF Collection is not on the documents yet, so any pick matches
+		// nothing. Deliberate: the count is real, the slice cannot satisfy it.
+		if (sel.collection) return false;
 		for (const [id, value] of Object.entries(sel.placeExtras)) {
 			if (!value) continue;
 			if (!PLACE_EXTRA_ACCESSOR[id as PlaceExtraId](d).includes(value))
@@ -276,6 +285,26 @@ function filterGridDocs(
 }
 
 /** Count a flat string-array facet over docs, descending by count. */
+/** Real full-collection counts per facet value, from the pipeline parquet
+ *  (scripts/build_facet_counts.py). Shown beside the live slice count so the
+ *  numbers reflect the collection, not the ~600-doc sample. */
+const COLLECTION_TOTALS: Record<
+	string,
+	Map<string, number>
+> = Object.fromEntries(
+	(["artist", "culture", "classification", "department", "role"] as const).map(
+		(key) => [
+			key,
+			new Map(
+				(facetCounts[key] as { value: string; count: number }[]).map((o) => [
+					o.value,
+					o.count,
+				]),
+			),
+		],
+	),
+);
+
 function countFlat(
 	docs: CollectionDocument[],
 	get: (d: CollectionDocument) => string[] | undefined,
@@ -467,21 +496,42 @@ function FacetBlock({
 	options,
 	selected,
 	onSelect,
+	note,
+	totals,
 }: {
 	label: string;
 	options: FacetOption[];
 	selected: string | null;
 	onSelect: (value: string | null) => void;
+	/** Caveat shown under the label, for facets whose counts do not come from
+	 *  the on-page slice. */
+	note?: string;
+	/** Real full-collection count per value, shown in place of the slice count
+	 *  so the numbers reflect the collection rather than the ~600-doc sample. */
+	totals?: Map<string, number>;
 }) {
 	const [expanded, setExpanded] = useState(false);
 	const [search, setSearch] = useState("");
 	if (options.length === 0 && !selected) return null;
 
+	// Re-sort on the displayed number. countFlat orders by slice count, so
+	// without this the rows would read out of order once totals replace it.
+	const ordered = totals
+		? options
+				.slice()
+				.sort(
+					(a, b) =>
+						(totals.get(b.value) ?? b.count) -
+							(totals.get(a.value) ?? a.count) ||
+						a.value.localeCompare(b.value),
+				)
+		: options;
+
 	const filtered = search
-		? options.filter((o) =>
+		? ordered.filter((o) =>
 				o.value.toLowerCase().includes(search.toLowerCase()),
 			)
-		: options;
+		: ordered;
 	const shown = expanded || search ? filtered : filtered.slice(0, FACET_TOP_N);
 	const hiddenCount = filtered.length - shown.length;
 
@@ -490,6 +540,11 @@ function FacetBlock({
 			<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
 				{label}
 			</p>
+			{note && (
+				<p className="mb-1.5 font-mono text-label leading-snug text-gray-400">
+					{note}
+				</p>
+			)}
 			{selected && (
 				<button
 					type="button"
@@ -533,7 +588,7 @@ function FacetBlock({
 								/>
 								<span className="min-w-0 flex-1 truncate">{o.value}</span>
 								<span className="shrink-0 tabular-nums text-gray-500">
-									{o.count.toLocaleString()}
+									{(totals?.get(o.value) ?? o.count).toLocaleString()}
 								</span>
 							</button>
 						</li>
@@ -677,33 +732,6 @@ function PlaceFieldsFacet({
 					);
 				})}
 			</ul>
-		</div>
-	);
-}
-
-/** A disabled / pending facet placeholder. Used for "Collection" (FAMSF
- *  Collecting Area), whose TMS field does not exist yet — rendered greyed and
- *  non-interactive so reviewers see the planned facet without fabricated
- *  values. */
-function PendingFacet({ label, note }: { label: string; note: string }) {
-	return (
-		<div className="border-b border-gray-200 pb-3 opacity-60">
-			<p className="mb-1.5 flex items-center gap-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
-				{label}
-				<span className="rounded-sm border border-gray-300 bg-gray-100 px-1 py-0.5 text-label normal-case tracking-normal text-gray-500">
-					Pending
-				</span>
-			</p>
-			<div
-				aria-disabled
-				className="flex w-full cursor-not-allowed items-center gap-2 border border-dashed border-gray-300 bg-gray-50 px-2 py-1.5 font-mono text-meta text-gray-400"
-			>
-				<span
-					aria-hidden
-					className="h-4 w-4 shrink-0 border border-gray-300 bg-white"
-				/>
-				<span className="min-w-0 flex-1">{note}</span>
-			</div>
 		</div>
 	);
 }
@@ -1417,6 +1445,12 @@ export function GridFacetsView({
 			department: prev.department === value ? null : value,
 		}));
 	};
+	const setCollection = (value: string | null) => {
+		setSel((prev) => ({
+			...prev,
+			collection: prev.collection === value ? null : value,
+		}));
+	};
 	const setDate = (range: YearRange | null) => {
 		setSel((prev) => ({ ...prev, date: range }));
 	};
@@ -1571,6 +1605,16 @@ export function GridFacetsView({
 			),
 		[docs, sel, query],
 	);
+	// Static: the pipeline does not serve FAMSF Collection yet, so these are
+	// real full-collection counts probed from TMS, not slice counts.
+	const collectionOpts: FacetOption[] = useMemo(
+		() =>
+			famsfCollectionValues.values.map((v) => ({
+				value: v.term,
+				count: v.count,
+			})),
+		[],
+	);
 	const dateHistogram = useMemo(
 		() =>
 			buildYearHistogram(filterGridDocs(docs, { ...sel, date: null }, query)),
@@ -1625,6 +1669,7 @@ export function GridFacetsView({
 		Boolean(sel.medium) ||
 		Boolean(sel.classification) ||
 		Boolean(sel.department) ||
+		Boolean(sel.collection) ||
 		Boolean(sel.date) ||
 		(geoScope && sel.geoScope !== "all") ||
 		activePlaceExtras.length > 0 ||
@@ -1735,11 +1780,14 @@ export function GridFacetsView({
 		{
 			id: "collection",
 			label: "Collection",
-			activeCount: 0,
+			activeCount: sel.collection ? 1 : 0,
 			control: (
-				<PendingFacet
+				<FacetBlock
 					label="Collection"
-					note="FAMSF Collecting Area: not yet in TMS"
+					options={collectionOpts}
+					selected={sel.collection}
+					onSelect={setCollection}
+					note="FAMSF Collection, the curators' subdepartment grouping. Counts are full-collection; population is in progress, so selecting one filters this sample to 0."
 				/>
 			),
 		},
@@ -1751,6 +1799,7 @@ export function GridFacetsView({
 				<FacetBlock
 					label="Artist/maker"
 					options={artistOpts}
+					totals={COLLECTION_TOTALS.artist}
 					selected={sel.artist}
 					onSelect={setArtist}
 				/>
@@ -1768,11 +1817,11 @@ export function GridFacetsView({
 					<ul className="flex flex-col">
 						{(
 							[
-								["On view (either museum)", null],
-								["de Young", "de Young"],
-								["Legion of Honor", "Legion"],
+								["On view (either museum)", null, facetCounts.toggles.onView],
+								["de Young", "de Young", facetCounts.toggles.onViewDeYoung],
+								["Legion of Honor", "Legion", facetCounts.toggles.onViewLegion],
 							] as const
-						).map(([label, building]) => {
+						).map(([label, building, count]) => {
 							const on = sel.onView && sel.onViewBuilding === building;
 							return (
 								<li key={label}>
@@ -1799,6 +1848,9 @@ export function GridFacetsView({
 											}`}
 										/>
 										<span className="min-w-0 flex-1 truncate">{label}</span>
+										<span className="shrink-0 text-label text-gray-400">
+											{count.toLocaleString()}
+										</span>
 									</button>
 								</li>
 							);
@@ -1824,6 +1876,7 @@ export function GridFacetsView({
 				<FacetBlock
 					label="Culture group"
 					options={cultureOpts}
+					totals={COLLECTION_TOTALS.culture}
 					selected={sel.culture}
 					onSelect={setCulture}
 				/>
@@ -1894,6 +1947,7 @@ export function GridFacetsView({
 				<FacetBlock
 					label="Object type"
 					options={classificationOpts}
+					totals={COLLECTION_TOTALS.classification}
 					selected={sel.classification}
 					onSelect={setClassification}
 				/>
@@ -1907,6 +1961,7 @@ export function GridFacetsView({
 				<FacetBlock
 					label="Department"
 					options={departmentOpts}
+					totals={COLLECTION_TOTALS.department}
 					selected={sel.department}
 					onSelect={setDepartment}
 				/>
@@ -1991,6 +2046,7 @@ export function GridFacetsView({
 								options={activeMakerExtra.options}
 								selected={activeMakerExtra.selected}
 								onSelect={activeMakerExtra.onSelect}
+								totals={COLLECTION_TOTALS.role}
 							/>
 						),
 					}
@@ -2295,6 +2351,16 @@ export function GridFacetsView({
 									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
 								>
 									<span>Department: {sel.department}</span>
+									<span>×</span>
+								</button>
+							)}
+							{sel.collection && (
+								<button
+									type="button"
+									onClick={() => setCollection(null)}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>Collection: {sel.collection}</span>
 									<span>×</span>
 								</button>
 							)}

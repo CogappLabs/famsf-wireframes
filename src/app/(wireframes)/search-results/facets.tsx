@@ -27,7 +27,7 @@ export interface ArtistFacetDef {
 	getValues: (a: ArtistRecord) => string[];
 }
 
-export function termValues(entries?: { term: string }[]): string[] {
+export function termValues(entries?: { term: string }[] | null): string[] {
 	return (entries ?? []).map((e) => e.term).filter(Boolean);
 }
 
@@ -56,22 +56,12 @@ export const OBJECT_FACETS: ObjectFacetDef[] = [
 		],
 	},
 	{
-		id: "period",
-		label: "Period",
-		getValues: (o) => termValues(o.term_period),
-	},
-	{
-		id: "subject",
-		label: "Subject",
-		getValues: (o) => termValues(o.term_subject),
-	},
-	{
 		id: "culture",
 		label: "Culture",
 		getValues: (o) =>
 			(o.constituents ?? [])
-				.filter((c) => c.Role === "Culture")
-				.map((c) => c.DisplayName)
+				.filter((c) => c.role === "Culture")
+				.map((c) => c.name)
 				.filter(Boolean),
 	},
 	{
@@ -127,8 +117,7 @@ export function objectYear(o: CollectionDocument): number | undefined {
 		const m = iso.match(/^(-?\d+)/);
 		return m ? Number(m[1]) : undefined;
 	};
-	const year =
-		o.sort_year ?? isoYear(o.begin_iso_date) ?? isoYear(o.end_iso_date);
+	const year = o.sort_year ?? isoYear(o.date_start) ?? isoYear(o.date_end);
 	if (year == null || Number.isNaN(year) || year === 0) return undefined;
 	return year;
 }

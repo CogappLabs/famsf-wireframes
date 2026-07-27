@@ -55,7 +55,7 @@ export function ResultsGrid({
 							{work.primary_artist_display || work.primary_artist}
 						</p>
 						<p className="font-mono text-label text-gray-400">
-							{work.display_date || work.display_year || ""}
+							{work.date_display || work.display_year || ""}
 						</p>
 						<div className="mt-1.5 flex flex-wrap items-center gap-1">
 							{work.on_view && (
@@ -140,7 +140,7 @@ export function InterleavedResults({
 									{item.data.primary_artist_display || item.data.primary_artist}
 								</p>
 								<p className="font-mono text-label text-gray-400">
-									{item.data.display_date || item.data.display_year || ""}
+									{item.data.date_display || item.data.display_year || ""}
 								</p>
 							</div>
 						</Link>
@@ -201,7 +201,7 @@ export function ResultsList({
 						</h3>
 						<p className="mt-0.5 font-mono text-meta text-gray-500">
 							{work.primary_artist_display || work.primary_artist}
-							{work.display_date ? `, ${work.display_date}` : ""}
+							{work.date_display ? `, ${work.date_display}` : ""}
 						</p>
 						<p className="font-mono text-meta text-gray-400">{work.medium}</p>
 					</div>

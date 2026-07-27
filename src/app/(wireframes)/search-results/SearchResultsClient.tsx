@@ -49,19 +49,19 @@ export function deriveArtists(docs: CollectionDocument[]): ArtistRecord[] {
 	const byId = new Map<number, ArtistRecord & { _seen: Set<number> }>();
 	for (const doc of docs) {
 		for (const c of doc.constituents ?? []) {
-			if (!c.DisplayName) continue;
-			let entry = byId.get(c.ConstituentID);
+			if (!c.name) continue;
+			let entry = byId.get(c.id);
 			if (!entry) {
 				entry = {
-					id: c.ConstituentID,
-					name: c.DisplayName,
-					nationality: c.Nationality,
-					displayDate: c.DisplayDate,
-					role: c.Role || "Artist",
+					id: c.id,
+					name: c.name,
+					nationality: c.nationality,
+					displayDate: c.dates,
+					role: c.role || "Artist",
 					workCount: 0,
 					_seen: new Set(),
 				};
-				byId.set(c.ConstituentID, entry);
+				byId.set(c.id, entry);
 			}
 			if (!entry._seen.has(doc.id)) {
 				entry._seen.add(doc.id);
@@ -161,7 +161,7 @@ function SearchResultsContent({
 				id: String(d.id),
 				title: d.title || d.accession_number,
 				artist: d.primary_artist_display || d.primary_artist || "",
-				date: d.display_date || d.display_year || "",
+				date: d.date_display || d.display_year || "",
 				department: d.department || "",
 				slug: objectSlugById[d.id],
 			})),
@@ -196,16 +196,6 @@ function SearchResultsContent({
 					...(d.term_place_of_creation ?? []).map((t) => t.term),
 					...(d.term_related_geography ?? []).map((t) => t.term),
 				],
-			},
-			{
-				facetType: "period",
-				facetLabel: "Period",
-				get: (d) => (d.term_period ?? []).map((t) => t.term),
-			},
-			{
-				facetType: "subject",
-				facetLabel: "Subject",
-				get: (d) => (d.term_subject ?? []).map((t) => t.term),
 			},
 			{
 				facetType: "dateRange",
@@ -252,7 +242,7 @@ function SearchResultsContent({
 				id: String(d.id),
 				title: d.title || d.accession_number,
 				artist: d.primary_artist_display || d.primary_artist || "",
-				date: d.display_date || d.display_year || "",
+				date: d.date_display || d.display_year || "",
 				department: d.department || "",
 				slug: objectSlugById[d.id],
 			})),
@@ -355,7 +345,7 @@ function SearchResultsContent({
 				o.department,
 				o.classification,
 				o.accession_number,
-				...(o.constituents ?? []).map((c) => c.DisplayName),
+				...(o.constituents ?? []).map((c) => c.name),
 			]
 				.filter(Boolean)
 				.some((f) => f?.toLowerCase().includes(q)),
@@ -576,7 +566,7 @@ function SearchResultsContent({
 								// per-object sample pages, so every card routes to the one
 								// fully-built sample object (Water Lilies) to demo the
 								// search → object-detail flow.
-								getHref={() => "/objects/sample/water-lilies-1973-3"}
+								getHref={() => "/objects/sample/1973.3/water-lilies"}
 								layout={
 									variation === "grid-facets-modal" ||
 									variation === "zero-results" ||

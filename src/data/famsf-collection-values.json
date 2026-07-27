@@ -1,0 +1,93 @@
+{
+	"_comment": "FAMSF Collection: the curators' subdepartment grouping (CW-254). Source is TMS ThesXrefs where ThesXrefTypeID = 81; the pipeline does not emit it yet, so this is a wireframe-only stand-in, same pattern as medium-taxonomy.json. Counts are full-collection, not the 600-doc slice. Curators are mid-population: the bulk lands August 2026 and values may change.",
+	"source": "TMS ThesXrefs, ThesXrefTypeID 81 ('FAMSF Collection')",
+	"probedAt": "2026-07-27",
+	"totalObjects": 1226,
+	"totalWebVisible": 1170,
+	"values": [
+		{
+			"term": "American Paintings",
+			"department": "American Paintings",
+			"count": 297,
+			"webVisibleCount": 297
+		},
+		{
+			"term": "Textiles",
+			"department": "Costume and Textile Arts",
+			"count": 233,
+			"webVisibleCount": 182
+		},
+		{
+			"term": "Works on Paper",
+			"department": "Achenbach Foundation for Graphic Arts",
+			"count": 223,
+			"webVisibleCount": 221
+		},
+		{
+			"term": "European Paintings",
+			"department": "European Paintings",
+			"count": 156,
+			"webVisibleCount": 156
+		},
+		{
+			"term": "Contemporary Art",
+			"department": "Contemporary Art",
+			"count": 59,
+			"webVisibleCount": 59
+		},
+		{
+			"term": "Photography",
+			"department": "Achenbach Foundation for Graphic Arts",
+			"count": 52,
+			"webVisibleCount": 52
+		},
+		{
+			"term": "European Sculpture",
+			"department": "European Decorative Arts and Sculpture",
+			"count": 51,
+			"webVisibleCount": 50
+		},
+		{
+			"term": "American Sculpture",
+			"department": "American Decorative Arts and Sculpture",
+			"count": 41,
+			"webVisibleCount": 39
+		},
+		{
+			"term": "African Art",
+			"department": "Arts of Africa, Oceania, and the Americas",
+			"count": 35,
+			"webVisibleCount": 35
+		},
+		{
+			"term": "European Decorative Arts",
+			"department": "European Decorative Arts and Sculpture",
+			"count": 26,
+			"webVisibleCount": 26
+		},
+		{
+			"term": "American Decorative Arts",
+			"department": "American Decorative Arts and Sculpture",
+			"count": 19,
+			"webVisibleCount": 19
+		},
+		{
+			"term": "Arts of the Americas",
+			"department": "Arts of Africa, Oceania, and the Americas",
+			"count": 12,
+			"webVisibleCount": 12
+		},
+		{
+			"term": "Ancient Art",
+			"department": "Ancient Art",
+			"count": 11,
+			"webVisibleCount": 11
+		},
+		{
+			"term": "Oceanic Art",
+			"department": "Arts of Africa, Oceania, and the Americas",
+			"count": 11,
+			"webVisibleCount": 11
+		}
+	]
+}
