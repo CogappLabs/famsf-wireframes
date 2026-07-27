@@ -42,8 +42,8 @@ export const scope: Record<string, ScopeEntry> = {
 		issueUrl: issue("CW-36"),
 	},
 	"collection-landing/Promo mosaic": {
-		mvp: true,
-		note: "Flexible editorial promo grid from the Figma homepage comp (node 174:1464). Cells are typed (stat / link / image) so curators can surface a headline number, point at any existing page, or run an image. Phase 1 (needs an editorial owner and a curator-editable cell list).",
+		mvp: false,
+		note: "Flexible editorial promo grid from the Figma homepage comp (node 174:1464). Cells are typed (stat / link / image) so curators can surface a headline number, point at any existing page, or run an image. Post-MVP (needs an editorial owner and a curator-editable cell list).",
 		issueUrl: issue("CW-27"),
 	},
 	"collection-landing/Highlights": {
