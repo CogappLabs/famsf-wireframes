@@ -431,55 +431,45 @@ const byCountDesc = (a: FacetTreeNode, b: FacetTreeNode) =>
 	b.count - a.count || a.value.localeCompare(b.value);
 
 /**
- * Generic 2- to 4-tier tree builder. `paths` maps each doc to a list of
- * tuples giving the value at each tier for one path through the doc's
- * facet (e.g. [region, country, state, notable] for place, [section,
- * subcategory, specific] for medium). Empty tier values truncate that path
- * (so a section with no subcategory simply has no children). Counts are
- * distinct docs per node.
+ * The Place facet renders the served hierarchy with real full-collection counts
+ * (scripts/build_facet_counts.py, reading the pipeline's own place.lvl0-lvl3),
+ * so reviewers see the shape and scale the API actually returns. Same
+ * display-only approach as the Medium tree below: selecting a node still
+ * filters the ~600-doc slice, so a node with no slice member filters to 0.
+ *
+ * Values arrive as cumulative "A > B > C" paths, one flat list per level, so
+ * nest them by hanging each path off its parent. Some region labels are still
+ * raw TGN ("Roman Empire") or endonyms ("Deutschland"): the pipeline reads an
+ * 18-row placeholder crosswalk rather than the 532-row curator REGION_REMAP
+ * sheet, so the counts are real but the labels are not yet curated.
  */
-function buildFacetTree(
-	docs: CollectionDocument[],
-	paths: (d: CollectionDocument) => string[][],
-): FacetTreeNode[] {
-	interface Acc {
-		docs: Set<number>;
-		children: Map<string, Acc>;
-	}
-	const root: Map<string, Acc> = new Map();
+const PLACE_TREE: FacetTreeNode[] = (() => {
+	const byPath = new Map<string, FacetTreeNode>();
+	const roots: FacetTreeNode[] = [];
 
-	for (const d of docs) {
-		for (const path of paths(d)) {
-			let level = root;
-			for (const value of path) {
-				if (!value) break;
-				let node = level.get(value);
-				if (!node) {
-					node = { docs: new Set(), children: new Map() };
-					level.set(value, node);
-				}
-				node.docs.add(d.id);
-				level = node.children;
-			}
+	for (const lvl of ["lvl0", "lvl1", "lvl2", "lvl3"] as const) {
+		for (const row of facetCounts.place[lvl]) {
+			if (byPath.has(row.path)) continue;
+			const node: FacetTreeNode = {
+				value: row.value,
+				count: row.count,
+				children: [],
+			};
+			byPath.set(row.path, node);
+			const parentPath = row.path.split(" > ").slice(0, -1).join(" > ");
+			const parent = parentPath ? byPath.get(parentPath) : undefined;
+			if (parent) parent.children.push(node);
+			else if (!parentPath) roots.push(node);
 		}
 	}
 
-	const toNodes = (level: Map<string, Acc>): FacetTreeNode[] =>
-		Array.from(level.entries())
-			.map(([value, acc]) => ({
-				value,
-				count: acc.docs.size,
-				children: toNodes(acc.children),
-			}))
-			.sort(byCountDesc);
-
-	return toNodes(root);
-}
-
-const buildPlaceTree = (docs: CollectionDocument[]): FacetTreeNode[] =>
-	buildFacetTree(docs, (d) =>
-		(d.facet_place ?? []).map((p) => [p.region, p.country, p.state, p.notable]),
-	);
+	const sortDeep = (nodes: FacetTreeNode[]) => {
+		nodes.sort(byCountDesc);
+		for (const n of nodes) sortDeep(n.children);
+	};
+	sortDeep(roots);
+	return roots;
+})();
 
 // The Medium facet renders the FULL curated 12-Tier-1 taxonomy with real
 // full-collection counts, baked once by build_medium_facet.py. It is a
@@ -489,6 +479,9 @@ const buildPlaceTree = (docs: CollectionDocument[]): FacetTreeNode[] =>
 const MEDIUM_TREE = mediumTaxonomy as FacetTreeNode[];
 
 const FACET_TOP_N = 8;
+/** Facets no longer than this show every option, since collapsing a short list
+ *  behind "Show more" hides less than the button costs. */
+const FACET_SHOW_ALL_MAX = 30;
 
 /** A single expandable facet block in the left column. */
 function FacetBlock({
@@ -532,7 +525,9 @@ function FacetBlock({
 				o.value.toLowerCase().includes(search.toLowerCase()),
 			)
 		: ordered;
-	const shown = expanded || search ? filtered : filtered.slice(0, FACET_TOP_N);
+	const showAll =
+		expanded || Boolean(search) || options.length <= FACET_SHOW_ALL_MAX;
+	const shown = showAll ? filtered : filtered.slice(0, FACET_TOP_N);
 	const hiddenCount = filtered.length - shown.length;
 
 	return (
@@ -550,7 +545,7 @@ function FacetBlock({
 					type="button"
 					aria-pressed
 					onClick={() => onSelect(null)}
-					className="mb-1 flex w-full items-center gap-2 border border-gray-900 bg-gray-900 px-2 py-1 font-mono text-meta text-white hover:bg-gray-700"
+					className="mb-1 flex w-full items-start gap-2 border border-gray-900 bg-gray-900 px-2 py-1 font-mono text-meta text-white hover:bg-gray-700"
 				>
 					<span
 						aria-hidden
@@ -558,11 +553,13 @@ function FacetBlock({
 					>
 						✓
 					</span>
-					<span className="min-w-0 flex-1 truncate text-left">{selected}</span>
+					<span className="min-w-0 flex-1 text-left break-words">
+						{selected}
+					</span>
 					<span>×</span>
 				</button>
 			)}
-			{options.length > FACET_TOP_N && (
+			{options.length > FACET_SHOW_ALL_MAX && (
 				<input
 					type="text"
 					value={search}
@@ -580,13 +577,13 @@ function FacetBlock({
 								type="button"
 								aria-pressed={false}
 								onClick={() => onSelect(o.value)}
-								className="flex w-full items-center gap-2 py-1 text-left font-mono text-meta text-gray-700 hover:bg-gray-50 hover:text-gray-950"
+								className="flex w-full items-start gap-2 py-1 text-left font-mono text-meta text-gray-700 hover:bg-gray-50 hover:text-gray-950"
 							>
 								<span
 									aria-hidden
 									className="h-4 w-4 shrink-0 border border-gray-500 bg-white"
 								/>
-								<span className="min-w-0 flex-1 truncate">{o.value}</span>
+								<span className="min-w-0 flex-1 break-words">{o.value}</span>
 								<span className="shrink-0 tabular-nums text-gray-500">
 									{(totals?.get(o.value) ?? o.count).toLocaleString()}
 								</span>
@@ -603,7 +600,7 @@ function FacetBlock({
 					Show {hiddenCount} more
 				</button>
 			)}
-			{expanded && !search && filtered.length > FACET_TOP_N && (
+			{expanded && !search && filtered.length > FACET_SHOW_ALL_MAX && (
 				<button
 					type="button"
 					onClick={() => setExpanded(false)}
@@ -979,7 +976,7 @@ function FacetTreeRow({
 						{isSelected ? "✓" : ""}
 					</span>
 					<span
-						className={`min-w-0 flex-1 truncate ${isSelected ? "font-medium" : ""}`}
+						className={`min-w-0 flex-1 break-words ${isSelected ? "font-medium" : ""}`}
 					>
 						{node.value}
 					</span>
@@ -1161,7 +1158,7 @@ function FacetDrawer({
 			}}
 			// Pin to the left edge, full height. `mr-auto` pushes the panel flush
 			// to the left so the backdrop fills the rest of the viewport.
-			className="m-0 mr-auto h-dvh max-h-dvh w-[88vw] max-w-xs border-r border-gray-300 bg-white p-0 backdrop:bg-black/30"
+			className="m-0 mr-auto h-dvh max-h-dvh w-[88vw] max-w-sm border-r border-gray-300 bg-white p-0 backdrop:bg-black/30"
 		>
 			<div className="flex h-full flex-col">
 				<div className="flex items-center justify-between border-b border-gray-200 px-4 py-3">
@@ -1354,7 +1351,6 @@ export function GridFacetsView({
 	query = "",
 	seedFacet = "",
 	placeExtras = false,
-	placeExtrasCollapsible = true,
 	placeExtrasMode = "buttons",
 	geoScope = false,
 	forceZero = false,
@@ -1373,10 +1369,6 @@ export function GridFacetsView({
 	 *  under Place, and the maker Role facet under Artist/maker (place-plus
 	 *  variation). */
 	placeExtras?: boolean;
-	/** true → place extras sit in a "More place options" accordion; false →
-	 *  rendered directly nested under Place (like the maker Role facet). Only
-	 *  used when placeExtrasMode === "buttons". */
-	placeExtrasCollapsible?: boolean;
 	/** How the place-term facets nest under Place:
 	 *  - "buttons": one facet button per place field (each opens its own drawer),
 	 *    optionally wrapped in a "More place options" accordion.
@@ -1418,39 +1410,30 @@ export function GridFacetsView({
 		if (seed) setSel((prev) => ({ ...prev, ...seed }));
 	}, [seedFacet]);
 
-	const setArtist = (value: string | null) => {
-		setSel((prev) => ({
-			...prev,
-			artist: prev.artist === value ? null : value,
-		}));
-	};
-	const setRole = (value: string | null) => {
-		setSel((prev) => ({ ...prev, role: prev.role === value ? null : value }));
-	};
-	const setCulture = (value: string | null) => {
-		setSel((prev) => ({
-			...prev,
-			culture: prev.culture === value ? null : value,
-		}));
-	};
-	const setClassification = (value: string | null) => {
-		setSel((prev) => ({
-			...prev,
-			classification: prev.classification === value ? null : value,
-		}));
-	};
-	const setDepartment = (value: string | null) => {
-		setSel((prev) => ({
-			...prev,
-			department: prev.department === value ? null : value,
-		}));
-	};
-	const setCollection = (value: string | null) => {
-		setSel((prev) => ({
-			...prev,
-			collection: prev.collection === value ? null : value,
-		}));
-	};
+	// The flat facets all toggle a single string key: picking the active value
+	// again clears it.
+	const setFlat =
+		(
+			key:
+				| "artist"
+				| "role"
+				| "culture"
+				| "classification"
+				| "department"
+				| "collection",
+		) =>
+		(value: string | null) => {
+			setSel((prev) => ({
+				...prev,
+				[key]: prev[key] === value ? null : value,
+			}));
+		};
+	const setArtist = setFlat("artist");
+	const setRole = setFlat("role");
+	const setCulture = setFlat("culture");
+	const setClassification = setFlat("classification");
+	const setDepartment = setFlat("department");
+	const setCollection = setFlat("collection");
 	const setDate = (range: YearRange | null) => {
 		setSel((prev) => ({ ...prev, date: range }));
 	};
@@ -1542,15 +1525,11 @@ export function GridFacetsView({
 		safePage * PAGE_SIZE + PAGE_SIZE,
 	);
 
-	// Each tree reflects every value consistent with the OTHER facets'
-	// selections (and the active query), so the hierarchy stays browsable
-	// while one is selected.
-	const placeTree = useMemo(
-		() => buildPlaceTree(filterGridDocs(docs, { ...sel, place: null }, query)),
-		[docs, sel, query],
-	);
-	// Static full taxonomy tree with real counts — independent of the slice /
-	// other selections (unlike place, which recomputes so its counts co-vary).
+	// Both trees are the full served hierarchy with real full-collection counts,
+	// baked from the pipeline rather than derived from the slice, so reviewers
+	// see the final shape and scale. Display-only: selecting a node filters the
+	// slice, which may hold no member for it.
+	const placeTree = PLACE_TREE;
 	const mediumTree = MEDIUM_TREE;
 	const artistOpts = useMemo(
 		() =>
@@ -1661,22 +1640,141 @@ export function GridFacetsView({
 	const activePlaceExtras = Object.entries(sel.placeExtras).filter(([, v]) =>
 		Boolean(v),
 	) as [PlaceExtraId, string][];
-	const anyActive =
-		Boolean(sel.artist) ||
-		Boolean(sel.role) ||
-		Boolean(sel.culture) ||
-		Boolean(sel.place) ||
-		Boolean(sel.medium) ||
-		Boolean(sel.classification) ||
-		Boolean(sel.department) ||
-		Boolean(sel.collection) ||
-		Boolean(sel.date) ||
-		(geoScope && sel.geoScope !== "all") ||
-		activePlaceExtras.length > 0 ||
-		sel.placeTypes.length > 0 ||
-		sel.onView ||
-		sel.hasImage ||
-		sel.openAccess;
+	const placeExtraLabel = (id: PlaceExtraId) =>
+		PLACE_EXTRA_FIELDS.find((f) => f.id === id)?.label ?? id;
+
+	// One entry per active selection, in the order the chips read. Also answers
+	// "is anything active?", so the two cannot drift apart.
+	const activeChips: { key: string; label: string; clear: () => void }[] = [
+		...(sel.artist
+			? [
+					{
+						key: "artist",
+						label: `Artist/maker: ${sel.artist}`,
+						clear: () => setArtist(null),
+					},
+				]
+			: []),
+		...(sel.role
+			? [
+					{
+						key: "role",
+						label: `Role: ${sel.role}`,
+						clear: () => setRole(null),
+					},
+				]
+			: []),
+		...(sel.culture
+			? [
+					{
+						key: "culture",
+						label: `Culture group: ${sel.culture}`,
+						clear: () => setCulture(null),
+					},
+				]
+			: []),
+		...(placeChipLabel
+			? [
+					{
+						key: "place",
+						label: placeChipLabel,
+						clear: () => setSel((p) => ({ ...p, place: null })),
+					},
+				]
+			: []),
+		...(geoScope && sel.geoScope !== "all"
+			? [
+					{
+						key: "geoScope",
+						label: `Geography source: ${GEO_SCOPES.find((s) => s.id === sel.geoScope)?.label}`,
+						clear: () => setGeoScope("all"),
+					},
+				]
+			: []),
+		...activePlaceExtras.map(([id, value]) => ({
+			key: `pe:${id}`,
+			label: `${placeExtraLabel(id)}: ${value}`,
+			clear: () => setPlaceExtra(id, null),
+		})),
+		...sel.placeTypes.map((id) => ({
+			key: `pt:${id}`,
+			label: `Place type: ${placeExtraLabel(id)}`,
+			clear: () => togglePlaceType(id),
+		})),
+		...(mediumChipLabel
+			? [
+					{
+						key: "medium",
+						label: mediumChipLabel,
+						clear: () => setSel((p) => ({ ...p, medium: null })),
+					},
+				]
+			: []),
+		...(sel.classification
+			? [
+					{
+						key: "classification",
+						label: `Object type: ${sel.classification}`,
+						clear: () => setClassification(null),
+					},
+				]
+			: []),
+		...(sel.department
+			? [
+					{
+						key: "department",
+						label: `Department: ${sel.department}`,
+						clear: () => setDepartment(null),
+					},
+				]
+			: []),
+		...(sel.collection
+			? [
+					{
+						key: "collection",
+						label: `Collection: ${sel.collection}`,
+						clear: () => setCollection(null),
+					},
+				]
+			: []),
+		...(sel.date
+			? [
+					{
+						key: "date",
+						label: `Date: ${yearLabel(sel.date.min)}–${yearLabel(sel.date.max)}`,
+						clear: () => setDate(null),
+					},
+				]
+			: []),
+		...(sel.onView
+			? [
+					{
+						key: "onView",
+						label: `On view${sel.onViewBuilding ? `: ${sel.onViewBuilding}` : ""}`,
+						clear: () => setOnView(false, null),
+					},
+				]
+			: []),
+		...(sel.hasImage
+			? [
+					{
+						key: "hasImage",
+						label: "Has image",
+						clear: () => toggleFlag("hasImage"),
+					},
+				]
+			: []),
+		...(sel.openAccess
+			? [
+					{
+						key: "openAccess",
+						label: "Open access",
+						clear: () => toggleFlag("openAccess"),
+					},
+				]
+			: []),
+	];
+	const anyActive = activeChips.length > 0;
 
 	// How many nested place selections are active, per mode: field-values
 	// (buttons) vs checked field-types (grouped).
@@ -1761,7 +1859,7 @@ export function GridFacetsView({
 								: [],
 					}
 				: {
-						collapsible: placeExtrasCollapsible,
+						collapsible: true,
 						summary: "More place options",
 						activeCount: activePlaceExtras.length,
 						panels: placeExtraPanels,
@@ -1817,9 +1915,21 @@ export function GridFacetsView({
 					<ul className="flex flex-col">
 						{(
 							[
+								// "Either museum" leads as the parent option; the two
+								// museums below it sort by count like every other facet.
 								["On view (either museum)", null, facetCounts.toggles.onView],
-								["de Young", "de Young", facetCounts.toggles.onViewDeYoung],
-								["Legion of Honor", "Legion", facetCounts.toggles.onViewLegion],
+								...(
+									[
+										["de Young", "de Young", facetCounts.toggles.onViewDeYoung],
+										[
+											"Legion of Honor",
+											"Legion",
+											facetCounts.toggles.onViewLegion,
+										],
+									] as const
+								)
+									.slice()
+									.sort((a, b) => b[2] - a[2]),
 							] as const
 						).map(([label, building, count]) => {
 							const on = sel.onView && sel.onViewBuilding === building;
@@ -1847,7 +1957,7 @@ export function GridFacetsView({
 													: "border-gray-500 bg-white"
 											}`}
 										/>
-										<span className="min-w-0 flex-1 truncate">{label}</span>
+										<span className="min-w-0 flex-1 break-words">{label}</span>
 										<span className="shrink-0 text-label text-gray-400">
 											{count.toLocaleString()}
 										</span>
@@ -2239,176 +2349,17 @@ export function GridFacetsView({
 							<span className="font-mono text-label text-gray-500">
 								{anyActive ? "Active filters:" : " "}
 							</span>
-							{sel.artist && (
+							{activeChips.map((chip) => (
 								<button
+									key={chip.key}
 									type="button"
-									onClick={() => setArtist(null)}
+									onClick={chip.clear}
 									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
 								>
-									<span>Artist/maker: {sel.artist}</span>
+									<span>{chip.label}</span>
 									<span>×</span>
 								</button>
-							)}
-							{sel.role && (
-								<button
-									type="button"
-									onClick={() => setRole(null)}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Role: {sel.role}</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.culture && (
-								<button
-									type="button"
-									onClick={() => setCulture(null)}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Culture group: {sel.culture}</span>
-									<span>×</span>
-								</button>
-							)}
-							{placeChipLabel && (
-								<button
-									type="button"
-									onClick={() => setSel((p) => ({ ...p, place: null }))}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>{placeChipLabel}</span>
-									<span>×</span>
-								</button>
-							)}
-							{geoScope && sel.geoScope !== "all" && (
-								<button
-									type="button"
-									onClick={() => setGeoScope("all")}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>
-										Geography source:{" "}
-										{GEO_SCOPES.find((s) => s.id === sel.geoScope)?.label}
-									</span>
-									<span>×</span>
-								</button>
-							)}
-							{activePlaceExtras.map(([id, value]) => {
-								const label =
-									PLACE_EXTRA_FIELDS.find((f) => f.id === id)?.label ?? id;
-								return (
-									<button
-										key={id}
-										type="button"
-										onClick={() => setPlaceExtra(id, null)}
-										className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-									>
-										<span>
-											{label}: {value}
-										</span>
-										<span>×</span>
-									</button>
-								);
-							})}
-							{sel.placeTypes.map((id) => {
-								const label =
-									PLACE_EXTRA_FIELDS.find((f) => f.id === id)?.label ?? id;
-								return (
-									<button
-										key={id}
-										type="button"
-										onClick={() => togglePlaceType(id)}
-										className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-									>
-										<span>Place type: {label}</span>
-										<span>×</span>
-									</button>
-								);
-							})}
-							{mediumChipLabel && (
-								<button
-									type="button"
-									onClick={() => setSel((p) => ({ ...p, medium: null }))}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>{mediumChipLabel}</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.classification && (
-								<button
-									type="button"
-									onClick={() => setClassification(null)}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Object type: {sel.classification}</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.department && (
-								<button
-									type="button"
-									onClick={() => setDepartment(null)}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Department: {sel.department}</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.collection && (
-								<button
-									type="button"
-									onClick={() => setCollection(null)}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Collection: {sel.collection}</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.date && (
-								<button
-									type="button"
-									onClick={() => setDate(null)}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>
-										Date: {yearLabel(sel.date.min)}–{yearLabel(sel.date.max)}
-									</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.onView && (
-								<button
-									type="button"
-									onClick={() => setOnView(false, null)}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>
-										On view
-										{sel.onViewBuilding ? `: ${sel.onViewBuilding}` : ""}
-									</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.hasImage && (
-								<button
-									type="button"
-									onClick={() => toggleFlag("hasImage")}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Has image</span>
-									<span>×</span>
-								</button>
-							)}
-							{sel.openAccess && (
-								<button
-									type="button"
-									onClick={() => toggleFlag("openAccess")}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>Open access</span>
-									<span>×</span>
-								</button>
-							)}
+							))}
 						</div>
 					</ScopeMark>
 

@@ -4,8 +4,16 @@ The grid-facets variation is backed by a ~600-doc slice, so its own counts are
 a sample, not the collection. This aggregates the full pipeline parquet so the
 flat facets can show real numbers.
 
-Place and Medium are deliberately excluded: both render curated hierarchies
-with their own build steps (build_medium_facet.py, the REGION_REMAP crosswalk).
+Medium is deliberately excluded: it renders the curators' full 12-Tier-1
+hierarchy with its own build step (build_medium_facet.py).
+
+Place counts come from the pipeline's own `place.lvl0`-`lvl3` struct, so they
+are the served hierarchy rather than the wireframe's separate `facet_place[]`
+stand-in. Note the pipeline currently reads an 18-row placeholder crosswalk
+(tests/fixtures/places_remap.ndjson) instead of the 532-row curator REGION_REMAP
+sheet, so the region tier still carries raw-TGN artefacts ("Roman Empire",
+"Milky Way Galaxy") and endonyms ("Deutschland"). These counts are real; the
+labels are not yet curated.
 
 FAMSF Collection is not in the parquet yet (CW-254); its counts live in
 src/data/famsf-collection-values.json, probed from TMS.
@@ -111,6 +119,28 @@ def main() -> None:
         "openAccess": int(toggles[4]),
     }
     print(f"  toggles          {out['toggles']}", flush=True)
+
+    # Place: the served hierarchy. lvl1+ values are "A > B" cumulative paths, so
+    # key them by their own leaf label and keep the parent for nesting.
+    place: dict[str, list[dict]] = {}
+    for lvl in ("lvl0", "lvl1", "lvl2", "lvl3"):
+        rows = con.execute(f"""
+            SELECT v AS path, COUNT(DISTINCT d.id) AS n
+            FROM read_parquet($parquet) d, UNNEST(d.place.{lvl}) AS t(v)
+            WHERE v IS NOT NULL AND trim(v) <> ''
+            GROUP BY 1
+            ORDER BY n DESC, path
+        """, {"parquet": str(PARQUET)}).fetchall()
+        place[lvl] = [
+            {
+                "path": r[0],
+                "value": r[0].split(" > ")[-1],
+                "count": int(r[1]),
+            }
+            for r in rows
+        ]
+        print(f"  place.{lvl:11} {len(place[lvl]):6} values", flush=True)
+    out["place"] = place
 
     DEST.write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n")
     print(f"\nWrote {DEST}")
