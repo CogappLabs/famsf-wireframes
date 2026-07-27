@@ -157,8 +157,9 @@ Current variations:
     facets cap at 8 with "Show more"; Place (geography) and the full Medium tree
     show all. `grid-facets` shows every facet expanded
     inline; `grid-facets-modal` shows one button per facet (name + active-count
-    badge) opening the same control in a right-anchored side **drawer** (native
-    `<dialog>`, mobile + desktop; the URL key keeps the `-modal` name for stable
+    badge) opening the same control in a left-anchored side **drawer** (native
+    `<dialog>`, full height, 20rem wide on desktop and `88vw` on mobile;
+    mobile + desktop; the URL key keeps the `-modal` name for stable
     links, changed 2026-07-07).
   - **Nested "More … options" facets** (`placeExtras` prop on `GridFacetsView`,
     drawer layout, place-options variations only, added 2026-07-08). Under a
