@@ -39,15 +39,15 @@ export default async function SampleConstituentPage({ params }: Props) {
 		realObjectIds.has(o.id),
 	);
 	const fromSampleDocs = allSampleDocs
-		.filter((e) => e.doc.constituents?.some((c) => c.ConstituentID === doc.id))
+		.filter((e) => (e.doc.constituents ?? []).some((c) => c.id === doc.id))
 		.map((e) => ({
 			id: e.doc.id,
 			accession_number: e.doc.accession_number,
 			title: e.doc.title ?? null,
-			display_date: e.doc.display_date ?? null,
+			display_date: e.doc.date_display ?? null,
 			primary_artist_display:
 				e.doc.primary_artist_display ?? e.doc.primary_artist ?? null,
-			iiif_thumbnail_url: e.doc.iiif_thumbnail_url ?? null,
+			iiif_thumbnail_url: e.doc.primary_thumbnail_url ?? null,
 			has_iiif: e.doc.has_iiif,
 		}));
 	const sampleObjectsById = new Map<number, (typeof fromConstituentDoc)[0]>();

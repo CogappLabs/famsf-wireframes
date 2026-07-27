@@ -17,11 +17,10 @@ export default function VisualBrowsePage() {
 				slug,
 				title: doc.title ?? doc.accession_number,
 				artist: doc.primary_artist_display ?? null,
-				date: doc.display_date ?? doc.display_year ?? null,
+				date: doc.date_display ?? doc.display_year ?? null,
 				department: doc.department ?? null,
-				imageUrl: iiifImageUrl(media.media_master_id, "!800,800"),
-				aspect:
-					media.pixel_w && media.pixel_h ? media.pixel_w / media.pixel_h : null,
+				imageUrl: iiifImageUrl(media.image_id, "!800,800"),
+				aspect: media.width && media.height ? media.width / media.height : null,
 			};
 		})
 		.filter((x): x is BrowseItem => x !== null);

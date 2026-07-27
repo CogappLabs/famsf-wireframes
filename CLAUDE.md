@@ -39,7 +39,7 @@ The index, top bar badges, footer links, and scope overlay all derive from these
 | Collection Landing | `/collection-landing` | **Lean MVP**: hero + autocomplete search bar with basic filter chips. Everything else (stats, dual pathways, browse-by-area, highlights, "what to see", timeline) is scope-deferred post-MVP but still on the page. |
 | Explore | `/explore` | Curated themes, timeline browse, discovery prompts, most viewed (post-MVP) |
 | Search Results | `/search-results` | **Primary view = grid + facet drawer** (real data, omnibox + sort + pager). Other variations behind `?variation=`. |
-| Object Detail | `/objects/sample/[variant]` | **Two-column layout** (full-width image → left rail: title/subtitle, on-view+location, audio, parent-child → wide main: web text, tombstone, dimensions, scale, people, additional info, provenance → exhibitions → bibliography, scholarly publications, rights & citation → full-width Related works + data disclaimer). Per the June 18 2026 page-layouts spec. Sections split into `object-detail/*` components. **Excluded fields** (FAMSF field-exclusion list, not rendered): Object name, Label on object, Marks (Signed/Inscribed/Markings), Style/period/movement + Subject (dropped from `TERM_FIELDS`), Runway collection / virtual parents (Virtual badge + virtual children), Object label text / wall text (`didactic_label`), Alternate/legacy accession (`sort_number`), Identifying description, Conversation notes, Catalogue raisonné. |
+| Object Detail | `/objects/sample/[...variant]` | **Two-column layout** (full-width image → left rail: title/subtitle, on-view+location, audio, parent-child → wide main: web text, tombstone, Additional information, dimensions, people, provenance → exhibitions → bibliography, scholarly publications, rights & citation → full-width Related works). Per the June 18 2026 page-layouts spec. Sections split into `object-detail/*` components. Route is a catch-all: the served slug is `{accession}/{title-slug}`. Museum location renders only when `on_view`; accession date is written out ("7 January 1973"); artist, date, medium, department, and object type all route to a filtered search; place ancestry reads specific → general with the Getty "World" root dropped. The data disclaimer was removed 2026-07-27. **Excluded fields** (FAMSF field-exclusion list, not rendered): Object name, Label on object, Marks (Signed/Inscribed/Markings), Style/period/movement + Subject (dropped from `TERM_FIELDS`), Runway collection / virtual parents (Virtual badge + virtual children), Object label text / wall text (`didactic_label`), Alternate/legacy accession (`sort_number`), Identifying description, Conversation notes, Catalogue raisonné. |
 | Collection areas | (no index page) | The standalone `/collection-areas` index was removed 2026-06-19; collection-area detail pages are reached only from the homepage Browse-by-area grid. |
 | Collection Area (detail) | `/collection-area/[slug]` | Per-area detail route, statically generated for the **9 TMS departments** carrying web-visible objects (collection areas == departments, CW-30) from an `AREAS` data map keyed by slug. AOA is one area ("Arts of Africa, Oceania, and the Americas"), not three. Order per the June 18 2026 spec: intro → deep dive (collection history) → highlights → featured collections → read/watch/listen → other resources. Featured-collection cards are the real named "(Web)" collections from the curated TMS "Topics" package folder, rendered as child pages at `/collection-area/[slug]/[featured]`; only Achenbach has any, so other areas show no featured grid. |
 | Artist Page | `/artist-page?name=X` | Bio, works grid, exhibitions, related artists |
@@ -345,8 +345,23 @@ Sample collection-document JSONs live at `src/data/sample-docs/`. Pages
 in `/objects/sample/` render them as wireframe object pages backed by
 real pipeline output.
 
+**Source is the live index, not the pipeline export** (2026-07-27). The 22
+sample docs are pulled straight from the `develop` alias on the FAMSF ES
+cluster, so what the wireframe renders is what the API actually serves.
+
+    uv run python scripts/pull_sample_docs_from_es.py [--index develop] [--dry-run]
+
+The ES `_id` is the **accession number** (`1973.3`), not the ObjectID. The
+script keys off each file's `accession_number`, verifies the returned `id`
+matches before writing, and carries the existing `_sample_meta` block over
+(the index does not serve it). Re-run after any pipeline re-index.
+
+**Route is a catch-all** — the served `slug` is `{accession}/{title-slug}`
+(e.g. `1973.3/water-lilies`), so it spans two path segments and the object
+page lives at `/objects/sample/[...variant]/`.
+
 **Auto-discovery registry** — `src/lib/sample-docs-registry.ts`. The
-index page (`/objects/sample/`) and the dynamic `[variant]` route both
+index page (`/objects/sample/`) and the dynamic `[...variant]` route both
 read this registry. Filename conventions:
 
 - `minimal_{id}.json` / `median_{id}.json` / `maximal_{id}.json` — auto-pick
@@ -375,9 +390,30 @@ path only).
 **Auto-sync from pipeline** — when the FAMSF pipeline materialises
 `sample_docs`, it dual-writes to this repo's `src/data/sample-docs/`
 directory if `COLFLOW_WIREFRAMES_SAMPLE_DIR` env var is set in the
-pipeline's `.env`. No `npm run sync:samples` needed for content
-refreshes. Only run sync after schema changes (TypeScript type
-updates).
+pipeline's `.env`. That path writes the pipeline export shape, which is
+**not** the served shape; prefer `pull_sample_docs_from_es.py` above.
+
+### Fields the served index does not carry
+
+Dropped between the pipeline export the wireframes were built against and
+the `develop` alias. Each surface renders a visible "not in the current
+index" note rather than hiding the gap, so it stays reviewable:
+
+| Missing | Was used for | Nearest served field |
+|---|---|---|
+| `dimensions_structured` | `ScaleDiagram`, parsed cm/in | raw `dimensions` string only |
+| `exhibitions[]` | linked, house-style exhibition rows | `exhibition_history_lines[]` (`{order, text}` prose) |
+| `child_cards`, `physical_parent_id`, `parent_title`, `parent_accession_number` | parent banner + child thumbnail grid | `physical_child_ids[]` / `virtual_child_ids[]` (bare ids) |
+| `named_collection`, `portfolio` | named-collection row | `highlights[]` (`collection_name` + `rank`) |
+| `media[].iiif_*`, `thumb_*_url` | per-image IIIF | null across the index (tiler not yet run); 4 docs have `primary_iiif_info_url` |
+| `signed`, `inscribed`, `markings`, `object_name`, `identifying_description` | transcriptions block | dropped upstream, matching the FAMSF exclusion list |
+
+Renames worth knowing: `display_date` → `date_display`, `indexed_at` →
+`last_modified`, constituents and titles are snake_case
+(`DisplayName` → `name`, `Title` → `title`), `media[].is_primary` →
+`.primary`, `media[].media_master_id` → `.image_id`. `constituents` and
+`media` can be `null`, not just empty. `term_period` / `term_subject` /
+`term_style` are gone entirely, so those facets were removed.
 
 ## Grid + facets variation data (real-data slice)
 

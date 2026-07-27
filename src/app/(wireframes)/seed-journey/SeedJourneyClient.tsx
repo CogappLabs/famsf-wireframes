@@ -47,7 +47,7 @@ function docArtist(d: CollectionDocument): string {
 }
 
 function docDate(d: CollectionDocument): string {
-	return d.display_date ?? d.display_year ?? "";
+	return d.date_display ?? d.display_year ?? "";
 }
 
 function directionValue(d: CollectionDocument, key: DirectionKey): string {
@@ -55,7 +55,7 @@ function directionValue(d: CollectionDocument, key: DirectionKey): string {
 		case "artist":
 			return docArtist(d);
 		case "period":
-			return d.term_period?.[0]?.term ?? docDate(d);
+			return d.term_movement?.[0]?.term ?? docDate(d);
 		case "medium":
 			return d.medium ?? "";
 		case "culture":
@@ -277,10 +277,10 @@ function SeedJourneyContent({
 													<dd>{current.term_place_of_creation[0].term}</dd>
 												</>
 											)}
-											{current.term_period?.[0]?.term && (
+											{current.term_movement?.[0]?.term && (
 												<>
-													<dt className="text-gray-400">Period</dt>
-													<dd>{current.term_period[0].term}</dd>
+													<dt className="text-gray-400">Movement</dt>
+													<dd>{current.term_movement[0].term}</dd>
 												</>
 											)}
 										</dl>

@@ -59,7 +59,7 @@ function deriveTags(doc: CollectionDocument): string[] {
 	if ((doc.virtual_child_ids?.length ?? 0) > 0) {
 		tags.push(`${doc.virtual_child_ids?.length} virtual children`);
 	}
-	if (doc.physical_parent_id) tags.push("compound child");
+	if ((doc.virtual_parent_ids?.length ?? 0) > 0) tags.push("compound child");
 	return tags;
 }
 

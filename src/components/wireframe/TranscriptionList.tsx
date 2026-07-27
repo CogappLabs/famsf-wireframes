@@ -1,4 +1,15 @@
-import type { TranscriptionSegment } from "@/lib/collection-document";
+/**
+ * Parsed transcription segment shape. The served index carries no
+ * `*_structured` transcription fields (see collection-document.ts), so no
+ * caller currently produces these; the type stays local so the component is
+ * still ready to render them if a future pipeline change adds them back.
+ */
+export interface TranscriptionSegment {
+	raw?: string;
+	location?: string | null;
+	transcription?: string | null;
+	is_watermark?: boolean;
+}
 
 /**
  * Render a list of parsed transcription segments per

@@ -138,8 +138,8 @@ export default function MyFindsClient({
 										</Link>
 										<p className="mt-0.5 font-mono text-meta text-gray-500">
 											{doc.primary_artist_display ?? doc.primary_artist}
-											{(doc.display_date ?? doc.display_year) && (
-												<>, {doc.display_date ?? doc.display_year}</>
+											{(doc.date_display ?? doc.display_year) && (
+												<>, {doc.date_display ?? doc.display_year}</>
 											)}
 										</p>
 										<p className="font-mono text-label text-gray-400">

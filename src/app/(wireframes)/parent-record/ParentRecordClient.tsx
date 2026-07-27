@@ -31,7 +31,6 @@ function ParentRecordContent({
 
 	const parentDocs = docs.filter(
 		(d) =>
-			(d.child_cards?.length ?? 0) > 0 ||
 			(d.physical_child_ids?.length ?? 0) > 0 ||
 			(d.virtual_child_ids?.length ?? 0) > 0,
 	);
@@ -44,7 +43,10 @@ function ParentRecordContent({
 	const artistName = doc.primary_artist_display ?? doc.primary_artist;
 	const artistSlug = slugByName[artistName.toLowerCase()] ?? null;
 
-	const childCards = doc.child_cards ?? [];
+	const childIds = [
+		...(doc.physical_child_ids ?? []),
+		...(doc.virtual_child_ids ?? []),
+	];
 
 	const recordType = doc.is_virtual
 		? "Virtual"
@@ -91,12 +93,12 @@ function ParentRecordContent({
 								<span>{artistName}</span>
 							)}
 							{" · "}
-							{normaliseDateRange(doc.display_date ?? doc.display_year) || ""}
+							{normaliseDateRange(doc.date_display ?? doc.display_year) || ""}
 						</p>
 
 						<div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3">
 							<StatCard
-								value={String(childCards.length)}
+								value={String(childIds.length)}
 								label="Components in collection"
 							/>
 							<StatCard value={recordType} label="Record type" />
@@ -144,37 +146,30 @@ function ParentRecordContent({
 						<div className="mb-4 flex items-baseline justify-between">
 							<SectionLabel>{t("parent.componentsHeading")}</SectionLabel>
 							<span className="font-mono text-label tracking-wide text-gray-400">
-								{childCards.length} records
+								{childIds.length} records
 							</span>
 						</div>
-						<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-							{childCards.map((c) => (
-								<Link
-									key={c.id}
-									href={
-										slugById[c.id]
-											? `/objects/sample/${slugById[c.id]}`
-											: "/objects/sample"
-									}
-									className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
-								>
-									<ImagePlaceholder
-										label={`[${c.title ?? c.accession_number}]`}
-									/>
-									<div className="p-3">
-										<h3 className="font-mono text-card font-medium leading-snug">
-											{c.title ?? c.accession_number}
-										</h3>
-										<p className="mt-0.5 font-mono text-label text-gray-500">
-											{normaliseDateRange(c.display_date) || ""}
-										</p>
-										<p className="mt-1 font-mono text-label tracking-wide text-gray-400">
-											ID {c.id}
-										</p>
-									</div>
-								</Link>
-							))}
-						</div>
+						<p className="mb-4 font-mono text-meta text-gray-400">
+							Component title, thumbnail, and date are not available in the
+							current index (only the bare component IDs are served).
+						</p>
+						{childIds.length > 0 && (
+							<div className="flex flex-wrap gap-2">
+								{childIds.map((id) => (
+									<Link
+										key={id}
+										href={
+											slugById[id]
+												? `/objects/sample/${slugById[id]}`
+												: "/objects/sample"
+										}
+										className="border border-gray-300 px-2.5 py-1 font-mono text-label tracking-wide text-gray-600 transition-colors hover:border-gray-500"
+									>
+										ID {id}
+									</Link>
+								))}
+							</div>
+						)}
 					</Container>
 				</WireframeSection>
 

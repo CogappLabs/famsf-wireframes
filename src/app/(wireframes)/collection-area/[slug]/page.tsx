@@ -1190,7 +1190,7 @@ export function AreaPageLayout({
 								{area.highlights.map((work) => (
 									<Link
 										key={work.title}
-										href="/objects/sample/water-lilies-1973-3"
+										href="/objects/sample/1973.3/water-lilies"
 										className="flex flex-col border border-gray-300 text-left transition-colors hover:border-gray-500"
 									>
 										<ImagePlaceholder label={`[${work.title}]`} />

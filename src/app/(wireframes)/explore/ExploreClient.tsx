@@ -372,7 +372,7 @@ export default function ExploreClient({
 											</p>
 											<p className="font-mono text-meta text-gray-500">
 												{work.primary_artist_display ?? work.primary_artist},{" "}
-												{work.display_date ?? work.display_year ?? ""}
+												{work.date_display ?? work.display_year ?? ""}
 											</p>
 										</div>
 									</Link>
