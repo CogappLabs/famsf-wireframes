@@ -81,8 +81,12 @@ export const VIEW_VARIATIONS = [
 	{ key: "grid-facets-modal", label: "Grid + facet drawer" },
 	// hidden = code kept, reachable via ?variation=, but no toggle button
 	{ key: "grid-facets", label: "Grid + facets", hidden: true },
-	{ key: "grid-facets-place", label: "Grid + place options" },
-	{ key: "grid-facets-place-flat", label: "Grid + place options (flat)" },
+	{ key: "grid-facets-place", label: "Grid + place options", hidden: true },
+	{
+		key: "grid-facets-place-flat",
+		label: "Grid + place options (flat)",
+		hidden: true,
+	},
 	{ key: "list", label: "List", hidden: true },
 	{ key: "zero-results", label: "Zero results" },
 	{ key: "ai-search", label: "AI search", hidden: true },
@@ -327,11 +331,15 @@ function SearchResultsContent({
 		return out;
 	}, [gridFacetsDocs]);
 
+	// zero-results shares the default view's facet column (drawer layout) and
+	// just forces the empty state, so recovery is reviewed in the real chrome
+	// rather than against the retired horizontal facet bar.
 	const isGridFacets =
 		variation === "grid-facets" ||
 		variation === "grid-facets-modal" ||
 		variation === "grid-facets-place" ||
-		variation === "grid-facets-place-flat";
+		variation === "grid-facets-place-flat" ||
+		variation === "zero-results";
 	const isPlaceExtras =
 		variation === "grid-facets-place" || variation === "grid-facets-place-flat";
 
@@ -429,9 +437,13 @@ function SearchResultsContent({
 
 	const visibleObjects = entityScope === "artists" ? [] : objectMatches;
 	const visibleArtists = entityScope === "artworks" ? [] : artistMatches;
-	const totalResults = visibleObjects.length + visibleArtists.length;
+	const matchedResults = visibleObjects.length + visibleArtists.length;
 	const showZeroResults =
-		variation === "zero-results" || (query !== "" && totalResults === 0);
+		variation === "zero-results" || (query !== "" && matchedResults === 0);
+	// The zero-results variation forces the empty state regardless of the sample
+	// set, so the header count follows it rather than reporting the docs still
+	// sitting in visibleObjects/visibleArtists.
+	const totalResults = showZeroResults ? 0 : matchedResults;
 
 	const activeSelections = Object.entries(selections).filter(
 		([, v]) => v != null,
@@ -566,7 +578,9 @@ function SearchResultsContent({
 								// search → object-detail flow.
 								getHref={() => "/objects/sample/water-lilies-1973-3"}
 								layout={
-									variation === "grid-facets-modal" || isPlaceExtras
+									variation === "grid-facets-modal" ||
+									variation === "zero-results" ||
+									isPlaceExtras
 										? "drawer"
 										: "inline"
 								}
@@ -575,6 +589,20 @@ function SearchResultsContent({
 								placeExtras={isPlaceExtras}
 								placeExtrasMode={
 									variation === "grid-facets-place-flat" ? "grouped" : "buttons"
+								}
+								// Geography-source dropdown inside the Place drawer: the
+								// decided default view only. The place-options variations keep
+								// their nested per-field buttons instead.
+								geoScope={!isPlaceExtras}
+								forceZero={variation === "zero-results"}
+								zeroSlot={
+									variation === "zero-results" ? (
+										<ZeroResults
+											query={query}
+											featured={docs.slice(0, 4)}
+											getHref={objectHref}
+										/>
+									) : undefined
 								}
 							/>
 						</WireframeSection>
@@ -662,17 +690,20 @@ function SearchResultsContent({
 										{totalResults} result{totalResults === 1 ? "" : "s"}
 										{query ? ` for "${query}"` : ""}
 									</span>
-									<div className="flex items-center gap-3">
-										<span className="font-mono text-label text-gray-500">
-											{t("search.sortLabel")}:
-										</span>
-										<select className="border border-gray-300 px-2 py-1 font-mono text-label">
-											<option>{t("search.sortRelevance")}</option>
-											<option>{t("search.sortDateAsc")}</option>
-											<option>{t("search.sortDateDesc")}</option>
-											<option>{t("search.sortAZ")}</option>
-										</select>
-									</div>
+									{/* Nothing to sort on the empty state. */}
+									{!showZeroResults && (
+										<div className="flex items-center gap-3">
+											<span className="font-mono text-label text-gray-500">
+												{t("search.sortLabel")}:
+											</span>
+											<select className="border border-gray-300 px-2 py-1 font-mono text-label">
+												<option>{t("search.sortRelevance")}</option>
+												<option>{t("search.sortDateAsc")}</option>
+												<option>{t("search.sortDateDesc")}</option>
+												<option>{t("search.sortAZ")}</option>
+											</select>
+										</div>
+									)}
 								</div>
 
 								{/* Entity scope pills */}
@@ -845,30 +876,32 @@ function SearchResultsContent({
 									);
 								})()}
 
-								{/* Pagination */}
-								<div className="mt-6 flex items-center justify-center gap-2">
-									<span className="border border-gray-200 px-3 py-1.5 font-mono text-meta text-gray-400">
-										&larr; {t("search.prev")}
-									</span>
-									<span className="border border-gray-900 bg-gray-900 px-3 py-1.5 font-mono text-meta text-white">
-										1
-									</span>
-									<span className="border border-gray-200 px-3 py-1.5 font-mono text-meta text-gray-500">
-										2
-									</span>
-									<span className="border border-gray-200 px-3 py-1.5 font-mono text-meta text-gray-500">
-										3
-									</span>
-									<span className="border border-gray-200 px-3 py-1.5 font-mono text-meta text-gray-500">
-										...
-									</span>
-									<span className="border border-gray-200 px-3 py-1.5 font-mono text-meta text-gray-500">
-										12,043
-									</span>
-									<span className="border border-gray-200 px-3 py-1.5 font-mono text-meta text-gray-500">
-										{t("search.next")} &rarr;
-									</span>
-								</div>
+								{/* Pagination — nothing to page through on the empty state */}
+								{!showZeroResults && (
+									<div className="mt-6 flex items-center justify-center gap-2">
+										<span className="border border-gray-200 px-3 py-1.5 font-mono text-meta text-gray-400">
+											&larr; {t("search.prev")}
+										</span>
+										<span className="border border-gray-900 bg-gray-900 px-3 py-1.5 font-mono text-meta text-white">
+											1
+										</span>
+										<span className="border border-gray-200 px-3 py-1.5 font-mono text-meta text-gray-500">
+											2
+										</span>
+										<span className="border border-gray-200 px-3 py-1.5 font-mono text-meta text-gray-500">
+											3
+										</span>
+										<span className="border border-gray-200 px-3 py-1.5 font-mono text-meta text-gray-500">
+											...
+										</span>
+										<span className="border border-gray-200 px-3 py-1.5 font-mono text-meta text-gray-500">
+											12,043
+										</span>
+										<span className="border border-gray-200 px-3 py-1.5 font-mono text-meta text-gray-500">
+											{t("search.next")} &rarr;
+										</span>
+									</div>
+								)}
 							</WireframeSection>
 
 							{/* Downloadable results */}

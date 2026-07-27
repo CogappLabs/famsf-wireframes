@@ -89,6 +89,11 @@ export interface Constituent {
 	DisplayName: string;
 	AlphaSort: string;
 	Nationality: string | null;
+	/** Artist-side geography (TMS constituent places). Free-text place names with
+	 *  no Getty TGN path, so they can scope a search but not build a place tree. */
+	place_born?: string | null;
+	place_died?: string | null;
+	place_active?: string | null;
 	BeginDate: number | null;
 	EndDate: number | null;
 	BeginDateISO: string | null;

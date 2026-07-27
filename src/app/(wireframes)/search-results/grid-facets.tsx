@@ -77,6 +77,73 @@ const PLACE_EXTRA_ACCESSOR: Record<
 	find_spot: (d) => (d.term_find_spot ?? []).map((t) => t.term),
 };
 
+// Geography source scope — the single dropdown inside the Place drawer. It
+// narrows which place field a Place tree pick counts against, split into
+// object-side (TMS place terms) and artist-side (constituents[].place_*) groups.
+//
+// The curated facet_place tree is source-field-agnostic (built from a Getty-TGN
+// crosswalk over the object place terms), so a scope other than "all" cannot
+// re-point the tree at one field. It applies a presence constraint instead: the
+// object must record a value in the scoped field(s) AND match the tree node.
+// Artist place fields are plain strings with no TGN path, so presence is the
+// only thing they can ever contribute.
+const GEO_SCOPES = [
+	{ id: "all", label: "All geography", group: null },
+	{ id: "object_all", label: "All object geography", group: "object" },
+	{ id: "place_of_creation", label: "Place of creation", group: "object" },
+	{
+		id: "place_of_fabrication",
+		label: "Place of fabrication",
+		group: "object",
+	},
+	{
+		id: "place_name_at_creation",
+		label: "Place name at creation",
+		group: "object",
+	},
+	{ id: "related_geography", label: "Related geography", group: "object" },
+	{ id: "find_spot", label: "Find spot", group: "object" },
+	{ id: "artist_all", label: "All artist geography", group: "artist" },
+	{ id: "place_born", label: "Artist birthplace", group: "artist" },
+	{ id: "place_died", label: "Artist place of death", group: "artist" },
+	{ id: "place_active", label: "Artist place of activity", group: "artist" },
+] as const;
+
+type GeoScopeId = (typeof GEO_SCOPES)[number]["id"];
+
+/** Values a doc records for one artist place field (constituents[].place_*). */
+const artistPlaces = (
+	d: CollectionDocument,
+	key: "place_born" | "place_died" | "place_active",
+): string[] =>
+	(d.constituents ?? [])
+		.map((c) => c[key])
+		.filter((v): v is string => Boolean(v?.trim()));
+
+/** Every place value a scope covers on a doc. Empty = doc out of scope. */
+function geoScopeValues(d: CollectionDocument, scope: GeoScopeId): string[] {
+	switch (scope) {
+		case "all":
+			return ["*"];
+		case "object_all":
+			return PLACE_EXTRA_FIELDS.flatMap(({ id }) =>
+				PLACE_EXTRA_ACCESSOR[id](d),
+			);
+		case "artist_all":
+			return [
+				...artistPlaces(d, "place_born"),
+				...artistPlaces(d, "place_died"),
+				...artistPlaces(d, "place_active"),
+			];
+		case "place_born":
+		case "place_died":
+		case "place_active":
+			return artistPlaces(d, scope);
+		default:
+			return PLACE_EXTRA_ACCESSOR[scope](d);
+	}
+}
+
 /** Distinct maker roles on a doc (constituents[].Role). */
 const docRoles = (d: CollectionDocument): string[] =>
 	(d.constituents ?? [])
@@ -89,6 +156,8 @@ interface GridFacetSelections {
 	role: string | null;
 	culture: string | null;
 	place: PlaceSelection | null;
+	/** Which place field the Place tree pick is scoped to (presence constraint). */
+	geoScope: GeoScopeId;
 	medium: MediumSelection | null;
 	classification: string | null;
 	department: string | null;
@@ -111,6 +180,7 @@ const EMPTY_GRID_SELECTIONS: GridFacetSelections = {
 	role: null,
 	culture: null,
 	place: null,
+	geoScope: "all",
 	medium: null,
 	classification: null,
 	department: null,
@@ -168,6 +238,9 @@ function filterGridDocs(
 		if (sel.role && !docRoles(d).includes(sel.role)) return false;
 		if (sel.culture && d.culture !== sel.culture) return false;
 		if (!docMatchesPlace(d, sel.place)) return false;
+		// Geography source scope: presence constraint layered on the tree pick.
+		if (sel.geoScope !== "all" && geoScopeValues(d, sel.geoScope).length === 0)
+			return false;
 		if (!docMatchesMedium(d, sel.medium)) return false;
 		if (sel.classification && d.classification !== sel.classification)
 			return false;
@@ -483,6 +556,59 @@ function FacetBlock({
 				>
 					Show fewer
 				</button>
+			)}
+		</div>
+	);
+}
+
+/** Geography-source dropdown, rendered inside the Place drawer above the tree.
+ *  Scopes a Place pick to one field (or field group); options with no data in
+ *  the current slice are disabled rather than hidden, so reviewers see the full
+ *  intended shape without any option that would always return zero. */
+function GeoScopeSelect({
+	value,
+	counts,
+	onChange,
+}: {
+	value: GeoScopeId;
+	/** Docs carrying a value per scope, for the option counts + disabling. */
+	counts: Record<GeoScopeId, number>;
+	onChange: (v: GeoScopeId) => void;
+}) {
+	const optionsFor = (group: "object" | "artist") =>
+		GEO_SCOPES.filter((s) => s.group === group).map((s) => {
+			const n = counts[s.id] ?? 0;
+			return (
+				<option key={s.id} value={s.id} disabled={n === 0 && s.id !== value}>
+					{s.label}
+					{n > 0 ? ` (${n.toLocaleString()})` : " — no data"}
+				</option>
+			);
+		});
+
+	return (
+		<div className="mb-3 border-b border-gray-200 pb-3">
+			<label
+				htmlFor="geo-scope"
+				className="mb-1.5 block font-mono text-label uppercase tracking-[0.08em] text-gray-500"
+			>
+				Geography source
+			</label>
+			<select
+				id="geo-scope"
+				value={value}
+				onChange={(e) => onChange(e.target.value as GeoScopeId)}
+				className="w-full border border-gray-300 bg-white px-2 py-1.5 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
+			>
+				<option value="all">All geography</option>
+				<optgroup label="Object geography">{optionsFor("object")}</optgroup>
+				<optgroup label="Artist geography">{optionsFor("artist")}</optgroup>
+			</select>
+			{value !== "all" && (
+				<p className="mt-1.5 font-mono text-meta text-gray-500">
+					Narrowed to objects recording a value in this field. The place itself
+					is still chosen in the tree below.
+				</p>
 			)}
 		</div>
 	);
@@ -1202,6 +1328,9 @@ export function GridFacetsView({
 	placeExtras = false,
 	placeExtrasCollapsible = true,
 	placeExtrasMode = "buttons",
+	geoScope = false,
+	forceZero = false,
+	zeroSlot,
 }: {
 	docs: CollectionDocument[];
 	getHref: (id: number) => string;
@@ -1226,6 +1355,15 @@ export function GridFacetsView({
 	 *  - "grouped": a single "Place type" button (like Role) opening ONE drawer
 	 *    where the place fields are expandable sections. */
 	placeExtrasMode?: "buttons" | "grouped";
+	/** Show the "Geography source" dropdown inside the Place drawer: scopes a
+	 *  Place pick to one object- or artist-side place field (default view). */
+	geoScope?: boolean;
+	/** Force the empty state regardless of how many docs match (zero-results
+	 *  variation), so the recovery UI is reviewable with the same facet column. */
+	forceZero?: boolean;
+	/** Replaces the built-in one-line empty state (used to show the full
+	 *  did-you-mean / tips / popular-searches recovery panel). */
+	zeroSlot?: React.ReactNode;
 }) {
 	// Same flag gates the maker-role extras; kept as one variation switch.
 	const makerExtras = placeExtras;
@@ -1281,6 +1419,9 @@ export function GridFacetsView({
 	};
 	const setDate = (range: YearRange | null) => {
 		setSel((prev) => ({ ...prev, date: range }));
+	};
+	const setGeoScope = (value: GeoScopeId) => {
+		setSel((prev) => ({ ...prev, geoScope: value }));
 	};
 	const setPlaceExtra = (id: PlaceExtraId, value: string | null) => {
 		setSel((prev) => {
@@ -1351,6 +1492,9 @@ export function GridFacetsView({
 		() => sortGridDocs(matches, sort),
 		[matches, sort],
 	);
+	// The zero-results variation forces the empty state, so the header count
+	// follows it rather than reporting the docs that still match.
+	const shownCount = forceZero ? 0 : matches.length;
 
 	const pageCount = Math.max(1, Math.ceil(sortedMatches.length / PAGE_SIZE));
 	// Reset to the first page whenever the result set or sort changes.
@@ -1381,6 +1525,19 @@ export function GridFacetsView({
 			),
 		[docs, sel, query],
 	);
+	// Docs per geography-source scope, ignoring the current scope pick so the
+	// dropdown's own counts don't collapse to the scope already chosen.
+	const geoScopeCounts = useMemo(() => {
+		const base = filterGridDocs(docs, { ...sel, geoScope: "all" }, query);
+		const out = {} as Record<GeoScopeId, number>;
+		for (const { id } of GEO_SCOPES) {
+			out[id] =
+				id === "all"
+					? base.length
+					: base.filter((d) => geoScopeValues(d, id).length > 0).length;
+		}
+		return out;
+	}, [docs, sel, query]);
 	const roleOpts = useMemo(
 		() =>
 			makerExtras
@@ -1469,6 +1626,7 @@ export function GridFacetsView({
 		Boolean(sel.classification) ||
 		Boolean(sel.department) ||
 		Boolean(sel.date) ||
+		(geoScope && sel.geoScope !== "all") ||
 		activePlaceExtras.length > 0 ||
 		sel.placeTypes.length > 0 ||
 		sel.onView ||
@@ -1674,20 +1832,38 @@ export function GridFacetsView({
 		{
 			id: "place",
 			label: "Place",
-			activeCount: (sel.place ? 1 : 0) + placeExtraActiveCount,
+			activeCount:
+				(sel.place ? 1 : 0) +
+				placeExtraActiveCount +
+				(geoScope && sel.geoScope !== "all" ? 1 : 0),
 			control: (
-				<TreeFacet
-					label="Place"
-					tree={placeTree}
-					levelByDepth={PLACE_LEVEL_BY_DEPTH}
-					selected={sel.place}
-					onSelect={selectPlace}
-					expanded={placeExpanded}
-					onToggle={togglePlace}
-					search={placeSearch}
-					onSearch={setPlaceSearch}
-					fill={layout === "drawer"}
-				/>
+				<div
+					className={
+						layout === "drawer" ? "flex min-h-0 flex-1 flex-col" : undefined
+					}
+				>
+					{/* Geography-source scope sits inside the Place drawer, above the
+					    tree: pick the field, then the place value. */}
+					{geoScope && (
+						<GeoScopeSelect
+							value={sel.geoScope}
+							counts={geoScopeCounts}
+							onChange={setGeoScope}
+						/>
+					)}
+					<TreeFacet
+						label="Place"
+						tree={placeTree}
+						levelByDepth={PLACE_LEVEL_BY_DEPTH}
+						selected={sel.place}
+						onSelect={selectPlace}
+						expanded={placeExpanded}
+						onToggle={togglePlace}
+						search={placeSearch}
+						onSearch={setPlaceSearch}
+						fill={layout === "drawer"}
+					/>
+				</div>
 			),
 		},
 		{
@@ -1980,24 +2156,27 @@ export function GridFacetsView({
 					<ScopeMark label="Count + sort">
 						<div className="mb-4 flex min-h-9 flex-wrap items-center justify-between gap-3 border-b border-gray-200 pb-3">
 							<span className="font-mono text-body font-medium">
-								{matches.length.toLocaleString()} result
-								{matches.length === 1 ? "" : "s"}
+								{shownCount.toLocaleString()} result
+								{shownCount === 1 ? "" : "s"}
 								{query ? ` for “${query}”` : ""}
 							</span>
-							<label className="flex items-center gap-2 font-mono text-label text-gray-500">
-								Sort
-								<select
-									value={sort}
-									onChange={(e) => setSort(e.target.value as SortKey)}
-									className="border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
-								>
-									{SORT_OPTIONS.map((o) => (
-										<option key={o.key} value={o.key}>
-											{o.label}
-										</option>
-									))}
-								</select>
-							</label>
+							{/* Nothing to sort on the empty state. */}
+							{shownCount > 0 && (
+								<label className="flex items-center gap-2 font-mono text-label text-gray-500">
+									Sort
+									<select
+										value={sort}
+										onChange={(e) => setSort(e.target.value as SortKey)}
+										className="border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
+									>
+										{SORT_OPTIONS.map((o) => (
+											<option key={o.key} value={o.key}>
+												{o.label}
+											</option>
+										))}
+									</select>
+								</label>
+							)}
 						</div>
 					</ScopeMark>
 
@@ -2044,6 +2223,19 @@ export function GridFacetsView({
 									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
 								>
 									<span>{placeChipLabel}</span>
+									<span>×</span>
+								</button>
+							)}
+							{geoScope && sel.geoScope !== "all" && (
+								<button
+									type="button"
+									onClick={() => setGeoScope("all")}
+									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+								>
+									<span>
+										Geography source:{" "}
+										{GEO_SCOPES.find((s) => s.id === sel.geoScope)?.label}
+									</span>
 									<span>×</span>
 								</button>
 							)}
@@ -2157,7 +2349,7 @@ export function GridFacetsView({
 						</div>
 					</ScopeMark>
 
-					{matches.length > 0 ? (
+					{matches.length > 0 && !forceZero ? (
 						<>
 							<ScopeMark label="Results grid">
 								<ResultsGrid items={pageItems} getHref={getHref} columns={3} />
@@ -2174,11 +2366,13 @@ export function GridFacetsView({
 						</>
 					) : (
 						<ScopeMark label="Zero results">
-							<div className="border border-dashed border-gray-300 px-4 py-10 text-center font-mono text-meta text-gray-500">
-								{query
-									? `No objects match “${query}” with these filters. Clear a filter or the search to broaden.`
-									: "No objects match these filters. Clear one to broaden."}
-							</div>
+							{zeroSlot ?? (
+								<div className="border border-dashed border-gray-300 px-4 py-10 text-center font-mono text-meta text-gray-500">
+									{query
+										? `No objects match “${query}” with these filters. Clear a filter or the search to broaden.`
+										: "No objects match these filters. Clear one to broaden."}
+								</div>
+							)}
 						</ScopeMark>
 					)}
 				</div>

@@ -437,10 +437,7 @@ export function ZeroResults({
 				<ul className="mt-2 flex flex-col gap-1 font-mono text-meta text-gray-700">
 					<li>· Check spelling, or use fewer words</li>
 					<li>· Remove a filter to broaden results</li>
-					<li>· Try a related term: medium, period, geography</li>
-					<li>
-						· Switch to <strong>natural language</strong> search at the top
-					</li>
+					<li>· Try a related term: medium, geography</li>
 				</ul>
 			</div>
 
