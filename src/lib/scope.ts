@@ -41,6 +41,11 @@ export const scope: Record<string, ScopeEntry> = {
 		note: "Inline filter chips promoting selected facets from Advanced. Lean-MVP homepage pass (2026-06-09) trimmed to Open access + On view; dropped Highlights (no editorial owner), Has image (not a useful entry filter), Popular (needs analytics).",
 		issueUrl: issue("CW-36"),
 	},
+	"collection-landing/Promo mosaic": {
+		mvp: true,
+		note: "Flexible editorial promo grid from the Figma homepage comp (node 174:1464). Cells are typed (stat / link / image) so curators can surface a headline number, point at any existing page, or run an image. Phase 1 (needs an editorial owner and a curator-editable cell list).",
+		issueUrl: issue("CW-27"),
+	},
 	"collection-landing/Highlights": {
 		mvp: true,
 		note: "Curated selection. Per the June 18 2026 page-layouts spec it is a retained landing module. Phase 1 (needs editorial ownership for the curated set).",

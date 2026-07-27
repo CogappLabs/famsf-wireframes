@@ -37,7 +37,7 @@
 
 	"collection.label": "Explore",
 	"collection.heading": "The collection",
-	"collection.intro": "Ancient Greek sculptures, French Impressionist paintings, contemporary African textiles, with collections spanning more than 5,000 years, there is always something new to discover.",
+	"collection.intro": "Ancient. Contemporary. And everything in between.",
 	"collection.statsHeading": "Collection at a glance",
 	"collection.stat1Value": "144,511",
 	"collection.stat1Label": "Objects",
@@ -49,6 +49,7 @@
 	"collection.stat4Label": "Artists",
 	"collection.browseHeading": "Explore by collection",
 	"collection.searchHeading": "Search over 144,511 artworks",
+	"collection.promoHeading": "In focus",
 	"collection.highlightsHeading": "Highlights",
 	"collection.timelineHeading": "Explore by period",
 	"collection.exploreLabel": "Explore",
