@@ -1,7 +1,7 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { getAnnotation } from "@/lib/scope";
+import { getAnnotation, isPageMvp } from "@/lib/scope";
 import { useScope, useScopePageId } from "@/providers/ScopeProvider";
 import ExternalLink from "./ExternalLink";
 import { IssueIcon } from "./IssueIcon";
@@ -21,8 +21,11 @@ export default function WireframeSection({
 	const pageId = useScopePageId();
 	const entry = getAnnotation(pageId, label);
 
-	// MVP-only view drops post-MVP sections from the page entirely.
-	if (mvpOnly && entry && !entry.mvp) return null;
+	// MVP-only view drops post-MVP sections from the page entirely. Skipped on
+	// wholly post-MVP pages, where filtering would leave a blank page.
+	if (mvpOnly && entry && !entry.mvp && pageId && isPageMvp(pageId)) {
+		return null;
+	}
 
 	if (!showScope || !entry) {
 		return <section className={className}>{children}</section>;
@@ -80,8 +83,10 @@ export function ScopeMark({ children, label, className = "" }: ScopeMarkProps) {
 	const pageId = useScopePageId();
 	const entry = getAnnotation(pageId, label);
 
-	// MVP-only view drops post-MVP sub-components from the page entirely.
-	if (mvpOnly && entry && !entry.mvp) return null;
+	// Same MVP-only filter as WireframeSection, including the blank-page skip.
+	if (mvpOnly && entry && !entry.mvp && pageId && isPageMvp(pageId)) {
+		return null;
+	}
 
 	if (!showScope || !entry) {
 		return className ? <div className={className}>{children}</div> : children;
