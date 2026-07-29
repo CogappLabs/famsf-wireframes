@@ -1,0 +1,21 @@
+{
+  "index": "develop",
+  "scanned": 149904,
+  "by_row_count": {
+    "0": 0,
+    "1": 319,
+    "2": 22947,
+    "3": 117110,
+    "4": 9479,
+    "5": 49
+  },
+  "per_row": {
+    "accession_date": 136964,
+    "department": 149904,
+    "medium": 136616,
+    "named_collection": 10925,
+    "alt_titles": 1295
+  },
+  "mean_rows": 2.9065535275909915,
+  "three_or_fewer": 140376
+}

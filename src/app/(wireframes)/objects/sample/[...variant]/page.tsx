@@ -87,6 +87,16 @@ function dateFacetHref(year: number | null | undefined): string | undefined {
 	return `/search-results?facet=${encodeURIComponent(`date:${range}`)}`;
 }
 
+/**
+ * Free-text search link for values with no facet behind them (medium, the
+ * non-geography term_* fields). The omnibox searches medium/title/artist/
+ * department/classification, so a specific string may return nothing — the
+ * point is that every metadata value is a route onwards.
+ */
+function querySearchHref(value: string): string {
+	return `/search-results?q=${encodeURIComponent(value)}`;
+}
+
 function humaniseFieldName(field: string): string {
 	return field
 		.replace(/^term_/, "")
@@ -507,12 +517,18 @@ export default async function SampleObjectPage({ params }: Props) {
 											displayDate
 										)}
 										<FieldSourceBadge field="date_display" />
-										{/* Medium is plain text: the search medium facet keys off the
-										    curated taxonomy nodes, which the raw string never matches. */}
+										{/* Medium routes to a free-text search: the medium facet keys
+										    off curated taxonomy nodes, which a raw string never matches. */}
 										{doc.medium && (
 											<>
 												{" "}
-												&middot; {doc.medium}
+												&middot;{" "}
+												<Link
+													href={querySearchHref(doc.medium)}
+													className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
+												>
+													{doc.medium}
+												</Link>
 												<FieldSourceBadge field="medium" />
 											</>
 										)}
@@ -635,18 +651,22 @@ export default async function SampleObjectPage({ params }: Props) {
 											<TombstoneField
 												label="Medium"
 												value={doc.medium}
+												href={querySearchHref(doc.medium)}
 												field="medium"
 											/>
-											{/* medium_parts chips: only when more than one part */}
+											{/* medium_parts chips: only when more than one part. Each
+											    part searches on its own — a single token ("engraving")
+											    matches more than the full medium string does. */}
 											{mediumParts.length > 1 && (
 												<div className="mt-1.5 flex flex-wrap gap-1.5">
 													{mediumParts.map((part) => (
-														<span
+														<Link
 															key={part}
-															className="inline-block rounded bg-gray-100 px-2 py-0.5 font-mono text-label text-gray-500"
+															href={querySearchHref(part)}
+															className="inline-block rounded bg-gray-100 px-2 py-0.5 font-mono text-label text-gray-500 hover:bg-gray-200 hover:text-gray-700"
 														>
 															{part}
-														</span>
+														</Link>
 													))}
 												</div>
 											)}
@@ -719,7 +739,12 @@ export default async function SampleObjectPage({ params }: Props) {
 																			{entry.term}
 																		</Link>
 																	) : (
-																		entry.term
+																		<Link
+																			href={querySearchHref(entry.term)}
+																			className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
+																		>
+																			{entry.term}
+																		</Link>
 																	)}
 																	{showCertainty && (
 																		<TombstoneLabel className="ml-1.5">
@@ -746,7 +771,12 @@ export default async function SampleObjectPage({ params }: Props) {
 																							{n.term}
 																						</Link>
 																					) : (
-																						n.term
+																						<Link
+																							href={querySearchHref(n.term)}
+																							className="hover:underline hover:decoration-gray-500"
+																						>
+																							{n.term}
+																						</Link>
 																					)}
 																				</span>
 																			))}
@@ -850,6 +880,7 @@ export default async function SampleObjectPage({ params }: Props) {
 											<TombstoneField
 												label="Material"
 												value={doc.medium}
+												href={querySearchHref(doc.medium)}
 												field="medium"
 											/>
 										)}
