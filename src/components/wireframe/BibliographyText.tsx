@@ -105,14 +105,11 @@ function italiciseBibliographyEntry(text: string): string {
 export interface BibliographyTextProps {
 	value: string;
 	className?: string;
-	/** Flow entries across 2 CSS columns (two-column object-detail layout). */
-	columns?: boolean;
 }
 
 export default function BibliographyText({
 	value,
 	className,
-	columns = false,
 }: BibliographyTextProps) {
 	const entries = value
 		.split(/\n\s*\n/)
@@ -122,30 +119,18 @@ export default function BibliographyText({
 
 	if (entries.length === 0) return null;
 
-	// columns: CSS multi-column flows entries by height; `break-inside-avoid`
-	// on each li stops a citation splitting across the column boundary. Drop
-	// the flex column layout (incompatible with multi-column) for `block`.
 	return (
-		<ol
-			className={`${columns ? "block columns-2 gap-x-10 [&>li]:mb-3 [&>li]:break-inside-avoid" : "flex flex-col gap-3"} ${className ?? ""}`}
-		>
+		<ul className={`flex list-none flex-col gap-3 ${className ?? ""}`}>
 			{entries.map(({ text, order }) => (
 				<li
 					key={`${order}-${text.length}-${text.slice(0, 32)}`}
-					className="grid grid-cols-[2rem_1fr] gap-2 text-meta leading-snug text-gray-700 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
-				>
-					<span className="font-mono text-label text-gray-500 tabular-nums">
-						{order + 1}.
-					</span>
-					<span
-						className="whitespace-pre-line"
-						// biome-ignore lint/security/noDangerouslySetInnerHtml: sanitised via allow-list
-						dangerouslySetInnerHTML={{
-							__html: sanitiseInline(italiciseBibliographyEntry(text)),
-						}}
-					/>
-				</li>
+					className="whitespace-pre-line text-meta leading-snug text-gray-700 [&_em]:italic [&_i]:italic [&_strong]:font-semibold [&_b]:font-semibold"
+					// biome-ignore lint/security/noDangerouslySetInnerHtml: sanitised via allow-list
+					dangerouslySetInnerHTML={{
+						__html: sanitiseInline(italiciseBibliographyEntry(text)),
+					}}
+				/>
 			))}
-		</ol>
+		</ul>
 	);
 }

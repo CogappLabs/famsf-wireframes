@@ -51,9 +51,6 @@ export interface ProvenanceTextProps {
 	className?: string;
 	bodyClassName?: string;
 	footnoteClassName?: string;
-	/** Flow the provenance lines across 2 CSS columns (footnotes stay
-	 *  full-width). Used by the two-column object-detail layout. */
-	columns?: boolean;
 }
 
 export default function ProvenanceText({
@@ -63,7 +60,6 @@ export default function ProvenanceText({
 	className,
 	bodyClassName = "whitespace-pre-line font-mono text-meta leading-relaxed text-gray-700",
 	footnoteClassName = "font-mono text-label leading-relaxed text-gray-500",
-	columns = false,
 }: ProvenanceTextProps) {
 	if (!structured) {
 		if (!rawFallback) return null;
@@ -73,20 +69,13 @@ export default function ProvenanceText({
 	}
 	const footnoteNums = new Set(structured.footnotes.map((f) => f.num));
 	const hasFootnotes = structured.footnotes.length > 0;
-	// two-column layout: provenance lines on the left, footnotes on the right
-	// (footnotes are a reference apparatus, so a side-by-side split reads better
-	// than interleaving them in one flow). With no footnotes, fall back to
-	// flowing the lines themselves across two columns so a long list still
-	// halves its height.
-	const sideBySide = columns && hasFootnotes;
-	const flowLines = columns && !hasFootnotes;
+	// Footnotes are a reference apparatus, so they sit in their own right-hand
+	// column rather than interleaved with the lines they annotate.
 	return (
 		<div
-			className={`${sideBySide ? "grid gap-x-10 gap-y-4 lg:grid-cols-2 lg:items-start" : ""} ${className ?? ""}`}
+			className={`${hasFootnotes ? "grid gap-x-10 gap-y-4 lg:grid-cols-2 lg:items-start" : ""} ${className ?? ""}`}
 		>
-			<ol
-				className={`marker:text-gray-300 list-none ${flowLines ? "block columns-2 gap-x-10 [&>li]:mb-1.5 [&>li]:break-inside-avoid" : "flex flex-col gap-1.5"}`}
-			>
+			<ol className="marker:text-gray-300 flex list-none flex-col gap-1.5">
 				{structured.lines.map((line) => (
 					<li
 						key={line.order}
@@ -98,9 +87,7 @@ export default function ProvenanceText({
 				))}
 			</ol>
 			{hasFootnotes && (
-				<ol
-					className={`flex flex-col gap-1.5 list-none ${sideBySide ? "border-l border-gray-200 pl-4 lg:mt-0" : "mt-4 border-t border-gray-200 pt-3"}`}
-				>
+				<ol className="flex list-none flex-col gap-1.5 border-l border-gray-200 pl-4 lg:mt-0">
 					{structured.footnotes.map((f) => (
 						<li
 							key={f.num}
