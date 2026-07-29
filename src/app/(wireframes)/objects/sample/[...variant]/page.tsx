@@ -61,6 +61,32 @@ function overallDimensions(dims: string): string {
 	return match ? match[1].trim() : dims;
 }
 
+/**
+ * Link to search pre-filtered on one facet. The search page reads a single
+ * `?facet=` param and splits it on the first colon, so type and value travel
+ * together — `artist:Claude Monet`, not separate params. Only the facet types
+ * in the search page's seedSelectionFromFacet switch will apply; anything else
+ * shows unfiltered results.
+ */
+function facetSearchHref(
+	type: "artist" | "culture" | "classification" | "department" | "place",
+	value: string,
+): string {
+	return `/search-results?facet=${encodeURIComponent(`${type}:${value}`)}`;
+}
+
+/** Years either side of an object's date that a date click filters to. A single
+ *  year matches too little to be a useful jumping-off point. */
+const DATE_FACET_SPREAD = 5;
+
+/** Date links filter to a window around the object's year rather than the exact
+ *  year. Uses sort_year (negative = BCE), so undated objects get no link. */
+function dateFacetHref(year: number | null | undefined): string | undefined {
+	if (year == null || !Number.isFinite(year)) return undefined;
+	const range = `${year - DATE_FACET_SPREAD}:${year + DATE_FACET_SPREAD}`;
+	return `/search-results?facet=${encodeURIComponent(`date:${range}`)}`;
+}
+
 function humaniseFieldName(field: string): string {
 	return field
 		.replace(/^term_/, "")
@@ -179,6 +205,8 @@ export default async function SampleObjectPage({ params }: Props) {
 	const titleDisplay = normaliseTitle(doc.title);
 	// Normalised display date (en dash between year tokens per guideline)
 	const displayDate = normaliseDateRange(doc.date_display ?? undefined);
+	// Undated objects keep the date as plain text rather than a dead link.
+	const headerDateHref = dateFacetHref(doc.sort_year);
 
 	// Alternate titles (exclude the primary, which is already doc.title)
 	const alternates = alternateTitles(doc);
@@ -458,7 +486,7 @@ export default async function SampleObjectPage({ params }: Props) {
 								{doc.primary_artist_display && (
 									<p className="mt-1 font-mono text-body text-gray-700">
 										<Link
-											href={`/search-results?facet=artist&value=${encodeURIComponent(doc.primary_artist)}`}
+											href={facetSearchHref("artist", doc.primary_artist)}
 											className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
 										>
 											{doc.primary_artist_display}
@@ -468,23 +496,23 @@ export default async function SampleObjectPage({ params }: Props) {
 								)}
 								{displayDate && (
 									<p className="mt-0.5 font-mono text-meta text-gray-500">
-										<Link
-											href={`/search-results?facet=date&value=${encodeURIComponent(doc.date_display ?? "")}`}
-											className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
-										>
-											{displayDate}
-										</Link>
+										{headerDateHref ? (
+											<Link
+												href={headerDateHref}
+												className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
+											>
+												{displayDate}
+											</Link>
+										) : (
+											displayDate
+										)}
 										<FieldSourceBadge field="date_display" />
+										{/* Medium is plain text: the search medium facet keys off the
+										    curated taxonomy nodes, which the raw string never matches. */}
 										{doc.medium && (
 											<>
 												{" "}
-												&middot;{" "}
-												<Link
-													href={`/search-results?facet=material&value=${encodeURIComponent(doc.medium)}`}
-													className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
-												>
-													{doc.medium}
-												</Link>
+												&middot; {doc.medium}
 												<FieldSourceBadge field="medium" />
 											</>
 										)}
@@ -598,7 +626,7 @@ export default async function SampleObjectPage({ params }: Props) {
 										<TombstoneField
 											label="Date"
 											value={doc.date_display}
-											href={`/search-results?facet=date&value=${encodeURIComponent(doc.date_display)}`}
+											href={headerDateHref}
 											field="date_display"
 										/>
 									)}
@@ -607,7 +635,6 @@ export default async function SampleObjectPage({ params }: Props) {
 											<TombstoneField
 												label="Medium"
 												value={doc.medium}
-												href={`/search-results?facet=material&value=${encodeURIComponent(doc.medium)}`}
 												field="medium"
 											/>
 											{/* medium_parts chips: only when more than one part */}
@@ -636,7 +663,7 @@ export default async function SampleObjectPage({ params }: Props) {
 										<TombstoneField
 											label="Collection area"
 											value={doc.department}
-											href={`/search-results?facet=department&value=${encodeURIComponent(doc.department)}`}
+											href={facetSearchHref("department", doc.department)}
 											field="department"
 										/>
 									)}
@@ -644,7 +671,10 @@ export default async function SampleObjectPage({ params }: Props) {
 										<TombstoneField
 											label="Object type"
 											value={doc.classification}
-											href={`/search-results?facet=classification&value=${encodeURIComponent(doc.classification)}`}
+											href={facetSearchHref(
+												"classification",
+												doc.classification,
+											)}
 											field="classification"
 										/>
 									)}
@@ -678,12 +708,19 @@ export default async function SampleObjectPage({ params }: Props) {
 																	key={`${field}-${entry.term}`}
 																	className="border-l-2 border-gray-200 pl-2.5 font-mono text-meta text-gray-700"
 																>
-																	<Link
-																		href={`/search-results?facet=${field}&value=${encodeURIComponent(entry.term)}`}
-																		className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
-																	>
-																		{entry.term}
-																	</Link>
+																	{isGeo ? (
+																		<Link
+																			href={facetSearchHref(
+																				"place",
+																				entry.term,
+																			)}
+																			className="underline decoration-gray-300 underline-offset-2 hover:decoration-gray-600"
+																		>
+																			{entry.term}
+																		</Link>
+																	) : (
+																		entry.term
+																	)}
 																	{showCertainty && (
 																		<TombstoneLabel className="ml-1.5">
 																			({entry.certainty})
@@ -698,12 +735,19 @@ export default async function SampleObjectPage({ params }: Props) {
 																							{", "}
 																						</span>
 																					)}
-																					<Link
-																						href={`/search-results?facet=${field}&value=${encodeURIComponent(n.term)}`}
-																						className="hover:underline hover:decoration-gray-500"
-																					>
-																						{n.term}
-																					</Link>
+																					{isGeo ? (
+																						<Link
+																							href={facetSearchHref(
+																								"place",
+																								n.term,
+																							)}
+																							className="hover:underline hover:decoration-gray-500"
+																						>
+																							{n.term}
+																						</Link>
+																					) : (
+																						n.term
+																					)}
 																				</span>
 																			))}
 																		</span>
@@ -806,7 +850,6 @@ export default async function SampleObjectPage({ params }: Props) {
 											<TombstoneField
 												label="Material"
 												value={doc.medium}
-												href={`/search-results?facet=material&value=${encodeURIComponent(doc.medium)}`}
 												field="medium"
 											/>
 										)}
@@ -816,7 +859,7 @@ export default async function SampleObjectPage({ params }: Props) {
 											<TombstoneField
 												label="Department"
 												value={doc.department}
-												href={`/search-results?facet=department&value=${encodeURIComponent(doc.department)}`}
+												href={facetSearchHref("department", doc.department)}
 												field="department"
 											/>
 										)}

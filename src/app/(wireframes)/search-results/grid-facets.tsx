@@ -1319,6 +1319,15 @@ function seedSelectionFromFacet(
 			return { classification: value };
 		case "department":
 			return { department: value };
+		// `1959` pins a single year; `1959:1962` (from a ranged display date) pins
+		// both ends. Negative years are BCE, so only split on an inner colon.
+		case "date": {
+			const parts = value.split(":");
+			const min = Number(parts[0]);
+			const max = parts.length > 1 ? Number(parts[1]) : min;
+			if (!(Number.isFinite(min) && Number.isFinite(max))) return null;
+			return { date: { min: Math.min(min, max), max: Math.max(min, max) } };
+		}
 		case "place": {
 			for (const d of docs) {
 				for (const p of d.facet_place ?? []) {
