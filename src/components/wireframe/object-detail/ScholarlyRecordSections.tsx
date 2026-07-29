@@ -25,11 +25,9 @@ interface Props {
 
 /**
  * Exhibition history + provenance + bibliography — the three dense,
- * researcher-facing record blocks. Curatorial Fellows asked for a two-column
- * layout to reduce scrolling (stakeholder synthesis), now the standard layout:
- * the three full-width sections stay stacked but each block's entries flow
- * across two CSS columns (so a long provenance / bibliography list halves its
- * vertical run).
+ * researcher-facing record blocks, stacked full-width. Only provenance splits
+ * into two columns (lines left, footnotes right); exhibition history and
+ * bibliography read as a single column.
  */
 export function ScholarlyRecordSections({
 	exhibitionLines,
@@ -49,9 +47,7 @@ export function ScholarlyRecordSections({
 			</span>
 			<SectionLabel className="mb-4">Exhibition history</SectionLabel>
 			<FieldSourceBadge field="exhibition_history_lines" block />
-			{/* CSS multi-column flows the rows by height; each row
-			    breaks-inside-avoid so it never splits across the boundary. */}
-			<div className="columns-2 gap-x-10 [&>*]:mb-3 [&>*]:break-inside-avoid">
+			<div className="flex flex-col gap-3">
 				{exhibitionLines.map((line) => (
 					<p
 						key={line.order}
@@ -61,12 +57,6 @@ export function ScholarlyRecordSections({
 					</p>
 				))}
 			</div>
-			{/* The index serves exhibition history as prose only, so the per-venue
-			    fields the house-style row needs are unavailable. */}
-			<p className="mt-3 font-mono text-label text-gray-400">
-				Venue, date, and catalogue number are not separated in the current
-				index, so entries cannot link to an exhibition record.
-			</p>
 		</div>
 	) : null;
 
@@ -81,7 +71,6 @@ export function ScholarlyRecordSections({
 				<ProvenanceText
 					structured={provenanceStructured}
 					rawFallback={provenanceRaw}
-					columns
 				/>
 			</div>
 		) : null;
@@ -93,12 +82,10 @@ export function ScholarlyRecordSections({
 			</span>
 			<SectionLabel className="mb-4">Bibliography</SectionLabel>
 			<FieldSourceBadge field="bibliography_text" block />
-			<BibliographyText value={bibliographyText} columns />
+			<BibliographyText value={bibliographyText} />
 		</div>
 	) : null;
 
-	// Each block's entries flow across two columns inside the section (handled
-	// in the blocks above). A wide container gives the columns room to breathe.
 	// Order follows the June 18 2026 page-layouts spec: provenance →
 	// exhibition history → bibliography.
 	return (

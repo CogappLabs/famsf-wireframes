@@ -47,10 +47,6 @@ export function ChildRecordsSection({
 						<span className="text-gray-400"> and {hiddenCount} more</span>
 					)}
 				</p>
-				<p className="mt-3 font-mono text-label text-gray-400">
-					Child titles, artists, and thumbnails are not in the current index, so
-					this shows object ids only.
-				</p>
 			</Container>
 		</WireframeSection>
 	);

@@ -223,17 +223,18 @@ Current variations:
     deliberately no per-facet / per-toggle marks — they wrapped and collided in
     the narrow facet column; per-facet detail lives in the facet code, not the
     overlay. Keys live under `search-results/*` in `src/lib/scope.ts`.
-- **Object Detail**: the three dense record blocks (exhibition history,
-  provenance, bibliography) render in a **two-column layout** (now the only
-  layout; the old `standard` / `two-column` `usePageVariations` toggle was
-  removed) in `object-detail/ScholarlyRecordSections.tsx` (the three blocks
-  split out of `[variant]/page.tsx`). Curatorial Fellows scroll-reduction ask.
-  Each block stays a full-width stacked section but flows its entries across two
-  CSS columns: exhibition rows + bibliography entries reflow by height
-  (`columns-2` + `break-inside-avoid`); **provenance splits lines on the left,
-  footnotes on the right** (`lg:grid-cols-2`), falling back to line-flow when a
-  doc has no footnotes. `columns` prop on `ProvenanceText` +
-  `BibliographyText`.
+- **Object Detail**: the three dense record blocks (provenance, exhibition
+  history, bibliography) live in `object-detail/ScholarlyRecordSections.tsx`
+  (split out of `[variant]/page.tsx`), each a full-width stacked section. Only
+  **provenance** is two-column: `ProvenanceText` puts the lines left and the
+  footnotes right (`lg:grid-cols-2`, right column ruled with `border-l`)
+  whenever the doc has footnotes, single column when it does not. This is now
+  unconditional, so the `columns` prop is gone.
+  **Exhibition history and bibliography reverted to single column 2026-07-29**
+  (both lost their `columns-2` entry flow; `BibliographyText` no longer takes a
+  `columns` prop). Bibliography is also **unnumbered** as of the same date: a
+  plain `<ul>`, no leading `1.` / `2.` gutter. The old `standard` /
+  `two-column` `usePageVariations` toggle was removed earlier.
 
 ### Scope system
 
@@ -398,8 +399,10 @@ pipeline's `.env`. That path writes the pipeline export shape, which is
 ### Fields the served index does not carry
 
 Dropped between the pipeline export the wireframes were built against and
-the `develop` alias. Each surface renders a visible "not in the current
-index" note rather than hiding the gap, so it stays reviewable:
+the `develop` alias. The object page's explanatory "not in the current index"
+notes were removed 2026-07-29 (exhibition history, child records); the
+`/exhibitions` and `/parent-record` pages still carry theirs, and a missing
+parent still falls back to a greyed id label:
 
 | Missing | Was used for | Nearest served field |
 |---|---|---|
@@ -571,8 +574,8 @@ became linkout-only.
 
 ## Curator-data heuristic components
 
-- `BibliographyText` — splits on blank lines into numbered list with
-  hanging indent; applies CMOS italics heuristic anchored on
+- `BibliographyText` — splits on blank lines into an unnumbered list;
+  applies CMOS italics heuristic anchored on
   structural markers (Title-followed-by-City:Publisher,Year; exh.
   cat.; journal-after-quoted-article).
 - `ProvenanceText` — renders structured provenance from
