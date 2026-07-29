@@ -1,6 +1,6 @@
 /**
- * Related works section: interactive tabs (artist / medium / period / gallery)
- * filtering the rule-based recommendations grid.
+ * Related works section: interactive tabs (artist / medium / period) filtering
+ * the rule-based recommendations grid.
  */
 
 "use client";
@@ -16,13 +16,12 @@ import {
 import type { CollectionDocument } from "@/lib/collection-document";
 import { t } from "@/lib/strings";
 
-type Mode = "artist" | "medium" | "period" | "gallery";
+type Mode = "artist" | "medium" | "period";
 
 const TABS: ReadonlyArray<readonly [Mode, string]> = [
 	["artist", "object.relatedByArtist"],
 	["medium", "object.relatedByMedium"],
 	["period", "object.relatedByPeriod"],
-	["gallery", "object.relatedBySameGallery"],
 ];
 
 export function RelatedWorksSection({
@@ -45,7 +44,6 @@ export function RelatedWorksSection({
 					return r.display_year && currentDoc.display_year
 						? r.display_year === currentDoc.display_year
 						: r.date_display === currentDoc.date_display;
-				if (mode === "gallery") return r.department === currentDoc.department;
 				return true;
 			})
 		: related;
@@ -106,9 +104,7 @@ export function RelatedWorksSection({
 											? t("object.relatedSameArtist")
 											: mode === "medium"
 												? r.medium
-												: mode === "period"
-													? dateDisplay
-													: "–"}
+												: dateDisplay}
 									</p>
 								</div>
 							</Link>
