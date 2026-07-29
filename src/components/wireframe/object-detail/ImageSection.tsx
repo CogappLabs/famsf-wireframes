@@ -11,23 +11,9 @@ import {
 	iiifImageUrl,
 } from "@/lib/collection-document";
 import { t } from "@/lib/strings";
-import type { ImageCaption } from "@/lib/text-format";
 import ExternalLink from "../ExternalLink";
 
 type MediaItem = NonNullable<CollectionDocument["media"]>[number];
-
-/** House-style object caption (rule 7): title italic for real titles, roman
- *  for descriptive names. Rendered directly beneath the image. */
-function CaptionLine({ caption }: { caption: ImageCaption }) {
-	return (
-		<p className="font-mono text-meta text-gray-700">
-			{caption.pre}
-			{caption.title &&
-				(caption.titleItalic ? <em>{caption.title}</em> : caption.title)}
-			{caption.post}
-		</p>
-	);
-}
 
 /**
  * Object-detail image section: single-image layout or a CSS scroll-snap
@@ -40,13 +26,11 @@ export function ImageSection({
 	hiddenCount,
 	hasAnyImage,
 	isPublicDomain,
-	caption,
 }: {
 	visibleMedia: MediaItem[];
 	hiddenCount: number;
 	hasAnyImage: boolean;
 	isPublicDomain: boolean;
-	caption: ImageCaption;
 }) {
 	if (!(hasAnyImage || hiddenCount > 0)) return null;
 
@@ -68,9 +52,6 @@ export function ImageSection({
 								label={`[IIIF image: image_id ${visibleMedia[0].image_id}]`}
 								className="border-0"
 							/>
-						</div>
-						<div className="border-t border-gray-200 px-3 py-2">
-							<CaptionLine caption={caption} />
 						</div>
 						{(visibleMedia[0].media_view ||
 							visibleMedia[0].public_caption ||
@@ -113,10 +94,6 @@ export function ImageSection({
 				{hasAnyImage && visibleMedia.length > 1 && (
 					/* Multi-image carousel: CSS scroll-snap, no JS required */
 					<div>
-						{/* Object caption (rule 7) once, above the per-image detail. */}
-						<div className="mb-3 border border-gray-200 px-3 py-2">
-							<CaptionLine caption={caption} />
-						</div>
 						{/* Main scroll container. overscroll-x-contain keeps a horizontal
 						    swipe inside the carousel without capturing the page scroll. */}
 						<div

@@ -32,7 +32,6 @@ import {
 } from "@/lib/sample-docs-registry";
 import { t } from "@/lib/strings";
 import {
-	formatImageCaption,
 	formatIsoDate,
 	normaliseDateRange,
 	normaliseTitle,
@@ -290,22 +289,6 @@ export default async function SampleObjectPage({ params }: Props) {
 	].filter(Boolean);
 	const suggestedCitation = `${citationParts.join(", ")}. Fine Arts Museums of San Francisco.`;
 
-	// House-style image caption (rule 7): Artist, <title>, year. Medium,
-	// dimensions. FAMSF, credit line, accession number. Photo credit. Drops the
-	// ", courtesy of …" clause — that belongs only to the external "cite this
-	// image" credit, not the on-page caption.
-	const imageCaption = formatImageCaption({
-		primary_artist: doc.primary_artist,
-		title: doc.title,
-		display_date: doc.date_display,
-		medium: doc.medium,
-		// Only the raw dimensions string is served, so take the "Overall:" element.
-		dimensions: doc.dimensions ? overallDimensions(doc.dimensions) : null,
-		credit_line: doc.credit_line,
-		accession_number: doc.accession_number,
-		photo_credit: doc.copyright,
-	});
-
 	// Related works pool: same department or same primary artist, excluding self.
 	const allDocs = loadSampleDocs();
 	const related = allDocs
@@ -372,7 +355,6 @@ export default async function SampleObjectPage({ params }: Props) {
 					hiddenCount={hiddenCount}
 					hasAnyImage={hasAnyImage}
 					isPublicDomain={publicDomain}
-					caption={imageCaption}
 				/>
 				{/* Jump-to nav: sits between the image gallery and the title so it's
 				 the first thing to pin; the tombstone + deep content scroll under it. */}
