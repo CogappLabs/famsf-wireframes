@@ -1285,6 +1285,17 @@ export function GridFacetsView({
 			return next;
 		});
 	};
+	// Mobile keeps the facet column behind a collapsed <details>; from lg up it is
+	// always expanded. `open` cannot be driven by CSS, so track the breakpoint.
+	const [isDesktop, setIsDesktop] = useState(false);
+	useEffect(() => {
+		const mq = window.matchMedia("(min-width: 1024px)");
+		const sync = () => setIsDesktop(mq.matches);
+		sync();
+		mq.addEventListener("change", sync);
+		return () => mq.removeEventListener("change", sync);
+	}, []);
+	const [filtersOpen, setFiltersOpen] = useState(false);
 	const [sort, setSort] = useState<SortKey>("relevance");
 	const [page, setPage] = useState(0);
 	const [placeExpanded, setPlaceExpanded] = useState<Set<string>>(new Set());
@@ -1827,47 +1838,69 @@ export function GridFacetsView({
 
 	return (
 		<div className="flex flex-col gap-6 lg:flex-row">
-			{/* Left facet column */}
+			{/* Left facet column. On mobile it is a <details> closed by default, so
+			    the filters sit behind one "Filters" summary above the results
+			    instead of pushing them down the page; from lg up the panels show
+			    inline and the summary is hidden. */}
 			<ScopeMark label="Facets" className="shrink-0 lg:w-80">
-				<aside>
-					<div className="flex items-baseline justify-between border-b border-gray-300 pb-2">
-						<SectionLabelInline>Refine</SectionLabelInline>
-						{/* Always rendered so the header doesn't reflow when filters
+				<details
+					className="group border-b border-gray-300 lg:border-b-0"
+					open={isDesktop || filtersOpen}
+					onToggle={(e) => setFiltersOpen(e.currentTarget.open)}
+				>
+					{/* Label states the action, as on comparable collection sites
+					    (Hammer's "Hide filter options"), so it reads as a control
+					    rather than a heading. */}
+					<summary className="flex cursor-pointer list-none items-center gap-2 border border-gray-300 px-3 py-2 font-mono text-meta text-gray-700 hover:border-gray-500 hover:bg-gray-50 lg:hidden">
+						<span
+							aria-hidden
+							className="transition-transform group-open:rotate-90"
+						>
+							▸
+						</span>
+						{filtersOpen ? "Hide filters" : "Show filters"}
+						{activeChips.length > 0 ? ` (${activeChips.length})` : ""}
+					</summary>
+					<aside className="pb-3 lg:pb-0">
+						<div className="flex items-baseline justify-between border-b border-gray-300 pb-2">
+							<SectionLabelInline>Refine</SectionLabelInline>
+							{/* Always rendered so the header doesn't reflow when filters
 						    become active; just hidden + inert when there's nothing
 						    to clear. */}
-						<button
-							type="button"
-							onClick={() => setSel(EMPTY_GRID_SELECTIONS)}
-							aria-hidden={!anyActive}
-							tabIndex={anyActive ? 0 : -1}
-							className={`font-mono text-meta text-gray-500 underline hover:text-gray-700 ${
-								anyActive ? "" : "invisible"
-							}`}
-						>
-							Clear all
-						</button>
-					</div>
-
-					{/* Toggles at the top of the left column, stacked so they fit
-						    the narrow column. */}
-					<div className="mt-3 flex flex-col gap-2 border-b border-gray-200 pb-3 [&_fieldset]:flex-col [&_fieldset]:items-start">
-						{toggleButtons}
-					</div>
-
-					<div className="mt-1 flex flex-col">
-						{panels.map((p) => (
-							<FacetAccordion
-								key={p.id}
-								label={p.label}
-								activeCount={p.activeCount}
-								open={openPanels.has(p.id)}
-								onToggle={() => togglePanel(p.id)}
+							<button
+								type="button"
+								onClick={() => setSel(EMPTY_GRID_SELECTIONS)}
+								aria-hidden={!anyActive}
+								tabIndex={anyActive ? 0 : -1}
+								className={`font-mono text-meta text-gray-500 underline hover:text-gray-700 ${
+									anyActive ? "" : "invisible"
+								}`}
 							>
-								{p.control}
-							</FacetAccordion>
-						))}
-					</div>
-				</aside>
+								Clear all
+							</button>
+						</div>
+
+						{/* Toggles at the top of the left column, stacked so they fit
+						    the narrow column. */}
+						<div className="mt-3 flex flex-col gap-2 border-b border-gray-200 pb-3 [&_fieldset]:flex-col [&_fieldset]:items-start">
+							{toggleButtons}
+						</div>
+
+						<div className="mt-1 flex flex-col">
+							{panels.map((p) => (
+								<FacetAccordion
+									key={p.id}
+									label={p.label}
+									activeCount={p.activeCount}
+									open={openPanels.has(p.id)}
+									onToggle={() => togglePanel(p.id)}
+								>
+									{p.control}
+								</FacetAccordion>
+							))}
+						</div>
+					</aside>
+				</details>
 			</ScopeMark>
 
 			{/* Results */}

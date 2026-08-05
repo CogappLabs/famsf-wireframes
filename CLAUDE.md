@@ -90,6 +90,16 @@ Current variations:
     primary search view. The URL key keeps the `-modal` name for stable links,
     though there is no longer a modal or drawer. The other entries stay as
     design alternatives behind `?variation=`.
+  - **On mobile the whole facet column collapses** into a `<details>`
+    (2026-08-05), closed by default, so the filters sit behind one
+    "Show filters" / "Hide filters" summary above the results rather than pushing
+    them down the page. The summary is styled as a control and carries the
+    active-filter count, following the pattern on comparable collection sites
+    (Hammer's "Hide filter options"). From `lg` up the summary is hidden
+    (`lg:hidden`) and the panels show inline as before. A `<details>` cannot be
+    forced open by CSS, so `open` is driven by an `isDesktop` state synced from a
+    `matchMedia("(min-width: 1024px)")` listener; it starts false, so SSR renders
+    collapsed and desktop expands on hydration.
   - **The facet column is a stack of collapsible panels** (`FacetAccordion`),
     matching Searchkit's default shape per client feedback 2026-08-05: each
     panel's heading is the toggle (uppercase label + active count + chevron),
