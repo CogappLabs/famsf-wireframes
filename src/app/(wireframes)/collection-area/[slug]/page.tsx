@@ -57,8 +57,11 @@ interface MediaItem {
 interface ResourceItem {
 	title: string;
 	desc: string;
-	/** Placeholder caption for the resource image. Falls back to the title. */
+	/** Placeholder caption for the resource image. Falls back to the title.
+	 *  Entries without one stay full-width text. */
 	image?: string;
+	/** Which side the image sits on, next to the text. Defaults to left. */
+	imageAlign?: "left" | "right";
 	/** Contact line (address, email, phone) shown under the blurb. */
 	contact?: string;
 }
@@ -67,10 +70,11 @@ interface ResourceItem {
 const READ_WATCH_LISTEN_URL =
 	"https://www.famsf.org/learn-engage/read-watch-listen";
 
-// FAMSF study centers: a standing, featured "Other resources" entry rendered
-// as a rich split-column card (prose + CTA + links on the left, images on the
-// right) rather than a plain content card.
+// FAMSF study centers: a standing, featured "Other resources" entry. Longer
+// prose than the rest, with an image beside the text.
 const STUDY_CENTERS = {
+	imageAlign: "left" as const,
+	image: "[Study center reading room]",
 	title: "Study centers",
 	lead: "Make an appointment to view works on paper, textiles, and other light-sensitive objects in person.",
 	body: [
@@ -88,7 +92,6 @@ const STUDY_CENTERS = {
 		},
 	],
 	contact: "study.centers@famsf.org · de Young museum, Golden Gate Park",
-	images: ["[Study center reading room]", "[Works on paper, table view]"],
 };
 
 interface AreaData {
@@ -218,6 +221,8 @@ const AREAS: Record<string, AreaData> = {
 			{
 				title: "Image licensing",
 				desc: "Rights and reproduction requests for publication and study.",
+				image: "[Photography studio, object on copy stand]",
+				imageAlign: "right",
 			},
 		],
 	},
@@ -340,6 +345,8 @@ const AREAS: Record<string, AreaData> = {
 			{
 				title: "Image licensing",
 				desc: "Rights and reproduction requests for publication and study.",
+				image: "[Photography studio, object on copy stand]",
+				imageAlign: "right",
 			},
 		],
 	},
@@ -443,6 +450,8 @@ const AREAS: Record<string, AreaData> = {
 			{
 				title: "Image licensing",
 				desc: "Rights and reproduction requests for publication and study.",
+				image: "[Photography studio, object on copy stand]",
+				imageAlign: "right",
 			},
 		],
 	},
@@ -534,6 +543,8 @@ const AREAS: Record<string, AreaData> = {
 			{
 				title: "Image licensing",
 				desc: "Rights and reproduction requests for publication and study.",
+				image: "[Photography studio, object on copy stand]",
+				imageAlign: "right",
 			},
 		],
 	},
@@ -637,6 +648,8 @@ const AREAS: Record<string, AreaData> = {
 			{
 				title: "Image licensing",
 				desc: "Rights and reproduction requests for publication and study.",
+				image: "[Photography studio, object on copy stand]",
+				imageAlign: "right",
 			},
 		],
 	},
@@ -740,6 +753,8 @@ const AREAS: Record<string, AreaData> = {
 			{
 				title: "Image licensing",
 				desc: "Rights and reproduction requests for publication and study.",
+				image: "[Photography studio, object on copy stand]",
+				imageAlign: "right",
 			},
 		],
 	},
@@ -843,6 +858,8 @@ const AREAS: Record<string, AreaData> = {
 			{
 				title: "Image licensing",
 				desc: "Rights and reproduction requests for publication and study.",
+				image: "[Photography studio, object on copy stand]",
+				imageAlign: "right",
 			},
 		],
 	},
@@ -946,6 +963,8 @@ const AREAS: Record<string, AreaData> = {
 			{
 				title: "Image licensing",
 				desc: "Rights and reproduction requests for publication and study.",
+				image: "[Photography studio, object on copy stand]",
+				imageAlign: "right",
 			},
 		],
 	},
@@ -1049,6 +1068,8 @@ const AREAS: Record<string, AreaData> = {
 			{
 				title: "Image licensing",
 				desc: "Rights and reproduction requests for publication and study.",
+				image: "[Photography studio, object on copy stand]",
+				imageAlign: "right",
 			},
 		],
 	},
@@ -1073,6 +1094,49 @@ export function featuredSlug(name: string): string {
 
 export type { AreaData, Featured };
 export { AREA_BY_SLUG };
+
+/** One "Other resources" entry. With an image it becomes two columns on
+ *  desktop, the image on the side `imageAlign` names (default left); without
+ *  one the text runs full width. Stacks image-first on mobile either way. */
+function ResourceEntry({
+	title,
+	image,
+	imageAlign = "left",
+	contact,
+	children,
+}: {
+	title: string;
+	image?: string;
+	imageAlign?: "left" | "right";
+	contact?: string;
+	children: React.ReactNode;
+}) {
+	const text = (
+		<div>
+			<h3 className="font-mono text-card font-medium leading-snug">{title}</h3>
+			<div className="mt-2">{children}</div>
+			{contact && (
+				<p className="mt-4 font-mono text-label text-gray-400">
+					<span className="uppercase tracking-[0.08em]">
+						{t("area.resourcesContact")}:
+					</span>{" "}
+					{contact}
+				</p>
+			)}
+		</div>
+	);
+
+	if (!image) return <div className="py-5">{text}</div>;
+
+	return (
+		<div className="grid gap-5 py-5 md:grid-cols-[1fr_2fr]">
+			<div className={imageAlign === "right" ? "md:order-2" : undefined}>
+				<ImagePlaceholder aspect="4/3" label={image} />
+			</div>
+			{text}
+		</div>
+	);
+}
 
 /** Shared collection-area template. Parent area pages and featured-collection
  *  child pages both render this — the child reuses the identical layout, only
@@ -1310,10 +1374,10 @@ export function AreaPageLayout({
 					</WireframeSection>
 				</ScopeMark>
 
-				{/* Other resources: uniform text entries (no image cards, nothing
-				    that links off to a new page), per curator feedback. Study
-				    centers lead with their prose + contact, remaining resources
-				    follow in the same text style. */}
+				{/* Other resources: text entries, nothing that links off to a new
+				    page, per curator feedback. An entry may carry an optional
+				    image beside the text on either side; without one it runs
+				    full width. Study centers lead with their prose + contact. */}
 				<WireframeSection label="Other resources" className="py-8">
 					<Container size="md">
 						<SectionLabel className="mb-6">
@@ -1321,11 +1385,13 @@ export function AreaPageLayout({
 						</SectionLabel>
 						<div className="flex flex-col divide-y divide-gray-200 border-t border-gray-200">
 							{/* Study centers */}
-							<div className="py-5">
-								<h3 className="font-mono text-card font-medium leading-snug">
-									{STUDY_CENTERS.title}
-								</h3>
-								<p className="mt-2 font-mono text-body text-gray-700">
+							<ResourceEntry
+								title={STUDY_CENTERS.title}
+								image={STUDY_CENTERS.image}
+								imageAlign={STUDY_CENTERS.imageAlign}
+								contact={STUDY_CENTERS.contact}
+							>
+								<p className="font-mono text-body text-gray-700">
 									{STUDY_CENTERS.lead}
 								</p>
 								<div className="mt-4 space-y-3 font-mono text-meta text-gray-500">
@@ -1333,32 +1399,21 @@ export function AreaPageLayout({
 										<p key={para}>{para}</p>
 									))}
 								</div>
-								<p className="mt-4 font-mono text-label text-gray-400">
-									<span className="uppercase tracking-[0.08em]">
-										{t("area.resourcesContact")}:
-									</span>{" "}
-									{STUDY_CENTERS.contact}
-								</p>
-							</div>
+							</ResourceEntry>
 
 							{/* Remaining resources: same text style */}
 							{area.resources.map((res) => (
-								<div key={res.title} className="py-5">
-									<h3 className="font-mono text-card font-medium leading-snug">
-										{res.title}
-									</h3>
-									<p className="mt-1 font-mono text-meta text-gray-500">
+								<ResourceEntry
+									key={res.title}
+									title={res.title}
+									image={res.image}
+									imageAlign={res.imageAlign}
+									contact={res.contact}
+								>
+									<p className="font-mono text-meta text-gray-500">
 										{res.desc}
 									</p>
-									{res.contact && (
-										<p className="mt-3 font-mono text-label text-gray-400">
-											<span className="uppercase tracking-[0.08em]">
-												{t("area.resourcesContact")}:
-											</span>{" "}
-											{res.contact}
-										</p>
-									)}
-								</div>
+								</ResourceEntry>
 							))}
 						</div>
 					</Container>
