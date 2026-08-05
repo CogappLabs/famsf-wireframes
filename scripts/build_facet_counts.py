@@ -44,12 +44,10 @@ FLAT = {
 }
 
 
-# Flat facets are a totals lookup keyed by value, so only the values a facet
-# can actually show matter. Artist alone has 13.5K distinct values (569 KB of
-# JSON) of which 8 render before "Show more", so cap the tail.
-FLAT_CAP = 500
-
-
+# Every distinct value, uncapped. This is a totals lookup keyed by value, so a
+# missing value means a facet row falls back to its ~600-doc slice count instead
+# of the collection-wide one. Artist carries 13.5K values (~570 KB); the whole
+# file is static build-time data, so the size is worth the honest counts.
 def flat_counts(con: duckdb.DuckDBPyConnection, column: str) -> list[dict]:
     rows = con.execute(f"""
         SELECT {column} AS value, COUNT(*) AS n
@@ -57,7 +55,6 @@ def flat_counts(con: duckdb.DuckDBPyConnection, column: str) -> list[dict]:
         WHERE {column} IS NOT NULL AND trim({column}) <> ''
         GROUP BY 1
         ORDER BY n DESC, value
-        LIMIT {FLAT_CAP}
     """, {"parquet": str(PARQUET)}).fetchall()
     return [{"value": r[0], "count": int(r[1])} for r in rows]
 
@@ -79,8 +76,9 @@ def main() -> None:
             "Real full-collection facet counts from the -real pipeline parquet. "
             "The grid-facets view renders a ~600-doc slice, so these are shown "
             "as collection-wide totals rather than slice counts. Flat facets "
-            f"keep their top {FLAT_CAP} values (a totals lookup, so the tail is "
-            "unused); place keeps its full tree. Medium has its own build step "
+            "carry every distinct value (uncapped since 2026-08-05, so a facet "
+            "row always finds its real count); place keeps its full tree. "
+            "Medium has its own build step "
             "(build_medium_facet.py). Rebuild with scripts/build_facet_counts.py "
             "after a re-export."
         ),
@@ -92,18 +90,6 @@ def main() -> None:
         vals = flat_counts(con, column)
         out[key] = vals
         print(f"  {key:16} {len(vals):6} values", flush=True)
-
-    # Maker role lives inside the constituents struct array.
-    role_rows = con.execute(f"""
-        SELECT c.role AS value, COUNT(DISTINCT d.id) AS n
-        FROM read_parquet($parquet) d, UNNEST(d.constituents) AS t(c)
-        WHERE c.role IS NOT NULL AND trim(c.role) <> ''
-        GROUP BY 1
-        ORDER BY n DESC, value
-        LIMIT {FLAT_CAP}
-    """, {"parquet": str(PARQUET)}).fetchall()
-    out["role"] = [{"value": r[0], "count": int(r[1])} for r in role_rows]
-    print(f"  {'role':16} {len(role_rows):6} values", flush=True)
 
     # Boolean / derived toggles, including the On view museum split.
     toggles = con.execute("""

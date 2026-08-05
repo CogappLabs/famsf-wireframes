@@ -253,42 +253,6 @@ function filterGridDocs(
 	});
 }
 
-/** Count a flat string-array facet over docs, descending by count. */
-/** Real full-collection counts per facet value, from the pipeline parquet
- *  (scripts/build_facet_counts.py). Shown beside the live slice count so the
- *  numbers reflect the collection, not the ~600-doc sample. */
-const COLLECTION_TOTALS: Record<
-	string,
-	Map<string, number>
-> = Object.fromEntries(
-	(["artist", "culture", "classification", "department"] as const).map(
-		(key) => [
-			key,
-			new Map(
-				(facetCounts[key] as { value: string; count: number }[]).map((o) => [
-					o.value,
-					o.count,
-				]),
-			),
-		],
-	),
-);
-
-function countFlat(
-	docs: CollectionDocument[],
-	get: (d: CollectionDocument) => string[] | undefined,
-): FacetOption[] {
-	const counts = new Map<string, number>();
-	for (const d of docs) {
-		for (const v of new Set(get(d) ?? [])) {
-			counts.set(v, (counts.get(v) ?? 0) + 1);
-		}
-	}
-	return Array.from(counts.entries())
-		.map(([value, count]) => ({ value, count }))
-		.sort((a, b) => byLabelAsc(a.value, b.value));
-}
-
 const DATE_BIN = 10; // decade bins for the year histogram
 
 interface YearBin {
@@ -435,6 +399,32 @@ const byPlaceTier1 = (a: FacetTreeNode, b: FacetTreeNode) =>
 const byLabelAscNode = (a: FacetTreeNode, b: FacetTreeNode) =>
 	byLabelAsc(a.value, b.value);
 
+/** The full served value list for each flat facet, straight from the pipeline
+ *  aggregate (build_facet_counts.py) rather than the ~600-doc slice — the same
+ *  display-only approach the Place and Medium trees take, so reviewers see the
+ *  real scale (13.5K artists, not the 181 the slice happens to carry). Counts are
+ *  collection-wide; selecting a value the slice has no member for filters to 0. */
+/** TMS data-entry artefacts that reach the culture field: a stray glyph, a bare
+ *  "?", and cataloguer date stamps ("00/00/00", "3rd quarter 19th century--
+ *  Harold Rehmen 4/2003"). 25 objects across 4 values, dropped from the facet
+ *  rather than shown as cultures. Curator-side cleanup, not a render fix. */
+const isJunkFacetValue = (value: string): boolean => {
+	const v = value.trim();
+	return v === "" || !/[A-Za-z]/.test(v) || /\d{1,2}\/\d{1,2}\/\d{2,4}/.test(v);
+};
+
+const FULL_FACET_OPTIONS: Record<string, FacetOption[]> = Object.fromEntries(
+	(["artist", "culture", "classification", "department"] as const).map(
+		(key) => [
+			key,
+			(facetCounts[key] as { value: string; count: number }[])
+				.filter((o) => !isJunkFacetValue(o.value))
+				.map((o) => ({ value: o.value, count: o.count }))
+				.sort((a, b) => byLabelAsc(a.value, b.value)),
+		],
+	),
+);
+
 /**
  * The Place facet renders the served hierarchy with real full-collection counts
  * (scripts/build_facet_counts.py, reading the pipeline's own place.lvl0-lvl3),
@@ -495,10 +485,9 @@ const MEDIUM_TREE: FacetTreeNode[] = (() => {
 	return sortDeep(mediumTaxonomy as FacetTreeNode[]);
 })();
 
-const FACET_TOP_N = 8;
-/** Facets no longer than this show every option, since collapsing a short list
- *  behind "Show more" hides less than the button costs. */
-const FACET_SHOW_ALL_MAX = 30;
+/** Rows a flat facet shows before "Show more", which then reveals every option.
+ *  Alphabetical, so this is the first ten A-Z, not the ten biggest. */
+const FACET_TOP_N = 10;
 
 /** A single expandable facet block in the left column. */
 function FacetBlock({
@@ -507,8 +496,8 @@ function FacetBlock({
 	selected,
 	onSelect,
 	note,
-	totals,
 	heading = true,
+	topN = FACET_TOP_N,
 }: {
 	label: string;
 	options: FacetOption[];
@@ -517,26 +506,24 @@ function FacetBlock({
 	/** Caveat shown under the label, for facets whose counts do not come from
 	 *  the on-page slice. */
 	note?: string;
-	/** Real full-collection count per value, shown in place of the slice count
-	 *  so the numbers reflect the collection rather than the ~600-doc sample. */
-	totals?: Map<string, number>;
 	/** Off when an enclosing FacetAccordion already renders the label. */
 	heading?: boolean;
+	/** Rows before "Show more" (FACET_TOP_N by default). null lists every
+	 *  option with no toggle. */
+	topN?: number | null;
 }) {
 	const [expanded, setExpanded] = useState(false);
 	const [search, setSearch] = useState("");
 	if (options.length === 0 && !selected) return null;
 
-	// countFlat already orders alphabetically, and `totals` only swaps the number
-	// shown, so the row order holds either way.
+	// Options arrive alphabetical from FULL_FACET_OPTIONS.
 	const filtered = search
 		? options.filter((o) =>
 				o.value.toLowerCase().includes(search.toLowerCase()),
 			)
 		: options;
-	const showAll =
-		expanded || Boolean(search) || options.length <= FACET_SHOW_ALL_MAX;
-	const shown = showAll ? filtered : filtered.slice(0, FACET_TOP_N);
+	const showAll = expanded || Boolean(search) || topN == null;
+	const shown = showAll ? filtered : filtered.slice(0, topN);
 	const hiddenCount = filtered.length - shown.length;
 
 	return (
@@ -570,7 +557,7 @@ function FacetBlock({
 					<span>×</span>
 				</button>
 			)}
-			{options.length > FACET_SHOW_ALL_MAX && (
+			{topN != null && (
 				<input
 					type="text"
 					value={search}
@@ -579,7 +566,15 @@ function FacetBlock({
 					className="mb-1.5 w-full border border-gray-200 bg-white px-2 py-1.5 font-mono text-meta text-gray-900 placeholder:text-gray-400 focus:border-gray-500 focus:outline-none"
 				/>
 			)}
-			<ul className="flex flex-col">
+			{/* Expanded or search-filtered lists scroll in place (same cap as the
+			    trees) so a long facet doesn't push the rest of the column away. */}
+			<ul
+				className={`flex flex-col ${
+					topN != null && showAll && filtered.length > topN
+						? "max-h-96 overflow-y-auto"
+						: ""
+				}`}
+			>
 				{shown
 					.filter((o) => o.value !== selected)
 					.map((o) => (
@@ -596,7 +591,7 @@ function FacetBlock({
 								/>
 								<span className="min-w-0 flex-1 break-words">{o.value}</span>
 								<span className="shrink-0 tabular-nums text-gray-500">
-									{(totals?.get(o.value) ?? o.count).toLocaleString()}
+									{o.count.toLocaleString()}
 								</span>
 							</button>
 						</li>
@@ -611,7 +606,7 @@ function FacetBlock({
 					Show {hiddenCount} more
 				</button>
 			)}
-			{expanded && !search && filtered.length > FACET_SHOW_ALL_MAX && (
+			{topN != null && expanded && !search && filtered.length > topN && (
 				<button
 					type="button"
 					onClick={() => setExpanded(false)}
@@ -624,7 +619,7 @@ function FacetBlock({
 	);
 }
 
-/** Geography-source dropdown, rendered inside the Place drawer above the tree.
+/** Geography-source dropdown, rendered in the Place panel above the tree.
  *  Scopes a Place pick to one field (or field group); options with no data in
  *  the current slice are disabled rather than hidden, so reviewers see the full
  *  intended shape without any option that would always return zero. */
@@ -1414,13 +1409,8 @@ export function GridFacetsView({
 	// slice, which may hold no member for it.
 	const placeTree = PLACE_TREE;
 	const mediumTree = MEDIUM_TREE;
-	const artistOpts = useMemo(
-		() =>
-			countFlat(filterGridDocs(docs, { ...sel, artist: null }, query), (d) =>
-				d.primary_artist ? [d.primary_artist] : [],
-			),
-		[docs, sel, query],
-	);
+	// Flat facets list the full served value set, not the slice's subset.
+	const artistOpts = FULL_FACET_OPTIONS.artist;
 	// Docs per geography-source scope, ignoring the current scope pick so the
 	// dropdown's own counts don't collapse to the scope already chosen.
 	const geoScopeCounts = useMemo(() => {
@@ -1434,29 +1424,9 @@ export function GridFacetsView({
 		}
 		return out;
 	}, [docs, sel, query]);
-	const cultureOpts = useMemo(
-		() =>
-			countFlat(filterGridDocs(docs, { ...sel, culture: null }, query), (d) =>
-				d.culture ? [d.culture] : [],
-			),
-		[docs, sel, query],
-	);
-	const classificationOpts = useMemo(
-		() =>
-			countFlat(
-				filterGridDocs(docs, { ...sel, classification: null }, query),
-				(d) => (d.classification ? [d.classification] : []),
-			),
-		[docs, sel, query],
-	);
-	const departmentOpts = useMemo(
-		() =>
-			countFlat(
-				filterGridDocs(docs, { ...sel, department: null }, query),
-				(d) => (d.department ? [d.department] : []),
-			),
-		[docs, sel, query],
-	);
+	const cultureOpts = FULL_FACET_OPTIONS.culture;
+	const classificationOpts = FULL_FACET_OPTIONS.classification;
+	const departmentOpts = FULL_FACET_OPTIONS.department;
 	// Static: the pipeline does not serve FAMSF Collection yet, so these are
 	// real full-collection counts probed from TMS, not slice counts.
 	const collectionOpts: FacetOption[] = useMemo(
@@ -1607,6 +1577,7 @@ export function GridFacetsView({
 					selected={sel.collection}
 					onSelect={setCollection}
 					heading={false}
+					topN={null}
 				/>
 			),
 		},
@@ -1618,7 +1589,6 @@ export function GridFacetsView({
 				<FacetBlock
 					label="Artist/maker"
 					options={artistOpts}
-					totals={COLLECTION_TOTALS.artist}
 					selected={sel.artist}
 					onSelect={setArtist}
 					heading={false}
@@ -1705,7 +1675,6 @@ export function GridFacetsView({
 				<FacetBlock
 					label="Culture group"
 					options={cultureOpts}
-					totals={COLLECTION_TOTALS.culture}
 					selected={sel.culture}
 					onSelect={setCulture}
 					heading={false}
@@ -1771,10 +1740,10 @@ export function GridFacetsView({
 				<FacetBlock
 					label="Object type"
 					options={classificationOpts}
-					totals={COLLECTION_TOTALS.classification}
 					selected={sel.classification}
 					onSelect={setClassification}
 					heading={false}
+					topN={null}
 				/>
 			),
 		},
@@ -1786,7 +1755,6 @@ export function GridFacetsView({
 				<FacetBlock
 					label="Department"
 					options={departmentOpts}
-					totals={COLLECTION_TOTALS.department}
 					selected={sel.department}
 					onSelect={setDepartment}
 					heading={false}

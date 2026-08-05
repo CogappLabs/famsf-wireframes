@@ -180,9 +180,31 @@ Current variations:
       de Young / Legion museum narrowing.
     The CW-41 core facet set (geo, medium, classification, dept, OA, on-view,
     has-image) + date (CW-64) is complete; Artist + Culture group are kept on
-    top as extras. The Gallery + Technique facets were removed 2026-07-07. Flat
-    facets cap at 8 with "Show more"; Place (geography) and the full Medium tree
-    show all.
+    top as extras. The Gallery + Technique facets were removed 2026-07-07.
+    **Facet lists are the full served value set (2026-08-05)**, not the
+    ~600-doc slice: `FULL_FACET_OPTIONS` reads `facet-counts.json` (rebuilt
+    uncapped — `FLAT_CAP` removed), so Artist/maker lists **13,512** values and
+    Culture group **1,543**, each with its real collection-wide count. Same
+    display-only contract the Place and Medium trees already had: picking a value
+    the slice holds no member for filters to **0 results**. `countFlat`,
+    `COLLECTION_TOTALS`, and `FacetBlock`'s `totals` prop went with the change —
+    each option now carries its own count.
+    **Row caps:** only the two long facets cap, at the first `FACET_TOP_N` (10)
+    rows **A-Z** (alphabetical, so the first ten, not the ten biggest), with
+    "Show more" revealing **every** option inside a `max-h-96` inner scroll.
+    Everything else lists in full via `topN={null}`: Object type (24),
+    Department (9), Collection (14), Place, the full Medium tree. `FacetBlock`
+    takes a `topN` prop defaulting to `FACET_TOP_N`; the old
+    `FACET_SHOW_ALL_MAX` length threshold is gone. Only capped facets get a
+    search-within box (it keys off `topN`). Note expanding Artist/maker mounts
+    13.5K rows unvirtualised and is visibly slow — search-within is the
+    practical path.
+    **Junk values are filtered** (`isJunkFacetValue`): a value with no letters
+    or carrying a cataloguer date stamp is dropped from the flat facets. 5 values
+    across ~26 objects (`▼`, `?`, `00/00/00`, `5/29/97` in culture; `12/05` in
+    artist; the same rule catches "3rd quarter 19th century-- Harold Rehmen
+    4/2003"). Display-side guard only — the values are still in TMS and in the
+    pipeline output, so they remain a curator-cleanup item.
   - **Role** (a facet off `constituents[].Role`) was removed 2026-08-05, along
     with the `docRoles` helper and its selection state.
   - **Geography source** — a dropdown (`GeoScopeSelect`) above the Place tree,
