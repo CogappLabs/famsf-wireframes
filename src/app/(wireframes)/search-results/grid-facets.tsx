@@ -1,6 +1,6 @@
 "use client";
 
-import { type ReactNode, useEffect, useMemo, useRef, useState } from "react";
+import { type ReactNode, useEffect, useMemo, useState } from "react";
 import { ScopeMark, SectionLabelInline } from "@/components/wireframe";
 import facetCounts from "@/data/facet-counts.json";
 import famsfCollectionValues from "@/data/famsf-collection-values.json";
@@ -146,16 +146,8 @@ function geoScopeValues(d: CollectionDocument, scope: GeoScopeId): string[] {
 	}
 }
 
-/** Distinct maker roles on a doc (constituents[].Role). */
-const docRoles = (d: CollectionDocument): string[] =>
-	(d.constituents ?? [])
-		.map((c) => c.role)
-		.filter((r): r is string => Boolean(r));
-
 interface GridFacetSelections {
 	artist: string | null;
-	/** Maker-role facet ("More maker options" under Artist/maker). */
-	role: string | null;
 	culture: string | null;
 	place: PlaceSelection | null;
 	/** Which place field the Place tree pick is scoped to (presence constraint). */
@@ -167,12 +159,6 @@ interface GridFacetSelections {
 	 *  served, so the options are static and a pick filters the slice to 0. */
 	collection: string | null;
 	date: YearRange | null;
-	/** Raw place-term facet selections, keyed by PlaceExtraId (buttons mode:
-	 *  each field is its own value facet). */
-	placeExtras: Partial<Record<PlaceExtraId, string>>;
-	/** Checked place FIELD types (grouped mode): a presence constraint — the doc
-	 *  must have a value in at least one checked field. Not a value filter. */
-	placeTypes: PlaceExtraId[];
 	onView: boolean;
 	/** When On view is active, narrow to one museum. null = either. */
 	onViewBuilding: "de Young" | "Legion" | null;
@@ -182,7 +168,6 @@ interface GridFacetSelections {
 
 const EMPTY_GRID_SELECTIONS: GridFacetSelections = {
 	artist: null,
-	role: null,
 	culture: null,
 	place: null,
 	geoScope: "all",
@@ -191,8 +176,6 @@ const EMPTY_GRID_SELECTIONS: GridFacetSelections = {
 	department: null,
 	collection: null,
 	date: null,
-	placeExtras: {},
-	placeTypes: [],
 	onView: false,
 	onViewBuilding: null,
 	hasImage: false,
@@ -241,7 +224,6 @@ function filterGridDocs(
 	return docs.filter((d) => {
 		if (!docMatchesQuery(d, q)) return false;
 		if (sel.artist && d.primary_artist !== sel.artist) return false;
-		if (sel.role && !docRoles(d).includes(sel.role)) return false;
 		if (sel.culture && d.culture !== sel.culture) return false;
 		if (!docMatchesPlace(d, sel.place)) return false;
 		// Geography source scope: presence constraint layered on the tree pick.
@@ -254,19 +236,6 @@ function filterGridDocs(
 		// FAMSF Collection is not on the documents yet, so any pick matches
 		// nothing. Deliberate: the count is real, the slice cannot satisfy it.
 		if (sel.collection) return false;
-		for (const [id, value] of Object.entries(sel.placeExtras)) {
-			if (!value) continue;
-			if (!PLACE_EXTRA_ACCESSOR[id as PlaceExtraId](d).includes(value))
-				return false;
-		}
-		// Place-type presence constraint (grouped mode): doc must carry a value
-		// in at least one checked place field.
-		if (sel.placeTypes.length > 0) {
-			const hasAny = sel.placeTypes.some(
-				(id) => PLACE_EXTRA_ACCESSOR[id](d).length > 0,
-			);
-			if (!hasAny) return false;
-		}
 		if (sel.date) {
 			const y = objectYear(d);
 			if (y == null || y < sel.date.min || y > sel.date.max) return false;
@@ -292,7 +261,7 @@ const COLLECTION_TOTALS: Record<
 	string,
 	Map<string, number>
 > = Object.fromEntries(
-	(["artist", "culture", "classification", "department", "role"] as const).map(
+	(["artist", "culture", "classification", "department"] as const).map(
 		(key) => [
 			key,
 			new Map(
@@ -317,7 +286,7 @@ function countFlat(
 	}
 	return Array.from(counts.entries())
 		.map(([value, count]) => ({ value, count }))
-		.sort((a, b) => b.count - a.count || a.value.localeCompare(b.value));
+		.sort((a, b) => byLabelAsc(a.value, b.value));
 }
 
 const DATE_BIN = 10; // decade bins for the year histogram
@@ -427,8 +396,44 @@ interface FacetTreeNode {
 	children: FacetTreeNode[];
 }
 
-const byCountDesc = (a: FacetTreeNode, b: FacetTreeNode) =>
-	b.count - a.count || a.value.localeCompare(b.value);
+/** Facet options sort alphabetically across the board (client decision,
+ *  2026-08-05), the one exception being Place Tier 1 (PLACE_TIER1_ORDER). */
+const byLabelAsc = (a: string, b: string) =>
+	a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" });
+
+// Place Tier 1 keeps a curated order: loosely alphabetical, but grouping the
+// Americas and the Asian regions together. Values not listed here sort
+// alphabetically after the listed ones — the pipeline still reads an 18-row
+// placeholder crosswalk, so several live Tier-1 labels ("Asia", "North and
+// Central America", "Eastern Europe") are not yet curated into this list, and
+// four listed regions (Central America, Central Asia, South Asia, Cuba) have no
+// data yet.
+const PLACE_TIER1_ORDER = [
+	"Africa",
+	"Central America",
+	"North America",
+	"South America",
+	"Central Asia",
+	"East Asia",
+	"South Asia",
+	"Southeast Asia",
+	"Cuba",
+	"Europe",
+	"Middle East",
+	"Oceania",
+];
+
+const placeTier1Rank = (value: string) => {
+	const i = PLACE_TIER1_ORDER.indexOf(value);
+	return i === -1 ? PLACE_TIER1_ORDER.length : i;
+};
+
+const byPlaceTier1 = (a: FacetTreeNode, b: FacetTreeNode) =>
+	placeTier1Rank(a.value) - placeTier1Rank(b.value) ||
+	byLabelAsc(a.value, b.value);
+
+const byLabelAscNode = (a: FacetTreeNode, b: FacetTreeNode) =>
+	byLabelAsc(a.value, b.value);
 
 /**
  * The Place facet renders the served hierarchy with real full-collection counts
@@ -463,20 +468,32 @@ const PLACE_TREE: FacetTreeNode[] = (() => {
 		}
 	}
 
-	const sortDeep = (nodes: FacetTreeNode[]) => {
-		nodes.sort(byCountDesc);
-		for (const n of nodes) sortDeep(n.children);
+	// Tier 1 takes the curated region order; every tier below it is alphabetical.
+	const sortDeep = (nodes: FacetTreeNode[], depth: number) => {
+		nodes.sort(depth === 0 ? byPlaceTier1 : byLabelAscNode);
+		for (const n of nodes) sortDeep(n.children, depth + 1);
 	};
-	sortDeep(roots);
+	sortDeep(roots, 0);
 	return roots;
 })();
 
 // The Medium facet renders the FULL curated 12-Tier-1 taxonomy with real
 // full-collection counts, baked once by build_medium_facet.py. It is a
 // static tree (not derived from the slice), so every taxonomy node shows with
-// its true count even when no slice doc reaches it. Already count-desc with
-// "Other" pinned last by the build script; the JSON matches FacetTreeNode.
-const MEDIUM_TREE = mediumTaxonomy as FacetTreeNode[];
+// its true count even when no slice doc reaches it. The JSON ships count-desc
+// and matches FacetTreeNode; re-sorted alphabetically here (every tier) per the
+// client sort decision, with "Other" kept last as a catch-all bucket.
+const MEDIUM_TREE: FacetTreeNode[] = (() => {
+	const sortDeep = (nodes: FacetTreeNode[]): FacetTreeNode[] =>
+		nodes
+			.map((n) => ({ ...n, children: sortDeep(n.children) }))
+			.sort(
+				(a, b) =>
+					Number(a.value === "Other") - Number(b.value === "Other") ||
+					byLabelAsc(a.value, b.value),
+			);
+	return sortDeep(mediumTaxonomy as FacetTreeNode[]);
+})();
 
 const FACET_TOP_N = 8;
 /** Facets no longer than this show every option, since collapsing a short list
@@ -491,6 +508,7 @@ function FacetBlock({
 	onSelect,
 	note,
 	totals,
+	heading = true,
 }: {
 	label: string;
 	options: FacetOption[];
@@ -502,39 +520,32 @@ function FacetBlock({
 	/** Real full-collection count per value, shown in place of the slice count
 	 *  so the numbers reflect the collection rather than the ~600-doc sample. */
 	totals?: Map<string, number>;
+	/** Off when an enclosing FacetAccordion already renders the label. */
+	heading?: boolean;
 }) {
 	const [expanded, setExpanded] = useState(false);
 	const [search, setSearch] = useState("");
 	if (options.length === 0 && !selected) return null;
 
-	// Re-sort on the displayed number. countFlat orders by slice count, so
-	// without this the rows would read out of order once totals replace it.
-	const ordered = totals
-		? options
-				.slice()
-				.sort(
-					(a, b) =>
-						(totals.get(b.value) ?? b.count) -
-							(totals.get(a.value) ?? a.count) ||
-						a.value.localeCompare(b.value),
-				)
-		: options;
-
+	// countFlat already orders alphabetically, and `totals` only swaps the number
+	// shown, so the row order holds either way.
 	const filtered = search
-		? ordered.filter((o) =>
+		? options.filter((o) =>
 				o.value.toLowerCase().includes(search.toLowerCase()),
 			)
-		: ordered;
+		: options;
 	const showAll =
 		expanded || Boolean(search) || options.length <= FACET_SHOW_ALL_MAX;
 	const shown = showAll ? filtered : filtered.slice(0, FACET_TOP_N);
 	const hiddenCount = filtered.length - shown.length;
 
 	return (
-		<div className="border-b border-gray-200 pb-3">
-			<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
-				{label}
-			</p>
+		<div className={heading ? "border-b border-gray-200 pb-3" : undefined}>
+			{heading && (
+				<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
+					{label}
+				</p>
+			)}
 			{note && (
 				<p className="mb-1.5 font-mono text-label leading-snug text-gray-400">
 					{note}
@@ -666,75 +677,8 @@ function GeoScopeSelect({
 	);
 }
 
-/** "Place type" drawer body: a checkbox list of the raw place-term FIELDS
- *  (Place of creation, Related geography, …). Checking a field adds a presence
- *  constraint (the object must carry a value in at least one checked field) —
- *  it scopes which place fields count, not a specific place value; the value is
- *  still picked in the main Place tree. Empty fields are omitted. Used by the
- *  grid-facets-place-flat variation as the single nested facet under Place. */
-function PlaceFieldsFacet({
-	fields,
-	selected,
-	onToggle,
-}: {
-	fields: { id: PlaceExtraId; label: string; count: number }[];
-	/** Currently-checked field ids. */
-	selected: PlaceExtraId[];
-	onToggle: (id: PlaceExtraId) => void;
-}) {
-	if (fields.length === 0) {
-		return (
-			<p className="py-1 font-mono text-meta text-gray-500">
-				No place-field data in this slice.
-			</p>
-		);
-	}
-	return (
-		<div className="flex flex-col gap-1">
-			<p className="mb-1 font-mono text-meta text-gray-500">
-				Filter by which place field an object records. The place value is chosen
-				in the Place tree above.
-			</p>
-			<ul className="flex flex-col">
-				{fields.map((f) => {
-					const on = selected.includes(f.id);
-					return (
-						<li key={f.id}>
-							<button
-								type="button"
-								aria-pressed={on}
-								onClick={() => onToggle(f.id)}
-								className={`flex w-full items-center gap-2 py-1.5 text-left font-mono text-meta hover:bg-gray-50 ${
-									on ? "text-gray-950" : "text-gray-700 hover:text-gray-950"
-								}`}
-							>
-								<span
-									aria-hidden
-									className={`flex h-4 w-4 shrink-0 items-center justify-center border text-label leading-none ${
-										on
-											? "border-gray-900 bg-gray-900 text-white"
-											: "border-gray-500 bg-white"
-									}`}
-								>
-									{on ? "✓" : ""}
-								</span>
-								<span className={`min-w-0 flex-1 ${on ? "font-medium" : ""}`}>
-									{f.label}
-								</span>
-								<span className="shrink-0 tabular-nums text-gray-500">
-									{f.count.toLocaleString()}
-								</span>
-							</button>
-						</li>
-					);
-				})}
-			</ul>
-		</div>
-	);
-}
-
-/** Date facet as a horizontal year histogram with drag-select (modal
- *  layout). Empty decades are dropped (see buildYearHistogram) so equal-width
+/** Date facet as a horizontal year histogram with drag-select.
+ *  Empty decades are dropped (see buildYearHistogram) so equal-width
  *  bars track density. Drag across the bars — or type into the From / To
  *  year inputs (keyboard / screen-reader path) — to set the {min,max} filter. */
 function DateHistogram({
@@ -1019,7 +963,7 @@ function TreeFacet({
 	search,
 	onSearch,
 	topN = null,
-	fill = false,
+	heading = true,
 }: {
 	label: string;
 	tree: FacetTreeNode[];
@@ -1031,9 +975,8 @@ function TreeFacet({
 	search: string;
 	onSearch: (v: string) => void;
 	topN?: number | null;
-	/** Drawer layout: let the list grow to fill the drawer (which scrolls),
-	 *  instead of the inline `max-h-96` inner-scroll cap. */
-	fill?: boolean;
+	/** Off when an enclosing FacetAccordion already renders the label. */
+	heading?: boolean;
 }) {
 	const [showAll, setShowAll] = useState(false);
 
@@ -1063,14 +1006,12 @@ function TreeFacet({
 	const hiddenCount = visible.length - rows.length;
 
 	return (
-		<div
-			className={
-				fill ? "flex min-h-0 flex-1 flex-col" : "border-b border-gray-200 pb-3"
-			}
-		>
-			<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
-				{label}
-			</p>
+		<div className={heading ? "border-b border-gray-200 pb-3" : undefined}>
+			{heading && (
+				<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
+					{label}
+				</p>
+			)}
 			<input
 				type="text"
 				value={search}
@@ -1082,11 +1023,7 @@ function TreeFacet({
 				<>
 					<ul
 						className={`flex flex-col ${
-							fill
-								? "min-h-0 flex-1 overflow-y-auto"
-								: topN == null
-									? "max-h-96 overflow-y-auto"
-									: ""
+							topN == null ? "max-h-96 overflow-y-auto" : ""
 						}`}
 					>
 						{rows.map((node) => (
@@ -1130,85 +1067,46 @@ function TreeFacet({
 	);
 }
 
-/** Side drawer for the facet controls (drawer layout, mobile + desktop).
- *  A native <dialog> (so it keeps the backdrop, focus trap, and Esc-to-close)
- *  anchored to the LEFT edge, full height, sliding in from the side rather
- *  than the old centred modal. Near-full width on mobile, fixed on desktop. */
-function FacetDrawer({
-	title,
-	onClose,
-	children,
-}: {
-	title: string;
-	onClose: () => void;
-	children: ReactNode;
-}) {
-	const ref = useRef<HTMLDialogElement>(null);
-	useEffect(() => {
-		const dialog = ref.current;
-		if (dialog && !dialog.open) dialog.showModal();
-	}, []);
-	return (
-		// biome-ignore lint/a11y/useKeyWithClickEvents: dialog backdrop dismiss
-		<dialog
-			ref={ref}
-			onClose={onClose}
-			onClick={(e) => {
-				if (e.target === e.currentTarget) onClose();
-			}}
-			// Pin to the left edge, full height. `mr-auto` pushes the panel flush
-			// to the left so the backdrop fills the rest of the viewport.
-			className="m-0 mr-auto h-dvh max-h-dvh w-[88vw] max-w-sm border-r border-gray-300 bg-white p-0 backdrop:bg-black/30"
-		>
-			<div className="flex h-full flex-col">
-				<div className="flex items-center justify-between border-b border-gray-200 px-4 py-3">
-					<h3 className="font-mono text-meta font-medium">{title}</h3>
-					<button
-						type="button"
-						onClick={onClose}
-						className="font-mono text-meta text-gray-500 hover:text-gray-700"
-					>
-						Close
-					</button>
-				</div>
-				{/* Flex column so a `fill` TreeFacet can stretch to the drawer
-				    height + scroll internally; flat facets just overflow + scroll
-				    the body. */}
-				<div className="flex min-h-0 flex-1 flex-col overflow-y-auto p-4">
-					{children}
-				</div>
-			</div>
-		</dialog>
-	);
-}
-
-/** Left-column button that opens a facet drawer (drawer layout). Shows the
- *  facet name + active-selection count. */
-function FacetButton({
+/** One collapsible facet panel in the left column, Searchkit-style: the heading
+ *  is the toggle (name + active count + chevron), with the control below it when
+ *  open. The panel owns the heading, so the controls inside render headless
+ *  (`heading={false}`). */
+function FacetAccordion({
 	label,
 	activeCount,
-	onClick,
+	open,
+	onToggle,
+	children,
 }: {
 	label: string;
 	activeCount: number;
-	onClick: () => void;
+	open: boolean;
+	onToggle: () => void;
+	children: ReactNode;
 }) {
 	return (
-		<button
-			type="button"
-			onClick={onClick}
-			className={`flex w-full items-center justify-between gap-2 border px-3 py-2 text-left font-mono text-meta transition-colors ${
-				activeCount > 0
-					? "border-gray-900 bg-gray-900 text-white hover:bg-gray-700"
-					: "border-gray-300 text-gray-700 hover:border-gray-500 hover:bg-gray-50"
-			}`}
-		>
-			<span>
-				{label}
-				{activeCount > 0 ? ` (${activeCount})` : ""}
-			</span>
-			<span aria-hidden>▸</span>
-		</button>
+		<div className="border-b border-gray-200">
+			<h3>
+				<button
+					type="button"
+					onClick={onToggle}
+					aria-expanded={open}
+					className="flex w-full items-center justify-between gap-2 py-3 text-left font-mono text-label uppercase tracking-[0.08em] text-gray-700 hover:text-gray-950"
+				>
+					<span>
+						{label}
+						{activeCount > 0 ? ` (${activeCount})` : ""}
+					</span>
+					<span
+						aria-hidden
+						className={`text-gray-400 transition-transform ${open ? "rotate-180" : ""}`}
+					>
+						⌄
+					</span>
+				</button>
+			</h3>
+			{open && <div className="pb-3">{children}</div>}
+		</div>
 	);
 }
 
@@ -1356,35 +1254,19 @@ function seedSelectionFromFacet(
 export function GridFacetsView({
 	docs,
 	getHref,
-	layout = "inline",
 	query = "",
 	seedFacet = "",
-	placeExtras = false,
-	placeExtrasMode = "buttons",
 	geoScope = false,
 	forceZero = false,
 	zeroSlot,
 }: {
 	docs: CollectionDocument[];
 	getHref: (id: number) => string;
-	/** "inline" renders each facet expanded in the left column; "drawer"
-	 *  renders a button per facet that opens the same control in a side drawer. */
-	layout?: "inline" | "drawer";
 	/** Free-text omnibox query (from ?q=); filters docs alongside the facets. */
 	query?: string;
 	/** Autocomplete facet pick (raw `?facet=type:value`); seeds a selection. */
 	seedFacet?: string;
-	/** Show the raw place-term facets in a "More place options" disclosure
-	 *  under Place, and the maker Role facet under Artist/maker (place-plus
-	 *  variation). */
-	placeExtras?: boolean;
-	/** How the place-term facets nest under Place:
-	 *  - "buttons": one facet button per place field (each opens its own drawer),
-	 *    optionally wrapped in a "More place options" accordion.
-	 *  - "grouped": a single "Place type" button (like Role) opening ONE drawer
-	 *    where the place fields are expandable sections. */
-	placeExtrasMode?: "buttons" | "grouped";
-	/** Show the "Geography source" dropdown inside the Place drawer: scopes a
+	/** Show the "Geography source" dropdown above the Place tree: scopes a
 	 *  Place pick to one object- or artist-side place field (default view). */
 	geoScope?: boolean;
 	/** Force the empty state regardless of how many docs match (zero-results
@@ -1394,10 +1276,20 @@ export function GridFacetsView({
 	 *  did-you-mean / tips / popular-searches recovery panel). */
 	zeroSlot?: React.ReactNode;
 }) {
-	// Same flag gates the maker-role extras; kept as one variation switch.
-	const makerExtras = placeExtras;
 	const [sel, setSel] = useState<GridFacetSelections>(EMPTY_GRID_SELECTIONS);
-	const [openFacet, setOpenFacet] = useState<string | null>(null);
+	// Which accordion panels are open. Artist/maker leads open (Searchkit-style:
+	// the first facet shows its options without a click); the rest start closed.
+	const [openPanels, setOpenPanels] = useState<Set<string>>(
+		() => new Set(["artist"]),
+	);
+	const togglePanel = (id: string) => {
+		setOpenPanels((prev) => {
+			const next = new Set(prev);
+			if (next.has(id)) next.delete(id);
+			else next.add(id);
+			return next;
+		});
+	};
 	const [sort, setSort] = useState<SortKey>("relevance");
 	const [page, setPage] = useState(0);
 	const [placeExpanded, setPlaceExpanded] = useState<Set<string>>(new Set());
@@ -1425,7 +1317,6 @@ export function GridFacetsView({
 		(
 			key:
 				| "artist"
-				| "role"
 				| "culture"
 				| "classification"
 				| "department"
@@ -1438,7 +1329,6 @@ export function GridFacetsView({
 			}));
 		};
 	const setArtist = setFlat("artist");
-	const setRole = setFlat("role");
 	const setCulture = setFlat("culture");
 	const setClassification = setFlat("classification");
 	const setDepartment = setFlat("department");
@@ -1448,22 +1338,6 @@ export function GridFacetsView({
 	};
 	const setGeoScope = (value: GeoScopeId) => {
 		setSel((prev) => ({ ...prev, geoScope: value }));
-	};
-	const setPlaceExtra = (id: PlaceExtraId, value: string | null) => {
-		setSel((prev) => {
-			const next = { ...prev.placeExtras };
-			if (value == null || next[id] === value) delete next[id];
-			else next[id] = value;
-			return { ...prev, placeExtras: next };
-		});
-	};
-	const togglePlaceType = (id: PlaceExtraId) => {
-		setSel((prev) => ({
-			...prev,
-			placeTypes: prev.placeTypes.includes(id)
-				? prev.placeTypes.filter((t) => t !== id)
-				: [...prev.placeTypes, id],
-		}));
 	};
 	const toggleFlag = (key: "hasImage" | "openAccess") => {
 		setSel((prev) => ({ ...prev, [key]: !prev[key] }));
@@ -1560,16 +1434,6 @@ export function GridFacetsView({
 		}
 		return out;
 	}, [docs, sel, query]);
-	const roleOpts = useMemo(
-		() =>
-			makerExtras
-				? countFlat(
-						filterGridDocs(docs, { ...sel, role: null }, query),
-						docRoles,
-					)
-				: [],
-		[docs, sel, query, makerExtras],
-	);
 	const cultureOpts = useMemo(
 		() =>
 			countFlat(filterGridDocs(docs, { ...sel, culture: null }, query), (d) =>
@@ -1597,10 +1461,9 @@ export function GridFacetsView({
 	// real full-collection counts probed from TMS, not slice counts.
 	const collectionOpts: FacetOption[] = useMemo(
 		() =>
-			famsfCollectionValues.values.map((v) => ({
-				value: v.term,
-				count: v.count,
-			})),
+			famsfCollectionValues.values
+				.map((v) => ({ value: v.term, count: v.count }))
+				.sort((a, b) => byLabelAsc(a.value, b.value)),
 		[],
 	);
 	const dateHistogram = useMemo(
@@ -1610,48 +1473,12 @@ export function GridFacetsView({
 	);
 	// Options for each raw place-term facet, counted with that facet's own
 	// selection cleared (so its list stays browsable) but the others applied.
-	const placeExtraOpts = useMemo(() => {
-		if (!placeExtras) return {} as Record<PlaceExtraId, FacetOption[]>;
-		const out = {} as Record<PlaceExtraId, FacetOption[]>;
-		for (const { id } of PLACE_EXTRA_FIELDS) {
-			const others = { ...sel.placeExtras };
-			delete others[id];
-			out[id] = countFlat(
-				filterGridDocs(docs, { ...sel, placeExtras: others }, query),
-				PLACE_EXTRA_ACCESSOR[id],
-			);
-		}
-		return out;
-	}, [docs, sel, query, placeExtras]);
-
-	// Presence count per place field (grouped mode): how many docs would carry a
-	// value in that field under the OTHER active filters (place-types cleared,
-	// so each count is independent of the current type selection).
-	const placeTypeCounts = useMemo(() => {
-		if (!placeExtras) return {} as Record<PlaceExtraId, number>;
-		const base = filterGridDocs(docs, { ...sel, placeTypes: [] }, query);
-		const out = {} as Record<PlaceExtraId, number>;
-		for (const { id } of PLACE_EXTRA_FIELDS) {
-			out[id] = base.reduce(
-				(n, d) => n + (PLACE_EXTRA_ACCESSOR[id](d).length > 0 ? 1 : 0),
-				0,
-			);
-		}
-		return out;
-	}, [docs, sel, query, placeExtras]);
-
 	const placeChipLabel = sel.place
 		? `${sel.place.level === "region" ? "Region" : sel.place.level === "country" ? "Country" : sel.place.level === "state" ? "State" : "Place"}: ${sel.place.value}`
 		: null;
 	const mediumChipLabel = sel.medium
 		? `${sel.medium.level === "section" ? "Medium" : sel.medium.level === "subcategory" ? "Medium type" : "Medium detail"}: ${sel.medium.value}`
 		: null;
-	const activePlaceExtras = Object.entries(sel.placeExtras).filter(([, v]) =>
-		Boolean(v),
-	) as [PlaceExtraId, string][];
-	const placeExtraLabel = (id: PlaceExtraId) =>
-		PLACE_EXTRA_FIELDS.find((f) => f.id === id)?.label ?? id;
-
 	// One entry per active selection, in the order the chips read. Also answers
 	// "is anything active?", so the two cannot drift apart.
 	const activeChips: { key: string; label: string; clear: () => void }[] = [
@@ -1661,15 +1488,6 @@ export function GridFacetsView({
 						key: "artist",
 						label: `Artist/maker: ${sel.artist}`,
 						clear: () => setArtist(null),
-					},
-				]
-			: []),
-		...(sel.role
-			? [
-					{
-						key: "role",
-						label: `Role: ${sel.role}`,
-						clear: () => setRole(null),
 					},
 				]
 			: []),
@@ -1700,16 +1518,6 @@ export function GridFacetsView({
 					},
 				]
 			: []),
-		...activePlaceExtras.map(([id, value]) => ({
-			key: `pe:${id}`,
-			label: `${placeExtraLabel(id)}: ${value}`,
-			clear: () => setPlaceExtra(id, null),
-		})),
-		...sel.placeTypes.map((id) => ({
-			key: `pt:${id}`,
-			label: `Place type: ${placeExtraLabel(id)}`,
-			clear: () => togglePlaceType(id),
-		})),
 		...(mediumChipLabel
 			? [
 					{
@@ -1785,104 +1593,8 @@ export function GridFacetsView({
 	];
 	const anyActive = activeChips.length > 0;
 
-	// How many nested place selections are active, per mode: field-values
-	// (buttons) vs checked field-types (grouped).
-	const placeExtraActiveCount =
-		placeExtrasMode === "grouped"
-			? sel.placeTypes.length
-			: activePlaceExtras.length;
-
-	// "More place options" — the raw TMS place-term fields, each surfaced as its
-	// own facet panel (drawer button + control) nested under Place in a
-	// disclosure. Only fields that carry options in the current slice appear, so
-	// no empty facets show. place-plus variation only.
-	const placeExtraPanels = placeExtras
-		? PLACE_EXTRA_FIELDS.map(({ id, label }) => ({
-				id: `pe:${id}` as const,
-				extraId: id,
-				label,
-				options: placeExtraOpts[id] ?? [],
-				activeCount: sel.placeExtras[id] ? 1 : 0,
-			})).filter((p) => p.options.length > 0 || p.activeCount > 0)
-		: [];
-
-	// Populated place fields for the "grouped" mode (single "Place type" drawer:
-	// checkbox list of field names + presence counts). A field shows if it has
-	// any doc in the current slice (count > 0) or is already checked.
-	const placeFields = placeExtras
-		? PLACE_EXTRA_FIELDS.map(({ id, label }) => ({
-				id,
-				label,
-				count: placeTypeCounts[id] ?? 0,
-			})).filter((f) => f.count > 0 || sel.placeTypes.includes(f.id))
-		: [];
-
-	// "More maker options" — extra maker facets nested under Artist/maker in a
-	// disclosure. Currently just Role (constituents[].Role). Only shown when it
-	// has options (or an active selection).
-	const makerExtraPanels =
-		makerExtras && (roleOpts.length > 0 || sel.role)
-			? [
-					{
-						id: "me:role" as const,
-						label: "Role",
-						options: roleOpts,
-						selected: sel.role,
-						onSelect: setRole,
-						activeCount: sel.role ? 1 : 0,
-					},
-				]
-			: [];
-
-	// Nested "More … options" disclosures, keyed by their PARENT panel id. Each
-	// renders under its parent's drawer button as a sub-list of facet buttons.
-	const nestedByParent: Record<
-		string,
-		{
-			/** true → wrap the nested buttons in a "More …" <details> accordion;
-			 *  false → render them directly nested (single facet doesn't warrant a
-			 *  collapse). */
-			collapsible: boolean;
-			summary: string;
-			activeCount: number;
-			panels: { id: string; label: string; activeCount: number }[];
-		}
-	> = {
-		place:
-			placeExtrasMode === "grouped"
-				? {
-						// One "Place type" button (like Role); opens a drawer with the
-						// place-field checkbox list.
-						collapsible: false,
-						summary: "",
-						activeCount: sel.placeTypes.length,
-						panels:
-							placeFields.length > 0
-								? [
-										{
-											id: "pe:place-type",
-											label: "Place type",
-											activeCount: sel.placeTypes.length,
-										},
-									]
-								: [],
-					}
-				: {
-						collapsible: true,
-						summary: "More place options",
-						activeCount: activePlaceExtras.length,
-						panels: placeExtraPanels,
-					},
-		artist: {
-			collapsible: false,
-			summary: "More maker options",
-			activeCount: sel.role ? 1 : 0,
-			panels: makerExtraPanels,
-		},
-	};
-
-	// One descriptor per facet: its control (shared by both layouts) and how
-	// many selections are active (for the drawer-layout button badge).
+	// One descriptor per facet: its control, and how many selections are active
+	// (shown beside the label on the accordion header).
 	const panelsByDef = [
 		{
 			id: "collection",
@@ -1894,14 +1606,14 @@ export function GridFacetsView({
 					options={collectionOpts}
 					selected={sel.collection}
 					onSelect={setCollection}
-					note="FAMSF Collection, the curators' subdepartment grouping. Counts are full-collection; population is in progress, so selecting one filters this sample to 0."
+					heading={false}
 				/>
 			),
 		},
 		{
 			id: "artist",
 			label: "Artist/maker",
-			activeCount: (sel.artist ? 1 : 0) + (sel.role ? 1 : 0),
+			activeCount: sel.artist ? 1 : 0,
 			control: (
 				<FacetBlock
 					label="Artist/maker"
@@ -1909,6 +1621,7 @@ export function GridFacetsView({
 					totals={COLLECTION_TOTALS.artist}
 					selected={sel.artist}
 					onSelect={setArtist}
+					heading={false}
 				/>
 			),
 		},
@@ -1917,15 +1630,12 @@ export function GridFacetsView({
 			label: "On view",
 			activeCount: sel.onView ? 1 : 0,
 			control: (
-				<div className="border-b border-gray-200 pb-3">
-					<p className="mb-1.5 font-mono text-label uppercase tracking-[0.08em] text-gray-500">
-						On view
-					</p>
+				<div>
 					<ul className="flex flex-col">
 						{(
 							[
 								// "Either museum" leads as the parent option; the two
-								// museums below it sort by count like every other facet.
+								// museums below it read alphabetically, like every other facet.
 								["On view (either museum)", null, facetCounts.toggles.onView],
 								...(
 									[
@@ -1938,7 +1648,7 @@ export function GridFacetsView({
 									] as const
 								)
 									.slice()
-									.sort((a, b) => b[2] - a[2]),
+									.sort((a, b) => byLabelAsc(a[0], b[0])),
 							] as const
 						).map(([label, building, count]) => {
 							const on = sel.onView && sel.onViewBuilding === building;
@@ -1998,6 +1708,7 @@ export function GridFacetsView({
 					totals={COLLECTION_TOTALS.culture}
 					selected={sel.culture}
 					onSelect={setCulture}
+					heading={false}
 				/>
 			),
 		},
@@ -2005,17 +1716,11 @@ export function GridFacetsView({
 			id: "place",
 			label: "Place",
 			activeCount:
-				(sel.place ? 1 : 0) +
-				placeExtraActiveCount +
-				(geoScope && sel.geoScope !== "all" ? 1 : 0),
+				(sel.place ? 1 : 0) + (geoScope && sel.geoScope !== "all" ? 1 : 0),
 			control: (
-				<div
-					className={
-						layout === "drawer" ? "flex min-h-0 flex-1 flex-col" : undefined
-					}
-				>
-					{/* Geography-source scope sits inside the Place drawer, above the
-					    tree: pick the field, then the place value. */}
+				<div>
+					{/* Geography-source scope sits above the tree: pick the field, then
+					    the place value. */}
 					{geoScope && (
 						<GeoScopeSelect
 							value={sel.geoScope}
@@ -2033,7 +1738,7 @@ export function GridFacetsView({
 						onToggle={togglePlace}
 						search={placeSearch}
 						onSearch={setPlaceSearch}
-						fill={layout === "drawer"}
+						heading={false}
 					/>
 				</div>
 			),
@@ -2054,7 +1759,7 @@ export function GridFacetsView({
 					search={mediumSearch}
 					onSearch={setMediumSearch}
 					topN={null}
-					fill={layout === "drawer"}
+					heading={false}
 				/>
 			),
 		},
@@ -2069,6 +1774,7 @@ export function GridFacetsView({
 					totals={COLLECTION_TOTALS.classification}
 					selected={sel.classification}
 					onSelect={setClassification}
+					heading={false}
 				/>
 			),
 		},
@@ -2083,6 +1789,7 @@ export function GridFacetsView({
 					totals={COLLECTION_TOTALS.department}
 					selected={sel.department}
 					onSelect={setDepartment}
+					heading={false}
 				/>
 			),
 		},
@@ -2122,58 +1829,9 @@ export function GridFacetsView({
 		panelsByDef.find((p) => p.id === id),
 	).filter((p): p is (typeof panelsByDef)[number] => p != null);
 
-	// Drawer content for an open nested facet (opened from a nested facet button
-	// under a parent): place-extras under Place, maker Role under Artist/maker.
-	const activePlaceExtra = placeExtraPanels.find((p) => p.id === openFacet);
-	const activeMakerExtra = makerExtraPanels.find((p) => p.id === openFacet);
-	// "grouped" mode: the single "Place type" drawer with expandable field
-	// sections (all place fields in one control).
-	const activePlaceType =
-		placeExtrasMode === "grouped" && openFacet === "pe:place-type";
-	const activePanel = activePlaceType
-		? {
-				id: "pe:place-type",
-				label: "Place type",
-				control: (
-					<PlaceFieldsFacet
-						fields={placeFields}
-						selected={sel.placeTypes}
-						onToggle={togglePlaceType}
-					/>
-				),
-			}
-		: activePlaceExtra
-			? {
-					id: activePlaceExtra.id,
-					label: activePlaceExtra.label,
-					control: (
-						<FacetBlock
-							label={activePlaceExtra.label}
-							options={activePlaceExtra.options}
-							selected={sel.placeExtras[activePlaceExtra.extraId] ?? null}
-							onSelect={(v) => setPlaceExtra(activePlaceExtra.extraId, v)}
-						/>
-					),
-				}
-			: activeMakerExtra
-				? {
-						id: activeMakerExtra.id,
-						label: activeMakerExtra.label,
-						control: (
-							<FacetBlock
-								label={activeMakerExtra.label}
-								options={activeMakerExtra.options}
-								selected={activeMakerExtra.selected}
-								onSelect={activeMakerExtra.onSelect}
-								totals={COLLECTION_TOTALS.role}
-							/>
-						),
-					}
-				: panels.find((p) => p.id === openFacet);
-
 	// Has image / Open access filters. Plain checkboxes, matching the facet
-	// option rows rather than reading as actions. On view is a drawer facet
-	// panel (below Artist/maker) so it can carry the de Young / Legion museum
+	// option rows rather than reading as actions. On view is a facet panel
+	// (below Artist/maker) so it can carry the de Young / Legion museum
 	// narrowing.
 	const TOGGLES = [
 		["hasImage", "Has image", sel.hasImage],
@@ -2200,206 +1858,128 @@ export function GridFacetsView({
 	);
 
 	return (
-		<>
-			{/* Inline layout: toggles in a full-width row under the search. */}
-			{layout === "inline" && (
-				<div className="mb-6 flex flex-wrap items-center gap-4 border-b border-gray-200 pb-4">
-					<span className="font-mono text-meta text-gray-500">Refine by:</span>
-					{toggleButtons}
-				</div>
-			)}
-			<div className="flex flex-col gap-6 lg:flex-row">
-				{/* Left facet column */}
-				<ScopeMark label="Facets" className="shrink-0 lg:w-64">
-					<aside>
-						<div className="flex items-baseline justify-between border-b border-gray-300 pb-2">
-							<SectionLabelInline>Refine</SectionLabelInline>
-							{/* Always rendered so the header doesn't reflow when filters
+		<div className="flex flex-col gap-6 lg:flex-row">
+			{/* Left facet column */}
+			<ScopeMark label="Facets" className="shrink-0 lg:w-80">
+				<aside>
+					<div className="flex items-baseline justify-between border-b border-gray-300 pb-2">
+						<SectionLabelInline>Refine</SectionLabelInline>
+						{/* Always rendered so the header doesn't reflow when filters
 						    become active; just hidden + inert when there's nothing
 						    to clear. */}
-							<button
-								type="button"
-								onClick={() => setSel(EMPTY_GRID_SELECTIONS)}
-								aria-hidden={!anyActive}
-								tabIndex={anyActive ? 0 : -1}
-								className={`font-mono text-meta text-gray-500 underline hover:text-gray-700 ${
-									anyActive ? "" : "invisible"
-								}`}
+						<button
+							type="button"
+							onClick={() => setSel(EMPTY_GRID_SELECTIONS)}
+							aria-hidden={!anyActive}
+							tabIndex={anyActive ? 0 : -1}
+							className={`font-mono text-meta text-gray-500 underline hover:text-gray-700 ${
+								anyActive ? "" : "invisible"
+							}`}
+						>
+							Clear all
+						</button>
+					</div>
+
+					{/* Toggles at the top of the left column, stacked so they fit
+						    the narrow column. */}
+					<div className="mt-3 flex flex-col gap-2 border-b border-gray-200 pb-3 [&_fieldset]:flex-col [&_fieldset]:items-start">
+						{toggleButtons}
+					</div>
+
+					<div className="mt-1 flex flex-col">
+						{panels.map((p) => (
+							<FacetAccordion
+								key={p.id}
+								label={p.label}
+								activeCount={p.activeCount}
+								open={openPanels.has(p.id)}
+								onToggle={() => togglePanel(p.id)}
 							>
-								Clear all
-							</button>
-						</div>
+								{p.control}
+							</FacetAccordion>
+						))}
+					</div>
+				</aside>
+			</ScopeMark>
 
-						{/* Drawer layout: toggles at the top of the left column, stacked
-						    so they fit the narrow column. */}
-						{layout === "drawer" && (
-							<div className="mt-3 flex flex-col gap-2 border-b border-gray-200 pb-3 [&_fieldset]:flex-col [&_fieldset]:items-start">
-								{toggleButtons}
-							</div>
+			{/* Results */}
+			<div className="min-w-0 flex-1">
+				{/* Count + sort row. min-height reserved so the grid doesn't
+					    shift when the count text changes width. */}
+				<ScopeMark label="Count + sort">
+					<div className="mb-4 flex min-h-9 flex-wrap items-center justify-between gap-3 border-b border-gray-200 pb-3">
+						<span className="font-mono text-body font-medium">
+							{shownCount.toLocaleString()} result
+							{shownCount === 1 ? "" : "s"}
+							{query ? ` for “${query}”` : ""}
+						</span>
+						{/* Nothing to sort on the empty state. */}
+						{shownCount > 0 && (
+							<label className="flex items-center gap-2 font-mono text-label text-gray-500">
+								Sort
+								<select
+									value={sort}
+									onChange={(e) => setSort(e.target.value as SortKey)}
+									className="border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
+								>
+									{SORT_OPTIONS.map((o) => (
+										<option key={o.key} value={o.key}>
+											{o.label}
+										</option>
+									))}
+								</select>
+							</label>
 						)}
-
-						{layout === "drawer" ? (
-							<div className="mt-3 flex flex-col gap-2">
-								{panels.map((p) => {
-									const nested = nestedByParent[p.id];
-									return (
-										<div key={p.id} className="flex flex-col gap-2">
-											<FacetButton
-												label={p.label}
-												activeCount={p.activeCount}
-												onClick={() => setOpenFacet(p.id)}
-											/>
-											{/* Nested facets under a parent button (place-term facets
-											    under Place, maker Role under Artist). Multiple → a
-											    "More …" accordion; single → rendered directly nested. */}
-											{nested &&
-												nested.panels.length > 0 &&
-												(nested.collapsible ? (
-													<details
-														className="group ml-3 border-l border-gray-200 pl-2"
-														open={nested.activeCount > 0}
-													>
-														<summary className="flex cursor-pointer list-none items-center gap-1 py-1 font-mono text-meta text-gray-600 hover:text-gray-900">
-															<span
-																aria-hidden
-																className="inline-block transition-transform group-open:rotate-90"
-															>
-																▸
-															</span>
-															{nested.summary}
-															{nested.activeCount > 0
-																? ` (${nested.activeCount})`
-																: ""}
-														</summary>
-														<div className="mt-1 flex flex-col gap-2">
-															{nested.panels.map((np) => (
-																<FacetButton
-																	key={np.id}
-																	label={np.label}
-																	activeCount={np.activeCount}
-																	onClick={() => setOpenFacet(np.id)}
-																/>
-															))}
-														</div>
-													</details>
-												) : (
-													<div className="ml-3 flex flex-col gap-2 border-l border-gray-200 pl-2">
-														{nested.panels.map((np) => (
-															<FacetButton
-																key={np.id}
-																label={np.label}
-																activeCount={np.activeCount}
-																onClick={() => setOpenFacet(np.id)}
-															/>
-														))}
-													</div>
-												))}
-										</div>
-									);
-								})}
-							</div>
-						) : (
-							<div className="mt-3 flex flex-col gap-3">
-								<p className="font-mono text-meta text-gray-500">
-									Tip: ▸ expands a branch · checkbox filters by it.
-								</p>
-								{panels.map((p) => (
-									<div key={p.id}>{p.control}</div>
-								))}
-							</div>
-						)}
-					</aside>
+					</div>
 				</ScopeMark>
 
-				{/* Drawer layout: one side drawer for the open facet */}
-				{layout === "drawer" && activePanel && (
-					<FacetDrawer
-						title={activePanel.label}
-						onClose={() => setOpenFacet(null)}
-					>
-						{activePanel.control}
-					</FacetDrawer>
-				)}
+				{/* Active-filter chips */}
+				<ScopeMark label="Active filter chips">
+					<div className="mb-4 flex min-h-9 flex-wrap items-center gap-2">
+						<span className="font-mono text-label text-gray-500">
+							{anyActive ? "Active filters:" : " "}
+						</span>
+						{activeChips.map((chip) => (
+							<button
+								key={chip.key}
+								type="button"
+								onClick={chip.clear}
+								className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
+							>
+								<span>{chip.label}</span>
+								<span>×</span>
+							</button>
+						))}
+					</div>
+				</ScopeMark>
 
-				{/* Results */}
-				<div className="min-w-0 flex-1">
-					{/* Count + sort row. min-height reserved so the grid doesn't
-					    shift when the count text changes width. */}
-					<ScopeMark label="Count + sort">
-						<div className="mb-4 flex min-h-9 flex-wrap items-center justify-between gap-3 border-b border-gray-200 pb-3">
-							<span className="font-mono text-body font-medium">
-								{shownCount.toLocaleString()} result
-								{shownCount === 1 ? "" : "s"}
-								{query ? ` for “${query}”` : ""}
-							</span>
-							{/* Nothing to sort on the empty state. */}
-							{shownCount > 0 && (
-								<label className="flex items-center gap-2 font-mono text-label text-gray-500">
-									Sort
-									<select
-										value={sort}
-										onChange={(e) => setSort(e.target.value as SortKey)}
-										className="border border-gray-300 bg-white px-2 py-1 font-mono text-meta text-gray-900 focus:border-gray-500 focus:outline-none"
-									>
-										{SORT_OPTIONS.map((o) => (
-											<option key={o.key} value={o.key}>
-												{o.label}
-											</option>
-										))}
-									</select>
-								</label>
-							)}
-						</div>
-					</ScopeMark>
-
-					{/* Active-filter chips */}
-					<ScopeMark label="Active filter chips">
-						<div className="mb-4 flex min-h-9 flex-wrap items-center gap-2">
-							<span className="font-mono text-label text-gray-500">
-								{anyActive ? "Active filters:" : " "}
-							</span>
-							{activeChips.map((chip) => (
-								<button
-									key={chip.key}
-									type="button"
-									onClick={chip.clear}
-									className="flex items-center gap-1.5 border border-gray-900 bg-gray-900 px-2 py-1.5 font-mono text-meta text-white hover:bg-gray-700"
-								>
-									<span>{chip.label}</span>
-									<span>×</span>
-								</button>
-							))}
-						</div>
-					</ScopeMark>
-
-					{matches.length > 0 && !forceZero ? (
-						<>
-							<ScopeMark label="Results grid">
-								<ResultsGrid items={pageItems} getHref={getHref} columns={3} />
-							</ScopeMark>
-							<ScopeMark label="Pagination">
-								<Pager
-									page={safePage}
-									pageCount={pageCount}
-									onPage={setPage}
-									total={sortedMatches.length}
-									pageSize={PAGE_SIZE}
-								/>
-							</ScopeMark>
-						</>
-					) : (
-						<ScopeMark label="Zero results">
-							{zeroSlot ?? (
-								<div className="border border-dashed border-gray-300 px-4 py-10 text-center font-mono text-meta text-gray-500">
-									{query
-										? `No objects match “${query}” with these filters. Clear a filter or the search to broaden.`
-										: "No objects match these filters. Clear one to broaden."}
-								</div>
-							)}
+				{matches.length > 0 && !forceZero ? (
+					<>
+						<ScopeMark label="Results grid">
+							<ResultsGrid items={pageItems} getHref={getHref} columns={3} />
 						</ScopeMark>
-					)}
-				</div>
+						<ScopeMark label="Pagination">
+							<Pager
+								page={safePage}
+								pageCount={pageCount}
+								onPage={setPage}
+								total={sortedMatches.length}
+								pageSize={PAGE_SIZE}
+							/>
+						</ScopeMark>
+					</>
+				) : (
+					<ScopeMark label="Zero results">
+						{zeroSlot ?? (
+							<div className="border border-dashed border-gray-300 px-4 py-10 text-center font-mono text-meta text-gray-500">
+								{query
+									? `No objects match “${query}” with these filters. Clear a filter or the search to broaden.`
+									: "No objects match these filters. Clear one to broaden."}
+							</div>
+						)}
+					</ScopeMark>
+				)}
 			</div>
-		</>
+		</div>
 	);
 }

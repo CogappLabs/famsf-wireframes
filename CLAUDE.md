@@ -38,7 +38,7 @@ The index, top bar badges, footer links, and scope overlay all derive from these
 |------|-------|-------------|
 | Collection Landing | `/collection-landing` | **Lean MVP**: hero + autocomplete search bar with basic filter chips. Everything else (stats, dual pathways, browse-by-area, highlights, "what to see", timeline) is scope-deferred post-MVP but still on the page. Highlights render as a CSS-column masonry grid (`columns-*` + `break-inside-avoid`) with aspect ratios cycled per card from `HIGHLIGHT_ASPECTS`. |
 | Explore | `/explore` | Curated themes, timeline browse, discovery prompts, most viewed (post-MVP) |
-| Search Results | `/search-results` | **Primary view = grid + facet drawer** (real data, omnibox + sort + pager). Other variations behind `?variation=`. |
+| Search Results | `/search-results` | **Primary view = grid + collapsible facet column** (real data, omnibox + sort + pager). Other variations behind `?variation=`. |
 | Object Detail | `/objects/sample/[...variant]` | **Two-column layout** (full-width image → left rail: title/subtitle, on-view+location, audio, parent-child → wide main: web text, tombstone, Additional information, dimensions, people, provenance → exhibitions → bibliography, scholarly publications, rights & citation → full-width Related works). Per the June 18 2026 page-layouts spec. Sections split into `object-detail/*` components. Route is a catch-all: the served slug is `{accession}/{title-slug}`. Museum location renders only when `on_view`; accession date is written out ("7 January 1973"); artist, date, department, object type, and the geography `term_*` places all route to a filtered search via `facetSearchHref` / `dateFacetHref` (single `?facet=type:value` param, matching what the search page parses; a date click filters to a five-year window either side of `sort_year`, and an undated object gets plain text). Medium (plus each `medium_parts` chip) and the non-geography `term_*` fields route to a free-text search instead, via `querySearchHref` (`?q=`): the medium facet keys off curated taxonomy nodes, which a raw `medium` string never matches, so there is no facet to seed. A specific string may return nothing on the ~600-doc slice; every metadata value being a route onwards is the point. Only Edition, Credit line, Accession number, Museum location, Copyright, and Accession date stay plain text. Place ancestry reads specific → general with the Getty "World" root dropped. The data disclaimer was removed 2026-07-27. **Excluded fields** (FAMSF field-exclusion list, not rendered): Object name, Label on object, Marks (Signed/Inscribed/Markings), Style/period/movement + Subject (dropped from `TERM_FIELDS`), Runway collection / virtual parents (Virtual badge + virtual children), Object label text / wall text (`didactic_label`), Alternate/legacy accession (`sort_number`), Identifying description, Conversation notes, Catalogue raisonné. |
 | Collection areas | (no index page) | The standalone `/collection-areas` index was removed 2026-06-19; collection-area detail pages are reached only from the homepage Browse-by-area grid. |
 | Collection Area (detail) | `/collection-area/[slug]` | Per-area detail route, statically generated for the **9 TMS departments** carrying web-visible objects (collection areas == departments, CW-30) from an `AREAS` data map keyed by slug. AOA is one area ("Arts of Africa, Oceania, and the Americas"), not three. Order per the June 18 2026 spec: intro → deep dive (collection history) → highlights → featured collections → read/watch/listen → other resources. Featured-collection cards are the real named "(Web)" collections from the curated TMS "Topics" package folder, rendered as child pages at `/collection-area/[slug]/[featured]`; only Achenbach has any, so other areas show no featured grid. |
@@ -84,24 +84,50 @@ All components are exported from `@/components/wireframe`:
 Pages can offer alternative layouts via URL search params (e.g. `?variation=list`). This lets stakeholders compare design options with shareable links. The toggle renders automatically in the layout top bar.
 
 Current variations:
-- **Search Results**: grid + facet drawer (**primary / default**) / grid + facets / grid + place options / grid + place options (flat) / list / zero-results / AI search / artworks + artists / interleaved. (The bare `grid` variation was removed 2026-07-08.)
-  - **grid + facet drawer** is **first in `VIEW_VARIATIONS`**, so bare
-    `/search-results` loads it — it's the Phase 1 primary search view. The
-    other entries stay as design alternatives behind `?variation=`.
-  - **grid + facet drawer** (`?variation=grid-facets-modal`), **grid +
-    facets** (`?variation=grid-facets`), and the two **place-options**
-    variations (`?variation=grid-facets-place` / `grid-facets-place-flat`) are
-    the variations backed by **real pipeline data** (a ~600-object slice in
-    `src/data/grid-facets-docs/`, see below). All render a left facet column
-    instead of the horizontal bar, sharing the same `GridFacetsView` (a
-    `layout` prop switches inline vs drawer). Facets, top to bottom:
-    Facet display order (PANEL_ORDER, grid-facets.tsx): Artist/maker, Date,
-    Place, Culture group, Medium, Object type, Department, Collection. (The
+- **Search Results**: grid + facets (**primary / default**) / grid + facets (alt) / list / zero-results / AI search / artworks + artists / interleaved. (The bare `grid` variation was removed 2026-07-08; the facet **drawer** and the two **place-options** variations were removed 2026-08-05.)
+  - **grid + facets** (`?variation=grid-facets-modal`) is **first in
+    `VIEW_VARIATIONS`**, so bare `/search-results` loads it — it's the Phase 1
+    primary search view. The URL key keeps the `-modal` name for stable links,
+    though there is no longer a modal or drawer. The other entries stay as
+    design alternatives behind `?variation=`.
+  - **The facet column is a stack of collapsible panels** (`FacetAccordion`),
+    matching Searchkit's default shape per client feedback 2026-08-05: each
+    panel's heading is the toggle (uppercase label + active count + chevron),
+    with the control below when open. Artist/maker starts open, the rest
+    closed; `openPanels` in `GridFacetsView` holds the set. The controls
+    (`FacetBlock`, `TreeFacet`) render `heading={false}` so the panel owns the
+    label. The earlier side **drawer** (`FacetDrawer`, `FacetButton`, the
+    `layout` prop) is gone.
+  - **grid + facets** (`?variation=grid-facets-modal`) and **grid + facets
+    (alt)** (`?variation=grid-facets`) are the variations backed by **real
+    pipeline data** (a ~600-object slice in `src/data/grid-facets-docs/`, see
+    below). Both render the left facet column instead of the horizontal bar,
+    sharing the same `GridFacetsView`. Facet display order (PANEL_ORDER,
+    grid-facets.tsx): Artist/maker, Date, Place, Culture group, Medium,
+    Object type, Department, Collection. (The
     Gallery + Technique facets were removed 2026-07-07.) Labels use
     the client's final filter naming (Artist/maker, Medium, Object type,
     Department) rather than the old code-field names. The `id`/field keys
     (`artist`, `material`, `classification`, `department`) are unchanged; only
     display labels differ. Reordered via `PANEL_ORDER` in grid-facets.tsx.
+    **Sort order (client decision, 2026-08-05): alphabetical across the board**,
+    the one exception being **Place Tier 1**, which takes a curated region order
+    (`PLACE_TIER1_ORDER` in grid-facets.tsx: Africa, Central America, North
+    America, South America, Central Asia, East Asia, South Asia, Southeast Asia,
+    Cuba, Europe, Middle East, Oceania). Values not in that list sort
+    alphabetically **after** the listed ones, which currently means 18 of the 26
+    live Tier-1 labels ("Asia", "North and Central America", "Eastern Europe", …):
+    the pipeline still reads an 18-row placeholder crosswalk rather than the
+    532-row curator REGION_REMAP sheet, and 4 listed regions (Central America,
+    Central Asia, South Asia, Cuba) have no data yet. As the crosswalk is
+    curated the tail migrates into the curated order with no code change.
+    Everything else — flat facets (`countFlat`), Place Tier 2-3, all Medium
+    tiers, the two On-view museums, Collecting area — is alphabetical via
+    `byLabelAsc`. "Other" stays pinned last in Medium Tier 1. Consequence worth
+    knowing: the 8-cap on flat facets now shows the alphabetical head, not the
+    biggest 8, so Artist/maker opens on "(Hans) Sebald Beham" rather than
+    Utagawa Hiroshige — reviewers need "Show more" or search-within to reach the
+    large values.
     - **Artist/maker** — flat list off `primary_artist` (8-cap + search-within).
     - **Culture group** — flat list off the top-level `culture` field (8-cap +
       search-within; tribes + ancient civilisations, e.g. Asante, Maya, Quechua).
@@ -131,9 +157,11 @@ Current variations:
       `department` stays the code/field id. "Object type" is the
       `classification` facet. (The Gallery facet off `location_building` +
       the flat Technique facet were removed 2026-07-07.)
-    - **Collection** — a disabled placeholder facet (`PendingFacet`): the FAMSF
-      Collecting Area TMS field does not exist yet, so it renders greyed with a
-      "not yet in TMS" note and no options.
+    - **Collection** — the FAMSF Collecting Area, the curators' subdepartment
+      grouping (CW-254). Not served yet, so the options are static
+      (`src/data/famsf-collection-values.json`) with full-collection counts and
+      picking one filters the slice to 0. The explanatory note under the label
+      was removed 2026-08-05.
     - **Date** — a **year histogram** (`DateHistogram`): decade bins with the
       empty decades dropped so equal-width bars track data density (sparse
       ancient tail collapses, dense modern cluster gets the width). Drag across
@@ -147,51 +175,29 @@ Current variations:
       domain" OR `object_rights_type == "Public Domain"`. The grid-facets slice
       has `copyright: null` and carries the rights enum, so the dual check is
       what makes the OA facet + the card badge fire on this view (214 PD docs).
-      Inline layout: a full-width row under the search. Drawer layout: stacked
-      at the top of the left column. **On view** is a drawer facet panel (below
-      Artist/maker), not a checkbox, so it can carry the de Young / Legion
-      museum narrowing.
+      Stacked at the top of the left column, above the facet panels. **On view**
+      is a facet panel (below Artist/maker), not a checkbox, so it can carry the
+      de Young / Legion museum narrowing.
     The CW-41 core facet set (geo, medium, classification, dept, OA, on-view,
     has-image) + date (CW-64) is complete; Artist + Culture group are kept on
     top as extras. The Gallery + Technique facets were removed 2026-07-07. Flat
     facets cap at 8 with "Show more"; Place (geography) and the full Medium tree
-    show all. `grid-facets` shows every facet expanded
-    inline; `grid-facets-modal` shows one button per facet (name + active-count
-    badge) opening the same control in a left-anchored side **drawer** (native
-    `<dialog>`, full height, 20rem wide on desktop and `88vw` on mobile;
-    mobile + desktop; the URL key keeps the `-modal` name for stable
-    links, changed 2026-07-07).
-  - **Nested "More … options" facets** (`placeExtras` prop on `GridFacetsView`,
-    drawer layout, place-options variations only, added 2026-07-08). Under a
-    parent facet button, a sub-list of extra facet buttons (indented, left
-    border), each opening its own drawer:
-    - **Place → raw place-term facets.** The four/five raw TMS place fields
-      (`term_place_of_creation`, `term_place_of_fabrication`,
-      `term_place_name_at_creation`, `term_related_geography`, `term_find_spot`)
-      as flat facets. Only fields with options in the slice render (Place of
-      creation ~534 docs + Related geography ~74 docs on the current slice; the
-      rest are empty and hidden — no fabricated data). Filter/count on `.term`.
-    - **Artist/maker → Role.** Single facet off `constituents[].Role`
-      (Artist / Publisher / Designer / Printer / Author / …, ~372 docs).
-    - Two variations differ in how Place's extras nest (`placeExtrasMode` prop):
-      - `grid-facets-place` (`"buttons"`) — one facet **button per place field**
-        under Place, each opening its own drawer, wrapped in a **"More place
-        options" accordion** (`<details>`, `placeExtrasCollapsible`).
-      - `grid-facets-place-flat` (`"grouped"`) — a **single "Place type" button**
-        under Place (like Role under Artist). Opens ONE drawer that is a
-        **checkbox list of the place FIELD names** (`PlaceFieldsFacet`): Place of
-        creation / Place name at creation / Related geography / Find spot, with a
-        presence count each. Checking fields adds a **presence constraint**
-        (`placeTypes` on the selection) — the object must record a value in at
-        least one checked field. It scopes *which* place field counts, NOT a
-        place value; the value is still picked in the Place tree above. (The
-        curated `facet_place` tree is source-field-agnostic, so the tree can't be
-        truly re-pointed at one TMS field — hence a presence constraint rather
-        than a re-target.)
-      The maker Role is always a single directly-nested button. Parent button
-      badge counts its own + nested selections; each active place-field / role
-      pick gets its own active-filter chip. `nestedByParent` in `grid-facets.tsx`
-      is the config map (parent id → summary + panels + `collapsible`).
+    show all.
+  - **Role** (a facet off `constituents[].Role`) was removed 2026-08-05, along
+    with the `docRoles` helper and its selection state.
+  - **Geography source** — a dropdown (`GeoScopeSelect`) above the Place tree,
+    inside the Place panel: scopes a Place pick to one object- or artist-side
+    place field as a **presence constraint** (the object must record a value in
+    the scoped field AND match the tree node). The curated `facet_place` tree is
+    source-field-agnostic, so a scope cannot re-point the tree at one TMS field.
+    The raw place-term fields (`term_place_of_creation`,
+    `term_place_of_fabrication`, `term_place_name_at_creation`,
+    `term_related_geography`, `term_find_spot`) feed this dropdown's options and
+    counts; options with no data in the slice render disabled rather than hidden.
+    The **place-options variations** that exposed those fields as their own
+    nested facets (`grid-facets-place`, `grid-facets-place-flat`,
+    `PlaceFieldsFacet`, the `placeExtras` / `placeTypes` selection state) were
+    removed 2026-08-05 with the drawer.
   - **Omnibox, sort, pagination** (grid-facets only): the search bar's `?q=`
     filters the slice (title/artist/medium/dept/classification/accession) via
     a `query` prop on `GridFacetsView`; the autocomplete suggests **only the

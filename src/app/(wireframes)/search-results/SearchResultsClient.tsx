@@ -75,18 +75,13 @@ export function deriveArtists(docs: CollectionDocument[]): ArtistRecord[] {
 }
 
 // grid-facets-modal is the primary search view (Phase 1 target): it's first,
-// so bare /search-results loads it. The other entries stay as design
-// alternatives behind ?variation=.
+// so bare /search-results loads it. The facet column is a stack of collapsible
+// panels (Searchkit's default shape); the URL key keeps the -modal name for
+// stable links. The other entries stay as design alternatives behind ?variation=.
 export const VIEW_VARIATIONS = [
-	{ key: "grid-facets-modal", label: "Grid + facet drawer" },
+	{ key: "grid-facets-modal", label: "Grid + facets" },
 	// hidden = code kept, reachable via ?variation=, but no toggle button
-	{ key: "grid-facets", label: "Grid + facets", hidden: true },
-	{ key: "grid-facets-place", label: "Grid + place options", hidden: true },
-	{
-		key: "grid-facets-place-flat",
-		label: "Grid + place options (flat)",
-		hidden: true,
-	},
+	{ key: "grid-facets", label: "Grid + facets (alt)", hidden: true },
 	{ key: "list", label: "List", hidden: true },
 	{ key: "zero-results", label: "Zero results" },
 	{ key: "ai-search", label: "AI search", hidden: true },
@@ -321,17 +316,13 @@ function SearchResultsContent({
 		return out;
 	}, [gridFacetsDocs]);
 
-	// zero-results shares the default view's facet column (drawer layout) and
-	// just forces the empty state, so recovery is reviewed in the real chrome
-	// rather than against the retired horizontal facet bar.
+	// zero-results shares the default view's facet column and just forces the
+	// empty state, so recovery is reviewed in the real chrome rather than against
+	// the retired horizontal facet bar.
 	const isGridFacets =
 		variation === "grid-facets" ||
 		variation === "grid-facets-modal" ||
-		variation === "grid-facets-place" ||
-		variation === "grid-facets-place-flat" ||
 		variation === "zero-results";
-	const isPlaceExtras =
-		variation === "grid-facets-place" || variation === "grid-facets-place-flat";
 
 	const { queryObjects, queryArtists } = useMemo(() => {
 		if (!query) return { queryObjects: docs, queryArtists: allArtists };
@@ -553,10 +544,8 @@ function SearchResultsContent({
 				</WireframeSection>
 
 				{/* Grid + left-column facets variations: replace the horizontal
-				    facet bar and results with a real-data faceted browse.
-				    `grid-facets` expands each facet inline; `grid-facets-modal`
-				    renders a button per facet that opens the control in a side
-				    drawer (the URL key keeps the -modal name for stable links). */}
+				    facet bar and results with a real-data faceted browse. The facet
+				    column is a stack of collapsible panels. */}
 				{isGridFacets ? (
 					<Container className="py-8">
 						<WireframeSection label="Faceted browse (real data)">
@@ -567,23 +556,10 @@ function SearchResultsContent({
 								// fully-built sample object (Water Lilies) to demo the
 								// search → object-detail flow.
 								getHref={() => "/objects/sample/1973.3/water-lilies"}
-								layout={
-									variation === "grid-facets-modal" ||
-									variation === "zero-results" ||
-									isPlaceExtras
-										? "drawer"
-										: "inline"
-								}
 								query={query}
 								seedFacet={urlFacet}
-								placeExtras={isPlaceExtras}
-								placeExtrasMode={
-									variation === "grid-facets-place-flat" ? "grouped" : "buttons"
-								}
-								// Geography-source dropdown inside the Place drawer: the
-								// decided default view only. The place-options variations keep
-								// their nested per-field buttons instead.
-								geoScope={!isPlaceExtras}
+								// Geography-source dropdown above the Place tree.
+								geoScope
 								forceZero={variation === "zero-results"}
 								zeroSlot={
 									variation === "zero-results" ? (
